@@ -1,32 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Appends the specified media segment to the SourceBuffer.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=data
-|Data type=VARIANT
-|Description=Type: ArrayBuffer. The media segment to append
-|Optional=No
-}}
-|Method_applies_to=apis/media_source_extensions/MediaSource
-|Example_object_name=SourceBuffer
-|Return_value_name=
-|Javascript_data_type=void
-|Return_value_description=This method does not return a value.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example uses XMLHttpRequest to get a segment of video (range) from a file (url) and appends it to the current sourceBuffer.
-|Code=<syntaxhighlight>//  Load video's initialization segment 
+---
+title: appendBuffer
+tags:
+  - API
+  - Object
+  - Methods
+  - Media
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Appends the specified media segment to the SourceBuffer.'
+uri: 'apis/media source extensions/MediaSource/appendBuffer'
+
+---
+# appendBuffer
+
+## Summary
+
+Appends the specified media segment to the SourceBuffer.
+
+*Method of [apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)*
+
+## Syntax
+
+``` {.js}
+ SourceBuffer.appendBuffer(data);
+```
+
+## Parameters
+
+### data
+
+ Data-typeÂ
+:   VARIANT
+
+ Type: ArrayBuffer. The media segment to append
+
+## Return Value
+
+No return value
+
+## Examples
+
+This example uses XMLHttpRequest to get a segment of video (range) from a file (url) and appends it to the current sourceBuffer.
+
+``` {.js}
+
+
+//  Load video's initialization segment
 function initVideo(range, url) {
   var xhr = new XMLHttpRequest();
   if (range || url) { // make sure we've got incoming params
@@ -54,47 +73,55 @@ function initVideo(range, url) {
   }
 }
 function updateFunct() {
-  //  This is a one shot function, when init segment finishes loading, 
+  //  This is a one shot function, when init segment finishes loading,
   //    update the buffer flag, call getStarted, and then remove this event.
   bufferUpdated = true;
   getStarted(file); // Get video playback started
   //  Now that video has started, remove the event listener
 videoSource.removeEventListener("update", updateFunct);
-}</syntaxhighlight>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Media Source Extensions
-|URL=http://www.w3.org/TR/media-source/
-|Status=W3C Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Multimedia
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Media}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+}
+```
+
+</pre>
+
+## Related specifications
+
+Specification
+:   Status
+[Media Source Extensions](http://www.w3.org/TR/media-source/)
+:   W3C Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Multimedia
+
+-   [Track ended](/apis/MediaStream/ended)
+
+-   [MediaSource](/apis/media_source_extensions/MediaSource)
+
+-   **appendBuffer**
+
+-   [VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [object-fit](/css/properties/object-fit)
+
+-   [height](/html/attributes/height)
+
+-   [standby](/html/attributes/standby)
+
+-   [EMBED](/html/elements/embed)
+
+-   [img](/html/elements/img)
+
+-   [WebRTC Resources](/tutorials/webrtc_resources)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network.
+

@@ -1,127 +1,80 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Closes the WebSocket connection or connection attempt, if any.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=code
-|Data type=unsigned short
-|Description=A numeric value indicating the status code explaining why the connection is being closed. If this parameter is not specified, a default value of 1000 (indicating a normal "transaction complete" closure) is assumed.
-|Optional=Yes
-}}{{Method Parameter
-|Index=1
-|Name=reason
-|Data type=String
-|Description=A human-readable string explaining why the connection is closing. This string must be no longer than 123 bytes of UTF-8 text (not characters).
-|Optional=Yes
-}}
-|Method_applies_to=apis/websocket/WebSocket
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=void
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=The '''onclose''' event will return three attributes:
-*'''wasClean''' (binary) - whether the connection closed cleanly.
-*'''code''' (unsigned long) - code from the server.
-*'''reason''' (text) - reason provided by the server.
+---
+title: close
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: WebSocket
+readiness: 'Almost Ready'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Needs example'
+summary: 'Closes the WebSocket connection or connection attempt, if any.'
+uri: apis/websocket/WebSocket/close
 
-If the ''code'' parameter is present but is not an integer equal to 1000 or in the range 3000 to 4999, this method throws an '''InvalidAccessError''' exception and aborts.
-If the ''reason'' parameter is longer than 123 bytes this method throws a '''SyntaxError''' exception, and aborts.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C WebSocket Specification
-|URL=http://www.w3.org/TR/websockets/
-|Status=W3C Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebSocket}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=23.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=6.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=6.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+---
+# close
+
+## Summary
+
+Closes the WebSocket connection or connection attempt, if any.
+
+*Method of [apis/websocket/WebSocket](/apis/websocket/WebSocket)*
+
+## Syntax
+
+``` {.js}
+ object.close(code, reason);
+```
+
+## Parameters
+
+### code
+
+ Data-typeÂ
+:   unsigned short
+
+*(Optional)*
+
+A numeric value indicating the status code explaining why the connection is being closed. If this parameter is not specified, a default value of 1000 (indicating a normal "transaction complete" closure) is assumed.
+
+### reason
+
+ Data-typeÂ
+:   String
+
+*(Optional)*
+
+A human-readable string explaining why the connection is closing. This string must be no longer than 123 bytes of UTF-8 text (not characters).
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+The **onclose** event will return three attributes:
+
+-   **wasClean** (binary) - whether the connection closed cleanly.
+-   **code** (unsigned long) - code from the server.
+-   **reason** (text) - reason provided by the server.
+
+If the *code* parameter is present but is not an integer equal to 1000 or in the range 3000 to 4999, this method throws an **InvalidAccessError** exception and aborts. If the *reason* parameter is longer than 123 bytes this method throws a **SyntaxError** exception, and aborts.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
+:   W3C Candidate Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket)
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

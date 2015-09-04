@@ -1,59 +1,78 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.
-Add history information.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|This element defines parameters for plugins invoked by object elements.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLParamElement
-|Tag_omissions=No closing tag (self-closing)
-|CSS_display=none
-|Content=== Attributes ==
+---
+title: param
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - "Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.\nAdd history information."
+summary: 'This element defines parameters for plugins invoked by object elements.'
+uri: html/elements/param
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/properties/outerdom/outerHTML
 
-*<code>name</code> = name of the parameter<br />Gives the name of the parameter.<br />This attribute must be present.
-*<code>value</code> = value of the parameter<br />Gives the value of the parameter.<br />This attribute must be present.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example displays the Internet Explorer Data Binding component's [[dom/properties/outerdom/outerHTML|'''outerHTML''']] so you can view the properties assigned by the '''PARAM''' elements.  You can perform this check to gather information when debugging an '''OBJECT''' element's properties.  You cannot edit the object's '''outerHTML''' property without reintializing the '''outerHTML''' object.
-|Code=// The OBJECT CLASSID below is for the 
+---
+# param
+
+## Summary
+
+This element defines parameters for plugins invoked by object elements.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLParamElement](/dom/HTMLParamElement)
+
+## Attributes
+
+-   `name` = name of the parameter
+    Gives the name of the parameter.
+    This attribute must be present.
+-   `value` = value of the parameter
+    Gives the value of the parameter.
+    This attribute must be present.
+
+## Examples
+
+This example displays the Internet Explorer Data Binding component's [**outerHTML**](/w/index.php?title=dom/properties/outerdom/outerHTML&action=edit&redlink=1) so you can view the properties assigned by the **PARAM** elements. You can perform this check to gather information when debugging an **OBJECT** element's properties. You cannot edit the object's **outerHTML** property without reintializing the **outerHTML** object.
+
+``` {.html}
+// The OBJECT CLASSID below is for the
 // Microsoft Internet Explorer Data Binding component
 // Use just the following HTML and press the button
-&lt;OBJECT                 
- ID{{=}}tdcContents
- CLASSID{{=}}"clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"&gt;
-  &lt;PARAM NAME{{=}}"DataURL" VALUE{{=}}"DataBinding.csv"&gt;								  
-&lt;/OBJECT&gt;
-&lt;BUTTON onclick{{=}}"oTxt.value{{=}}tdcContents.outerHTML"&gt;
-Show Object outerHTML&lt;/BUTTON&gt;&lt;BR/&gt;
-&lt;TEXTAREA ID{{=}}"oTxt"  STYLE{{=}}"height:400; width:450;padding:3; overflow{{=}}auto;"&gt; &lt;/TEXTAREA&gt;
+<OBJECT
+ ID=tdcContents
+ CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83">
+  <PARAM NAME="DataURL" VALUE="DataBinding.csv">
+</OBJECT>
+<BUTTON onclick="oTxt.value=tdcContents.outerHTML">
+Show Object outerHTML</BUTTON><BR/>
+<TEXTAREA ID="oTxt"  STYLE="height:400; width:450;padding:3; overflow=auto;"> </TEXTAREA>
 //When the button is pressed the complete list of the object's
 // PARAM elements display unformatted in the TEXTAREA as follows:
- 
-&lt;OBJECT id{{=}}tdcContents classid{{=}}clsid:333C7BC4-460F-11D0-BC04-0080C7055A83&gt;
-&lt;PARAM NAME{{=}}"RowDelim" VALUE{{=}}"&amp;#10;"&gt;&lt;PARAM NAME{{=}}"FieldDelim" VALUE{{=}}","&gt;
-&lt;PARAM NAME{{=}}"TextQualifier" VALUE{{=}}'"'&gt;&lt;PARAM NAME{{=}}"EscapeChar" VALUE{{=}}""&gt;
-&lt;PARAM NAME{{=}}"UseHeader" VALUE{{=}}"0"&gt;&lt;PARAM NAME{{=}}"SortAscending" VALUE{{=}}"-1"&gt;
-&lt;PARAM NAME{{=}}"SortColumn" VALUE{{=}}""&gt;&lt;PARAM NAME{{=}}"FilterValue" VALUE{{=}}""&gt;
-&lt;PARAM NAME{{=}}"FilterCriterion" VALUE{{=}}"??"&gt;&lt;PARAM NAME{{=}}"FilterColumn" VALUE{{=}}""&gt;
-&lt;PARAM NAME{{=}}"CharSet" VALUE{{=}}""&gt;&lt;PARAM NAME{{=}}"Language" VALUE{{=}}""&gt;
-&lt;PARAM NAME{{=}}"CaseSensitive" VALUE{{=}}"-1"&gt;&lt;PARAM NAME{{=}}"Sort" VALUE{{=}}""&gt;
-&lt;PARAM NAME{{=}}"Filter" VALUE{{=}}""&gt;&lt;PARAM NAME{{=}}"AppendData" VALUE{{=}}"0"&gt;
-&lt;PARAM NAME{{=}}"DataURL" VALUE{{=}}"DataBinding.csv"&gt;
-&lt;PARAM NAME{{=}}"ReadyState" VALUE{{=}}"4"&gt;
-&lt;/OBJECT&gt;
-}}{{Single Example
-|Language=HTML
-|Description=The following example shows how the param element can be used to pass a parameter to a plugin, in this case the O3D plugin
-|Code=<nowiki>
+
+<OBJECT id=tdcContents classid=clsid:333C7BC4-460F-11D0-BC04-0080C7055A83>
+<PARAM NAME="RowDelim" VALUE="&#10;"><PARAM NAME="FieldDelim" VALUE=",">
+<PARAM NAME="TextQualifier" VALUE='"'><PARAM NAME="EscapeChar" VALUE="">
+<PARAM NAME="UseHeader" VALUE="0"><PARAM NAME="SortAscending" VALUE="-1">
+<PARAM NAME="SortColumn" VALUE=""><PARAM NAME="FilterValue" VALUE="">
+<PARAM NAME="FilterCriterion" VALUE="??"><PARAM NAME="FilterColumn" VALUE="">
+<PARAM NAME="CharSet" VALUE=""><PARAM NAME="Language" VALUE="">
+<PARAM NAME="CaseSensitive" VALUE="-1"><PARAM NAME="Sort" VALUE="">
+<PARAM NAME="Filter" VALUE=""><PARAM NAME="AppendData" VALUE="0">
+<PARAM NAME="DataURL" VALUE="DataBinding.csv">
+<PARAM NAME="ReadyState" VALUE="4">
+</OBJECT>
+```
+
+The following example shows how the param element can be used to pass a parameter to a plugin, in this case the O3D plugin
+
+``` {.html}
+
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -75,41 +94,29 @@ Show Object outerHTML&lt;/BUTTON&gt;&lt;BR/&gt;
     <script src="o3d-teapot.js"></script>
    </p>
   </body>
-</html></nowiki>
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The '''PARAM''' element is valid within the '''APPLET''', '''EMBED''', and '''OBJECT''' elements.
-'''Note'''  Properties set by a '''PARAM''' element cannot be altered by changing the '''PARAM''' object.
-After the '''APPLET''', '''EMBED''', or '''OBJECT''' element is instantiated, the property set by the '''PARAM''' element cannot be changed with the '''param''' object.  To change the object's properties, use the script properties exposed by the object.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/embedded-content.html#the-param-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-param-element
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/objects.html#edef-PARAM
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+</html>
+```
+
+## Notes
+
+### Remarks
+
+The **PARAM** element is valid within the **APPLET**, **EMBED**, and **OBJECT** elements. **Note**  Properties set by a **PARAM** element cannot be altered by changing the **PARAM** object. After the **APPLET**, **EMBED**, or **OBJECT** element is instantiated, the property set by the **PARAM** element cannot be changed with the **param** object. To change the object's properties, use the script properties exposed by the object.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-param-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-param-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/objects.html#edef-PARAM)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,50 +1,46 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example uses a fixed background image for the document.
-|Code=&lt;BODY BACKGROUND{{=}}"/ie/images/watermrk.png" BGPROPERTIES{{=}}"fixed"
-BGCOLOR{{=}}#FFFFFF TEXT{{=}}#000000 LINK{{=}}#ff6600 VLINK{{=}}#330099&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The property specifies whether the picture is a fixed watermark or scrolls with the document.
-This attribute or property is supported only by Windows Internet Explorer.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>body</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: bgProperties
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+uri: html/attributes/bgProperties
+
+---
+# bgProperties
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+Applies to
+:    ?
+
+## Examples
+
+This example uses a fixed background image for the document.
+
+    <BODY BACKGROUND="/ie/images/watermrk.png" BGPROPERTIES="fixed"
+    BGCOLOR=#FFFFFF TEXT=#000000 LINK=#ff6600 VLINK=#330099>
+
+## Notes
+
+### Remarks
+
+The property specifies whether the picture is a fixed watermark or scrolls with the document. This attribute or property is supported only by Windows Internet Explorer.
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `body`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

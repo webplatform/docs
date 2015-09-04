@@ -1,43 +1,81 @@
-{{Page_Title|SVG animation}}
-{{Flags
-|State=In Progress
-|Editorial notes=Fix multiple broken links
-|Checked_Out=No
-}}
-{{Byline
-|Name=Mike Sierra
-|URL=
-|Published=
-}}
-{{Summary_Section|This guide shows you how to animate SVG graphics using SMIL-based markup.  Along with core animation techniques, it shows how to morph shapes, move graphics along curved paths, animate complex filter effects, and control animations from JavaScript.}}
-{{Tutorial
-|Next_page=
-|Prev_page=
-|Content===Introduction==
-Interfaces become more vibrant when you add animation
-effects.  This guide focuses on SVG's built-in animation features,
-which derive from the SMIL web standard
-(''Synchronized Multimedia Integration Language'').  As discussed in
-the [[svg/tutorials/smarter_svg_overview|SVG grand tour]], many SVG
-attributes are actually implemented as CSS ''properties'', and thus
-respond to CSS [[tutorials/css_transitions|transitions]] and
-[[tutorials/css_animations|keyframe animations]]. The techniques
-described here offer a way to smoothly animate SVG ''attributes''.
-You'll also learn how to dynamically modify those attribute values
-that can't be animated.
+---
+title: smarter svg animation
+tags:
+  - Tutorials
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Fix multiple broken links'
+summary: 'This guide shows you how to animate SVG graphics using SMIL-based markup.  Along with core animation techniques, it shows how to morph shapes, move graphics along curved paths, animate complex filter effects, and control animations from JavaScript.'
+uri: 'svg/tutorials/smarter svg animation'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - svg/elements/animate
+    - svg/attributes/attributeName
+    - svg/attributes/from
+    - svg/attributes/to
+    - svg/attributes/begin
+    - svg/attributes/dur
+    - svg/properties/fill
+    - svg/attributes/values
+    - svg/attributes/end
+    - svg/attributes/keyTimes
+    - svg/attributes/dx
+    - svg/attributes/stdDeviation
+    - dom/events/end
+    - dom/events/begin
+    - svg/attributes/calcMode
+    - svg/attributes/keySplines
+    - svg/attributes/repeatCount
+    - svg/attributes/azimuth
+    - dom/events/repeat
+    - svg/attributes/additive
+    - svg/attributes/cx
+    - svg/attributes/accumulate
+    - svg/attributes/restart
+    - svg/elements/animateMotion
+    - svg/attributes/path
+    - svg/elements/mpath
+    - svg/attributes/rotate
+    - svg/attributes/startOffset
+    - svg/attributes/pathLength
+    - svg/elements/animateTransform
+    - svg/attributes/type
+    - svg/attributes/patternTransform
+    - svg/elements/animateColor
+    - svg/attributes/attributeType
+    - svg/elements/set
+    - svg/elements/tref
+    - svg/methods/beginElement
+    - svg/methods/endElement
+    - svg/methods/beginElementAt
+    - svg/methods/endElementAt
 
-==A simple animation==
+---
+# SVG animation
+
+**By Mike Sierra**
+
+## Summary
+
+This guide shows you how to animate SVG graphics using SMIL-based markup. Along with core animation techniques, it shows how to morph shapes, move graphics along curved paths, animate complex filter effects, and control animations from JavaScript.
+
+## Introduction
+
+Interfaces become more vibrant when you add animation effects. This guide focuses on SVG's built-in animation features, which derive from the SMIL web standard (*Synchronized Multimedia Integration Language*). As discussed in the [SVG grand tour](/svg/tutorials/smarter_svg_overview), many SVG attributes are actually implemented as CSS *properties*, and thus respond to CSS [transitions](/tutorials/css_transitions) and [keyframe animations](/tutorials/css_animations). The techniques described here offer a way to smoothly animate SVG *attributes*. You'll also learn how to dynamically modify those attribute values that can't be animated.
+
+## A simple animation
 
 Start with a simple SVG element that you'd like to animate:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <text x="0" y="100">An SVG Animation</text>
-</syntaxhighlight>
+```
 
-Nest an [[svg/elements/animate|'''animate''']] element such as the
-following:
+ Nest an [**animate**](/w/index.php?title=svg/elements/animate&action=edit&redlink=1) element such as the following:
 
-<syntaxhighlight lang="xml" highlight="3-9">
+``` {.xml}
 <text x="0" y="100">
     An SVG Animation
     <animate
@@ -49,42 +87,31 @@ following:
         id            = "swipe"
     />
 </text>
-</syntaxhighlight>
+```
 
-When you load the SVG, the resulting animation quickly swipes in some
-text from the right side of the screen:
+ When you load the SVG, the resulting animation quickly swipes in some text from the right side of the screen:
 
-[[Image:svga_simpleSwipe.png|400px]]
+![svga simpleSwipe.png](/assets/thumb/2/23/svga_simpleSwipe.png/400px-svga_simpleSwipe.png)
 
-Each animation element can modify the value of only one attribute at a
-time, specified by the
-[[svg/attributes/attributeName|'''attributeName''']]. The
-[[svg/attributes/from|'''from''']] and [[svg/attributes/to|'''to''']]
-set what the values of that attribute should be at the beginning and
-end of the animation.  Setting the
-[[svg/attributes/begin|'''begin''']] to '''0s''' makes it execute
-immediately, and the [[svg/attributes/dur|'''dur''']] sets a
-half-second duration over which the animation executes.
+Each animation element can modify the value of only one attribute at a time, specified by the [**attributeName**](/w/index.php?title=svg/attributes/attributeName&action=edit&redlink=1). The [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) set what the values of that attribute should be at the beginning and end of the animation. Setting the [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) to **0s** makes it execute immediately, and the [**dur**](/w/index.php?title=svg/attributes/dur&action=edit&redlink=1) sets a half-second duration over which the animation executes.
 
-Instead of nesting the animation, you can also indirectly link the
-element you want to animate:
+Instead of nesting the animation, you can also indirectly link the element you want to animate:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <defs>
 <animate xlink:href="#swipeText" id="swipe" attributeName="x"
          from="1000" to="0" begin="0s" dur="0.5s" />
 </defs>
 <text id="swipeText" x="0" y="100">An SVG Animation</text>
-</syntaxhighlight>
+```
 
-[http://letmespellitoutforyou.com/samples/svg/anim_swipe.svg View this animation]
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipe.svg)
 
-==Delaying an animation==
+## Delaying an animation
 
-Increasing the [[svg/attributes/begin|'''begin''']] attribute's time
-value from '''0s''' to '''1s''' delays the animation:
+Increasing the [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) attribute's time value from **0s** to **1s** delays the animation:
 
-<syntaxhighlight lang="xml" highlight="1,7,9">
+``` {.xml}
 <text x="1000" y="100">
     An SVG Animation
     <animate
@@ -97,34 +124,19 @@ value from '''0s''' to '''1s''' delays the animation:
         id            = "delayed_swipe"
     />
 </text>
-</syntaxhighlight>
+```
 
-Delaying the animation causes a problem, and the solution is
-highlighted.  The outer text element's '''x''' attribute is set to
-'''1000'''. If it were to start at '''0''', the text would display for a
-second, then awkwardly disappear once the animation starts to execute,
-slide in from the right, and reposition itself at its initial
-location.
+ Delaying the animation causes a problem, and the solution is highlighted. The outer text element's **x** attribute is set to **1000**. If it were to start at **0**, the text would display for a second, then awkwardly disappear once the animation starts to execute, slide in from the right, and reposition itself at its initial location.
 
-Fixing that problem causes another problem, whose solution is also
-highlighted. Once the animation completes, by default the value of '''x'''
-reverts to its initial value, '''1000''', thus making it disappear.
-Setting the [[svg/attributes/fill|'''fill''']] attribute to
-'''freeze''' maintains the attribute's value after the animation
-completes, effectively overriding whatever the text element specifies.
-(The [[svg/attributes/fill|'''fill''']] ''attribute'' used in animations
-is unfortunately named the same as SVG's [[svg/properties/fill|'''fill''']]
-''property'', which specifies background colors and images. Do not
-confuse the two.)
+Fixing that problem causes another problem, whose solution is also highlighted. Once the animation completes, by default the value of **x** reverts to its initial value, **1000**, thus making it disappear. Setting the [**fill**](/svg/attributes/fill) attribute to **freeze** maintains the attribute's value after the animation completes, effectively overriding whatever the text element specifies. (The [**fill**](/svg/attributes/fill) *attribute* used in animations is unfortunately named the same as SVG's [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) *property*, which specifies background colors and images. Do not confuse the two.)
 
-[http://letmespellitoutforyou.com/samples/svg/anim_swipeDelay.svg View this animation]
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipeDelay.svg)
 
-==Sequences of frames==
+## Sequences of frames
 
-The animation above swipes in, but then comes to an abrupt stop.  This
-variation bounces the text a bit off the left wall:
+The animation above swipes in, but then comes to an abrupt stop. This variation bounces the text a bit off the left wall:
 
-<syntaxhighlight lang="xml" highlight="9-10">
+``` {.xml}
 <animate
     id            = "bounce"
     attributeName = "x"
@@ -136,57 +148,32 @@ variation bounces the text a bit off the left wall:
     values        = "1000;0;-20;10;0"
     keyTimes      = "0;0.8;0.85;0.9;1"
 />
-</syntaxhighlight>
+```
 
-The highlighted [[svg/attributes/values|'''values''']] attribute uses
-semicolons to specify a series of intermediate values between the
-animation's [[svg/attributes/begin|'''begin''']] and
-[[svg/attributes/end|'''end''']] points. Starting at '''1000''', the
-animation proceeds to the '''0''' point that represents the left wall,
-then goes a bit further to '''-20''', then back to '''10''' before
-finally settling at '''0'''.
+ The highlighted [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1) attribute uses semicolons to specify a series of intermediate values between the animation's [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) and [**end**](/w/index.php?title=svg/attributes/end&action=edit&redlink=1) points. Starting at **1000**, the animation proceeds to the **0** point that represents the left wall, then goes a bit further to **-20**, then back to **10** before finally settling at **0**.
 
-By itself, the [[svg/attributes/values|'''values''']] specification
-would still result in an awkward-looking animation. The initial
-transition between '''1000''' and '''0''' executes ''very'' quickly,
-compared to which the subsequent transitions seem much too slow. The
-[[svg/attributes/keyTimes|'''keyTimes''']] fixes this by specifying
-milestones between 0 and 1 at which each frame appears. In this case,
-the initial transition that slides the text in takes 80% of the total
-duration, rather than the more brisk 25% default range between the
-five values.  The number of [[svg/attributes/keyTimes|'''keyTimes''']]
-''must'' match the number of [[svg/attributes/values|'''values''']],
-or the animation does not work.
+By itself, the [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1) specification would still result in an awkward-looking animation. The initial transition between **1000** and **0** executes *very* quickly, compared to which the subsequent transitions seem much too slow. The [**keyTimes**](/w/index.php?title=svg/attributes/keyTimes&action=edit&redlink=1) fixes this by specifying milestones between 0 and 1 at which each frame appears. In this case, the initial transition that slides the text in takes 80% of the total duration, rather than the more brisk 25% default range between the five values. The number of [**keyTimes**](/w/index.php?title=svg/attributes/keyTimes&action=edit&redlink=1) *must* match the number of [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1), or the animation does not work.
 
-[http://letmespellitoutforyou.com/samples/svg/anim_swipeFrames.svg View this animation]
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipeFrames.svg)
 
-==Synchronizing animations==
+## Synchronizing animations
 
-The example above manipulates a simple positioning attribute.
-Animations become far more interesting when applied to complex filter
-effects, which are discussed in
-[[svg/tutorials/smarter_svg_filters|SVG Filters]].
-This variation synchronizes two different animations, swiping
-horizontally blurred text into view, then removing the blur once it
-has stopped:
+The example above manipulates a simple positioning attribute. Animations become far more interesting when applied to complex filter effects, which are discussed in [SVG Filters](/svg/tutorials/smarter_svg_filters). This variation synchronizes two different animations, swiping horizontally blurred text into view, then removing the blur once it has stopped:
 
-[[Image:svga_xBlur.png|400px]]
+![svga xBlur.png](/assets/thumb/b/b8/svga_xBlur.png/400px-svga_xBlur.png)
 
 It is based on the following filter:
 
-<syntaxhighlight lang="xml" highlight="2,3">
+``` {.xml}
 <filter id="slidingBlur">
   <feOffset       id="slideEffect" dx="1000" dy="0" />
   <feGaussianBlur id="blurEffect" stdDeviation="20,1" />
 </filter>
-</syntaxhighlight>
+```
 
-The [[svg/elements/feOffset|'''feOffset''']] effect's
-[[svg/attributes/dx|'''dx''']] value reproduces the slide effect using
-the techniques discussed above, moving the element horizontally within
-the filtered region:
+ The [**feOffset**](/svg/elements/feOffset) effect's [**dx**](/w/index.php?title=svg/attributes/dx&action=edit&redlink=1) value reproduces the slide effect using the techniques discussed above, moving the element horizontally within the filtered region:
 
-<syntaxhighlight lang="xml" highlight="2,3">
+``` {.xml}
 <animate
     id            = "slideAnim"
     attributeName = "dx"
@@ -199,16 +186,11 @@ the filtered region:
     keyTimes      = "0;0.8;0.85;0.9;1"
     xlink:href    = "#slideEffect"
 />
-</syntaxhighlight>
+```
 
-The [[svg/elements/feGaussianBlur|'''feGaussianBlur''']] effect's
-[[svg/attributes/stdDeviation|'''stdDeviation''']] controls the degree
-of blur, which the animation reduces primarily along the ''x'' axis.
-But note its [[svg/attributes/begin|'''begin''']] attribute no longer
-specifies a time value. Instead, this animation begins whenever the
-previous one ends:
+ The [**feGaussianBlur**](/svg/elements/feGaussianBlur) effect's [**stdDeviation**](/w/index.php?title=svg/attributes/stdDeviation&action=edit&redlink=1) controls the degree of blur, which the animation reduces primarily along the *x* axis. But note its [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) attribute no longer specifies a time value. Instead, this animation begins whenever the previous one ends:
 
-<syntaxhighlight lang="xml" highlight="6">
+``` {.xml}
 <animate
     id            = "blurAnim"
     attributeName = "stdDeviation"
@@ -219,62 +201,35 @@ previous one ends:
     fill          = "freeze"
     xlink:href    = "#blurEffect"
 />
-</syntaxhighlight>
+```
 
-The ''slideAnim'' identifies the previous animation, and the ''.end''
-refers to the [[dom/events/end|'''end''']] DOM event the animation
-produces. You can also reference the corresponding
-[[dom/events/begin|'''begin''']] event to execute different animations
-concurrently, without having to keep track of how long each one takes
-to keep them all synchronized.
+ The *slideAnim* identifies the previous animation, and the *.end* refers to the [**end**](/w/index.php?title=dom/events/end&action=edit&redlink=1) DOM event the animation produces. You can also reference the corresponding [**begin**](/w/index.php?title=dom/events/begin&action=edit&redlink=1) event to execute different animations concurrently, without having to keep track of how long each one takes to keep them all synchronized.
 
-To calculate when to start the second animation, SVG actually looks
-ahead to see when the [[dom/events/end|'''end''']] event is ''supposed''
-to occur, based on the specified duration. You can subtract or add time
-values to start it before or after that point. For example, this variation
-overlaps the two animations by a fifth of a second:
+To calculate when to start the second animation, SVG actually looks ahead to see when the [**end**](/w/index.php?title=dom/events/end&action=edit&redlink=1) event is *supposed* to occur, based on the specified duration. You can subtract or add time values to start it before or after that point. For example, this variation overlaps the two animations by a fifth of a second:
 
- begin = "slideAnim.end-200ms"
+    begin = "slideAnim.end-200ms"
 
-To maintain long chains of animations, you can also use the '''prev'''
-shorthand keyword, which refers to the previously defined animation:
+To maintain long chains of animations, you can also use the **prev** shorthand keyword, which refers to the previously defined animation:
 
- begin = "prev.end"
+    begin = "prev.end"
 
-[http://letmespellitoutforyou.com/samples/svg/anim_swipeBlur.svg View this animation]
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipeBlur.svg)
 
-==Morphing shapes==
+## Morphing shapes
 
-The motion animation shown above animates a single value at a time,
-but the blur animation animates two, a pair of ''x''/''y''
-coordinates. SVG also allows you to animate long series of coordinates
-that make up [[svg/elements/path|'''path''']] definitions,
-which are discussed in
-[[svg/tutorials/smarter_svg_shapes|SVG basic shapes and text]].
-This results in curved morphing effects:
+The motion animation shown above animates a single value at a time, but the blur animation animates two, a pair of *x*/*y* coordinates. SVG also allows you to animate long series of coordinates that make up [**path**](/svg/elements/path) definitions, which are discussed in [SVG basic shapes and text](/svg/tutorials/smarter_svg_shapes). This results in curved morphing effects:
 
-<div style="display:inline-block">
-[[Image:svga_morph1.png|200px]]
-</div>
-<div style="display:inline-block">
-[[Image:svga_morph2.png|200px]]
-</div>
-<div style="display:inline-block">
-[[Image:svga_morph3.png|200px]]
-</div>
-<div style="display:inline-block">
-[[Image:svga_morph4.png|200px]]
-</div>
+![svga morph1.png](/assets/thumb/9/9a/svga_morph1.png/200px-svga_morph1.png)
 
-For the animation to work, the [[svg/attributes/from|'''from''']] and
-[[svg/attributes/to|'''to''']] values, and any frames specified along
-the way in [[svg/attributes/values|'''values''']], must feature the
-''exact'' same number of path commands, all arranged in the same
-sequence. Only their numeric values may vary.  This example shows a
-path consisting of one ''M'' positioning command and four ''S'' curve
-commands going through a series of eight frames:
+![svga morph2.png](/assets/thumb/b/bd/svga_morph2.png/200px-svga_morph2.png)
 
-<syntaxhighlight lang="xml">
+![svga morph3.png](/assets/thumb/5/5e/svga_morph3.png/200px-svga_morph3.png)
+
+![svga morph4.png](/assets/thumb/e/ee/svga_morph4.png/200px-svga_morph4.png)
+
+For the animation to work, the [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) values, and any frames specified along the way in [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1), must feature the *exact* same number of path commands, all arranged in the same sequence. Only their numeric values may vary. This example shows a path consisting of one *M* positioning command and four *S* curve commands going through a series of eight frames:
+
+``` {.xml}
 <path id = "shape" d = "M 115,169 S 149,424 460,555 S 608,367 568,157
       S 438,108 174,57 S 97,90 115,169" >
 <animate attributeName = "d" begin = "0s" dur = "20s"
@@ -291,16 +246,15 @@ commands going through a series of eight frames:
     115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169"
 />
 </path>
-</syntaxhighlight>
+```
 
-[http://letmespellitoutforyou.com/samples/svg/anim_morph.svg View this animation]
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_morph.svg)
 
-==Setting the pace==
+## Setting the pace
 
-This variation on the swipe animation doesn't bounce the text against
-the wall, but instead brings it to a more gradual stop:
+This variation on the swipe animation doesn't bounce the text against the wall, but instead brings it to a more gradual stop:
 
-<syntaxhighlight lang="xml" highlight="9-10">
+``` {.xml}
 <animate
     id            = "ease_in"
     attributeName = "x"
@@ -313,80 +267,48 @@ the wall, but instead brings it to a more gradual stop:
     keySplines    = "0 0.75 0.25 1"
     keyTimes      = "0;1"
 />
-</syntaxhighlight>
+```
 
-By default, animations proceed instantly and progress as a constant
-rate.  Setting the [[svg/attributes/calcMode|'''calcMode''']] to
-'''spline''' allows it to start and stop more gradually. The
-accompanying [[svg/attributes/keySplines|'''keySplines''']] defines a
-bezier response curve.  (Use semicolons to specify as many curves as
-there are frames in your animation.)
+ By default, animations proceed instantly and progress as a constant rate. Setting the [**calcMode**](/w/index.php?title=svg/attributes/calcMode&action=edit&redlink=1) to **spline** allows it to start and stop more gradually. The accompanying [**keySplines**](/w/index.php?title=svg/attributes/keySplines&action=edit&redlink=1) defines a bezier response curve. (Use semicolons to specify as many curves as there are frames in your animation.)
 
-The following examples show how these response curves behave, usually
-by slowing the start and end points.  Each ''x'' axis represents the
-animation's elapsed time, and the ''y'' axis represents its progress,
-so the more the line curves vertically along the way, the faster the
-animation proceeds at that point:
+The following examples show how these response curves behave, usually by slowing the start and end points. Each *x* axis represents the animation's elapsed time, and the *y* axis represents its progress, so the more the line curves vertically along the way, the faster the animation proceeds at that point:
 
-<div style="display:inline-block;max-width:170px">
- 0.42 0 1 1
- ease-in
-[[Image:transitF_easein.png|230px]]
-</div>
+    0.42 0 1 1
+    ease-in
 
-<div style="display:inline-block;max-width:170px">
- 0 0 0.58 1
- ease-out
-[[Image:transitF_easeout.png|230px]]
-</div>
+![transitF easein.png](/assets/thumb/6/64/transitF_easein.png/230px-transitF_easein.png)
 
-<div style="display:inline-block;max-width:170px">
- 0.25 0.1 0.25 1
- ease
-[[Image:transitF_ease.png|230px]]
-</div>
+    0 0 0.58 1
+    ease-out
 
-<div style="display:inline-block;max-width:170px">
- 0.42 0 0.58 1
- ease-in-out
-[[Image:transitF_easeinout.png|230px]]
-</div>
+![transitF easeout.png](/assets/thumb/0/00/transitF_easeout.png/230px-transitF_easeout.png)
 
-<div style="display:inline-block;max-width:170px">
- 0 0 1 1
- linear
-[[Image:transitF_linear.png|230px]]
-</div>
+    0.25 0.1 0.25 1
+    ease
 
-These examples compare common
-[[css/properties/transition-timing-function|'''transition-timing-function''']]
-and
-[[css/properties/animation-timing-function|'''animation-timing-function''']]
-CSS property keywords with their
-[[css/functions/cubic-bezier|'''cubic-bezier()''']] CSS function
-equivalents, which matches SVG's
-[[svg/attributes/keySplines|'''keySplines''']].
+![transitF ease.png](/assets/thumb/7/73/transitF_ease.png/230px-transitF_ease.png)
 
-If [[svg/attributes/calcMode|'''calcMode''']] is set to
-'''discrete''', the animation jumps abruptly from each frame defined
-in [[svg/attributes/values|'''values''']] to the next, just like CSS's
-[[css/functions/steps|'''steps()''']] function. If it's set to
-'''paced''', it progresses at a constant rate over the entire course
-of the animation, but unlike '''linear''', it ignores any progress
-points [[svg/attributes/keyTimes|'''keyTimes''']] may define along the
-way.
+    0.42 0 0.58 1
+    ease-in-out
 
-[http://letmespellitoutforyou.com/samples/svg/anim_swipeTimed.svg View this animation]
+![transitF easeinout.png](/assets/thumb/6/67/transitF_easeinout.png/230px-transitF_easeinout.png)
 
-==Repetition==
+    0 0 1 1
+    linear
 
-The examples above all execute once, but this example uses
-[[svg/attributes/repeatCount|'''repeatCount''']] to run an animation
-continuously.  It modifies a more complex filter effect (explained in
-greater detail in [[svg/tutorials/smarter_svg_filters|SVG Filters]])
-that shines a light on a beveled surface:
+![transitF linear.png](/assets/thumb/8/8e/transitF_linear.png/230px-transitF_linear.png)
 
-<syntaxhighlight lang="xml" highlight="4,6">
+These examples compare common [**transition-timing-function**](/css/properties/transition-timing-function) and [**animation-timing-function**](/css/properties/animation-timing-function) CSS property keywords with their [**cubic-bezier()**](/css/functions/cubic-bezier) CSS function equivalents, which matches SVG's [**keySplines**](/w/index.php?title=svg/attributes/keySplines&action=edit&redlink=1).
+
+If [**calcMode**](/w/index.php?title=svg/attributes/calcMode&action=edit&redlink=1) is set to **discrete**, the animation jumps abruptly from each frame defined in [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1) to the next, just like CSS's [**steps()**](/css/functions/steps) function. If it's set to **paced**, it progresses at a constant rate over the entire course of the animation, but unlike **linear**, it ignores any progress points [**keyTimes**](/w/index.php?title=svg/attributes/keyTimes&action=edit&redlink=1) may define along the way.
+
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipeTimed.svg)
+
+## Repetition
+
+The examples above all execute once, but this example uses [**repeatCount**](/w/index.php?title=svg/attributes/repeatCount&action=edit&redlink=1) to run an animation continuously. It modifies a more complex filter effect (explained in greater detail in [SVG Filters](/svg/tutorials/smarter_svg_filters)) that shines a light on a beveled surface:
+
+``` {.xml}
 <filter id="bevel" filterUnits="userSpaceOnUse">
   <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
   <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
@@ -399,19 +321,13 @@ that shines a light on a beveled surface:
         k1="0" k2="1" k3="1" k4="0" />
   <feComposite in="litPaint" in2="offsetBlur" operator="over"/>
 </filter>
-</syntaxhighlight>
+```
 
-[[Image:svga_bevel.png]]
+ ![svga bevel.png](/assets/public/8/88/svga_bevel.png)
 
-One animation highlights different sides of the element by rotating
-the light source around it, using its
-[[svg/attributes/azimuth |'''azimuth''']]
-attribute to modify direction. Its
-[[svg/attributes/repeatCount|'''repeatCount''']] is set to
-'''indefinite''', so after it proceeds from '''0''' to '''360'''
-degrees, it restarts invisibly at '''0''':
+One animation highlights different sides of the element by rotating the light source around it, using its [**azimuth**](/w/index.php?title=svg/attributes/azimuth&action=edit&redlink=1) attribute to modify direction. Its [**repeatCount**](/w/index.php?title=svg/attributes/repeatCount&action=edit&redlink=1) is set to **indefinite**, so after it proceeds from **0** to **360** degrees, it restarts invisibly at **0**:
 
-<syntaxhighlight lang="xml" highlight="8">
+``` {.xml}
 <animate
     id            = "lightAngleAnim"
     attributeName = "azimuth"
@@ -422,19 +338,11 @@ degrees, it restarts invisibly at '''0''':
     repeatCount   = "indefinite"
     xlink:href    = "#lightAngleEffect"
 />
-</syntaxhighlight>
+```
 
-A second un-synchronized animation raises and lowers the rounded
-surface that makes the element appear beveled. Unlike the previous
-animation, the [[svg/attributes/from|'''from''']] and
-[[svg/attributes/to|'''to''']] values match, and the oscillation
-occurs within the intervening frames defined in the
-[[svg/attributes/values|'''values''']] attribute. (Unlike
-[[tutorials/css_animations|CSS keyframe animations]], SVG does not
-allow you to oscillate between the start and end values each time the
-animation repeats.)
+ A second un-synchronized animation raises and lowers the rounded surface that makes the element appear beveled. Unlike the previous animation, the [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) values match, and the oscillation occurs within the intervening frames defined in the [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1) attribute. (Unlike [CSS keyframe animations](/tutorials/css_animations), SVG does not allow you to oscillate between the start and end values each time the animation repeats.)
 
-<syntaxhighlight lang="xml" highlight="4-5,8-9">
+``` {.xml}
 <animate
     id            = "elevationAnim"
     attributeName = "surfaceScale"
@@ -446,75 +354,51 @@ animation repeats.)
     repeatCount   = "indefinite"
     xlink:href    = "#elevationEffect"
 />
-</syntaxhighlight>
+```
 
-(Yet another animation synchronizes with the first, repositioning the
-shadow set by [[svg/elements/feOffset|'''feOffset''']] to match the
-angle of the light source.)
+ (Yet another animation synchronizes with the first, repositioning the shadow set by [**feOffset**](/svg/elements/feOffset) to match the angle of the light source.)
 
-[http://letmespellitoutforyou.com/samples/svg/filter_bevel.svg View this animation]
+[View this animation](http://letmespellitoutforyou.com/samples/svg/filter_bevel.svg)
 
-::'''Note:''' As of this writing, only Firefox displays these animations in HTML content via the [[css/properties/filter|'''filter''']] CSS property.  See [[svg/tutorials/smarter_svg_filters|SVG Filters]] for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as '''begin = "targetID.DOMAttrModified"''' to restart the animation.
+<dl>
+<dd>
+<dl>
+<dd>
+**Note:** As of this writing, only Firefox displays these animations in HTML content via the [**filter**](/css/properties/filter) CSS property. See [SVG Filters](/svg/tutorials/smarter_svg_filters) for more information on how to do this. However, there is no clear way to restart these animations when re-applying the filter in the HTML, so it is more appropriate for animations that execute continuously. As a workaround within SVG, toggle CSS classes to apply filters, then use a DOM mutation event such as **begin = "targetID.DOMAttrModified"** to restart the animation.
 
-You can set [[svg/attributes/repeatCount|'''repeatCount''']] to any
-positive integer.  Each time an animation repeats, it produces a
-[[dom/events/repeat|'''repeat''']] event, which you can also use to
-synchronize other animations. The second example below runs it only
-the first time the animation repeats:
+</dd>
+</dl>
+</dd>
+</dl>
+You can set [**repeatCount**](/w/index.php?title=svg/attributes/repeatCount&action=edit&redlink=1) to any positive integer. Each time an animation repeats, it produces a [**repeat**](/w/index.php?title=dom/events/repeat&action=edit&redlink=1) event, which you can also use to synchronize other animations. The second example below runs it only the first time the animation repeats:
 
- begin = "otherAnim.repeat"
- begin = "otherAnim.repeat(1)"
+    begin = "otherAnim.repeat"
+    begin = "otherAnim.repeat(1)"
 
-<div style="float:right;margin:10px">
+![scr svg eyes.png](/assets/public/a/a7/scr_svg_eyes.png)
 
-[[Image:scr_svg_eyes.png]]
+Each animation defines a potentially expansive length of time, over which you can repeat an animation using a series of [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) values. For example, the eyeballs discussed in the [SVG grand tour](/svg/tutorials/smarter_svg_overview) blink several times in a row, leaving long pauses between each iteration:
 
-</div>
-
-Each animation defines a potentially expansive length of time, over
-which you can repeat an animation using a series of
-[[svg/attributes/begin|'''begin''']] values. For example, the eyeballs
-discussed in the [[svg/tutorials/smarter_svg_overview|SVG grand tour]]
-blink several times in a row, leaving long pauses between each
-iteration:
-
- begin = "4s;6s;8s;9s;11.5s;13s"
+    begin = "4s;6s;8s;9s;11.5s;13s"
 
 Read on for information on how to trigger animations from JavaScript.
 
-==Building progressions==
+## Building progressions
 
-In all of these examples, the [[svg/attributes/from|'''from''']] and
-[[svg/attributes/to|'''to''']] are fixed at specific values. Sometimes
-it's useful to build on a value that results from a previous
-animation.  Here's an example that moves a piece across an checker
-board:
+In all of these examples, the [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) are fixed at specific values. Sometimes it's useful to build on a value that results from a previous animation. Here's an example that moves a piece across an checker board:
 
-<syntaxhighlight lang="xml" highlight="">
+``` {.xml}
 <rect id="board" x="0" y="0" width="800" height="800" stroke="#000" stroke-width="6" fill="url(#chessBoard)"/>
 <circle id="piece" fill="red" cx="150" cy="550" r="40"/>
-</syntaxhighlight>
+```
 
-The board is defined as an 800&times;800 square, and the piece is
-positioned over one of those squares. 
-(See [[svg/tutorials/smarter_svg_graphics|SVG graphic effects]]
-for information on how to use transforms and patterns to build a checker board.)
-The accompanying animation moves
-the piece three squares over to the right:
+ The board is defined as an 800×800 square, and the piece is positioned over one of those squares. (See [SVG graphic effects](/svg/tutorials/smarter_svg_graphics) for information on how to use transforms and patterns to build a checker board.) The accompanying animation moves the piece three squares over to the right:
 
-<div style="display:inline-block;width:45%">
+![svga checkerStart.png](/assets/thumb/9/97/svga_checkerStart.png/300px-svga_checkerStart.png)
 
-[[Image:svga_checkerStart.png|300px]]
+![svga checkerEnd.png](/assets/thumb/a/a7/svga_checkerEnd.png/300px-svga_checkerEnd.png)
 
-</div>
-
-<div style="display:inline-block;width:45%">
-
-[[Image:svga_checkerEnd.png|300px]]
-
-</div>
-
-<syntaxhighlight lang="xml" highlight="4,5,8,11-13,15">
+``` {.xml}
 <animate
     id            = "moveRight"
     attributeName = "cx"
@@ -531,43 +415,21 @@ the piece three squares over to the right:
     xlink:href    = "#piece"
     restart       = "whenNotActive"
 />
-</syntaxhighlight>
+```
 
-When you set the [[svg/attributes/additive|'''additive''']] attribute
-to '''sum''', the [[svg/attributes/from|'''from''']] and
-[[svg/attributes/to|'''to''']] values are interpreted in terms
-relative to the element's original value. In this case, the circle's
-[[svg/attributes/cx|'''cx''']] is 150, so the animation starts there
-and ends at that value plus 100, resulting in 250.
+ When you set the [**additive**](/w/index.php?title=svg/attributes/additive&action=edit&redlink=1) attribute to **sum**, the [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) values are interpreted in terms relative to the element's original value. In this case, the circle's [**cx**](/w/index.php?title=svg/attributes/cx&action=edit&redlink=1) is 150, so the animation starts there and ends at that value plus 100, resulting in 250.
 
-When you set the [[svg/attributes/accumulate|'''accumulate''']]
-attribute to '''sum''', each of the animation's repetitions builds
-upon the previous value. In this case, it proceeds from 150 to 250,
-350, then 450.
+When you set the [**accumulate**](/w/index.php?title=svg/attributes/accumulate&action=edit&redlink=1) attribute to **sum**, each of the animation's repetitions builds upon the previous value. In this case, it proceeds from 150 to 250, 350, then 450.
 
-Notice also that the [[svg/attributes/begin|'''begin''']] does not
-specify a time value, but instead responds when users click on the
-piece. SVG supports interactive mouse, focus, and DOM mutation events.
-To prevent problems resulting from such interaction, setting the
-animation's [[svg/attributes/restart|'''restart''']] attribute to
-'''whenNotActive''' prevents it from restarting if it is already
-executing.
+Notice also that the [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) does not specify a time value, but instead responds when users click on the piece. SVG supports interactive mouse, focus, and DOM mutation events. To prevent problems resulting from such interaction, setting the animation's [**restart**](/w/index.php?title=svg/attributes/restart&action=edit&redlink=1) attribute to **whenNotActive** prevents it from restarting if it is already executing.
 
-[http://letmespellitoutforyou.com/samples/svg/anim_chess.svg View this animation]
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_chess.svg)
 
-==Curved motions==
+## Curved motions
 
-The example above moves the game piece in a straight line, but instead
-you can move it along the curve of a path. SVG provides an alternative
-[[svg/elements/animateMotion|'''animateMotion''']] element, whose
-[[svg/attributes/path|'''path''']] attribute specifies the movement of
-a graphic relative to its current position. The animation also links
-to the graphic that is to be moved along that path.  This example
-moves the game piece along the highlighted series of arcs, ''exactly''
-as shown.  It relies on the ''A'' path command to define elliptical
-semicircle curves to destination points up and to the right.
+The example above moves the game piece in a straight line, but instead you can move it along the curve of a path. SVG provides an alternative [**animateMotion**](/w/index.php?title=svg/elements/animateMotion&action=edit&redlink=1) element, whose [**path**](/w/index.php?title=svg/attributes/path&action=edit&redlink=1) attribute specifies the movement of a graphic relative to its current position. The animation also links to the graphic that is to be moved along that path. This example moves the game piece along the highlighted series of arcs, *exactly* as shown. It relies on the *A* path command to define elliptical semicircle curves to destination points up and to the right.
 
-<syntaxhighlight lang="xml" highlight="4,8">
+``` {.xml}
 <defs>
 <animateMotion
     id         = "animDiag"
@@ -580,26 +442,17 @@ semicircle curves to destination points up and to the right.
 </defs>
 <rect id="board" x="0" y="0" width="800" height="800" stroke="#000" stroke-width="6" fill="url(#chessBoard)"/>
 <circle id="piece" fill="red" cx="150" cy="550" r="40"/>
-</syntaxhighlight>
+```
 
-<div style="display:inline-block;width:45%">
-[[Image:svga_motionChessBefore.png|300px]]
-</div>
-<div style="display:inline-block;width:45%">
-[[Image:svga_motionChessAfter.png|300px]]
-</div>
+![svga motionChessBefore.png](/assets/thumb/3/33/svga_motionChessBefore.png/300px-svga_motionChessBefore.png)
 
-[http://letmespellitoutforyou.com/samples/svg/anim_chessMotion.svg View this animation]
+![svga motionChessAfter.png](/assets/thumb/8/8d/svga_motionChessAfter.png/300px-svga_motionChessAfter.png)
 
-As an alternative, nesting an [[svg/elements/mpath|'''mpath''']]
-element within the [[svg/elements/animateMotion|'''animateMotion''']]
-makes the graphic travel along the contours of any referenced path,
-rather than relative to the current position.  This example makes an
-icon travel continuously around an irregularly curved shape. The
-direction of movement depends on the sequence of path commands, in
-this case a counter-clockwise motion:
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_chessMotion.svg)
 
-<syntaxhighlight lang="xml" highlight="3,4,9">
+As an alternative, nesting an [**mpath**](/w/index.php?title=svg/elements/mpath&action=edit&redlink=1) element within the [**animateMotion**](/w/index.php?title=svg/elements/animateMotion&action=edit&redlink=1) makes the graphic travel along the contours of any referenced path, rather than relative to the current position. This example makes an icon travel continuously around an irregularly curved shape. The direction of movement depends on the sequence of path commands, in this case a counter-clockwise motion:
+
+``` {.xml}
 <defs>
 <animateMotion
     xlink:href  = "#icon"
@@ -613,47 +466,29 @@ this case a counter-clockwise motion:
 </defs>
 <image id="icon" x="0" y="0" width="50" height="50" xlink:href="icon.png"/>
 <path id="shape" d="M 115,169 S 149,424 460,555 S 608,367 568,157 S 438,108 174,57 S 97,90 115,169"/>
-</syntaxhighlight>
+```
 
-By default, the graphic retains its original orientation, as shown
-below on the left where the icon points right. Specifying a
-[[svg/attributes/rotate|'''rotate''']] attribute of '''auto''' keeps
-it pointed in the direction of travel. A value of '''auto-reverse'''
-makes the left side of graphic face forwards, and on the other side of
-the path.
+ By default, the graphic retains its original orientation, as shown below on the left where the icon points right. Specifying a [**rotate**](/w/index.php?title=svg/attributes/rotate&action=edit&redlink=1) attribute of **auto** keeps it pointed in the direction of travel. A value of **auto-reverse** makes the left side of graphic face forwards, and on the other side of the path.
 
-<div style="display:inline-block">
- rotate="0" (default)
-[[Image:svga_motionZero.png|300px]]
-</div>
-<div style="display:inline-block">
- rotate="auto"
-[[Image:svga_motionAuto.png|300px]]
-</div>
-<div style="display:inline-block">
- rotate="auto-reverse"
-[[Image:svga_motionAutoReverse.png|300px]]
-</div>
+    rotate="0" (default)
 
-[http://letmespellitoutforyou.com/samples/svg/anim_motion.svg View this animation].
-The example additionally morphs the shape along which the icon travels.
+![svga motionZero.png](/assets/thumb/d/de/svga_motionZero.png/300px-svga_motionZero.png)
 
-To move text along a path, you need to return to the
-[[svg/elements/animate|'''animate''']] element, modifying the
-[[svg/elements/textPath|'''textPath''']]'s
-[[svg/attributes/startOffset|'''startOffset''']] attribute, which sets
-the text's starting point relative to the start of the path.  In this
-example, both offsets place the text out of view.  Ordinarily you can
-specify percentages as offset values, but these units are defined
-relative to an arbitrary
-[[svg/attributes/pathLength|'''pathLength''']] value, which helps to
-pace the animation regardless of the path's actual length:
+    rotate="auto"
 
-<div style="float:right">
-[[Image:svga_motionText.png]]
-</div>
+![svga motionAuto.png](/assets/thumb/2/27/svga_motionAuto.png/300px-svga_motionAuto.png)
 
-<syntaxhighlight lang="xml" highlight="4-6,13,20">
+    rotate="auto-reverse"
+
+![svga motionAutoReverse.png](/assets/thumb/2/25/svga_motionAutoReverse.png/300px-svga_motionAutoReverse.png)
+
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_motion.svg). The example additionally morphs the shape along which the icon travels.
+
+To move text along a path, you need to return to the [**animate**](/w/index.php?title=svg/elements/animate&action=edit&redlink=1) element, modifying the [**textPath**](/svg/elements/textPath)'s [**startOffset**](/w/index.php?title=svg/attributes/startOffset&action=edit&redlink=1) attribute, which sets the text's starting point relative to the start of the path. In this example, both offsets place the text out of view. Ordinarily you can specify percentages as offset values, but these units are defined relative to an arbitrary [**pathLength**](/w/index.php?title=svg/attributes/pathLength&action=edit&redlink=1) value, which helps to pace the animation regardless of the path's actual length:
+
+![svga motionText.png](/assets/public/5/5d/svga_motionText.png)
+
+``` {.xml}
 <defs>
 <animate
    xlink:href    = "#txtPath"
@@ -675,26 +510,17 @@ pace the animation regardless of the path's actual length:
    d          = "M 100,300 A 1,1 0 0 1 500,300"
    pathLength = "1000"
    />
-</syntaxhighlight>
+```
 
-[http://letmespellitoutforyou.com/samples/svg/anim_motionText.svg View this animation]
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_motionText.svg)
 
-==Animating transforms==
+## Animating transforms
 
-<div style="float:right">
-[[Image:svga_transform.png|200px]]
-</div>
+![svga transform.png](/assets/thumb/2/2f/svga_transform.png/200px-svga_transform.png)
 
-Transforms specify not just a single value, but a combination of
-functional values. To animate them, use the specialized
-[[svg/elements/animateTransform|'''animateTransform''']] element,
-which clarifies which transform function you want to animate. It works
-just like the [[svg/elements/animate|'''animate''']] element, but the
-additional [[svg/attributes/type|'''type''']] attribute specifies the
-transform function to be animated.  This example moves a graphic
-diagonally:
+Transforms specify not just a single value, but a combination of functional values. To animate them, use the specialized [**animateTransform**](/w/index.php?title=svg/elements/animateTransform&action=edit&redlink=1) element, which clarifies which transform function you want to animate. It works just like the [**animate**](/w/index.php?title=svg/elements/animate&action=edit&redlink=1) element, but the additional [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) attribute specifies the transform function to be animated. This example moves a graphic diagonally:
 
-<syntaxhighlight lang="xml" highlight="3">
+``` {.xml}
 <animateTransform
    attributeName = "transform"
    type          = "translate"
@@ -704,54 +530,33 @@ diagonally:
    dur           = "1s"
    xlink:href    = "#shiftDiagonal"
 />
-</syntaxhighlight>
+```
 
-The element to be animated must not specify other transforms.  For
-example, if you want to animate the '''rotate()''' function shown on
-the left below, you need to place the accompanying '''translate()'''
-in a different element as shown on the right:
+ The element to be animated must not specify other transforms. For example, if you want to animate the **rotate()** function shown on the left below, you need to place the accompanying **translate()** in a different element as shown on the right:
 
-<div style="display:inline-block">
-
-<syntaxhighlight lang="xml">
+``` {.xml}
 <g transform="translate(10,10) rotate(-90)">
   <use xlink:href="#tileSquare" />
 </g>
-</syntaxhighlight>
+```
 
-</div>
-
-<div style="display:inline-block">
-
-<syntaxhighlight lang="xml">
+``` {.xml}
 <g transform="translate(10,10)">
   <g id="pivot" transform="rotate(-90)">
     <use xlink:href="#tileSquare" />
   </g>
 </g>
-</syntaxhighlight>
+```
 
-</div>
+[View this animation](http://letmespellitoutforyou.com/samples/svg/anim_transform.svg) for an example of transforms within a pattern tile. As of this writing, animating transforms on entire patterns (using [**patternTransform**](/w/index.php?title=svg/attributes/patternTransform&action=edit&redlink=1)) does not work reliably in many browsers.
 
-[http://letmespellitoutforyou.com/samples/svg/anim_transform.svg View this animation]
-for an example of transforms within a pattern tile. As of this
-writing, animating transforms on entire patterns (using
-[[svg/attributes/patternTransform|'''patternTransform''']]) does not
-work reliably in many browsers.
+## Color properties and other values
 
-==Color properties and other values==
+To animate color values, SVG provides another specialized [**animateColor**](/w/index.php?title=svg/elements/animateColor&action=edit&redlink=1) element. In this example, its [**attributeType**](/w/index.php?title=svg/attributes/attributeType&action=edit&redlink=1) may help clarify that the animation is modifying a **CSS** property, rather than an **XML** attribute assumed as the default:
 
-To animate color values, SVG provides another specialized
-[[svg/elements/animateColor|'''animateColor''']] element. In this
-example, its [[svg/attributes/attributeType|'''attributeType''']] may
-help clarify that the animation is modifying a '''CSS''' property,
-rather than an '''XML''' attribute assumed as the default:
+![svga color.png](/assets/thumb/6/6d/svga_color.png/200px-svga_color.png)
 
-<div style="float:right">
-[[Image:svga_color.png|200px]]
-</div>
-
-<syntaxhighlight lang="xml" highlight="3-5">
+``` {.xml}
 <animateColor
    attributeName = "fill"
    attributeType = "CSS"
@@ -763,37 +568,25 @@ rather than an '''XML''' attribute assumed as the default:
    xlink:href    = "#tileRectSkin"
    id            = "animSkinColor"
 />
-</syntaxhighlight>
+```
 
-However, note that SVG color values are implemented as CSS properties,
-which may be animated more easily using CSS-based animation
-techniques.  For example, toggling classes might transition the skin
-color in the example above:
+ However, note that SVG color values are implemented as CSS properties, which may be animated more easily using CSS-based animation techniques. For example, toggling classes might transition the skin color in the example above:
 
-<syntaxhighlight lang="css">
+``` {.css}
 body {
-    transition         : all 1s;
-    -webkit-transition : all 1s;
-    -moz-transition    : all 1s;
+    transition         : all 1s;
+    -webkit-transition : all 1s;
+    -moz-transition    : all 1s;
 }
 .white { fill: #E1BC9B }
 .black { fill: #996600 }
-</syntaxhighlight>
+```
 
-(The [[svg/tutorials/smarter_svg_overview|SVG grand tour]] discusses
-how to apply CSS properties to [[svg/elements/use|'''use''']]
-instances, which are necessary for more complex graphics.)
+ (The [SVG grand tour](/svg/tutorials/smarter_svg_overview) discusses how to apply CSS properties to [**use**](/svg/elements/use) instances, which are necessary for more complex graphics.)
 
-Many SVG attributes and properties that specify arbitrary string
-values cannot be animated at all, but you can still dynamically modify
-them using the [[svg/elements/set|'''set''']] shorthand element. It
-can be triggered like any animation, but executes immediately on any
-value. In this example, a [[svg/elements/tref|'''tref''']] element
-draws in text from a ''label1'' object, which the
-[[svg/elements/set|'''set''']] replaces with ''label2'' to display
-different text once a separate animation has completed:
+Many SVG attributes and properties that specify arbitrary string values cannot be animated at all, but you can still dynamically modify them using the [**set**](/w/index.php?title=svg/elements/set&action=edit&redlink=1) shorthand element. It can be triggered like any animation, but executes immediately on any value. In this example, a [**tref**](/w/index.php?title=svg/elements/tref&action=edit&redlink=1) element draws in text from a *label1* object, which the [**set**](/w/index.php?title=svg/elements/set&action=edit&redlink=1) replaces with *label2* to display different text once a separate animation has completed:
 
-<syntaxhighlight lang="xml" highlight="3,5,12">
+``` {.xml}
 <defs>
 <set
    attributeName = "xlink:href"
@@ -807,81 +600,92 @@ different text once a separate animation has completed:
 <text x="10" y="10" transform="translate(170,10) rotate(50)">
   <tref id="label" xlink:href="#label1"/>
 </text>
-</syntaxhighlight>
+```
 
-[http://letmespellitoutforyou.com/samples/svg/anim_color.svg View these combined animations]
+[View these combined animations](http://letmespellitoutforyou.com/samples/svg/anim_color.svg)
 
-==Scripting animations==
+## Scripting animations
 
-This guide shows various ways to control SVG animations, and suggests
-opportunities to pair them with CSS animations. To wrap up, this
-section shows how an application might control them with
-JavaScript. To play back an animation, call
-[[svg/methods/beginElement|'''beginElement()''']] on the relevant
-animation element:
+This guide shows various ways to control SVG animations, and suggests opportunities to pair them with CSS animations. To wrap up, this section shows how an application might control them with JavaScript. To play back an animation, call [**beginElement()**](/w/index.php?title=svg/methods/beginElement&action=edit&redlink=1) on the relevant animation element:
 
-<syntaxhighlight lang="javascript">
+``` {.js}
 function play() {
     document.querySelector('animate').beginElement();
 }
-</syntaxhighlight>
+```
 
-SVG documents keep track of the number of seconds they have been
-running, available via the root [[svg/elements/svg|'''svg''']]
-element's [[svg/methods/getCurrentTime|'''getCurrentTime()''']]
-method. If an animation is set to begin at '''0s''', it executes when
-the SVG loads. Calling
-[[svg/methods/beginElement|'''beginElement()''']] restarts the clock
-for the specified animation.
+ SVG documents keep track of the number of seconds they have been running, available via the root [**svg**](/svg/elements/svg) element's [**getCurrentTime()**](/svg/methods/getCurrentTime) method. If an animation is set to begin at **0s**, it executes when the SVG loads. Calling [**beginElement()**](/w/index.php?title=svg/methods/beginElement&action=edit&redlink=1) restarts the clock for the specified animation.
 
-Calling [[svg/methods/endElement|'''endElement()''']] stops a
-currently running animation, returning the graphic back to its
-original position, or halting it if the animation's
-[[svg/attributes/fill|'''fill''']] attribute is set to '''freeze'''.
-Both of these methods are equivalent to running
-[[svg/methods/beginElementAt|'''beginElementAt(0)''']] or
-[[svg/methods/endElementAt|'''endElementAt(0)''']]. Any other time
-value specifies a delay: '''beginElementAt(2)''' starts an animation
-after two seconds, and '''endElementAt(2)''' waits the same amount of
-time before stopping it.
+Calling [**endElement()**](/w/index.php?title=svg/methods/endElement&action=edit&redlink=1) stops a currently running animation, returning the graphic back to its original position, or halting it if the animation's [**fill**](/svg/attributes/fill) attribute is set to **freeze**. Both of these methods are equivalent to running [**beginElementAt(0)**](/w/index.php?title=svg/methods/beginElementAt&action=edit&redlink=1) or [**endElementAt(0)**](/w/index.php?title=svg/methods/endElementAt&action=edit&redlink=1). Any other time value specifies a delay: **beginElementAt(2)** starts an animation after two seconds, and **endElementAt(2)** waits the same amount of time before stopping it.
 
-SVG also provides a mechanism to pause and resume playback, but it
-applies to all animations that are currently running. The following
-toggles playback:
+SVG also provides a mechanism to pause and resume playback, but it applies to all animations that are currently running. The following toggles playback:
 
-<syntaxhighlight lang="javascript">
+``` {.js}
 function pausePlayAll() {
     var root = document.querySelector('svg');
-    root.animationsPaused() 
-        ? root.unpauseAnimations() 
-        : root.pauseAnimations();
+    root.animationsPaused()
+        ? root.unpauseAnimations()
+        : root.pauseAnimations();
 }
-</syntaxhighlight>
+```
 
-Note that [[svg/methods/animationsPaused|'''animationsPaused()''']] is a method call just like [[svg/methods/pauseAnimations|'''pauseAnimations()''']] and [[svg/methods/unpauseAnimations|'''unpauseAnimations()''']], not a simple object property as you might expect.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Animation
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+ Note that [**animationsPaused()**](/svg/methods/animationsPaused) is a method call just like [**pauseAnimations()**](/svg/methods/pauseAnimations) and [**unpauseAnimations()**](/svg/methods/unpauseAnimations), not a simple object property as you might expect.
+
+## See also
+
+### Related articles
+
+#### Animation
+
+-   [Web Animations API](/apis/web_animations)
+
+-   [clone](/apis/web_animations/AnimationEffect/clone)
+
+-   [AnimationNode](/apis/web_animations/AnimationNode)
+
+-   [timing](/apis/web_animations/AnimationNode/timing)
+
+-   [currentTime](/apis/web_animations/AnimationPlayer/currentTime)
+
+-   [reverse](/apis/web_animations/AnimationPlayer/reverse)
+
+-   [source](/apis/web_animations/AnimationPlayer/source)
+
+-   [AnimationPlayerEvent](/apis/web_animations/AnimationPlayerEvent)
+
+-   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
+
+-   [play](/apis/web_animations/AnimationTimeline/play)
+
+-   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
+
+-   [@keyframes](/css/atrules/@keyframes)
+
+-   [CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
+
+-   [keyText](/css/cssom/CSSKeyframeRule/keyText)
+
+-   [style](/css/cssom/CSSKeyframeRule/style)
+
+-   [CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
+
+-   [cssRules](/css/cssom/CSSKeyframesRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSKeyframesRule/deleteRule)
+
+-   [findRule](/css/cssom/CSSKeyframesRule/findRule)
+
+-   [insertRule](/css/cssom/CSSKeyframesRule/insertRule)
+
+-   [name](/css/cssom/CSSKeyframesRule/name)
+
+-   [cubic-bezier](/css/functions/cubic-bezier)
+
+-   [Animations](/css/properties/animations)
+
+-   [transition](/css/properties/transition)
+
+-   **SVG animation**
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+

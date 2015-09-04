@@ -1,51 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The fill mode as specified by one of the FillMode enumeration values.
+---
+title: fill
+tags:
+  - API
+  - Object
+  - Properties
+  - Web
+  - Animations
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: "The fill mode as specified by one of the FillMode enumeration values.\n"
+uri: 'apis/web animations/AnimationTimingReadOnly/fill'
+
+---
+# fill
+
+## Summary
+
+The fill mode as specified by one of the FillMode enumeration values.
 
 When performing timing calculations the special value auto is expanded to one of the fill modes recognized by the timing model as follows,
 
-If the animation node to which the fill mode is being is applied is an animation,
-Use none as the fill mode.
-Otherwise,
-Use both as the fill mode.
+If the animation node to which the fill mode is being is applied is an animation, Use none as the fill mode. Otherwise, Use both as the fill mode.
 
-}}
-{{API_Object_Property
-|Property_applies_to=apis/web_animations/AnimationTimingReadOnly
-|Read_only=Yes
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=Object
-|Return_value_description=Returns a FillMode object
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.fill;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+
+Returns a FillMode object
+
+**Needs Examples**: This section should include examples.
+

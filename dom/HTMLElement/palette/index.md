@@ -1,30 +1,39 @@
-{{Page Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes = stub MSDN import
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLElement
-|Read_only=
-}}
-{{Topics|DOM}}
-{{Notes_Section
-|Import_Notes=
-===Syntax===
-}}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>embed</code>
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: palette
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'stub MSDN import'
+uri: dom/HTMLElement/palette
+
+---
+# palette
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.palette;
+element.palette = value;
+```
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `embed`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

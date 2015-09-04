@@ -1,25 +1,35 @@
-{{Page_Title|SVG deployment}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Fix a couple of broken links
-|Checked_Out=No
-}}
-{{Byline
-|Name=Mike Sierra
-}}
-{{Summary_Section|This brief guide shows different ways to deploy SVG, either within HTML or as standalone files, with various options to reference CSS and JavaScript.}}
-{{Tutorial
-|Content=Until recently, SVG was fairly difficult to incorporate with
-other web content, and there are still many challenges.  The HTML5
-standard provides a way to insert ''inline'' regions of SVG into HTML
-files.
+---
+title: smarter svg deploy
+tags:
+  - Tutorials
+  - SVG
+readiness: 'Almost Ready'
+notes:
+  - 'Fix a couple of broken links'
+summary: 'This brief guide shows different ways to deploy SVG, either within HTML or as standalone files, with various options to reference CSS and JavaScript.'
+uri: 'svg/tutorials/smarter svg deploy'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - svg/elements/foreignObject
+    - svg/attributes/requiredExtensions
 
-[[Image:scr_svg_html.png]]
+---
+# SVG deployment
 
-It translates to this basic HTML markup structure, where CSS and
-JavaScript may affect both HTML and SVG content:
+**By Mike Sierra**
 
-<syntaxhighlight lang="xml">
+## Summary
+
+This brief guide shows different ways to deploy SVG, either within HTML or as standalone files, with various options to reference CSS and JavaScript.
+
+Until recently, SVG was fairly difficult to incorporate with other web content, and there are still many challenges. The HTML5 standard provides a way to insert *inline* regions of SVG into HTML files.
+
+![scr svg html.png](/assets/public/a/aa/scr_svg_html.png)
+
+It translates to this basic HTML markup structure, where CSS and JavaScript may affect both HTML and SVG content:
+
+``` {.xml}
 <!DOCTYPE html>
 <html>
   <head>
@@ -33,15 +43,11 @@ JavaScript may affect both HTML and SVG content:
     </svg>
   </body>
 </html>
-</syntaxhighlight>
+```
 
-There are also other ways to do it.  You can reference external SVG
-files, and render them interactively within the HTML using either
-[[html/elements/iframe|'''iframe''']],
-[[html/elements/embed|'''embed''']], or
-[[html/elements/object|'''object''']] tags:
+ There are also other ways to do it. You can reference external SVG files, and render them interactively within the HTML using either [**iframe**](/html/elements/iframe), [**embed**](/html/elements/embed), or [**object**](/html/elements/object) tags:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <!DOCTYPE html>
 <html>
   <head>
@@ -54,48 +60,39 @@ files, and render them interactively within the HTML using either
     <object data=’graphics.svg’ type=’image/svg+xml’></object>
   </body>
 </html>
-</syntaxhighlight>
+```
 
-It's also common to reference external SVG files to present static SVG
-graphics via CSS. The example below shows how you might place a
-right-aligned navigation arrow within a mobile interface, rendering as
-crisply as possible on high-resolution handsets:
+ It's also common to reference external SVG files to present static SVG graphics via CSS. The example below shows how you might place a right-aligned navigation arrow within a mobile interface, rendering as crisply as possible on high-resolution handsets:
 
-[[Image:scr_svg_css.png]]
+![scr svg css.png](/assets/public/d/df/scr_svg_css.png)
 
-<syntaxhighlight lang="css">
+``` {.css}
  a[href] {
-     background-image    : url(img/nav_arrow.svg);
-     background-position : center 0 right 10px;
-     background-size     : contain;
-     display             : block;
-     min-height          : 2em;
-     border-radius       : 0.5em;
-     padding             : 0.5em;
+     background-image    : url(img/nav_arrow.svg);
+     background-position : center 0 right 10px;
+     background-size     : contain;
+     display             : block;
+     min-height          : 2em;
+     border-radius       : 0.5em;
+     padding             : 0.5em;
  }
-</syntaxhighlight>
+```
 
-As you will see, you can also use URL anchors to reference individual
-component graphics that are collected within an SVG file. This assigns
-a custom bullet shape:
+ As you will see, you can also use URL anchors to reference individual component graphics that are collected within an SVG file. This assigns a custom bullet shape:
 
-<syntaxhighlight lang="css">
+``` {.css}
  ul > li {
-    list-style-image     : url(img/components.svg#bullet);
+    list-style-image     : url(img/components.svg#bullet);
  }
-</syntaxhighlight>
+```
 
-Less common in practice, SVG files can be viewed as standalone files,
-perhaps as the target of a navigation. Any SVG file or
-[[svg/elements/svg|'''svg''']] tag region can reference its own set of
-CSS and JavaScript, which only applies within the SVG:
+ Less common in practice, SVG files can be viewed as standalone files, perhaps as the target of a navigation. Any SVG file or [**svg**](/svg/elements/svg) tag region can reference its own set of CSS and JavaScript, which only applies within the SVG:
 
-[[Image:scr_svg_svg.png]]
+![scr svg svg.png](/assets/public/f/f2/scr_svg_svg.png)
 
-This example shows how to embed or reference either CSS or JavaScript
-from within an SVG file:
+This example shows how to embed or reference either CSS or JavaScript from within an SVG file:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <?xml version="1.0" standalone="no"?>
   <!-- reference CSS here: -->
 <?xml-stylesheet href="css/styles.css" type="text/css"?>
@@ -118,34 +115,25 @@ from within an SVG file:
   </script>
   <!-- define graphics here -->
 </svg>
-</syntaxhighlight>
+```
 
-From within an SVG, you can also reference components from other SVG
-files. The example that follows shows how you might import a graphic
-of a cat from another SVG file, then style it ''calico'' based on
-referenced CSS:
+ From within an SVG, you can also reference components from other SVG files. The example that follows shows how you might import a graphic of a cat from another SVG file, then style it *calico* based on referenced CSS:
 
-[[Image:scr_svg_svg2svg.png]]
+![scr svg svg2svg.png](/assets/public/e/eb/scr_svg_svg2svg.png)
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet href="css/svg_styles.css" type="text/css"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000">
     <use xlink:href="components.svg#cat" class="calico"/>
 </svg>
-</syntaxhighlight>
+```
 
-You may also be able to use the
-[[svg/elements/foreignObject|'''foreignObject''']] tag to render live
-HTML content within an SVG graphic environment. This example uses the
-[[svg/elements/switch|'''switch''']] tag to test whether the feature
-works, as recognized by the tag's
-[[svg/attributes/requiredExtensions|'''requiredExtensions''']]
-attribute. If not, it uses fallback [[svg/elements/text|'''text''']]:
+ You may also be able to use the [**foreignObject**](/w/index.php?title=svg/elements/foreignObject&action=edit&redlink=1) tag to render live HTML content within an SVG graphic environment. This example uses the [**switch**](/svg/elements/switch) tag to test whether the feature works, as recognized by the tag's [**requiredExtensions**](/w/index.php?title=svg/attributes/requiredExtensions&action=edit&redlink=1) attribute. If not, it uses fallback [**text**](/svg/elements/text):
 
-[[Image:scr_svg_svg2html.png]]
+![scr svg svg2html.png](/assets/public/2/23/scr_svg_svg2html.png)
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <?xml version="1.0" standalone="yes"?>
 <svg width="4in" height="3in" version="1.1" xmlns='http://www.w3.org/2000/svg'>
   <desc>use 'switch' to test if foreignObject works, otherwise render fallback 'text' content</desc>
@@ -163,23 +151,93 @@ attribute. If not, it uses fallback [[svg/elements/text|'''text''']]:
     </text>
   </switch>
 </svg>
-</syntaxhighlight>
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Filters
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## See also
+
+### Related articles
+
+#### Filters
+
+-   [blur()](/css/functions/blur)
+
+-   [brightness()](/css/functions/brightness)
+
+-   [contrast()](/css/functions/contrast)
+
+-   [custom()](/css/functions/custom)
+
+-   [drop-shadow()](/css/functions/drop-shadow)
+
+-   [grayscale()](/css/functions/grayscale)
+
+-   [hue-rotate()](/css/functions/hue-rotate)
+
+-   [invert()](/css/functions/invert)
+
+-   [opacity()](/css/functions/opacity)
+
+-   [saturate()](/css/functions/saturate)
+
+-   [sepia()](/css/functions/sepia)
+
+-   [filter](/css/properties/filter)
+
+-   [feBlend](/svg/elements/feBlend)
+
+-   [feColorMatrix](/svg/elements/feColorMatrix)
+
+-   [feComponentTransfer](/svg/elements/feComponentTransfer)
+
+-   [feComposite](/svg/elements/feComposite)
+
+-   [feConvolveMatrix](/svg/elements/feConvolveMatrix)
+
+-   [feDiffuseLighting](/svg/elements/feDiffuseLighting)
+
+-   [feDisplacementMap](/svg/elements/feDisplacementMap)
+
+-   [feDistantLight](/svg/elements/feDistantLight)
+
+-   [feFlood](/svg/elements/feFlood)
+
+-   [feFuncA](/svg/elements/feFuncA)
+
+-   [feFuncB](/svg/elements/feFuncB)
+
+-   [feFuncG](/svg/elements/feFuncG)
+
+-   [feFuncR](/svg/elements/feFuncR)
+
+-   [feGaussianBlur](/svg/elements/feGaussianBlur)
+
+-   [feImage](/svg/elements/feImage)
+
+-   [feMerge](/svg/elements/feMerge)
+
+-   [feMergeNode](/svg/elements/feMergeNode)
+
+-   [feMorphology](/svg/elements/feMorphology)
+
+-   [feOffset](/svg/elements/feOffset)
+
+-   [fePointLight](/svg/elements/fePointLight)
+
+-   [feSpecularLighting](/svg/elements/feSpecularLighting)
+
+-   [feSpotlight](/svg/elements/feSpotlight)
+
+-   [feTile](/svg/elements/feTile)
+
+-   [feTurbulence](/svg/elements/feTurbulence)
+
+-   **SVG deployment**
+
+-   [SVG filters](/svg/tutorials/smarter_svg_filters)
+
+-   [SVG graphic effects](/svg/tutorials/smarter_svg_graphics)
+
+-   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
+
+-   [SVG filters](/tutorials/svg_filters)
+

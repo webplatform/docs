@@ -1,35 +1,31 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Import_Notes=
+---
+title: startOffset
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/startOffset
 
-===Syntax===
+---
+# startOffset
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.6
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.6
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

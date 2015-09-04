@@ -1,67 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Unreviewed
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Represents a key pair generator control}}
-{{Markup_Element
-|DOM_interface=dom/HTMLKeygenElement
-|Tag_omissions=
-|CSS_display=
-|Content=When the control's form is submitted, the private key is stored in the local keystore, and the public key is packaged and sent to the server.
+---
+title: keygen
+tags:
+  - Markup
+  - Elements
+standardization_status: 'W3C Recommendation'
+summary: 'Represents a key pair generator control'
+uri: html/elements/keygen
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/HTMLKeygenElement
 
+---
+# keygen
 
-== HTML Attributes ==
+## Summary
 
-*<code>autofocus</code> = boolean<br />Allows the author to indicate that a control is to be focused as soon as the page is loaded
-*<code>challenge</code> = string<br />A challenge string that is submitted along with the public key. [[#Example_A|[Example A]]]
-*<code>disabled</code> = boolean<br />If present, make the control non-interactive and to prevent its value from being submitted.
-*<code>form</code> = the ID of a form element in the element's owner<br />Associate the keygen element with its form owner.<br />By default, the keygen element is associated with its nearest ancestor form element.
-*<code>keytype</code> = rsa<br />The type of key generated.
-*<code>name</code> = unique name<br />Represents the element's name.
+Represents a key pair generator control
 
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=
-|Code=<nowiki>
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLKeygenElement](/w/index.php?title=dom/HTMLKeygenElement&action=edit&redlink=1)
+
+When the control's form is submitted, the private key is stored in the local keystore, and the public key is packaged and sent to the server.
+
+## HTML Attributes
+
+-   `autofocus` = boolean
+    Allows the author to indicate that a control is to be focused as soon as the page is loaded
+-   `challenge` = string
+    A challenge string that is submitted along with the public key. [[Example A]](#Example_A)
+-   `disabled` = boolean
+    If present, make the control non-interactive and to prevent its value from being submitted.
+-   `form` = the ID of a form element in the element's owner
+    Associate the keygen element with its form owner.
+    By default, the keygen element is associated with its nearest ancestor form element.
+-   `keytype` = rsa
+    The type of key generated.
+-   `name` = unique name
+    Represents the element's name.
+
+## Examples
+
+``` {.html}
+
 <keygen name="key" challenge="235ldahlae983dadfar"/>
-</nowiki>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/forms.html#the-keygen-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/forms.html#the-keygen-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-keygen-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/forms.html#the-keygen-element)
+:   W3C Recommendation
+

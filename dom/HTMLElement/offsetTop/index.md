@@ -1,84 +1,86 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=summary, clean-up of MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLElement
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example uses the '''offsetTop''' property to determine whether an object is in the user's view.
-|Code=&lt;html&gt;
+---
+title: offsetTop
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'summary, clean-up of MSDN import'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/offsetTop.htm'
+uri: dom/HTMLElement/offsetTop
 
-&lt;head&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-function isinView(oObject)
-{
-    var oParent {{=}} oObject.offsetParent; 
-    var iOffsetTop {{=}} oObject.offsetTop;
-    var iClientHeight {{=}} oParent.clientHeight;
-    if (iOffsetTop &gt; iClientHeight) {
-        alert("Special Text not in view. Expand Window to put Text in View.");
+---
+# offsetTop
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.offsetTop;
+element.offsetTop = value;
+```
+
+## Examples
+
+This example uses the **offsetTop** property to determine whether an object is in the user's view.
+
+    <html>
+
+    <head>
+    <script type="text/javascript">
+    function isinView(oObject)
+    {
+        var oParent = oObject.offsetParent;
+        var iOffsetTop = oObject.offsetTop;
+        var iClientHeight = oParent.clientHeight;
+        if (iOffsetTop > iClientHeight) {
+            alert("Special Text not in view. Expand Window to put Text in View.");
+        }
+        else{
+             alert("Special Text in View!");
+        }
     }
-    else{
-         alert("Special Text in View!");
-    }
-}
-&lt;/script&gt;
-&lt;/head&gt;
+    </script>
+    </head>
 
-&lt;body onload{{=}}"window.resizeTo(430,250)" onclick{{=}}"isinView(oID_1)" scroll{{=}}"NO"&gt;
+    <body onload="window.resizeTo(430,250)" onclick="isinView(oID_1)" scroll="NO">
 
-&lt;div style{{=}}"position: absolute; left: 20px"&gt;
-    Click anywhere in window to see if special text is in view.&lt;/div&gt;
-&lt;div id{{=}}"oID_1" style{{=}}"position: absolute; 
-    left: 50px; 
-    top: 300px; 
-    width: 280px; 
-    color: silver; 
-    font-size: large; 
-    font-weight: bold; 
-    background-color: aqua; 
-    font-family: Arial"&gt;
-    Here&amp;#39;s some special text &lt;/div&gt;
+    <div style="position: absolute; left: 20px">
+        Click anywhere in window to see if special text is in view.</div>
+    <div id="oID_1" style="position: absolute;
+        left: 50px;
+        top: 300px;
+        width: 280px;
+        color: silver;
+        font-size: large;
+        font-weight: bold;
+        background-color: aqua;
+        font-family: Arial">
+        Here&#39;s some special text </div>
 
-&lt;/body&gt;
+    </body>
 
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/offsetTop.htm
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-You can determine the location, width, and height of an object by using a combination of the [[dom/HTMLElement/offsetLeft|'''offsetLeft''']], '''offsetTop''', [[dom/HTMLElement/offsetHeight|'''offsetHeight''']], and [[dom/HTMLElement/offsetWidth|'''offsetWidth''']] properties. These numeric properties specify the physical coordinates and dimensions of the object relative to the object's offset parent.
-For more information about how to access the dimension and location of objects on the page through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+    </html>
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/offsetTop.htm)
+
+## Notes
+
+### Remarks
+
+You can determine the location, width, and height of an object by using a combination of the [**offsetLeft**](/dom/HTMLElement/offsetLeft), **offsetTop**, [**offsetHeight**](/dom/HTMLElement/offsetHeight), and [**offsetWidth**](/dom/HTMLElement/offsetWidth) properties. These numeric properties specify the physical coordinates and dimensions of the object relative to the object's offset parent. For more information about how to access the dimension and location of objects on the page through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9.
+
+### Syntax
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

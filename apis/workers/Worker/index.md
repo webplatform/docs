@@ -1,23 +1,49 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|An object representing a worker, that is used to communicate with the worker.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Spawning and communicating with a Worker (document.html)
-|Code=// create worker
+---
+title: Worker
+tags:
+  0: API
+  1: Objects
+  3: Webworkers
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'An object representing a worker, that is used to communicate with the worker.'
+uri: apis/workers/Worker
+
+---
+# Worker
+
+## Summary
+
+An object representing a worker, that is used to communicate with the worker.
+
+## Properties
+
+API Name
+:   Summary
+[onerror](/apis/workers/Worker/onerror)
+:   An event listener to be called when an error occurs.
+[onmessage](/apis/workers/Worker/onmessage)
+:   An event listener to be called when a message is received from the worker.
+
+## Methods
+
+API Name
+:   Summary
+[postMessage](/apis/workers/Worker/postMessage)
+:   Posts a message to the worker with which the object is associated.
+[terminate](/apis/workers/Worker/terminate)
+:   Immediately terminates the worker with which the object is associated.
+
+## Events
+
+*No events.*
+
+## Examples
+
+Spawning and communicating with a Worker (document.html)
+
+``` {.js}
+// create worker
 var worker = new Worker('script.js');
 // receive data from worker
 worker.onmessage = function(event) {
@@ -27,123 +53,52 @@ worker.onmessage = function(event) {
 };
 // pass data to worker
 worker.postMessage("hello worker");
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=Being spawned as a worker (script.js) and communicating with parent (document.html)
-|Code=// pass data to parent
+```
+
+Being spawned as a worker (script.js) and communicating with parent (document.html)
+
+``` {.js}
+// pass data to parent
 self.postMessage("ready for business");
 // receive data from parent
 self.onmessage = function(event) {
    self.postMessage('Worker received ' + event.data);
 };
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=Loading additional resources from within a Worker (script.js)
-|Code=// (synchronously) load external scripts - URLs relative to the parent document's location
+```
+
+Loading additional resources from within a Worker (script.js)
+
+``` {.js}
+// (synchronously) load external scripts - URLs relative to the parent document's location
 importScripts('additional.js', 'another-one.js', 'as-many-as-you-like.js' /* , ... */);
 // pass data to parent, executed *after* importScripts() received all files
 self.postMessage("ready for business");
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=In the past, if you had to do a task on a webpage that might take a long time, you forced the user to wait until the task was finished. Workers can solve that problem by packaging and running code that runs separately from the main webpage. These packages are called threads and run in the background. You can have more than one worker running at once, each with its own thread and JavaScript code file.
+```
 
-Workers run in a "sandbox" and have limited scope. They cannot access most of the object model of the webpage but do have access to the global core JavaScript objects. You can use the '''WorkerGlobalScope''' object inside the worker to access objects in the worker's scope.
+## Notes
 
-To terminate a worker thread from the main document, use the '''terminate''' method. To terminate the worker thread from inside its own code, use the '''close''' method.
+In the past, if you had to do a task on a webpage that might take a long time, you forced the user to wait until the task was finished. Workers can solve that problem by packaging and running code that runs separately from the main webpage. These packages are called threads and run in the background. You can have more than one worker running at once, each with its own thread and JavaScript code file.
 
-You can send messages to a worker from the main document using '''postMessage'''. The message will be cloned. You can receive messages from the worker by listening for message events using the '''onmessage''' event.
-If a worker throws an exception and doesn't handle the exception itself, the exception will create an event you can listen for with the '''onerror''' event.
+Workers run in a "sandbox" and have limited scope. They cannot access most of the object model of the webpage but do have access to the global core JavaScript objects. You can use the **WorkerGlobalScope** object inside the worker to access objects in the worker's scope.
 
-You can determine the location of a worker from inside the worker by using the '''WorkerLocation''' object.
+To terminate a worker thread from the main document, use the **terminate** method. To terminate the worker thread from inside its own code, use the **close** method.
 
-You can determine which navigator objects are available to the worker by using the '''WorkerNavigator''' object.
-Shared workers are not supported in this release.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Workers Specification
-|URL=http://dev.w3.org/html5/workers
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Webworkers}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=23.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=5.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+You can send messages to a worker from the main document using **postMessage**. The message will be cloned. You can receive messages from the worker by listening for message events using the **onmessage** event. If a worker throws an exception and doesn't handle the exception itself, the exception will create an event you can listen for with the **onerror** event.
+
+You can determine the location of a worker from inside the worker by using the **WorkerLocation** object.
+
+You can determine which navigator objects are available to the worker by using the **WorkerNavigator** object. Shared workers are not supported in this release.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Workers Specification](http://dev.w3.org/html5/workers)
+:   W3C Editor's Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

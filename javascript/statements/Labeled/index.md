@@ -1,41 +1,45 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=Todo: Probably should be renamed to label.
-|Checked_Out=No
-}}
-{{Summary_Section|Provides an identifier for a statement.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=label ''':'''
-statements
-}}
-|Values={{JS Syntax Parameter
-|Name=label
-|Required=Required
-|Description=A unique identifier used when referring to the labeled statement.
-}}{{JS Syntax Parameter
-|Name=statements
-|Required=Optional
-|Description=One or more statements associated with label.
-}}
-}}
-{{JS_Return_Value
-|Description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=In the following code, the '''continue''' statement refers to the '''for''' loop that is preceded by the <code>Inner:</code> statement. When <code>j</code> is 24, the '''continue''' statement causes that '''for''' loop to go to the next iteration. The numbers 21 through 23 and 25 through 30 print on each line.
-|Code=Outer:
- for (i = 1; i &lt;= 10; i++) {
-    document.write ("&lt;br /&gt;");
+---
+title: Labeled
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+notes:
+  - 'Todo: Probably should be renamed to label.'
+summary: 'Provides an identifier for a statement.'
+uri: javascript/statements/Labeled
+
+---
+# Labeled
+
+## Summary
+
+Provides an identifier for a statement.
+
+## Syntax
+
+    label :
+    statements
+
+**label**
+:   Required. A unique identifier used when referring to the labeled statement.
+
+**statements**
+:   Optional. One or more statements associated with label.
+
+## Examples
+
+In the following code, the **continue** statement refers to the **for** loop that is preceded by the `Inner:` statement. When `j` is 24, the **continue** statement causes that **for** loop to go to the next iteration. The numbers 21 through 23 and 25 through 30 print on each line.
+
+``` {.js}
+Outer:
+ for (i = 1; i <= 10; i++) {
+    document.write ("<br />");
     document.write ("i: " + i);
     document.write (" j: ");
-    
+
  Inner:
-    for (j = 21; j &lt;= 30; j++) {
+    for (j = 21; j <= 30; j++) {
        if (j == 24)
            {
            continue Inner;
@@ -43,33 +47,22 @@ statements
        document.write (j + " ");
    }
  }
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=Labels are used by the '''break''' and '''continue''' statements to specify the statement to which the '''break''' and '''continue''' apply.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/statements/break{{!}}break Statement]]
-* [[javascript/statements/continue{{!}}continue Statement]]
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/d3666y5k(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+```
+
+## Remarks
+
+Labels are used by the **break** and **continue** statements to specify the statement to which the **break** and **continue** apply.
+
+## See also
+
+### Other articles
+
+-   [break Statement](/javascript/statements/break)
+-   [continue Statement](/javascript/statements/continue)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d3666y5k(v=vs.94).aspx)
+

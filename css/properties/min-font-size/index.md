@@ -1,56 +1,202 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add example, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Obsolete: unsupported.
+---
+title: min-font-size
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Add example, specifications, compatibility.'
+summary: "Obsolete: unsupported.\n"
+uri: css/properties/min-font-size
 
-This property is only used when the text-align-last property is set to size.  It controls allowed adjustments of font-size to fit line content.
-}}
-{{CSS Property
-|Initial value=auto
-|Applies to=all elements and generated content
-|Inherited=Yes
-|Media=visual
-|Computed value=font-size
-|Animatable=No
-|CSS object model property=minFontSize
-|CSS percentages=elements computed font-size
-|Values={{CSS Property Value
-|Data Type=font-size
-|Description=The font size of the last line of an element is restricted to being greater than either the computed font-size or this number, whichever is smaller.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=The rendering agent determines the minium font size.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=This property is only used when the text-align-last property is set to size.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Fonts, Text
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+# min-font-size
+
+## Summary
+
+Obsolete: unsupported.
+
+This property is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `auto`
+Applies to
+:   all elements and generated content
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   font-size
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `minFontSize`
+Percentages
+:   elements computed font-size
+
+## Syntax
+
+-   `min-font-size: auto`
+-   `min-font-size: font-size`
+
+## Values
+
+font-size
+:   The font size of the last line of an element is restricted to being greater than either the computed font-size or this number, whichever is smaller.
+
+auto
+:   The rendering agent determines the minium font size.
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     This property is only used when the text-align-last property is set to size.
+
+## See also
+
+### Related articles
+
+#### Fonts
+
+-   [@font-face](/css/atrules/@font-face)
+
+-   [Font related properties](/css/fonts)
+
+-   [font-variant](/css/fonts/font-variant)
+
+-   [font](/css/properties/font)
+
+-   [font-family](/css/properties/font-family)
+
+-   [font-feature-settings](/css/properties/font-feature-settings)
+
+-   [font-kerning](/css/properties/font-kerning)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-size-adjust](/css/properties/font-size-adjust)
+
+-   [font-stretch](/css/properties/font-stretch)
+
+-   [font-style](/css/properties/font-style)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [font-variant](/css/properties/font-variant)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   **min-font-size**
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [size](/html/attributes/size)
+
+-   [font](/html/elements/font)
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   **min-font-size**
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+

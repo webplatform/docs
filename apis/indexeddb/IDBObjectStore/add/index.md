@@ -1,104 +1,112 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Proposed Recommendation}}
-{{API_Name}}
-{{Summary_Section|Adds a record to the specified object store.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=value
-|Data type=String
-|Description=The value must be valid for the Structured Cloning Algorithm.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=key
-|Data type=String
-|Description=A key must be provided if the Object Store does not have a key path, or a key generator is not specified.
-|Optional=Yes
-}}
-|Method_applies_to=apis/indexeddb/IDBObjectStore
-|Example_object_name=objectStore
-|Return_value_name=idbRequest
-|Javascript_data_type=DOM Node
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=var dbOpenRequest = window.indexedDB.open("BookShop1");
+---
+title: add
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: IndexedDB
+readiness: 'Ready to Use'
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'Adds a record to the specified object store.'
+code_samples:
+  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#saveData&'
+uri: apis/indexeddb/IDBObjectStore/add
+
+---
+# add
+
+## Summary
+
+Adds a record to the specified object store.
+
+*Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)*
+
+## Syntax
+
+``` {.js}
+var idbRequest = objectStore.add(value, key);
+```
+
+## Parameters
+
+### value
+
+ Data-typeÂ
+:   String
+
+ The value must be valid for the Structured Cloning Algorithm.
+
+### key
+
+ Data-typeÂ
+:   String
+
+*(Optional)*
+
+A key must be provided if the Object Store does not have a key path, or a key generator is not specified.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+## Examples
+
+``` {.js}
+var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function(event){
     var db = dbOpenRequest.result;
-    var transaction = db.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);	
-	
-	// The object store has a keyPath as "id". Hence no key is specified, but the value has id as a property
+    var transaction = db.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);
+
+    // The object store has a keyPath as "id". Hence no key is specified, but the value has id as a property
     var objectStore = transaction.objectStore("ObjectStore_BookList");
-	
-	// Sample data to add to the Object store
-	var key = 10;
+
+    // Sample data to add to the Object store
+    var key = 10;
     var value = {
         "bookName": "Book-" + Math.random(),
         "author": "AuthorName",
         "id": key
     };
-    
+
     var request = objectStore.add(value);
     request.onsuccess = function(event){
         console.log("Saved id ", request.result);
     };
     request.onerror = function(e){
-		console.log("Error adding data")
+        console.log("Error adding data")
     };
-    
-};
-|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#saveData&
-}}
-}}
-{{Notes_Section
-|Usage=An error is thrown if one of the following is true
 
-*The object store uses in-line keys and the key parameter was provided.
-*The object store uses out-of-line keys and has no key generator and the key parameter was not provided.
-*The object store uses in-line keys and the result of evaluating the object store's key path yields a value and that value is not a valid key.
-*The object store uses in-line keys but no key generator and the result of evaluating the object store's key path does not yield a value.
-*The key parameter was provided but does not contain a valid key.
-|Notes====Remarks===
-This method can throw the following [[dom/DOMException|'''DOMException''']]
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C IndexedDB Specification
-|URL=http://www.w3.org/TR/IndexedDB/
-|Status=W3C Proposed Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+};
+```
+
+[View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#saveData&)
+
+## Usage
+
+     An error is thrown if one of the following is true
+
+-   The object store uses in-line keys and the key parameter was provided.
+-   The object store uses out-of-line keys and has no key generator and the key parameter was not provided.
+-   The object store uses in-line keys and the result of evaluating the object store's key path yields a value and that value is not a valid key.
+-   The object store uses in-line keys but no key generator and the result of evaluating the object store's key path does not yield a value.
+-   The key parameter was provided but does not contain a valid key.
+
+## Notes
+
+### Remarks
+
+This method can throw the following [**DOMException**](/dom/DOMException)
+
+## Related specifications
+
+Specification
+:   Status
+[W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
+:   W3C Proposed Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

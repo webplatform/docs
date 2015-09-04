@@ -1,37 +1,32 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Import_Notes=
+---
+title: sweepFlag
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/sweepFlag
 
-===Syntax===
+---
+# sweepFlag
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.12
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.12
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/objects/SVGPathSegArcAbs|'''SVGPathSegArcAbs''']]
-*[[svg/objects/SVGPathSegArcRel|'''SVGPathSegArcRel''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+### Related pages (MSDN)
 
-[[Category:SVG]]
+-   [**SVGPathSegArcAbs**](/svg/objects/SVGPathSegArcAbs)
+-   [**SVGPathSegArcRel**](/svg/objects/SVGPathSegArcRel)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

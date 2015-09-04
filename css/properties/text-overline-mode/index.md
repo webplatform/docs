@@ -1,60 +1,72 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Sets the mode for the overline text decoration, determining whether the text decoration affects the space characters or not.}}
-{{CSS Property
-|Initial value=continuous
-|Applies to=all elements with and generated content with textual content
-|Inherited=No
-|Media=visual
-|Computed value=specified value (except for initial and inherit)
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=continuous
-|Description=This value means that the line is continuous.
-}}{{CSS Property Value
-|Data Type=skip-white-space
-|Description=This means that space characters will not be lined.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Currently not implemented in any browser, so example is incomplete.
-|Code=p {
+---
+title: text-overline-mode
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Sets the mode for the overline text decoration, determining whether the text decoration affects the space characters or not.'
+code_samples:
+  - 'http://gist.github.com/7283851'
+uri: css/properties/text-overline-mode
+
+---
+# text-overline-mode
+
+## Summary
+
+Sets the mode for the overline text decoration, determining whether the text decoration affects the space characters or not.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `continuous`
+Applies to
+:   all elements with and generated content with textual content
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   specified value (except for initial and inherit)
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `text-overline-mode: continuous`
+-   `text-overline-mode: skip-white-space`
+
+## Values
+
+continuous
+:   This value means that the line is continuous.
+
+skip-white-space
+:   This means that space characters will not be lined.
+
+## Examples
+
+Currently not implemented in any browser, so example is incomplete.
+
+``` {.css}
+p {
   text-overline-mode: skip-white-space;
 }
-|LiveURL=http://code.webplatform.org/gist/7283851
-}}
-}}
-{{Notes_Section
-|Notes=Not implemented in any browser, but Chrome has a placeholder property for it (which may fool any feature detectors into thinking it works).
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS3 Text Module
-|URL=http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-mode
-|Status=Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/7283851)
+
+## Notes
+
+Not implemented in any browser, but Chrome has a placeholder property for it (which may fool any feature detectors into thinking it works).
+
+## Related specifications
+
+Specification
+:   Status
+[CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-mode)
+:   Candidate Recommendation
+

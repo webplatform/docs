@@ -1,57 +1,64 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Retrieves the end point node of the current range.}}
-{{API_Object_Property
-|Property_applies_to=dom/Range
-|Read_only=Yes
-|Example_object_name=range
-|Return_value_name=endNode
-|Javascript_data_type=DOM Node
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=var range {{=}} document.createRange();
+---
+title: endContainer
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves the end point node of the current range.'
+uri: dom/Range/endContainer
 
-range.setStart(startNode,startOffset); 
+---
+# endContainer
+
+## Summary
+
+Retrieves the end point node of the current range.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Range](/dom/Range)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var endNode = range.endContainer;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+## Examples
+
+``` {.js}
+var range = document.createRange();
+
+range.setStart(startNode,startOffset);
 range.setEnd(endNode,endOffset);
-endRangeNode {{=}} range.endContainer;
-}}
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/#dom-range-compareboundarypoints
-|Status=Living Standard
-|Relevant_changes=No Change
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.endContainer Range.endContainer]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974927(v=vs.85).aspx endContainer Property]
-|HTML5Rocks_link=
-}}
+endRangeNode = range.endContainer;
+```
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
+
+## Related specifications
+
+Specification
+:   Status
+[DOM](http://dom.spec.whatwg.org/#dom-range-compareboundarypoints)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.endContainer](https://developer.mozilla.org/en-US/docs/Web/API/Range.endContainer) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[endContainer Property](http://msdn.microsoft.com/en-us/library/ie/ff974927(v=vs.85).aspx) Article]
+

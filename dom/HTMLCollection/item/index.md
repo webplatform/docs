@@ -1,55 +1,48 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference
-|Checked_Out=No
-|Content=Examples Needed
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Retrieves a node specified by ordinal index. Nodes are numbered in tree order (depth-first traversal order).}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=index
-|Data type=unsigned long
-|Description=The index of the node to be fetched. The index origin is 0.
-|Optional=No
-}}
-|Method_applies_to=dom/HTMLCollection
-|Example_object_name=collection
-|Return_value_name=node
-|Javascript_data_type=DOM Node
-|Return_value_description=The '''Node''' at the corresponding position upon success. A value of '''null''' is returned if the index is out of range.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM, HTML, JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: item
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+  - HTML
+  - JavaScript
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs example, spec reference'
+summary: 'Retrieves a node specified by ordinal index. Nodes are numbered in tree order (depth-first traversal order).'
+uri: dom/HTMLCollection/item
+
+---
+# item
+
+## Summary
+
+Retrieves a node specified by ordinal index. Nodes are numbered in tree order (depth-first traversal order).
+
+*Method of [dom/HTMLCollection](/dom/HTMLCollection)*
+
+## Syntax
+
+``` {.js}
+var node = collection.item(index);
+```
+
+## Parameters
+
+### index
+
+ Data-typeÂ
+:   unsigned long
+
+ The index of the node to be fetched. The index origin is 0.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+The **Node** at the corresponding position upon success. A value of **null** is returned if the index is out of range.
+
+**Needs Examples**: This section should include examples.
+

@@ -1,109 +1,120 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Shorthand property to define a CSS animation, setting all parameters at once.}}
-{{CSS Property
-|Initial value=See individual properties.
-|Applies to=All elements, &#58;&#58;before and &#58;&#58;after pseudo-elements.
-|Inherited=No
-|Media=visual
-|Computed value=See individual properties.
-|Animatable=No
-|CSS object model property=
-|CSS percentages=See individual properties.
-|Values={{CSS Property Value
-|Data Type=single-animation [, single-animation]*
-|Description=A list of values for each of the individual animation properties. The animation name and duration are required; all other values are optional. Multiple animations can be assigned as a comma-separated list.
+---
+title: animation
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Shorthand property to define a CSS animation, setting all parameters at once.'
+code_samples:
+  - 'http://gist.github.com/7044978'
+uri: css/properties/animation
 
-;<code>&lt;single-animation-name&gt;</code>
-:Value of the [[css/properties/animation-name|'''animation-name''']] property.
-;<code>&lt;single-animation-duration&gt;</code>
-:Value of the [[css/properties/animation-duration|'''animation-duration''']] property.
-;<code>&lt;single-animation-timing-function&gt;</code>
-:Value of the [[css/properties/animation-timing-function|'''animation-timing-function''']] property.
-;<code>&lt;single-animation-delay&gt;</code>
-:Value of the [[css/properties/animation-delay|'''animation-delay''']] property.
-;<code>&lt;single-animation-iteration-count&gt;</code>
-:Value of the [[css/properties/animation-iteration-count|'''animation-iteration-count''']] property.
-;<code>&lt;single-animation-direction&gt;</code>
-:Value of the [[css/properties/animation-direction|'''animation-direction''']] property.
-;<code>&lt;single-animation-fill-mode&gt;</code>
-:Value of the [[css/properties/animation-fill-mode|'''animation-fill-mode''']] property.
+---
+# animation
 
-'''Note:''' The first <code>&lt;time&gt;</code> value is assigned to the '''animation-duration'''. The second <code>&lt;time&gt;</code> value is assigned to the '''animation-delay'''.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=See [[css/properties/animation-play-state|animation-play-state]] for an example that uses the animation shorthand property.
-|Code=nav.expanded > div.selected {
+## Summary
+
+Shorthand property to define a CSS animation, setting all parameters at once.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `See individual properties.`
+Applies to
+:   All elements, ::before and ::after pseudo-elements.
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   See individual properties.
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   See individual properties.
+
+## Syntax
+
+-   `animation: single-animation [, single-animation]*`
+
+## Values
+
+single-animation [, single-animation]\*
+:   A list of values for each of the individual animation properties. The animation name and duration are required; all other values are optional. Multiple animations can be assigned as a comma-separated list.
+
+`<single-animation-name>`
+:   Value of the [**animation-name**](/css/properties/animation-name) property.
+`<single-animation-duration>`
+:   Value of the [**animation-duration**](/css/properties/animation-duration) property.
+`<single-animation-timing-function>`
+:   Value of the [**animation-timing-function**](/css/properties/animation-timing-function) property.
+`<single-animation-delay>`
+:   Value of the [**animation-delay**](/css/properties/animation-delay) property.
+`<single-animation-iteration-count>`
+:   Value of the [**animation-iteration-count**](/css/properties/animation-iteration-count) property.
+`<single-animation-direction>`
+:   Value of the [**animation-direction**](/css/properties/animation-direction) property.
+`<single-animation-fill-mode>`
+:   Value of the [**animation-fill-mode**](/css/properties/animation-fill-mode) property.
+
+**Note:** The first `<time>` value is assigned to the **animation-duration**. The second `<time>` value is assigned to the **animation-delay**.
+
+## Examples
+
+See [animation-play-state](/css/properties/animation-play-state) for an example that uses the animation shorthand property.
+
+``` {.css}
+nav.expanded > div.selected {
     animation: pulse 1s infinite;
 }
-|LiveURL=http://code.webplatform.org/gist/7044978
-}}
-}}
-{{Notes_Section
-|Usage=The <code>animation</code> shorthand property combines all animation properties except '''[[css/properties/animation-play-state|animation-play-state]]''' in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <code>&lt;time&gt;</code> values are supplied, the first is assigned to the duration, and the second to the delay.
+```
+
+[View live example](http://code.webplatform.org/gist/7044978)
+
+## Usage
+
+     The animation shorthand property combines all animation properties except animation-play-state in a single declaration. The name and duration of the animation are required, but all other values are optional. When two <time> values are supplied, the first is assigned to the duration, and the second to the delay.
 
 Values for a single animation are separated by spaces. Multiple animations can be assigned as a comma-separated list.
-|Notes=Before the advent of CSS3, most animations were performed by using Javascript to move HTML DOM elements. This was not optimal, as the browser would not know anything about the DOM element it was moving until it executed the Javascript which moved it, making hardware accelerating animations difficult for vendors. So, CSS3's animation module was born. 
 
-This module allows browser vendors to better support animations with hardware acceleration, especially important on CPU constrained devices such as mobile devices. Because the browser controls the  inbetween state, or ''tween'' as it is more commonly known, between two animation states, it can fully hardware accelerate the resultant animation. This leads to lower CPU usage, smoother graphics and less battery intensive web pages on mobile devices.
+## Notes
 
-Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [[css/atrules/@keyframes|'''@keyframes''']] section in the CSS. The browser automatically handles the "tween" between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.
+Before the advent of CSS3, most animations were performed by using Javascript to move HTML DOM elements. This was not optimal, as the browser would not know anything about the DOM element it was moving until it executed the Javascript which moved it, making hardware accelerating animations difficult for vendors. So, CSS3's animation module was born.
 
-Also, see [[tutorials/css_animations|this CSS animations tutorial]].
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Animations
-|URL=http://www.w3.org/TR/css3-animations/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
-*[[css/atrules/@keyframes|@keyframes]]
-*[[css/properties/animation-delay|animation-delay]]
-*[[css/properties/animation-direction|animation-direction]]
-*[[css/properties/animation-duration|animation-duration]]
-*[[css/properties/animation-fill-mode|animation-fill-mode]]
-*[[css/properties/animation-iteration-count|animation-iteration-count]]
-*[[css/properties/animation-name|animation-name]]
-*[[css/properties/animation-play-state|animation-play-state]]
-*[[css/properties/animation-timing-function|animation-timing-function]]
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10.0
-|Note=The -ms- prefix property is deprecated and should not be used.
-}}{{Compatibility Notes Row
-|Browser=Chrome
-|Version=All so far
-|Note=Chrome currently uses a lot of CPU resources when animations are played as the animation is hardware accelerated, however, as it moves it reports its position back to the dom many times per second. Safari doesn't seem to suffer from this problem.  This issue can be tracked here: http://code.google.com/p/chromium/issues/detail?id=130850
-}}
-}}
+This module allows browser vendors to better support animations with hardware acceleration, especially important on CPU constrained devices such as mobile devices. Because the browser controls the inbetween state, or *tween* as it is more commonly known, between two animation states, it can fully hardware accelerate the resultant animation. This leads to lower CPU usage, smoother graphics and less battery intensive web pages on mobile devices.
+
+Animations use keyframes to specify points of animation and timing to state when those keyframes should appear. Those keyframes exist in a separate [**@keyframes**](/css/atrules/@keyframes) section in the CSS. The browser automatically handles the "tween" between each keyframe property. Animation is a shorthand property that defines all the properties of an animation in a single declaration. Animation applies to all elements. See the keyframes section linked above for a list of properties that can be animated.
+
+Also, see [this CSS animations tutorial](/tutorials/css_animations).
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Animations](http://www.w3.org/TR/css3-animations/)
+:   W3C Working Draft
+
+## See also
+
+### Other articles
+
+-   [Making things move with CSS3 animations](/tutorials/css_animations)
+-   [@keyframes](/css/atrules/@keyframes)
+-   [animation-delay](/css/properties/animation-delay)
+-   [animation-direction](/css/properties/animation-direction)
+-   [animation-duration](/css/properties/animation-duration)
+-   [animation-fill-mode](/css/properties/animation-fill-mode)
+-   [animation-iteration-count](/css/properties/animation-iteration-count)
+-   [animation-name](/css/properties/animation-name)
+-   [animation-play-state](/css/properties/animation-play-state)
+-   [animation-timing-function](/css/properties/animation-timing-function)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

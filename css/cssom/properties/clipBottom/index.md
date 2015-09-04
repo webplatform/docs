@@ -1,84 +1,81 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Gets the bottom coordinate of the object clipping region.}}
-{{API_Object_Property
-|Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
-|Read_only=No
-|Example_object_name=declaration
-|Return_value_name=
-|Javascript_data_type=String
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example reads the '''clipBottom''' property from the [[css/cssom/currentStyle|'''currentStyle''']] object of an image.
-|Code=&lt;SCRIPT&gt;
+---
+title: clipBottom
+tags:
+  - API
+  - Object
+  - Properties
+  - CSS
+readiness: 'Ready to Use'
+summary: 'Gets the bottom coordinate of the object clipping region.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipBottom.htm'
+uri: css/cssom/properties/clipBottom
+
+---
+# clipBottom
+
+## Summary
+
+Gets the bottom coordinate of the object clipping region.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = declaration.clipBottom;
+declaration.clipBottom = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+## Examples
+
+This example reads the **clipBottom** property from the [**currentStyle**](/css/cssom/currentStyle) object of an image.
+
+``` {.html}
+<SCRIPT>
 function setClip(sOptionValue) {
-    oImage.style.clip{{=}}"rect(0,100,"+sOptionValue+",0)";
-    if (oImage.currentStyle.clipBottom {{=}}{{=}} "60px") {
+    oImage.style.clip="rect(0,100,"+sOptionValue+",0)";
+    if (oImage.currentStyle.clipBottom == "60px") {
         alert("The image has been clipped to 60px.");
         }
 :
-}	 
-&lt;/SCRIPT&gt;
+}
+</SCRIPT>
 :
-&lt;IMG ID{{=}}oImage SRC{{=}}"/workshop/graphics/sphere.png"&gt;
+<IMG ID=oImage SRC="/workshop/graphics/sphere.png">
 :
-Pick an amount to clip the bottom: 
+Pick an amount to clip the bottom:
     // the option value is sent as an argument:
-&lt;SELECT onchange{{=}}"setClip(value)"&gt;
-&lt;OPTION VALUE{{=}}100&gt;reset &lt;/OPTION&gt;
-&lt;OPTION VALUE{{=}}40&gt;40px &lt;/OPTION&gt;
-&lt;OPTION VALUE{{=}}50&gt;50px &lt;/OPTION&gt;
-&lt;OPTION VALUE{{=}}60&gt;60px &lt;/OPTION&gt;
-&lt;/SELECT&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipBottom.htm
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/clip|clip]]</code>
-*<code>[[css/cssom/properties/clipLeft|clipLeft]]</code>
-*<code>[[css/cssom/properties/clipRight|clipRight]]</code>
-*<code>[[css/cssom/properties/clipTop|clipTop]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+<SELECT onchange="setClip(value)">
+<OPTION VALUE=100>reset </OPTION>
+<OPTION VALUE=40>40px </OPTION>
+<OPTION VALUE=50>50px </OPTION>
+<OPTION VALUE=60>60px </OPTION>
+</SELECT>
+```
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipBottom.htm)
+
+## See also
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `style`
+-   `Reference`
+-   `clip`
+-   `clipLeft`
+-   `clipRight`
+-   `clipTop`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

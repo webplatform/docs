@@ -1,51 +1,31 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Stub, Missing Relevant Sections, Needs Review
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Provides the auto increment flag for this object store.}}
-{{API_Object_Property
-|Property_applies_to=apis/indexeddb/IDBObjectStore
-|Read_only=No
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: autoIncrement
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: IndexedDB
+readiness: 'In Progress'
+notes:
+  - 'Needs example, spec reference, standardization status'
+summary: 'Provides the auto increment flag for this object store.'
+uri: apis/indexeddb/IDBObjectStore/autoIncrement
+
+---
+# autoIncrement
+
+## Summary
+
+Provides the auto increment flag for this object store.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.autoIncrement;
+element.autoIncrement = value;
+```
+
+**Needs Examples**: This section should include examples.
+

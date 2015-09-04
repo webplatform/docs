@@ -1,73 +1,65 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Defines a 2D scale transformation.}}
-{{CSS_Function
-|Content=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=The following code snippet is an example of the '''scale''' function in use as applied to a square blue [[html/elements/div|'''div''']] element.
-|Code=div {    
+---
+title: scale()
+tags:
+  - CSS
+  - Functions
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Defines a 2D scale transformation.'
+uri: css/functions/scale()
+
+---
+# scale()
+
+## Summary
+
+Defines a 2D scale transformation.
+
+## Examples
+
+The following code snippet is an example of the **scale** function in use as applied to a square blue [**div**](/html/elements/div) element.
+
+``` {.css}
+div {
   transform: scale(1.65, 0.6);
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-If the second parameter is not provided, it is takes a value equal to the first.
-The function '''scale'''(1, 1) leaves the element unchanged, while '''scale'''(2, 2) causes it to appear twice as long in both the ''x''- and ''y''-axes, or four times its original size.
-|Import_Notes====Syntax===
-'''scale'''
-<code>(''
-&lt;scaling-value-x&gt;
-'' '''[''' , ''
-&lt;scaling-value-y&gt;
-'' ''']''')</code>
-===Parameters===
-;''scaling-value-x'':Numerical value by which to scale the specified element in the ''x''-direction.
-;''scaling-value-y'':Optional. Numerical value by which to scale the specified element in the ''y''-direction.
+```
 
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Transforms Module Level 3
-|URL=http://www.w3.org/TR/css3-transforms/
-|Status=Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>Transform Functions</code>
-*<code>[http://go.microsoft.com/fwlink/p/?LinkId{{=}}256246 Mathematical Description of Transform Functions]</code>
-*<code>[http://go.microsoft.com/fwlink/?LinkID{{=}}240163 Hands On: 2D Transforms]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## Notes
+
+### Remarks
+
+If the second parameter is not provided, it is takes a value equal to the first. The function **scale**(1, 1) leaves the element unchanged, while **scale**(2, 2) causes it to appear twice as long in both the *x*- and *y*-axes, or four times its original size.
+
+### Syntax
+
+**scale** `( <scaling-value-x>  [ ,  <scaling-value-y>  ])`
+
+### Parameters
+
+*scaling-value-x*
+:   Numerical value by which to scale the specified element in the *x*-direction.
+*scaling-value-y*
+:   Optional. Numerical value by which to scale the specified element in the *y*-direction.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Transforms Module Level 3](http://www.w3.org/TR/css3-transforms/)
+:   Working Draft
+
+## See also
+
+### Related pages (MSDN)
+
+-   `Transform Functions`
+-   `Mathematical Description of Transform Functions`
+-   `Hands On: 2D Transforms`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

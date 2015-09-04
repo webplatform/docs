@@ -1,55 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Summary, examples, compatibility, clean-up of MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLTrackElement
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-A label can be any identifying string. This string is displayed in the HTML5 video player. For example, the following track element appears as "French language track" in the player:
-This property is not implemented for [[apis/audio-video/AudioTrack|'''AudioTrack''']].
-'''Note'''  To create timed text files in both Web Video Text Track (WebVTT) and Timed Text Markup Language (TTML) formats, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251121 HTML5 Video Caption Maker] on the Windows Internet Explorer test drive site.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML]
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>track element</code>
-*<code>track object</code>
-*<code>[[apis/audio-video/TextTrack|TextTrack]]</code>
-*<code>[[apis/audio-video/AudioTrack|AudioTrack]]</code>
-*<code>[[apis/audio-video/TextTrackList|TextTrackList]]</code>
-*<code>video</code>
-}}
-{{Topics|API, Audio, DOM, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: label
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Audio
+  5: DOM
+  6: Video
+readiness: 'Not Ready'
+notes:
+  - 'Summary, examples, compatibility, clean-up of MSDN import'
+uri: dom/HTMLTrackElement/label
+
+---
+# label
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLTrackElement](/dom/HTMLTrackElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.label;
+element.label = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+A label can be any identifying string. This string is displayed in the HTML5 video player. For example, the following track element appears as "French language track" in the player: This property is not implemented for [**AudioTrack**](/apis/audio-video/AudioTrack). **Note**  To create timed text files in both Web Video Text Track (WebVTT) and Timed Text Markup Language (TTML) formats, see [HTML5 Video Caption Maker](http://go.microsoft.com/fwlink/p/?LinkID=251121) on the Windows Internet Explorer test drive site.
+
+### Syntax
+
+### Standards information
+
+-   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374)
+
+## See also
+
+### Related pages (MSDN)
+
+-   `track element`
+-   `track object`
+-   `TextTrack`
+-   `AudioTrack`
+-   `TextTrackList`
+-   `video`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

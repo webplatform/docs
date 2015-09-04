@@ -1,68 +1,82 @@
-{{Page_Title|q – quote}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Add description/notes, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name|q}}
-{{Summary_Section|The '''q''' element represents some phrasing content quoted from another source.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLQuoteElement
-|Tag_omissions=required
-|CSS_display=inline
-|Content=Do not use quote characters (<code>'</code>, <code>"</code>, <code>``</code>, etc) when using the '''q''' element. If used with the [[html/elements/cite]] element, the cite must contain a valid url.
+---
+title: q
+tags:
+  - Markup
+  - Elements
+  - HTML
+  - Usability
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add description/notes, compatibility.'
+summary: 'The q element represents some phrasing content quoted from another source.'
+uri: html/elements/q
 
-== Attributes ==
+---
+# q – quote
 
-* <code>cite</code> =  valid URL potentially surrounded by spaces<br />Specifies the address in the quotation source. [[#Example_B|[Example B]]]
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''q''' element to set apart a quotation in text.
-|Code=&lt;p>She then said, &lt;q>See you around, kiddo!&lt;/q>&lt;/p>
-}}{{Single Example
-|Language=HTML
-|Description=This example shows that the '''q''' element can have child elements.
-|Code=&lt;p>Chicken Little: &lt;q>The sky is falling…
-the sky is falling… &lt;em>the sky is falling!&lt;/em>&lt;/q>&lt;/p>
-}}
-}}
-{{Notes_Section
-|Usage=The '''q''' should be used to denote short, inline quotes that do not need a paragraph of their own.
-For longer quotes, please use the [[html/elements/blockquote|'''blockquote''']] element.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-q-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-q-element
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/text.html#edef-Q
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section
-|Manual_links=* [[html/elements/cite|<code>cite</code>]]
-* [[html/elements/blockquote|<code>blockquote</code>]]
-}}
-{{Topics|HTML, Usability}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## q
+
+For technical reasons, the title of this article is not the text used to call this API. Instead, use `q`
+
+## Summary
+
+The q element represents some phrasing content quoted from another source.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLQuoteElement](/dom/HTMLQuoteElement)
+
+Do not use quote characters (`'`, `"`, ``` `` ```, etc) when using the **q** element. If used with the [html/elements/cite](/html/elements/cite) element, the cite must contain a valid url.
+
+## Attributes
+
+-   `cite` = valid URL potentially surrounded by spaces
+    Specifies the address in the quotation source. [[Example B]](#Example_B)
+
+## Examples
+
+This example uses the **q** element to set apart a quotation in text.
+
+``` {.html}
+<p>She then said, <q>See you around, kiddo!</q></p>
+```
+
+This example shows that the **q** element can have child elements.
+
+``` {.html}
+<p>Chicken Little: <q>The sky is falling…
+the sky is falling… <em>the sky is falling!</em></q></p>
+```
+
+## Usage
+
+     The q should be used to denote short, inline quotes that do not need a paragraph of their own.
+
+For longer quotes, please use the [**blockquote**](/html/elements/blockquote) element.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-q-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-q-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-Q)
+:   W3C Recommendation
+
+## See also
+
+### Other articles
+
+-   [`cite`](/html/elements/cite)
+-   [`blockquote`](/html/elements/blockquote)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

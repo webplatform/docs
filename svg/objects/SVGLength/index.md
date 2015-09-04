@@ -1,48 +1,75 @@
-{{Page Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{API_Object
-|Subclass_of=svg/objects/SVGElement
-}}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
+---
+title: SVGLength
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/objects/SVGLength
 
-===Remarks===
+---
+# SVGLength
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
 
-You can designate an '''SVGLength''' object as read-only, so that attempts to modify the object raises  an '''NoModificationAllowedError''' exception.
+## Properties
 
-|Import_Notes=
+*No properties.*
 
-===Standards information===
+## Methods
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.11
+*No methods.*
 
-===Members===
+## Events
 
-The '''SVGLength''' object has these methods:
+*No events.*
 
-*[[svg/methods/convertToSpecifiedUnits|'''convertToSpecifiedUnits''']]: Changes the stored unit identifier to the specified type.
-*[[svg/methods/newValueSpecifiedUnits|'''newValueSpecifiedUnits''']]: Resets the  specified  value as a number with the specified '''unit type''',  replacing the values for all of the attributes on the object.
+## Inherited from SVGElement
 
-The '''SVGLength''' object has these properties:
+### Properties
 
-*[[svg/properties/unitType  (SVGLength)|'''unitType''']]: Gets or sets a value that indicates the type of length units.
-*[[svg/properties/value|'''value''']]: Gets or sets the value of the given attribute.
-*[[svg/properties/valueAsString|'''valueAsString''']]: Gets or sets the string form of the [[svg/properties/value|'''value''']] property, in the units that '''svgUnitTypes''' specifies.
-*[[svg/properties/valueInSpecifiedUnits|'''valueInSpecifiedUnits''']]: Gets or sets the length or angle value, as a floating point number, in the units that '''svgUnitTypes''' specifies.
+*No properties.*
 
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+## Notes
+
+### Remarks
+
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+You can designate an **SVGLength** object as read-only, so that attempts to modify the object raises an **NoModificationAllowedError** exception.
+
+### Standards information
+
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.11
+
+### Members
+
+The **SVGLength** object has these methods:
+
+-   [**convertToSpecifiedUnits**](/svg/methods/convertToSpecifiedUnits): Changes the stored unit identifier to the specified type.
+-   [**newValueSpecifiedUnits**](/svg/methods/newValueSpecifiedUnits): Resets the specified value as a number with the specified **unit type**, replacing the values for all of the attributes on the object.
+
+The **SVGLength** object has these properties:
+
+-   [**unitType**](/svg/properties/unitType_(SVGLength)): Gets or sets a value that indicates the type of length units.
+-   [**value**](/svg/properties/value): Gets or sets the value of the given attribute.
+-   [**valueAsString**](/svg/properties/valueAsString): Gets or sets the string form of the [**value**](/svg/properties/value) property, in the units that **svgUnitTypes** specifies.
+-   [**valueInSpecifiedUnits**](/svg/properties/valueInSpecifiedUnits): Gets or sets the length or angle value, as a floating point number, in the units that **svgUnitTypes** specifies.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

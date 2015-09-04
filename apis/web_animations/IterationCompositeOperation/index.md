@@ -1,37 +1,52 @@
-{{Page_Title}}
-{{Flags
-|State=
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The possible values of an animation effect’s iteration composite operation are represented by the IterationCompositeOperation enumeration.}}
-{{API_Object
-|Subclass_of=enum
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: IterationCompositeOperation
+tags:
+  - API
+  - Objects
+  - Web
+  - Animations
+readiness: readiness-state
+summary: 'The possible values of an animation effect’s iteration composite operation are represented by the IterationCompositeOperation enumeration.'
+uri: 'apis/web animations/IterationCompositeOperation'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - enum
+
+---
+# IterationCompositeOperation
+
+## Summary
+
+The possible values of an animation effect’s iteration composite operation are represented by the IterationCompositeOperation enumeration.
+
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[enum](/w/index.php?title=enum&action=edit&redlink=1)</span></span>
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Inherited from enum
+
+### Properties
+
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+

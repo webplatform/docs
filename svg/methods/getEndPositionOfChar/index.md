@@ -1,47 +1,43 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: getEndPositionOfChar
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/getEndPositionOfChar
 
-===Remarks===
+---
+# getEndPositionOfChar
 
-The character's  current text position does not  consider  the effects of any inter-character adjustments to prepare for the next character, such as kerning, letter spacing,  word spacing, and adjustments because of  the  [[svg/properties/x|'''x''']], [[svg/properties/y|'''y''']], [[svg/properties/dx|'''dx''']], and [[svg/properties/dy|'''dy''']] attributes. If multiple consecutive characters are rendered inseparably (for example, as a single glyph or a sequence of glyphs), each of the inseparable characters returns the end position for the last glyph.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
- ISVGPoint retVal = ''object.''getEndPositionOfChar(charnum);
+The character's current text position does not consider the effects of any inter-character adjustments to prepare for the next character, such as kerning, letter spacing, word spacing, and adjustments because of the [**x**](/svg/properties/x), [**y**](/svg/properties/y), [**dx**](/svg/properties/dx), and [**dy**](/svg/properties/dy) attributes. If multiple consecutive characters are rendered inseparably (for example, as a single glyph or a sequence of glyphs), each of the inseparable characters returns the end position for the last glyph.
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
+    ISVGPoint retVal = object.getEndPositionOfChar(charnum);
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.1
 
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/etextContent|'''SVGTextContentElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGTextContentElement**](/svg/elements/etextContent)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

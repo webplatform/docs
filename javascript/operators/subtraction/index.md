@@ -1,74 +1,63 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Subtracts the value of one expression from another or provides unary negation of a single expression.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=result '''=''' number1 '''-''' number2 ;
-}}
-|Values={{JS Syntax Parameter
-|Name=result
-|Required=
-|Description=Any numeric variable.
-}}{{JS Syntax Parameter
-|Name=number1
-|Required=
-|Description=Any numeric expression.
-}}{{JS Syntax Parameter
-|Name=number2
-|Required=
-|Description=Any numeric expression.
-}}
-}}
-{{JS_Return_Value
-|Description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=var x = 5;
+---
+title: subtraction
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Subtracts the value of one expression from another or provides unary negation of a single expression.'
+uri: javascript/operators/subtraction
+
+---
+# subtraction
+
+## Summary
+
+Subtracts the value of one expression from another or provides unary negation of a single expression.
+
+## Syntax
+
+    result = number1 - number2 ;
+
+**result**
+:   Any numeric variable.
+
+**number1**
+:   Any numeric expression.
+
+**number2**
+:   Any numeric expression.
+
+## Examples
+
+``` {.js}
+var x = 5;
 var y = 7;
 var z;
 z = y - x; // result: z = 2
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=In Syntax 1, the '''-''' operator is the arithmetic subtraction operator used to find the difference between two numbers. In Syntax 2, the '''-''' operator is used as the unary negation operator to indicate the negative value of an expression.
+```
+
+## Remarks
+
+In Syntax 1, the **-** operator is the arithmetic subtraction operator used to find the difference between two numbers. In Syntax 2, the **-** operator is used as the unary negation operator to indicate the negative value of an expression.
 
 For Syntax 2, as for all unary operators, expressions are evaluated as follows:
 
-* If applied to undefined or null expressions, a run-time error is raised.
-* Objects are converted to strings.
-* Strings are converted to numbers if possible. If not, a run-time error is raised.
-* Boolean values are treated as numbers (0 if false, 1 if true).
+-   If applied to undefined or null expressions, a run-time error is raised.
+-   Objects are converted to strings.
+-   Strings are converted to numbers if possible. If not, a run-time error is raised.
+-   Boolean values are treated as numbers (0 if false, 1 if true).
+
 The operator is applied to the resulting number. In Syntax 2, if the resulting number is nonzero, result is equal to the resulting number with its sign reversed. If the resulting number is zero, result is zero.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/operators/subtraction assignment{{!}}Subtraction Assignment Operator (-=)]]
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/9ty8kw3w(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+
+## See also
+
+### Other articles
+
+-   [Subtraction Assignment Operator (-=)](/javascript/operators/subtraction_assignment)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9ty8kw3w(v=vs.94).aspx)
+

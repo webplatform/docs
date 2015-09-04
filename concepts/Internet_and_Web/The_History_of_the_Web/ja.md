@@ -1,26 +1,80 @@
-{{Page_Title|Webの歴史}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Not in English? Text seriously damaged; deletion candidate.
-|Checked_Out=No
-}}
-{{API_Name}}
-{{Summary_Section|<blockquote>
-「どこから始めればよろしいでしょうか、陛下？」
-「最初から始めよ」と、王様は重々しく口を開きます。「最後まで続け、そこで止めよ。」
-    ―ルイス・キャロル『不思議の国のアリス』
-</blockquote>
+---
+title: ja
+tags:
+  - Concept
+  - Pages
+readiness: 'Not Ready'
+notes:
+  - 'Not in English? Text seriously damaged; deletion candidate.'
+summary: "\n「どこから始めればよろしいでしょうか、陛下？」\n「最初から始めよ」と、王様は重々しく口を開きます。「最後まで続け、そこで止めよ。」\n    ―ルイス・キャロル『不思議の国のアリス』\n\n\n全てのものには「はじまり」があります。ですから、このカリキュラムも歴史を紐解くことから始めましょう。この記事では、インターネットと World Wide Web、 そしてこのコースのテーマである\"Web標準\"のはじまりについて簡単に紹介します。\nこの記事は、インターネットや Web がどのような出来事を通じ現在に至ったのかを理解するのにとても役立つと思います。文章も長くありませんから、情報に圧倒されることなく詳細にすばやくたどり着けるでしょう。\n記事の中には、あなたの良く知らない単語が出てくるかもしれません。でも、そんなに心配しないでください。それが Web 開発を学ぶにあたって重要な概念であれば、後々の記事でその詳細を含めちゃんと説明してくれるはずです。もちろん、検索することだってできますし。\nただ、すでにインターネットや World Wide Web の歴史を知っているのであれば、どうぞ Web 標準のセクションから始めてください。\n"
+uri: 'concepts/Internet and Web/the history of the web/ja'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'concepts/Internet and Web/the history of the web/af'
+    - 'concepts/Internet and Web/the history of the web/ar'
+    - 'concepts/Internet and Web/the history of the web/ast'
+    - 'concepts/Internet and Web/the history of the web/az'
+    - 'concepts/Internet and Web/the history of the web/bcc'
+    - 'concepts/Internet and Web/the history of the web/bg'
+    - 'concepts/Internet and Web/the history of the web/br'
+    - 'concepts/Internet and Web/the history of the web/ca'
+    - 'concepts/Internet and Web/the history of the web/cs'
+    - 'concepts/Internet and Web/the history of the web/da'
+    - 'concepts/Internet and Web/the history of the web/de'
+    - 'concepts/Internet and Web/the history of the web/diq'
+    - 'concepts/Internet and Web/the history of the web/el'
+    - 'concepts/Internet and Web/the history of the web/eo'
+    - 'concepts/Internet and Web/the history of the web/fa'
+    - 'concepts/Internet and Web/the history of the web/fi'
+    - 'concepts/Internet and Web/the history of the web/fr'
+    - 'concepts/Internet and Web/the history of the web/gl'
+    - 'concepts/Internet and Web/the history of the web/gu'
+    - 'concepts/Internet and Web/the history of the web/he'
+    - 'concepts/Internet and Web/the history of the web/hu'
+    - 'concepts/Internet and Web/the history of the web/hy'
+    - 'concepts/Internet and Web/the history of the web/id'
+    - 'concepts/Internet and Web/the history of the web/it'
+    - 'concepts/Internet and Web/the history of the web/ka'
+    - 'concepts/Internet and Web/the history of the web/kk'
+    - 'concepts/Internet and Web/the history of the web/km'
+    - 'concepts/Internet and Web/the history of the web/ko'
+    - 'concepts/Internet and Web/the history of the web/ksh'
+    - 'concepts/Internet and Web/the history of the web/kw'
+    - 'concepts/Internet and Web/the history of the web/mk'
+    - 'concepts/Internet and Web/the history of the web/ml'
+    - 'concepts/Internet and Web/the history of the web/mr'
+    - 'concepts/Internet and Web/the history of the web/ms'
+    - 'concepts/Internet and Web/the history of the web/nl'
+    - 'concepts/Internet and Web/the history of the web/no'
+    - 'concepts/Internet and Web/the history of the web/oc'
+    - 'concepts/Internet and Web/the history of the web/pl'
+    - 'concepts/Internet and Web/the history of the web/pt'
+    - 'concepts/Internet and Web/the history of the web/pt-br'
+    - 'concepts/Internet and Web/the history of the web/ro'
+    - 'concepts/Internet and Web/the history of the web/ru'
+    - 'concepts/Internet and Web/the history of the web/si'
+    - 'concepts/Internet and Web/the history of the web/sk'
+    - 'concepts/Internet and Web/the history of the web/sl'
+    - 'concepts/Internet and Web/the history of the web/sq'
+    - 'concepts/Internet and Web/the history of the web/sr'
+    - 'concepts/Internet and Web/the history of the web/sv'
+    - 'concepts/Internet and Web/the history of the web/ta'
+    - 'concepts/Internet and Web/the history of the web/th'
+    - 'concepts/Internet and Web/the history of the web/uk'
+    - 'concepts/Internet and Web/the history of the web/vi'
+    - 'concepts/Internet and Web/the history of the web/yue'
+    - 'concepts/Internet and Web/the history of the web/zh'
+    - 'concepts/Internet and Web/the history of the web/zh-hans'
+    - 'concepts/Internet and Web/the history of the web/zh-hant'
+    - 'concepts/Internet and Web/the history of the web/zh-tw'
 
-全てのものには「はじまり」があります。ですから、このカリキュラムも歴史を紐解くことから始めましょう。この記事では、インターネットと World Wide Web、 そしてこのコースのテーマである"Web標準"のはじまりについて簡単に紹介します。
+---
+# Webの歴史
 
-この記事は、インターネットや Web がどのような出来事を通じ現在に至ったのかを理解するのにとても役立つと思います。文章も長くありませんから、情報に圧倒されることなく詳細にすばやくたどり着けるでしょう。
+## Summary
 
-記事の中には、あなたの良く知らない単語が出てくるかもしれません。でも、そんなに心配しないでください。それが Web 開発を学ぶにあたって重要な概念であれば、後々の記事でその詳細を含めちゃんと説明してくれるはずです。もちろん、検索することだってできますし。
-
-ただ、すでにインターネットや World Wide Web の歴史を知っているのであれば、どうぞ [[#Web_.E6.A8.99.E6.BA.96.E3.81.AE.E5.88.B0.E6.9D.A5|Web 標準]]のセクションから始めてください。
-}}
-{{Concept_Page
-|Content=== インターネットのはじまり ==
+## インターネットのはじまり
 
 1957年10月4日。この日、世界を変える出来事が起こりました。ソビエト連邦が史上初めて、地球軌道上への人工衛星発射に成功したのです。「スプートニク1号」と呼ばれるこの人工衛星は、世界中に衝撃を与えました。中でも、人工衛星の発射計画を進めていたアメリカ合衆国にとって、そのショックはとても大きなものでした。
 
@@ -44,7 +98,7 @@ ARPA で情報処理オフィスを率いる傍ら、Licklider は1962年にコ�
 
 1982年には、アメリカ以外からの ARPANET 接続は、すべてこの新しい "TCP/IP" プロトコルに変換されるようになりました。私達の知るインターネットが、ついに到来したのです。
 
-== World Wide Web の創成 ==
+## World Wide Web の創成
 
 インターネット上の情報検索システムとして、Gopher というものが1990年代初頭に使われていました。Gopher はファイルへのリンクを含むメニューを提供する仕組みで、リンク先のファイルにはコンピューター上のリソースはもちろん、別のメニューを含むことができました。このメニューという概念により、コンピューターとインターネットの境界を越えて、他のシステム内のメニューを取得することができたのです。Gopher は学内の情報を提供する手段を探していた大学や、文書の保管や管理を中央集権的に行いたいという大きな組織にとても人気でした。
 
@@ -58,7 +112,7 @@ ARPA で情報処理オフィスを率いる傍ら、Licklider は1962年にコ�
 
 以降、Web ブラウザーの数は飛躍的に増加しました。ブラウザーの多くは、大学や企業による研究プロジェクトの成果として公開されたものでした。Opera もそのひとつで、ノルウェーの通信会社 Telenor が1994年に公開したものがはじまりです。
 
-== 「ブラウザー戦争」の勃発 ==
+## 「ブラウザー戦争」の勃発
 
 Web の認知は、商業的な関心をももたらしました。Mark Andreessen は NCSA を離れ、Jim Clark と共同で Mosaic Communications を設立 (後に Netscape Communications Corporation に社名変更) し、後に Netscape Navigator と呼ばれる Web ブラウザーの開発に乗り出しました。Netscape Navigator のバージョン1.0は、1994年12月にリリースされました。
 
@@ -66,13 +120,13 @@ Web の認知は、商業的な関心をももたらしました。Mark Andreess
 
 すぐに、市場で優位に立つための競争が始まりました。Netscape と Microsoft は開発者を惹きつけるために、機能の拡張を行ったのです。これは「ブラウザー戦争」と呼ばれました。一方 Opera はこの競争のなか、小さいながらも着実にその存在を維持し、Web 標準への対応や、Web 標準の発明を可能な限り行っていました。
 
-== Web 標準の到来 ==
+## Web 標準の到来
 
 ブラウザー戦争のさなか、Microsoft と Netscape は新しい機能の実装に躍起になっており、既にサポートしている機能のバグを修正することを疎かにしていました。彼らはまた、プロプライエタリな機能の追加もたくさん行われました。さらには競争のために、他のブラウザーで実装されている機能を、互換性のないやり方で実装するなんてことも行っていたのです。
 
 当時の開発者は Web サイトを構築する際に、こんな混乱した状況に対処しなければいけなかったのです。二大ブラウザーに対応させるために、同じ内容の Web サイトを2つ構築することもありました。または、どちらかのブラウザーにだけ対応させ、もう一方のユーザーを蚊帳の外に置くといったことも起こりました。こんなひどい状況でしたから、開発者のうっぷんは堪りにたまっていました。
 
-== W3C の設立 ==
+## W3C の設立
 
 1994年に、Tim Berners-Lee は CERN、DARPA (ARPA より改称)、欧州委員会の支援を受け、マサチューセッツ工科大学に World Wide Web Consortium (W3C) を設立しました。W3C のミッションは、Web を構築する技術やプロトコルの標準化を行い、世界中の人に可能な限りWeb上の情報を提供することです。
 
@@ -82,7 +136,7 @@ Web の認知は、商業的な関心をももたらしました。Mark Andreess
 
 ですから、この「ブラウザー戦争」が落ち着くことはありませんでした。
 
-== Web Standards Project ==
+## Web Standards Project
 
 1998年には、ブラウザー市場がすでに Internet Explorer 4 と Netscape Navigator 4 に支配されていました。そんな中、プロプライエタリな機能であるダイナミック HTML を実装した、Internet Explorer 5のベータ版が公開されたのです。これにより、Web 開発者は異なる JavaScript の書き方を、5つも学ばなければならなくなったのです。
 
@@ -94,7 +148,7 @@ Web の認知は、商業的な関心をももたらしました。Mark Andreess
 
 あまり良い印象を持たないかもしれませんが、WaSP は何も批判だけしていたわけではありません。助けてもいたのです。たとえば、7人のメンバーは "CSS Samurai" を組織し、Opera や Internet Explorer の CSS サポートにおける、10の大きな問題を指摘しました（Opera はその後問題を修正しましたが、Internet Explorer が修正を行うことはありませんでした。）
 
-== Web 標準の高まり ==
+## Web 標準の高まり
 
 2000年に、Microsoft は Macintosh 版の Internet Explorer 5 をリリースしました。これは活気的な出来事でした。なぜなら、このバージョンは W3C 勧告を充分な水準でサポートしており、また Mac OS のデフォルトブラウザーだったからです。Macintosh 版の Internet Explorer の Web 標準サポートは、Opera の優れた CSS、HTML サポートとともに、とても肯定的に受け入れられました。Web 開発者やデザイナーが、Web 標準によるデザインをはじめて心地よいと感じた瞬間だったのです。
 
@@ -102,11 +156,9 @@ Web の認知は、商業的な関心をももたらしました。Mark Andreess
 
 2001年のはじめに、人気の Web 開発サイト "A List Apart" がリデザインされました。このリデザインについて、手法や理由を説明した記事が公開されているのですが、その中にこんな一節があります。
 
-<blockquote>
-    In six months, a year, or two years at most, all sites will be designed with these standards. […] We can watch our skills grow obsolete, or start learning standards-based techniques now. 
-
-(訳: 半年か一年、いや二年後には全てのサイトが、これらの Web 標準を利用してデザインされるだろう。[…] いま私達にできることは、今までのやり方が古くなるのをただ見ているか、新しい Web 標準ベースな技術を学び始めるかのどちらかだ。)
-</blockquote>
+> In six months, a year, or two years at most, all sites will be designed with these standards. […] We can watch our skills grow obsolete, or start learning standards-based techniques now.
+>
+> (訳: 半年か一年、いや二年後には全てのサイトが、これらの Web 標準を利用してデザインされるだろう。[…] いま私達にできることは、今までのやり方が古くなるのをただ見ているか、新しい Web 標準ベースな技術を学び始めるかのどちらかだ。)
 
 この予想はすこし前向きすぎました。2008年になっても、全てのサイトが Web 標準で作られている訳ではないからです。しかし、この言葉には多くの人が耳を傾けていました。古いブラウザーはシェアを落とし、そして Wired magazine と ESPN という2つの大きなサイトが、それぞれ2002年と2003年に、Web 標準によってリデザインされたのです。彼らは Web 標準や新しい技術を支持する第一人者となりました。
 
@@ -114,85 +166,64 @@ Web の認知は、商業的な関心をももたらしました。Mark Andreess
 
 それ以来、Web 標準は Web 開発コミュニティで当たり前の存在になりました。そしてこのコースは、Web 標準によるデザイン手法の基礎を知ることのできる、素晴らしい資料になっています。このコースを進めていけば大手サイトのように、きれいで、意味がちゃんと表現されていて、アクセシブルで、そして Web 標準に準拠するWebサイトを作れるようになるのです。
 
-== 新しい Web 標準 ==
-<!-- r20148 -->
-<!-- After 2003, web standards didn't just sit still. New practices started to really come to the forefront, with many web sites being more like desktop applications than static pages. This new breed of sites is way more complicated than what the web was really intended for, and we still have to concern ourselves with making them semantic, accessible and usable!-->
-2003年以降も、Web 標準が歩みを止めることはありませんでした。多くの Web サイトが静的なページよりもデスクトップアプリケーションのようになったことで、新しい開発手法が最前線となったのです。この新しいタイプの Web サイトは、Web が意図していたものよりもずっと複雑なものでした。ですから、引き続き意味がちゃんと表現されていて、またアクセシブルで、さらに使い勝手のいい Web サイトにするための努力が続けられています。
- 
-<!--When HTML 4 was nearing completion, the W3C decided (in a [http://www.w3.org/MarkUp/future/ workshop run in 1998]) that in terms of markup languages, the future of the Web was XML and XHTML, not HTML ([http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#What_is_XHTML.3F comparison of XHTML and HTML]). So the W3C drew a line under HTML 4.01 and instead concentrated on the [http://www.w3.org/TR/xhtml1/ XHTML 1.0] spec, finished in early 2000. XHTML 1.0 is just the same as HTML 4.01, except that it uses the stricter markup syntax rules of XML (more on this later). [http://www.w3.org/TR/xhtml2/ XHTML 2.0] soon followed, which added a whole bunch of new powerful features, and aimed to be the next big thing on the Web.-->
-さて、話は少し前に戻ります。HTML 4 が完成に近づいた1998年、W3C は[http://www.w3.org/MarkUp/future/ ワークショップ]にて、次世代の Web マークアップ言語は HTML ではなく、XML と XHTML であると決定しました（[http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#What_is_XHTML.3F XHTML と HTML の違い]）。そして W3C は HTML 4.01 以降の策定に見切りをつけ、[http://www.w3.org/TR/xhtml1/ XHTML 1.0] 仕様の策定に注力し、2000年の初めに完成させました。XHTML 1.0 はほとんど HTML 4.01 と同じですが、XML の厳密なマークアップ構文にもとづいています。XHTML 1.0 完成後すぐ [http://www.w3.org/TR/xhtml2/ XHTML 2.0] の策定が始まりました。XHTML 2.0 では数多くの強力な機能が追加され、Web の次なる目玉となることが期待されていました。
+## 新しい Web 標準
 
-<!--The trouble with XHTML 2.0 is that it wasn't backwards compatible with the markup already on the Web — the elements worked differently, XHTML did not work properly in Internet Explorer, which still has the majority browser market share as of the time of writing, the developer tools available weren't ready for working with XML, and it didn't reflect what web developers were REALLY doing out there in the wild wild web.-->
+2003年以降も、Web 標準が歩みを止めることはありませんでした。多くの Web サイトが静的なページよりもデスクトップアプリケーションのようになったことで、新しい開発手法が最前線となったのです。この新しいタイプの Web サイトは、Web が意図していたものよりもずっと複雑なものでした。ですから、引き続き意味がちゃんと表現されていて、またアクセシブルで、さらに使い勝手のいい Web サイトにするための努力が続けられています。
+
+さて、話は少し前に戻ります。HTML 4 が完成に近づいた1998年、W3C は[ワークショップ](http://www.w3.org/MarkUp/future/)にて、次世代の Web マークアップ言語は HTML ではなく、XML と XHTML であると決定しました（[XHTML と HTML の違い](http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript#What_is_XHTML.3F)）。そして W3C は HTML 4.01 以降の策定に見切りをつけ、[XHTML 1.0](http://www.w3.org/TR/xhtml1/) 仕様の策定に注力し、2000年の初めに完成させました。XHTML 1.0 はほとんど HTML 4.01 と同じですが、XML の厳密なマークアップ構文にもとづいています。XHTML 1.0 完成後すぐ [XHTML 2.0](http://www.w3.org/TR/xhtml2/) の策定が始まりました。XHTML 2.0 では数多くの強力な機能が追加され、Web の次なる目玉となることが期待されていました。
+
 しかし、XHTML 2.0 には今の Web 上にあるマークアップとの後方互換性を欠いていました。まず、要素の挙動が違っていました。また、XHTML はその頃もっとも大きなシェアを持っていた Internet Explorer で適切に動作しませんでした。開発者のためのツールは XML まだうまく扱えませんでした。そしてなにより XHTML 2.0 は、新しいタイプの Web サイトが現れる荒々しい現状の中、Web 開発者が実際にやっていることに対するアプローチを、何ら行なっていなかったのです。
- 
-<!--In 2004, a group of like minded developers and implementers (including representatives from Opera, Mozilla and slightly later, Apple) got together and formed a breakaway spec group called the [http://www.whatwg.org/ WHATWG], with the aim of writing a better HTML markup spec that could handle authoring the new breed of web applications, without — crucially — breaking backwards compatibility.-->
-2004年、熱心な開発者と実装者（Opera, Mozilla, 後にAppleも参加）が一緒になり、[http://www.whatwg.org/ WHATWG] という新たな仕様策定グループを設立しました。WHATWG の目的は、新しいタイプの Web アプリケーションの開発を扱えつつ、そして「何より」後方互換性を壊すことのない、良い HTML マークアップ仕様を策定することです。
- 
-<!--The result was the [http://www.whatwg.org/specs/web-apps/2005-09-01/ Web Applications 1.0 specification], which documented existing interoperable browser behaviours and features, as well as new features for the Web stack such as APIs and new DOM parsing rules. After many discussions between W3C Members, on March 7 2007 the work on HTML was restarted with a new HTML Working Group in an open participation process. In the first few days, hundreds of participants joined to continue to work on the next version of HTML. One of the first decisions of the HTML WG was to adopt the Web Applications 1.0 spec and call it HTML5.-->
-WHATWG の活動結果は [http://www.whatwg.org/specs/web-apps/2005-09-01/ Web Applications 1.0 仕様]として公開されました。Web Applications 1.0 は既存のブラウザの挙動と機能に互換な仕様と、API や DOM パース処理の仕組みなど Web スタックへの新しい機能を定義しました。そして 2007年3月7日、W3C メンバーとの間に行った数多くの議論を経て、HTML 仕様の策定が新たなHTML ワーキンググループの立ち上げと共に再開されました。新しい HTML ワーキンググループは誰もが参加できるオープンなプロセスのもと運営され、設立後数日の間に数百を超える参加者が次期バージョンの HTML 仕様を策定すべく集まりました。しばらくののち、HTML ワーキンググループは Web Applications 1.0 仕様を受け入れ、さらに仕様を HTML5 と改称すると決定しました。
- 
-<!--HTML5 is a really good thing for web developers and designers, because it:-->
+
+2004年、熱心な開発者と実装者（Opera, Mozilla, 後にAppleも参加）が一緒になり、[WHATWG](http://www.whatwg.org/) という新たな仕様策定グループを設立しました。WHATWG の目的は、新しいタイプの Web アプリケーションの開発を扱えつつ、そして「何より」後方互換性を壊すことのない、良い HTML マークアップ仕様を策定することです。
+
+WHATWG の活動結果は [Web Applications 1.0 仕様](http://www.whatwg.org/specs/web-apps/2005-09-01/)として公開されました。Web Applications 1.0 は既存のブラウザの挙動と機能に互換な仕様と、API や DOM パース処理の仕組みなど Web スタックへの新しい機能を定義しました。そして 2007年3月7日、W3C メンバーとの間に行った数多くの議論を経て、HTML 仕様の策定が新たなHTML ワーキンググループの立ち上げと共に再開されました。新しい HTML ワーキンググループは誰もが参加できるオープンなプロセスのもと運営され、設立後数日の間に数百を超える参加者が次期バージョンの HTML 仕様を策定すべく集まりました。しばらくののち、HTML ワーキンググループは Web Applications 1.0 仕様を受け入れ、さらに仕様を HTML5 と改称すると決定しました。
+
 HTML5 は Web 開発者や Web デザイナーにとてもよい仕様です。なぜなら、
 
-<!--* Is mostly backwards compatible with what's already there — you don't need to learn completely new languages to use HTML5. The new markup features work in the same way as the old ones (although the semantics of some elements have been changed — we will cover these differences in a future article), and the new APIs are based on mostly the same JavaScript/DOM that developers have been programming in for years.
-* Adds powerful new features to HTML that were previously only available on the Web using plugin technologies like Flash, or with complex JavaScript and hacks. Form validation and video are prime examples.
-* Is better suited to writing dynamic applications than previous HTML versions (HTML was originally designed for creating static documents).
-* Has a clearly defined parsing algorithm so that all browsers implementing HTML5 will create the same DOM from the same markup, regardless of validity. This is a massive win for interoperability.-->
-* HTML5 は今までのものと互換性があります。まったく新しい言語を習わずとも HTML5 は使えます。新しいマークアップ機能は古い機能と同じように動作します（ただし、いくつかの要素の意味は変わってしまいました。これは別の記事で取り上げます）。新しい API も、開発者が長年プログラムしていた JavaScript/DOM とほぼ同じです。
-* HTML5 では、これまで Flash のような Web プラグイン技術や複雑な JavaScript、ハックなどを必要としていた、強力な機能を新たに追加指定ます。フォームの検証機能やビデオがその代表例です。
-* HTML5 は以前の HTML よりも、動的なアプリケーションの開発に適しています（HTML はもともと静的な文書を作成するために作られました）。
-* HTML5 では、明示的なパースアルゴリズムを定義しました。つまり。HTML5を実装するブラウザは同じマークアップから同じ DOM を生成します（valid であるかないかにかかわらずです）。これは相互運用性の確保において、とても重要なことです。
+-   HTML5 は今までのものと互換性があります。まったく新しい言語を習わずとも HTML5 は使えます。新しいマークアップ機能は古い機能と同じように動作します（ただし、いくつかの要素の意味は変わってしまいました。これは別の記事で取り上げます）。新しい API も、開発者が長年プログラムしていた JavaScript/DOM とほぼ同じです。
+-   HTML5 では、これまで Flash のような Web プラグイン技術や複雑な JavaScript、ハックなどを必要としていた、強力な機能を新たに追加指定ます。フォームの検証機能やビデオがその代表例です。
+-   HTML5 は以前の HTML よりも、動的なアプリケーションの開発に適しています（HTML はもともと静的な文書を作成するために作られました）。
+-   HTML5 では、明示的なパースアルゴリズムを定義しました。つまり。HTML5を実装するブラウザは同じマークアップから同じ DOM を生成します（valid であるかないかにかかわらずです）。これは相互運用性の確保において、とても重要なことです。
 
-<!--The evolution of CSS is not nearly as long winded and controversial as that of HTML, but it is still very interesting, and worth a mention here. The CSS2 specification was nearing completion around 1999/2000, and although it was a powerful language with many great features, its creators knew that it had limitations. There were a number of visual/stylistic things that CSS couldn't do, and that developers had to turn to hacks, JavaScript or plugins to achieve. This includes things such as animation, dynamic layouts, and using custom fonts on pages.-->
 CSS の発展については、HTML ほど息も長く、また賛否両論あるようなものではありませんでした。しかし、とても面白いので記しておきましょう。CSS2 仕様は1999年から2000年に完成間近な状況でした。CSS2 は素晴らしい機能をいくつも備えた強力な言語になりましたが、策定者たちは、仕様に足りない機能がまだまだあると感じていました。CSS で実現できない視覚表現はたくさんあり、開発者はハックや JavaScript、プラグインを使ってそれらを実現していました。いくつか例を挙げると、アニメーション、動的なレイアウト、カスタムフォントの利用です。
 
-<!--To begin to address this, work started on CSS3 as early as 2000. The spec writers decided on a modular structure, with different pieces of distinct functionality being broken down into manageable chunks. This made it easier not only for the writers to write, but also for the browsers to implement, and the web designers/developers to learn. A lot more features have been added since the first spec version in 2000, and we didn't start to see browser support for many of the features until about 2006. At the time of writing, CSS3 has over 40 modules in various stages of completion. You can track their progress and find out more at the W3C [http://www.w3.org/Style/CSS/current-work CSS current work & how to participate] page.-->
-これら CSS2 にできないことを解決すべく、2000年初頭から CSS3 の策定作業が始まりました。仕様の策定者はモジュール構造を採用し、多様な機能を管理しやすい個々の単位に分割することにしました<!-- hmm -->。モジュール構造の採用は、策定者の作業だけではなく、ブラウザーベンダーの実装や Web デザイナー/Web 開発者の学習にも役立ちました。2000年の策定初期から、CSS3 にはとても多くの機能が追加され続けました。しかし多くのブラウザで実装され始めたのは2006年くらいになってからのことです。この記事を書いている現在、CSS3 には 40 を超えるモジュールがあります。それぞれ完成度合いが異なり、W3C の [http://www.w3.org/Style/CSS/current-work CSS current work] ページでその進行状況を伺えます。
+これら CSS2 にできないことを解決すべく、2000年初頭から CSS3 の策定作業が始まりました。仕様の策定者はモジュール構造を採用し、多様な機能を管理しやすい個々の単位に分割することにしました。モジュール構造の採用は、策定者の作業だけではなく、ブラウザーベンダーの実装や Web デザイナー/Web 開発者の学習にも役立ちました。2000年の策定初期から、CSS3 にはとても多くの機能が追加され続けました。しかし多くのブラウザで実装され始めたのは2006年くらいになってからのことです。この記事を書いている現在、CSS3 には 40 を超えるモジュールがあります。それぞれ完成度合いが異なり、W3C の [CSS current work](http://www.w3.org/Style/CSS/current-work) ページでその進行状況を伺えます。
 
-<!--You can find more out about CSS3 and HTML5 later on in the course.-->
 このコースでは、CSS3 と HTML5 についてもっと取り上げます。
 
-== まとめ ==
+## まとめ
 
 この記事では、宇宙開発競争が現在のインターネットを生み出したこと、Tim Berners-Lee が世代を超えたハイパーテキストを定義したこと、2つの企業が商業的な関心から、歴史に残る開発者の反発を生んだことを説明しました。「Web 標準」という言葉は Web プロフェッショナルの間で広く使われていますが、W3C の中でも使われています（彼らのページにもこの単語が出ていますね）。ですので、これが私達が教えること、つまり Web サイトを構築する標準的なやり方になります。
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=もっと知りたいと思った方は、次のサイトも読んでみましょう。
- 
-* [http://en.wikipedia.org/wiki/History_of_the_Internet The history of the Internet (Wikipedia)]
-* [http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web The history of the World Wide Web (Wikipedia)]
-* [http://www.w3.org/Consortium/history The history of the W3C]
-* [http://webstandards.org/ The Web Standards Project], and their [http://www.webstandards.org/about/history/ history]
-* [http://www.alistapart.com/ A List Apart]
-* [http://www.csszengarden.com/ CSS Zen Garden]
-|External_links=
-|Manual_sections=== 課題 ==
+
+## See also
+
+### Other articles
+
+もっと知りたいと思った方は、次のサイトも読んでみましょう。
+
+-   [The history of the Internet (Wikipedia)](http://en.wikipedia.org/wiki/History_of_the_Internet)
+-   [The history of the World Wide Web (Wikipedia)](http://en.wikipedia.org/wiki/History_of_the_World_Wide_Web)
+-   [The history of the W3C](http://www.w3.org/Consortium/history)
+-   [The Web Standards Project](http://webstandards.org/), and their [history](http://www.webstandards.org/about/history/)
+-   [A List Apart](http://www.alistapart.com/)
+-   [CSS Zen Garden](http://www.csszengarden.com/)
+
+## 課題
 
 もっと調べたいと思った方は、次の問題に答えてみましょう。
 
-* Windows、Mac OS X、Linux には、どんなブラウザーがありますか？
-* 各ブラウザー利用者の割合はどのようになっていますか？
-* モバイル端末が Web にアクセスする際、どんなブラウザーを利用しますか？
-* W3C が公開した「Web 標準」の数はどれくらいになりますか？そして、ブラウザーベンダーによって広く実装されているものはどれですか？
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=DevOpera
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Languages}}
+-   Windows、Mac OS X、Linux には、どんなブラウザーがありますか？
+-   各ブラウザー利用者の割合はどのようになっていますか？
+-   モバイル端末が Web にアクセスする際、どんなブラウザーを利用しますか？
+-   W3C が公開した「Web 標準」の数はどれくらいになりますか？そして、ブラウザーベンダーによって広く実装されているものはどれですか？
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+This content was originally published on [DevOpera](http://dev.opera.com), Opera's Developer Network. .
+
+**言語:**
+:   **[English](/concepts/Internet_and_Web/the_history_of_the_web)**  • <span lang="es">[español](/concepts/Internet_and_Web/the_history_of_the_web/es)</span> • <span lang="ja">**日本語**</span> • <span lang="tr">[Türkçe](/concepts/Internet_and_Web/the_history_of_the_web/tr)</span>
+
+「どこから始めればよろしいでしょうか、陛下？」 「最初から始めよ」と、王様は重々しく口を開きます。「最後まで続け、そこで止めよ。」 ―ルイス・キャロル『不思議の国のアリス』 全てのものには「はじまり」があります。ですから、このカリキュラムも歴史を紐解くことから始めましょう。この記事では、インターネットと World Wide Web、 そしてこのコースのテーマである"Web標準"のはじまりについて簡単に紹介します。 この記事は、インターネットや Web がどのような出来事を通じ現在に至ったのかを理解するのにとても役立つと思います。文章も長くありませんから、情報に圧倒されることなく詳細にすばやくたどり着けるでしょう。 記事の中には、あなたの良く知らない単語が出てくるかもしれません。でも、そんなに心配しないでください。それが Web 開発を学ぶにあたって重要な概念であれば、後々の記事でその詳細を含めちゃんと説明してくれるはずです。もちろん、検索することだってできますし。 ただ、すでにインターネットや World Wide Web の歴史を知っているのであれば、どうぞ Web 標準のセクションから始めてください。

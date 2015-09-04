@@ -1,40 +1,37 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Parent object obsolete; deletion candidate
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The number of tracks in the list.}}
-{{API_Object_Property
-|Property_applies_to=apis/webrtc/MediaStreamTrackList
-|Read_only=Yes
-|Example_object_name=list
-|Return_value_name=length
-|Javascript_data_type=unsigned long
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: length
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: WebRTC
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Parent object obsolete; deletion candidate'
+summary: 'The number of tracks in the list.'
+uri: apis/webrtc/MediaStreamTrackList/length
+
+---
+# length
+
+## Summary
+
+The number of tracks in the list.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var length = list.length;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+
+**Needs Examples**: This section should include examples.
+

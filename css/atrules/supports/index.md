@@ -1,33 +1,43 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The CSS <code>@supports</code> at-rule lets authors detect support of CSS features directly in CSS.}}
-{{CSS_At_Rule
-|Content=The CSS at-rule <code>@supports</code> is part of the [http://dev.w3.org/csswg/css3-conditional/ CSS Conditional Rules Module Level 3] Draft. It allows authors to condition rules based on whether particular property declarations are supported in CSS.
+---
+title: @supports
+tags:
+  - CSS
+  - At
+  - Rules
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The CSS @supports at-rule lets authors detect support of CSS features directly in CSS.'
+uri: css/atrules/@supports
 
-In other words <code>@supports</code> lets you detect browser support of CSS features directly in CSS. [http://modernizr.com/ Modernizr] is a well known library that detects features using JavaScript.
+---
+# @supports
 
-The operators <code>and</code> and <code>or</code> allows to chain the detection of several features.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=An abstract example with the detection of support for <code>display: flex</code> (known as [http://www.w3.org/TR/css3-flexbox/ CSS Flexible Box Layout Module]):
-|Code=@supports (display: flex) {
+## Summary
+
+The CSS @supports at-rule lets authors detect support of CSS features directly in CSS.
+
+ The CSS at-rule `@supports` is part of the [CSS Conditional Rules Module Level 3](http://dev.w3.org/csswg/css3-conditional/) Draft. It allows authors to condition rules based on whether particular property declarations are supported in CSS.
+
+In other words `@supports` lets you detect browser support of CSS features directly in CSS. [Modernizr](http://modernizr.com/) is a well known library that detects features using JavaScript.
+
+The operators `and` and `or` allows to chain the detection of several features.
+
+## Examples
+
+An abstract example with the detection of support for `display: flex` (known as [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/)):
+
+``` {.css}
+@supports (display: flex) {
   div {
     display: flex;
   }
 }
-}}{{Single Example
-|Language=CSS
-|Description=Chaining detection of several features using the operator <code>and</code>:
-|Code=@supports (background: rgba(0,0,0,0.2)) and (opacity: 0.8) {
+```
+
+Chaining detection of several features using the operator `and`:
+
+``` {.css}
+@supports (background: rgba(0,0,0,0.2)) and (opacity: 0.8) {
   body {
     background: rgba(0,0,0,0.2);
   }
@@ -36,12 +46,14 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
     opacity: 0.8;
   }
 }
-}}{{Single Example
-|Language=CSS
-|Description=To detect if an experimental feature is supported with vendor-prefixes the <code>or</code> operator might be helpful:
+```
 
-(This example does not include <code>-o-</code> and <code>-ms-</code> prefixes as neither Opera nor Microsoft supported a prefixed version of <code>box-shadow</code>.)
-|Code=@supports (-webkit-box-shadow: 0 0 2px #000) or
+To detect if an experimental feature is supported with vendor-prefixes the `or` operator might be helpful:
+
+(This example does not include `-o-` and `-ms-` prefixes as neither Opera nor Microsoft supported a prefixed version of `box-shadow`.)
+
+``` {.css}
+@supports (-webkit-box-shadow: 0 0 2px #000) or
           (   -moz-box-shadow: 0 0 2px #000) or
           (        box-shadow: 0 0 2px #000) {
 
@@ -51,70 +63,50 @@ The operators <code>and</code> and <code>or</code> allows to chain the detection
             box-shadow: 0 0 2px #000;
   }
 }
-}}
-}}
-{{Notes_Section
-|Usage=Browser support for this feature is still pretty limited.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Conditional Rules Module Level 3
-|URL=http://www.w3.org/TR/css3-conditional/
-|Status=Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=28
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=17
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Firefox
-|Version=17+
-|Note=It's disabled by default in the release and beta builds.
-}}{{Compatibility Notes Row
-|Browser=Chrome
-|Version=28-29
-|Note=Using @supports on Chrome 28-29 breaks following :not selectors (http://crbug.com/257695)
-}}{{Compatibility Notes Row
-|Browser=Opera
-|Version=15-16
-|Note=Using @supports on Opera 15-16 breaks following :not selectors (http://crbug.com/257695)
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Syntax
-|External_links=* [http://dev.w3.org/csswg/css3-conditional/#at-supports @supports in the CSS Conditional Rules Editor's Draft]
-* [https://developer.mozilla.org/en-US/docs/CSS/@supports @supports in the MDN]
-* [http://dabblet.com/gist/3895764 Test-case]
-* [http://mcc.id.au/blog/2012/08/supports On Firefox' support in version 17]
-* [http://my.opera.com/desktopteam/blog/2012/10/09/flexbox-and-supports Support in Opera 12.1]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Usage
+
+     Browser support for this feature is still pretty limited.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Conditional Rules Module Level 3](http://www.w3.org/TR/css3-conditional/)
+:   Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Syntax
+
+-   [@charset](/css/atrules/@charset)
+
+-   [@font-face](/css/atrules/@font-face)
+
+-   [@import](/css/atrules/@import)
+
+-   [@keyframes](/css/atrules/@keyframes)
+
+-   [@namespace](/css/atrules/@namespace)
+
+-   [@page](/css/atrules/@page)
+
+-   **@supports**
+
+-   [CSS reference](/css/reference)
+
+-   [Alphabetical list of CSS reference](/css/reference/alphabetical)
+
+-   [!important](/css/syntax/!important)
+
+### External resources
+
+-   [@supports in the CSS Conditional Rules Editor's Draft](http://dev.w3.org/csswg/css3-conditional/#at-supports)
+-   [@supports in the MDN](https://developer.mozilla.org/en-US/docs/CSS/@supports)
+-   [Test-case](http://dabblet.com/gist/3895764)
+-   [On Firefox' support in version 17](http://mcc.id.au/blog/2012/08/supports)
+-   [Support in Opera 12.1](http://my.opera.com/desktopteam/blog/2012/10/09/flexbox-and-supports)
+

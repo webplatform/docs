@@ -1,57 +1,52 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs summary, example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=css/cssom/screen
-|Read_only=No
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-Retrieving the value of the property through script enables you to select an appropriate color to return to the client.
-If [[css/cssom/screen/bufferDepth|'''bufferDepth''']] is 0 or -1, '''colorDepth''' is equal to the bits-per-pixel value for the screen or printer. If '''bufferDepth''' is nonzero, '''colorDepth''' is equal to '''bufferDepth'''.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199793 CSSOM View Module], 4.2
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/screen|screen]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: colorDepth
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+uri: css/cssom/screen/colorDepth
+
+---
+# colorDepth
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/screen](/css/cssom/screen)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.colorDepth;
+element.colorDepth = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+Retrieving the value of the property through script enables you to select an appropriate color to return to the client. If [**bufferDepth**](/css/cssom/screen/bufferDepth) is 0 or -1, **colorDepth** is equal to the bits-per-pixel value for the screen or printer. If **bufferDepth** is nonzero, **colorDepth** is equal to **bufferDepth**.
+
+### Syntax
+
+### Standards information
+
+-   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), 4.2
+
+## See also
+
+### Related pages (MSDN)
+
+-   `screen`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

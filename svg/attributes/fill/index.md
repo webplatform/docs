@@ -1,73 +1,69 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs parent, example, spec reference, standardization status
-|Checked_Out=Yes
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The attribute fill specifies the filling color or the behavior of an animation after it has finished.}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-|Content==== Context: Shapes and Text ===
+---
+title: fill
+tags:
+  - Markup
+  - Attributes
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Needs parent, example, spec reference, standardization status'
+summary: 'The attribute fill specifies the filling color or the behavior of an animation after it has finished.'
+uri: svg/attributes/fill
+
+---
+# fill
+
+## Summary
+
+The attribute fill specifies the filling color or the behavior of an animation after it has finished.
+
+Applies to
+:    ?
+
+### Context: Shapes and Text
+
 Fill defines the color of a surface of text or a shape.
 
-==== Syntax ====
- '''fill:''' none {{!}} currentColor {{!}} funciri {{!}} inherit
+#### Syntax
 
+    fill: none | currentColor | funciri | inherit
 
-This attribute has a corresponding [[css/properties/fill | CSS property]].
+ This attribute has a corresponding [CSS property](/css/properties/fill).
 
-====Standards information====
+#### Standards information
 
-*[http://www.w3.org/TR/SVG11/painting.html Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.3
+-   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://www.w3.org/TR/SVG11/painting.html), Section 11.3
 
+### Context: Animation Elements
 
-=== Context: Animation Elements ===
 Fill specifies whether after an animation the animated value should be preserved or removed from the element.
 
-====Syntax====
- '''fill:''' remove {{!}} freeze
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+#### Syntax
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[css/cssom/currentStyle|'''currentStyle''']]
-*[[css/cssom/style|'''style''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
-*[[svg/attributes/stroke|'''stroke''']]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+    fill: remove | freeze
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**currentStyle**](/css/cssom/currentStyle)
+-   [**style**](/css/cssom/style)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+-   [**stroke**](/svg/attributes/stroke)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

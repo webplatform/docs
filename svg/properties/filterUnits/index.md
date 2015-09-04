@@ -1,48 +1,49 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Examples_Section
-|Not_required=No
-|Examples=}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: filterUnits
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/filterUnits
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - svg/properties/filterUnits/svg/elements/filter
 
-===Remarks===
+---
+# filterUnits
 
-'''filterUnits''' defines the coordinate system for the filter attributes x, y, width and height. If '''filterUnits{{=}}"userSpaceOnUse"''', all attributes represent values in the current user coordinate system that is in place at the time when the filter is referenced.
+**Needs Examples**: This section should include examples.
 
-If '''filterUnits{{=}}"objectBoundingBox"''', then all attributes represent fractions or percentages of the bounding box on the referencing element.
+## Notes
 
-If attribute '''filterUnits''' is not specified, then the effect is the same as  specifying a value of '''objectBoundingBox'''.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+**filterUnits** defines the coordinate system for the filter attributes x, y, width and height. If **filterUnits="userSpaceOnUse"**, all attributes represent values in the current user coordinate system that is in place at the time when the filter is referenced.
 
-===Standards information===
+If **filterUnits="objectBoundingBox"**, then all attributes represent fractions or percentages of the bounding box on the referencing element.
 
-*[http://www.w3.org/TR/SVG11/filters.html| SVG 1.1 Specification], Section 15.5
+If attribute **filterUnits** is not specified, then the effect is the same as specifying a value of **objectBoundingBox**.
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Syntax
 
-===Related pages===
+### Standards information
 
-Please see [[/svg/elements/filter | documentation on the filter element]] for more context and examples on how to use the filterUnits property.
-*[[svg/elements/filter|'''SVGFilterElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+-   [[http://www.w3.org/TR/SVG11/filters.html](http://www.w3.org/TR/SVG11/filters.html)
+
+## See also
+
+### Related pages
+
+Please see [documentation on the filter element](/w/index.php?title=svg/properties/filterUnits/svg/elements/filter&action=edit&redlink=1) for more context and examples on how to use the filterUnits property.
+
+-   [**SVGFilterElement**](/svg/elements/filter)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

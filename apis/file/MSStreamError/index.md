@@ -1,49 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Non-standard; deletion candidate
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Needs Review
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|The MSStreamError object reports file-related errors asynchronously.
+---
+title: MSStreamError
+tags:
+  0: API
+  1: Objects
+  3: FileAPI
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+notes:
+  - 'Non-standard; deletion candidate'
+summary: "The MSStreamError object reports file-related errors asynchronously.\n"
+uri: apis/file/MSStreamError
 
-Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.
-}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+# MSStreamError
+
+## Summary
+
+The MSStreamError object reports file-related errors asynchronously.
+
+Obsolete per latest specification. Use [DOMError](/dom/DOMError) instead.
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

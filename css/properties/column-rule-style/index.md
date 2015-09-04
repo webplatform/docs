@@ -1,109 +1,149 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add description, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specifies the style of the rule between columns. The column-rule-style values are the same as for border-style.}}
-{{CSS Property
-|Initial value=none
-|Applies to=multi-column elements
-|Inherited=No
-|Media=visual
-|Computed value=specified value
-|Animatable=No
-|CSS object model property=columnRuleStyle
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=none
-|Description=Default. No column rule is drawn, regardless of any specified <code>column-rule-width</code>. The computed value is set to 0.
-}}{{CSS Property Value
-|Data Type=dotted
-|Description=Column rule is a dotted line.
-}}{{CSS Property Value
-|Data Type=dashed
-|Description=Column rule is a dashed line.
-}}{{CSS Property Value
-|Data Type=solid
-|Description=Column rule is a solid line.
-}}{{CSS Property Value
-|Data Type=double
-|Description=Column rule is two parallel solid lines with a space between. The sum of the two single lines and the space between equals the <code>column-rule-width</code> value. The column rule width must be at least 3 pixels wide to draw a double rule.
-}}{{CSS Property Value
-|Data Type=groove
-|Description=3-D groove is drawn in colors slightly lighter and darker than the value.
-}}{{CSS Property Value
-|Data Type=ridge
-|Description=3-D ridge is drawn in colors based on the value.
-}}{{CSS Property Value
-|Data Type=inset
-|Description=3-D inset is drawn in colors based on the value.
-}}{{CSS Property Value
-|Data Type=outset
-|Description=3-D outset is drawn in colors based on the value.
-}}{{CSS Property Value
-|Data Type=hidden
-|Description=Same as <code>none</code>.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Makes 3 columns with 4px dashed green column-rule.
-|Code=/*
+---
+title: column-rule-style
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Add description, compatibility.'
+summary: 'Specifies the style of the rule between columns. The column-rule-style values are the same as for border-style.'
+code_samples:
+  - 'http://gist.github.com/6288958'
+uri: css/properties/column-rule-style
+
+---
+# column-rule-style
+
+## Summary
+
+Specifies the style of the rule between columns. The column-rule-style values are the same as for border-style.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   multi-column elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   specified value
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `columnRuleStyle`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `column-rule-style: dashed`
+-   `column-rule-style: dotted`
+-   `column-rule-style: double`
+-   `column-rule-style: groove`
+-   `column-rule-style: hidden`
+-   `column-rule-style: inset`
+-   `column-rule-style: none`
+-   `column-rule-style: outset`
+-   `column-rule-style: ridge`
+-   `column-rule-style: solid`
+
+## Values
+
+none
+:   Default. No column rule is drawn, regardless of any specified `column-rule-width`. The computed value is set to 0.
+
+dotted
+:   Column rule is a dotted line.
+
+dashed
+:   Column rule is a dashed line.
+
+solid
+:   Column rule is a solid line.
+
+double
+:   Column rule is two parallel solid lines with a space between. The sum of the two single lines and the space between equals the `column-rule-width` value. The column rule width must be at least 3 pixels wide to draw a double rule.
+
+groove
+:   3-D groove is drawn in colors slightly lighter and darker than the value.
+
+ridge
+:   3-D ridge is drawn in colors based on the value.
+
+inset
+:   3-D inset is drawn in colors based on the value.
+
+outset
+:   3-D outset is drawn in colors based on the value.
+
+hidden
+:   Same as `none`.
+
+## Examples
+
+Makes 3 columns with 4px dashed green column-rule.
+
+``` {.css}
+/*
 Makes 3 columns with 4px dashed green column-rule
 */
 
 #columns {
   columns: 3;
-  
+
   /* Prefix free example below, use vendor prefixes where needed */
   column-rule-style: dashed;
   column-rule-color: green;
   column-rule-width: 5px;
 }
-|LiveURL=http://code.webplatform.org/gist/6288958
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Multi-column Layout Module
-|URL=http://www.w3.org/TR/css3-multicol/
-|Status=W3C Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Chrome
-|Note=Requires -webkit- prefix
-}}{{Compatibility Notes Row
-|Browser=Safari
-|Note=Requires -webkit- prefix
-}}{{Compatibility Notes Row
-|Browser=Opera
-|Version=14–Current
-|Note=Requires -webkit- prefix
-}}{{Compatibility Notes Row
-|Browser=Firefox
-|Note=Requires -moz- prefix
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Multi-Column
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/6288958)
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
+:   W3C Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Multi-Column
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [column-count](/css/properties/column-count)
+
+-   [column-gap](/css/properties/column-gap)
+
+-   [column-rule](/css/properties/column-rule)
+
+-   [column-rule-color](/css/properties/column-rule-color)
+
+-   **column-rule-style**
+
+-   [column-rule-width](/css/properties/column-rule-width)
+
+-   [column-span](/css/properties/column-span)
+
+-   [column-width](/css/properties/column-width)
+
+-   [content](/css/properties/content)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

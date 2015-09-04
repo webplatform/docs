@@ -1,50 +1,76 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set [[css/properties/border-width|border-width]], [[css/properties/border-style|border-style]] and [[css/properties/border-color|border-color]], or a subset of these.}}
-{{CSS Property
-|Initial value=medium none currentColor
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=concatenation of <code>border-width</code>, <code>border-style</code>, and <code>border-color</code>.
-|Animatable=Yes
-|CSS object model property=border
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=inherit
-|Description=When the value is set to <code>inherit</code>, the element will inherit the border values set on its parent.
-}}{{CSS Property Value
-|Data Type=<border-width> OR <border-style> OR <border-color>
-|Description=A concatenation of <code>&lt;border-width&gt;</code>, <code>&lt;border-style&gt;</code>, and <code>&lt;border-color&gt;</code>. At least one of these must be present, and they may appear in any order.
+---
+title: border
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Shorthand property that defines the different properties of all four sides of an element''s border in a single declaration. It can be used to set border-width, border-style and border-color, or a subset of these.'
+code_samples:
+  - 'http://gist.github.com/5534182'
+uri: css/properties/border
 
-'''<border-width>''': A numeric value with any of the standard length units. The initial value is <code>medium</code>, which most browsers will render as 3px. See the [[css/properties/border-width|border-width]] property.
+---
+# border
 
-'''<border-style>''': This takes any of the range of values available to the [[css/properties/border-style|border-style]] property. The initial value is <code>none</code>.
+## Summary
 
-'''<border-color>''': This takes any valid CSS color. See the [[css/properties/border-color|border-color]] property. The initial value is <code>currentColor</code>.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border</code> properties applied to them.
-|Code=&lt;div class="one"&gt;&lt;p&gt;One&lt;/p&gt;&lt;/div&gt;
-&lt;div class="two"&gt;&lt;p&gt;Two&lt;/p&gt;&lt;/div&gt;
-&lt;div class="three"&gt;&lt;p&gt;Three&lt;/p&gt;&lt;/div&gt;
-&lt;div class="four"&gt;&lt;p&gt;Four&lt;/p&gt;&lt;/div&gt;
-&lt;div class="five"&gt;&lt;p&gt;Five&lt;/p&gt;&lt;/div&gt;
-|LiveURL=http://code.webplatform.org/gist/5534182
-}}{{Single Example
-|Language=CSS
-|Description=
-|Code=/**
+Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set border-width, border-style and border-color, or a subset of these.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `medium none currentColor`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   concatenation of `border-width`, `border-style`, and `border-color`.
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `border`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `border: <border-width> OR <border-style> OR <border-color>`
+-   `border: inherit`
+
+## Values
+
+inherit
+:   When the value is set to `inherit`, the element will inherit the border values set on its parent.
+
+\<border-width\> OR \<border-style\> OR \<border-color\>
+:   A concatenation of `<border-width>`, `<border-style>`, and `<border-color>`. At least one of these must be present, and they may appear in any order.
+
+**\<border-width\>**: A numeric value with any of the standard length units. The initial value is `medium`, which most browsers will render as 3px. See the [border-width](/css/properties/border-width) property.
+
+**\<border-style\>**: This takes any of the range of values available to the [border-style](/css/properties/border-style) property. The initial value is `none`.
+
+**\<border-color\>**: This takes any valid CSS color. See the [border-color](/css/properties/border-color) property. The initial value is `currentColor`.
+
+## Examples
+
+A simple example showing multiple `<div>`s, identical in style except that they have different `border` properties applied to them.
+
+``` {.html}
+<div class="one"><p>One</p></div>
+<div class="two"><p>Two</p></div>
+<div class="three"><p>Three</p></div>
+<div class="four"><p>Four</p></div>
+<div class="five"><p>Five</p></div>
+```
+
+[View live example](http://code.webplatform.org/gist/5534182)
+
+``` {.css}
+/**
  * border example
 **/
 
@@ -60,7 +86,7 @@ p {
 }
 
 .one {
-  /* The most basic border example you can show. */ 
+  /* The most basic border example you can show. */
   border: 1px solid black;
 }
 
@@ -86,64 +112,153 @@ p {
   /* A more interesting border example to round things off. */
   border: 10px inset rgba(234,190,50,0.75);
 }
-|LiveURL=http://code.webplatform.org/gist/5534182
-}}
-}}
-{{Notes_Section
-|Usage=* It is usual to first use the <code>border</code> shorthand property to set the state of a default box, and then override it where needed, using the more specific shorthand properties <code>[[css/properties/border-width|border-width]]</code>, <code>[[css/properties/border-style|border-style]]</code>, and <code>[[css/properties/border-color|border-color]]</code>. Each of these properties may take up to four values, respective to the sides of the box.
-* It is also common to override the <code>border</code> property with the properties specific to each individual side: <code>[[css/properties/border-top|border-top]]</code>, <code>[[css/properties/border-right|border-right]]</code>, <code>[[css/properties/border-bottom|border-bottom]]</code>, and <code>[[css/properties/border-left|border-left]]</code>. Each of these properties may take up to three values, defining the appearance (width, style, and color) of the designated side.
-* The following twelve "longhand" properties can be used to define the entire border of an object:
-<code>[[css/properties/border-top-width|border-top-width]]</code>,
-<code>[[css/properties/border-top-style|border-top-style]]</code>,
-<code>[[css/properties/border-top-color|border-top-color]]</code>,
-<code>[[css/properties/border-right-width|border-right-width]]</code>,
-<code>[[css/properties/border-right-style|border-right-style]]</code>,
-<code>[[css/properties/border-right-color|border-right-color]]</code>,
-<code>[[css/properties/border-bottom-width|border-bottom-width]]</code>,
-<code>[[css/properties/border-bottom-style|border-bottom-style]]</code>,
-<code>[[css/properties/border-bottom-color|border-bottom-color]]</code>,
-<code>[[css/properties/border-left-width|border-left-width]]</code>,
-<code>[[css/properties/border-left-style|border-left-style]]</code>,
-<code>[[css/properties/border-left-color|border-left-color]]</code>.
-|Notes=* The initial value of <code>border</code> is the concatenated result of the initial values of each component.
-* A <code>border-bottom</code> can be used as a divider between vertically laid out items, such as navigation menu items, or a new section. Authors will sometimes use this technique rather than inserting an <code>[[html/elements/hr|&lt;hr/&gt;]]</code> element in the HTML.
-* Another common technique is to use <code>border-bottom</code> properties for link underlining rather than <code>text-decoration: underline</code>, as it affords the designer more control.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Level 3
-|URL=http://www.w3.org/TR/css3-background/#borders
-|Status=Candidate Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/box.html#border-shorthand-properties
-|Status=Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS Level 1
-|URL=http://www.w3.org/TR/CSS1/#border
-|Status=Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Border, Box Model
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/HTMLOptionElement/defaultSelected|defaultSelected]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5534182)
+
+## Usage
+
+     * It is usual to first use the border shorthand property to set the state of a default box, and then override it where needed, using the more specific shorthand properties border-width, border-style, and border-color. Each of these properties may take up to four values, respective to the sides of the box.
+
+-   It is also common to override the `border` property with the properties specific to each individual side: `border-top`, `border-right`, `border-bottom`, and `border-left`. Each of these properties may take up to three values, defining the appearance (width, style, and color) of the designated side.
+-   The following twelve "longhand" properties can be used to define the entire border of an object:
+
+`border-top-width`, `border-top-style`, `border-top-color`, `border-right-width`, `border-right-style`, `border-right-color`, `border-bottom-width`, `border-bottom-style`, `border-bottom-color`, `border-left-width`, `border-left-style`, `border-left-color`.
+
+## Notes
+
+-   The initial value of `border` is the concatenated result of the initial values of each component.
+-   A `border-bottom` can be used as a divider between vertically laid out items, such as navigation menu items, or a new section. Authors will sometimes use this technique rather than inserting an `<hr/>` element in the HTML.
+-   Another common technique is to use `border-bottom` properties for link underlining rather than `text-decoration: underline`, as it affords the designer more control.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Level 3](http://www.w3.org/TR/css3-background/#borders)
+:   Candidate Recommendation
+[CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/box.html#border-shorthand-properties)
+:   Recommendation
+[CSS Level 1](http://www.w3.org/TR/CSS1/#border)
+:   Recommendation
+
+## See also
+
+### Related articles
+
+#### Border
+
+-   **border**
+
+-   [border-bottom](/css/properties/border-bottom)
+
+-   [border-bottom-color](/css/properties/border-bottom-color)
+
+-   [border-bottom-left-radius](/css/properties/border-bottom-left-radius)
+
+-   [border-bottom-style](/css/properties/border-bottom-style)
+
+-   [border-bottom-width](/css/properties/border-bottom-width)
+
+-   [border-color](/css/properties/border-color)
+
+-   [border-image](/css/properties/border-image)
+
+-   [border-image-outset](/css/properties/border-image-outset)
+
+-   [border-image-repeat](/css/properties/border-image-repeat)
+
+-   [border-image-slice](/css/properties/border-image-slice)
+
+-   [border-image-source](/css/properties/border-image-source)
+
+-   [border-image-width](/css/properties/border-image-width)
+
+-   [border-left](/css/properties/border-left)
+
+-   [border-left-color](/css/properties/border-left-color)
+
+-   [border-left-style](/css/properties/border-left-style)
+
+-   [border-left-width](/css/properties/border-left-width)
+
+-   [border-radius](/css/properties/border-radius)
+
+-   [border-right](/css/properties/border-right)
+
+-   [border-right-color](/css/properties/border-right-color)
+
+-   [border-right-style](/css/properties/border-right-style)
+
+-   [border-right-width](/css/properties/border-right-width)
+
+-   [border-top](/css/properties/border-top)
+
+-   [border-top-color](/css/properties/border-top-color)
+
+-   [border-top-left-radius](/css/properties/border-top-left-radius)
+
+-   [border-top-right-radius](/css/properties/border-top-right-radius)
+
+-   [border-top-style](/css/properties/border-top-style)
+
+-   [border-top-width](/css/properties/border-top-width)
+
+-   [border-width](/css/properties/border-width)
+
+#### Box Model
+
+-   **border**
+
+-   [border-corner-shape](/css/properties/border-corner-shape)
+
+-   [bottom](/css/properties/bottom)
+
+-   [box-shadow](/css/properties/box-shadow)
+
+-   [box-sizing](/css/properties/box-sizing)
+
+-   [break-before](/css/properties/break-before)
+
+-   [clear](/css/properties/clear)
+
+-   [float](/css/properties/float)
+
+-   [height](/css/properties/height)
+
+-   [left](/css/properties/left)
+
+-   [line-height](/css/properties/line-height)
+
+-   [margin](/css/properties/margin)
+
+-   [margin-bottom](/css/properties/margin-bottom)
+
+-   [margin-left](/css/properties/margin-left)
+
+-   [margin-right](/css/properties/margin-right)
+
+-   [margin-top](/css/properties/margin-top)
+
+-   [max-height](/css/properties/max-height)
+
+-   [max-width](/css/properties/max-width)
+
+-   [min-height](/css/properties/min-height)
+
+-   [min-width](/css/properties/min-width)
+
+### Related pages
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaultSelected`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
+

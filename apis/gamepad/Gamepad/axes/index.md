@@ -1,29 +1,44 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Array of values for all axes of the gamepad. Each entry in the array is a floating point value in the range -1.0 - 1.0, representing the axis position from the lowest value (-1.0) to the highest value (1.0).}}
-{{API_Object_Property
-|Property_applies_to=apis/gamepad/Gamepad
-|Read_only=Yes
-|Example_object_name=object
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=array of doubles.
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The Gamepad API provides a function, [[dom/Navigator/getGamepads|Navigator.getGamepads]], that returns a list of all devices currently visible to the web page, as an array of Gamepad objects. When a gamepad is connected, this example reports its index, id, number of buttons, number of axes, and when the gamepad data was updated.
-|Code=window.addEventListener("gamepadconnected", function(e) {
+---
+title: axes
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Gamepad
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Array of values for all axes of the gamepad. Each entry in the array is a floating point value in the range -1.0 - 1.0, representing the axis position from the lowest value (-1.0) to the highest value (1.0).'
+uri: apis/gamepad/Gamepad/axes
+
+---
+# axes
+
+## Summary
+
+Array of values for all axes of the gamepad. Each entry in the array is a floating point value in the range -1.0 - 1.0, representing the axis position from the lowest value (-1.0) to the highest value (1.0).
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/gamepad/Gamepad](/apis/gamepad/Gamepad)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = object.axes;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+
+array of doubles.
+
+## Examples
+
+The Gamepad API provides a function, [Navigator.getGamepads](/dom/Navigator/getGamepads), that returns a list of all devices currently visible to the web page, as an array of Gamepad objects. When a gamepad is connected, this example reports its index, id, number of buttons, number of axes, and when the gamepad data was updated.
+
+``` {.js}
+window.addEventListener("gamepadconnected", function(e) {
   var gp = navigator.getGamepads()[e.gamepad.index];
   console.log("Gamepad connected.");
   console.log("Gamepad index:", gp.index);
@@ -32,39 +47,18 @@
   console.log("Gamepad axes:", gp.axes.length);
   console.log("Gamepad last updated:", gp.timestamp);
 });
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Gamepad Specification
-|URL=https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Gamepad}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/Guide/API/Gamepad
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Gamepad Specification](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/Guide/API/Gamepad)
+

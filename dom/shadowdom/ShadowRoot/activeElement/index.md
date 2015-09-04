@@ -1,39 +1,40 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs spec reference, example
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Represents the currently focused element in the shadow tree.}}
-{{API_Object_Property
-|Property_applies_to=dom/shadowdom/ShadowRoot
-|Read_only=Yes
-|Javascript_data_type=Element
-|Return_value_description=On getting, the attribute must return the currently focused element in the shadow tree or null, if there is none.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, DOM, Shadow DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: activeElement
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: DOM
+  5: Shadow
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Needs spec reference, example'
+summary: 'Represents the currently focused element in the shadow tree.'
+uri: dom/shadowdom/ShadowRoot/activeElement
+
+---
+# activeElement
+
+## Summary
+
+Represents the currently focused element in the shadow tree.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.activeElement;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Element</span></span>
+
+On getting, the attribute must return the currently focused element in the shadow tree or null, if there is none.
+
+**Needs Examples**: This section should include examples.
+

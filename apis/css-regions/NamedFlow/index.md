@@ -1,23 +1,59 @@
-{{Page_Title|NamedFlow}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Represents content to flow among various block [[css/concepts/region|''region'']] elements. The '''NamedFlow''' interface allows access to both the content of the [[css/concepts/named_flow|flow]] and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Generic event handler dispatches functions to add or delete regions based on changes to how content flows through a [[css/concepts/region_chain|region chain]]:
-|Code=document.getNamedFlows().namedItem('main').addEventListener(
+---
+title: NamedFlow
+tags:
+  0: API
+  1: Objects
+  3: CSS
+  4: CSS-Regions
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Represents content to flow among various block region elements. The NamedFlow interface allows access to both the content of the flow and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.'
+uri: apis/css-regions/NamedFlow
+
+---
+# NamedFlow
+
+## Summary
+
+Represents content to flow among various block region elements. The NamedFlow interface allows access to both the content of the flow and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.
+
+## Properties
+
+API Name
+:   Summary
+[firstEmptyRegionIndex](/apis/css-regions/NamedFlow/firstEmptyRegionIndex)
+:   Returns the integer index of the first empty element within a [region chain](/css/concepts/region_chain). Returns -1 if the content fits within the [region chain](/css/concepts/region_chain), if it exceeds available space or if there are no regions in the [region chain](/css/concepts/region_chain).
+[name](/apis/css-regions/NamedFlow/name)
+:   Name of [flow](/css/concepts/named_flow), as specified by any element's [**flow-from**](/css/properties/flow-from) or [**flow-into**](/css/properties/flow-into) properties.
+[overset](/apis/css-regions/NamedFlow/overset)
+:   Indicates whether a [flow's](/css/concepts/named_flow) content exceeds available space within a [region chain](/css/concepts/region_chain), or if no available chain in which to flow content exists.
+
+## Methods
+
+API Name
+:   Summary
+[getContent](/apis/css-regions/NamedFlow/getContent)
+:   Returns a static collection of nodes representing the [flow's](/css/concepts/named_flow) source content.
+[getRegions](/apis/css-regions/NamedFlow/getRegions)
+:   Returns the static sequence of [regions](/css/concepts/region) into which content flows.
+[getRegionsByContent](/apis/css-regions/NamedFlow/getRegionsByContent)
+:   Returns the static sequence of [regions](/css/concepts/region) that contain at least part of the supplied target content element.
+
+## Events
+
+API Name
+:   Summary
+[regionfragmentchange](/apis/css-regions/NamedFlow/regionfragmentchange)
+:   Fires on the ****NamedFlow**** object when there is a change in how content flows through a [region chain](/css/concepts/region_chain).
+[regionoversetchange](/apis/css-regions/NamedFlow/regionoversetchange)
+:   Fires on the ****NamedFlow**** object when a change in how its content flows through a [region chain](/css/concepts/region_chain) renders any [region](/css/concepts/region) empty or [*overset*](/css/concepts/overset) (overfilled), or that reverses that state.
+
+## Examples
+
+Generic event handler dispatches functions to add or delete regions based on changes to how content flows through a [region chain](/css/concepts/region_chain):
+
+``` {.js}
+document.getNamedFlows().namedItem('main').addEventListener(
     'regionoversetchange', modifyFlow
 );
 document.getNamedFlows().namedItem('figures').addEventListener(
@@ -28,18 +64,19 @@ function modifyFlow(e) {
     var flow = e.target;
     // does content exceed available regions?
     if (flow.overset) {
-      	appendRegion(flow.name); // custom function
+        appendRegion(flow.name); // custom function
     }
     // ...or does insufficient content leave some regions empty?
-    else if (flow.firstEmptyRegionIndex !== -1)	{
+    else if (flow.firstEmptyRegionIndex !== -1) {
         trimRegions(flow.name); // custom function
     }
 }
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=Check if the opening paragraph splits across layout elements:
-|Code=// get flow
+```
+
+Check if the opening paragraph splits across layout elements:
+
+``` {.js}
+// get flow
 var flow = document.getNamedFlows().namedItem('main');
 
 // get all top-level flow-into elements that contribute to flow:
@@ -51,105 +88,94 @@ var firstPara = elements[0].querySelector('p:first-of-type');
 // ...and the regions in which it appears:
 var regions = flow.getRegionsByContent(firstPara);
 
-// If the element splits across two regions, do	something to modify
+// If the element splits across two regions, do something to modify
 // the layout or the content:
 if (regions.length > 1) {
     adjustLayout(regions[0], firstPara); // custom function
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=Specifying an identifier for any element's [[css/properties/flow-into|'''flow-into''']] CSS property diverts its content to a '''NamedFlow''' object, whose '''name''' corresponds to the property's value.  Other elements that specify the same identifier as their [[css/properties/flow-from|'''flow-from''']] property serve as a [[css/concepts/region_chain|chain]] of 'regions' that dynamically display the content.  (The '''NamedFlow''' object is still available with NULL content if those properties are later removed.)
+```
 
-Use the [[dom/Document/getNamedFlows|'''getNamedFlows()''']] method to gather [[css/concepts/named_flow|named flows]] from a document.
+## Usage
 
-For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Regions Module Level 1
-|URL=http://www.w3.org/TR/css3-regions/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|Manual_links=
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-|Manual_sections=
-}}
-{{Topics|API, CSS, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=534
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=No
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=537
-}}
-|Notes_rows=
-}}
+     Specifying an identifier for any element's flow-into CSS property diverts its content to a NamedFlow object, whose name corresponds to the property's value.  Other elements that specify the same identifier as their flow-from property serve as a chain of 'regions' that dynamically display the content.  (The NamedFlow object is still available with NULL content if those properties are later removed.)
+
+Use the [**getNamedFlows()**](/dom/Document/getNamedFlows) method to gather [named flows](/css/concepts/named_flow) from a document.
+
+For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
+:   W3C Working Draft
+
+## See also
+
+### Related articles
+
+#### Regions
+
+-   [CSS Regions API](/apis/css-regions)
+
+-   [CSSRegionStyleRule](/apis/css-regions/CSSRegionStyleRule)
+
+-   **NamedFlow**
+
+-   [firstEmptyRegionIndex](/apis/css-regions/NamedFlow/firstEmptyRegionIndex)
+
+-   [getContent()](/apis/css-regions/NamedFlow/getContent)
+
+-   [getRegions()](/apis/css-regions/NamedFlow/getRegions)
+
+-   [getRegionsByContent()](/apis/css-regions/NamedFlow/getRegionsByContent)
+
+-   [name](/apis/css-regions/NamedFlow/name)
+
+-   [overset](/apis/css-regions/NamedFlow/overset)
+
+-   [regionfragmentchange](/apis/css-regions/NamedFlow/regionfragmentchange)
+
+-   [regionoversetchange](/apis/css-regions/NamedFlow/regionoversetchange)
+
+-   [NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
+
+-   [namedItem()](/apis/css-regions/NamedFlowCollection/namedItem)
+
+-   [Region](/apis/css-regions/Region)
+
+-   [getComputedRegionStyle()](/apis/css-regions/Region/getComputedRegionStyle)
+
+-   [getRegionFlowRanges()](/apis/css-regions/Region/getRegionFlowRanges)
+
+-   [regionOverset](/apis/css-regions/Region/regionOverset)
+
+-   [@region](/css/atrules/@region)
+
+-   [content fragments](/css/concepts/fragment)
+
+-   [named flows](/css/concepts/named_flow)
+
+-   [overset content](/css/concepts/overset)
+
+-   [regions](/css/concepts/region)
+
+-   [region chains](/css/concepts/region_chain)
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [flow-from](/css/properties/flow-from)
+
+-   [flow-into](/css/properties/flow-into)
+
+### External resources
+
+-   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
+-   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
+-   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
+-   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
+

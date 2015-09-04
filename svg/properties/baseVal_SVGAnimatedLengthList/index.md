@@ -1,42 +1,38 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: baseVal (SVGAnimatedLengthList)
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: 'svg/properties/baseVal (SVGAnimatedLengthList)'
 
-===Remarks===
+---
+# baseVal (SVGAnimatedLengthList)
 
-Windows Internet Explorer 9 supports script-based SVG animation but it does not support declarative-based SVG animation.  As a result, the [[svg/properties/animVal (SVGAnimatedLengthList)|'''animVal''']]  property contains the same value as the '''baseVal''' property.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+Windows Internet Explorer 9 supports script-based SVG animation but it does not support declarative-based SVG animation. As a result, the [**animVal**](/svg/properties/animVal_(SVGAnimatedLengthList)) property contains the same value as the **baseVal** property.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.14
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.14
 
-*[[svg/objects/SVGAnimatedLengthList|'''SVGAnimatedLengthList''']]
-*[[svg/properties/animVal (SVGAnimatedLengthList)|'''animVal''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGAnimatedLengthList**](/svg/objects/SVGAnimatedLengthList)
+-   [**animVal**](/svg/properties/animVal_(SVGAnimatedLengthList))
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

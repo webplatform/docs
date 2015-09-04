@@ -1,100 +1,125 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|This property defines the origin of the transformation axes relative to the element to which the transformation is applied.}}
-{{CSS Property
-|Initial value=50% 50%
-|Applies to=Transformable elements.
-|Inherited=No
-|Media=visual
-|Computed value=For <length>, the absolute value; otherwise a percentage.
-|Animatable=Yes
-|CSS percentages=Refer to the size of the element's bounding box.
-|Values={{CSS Property Value
-|Data Type=percentage
-|Description=A number, followed by a %.
+---
+title: transform-origin
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'This property defines the origin of the transformation axes relative to the element to which the transformation is applied.'
+code_samples:
+  - 'http://gist.github.com/6983020'
+  - 'http://gist.github.com/6983052'
+  - 'http://gist.github.com/6983069'
+uri: css/properties/transform-origin
+
+---
+# transform-origin
+
+## Summary
+
+This property defines the origin of the transformation axes relative to the element to which the transformation is applied.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `50% 50%`
+Applies to
+:   Transformable elements.
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   For \<length\>, the absolute value; otherwise a percentage.
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   Refer to the size of the element's bounding box.
+
+## Syntax
+
+-   `transform-origin: <named-position>`
+-   `transform-origin: length`
+-   `transform-origin: percentage`
+
+## Values
+
+percentage
+:   A number, followed by a %.
+
 The value is a percentage of the bounding box width (for the X axis) or the bounding box height (for the Y axis, if specified). A percentage cannot be applied to the Z axis.
-}}{{CSS Property Value
-|Data Type=length
-|Description=A floating-point number, followed by a unit of measurement.
-Units of measurement may be absolute (<code>cm</code>,
-<code>mm</code>,
-<code>in</code>,
-<code>pt</code>,
-or <code>pc</code>)
-or relative
-(<code>em</code>,
-<code>ex</code>,
-or <code>px</code>).
-}}{{CSS Property Value
-|Data Type=<named-position>
-|Description=A named position along the specified axis, each of which has a percentage equivalent.
-The values <code>left</code>, <code>center</code>, and <code>right</code> are valid for the X axis and are equivalent to 0%, 50%, and 100% respectively. The values <code>top</code>, <code>center</code>, and <code>bottom</code> are valid for the Y axis and are equivalent to 0%, 50%, and 100% respectively. There are no named positions along the Z axis.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Code=/* 25% X offset, 50% Y offset, 0 Z offset */
+
+length
+:   A floating-point number, followed by a unit of measurement.
+
+Units of measurement may be absolute (`cm`, `mm`, `in`, `pt`, or `pc`) or relative (`em`, `ex`, or `px`).
+
+\<named-position\>
+:   A named position along the specified axis, each of which has a percentage equivalent.
+
+The values `left`, `center`, and `right` are valid for the X axis and are equivalent to 0%, 50%, and 100% respectively. The values `top`, `center`, and `bottom` are valid for the Y axis and are equivalent to 0%, 50%, and 100% respectively. There are no named positions along the Z axis.
+
+## Examples
+
+``` {.css}
+/* 25% X offset, 50% Y offset, 0 Z offset */
 #mytranselem {
     transform-origin: 25% 50%;
 }
-|LiveURL=http://code.webplatform.org/gist/6983020
-}}{{Single Example
-|Language=CSS
-|Code=/* 20px Y offset, 25px X offset, 30px Z offset */
+```
+
+[View live example](http://code.webplatform.org/gist/6983020)
+
+``` {.css}
+/* 20px Y offset, 25px X offset, 30px Z offset */
 #mytranselem {
     transform-origin: 20px 25px 30px;
 }
-|LiveURL=http://code.webplatform.org/gist/6983052
-}}{{Single Example
-|Language=CSS
-|Code=/* right X offset, center Y offset, 0 Z offset */
+```
+
+[View live example](http://code.webplatform.org/gist/6983052)
+
+``` {.css}
+/* right X offset, center Y offset, 0 Z offset */
 #mytranselem {
     transform-origin: right;
 }
-|LiveURL=http://code.webplatform.org/gist/6983069
-}}
-}}
-{{Notes_Section
-|Notes=The origin may be moved along all three axes with this single property by specifying the relative position of each axis in X, Y, Z order. The grid complies with the right-hand rule for Cartesian coordinate systems. The x-axis increases from left to right; the y-axis increases from top to bottom; and the z-axis increases away from the user (higher z-values are more distant).
+```
 
-Microsoft deprecated <code>-ms-transform-origin</code>, the vendor-prefixed version of this property, with the release of Internet Explorer 10. It should only be included for compatibility with earlier versions.
+[View live example](http://code.webplatform.org/gist/6983069)
 
-If the <code>transform-origin</code> property is not set, the transform begins in the center at screen level (equal to a <code>transform-origin</code> value of <code>50% 50% 0</code>).
-* If fewer than three values are provided, the third value (z-axis) is assumed to be <code>0</code> (screen level).
-* If only one value is specified, the second value (y-axis) is assumed to be <code>50%</code>.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Transforms Module Level 3
-|URL=http://www.w3.org/TR/css3-transforms
-|Status=W3C Working Draft
-}}
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/transforms/transform|transform]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## Notes
+
+The origin may be moved along all three axes with this single property by specifying the relative position of each axis in X, Y, Z order. The grid complies with the right-hand rule for Cartesian coordinate systems. The x-axis increases from left to right; the y-axis increases from top to bottom; and the z-axis increases away from the user (higher z-values are more distant).
+
+Microsoft deprecated `-ms-transform-origin`, the vendor-prefixed version of this property, with the release of Internet Explorer 10. It should only be included for compatibility with earlier versions.
+
+If the `transform-origin` property is not set, the transform begins in the center at screen level (equal to a `transform-origin` value of `50% 50% 0`).
+
+-   If fewer than three values are provided, the third value (z-axis) is assumed to be `0` (screen level).
+-   If only one value is specified, the second value (y-axis) is assumed to be `50%`.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Transforms Module Level 3](http://www.w3.org/TR/css3-transforms)
+:   W3C Working Draft
+
+## See also
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `style`
+-   `transform`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

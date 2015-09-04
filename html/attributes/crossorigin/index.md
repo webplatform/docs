@@ -1,44 +1,148 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs good content
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specifies the whether the script should expose error info. This may be used only when loading a cross-origin script.}}
-{{Markup_Attribute
-|Applies_to=dom/HTMLScriptElement
-|Content====Standards Information===
-[http://www.w3.org/TR/html5/scripting-1.html#attr-script-crossorigin HTML 5 Specification], Section 4.3 Content Attributes, crossorigin.
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=Currently unsuitable for usage.
-|Notes=This property is currently unstandardised.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|Manual_links=[[<script> tag| html/Elements/script]]
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: crossorigin
+tags:
+  - Markup
+  - Attributes
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Needs good content'
+summary: 'Specifies the whether the script should expose error info. This may be used only when loading a cross-origin script.'
+uri: html/attributes/crossorigin
+
+---
+# crossorigin
+
+## Summary
+
+Specifies the whether the script should expose error info. This may be used only when loading a cross-origin script.
+
+Applies to
+:   dom/HTMLScriptElement
+
+### Standards Information
+
+[HTML 5 Specification](http://www.w3.org/TR/html5/scripting-1.html#attr-script-crossorigin), Section 4.3 Content Attributes, crossorigin.
+
+## Usage
+
+     Currently unsuitable for usage.
+
+## Notes
+
+This property is currently unstandardised.
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   **crossorigin**
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+### Other articles
+
+[[\<script\> tag| html/Elements/script]]
+

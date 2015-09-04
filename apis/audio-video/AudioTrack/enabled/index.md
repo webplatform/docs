@@ -1,29 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Returns true if the given track is active, and false otherwise. Can be set, to change whether the track is enabled or not. If multiple audio tracks are enabled simultaneously, they are mixed.}}
-{{API_Object_Property
-|Property_applies_to=apis/audio-video/AudioTrack
-|Read_only=No
-|Example_object_name=AudioTrack
-|Return_value_name=
-|Javascript_data_type=Boolean
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=(function () {
+---
+title: enabled
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Audio
+  5: Video
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns true if the given track is active, and false otherwise. Can be set, to change whether the track is enabled or not. If multiple audio tracks are enabled simultaneously, they are mixed.'
+code_samples:
+  - 'http://gist.github.com/459f1a0ea9f70009b6fe'
+uri: apis/audio-video/AudioTrack/enabled
+
+---
+# enabled
+
+## Summary
+
+Returns true if the given track is active, and false otherwise. Can be set, to change whether the track is enabled or not. If multiple audio tracks are enabled simultaneously, they are mixed.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = AudioTrack.enabled;
+AudioTrack.enabled = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+
+## Examples
+
+``` {.js}
+(function () {
     // grab the video element
     var video = document.getElementById("video");
 
@@ -36,7 +49,7 @@
 
         // loop through the audio tracks
         for (var i = 0; i < audioTracks.length; i++) {
-                    
+
             // create options for the dropdownlist with the id's
             // and languages of the tracks
             var opt = document.createElement('option');
@@ -62,40 +75,70 @@
         track.enabled = true;
     });
 })();
-|LiveURL=http://code.webplatform.org/gist/459f1a0ea9f70009b6fe
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5 Specification
-|URL=http://dev.w3.org/html5/spec/single-page.html
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Audio, Video
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Audio, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
+:   W3C Editor's Draft
+
+## See also
+
+### Related articles
+
+#### Audio
+
+-   [audio-video](/apis/audio-video)
+
+-   **enabled**
+
+-   [language](/apis/audio-video/AudioTrack/language)
+
+-   [Web Audio API](/apis/webaudio)
+
+-   [value](/apis/webaudio/AudioParam/value)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [user-input](/css/properties/user-input)
+
+-   [bgSound](/html/elements/bgSound)
+
+-   [bgsound](/html/elements/bgSound/ja)
+
+-   [implementing html5 audio](/tutorials/implementing_html5_audio)
+
+-   [WebRTC Resources](/tutorials/webrtc_resources)
+
+#### Video
+
+-   [audio-video](/apis/audio-video)
+
+-   **enabled**
+
+-   [language](/apis/audio-video/AudioTrack/language)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [object-fit](/css/properties/object-fit)
+
+-   [EMBED](/html/elements/embed)
+
+-   [video](/html/elements/video)
+
+-   [MSEPrimer](/tutorials/MSEPrimer)
+
+-   [HTML5 Video and Other Recommendations](/tutorials/video_others)
+
+-   [WebRTC Resources](/tutorials/webrtc_resources)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

@@ -1,84 +1,87 @@
-{{Page_Title|stroke}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs parent
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The stroke attribute is a presentation attribute that define the color of the outline of the given graphical element.}}
-{{Markup_Attribute
-|Content====Syntax===
+---
+title: stroke
+tags:
+  - Markup
+  - Attributes
+  - SVG
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs parent'
+summary: 'The stroke attribute is a presentation attribute that define the color of the outline of the given graphical element.'
+uri: svg/attributes/stroke
 
-  '''stroke:''' none {{!}} currentColor {{!}} ''color'' {{!}} ''funciri'' [ none {{!}} currentColor {{!}} ''color'' ] {{!}} inherit
+---
+# stroke
 
-The default value is ''none'', which means that the outline is not drawn.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example shows how to draw a circle with a red stroke and no fill color.
-|Code=<syntaxhighlight lang="xml">
-<svg width="400" height="400">
-  <circle cx="100" cy="100" r="50" stroke="red" stroke-width="3" fill="none" />
-</svg>
-</syntaxhighlight>
-}}
-}}
-{{Notes_Section
-|Import_Notes====Standards information===
+## Summary
 
-*[http://www.w3.org/TR/SVG11/painting.html Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.4
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=SVG 1.1
-|URL=http://www.w3.org/TR/SVG11/painting.html#StrokeProperties
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+The stroke attribute is a presentation attribute that define the color of the outline of the given graphical element.
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[css/cssom/currentStyle|'''currentStyle''']]
-*[[css/cssom/style|'''style''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
+Applies to
+:    ?
 
-===Reference===
+### Syntax
 
-*[[svg/attributes/stroke-dasharray|'''strokeDasharray''']]
-*[[svg/attributes/stroke-dashoffset|'''strokeDashoffset''']]
-*[[svg/attributes/stroke-linecap|'''strokeLinecap''']]
-*[[svg/attributes/stroke-linejoin|'''strokeLinejoin''']]
-*[[svg/attributes/stroke-miterlimit|'''strokeMiterlimit''']]
-*[[svg/attributes/stroke-opacity|'''strokeOpacity''']]
-*[[svg/attributes/stroke-width|'''strokeWidth''']]
-*[[svg/attributes/fill|'''fill''']]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+     stroke: none | currentColor | color | funciri [ none | currentColor | color ] | inherit
+
+The default value is *none*, which means that the outline is not drawn.
+
+## Examples
+
+This example shows how to draw a circle with a red stroke and no fill color.
+
+
+
+    <svg width="400" height="400">
+      <circle cx="100" cy="100" r="50" stroke="red" stroke-width="3" fill="none" />
+    </svg>
+
+</pre>
+
+### Standards information
+
+-   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://www.w3.org/TR/SVG11/painting.html), Section 11.4
+
+## Related specifications
+
+Specification
+:   Status
+[SVG 1.1](http://www.w3.org/TR/SVG11/painting.html#StrokeProperties)
+:   W3C Recommendation
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**currentStyle**](/css/cssom/currentStyle)
+-   [**style**](/css/cssom/style)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+
+### Reference
+
+-   [**strokeDasharray**](/svg/attributes/stroke-dasharray)
+-   [**strokeDashoffset**](/svg/attributes/stroke-dashoffset)
+-   [**strokeLinecap**](/svg/attributes/stroke-linecap)
+-   [**strokeLinejoin**](/svg/attributes/stroke-linejoin)
+-   [**strokeMiterlimit**](/svg/attributes/stroke-miterlimit)
+-   [**strokeOpacity**](/svg/attributes/stroke-opacity)
+-   [**strokeWidth**](/svg/attributes/stroke-width)
+-   [**fill**](/svg/attributes/fill)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

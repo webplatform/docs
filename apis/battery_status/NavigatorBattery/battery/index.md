@@ -1,49 +1,39 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The object that exposes the battery status information.}}
-{{API_Object_Property
-|Property_applies_to=apis/battery_status/NavigatorBattery
-|Read_only=Yes
-|Example_object_name=navigator
-|Return_value_name=
-|Javascript_data_type=BatteryManager
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Battery Status, Mobile}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: battery
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Battery
+  5: Status
+  6: Mobile
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Needs example, spec reference'
+summary: 'The object that exposes the battery status information.'
+uri: 'apis/battery status/NavigatorBattery/battery'
+
+---
+# battery
+
+## Summary
+
+The object that exposes the battery status information.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/battery\_status/NavigatorBattery](/apis/battery_status/NavigatorBattery)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = navigator.battery;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">BatteryManager</span></span>
+
+**Needs Examples**: This section should include examples.
+

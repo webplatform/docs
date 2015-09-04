@@ -1,58 +1,72 @@
-{{Page_Title|document.write}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs examples and compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Method to insert a string of marked up text in the document tree.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=str
-|Data type=String
-|Description=A '''String''' that specifies the text and HTML tags to write.
-|Optional=No
-}}
-|Method_applies_to=dom/Document
-|Example_object_name=document
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Do not use the '''write''' method or the [[dom/Document/writeln|'''writeln''']] method on the current document after the document has finished loading unless you first call the [[dom/Document/open|'''open''']] method, which clears the current document window and erases all variables.
-|Notes=When [[dom/Document|'''Document''']].'''write''' or '''document'''.[[dom/Document/writeln|'''writeln''']] is used in an event handler, you must also use '''document'''.[[dom/Document/close|'''close''']].
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM HTML Level 2
-|URL=http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-75233634
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages===
-*<code>[[dom/Document/writeln|writeln]]</code>
-*<code>[[dom/Document/open|open]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: write
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs examples and compat'
+summary: 'Method to insert a string of marked up text in the document tree.'
+uri: dom/Document/write
+
+---
+# document.write
+
+## Summary
+
+Method to insert a string of marked up text in the document tree.
+
+*Method of [dom/Document](/dom/Document)*
+
+## Syntax
+
+``` {.js}
+ document.write(str);
+```
+
+## Parameters
+
+### str
+
+ Data-typeÂ
+:   String
+
+ A **String** that specifies the text and HTML tags to write.
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Do not use the write method or the writeln method on the current document after the document has finished loading unless you first call the open method, which clears the current document window and erases all variables.
+
+## Notes
+
+When [**Document**](/dom/Document).**write** or **document**.[**writeln**](/dom/Document/writeln) is used in an event handler, you must also use **document**.[**close**](/dom/Document/close).
+
+## Related specifications
+
+Specification
+:   Status
+[DOM HTML Level 2](http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-75233634)
+:   W3C Recommendation
+
+## See also
+
+### Related pages
+
+-   `writeln`
+-   `open`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

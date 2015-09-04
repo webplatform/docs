@@ -1,40 +1,35 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Import_Notes=
+---
+title: getCharNumAtPosition
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/getCharNumAtPosition
 
-===Syntax===
+---
+# getCharNumAtPosition
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.1
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/etextContent|'''SVGTextContentElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+### Related pages (MSDN)
 
-[[Category:SVG]]
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGTextContentElement**](/svg/elements/etextContent)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

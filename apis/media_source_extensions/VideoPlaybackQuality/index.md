@@ -1,46 +1,69 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Provides attributes that offer information about the quality for the video currently playing.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=Multimedia
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Media}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: VideoPlaybackQuality
+tags:
+  - API
+  - Objects
+  - Media
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Provides attributes that offer information about the quality for the video currently playing.'
+uri: 'apis/media source extensions/VideoPlaybackQuality'
+
+---
+# VideoPlaybackQuality
+
+## Summary
+
+Provides attributes that offer information about the quality for the video currently playing.
+
+## Properties
+
+API Name
+:   Summary
+[creationTime](/apis/media_source_extensions/VideoPlaybackQuality/creationTime)
+:   Gets the timestamp for when the VideoPlaybackQuality metrics were collected.
+[droppedVideoFrames](/apis/media_source_extensions/VideoPlaybackQuality/droppedVideoFrames)
+:   Gets the number of dropped video frames.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## See also
+
+### Related articles
+
+#### Multimedia
+
+-   [Track ended](/apis/MediaStream/ended)
+
+-   [MediaSource](/apis/media_source_extensions/MediaSource)
+
+-   [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
+
+-   **VideoPlaybackQuality**
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [object-fit](/css/properties/object-fit)
+
+-   [height](/html/attributes/height)
+
+-   [standby](/html/attributes/standby)
+
+-   [EMBED](/html/elements/embed)
+
+-   [img](/html/elements/img)
+
+-   [WebRTC Resources](/tutorials/webrtc_resources)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network.
+

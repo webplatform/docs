@@ -1,68 +1,72 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Not sure if a standard applies here.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Mixed}}
-{{API_Name}}
-{{Summary_Section|Sets or retrieves the text contained within the range. }}
-{{API_Object_Property
-|Property_applies_to=dom/TextRange
-|Read_only=No
-|Example_object_name=textRange
-|Return_value_name=result
-|Javascript_data_type=String
-|Return_value_description=the contained text.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example feature tests for getSelection support and extracts the text contained within the bounds of the range(s) object(s).
-|Code=function showText(){
+---
+title: text
+tags:
+  - API
+  - Object
+  - Properties
+readiness: 'Almost Ready'
+standardization_status: Mixed
+notes:
+  - 'Not sure if a standard applies here.'
+summary: 'Sets or retrieves the text contained within the range. '
+uri: dom/TextRange/text
+
+---
+# text
+
+## Summary
+
+Sets or retrieves the text contained within the range.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/TextRange](/dom/TextRange)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = textRange.text;
+textRange.text = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+the contained text.
+
+## Examples
+
+The following example feature tests for getSelection support and extracts the text contained within the bounds of the range(s) object(s).
+
+``` {.js}
+function showText(){
 if(window.getSelection){
-	var buf{{=}}'';
-	var sel{{=}}document.getSelection();
-	for(var I{{=}}0;i<sel.rangeCount;i++)
-	{
-		var range{{=}}sel.getRangeAt(i);
-		buf+{{=}}range.extractContents().textContent;
-	}
-	alert(buf);
+    var buf=;
+    var sel=document.getSelection();
+    for(var I=0;i<sel.rangeCount;i++)
+    {
+        var range=sel.getRangeAt(i);
+        buf+=range.extractContents().textContent;
+    }
+    alert(buf);
 }else{
-	var sel{{=}}document.selection;
-	if(sel){
-		var rng{{=}}sel.createRange();
-		if(rng!{{=}}null){
-			alert(rng.text);
-		}
-		}
+    var sel=document.selection;
+    if(sel){
+        var rng=sel.createRange();
+        if(rng!=null){
+            alert(rng.text);
+        }
+        }
 }
 }
-}}
-}}
-{{Notes_Section
-|Usage=Used to extract only the text content from a range.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534676(v=vs.85).aspx text Property]
-|HTML5Rocks_link=
-}}
+```
+
+## Usage
+
+     Used to extract only the text content from a range.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[text Property](http://msdn.microsoft.com/en-us/library/ie/ms534676(v=vs.85).aspx) Article]
+

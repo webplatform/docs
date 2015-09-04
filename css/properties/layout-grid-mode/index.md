@@ -1,87 +1,196 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add summery, specifications, compatibility.
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{CSS Property
-|Initial value=
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Computed value=
-|Animatable=No
-|CSS object model property=
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=both
-|Description=Default. Both the '''char''' and '''line''' grid modes are enabled. This setting is necessary to fully enable the layout grid on an element.
-}}{{CSS Property Value
-|Data Type=none
-|Description=No grid is used.
-}}{{CSS Property Value
-|Data Type=line
-|Description=Only a line grid is used. This is recommended for use with inline elements, such as a '''span''', to disable the horizontal grid on runs of text that act as a single entity in the grid layout.
-}}{{CSS Property Value
-|Data Type=char
-|Description=Only a character grid is used. This is recommended for use with block-level elements, such as a '''blockquote''', where the line grid is intended to be disabled.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=
-|Description=This example uses the '''-ms-layout-grid-mode''' attribute to specify character layout for a block of text.
-|Code=&lt;STYLE&gt;
-DIV.layout { layout-grid-mode: line }
-&lt;/STYLE&gt;
-&lt;DIV CLASS {{=}} "layout"&gt;
-This is a block element containing a sentence of sample text.
-&lt;/DIV&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-layout-grid-mode''' attribute is an extension to CSS, and can be used as a synonym for '''layout-grid-mode''' in IE8 Standards mode.
-Web documents in Asian languages, such as Chinese or Japanese, usually create a page layout for characters using a one- or two-dimensional grid. You can use the [[css/properties/layout-grid|'''-ms-layout-grid''']] attribute to incorporate this layout into Web documents.
-|Import_Notes====Syntax===
-<code>'''-ms-layout-grid-mode: '''both '''{{!}}''' none '''{{!}}''' line '''{{!}}''' char</code>
-===Standards information===
+---
+title: layout-grid-mode
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Add summery, specifications, compatibility.'
+uri: css/properties/layout-grid-mode
+
+---
+# layout-grid-mode
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   ``
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `layout-grid-mode: both`
+-   `layout-grid-mode: char`
+-   `layout-grid-mode: line`
+-   `layout-grid-mode: none`
+
+## Values
+
+both
+:   Default. Both the **char** and **line** grid modes are enabled. This setting is necessary to fully enable the layout grid on an element.
+
+none
+:   No grid is used.
+
+line
+:   Only a line grid is used. This is recommended for use with inline elements, such as a **span**, to disable the horizontal grid on runs of text that act as a single entity in the grid layout.
+
+char
+:   Only a character grid is used. This is recommended for use with block-level elements, such as a **blockquote**, where the line grid is intended to be disabled.
+
+## Examples
+
+This example uses the **-ms-layout-grid-mode** attribute to specify character layout for a block of text.
+
+    <STYLE>
+    DIV.layout { layout-grid-mode: line }
+    </STYLE>
+    <DIV CLASS = "layout">
+    This is a block element containing a sentence of sample text.
+    </DIV>
+
+## Notes
+
+### Remarks
+
+Windows Internet Explorer 8. The **-ms-layout-grid-mode** attribute is an extension to CSS, and can be used as a synonym for **layout-grid-mode** in IE8 Standards mode. Web documents in Asian languages, such as Chinese or Japanese, usually create a page layout for characters using a one- or two-dimensional grid. You can use the [**-ms-layout-grid**](/css/properties/layout-grid) attribute to incorporate this layout into Web documents.
+
+### Syntax
+
+`-ms-layout-grid-mode: both | none | line | char`
+
+### Standards information
+
 There are no standards that apply here.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=Text
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/HTMLOptionElement/defaultSelected|defaultSelected]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+
+## See also
+
+### Related articles
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   **layout-grid-mode**
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaultSelected`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

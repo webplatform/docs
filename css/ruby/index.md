@@ -1,59 +1,50 @@
-{{Page_Title|Ruby}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs summary, example, spec reference, standardization status, fix table coding in Notes
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Import_Notes====In this section===
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[css/properties/ruby-align|'''ruby-align''']]
-|Gets or sets a value that indicates  how to align the ruby text content.
-|-
-|[[css/properties/ruby-overhang|'''ruby-overhang''']]
-|Gets or sets a value that indicates  whether, and on which side, ruby text is allowed to partially overhang any adjacent text in addition to its own base, when the ruby text is wider than the ruby base
-|-
-|[[css/properties/ruby-position|'''ruby-position''']]
-|Gets or sets  a value that controls the position of the ruby text with respect to its base.
-|}
- 
- 
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_css\ie]:%20Ruby%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Ruby
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: ruby
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Needs summary, example, spec reference, standardization status, fix table coding in Notes'
+uri: css/ruby
+
+---
+# Ruby
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+
+### In this section
+
+{
+
+## See also
+
+### Related articles
+
+#### Ruby
+
+-   **Ruby**
+
+-   [ruby](/html/elements/ruby)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

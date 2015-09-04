@@ -1,56 +1,54 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=examples, compatibility
-|Checked_Out=No
-|High-level issues=Stub, Needs Flags, Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete, Examples Needed
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Gets or sets whether an element can be dragged and dropped.}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLElement
-|Read_only=No
-|Example_object_name=element
-|Return_value_name=draggable
-|Javascript_data_type=Boolean
-|Return_value_description=Whether the element is draggable.
-|Example_value_name=draggable
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Use this property to allow or disallow an element to be dragged and dropped.
-|Notes=The default value for most elements is '''false'''. [[html/elements/a|a]] and [[html/elements/img|img]] elements are draggable by default.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 3.2.2
-}}{{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5
-|Status=Working Draft
-|Relevant_changes=Section 3.2.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: draggable
+tags:
+  - API
+  - Object
+  - Properties
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'examples, compatibility'
+summary: 'Gets or sets whether an element can be dragged and dropped.'
+uri: dom/HTMLElement/draggable
+
+---
+# draggable
+
+## Summary
+
+Gets or sets whether an element can be dragged and dropped.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var draggable = element.draggable;
+element.draggable = draggable;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+
+Whether the element is draggable.
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Use this property to allow or disallow an element to be dragged and dropped.
+
+## Notes
+
+The default value for most elements is **false**. [a](/html/elements/a) and [img](/html/elements/img) elements are draggable by default.
+
+## Related specifications
+
+Specification
+:   Status
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
+:   Living Standard
+[HTML5](http://www.w3.org/TR/html5)
+:   Working Draft
+

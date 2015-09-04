@@ -1,17 +1,15 @@
-{{Page_Title|SVG data types}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs all content
-|Checked_Out=No
-}}
-{{Summary_Section}}
-{{Basic Page}}
-{{Special:PrefixIndex/SVG/data types/}}
-{{Notes_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: data types
+tags:
+  - Basic
+  - Pages
+readiness: 'Not Ready'
+notes:
+  - 'Needs all content'
+uri: 'svg/data types'
+
+---
+# SVG data types
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+

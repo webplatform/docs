@@ -1,84 +1,195 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add summery, specifications, compatibility.
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{CSS Property
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=none
-|Description=Default. No character grid is set.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=Largest character in the font of the element is used to set the character grid.
-}}{{CSS Property Value
-|Data Type=length
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
-}}{{CSS Property Value
-|Data Type=percentage
-|Description=Integer, followed by a percent sign (%). The value is a percentage derived from the dimensions of the parent object.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example uses the '''-ms-layout-grid-char''' attribute to specify character layout for a block of text.
-|Code=&lt;STYLE&gt;
-DIV.layout { layout-grid-char: auto }
-&lt;/STYLE&gt;
-&lt;DIV CLASS {{=}} "layout"&gt;
-This is a block element containing a sentence of sample text.
-&lt;/DIV&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-layout-grid-char''' attribute is an extension to CSS, and can be used as a synonym for '''layout-grid-char''' in IE8 Standards mode.
-The visual effects of the '''-ms-layout-grid-char''' attribute are similar to the [[css/properties/line-height|'''line-height''']] property.
-Web documents in Asian languages, such as Chinese or Japanese, usually create a page layout for characters using a one- or two-dimensional grid. You can use the [[css/properties/layout-grid|'''-ms-layout-grid''']] attribute to incorporate this layout into Web documents.
-The '''-ms-layout-grid-char''' attribute applies only to block-level elements.
-'''Note'''  For this property to have an effect, the [[css/properties/layout-grid-mode|'''-ms-layout-grid-mode''']] attribute must be set to '''line''' or '''both'''.
-|Import_Notes====Syntax===
-<code>'''-ms-layout-grid-char: '''none '''{{!}}''' auto '''{{!}}''' ''
-&lt;length&gt;
-'' '''{{!}}''' ''
-&lt;percentage&gt;
-''</code>
-===Standards information===
+---
+title: layout-grid-char
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Add summery, specifications, compatibility.'
+uri: css/properties/layout-grid-char
+
+---
+# layout-grid-char
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   ``
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `layout-grid-char: auto`
+-   `layout-grid-char: length`
+-   `layout-grid-char: none`
+-   `layout-grid-char: percentage`
+
+## Values
+
+none
+:   Default. No character grid is set.
+
+auto
+:   Largest character in the font of the element is used to set the character grid.
+
+length
+:   Floating-point number, followed by an absolute units designator (`cm`, `mm`, `in`, `pt`, or `pc`) or a relative units designator (`em`, `ex`, or `px`). For more information about the supported length units, see CSS Values and Units Reference.
+
+percentage
+:   Integer, followed by a percent sign (%). The value is a percentage derived from the dimensions of the parent object.
+
+## Examples
+
+This example uses the **-ms-layout-grid-char** attribute to specify character layout for a block of text.
+
+    <STYLE>
+    DIV.layout { layout-grid-char: auto }
+    </STYLE>
+    <DIV CLASS = "layout">
+    This is a block element containing a sentence of sample text.
+    </DIV>
+
+## Notes
+
+### Remarks
+
+Windows Internet Explorer 8. The **-ms-layout-grid-char** attribute is an extension to CSS, and can be used as a synonym for **layout-grid-char** in IE8 Standards mode. The visual effects of the **-ms-layout-grid-char** attribute are similar to the [**line-height**](/css/properties/line-height) property. Web documents in Asian languages, such as Chinese or Japanese, usually create a page layout for characters using a one- or two-dimensional grid. You can use the [**-ms-layout-grid**](/css/properties/layout-grid) attribute to incorporate this layout into Web documents. The **-ms-layout-grid-char** attribute applies only to block-level elements. **Note**  For this property to have an effect, the [**-ms-layout-grid-mode**](/css/properties/layout-grid-mode) attribute must be set to **line** or **both**.
+
+### Syntax
+
+`-ms-layout-grid-char: none | auto |  <length>  |  <percentage>`
+
+### Standards information
+
 There are no standards that apply here.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+## See also
+
+### Related articles
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   **layout-grid-char**
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

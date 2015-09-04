@@ -1,70 +1,77 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets the name of a particular type of node.}}
-{{API_Object_Property
-|Property_applies_to=dom/Node
-|Read_only=Yes
-|Example_object_name=node
-|Return_value_name=nodeName
-|Javascript_data_type=String
-|Return_value_description=The uppercase name of the node if Content type is text/html, else the lowercase name of the node if Content type is xhtml or any other xml content type.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following code example uses the '''nodeName''' property to obtain the name of an element.
-|Code=&lt;body&gt;
- &lt;ul id{{=}}"oList"&gt;
-  &lt;li&gt;List Item 1&lt;/li&gt;
-  &lt;li&gt;List Item 2&lt;/li&gt;
-  &lt;li&gt;List Item 3&lt;/li&gt;
- &lt;/ul&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-// returns the element name 'LI' of the list item labeled 'List Item 2'
-var sName {{=}} document.getElementById("oList").childNodes(1).nodeName;
-&lt;/script&gt;
+---
+title: nodeName
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Gets the name of a particular type of node.'
+uri: dom/Node/nodeName
 
-&lt;/body&gt;
-}}
-}}
-{{Notes_Section
-|Notes=The html spec allows tag names of either case, upper or lower-case.
-The xhtml spec requires tag names in lower-case only.
-For interoperability between html and xhtml, and for markup re-use in html and xhtml documents user lower-case tag names in your source markup.
+---
+# nodeName
+
+## Summary
+
+Gets the name of a particular type of node.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Node](/dom/Node)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var nodeName = node.nodeName;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The uppercase name of the node if Content type is text/html, else the lowercase name of the node if Content type is xhtml or any other xml content type.
+
+## Examples
+
+The following code example uses the **nodeName** property to obtain the name of an element.
+
+``` {.html}
+<body>
+ <ul id="oList">
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3</li>
+ </ul>
+<script type="text/javascript">
+// returns the element name 'LI' of the list item labeled 'List Item 2'
+var sName = document.getElementById("oList").childNodes(1).nodeName;
+</script>
+
+</body>
+```
+
+## Notes
+
+The html spec allows tag names of either case, upper or lower-case. The xhtml spec requires tag names in lower-case only. For interoperability between html and xhtml, and for markup re-use in html and xhtml documents user lower-case tag names in your source markup.
 
 Using lower-case tag names in your source markup also require less keystrokes!
 
-Read more details on [http://ejohn.org/blog/nodename-case-sensitivity/ nodeName case sensitivity in different browsers.]
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.nodeName Node.nodeName]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534190(v=vs.85).aspx nodeName Property]
-|HTML5Rocks_link=
-}}
+Read more details on [nodeName case sensitivity in different browsers.](http://ejohn.org/blog/nodename-case-sensitivity/)
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.nodeName](https://developer.mozilla.org/en-US/docs/Web/API/Node.nodeName) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[nodeName Property](http://msdn.microsoft.com/en-us/library/ie/ms534190(v=vs.85).aspx) Article]
+

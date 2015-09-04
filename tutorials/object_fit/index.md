@@ -1,43 +1,22 @@
-{{Page_Title|Manipulating replaced content with object-fit}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs all content
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Byline
-|Name=
-|URL=
-|Published=
-}}
-{{Summary_Section|This article describes how to manipulate replaced content with '''object-fit'''.}}
-{{Tutorial
-|Next_page=
-|Prev_page=
-|Content===Content Needed==
+---
+title: object fit
+tags:
+  - Tutorials
+  - CSS
+readiness: 'Not Ready'
+notes:
+  - 'Needs all content'
+summary: 'This article describes how to manipulate replaced content with object-fit.'
+uri: 'tutorials/object fit'
+
+---
+# Manipulating replaced content with object-fit
+
+## Summary
+
+This article describes how to manipulate replaced content with object-fit.
+
+## Content Needed
+
 This topic seemed like a good idea, we just ran out of time. If you have the time to write it up, please do. We’re all pitching in here at WPD. Thanks!
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+

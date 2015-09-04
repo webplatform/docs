@@ -1,57 +1,82 @@
-{{Page_Title|grid-row-position}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add example, description, specifications, compatibility.
-|Checked_Out=No
-|Content=Examples Needed
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Specifies a row position based upon an integer location, string value, or desired row size. 
+---
+title: grid-row-position
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Add example, description, specifications, compatibility.'
+summary: "Specifies a row position based upon an integer location, string value, or desired row size. \n"
+uri: css/properties/grid-row-position
 
-[[css/properties/grid-row]] is used as short-hand for grid-row-position and grid-row-position
-}}
-{{CSS Property
-|Initial value=1
-|Applies to=grid item elements
-|Inherited=No
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=integer
-|Description=Identifies the specified row.
-}}{{CSS Property Value
-|Data Type=span [integer] [string]
-|Description=Places an item with contiguous space available to the <integer> value. Using the <string> value only considers lines with that name.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=Automatically places an item using the auto-placement algorithm.
-}}{{CSS Property Value
-|Data Type=string
-|Description=Identifies the specified row.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Grid Layout
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+# grid-row-position
+
+## Summary
+
+Specifies a row position based upon an integer location, string value, or desired row size.
+
+[css/properties/grid-row](/css/properties/grid-row) is used as short-hand for grid-row-position and grid-row-position
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `1`
+Applies to
+:   grid item elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `grid-row-position: auto`
+-   `grid-row-position: integer`
+-   `grid-row-position: span [integer] [string]`
+-   `grid-row-position: string`
+
+## Values
+
+integer
+:   Identifies the specified row.
+
+span [integer] [string]
+:   Places an item with contiguous space available to the \<integer\> value. Using the \<string\> value only considers lines with that name.
+
+auto
+:   Automatically places an item using the auto-placement algorithm.
+
+string
+:   Identifies the specified row.
+
+**Needs Examples**: This section should include examples.
+
+## See also
+
+### Related articles
+
+#### Grid Layout
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [grid-auto-rows](/css/properties/grid-auto-rows)
+
+-   [grid-column-position](/css/properties/grid-column-position)
+
+-   [grid-column-span](/css/properties/grid-column-span)
+
+-   [grid-definition-columns](/css/properties/grid-definition-columns)
+
+-   [grid-definition-rows](/css/properties/grid-definition-rows)
+
+-   **grid-row-position**
+
+-   [height](/css/properties/height)
+

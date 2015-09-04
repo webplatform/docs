@@ -1,135 +1,97 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Adds a token to a DOMTokenList if it is not present, or removes it if it is. Returns <code>true</code> if the token is now present (it was added); returns <code>false</code> if it is not (it was removed).}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=token
-|Data type=String
-|Description=The token to toggle.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=force
-|Data type=Boolean
-|Description=Whether to force adding or removing the token. See Notes.
-|Optional=Yes
-}}
-|Method_applies_to=dom/DOMTokenList
-|Example_object_name=tokenList
-|Return_value_name=tokenExists
-|Javascript_data_type=Boolean
-|Return_value_description=Whether the token exists after the method has executed.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=//toggles an item in an element's classList (a DOMTokenList)
+---
+title: toggle
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Adds a token to a DOMTokenList if it is not present, or removes it if it is. Returns true if the token is now present (it was added); returns false if it is not (it was removed).'
+uri: dom/DOMTokenList/toggle
+
+---
+# toggle
+
+## Summary
+
+Adds a token to a DOMTokenList if it is not present, or removes it if it is. Returns true if the token is now present (it was added); returns false if it is not (it was removed).
+
+*Method of [dom/DOMTokenList](/dom/DOMTokenList)*
+
+## Syntax
+
+``` {.js}
+var tokenExists = tokenList.toggle(token, force);
+```
+
+## Parameters
+
+### token
+
+ Data-typeÂ
+:   String
+
+ The token to toggle.
+
+### force
+
+ Data-typeÂ
+:   Boolean
+
+*(Optional)*
+
+Whether to force adding or removing the token. See Notes.
+
+## Return Value
+
+Returns an object of type Boolean.
+
+Whether the token exists after the method has executed.
+
+## Examples
+
+``` {.js}
+//toggles an item in an element's classList (a DOMTokenList)
 //the item will be added if it does not exist, or removed if it does exist
 function elTogItem(elid,itemtog) {
   var classes = document.getElementById(elid).classList;
   return classes.toggle(itemtog);
 }
-}}{{Single Example
-|Language=JavaScript
-|Code=//toggles an item in an element's classList (a DOMTokenList)
+```
+
+``` {.js}
+//toggles an item in an element's classList (a DOMTokenList)
 //the item will be added if force is true, or removed if force is false,
 //functionally equivalent to .add() and .remove(), respectively
 function elTogItemForce(elid,itemtog,force) {
   var classes = document.getElementById(elid).classList;
   return classes.toggle(itemtog,force);
 }
-}}
-}}
-{{Notes_Section
-|Usage=Throws a <code>SyntaxError </code> exception if ''token'' is empty.
+```
 
-Throws an <code>InvalidCharacterError</code> exception if ''token'' contains any spaces.
-|Notes=If the optional parameter ''force'' is not provided, this method removes the token if it is present, or adds the token if it is not present. 
+## Usage
 
-If ''force'' is ''true'', this method adds the token (functionally equivalent to DOMTokenList.add()). If ''force'' is ''false'', this method removes the token (functionally equivalent to DOMTokenList.remove()).
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C DOM4
-|URL=http://www.w3.org/TR/dom/
-|Status=Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=8
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=3.6
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=11.50
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=3
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=18
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=15
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=10
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=11.10
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=5
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+     Throws a SyntaxError  exception if token is empty.
+
+Throws an `InvalidCharacterError` exception if *token* contains any spaces.
+
+## Notes
+
+If the optional parameter *force* is not provided, this method removes the token if it is present, or adds the token if it is not present.
+
+If *force* is *true*, this method adds the token (functionally equivalent to DOMTokenList.add()). If *force* is *false*, this method removes the token (functionally equivalent to DOMTokenList.remove()).
+
+## Related specifications
+
+Specification
+:   Status
+[W3C DOM4](http://www.w3.org/TR/dom/)
+:   Candidate Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

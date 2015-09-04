@@ -1,37 +1,67 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add description, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Sets the position of the bottom edge of an element.}}
-{{CSS Property
-|Initial value=auto
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
-|Animatable=Yes
-|CSS object model property=bottom
-|Values={{CSS Property Value
-|Data Type=auto
-|Description=Default. Default position, according to the regular HTML layout of the page.
-}}{{CSS Property Value
-|Data Type=length
-|Description=Floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). For more information about the supported length units, see CSS Values and Units Reference.
-}}{{CSS Property Value
-|Data Type=percentage
-|Description=Integer, followed by a percent sign (%). The value is a percentage of the height of the parent object.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=We demonstrate the `bottom` property by positioning these elements.
-|Code=.container {
+---
+title: bottom
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Add description, compatibility.'
+summary: 'Sets the position of the bottom edge of an element.'
+code_samples:
+  - 'http://gist.github.com/6181867'
+uri: css/properties/bottom
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/defaultSelected
+
+---
+# bottom
+
+## Summary
+
+Sets the position of the bottom edge of an element.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `auto`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `bottom`
+
+## Syntax
+
+-   `bottom: auto`
+-   `bottom: length`
+-   `bottom: percentage`
+
+## Values
+
+auto
+:   Default. Default position, according to the regular HTML layout of the page.
+
+length
+:   Floating-point number, followed by an absolute units designator (`cm`, `mm`, `in`, `pt`, or `pc`) or a relative units designator (`em`, `ex`, or `px`). For more information about the supported length units, see CSS Values and Units Reference.
+
+percentage
+:   Integer, followed by a percent sign (%). The value is a percentage of the height of the parent object.
+
+## Examples
+
+We demonstrate the \`bottom\` property by positioning these elements.
+
+``` {.css}
+.container {
   /**
    * Object is positioned according to the normal flow, and then offset.
    */
@@ -42,7 +72,7 @@
   /**
    * Object is positioned relative to nearest positioned ancestor—or
    * to the initial containing block if no positioned ancestor exists.
-   * Here, the nearest positioned ancestor is the `&lt;div class="container"^gt;`.
+   * Here, the nearest positioned ancestor is the `<div class="container"^gt;`.
    */
   position: absolute;
   /**
@@ -56,12 +86,12 @@
   /**
    * Here, the nearest positioned anscestor does not exist, hence
    * the coordinate system reference becomes the initial containing block,
-   * i.e. the `&lt;body&gt;`.
+   * i.e. the `<body>`.
    */
   position: absolute;
   /**
    * Offsets this element 100px above the initial containing
-   * block's bottom edge i.e. the `&lt;body&gt;`'s bottom edge.
+   * block's bottom edge i.e. the `<body>`'s bottom edge.
    */
   bottom: 100px;
 }
@@ -79,54 +109,94 @@
    */
   bottom: 20px;
 }
-|LiveURL=http://code.webplatform.org/gist/6181867
-}}{{Single Example
-|Language=HTML
-|Description=The HTML for the above example.
-|Code=<syntaxhighlight>
+```
+
+[View live example](http://code.webplatform.org/gist/6181867)
+
+The HTML for the above example.
+
+``` {.html}
+
+
 <article>
   <div class="container">
     <p class="box absolutely-positioned-within-container">Absolutely positioned within <code>div.container</code> at 50px above the bottom edge.</p>
     <p class="box relatively-positioned">This is relatively positioned at 20px from the bottom.</p>
   </div>
-  
+
   <p class="box absolutely-positioned-within-body">This is absolutely positioned within the <code>body</code> at 50px above the bottom edge.</p>
 </article>
-</syntaxhighlight>
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS 2.1, Visual formatting model
-|URL=http://www.w3.org/TR/CSS2/visuren.html#propdef-bottom
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/cssom/properties/pixelTop|pixelTop]]</code>
-*<code>[[css/cssom/properties/posTop|posTop]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+</pre>
+
+## Related specifications
+
+Specification
+:   Status
+[CSS 2.1, Visual formatting model](http://www.w3.org/TR/CSS2/visuren.html#propdef-bottom)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### Box Model
+
+-   [border](/css/properties/border)
+
+-   [border-corner-shape](/css/properties/border-corner-shape)
+
+-   **bottom**
+
+-   [box-shadow](/css/properties/box-shadow)
+
+-   [box-sizing](/css/properties/box-sizing)
+
+-   [break-before](/css/properties/break-before)
+
+-   [clear](/css/properties/clear)
+
+-   [float](/css/properties/float)
+
+-   [height](/css/properties/height)
+
+-   [left](/css/properties/left)
+
+-   [line-height](/css/properties/line-height)
+
+-   [margin](/css/properties/margin)
+
+-   [margin-bottom](/css/properties/margin-bottom)
+
+-   [margin-left](/css/properties/margin-left)
+
+-   [margin-right](/css/properties/margin-right)
+
+-   [margin-top](/css/properties/margin-top)
+
+-   [max-height](/css/properties/max-height)
+
+-   [max-width](/css/properties/max-width)
+
+-   [min-height](/css/properties/min-height)
+
+-   [min-width](/css/properties/min-width)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaults`
+-   `runtimeStyle`
+-   `style`
+-   `Reference`
+-   `pixelTop`
+-   `posTop`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,101 +1,139 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The outline-style property sets the style of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.}}
-{{CSS Property
-|Initial value=none
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=Specified value
-|Animatable=No
-|CSS object model property=outlineStyle
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=none
-|Description=Default. Outline is not drawn, color and width are ignored.
-}}{{CSS Property Value
-|Data Type=dotted
-|Description=A series of round or square dots.
-}}{{CSS Property Value
-|Data Type=dashed
-|Description=A series of square-ended dashes.
-}}{{CSS Property Value
-|Data Type=solid
-|Description=A single line segment.
-}}{{CSS Property Value
-|Data Type=double
-|Description=Outline is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [[css/properties/outline-width|outline-width]] value. The border width must be at least 3 pixels wide to draw a double outline.
-}}{{CSS Property Value
-|Data Type=groove
-|Description=Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the [[css/properties/outline-color|outline-color]].)
-}}{{CSS Property Value
-|Data Type=ridge
-|Description=Looks as if it were coming out of the canvas.
-}}{{CSS Property Value
-|Data Type=inset
-|Description=Looks as if the content on the inside of the outline is sunken into the canvas.
-}}{{CSS Property Value
-|Data Type=outset
-|Description=Looks as if the content on the inside of the outline is coming out of the canvas.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=Defined by the user agent (browser). Currently supported only in WebKit. This value allows user-agents to draw focus outlines on elements in an appropriate platform-native style, or in some other appropriate style if there is no platform-native style.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A simple example showing multiple &lt;span&gt;s.
-|Code=&lt;div class="all"&gt;
-&lt;p&gt;
-      &lt;span class="one"&gt;One&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="two"&gt;Two&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="three"&gt;Three&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="four"&gt;Four&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="five"&gt;Five&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="six"&gt;Six&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="seven"&gt;Seven&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="eight"&gt;Eight&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="nine"&gt;Nine&lt;/span&gt;
-    &lt;/p&gt;
-&lt;/div&gt;
-|LiveURL=http://code.webplatform.org/gist/5579124
-}}{{Single Example
-|Language=CSS
-|Description=Outline styles in CSS.
-|Code=.all {
+---
+title: outline-style
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The outline-style property sets the style of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.'
+code_samples:
+  - 'http://gist.github.com/5579124'
+uri: css/properties/outline-style
+
+---
+# outline-style
+
+## Summary
+
+The outline-style property sets the style of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   Specified value
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `outlineStyle`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `outline-style: auto`
+-   `outline-style: dashed`
+-   `outline-style: dotted`
+-   `outline-style: double`
+-   `outline-style: groove`
+-   `outline-style: inherit`
+-   `outline-style: inset`
+-   `outline-style: none`
+-   `outline-style: outset`
+-   `outline-style: ridge`
+-   `outline-style: solid`
+
+## Values
+
+none
+:   Default. Outline is not drawn, color and width are ignored.
+
+dotted
+:   A series of round or square dots.
+
+dashed
+:   A series of square-ended dashes.
+
+solid
+:   A single line segment.
+
+double
+:   Outline is a double line drawn on top of the background of the object. The sum of the two single lines and the space between equals the [outline-width](/css/properties/outline-width) value. The border width must be at least 3 pixels wide to draw a double outline.
+
+groove
+:   Looks as if it were carved in the canvas. (This is typically achieved by creating a “shadow” from two colors that are slightly lighter and darker than the [outline-color](/css/properties/outline-color).)
+
+ridge
+:   Looks as if it were coming out of the canvas.
+
+inset
+:   Looks as if the content on the inside of the outline is sunken into the canvas.
+
+outset
+:   Looks as if the content on the inside of the outline is coming out of the canvas.
+
+inherit
+:   This is a keyword indicating that the value is inherited from their parent's element calculated value.
+
+auto
+:   Defined by the user agent (browser). Currently supported only in WebKit. This value allows user-agents to draw focus outlines on elements in an appropriate platform-native style, or in some other appropriate style if there is no platform-native style.
+
+## Examples
+
+A simple example showing multiple \<span\>s.
+
+``` {.html}
+<div class="all">
+<p>
+      <span class="one">One</span>
+    </p>
+    <p>
+      <span class="two">Two</span>
+    </p>
+    <p>
+      <span class="three">Three</span>
+    </p>
+    <p>
+      <span class="four">Four</span>
+    </p>
+    <p>
+      <span class="five">Five</span>
+    </p>
+    <p>
+      <span class="six">Six</span>
+    </p>
+    <p>
+      <span class="seven">Seven</span>
+    </p>
+    <p>
+      <span class="eight">Eight</span>
+    </p>
+    <p>
+      <span class="nine">Nine</span>
+    </p>
+</div>
+```
+
+[View live example](http://code.webplatform.org/gist/5579124)
+
+Outline styles in CSS.
+
+``` {.css}
+.all {
   background-color: lightgrey;
 }
 
 .all p {
   padding: 20px;
 }
-  
+
 .all span {
   padding: 10px;
   margin: 10px 10px 10px 10px;
@@ -139,54 +177,25 @@
 .all .nine {
   outline-style: inset;
 }
-|LiveURL=http://code.webplatform.org/gist/5579124
-}}
-}}
-{{Notes_Section
-|Notes=* This property accepts the same values as [[css/properties/border-style|border-style]], ''' ''except'' ''' that ‘hidden’ is not a legal outline style.
-* The [[css/properties/outline|outline]] property is a shorthand property for setting one or more of the individual outline properties [[css/properties/outline-style|outline-style]], [[css/properties/outline-width|outline-width]] and [[css/properties/outline-color|outline-color]] in a single rule. In most cases the use of this shortcut is preferable and more convenient.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Basic User Interface Module Level 3 (CSS3 UI)
-|URL=http://dev.w3.org/csswg/css-ui/#outline-style0
-|Status=Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.5
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=1
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=8
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.2
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5579124)
+
+## Notes
+
+-   This property accepts the same values as [border-style](/css/properties/border-style), ***except*** that ‘hidden’ is not a legal outline style.
+-   The [outline](/css/properties/outline) property is a shorthand property for setting one or more of the individual outline properties **outline-style**, [outline-width](/css/properties/outline-width) and [outline-color](/css/properties/outline-color) in a single rule. In most cases the use of this shortcut is preferable and more convenient.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Basic User Interface Module Level 3 (CSS3 UI)](http://dev.w3.org/csswg/css-ui/#outline-style0)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

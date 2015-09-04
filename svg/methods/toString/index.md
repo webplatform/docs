@@ -1,34 +1,31 @@
-{{Page Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Stub MSDN import
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Import_Notes=
+---
+title: toString
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Stub MSDN import'
+uri: svg/methods/toString
 
-===Syntax===
+---
+# toString
 
-===Standards information===
+### Syntax
+
+### Standards information
 
 There are no standards that apply here.
 
-}}
-{{See_Also_Section
-|Manual_sections=
+## See also
 
-===Related pages (MSDN)===
+### Related pages (MSDN)
 
-*[[svg/objects/SVGException|'''SVGException''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+-   [**SVGException**](/svg/objects/SVGException)
 
-[[Category:SVG]]
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

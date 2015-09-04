@@ -1,78 +1,69 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=See to make the listing of events, methods etc to be generated automatically instead of being hardcoded.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The HTML NoScript Element (<noscript>) defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=Closing tag required
-|CSS_display=none
-|Content=The ''noscript'' element content will not be visible if scripting is enabled in the browsers. It is used to present different contents and guide the user on what he should be seeing.
+---
+title: noscript
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'See to make the listing of events, methods etc to be generated automatically instead of being hardcoded.'
+summary: 'The HTML NoScript Element (<noscript>) defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.'
+code_samples:
+  - 'https://rawgithub.com/WebPlatformDocs/6364342/raw/47a37f3fe0d920a0c6a8a7974dca473589f1e4f5/dabblet.html'
+uri: html/elements/noscript
 
-The ''noscript'' element is not permitted in XML modes.
+---
+# noscript
+
+## Summary
+
+The HTML NoScript Element (\<noscript\>) defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+The *noscript* element content will not be visible if scripting is enabled in the browsers. It is used to present different contents and guide the user on what he should be seeing.
+
+The *noscript* element is not permitted in XML modes.
 
 If you need to display a message to non-scripting user-agents, consider a "loading" message that gets removed by scripting.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=You must disable javascript for this to work.
-|Code=&lt;script&gt;
+
+## Examples
+
+You must disable javascript for this to work.
+
+``` {.html}
+<script>
     /* Do stuff with JavaScript */
-&lt;/script&gt;
-&lt;noscript&gt;
-For full functionality of this site it is necessary to enable JavaScript. Here are the &lt;a href="http://www.enable-javascript.com/" &gt;instructions how to enable JavaScript in your web browser&lt;/a&gt;.
-&lt;/noscript&gt;
-|LiveURL=https://rawgithub.com/WebPlatformDocs/6364342/raw/47a37f3fe0d920a0c6a8a7974dca473589f1e4f5/dabblet.html
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=Browsers that don't support the noscript tag will render the content regardless of whether the javascript is supported
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/scripting-1.html#the-noscript-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/scripting-1.html#the-noscript-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/interact/scripts.html#edef-NOSCRIPT
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+</script>
+<noscript>
+For full functionality of this site it is necessary to enable JavaScript. Here are the <a href="http://www.enable-javascript.com/" >instructions how to enable JavaScript in your web browser</a>.
+</noscript>
+```
+
+[View live example](https://rawgithub.com/WebPlatformDocs/6364342/raw/47a37f3fe0d920a0c6a8a7974dca473589f1e4f5/dabblet.html)
+
+## Notes
+
+Browsers that don't support the noscript tag will render the content regardless of whether the javascript is supported
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/scripting-1.html#the-noscript-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/scripting-1.html#the-noscript-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/interact/scripts.html#edef-NOSCRIPT)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

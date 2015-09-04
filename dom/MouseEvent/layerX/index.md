@@ -1,46 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=compatibility, clean-up of MSDN content to provide neutral context for non-standard property
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.}}
-{{API_Object_Property
-|Property_applies_to=dom/MouseEvent
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-A positioned element is an element whose position property is set to <code>relative</code>, <code>absolute</code> or <code>fixed</code>. For more information about element positioning, see About Element Positioning.
-'''Note'''  This property is provided for cross-browser compatibility. Use '''x''' instead.
-|Import_Notes====Syntax===
-===Standards information===
+---
+title: layerX
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'compatibility, clean-up of MSDN content to provide neutral context for non-standard property'
+summary: 'Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.'
+uri: dom/MouseEvent/layerX
+
+---
+# layerX
+
+## Summary
+
+Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MouseEvent](/dom/MouseEvent)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.layerX;
+element.layerX = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+A positioned element is an element whose position property is set to `relative`, `absolute` or `fixed`. For more information about element positioning, see About Element Positioning. **Note**  This property is provided for cross-browser compatibility. Use **x** instead.
+
+### Syntax
+
+### Standards information
+
 There are no standards that apply here.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/event.layerX event.layerX]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/gg130967(v=vs.85).aspx event.layerX]
-|HTML5Rocks_link=
-}}
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[event.layerX](https://developer.mozilla.org/en-US/docs/Web/API/event.layerX) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[event.layerX](http://msdn.microsoft.com/en-us/library/ie/gg130967(v=vs.85).aspx) Article]
+

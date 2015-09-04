@@ -1,79 +1,64 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs summary, examples, specs, compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/Element
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-The <code>code</code> property returns one of the following file error codes.
-{{{!}} class="wikitable"
-{{!}}-
-!Constant
-!Code
-!Description
-{{!}}-
-{{!}}NotFoundError
-{{!}}8
-{{!}}The [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']] could not be found at the time the read was processed.
-{{!}}-
-{{!}}SecurityError
-{{!}}18
-{{!}}A file error not covered by the other file error codes occurred, such as:
-*Too many read calls are being made on [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']] resources.
-*The file has changed on disk since the user selected it.
-*Certain files are unsafe for access within a web application.
+---
+title: code
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Needs summary, examples, specs, compat'
+uri: dom/Element/code
 
-{{!}}-
-{{!}}AbortError
-{{!}}20
-{{!}}The read operation was aborted, typically with a call to [[apis/file/FileReader/abort|'''abort''']].
-{{!}}-
-{{!}}NotReadableError
-{{!}}0
-{{!}}The [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']] cannot be read, typically due to permission problems that occur after a reference to a '''File''' or '''Blob''' has been acquired (that is, concurrent lock with another application).
-{{!}}-
-{{!}}EncodingError
-{{!}}0
-{{!}}The length of the data URL for a [[apis/file/File|'''File''']] or [[apis/file/Blob|'''Blob''']] is too long.
-{{!}}}
- 
-See [[apis/file/FileError|'''FileError''']] for a code example using these error codes.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/file/FileError|FileError]]</code>
-*<code>[[apis/file/MSStreamError|MSStreamError]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+# code
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Element](/dom/Element)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.code;
+element.code = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+The `code` property returns one of the following file error codes.
+
+Constant
+:   Code
+NotFoundError
+:   8
+SecurityError
+:   18
+AbortError
+:   20
+NotReadableError
+:   0
+EncodingError
+:   0
+
+  See [**FileError**](/apis/file/FileError) for a code example using these error codes.
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `FileError`
+-   `MSStreamError`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

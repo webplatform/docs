@@ -1,1 +1,6 @@
-[[css/selectors/pseudo-elements/::after]]
+---
+title: fter
+uri: after
+
+---
+**after**

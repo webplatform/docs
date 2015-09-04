@@ -1,78 +1,91 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Destroys an object store with the given name as well as all indexes that are referencing that object store.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=name
-|Data type=Blob
-|Description=Name of the object store to be removed.
-|Optional=No
-}}
-|Method_applies_to=apis/indexeddb/IDBDatabase
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=This method can throw the following [[dom/DOMException|'''DOMException''']] exceptions:
+---
+title: deleteObjectStore
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: IndexedDB
+readiness: 'In Progress'
+notes:
+  - 'Needs example, spec reference, standardization status'
+summary: 'Destroys an object store with the given name as well as all indexes that are referencing that object store.'
+uri: apis/indexeddb/IDBDatabase/deleteObjectStore
 
-'''Note'''  As of Internet Explorer 10, the '''code''' property is deprecated in lieu of the '''name''' property, which is preferred for standards compliance and future compatibility.
+---
+# deleteObjectStore
 
-{{{!}} class="wikitable"
-{{!}}-
-!Exception properties
-!Description
-{{!}}-
-{{!}}name: InvalidStateError
+## Summary
 
-code: DOMException.INVALID_STATE_ERR (11)
-{{!}}The method was not called within the context of a VERSION_CHANGE transaction or the request was made for an object that has been moved or deleted.
-{{!}}-
-{{!}}name: NotFoundError
+Destroys an object store with the given name as well as all indexes that are referencing that object store.
 
-code: DOMException.NOT_FOUND_ERR (8)
-{{!}}An object store could not be found with the specified name (case-sensitive).
-{{!}}}
- 
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+*Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)*
+
+## Syntax
+
+``` {.js}
+var object = object.deleteObjectStore(name);
+```
+
+## Parameters
+
+### name
+
+ Data-type�
+:   Blob
+
+ Name of the object store to be removed.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
+
+**Note**  As of Internet Explorer 10, the **code** property is deprecated in lieu of the **name** property, which is preferred for standards compliance and future compatibility.
+
+<dl data-table="wikitable">
+<dt>
+Exception properties
+
+</dt>
+<dd>
+Description
+
+</dd>
+<dt>
+name: InvalidStateError
+
+code: DOMException.INVALID\_STATE\_ERR (11)
+
+</dt>
+<dd>
+The method was not called within the context of a VERSION\_CHANGE transaction or the request was made for an object that has been moved or deleted.
+
+</dd>
+<dt>
+name: NotFoundError
+
+code: DOMException.NOT\_FOUND\_ERR (8)
+
+</dt>
+<dd>
+An object store could not be found with the specified name (case-sensitive).
+
+</dd>
+</dl>
+�
+
+**Needs Examples**: This section should include examples.
+
+### Syntax
+
+### Standards information
+
+-   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

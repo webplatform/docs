@@ -1,52 +1,47 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|A TextTrackList object represents a dynamically updating list of text tracks in a given order.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5 Specification
-|URL=http://dev.w3.org/html5/spec/single-page.html
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Audio, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: TextTrackList
+tags:
+  0: API
+  1: Objects
+  3: Audio
+  4: Video
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'A TextTrackList object represents a dynamically updating list of text tracks in a given order.'
+uri: apis/audio-video/TextTrackList
+
+---
+# TextTrackList
+
+## Summary
+
+A TextTrackList object represents a dynamically updating list of text tracks in a given order.
+
+## Properties
+
+API Name
+:   Summary
+[length](/apis/audio-video/TextTrackList/length)
+:   The length attribute of a TextTrackList object returns the number of text tracks in the list represented by the TextTrackList.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
+:   W3C Editor's Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

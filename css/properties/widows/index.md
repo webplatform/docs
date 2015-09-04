@@ -1,121 +1,109 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Examples Needed
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Defines the minimum number of lines that can appear in the beginning of a new page. In typography, a widow is the last line of a paragraph appearing alone at the top of a page, which is considered to look awkward. Setting the widows property to an integer higher than 1 prevents this.
+---
+title: widows
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: "Defines the minimum number of lines that can appear in the beginning of a new page. In typography, a widow is the last line of a paragraph appearing alone at the top of a page, which is considered to look awkward. Setting the widows property to an integer higher than 1 prevents this.\n"
+uri: css/properties/widows
 
-On a non-paged media, like screen, the widows CSS property has no effect.
-It can have a number value or it can inherit the values from the parent element.
-}}
-{{CSS Property
-|Initial value=2
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Computed value=As specified
-|Animatable=No
-|CSS object model property=
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=integer
-|Description=Denotes the minimum number of lines that can appear alone on the top of a new page. If the value is not positive, the declaration is invalid.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Takes the same specified value as the property for the element's parent.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=The following style rule ensures that at least three lines of a paragraph appear at the top (''widows'') and bottom (''orphans'') of each printed page.
-|Code=@media print {
+---
+# widows
+
+## Summary
+
+Defines the minimum number of lines that can appear in the beginning of a new page. In typography, a widow is the last line of a paragraph appearing alone at the top of a page, which is considered to look awkward. Setting the widows property to an integer higher than 1 prevents this.
+
+On a non-paged media, like screen, the widows CSS property has no effect. It can have a number value or it can inherit the values from the parent element.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `2`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   As specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   N/A
+
+## Syntax
+
+-   `widows: inherit`
+-   `widows: integer`
+
+## Values
+
+integer
+:   Denotes the minimum number of lines that can appear alone on the top of a new page. If the value is not positive, the declaration is invalid.
+
+inherit
+:   Takes the same specified value as the property for the element's parent.
+
+## Examples
+
+The following style rule ensures that at least three lines of a paragraph appear at the top (*widows*) and bottom (*orphans*) of each printed page.
+
+``` {.css}
+@media print {
     p {
         widows: 3;
         orphans: 3;
     }
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-The '''widows''' property takes precedence over [[css/properties/orphans|'''orphans''']].
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Fragmentation Module Level 3
-|URL=http://www.w3.org/TR/css3-break/#widows-orphans
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS Multi-column Layout Module
-|URL=http://dev.w3.org/csswg/css-multicol/#filling-columns
-|Status=W3C Candidate Reccomendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/page.html#break-inside
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Paged Media
-|Manual_links=
-|External_links=http://xhtml.com/en/css/reference/widows/
-|Manual_sections====Related pages ===
-*<code>[[css/properties/orphans|orphans]]</code>
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=8.0
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=9.2
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=8
-|Note=This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
-}}
-}}
+```
+
+## Notes
+
+### Remarks
+
+The **widows** property takes precedence over [**orphans**](/css/properties/orphans).
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Fragmentation Module Level 3](http://www.w3.org/TR/css3-break/#widows-orphans)
+:   W3C Working Draft
+[CSS Multi-column Layout Module](http://dev.w3.org/csswg/css-multicol/#filling-columns)
+:   W3C Candidate Reccomendation
+[CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/page.html#break-inside)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### Paged Media
+
+-   [@page](/css/atrules/@page)
+
+-   **widows**
+
+### External resources
+
+[http://xhtml.com/en/css/reference/widows/](http://xhtml.com/en/css/reference/widows/)
+
+### Related pages
+
+-   `orphans`
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

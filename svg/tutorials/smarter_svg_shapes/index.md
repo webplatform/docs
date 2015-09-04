@@ -1,586 +1,451 @@
-{{Page_Title|SVG basic shapes and text}}
-{{Flags
-|State=In Progress
-|Editorial notes=Fix multiple broken links
-|Checked_Out=No
-}}
-{{Byline
-|Name=Mike Sierra
-}}
-{{Summary_Section|This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.}}
-{{Tutorial
-|Content===Simple shapes==
+---
+title: smarter svg shapes
+tags:
+  - Tutorials
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Fix multiple broken links'
+summary: 'This guide introduces SVG''s basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.'
+uri: 'svg/tutorials/smarter svg shapes'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - svg/attributes/width
+    - svg/attributes/height
+    - svg/attributes/x
+    - svg/attributes/y
+    - svg/attributes/cx
+    - svg/attributes/cy
+    - svg/attributes/r
+    - svg/attributes/rx
+    - svg/attributes/ry
+    - svg/properties/fill
+    - svg/properties/stroke
+    - svg/properties/stroke-width
+    - svg/properties/fill-opacity
+    - svg/properties/stroke-opacity
+    - svg/attributes/points
+    - svg/properties/stroke-linecap
+    - svg/properties/stroke-linejoin
+    - svg/properties/stroke-miterlimit
+    - svg/properties/stroke-dasharray
+    - svg/properties/stroke-dashoffset
+    - svg/attributes/d
+    - svg/properties/fill-rule
+    - svg/properties/marker-start
+    - svg/properties/marker-mid
+    - svg/properties/marker
+    - svg/attributes/orient
+    - css/properties/text-anchor
+    - svg/attributes/dy
+    - svg/attributes/rotate
+    - svg/attributes/dx
+    - svg/elements/tref
+    - svg/attributes/startOffset
 
-Various SVG elements produce basic shapes, and their attributes
-specify their dimensions.
+---
+# SVG basic shapes and text
 
-Rectangles are defined by their [[svg/attributes/width|'''width''']]
-and [[svg/attributes/height|'''height''']] attributes, while
-[[svg/attributes/x|'''x''']] and [[svg/attributes/y|'''y''']] offsets
-position the upper-left corner of the [[svg/elements/rect|'''rect''']]
-relative to its parent:
+**By Mike Sierra**
 
-<syntaxhighlight lang="xml">
+## Summary
+
+This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.
+
+## Simple shapes
+
+Various SVG elements produce basic shapes, and their attributes specify their dimensions.
+
+Rectangles are defined by their [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) attributes, while [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1) and [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1) offsets position the upper-left corner of the [**rect**](/svg/elements/rect) relative to its parent:
+
+``` {.xml}
 <rect x="10" y="10" width="240" height="160"/>
-</syntaxhighlight>
+```
 
-Circles are positioned by the [[svg/attributes/cx|'''cx''']] and
-[[svg/attributes/cy|'''cy''']] center point, and the radius
-([[svg/attributes/r|'''r''']]) specifies the size:
+ Circles are positioned by the [**cx**](/w/index.php?title=svg/attributes/cx&action=edit&redlink=1) and [**cy**](/w/index.php?title=svg/attributes/cy&action=edit&redlink=1) center point, and the radius ([**r**](/w/index.php?title=svg/attributes/r&action=edit&redlink=1)) specifies the size:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <circle cx="50" cy="50" r="100"/>
-</syntaxhighlight>
+```
 
-Ellipses are positioned like circles, but require two
-[[svg/attributes/rx|'''rx''']] and [[svg/attributes/ry|'''ry''']]
-radius attributes for each axis:
+ Ellipses are positioned like circles, but require two [**rx**](/w/index.php?title=svg/attributes/rx&action=edit&redlink=1) and [**ry**](/w/index.php?title=svg/attributes/ry&action=edit&redlink=1) radius attributes for each axis:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <ellipse cx="40" cy="60" rx="40" ry="20"/>
-</syntaxhighlight>
+```
 
-When applied to [[svg/elements/rect|'''rect''']] elements,
-[[svg/attributes/rx|'''rx''']] and [[svg/attributes/ry|'''ry''']]
-attributes produce rounded corners:
+ When applied to [**rect**](/svg/elements/rect) elements, [**rx**](/w/index.php?title=svg/attributes/rx&action=edit&redlink=1) and [**ry**](/w/index.php?title=svg/attributes/ry&action=edit&redlink=1) attributes produce rounded corners:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <rect x="10" y="10" width="160" height="240" rx="20" ry="20"/>
-</syntaxhighlight>
+```
 
-This is how these examples appear:
+ This is how these examples appear:
 
-[[Image:svg_shapes.png]]
+![svg shapes.png](/assets/public/7/74/svg_shapes.png)
 
-==Fill and stroke properties==
+## Fill and stroke properties
 
-By default, shapes are filled black.  The
-[[svg/properties/fill|'''fill''']] and
-[[svg/properties/stroke|'''stroke''']] properties specify the color of
-the background and the edge of the shape.
+By default, shapes are filled black. The [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) properties specify the color of the background and the edge of the shape.
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <rect fill="pink" stroke="red" x="10" y="10" width="160" height="240"/>
-</syntaxhighlight>
+```
 
-You can assign these as attributes on SVG elements, but they are
-really CSS properties. For the sake of clarity and best practice, this
-guide expresses SVG properties as CSS selectors:
+ You can assign these as attributes on SVG elements, but they are really CSS properties. For the sake of clarity and best practice, this guide expresses SVG properties as CSS selectors:
 
-<syntaxhighlight lang="css">
+``` {.css}
  rect {
-     fill   : pink;
-     stroke : red;
+     fill   : pink;
+     stroke : red;
  }
-</syntaxhighlight>
+```
 
-Properties specified via CSS override those specified as attributes,
-so this local CSS that colors the [[svg/elements/rect|'''rect''']]
-green overrides the local attribute that colors it red:
+ Properties specified via CSS override those specified as attributes, so this local CSS that colors the [**rect**](/svg/elements/rect) green overrides the local attribute that colors it red:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <rect fill="pink" stroke="red" style="fill:lightgreen;stroke:green"
     x="10" y="10" width="160" height="240"/>
-</syntaxhighlight>
+```
 
-The [[svg/properties/stroke-width|'''stroke-width''']] is centered
-over the edge of the shape, so increasing its pixel value bleeds the
-[[svg/properties/stroke|'''stroke''']] color both inside and outside
-the shape:
+ The [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1) is centered over the edge of the shape, so increasing its pixel value bleeds the [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) color both inside and outside the shape:
 
-<syntaxhighlight lang="css">
+``` {.css}
  rect {
-     fill         : pink;
-     stroke       : red;
-     stroke-width : 6;
+     fill         : pink;
+     stroke       : red;
+     stroke-width : 6;
  }
-</syntaxhighlight>
+```
 
-To apply transparencies, you can set the
-[[svg/properties/fill-opacity|'''fill-opacity''']] and
-[[svg/properties/stroke-opacity|'''stroke-opacity''']] properties.
+ To apply transparencies, you can set the [**fill-opacity**](/w/index.php?title=svg/properties/fill-opacity&action=edit&redlink=1) and [**stroke-opacity**](/w/index.php?title=svg/properties/stroke-opacity&action=edit&redlink=1) properties.
 
-<syntaxhighlight lang="css">
+``` {.css}
  rect {
-     stroke-width   : 10;
-     stroke         : red;
-     stroke-opacity : 0.5;
-     fill           : red;
-     fill-opacity   : 0.25;
+     stroke-width   : 10;
+     stroke         : red;
+     stroke-opacity : 0.5;
+     fill           : red;
+     fill-opacity   : 0.25;
  }
-</syntaxhighlight>
+```
 
-[[Image:svg_opacity.png]]
+ ![svg opacity.png](/assets/public/4/44/svg_opacity.png)
 
-Alternately, you can use [[css/data_types/color|'''rgba()''' and
-'''hsla()''']] CSS colors to to incorpoarate opacity as part of
-[[svg/properties/fill|'''fill''']] and
-[[svg/properties/stroke|'''stroke''']] property values. The following
-has the same effect as the example above:
+Alternately, you can use [**rgba()** and **hsla()**](/css/data_types/color) CSS colors to to incorpoarate opacity as part of [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) property values. The following has the same effect as the example above:
 
-<syntaxhighlight lang="css">
+``` {.css}
  rect {
-     stroke-width : 10;
-     stroke       : rgba(100%,0%,0%,0.5);
-     fill         : rgba(100%,0%,0%,0.25);
+     stroke-width : 10;
+     stroke       : rgba(100%,0%,0%,0.5);
+     fill         : rgba(100%,0%,0%,0.25);
  }
-</syntaxhighlight>
+```
 
-==Lines and polygons==
+## Lines and polygons
 
-To draw a straight line, specify its start and end coordinates as
-'''x1''', '''y1''', '''x2''', and '''y2''':
+To draw a straight line, specify its start and end coordinates as **x1**, **y1**, **x2**, and **y2**:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <line x1="0" y1="0" x2="100" y2="100"/>
-</syntaxhighlight>
+```
 
-A [[svg/elements/polyline|'''polyline''']] consists of a series of
-''x''/''y'' coordinates specified within the
-[[svg/attributes/points|'''points''']] attribute, with items separated
-by either commas or whitespace.  This draws an arrow:
+ A [**polyline**](/svg/elements/polyline) consists of a series of *x*/*y* coordinates specified within the [**points**](/w/index.php?title=svg/attributes/points&action=edit&redlink=1) attribute, with items separated by either commas or whitespace. This draws an arrow:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <polyline points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
-</syntaxhighlight>
+```
 
-A [[svg/elements/polygon|'''polygon''']] is the same as a
-[[svg/elements/polyline|'''polyline''']], but the final coordinate is
-joined with the first:
+ A [**polygon**](/svg/elements/polygon) is the same as a [**polyline**](/svg/elements/polyline), but the final coordinate is joined with the first:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <polygon points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
-</syntaxhighlight>
+```
 
-[[Image:svg_linepath.png]]
+ ![svg linepath.png](/assets/public/a/a4/svg_linepath.png)
 
-==More stroke properties==
+## More stroke properties
 
-Additional properties provide greater control over how the ends or
-joints of line segments appear. The
-[[svg/properties/stroke-linecap|'''stroke-linecap''']] property
-determines the appearance of the end of a stroke, or dashes within a
-stroke. Options appear as follows, with both '''round''' and
-'''square''' extending past the end of the line depending on the
-[[svg/properties/stroke-width|'''stroke-width''']]::
+Additional properties provide greater control over how the ends or joints of line segments appear. The [**stroke-linecap**](/w/index.php?title=svg/properties/stroke-linecap&action=edit&redlink=1) property determines the appearance of the end of a stroke, or dashes within a stroke. Options appear as follows, with both **round** and **square** extending past the end of the line depending on the [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1)::
 
-<div style="display:inline-block">
-[[Image:svg_linecap_round.png]]
- stroke-linecap: round;
-</div>
-<div style="display:inline-block">
-[[Image:svg_linecap_square.png]]
- stroke-linecap: square;
-</div>
-<div style="display:inline-block">
-[[Image:svg_linecap_butt.png]]
- stroke-linecap: butt;
-</div>
+![svg linecap round.png](/assets/public/c/c1/svg_linecap_round.png)
 
-The [[svg/properties/stroke-linejoin|'''stroke-linejoin''']] property
-affects how joined segments appear, and becomes more apparent for
-narrower angles as the
-[[svg/properties/stroke-width|'''stroke-width''']] increases:
+    stroke-linecap: round;
 
-<div style="display:inline-block">
-[[Image:svg_linejoin_round.png]]
- stroke-linejoin: round;
-</div>
-<div style="display:inline-block">
-[[Image:svg_linejoin_bevel.png]]
- stroke-linejoin: bevel;
-</div>
-<div style="display:inline-block">
-[[Image:svg_linejoin_miter.png]]
- stroke-linejoin: miter;
-</div>
+![svg linecap square.png](/assets/public/c/c1/svg_linecap_square.png)
 
-Setting [[svg/properties/stroke-linejoin|'''stroke-linejoin''']] to
-'''bevel''' diagonally shaves the points from angles, and setting it
-to '''miter''' allows them to protrude.  The
-[[svg/properties/stroke-miterlimit|'''stroke-miterlimit''']] property
-limits how much of the angle is allowed to protrude, expressed
-relative to the [[svg/properties/stroke-width|'''stroke-width''']].
-This example only bevels those angles that protrude twice the width:
+    stroke-linecap: square;
 
-<div style="display:inline-block">
-[[Image:svg_linejoin_miterlimit.png]]
- polygon {
-   stroke-linejoin   : miter;
-   stroke-miterlimit : 2;
-   stroke-width      : 10;
- }
-</div>
+![svg linecap butt.png](/assets/public/d/da/svg_linecap_butt.png)
 
-The [[svg/properties/stroke-dasharray|'''stroke-dasharray''']]
-property allows you define arbitrary dash patterns as a
-comma-separated list of pixel values. A value of ''20,10,10,10'' draws
-a dash 20 pixels long, followed by a gap of 10 pixels before the
-following 10-pixel dash, another gap, followed the same pattern
-repeated to the end of the shape:
+    stroke-linecap: butt;
 
-[[Image:svg_stroke_dasharray.png]]
+The [**stroke-linejoin**](/w/index.php?title=svg/properties/stroke-linejoin&action=edit&redlink=1) property affects how joined segments appear, and becomes more apparent for narrower angles as the [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1) increases:
 
- stroke-dasharray: 20,10,10,10;
+![svg linejoin round.png](/assets/public/d/d7/svg_linejoin_round.png)
 
-The [[svg/properties/stroke-dashoffset|'''stroke-dashoffset''']]
-property allows you to shift the number of pixels at which the dash
-pattern begins.
+    stroke-linejoin: round;
 
-==Simple paths==
+![svg linejoin bevel.png](/assets/public/1/16/svg_linejoin_bevel.png)
 
-Paths are complex shapes that may feature discontinuous series of
-lines and curves. The [[svg/elements/path|'''path''']] element's
-[[svg/attributes/d|'''d''']] (definition) attribute specifies a
-sequence of commands referencing pairs of ''x''/''y'' coordinates
-within the drawing area.
+    stroke-linejoin: bevel;
 
-The following
-[http://letmespellitoutforyou.com/samples/svg_path.html interactive path-building utility]
-allows you to create your own path definitions using all the commands
-detailed below, and see them reflected in SVG code. Choose the command
-you want, then click within the drawing area to provide each command
-with a set of coordinates:
+![svg linejoin miter.png](/assets/public/b/b1/svg_linejoin_miter.png)
 
-[[Image:svg_path.png|600px]]
+    stroke-linejoin: miter;
 
-The simplest path commands drop a pen at one coordinate and draw a
-line to another. In this example, the '''M''' (move) command places
-the drawing point at the ''100,225'' coordinate. The '''L''' (line)
-command draws a line to ''100,115'', and subsequent '''L''' commands
-draw the same arrow-shaped polygon shown above, starting from its
-bottom-left corner and drawing in a clockwise direction:
+Setting [**stroke-linejoin**](/w/index.php?title=svg/properties/stroke-linejoin&action=edit&redlink=1) to **bevel** diagonally shaves the points from angles, and setting it to **miter** allows them to protrude. The [**stroke-miterlimit**](/w/index.php?title=svg/properties/stroke-miterlimit&action=edit&redlink=1) property limits how much of the angle is allowed to protrude, expressed relative to the [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1). This example only bevels those angles that protrude twice the width:
 
-<syntaxhighlight lang="xml">
+![svg linejoin miterlimit.png](/assets/public/4/42/svg_linejoin_miterlimit.png)
+
+    polygon {
+      stroke-linejoin   : miter;
+      stroke-miterlimit : 2;
+      stroke-width      : 10;
+    }
+
+The [**stroke-dasharray**](/w/index.php?title=svg/properties/stroke-dasharray&action=edit&redlink=1) property allows you define arbitrary dash patterns as a comma-separated list of pixel values. A value of *20,10,10,10* draws a dash 20 pixels long, followed by a gap of 10 pixels before the following 10-pixel dash, another gap, followed the same pattern repeated to the end of the shape:
+
+![svg stroke dasharray.png](/assets/public/1/17/svg_stroke_dasharray.png)
+
+    stroke-dasharray: 20,10,10,10;
+
+The [**stroke-dashoffset**](/w/index.php?title=svg/properties/stroke-dashoffset&action=edit&redlink=1) property allows you to shift the number of pixels at which the dash pattern begins.
+
+## Simple paths
+
+Paths are complex shapes that may feature discontinuous series of lines and curves. The [**path**](/svg/elements/path) element's [**d**](/w/index.php?title=svg/attributes/d&action=edit&redlink=1) (definition) attribute specifies a sequence of commands referencing pairs of *x*/*y* coordinates within the drawing area.
+
+The following [interactive path-building utility](http://letmespellitoutforyou.com/samples/svg_path.html) allows you to create your own path definitions using all the commands detailed below, and see them reflected in SVG code. Choose the command you want, then click within the drawing area to provide each command with a set of coordinates:
+
+![svg path.png](/assets/thumb/d/dc/svg_path.png/600px-svg_path.png)
+
+The simplest path commands drop a pen at one coordinate and draw a line to another. In this example, the **M** (move) command places the drawing point at the *100,225* coordinate. The **L** (line) command draws a line to *100,115*, and subsequent **L** commands draw the same arrow-shaped polygon shown above, starting from its bottom-left corner and drawing in a clockwise direction:
+
+``` {.xml}
 <path d="M 100,225 L 100,115 L 130,115 L 70,15 L 10,115 L 40,115 L 40,225 z"/>
-</syntaxhighlight>
+```
 
-[[Image:svg_linepath.png]]
+ ![svg linepath.png](/assets/public/a/a4/svg_linepath.png)
 
-The '''z''' command at the end draws a final line to the most recent
-'''M''' coordinate to close off the box. At any point along the path,
-you may use '''M''' to place the drawing point elsewhere to create
-discontinuous segments known as ''subpaths'', which may appear
-to be separate objects.
+The **z** command at the end draws a final line to the most recent **M** coordinate to close off the box. At any point along the path, you may use **M** to place the drawing point elsewhere to create discontinuous segments known as *subpaths*, which may appear to be separate objects.
 
-Coordinates and commands can be separated by any combination of commas
-or whitespace characters. (To clarify these examples, commas separate
-each ''x,y'' pair.)
+Coordinates and commands can be separated by any combination of commas or whitespace characters. (To clarify these examples, commas separate each *x,y* pair.)
 
-The uppercase '''M''' and '''L''' commands above specify absolute
-coordinates.  For all uppercase commands described here, there are
-alternative lowercase commands that specify coordinates in terms
-relative to the previously defined coordinate.  Starting from the
-default ''0,0'' origin point, the following path defines the same
-shape as the one above using '''m''' and '''l''' commands:
+The uppercase **M** and **L** commands above specify absolute coordinates. For all uppercase commands described here, there are alternative lowercase commands that specify coordinates in terms relative to the previously defined coordinate. Starting from the default *0,0* origin point, the following path defines the same shape as the one above using **m** and **l** commands:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <path d="m 100,225 l 0,-110 l 30,0 l -60,-100 l -60,100 l 30,0 l 0,110 z" />
-</syntaxhighlight>
+```
 
-The '''H''' and '''V''' commands, and their '''h''' and '''v'''
-alternatives, draw a horizontal or vertical line to the specified
-coordinate.
+ The **H** and **V** commands, and their **h** and **v** alternatives, draw a horizontal or vertical line to the specified coordinate.
 
-==Curved paths==
+## Curved paths
 
-Unlike polygons, paths can incorporate curves.  B&eacute;zier curves
-require additional ''control point'' coordinates that do not render
-but that influence the shape of the curve.
+Unlike polygons, paths can incorporate curves. Bézier curves require additional *control point* coordinates that do not render but that influence the shape of the curve.
 
-The '''Q''' and '''q''' commands define a ''quadratic'' B&eacute;zier
-curve using one control point coordinate followed by another
-coordinate where the curve segment ends. The '''C''' and '''c'''
-commands use two intervening control points to define a more complex
-''cubic'' B&eacute;zier curve. These examples show where each control
-point falls:
+The **Q** and **q** commands define a *quadratic* Bézier curve using one control point coordinate followed by another coordinate where the curve segment ends. The **C** and **c** commands use two intervening control points to define a more complex *cubic* Bézier curve. These examples show where each control point falls:
 
-<div style="display:inline-block">
+![svg quadratic.png](/assets/public/8/89/svg_quadratic.png)
 
-[[Image:svg_quadratic.png]]
-
-<syntaxhighlight lang="xml">
+``` {.xml}
   <!-- quadratic -->
 <path d="M 50,100 Q 180,20 300,130"/>
-</syntaxhighlight>
+```
 
-</div>
-<div style="display:inline-block">
+![svg cubic.png](/assets/public/1/1d/svg_cubic.png)
 
-[[Image:svg_cubic.png]]
-
-<syntaxhighlight lang="xml">
+``` {.xml}
   <!-- cubic -->
 <path d="M 50,120 C 130,50 250,150 280,100"/>
-</syntaxhighlight>
+```
 
-</div>
+Adding additional sets of controls points has the same effect as adding additional **Q**/**q**/**C**/**c** commands. The following definition pairs produce the same sequence of quadratic and cubic curves, but the second line leaves out the redundant command:
 
-Adding additional sets of controls points has the same effect as
-adding additional '''Q'''/'''q'''/'''C'''/'''c''' commands. The
-following definition pairs produce the same sequence of quadratic and
-cubic curves, but the second line leaves out the redundant command:
+![svg quadratic poly.png](/assets/public/f/f6/svg_quadratic_poly.png)
 
-[[Image:svg_quadratic_poly.png]]
-
-<syntaxhighlight lang="xml">
+``` {.xml}
   <!-- quadratic, chained -->
 <path d="M 50,100 Q 180,20 300,130 Q 320,20 400,50"/>
 <path d="M 50,100 Q 180,20 300,130   320,20 400,50"/>
-</syntaxhighlight>
+```
 
-[[Image:svg_cubic_poly.png]]
+ ![svg cubic poly.png](/assets/public/f/f8/svg_cubic_poly.png)
 
-<syntaxhighlight lang="xml">
+``` {.xml}
   <!-- cubic, chained -->
 <path d="M 50,120 C 130,50 250,150 280,100 C 250,50 450,50 400,100"/>
 <path d="M 50,120 C 130,50 250,150 280,100   250,50 450,50 400,100"/>
-</syntaxhighlight>
+```
 
-In both of these examples, the curve segments join abruptly at an
-angle. The '''T''' and '''t''' commands are designed to produce
-quadratic curves that transition smoothly from the previous curve.
-They work by extrapolating a control point from the previous control
-point on the other side of the previous destination point, effectively
-mirroring it to produce waves. The following two path definitions
-produce the same sequence of curves. The first uses the '''T'''
-command to extrapolate the extra control point (marked red), while the
-second uses a second '''Q''' command to explicitly define it.  Both
-specify the same destination point:
+ In both of these examples, the curve segments join abruptly at an angle. The **T** and **t** commands are designed to produce quadratic curves that transition smoothly from the previous curve. They work by extrapolating a control point from the previous control point on the other side of the previous destination point, effectively mirroring it to produce waves. The following two path definitions produce the same sequence of curves. The first uses the **T** command to extrapolate the extra control point (marked red), while the second uses a second **Q** command to explicitly define it. Both specify the same destination point:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <path d="M 50,100 Q 180,20 300,130 T         400,50"/>
 <path d="M 50,100 Q 180,20 300,130 Q 420,240 400,50"/>
-</syntaxhighlight>
+```
 
-[[Image:svg_quadratic_smooth.png]]
+ ![svg quadratic smooth.png](/assets/public/1/1f/svg_quadratic_smooth.png)
 
-The '''S''' and '''s''' commands perform the same kind of mirroring to
-produce smooth cubic B&eacute;zier curves suitable for freehand
-drawing.  Since B&eacute;zier curves are defined by two control
-points, the first supplied coordinate specifies the second control
-point, and the second coordinate specifies the end point.  The
-following two path definitions produce the same sequence of curves,
-the second substituting the '''C''' command to explicitly define the
-extra control point, again marked red:
+The **S** and **s** commands perform the same kind of mirroring to produce smooth cubic Bézier curves suitable for freehand drawing. Since Bézier curves are defined by two control points, the first supplied coordinate specifies the second control point, and the second coordinate specifies the end point. The following two path definitions produce the same sequence of curves, the second substituting the **C** command to explicitly define the extra control point, again marked red:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <path d="M 50,120 C 130,50 250,150 280,100 S        450,50 400,100"/>
 <path d="M 50,120 C 130,50 250,150 280,100 C 310,50 450,50 400,100"/>
-</syntaxhighlight>
+```
 
-[[Image:svg_cubic_smooth.png]]
+ ![svg cubic smooth.png](/assets/public/d/d0/svg_cubic_smooth.png)
 
-The '''A''' and '''a''' commands specify an ''elliptical arc'', using
-syntax specifying a surprisingly great deal of information:
+The **A** and **a** commands specify an *elliptical arc*, using syntax specifying a surprisingly great deal of information:
 
-* A pair of radius measurements defining the ellipse's size and shape, equivalent to the [[svg/elements/ellipse|'''ellipse''']] element's [[svg/attributes/rx|'''rx''']] and [[svg/attributes/ry|'''ry''']] attributes.
+-   A pair of radius measurements defining the ellipse's size and shape, equivalent to the [**ellipse**](/svg/elements/ellipse) element's [**rx**](/w/index.php?title=svg/attributes/rx&action=edit&redlink=1) and [**ry**](/w/index.php?title=svg/attributes/ry&action=edit&redlink=1) attributes.
 
-* A measurement indicating the degree to which the ellipse is rotated.
+-   A measurement indicating the degree to which the ellipse is rotated.
 
-* A ''large-arc'' flag (''0'' or ''1'') indicating whether to travel to the destination point via the longer arc that exceeds 180&deg;.
+-   A *large-arc* flag (*0* or *1*) indicating whether to travel to the destination point via the longer arc that exceeds 180°.
 
-* To distinguish between the two possible arcs that mirror each other along the line to the destination point, a ''sweep-arc'' flag (''0'' or ''1'') specifies whether to prefer whichever renders in a clockwise direction.
+-   To distinguish between the two possible arcs that mirror each other along the line to the destination point, a *sweep-arc* flag (*0* or *1*) specifies whether to prefer whichever renders in a clockwise direction.
 
-* A final set of coordinates indicates the ellipse's end point.
+-   A final set of coordinates indicates the ellipse's end point.
 
-If the ellipse's radii is insufficient or if its rotation makes it
-impossible to get to the final end point, the ellipse does not render.
+If the ellipse's radii is insufficient or if its rotation makes it impossible to get to the final end point, the ellipse does not render.
 
-Elliptical arcs are great for drawing parts of clouds and thought
-balloons:
+Elliptical arcs are great for drawing parts of clouds and thought balloons:
 
-[[Image:svg_arc.png|300px]]
+![svg arc.png](/assets/thumb/8/8b/svg_arc.png/300px-svg_arc.png)
 
-Experiment with the
-[http://letmespellitoutforyou.com/samples/svg_path.html interactive path builder]
-by choosing the '''A''' command and clicking to create new end points.
-The values of the arc radius, rotation, large-arc, and sweep-arc
-controls affect the appearance of the last elliptical arc in the path,
-and apply to newly created arcs.
+Experiment with the [interactive path builder](http://letmespellitoutforyou.com/samples/svg_path.html) by choosing the **A** command and clicking to create new end points. The values of the arc radius, rotation, large-arc, and sweep-arc controls affect the appearance of the last elliptical arc in the path, and apply to newly created arcs.
 
-This summarizes path syntax, with coordinate pairs required for
-control and destination points:
+This summarizes path syntax, with coordinate pairs required for control and destination points:
 
-* '''M'''/'''m''' ''destination'': jumps to ''destination'' point
-* '''L'''/'''l''' ''destination'': draws straight line to ''destination'' point
-* '''Q'''/'''q''' ''control'' ''destination'': draws quadratic B&eacute;zier curve to ''destination'' point, shaped by ''control'' point
-* '''T'''/'''t''' ''destination'': draws quadratic curve to ''destination'' point, influenced by virtual control point mirroring most recent control point
-* '''C'''/'''c''' ''control1'' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by two control points
-* '''S'''/'''s''' ''control2'' ''destination'': draws a cubic B&eacute;zier curve to ''destination'' point, shaped by a virtual control point mirroring the most recent control point, and by a second explicit ''control2'' point
-* '''A'''/'''a''' ''radiusX'',''radiusY'' ''rotationAngle'' ''large-arc-flag'' ''sweep-arc-flag'' ''destination'': draws an elliptical arc to ''destination'', if possible, with overall ellipse shaped by ''radiusX'',''radiusY'' and rotated by ''rotationAngle''. The ''large-arc-flag'' prefers the widest-angle arc path, and ''sweep-arc-flag'' specifies the ellipse whose arc path travels clockwise to get to the destination point.
+-   **M**/**m** *destination*: jumps to *destination* point
+-   **L**/**l** *destination*: draws straight line to *destination* point
+-   **Q**/**q** *control* *destination*: draws quadratic Bézier curve to *destination* point, shaped by *control* point
+-   **T**/**t** *destination*: draws quadratic curve to *destination* point, influenced by virtual control point mirroring most recent control point
+-   **C**/**c** *control1* *control2* *destination*: draws a cubic Bézier curve to *destination* point, shaped by two control points
+-   **S**/**s** *control2* *destination*: draws a cubic Bézier curve to *destination* point, shaped by a virtual control point mirroring the most recent control point, and by a second explicit *control2* point
+-   **A**/**a** *radiusX*,*radiusY* *rotationAngle* *large-arc-flag* *sweep-arc-flag* *destination*: draws an elliptical arc to *destination*, if possible, with overall ellipse shaped by *radiusX*,*radiusY* and rotated by *rotationAngle*. The *large-arc-flag* prefers the widest-angle arc path, and *sweep-arc-flag* specifies the ellipse whose arc path travels clockwise to get to the destination point.
 
-==Fill rules==
+## Fill rules
 
-Whenever lines within paths cross each other, and when subpath shapes
-appear as islands within other shapes, it is not immediately obvious
-how such paths might be filled. By default, the
-[[svg/properties/fill-rule|'''fill-rule''']] property is set to
-'''nonzero''', which errs on the side of filling regions based on the
-direction of each stroke, which as the example below shows, may not
-always be intuitive. Setting it to '''evenodd''' prevents regions
-bordering each other from sharing the same fill value.
+Whenever lines within paths cross each other, and when subpath shapes appear as islands within other shapes, it is not immediately obvious how such paths might be filled. By default, the [**fill-rule**](/w/index.php?title=svg/properties/fill-rule&action=edit&redlink=1) property is set to **nonzero**, which errs on the side of filling regions based on the direction of each stroke, which as the example below shows, may not always be intuitive. Setting it to **evenodd** prevents regions bordering each other from sharing the same fill value.
 
-<div style="display:inline-block">
-[[Image:svg_fillrule_nonzero.png]]
- fill-rule: nonzero;
-</div>
-<div style="display:inline-block">
-[[Image:svg_fillrule_evenodd.png]]
- fill-rule: evenodd;
-</div>
+![svg fillrule nonzero.png](/assets/public/0/01/svg_fillrule_nonzero.png)
 
-Note that while these arrows appear to be separate graphics, they are
-actually sub-paths.  The [[svg/properties/fill-rule|'''fill-rule''']]
-property only applies in this case. 
+    fill-rule: nonzero;
 
-==Markers==
+![svg fillrule evenodd.png](/assets/public/b/be/svg_fillrule_evenodd.png)
 
-You can attach arrowheads or other graphic objects to paths, lines,
-polylines, and polygon segments. A
-[[svg/elements/marker|'''marker''']] element encapsulates a graphic,
-and various properties reference it. Here is a typical arrowhead, for
-convenience placed within a [[svg/elements/defs|'''defs''']] region as
-a common definition:
+    fill-rule: evenodd;
 
-<syntaxhighlight lang="xml">
+Note that while these arrows appear to be separate graphics, they are actually sub-paths. The [**fill-rule**](/w/index.php?title=svg/properties/fill-rule&action=edit&redlink=1) property only applies in this case.
+
+## Markers
+
+You can attach arrowheads or other graphic objects to paths, lines, polylines, and polygon segments. A [**marker**](/svg/elements/marker) element encapsulates a graphic, and various properties reference it. Here is a typical arrowhead, for convenience placed within a [**defs**](/svg/elements/defs) region as a common definition:
+
+``` {.xml}
 <defs>
   <marker id="arrowhead" markerWidth="10" markerHeight="10" orient="auto" refX="2" refY="5">
     <polygon points="0,0 10,5 0,10"/>    <!-- triangle pointing right -->
   </marker>
 </defs>
-</syntaxhighlight>
+```
 
-The [[svg/elements/marker|'''marker''']] element does not render
-unless it is associated with a path or other line element using
-various marker-related properties.  This example places the arrowhead
-at the end of the last path segment:
+ The [**marker**](/svg/elements/marker) element does not render unless it is associated with a path or other line element using various marker-related properties. This example places the arrowhead at the end of the last path segment:
 
-<syntaxhighlight lang="css">
+``` {.css}
  path.pointer {
      marker-end: url(#arrowhead);
  }
-</syntaxhighlight>
+```
 
-Alternately, the [[svg/properties/marker-start|'''marker-start''']]
-property places the marker at the path's starting point. Setting
-[[svg/properties/marker-mid|'''marker-mid''']] places the marker at
-each segment point within the path, including where subpaths
-terminate.  The [[svg/properties/marker|'''marker''']] property places
-the graphic at ''all'' these points:
+ Alternately, the [**marker-start**](/w/index.php?title=svg/properties/marker-start&action=edit&redlink=1) property places the marker at the path's starting point. Setting [**marker-mid**](/w/index.php?title=svg/properties/marker-mid&action=edit&redlink=1) places the marker at each segment point within the path, including where subpaths terminate. The [**marker**](/w/index.php?title=svg/properties/marker&action=edit&redlink=1) property places the graphic at *all* these points:
 
-<div style="display:inline-block">
-[[Image:svg_marker_start.png]]
- marker-start
-</div>
-<div style="display:inline-block">
-[[Image:svg_marker_end.png]]
- marker-end
-</div>
-<div style="display:inline-block">
-[[Image:svg_marker_mid.png]]
- marker-mid
-</div>
-<div style="display:inline-block">
-[[Image:svg_marker.png]]
- marker
-</div>
+![svg marker start.png](/assets/public/f/fd/svg_marker_start.png)
 
-Several [[svg/elements/marker|'''marker''']] element attributes are
-necessary to place the arrowhead correctly over the path. By default,
-the top left corner of the marker graphic is placed over the path or
-line. Since the graphic is a 10-pixel square in this case, the
-'''refY''' attribute moves the point at which it intersects the line
-down by 5 pixels, in order to center it vertically.
+    marker-start
 
-The marker graphic also does not rotate by default to match where the
-path or line is pointing. Setting
-[[svg/attributes/orient|'''orient''']] to '''auto''' aligns the
-graphic's horizontal ''x'' axis.  You can also set
-[[svg/attributes/orient|'''orient''']] to specific degree values. Note
-in the [[svg/properties/marker-start|'''marker-start''']] example
-above that the initial marker may not be oriented as intended, because
-it's not associated with an existing line.
+![svg marker end.png](/assets/public/d/d0/svg_marker_end.png)
 
-==Text==
+    marker-end
 
-Text behaves much like any other SVG graphic. You can mix text with
-other graphics, but you can't automatically break lines into blocks of
-text as in HTML, so you have to set each line independently.  Use each
-[[svg/elements/text|'''text''']] element's
-[[svg/attributes/x|'''x''']] and [[svg/attributes/y|'''y''']]
-attributes to position its baseline:
+![svg marker mid.png](/assets/public/e/e5/svg_marker_mid.png)
 
-<syntaxhighlight lang="xml">
+    marker-mid
+
+![svg marker.png](/assets/public/c/c7/svg_marker.png)
+
+    marker
+
+Several [**marker**](/svg/elements/marker) element attributes are necessary to place the arrowhead correctly over the path. By default, the top left corner of the marker graphic is placed over the path or line. Since the graphic is a 10-pixel square in this case, the **refY** attribute moves the point at which it intersects the line down by 5 pixels, in order to center it vertically.
+
+The marker graphic also does not rotate by default to match where the path or line is pointing. Setting [**orient**](/w/index.php?title=svg/attributes/orient&action=edit&redlink=1) to **auto** aligns the graphic's horizontal *x* axis. You can also set [**orient**](/w/index.php?title=svg/attributes/orient&action=edit&redlink=1) to specific degree values. Note in the [**marker-start**](/w/index.php?title=svg/properties/marker-start&action=edit&redlink=1) example above that the initial marker may not be oriented as intended, because it's not associated with an existing line.
+
+## Text
+
+Text behaves much like any other SVG graphic. You can mix text with other graphics, but you can't automatically break lines into blocks of text as in HTML, so you have to set each line independently. Use each [**text**](/svg/elements/text) element's [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1) and [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1) attributes to position its baseline:
+
+``` {.xml}
 <text x="100" y="50">The quick brown fox</text>
 <text x="100" y="80">jumped over the lazy dog.</text>
-</syntaxhighlight>
+```
 
-[[Image:svg_text.png|400px]]
+ ![svg text.png](/assets/thumb/3/31/svg_text.png/400px-svg_text.png)
 
-You can apply standard CSS font properties, along with the
-[[css/properties/text-anchor|'''text-anchor''']] property to center
-the text from the specified coordinates. You can also control apply
-[[svg/properties/fill|'''fill''']] and
-[[svg/properties/stroke|'''stroke''']] properties just like any other
-shape:
+You can apply standard CSS font properties, along with the [**text-anchor**](/w/index.php?title=css/properties/text-anchor&action=edit&redlink=1) property to center the text from the specified coordinates. You can also control apply [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) properties just like any other shape:
 
-<syntaxhighlight lang="css">
+``` {.css}
 text {
-    font-family  : Tahoma, sans-serif;
-    font-size    : smaller; 
-    font-weight  : bold; 
-    text-anchor  : middle; 
-    fill         : red; 
-    stroke       : #777; 
-    stroke-width : 0.5;
+    font-family  : Tahoma, sans-serif;
+    font-size    : smaller;
+    font-weight  : bold;
+    text-anchor  : middle;
+    fill         : red;
+    stroke       : #777;
+    stroke-width : 0.5;
 }
-</syntaxhighlight>
+```
 
-[[Image:svg_textFormatted.png|400px]]
+ ![svg textFormatted.png](/assets/thumb/c/ca/svg_textFormatted.png/400px-svg_textFormatted.png)
 
-Use the [[svg/elements/tspan|'''tspan''']] element to mark and style
-inline font changes:
+Use the [**tspan**](/svg/elements/tspan) element to mark and style inline font changes:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <text x="100" y="50">The quick brown fox</text>
 <text x="100" y="80">
   jumped
      <tspan class="emphasis">over</tspan>
   the lazy dog.
 </text>
-</syntaxhighlight>
-<syntaxhighlight lang="css">
+```
+
+``` {.css}
 .emphasis {
-    font-style      : italic;
-    text-decoration : underline;
+    font-style      : italic;
+    text-decoration : underline;
 }
-</syntaxhighlight>
+```
 
-[[Image:svg_textSpan.png|400px]]
+ ![svg textSpan.png](/assets/thumb/d/d6/svg_textSpan.png/400px-svg_textSpan.png)
 
-This example uses the [[svg/attributes/dy|'''dy''']] attribute to move
-text upward to a superscript position and then back down to its
-original baseline, and [[svg/attributes/rotate|'''rotate''']] to spin
-each character of text.  (Applying [[svg/attributes/dx|'''dx''']]
-likewise would displace text horizontally.)
+This example uses the [**dy**](/w/index.php?title=svg/attributes/dy&action=edit&redlink=1) attribute to move text upward to a superscript position and then back down to its original baseline, and [**rotate**](/w/index.php?title=svg/attributes/rotate&action=edit&redlink=1) to spin each character of text. (Applying [**dx**](/w/index.php?title=svg/attributes/dx&action=edit&redlink=1) likewise would displace text horizontally.)
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <text x="100" y="50">The quick brown fox</text>
 <text x="100" y="80">
   jumped
   <tspan rotate="-20" dy="-5">over</tspan>
   <tspan dy="5">the lazy dog.</tspan>
 </text>
-</syntaxhighlight>
+```
 
-[[Image:svg_textRotate.png|400px]]
+ ![svg textRotate.png](/assets/thumb/1/15/svg_textRotate.png/400px-svg_textRotate.png)
 
-SVG also allows you to place text along the curve of a path.  The
-[[svg/elements/textPath|'''textPath''']] element diverts any nested
-text to render along the path it references:
+SVG also allows you to place text along the curve of a path. The [**textPath**](/svg/elements/textPath) element diverts any nested text to render along the path it references:
 
-<syntaxhighlight lang="xml">
+``` {.xml}
 <defs>
 <path id="curve" d="M 100,300 A 1,1 0 0 1 500,300" />
 <text id="textContent">The quick brown fox jumped over the lazy dog.</text>
@@ -590,40 +455,15 @@ text to render along the path it references:
     <tref xlink:href="#textContent" />
   </textPath>
 </text>
-</syntaxhighlight>
+```
 
-The [[svg/elements/tref|'''tref''']] element allows you to separately
-pull in text from a referenced [[svg/elements/text|'''text''']]
-element.
+ The [**tref**](/w/index.php?title=svg/elements/tref&action=edit&redlink=1) element allows you to separately pull in text from a referenced [**text**](/svg/elements/text) element.
 
-The [[svg/elements/textPath|'''textPath''']]'s
-[[svg/attributes/startOffset|'''startOffset''']] pushes text from the
-start of the path, disappearing as the path ends. Below the text
-appears before and after applying the offset:
+The [**textPath**](/svg/elements/textPath)'s [**startOffset**](/w/index.php?title=svg/attributes/startOffset&action=edit&redlink=1) pushes text from the start of the path, disappearing as the path ends. Below the text appears before and after applying the offset:
 
-<div style="display:inline-block;width:45%">
-[[Image:svg_textPath.png|400px]]
-</div>
-<div style="display:inline-block;width:45%">
-[[Image:svg_textPathOffset.png|400px]]
-</div>
+![svg textPath.png](/assets/thumb/b/b5/svg_textPath.png/400px-svg_textPath.png)
 
-See [[tutorials/svg_fonts|SVG Fonts]] for information on SVG's support
-for creating font glyphs.
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+![svg textPathOffset.png](/assets/thumb/9/93/svg_textPathOffset.png/400px-svg_textPathOffset.png)
+
+See [SVG Fonts](/tutorials/svg_fonts) for information on SVG's support for creating font glyphs.
+

@@ -1,113 +1,126 @@
-{{Page_Title|dt – description list topic}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category and Compatibility information. Modify/Complete Parent and Children information.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name|dt}}
-{{Summary_Section|The '''dt''' element indicates a definition term within a definition list ([[html/elements/dl|'''dl''']]). 
+---
+title: dt
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add Category and Compatibility information. Modify/Complete Parent and Children information.'
+summary: "The dt element indicates a definition term within a definition list (dl). \n"
+code_samples:
+  - 'http://gist.github.com/5821157'
+uri: html/elements/dt
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/concepts/flowContent
+    - html/concepts/sectioningContent
+    - html/concepts/headingContent
 
-A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[html/elements/dd|'''dd''']] (definition) elements. Several consecutive [[html/elements/dt|'''dt''']] are attributed to the [[html/elements/dd|'''dd''']] element that immediately follows the group.
-}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=A '''dt''' element's end tag may be omitted if the '''dt''' element is immediately followed by another '''dt''' element or a '''dd''' element.
-|CSS_display=block
-|Content=<table class{{=}}"wikitable">
-<tr>
-<th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
-<td style{{=}}"vertical-align: top; padding-top: 10px">[[html/concepts/flowContent|flow content]], but with no [[html/elements/header|header]], [[html/elements/footer|footer]], [[html/concepts/sectioningContent|sectioning content]], or [[html/concepts/headingContent|heading content]] descendants.</td>
-</tr>
-<tr>
-<th id="permitted-parents">Permitted&#160;parents</th>
-<td>[[html/elements/dl|dl]].</td>
-</tr>
-</table>
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The example shows a simple definition list with two item/description pairs.
-|Code=&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
-  &lt;dt&gt;Coca Cola&lt;/dt&gt;
-  &lt;dd&gt;One of the leading brands of a popular cold fizzy drink.&lt;/dd&gt;
-&lt;/dl&gt;
-|LiveURL=http://code.webplatform.org/gist/5821157
-}}{{Single Example
-|Language=HTML
-|Description=The example shows a definition list with a single item but multiple descriptions for that item.
-|Code=&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
-  &lt;dd&gt;A mid brown colour&lt;/dd&gt;
-  &lt;dd&gt;A common social invitation&lt;/dd&gt;
-&lt;/dl&gt;
-|LiveURL=http://code.webplatform.org/gist/5821157
-}}{{Single Example
-|Language=HTML
-|Description=The example shows a definition list with a single description and multiple items fitting that description.
-|Code=&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dt&gt;Tea&lt;/dt&gt;
-  &lt;dt&gt;Vimto (in the North of England)&lt;/dt&gt;
-  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
-&lt;/dl&gt;
-|LiveURL=http://code.webplatform.org/gist/5821157
-}}{{Single Example
-|Language=CSS
-|Description=Typical browser default CSS properties for the '''dt''' element.
-|Code=display: block;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=The [[html/elements/dt|dt]] element itself, when used in a [[html/elements/dl|dl]] element, does not indicate that its contents are a term being defined, but this can be indicated using the [[html/elements/dfn|dfn]] element.
+---
+# dt – description list topic
 
-While [[dom/HTMLDTElement|HTMLDTElement]] is the defined DOM interface for this element, most browsers currently use [[dom/HTMLElement|HTMLElement]] instead.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/grouping-content.html#the-dt-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/grouping-content.html#the-dt-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/lists.html#edef-DT
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=* [[html/elements/dd|<code>dd</code>]]
-* [[html/elements/dl|<code>dl</code>]]
-|External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dt Mozilla Developer Network]
-* [http://msdn.microsoft.com/en-us/library/ie/ms535243%28v=vs.85%29.aspx Microsoft Developer Network]
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## dt
+
+For technical reasons, the title of this article is not the text used to call this API. Instead, use `dt`
+
+## Summary
+
+The dt element indicates a definition term within a definition list (dl).
+
+A ****dt**** (topic) is usually followed by one or more [**dd**](/html/elements/dd) (definition) elements. Several consecutive ****dt**** are attributed to the [**dd**](/html/elements/dd) element that immediately follows the group.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+Permitted contents
+:   [flow content](/w/index.php?title=html/concepts/flowContent&action=edit&redlink=1), but with no [header](/html/elements/header), [footer](/html/elements/footer), [sectioning content](/w/index.php?title=html/concepts/sectioningContent&action=edit&redlink=1), or [heading content](/w/index.php?title=html/concepts/headingContent&action=edit&redlink=1) descendants.
+Permitted parents
+:   [dl](/html/elements/dl).
+
+## Examples
+
+The example shows a simple definition list with two item/description pairs.
+
+``` {.html}
+<dl>
+  <dt>Coffee</dt>
+  <dd>A popular hot drink.</dd>
+  <dt>Coca Cola</dt>
+  <dd>One of the leading brands of a popular cold fizzy drink.</dd>
+</dl>
+```
+
+[View live example](http://code.webplatform.org/gist/5821157)
+
+The example shows a definition list with a single item but multiple descriptions for that item.
+
+``` {.html}
+<dl>
+  <dt>Coffee</dt>
+  <dd>A popular hot drink.</dd>
+  <dd>A mid brown colour</dd>
+  <dd>A common social invitation</dd>
+</dl>
+```
+
+[View live example](http://code.webplatform.org/gist/5821157)
+
+The example shows a definition list with a single description and multiple items fitting that description.
+
+``` {.html}
+<dl>
+  <dt>Coffee</dt>
+  <dt>Tea</dt>
+  <dt>Vimto (in the North of England)</dt>
+  <dd>A popular hot drink.</dd>
+</dl>
+```
+
+[View live example](http://code.webplatform.org/gist/5821157)
+
+Typical browser default CSS properties for the **dt** element.
+
+``` {.css}
+display: block;
+```
+
+## Notes
+
+The **dt** element itself, when used in a [dl](/html/elements/dl) element, does not indicate that its contents are a term being defined, but this can be indicated using the [dfn](/html/elements/dfn) element.
+
+While [HTMLDTElement](/dom/HTMLDTElement) is the defined DOM interface for this element, most browsers currently use [HTMLElement](/dom/HTMLElement) instead.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-dt-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-dt-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html#edef-DT)
+:   W3C Recommendation
+
+## See also
+
+### Other articles
+
+-   [`dd`](/html/elements/dd)
+-   [`dl`](/html/elements/dl)
+
+### External resources
+
+-   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/dt)
+-   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535243%28v=vs.85%29.aspx)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

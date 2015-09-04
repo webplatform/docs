@@ -1,68 +1,79 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Defines the alpha channel threshold used to extract a shape from an image. Can be thought of as a "minimum opacity" threshold; that is, a value of 0.5 means that the shape will enclose all the pixels that are more than 50% opaque.}}
-{{CSS Property
-|Initial value=0.0
-|Applies to=Floats
-|Inherited=No
-|Media=visual
-|Computed value=As specified, clamped to a 0.0-1.0 range
-|Animatable=Yes
-|CSS percentages=Alpha channel of the image specified by [[css/properties/shape-outside|shape-outside]].
-|Values={{CSS Property Value
-|Data Type=<number>
-|Description=A numeric value used to set the opacity threshold used for extracting a shape from an image. Any values outside the range 0.0 (fully transparent) to 1.0 (fully opaque) will be clamped to this range.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Note: Depends upon an image previously specified by [[css/properties/shape-outside|shape-outside]].
-|Code=/*
+---
+title: shape-image-threshold
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Defines the alpha channel threshold used to extract a shape from an image. Can be thought of as a "minimum opacity" threshold; that is, a value of 0.5 means that the shape will enclose all the pixels that are more than 50% opaque.'
+code_samples:
+  - 'http://gist.github.com/5833790'
+uri: css/properties/shape-image-threshold
+
+---
+# shape-image-threshold
+
+## Summary
+
+Defines the alpha channel threshold used to extract a shape from an image. Can be thought of as a "minimum opacity" threshold; that is, a value of 0.5 means that the shape will enclose all the pixels that are more than 50% opaque.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `0.0`
+Applies to
+:   Floats
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   As specified, clamped to a 0.0-1.0 range
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   [[CSS percentages::Alpha channel of the image specified by [shape-outside](/css/properties/shape-outside).]]
+
+## Syntax
+
+-   `shape-image-threshold: <number>`
+
+## Values
+
+\<number\>
+:   A numeric value used to set the opacity threshold used for extracting a shape from an image. Any values outside the range 0.0 (fully transparent) to 1.0 (fully opaque) will be clamped to this range.
+
+## Examples
+
+Note: Depends upon an image previously specified by [shape-outside](/css/properties/shape-outside).
+
+``` {.css}
+/*
 Extract a shape from an image by enclosing all pixels greater than 25% opacity
 */
 #myimg {
   shape-image-threshold: 0.25;
 }
-|LiveURL=http://code.webplatform.org/gist/5833790
-}}
-}}
-{{Notes_Section
-|Usage=Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Shapes Module Level 1
-|URL=http://www.w3.org/TR/css-shapes/
-|Status=W3C Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Safari
-|Version=538+
-|Note=Using vendor prefix -webkit-
-}}
-}}
-{{See_Also_Section
-|Manual_links=[[css/properties/shape-outside|shape-outside]]
-[[css/properties/shape-margin|shape-margin]]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5833790)
+
+## Usage
+
+     Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Shapes Module Level 1](http://www.w3.org/TR/css-shapes/)
+:   W3C Candidate Recommendation
+
+## See also
+
+### Other articles
+
+[shape-outside](/css/properties/shape-outside) [shape-margin](/css/properties/shape-margin)
+

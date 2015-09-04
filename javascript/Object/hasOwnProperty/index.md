@@ -1,66 +1,55 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Determines whether an object has a property with the specified name.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=hasOwnProperty( proName )
-}}
-|Values={{JS Syntax Parameter
-|Name=proName
-|Required=Required
-|Description=String value of a property name.
-}}
-}}
-{{JS_Return_Value
-|Description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=In the following example, all String objects share a common split method. The following code will display '''false''' and '''true'''.
-|Code=var s = new String("Sample");
+---
+title: hasOwnProperty
+tags:
+  0: JS
+  1: Basic
+  3: Method
+readiness: 'Ready to Use'
+summary: 'Determines whether an object has a property with the specified name.'
+uri: javascript/Object/hasOwnProperty
+
+---
+# hasOwnProperty
+
+## Summary
+
+Determines whether an object has a property with the specified name.
+
+## Syntax
+
+    hasOwnProperty( proName )
+
+**proName**
+:   Required. String value of a property name.
+
+## Examples
+
+In the following example, all String objects share a common split method. The following code will display **false** and **true**.
+
+``` {.js}
+var s = new String("Sample");
  document.write(s.hasOwnProperty("split"));
- document.write("&lt;br/&gt;");
+ document.write("<br/>");
  document.write(String.prototype.hasOwnProperty("split"));
- 
+
  // Output:
  // false
  // true
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=The '''hasOwnProperty''' method returns true if object has a property of the specified name, false if it does not. This method does not check the properties in the object's prototype chain; the property must be a member of the object itself.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
+```
 
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.5 15.2.4.5 Object.prototype.hasOwnProperty (V)]
-ECMAScript® Language Specification
-Standard ECMA-262
-5.1 Edition / June 2011
-}}
-{{JS Topics
-|JS Page Type=JS Method
-|Applies to=Array, Date
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/328kyd6z(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+## Remarks
+
+The **hasOwnProperty** method returns true if object has a property of the specified name, false if it does not. This method does not check the properties in the object's prototype chain; the property must be a member of the object itself.
+
+## See also
+
+### Specification
+
+[15.2.4.5 Object.prototype.hasOwnProperty (V)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.5) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/328kyd6z(v=vs.94).aspx)
+

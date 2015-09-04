@@ -1,68 +1,85 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=nilladic function.... no return value...
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Collapses (or removes) a range by moving the insertion point to the beginning or end of the current range.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=toStart
-|Data type=Boolean
-|Description=Specifies one of the following values: 
+---
+title: collapse
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'nilladic function.... no return value...'
+summary: 'Collapses (or removes) a range by moving the insertion point to the beginning or end of the current range.'
+uri: dom/Range/collapse
+
+---
+# collapse
+
+## Summary
+
+Collapses (or removes) a range by moving the insertion point to the beginning or end of the current range.
+
+*Method of [dom/Range](/dom/Range)*
+
+## Syntax
+
+``` {.js}
+var result = range.collapse(/* see parameter list */);
+```
+
+## Parameters
+
+### toStart
+
+ Data-typeÂ
+:   Boolean
+
+*(Optional)*
+
+Specifies one of the following values:
 
 true (Default). Moves the insertion point to the beginning of the range.
 
 false Moves the insertion point to the end of the range.
-|Optional=Yes
-}}
-|Method_applies_to=dom/Range
-|Example_object_name=range
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=var range {{=}} document.createRange();
 
-var referenceNode {{=}} document.getElementsByTagName("div").item(0);
+## Return Value
+
+Returns an object of type .
+
+## Examples
+
+``` {.js}
+var range = document.createRange();
+
+var referenceNode = document.getElementsByTagName("div").item(0);
 range.selectNode(referenceNode);
 range.collapse(true);
-}}
-}}
-{{Notes_Section
-|Notes=The DOM 'Living Standard' specification now recommends that the default parameter value be false...
-To retain interoperability across browsers ALWAYS specify the toStart parameter (true|false). 
-|Import_Notes====Syntax===
+```
+
+## Notes
+
+The DOM 'Living Standard' specification now recommends that the default parameter value be false... To retain interoperability across browsers ALWAYS specify the toStart parameter (true
+
+### Syntax
+
 range.collapse(toStart);
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/#dom-range-collapse
-|Status=Living Standard
-|Relevant_changes=The parameter is now optional and default to false
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.collapse Range.collapse]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975439(v=vs.85).aspx collapse Method]
-|HTML5Rocks_link=
-}}
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
+
+## Related specifications
+
+Specification
+:   Status
+[DOM](http://dom.spec.whatwg.org/#dom-range-collapse)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.collapse](https://developer.mozilla.org/en-US/docs/Web/API/Range.collapse) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[collapse Method](http://msdn.microsoft.com/en-us/library/ie/ff975439(v=vs.85).aspx) Article]
+

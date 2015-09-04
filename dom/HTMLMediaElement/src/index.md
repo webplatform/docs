@@ -1,56 +1,62 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=summary, examples, clean-up of MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLMediaElement
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-This property overrides a '''source''' element if both are used in a document.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.2
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>track element</code>
-*<code>track object</code>
-*<code>source</code>
-*<code>[[html/elements/media|media]]</code>
-*<code>audio element</code>
-*<code>audio object</code>
-*<code>video element</code>
-*<code>video object</code>
-*<code>[[dom/HTMLMediaElement/currentSrc|currentSrc]]</code>
-}}
-{{Topics|API, Audio, DOM, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: src
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Audio
+  5: DOM
+  6: Video
+readiness: 'Not Ready'
+notes:
+  - 'summary, examples, clean-up of MSDN import'
+uri: dom/HTMLMediaElement/src
+
+---
+# src
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLMediaElement](/dom/HTMLMediaElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.src;
+element.src = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+This property overrides a **source** element if both are used in a document.
+
+### Syntax
+
+### Standards information
+
+-   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.2
+
+## See also
+
+### Related pages (MSDN)
+
+-   `track element`
+-   `track object`
+-   `source`
+-   `media`
+-   `audio element`
+-   `audio object`
+-   `video element`
+-   `video object`
+-   `currentSrc`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

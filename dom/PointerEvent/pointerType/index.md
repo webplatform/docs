@@ -1,107 +1,80 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Stub, Needs Flags
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Indicates the device type that caused the event (mouse, pen, touch, etc.).}}
-{{API_Object_Property
-|Property_applies_to=dom/PointerEvent
-|Read_only=Yes
-|Example_object_name=event
-|Javascript_data_type=String
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Detecting the type of input from a user
-|Code=window.addEventListener("pointerdown", detectInputType, false);
-function detectInputType(event) {
-	switch(event.pointerType) {
-		case "mouse":
-			alert("You used a mouse!");
-			break;
-		case "pen":
-			alert("You used a pen stylus!");
-			break;
-		case "touch":
-			alert("You used touch!");
-			break;	
-		default:
-			alert("Not sure what device was used!");
-	}
-}
-}}
-}}
-{{Notes_Section
-|Usage=If a user agent is to fire a pointer event for a mouse, pen stylus, or touch input device, then the value of pointerType must be according to the following table:
+---
+title: pointerType
+tags:
+  - API
+  - Object
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Indicates the device type that caused the event (mouse, pen, touch, etc.).'
+uri: dom/PointerEvent/pointerType
 
-{{{!}}
-! Pointer Device Type
-! pointerType Value
-{{!}}-
-{{!}} Mouse
-{{!}} mouse
-{{!}}-
-{{!}} Pen Stylus
-{{!}} pen
-{{!}}-
-{{!}} Touch Contact
-{{!}} touch
-{{!}}}
+---
+# pointerType
+
+## Summary
+
+Indicates the device type that caused the event (mouse, pen, touch, etc.).
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/PointerEvent](/dom/PointerEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = event.pointerType;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+## Examples
+
+Detecting the type of input from a user
+
+``` {.js}
+window.addEventListener("pointerdown", detectInputType, false);
+function detectInputType(event) {
+    switch(event.pointerType) {
+        case "mouse":
+            alert("You used a mouse!");
+            break;
+        case "pen":
+            alert("You used a pen stylus!");
+            break;
+        case "touch":
+            alert("You used touch!");
+            break;
+        default:
+            alert("Not sure what device was used!");
+    }
+}
+```
+
+## Usage
+
+     If a user agent is to fire a pointer event for a mouse, pen stylus, or touch input device, then the value of pointerType must be according to the following table:
+
+Pointer Device Type
+:   pointerType Value
+Mouse
+:   mouse
+Pen Stylus
+:   pen
+Touch Contact
+:   touch
 
 If the device type cannot be detected by the user agent, then the value must be an empty string. If a user agent supports pointer device types other than those listed above, the value of pointerType should be vendor prefixed to avoid conflicting names for different types of devices. Future specifications may provide additional normative values for other device types.
-|Notes=In Internet Explorer 11, this property has been changed to return a string value. In Internet Explorer 10, it provided a return type of long: 
-•MSPOINTER_TYPE_TOUCH: 0x00000002
-•MSPOINTER_TYPE_PEN: 0x00000003
-•MSPOINTER_TYPE_MOUSE: 0x00000004
 
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=IE10
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10
-|Note=The PointerEvent object and associated events are supported with the MS prefix. E.g., [http://msdn.microsoft.com/en-us/library/ie/hh772103(v=vs.85).aspx MSPointerEvent]
-}}
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772359(v=vs.85).aspx pointerType Property]
-|HTML5Rocks_link=
-}}
+## Notes
+
+In Internet Explorer 11, this property has been changed to return a string value. In Internet Explorer 10, it provided a return type of long: •MSPOINTER\_TYPE\_TOUCH: 0x00000002 •MSPOINTER\_TYPE\_PEN: 0x00000003 •MSPOINTER\_TYPE\_MOUSE: 0x00000004
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[pointerType Property](http://msdn.microsoft.com/en-us/library/ie/hh772359(v=vs.85).aspx) Article]
+

@@ -1,103 +1,66 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=[[apis/media_capture_and_streams/MediaStream]]
-}}
-|Checked_Out=No
-|High-level issues=Merge Candidate, Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The MediaStream interface of the [[apis/webrtc|WebRTC]] API describes a stream of audio or video data. A MediaStream object represents a linear, potentially infinite timeline. It is not preloadable, nor is it seekable.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=navigator.getUserMedia =
-	navigator.getUserMedia
-|LiveURL=https://github.com/samdutton/simpl/blob/master/getusermedia/wpd.html
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=WebRTC 1.0: Real-time Communication Between Browsers
-|URL=http://www.w3.org/TR/webrtc/
-|Status=Working Draft
-}}{{Related Specification
-|Name=Media Capture and Streams
-|URL=http://www.w3.org/TR/mediacapture-streams/
-|Status=Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=21
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=18
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: MediaStream
+tags:
+  0: API
+  1: Objects
+  3: WebRTC
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[apis/media_capture_and_streams/MediaStream]] \n\n"
+summary: 'The MediaStream interface of the WebRTC API describes a stream of audio or video data. A MediaStream object represents a linear, potentially infinite timeline. It is not preloadable, nor is it seekable.'
+code_samples:
+  - 'https://github.com/samdutton/simpl/blob/master/getusermedia/wpd.html'
+uri: apis/webrtc/MediaStream
+
+---
+# MediaStream
+
+## Summary
+
+The MediaStream interface of the WebRTC API describes a stream of audio or video data. A MediaStream object represents a linear, potentially infinite timeline. It is not preloadable, nor is it seekable.
+
+## Properties
+
+API Name
+:   Summary
+[audioTracks](/apis/webrtc/MediaStream/audioTracks)
+:   The MediaStreamTrackList object representing the audio tracks.
+[ended](/apis/webrtc/MediaStream/ended)
+:   True if the ended event has fired on the MediaStream object.
+[label](/apis/webrtc/MediaStream/label)
+:   A globally unique identifier (GUID) of 36 characters that describes the media stream.
+[onended](/apis/webrtc/MediaStream/onended)
+:   Handles the ended event when fired on the MediaStream object.
+[videoTracks](/apis/webrtc/MediaStream/videoTracks)
+:   The MediaStreamTrackList object representing the video tracks.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+API Name
+:   Summary
+[ended](/apis/MediaStream/ended)
+:   All tracks of the MediaStream object have ended; the MediaStream is said to be finished.
+
+## Examples
+
+``` {.js}
+navigator.getUserMedia =
+    navigator.getUserMedia
+```
+
+[View live example](https://github.com/samdutton/simpl/blob/master/getusermedia/wpd.html)
+
+## Related specifications
+
+Specification
+:   Status
+[WebRTC 1.0: Real-time Communication Between Browsers](http://www.w3.org/TR/webrtc/)
+:   Working Draft
+[Media Capture and Streams](http://www.w3.org/TR/mediacapture-streams/)
+:   Working Draft
+

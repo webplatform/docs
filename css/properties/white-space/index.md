@@ -1,42 +1,70 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The white-space property controls whether and how white space inside the element is collapsed, and whether lines may wrap at unforced "soft wrap" opportunities.}}
-{{CSS Property
-|Initial value=normal
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=whiteSpace
-|Values={{CSS Property Value
-|Data Type=normal
-|Description=This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds and carriage returns are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.
-}}{{CSS Property Value
-|Data Type=nowrap
-|Description=Like <code>normal</code>, but content does not wrap to the next line.
-}}{{CSS Property Value
-|Data Type=pre
-|Description=Line breaks and other whitespace are preserved.
-}}{{CSS Property Value
-|Data Type=pre-line
-|Description=Like <code>normal</code>, this value collapses consecutive spaces and allows wrapping, but preserves segment breaks in the source as forced line breaks.
-}}{{CSS Property Value
-|Data Type=pre-wrap
-|Description=Like <code>pre</code>, but allows wrapping (like <code>normal</code>'s wrapping).
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=See the live example that has all the properties implemented side by side for comparison.
-|Code=/**
+---
+title: white-space
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The white-space property controls whether and how white space inside the element is collapsed, and whether lines may wrap at unforced "soft wrap" opportunities.'
+code_samples:
+  - 'http://gist.github.com/7284477'
+uri: css/properties/white-space
+
+---
+# white-space
+
+## Summary
+
+The white-space property controls whether and how white space inside the element is collapsed, and whether lines may wrap at unforced "soft wrap" opportunities.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `normal`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `whiteSpace`
+
+## Syntax
+
+-   `white-space: normal`
+-   `white-space: nowrap`
+-   `white-space: pre`
+-   `white-space: pre-line`
+-   `white-space: pre-wrap`
+
+## Values
+
+normal
+:   This value prevents user agents from collapsing sequences of white space. Segment breaks such as line feeds and carriage returns are preserved as forced line breaks. Lines only break at forced line breaks; content that does not fit within the block container overflows it.
+
+nowrap
+:   Like `normal`, but content does not wrap to the next line.
+
+pre
+:   Line breaks and other whitespace are preserved.
+
+pre-line
+:   Like `normal`, this value collapses consecutive spaces and allows wrapping, but preserves segment breaks in the source as forced line breaks.
+
+pre-wrap
+:   Like `pre`, but allows wrapping (like `normal`'s wrapping).
+
+## Examples
+
+See the live example that has all the properties implemented side by side for comparison.
+
+``` {.css}
+/**
  * white-space
  * CSS3 property
  * http://docs.webplatform.org/wiki/css/properties/white-space
@@ -70,63 +98,39 @@ body {
 p {
   background-color: #ddd;
 }
-|LiveURL=http://code.webplatform.org/gist/7284477
-}}
-}}
-{{Notes_Section
-|Notes=Whitespace, such as line breaks, spaces, and tabs, is collapsed by default in HTML documents. You can use the nonbreaking space entity <code>(&amp;nbsp;)</code> to add extra spaces to an object when the '''white-space''' property is set to '''normal''' or '''nowrap'''.  You can add extra line breaks using the '''br''' element.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Text Module Level 3
-|URL=http://www.w3.org/TR/css3-text/#white-space-property
-|Status=Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=5.5
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=4.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>pre</code>
-*<code>[[css/properties/word-wrap|-ms-word-wrap]]</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/7284477)
+
+## Notes
+
+Whitespace, such as line breaks, spaces, and tabs, is collapsed by default in HTML documents. You can use the nonbreaking space entity `(&nbsp;)` to add extra spaces to an object when the **white-space** property is set to **normal** or **nowrap**. You can add extra line breaks using the **br** element.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#white-space-property)
+:   Working Draft
+
+## See also
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `style`
+-   `Reference`
+-   `pre`
+-   `-ms-word-wrap`
+-   `Other Resources`
+-   `CSS Enhancements in Internet Explorer 6`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

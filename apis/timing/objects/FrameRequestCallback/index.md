@@ -1,62 +1,52 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces. Needs summary, children, fix table coding in Notes
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}229562 Timing control for script-based animations]
+---
+title: FrameRequestCallback
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces. Needs summary, children, fix table coding in Notes'
+uri: apis/timing/objects/FrameRequestCallback
 
+---
+# FrameRequestCallback
 
-===Members===
-The '''FrameRequestCallback''' object has these types of members:
-*[#methods Methods]
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+## Properties
 
-====Methods====
-The '''FrameRequestCallback''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[apis/timing/methods/sample|'''sample''']]
-|TBD
-|}
- 
- 
- 
-[mailto:wsddocfb@microsoft.com?subject{{=}}Documentation%20feedback [ie_timing\ie]:%20FrameRequestCallback object%20 RELEASE:%20(7/24/2012)&amp;body{{=}}%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx. Send comments about this topic to Microsoft]
-Build date: 7/24/2012
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+
+### Syntax
+
+### Standards information
+
+-   [Timing control for script-based animations](http://go.microsoft.com/fwlink/p/?linkid=229562)
+
+### Members
+
+The **FrameRequestCallback** object has these types of members:
+
+-   [\#methods Methods]
+
+#### Methods
+
+The **FrameRequestCallback** object has these methods. {
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

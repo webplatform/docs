@@ -1,76 +1,49 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Stub, Needs Flags
-|Content=Incomplete, Compatibility Incomplete, Examples Needed
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Dispatched when a pointer changes coordinates, button state, pressure, tilt, or contact geometry (e.g. [[dom/PointerEvent/width|width]] and [[dom/PointerEvent/height|height]]).}}
-{{Event
-|Event_applies_to=dom/PointerEvent
-|Synchronous=Yes
-|Bubbles=Yes
-|Target=dom/Element
-|Cancelable=Yes
-|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/MouseEvent/mousemove|mousemove]] event
-|Interface=dom/PointerEvent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=element.addEventListener("pointermove", handler, useCapture) ;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Pointer Events
-|URL=http://www.w3.org/TR/pointerevents
-|Status=Working Draft
-|Relevant_changes=3.2.5
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=IE10
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10
-|Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771911(v=vs.85).aspx MSPointerMove]
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh771911(v=vs.85).aspx pointermove Event]
-|HTML5Rocks_link=
-}}
+---
+title: pointermove
+tags:
+  - Events
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Dispatched when a pointer changes coordinates, button state, pressure, tilt, or contact geometry (e.g. width and height).'
+uri: dom/PointerEvent/pointermove
+
+---
+# pointermove
+
+## Summary
+
+Dispatched when a pointer changes coordinates, button state, pressure, tilt, or contact geometry (e.g. width and height).
+
+## Overview Table
+
+Synchronous
+:   Yes
+Bubbles
+:   Yes
+Target
+:   dom/Element
+Cancelable
+:   Yes
+Default action
+:   Varies: when the pointer is primary, all default actions of the [mousemove](/dom/MouseEvent/mousemove) event
+
+## Examples
+
+``` {.js}
+element.addEventListener("pointermove", handler, useCapture) ;
+```
+
+## Related specifications
+
+Specification
+:   Status
+[Pointer Events](http://www.w3.org/TR/pointerevents)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[pointermove Event](http://msdn.microsoft.com/en-us/library/ie/hh771911(v=vs.85).aspx) Article]
+

@@ -1,98 +1,181 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Element
-|DOM_interface=svg/objects/SVGElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example shows a simple text element and two morphology filters applied to the same text. The first filter thins the text with an [[svg/properties/operator|'''operator''']] value of '''erode''' and  a '''radius'''  value of   1. The second filter thickens the text with an '''operator''' value of '''dilate''' and  and '''radius''' value of   1.2.
+---
+title: feMorphology
+tags:
+  - Markup
+  - Elements
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+uri: svg/elements/feMorphology
+
+---
+# feMorphology
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [SVGElement](/svg/objects/SVGElement)
+
+## Examples
+
+This example shows a simple text element and two morphology filters applied to the same text. The first filter thins the text with an [**operator**](/svg/properties/operator) value of **erode** and a **radius** value of 1. The second filter thickens the text with an **operator** value of **dilate** and and **radius** value of 1.2.
 
 The image will look like this.
-|Code=<syntaxhighlight lang="xml">
-<!DOCTYPE HTML>
-<html>
-    <head></head>
-    <body>
-        <svg width="400" height="400">
-            <defs>
-                <filter id="MyFilter1" filterUnits="userSpaceOnUse" x="50" y="50" width="300" height="300">
-                    <feMorphology operator="erode" radius="1"  />
-                </filter>
-                <filter id="MyFilter2" filterUnits="userSpaceOnUse" x="50" y="50" width="300" height="300">
-                    <feMorphology operator="dilate" radius="1.2"  />
-                </filter>
-            </defs>
-            <g font-family="Verdana" font-size="36" stroke="black" stroke-width="2">
-                <text x="50" y="50">
-                    Unfiltered
-                </text>
-                <text x="50" y="150" filter="url(#MyFilter1)">
-                    Erode
-                </text>
-                <text x="50" y="250" filter="url(#MyFilter2)">
-                    Dilate
-                </text>
-            </g>
-        </svg>
-    </body>
-</html>
-</syntaxhighlight>
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
 
-You can specify thickness or thinness by using the [[svg/properties/operator|'''operator''']] property.
 
-You can specify how much you what to thicken or thin by using the   '''radius''', [[svg/properties/radiusX|'''radiusX''']], and [[svg/properties/radiusY|'''radiusY''']]   properties.
-|Import_Notes====Syntax===
 
-===Standards information===
+    <!DOCTYPE HTML>
+    <html>
+        <head></head>
+        <body>
+            <svg width="400" height="400">
+                <defs>
+                    <filter id="MyFilter1" filterUnits="userSpaceOnUse" x="50" y="50" width="300" height="300">
+                        <feMorphology operator="erode" radius="1"  />
+                    </filter>
+                    <filter id="MyFilter2" filterUnits="userSpaceOnUse" x="50" y="50" width="300" height="300">
+                        <feMorphology operator="dilate" radius="1.2"  />
+                    </filter>
+                </defs>
+                <g font-family="Verdana" font-size="36" stroke="black" stroke-width="2">
+                    <text x="50" y="50">
+                        Unfiltered
+                    </text>
+                    <text x="50" y="150" filter="url(#MyFilter1)">
+                        Erode
+                    </text>
+                    <text x="50" y="250" filter="url(#MyFilter2)">
+                        Dilate
+                    </text>
+                </g>
+            </svg>
+        </body>
+    </html>
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.23
+</pre>
 
-===Members===
+## Notes
 
-The '''SVGFEMorphologyElement''' object has these properties:
+### Remarks
 
-*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
-*[[svg/properties/in1|'''in1''']]: Identifies input for the given filter primitive.
-*[[svg/properties/operator|'''operator''']]: Specifies the operation of whether to thin or thicken.
-*[[svg/properties/radiusX|'''radiusX''']]: Specifies the thickening or thinning you want to apply in the X direction.
-*[[svg/properties/radiusY|'''radiusY''']]: Specifies the thickening or thinning you want to apply in the Y direction.
-*[[svg/properties/result|'''result''']]: Provides a reference for the output result of a filter.
-*[[svg/properties/width|'''width''']]: Defines the width of an element.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Filters
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+You can specify thickness or thinness by using the [**operator**](/svg/properties/operator) property.
+
+You can specify how much you what to thicken or thin by using the **radius**, [**radiusX**](/svg/properties/radiusX), and [**radiusY**](/svg/properties/radiusY) properties.
+
+### Syntax
+
+### Standards information
+
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.23
+
+### Members
+
+The **SVGFEMorphologyElement** object has these properties:
+
+-   [**height**](/svg/properties/height): Gets or sets the height of an element.
+-   [**in1**](/svg/properties/in1): Identifies input for the given filter primitive.
+-   [**operator**](/svg/properties/operator): Specifies the operation of whether to thin or thicken.
+-   [**radiusX**](/svg/properties/radiusX): Specifies the thickening or thinning you want to apply in the X direction.
+-   [**radiusY**](/svg/properties/radiusY): Specifies the thickening or thinning you want to apply in the Y direction.
+-   [**result**](/svg/properties/result): Provides a reference for the output result of a filter.
+-   [**width**](/svg/properties/width): Defines the width of an element.
+-   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
+-   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
+
+## See also
+
+### Related articles
+
+#### Filters
+
+-   [blur()](/css/functions/blur)
+
+-   [brightness()](/css/functions/brightness)
+
+-   [contrast()](/css/functions/contrast)
+
+-   [custom()](/css/functions/custom)
+
+-   [drop-shadow()](/css/functions/drop-shadow)
+
+-   [grayscale()](/css/functions/grayscale)
+
+-   [hue-rotate()](/css/functions/hue-rotate)
+
+-   [invert()](/css/functions/invert)
+
+-   [opacity()](/css/functions/opacity)
+
+-   [saturate()](/css/functions/saturate)
+
+-   [sepia()](/css/functions/sepia)
+
+-   [filter](/css/properties/filter)
+
+-   [feBlend](/svg/elements/feBlend)
+
+-   [feColorMatrix](/svg/elements/feColorMatrix)
+
+-   [feComponentTransfer](/svg/elements/feComponentTransfer)
+
+-   [feComposite](/svg/elements/feComposite)
+
+-   [feConvolveMatrix](/svg/elements/feConvolveMatrix)
+
+-   [feDiffuseLighting](/svg/elements/feDiffuseLighting)
+
+-   [feDisplacementMap](/svg/elements/feDisplacementMap)
+
+-   [feDistantLight](/svg/elements/feDistantLight)
+
+-   [feFlood](/svg/elements/feFlood)
+
+-   [feFuncA](/svg/elements/feFuncA)
+
+-   [feFuncB](/svg/elements/feFuncB)
+
+-   [feFuncG](/svg/elements/feFuncG)
+
+-   [feFuncR](/svg/elements/feFuncR)
+
+-   [feGaussianBlur](/svg/elements/feGaussianBlur)
+
+-   [feImage](/svg/elements/feImage)
+
+-   [feMerge](/svg/elements/feMerge)
+
+-   [feMergeNode](/svg/elements/feMergeNode)
+
+-   **feMorphology**
+
+-   [feOffset](/svg/elements/feOffset)
+
+-   [fePointLight](/svg/elements/fePointLight)
+
+-   [feSpecularLighting](/svg/elements/feSpecularLighting)
+
+-   [feSpotlight](/svg/elements/feSpotlight)
+
+-   [feTile](/svg/elements/feTile)
+
+-   [feTurbulence](/svg/elements/feTurbulence)
+
+-   [SVG deployment](/svg/tutorials/smarter_svg_deploy)
+
+-   [SVG filters](/svg/tutorials/smarter_svg_filters)
+
+-   [SVG graphic effects](/svg/tutorials/smarter_svg_graphics)
+
+-   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
+
+-   [SVG filters](/tutorials/svg_filters)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

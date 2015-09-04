@@ -1,86 +1,122 @@
-{{Page_Title|aside}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|'''<aside>'''はコンテンツの中のただの補足情報・余談であることを示します。}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=required
-|CSS_display=block
-|Content=&lt;aside&gt;要素は以下の様なものに使われます。
+---
+title: ja
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: '<aside>はコンテンツの中のただの補足情報・余談であることを示します。'
+uri: html/elements/aside/ja
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/elements/aside/af
+    - html/elements/aside/ar
+    - html/elements/aside/ast
+    - html/elements/aside/az
+    - html/elements/aside/bcc
+    - html/elements/aside/bg
+    - html/elements/aside/br
+    - html/elements/aside/ca
+    - html/elements/aside/cs
+    - html/elements/aside/da
+    - html/elements/aside/de
+    - html/elements/aside/diq
+    - html/elements/aside/el
+    - html/elements/aside/eo
+    - html/elements/aside/es
+    - html/elements/aside/fa
+    - html/elements/aside/fi
+    - html/elements/aside/fr
+    - html/elements/aside/gl
+    - html/elements/aside/gu
+    - html/elements/aside/he
+    - html/elements/aside/hu
+    - html/elements/aside/hy
+    - html/elements/aside/id
+    - html/elements/aside/it
+    - html/elements/aside/ka
+    - html/elements/aside/kk
+    - html/elements/aside/km
+    - html/elements/aside/ko
+    - html/elements/aside/ksh
+    - html/elements/aside/kw
+    - html/elements/aside/mk
+    - html/elements/aside/ml
+    - html/elements/aside/mr
+    - html/elements/aside/ms
+    - html/elements/aside/nl
+    - html/elements/aside/no
+    - html/elements/aside/oc
+    - html/elements/aside/pl
+    - html/elements/aside/pt
+    - html/elements/aside/pt-br
+    - html/elements/aside/ro
+    - html/elements/aside/ru
+    - html/elements/aside/si
+    - html/elements/aside/sk
+    - html/elements/aside/sl
+    - html/elements/aside/sq
+    - html/elements/aside/sr
+    - html/elements/aside/sv
+    - html/elements/aside/ta
+    - html/elements/aside/th
+    - html/elements/aside/tr
+    - html/elements/aside/uk
+    - html/elements/aside/vi
+    - html/elements/aside/yue
+    - html/elements/aside/zh
+    - html/elements/aside/zh-hans
+    - html/elements/aside/zh-hant
+    - html/elements/aside/zh-tw
 
-*抜粋した見出し
-*サイドバー
-*広告
-*<nav>要素のグループ
+---
+# aside
+
+## Summary
+
+\<aside\>はコンテンツの中のただの補足情報・余談であることを示します。
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+\<aside\>要素は以下の様なものに使われます。
+
+-   抜粋した見出し
+-   サイドバー
+-   広告
+-   \<nav\>要素のグループ
 
 その他にも、ページの主なコンテンツとは異なると思われるコンテンツに使われます。
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=以下の例では長いヨーロッパのニュース記事の中でスイスの背景事情を<aside>要素を使って表したものです。
-|Code=&lt;aside&gt;
- &lt;h1&gt;スイス連邦&lt;/h1&gt;
- &lt;p&gt;ヨーロッパ中部に位置する内陸国・スイスは、欧州連合基本条約の一部に署名したにも関わらず、EUに所属していない。&lt;/p&gt;
-&lt;/aside&gt;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/sections.html#the-aside-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/sections.html#the-aside-element
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9
-|Note=The '''aside''' element is only supported for webpages displayed in IE9 Standards mode.
-}}
-}}
-{{Languages}}
+
+## Examples
+
+以下の例では長いヨーロッパのニュース記事の中でスイスの背景事情を\<aside\>要素を使って表したものです。
+
+``` {.html}
+<aside>
+ <h1>スイス連邦</h1>
+ <p>ヨーロッパ中部に位置する内陸国・スイスは、欧州連合基本条約の一部に署名したにも関わらず、EUに所属していない。</p>
+</aside>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-aside-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/sections.html#the-aside-element)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+
+**言語:**
+:   **[English](/html/elements/aside)**  • <span lang="ja">**日本語**</span>

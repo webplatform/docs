@@ -1,64 +1,62 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Returns the time immediately after the user agent finishes receiving the last byte of the resource from from relevant application caches or from local resources.}}
-{{API_Object_Property
-|Property_applies_to=apis/resource_timing/PerformanceResourceTiming
-|Read_only=Yes
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=DOMHighResTimeStamp
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example assumes an HTML page containing a resource such as
-<img src="https://www.webplatform.org/logo/logo-with-text.png" />
-|Code=var resources = window.performance.getEntriesByType('resource');
+---
+title: responseEnd
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Resource
+  5: Timing
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the time immediately after the user agent finishes receiving the last byte of the resource from from relevant application caches or from local resources.'
+uri: 'apis/resource timing/PerformanceResourceTiming/responseEnd'
+
+---
+# responseEnd
+
+## Summary
+
+Returns the time immediately after the user agent finishes receiving the last byte of the resource from from relevant application caches or from local resources.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/resource\_timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.responseEnd;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+
+DOMHighResTimeStamp
+
+## Examples
+
+This example assumes an HTML page containing a resource such as \<img src="[https://www.webplatform.org/logo/logo-with-text.png](https://www.webplatform.org/logo/logo-with-text.png)" /\>
+
+``` {.js}
+var resources = window.performance.getEntriesByType('resource');
 alert("responseEnd: " + resources[0].responseEnd);
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=The value reported by the '''responseEnd''' property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Resource Timing Specification
-|URL=http://www.w3.org/TR/resource-timing/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Resource Timing}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Notes
+
+The value reported by the **responseEnd** property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

@@ -1,135 +1,130 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Specifies different corner clipping effects, such as scoop (inner curves), bevel (straight cuts) or notch (cut-off rectangles). Works along with border-radius to specify the size of each corner effect.}}
-{{CSS Property
-|Initial value=curve
-|Applies to=all elements, except table element when ‘border-collapse’ is ‘collapse’
-|Inherited=No
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=borderCornerShape
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=curve
-|Description=Border radii define a convex curve at the corner (default behavior of border-radius).
-}}{{CSS Property Value
-|Data Type=bevel
-|Description=Border radii define a diagonal slice at the corner.
-}}{{CSS Property Value
-|Data Type=scoop
-|Description=Border radii define a concave curve at the corner (informally called "negative border-radius")
-}}{{CSS Property Value
-|Data Type=notch
-|Description=Border radii define a concave rectangular notch at the corner.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Create a diamond (rhombus) shape
-|Code=border-corner-shape: bevel;
+---
+title: border-corner-shape
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Specifies different corner clipping effects, such as scoop (inner curves), bevel (straight cuts) or notch (cut-off rectangles). Works along with border-radius to specify the size of each corner effect.'
+uri: css/properties/border-corner-shape
+
+---
+# border-corner-shape
+
+## Summary
+
+Specifies different corner clipping effects, such as scoop (inner curves), bevel (straight cuts) or notch (cut-off rectangles). Works along with border-radius to specify the size of each corner effect.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `curve`
+Applies to
+:   all elements, except table element when ‘border-collapse’ is ‘collapse’
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `borderCornerShape`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `border-corner-shape: bevel`
+-   `border-corner-shape: curve`
+-   `border-corner-shape: notch`
+-   `border-corner-shape: scoop`
+
+## Values
+
+curve
+:   Border radii define a convex curve at the corner (default behavior of border-radius).
+
+bevel
+:   Border radii define a diagonal slice at the corner.
+
+scoop
+:   Border radii define a concave curve at the corner (informally called "negative border-radius")
+
+notch
+:   Border radii define a concave rectangular notch at the corner.
+
+## Examples
+
+Create a diamond (rhombus) shape
+
+``` {.css}
+border-corner-shape: bevel;
 border-radius: 50%;
-|LiveURL=
-}}{{Single Example
-|Language=CSS
-|Description=Create a trapezoid
-|Code=border-corner-shape: bevel;
+```
+
+Create a trapezoid
+
+``` {.css}
+border-corner-shape: bevel;
 border-radius: 25% / 100% 100% 0 0;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Level 4 - Backgrounds and Borders Module
-|URL=http://dev.w3.org/csswg/css-backgrounds-4/#border-corner-shape
-|Status=W3C Editor’s Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|Manual_links=
-|External_links=* [http://leaverou.github.com/border-corner-shape Preview of border-corner-shape with SVG]
-|Manual_sections=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=No
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Level 4 - Backgrounds and Borders Module](http://dev.w3.org/csswg/css-backgrounds-4/#border-corner-shape)
+:   W3C Editor’s Draft
+
+## See also
+
+### Related articles
+
+#### Box Model
+
+-   [border](/css/properties/border)
+
+-   **border-corner-shape**
+
+-   [bottom](/css/properties/bottom)
+
+-   [box-shadow](/css/properties/box-shadow)
+
+-   [box-sizing](/css/properties/box-sizing)
+
+-   [break-before](/css/properties/break-before)
+
+-   [clear](/css/properties/clear)
+
+-   [float](/css/properties/float)
+
+-   [height](/css/properties/height)
+
+-   [left](/css/properties/left)
+
+-   [line-height](/css/properties/line-height)
+
+-   [margin](/css/properties/margin)
+
+-   [margin-bottom](/css/properties/margin-bottom)
+
+-   [margin-left](/css/properties/margin-left)
+
+-   [margin-right](/css/properties/margin-right)
+
+-   [margin-top](/css/properties/margin-top)
+
+-   [max-height](/css/properties/max-height)
+
+-   [max-width](/css/properties/max-width)
+
+-   [min-height](/css/properties/min-height)
+
+-   [min-width](/css/properties/min-width)
+
+### External resources
+
+-   [Preview of border-corner-shape with SVG](http://leaverou.github.com/border-corner-shape)
+

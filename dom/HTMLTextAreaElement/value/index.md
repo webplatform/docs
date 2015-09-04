@@ -1,27 +1,45 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Just a final review is probably needed.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets the content of a <code><textarea></code> element.}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLTextAreaElement
-|Read_only=No
-|Example_object_name=textAreaElement
-|Return_value_name=textAreaContent
-|Javascript_data_type=String
-|Return_value_description=The content of the element, whether entered, existing or otherwise visible.
-|Example_value_name=newTextAreaContent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following code uses this property to log the content of a <code><textarea></code> and its length.
-|Code=// Declaring the used variables first.
+---
+title: value
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Just a final review is probably needed.'
+summary: 'Gets the content of a <textarea> element.'
+uri: dom/HTMLTextAreaElement/value
+
+---
+# value
+
+## Summary
+
+Gets the content of a \<textarea\> element.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var textAreaContent = textAreaElement.value;
+textAreaElement.value = newTextAreaContent;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The content of the element, whether entered, existing or otherwise visible.
+
+## Examples
+
+The following code uses this property to log the content of a `<textarea>` and its length.
+
+``` {.js}
+// Declaring the used variables first.
 var textAreaList, textArea;
 
 // Getting any <textarea> in the page
@@ -42,47 +60,136 @@ if (textAreaList.length) {
     console.log("The codepoint length of the content of the first textarea element is - " +
         textArea.value.length);
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=Use this property to get the content of <textarea>.
-|Notes=In JavaScript/ECMAScript, the [[javascript/String/length|length]] property of this property can be used to determine the codepoint length of the content.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Document Object Model (DOM) Level 1
-|URL=http://www.w3.org/TR/REC-DOM-Level-1/level-one-html.html#ID-70715579
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=Document Object Model (DOM) Level 2 HTML
-|URL=http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-70715579
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html/forms.html#dom-textarea-value
-|Status=W3C Candidate Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#dom-textarea-value
-|Status=Living Standard
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Usage
+
+     Use this property to get the content of <textarea>.
+
+## Notes
+
+In JavaScript/ECMAScript, the [length](/javascript/String/length) property of this property can be used to determine the codepoint length of the content.
+
+## Related specifications
+
+Specification
+:   Status
+[Document Object Model (DOM) Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-html.html#ID-70715579)
+:   W3C Recommendation
+[Document Object Model (DOM) Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-70715579)
+:   W3C Recommendation
+[W3C HTML5](http://www.w3.org/TR/html/forms.html#dom-textarea-value)
+:   W3C Candidate Recommendation
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#dom-textarea-value)
+:   Living Standard
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   **value**
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+

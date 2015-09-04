@@ -1,62 +1,181 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate
-| This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.
-}}
-|Checked_Out=No
-|High-level issues=Deletion Candidate
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|This defines the line width for underline, overline, or line-through of text decorations}}
-{{CSS Property
-|Initial value=auto
-|Applies to=all generated content elements with textual content
-|Inherited=No
-|Media=visual
-|Animatable=No
-|CSS percentages=computed font-size
-|Values={{CSS Property Value
-|Data Type=auto
-}}{{CSS Property Value
-|Data Type=normal
-}}{{CSS Property Value
-|Data Type=<number>
-}}{{CSS Property Value
-|Data Type=<length>
-}}{{CSS Property Value
-|Data Type=<percentage>
-}}{{CSS Property Value
-|Data Type=thin
-}}{{CSS Property Value
-|Data Type=medium
-}}{{CSS Property Value
-|Data Type=thick
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Text
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: text-underline-width
+tags:
+  - CSS
+  - Properties
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+notes:
+  - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
+summary: 'This defines the line width for underline, overline, or line-through of text decorations'
+uri: css/properties/text-underline-width
+
+---
+# text-underline-width
+
+## Summary
+
+This defines the line width for underline, overline, or line-through of text decorations
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `auto`
+Applies to
+:   all generated content elements with textual content
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   computed font-size
+
+## Syntax
+
+-   `text-underline-width: <length>`
+-   `text-underline-width: <number>`
+-   `text-underline-width: <percentage>`
+-   `text-underline-width: auto`
+-   `text-underline-width: medium`
+-   `text-underline-width: normal`
+-   `text-underline-width: thick`
+-   `text-underline-width: thin`
+
+## Values
+
+auto
+:
+
+normal
+:
+
+\<number\>
+:
+
+\<length\>
+:
+
+\<percentage\>
+:
+
+thin
+:
+
+medium
+:
+
+thick
+:
+
+**Needs Examples**: This section should include examples.
+
+## See also
+
+### Related articles
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   **text-underline-width**
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+

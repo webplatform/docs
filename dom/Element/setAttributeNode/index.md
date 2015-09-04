@@ -1,59 +1,65 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, examples, and compat; better spec link and less MS bias
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=pattr
-|Data type=any
-|Description='''attribute'''
-|Optional=No
-}}
-|Method_applies_to=dom/Element
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description='''IHTMLDOMAttribute'''
+---
+title: setAttributeNode
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs summary, examples, and compat; better spec link and less MS bias'
+uri: dom/Element/setAttributeNode
 
-'''attribute'''
+---
+# setAttributeNode
 
-'''IHTMLDOMAttribute2'''
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-'''setAttributeNode''' was introduced in Microsoft Internet Explorer 6.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [dom/Element](/dom/Element)*
+
+## Syntax
+
+``` {.js}
+var object = object.setAttributeNode(pattr);
+```
+
+## Parameters
+
+### pattr
+
+ Data-type�
+:   any
+
+**attribute**
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+**IHTMLDOMAttribute**
+
+**attribute**
+
+**IHTMLDOMAttribute2**
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+**setAttributeNode** was introduced in Microsoft Internet Explorer 6.
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

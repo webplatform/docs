@@ -1,124 +1,211 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+---
+title: standby
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+summary: 'A message for the browser to show while an object''s implementation and data load.'
+uri: html/attributes/standby
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/HTMLElement/object
 
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|A message for the browser to show while an <code>object</code>'s implementation and data load.}}
-{{Markup_Attribute
-|Applies_to=[[dom/HTMLElement/object]]
-|Property_applies_to=dom/HTMLElement
-|Content=A message for the browser to show while an <code>object</code>'s implementation and data load.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The <code>standby</code> attribute used to alert users to a lengthy delay before the image displays.
-|Code=<object data="huge-picture.png" standby="Loading...">
+---
+# standby
+
+## Summary
+
+A message for the browser to show while an object's implementation and data load.
+
+Applies to
+:   [dom/HTMLElement/object](/w/index.php?title=dom/HTMLElement/object&action=edit&redlink=1)
+
+A message for the browser to show while an `object`'s implementation and data load.
+
+## Examples
+
+The `standby` attribute used to alert users to a lengthy delay before the image displays.
+
+``` {.html}
+<object data="huge-picture.png" standby="Loading...">
 </object>
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
+```
+
+## Notes
+
+### Remarks
+
 This property has no default value.
 
-Windows Internet Explorer does not render the '''standby''' message while loading an object's implementation or data; however, some objects may react to or display the content of this string.
+Windows Internet Explorer does not render the **standby** message while loading an object's implementation or data; however, some objects may react to or display the content of this string.
 
-'''standby''' was introduced in Microsoft Internet Explorer 6
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5 differences from HTML4: Obsolete Attributes
-|URL=http://dev.w3.org/html5/html4-differences/#obsolete-attributes
-|Status=Editor's Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=2
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=8
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=10
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=4
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=n/a
-|Version=n/a
-|Note='''Valid up to HTML4 only.''' Removed in HTML5.
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML, Multimedia
-|External_links=* http://dev.w3.org/html5/html4-differences/
-* http://reference.sitepoint.com/html/object/standby
-|Manual_sections====Related pages (MSDN)===
-*<code>object</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/HTML/Element/object]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+**standby** was introduced in Microsoft Internet Explorer 6
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
+
+## Related specifications
+
+Specification
+:   Status
+[HTML5 differences from HTML4: Obsolete Attributes](http://dev.w3.org/html5/html4-differences/#obsolete-attributes)
+:   Editor's Draft
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   **standby**
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+#### Multimedia
+
+-   [Track ended](/apis/MediaStream/ended)
+
+-   [MediaSource](/apis/media_source_extensions/MediaSource)
+
+-   [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
+
+-   [VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [object-fit](/css/properties/object-fit)
+
+-   [height](/html/attributes/height)
+
+-   **standby**
+
+-   [EMBED](/html/elements/embed)
+
+-   [img](/html/elements/img)
+
+-   [WebRTC Resources](/tutorials/webrtc_resources)
+
+### External resources
+
+-   [http://dev.w3.org/html5/html4-differences/](http://dev.w3.org/html5/html4-differences/)
+-   [http://reference.sitepoint.com/html/object/standby](http://reference.sitepoint.com/html/object/standby)
+
+### Related pages (MSDN)
+
+-   `object`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[[1]](https://developer.mozilla.org/en-US/docs/HTML/Element/object) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

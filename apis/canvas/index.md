@@ -1,35 +1,55 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Allows applications to render pixel-based graphics within a '''canvas''' element using a two-dimensional graphics ''context''.}}
-{{API_Listing}}
-{{Concept_Listing
-|Query=[[Category:Canvas]][[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{See_Also_Section
-|Topic_clusters=Canvas
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
+---
+title: canvas
+tags:
+  0: API
+  1: Listings
+  3: Canvas
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Allows applications to render pixel-based graphics within a canvas element using a two-dimensional graphics context.'
+uri: apis/canvas
+
+---
+# canvas
+
+## Summary
+
+Allows applications to render pixel-based graphics within a canvas element using a two-dimensional graphics context.
+
+API Name
+:   Summary
+[CanvasGradient](/apis/canvas/CanvasGradient)
+:   An opaque object of the canvas API.
+[CanvasPattern](/apis/canvas/CanvasPattern)
+:   An opaque object of the canvas API. See Notes.
+[CanvasPixelArray](/apis/canvas/CanvasPixelArray)
+:   Specifies each pixel within a canvas's rectangular selection, via the [ImageData](/apis/canvas/ImageData) object's [data](/apis/canvas/ImageData/data) property. The array uses four elements to represent each pixel's red, green, blue, and alpha channels. See Notes.
+[CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
+:   The 2D rendering context for the drawing surface of a \<canvas\> element.
+[ImageData](/apis/canvas/ImageData)
+:   The ImageData object of the canvas API.
+[TextMetrics](/apis/canvas/TextMetrics)
+:   The TextMetrics object of the canvas API. TextMetrics retrieves numeric informations like the width of a text that is drawn onto the canvas with the current font style.
+
+## See also
+
+### Related articles
+
+#### Canvas
+
+-   **canvas**
+
+-   [canvas](/html/elements/canvas)
+
+-   [Introduction to HTML5 games](/tutorials/canvas_notearsgame)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+-   [Introduction to Canvas](/tutorials/canvas/canvas_tutorial)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

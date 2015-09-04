@@ -1,52 +1,112 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Represents text in an HTML element.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example changes the text of a '''button''' element to "Clicked" through the '''TextRange''' object.
-|Code=&lt;script type{{=}}"text/javascript"&gt;
-var b {{=}} document.all.tags("button");
-if (b!{{=}}null) {
-    var r {{=}} b[0].createTextRange();
-    if (r !{{=}} null) {
-        r.text {{=}} "Clicked";
+---
+title: TextRange
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: Non-Standard
+summary: 'Represents text in an HTML element.'
+uri: dom/TextRange
+
+---
+# TextRange
+
+## Summary
+
+Represents text in an HTML element.
+
+## Properties
+
+API Name
+:   Summary
+[boundingHeight](/dom/TextRange/boundingHeight)
+:   Retrieves the height of the rectangle that bounds the TextRange object.
+[boundingLeft](/dom/TextRange/boundingLeft)
+:   Retrieves the distance between the left edge of the rectangle that bounds the TextRange object and the left side of the object that contains the TextRange.
+[boundingTop](/dom/TextRange/boundingTop)
+:   Retrieves the distance between the top edge of the rectangle that bounds the TextRange object and the top side of the object that contains the TextRange.
+[boundingWidth](/dom/TextRange/boundingWidth)
+:   Retrieves the width of the rectangle that bounds the TextRange object
+[text](/dom/TextRange/text)
+:   Sets or retrieves the text contained within the range.
+
+## Methods
+
+API Name
+:   Summary
+[duplicate](/dom/TextRange/duplicate)
+:   Returns a duplicate of the TextRange.
+[getBookmark](/dom/TextRange/getBookmark)
+:   Retrieves a bookmark (opaque string) that can be used with moveToBookmark to return to the same range.
+[item](/dom/TextRange/item)
+:
+[move](/dom/TextRange/move)
+:   Collapses the given text range and moves the empty range by the given number of units.
+[moveEnd](/dom/TextRange/moveEnd)
+:   Changes the end position of the range.
+[moveStart](/dom/TextRange/moveStart)
+:   Changes the start position of the range.
+[moveToBookmark](/dom/TextRange/moveToBookmark)
+:   Moves to a bookmark.
+[moveToElementText](/dom/TextRange/moveToElementText)
+:   Moves the text range so that the start and end positions of the range encompass the text in the given element.
+[moveToPoint](/dom/TextRange/moveToPoint)
+:   Moves the start and end positions of the text range to the given point.
+[parentElement](/dom/TextRange/parentElement)
+:   Retrieves the parent element for the given text range.
+[pasteHTML](/dom/TextRange/pasteHTML)
+:   Pastes HTML text into the given text range, replacing any previous text and HTML elements in the range.
+[queryCommandEnabled](/dom/TextRange/queryCommandEnabled)
+:   Returns a Boolean value that indicates whether a specified command can be successfully executed using execCommand, given the current state of the document.
+[queryCommandIndeterm](/dom/TextRange/queryCommandIndeterm)
+:   Returns a Boolean value that indicates whether the specified command is in the indeterminate state.
+[queryCommandState](/dom/TextRange/queryCommandState)
+:   Returns a Boolean value that indicates the current state of the command.
+[queryCommandSupported](/dom/TextRange/queryCommandSupported)
+:   Returns a Boolean value that indicates whether the current command is supported on the current range.
+[queryCommandValue](/dom/TextRange/queryCommandValue)
+:   Returns the current value of the document, range, or current selection for the given command.
+[scrollIntoView](/dom/TextRange/scrollIntoView)
+:   Causes the object to scroll into view, aligning it either at the top or bottom of the window.
+[select](/dom/TextRange/select)
+:   Makes the selection equal to the current object.
+[setEndPoint](/dom/TextRange/setEndPoint)
+:   Sets the endpoint of one range based on the endpoint of another range.
+
+## Events
+
+*No events.*
+
+## Examples
+
+This example changes the text of a **button** element to "Clicked" through the **TextRange** object.
+
+``` {.js}
+<script type="text/javascript">
+var b = document.all.tags("button");
+if (b!=null) {
+    var r = b[0].createTextRange();
+    if (r != null) {
+        r.text = "Clicked";
     }
 }
-&lt;/script&gt;
-}}
-}}
-{{Notes_Section
-|Usage=Use this object to retrieve and modify text in an element, to locate specific strings in the text, and to carry out commands that affect the appearance of the text. 
-|Notes====Remarks===
-To retrieve a text range object, apply the [[dom/Document/createRange|'''createRange''']] method to a '''body''', '''button''', or '''textArea''' element or an '''input''' element that has [[html/attributes/type|'''TYPE''']] text.
-Modify the extent of the text range by moving its start and end positions with methods such as [[dom/TextRange/move|'''move''']] and [[dom/TextRange/moveToElementText|'''moveToElementText''']]. Within the text range, you can retrieve and modify plain text or HTML text. These forms of text are identical except that HTML text includes HTML tags, and plain text does not.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms535872(v=vs.85).aspx TextRange Object]
-|HTML5Rocks_link=
-}}
+</script>
+```
+
+## Usage
+
+     Use this object to retrieve and modify text in an element, to locate specific strings in the text, and to carry out commands that affect the appearance of the text.
+
+## Notes
+
+### Remarks
+
+To retrieve a text range object, apply the [**createRange**](/dom/Document/createRange) method to a **body**, **button**, or **textArea** element or an **input** element that has [**TYPE**](/html/attributes/type) text. Modify the extent of the text range by moving its start and end positions with methods such as [**move**](/dom/TextRange/move) and [**moveToElementText**](/dom/TextRange/moveToElementText). Within the text range, you can retrieve and modify plain text or HTML text. These forms of text are identical except that HTML text includes HTML tags, and plain text does not.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[TextRange Object](http://msdn.microsoft.com/en-us/library/ie/ms535872(v=vs.85).aspx) Article]
+

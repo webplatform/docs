@@ -1,104 +1,47 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate | A more complete duplicate page exists }}
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Indicates an abbreviation or an acronym.}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=The global title attribute can be used in the <code>abbr</code> tag to show the full version of the abbreviation/acronym when you mouse over the <code>abbr</code> element.
+---
+title: abbr
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+notes:
+  - "\nDeletion Candidate:   A more complete duplicate page exists \n\n"
+summary: 'Indicates an abbreviation or an acronym.'
+uri: html/attributes/abbr
 
-===Remarks===
-'''abbr''' was introduced in Microsoft Internet Explorer 6
-This property can be used for rendering to non-visual media such as speech or Braille.
-There is no functionality implemented for this property unless defined by the author.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=Beta
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=6
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=4
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=0.8
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=1
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=6
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=Beta
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=14
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=4
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=4
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=Beta
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=3
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>td</code>
-*<code>th</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+# abbr
+
+## Summary
+
+Indicates an abbreviation or an acronym.
+
+Applies to
+:    ?
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+The global title attribute can be used in the `abbr` tag to show the full version of the abbreviation/acronym when you mouse over the `abbr` element.
+
+### Remarks
+
+**abbr** was introduced in Microsoft Internet Explorer 6 This property can be used for rendering to non-visual media such as speech or Braille. There is no functionality implemented for this property unless defined by the author.
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `td`
+-   `th`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

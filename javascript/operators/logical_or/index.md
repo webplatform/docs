@@ -1,99 +1,69 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Performs a logical disjunction on two expressions.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=result '''=''' expression1 '''{{!}}{{!}}''' expression2
-}}
-|Values={{JS Syntax Parameter
-|Name=result
-|Required=
-|Description=Any variable.
-}}{{JS Syntax Parameter
-|Name=expression1
-|Required=
-|Description=Any expression.
-}}{{JS Syntax Parameter
-|Name=expression2
-|Required=
-|Description=Any expression.
-}}
-}}
-{{JS_Return_Value
-|Description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=var x = 5;
+---
+title: logical or
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Performs a logical disjunction on two expressions.'
+uri: 'javascript/operators/logical or'
+
+---
+# logical or
+
+## Summary
+
+Performs a logical disjunction on two expressions.
+
+## Syntax
+
+    result = expression1 || expression2
+
+**result**
+:   Any variable.
+
+**expression1**
+:   Any expression.
+
+**expression2**
+:   Any expression.
+
+## Examples
+
+``` {.js}
+var x = 5;
 var y = 7;
 var z;
-z = (x < y) {{!}}{{!}} (x <= y); // result: z = true
-z = (x < y) {{!}}{{!}} (x > y); // result: z = true
-z = (x > y) {{!}}{{!}} (x <= y); // result: z = true
-z = (x > y) {{!}}{{!}} (x >= y); // result: z = false
+z = (x < y) || (x <= y); // result: z = true
+z = (x < y) || (x > y); // result: z = true
+z = (x > y) || (x <= y); // result: z = true
+z = (x > y) || (x >= y); // result: z = false
+```
 
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=If either or both expressions evaluate to '''True''' , result is '''True'''. The following table illustrates how result is determined:
+## Remarks
 
-{{{!}} class='wikitable'
-{{!}}-
-! If <code>expression1</code> is
-! And <code>expression2</code> is
-! The <code>result</code> is
-{{!}}-
-{{!}} True
-{{!}} True
-{{!}} True
-{{!}}-
-{{!}} True
-{{!}} False
-{{!}} True
-{{!}}-
-{{!}} False
-{{!}} True
-{{!}} True
-{{!}}-
-{{!}} False
-{{!}} False
-{{!}} False
-{{!}}} 
+If either or both expressions evaluate to **True** , result is **True**. The following table illustrates how result is determined:
+
+If `expression1` is
+:   And `expression2` is
+True
+:   True
+True
+:   False
+False
+:   True
+False
+:   False
+
 JavaScript uses the following rules for converting non-Boolean values to Boolean values:
 
-* All objects are considered true.
-* Strings are considered false if and only if they are empty.
-* null and undefined are considered false.
-* Numbers are false if, and only if, they are 0.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/xxxekd04(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+-   All objects are considered true.
+-   Strings are considered false if and only if they are empty.
+-   null and undefined are considered false.
+-   Numbers are false if, and only if, they are 0.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/xxxekd04(v=vs.94).aspx)
+

@@ -1,53 +1,61 @@
-{{Page_Title|defaultSelected}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=examples, compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets or sets the value of the [[html/attributes/selected|selected]] HTML attribute.}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLOptionElement
-|Read_only=No
-|Example_object_name=option
-|Return_value_name=initiallySelected
-|Javascript_data_type=Boolean
-|Return_value_description=Whether the '''selected''' HTML attribute is present.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=The property can be changed programmatically, but doing so has no effect on the appearance of the option or the submitted value - if the [[html/attributes/selected|'''selected''']] property has been changed by a user or by a script. The property does change the appearance of the selected option if the form is reset.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 1
-|URL=http://www.w3.org/TR/REC-DOM-Level-1/
-|Status=Recommendation
-|Relevant_changes=Section 2.5.5
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/attributes/selected|selected]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: defaultSelected
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'examples, compatibility'
+summary: 'Gets or sets the value of the selected HTML attribute.'
+uri: dom/HTMLOptionElement/defaultSelected
+
+---
+# defaultSelected
+
+## Summary
+
+Gets or sets the value of the selected HTML attribute.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLOptionElement](/dom/HTMLOptionElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var initiallySelected = option.defaultSelected;
+option.defaultSelected = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+
+Whether the **selected** HTML attribute is present.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+The property can be changed programmatically, but doing so has no effect on the appearance of the option or the submitted value - if the [**selected**](/html/attributes/selected) property has been changed by a user or by a script. The property does change the appearance of the selected option if the form is reset.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
+:   Recommendation
+
+## See also
+
+### Related pages (MSDN)
+
+-   `selected`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,69 +1,80 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Divides a text node at the specified index.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=offset
-|Data type=String
-|Description=The index of the string that indicates where the separation occurs. If a value is not provided, a new text node with no value is created.
-|Optional=No
-}}
-|Method_applies_to=dom/Text
-|Example_object_name=textNode
-|Return_value_name=textNode
-|Javascript_data_type=DOM Node
-|Return_value_description=A text node object.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''splitText''' method to divide a text node in half in a '''ul''' object. When the text node splits, the [[dom/Document/createElement|'''createElement''']] method creates a new '''li''' object. The [[dom/Node/appendChild|'''appendChild''']] method appends the new '''li''' element and the split text node to the '''ul''' object.
-|Code=&lt;script&gt;
+---
+title: splitText
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Divides a text node at the specified index.'
+uri: dom/Text/splitText
+
+---
+# splitText
+
+## Summary
+
+Divides a text node at the specified index.
+
+*Method of [dom/Text](/dom/Text)*
+
+## Syntax
+
+``` {.js}
+var textNode = textNode.splitText(/* see parameter list */);
+```
+
+## Parameters
+
+### offset
+
+ Data-typeÂ
+:   String
+
+ The index of the string that indicates where the separation occurs. If a value is not provided, a new text node with no value is created.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+A text node object.
+
+## Examples
+
+This example uses the **splitText** method to divide a text node in half in a **ul** object. When the text node splits, the [**createElement**](/dom/Document/createElement) method creates a new **li** object. The [**appendChild**](/dom/Node/appendChild) method appends the new **li** element and the split text node to the **ul** object.
+
+``` {.html}
+<script>
 function fnSplitNode(){
-   var oNode{{=}}oList.firstChild.childNodes(0);
-   var oNewNode{{=}}document.createElement("LI");
-   var oSplitNode {{=}} oNode.splitText(oNode.nodeValue.length/2);
+   var oNode=oList.firstChild.childNodes(0);
+   var oNewNode=document.createElement("LI");
+   var oSplitNode = oNode.splitText(oNode.nodeValue.length/2);
    oList.appendChild(oNewNode);
    oNewNode.appendChild(oSplitNode);
 }
-&lt;/script&gt;
-&lt;ul onclick{{=}}"fnSplitNode()" id{{=}}"oList"&gt;
-&lt;li&gt;This is a list item.&lt;/li&gt;
-&lt;/ul&gt;
-}}
-}}
-{{Notes_Section
-|Notes=The text node that invokes the '''splitText''' method has a [[dom/Node/nodeValue|'''nodeValue''']] equal to the substring of the value, from zero to ''offset''. The new text node has a '''nodeValue''' of the substring of the original value, from the specified index to the value length. Text node integrity is not preserved when the document is saved or persisted.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Text.splitText Text.splitText]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536764(v=vs.85).aspx splitText Method]
-|HTML5Rocks_link=
-}}
+</script>
+<ul onclick="fnSplitNode()" id="oList">
+<li>This is a list item.</li>
+</ul>
+```
+
+## Notes
+
+The text node that invokes the **splitText** method has a [**nodeValue**](/dom/Node/nodeValue) equal to the substring of the value, from zero to *offset*. The new text node has a **nodeValue** of the substring of the original value, from the specified index to the value length. Text node integrity is not preserved when the document is saved or persisted.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Text.splitText](https://developer.mozilla.org/en-US/docs/Web/API/Text.splitText) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[splitText Method](http://msdn.microsoft.com/en-us/library/ie/ms536764(v=vs.85).aspx) Article]
+

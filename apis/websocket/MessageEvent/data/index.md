@@ -1,51 +1,40 @@
-{{Page_Title|data}}
-{{Flags
-|State=In Progress
-|Editorial notes=Not specific to WebSocket. Probably belongs somewhere in DOM docs. Needs example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Move Candidate
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The data from the server.}}
-{{API_Object_Property
-|Property_applies_to=apis/websocket/MessageEvent
-|Read_only=No
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=String
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/MessageEvent
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: data
+tags:
+  - API
+  - Object
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Not specific to WebSocket. Probably belongs somewhere in DOM docs. Needs example, spec reference, standardization status'
+summary: 'The data from the server.'
+uri: apis/websocket/MessageEvent/data
+
+---
+# data
+
+## Summary
+
+The data from the server.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/websocket/MessageEvent](/apis/websocket/MessageEvent)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.data;
+element.data = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+**Needs Examples**: This section should include examples.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/MessageEvent)
+

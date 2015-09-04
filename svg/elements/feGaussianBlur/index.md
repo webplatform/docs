@@ -1,78 +1,158 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Element
-|DOM_interface=svg/objects/SVGElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: feGaussianBlur
+tags:
+  - Markup
+  - Elements
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+uri: svg/elements/feGaussianBlur
+
+---
+# feGaussianBlur
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [SVGElement](/svg/objects/SVGElement)
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
 
 The Gaussian blur kernel is an approximation of the normalized convolution
 
-G(x,y) {{=}} H(x)I(y),
+G(x,y) = H(x)I(y),
 
 where
 
-H(x) {{=}} exp(-x<sup>2</sup>/ (2s<sup>2</sup>)) / sqrt(2* pi*s<sup>2</sup>)
+H(x) = exp(-x<sup>2</sup>/ (2s<sup>2</sup>)) / sqrt(2\* pi\*s<sup>2</sup>)
 
 and
 
-I(y) {{=}} exp(-y<sup>2</sup>/ (2t<sup>2</sup>)) / sqrt(2* pi*t<sup>2</sup>)
+I(y) = exp(-y<sup>2</sup>/ (2t<sup>2</sup>)) / sqrt(2\* pi\*t<sup>2</sup>)
 
-with 's' being the standard deviation in the x direction and 't' being the standard deviation in the y direction, as specified by the [[svg/properties/stdDeviationX|'''stdDeviationX''']] and [[svg/properties/stdDeviationY|'''stdDeviationY''']] properties.
-|Import_Notes====Syntax===
+with 's' being the standard deviation in the x direction and 't' being the standard deviation in the y direction, as specified by the [**stdDeviationX**](/svg/properties/stdDeviationX) and [**stdDeviationY**](/svg/properties/stdDeviationY) properties.
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.19
+### Standards information
 
-===Members===
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.19
 
-The '''SVGFEGaussianBlurElement''' object has these methods:
+### Members
 
-*[[svg/methods/setStdDeviation|'''setStdDeviation''']]: Sets the standard deviation values used in calculating a Gaussian blur.
+The **SVGFEGaussianBlurElement** object has these methods:
 
-The '''SVGFEGaussianBlurElement''' object has these properties:
+-   [**setStdDeviation**](/svg/methods/setStdDeviation): Sets the standard deviation values used in calculating a Gaussian blur.
 
-*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
-*[[svg/properties/in1|'''in1''']]: Identifies input for the given filter primitive.
-*[[svg/properties/result|'''result''']]: Provides a reference for the output result of a filter.
-*[[svg/properties/stdDeviationX|'''stdDeviationX''']]: Gets a value that indicates the standard deviation in the x-direction, used in calculating a Gaussian blur.
-*[[svg/properties/stdDeviationY|'''stdDeviationY''']]: Gets a value that indicates the standard deviation in the y-direction, used in calculating a Gaussian blur.
-*[[svg/properties/width|'''width''']]: Defines the width of an element.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Filters
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+The **SVGFEGaussianBlurElement** object has these properties:
+
+-   [**height**](/svg/properties/height): Gets or sets the height of an element.
+-   [**in1**](/svg/properties/in1): Identifies input for the given filter primitive.
+-   [**result**](/svg/properties/result): Provides a reference for the output result of a filter.
+-   [**stdDeviationX**](/svg/properties/stdDeviationX): Gets a value that indicates the standard deviation in the x-direction, used in calculating a Gaussian blur.
+-   [**stdDeviationY**](/svg/properties/stdDeviationY): Gets a value that indicates the standard deviation in the y-direction, used in calculating a Gaussian blur.
+-   [**width**](/svg/properties/width): Defines the width of an element.
+-   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
+-   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
+
+## See also
+
+### Related articles
+
+#### Filters
+
+-   [blur()](/css/functions/blur)
+
+-   [brightness()](/css/functions/brightness)
+
+-   [contrast()](/css/functions/contrast)
+
+-   [custom()](/css/functions/custom)
+
+-   [drop-shadow()](/css/functions/drop-shadow)
+
+-   [grayscale()](/css/functions/grayscale)
+
+-   [hue-rotate()](/css/functions/hue-rotate)
+
+-   [invert()](/css/functions/invert)
+
+-   [opacity()](/css/functions/opacity)
+
+-   [saturate()](/css/functions/saturate)
+
+-   [sepia()](/css/functions/sepia)
+
+-   [filter](/css/properties/filter)
+
+-   [feBlend](/svg/elements/feBlend)
+
+-   [feColorMatrix](/svg/elements/feColorMatrix)
+
+-   [feComponentTransfer](/svg/elements/feComponentTransfer)
+
+-   [feComposite](/svg/elements/feComposite)
+
+-   [feConvolveMatrix](/svg/elements/feConvolveMatrix)
+
+-   [feDiffuseLighting](/svg/elements/feDiffuseLighting)
+
+-   [feDisplacementMap](/svg/elements/feDisplacementMap)
+
+-   [feDistantLight](/svg/elements/feDistantLight)
+
+-   [feFlood](/svg/elements/feFlood)
+
+-   [feFuncA](/svg/elements/feFuncA)
+
+-   [feFuncB](/svg/elements/feFuncB)
+
+-   [feFuncG](/svg/elements/feFuncG)
+
+-   [feFuncR](/svg/elements/feFuncR)
+
+-   **feGaussianBlur**
+
+-   [feImage](/svg/elements/feImage)
+
+-   [feMerge](/svg/elements/feMerge)
+
+-   [feMergeNode](/svg/elements/feMergeNode)
+
+-   [feMorphology](/svg/elements/feMorphology)
+
+-   [feOffset](/svg/elements/feOffset)
+
+-   [fePointLight](/svg/elements/fePointLight)
+
+-   [feSpecularLighting](/svg/elements/feSpecularLighting)
+
+-   [feSpotlight](/svg/elements/feSpotlight)
+
+-   [feTile](/svg/elements/feTile)
+
+-   [feTurbulence](/svg/elements/feTurbulence)
+
+-   [SVG deployment](/svg/tutorials/smarter_svg_deploy)
+
+-   [SVG filters](/svg/tutorials/smarter_svg_filters)
+
+-   [SVG graphic effects](/svg/tutorials/smarter_svg_graphics)
+
+-   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
+
+-   [SVG filters](/tutorials/svg_filters)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

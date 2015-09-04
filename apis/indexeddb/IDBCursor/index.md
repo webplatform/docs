@@ -1,52 +1,61 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Proposed Recommendation}}
-{{API_Name}}
-{{Summary_Section|Iterates over object stores and indices.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C IndexedDB Specification
-|URL=http://www.w3.org/TR/IndexedDB/
-|Status=W3C Proposed Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: IDBCursor
+tags:
+  0: API
+  1: Objects
+  3: IndexedDB
+readiness: 'Ready to Use'
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'Iterates over object stores and indices.'
+uri: apis/indexeddb/IDBCursor
+
+---
+# IDBCursor
+
+## Summary
+
+Iterates over object stores and indices.
+
+## Properties
+
+API Name
+:   Summary
+[direction](/apis/indexeddb/IDBCursor/direction)
+:   Indicates the direction of travel within a cursor.
+[key](/apis/indexeddb/IDBCursor/key)
+:   The key value for the record currently displayed by the cursor.
+[primaryKey](/apis/indexeddb/IDBCursor/primaryKey)
+:   Returns the cursor's current effective key.
+[source](/apis/indexeddb/IDBCursor/source)
+:   On getting, returns the IDBObjectStore or IDBIndex that the cursor is iterating. This function never returns null or throws an exception, even if the cursor is currently being iterated, has iterated past its end, or its transaction is not active.
+
+## Methods
+
+API Name
+:   Summary
+[advance](/apis/indexeddb/IDBCursor/advance)
+:   Advances the cursor by the specified number of records.
+[continue](/apis/indexeddb/IDBCursor/continue)
+:   Moves to the next record, or to the record specified by a key.
+[delete](/apis/indexeddb/IDBCursor/delete)
+:   Returns an IDBRequest object and, in a separate thread, deletes the record at the cursor's position, without changing the cursor's position. Once the record is deleted, the cursor's value is set to null.
+[update](/apis/indexeddb/IDBCursor/update)
+:   Creates a structured clone of the value parameter.
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
+:   W3C Proposed Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

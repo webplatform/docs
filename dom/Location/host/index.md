@@ -1,53 +1,57 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=standards, compatibility, move MSDN content into WPD sections
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Sets or retrieves the '''hostname''' and '''port''' number of the location or URL.}}
-{{API_Object_Property
-|Property_applies_to=dom/Location
-|Read_only=No
-|Example_object_name=location
-|Return_value_name=host
-|Javascript_data_type=String
-|Return_value_description=The host component of the URL.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example function returns the '''host''' property of the current page location.
-|Code=function getHost() {
+---
+title: host
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'standards, compatibility, move MSDN content into WPD sections'
+summary: 'Sets or retrieves the hostname and port number of the location or URL.'
+uri: dom/Location/host
+
+---
+# host
+
+## Summary
+
+Sets or retrieves the hostname and port number of the location or URL.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Location](/dom/Location)</span></span>
+
+## Syntax
+
+``` {.js}
+var host = location.host;
+location.host = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The host component of the URL.
+
+## Examples
+
+This example function returns the **host** property of the current page location.
+
+``` {.js}
+function getHost() {
     return document.location.host;
 }
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The '''host''' property is the concatenation of the [[dom/Location/hostname|'''hostname''']] and [[dom/Location/port|'''port''']] properties, separated by a colon (hostname:port). When the '''port''' property is '''null''', the '''host''' property is the same as the '''hostname''' property.
-The '''host''' property may be set at any time, although it is safer to set the [[dom/Location/href|'''href''']] property to change a location. If the specified host cannot be found, an error is returned.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Notes
+
+### Remarks
+
+The **host** property is the concatenation of the [**hostname**](/dom/Location/hostname) and [**port**](/dom/Location/port) properties, separated by a colon (hostname:port). When the **port** property is **null**, the **host** property is the same as the **hostname** property. The **host** property may be set at any time, although it is safer to set the [**href**](/dom/Location/href) property to change a location. If the specified host cannot be found, an error is returned.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

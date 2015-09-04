@@ -1,107 +1,153 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Creates a structured clone of the value parameter.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=value
-|Data type=Blob
-|Description=An object literal containing the values to be stored in the object store.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=key
-|Data type=Blob
-|Description=The key value of the new record.
-|Optional=No
-}}
-|Method_applies_to=apis/indexeddb/IDBObjectStore
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-This method can throw the following [[dom/DOMException|'''DOMException''']] exceptions:
-{{{!}} class="wikitable"
-{{!}}-
-{{!}}'''Exception properties'''
-{{!}}'''Description'''
-{{!}}-
-{{!}}<dl>
+---
+title: put
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: IndexedDB
+readiness: 'In Progress'
+notes:
+  - 'Needs example, spec reference, standardization status'
+summary: 'Creates a structured clone of the value parameter.'
+uri: apis/indexeddb/IDBObjectStore/put
+
+---
+# put
+
+## Summary
+
+Creates a structured clone of the value parameter.
+
+*Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)*
+
+## Syntax
+
+``` {.js}
+var object = object.put(value, key);
+```
+
+## Parameters
+
+### value
+
+ Data-type�
+:   Blob
+
+ An object literal containing the values to be stored in the object store.
+
+### key
+
+ Data-type�
+:   Blob
+
+ The key value of the new record.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
+
+<dl data-table="wikitable">
 <dt>
-'''name''': DataCloneError</dt>
+**Exception properties**
+
+</dt>
+<dd>
+**Description**
+
+</dd>
 <dt>
-'''code''': DOMException.DATA_CLONE_ERR (25)</dt>
+<dl>
+
+<dt>
+**name**: DataCloneError
+
+</dt>
+<dt>
+**code**: DOMException.DATA\_CLONE\_ERR (25)
+
+</dt>
 </dl>
-{{!}}The data could not be saved to the object store.
-{{!}}-
-{{!}}<dl>
+</dt>
+<dd>
+The data could not be saved to the object store.
+
+</dd>
 <dt>
-'''name''': DataError</dt>
+<dl>
+
+<dt>
+**name**: DataError
+
+</dt>
 </dl>
-{{!}}The specified '''key''' value is invalid or the value specified for an indexed attribute is invalid.
-{{!}}-
-{{!}}<dl>
+</dt>
+<dd>
+The specified **key** value is invalid or the value specified for an indexed attribute is invalid.
+
+</dd>
 <dt>
-'''name''': InvalidStateError</dt>
+<dl>
+
 <dt>
-'''code''': DOMException.INVALID_STATE_ERR (11)</dt>
+**name**: InvalidStateError
+
+</dt>
+<dt>
+**code**: DOMException.INVALID\_STATE\_ERR (11)
+
+</dt>
 </dl>
-{{!}}The object store has been deleted or is otherwise unavailable.
-{{!}}-
-{{!}}<dl>
+</dt>
+<dd>
+The object store has been deleted or is otherwise unavailable.
+
+</dd>
 <dt>
-'''name''': ReadOnlyError</dt>
-</dl>
-{{!}}The associated transaction is read-only.
-{{!}}-
-{{!}}<dl>
+<dl>
+
 <dt>
-'''name''': TransactionInactiveError</dt>
+**name**: ReadOnlyError
+
+</dt>
 </dl>
-{{!}}The associated transaction is not active.
-{{!}}}
- 
-'''Note'''  As of Internet Explorer 10, the '''code''' property is deprecated in favor of the '''name''' property, which is preferred for standards compliance and future compatibility.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+</dt>
+<dd>
+The associated transaction is read-only.
+
+</dd>
+<dt>
+<dl>
+
+<dt>
+**name**: TransactionInactiveError
+
+</dt>
+</dl>
+</dt>
+<dd>
+The associated transaction is not active.
+
+</dd>
+</dl>
+  **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
+
+### Syntax
+
+### Standards information
+
+-   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

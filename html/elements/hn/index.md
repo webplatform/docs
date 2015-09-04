@@ -1,170 +1,200 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category, Parent and Children information. Complete Compatibility information.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The '''h1''' through '''h6''' elements define levels of headings within a document.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLHeadingElement
-|Content=These elements have a rank given by the number in their name. The h1 element is said to have the highest rank, the h6 element has the lowest rank, and two elements with the same name have equal rank.
+---
+title: hn
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+notes:
+  - 'Add Category, Parent and Children information. Complete Compatibility information.'
+summary: 'The h1 through h6 elements define levels of headings within a document.'
+code_samples:
+  - 'http://gist.github.com/6363937'
+uri: html/elements/hn
 
-===HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-!Closing Tag
-{{!}}required
-{{!}}-
-!CSS Display
-{{!}}block
-{{!}}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=
-|Code=&lt;!-- 
+---
+# hn
+
+## Summary
+
+The h1 through h6 elements define levels of headings within a document.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLHeadingElement](/dom/HTMLHeadingElement)
+
+These elements have a rank given by the number in their name. The h1 element is said to have the highest rank, the h6 element has the lowest rank, and two elements with the same name have equal rank.
+
+### HTML information
+
+Closing Tag
+:   required
+CSS Display
+:   block
+
+## Examples
+
+``` {.html}
+<!--
     The H1 element applies a
     level-1 heading syle to the
-    contained text. 
---&gt;
-&lt;h1&gt;Welcome to Web Platform Docs!&lt;/h1&gt;
+    contained text.
+-->
+<h1>Welcome to Web Platform Docs!</h1>
 
-&lt;!-- 
+<!--
     H2 is used for level-2 headings.
- --&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
+ -->
+<h2>Introduction</h2>
 
-&lt;!-- etc. --&gt;
-&lt;h3&gt;Prologue&lt;/h2&gt;
-&lt;h4&gt;Level-4 Heading&lt;/h4&gt;
-&lt;h5&gt;Level-5 Heading&lt;/h5&gt;
-&lt;h6&gt;Level-6 heading, smallest heading avaliable&lt;/h6&gt;
-|LiveURL=http://code.webplatform.org/gist/6363937
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
+<!-- etc. -->
+<h3>Prologue</h2>
+<h4>Level-4 Heading</h4>
+<h5>Level-5 Heading</h5>
+<h6>Level-6 heading, smallest heading avaliable</h6>
+```
+
+[View live example](http://code.webplatform.org/gist/6363937)
+
+## Notes
+
+### Remarks
+
 Use H1 through H6 to specify different sizes and styles of headings.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.6.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 7.5.5
-|class="wikitable"
-|}===Members===
-The '''hn''' object has these types of members:
-*[#events Events]
-*[#methods Methods]
-*[#properties Properties]
 
+### Standards information
 
-====Events====
-The '''hn''' object has these events.
-{
-|}
- ====Properties====
-The '''hn''' object has these properties.
-{
-|Retrieves the number of immediate child nodes of the current element or a zero if the element does not contain any child nodes_ [[dom/traversal/properties/childElementCount|'''childElementCount''']] does not return all child nodes, only child nodes that are [[dom/properties/nodeType|'''nodeType''']] {{=}}1, or element nodes.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related_Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/global.html#edef-H1
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/Heading_Elements
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Full Support
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=1.0
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Full Support
-|Android_supported=Yes
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=1.0
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=1.0
-}}
-|Notes_rows=
-}}
+-   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
+-   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 7.5.5
 
+## Related specifications
 
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-H1)
+:   W3C Recommendation
 
-}
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   **hn**
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/Heading_Elements)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+
+ }

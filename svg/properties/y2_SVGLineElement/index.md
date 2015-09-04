@@ -1,39 +1,35 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: y2 (SVGLineElement)
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: 'svg/properties/y2 (SVGLineElement)'
 
-===Remarks===
+---
+## Notes
 
-If you do not specify this property, the effect is the same as if you specify a value of '''0'''.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+If you do not specify this property, the effect is the same as if you specify a value of **0**.
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.4
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics: Basic Shapes](http://go.microsoft.com/fwlink/p/?linkid=204737), Section 9.8.4
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/elements/line|'''SVGLineElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGLineElement**](/svg/elements/line)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

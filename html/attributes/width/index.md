@@ -1,65 +1,61 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specifies the width, in pixels, of certain content elements.}}
-{{Markup_Attribute
-|Applies_to=[[html/elements/img|HTMLImgElement]]
-|Property_applies_to=dom/HTMLElement
-|Content=The '''width''' attribute specifies the visual width of [[html/elements/img|img]], [[html/elements/iframe|iframe]], [[html/elements/embed|embed]], [[html/elements/object|object]], [[html/elements/video|video]], [[html/elements/canvas|canvas]], and [[html/elements/input/type/image|input[type="image"]]] in pixels.
+---
+title: width
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Specifies the width, in pixels, of certain content elements.'
+code_samples:
+  - 'http://gist.github.com/7283238'
+  - 'https://gist.github.com/dbe042fac0e620a8f2b4'
+uri: html/attributes/width
+
+---
+# width
+
+## Summary
+
+Specifies the width, in pixels, of certain content elements.
+
+Applies to
+:   [HTMLImgElement](/html/elements/img)
+
+The **width** attribute specifies the visual width of [img](/html/elements/img), [iframe](/html/elements/iframe), [embed](/html/elements/embed), [object](/html/elements/object), [video](/html/elements/video), [canvas](/html/elements/canvas), and [input[type="image"]](/html/elements/input/type/image) in pixels.
 
 By default, elements will not preserve aspect ratio when width attribute is set, without a height attribute. If a width attribute is set, but no height, an image will scale to preserve its original aspect ratio. If both the width and height are zero, the element should not be intended to be visible by the user.
 
 Width values must be non-negative integers.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=<img> with width attribute.
-|Code=<img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" height="100" width="150">
-|LiveURL=http://code.webplatform.org/gist/7283238
-}}{{Single Example
-|Language=HTML
-|Description=<canvas> with width attribute
-|Code=<canvas width="200" height="200"></canvas>
-|LiveURL=https://code.webplatform.org/gist/dbe042fac0e620a8f2b4
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML4 Specification
-|URL=http://www.w3.org/TR/html401/
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+
+## Examples
+
+\<img\> with width attribute.
+
+``` {.html}
+<img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" height="100" width="150">
+```
+
+[View live example](http://code.webplatform.org/gist/7283238)
+
+\<canvas\> with width attribute
+
+``` {.html}
+<canvas width="200" height="200"></canvas>
+```
+
+[View live example](https://code.webplatform.org/gist/dbe042fac0e620a8f2b4)
+
+## Related specifications
+
+Specification
+:   Status
+[HTML4 Specification](http://www.w3.org/TR/html401/)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

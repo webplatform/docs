@@ -1,86 +1,97 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Appends an element as a child to the object.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=newChild
-|Data type=DOM Node
-|Description=The child to append.
-|Optional=No
-}}
-|Method_applies_to=dom/Node
-|Example_object_name=node
-|Return_value_name=appendedChild
-|Javascript_data_type=DOM Node
-|Return_value_description=The appended child.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''appendChild''' method to add an item to an unordered list.
-|Code=&lt;!doctype html&gt;
-&lt;script&gt;
+---
+title: appendChild
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Appends an element as a child to the object.'
+uri: dom/Node/appendChild
+
+---
+# appendChild
+
+## Summary
+
+Appends an element as a child to the object.
+
+*Method of [dom/Node](/dom/Node)*
+
+## Syntax
+
+``` {.js}
+var appendedChild = node.appendChild(/* see parameter list */);
+```
+
+## Parameters
+
+### newChild
+
+ Data-type�
+:   DOM Node
+
+ The child to append.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+The appended child.
+
+## Examples
+
+This example uses the **appendChild** method to add an item to an unordered list.
+
+``` {.html}
+<!doctype html>
+<script>
 function fnAppend(){
-   var oNewNode {{=}} document.createElement("LI");
+   var oNewNode = document.createElement("LI");
    oList.appendChild(oNewNode);
-   oNewNode.innerText{{=}}"List node 5";
+   oNewNode.innerText="List node 5";
 }
-&lt;/script&gt;
-&lt;body&gt;
-&lt;ul id {{=}} oList&gt;
-&lt;li&gt;List node 1&lt;/li&gt;
-&lt;li&gt;List node 2&lt;/li&gt;
-&lt;li&gt;List node 3&lt;/li&gt;
-&lt;li&gt;List node 4&lt;/li&gt;
-&lt;/ul&gt;
-&lt;input
-   type {{=}} "button"
-   value {{=}} "Append Child"
-   onclick {{=}} "fnAppend()" /&gt;
-&lt;/body&gt;
-}}
-}}
-{{Notes_Section
-|Usage=Use this method to append elements to the end of the [[dom/Node/childNodes|'''childNodes''']] collection.
-|Notes=To display new elements on the page, you must append them within the '''body''' element. For example, the following syntax demonstrates how to add a '''div''' element to the '''body'''.
- <code>var oDiv{{=}}document.createElement("DIV");
- document.body.appendChild(oDiv);</code>
-This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
-Windows Internet Explorer 9. Exceptions are only supported when webpages are displayed in IE9 Standards mode.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=6
-|Note=This method applies to the [[dom/HTMLElement/attribute|'''attribute''']] object.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.appendChild Node.appendChild]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms535934(v=vs.85).aspx appendChild Method]
-|HTML5Rocks_link=
-}}
+</script>
+<body>
+<ul id = oList>
+<li>List node 1</li>
+<li>List node 2</li>
+<li>List node 3</li>
+<li>List node 4</li>
+</ul>
+<input
+   type = "button"
+   value = "Append Child"
+   onclick = "fnAppend()" />
+</body>
+```
+
+## Usage
+
+     Use this method to append elements to the end of the childNodes collection.
+
+## Notes
+
+To display new elements on the page, you must append them within the **body** element. For example, the following syntax demonstrates how to add a **div** element to the **body**.
+
+    var oDiv=document.createElement("DIV");
+    document.body.appendChild(oDiv);
+
+This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render. Windows Internet Explorer 9. Exceptions are only supported when webpages are displayed in IE9 Standards mode.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.appendChild) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[appendChild Method](http://msdn.microsoft.com/en-us/library/ie/ms535934(v=vs.85).aspx) Article]
+

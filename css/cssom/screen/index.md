@@ -1,48 +1,74 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|This page lists the properties, methods, and events of the screen object.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199793 CSSOM View Module], 4.2
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: screen
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Almost Ready'
+notes:
+  - 'Needs spec reference, standardization status'
+summary: 'This page lists the properties, methods, and events of the screen object.'
+uri: css/cssom/screen
+
+---
+# screen
+
+## Summary
+
+This page lists the properties, methods, and events of the screen object.
+
+## Properties
+
+API Name
+:   Summary
+[availHeight](/css/cssom/screen/availHeight)
+:
+[availWidth](/css/cssom/screen/availWidth)
+:
+[bufferDepth](/css/cssom/screen/bufferDepth)
+:
+[colorDepth](/css/cssom/screen/colorDepth)
+:
+[constructor](/css/cssom/screen/constructor)
+:
+[deviceXDPI](/css/cssom/screen/deviceXDPI)
+:   Retrieves the device's horizontal Dots Per Inch (DPI) value.
+[deviceYDPI](/css/cssom/screen/deviceYDPI)
+:   Retrieves the device's vertical Dots Per Inch (DPI) value.
+[fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+:
+[height](/css/cssom/screen/height)
+:   Gets or sets an element's height.
+[logicalXDPI](/css/cssom/screen/logicalXDPI)
+:   Retrieves the screen's horizontal Dots Per Inch (DPI) value.
+[logicalYDPI](/css/cssom/screen/logicalYDPI)
+:   Retrieves the screen's vertical Dots Per Inch (DPI) value.
+[pixelDepth](/css/cssom/screen/pixelDepth)
+:
+[systemXDPI](/css/cssom/screen/systemXDPI)
+:
+[systemYDPI](/css/cssom/screen/systemYDPI)
+:
+[updateInterval](/css/cssom/screen/updateInterval)
+:
+[width](/css/cssom/screen/width)
+:   Gets or sets an element's width.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+### Standards information
+
+-   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), 4.2
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

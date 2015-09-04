@@ -1,73 +1,144 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add example, compatibility.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Deprecated}}
-{{CSS Property
-|Initial value=inline-axis
-|Applies to=box elements
-|Inherited=No
-|Media=visual
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=horizontal
-|Description=Child elements are displayed in a horizontal line from left to right.
-}}{{CSS Property Value
-|Data Type=vertical
-|Description=Child elements are displayed in a vertical stack from top to bottom.
-}}{{CSS Property Value
-|Data Type=inline-axis
-|Description=Default. 
+---
+title: box-orient
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: Non-Standard
+notes:
+  - 'Add example, compatibility.'
+summary: Deprecated
+uri: css/properties/box-orient
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - '-ms-flex-direction'
+
+---
+# box-orient
+
+## Summary
+
+Deprecated
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `inline-axis`
+Applies to
+:   box elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `box-orient: block-axis`
+-   `box-orient: horizontal`
+-   `box-orient: inherit`
+-   `box-orient: inline-axis`
+-   `box-orient: vertical`
+
+## Values
+
+horizontal
+:   Child elements are displayed in a horizontal line from left to right.
+
+vertical
+:   Child elements are displayed in a vertical stack from top to bottom.
+
+inline-axis
+:   Default.
+
 Child elements are displayed along the inline axis.
-}}{{CSS Property Value
-|Data Type=block-axis
-|Description=Child elements are displayed along the block axis.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Child elements are displayed in the same orientation as the computed value of this property for the parent element.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Do not use. This property has been replaced by [[-ms-flex-direction]]
+
+block-axis
+:   Child elements are displayed along the block axis.
+
+inherit
+:   Child elements are displayed in the same orientation as the computed value of this property for the parent element.
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Do not use. This property has been replaced by -ms-flex-direction
 
 Specifies the orientation in the layout of all child elements of the object.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Flexible Box Layout Module
-|URL=http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/
-|Status=W3C Working Draft (Obsolete)
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Layout
-|Manual_sections====Related pages ===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+## Related specifications
+
+Specification
+:   Status
+[Flexible Box Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/)
+:   W3C Working Draft (Obsolete)
+
+## See also
+
+### Related articles
+
+#### CSS Layout
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [@import](/css/atrules/@import)
+
+-   [align-self](/css/properties/align-self)
+
+-   [background](/css/properties/background)
+
+-   [box-decoration-break](/css/properties/box-decoration-break)
+
+-   [box-flex](/css/properties/box-flex)
+
+-   [box-lines](/css/properties/box-lines)
+
+-   [box-ordinal-group](/css/properties/box-ordinal-group)
+
+-   **box-orient**
+
+-   [box-pack](/css/properties/box-pack)
+
+-   [box-shadow](/css/properties/box-shadow)
+
+-   [break-before](/css/properties/break-before)
+
+-   [flex-align](/css/properties/flex-align)
+
+-   [flex-item-align](/css/properties/flex-item-align)
+
+-   [flex-line-pack](/css/properties/flex-line-pack)
+
+-   [grid-auto-rows](/css/properties/grid-auto-rows)
+
+-   [grid-definition-columns](/css/properties/grid-definition-columns)
+
+-   [grid-definition-rows](/css/properties/grid-definition-rows)
+
+-   [height](/css/properties/height)
+
+-   [max-width](/css/properties/max-width)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [baseline-shift](/svg/attributes/baseline-shift)
+
+### Related pages
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

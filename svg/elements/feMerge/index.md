@@ -1,59 +1,137 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Element
-|DOM_interface=svg/objects/SVGElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
+---
+title: feMerge
+tags:
+  - Markup
+  - Elements
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+uri: svg/elements/feMerge
 
-===Standards information===
+---
+# feMerge
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.21
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-===Members===
+## Overview Table
 
-The '''SVGFEMergeElement''' object has these properties:
+[DOM Interface](/dom/interface)
+:   [SVGElement](/svg/objects/SVGElement)
 
-*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
-*[[svg/properties/result|'''result''']]: Provides a reference for the output result of a filter.
-*[[svg/properties/width|'''width''']]: Defines the width of an element.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Filters
-|Manual_sections====Related pages (MSDN)===
+**Needs Examples**: This section should include examples.
 
-*[[svg/elements/feMergeNode|'''feMergeNode''']]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Syntax
+
+### Standards information
+
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.21
+
+### Members
+
+The **SVGFEMergeElement** object has these properties:
+
+-   [**height**](/svg/properties/height): Gets or sets the height of an element.
+-   [**result**](/svg/properties/result): Provides a reference for the output result of a filter.
+-   [**width**](/svg/properties/width): Defines the width of an element.
+-   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
+-   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
+
+## See also
+
+### Related articles
+
+#### Filters
+
+-   [blur()](/css/functions/blur)
+
+-   [brightness()](/css/functions/brightness)
+
+-   [contrast()](/css/functions/contrast)
+
+-   [custom()](/css/functions/custom)
+
+-   [drop-shadow()](/css/functions/drop-shadow)
+
+-   [grayscale()](/css/functions/grayscale)
+
+-   [hue-rotate()](/css/functions/hue-rotate)
+
+-   [invert()](/css/functions/invert)
+
+-   [opacity()](/css/functions/opacity)
+
+-   [saturate()](/css/functions/saturate)
+
+-   [sepia()](/css/functions/sepia)
+
+-   [filter](/css/properties/filter)
+
+-   [feBlend](/svg/elements/feBlend)
+
+-   [feColorMatrix](/svg/elements/feColorMatrix)
+
+-   [feComponentTransfer](/svg/elements/feComponentTransfer)
+
+-   [feComposite](/svg/elements/feComposite)
+
+-   [feConvolveMatrix](/svg/elements/feConvolveMatrix)
+
+-   [feDiffuseLighting](/svg/elements/feDiffuseLighting)
+
+-   [feDisplacementMap](/svg/elements/feDisplacementMap)
+
+-   [feDistantLight](/svg/elements/feDistantLight)
+
+-   [feFlood](/svg/elements/feFlood)
+
+-   [feFuncA](/svg/elements/feFuncA)
+
+-   [feFuncB](/svg/elements/feFuncB)
+
+-   [feFuncG](/svg/elements/feFuncG)
+
+-   [feFuncR](/svg/elements/feFuncR)
+
+-   [feGaussianBlur](/svg/elements/feGaussianBlur)
+
+-   [feImage](/svg/elements/feImage)
+
+-   **feMerge**
+
+-   [feMergeNode](/svg/elements/feMergeNode)
+
+-   [feMorphology](/svg/elements/feMorphology)
+
+-   [feOffset](/svg/elements/feOffset)
+
+-   [fePointLight](/svg/elements/fePointLight)
+
+-   [feSpecularLighting](/svg/elements/feSpecularLighting)
+
+-   [feSpotlight](/svg/elements/feSpotlight)
+
+-   [feTile](/svg/elements/feTile)
+
+-   [feTurbulence](/svg/elements/feTurbulence)
+
+-   [SVG deployment](/svg/tutorials/smarter_svg_deploy)
+
+-   [SVG filters](/svg/tutorials/smarter_svg_filters)
+
+-   [SVG graphic effects](/svg/tutorials/smarter_svg_graphics)
+
+-   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
+
+-   [SVG filters](/tutorials/svg_filters)
+
+### Related pages (MSDN)
+
+-   [**feMergeNode**](/svg/elements/feMergeNode)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

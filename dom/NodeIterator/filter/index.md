@@ -1,103 +1,118 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets the currently applied '''NodeFilter''' to the traversal.}}
-{{API_Object_Property
-|Property_applies_to=dom/NodeIterator
-|Read_only=Yes
-|Example_object_name=nodeIterator
-|Return_value_name=nodeFilter
-|Javascript_data_type=DOM Node
-|Return_value_description=The '''NodeFilter''' that was applied while traversing.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following example searches for [[html/elements/table|'''table''']] and [[html/elements/a|'''anchor''']] tags and reports the value of the [[html/attributes/id|'''id''']] attribute. Although the [[dom/TreeWalker|'''TreeWalker''']] preserves the hierarchical relationship of nodes, you don't need to write recursive functions to walk the nodes in a hierarchy. The '''NodeFilter''' function skips nodes rather than rejecting them, which allows the function to examine all child nodes in the hierarchy.
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;script type{{=}}"text/javascript"&gt;
+---
+title: filter
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Gets the currently applied NodeFilter to the traversal.'
+uri: dom/NodeIterator/filter
+
+---
+# filter
+
+## Summary
+
+Gets the currently applied NodeFilter to the traversal.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/NodeIterator](/dom/NodeIterator)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var nodeFilter = nodeIterator.filter;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+The **NodeFilter** that was applied while traversing.
+
+## Examples
+
+The following example searches for [**table**](/html/elements/table) and [**anchor**](/html/elements/a) tags and reports the value of the [**id**](/html/attributes/id) attribute. Although the [**TreeWalker**](/dom/TreeWalker) preserves the hierarchical relationship of nodes, you don't need to write recursive functions to walk the nodes in a hierarchy. The **NodeFilter** function skips nodes rather than rejecting them, which allows the function to examine all child nodes in the hierarchy.
+
+``` {.html}
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
 // This is the NodeFilter function. It receives a node, and must return a NodeFilter flag.
 function filter(node)
 {
-    if (node.tagName {{=}}{{=}} "TABLE" {{!}}{{!}} node.tagName {{=}}{{=}} "A")
+    if (node.tagName == "TABLE" || node.tagName == "A")
         return NodeFilter.FILTER_ACCEPT;
     return NodeFilter.FILTER_SKIP;
 }
 function findNodes()
 {
-    var tw {{=}} document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT, filter, false);
-    
-    var node, results {{=}} '';
-    while (node {{=}} tw.nextNode()) {
-        results +{{=}} node.id + "&lt;br/&gt;";
+    var tw = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT, filter, false);
+
+    var node, results = ;
+    while (node = tw.nextNode()) {
+        results += node.id + "<br/>";
     }
-    
-    document.getElementById("results").innerHTML +{{=}} results;
+
+    document.getElementById("results").innerHTML += results;
 }
-function refresh()                 
+function refresh()
 {
     window.location.reload( false );    // Reload our page.
 }
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;!-- this is a comment node--&gt;
-    &lt;table border{{=}}"1" id{{=}}"myTable"&gt;
-      &lt;tbody&gt;
-        &lt;tr/&gt;   
-        &lt;tr&gt;
-          &lt;td&gt;&lt;a href{{=}}"" id{{=}}"myLink"&gt;Text inside anchor&lt;/a&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-    
-    &lt;div id{{=}}"results"&gt;Results:&lt;br/&gt;&lt;/div&gt;
-    
-&lt;button onclick{{=}}"findNodes()"&gt;Find Nodes&lt;/button&gt;
-&lt;button onclick{{=}}"refresh()"&gt;Reload&lt;/button&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-}}
-}}
-{{Notes_Section
-|Usage=Use the filter property to exclude/include Nodes from the Iteration.
-|Notes=*Appending content to the document while the [[dom/TreeWalker|'''TreeWalker''']] is searching for nodes can cause an endless loop. To prevent this, the example collects all possible output in a temporary variable and appends it to the document after the '''TreeWalker''' is finished.
-*The '''NodeFilter''' is a callback function that provides customized filtering for [[dom/NodeIterator|'''NodeIterator''']] and [[dom/TreeWalker|'''TreeWalker''']]. The filter function accepts a node as its only parameter, and indicates whether the node is accepted, rejected, or skipped.
- <code>function myFilter(node) {
-     // NodeFilter function that returns one of the following flags:
-     // NodeFilter.FILTER_ACCEPT, NodeFilter.FILTER_REJECT, NodeFilter.FILTER_SKIP
- }</code>
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 2 Traversal and Range
-|URL=http://www.w3.org/TR/DOM-Level-2-Traversal-Range/
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator.filter NodeIterator.filter]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974820(v=vs.85).aspx filter Property]
-|HTML5Rocks_link=
-}}
+</script>
+</head>
+<body>
+    <!-- this is a comment node-->
+    <table border="1" id="myTable">
+      <tbody>
+        <tr/>
+        <tr>
+          <td><a href="" id="myLink">Text inside anchor</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="results">Results:<br/></div>
+
+<button onclick="findNodes()">Find Nodes</button>
+<button onclick="refresh()">Reload</button>
+</body>
+</html>
+```
+
+## Usage
+
+     Use the filter property to exclude/include Nodes from the Iteration.
+
+## Notes
+
+-   Appending content to the document while the [**TreeWalker**](/dom/TreeWalker) is searching for nodes can cause an endless loop. To prevent this, the example collects all possible output in a temporary variable and appends it to the document after the **TreeWalker** is finished.
+-   The **NodeFilter** is a callback function that provides customized filtering for [**NodeIterator**](/dom/NodeIterator) and [**TreeWalker**](/dom/TreeWalker). The filter function accepts a node as its only parameter, and indicates whether the node is accepted, rejected, or skipped.
+
+<!-- -->
+
+    function myFilter(node) {
+        // NodeFilter function that returns one of the following flags:
+        // NodeFilter.FILTER_ACCEPT, NodeFilter.FILTER_REJECT, NodeFilter.FILTER_SKIP
+    }
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NodeIterator.filter](https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator.filter) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[filter Property](http://msdn.microsoft.com/en-us/library/ie/ff974820(v=vs.85).aspx) Article]
+

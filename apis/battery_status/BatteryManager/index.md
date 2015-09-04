@@ -1,49 +1,65 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Last Call Working Draft}}
-{{API_Name}}
-{{Summary_Section|The object that exposes the battery status information.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Battery Status API
-|URL=http://www.w3.org/TR/battery-status/
-|Status=W3C Last Call Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Battery Status, Mobile}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: BatteryManager
+tags:
+  0: API
+  1: Objects
+  3: Battery
+  4: Status
+  5: Mobile
+readiness: 'Ready to Use'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'The object that exposes the battery status information.'
+uri: 'apis/battery status/BatteryManager'
+
+---
+# BatteryManager
+
+## Summary
+
+The object that exposes the battery status information.
+
+## Properties
+
+API Name
+:   Summary
+[charging](/apis/battery_status/BatteryManager/charging)
+:   Represents if the system's battery is charging.
+[chargingTime](/apis/battery_status/BatteryManager/chargingTime)
+:   Represents the time remaining in seconds until the system's battery is fully charged.
+[dischargingTime](/apis/battery_status/BatteryManager/dischargingTime)
+:   Represents the time remaining in seconds until the system's battery is completely discharged and the system is about to be suspended.
+[level](/apis/battery_status/BatteryManager/level)
+:   Represents the current battery level scaled from 0 to 1.0.
+[onchargingchange](/apis/battery_status/BatteryManager/onchargingchange)
+:   Handles the chargingchange event.
+[onchargingtimechange](/apis/battery_status/BatteryManager/onchargingtimechange)
+:   Handles the chargingtimechange event.
+[ondischargingtimechange](/apis/battery_status/BatteryManager/ondischargingtimechange)
+:   Handles the dischargingtimechange event.
+[onlevelchange](/apis/battery_status/BatteryManager/onlevelchange)
+:   Handles the levelchange event.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+API Name
+:   Summary
+[chargingchange](/apis/battery_status/BatteryManager/chargingchange)
+:   Fired when the battery charging state is updated.
+[chargingtimechange](/apis/battery_status/BatteryManager/chargingtimechange)
+:   Fired when the battery charging time is updated.
+[dischargingtimechange](/apis/battery_status/BatteryManager/dischargingtimechange)
+:   Fired when the battery discharging time is updated.
+[levelchange](/apis/battery_status/BatteryManager/levelchange)
+:   Fired when the battery level is updated.
+
+## Related specifications
+
+Specification
+:   Status
+[Battery Status API](http://www.w3.org/TR/battery-status/)
+:   W3C Last Call Working Draft
+

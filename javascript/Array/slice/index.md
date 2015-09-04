@@ -1,63 +1,62 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Returns a section of an array.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=slice( start , [ end ])
-}}
-|Values={{JS Syntax Parameter
-|Name=start
-|Required=Required
-|Description=The beginning of the specified portion of arrayObj.
-}}{{JS Syntax Parameter
-|Name=end
-|Required=Optional
-|Description=The end of the specified portion of arrayObj.
-}}
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following examples show how to use the slice method. In the first example, all but the last element of <code>myArray</code> is copied into <code>newArray</code>. In the second example, only the last two elements of <code>myArray</code> are copied into <code>newArray</code>.
-|Code=var origArray = [3, 5, 7, 9];
+---
+title: slice
+tags:
+  0: JS
+  1: Basic
+  3: Method
+readiness: 'Ready to Use'
+summary: 'Returns a section of an array.'
+uri: javascript/Array/slice
+
+---
+# slice
+
+## Summary
+
+Returns a section of an array.
+
+## Syntax
+
+    slice( start , [ end ])
+
+**start**
+:   Required. The beginning of the specified portion of arrayObj.
+
+**end**
+:   Optional. The end of the specified portion of arrayObj.
+
+## Examples
+
+The following examples show how to use the slice method. In the first example, all but the last element of `myArray` is copied into `newArray`. In the second example, only the last two elements of `myArray` are copied into `newArray`.
+
+``` {.js}
+var origArray = [3, 5, 7, 9];
  var newArray = origArray.slice(0, -1);
  document.write(origArray);
- document.write("&lt;br/&gt;");
+ document.write("<br/>");
  newArray = origArray.slice(-2);
  document.write(newArray);
- 
+
  // Output:
  // 3,5,7,9
  // 7,9
-}}
-}}
-{{Remarks_Section
-|Remarks=The '''slice''' method returns an '''Array''' object containing the specified portion of arrayObj.
+```
 
-The '''slice''' method copies up to, but not including, the element indicated by end. If start is negative, it is treated as length + start , where length is the length of the array. If end is negative, it is treated as length + end where length is the length of the array. If end is omitted, extraction continues to the end of arrayObj. If end occurs before start , no elements are copied to the new array.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
+## Remarks
 
-{{See_Also_Section
-|Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.10 15.4.4.10 Array.prototype.slice (start, end)]
-ECMAScript® Language Specification
-Standard ECMA-262
-5.1 Edition / June 2011
-}}
-{{JS Topics
-|JS Page Type=JS Method
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/tkcsy6fe(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+The **slice** method returns an **Array** object containing the specified portion of arrayObj.
+
+The **slice** method copies up to, but not including, the element indicated by end. If start is negative, it is treated as length + start , where length is the length of the array. If end is negative, it is treated as length + end where length is the length of the array. If end is omitted, extraction continues to the end of arrayObj. If end occurs before start , no elements are copied to the new array.
+
+## See also
+
+### Specification
+
+[15.4.4.10 Array.prototype.slice (start, end)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.10) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tkcsy6fe(v=vs.94).aspx)
+

@@ -1,49 +1,48 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add summery, example, note, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The its-* attribute...}}
-{{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/dom/HTMLElement
-|Content=The its-* attribute can contain ...
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=<syntaxhighlight>
+---
+title: its-loc-note-type
+tags:
+  - Markup
+  - Attributes
+  - Internationalization
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add summery, example, note, compatibility.'
+summary: 'The its-* attribute...'
+uri: its/attributes/its-loc-note-type
+
+---
+# its-loc-note-type
+
+## Summary
+
+The its-\* attribute...
+
+Applies to
+:   [http://docs.webplatform.org/wiki/dom/HTMLElement](http://docs.webplatform.org/wiki/dom/HTMLElement)
+
+The its-\* attribute can contain ...
+
+## Examples
+
+``` {.html}
+
+
 <!DOCTYPE html>
 <html lang="en">
 </html>
-</syntaxhighlight>
-}}
-}}
-{{Notes_Section
-|Usage=Use its-* ...
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Internationalization Tag Set (ITS) Version 2.0
-|URL=http://www.w3.org/TR/its20/
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|Internationalization}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+</pre>
+
+## Usage
+
+     Use its-* ...
+
+## Related specifications
+
+Specification
+:   Status
+[Internationalization Tag Set (ITS) Version 2.0](http://www.w3.org/TR/its20/)
+:   W3C Recommendation
+

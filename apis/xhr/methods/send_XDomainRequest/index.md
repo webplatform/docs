@@ -1,70 +1,69 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs spec reference, standardization status. Probably should be renamed to remove (XDomainRequest) from the URL.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=varBody
-|Data type=VARIANT
-|Description=Receives a 
-'''Variant''' of type '''String'''
-containing the data to transmit to the server.
-If omitted, the behavior is identical to that of sending an empty string ( "" ).
-|Optional=No
-}}
-|Method_applies_to=apis/xhr/objects/XDomainRequest
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+---
+title: send (XDomainRequest)
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs spec reference, standardization status. Probably should be renamed to remove (XDomainRequest) from the URL.'
+uri: 'apis/xhr/methods/send (XDomainRequest)'
 
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=// 1. Create XDR object 
-xdr {{=}} new XDomainRequest(); 
+---
+# send (XDomainRequest)
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [apis/xhr/objects/XDomainRequest](/apis/xhr/objects/XDomainRequest)*
+
+## Syntax
+
+``` {.js}
+var object = object.send (XDomainRequest)(varBody);
+```
+
+## Parameters
+
+### varBody
+
+ Data-typeÂ
+:   VARIANT
+
+ Receives a **Variant** of type **String** containing the data to transmit to the server. If omitted, the behavior is identical to that of sending an empty string ( "" ).
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+Type: **HRESULT**
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Examples
+
+``` {.js}
+// 1. Create XDR object
+xdr = new XDomainRequest();
 
 // 2. Open connection with server using POST method
 xdr.open("POST", "http://www.contoso.com/xdr.txt");
 
 // 3. Send string data to server
 xdr.send("data to be processed");
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>IHTMLXDomainRequest</code>
-*<code>XDomainRequest</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## See also
+
+### Related pages (MSDN)
+
+-   `Reference`
+-   `IHTMLXDomainRequest`
+-   `XDomainRequest`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

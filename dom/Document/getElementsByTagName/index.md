@@ -1,33 +1,53 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Returns an HTMLCollection of all descendant elements with a given tag name.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=name
-|Data type=String
-|Description=The name of an element tag.
-|Optional=No
-}}
-|Method_applies_to=dom/Document
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=A DOM collection of elements with the given tag name.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following example returns the number of <code>li</code> elements (10) and the text of the first one ("Item 1").
-|Code=<!doctype html>
+---
+title: getElementsByTagName
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs compat'
+summary: 'Returns an HTMLCollection of all descendant elements with a given tag name.'
+uri: dom/Document/getElementsByTagName
+
+---
+# getElementsByTagName
+
+## Summary
+
+Returns an HTMLCollection of all descendant elements with a given tag name.
+
+*Method of [dom/Document](/dom/Document)*
+
+## Syntax
+
+``` {.js}
+var object = object.getElementsByTagName(/* see parameter list */);
+```
+
+## Parameters
+
+### name
+
+ Data-typeÂ
+:   String
+
+ The name of an element tag.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+A DOM collection of elements with the given tag name.
+
+## Examples
+
+The following example returns the number of `li` elements (10) and the text of the first one ("Item 1").
+
+``` {.html}
+<!doctype html>
 <html>
  <head>
   <script>
@@ -38,7 +58,7 @@ function printFirstLIText(){
   </script>
  </head>
  <body>
-<nowiki>
+
   <ul onclick="printFirstLIText()">
    <li>Item 1
     <ul>
@@ -51,7 +71,7 @@ function printFirstLIText(){
      <li>Sub Item 1.2</li>
      <li>Sub Item 1.3</li>
     </ul>
-   </li>	
+   </li>
    <li>Item 2
     <ul>
      <li>Sub Item 2.1
@@ -60,35 +80,25 @@ function printFirstLIText(){
    </li>
    <li>Item 3</li>
   </ul>
-</nowiki>
+
  </body>
 </html>
-}}
-}}
-{{Notes_Section
-|Usage=Use this method to get a collection of all child and nested child elements with the specified tag name.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 2 HTML
-|URL=http://www.w3.org/TR/DOM-Level-2-HTML/
-|Status=Recommendation
-|Relevant_changes=Section 1.6.5
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Usage
+
+     Use this method to get a collection of all child and nested child elements with the specified tag name.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

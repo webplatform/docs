@@ -1,120 +1,120 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Event
-|Event_applies_to=dom/FocusEvent
-|Synchronous=No
-|Bubbles=No
-|Target=dom/Element
-|Cancelable=No
-|Interface=dom/FocusEvent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example uses the '''onfocus''' event to make '''INPUT_text''' and '''label''' objects more accessible. When the '''INPUT_text''' object has focus, the '''onfocus''' event fires and the [[css/properties/background-color|'''backgroundColor''']], [[css/properties/font-size|'''fontSize''']], and [[css/properties/font-weight|'''fontWeight''']] properties are changed to give the control more prominence.
-|Code=...
-&lt;style type{{=}}"text/css"&gt;
+---
+title: focus
+tags:
+  - Events
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onfocusEX.htm'
+uri: dom/FocusEvent/focus
+
+---
+# focus
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:    ?
+
+## Examples
+
+This example uses the **onfocus** event to make **INPUT\_text** and **label** objects more accessible. When the **INPUT\_text** object has focus, the **onfocus** event fires and the [**backgroundColor**](/css/properties/background-color), [**fontSize**](/css/properties/font-size), and [**fontWeight**](/css/properties/font-weight) properties are changed to give the control more prominence.
+
+``` {.js}
+...
+<style type="text/css">
 .normal {
-	background-color: white;
-	color: black;
-	font-weight: normal;
-	font-size: 8pt;
-	font-family: Arial;
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    font-size: 8pt;
+    font-family: Arial;
 }
 .accessible {
-	background-color: silver;
-	font-weight: bold;
-	font-size: 10pt;
+    background-color: silver;
+    font-weight: bold;
+    font-size: 10pt;
 }
-&lt;/style&gt;
-&lt;script type{{=}}"text/javascript"&gt;
+</style>
+<script type="text/javascript">
 function fnSetStyle(){
-   event.srcElement.className{{=}}"accessible";
-   var oWorkLabel{{=}}eval(event.srcElement.id + "_label");
-   oWorkLabel.className{{=}}"accessible";
+   event.srcElement.className="accessible";
+   var oWorkLabel=eval(event.srcElement.id + "_label");
+   oWorkLabel.className="accessible";
 }
-&lt;/script&gt;
-&lt;label for{{=}}"oInput" class{{=}}"normal" id{{=}}"oInput_label"&gt;Enter some text&lt;/label&gt;
-&lt;input type{{=}}"text" class{{=}}"normal" onfocus{{=}}"fnSetStyle()" id{{=}}"oInput"&gt; 
+</script>
+<label for="oInput" class="normal" id="oInput_label">Enter some text</label>
+<input type="text" class="normal" onfocus="fnSetStyle()" id="oInput">
 ...
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onfocusEX.htm
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-'''Note'''  Using the [[dom/HTMLElement/setActive|'''setActive''']] method has no effect on document focus. Using the [[dom/FocusEvent/focus|'''focus''']] method on an individual element causes the element to gain focus and become the active element.
-When one object loses activation and another object becomes the [[dom/Document/activeElement|'''activeElement''']], the '''onfocus''' event fires on the object becoming the '''activeElement''' only after the [[dom/FocusEvent/blur|'''onblur''']] event fires on the object losing activation. Use the focus events to determine when to prepare an object to receive input from the user.
-Elements cannot receive focus until the document is finished loading.
-For Microsoft Internet Explorer 5.5 and later, focus on a [[dom/Document|Document]], and the '''active element''' of a '''document''' can be managed separately. The synchronous events '''onactivate''' and '''ondeactivate''' provide better control for managing activation changes.
-As of Microsoft Internet Explorer 5, browser elements retain focus within the current  history when the user returns to a page. To avoid firing the '''onfocus''' event unintentionally for an element when the document loads, invoke the '''focus''' method on another element.
-As of Internet Explorer 5, you can force elements that do not implicitly receive focus to receive focus by adding them to the document tabbing order using the [[html/attributes/tabIndex|'''TABINDEX''']] attribute.
-Sets focus to an object.
-To invoke this event, do one of the following:
-*Click an object.
-*Use keyboard navigation.
-*Invoke the [[dom/FocusEvent/focus|'''focus''']] method.
-*Invoke the [[dom/HTMLElement/setActive|'''setActive''']] method.
+```
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*'''HTMLAnchorEvents2'''
-*'''HTMLAreaEvents2'''
-*'''HTMLButtonElementEvents2'''
-*'''HTMLControlElementEvents2'''
-*'''HTMLDocumentEvents2'''
-*'''HTMLElementEvents2'''
-*'''HTMLFormElementEvents2'''
-*'''HTMLImgEvents2'''
-*'''HTMLFrameSiteEvents2'''
-*'''HTMLInputFileElementEvents2'''
-*'''HTMLInputImageEvents2'''
-*'''HTMLInputTextElementEvents2'''
-*'''HTMLLabelEvents2'''
-*'''HTMLLinkElementEvents2'''
-*'''HTMLMapEvents2'''
-*'''HTMLMarqueeElementEvents2'''
-*'''HTMLObjectElementEvents2'''
-*'''HTMLOptionButtonElementEvents2'''
-*'''HTMLScriptEvents2'''
-*'''HTMLSelectElementEvents2'''
-*'''HTMLStyleElementEvents2'''
-*'''HTMLTableEvents2'''
-*'''HTMLTextContainerEvents2'''
-*'''HTMLWindowEvents2'''
-*'''HTMLDocumentEvents4'''
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 18.2.3
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onfocusEX.htm)
 
+## Notes
 
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Remarks
+
+**Note**  Using the [**setActive**](/dom/HTMLElement/setActive) method has no effect on document focus. Using the ****focus**** method on an individual element causes the element to gain focus and become the active element. When one object loses activation and another object becomes the [**activeElement**](/dom/Document/activeElement), the **onfocus** event fires on the object becoming the **activeElement** only after the [**onblur**](/dom/FocusEvent/blur) event fires on the object losing activation. Use the focus events to determine when to prepare an object to receive input from the user. Elements cannot receive focus until the document is finished loading. For Microsoft Internet Explorer 5.5 and later, focus on a [Document](/dom/Document), and the **active element** of a **document** can be managed separately. The synchronous events **onactivate** and **ondeactivate** provide better control for managing activation changes. As of Microsoft Internet Explorer 5, browser elements retain focus within the current history when the user returns to a page. To avoid firing the **onfocus** event unintentionally for an element when the document loads, invoke the **focus** method on another element. As of Internet Explorer 5, you can force elements that do not implicitly receive focus to receive focus by adding them to the document tabbing order using the [**TABINDEX**](/html/attributes/tabIndex) attribute. Sets focus to an object. To invoke this event, do one of the following:
+
+-   Click an object.
+-   Use keyboard navigation.
+-   Invoke the ****focus**** method.
+-   Invoke the [**setActive**](/dom/HTMLElement/setActive) method.
+
+The *pEvtObj* parameter is required for the following interfaces:
+
+-   **HTMLAnchorEvents2**
+-   **HTMLAreaEvents2**
+-   **HTMLButtonElementEvents2**
+-   **HTMLControlElementEvents2**
+-   **HTMLDocumentEvents2**
+-   **HTMLElementEvents2**
+-   **HTMLFormElementEvents2**
+-   **HTMLImgEvents2**
+-   **HTMLFrameSiteEvents2**
+-   **HTMLInputFileElementEvents2**
+-   **HTMLInputImageEvents2**
+-   **HTMLInputTextElementEvents2**
+-   **HTMLLabelEvents2**
+-   **HTMLLinkElementEvents2**
+-   **HTMLMapEvents2**
+-   **HTMLMarqueeElementEvents2**
+-   **HTMLObjectElementEvents2**
+-   **HTMLOptionButtonElementEvents2**
+-   **HTMLScriptEvents2**
+-   **HTMLSelectElementEvents2**
+-   **HTMLStyleElementEvents2**
+-   **HTMLTableEvents2**
+-   **HTMLTextContainerEvents2**
+-   **HTMLWindowEvents2**
+-   **HTMLDocumentEvents4**
+
+### Syntax
+
+### Standards information
+
+-   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
+
+### Event handler parameters
+
+*pEvtObj* [in]
+:   Type: ****IHTMLEventObj****
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

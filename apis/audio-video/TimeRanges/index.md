@@ -1,66 +1,52 @@
-{{Page_Title|TimeRanges}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|A TimeRanges object represents the collection of ranges (time periods) from the media resource that have been buffered or played. Ranges in a TimeRanges collection are sequential and not empty. Adjacent ranges are combined together to create longer ones.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following script shows how to access the list of ranges that have been played.
-|Code=var ranges {{=}} document.getElementById('myVideo').played;
-for (var i{{=}}0; i&lt;ranges.length; i++)
-    var start {{=}} ranges.start(i);
-    var end {{=}} ranges.end(i);
-    // display results to developer tools console window
-    if (window.console.log){ window.console.log("Played from " + start + " to " + end);}
-}
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5 Specification
-|URL=http://dev.w3.org/html5/spec/single-page.html
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Audio, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
+---
+title: TimeRanges
+tags:
+  0: API
+  1: Objects
+  3: Audio
+  4: Video
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'A TimeRanges object represents the collection of ranges (time periods) from the media resource that have been buffered or played. Ranges in a TimeRanges collection are sequential and not empty. Adjacent ranges are combined together to create longer ones.'
+uri: apis/audio-video/TimeRanges
 
+---
+# TimeRanges
 
+## Summary
 
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+A TimeRanges object represents the collection of ranges (time periods) from the media resource that have been buffered or played. Ranges in a TimeRanges collection are sequential and not empty. Adjacent ranges are combined together to create longer ones.
+
+## Properties
+
+API Name
+:   Summary
+[length](/apis/audio-video/TimeRanges/length)
+:   Returns the number of ranges in the object.
+
+## Methods
+
+API Name
+:   Summary
+[end](/apis/audio-video/TimeRanges/end)
+:   Returns the time for the end of the range with the given index. Throws an IndexSizeError if the index is out of range.
+[start](/apis/audio-video/TimeRanges/start)
+:   Returns the time for the start of the range with the given index. Throws an IndexSizeError if the index is out of range.
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
+:   W3C Editor's Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

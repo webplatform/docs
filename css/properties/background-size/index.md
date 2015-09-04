@@ -1,44 +1,78 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specifies the size of the background images.}}
-{{CSS Property
-|Initial value=auto
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=for <length> the absolute value, otherwise a percentage
-|Animatable=Yes
-|CSS object model property=backgroundSize
-|CSS percentages=see text
-|Values={{CSS Property Value
-|Data Type=auto
-|Description=Default. See Remarks.
-}}{{CSS Property Value
-|Data Type=contain
-|Description=Scale the image, while preserving its intrinsic aspect ratio (if any), to the largest size such that both its width and its height can fit inside the background positioning area.
-}}{{CSS Property Value
-|Data Type=cover
-|Description=Scale the image, while preserving its intrinsic aspect ratio (if any), to the smallest size such that both its width and its height can completely cover the background positioning area.
-}}{{CSS Property Value
-|Data Type=length
-|Description=A floating-point number, followed by an absolute units designator (<code>cm</code>, <code>mm</code>, <code>in</code>, <code>pt</code>, or <code>pc</code>) or a relative units designator (<code>em</code>, <code>ex</code>, or <code>px</code>). 
+---
+title: background-size
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Specifies the size of the background images.'
+code_samples:
+  - 'http://jsbin.com/ejulex/2/edit'
+uri: css/properties/background-size
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/defaultSelected
+
+---
+# background-size
+
+## Summary
+
+Specifies the size of the background images.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `auto`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   for \<length\> the absolute value, otherwise a percentage
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `backgroundSize`
+Percentages
+:   see text
+
+## Syntax
+
+-   `background-size: auto`
+-   `background-size: contain`
+-   `background-size: cover`
+-   `background-size: length`
+-   `background-size: percentage`
+
+## Values
+
+auto
+:   Default. See Remarks.
+
+contain
+:   Scale the image, while preserving its intrinsic aspect ratio (if any), to the largest size such that both its width and its height can fit inside the background positioning area.
+
+cover
+:   Scale the image, while preserving its intrinsic aspect ratio (if any), to the smallest size such that both its width and its height can completely cover the background positioning area.
+
+length
+:   A floating-point number, followed by an absolute units designator (`cm`, `mm`, `in`, `pt`, or `pc`) or a relative units designator (`em`, `ex`, or `px`).
+
 For more information about the supported length units, see the CSS Values and Units Reference.
-}}{{CSS Property Value
-|Data Type=percentage
-|Description=An integer, followed by a percent (%). A percentage value is relative to the background positioning area.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Basic list of syntax examples for background-size.
-|Code=/* Keywords syntax */
+
+percentage
+:   An integer, followed by a percent (%). A percentage value is relative to the background positioning area.
+
+## Examples
+
+Basic list of syntax examples for background-size.
+
+``` {.css}
+/* Keywords syntax */
 background-size: cover
 background-size: contain
 
@@ -60,22 +94,26 @@ background-size: 50%, 25%, 25%
 background-size: 6px, auto, contain
 
 background-size: inherit
-}}{{Single Example
-|Language=HTML
-|Description=HTML structure of a series of <code>&lt;div&gt;</code>s that are identical except that they have different <code>background-size</code> values applied to the background image.
-|Code=&lt;p&gt;Original image is 273 x 286 px, and has a transparent area around the outside of roughly 45px.&lt;/p&gt;
+```
 
-&lt;div class="one"&gt;&lt;code&gt;background-size: auto auto;&lt;/code&gt;&lt;/div&gt;
-&lt;div class="two"&gt;&lt;code&gt;background-size: contain;&lt;/code&gt;&lt;/div&gt;
-&lt;div class="three"&gt;&lt;code&gt;background-size: cover;&lt;/code&gt;&lt;/div&gt;
-&lt;div class="four"&gt;&lt;code&gt;background-size: 20% 25%;&lt;/code&gt;&lt;/div&gt;
-&lt;div class="five"&gt;&lt;code&gt;background-size: 100px 400px;&lt;/code&gt;&lt;/div&gt;
-&lt;div class="six"&gt;&lt;code&gt;background-size: 100% 250px;&lt;/code&gt;&lt;/div&gt;
-&lt;div class="seven"&gt;&lt;code&gt;background-size: 100% 250px, 20% 25%;&lt;/code&gt;&lt;/div&gt;
-}}{{Single Example
-|Language=CSS
-|Description=CSS applied to the HTML example seen above.
-|Code=div {
+HTML structure of a series of `<div>`s that are identical except that they have different `background-size` values applied to the background image.
+
+``` {.html}
+<p>Original image is 273 x 286 px, and has a transparent area around the outside of roughly 45px.</p>
+
+<div class="one"><code>background-size: auto auto;</code></div>
+<div class="two"><code>background-size: contain;</code></div>
+<div class="three"><code>background-size: cover;</code></div>
+<div class="four"><code>background-size: 20% 25%;</code></div>
+<div class="five"><code>background-size: 100px 400px;</code></div>
+<div class="six"><code>background-size: 100% 250px;</code></div>
+<div class="seven"><code>background-size: 100% 250px, 20% 25%;</code></div>
+```
+
+CSS applied to the HTML example seen above.
+
+``` {.css}
+div {
    width: 17%;
    height: 200px;
    padding: 10px;
@@ -86,7 +124,7 @@ background-size: inherit
    background-color: rgba(0,0,0,0.25);
    background-image: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png);
  }
- 
+
  code {
    background-color: rgba(255,255,255,0.7);
    padding: 2px;
@@ -121,203 +159,81 @@ background-size: inherit
   background-image: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png), url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png);
   background-size: 100% 250px, 20% 25%;
 }
-|LiveURL=http://jsbin.com/ejulex/2/edit
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-An <code>auto</code> value for one dimension is resolved by using the image's intrinsic ratio and the size of the other dimension. If either of these values is not available, the image's intrinsic size is used. If the image's intrinsic size is not available, it is assigned the value of 100%. If both values are <code>auto</code>, use the intrinsic width, height, or both, of the image. If the image has neither an intrinsic width nor an intrinsic height, its size is determined as for <code>contain</code>.
-Negative values are not allowed.
-In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [[css/properties/background-image|'''background-image''']] property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([[css/properties/background-attachment|'''background-attachment''']], [[css/properties/background-clip|'''background-clip''']], [[css/properties/background-origin|'''background-origin''']], [[css/properties/background-position|'''background-position''']], [[css/properties/background-repeat|'''background-repeat''']], and '''background-size'''). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
-|URL=http://www.w3.org/TR/css3-background/#the-background-size
-|Status=Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic support
-|Chrome_supported=Yes
-|Chrome_version=3+
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=1+
-|Firefox_supported=Yes
-|Firefox_version=4+
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=3.6
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9+
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=10+
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=9.5+
-|Safari_supported=Yes
-|Safari_version=4.1+
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=3.0+
-}}{{Compatibility Table Desktop Row
-|Feature=Support for contain and cover
-|Chrome_supported=Yes
-|Chrome_version=3+
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=3.6
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9+
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=10+
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=4.1+
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=Support for SVG backgrounds
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=8+
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Basic support
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.3+
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}{{Compatibility Table Mobile Row
-|Feature=Support for SVG backgrounds
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=8+
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Opera
-|Version=9.5
-|Note=Opera 9.5's computation of the background positioning area is incorrect for fixed backgrounds.  Opera 9.5 also interprets the two-value form as a horizontal scaling factor and, from appearances, a vertical clipping dimension. This has been fixed in Opera 10.
-}}{{Compatibility Notes Row
-|Browser=WebKit-based browsers
-|Note=Originally implemented an older draft of CSS3 '''background-size''' in which an omitted second value is treated as duplicating the first value; this draft does not include the contain or cover keywords.
-}}{{Compatibility Notes Row
-|Browser=Konqueror
-|Version=3.5.4
-|Note=supports '''-khtml-background-size'''.
-}}{{Compatibility Notes Row
-|Browser=Firefox
-|Version=3.6
-|Note=While this property is new in Gecko 1.9.2 (Firefox 3.6), it is possible to stretch a image fully over the background in Firefox 3.5 by using '''-moz-border-image'''.
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Background
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>LayoutRect</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>style</code>
-*<code>Reference</code>
-*<code>[[css/properties/background-color|background-color]]</code>
-*<code>[[css/properties/background-image|background-image]]</code>
-*<code>[[css/properties/background-repeat|background-repeat]]</code>
-*<code>[[css/properties/background-attachment|background-attachment]]</code>
-*<code>[[css/properties/background-position|background-position]]</code>
-*<code>[[css/properties/background-clip|background-clip]]</code>
-*<code>[[css/properties/background-origin|background-origin]]</code>
-*<code>[[css/cssom/properties/background|background]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/background-size
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://jsbin.com/ejulex/2/edit)
+
+## Notes
+
+### Remarks
+
+An `auto` value for one dimension is resolved by using the image's intrinsic ratio and the size of the other dimension. If either of these values is not available, the image's intrinsic size is used. If the image's intrinsic size is not available, it is assigned the value of 100%. If both values are `auto`, use the intrinsic width, height, or both, of the image. If the image has neither an intrinsic width nor an intrinsic height, its size is determined as for `contain`. Negative values are not allowed. In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [**background-image**](/css/properties/background-image) property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([**background-attachment**](/css/properties/background-attachment), [**background-clip**](/css/properties/background-clip), [**background-origin**](/css/properties/background-origin), [**background-position**](/css/properties/background-position), [**background-repeat**](/css/properties/background-repeat), and **background-size**). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/#the-background-size)
+:   Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Background
+
+-   [background](/css/cssom/properties/background)
+
+-   [background](/css/properties/background)
+
+-   [background-attachment](/css/properties/background-attachment)
+
+-   [background-blend-mode](/css/properties/background-blend-mode)
+
+-   [background-clip](/css/properties/background-clip)
+
+-   [background-color](/css/properties/background-color)
+
+-   [background-image](/css/properties/background-image)
+
+-   [background-origin](/css/properties/background-origin)
+
+-   [background-position](/css/properties/background-position)
+
+-   [background-position-x](/css/properties/background-position-x)
+
+-   [background-position-y](/css/properties/background-position-y)
+
+-   [background-repeat](/css/properties/background-repeat)
+
+-   **background-size**
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaults`
+-   `LayoutRect`
+-   `runtimeStyle`
+-   `style`
+-   `style`
+-   `Reference`
+-   `background-color`
+-   `background-image`
+-   `background-repeat`
+-   `background-attachment`
+-   `background-position`
+-   `background-clip`
+-   `background-origin`
+-   `background`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/background-size)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

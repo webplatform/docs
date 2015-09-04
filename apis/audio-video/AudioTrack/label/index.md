@@ -1,81 +1,76 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Returns the label of the given track, if known, or the empty string otherwise.}}
-{{API_Object_Property
-|Property_applies_to=apis/audio-video/AudioTrack
-|Read_only=Yes
-|Example_object_name=AudioTrack
-|Return_value_name=
-|Javascript_data_type=String
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=
-|Code=&lt;video id="video1" controls  >
-    &lt;source src="http://ie.microsoft.com/testdrive/Videos/BehindIE9ModernWebStandards/Video.mp4">
-    &lt;track id="entrack" label="English subtitles" kind="captions" src="entrack.vtt" srclang="en" default>
-    &lt;track id="sptrack" label="Spanish subtitles" kind="captions" src="estrack.vtt" srclang="es">
-    &lt;track id="detrack" label="German subtitles" kind="captions" src="detrack.vtt" srclang="de">
-  &lt;/video>
-  &lt;br />
-  &lt;button id="gettracks" >View text tracks&lt;/button>
-  &lt;div id="display"></div>
+---
+title: label
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Audio
+  5: Video
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the label of the given track, if known, or the empty string otherwise.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/Workshop/samples/media/showtracks.htm'
+uri: apis/audio-video/AudioTrack/label
 
-  &lt;script>
+---
+# label
+
+## Summary
+
+Returns the label of the given track, if known, or the empty string otherwise.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = AudioTrack.label;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+## Examples
+
+``` {.html}
+<video id="video1" controls  >
+    <source src="http://ie.microsoft.com/testdrive/Videos/BehindIE9ModernWebStandards/Video.mp4">
+    <track id="entrack" label="English subtitles" kind="captions" src="entrack.vtt" srclang="en" default>
+    <track id="sptrack" label="Spanish subtitles" kind="captions" src="estrack.vtt" srclang="es">
+    <track id="detrack" label="German subtitles" kind="captions" src="detrack.vtt" srclang="de">
+  </video>
+  <br />
+  <button id="gettracks" >View text tracks</button>
+  <div id="display"></div>
+
+  <script>
     document.getElementById("gettracks").addEventListener("click", function () {
       var display = document.getElementById("display");
       display.innerHTML = "";
       var mytracks = document.getElementById("video1").textTracks;  //  get the textTrackList
-      for (var i = 0; i &lt; mytracks.length; i++) {
-        display.innerHTML += (mytracks[i].label + "&lt;br/>");  //append track label to inner text of &lt;div>
+      for (var i = 0; i < mytracks.length; i++) {
+        display.innerHTML += (mytracks[i].label + "<br/>");  //append track label to inner text of <div>
       }
     }, false);
-&lt;/script>
-|LiveURL=http://samples.msdn.microsoft.com/Workshop/samples/media/showtracks.htm
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5 Specification
-|URL=http://dev.w3.org/html5/spec/single-page.html
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Audio, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+</script>
+```
+
+[View live example](http://samples.msdn.microsoft.com/Workshop/samples/media/showtracks.htm)
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
+:   W3C Editor's Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

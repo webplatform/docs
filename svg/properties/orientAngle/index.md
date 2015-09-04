@@ -1,45 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: orientAngle
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/orientAngle
 
-===Remarks===
+---
+# orientAngle
 
-If the [[svg/properties/orientType|'''orientType''']] property  is '''SVG_MARKER_ORIENT_ANGLE''', this  property represents the angle value for '''orientAngle'''; otherwise, this property is set to zero.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-HRESULT value {{=}} object.put_orientAngle(ISVGAnimatedAngle* v);HRESULT value {{=}} object.get_orientAngle(ISVGAnimatedAngle** p);
+If the [**orientType**](/svg/properties/orientType) property is **SVG\_MARKER\_ORIENT\_ANGLE**, this property represents the angle value for **orientAngle**; otherwise, this property is set to zero.
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
+HRESULT value = object.put\_orientAngle(ISVGAnimatedAngle\* v);HRESULT value = object.get\_orientAngle(ISVGAnimatedAngle\*\* p);
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.9.2
 
-===Reference===
+## See also
 
-*[[svg/elements/marker|'''SVGMarkerElement''']]
-*[[svg/properties/orientType|'''orientType''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+### Related pages (MSDN)
+
+### Reference
+
+-   [**SVGMarkerElement**](/svg/elements/marker)
+-   [**orientType**](/svg/properties/orientType)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

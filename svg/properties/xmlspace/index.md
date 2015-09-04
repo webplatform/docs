@@ -1,63 +1,59 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Import_Notes=
+---
+title: xmlspace
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/properties/xmlspace
 
-===Syntax===
+---
+# xmlspace
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.26
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.26
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/elements/a|'''SVGAElement''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/clipPath|'''SVGClipPathElement''']]
-*[[svg/elements/defs|'''SVGDefsElement''']]
-*[[svg/elements/desc|'''SVGDescElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/elements/feImage|'''SVGFEImageElement''']]
-*[[svg/elements/filter|'''SVGFilterElement''']]
-*[[svg/elements/g|'''SVGGElement''']]
-*[[svg/elements/image|'''SVGImageElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/marker|'''SVGMarkerElement''']]
-*[[svg/elements/mask|'''SVGMaskElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/patterrn|'''SVGPatternElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/style|'''SVGStyleElement''']]
-*[[svg/elements/svg|'''SVGSVGElement''']]
-*[[svg/elements/switch|'''SVGSwitchElement''']]
-*[[svg/elements/symbol|'''SVGSymbolElement''']]
-*[[svg/elements/etextContent|'''SVGTextContentElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/title|'''SVGTitleElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/use|'''SVGUseElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGAElement**](/svg/elements/a)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGClipPathElement**](/svg/elements/clipPath)
+-   [**SVGDefsElement**](/svg/elements/defs)
+-   [**SVGDescElement**](/svg/elements/desc)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   [**SVGFEImageElement**](/svg/elements/feImage)
+-   [**SVGFilterElement**](/svg/elements/filter)
+-   [**SVGGElement**](/svg/elements/g)
+-   [**SVGImageElement**](/svg/elements/image)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGMarkerElement**](/svg/elements/marker)
+-   [**SVGMaskElement**](/svg/elements/mask)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGPatternElement**](/svg/elements/patterrn)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGStyleElement**](/svg/elements/style)
+-   [**SVGSVGElement**](/svg/elements/svg)
+-   [**SVGSwitchElement**](/svg/elements/switch)
+-   [**SVGSymbolElement**](/svg/elements/symbol)
+-   [**SVGTextContentElement**](/svg/elements/etextContent)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTitleElement**](/svg/elements/title)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGUseElement**](/svg/elements/use)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

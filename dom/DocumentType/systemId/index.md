@@ -1,70 +1,76 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary and compat tables, also better spec link
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/DocumentType
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following example shows the '''systemId''' property with respect to a [[html/elements/!DOCTYPE|!DOCTYPE]] directive.
-|Code=&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-  "http://www.w3.org/TR/html4/strict.dtd"&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;IE9 Doctype Sample: SystemId&lt;/title&gt;
-  &lt;meta name{{=}}"x-ua-compatible" content{{=}}"ie{{=}}9"&gt;
-  &lt;script type{{=}}"text/javascript"&gt;
-  function showInfo() {
-    var s {{=}} document.doctype.systemId;
-    // Displays "http://www.w3.org/TR/html4/strict.dtd"
-    alert( s );
-  }
-  &lt;/script&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-  &lt;button onclick{{=}}"showInfo();"&gt;Click Me!&lt;/button&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The value of the '''systemId''' property corresponds to the ''URL'' attribute of a [[html/elements/!DOCTYPE|!DOCTYPE]] directive.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.5
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/DocumentType|DocumentType]]</code>
-*<code>[[dom/DocumentType/name|name]]</code>
-*<code>[[dom/DocumentType/publicId|publicId]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: systemId
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs summary and compat tables, also better spec link'
+uri: dom/DocumentType/systemId
+
+---
+# systemId
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DocumentType](/dom/DocumentType)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.systemId;
+element.systemId = value;
+```
+
+## Examples
+
+The following example shows the **systemId** property with respect to a [!DOCTYPE](/html/elements/!DOCTYPE) directive.
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+      "http://www.w3.org/TR/html4/strict.dtd">
+    <html>
+    <head>
+      <title>IE9 Doctype Sample: SystemId</title>
+      <meta name="x-ua-compatible" content="ie=9">
+      <script type="text/javascript">
+      function showInfo() {
+        var s = document.doctype.systemId;
+        // Displays "http://www.w3.org/TR/html4/strict.dtd"
+        alert( s );
+      }
+      </script>
+      </head>
+      <body>
+      <button onclick="showInfo();">Click Me!</button>
+      </body>
+    </html>
+
+## Notes
+
+### Remarks
+
+The value of the **systemId** property corresponds to the *URL* attribute of a [!DOCTYPE](/html/elements/!DOCTYPE) directive.
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.5
+
+## See also
+
+### Related pages (MSDN)
+
+-   `DocumentType`
+-   `name`
+-   `publicId`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,62 +1,221 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed
-}}
-{{Standardization_Status|N/A}}
-{{API_Name}}
-{{Summary_Section|A '''Document Type Declaration''', or '''DOCTYPE''', is an instruction that associates a particular [[SGML]] or [[XML]] document (for example, a [[webpage]]) with a [[Document Type Definition]] (DTD) (for example, the formal definition of a particular version of [[HTML]]). In the [[Serialization|serialized]] form of the document, it manifests as a short string of [[Markup language|markup]] that conforms to a particular syntax. Not including <!DOCTYPE> may trigger [[html/Quirks_mode|Quirks mode]].}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=HTML5 has one doctype declaration
-|Code=<!DOCTYPE html>
-}}{{Single Example
-|Language=HTML
-|Description=HTML 4.01 Strict
-|Code=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-}}{{Single Example
-|Language=HTML
-|Description=HTML 4.01 Transitional
-|Code=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-}}
-}}
-{{Notes_Section
-|Usage=Add <syntaxhighlight lang="HTML5">
+---
+title: !DOCTYPE
+tags:
+  - Markup
+  - Elements
+  - DOCTYPE
+  - HTML
+readiness: 'In Progress'
+summary: 'A Document Type Declaration, or DOCTYPE, is an instruction that associates a particular SGML or XML document (for example, a webpage) with a Document Type Definition (DTD) (for example, the formal definition of a particular version of HTML). In the serialized form of the document, it manifests as a short string of markup that conforms to a particular syntax. Not including <!DOCTYPE> may trigger Quirks mode.'
+uri: html/elements/!DOCTYPE
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - SGML
+    - XML
+    - webpage
+    - 'Document Type Definition'
+    - HTML
+    - Serialization
+    - 'Markup language'
+    - 'html/Quirks mode'
+    - HTML5
+
+---
+# !DOCTYPE
+
+## Summary
+
+A Document Type Declaration, or DOCTYPE, is an instruction that associates a particular SGML or XML document (for example, a webpage) with a Document Type Definition (DTD) (for example, the formal definition of a particular version of HTML). In the serialized form of the document, it manifests as a short string of markup that conforms to a particular syntax. Not including \<!DOCTYPE\> may trigger Quirks mode.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+## Examples
+
+HTML5 has one doctype declaration
+
+``` {.html}
 <!DOCTYPE html>
-</syntaxhighlight> to the start of your document.
-|Notes=The <!DOCTYPE> declaration must be the very first thing in an HTML document, before the <html> tag. 
+```
+
+HTML 4.01 Strict
+
+``` {.html}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
+
+HTML 4.01 Transitional
+
+``` {.html}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
+
+## Usage
+
+     Add
+
+``` {.html}
+<!DOCTYPE html>
+```
+
+    to the start of your document.
+
+## Notes
+
+The \<!DOCTYPE\> declaration must be the very first thing in an HTML document, before the \<html\> tag.
 
 This is not a HTML tag but an instruction for the browser about the version of the document.
 
-In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was based on SGML. The DTD specifies the rules for the markup language, so that the browsers render the content correctly.
+In HTML 4.01, the \<!DOCTYPE\> declaration refers to a DTD, because HTML 4.01 was based on SGML. The DTD specifies the rules for the markup language, so that the browsers render the content correctly.
 
-[[HTML5]] is not based on SGML, and therefore does not require a reference to a DTD.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Deprecated, HTML
-|Manual_links=html/quirksmode
-}}
-{{Topics|DOCTYPE, HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+[HTML5](/w/index.php?title=HTML5&action=edit&redlink=1) is not based on SGML, and therefore does not require a reference to a DTD.
+
+## See also
+
+### Related articles
+
+#### Deprecated
+
+-   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
+
+-   [-ms-repeating-linear-gradient](/css/properties/-ms-repeating-linear-gradient)
+
+-   [-ms-repeating-radial-gradient](/css/properties/-ms-repeating-radial-gradient)
+
+-   [MutationEvent](/dom/MutationEvent)
+
+-   [attrChange](/dom/MutationEvent/attrChange)
+
+-   [attrName](/dom/MutationEvent/attrName)
+
+-   [initMutationEvent](/dom/MutationEvent/initMutationEvent)
+
+-   [newValue](/dom/MutationEvent/newValue)
+
+-   [prevValue](/dom/MutationEvent/prevValue)
+
+-   [relatedNode](/dom/MutationEvent/relatedNode)
+
+-   **!DOCTYPE**
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [escape](/javascript/escape)
+
+-   [unescape](/javascript/unescape)
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   **!DOCTYPE**
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+### Other articles
+
+html/quirksmode
+

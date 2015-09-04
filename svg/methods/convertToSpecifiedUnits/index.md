@@ -1,44 +1,40 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: convertToSpecifiedUnits
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/convertToSpecifiedUnits
 
-===Remarks===
+---
+# convertToSpecifiedUnits
 
-The '''convertToSpecifiedUnits''' method preserves the same underlying stored value, but it resets the stored unit identifier to the  specified  ''unitType'' type. The [[svg/properties/unitType  (SVGLength)|'''unitType''']], [[svg/properties/valueInSpecifiedUnits|'''valueInSpecifiedUnits''']], and [[svg/properties/valueAsString|'''valueAsString''']]  objects might be modified  when you call  this method.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
- HRESULT retVal = ''object.''convertToSpecifiedUnits(unitType);
+The **convertToSpecifiedUnits** method preserves the same underlying stored value, but it resets the stored unit identifier to the specified *unitType* type. The [**unitType**](/svg/properties/unitType_(SVGLength)), [**valueInSpecifiedUnits**](/svg/properties/valueInSpecifiedUnits), and [**valueAsString**](/svg/properties/valueAsString) objects might be modified when you call this method.
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.11
+    HRESULT retVal = object.convertToSpecifiedUnits(unitType);
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.11
 
-*[[svg/objects/SVGAngle|'''SVGAngle''']]
-*[[svg/objects/SVGLength|'''SVGLength''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGAngle**](/svg/objects/SVGAngle)
+-   [**SVGLength**](/svg/objects/SVGLength)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

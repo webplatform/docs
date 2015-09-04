@@ -1,42 +1,39 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: x2 (SVGLinearGradientElement)
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: 'svg/properties/x2 (SVGLinearGradientElement)'
 
-===Remarks===
+---
+# x2 (SVGLinearGradientElement)
 
-The [[svg/properties/x1 (SVGLinearGradientElement)|'''x1''']], [[svg/properties/y1 (SVGLinearGradientElement)|'''y1''']], '''x2''', and [[svg/properties/y2 (SVGLinearGradientElement)|'''y2''']]  properties define a gradient vector for a linear gradient. This gradient vector provides the starting and ending points  that  the gradient [[svg/elements/stop|'''stops''']] are mapped onto. The values of '''x1''', '''y1''', '''x2''', and '''y2''' can be either numbers or percentages.
+## Notes
 
-If you do not specify this property, the effect is the same as if you specify a value of '''0%'''.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+The [**x1**](/svg/properties/x1_(SVGLinearGradientElement)), [**y1**](/svg/properties/y1_(SVGLinearGradientElement)), **x2**, and [**y2**](/svg/properties/y2_(SVGLinearGradientElement)) properties define a gradient vector for a linear gradient. This gradient vector provides the starting and ending points that the gradient [**stops**](/svg/elements/stop) are mapped onto. The values of **x1**, **y1**, **x2**, and **y2** can be either numbers or percentages.
 
-===Standards information===
+If you do not specify this property, the effect is the same as if you specify a value of **0%**.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.2
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.2
 
-*[[svg/elements/linearGradient|'''SVGLinearGradientElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGLinearGradientElement**](/svg/elements/linearGradient)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

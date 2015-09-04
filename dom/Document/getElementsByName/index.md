@@ -1,74 +1,75 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat tables
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Returns an HTMLCollection of elements in the document that have a <code>name</code> attribute with the specified value.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=name
-|Data type=String
-|Description=The value of a [[html/attributes/name|'''name''']] attribute.
-|Optional=No
-}}
-|Method_applies_to=dom/Document
-|Example_object_name=document
-|Return_value_name=elementList
-|Javascript_data_type=DOM Node
-|Return_value_description=A list of elements with the a name attribute that matches the specified value.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''getElementsByName''' method to return a collection of '''input type{{=}}text''' elements with the specified [[html/attributes/name|'''name''']] attribute value, <code>firstName</code>.
-|Code=&lt;script&gt;
+---
+title: getElementsByName
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs compat tables'
+summary: 'Returns an HTMLCollection of elements in the document that have a name attribute with the specified value.'
+uri: dom/Document/getElementsByName
+
+---
+# getElementsByName
+
+## Summary
+
+Returns an HTMLCollection of elements in the document that have a name attribute with the specified value.
+
+*Method of [dom/Document](/dom/Document)*
+
+## Syntax
+
+``` {.js}
+var elementList = document.getElementsByName(name);
+```
+
+## Parameters
+
+### name
+
+ Data-typeÂ
+:   String
+
+ The value of a [**name**](/html/attributes/name) attribute.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+A list of elements with the a name attribute that matches the specified value.
+
+## Examples
+
+This example uses the **getElementsByName** method to return a collection of **input type=text** elements with the specified [**name**](/html/attributes/name) attribute value, `firstName`.
+
+``` {.html}
+<script>
 function getFirstNames() {
-   // Prints a collection with 2 input type{{=}}text elements.
+   // Prints a collection with 2 input type=text elements.
    console.log(document.getElementsByName("firstName"));
 }
-&lt;/script&gt;
-&lt;input type{{=}}"text" name{{=}}"firstName"/&gt;
-&lt;input type{{=}}"text" name{{=}}"firstName"/&gt;
-&lt;input type{{=}}"button" value{{=}}"Get Names" onclick{{=}}"getFirstNames()"&gt;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 2 HTML
-|URL=http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-71555259
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}{{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/html/wg/drafts/html/master/single-page.html
-|Status=Editor's Draft
-|Relevant_changes=Section 3.1.3
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Note=When you use the '''getElementsByName''' method, all elements in the document that have the specified [[html/attributes/name|'''NAME''']] attribute or [[html/attributes/id|'''ID''']] attribute value are returned. Elements that support both the [[html/attributes/name|'''NAME''']] attribute and the [[html/attributes/id|'''ID''']] attribute are included in the collection returned by the '''getElementsByName''' method, but elements with a '''NAME'''Â are not included in the collection; therefore, this method cannot be used to retrieve custom tags by name.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+</script>
+<input type="text" name="firstName"/>
+<input type="text" name="firstName"/>
+<input type="button" value="Get Names" onclick="getFirstNames()">
+```
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-71555259)
+:   Recommendation
+[W3C HTML5](http://www.w3.org/html/wg/drafts/html/master/single-page.html)
+:   Editor's Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

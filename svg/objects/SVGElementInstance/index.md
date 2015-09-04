@@ -1,76 +1,93 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object
-|Subclass_of=svg/objects/SVGElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: SVGElementInstance
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/objects/SVGElementInstance
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+---
+# SVGElementInstance
 
-The root object in the instance tree is pointed to by the [[svg/properties/instanceRoot|'''instanceRoot''']] attribute on the [[svg/elements/use|'''SVGUseElement''']] object for the corresponding '''use''' element.
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-If the [[svg/elements/use|'''use''']] element references a simple graphics element such as [[svg/elements/rect|'''rect''']],  there is only  one  '''SVGElementInstance'''  object, and the [[svg/properties/correspondingElement|'''correspondingElement''']] attribute on this '''SVGElementInstance''' object is the '''SVGRectElement''' that corresponds to the referenced '''rect''' element.
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
 
-If the [[svg/elements/use|'''use''']] element references a [[svg/elements/g|'''g''']] element that contains two [[svg/elements/rect|'''rect''']] elements, the instance tree contains three '''SVGElementInstance''' objects: a root '''SVGElementInstance''' object whose [[svg/properties/correspondingElement|'''correspondingElement''']] attribute is the  '''SVGGElement'''  object for the '''g''' element, and then two child '''SVGElementInstance''' objects that have their '''correspondingElement''' attribute that is an '''SVGRectElement''' object.
+## Properties
 
-If the referenced object is  a [[svg/elements/use|'''use''']] element, or if there are  '''use''' subelements within the referenced object, the instance tree contains a  recursive expansion of the indirect references to form a complete tree. For example, if a  '''use'''  element references a  [[svg/elements/g|'''g''']] element, and the  '''g''' element  contains a  '''use''' element, and that '''use''' element references a  [[svg/elements/rect|'''rect''']] element, the instance tree for the original (outermost)  '''use''' consists  of a hierarchy of '''SVGElementInstance'''  objects, as follows:
+*No properties.*
 
-  SVGElementInstance #1 (parentNode=null, firstChild=#2, correspondingElement is the 'g')
-    SVGElementInstance #2 (parentNode=#1, firstChild=#3, correspondingElement is the other 'use')
-      SVGElementInstance #3 (parentNode=#2, firstChild=null, correspondingElement is the 'rect')
-|Import_Notes====Standards information===
+## Methods
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.9
+*No methods.*
 
-===Members===
+## Events
 
-The '''SVGElementInstance''' object has these methods:
+*No events.*
 
-*[[svg/methods/addListener|'''addEventListener''']]: Registers an event listener
-*[[svg/methods/dispatchEvent|'''dispatchEvent''']]: Dispatches an event to an object.
-*[[svg/methods/removeListener|'''removeEventListener''']]: Removes an event listener.
+## Inherited from SVGElement
 
-The '''SVGElementInstance''' object has these properties:
+### Properties
 
-*[[svg/properties/childNodes|'''childNodes''']]: Gets an [[svg/objects/SVGElementInstanceList|'''SVGElementInstanceList''']] object that contains all children of this '''SVGElementInstance''' object within the instance tree.
-*[[svg/properties/correspondingElement|'''correspondingElement''']]: Gets the corresponding element that this object is an instance of.
-*[[svg/properties/correspondingUseElement|'''correspondingUseElement''']]: Gets the corresponding [[svg/elements/use|'''use''']] element that this object belongs to.
-*[[svg/properties/firstChild|'''firstChild''']]: Gets the first child of this '''SVGElementInstance''' object in the instance tree.
-*[[svg/properties/lastChild|'''lastChild''']]: Gets the last child of this '''SVGElementInstance''' object in the instance tree.
-*[[svg/properties/nextSibling|'''nextSibling''']]: Gets the '''SVGElementInstance''' object that immediately follows this '''SVGElementInstance''' object.
-*[[svg/properties/parentNode|'''parentNode''']]: Gets the parent of this '''SVGElementInstance''' object within the instance tree.
-*[[svg/properties/previousSibling|'''previousSibling''']]: Gets the '''SVGElementInstance''' object that immediately precedes this '''SVGElementInstance''' object.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+The root object in the instance tree is pointed to by the [**instanceRoot**](/svg/properties/instanceRoot) attribute on the [**SVGUseElement**](/svg/elements/use) object for the corresponding **use** element.
+
+If the [**use**](/svg/elements/use) element references a simple graphics element such as [**rect**](/svg/elements/rect), there is only one **SVGElementInstance** object, and the [**correspondingElement**](/svg/properties/correspondingElement) attribute on this **SVGElementInstance** object is the **SVGRectElement** that corresponds to the referenced **rect** element.
+
+If the [**use**](/svg/elements/use) element references a [**g**](/svg/elements/g) element that contains two [**rect**](/svg/elements/rect) elements, the instance tree contains three **SVGElementInstance** objects: a root **SVGElementInstance** object whose [**correspondingElement**](/svg/properties/correspondingElement) attribute is the **SVGGElement** object for the **g** element, and then two child **SVGElementInstance** objects that have their **correspondingElement** attribute that is an **SVGRectElement** object.
+
+If the referenced object is a [**use**](/svg/elements/use) element, or if there are **use** subelements within the referenced object, the instance tree contains a recursive expansion of the indirect references to form a complete tree. For example, if a **use** element references a [**g**](/svg/elements/g) element, and the **g** element contains a **use** element, and that **use** element references a [**rect**](/svg/elements/rect) element, the instance tree for the original (outermost) **use** consists of a hierarchy of **SVGElementInstance** objects, as follows:
+
+     SVGElementInstance #1 (parentNode=null, firstChild=#2, correspondingElement is the 'g')
+       SVGElementInstance #2 (parentNode=#1, firstChild=#3, correspondingElement is the other 'use')
+         SVGElementInstance #3 (parentNode=#2, firstChild=null, correspondingElement is the 'rect')
+
+### Standards information
+
+-   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.9
+
+### Members
+
+The **SVGElementInstance** object has these methods:
+
+-   [**addEventListener**](/svg/methods/addListener): Registers an event listener
+-   [**dispatchEvent**](/svg/methods/dispatchEvent): Dispatches an event to an object.
+-   [**removeEventListener**](/svg/methods/removeListener): Removes an event listener.
+
+The **SVGElementInstance** object has these properties:
+
+-   [**childNodes**](/svg/properties/childNodes): Gets an [**SVGElementInstanceList**](/svg/objects/SVGElementInstanceList) object that contains all children of this **SVGElementInstance** object within the instance tree.
+-   [**correspondingElement**](/svg/properties/correspondingElement): Gets the corresponding element that this object is an instance of.
+-   [**correspondingUseElement**](/svg/properties/correspondingUseElement): Gets the corresponding [**use**](/svg/elements/use) element that this object belongs to.
+-   [**firstChild**](/svg/properties/firstChild): Gets the first child of this **SVGElementInstance** object in the instance tree.
+-   [**lastChild**](/svg/properties/lastChild): Gets the last child of this **SVGElementInstance** object in the instance tree.
+-   [**nextSibling**](/svg/properties/nextSibling): Gets the **SVGElementInstance** object that immediately follows this **SVGElementInstance** object.
+-   [**parentNode**](/svg/properties/parentNode): Gets the parent of this **SVGElementInstance** object within the instance tree.
+-   [**previousSibling**](/svg/properties/previousSibling): Gets the **SVGElementInstance** object that immediately precedes this **SVGElementInstance** object.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

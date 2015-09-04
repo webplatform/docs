@@ -1,30 +1,33 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add values, syntax, example, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{Summary_Section|The '''grid''' media group includes any media type that displays text in a single font and font-size.}}
-{{CSS Media Group
-|Description=In addition to visual media with a single font, Braille-based media are considered to be grid media types.  The opposite of grid (for visual media) is the [[css/media_queries/media_groups/bitmap|bitmap media group]].
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: grid
+tags:
+  - CSS
+  - Media
+  - Groups
+readiness: 'Not Ready'
+notes:
+  - 'Add values, syntax, example, specifications, compatibility.'
+summary: 'The grid media group includes any media type that displays text in a single font and font-size.'
+uri: 'css/media queries/media groups/grid'
+
+---
+# grid
+
+## Summary
+
+The grid media group includes any media type that displays text in a single font and font-size.
+
+In addition to visual media with a single font, Braille-based media are considered to be grid media types. The opposite of grid (for visual media) is the [bitmap media group](/css/media_queries/media_groups/bitmap).
+
+## Applicable Media Types
+
+(none in the database)
+
+## Applicable Media Features
+
+(none in the database)
+
+## Applicable CSS properties
+
+(none in the database)
+

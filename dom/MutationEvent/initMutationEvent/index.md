@@ -1,91 +1,141 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Deprecated}}
-{{API_Name}}
-{{Summary_Section|Initializes a new DOM mutation (modification) event that the [[dom/Document/createEvent|'''createEvent''']] method created.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=eventType
-|Data type=String
-|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
-|Optional=No
-}}{{Method Parameter
-|Name=canBubble
-|Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
-|Optional=No
-}}{{Method Parameter
-|Name=cancelable
-|Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
-|Optional=No
-}}{{Method Parameter
-|Name=relatedNode
-|Data type=DOM Node
-|Description=A secondary node that is related to the event. Sets the value for the [[dom/MutationEvent/relatedNode|'''relatedNode''']] property.
-|Optional=No
-}}{{Method Parameter
-|Name=prevValue
-|Data type=String
-|Description=The previous value of the attribute or text node. Sets the value for the [[dom/MutationEvent/prevValue|'''prevValue''']] property.
-|Optional=No
-}}{{Method Parameter
-|Name=newValue
-|Data type=String
-|Description=The new value of the attribute or text node. Sets the value for the [[dom/MutationEvent/newValue|'''newValue''']] property.
-|Optional=No
-}}{{Method Parameter
-|Name=attrName
-|Data type=String
-|Description=The name of the changed attribute in a '''DOMAttrModified''' event. Sets the value for the [[dom/MutationEvent/attrName|'''attrName''']] property.
-|Optional=No
-}}{{Method Parameter
-|Name=attrChange
-|Data type=String
-|Description=The type of modification in a '''DOMAttrModified''' event. Sets the value for the [[dom/MutationEvent/attrChange|'''attrChange''']] property.
-|Optional=No
-}}
-|Method_applies_to=dom/MutationEvent
-|Example_object_name=event
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 2 Events
-|URL=http://www.w3.org/TR/DOM-Level-2-Events/
-|Status=Recommendation
-|Relevant_changes=Section 1.6.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9
-|Note=The '''DOMNodeInsertedIntoDocument''' and '''DOMNodeRemovedFromDocument''' '''eventType''' values are not supported.
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Deprecated
-}}
-{{Topics|DOM, DOMEvents}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Mutation_events Mutation Events]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: initMutationEvent
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+  - DOMEvents
+readiness: 'Ready to Use'
+standardization_status: Deprecated
+summary: 'Initializes a new DOM mutation (modification) event that the createEvent method created.'
+uri: dom/MutationEvent/initMutationEvent
+
+---
+# initMutationEvent
+
+## Summary
+
+Initializes a new DOM mutation (modification) event that the createEvent method created.
+
+*Method of [dom/MutationEvent](/dom/MutationEvent)*
+
+## Syntax
+
+``` {.js}
+ event.initMutationEvent(/* see parameter list */);
+```
+
+## Parameters
+
+### eventType
+
+ Data-typeÂ
+:   String
+
+ The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
+
+### canBubble
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
+
+### cancelable
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
+
+### relatedNode
+
+ Data-typeÂ
+:   DOM Node
+
+ A secondary node that is related to the event. Sets the value for the [**relatedNode**](/dom/MutationEvent/relatedNode) property.
+
+### prevValue
+
+ Data-typeÂ
+:   String
+
+ The previous value of the attribute or text node. Sets the value for the [**prevValue**](/dom/MutationEvent/prevValue) property.
+
+### newValue
+
+ Data-typeÂ
+:   String
+
+ The new value of the attribute or text node. Sets the value for the [**newValue**](/dom/MutationEvent/newValue) property.
+
+### attrName
+
+ Data-typeÂ
+:   String
+
+ The name of the changed attribute in a **DOMAttrModified** event. Sets the value for the [**attrName**](/dom/MutationEvent/attrName) property.
+
+### attrChange
+
+ Data-typeÂ
+:   String
+
+ The type of modification in a **DOMAttrModified** event. Sets the value for the [**attrChange**](/dom/MutationEvent/attrChange) property.
+
+## Return Value
+
+No return value
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
+:   Recommendation
+
+## See also
+
+### Related articles
+
+#### Deprecated
+
+-   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
+
+-   [-ms-repeating-linear-gradient](/css/properties/-ms-repeating-linear-gradient)
+
+-   [-ms-repeating-radial-gradient](/css/properties/-ms-repeating-radial-gradient)
+
+-   [MutationEvent](/dom/MutationEvent)
+
+-   [attrChange](/dom/MutationEvent/attrChange)
+
+-   [attrName](/dom/MutationEvent/attrName)
+
+-   **initMutationEvent**
+
+-   [newValue](/dom/MutationEvent/newValue)
+
+-   [prevValue](/dom/MutationEvent/prevValue)
+
+-   [relatedNode](/dom/MutationEvent/relatedNode)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [escape](/javascript/escape)
+
+-   [unescape](/javascript/unescape)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Mutation Events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Mutation_events) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

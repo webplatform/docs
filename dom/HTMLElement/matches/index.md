@@ -1,54 +1,62 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=examples, compatibility, general clean-up/review for accuracy
-|Checked_Out=No
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Returns <code>true</code> if an element matches a given selector. Otherwise, <code>false</code>.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=selector
-|Data type=String
-|Description=This string represents the selector to test the element against. This parameter is required and it must have a length of at least one. An empty string throws the error <code>Dom Exception 12.</code>
-|Optional=No
-}}
-|Method_applies_to=dom/HTMLElement
-|Example_object_name=element
-|Return_value_name=result
-|Javascript_data_type=DOM Node
-|Return_value_description=Returns true if the element matches the given selector or false if it doesn't.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Currently, few browsers support the unprefixed version. It is recommended to use the API as following:
+---
+title: matches
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'examples, compatibility, general clean-up/review for accuracy'
+summary: 'Returns true if an element matches a given selector. Otherwise, false.'
+uri: dom/HTMLElement/matches
 
-<pre>var docEl = document.documentElement,
-    matches = docEl.matches || docEl.webkitMatchesSelector || docEl.mozMatchesSelector || docEl.msMatchesSelector || docEl.oMatchesSelector;
-matches.call(element, selector)</pre>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/API/Element.matches
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+# matches
+
+## Summary
+
+Returns true if an element matches a given selector. Otherwise, false.
+
+*Method of [dom/HTMLElement](/dom/HTMLElement)*
+
+## Syntax
+
+``` {.js}
+var result = element.matches(selector);
+```
+
+## Parameters
+
+### selector
+
+ Data-typeÂ
+:   String
+
+ This string represents the selector to test the element against. This parameter is required and it must have a length of at least one. An empty string throws the error `Dom Exception 12.`
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+Returns true if the element matches the given selector or false if it doesn't.
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Currently, few browsers support the unprefixed version. It is recommended to use the API as following:
+
+    var docEl = document.documentElement,
+        matches = docEl.matches || docEl.webkitMatchesSelector || docEl.mozMatchesSelector || docEl.msMatchesSelector || docEl.oMatchesSelector;
+    matches.call(element, selector)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/API/Element.matches)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

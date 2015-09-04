@@ -1,83 +1,211 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add example, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Sets the block progression and layout orientation: deprecated in favor of the [[css/properties/writing-mode|writing-mode]] property.}}
-{{CSS Property
-|Initial value=tb
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=tb
-|Description=Default. Top-to-bottom block flow. Layout is horizontal.
-}}{{CSS Property Value
-|Data Type=rl
-|Description=Right-to-left block flow. Layout is vertical.
-}}{{CSS Property Value
-|Data Type=bt
-|Description=Bottom-to-top block flow. Layout is horizontal.
-}}{{CSS Property Value
-|Data Type=lr
-|Description=Left-to-right block flow. Layout is vertical.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage====Deprecated===
-This property has been dropped from the current version of [http://dev.w3.org/csswg/css-writing-modes{{=}}the CSS Writing Modes specification]. You are encouraged to manipulate an element's writing mode via the [[css/properties/writing-mode|'''writing-mode''']] property instead.
-|Notes====Remarks===
-In vertical layout, text lines are rotated 90° clockwise. Images are not rotated, but tables are. Box layout in vertical orientations is exactly analogous to layout in the horizontal orientation: width, height, top, bottom, right, and left do not rotate with the text.
-Only one block progression is active at a time; these values cannot be combined. See [[css/properties/writing-mode|'''-ms-writing-mode''']] for additive block progression values.
-This property is based on the block-progression property of the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203505 CSS3 Text Layout] module.
-|Import_Notes====Syntax===
-<code>'''-ms-block-progression: '''tb '''{{!}}''' rl '''{{!}}''' bt '''{{!}}''' lr</code>
-===Standards information===
+---
+title: block-progression
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: Non-Standard
+notes:
+  - 'Add example, compatibility.'
+summary: 'Sets the block progression and layout orientation: deprecated in favor of the writing-mode property.'
+uri: css/properties/block-progression
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/defaultSelected
+
+---
+# block-progression
+
+## Summary
+
+Sets the block progression and layout orientation: deprecated in favor of the writing-mode property.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `tb`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `block-progression: bt`
+-   `block-progression: lr`
+-   `block-progression: rl`
+-   `block-progression: tb`
+
+## Values
+
+tb
+:   Default. Top-to-bottom block flow. Layout is horizontal.
+
+rl
+:   Right-to-left block flow. Layout is vertical.
+
+bt
+:   Bottom-to-top block flow. Layout is horizontal.
+
+lr
+:   Left-to-right block flow. Layout is vertical.
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     ===Deprecated===
+
+This property has been dropped from the current version of [CSS Writing Modes specification](http://dev.w3.org/csswg/css-writing-modes=the). You are encouraged to manipulate an element's writing mode via the [**writing-mode**](/css/properties/writing-mode) property instead.
+
+## Notes
+
+### Remarks
+
+In vertical layout, text lines are rotated 90° clockwise. Images are not rotated, but tables are. Box layout in vertical orientations is exactly analogous to layout in the horizontal orientation: width, height, top, bottom, right, and left do not rotate with the text. Only one block progression is active at a time; these values cannot be combined. See [**-ms-writing-mode**](/css/properties/writing-mode) for additive block progression values. This property is based on the block-progression property of the [CSS3 Text Layout](http://go.microsoft.com/fwlink/p/?linkid=203505) module.
+
+### Syntax
+
+`-ms-block-progression: tb | rl | bt | lr`
+
+### Standards information
+
 There are no standards that apply here.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Text Level 3
-|URL=http://www.w3.org/TR/2003/CR-css3-text-20030514/#block-progression
-|Status=[Obsolete] W3C Candidate Recommendation
-|Relevant_changes=Property was dropped in newer drafts
-}}{{Related Specification
-|Name=CSS Writing Mode Level 3
-|URL=http://www.w3.org/TR/css3-writing-modes/
-|Status=W3C Working Draft
-|Relevant_changes=Deprecated in favor of 'writing-mode'.
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/direction|direction]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Text Level 3](http://www.w3.org/TR/2003/CR-css3-text-20030514/#block-progression)
+:   [Obsolete] W3C Candidate Recommendation
+[CSS Writing Mode Level 3](http://www.w3.org/TR/css3-writing-modes/)
+:   W3C Working Draft
+
+## See also
+
+### Related articles
+
+#### Text
+
+-   **block-progression**
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaults`
+-   `runtimeStyle`
+-   `style`
+-   `direction`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

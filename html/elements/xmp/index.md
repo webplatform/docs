@@ -1,43 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Out of Date
-|Editorial notes=Deletion Candidate: Obsolete
-|Checked_Out=No
-}}
-{{Standardization_Status|Deprecated}}
-{{API_Name}}
-{{Summary_Section|(Obsolete) Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use [[html/elements/code|<code>code</code>]] or [[html/elements/pre|<code>pre</code>]] instead.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=required
-|CSS_display=inline
-|Content=The element is defined as a RAWTEXT element, and has special handling by a text/html parser for legacy reasons.
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-Use of this element is no longer recommended. Use the [[html/elements/pre|pre]] or [[html/elements/samp|samp]] element instead.
-HTML elements within an '''XMP''' element render as text, not as HTML-formatted elements.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=== Use instead ==
-* [[html/elements/code|<code>code</code>]]
-* [[html/elements/pre|<code>pre</code>]]
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: xmp
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Out of Date'
+standardization_status: Deprecated
+notes:
+  - 'Deletion Candidate: Obsolete'
+summary: '(Obsolete) Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use code or pre instead.'
+uri: html/elements/xmp
+
+---
+# xmp
+
+## Summary
+
+(Obsolete) Renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. Non-conforming in HTML5. Use code or pre instead.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+The element is defined as a RAWTEXT element, and has special handling by a text/html parser for legacy reasons.
+
+## Notes
+
+### Remarks
+
+Use of this element is no longer recommended. Use the [pre](/html/elements/pre) or [samp](/html/elements/samp) element instead. HTML elements within an **XMP** element render as text, not as HTML-formatted elements.
+
+## See also
+
+### Other articles
+
+## Use instead
+
+-   [`code`](/html/elements/code)
+-   [`pre`](/html/elements/pre)
+

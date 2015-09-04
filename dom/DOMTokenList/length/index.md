@@ -1,48 +1,50 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Returns the number of tokens in a DOMTokenList.}}
-{{API_Object_Property
-|Property_applies_to=dom/DOMTokenList
-|Read_only=Yes
-|Javascript_data_type=Number
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=//returns the number of classes in an element's classList (a DOMTokenList)
+---
+title: length
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Returns the number of tokens in a DOMTokenList.'
+uri: dom/DOMTokenList/length
+
+---
+# length
+
+## Summary
+
+Returns the number of tokens in a DOMTokenList.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DOMTokenList](/dom/DOMTokenList)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.length;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+
+## Examples
+
+``` {.js}
+//returns the number of classes in an element's classList (a DOMTokenList)
 function elNumClasses(elid) {
   var classes = document.getElementById(elid).classList;
   return classes.length;
 }
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C DOM4
-|URL=http://www.w3.org/TR/dom/
-|Status=Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C DOM4](http://www.w3.org/TR/dom/)
+:   Candidate Recommendation
+

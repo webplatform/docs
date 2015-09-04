@@ -1,44 +1,45 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The value of the ''animation-name'' property of the animation that fired the animation event.}}
-{{API_Object_Property
-|Property_applies_to=dom/AnimationEvent
-|Read_only=Yes
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=//define animation event
+---
+title: animationName
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+notes:
+  - 'Needs spec reference, standardization status'
+summary: 'The value of the animation-name property of the animation that fired the animation event.'
+uri: dom/AnimationEvent/animationName
+
+---
+# animationName
+
+## Summary
+
+The value of the animation-name property of the animation that fired the animation event.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/AnimationEvent](/dom/AnimationEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.animationName;
+```
+
+## Examples
+
+``` {.js}
+//define animation event
 var myAnimEvent = new AnimationEvent();
 //retrieve name
 var myAnimName = myAnimEvent.animationName;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

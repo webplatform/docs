@@ -1,48 +1,50 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Summary, examples, compatibility, standards, clean-up of MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/KeyboardEvent
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-Key identifiers are strings that  uniquely identify keyboard buttons, such as <code>Q</code>, <code>Home</code>, or <code>F2</code>. The string can be any of the following types:
-*Character string:  A single character, such as a letter or symbol
-*Key name:  A multicharacter string such as <code>Enter</code> or <code>Tab</code>
-*Unicode codepoint:   "U+" followed by a hexadecimal character index
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203756 Document Object Model (DOM) Level 3 Events Specification], Section 5.2.6
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: key
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Summary, examples, compatibility, standards, clean-up of MSDN import'
+uri: dom/KeyboardEvent/key
+
+---
+# key
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/KeyboardEvent](/dom/KeyboardEvent)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.key;
+element.key = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+Key identifiers are strings that uniquely identify keyboard buttons, such as `Q`, `Home`, or `F2`. The string can be any of the following types:
+
+-   Character string: A single character, such as a letter or symbol
+-   Key name: A multicharacter string such as `Enter` or `Tab`
+-   Unicode codepoint: "U+" followed by a hexadecimal character index
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 3 Events Specification](http://go.microsoft.com/fwlink/p/?linkid=203756), Section 5.2.6
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

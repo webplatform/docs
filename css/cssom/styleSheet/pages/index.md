@@ -1,54 +1,48 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=css/cssom/styleSheet
-|Read_only=No
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-Although this collection is represented in the Cascading Style Sheets (CSS) object model,  '''@page''' rules are not represented in the default print template for Windows Internet Explorer.  The rules can be used by print templates developed for applications that host MSHTML.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/properties/styleSheet|styleSheet]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: pages
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+uri: css/cssom/styleSheet/pages
+
+---
+# pages
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/styleSheet](/css/cssom/styleSheet)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.pages;
+element.pages = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+Although this collection is represented in the Cascading Style Sheets (CSS) object model, **@page** rules are not represented in the default print template for Windows Internet Explorer. The rules can be used by print templates developed for applications that host MSHTML.
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `styleSheet`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,29 +1,52 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.}}
-{{API_Listing}}
-{{Concept_Listing
-|Query=[[Category:User_Timing]][[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Notes=Based on [[http://www.w3.org/TR/user-timing/ W3C User Timing Candidate Recommendation Specification]]
-}}
-{{See_Also_Section
-|Topic_clusters=Performance
-}}
-{{Topics|API, User Timing}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: user timing
+tags:
+  0: API
+  1: Listings
+  3: User
+  4: Timing
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.'
+uri: 'apis/user timing'
+
+---
+# user timing
+
+## Summary
+
+This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.
+
+API Name
+:   Summary
+[Performance](/apis/user_timing/Performance)
+:   Exposes a high precision timestamp to developers so they can better measure the performance of their applications.
+[PerformanceMark](/apis/user_timing/PerformanceMark)
+:   Exposes marks created via the mark() method to the Performance Timeline.
+[PerformanceMeasure](/apis/user_timing/PerformanceMeasure)
+:   Exposes measures created via the measure() method to the Performance Timeline.
+
+## Notes
+
+Based on [[W3C User Timing Candidate Recommendation Specification](http://www.w3.org/TR/user-timing/)]
+
+## See also
+
+### Related articles
+
+#### Performance
+
+-   [navigation timing](/apis/navigation_timing)
+
+-   [resource timing](/apis/resource_timing)
+
+-   **user timing**
+
+-   [hidden](/dom/Document/hidden)
+
+-   [visibilityState](/dom/Document/visibilityState)
+
+-   [visibilitychange](/dom/Document/visibilitychange)
+
+-   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
+

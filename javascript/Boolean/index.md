@@ -1,69 +1,96 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Creates a new Boolean (true/false) value.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=new Boolean ([ boolValue ])
-}}{{JS Syntax Format
-|Format=([ boolValue ])
-}}
-|Values={{JS Syntax Parameter
-|Name=boolValue
-|Required=Required
-|Description=The initial Boolean value for the new object. Possible values are true and false.
+---
+title: Boolean
+tags:
+  0: JS
+  1: Basic
+  3: Object
+readiness: 'Ready to Use'
+summary: 'Creates a new Boolean (true/false) value.'
+uri: javascript/Boolean
+
+---
+# Boolean
+
+## Summary
+
+Creates a new Boolean (true/false) value.
+
+## Syntax
+
+    new Boolean ([ boolValue ])
+
+    ([ boolValue ])
+
+**boolValue**
+:   Required. The initial Boolean value for the new object. Possible values are true and false.
 
 Other values (like 1 and 0) are converted to a Boolean expression.
-}}
-}}
-{{JS_Return_Value
-|Description=If the boolean value is omitted, or is false , 0, null , NaN , or an empty string, Boolean returns false. Otherwise, it returns true true.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Using Boolean to define a test condition
-|Code=var x = new Boolean(false);
+
+## Return Value
+
+If the boolean value is omitted, or is false , 0, null , NaN , or an empty string, Boolean returns false. Otherwise, it returns true true.
+
+## Examples
+
+Using Boolean to define a test condition
+
+``` {.js}
+var x = new Boolean(false);
 // This value can also be expressed as x = false;
 if (x) {
   // . . . this code will not be executed
 }
-}}{{Single Example
-|Language=JavaScript
-|Description=Using implicit Boolean constructor
-|Code=// Implicit use of new Boolean(true)
-var IsLoggedIn = true; 
+```
+
+Using implicit Boolean constructor
+
+``` {.js}
+// Implicit use of new Boolean(true)
+var IsLoggedIn = true;
 if (isLoggedIn) {
   // actions that are only done when isLoggedIn is true
 }
-}}
-}}
-{{Remarks_Section
-|Remarks=The '''Boolean''' object is a wrapper for the Boolean data type. JavaScript implicitly uses the '''Boolean''' object whenever a Boolean data type is converted to a '''Boolean''' object.
+```
 
-You rarely instantiate the '''Boolean''' object explicitly.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
+## Remarks
 
-{{See_Also_Section
-|Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.6 Boolean Objects]
-ECMAScript® Language Specification
-Standard ECMA-262
-5.1 Edition / June 2011
-}}
-{{JS Topics
-|JS Page Type=JS Object
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/t7bkhaz6(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+The **Boolean** object is a wrapper for the Boolean data type. JavaScript implicitly uses the **Boolean** object whenever a Boolean data type is converted to a **Boolean** object.
+
+You rarely instantiate the **Boolean** object explicitly.
+
+## Properties
+
+The following table lists the properties of the **Boolean** object.
+
+Property
+:   Summary
+[prototype](/javascript/Boolean/prototype)
+:   Returns a reference to the prototype for a Boolean.
+
+## Functions
+
+The following table lists the functions of the **Boolean** object.
+
+## Methods
+
+The following table lists the methods of the **Boolean** object.
+
+Method
+:   Summary
+[constructor](/javascript/Boolean/constructor)
+:   Initializes a Boolean object.
+[toString](/javascript/Boolean/toString)
+:   Returns a string representation of a Boolean object.
+
+## See also
+
+### Specification
+
+[Boolean Objects](http://www.ecma-international.org/ecma-262/5.1/#sec-15.6) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t7bkhaz6(v=vs.94).aspx)
+

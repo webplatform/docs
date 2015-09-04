@@ -1,44 +1,40 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: cy
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/cy
 
-===Remarks===
+---
+# cy
 
-The arc of a [[svg/elements/circle|'''circle''']] element and the arc of an [[svg/elements/ellipse|'''ellipse''']] element begin at the 3 o'clock point on the associated radius and progress towards the 9 o'clock point. The starting point and direction of the arc are affected by the user space transform in the same manner as the geometry of the element.
+## Notes
 
-For an example of how the starting point and direction of an arc (for an ellipse) are affected by a user space transform, see the [[svg/properties/cx|'''cx''']] topic.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+The arc of a [**circle**](/svg/elements/circle) element and the arc of an [**ellipse**](/svg/elements/ellipse) element begin at the 3 o'clock point on the associated radius and progress towards the 9 o'clock point. The starting point and direction of the arc are affected by the user space transform in the same manner as the geometry of the element.
 
-===Standards information===
+For an example of how the starting point and direction of an arc (for an ellipse) are affected by a user space transform, see the [**cx**](/svg/properties/cx) topic.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}190918 Scalable Vector Graphics (SVG) 1.1], Appendix M
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics (SVG) 1.1](http://go.microsoft.com/fwlink/p/?linkid=190918), Appendix M
 
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

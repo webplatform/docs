@@ -1,162 +1,124 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Sets the pace of action within a transition}}
-{{CSS Property
-|Initial value=ease
-|Applies to=all elements
-|Inherited=No
-|Media=interactive
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=transitionTimingFunction
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=ease
-|Description=Default. Starts and stops gradually, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0.25,0.1,0.25,1)''']]
-}}{{CSS Property Value
-|Data Type=linear
-|Description=Starts and stops immediately, progressing at a constant rate, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0,0,1,1)''']].
-}}{{CSS Property Value
-|Data Type=ease-in
-|Description=Starts gradually and stops suddenly, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0.42,0,1,1)''']].
-}}{{CSS Property Value
-|Data Type=ease-out
-|Description=Starts suddenly and stops gradually, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0,0,0.58,1)''']].
-}}{{CSS Property Value
-|Data Type=ease-in-out
-|Description=Starts and stops gradually, equivalent to [[css/functions/cubic-bezier|'''cubic-bezier(0.42,0,0.58,1)''']].
-}}{{CSS Property Value
-|Data Type=[[css/functions/cubic-bezier|'''cubic-bezier()''']]
-|Description=Function value specifying a customized response curve.
-}}{{CSS Property Value
-|Data Type=[[css/functions/steps|'''steps()''']]
-|Description=Function value specifying a series of discrete intervals.
-}}{{CSS Property Value
-|Data Type=step-start
-|Description=The change occurs instantly at the start of the keyframe, equivalent to [[css/functions/steps|'''steps(1, start)''']].
-}}{{CSS Property Value
-|Data Type=step-end
-|Description=The change occurs instantly at the end of the keyframe, equivalent to [[css/functions/steps|'''steps(1, end)''']].
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Default transition timing
-|Code=transition-timing-function: ease;
-|LiveURL=http://letmespellitoutforyou.com/samples/transit_delay.html A series of elements animate in progression.
-}}{{Single Example
-|Language=CSS
-|Description=No easing behavior: animation starts and stops abruptly and proceeds at a constant rate.
-|Code=transition-timing-function: linear;
-|LiveURL=http://letmespellitoutforyou.com/samples/transit_delay.html
-}}{{Single Example
-|Language=Other
-|Description=See how changing the timing value affects a sequence of two transitions
-|Code=
-|LiveURL=http://letmespellitoutforyou.com/samples/transit_timing.html
-}}
-}}
-{{Notes_Section
-|Usage=Along with other transition properties, multiple values
-separated by commas apply to transitions in the same order as they are
-listed by the [[css/properties/transition-property|'''transition-property''']]
-property. Excess values are ignored. If there are fewer timing values
-than transitions, they're recycled in order of declaration until their
-numbers match.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Transitions
-|URL=http://www.w3.org/TR/2009/WD-css3-transitions-20091201/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=4.0
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=5.0
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=12.0
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=3.1
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7.0
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Yes
-|Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=16.0
-|Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=15.0
-|IE_mobile_supported=Yes
-|IE_mobile_version=WP 8 (IE 10)
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=12.1
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10.0
-|Note=The -ms- prefix property is deprecated and should not be used.
-}}
-}}
+---
+title: transition-timing-function
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Sets the pace of action within a transition'
+code_samples:
+  - 'http://letmespellitoutforyou.com/samples/transit_delay.html'
+  - 'http://letmespellitoutforyou.com/samples/transit_timing.html'
+uri: css/properties/transition-timing-function
+
+---
+# transition-timing-function
+
+## Summary
+
+Sets the pace of action within a transition
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `ease`
+Applies to
+:   all elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   interactive
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `transitionTimingFunction`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `transition-timing-function: cubic-bezier()`
+-   `transition-timing-function: steps()`
+-   `transition-timing-function: ease`
+-   `transition-timing-function: ease-in`
+-   `transition-timing-function: ease-in-out`
+-   `transition-timing-function: ease-out`
+-   `transition-timing-function: linear`
+-   `transition-timing-function: step-end`
+-   `transition-timing-function: step-start`
+
+## Values
+
+ease
+:   Default. Starts and stops gradually, equivalent to [**cubic-bezier(0.25,0.1,0.25,1)**](/css/functions/cubic-bezier)
+
+linear
+:   Starts and stops immediately, progressing at a constant rate, equivalent to [**cubic-bezier(0,0,1,1)**](/css/functions/cubic-bezier).
+
+ease-in
+:   Starts gradually and stops suddenly, equivalent to [**cubic-bezier(0.42,0,1,1)**](/css/functions/cubic-bezier).
+
+ease-out
+:   Starts suddenly and stops gradually, equivalent to [**cubic-bezier(0,0,0.58,1)**](/css/functions/cubic-bezier).
+
+ease-in-out
+:   Starts and stops gradually, equivalent to [**cubic-bezier(0.42,0,0.58,1)**](/css/functions/cubic-bezier).
+
+[**cubic-bezier()**](/css/functions/cubic-bezier)
+:   Function value specifying a customized response curve.
+
+[**steps()**](/css/functions/steps)
+:   Function value specifying a series of discrete intervals.
+
+step-start
+:   The change occurs instantly at the start of the keyframe, equivalent to [**steps(1, start)**](/css/functions/steps).
+
+step-end
+:   The change occurs instantly at the end of the keyframe, equivalent to [**steps(1, end)**](/css/functions/steps).
+
+## Examples
+
+Default transition timing
+
+``` {.css}
+transition-timing-function: ease;
+```
+
+[A series of elements animate in progression. View live example](http://letmespellitoutforyou.com/samples/transit_delay.html)
+
+No easing behavior: animation starts and stops abruptly and proceeds at a constant rate.
+
+``` {.css}
+transition-timing-function: linear;
+```
+
+[View live example](http://letmespellitoutforyou.com/samples/transit_delay.html)
+
+See how changing the timing value affects a sequence of two transitions
+
+``` {.other}
+```
+
+[View live example](http://letmespellitoutforyou.com/samples/transit_timing.html)
+
+## Usage
+
+     Along with other transition properties, multiple values
+
+separated by commas apply to transitions in the same order as they are listed by the [**transition-property**](/css/properties/transition-property) property. Excess values are ignored. If there are fewer timing values than transitions, they're recycled in order of declaration until their numbers match.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

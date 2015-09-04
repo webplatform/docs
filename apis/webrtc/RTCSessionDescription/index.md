@@ -1,46 +1,36 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Stub, Missing Relevant Sections, Needs Review
-|Content=Incomplete
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Describes the session with a serialized Session Description Protocol object.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: RTCSessionDescription
+tags:
+  0: API
+  1: Objects
+  3: WebRTC
+readiness: 'Almost Ready'
+notes:
+  - 'Needs spec reference, standardization status'
+summary: 'Describes the session with a serialized Session Description Protocol object.'
+uri: apis/webrtc/RTCSessionDescription
+
+---
+# RTCSessionDescription
+
+## Summary
+
+Describes the session with a serialized Session Description Protocol object.
+
+## Properties
+
+API Name
+:   Summary
+[sdp](/apis/webrtc/RTCSessionDescription/sdp)
+:   The string representation of the SDP object.
+[type](/apis/webrtc/RTCSessionDescription/type)
+:   The type of SDP object this RTCSessionDescription represents.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+

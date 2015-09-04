@@ -1,37 +1,41 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Summary/overview, compatibility, possible examples
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Concept_Listing
-|Use_page_title=No
-|List_all_subpages=No
-}}
+---
+title: History
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Summary/overview, compatibility, possible examples'
+uri: dom/History
+
+---
+# History
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+API Name
+:   Summary
+[back](/dom/History/back)
+:
+[forward](/dom/History/forward)
+:
+[go](/dom/History/go)
+:   Navigates to a relatively positioned history record.
+[pushState](/dom/History/pushState)
+:   Programmatically push a document state (including URI and document title) onto the user agent's history.
+[replaceState](/dom/History/replaceState)
+:   Overwrites the current history record with a new record.
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+

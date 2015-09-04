@@ -1,61 +1,68 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Retrieves the previous child node of the parent of the node.}}
-{{API_Object_Property
-|Property_applies_to=dom/Node
-|Read_only=Yes
-|Example_object_name=node
-|Return_value_name=previousNode
-|Javascript_data_type=DOM Node
-|Return_value_description=The previous child node of the parent of the node, or null if the node is the first child.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''previousSibling''' property to obtain the previous sibling of a list item.
-|Code=&lt;script&gt;
+---
+title: previousSibling
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves the previous child node of the parent of the node.'
+uri: dom/Node/previousSibling
+
+---
+# previousSibling
+
+## Summary
+
+Retrieves the previous child node of the parent of the node.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Node](/dom/Node)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var previousNode = node.previousSibling;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+The previous child node of the parent of the node, or null if the node is the first child.
+
+## Examples
+
+This example uses the **previousSibling** property to obtain the previous sibling of a list item.
+
+``` {.html}
+<script>
 // returns the list item labeled 'List Item 1'
-var oSibling {{=}} document.getElementById("oList").childNodes[1].previousSibling;
-&lt;/script&gt;
-&lt;body&gt;
- &lt;ul id{{=}}"oList"&gt;
-  &lt;li&gt;List Item 1&lt;/li&gt;
-  &lt;li&gt;List Item 2&lt;/li&gt;
-  &lt;li&gt;List Item 3&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/body&gt;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 1
-|URL=http://www.w3.org/TR/REC-DOM-Level-1/
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.previousSibling Node.previousSibling]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534350(v=vs.85).aspx previousSibling Property]
-|HTML5Rocks_link=
-}}
+var oSibling = document.getElementById("oList").childNodes[1].previousSibling;
+</script>
+<body>
+ <ul id="oList">
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3</li>
+ </ul>
+</body>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.previousSibling](https://developer.mozilla.org/en-US/docs/Web/API/Node.previousSibling) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[previousSibling Property](http://msdn.microsoft.com/en-us/library/ie/ms534350(v=vs.85).aspx) Article]
+

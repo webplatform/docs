@@ -1,42 +1,36 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Examples_Section
-|Not_required=No
-|Examples=}}
-{{Topics|SVG}}
-{{Notes_Section
-|Import_Notes=
+---
+title: getSVGDocument
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/getSVGDocument
 
-===Syntax===
+---
+# getSVGDocument
 
-===Standards information===
+**Needs Examples**: This section should include examples.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.13
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.13
 
-*HTMLFrameElement
-*HTMLIFrameElement
-*HTMLObjectElement
-*HTMLEmbedElement
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   HTMLFrameElement
+-   HTMLIFrameElement
+-   HTMLObjectElement
+-   HTMLEmbedElement
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

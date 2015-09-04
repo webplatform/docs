@@ -1,69 +1,94 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+---
+title: target
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+summary: 'Target is a link attribute, which defines where to open the link.'
+uri: html/attributes/target
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/methods/open
 
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Target is a link attribute, which defines where to open the link.}}
-{{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/a
-|Property_applies_to=dom/HTMLElement
-|Content=<strong>Target</strong> is a link attribute that defines in what window a link will open.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A target value of "_blank" will cause the page to open in a new window.
-|Code=<syntaxhighlight lang="html5"><a href="#" target="_blank">Link Text</a></syntaxhighlight>
-}}{{Single Example
-|Language=HTML
-|Description=A target value of "_self" will cause the page to open in the same window or frame.
-|Code=<syntaxhighlight lang="html5"><a href="#" target="_self">Link Text</a></syntaxhighlight>
-}}{{Single Example
-|Language=HTML
-|Description=A target value of "_parent" will cause the page to open in parent frame of the element.
-|Code=<syntaxhighlight lang="html5"><a href="#" target="_parent">Link Text</a></syntaxhighlight>
-}}{{Single Example
-|Language=HTML
-|Description=A target value of "_top" will cause the page to open in the top-most frame.
-|Code=<syntaxhighlight lang="html5"><a href="#" target="_top">Link Text</a></syntaxhighlight>
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The window '''name''' is an optional argument in the [[dom/methods/open|'''open''']] scripting method.
-If there is no existing window or frame with the same '''name''' as specified in the '''target''', a new window is opened with a '''name''' equal to the value of the '''target'''.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>area</code>
-*<code>base</code>
-*<code>form</code>
-*<code>link</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+# target
+
+## Summary
+
+Target is a link attribute, which defines where to open the link.
+
+Applies to
+:   [http://docs.webplatform.org/wiki/html/elements/a](http://docs.webplatform.org/wiki/html/elements/a)
+
+**Target** is a link attribute that defines in what window a link will open.
+
+## Examples
+
+A target value of "\_blank" will cause the page to open in a new window.
+
+``` {.html}
+
+
+<a href="#" target="_blank">Link Text</a>
+```
+
+</pre>
+
+A target value of "\_self" will cause the page to open in the same window or frame.
+
+``` {.html}
+
+
+<a href="#" target="_self">Link Text</a>
+```
+
+</pre>
+
+A target value of "\_parent" will cause the page to open in parent frame of the element.
+
+``` {.html}
+
+
+<a href="#" target="_parent">Link Text</a>
+```
+
+</pre>
+
+A target value of "\_top" will cause the page to open in the top-most frame.
+
+``` {.html}
+
+
+<a href="#" target="_top">Link Text</a>
+```
+
+</pre>
+
+## Notes
+
+### Remarks
+
+The window **name** is an optional argument in the [**open**](/w/index.php?title=dom/methods/open&action=edit&redlink=1) scripting method. If there is no existing window or frame with the same **name** as specified in the **target**, a new window is opened with a **name** equal to the value of the **target**.
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `a`
+-   `area`
+-   `base`
+-   `form`
+-   `link`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

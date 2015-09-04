@@ -1,100 +1,147 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add description, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Sets the width, style, and color of the rule between columns.}}
-{{CSS Property
-|Initial value=see individual properties
-|Applies to=multi-column elements
-|Inherited=No
-|Media=visual
-|Animatable=No
-|CSS object model property=columnRule
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=column-rule-width
-|Description=Value of the [[css/properties/column-rule-width|'''column-rule-width''']] property.
-}}{{CSS Property Value
-|Data Type=column-rule-style
-|Description=Value of the [[css/properties/column-rule-style|'''column-rule-style''']] property.
-}}{{CSS Property Value
-|Data Type=column-rule-color
-|Description=Value of the [[css/properties/column-rule-color|'''column-rule-color''']] property.
-}}{{CSS Property Value
-|Data Type=transparent
-|Description=Indicates rule is transparent.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Makes 3 columns with 4px dashed green column-rule.
-|Code=#columns {
+---
+title: column-rule
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Add description, specifications, compatibility.'
+summary: 'Sets the width, style, and color of the rule between columns.'
+code_samples:
+  - 'http://gist.github.com/6288958'
+uri: css/properties/column-rule
+
+---
+# column-rule
+
+## Summary
+
+Sets the width, style, and color of the rule between columns.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `see individual properties`
+Applies to
+:   multi-column elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `columnRule`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `column-rule: column-rule-color`
+-   `column-rule: column-rule-style`
+-   `column-rule: column-rule-width`
+-   `column-rule: transparent`
+
+## Values
+
+column-rule-width
+:   Value of the [**column-rule-width**](/css/properties/column-rule-width) property.
+
+column-rule-style
+:   Value of the [**column-rule-style**](/css/properties/column-rule-style) property.
+
+column-rule-color
+:   Value of the [**column-rule-color**](/css/properties/column-rule-color) property.
+
+transparent
+:   Indicates rule is transparent.
+
+## Examples
+
+Makes 3 columns with 4px dashed green column-rule.
+
+``` {.css}
+#columns {
   column-count: 3;
   column-rule: 4px dashed green;
 }
-|LiveURL=http://code.webplatform.org/gist/6288958
-}}
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-<code>'''column-rule: '''''column-rule-width'' '''{{!}}{{!}}''' ''column-rule-style'' '''{{!}}{{!}}''' '''[''' ''column-rule-color'' '''{{!}}''' transparent ''']'''</code>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Multi-Column
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/6288958)
+
+### Syntax
+
+`column-rule: column-rule-width || column-rule-style || [ column-rule-color | transparent ]`
+
+## See also
+
+### Related articles
+
+#### Multi-Column
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [column-count](/css/properties/column-count)
+
+-   [column-gap](/css/properties/column-gap)
+
+-   **column-rule**
+
+-   [column-rule-color](/css/properties/column-rule-color)
+
+-   [column-rule-style](/css/properties/column-rule-style)
+
+-   [column-rule-width](/css/properties/column-rule-width)
+
+-   [column-span](/css/properties/column-span)
+
+-   [column-width](/css/properties/column-width)
+
+-   [content](/css/properties/content)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `style`
+-   `address`
+-   `blockQuote`
+-   `div`
+-   `dl`
+-   `fieldSet`
+-   `form`
+-   `noFrames`
+-   `noScript`
+-   `ol`
+-   `p`
+-   `pre`
+-   `table`
+-   `ul`
+-   `dd`
+-   `dt`
+-   `li`
+-   `tBody`
+-   `td`
+-   `tFoot`
+-   `th`
+-   `tHead`
+-   `tr`
+-   `button`
+-   `del`
+-   `ins`
+-   `map`
+-   `object`
+-   `script`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

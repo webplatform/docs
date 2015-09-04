@@ -1,72 +1,63 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Schedules a sound to stop playback at an exact time, with options.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=when
-|Data type=Number
-|Description=Describes at what time (in seconds) the sound should stop playing. It is in the same time coordinate system as [[apis/webaudio/AudioContext/currentTime|'''AudioContext.currentTime''']]. If 0 is passed in for this value or if the value is less than '''currentTime''', then the sound will stop playing immediately. stop must only be called one time and only after a call to start or stop, or an exception will be thrown.
-|Optional=No
-}}
-|Method_applies_to=apis/webaudio/AudioBufferSourceNode
-|Example_object_name=AudioBufferSourceNode
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Stop playing the sound immediately.
-|Code=var source = audioCtx.createBufferSource();
+---
+title: stop
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: WebAudio
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Schedules a sound to stop playback at an exact time, with options.'
+uri: apis/webaudio/AudioBufferSourceNode/stop
+
+---
+# stop
+
+## Summary
+
+Schedules a sound to stop playback at an exact time, with options.
+
+*Method of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)*
+
+## Syntax
+
+``` {.js}
+var  = AudioBufferSourceNode.stop(when);
+```
+
+## Parameters
+
+### when
+
+ Data-typeÂ
+:   Number
+
+ Describes at what time (in seconds) the sound should stop playing. It is in the same time coordinate system as [**AudioContext.currentTime**](/apis/webaudio/AudioContext/currentTime). If 0 is passed in for this value or if the value is less than **currentTime**, then the sound will stop playing immediately. stop must only be called one time and only after a call to start or stop, or an exception will be thrown.
+
+## Return Value
+
+Returns an object of type .
+
+## Examples
+
+Stop playing the sound immediately.
+
+``` {.js}
+var source = audioCtx.createBufferSource();
 source.stop();
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=Stop playing the sound after 3 seconds.
-|Code=var source = audioCtx.createBufferSource();
+```
+
+Stop playing the sound after 3 seconds.
+
+``` {.js}
+var source = audioCtx.createBufferSource();
 source.stop(3);
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

@@ -1,30 +1,33 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add values, syntax, example, description, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{Summary_Section|The '''continuous''' media group includes all media type that can present a document as a continuous stream of indeterminate length.}}
-{{CSS Media Group
-|Description=The opposite of continuous media is [[css/media queries/media groups/paged | paged media]].
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: continuous
+tags:
+  - CSS
+  - Media
+  - Groups
+readiness: 'Not Ready'
+notes:
+  - 'Add values, syntax, example, description, specifications, compatibility.'
+summary: 'The continuous media group includes all media type that can present a document as a continuous stream of indeterminate length.'
+uri: 'css/media queries/media groups/continuous'
+
+---
+# continuous
+
+## Summary
+
+The continuous media group includes all media type that can present a document as a continuous stream of indeterminate length.
+
+The opposite of continuous media is [paged media](/css/media_queries/media_groups/paged).
+
+## Applicable Media Types
+
+(none in the database)
+
+## Applicable Media Features
+
+(none in the database)
+
+## Applicable CSS properties
+
+(none in the database)
+

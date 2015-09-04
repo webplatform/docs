@@ -1,58 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Out of Date
-|Editorial notes=Deprecated; deletion candidate. See http://webaudio.github.io/web-audio-api/.
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|An [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] where the output audio data should be written. It will have a number of channels equal to the '''numberOfOutputChannels''' parameter of the [[apis/webaudio/AudioContext/createScriptProcessor|'''createScriptProcessor()''']] method. Script code within the scope of the [[apis/webaudio/ScriptProcessorNode/onaudioprocess|'''onaudioprocess''']] function is expected to modify the '''Float32Array''' arrays representing channel data in this [[apis/webaudio/AudioBuffer|'''AudioBuffer''']]. Any script modifications to this [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] outside of this scope will not produce any audible effects.
+---
+title: outputBuffer
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: WebAudio
+readiness: 'Out of Date'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Deprecated; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
+summary: "An AudioBuffer where the output audio data should be written. It will have a number of channels equal to the numberOfOutputChannels parameter of the createScriptProcessor() method. Script code within the scope of the onaudioprocess function is expected to modify the Float32Array arrays representing channel data in this AudioBuffer. Any script modifications to this AudioBuffer outside of this scope will not produce any audible effects.\n"
+uri: apis/webaudio/AudioProcessingEvent/outputBuffer
 
-'''Deprecated; deletion candidate. See [http://webaudio.github.io/web-audio-api/ http://webaudio.github.io/web-audio-api/].'''
-}}
-{{API_Object_Property
-|Property_applies_to=apis/webaudio/AudioProcessingEvent
-|Read_only=Yes
-|Example_object_name=AudioProcessingEvent
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+# outputBuffer
+
+## Summary
+
+An AudioBuffer where the output audio data should be written. It will have a number of channels equal to the numberOfOutputChannels parameter of the createScriptProcessor() method. Script code within the scope of the onaudioprocess function is expected to modify the Float32Array arrays representing channel data in this AudioBuffer. Any script modifications to this AudioBuffer outside of this scope will not produce any audible effects.
+
+**Deprecated; deletion candidate. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = AudioProcessingEvent.outputBuffer;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

@@ -1,25 +1,46 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The <code>tr</code> element represents a row of cells in a table.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLTableRowElement
-|Tag_omissions=Closing tag required
-|CSS_display=table
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''TR''' element with the [[html/elements/table|'''TABLE''']], '''TD''', and '''TR''' elements to create a table with two rows.
-|Code=<nowiki><table>
+---
+title: tr
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+notes:
+  - 'Add compatibility'
+summary: 'The tr element represents a row of cells in a table.'
+uri: html/elements/tr
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/properties/rowIndex
+    - 'dom/properties/rows (table)'
+    - dom/methods/insertRow
+    - dom/methods/deleteRow
+    - dom/properties/cellIndex
+    - dom/properties/cellSpacing
+    - dom/methods/insertCell
+    - dom/methods/deleteCell
+    - dom/properties/innerdom/innerHTML
+    - dom/properties/innerText
+
+---
+# tr
+
+## Summary
+
+The tr element represents a row of cells in a table.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLTableRowElement](/dom/HTMLTableRowElement)
+
+## Examples
+
+This example uses the **TR** element with the [**TABLE**](/html/elements/table), **TD**, and **TR** elements to create a table with two rows.
+
+``` {.html}
+<table>
 <tbody>
 <tr>
 <td>This is the first row.</td>
@@ -28,84 +49,76 @@
 <td>This is the second row.</td>
 </tr>
 </tbody>
-</table></nowiki>
-}}{{Single Example
-|Language=HTML
-|Description=This example uses the table object model to dynamically add two rows and two cells to a table when the user clicks a button.
-|Code=<nowiki><script type="application/javascript">
+</table>
+```
+
+This example uses the table object model to dynamically add two rows and two cells to a table when the user clicks a button.
+
+``` {.html}
+<script type="application/javascript">
 function createRows(){
    // Insert two rows.
    var oRow1=oTable.insertRow(oTable.rows.length);
    var oRow2=oTable.insertRow(oTable.rows.length);
-   
+
    // Retrieve the rows collection for the table.
    var aRows=oTable.rows;
-   
+
    // Retrieve the cells collection for the first row.
    var aCells=oRow1.cells;
-   
+
    // Insert two cells into the first row.
    var oCell1_1=aRows(oRow1.rowIndex).insertCell(aCells.length);
    var oCell1_2=aRows(oRow1.rowIndex).insertCell(aCells.length);
-   
+
    // Retrieve the cells collection for the second row.
    aCells=oRow2.cells;
-   
+
    // Insert two cells into the second row.
    var oCell2_1=aRows(oRow2.rowIndex).insertCell(aCells.length);
    var oCell2_2=aRows(oRow2.rowIndex).insertCell(aCells.length);
-   
-   // Add regular HTML values to the 4 new cells. 
+
+   // Add regular HTML values to the 4 new cells.
    oCell1_1.innerHTML="<b>Cell 1.1!</b>";
    oCell1_2.innerHTML="<b>Cell 1.2!</b>";
    oCell2_1.innerHTML="<b>Cell 2.1!</b>";
-   oCell2_2.innerHTML="<b>Cell 2.2!</b>";		
+   oCell2_2.innerHTML="<b>Cell 2.2!</b>";
 }
 </script>
 <button onclick="createRows()">Create Rows</button>
-<table id="oTable"></table></nowiki>
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The '''TD''' and '''TH''' elements are valid within a row.
-To change the HTML in the '''TR''' element, use the table object model. For example, use the [[dom/properties/rowIndex|'''rowIndex''']] property or the [[dom/properties/rows (table)|'''rows''']] collection to retrieve a reference to a specific table row. You can add or delete rows using the [[dom/methods/insertRow|'''insertRow''']] and [[dom/methods/deleteRow|'''deleteRow''']] methods. To retrieve a reference to a specific cell, use the [[dom/properties/cellIndex|'''cellIndex''']] property or the [[dom/properties/cellSpacing|'''cells''']] collection. You can add or delete cells using the [[dom/methods/insertCell|'''insertCell''']] and [[dom/methods/deleteCell|'''deleteCell''']] methods. To change the content of a particular cell, use the [[dom/properties/innerdom/innerHTML|'''innerHTML''']] or [[dom/properties/innerText|'''innerText''']] property.
-The [[html/elements/table|'''table''']] object and its associated elements have a separate table object model, which uses different methods than the general object model.  For more information on the table object model, see Building Tables Dynamically.
-Windows Internet Explorer 8 will only render tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/tabular-data.html#the-tr-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/tabular-data.html#the-tr-element
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/tables.html#edef-TR
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>[[css/properties/border-collapse|borderCollapse]]</code>
-*<code>Conceptual</code>
-*<code>Building Tables Dynamically</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+<table id="oTable"></table>
+```
+
+## Notes
+
+### Remarks
+
+The **TD** and **TH** elements are valid within a row. To change the HTML in the **TR** element, use the table object model. For example, use the [**rowIndex**](/w/index.php?title=dom/properties/rowIndex&action=edit&redlink=1) property or the [**rows**](/w/index.php?title=dom/properties/rows_(table)&action=edit&redlink=1) collection to retrieve a reference to a specific table row. You can add or delete rows using the [**insertRow**](/w/index.php?title=dom/methods/insertRow&action=edit&redlink=1) and [**deleteRow**](/w/index.php?title=dom/methods/deleteRow&action=edit&redlink=1) methods. To retrieve a reference to a specific cell, use the [**cellIndex**](/w/index.php?title=dom/properties/cellIndex&action=edit&redlink=1) property or the [**cells**](/w/index.php?title=dom/properties/cellSpacing&action=edit&redlink=1) collection. You can add or delete cells using the [**insertCell**](/w/index.php?title=dom/methods/insertCell&action=edit&redlink=1) and [**deleteCell**](/w/index.php?title=dom/methods/deleteCell&action=edit&redlink=1) methods. To change the content of a particular cell, use the [**innerHTML**](/w/index.php?title=dom/properties/innerdom/innerHTML&action=edit&redlink=1) or [**innerText**](/w/index.php?title=dom/properties/innerText&action=edit&redlink=1) property. The [**table**](/html/elements/table) object and its associated elements have a separate table object model, which uses different methods than the general object model. For more information on the table object model, see Building Tables Dynamically. Windows Internet Explorer 8 will only render tables up to 1000 columns. To force Windows Internet Explorer 7 rendering mode, see How Do I Take Advantage of the New Features in Internet Explorer 8.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-tr-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-tr-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TR)
+:   W3C Recommendation
+
+## See also
+
+### Related pages (MSDN)
+
+-   `Reference`
+-   `table`
+-   `borderCollapse`
+-   `Conceptual`
+-   `Building Tables Dynamically`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

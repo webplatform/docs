@@ -1,97 +1,134 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add examples
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Border-collapse can be used for collapsing the borders between table cells}}
-{{CSS Property
-|Initial value=separate
-|Applies to=Table and inline-table elements
-|Inherited=Yes
-|Media=visual
-|Computed value=
-|Animatable=No
-|CSS object model property=borderCollapse
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=separate
-|Description=Default. Borders are detached (standard HTML). Each table cell has an individual border, with optional space between the borders.
-}}{{CSS Property Value
-|Data Type=collapse
-|Description=Adjacent borders and the space between them are collapsed into a single border.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=The same specified value as the property for the element's parent will be used.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=An example of border-collapse 'collapse' and 'seperate' table borders are red, cell borders are blue
-|Code=/**
- * @author	Vivienne van Velzen
- * @see		http://code.webplatform.org/gist/6948189
+---
+title: border-collapse
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add examples'
+summary: 'Border-collapse can be used for collapsing the borders between table cells'
+code_samples:
+  - 'http://gist.github.com/6948189'
+uri: css/properties/border-collapse
+
+---
+# border-collapse
+
+## Summary
+
+Border-collapse can be used for collapsing the borders between table cells
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `separate`
+Applies to
+:   Table and inline-table elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `borderCollapse`
+
+## Syntax
+
+-   `border-collapse: collapse`
+-   `border-collapse: inherit`
+-   `border-collapse: separate`
+
+## Values
+
+separate
+:   Default. Borders are detached (standard HTML). Each table cell has an individual border, with optional space between the borders.
+
+collapse
+:   Adjacent borders and the space between them are collapsed into a single border.
+
+inherit
+:   The same specified value as the property for the element's parent will be used.
+
+## Examples
+
+An example of border-collapse 'collapse' and 'seperate' table borders are red, cell borders are blue
+
+``` {.css}
+/**
+ * @author  Vivienne van Velzen
+ * @see     http://code.webplatform.org/gist/6948189
  */
 
 table {
-	border-color: #F00;
-	border-collapse: seperate; /* default */
+    border-color: #F00;
+    border-collapse: seperate; /* default */
 }
 td {
-	border-color: #00F;
+    border-color: #00F;
 }
 table.collapse {
-	border-collapse: collapse;
+    border-collapse: collapse;
 }
 p {
-	margin: 15px 0 3px 0;
+    margin: 15px 0 3px 0;
 }
 td p {
-	margin: 3px;
+    margin: 3px;
 }
-|LiveURL=http://code.webplatform.org/gist/6948189
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS 2.1, section 17.6. Borders
-|URL=http://www.w3.org/TR/CSS2/tables.html#propdef-border-collapse
-|Status=Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS 3, section 8. Borders
-|URL=http://dev.w3.org/csswg/css3-tables/#border-collapse
-|Status=Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Tables
-|Manual_links=* [[css/properties/border]]
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/6948189)
+
+## Related specifications
+
+Specification
+:   Status
+[CSS 2.1, section 17.6. Borders](http://www.w3.org/TR/CSS2/tables.html#propdef-border-collapse)
+:   Recommendation
+[CSS 3, section 8. Borders](http://dev.w3.org/csswg/css3-tables/#border-collapse)
+:   Editor's Draft
+
+## See also
+
+### Related articles
+
+#### Tables
+
+-   **border-collapse**
+
+-   [border-spacing](/css/properties/border-spacing)
+
+-   [caption-side](/css/properties/caption-side)
+
+-   [empty-cells](/css/properties/empty-cells)
+
+-   [Tables](/css/tables)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+### Other articles
+
+-   [css/properties/border](/css/properties/border)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

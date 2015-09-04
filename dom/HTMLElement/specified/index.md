@@ -1,69 +1,70 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=summary, clean-up MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLElement
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following code example uses the '''specified''' property to determine the attributes that are set for an object. The function checks each attribute and lists all of the attributes of the object and their values.
-|Code=&lt;script&gt;
-function fnFindSpecified(){
-   var oAttributes{{=}}oList.attributes;
-   alert(oAttributes(0).nodeName);
-   for(var i{{=}}0;i&lt;oAttributes.length;i++){
-      var oNode{{=}}document.createElement("LI");
-      var oNodeValue{{=}}document.createTextNode(i + " "
-                     + oAttributes(i).nodeName + " {{=}} "
-                     + oAttributes(i).nodeValue);
-      oList.appendChild(oNode);
-      oNode.appendChild(oNodeValue);
-      if(oAttributes(i).nodeValue!{{=}}null){
-         alert(oAttributes(i).nodeName
-         + " specified: " + oAttributes(i).specified);
-      }
-   }
-}
-&lt;/script&gt;
-&lt;ul id{{=}}"oList" onclick{{=}} "fnFindSpecified()"&gt;
-&lt;li&gt;Click to Find Specified Attributes&lt;/li&gt;
-&lt;/ul&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-An attribute value is specified if it is assigned through HTML or script.
-Windows Internet Explorer 9. When webpages are displayed in IE9 Standards mode, the [[dom/Node/attributes|'''attributes''']] collection does not contain attributes that are not specifically created (unlike previous Windows Internet Explorer versions). As a result, the '''specified''' property returns <code>true</code> for every item in the '''attributes''' collection.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 1.2
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: specified
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'summary, clean-up MSDN import'
+uri: dom/HTMLElement/specified
+
+---
+# specified
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.specified;
+element.specified = value;
+```
+
+## Examples
+
+The following code example uses the **specified** property to determine the attributes that are set for an object. The function checks each attribute and lists all of the attributes of the object and their values.
+
+    <script>
+    function fnFindSpecified(){
+       var oAttributes=oList.attributes;
+       alert(oAttributes(0).nodeName);
+       for(var i=0;i<oAttributes.length;i++){
+          var oNode=document.createElement("LI");
+          var oNodeValue=document.createTextNode(i + " "
+                         + oAttributes(i).nodeName + " = "
+                         + oAttributes(i).nodeValue);
+          oList.appendChild(oNode);
+          oNode.appendChild(oNodeValue);
+          if(oAttributes(i).nodeValue!=null){
+             alert(oAttributes(i).nodeName
+             + " specified: " + oAttributes(i).specified);
+          }
+       }
+    }
+    </script>
+    <ul id="oList" onclick= "fnFindSpecified()">
+    <li>Click to Find Specified Attributes</li>
+    </ul>
+
+## Notes
+
+### Remarks
+
+An attribute value is specified if it is assigned through HTML or script. Windows Internet Explorer 9. When webpages are displayed in IE9 Standards mode, the [**attributes**](/dom/Node/attributes) collection does not contain attributes that are not specifically created (unlike previous Windows Internet Explorer versions). As a result, the **specified** property returns `true` for every item in the **attributes** collection.
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 1.2
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

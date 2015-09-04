@@ -1,102 +1,98 @@
-{{Page_Title|li – list item}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Compatibility
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The '''li''' element represents one list item.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLLIElement
-|Tag_omissions=
-|CSS_display=
-|Content=Its parent element may be [[html/elements/ol|ol]], [[html/elements/ul|ul]], or [[html/elements/menu|menu]].
+---
+title: li
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+notes:
+  - 'Add Compatibility'
+summary: 'The li element represents one list item.'
+uri: html/elements/li
 
+---
+# li – list item
 
-== HTML Attributes ==
+## Summary
 
-* <code>value</code> = valid integer<br />Specifies the ordinal value of the list item.<br />The value attribute can be used when the parent element in only a ol element. [[#Example_B|[Example B]]]
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''li''' element to create individual items in an unordered list.
-|Code=&lt;ul>
-     &lt;li>Art</li>
-     &lt;li>History</li>
-     &lt;li>Literature</li>
-     &lt;li>Sports</li>
-     &lt;li>Entertainment</li>
-     &lt;li>Science</li>
-&lt;/ul>
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=This example uses the '''li''' element to create individual items in an ordered list.
-|Code=&lt;ol>
-     &lt;li>First</li>
-     &lt;li>Second</li>
-     &lt;li>Third</li>
-&lt;/ol>
-|LiveURL=
-}}{{Single Example
-|Language=CSS
-|Description=Typical browser default CSS properties for the '''li''' element.
-|Code=display: list-item;
+The li element represents one list item.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLLIElement](/dom/HTMLLIElement)
+
+Its parent element may be [ol](/html/elements/ol), [ul](/html/elements/ul), or [menu](/html/elements/menu).
+
+## HTML Attributes
+
+-   `value` = valid integer
+    Specifies the ordinal value of the list item.
+    The value attribute can be used when the parent element in only a ol element. [[Example B]](#Example_B)
+
+## Examples
+
+This example uses the **li** element to create individual items in an unordered list.
+
+``` {.html}
+<ul>
+     <li>Art</li>
+     <li>History</li>
+     <li>Literature</li>
+     <li>Sports</li>
+     <li>Entertainment</li>
+     <li>Science</li>
+</ul>
+```
+
+This example uses the **li** element to create individual items in an ordered list.
+
+``` {.html}
+<ol>
+     <li>First</li>
+     <li>Second</li>
+     <li>Third</li>
+</ol>
+```
+
+Typical browser default CSS properties for the **li** element.
+
+``` {.css}
+display: list-item;
 margin-left: 40px;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-The [[html/attributes/type (ul,li,ol elements)|'''type''']] attribute values '''disc''', '''circle''', and '''square''' apply to unordered lists; the values '''1''', '''a''', '''A''', '''i''', and '''I''' apply to ordered lists.
-When the '''li''' element is absolutely positioned with CSS, the list item marker is not rendered.
-The default value of the [[css/properties/display|'''display''']] property for this element is '''list-item'''.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/grouping-content.html#the-li-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/grouping-content.html#the-li-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/lists.html#edef-LI
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=* [[html/elements/dir|<code>dir</code>]]
-* [[html/elements/menu|<code>menu</code>]]
-* [[html/elements/ol|<code>ol</code>]]
-* [[html/elements/ul|<code>ul</code>]]
-* [[html/elements/dd|<code>dd</code>]]
-* [[html/elements/dt|<code>dt</code>]]
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Notes
+
+### Remarks
+
+The [**type**](/html/attributes/type_(ul,li,ol_elements)) attribute values **disc**, **circle**, and **square** apply to unordered lists; the values **1**, **a**, **A**, **i**, and **I** apply to ordered lists. When the **li** element is absolutely positioned with CSS, the list item marker is not rendered. The default value of the [**display**](/css/properties/display) property for this element is **list-item**.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-li-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-li-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html#edef-LI)
+:   W3C Recommendation
+
+## See also
+
+### Other articles
+
+-   [`dir`](/html/elements/dir)
+-   [`menu`](/html/elements/menu)
+-   [`ol`](/html/elements/ol)
+-   [`ul`](/html/elements/ul)
+-   [`dd`](/html/elements/dd)
+-   [`dt`](/html/elements/dt)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

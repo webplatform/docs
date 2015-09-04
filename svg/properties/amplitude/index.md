@@ -1,44 +1,40 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: amplitude
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/amplitude
 
-===Remarks===
-|Import_Notes=
+---
+# amplitude
 
-===Syntax===
+## Notes
 
-===Standards information===
+### Remarks
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.6
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.6
 
-*[[svg/objects/SVGComponentTransferFunctionElement|'''SVGComponentTransferFunctionElement''']]
-*[[svg/elements/feFuncGelement|'''SVGFEFuncGElement''']]
-*[[svg/elements/feFuncB|'''SVGFEFuncBElement''']]
-*[[svg/elements/feFuncA|'''SVGFEFuncAElement''']]
-*[[svg/elements/feComponentTransfer|'''feComponentTransferelement''']]
-*[[svg/elements/feFuncR|'''SVGFEFuncRElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGComponentTransferFunctionElement**](/svg/objects/SVGComponentTransferFunctionElement)
+-   [**SVGFEFuncGElement**](/svg/elements/feFuncGelement)
+-   [**SVGFEFuncBElement**](/svg/elements/feFuncB)
+-   [**SVGFEFuncAElement**](/svg/elements/feFuncA)
+-   [**feComponentTransferelement**](/svg/elements/feComponentTransfer)
+-   [**SVGFEFuncRElement**](/svg/elements/feFuncR)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

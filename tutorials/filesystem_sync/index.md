@@ -1,496 +1,383 @@
-{{Page_Title|The Synchronous FileSystem API for Workers}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Flags
-}}
-{{Byline
-|Name=Eric Bidelman
-|URL=http://www.html5rocks.com/profiles/#ericbidelman
-|Published=Oct. 25, 2011, updated May. 14, 2012
-}}
-{{Summary_Section|The HTML5 FileSystem API offers an synchronous version to be used in the context of Web Workers. The tutorial introduces the Synchronous API, and gives practical examples of using it.}}
-{{Tutorial
-|Content=<h2 id="toc-intro">Introduction</h2>
+---
+title: filesystem sync
+tags:
+  - Tutorials
+  - FileAPI
+  - Webstorage
+readiness: 'Ready to Use'
+summary: 'The HTML5 FileSystem API offers an synchronous version to be used in the context of Web Workers. The tutorial introduces the Synchronous API, and gives practical examples of using it.'
+uri: 'tutorials/filesystem sync'
 
-The [http://dev.w3.org/2009/dap/file-system/file-dir-sys.html HTML5 FileSystem API] and [http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html Web Workers] are massively
-powerful in their own regard. The FileSystem API finally brings hierarchical storage and
-file I/O to web applications and Workers bring true asynchronous 'multi-threading'
-to JavaScript. However, when you use these APIs together, you can build some truly interesting apps.
+---
+# The Synchronous FileSystem API for Workers
 
-This tutorial provides a guide and code examples for leveraging the HTML5
-FileSystem inside of a Web Worker. It assumes a working knowledge of
-both APIs. If you're not quite ready to dive in or are interested in learning
-more about those APIs, read two great tutorials that discuss the basics:
-[[tutorials/file_filesystem|Exploring the FileSystem APIs]] and [[tutorials/workers_basics|The Basics of Web Workers]].
+**By [Eric Bidelman](http://www.html5rocks.com/profiles/#ericbidelman)**
+Originally published Oct. 25, 2011, updated May. 14, 2012
 
-<h2 id="toc-vs">Synchronous vs. Asynchronous APIs</h2>
+## Summary
 
-Asynchronous JavaScript APIs can be tough to use. They're large. They're complex.
-But what's most frustrating is that they offer plenty of opportunities for things to go wrong.
-The last thing you want to deal with is layering on a complex asynchronous API (FileSystem)
-in an already asynchronous world (Workers)! The good news is that the [http://dev.w3.org/2009/dap/file-system/file-dir-sys.html FileSystem API] defines a synchronous version to ease the pain in Web Workers.
+The HTML5 FileSystem API offers an synchronous version to be used in the context of Web Workers. The tutorial introduces the Synchronous API, and gives practical examples of using it.
 
-For the most part, the synchronous API is exactly the same as its asynchronous cousin.
-The methods, properties, features, and functionality will be familiar. The major deviations are:
+## Introduction
 
-* The synchronous API can only be used within a Web Worker context, whereas the asynchronous API can be used in and out of a Worker.
-* Callbacks are out. API methods now return values.
-* The global methods on the window object (<code>requestFileSystem()</code> and <code>resolveLocalFileSystemURL()</code>) become <code>requestFileSystemSync()</code> and <code>resolveLocalFileSystemSyncURL()</code>. <em>Note:</em> These methods are members of the worker's global scope, not the <code>window</code> object.
+The [HTML5 FileSystem API](http://dev.w3.org/2009/dap/file-system/file-dir-sys.html) and [Web Workers](http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html) are massively powerful in their own regard. The FileSystem API finally brings hierarchical storage and file I/O to web applications and Workers bring true asynchronous 'multi-threading' to JavaScript. However, when you use these APIs together, you can build some truly interesting apps.
+
+This tutorial provides a guide and code examples for leveraging the HTML5 FileSystem inside of a Web Worker. It assumes a working knowledge of both APIs. If you're not quite ready to dive in or are interested in learning more about those APIs, read two great tutorials that discuss the basics: [Exploring the FileSystem APIs](/tutorials/file_filesystem) and [The Basics of Web Workers](/tutorials/workers_basics).
+
+## Synchronous vs. Asynchronous APIs
+
+Asynchronous JavaScript APIs can be tough to use. They're large. They're complex. But what's most frustrating is that they offer plenty of opportunities for things to go wrong. The last thing you want to deal with is layering on a complex asynchronous API (FileSystem) in an already asynchronous world (Workers)! The good news is that the [FileSystem API](http://dev.w3.org/2009/dap/file-system/file-dir-sys.html) defines a synchronous version to ease the pain in Web Workers.
+
+For the most part, the synchronous API is exactly the same as its asynchronous cousin. The methods, properties, features, and functionality will be familiar. The major deviations are:
+
+-   The synchronous API can only be used within a Web Worker context, whereas the asynchronous API can be used in and out of a Worker.
+-   Callbacks are out. API methods now return values.
+-   The global methods on the window object (`requestFileSystem()` and `resolveLocalFileSystemURL()`) become `requestFileSystemSync()` and `resolveLocalFileSystemSyncURL()`. *Note:* These methods are members of the worker's global scope, not the `window` object.
 
 Apart from these exceptions, the APIs are the same. OK, we're good to go!
 
-<h2 id="toc-requesting">Requesting a filesystem</h2>
+## Requesting a filesystem
 
-A web application obtains access to the synchronous filesystem by requesting a <code>LocalFileSystemSync</code> object from within a Web Worker. The <code>requestFileSystemSync()</code> is exposed to the Worker's global scope:
+A web application obtains access to the synchronous filesystem by requesting a `LocalFileSystemSync` object from within a Web Worker. The `requestFileSystemSync()` is exposed to the Worker's global scope:
 
-<pre>var fs = requestFileSystemSync(TEMPORARY, 1024*1024 /*1MB*/);</pre>
+    var fs = requestFileSystemSync(TEMPORARY, 1024*1024 /*1MB*/);
 
 Notice the new return value now that we're using the synchronous API as well as the absence of success and error callbacks.
 
 As with the normal FileSystem API, methods are prefixed at the moment:
 
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync &#124;&#124;
-                             self.requestFileSystemSync;
-</pre>
+    self.requestFileSystemSync = self.webkitRequestFileSystemSync ||
+                                 self.requestFileSystemSync;
 
-<h3 id="toc-quota">Dealing with quota</h3>
+### Dealing with quota
 
-Currently, it's not possible to [[tutorials/file_filesystem#toc-requesting-quota|request <code>PERSISTENT</code> quota]] in a Worker context. I recommend taking care of quota issues outside of Workers.
+Currently, it's not possible to [request `PERSISTENT` quota](/tutorials/file_filesystem#toc-requesting-quota) in a Worker context. I recommend taking care of quota issues outside of Workers.
 
 The process could look like something this:
 
-# worker.js: Wrap any FileSystem API code in a <code>try/catch</code> so any <code>QUOTA_EXCEED_ERR</code> errors are caught.
-# worker.js: If you catch a <code>QUOTA_EXCEED_ERR</code>, send a <code>postMessage('get me more quota')</code> back to the main app.
-# main app: Go through the <code>window.webkitStorageInfo.requestQuota()</code> dance when #2 is received.
-# main app: After the user grants more quota, send <code>postMessage('resume writes')</code> back to the worker to inform it of additional storage space.
+1.  worker.js: Wrap any FileSystem API code in a `try/catch` so any `QUOTA_EXCEED_ERR` errors are caught.
+2.  worker.js: If you catch a `QUOTA_EXCEED_ERR`, send a `postMessage('get me more quota')` back to the main app.
+3.  main app: Go through the `window.webkitStorageInfo.requestQuota()` dance when \#2 is received.
+4.  main app: After the user grants more quota, send `postMessage('resume writes')` back to the worker to inform it of additional storage space.
 
-That's a fairly involved workaround, but it should work. See [[tutorials/file_filesystem#toc-requesting-quota|requesting quota]] for more information on using <code>PERSISTENT</code> storage with the FileSystem API.
+That's a fairly involved workaround, but it should work. See [requesting quota](/tutorials/file_filesystem#toc-requesting-quota) for more information on using `PERSISTENT` storage with the FileSystem API.
 
-<h2 id="toc-files-dirs">Working with files and directories</h2>
+## Working with files and directories
 
-The synchronous version of <code>getFile()</code> and <code>getDirectory()</code> return a <code>FileEntrySync</code> and <code>DirectoryEntrySync</code>, respectively.
+The synchronous version of `getFile()` and `getDirectory()` return a `FileEntrySync` and `DirectoryEntrySync`, respectively.
 
-For example, the following code creates an empty file called "log.txt" in the
-root directory.
+For example, the following code creates an empty file called "log.txt" in the root directory.
 
-<pre>var fileEntry = fs.root.getFile('log.txt', {create: true});</pre>
+    var fileEntry = fs.root.getFile('log.txt', {create: true});
 
 The following creates a new directory in the root folder.
 
-<pre>var dirEntry = fs.root.getDirectory('mydir', {create: true});</pre>
+    var dirEntry = fs.root.getDirectory('mydir', {create: true});
 
-<h2 id="toc-errors">Handling errors</h2>
+## Handling errors
 
-If you've never had to debug Web Worker code, I envy you! It can be a real pain
-to figure out what is going wrong.
+If you've never had to debug Web Worker code, I envy you! It can be a real pain to figure out what is going wrong.
 
-The lack of error callbacks in the synchronous world makes dealing with problems
-trickier than they should be. If we add the general complexity of debugging Web Worker code,
-you'll be frustrated in no time. One thing that can make life easier is to wrap all
-of your relevant Worker code in a try/catch. Then, if any errors occur, forward
-the error to the main app using <code>postMessage()</code>:
+The lack of error callbacks in the synchronous world makes dealing with problems trickier than they should be. If we add the general complexity of debugging Web Worker code, you'll be frustrated in no time. One thing that can make life easier is to wrap all of your relevant Worker code in a try/catch. Then, if any errors occur, forward the error to the main app using `postMessage()`:
 
-<pre>function onError(e) {
-  postMessage('ERROR: ' + e.toString());
-}
-
-try {
-  // Error thrown if "log.txt" already exists.
-  var fileEntry = fs.root.getFile('log.txt', {create: true, exclusive: true});
-} catch (e) {
-  onError(e);
-}
-</pre>
-
-<h2 id="toc-passing-data">Passing around Files, Blobs, and ArrayBuffers</h2>
-
-When Web Workers first came on the scene, they only allowed string data to be
-sent in <code>postMessage()</code>. Later, browsers began accepting serializable data, which
-meant passing a JSON object was possible. Recently however, some browsers like Chrome
-accept more complex data types to be passed through <code>postMessage()</code> using the
-[https://developer.mozilla.org/en/DOM/The_structured_clone_algorithm structured clone algorithm].
-
-What does this really mean? It means that it's a heck of a lot easier to pass
-binary data between main app and the Worker thread. Browsers that support structured cloning
-for Workers allow you to pass Typed Arrays, <code>ArrayBuffer</code>s, <code>File</code>s, or <code>Blob</code>s
-into Workers. Although the data is still a copy, being able to pass a <code>File</code> means
-a performance benefit over the former approach, which involved base64'ing the file
-before passing it into <code>postMessage()</code>.
-
-The following example passes a user-selected list of files to an dedicated Worker.
-The Worker simply passes through the file list (simple to show the returned data
-is actually a <code>FileList</code>) and the main app reads each file as an <code>ArrayBuffer</code>.
-
-The sample also uses an improved version of the [[tutorials/workers_basics#toc-inlineworkers|inline Web Worker technique]] described in [[tutorials/workers_basics|The Basics of Web Workers]].
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;meta http-equiv="X-UA-Compatible" content="chrome=1"&gt;
-  &lt;title&gt;Passing a FileList to a Worker&lt;/title&gt;
-  &lt;script type="javascript/worker" id="fileListWorker"&gt;
-  self.onmessage = function(e) {
-    // TODO: do something interesting with the files.
-    postMessage(e.data); // Pass through.
-  };
-  &lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-
-&lt;input type="file" multiple&gt;
-
-&lt;script&gt;
-document.querySelector('input[type="file"]').addEventListener('change', function(e) {
-  var files = this.files;
-  loadInlineWorker('#fileListWorker', function(worker) {
-
-    // Setup handler to process messages from the worker.
-    worker.onmessage = function(e) {
-
-      // Read each file aysnc. as an array buffer.
-      for (var i = 0, file; file = files[i]; ++i) {
-        var reader = new FileReader();
-        reader.onload = function(e) {
-          console.log(this.result); // this.result is the read file as an ArrayBuffer.
-        };
-        reader.onerror = function(e) {
-          console.log(e);
-        };
-        reader.readAsArrayBuffer(file);
-      }
-
-    };
-
-    worker.postMessage(files);
-  });
-}, false);
-
-function loadInlineWorker(selector, callback) {
-  window.URL = window.URL &#124;&#124; window.webkitURL &#124;&#124;null;
-
-  var script = document.querySelector(selector);
-  if (script.type === 'javascript/worker') {
-    var blob = new Blob([script.textContent]);
-    callback(new Worker(window.URL.createObjectURL(blob));
-  }
-}
-&lt;/script&gt;
-&lt;/html&gt;
-</pre>
-
-<h2 id="toc-readingsync">Reading files in a Worker</h2>
-
-It's perfectly acceptable to use the asynchronous [http://www.html5rocks.com/tutorials/file/dndfiles/#toc-reading-files <code>FileReader</code> API to read files] in a Worker. However, there's a better way. In Workers, there's a
-synchronous API (<code>FileReaderSync</code>) that streamlines reading files:
-
-'''Main app:'''
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;Using FileReaderSync Example&lt;/title&gt;
-  &lt;style&gt;
-    #error { color: red; }
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;input type="file" multiple /&gt;
-&lt;output id="error"&gt;&lt;/output&gt;
-&lt;script&gt;
-  var worker = new Worker('worker.js');
-
-  worker.onmessage = function(e) {
-    console.log(e.data); // e.data should be an array of ArrayBuffers.
-  };
-
-  worker.onerror = function(e) {
-    document.querySelector('#error').textContent = [
-        'ERROR: Line ', e.lineno, ' in ', e.filename, ': ', e.message].join('');
-  };
-
-  document.querySelector('input[type="file"]').addEventListener('change', function(e) {
-    worker.postMessage(this.files);
-  }, false);
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-'''worker.js'''
-
-<pre>self.addEventListener('message', function(e) {
-  var files = e.data;
-  var buffers = [];
-
-  // Read each file synchronously as an ArrayBuffer and
-  // stash it in a global array to return to the main app.
-  [].forEach.call(files, function(file) {
-    var reader = new FileReaderSync();
-    buffers.push(reader.readAsArrayBuffer(file));
-  });
-
-  postMessage(buffers);
-}, false);
-</pre>
-
-As expected, callbacks are gone with the synchronous <code>FileReader</code>. This simplifies
-the amount of callback nesting when reading files. Instead, the readAs* methods
-returns the read file.
-
-<h2 id="toc-listing">Example: Fetching all entries</h2>
-
-In some cases, the synchronous API is much cleaner for certain tasks. Fewer callbacks
-are nice and certainly make things more readable. The real downside of the
-synchronous API stems from the limitations of Workers.
-
-For security reasons, data between the calling app and a Web Worker thread is
-never shared. Data is always copied to and from the Worker when <code>postMessage()</code> is called. As a result, not every data type can be passed. Unfortunately, <code>FileEntrySync</code> and <code>DirectoryEntrySync</code> don't currently fall into the accepted types. So how can you get entries back to the calling app? One way to circumvent the limitation is to return a list of [[tutorials/file_filesystem#toc-filesystemurls|filesystem: URLs]] instead of a list of entries. <code>filesystem:</code> URLs are just strings,
-so they're super easy to pass around. Furthermore, they can be resolved to 
-entries in the main app using <code>resolveLocalFileSystemURL()</code>. That gets you back
-to a <code>FileEntrySync</code>/<code>DirectoryEntrySync</code> object.
-
-'''Main app:'''
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8" /&gt;
-&lt;meta http-equiv="X-UA-Compatible" content="chrome=1"&gt;
-&lt;title&gt;Listing filesystem entries using the synchronous API&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;script&gt;
-  window.resolveLocalFileSystemURL = window.resolveLocalFileSystemURL &#124;&#124;
-                                     window.webkitResolveLocalFileSystemURL;
-
-  var worker = new Worker('worker.js');
-  worker.onmessage = function(e) {
-    var urls = e.data.entries;
-    urls.forEach(function(url, i) {
-      window.resolveLocalFileSystemURL(url, function(fileEntry) {
-        console.log(fileEntry.name); // Print out file's name.
-      });
-    });
-  };
-
-  worker.postMessage({'cmd': 'list'});
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-'''worker.js'''
-
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync &#124;&#124;
-                             self.requestFileSystemSync;
-
-var paths = []; // Global to hold the list of entry filesystem URLs.
-
-function getAllEntries(dirReader) {
-  var entries = dirReader.readEntries();
-
-  for (var i = 0, entry; entry = entries[i]; ++i) {
-    paths.push(entry.toURL()); // Stash this entry's filesystem: URL.
-
-    // If this is a directory, we have more traversing to do.
-    if (entry.isDirectory) {
-      getAllEntries(entry.createReader());
+    function onError(e) {
+      postMessage('ERROR: ' + e.toString());
     }
-  }
-}
-
-function onError(e) {
-  postMessage('ERROR: ' + e.toString()); // Forward the error to main app.
-}
-
-self.onmessage = function(e) {
-  var data = e.data;
-
-  // Ignore everything else except our 'list' command.
-  if (!data.cmd &#124;&#124; data.cmd != 'list') {
-    return;
-  }
-
-  try {
-    var fs = requestFileSystemSync(TEMPORARY, 1024*1024 /*1MB*/);
-
-    getAllEntries(fs.root.createReader());
-
-    self.postMessage({entries: paths});
-  } catch (e) {
-    onError(e);
-  }
-};
-</pre>
-
-<h2 id="toc-download-xhr2">Example: Downloading files using XHR2</h2>
-
-A common use case for Workers is to download a bunch of files using [[tutorials/file_xhr2|New Tricks in XMLHttpRequest2]], and write those files to the HTML5 FileSystem. This is a perfect task for a Worker thread!
-
-The following example only fetches and writes one file, but you can image
-expanding it to download a set of files.
-
-'''Main app:'''
-
-<pre>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta charset="utf-8" /&gt;
-&lt;meta http-equiv="X-UA-Compatible" content="chrome=1"&gt;
-&lt;title&gt;Download files using a XHR2, a Worker, and saving to filesystem&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;script&gt;
-  var worker = new Worker('downloader.js');
-  worker.onmessage = function(e) {
-    console.log(e.data);
-  };
-  worker.postMessage({fileName: 'GoogleLogo',
-                      url: 'googlelogo.png', type: 'image/png'});
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-
-'''downloader.js:'''
-
-<pre>self.requestFileSystemSync = self.webkitRequestFileSystemSync &#124;&#124;
-                             self.requestFileSystemSync;
-
-function makeRequest(url) {
-  try {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, false); // Note: synchronous
-    xhr.responseType = 'arraybuffer';
-    xhr.send();
-    return xhr.response;
-  } catch(e) {
-    return "XHR Error " + e.toString();
-  }
-}
-
-function onError(e) {
-  postMessage('ERROR: ' + e.toString());
-}
-
-onmessage = function(e) {
-  var data = e.data;
-
-  // Make sure we have the right parameters.
-  if (!data.fileName &#124;&#124; !data.url &#124;&#124; !data.type) {
-    return;
-  }
-
-  try {
-    var fs = requestFileSystemSync(TEMPORARY, 1024 * 1024 /*1MB*/);
-
-    postMessage('Got file system.');
-
-    var fileEntry = fs.root.getFile(data.fileName, {create: true});
-
-    postMessage('Got file entry.');
-
-    var arrayBuffer = makeRequest(data.url);
-    var blob = new Blob([new Uint8Array(arrayBuffer)], {type: data.type});
 
     try {
-      postMessage('Begin writing');
-      fileEntry.createWriter().write(blob);
-      postMessage('Writing complete');
-      postMessage(fileEntry.toURL());
+      // Error thrown if "log.txt" already exists.
+      var fileEntry = fs.root.getFile('log.txt', {create: true, exclusive: true});
     } catch (e) {
       onError(e);
     }
 
-  } catch (e) {
-    onError(e);
-  }
-};
-</pre>
+## Passing around Files, Blobs, and ArrayBuffers
 
-<h2 id="toc-conclusion">Conclusion</h2>
+When Web Workers first came on the scene, they only allowed string data to be sent in `postMessage()`. Later, browsers began accepting serializable data, which meant passing a JSON object was possible. Recently however, some browsers like Chrome accept more complex data types to be passed through `postMessage()` using the [structured clone algorithm](https://developer.mozilla.org/en/DOM/The_structured_clone_algorithm).
 
-Web Workers are an underutilized and under-appreciated feature
-of HTML5. Most developers I talk to don't need the extra computational benefits, 
-but they can be used for more than just pure computation.
-If you're skeptical (as I was), I hope this article has helped change your mind.
-Offloading things like disc operations (Filesystem API calls) or HTTP requests to a Worker
-are a natural fit and also help compartmentalize your code. The HTML5 File APIs
-inside of Workers opens a whole new can of awesomeness for web apps that a lot of folks haven't explored.
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Synchronous Filesystem API
-|Chrome_supported=Yes
-|Chrome_version=9
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=9
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Synchronous Filesystem API
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|FileAPI, Webstorage}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=HTML5Rocks
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/tutorials/file/filesystem-sync/
-}}
+What does this really mean? It means that it's a heck of a lot easier to pass binary data between main app and the Worker thread. Browsers that support structured cloning for Workers allow you to pass Typed Arrays, `ArrayBuffer`s, `File`s, or `Blob`s into Workers. Although the data is still a copy, being able to pass a `File` means a performance benefit over the former approach, which involved base64'ing the file before passing it into `postMessage()`.
+
+The following example passes a user-selected list of files to an dedicated Worker. The Worker simply passes through the file list (simple to show the returned data is actually a `FileList`) and the main app reads each file as an `ArrayBuffer`.
+
+The sample also uses an improved version of the [inline Web Worker technique](/tutorials/workers_basics#toc-inlineworkers) described in [The Basics of Web Workers](/tutorials/workers_basics).
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
+      <title>Passing a FileList to a Worker</title>
+      <script type="javascript/worker" id="fileListWorker">
+      self.onmessage = function(e) {
+        // TODO: do something interesting with the files.
+        postMessage(e.data); // Pass through.
+      };
+      </script>
+    </head>
+    <body>
+    </body>
+
+    <input type="file" multiple>
+
+    <script>
+    document.querySelector('input[type="file"]').addEventListener('change', function(e) {
+      var files = this.files;
+      loadInlineWorker('#fileListWorker', function(worker) {
+
+        // Setup handler to process messages from the worker.
+        worker.onmessage = function(e) {
+
+          // Read each file aysnc. as an array buffer.
+          for (var i = 0, file; file = files[i]; ++i) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+              console.log(this.result); // this.result is the read file as an ArrayBuffer.
+            };
+            reader.onerror = function(e) {
+              console.log(e);
+            };
+            reader.readAsArrayBuffer(file);
+          }
+
+        };
+
+        worker.postMessage(files);
+      });
+    }, false);
+
+    function loadInlineWorker(selector, callback) {
+      window.URL = window.URL || window.webkitURL ||null;
+
+      var script = document.querySelector(selector);
+      if (script.type === 'javascript/worker') {
+        var blob = new Blob([script.textContent]);
+        callback(new Worker(window.URL.createObjectURL(blob));
+      }
+    }
+    </script>
+    </html>
+
+## Reading files in a Worker
+
+It's perfectly acceptable to use the asynchronous [`FileReader` API to read files](http://www.html5rocks.com/tutorials/file/dndfiles/#toc-reading-files) in a Worker. However, there's a better way. In Workers, there's a synchronous API (`FileReaderSync`) that streamlines reading files:
+
+**Main app:**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Using FileReaderSync Example</title>
+      <style>
+        #error { color: red; }
+      </style>
+    </head>
+    <body>
+    <input type="file" multiple />
+    <output id="error"></output>
+    <script>
+      var worker = new Worker('worker.js');
+
+      worker.onmessage = function(e) {
+        console.log(e.data); // e.data should be an array of ArrayBuffers.
+      };
+
+      worker.onerror = function(e) {
+        document.querySelector('#error').textContent = [
+            'ERROR: Line ', e.lineno, ' in ', e.filename, ': ', e.message].join('');
+      };
+
+      document.querySelector('input[type="file"]').addEventListener('change', function(e) {
+        worker.postMessage(this.files);
+      }, false);
+    </script>
+    </body>
+    </html>
+
+**worker.js**
+
+    self.addEventListener('message', function(e) {
+      var files = e.data;
+      var buffers = [];
+
+      // Read each file synchronously as an ArrayBuffer and
+      // stash it in a global array to return to the main app.
+      [].forEach.call(files, function(file) {
+        var reader = new FileReaderSync();
+        buffers.push(reader.readAsArrayBuffer(file));
+      });
+
+      postMessage(buffers);
+    }, false);
+
+As expected, callbacks are gone with the synchronous `FileReader`. This simplifies the amount of callback nesting when reading files. Instead, the readAs\* methods returns the read file.
+
+## Example: Fetching all entries
+
+In some cases, the synchronous API is much cleaner for certain tasks. Fewer callbacks are nice and certainly make things more readable. The real downside of the synchronous API stems from the limitations of Workers.
+
+For security reasons, data between the calling app and a Web Worker thread is never shared. Data is always copied to and from the Worker when `postMessage()` is called. As a result, not every data type can be passed. Unfortunately, `FileEntrySync` and `DirectoryEntrySync` don't currently fall into the accepted types. So how can you get entries back to the calling app? One way to circumvent the limitation is to return a list of [filesystem: URLs](/tutorials/file_filesystem#toc-filesystemurls) instead of a list of entries. `filesystem:` URLs are just strings, so they're super easy to pass around. Furthermore, they can be resolved to entries in the main app using `resolveLocalFileSystemURL()`. That gets you back to a `FileEntrySync`/`DirectoryEntrySync` object.
+
+**Main app:**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Listing filesystem entries using the synchronous API</title>
+    </head>
+    <body>
+    <script>
+      window.resolveLocalFileSystemURL = window.resolveLocalFileSystemURL ||
+                                         window.webkitResolveLocalFileSystemURL;
+
+      var worker = new Worker('worker.js');
+      worker.onmessage = function(e) {
+        var urls = e.data.entries;
+        urls.forEach(function(url, i) {
+          window.resolveLocalFileSystemURL(url, function(fileEntry) {
+            console.log(fileEntry.name); // Print out file's name.
+          });
+        });
+      };
+
+      worker.postMessage({'cmd': 'list'});
+    </script>
+    </body>
+    </html>
+
+**worker.js**
+
+    self.requestFileSystemSync = self.webkitRequestFileSystemSync ||
+                                 self.requestFileSystemSync;
+
+    var paths = []; // Global to hold the list of entry filesystem URLs.
+
+    function getAllEntries(dirReader) {
+      var entries = dirReader.readEntries();
+
+      for (var i = 0, entry; entry = entries[i]; ++i) {
+        paths.push(entry.toURL()); // Stash this entry's filesystem: URL.
+
+        // If this is a directory, we have more traversing to do.
+        if (entry.isDirectory) {
+          getAllEntries(entry.createReader());
+        }
+      }
+    }
+
+    function onError(e) {
+      postMessage('ERROR: ' + e.toString()); // Forward the error to main app.
+    }
+
+    self.onmessage = function(e) {
+      var data = e.data;
+
+      // Ignore everything else except our 'list' command.
+      if (!data.cmd || data.cmd != 'list') {
+        return;
+      }
+
+      try {
+        var fs = requestFileSystemSync(TEMPORARY, 1024*1024 /*1MB*/);
+
+        getAllEntries(fs.root.createReader());
+
+        self.postMessage({entries: paths});
+      } catch (e) {
+        onError(e);
+      }
+    };
+
+## Example: Downloading files using XHR2
+
+A common use case for Workers is to download a bunch of files using [New Tricks in XMLHttpRequest2](/tutorials/file_xhr2), and write those files to the HTML5 FileSystem. This is a perfect task for a Worker thread!
+
+The following example only fetches and writes one file, but you can image expanding it to download a set of files.
+
+**Main app:**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Download files using a XHR2, a Worker, and saving to filesystem</title>
+    </head>
+    <body>
+    <script>
+      var worker = new Worker('downloader.js');
+      worker.onmessage = function(e) {
+        console.log(e.data);
+      };
+      worker.postMessage({fileName: 'GoogleLogo',
+                          url: 'googlelogo.png', type: 'image/png'});
+    </script>
+    </body>
+    </html>
+
+**downloader.js:**
+
+    self.requestFileSystemSync = self.webkitRequestFileSystemSync ||
+                                 self.requestFileSystemSync;
+
+    function makeRequest(url) {
+      try {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, false); // Note: synchronous
+        xhr.responseType = 'arraybuffer';
+        xhr.send();
+        return xhr.response;
+      } catch(e) {
+        return "XHR Error " + e.toString();
+      }
+    }
+
+    function onError(e) {
+      postMessage('ERROR: ' + e.toString());
+    }
+
+    onmessage = function(e) {
+      var data = e.data;
+
+      // Make sure we have the right parameters.
+      if (!data.fileName || !data.url || !data.type) {
+        return;
+      }
+
+      try {
+        var fs = requestFileSystemSync(TEMPORARY, 1024 * 1024 /*1MB*/);
+
+        postMessage('Got file system.');
+
+        var fileEntry = fs.root.getFile(data.fileName, {create: true});
+
+        postMessage('Got file entry.');
+
+        var arrayBuffer = makeRequest(data.url);
+        var blob = new Blob([new Uint8Array(arrayBuffer)], {type: data.type});
+
+        try {
+          postMessage('Begin writing');
+          fileEntry.createWriter().write(blob);
+          postMessage('Writing complete');
+          postMessage(fileEntry.toURL());
+        } catch (e) {
+          onError(e);
+        }
+
+      } catch (e) {
+        onError(e);
+      }
+    };
+
+## Conclusion
+
+Web Workers are an underutilized and under-appreciated feature of HTML5. Most developers I talk to don't need the extra computational benefits, but they can be used for more than just pure computation. If you're skeptical (as I was), I hope this article has helped change your mind. Offloading things like disc operations (Filesystem API calls) or HTTP requests to a Worker are a natural fit and also help compartmentalize your code. The HTML5 File APIs inside of Workers opens a whole new can of awesomeness for web apps that a lot of folks haven't explored.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/file/filesystem-sync/)
+

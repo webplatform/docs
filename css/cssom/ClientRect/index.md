@@ -1,46 +1,40 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Stub, Needs Topics, Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete, Examples Needed
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|An interface for objects that store information regarding the position and dimension of an element.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: ClientRect
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Almost Ready'
+notes:
+  - 'Needs spec reference, standardization status'
+summary: 'An interface for objects that store information regarding the position and dimension of an element.'
+uri: css/cssom/ClientRect
+
+---
+# ClientRect
+
+## Summary
+
+An interface for objects that store information regarding the position and dimension of an element.
+
+## Properties
+
+API Name
+:   Summary
+[bottom](/css/cssom/ClientRect/bottom)
+:   Returns the *bottom* value for a **ClienRect** object.
+[left](/css/cssom/ClientRect/left)
+:   Returns the *left* value for a **ClienRect** object.
+[right](/css/cssom/ClientRect/right)
+:   Returns the *right* value for a **ClienRect** object.
+[top](/css/cssom/ClientRect/top)
+:   Returns the *top* value for a **ClienRect** object.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+

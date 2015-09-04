@@ -1,30 +1,38 @@
-== Specification ==
+---
+title: reference
+tags:
+  - WebGL
+uri: webgl/reference
 
-Khronos publishes the [http://www.khronos.org/registry/webgl/specs/latest/ WebGL Specification] and the [http://www.khronos.org/files/webgl/webgl-reference-card-1_0.pdf WebGL quick reference card].
+---
+## Specification
 
-== WebGL Context ==
+Khronos publishes the [WebGL Specification](http://www.khronos.org/registry/webgl/specs/latest/) and the [WebGL quick reference card](http://www.khronos.org/files/webgl/webgl-reference-card-1_0.pdf).
 
-A webgl context can be obtained by calling the getContext function on a [[canvas|Canvas Element]]
+## WebGL Context
 
-=== Syntax ===
-<syntaxhighlight lang="javascript">var gl = canvas.getContext('webgl', attributes) || canvas.getContext('experimental-webgll', attributes)</syntaxhighlight>
+A webgl context can be obtained by calling the getContext function on a [Canvas Element](/canvas)
 
-=== Arguments ===
+### Syntax
 
-# DOMString: 'webgl' or 'experimental-webgl'
-# Object: WebGLContextAttributes
+``` {.js}
+var gl = canvas.getContext('webgl', attributes) || canvas.getContext('experimental-webgll', attributes)
+```
 
-=== Return Value ===
+### Arguments
+
+1.  DOMString: 'webgl' or 'experimental-webgl'
+2.  Object: WebGLContextAttributes
+
+### Return Value
 
 A context object or null.
 
-=== WebGLContextAttributes ===
+### WebGLContextAttributes
 
-* boolean alpha: default true
-* boolean depth: default true
-* boolean stencil: default false
-* boolean antialias: default true
-* boolean premultipliedAlpha: default true
-* boolean preserveDrawingBuffer: default false
-
-[[Category:WebGL]]
+-   boolean alpha: default true
+-   boolean depth: default true
+-   boolean stencil: default false
+-   boolean antialias: default true
+-   boolean premultipliedAlpha: default true
+-   boolean preserveDrawingBuffer: default false

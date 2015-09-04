@@ -1,52 +1,52 @@
-{{Page_Title|item}}
-{{Flags
-|State=Unreviewed
-|Editorial notes=Unreviewed
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets the ''n''th item in the collection}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=index
-|Data type=unsigned long
-|Description=The index into the collection
-|Optional=No
-}}
-|Method_applies_to=dom/NodeList
-|Example_object_name=list
-|Javascript_data_type=DOM Node
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 1
-|URL=http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=DOM
-|URL=http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177
-|Status=W3C Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: item
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+standardization_status: 'W3C Recommendation'
+notes:
+  - Unreviewed
+summary: 'Gets the nth item in the collection'
+uri: dom/NodeList/item
+
+---
+# item
+
+## Summary
+
+Gets the nth item in the collection
+
+*Method of [dom/NodeList](/dom/NodeList)*
+
+## Syntax
+
+``` {.js}
+var result = list.item(index);
+```
+
+## Parameters
+
+### index
+
+ Data-typeÂ
+:   unsigned long
+
+ The index into the collection
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177)
+:   W3C Recommendation
+[DOM](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177)
+:   W3C Working Draft
+

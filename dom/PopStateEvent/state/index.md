@@ -1,51 +1,66 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The current history entry's state object (if any).}}
-{{API_Object_Property
-|Property_applies_to=dom/PopStateEvent
-|Read_only=Yes
-|Return_value_description=Represents the context information for the event, or null, if the state represented is the initial state of the document.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=window.onpopstate {{=}} function(event) {
+---
+title: state
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+summary: 'The current history entry''s state object (if any).'
+uri: dom/PopStateEvent/state
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/objects/PopStateEvent
+
+---
+# state
+
+## Summary
+
+The current history entry's state object (if any).
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/PopStateEvent](/dom/PopStateEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.state;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+
+Represents the context information for the event, or null, if the state represented is the initial state of the document.
+
+## Examples
+
+``` {.js}
+window.onpopstate = function(event) {
   alert("location: " + document.location + ", state: " + JSON.stringify(event.state));
 };
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-Represents the context information for the event, or '''null''', if the state represented is the initial state of the document.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/objects/PopStateEvent|PopStateEvent]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772351(v=vs.85).aspx state Property]
-|HTML5Rocks_link=
-}}
+```
+
+## Notes
+
+### Remarks
+
+Represents the context information for the event, or **null**, if the state represented is the initial state of the document.
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `PopStateEvent`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[state Property](http://msdn.microsoft.com/en-us/library/ie/hh772351(v=vs.85).aspx) Article]
+

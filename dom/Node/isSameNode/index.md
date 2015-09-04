@@ -1,72 +1,80 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Deprecated}}
-{{API_Name}}
-{{Summary_Section|Determines if two nodes are the same node.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=otherNode
-|Data type=DOM Node
-|Description=The node to be compared to the node that is executing the method.
-|Optional=No
-}}
-|Method_applies_to=dom/Node
-|Example_object_name=node
-|Return_value_name=isSame
-|Javascript_data_type=Boolean
-|Return_value_description=Whether the node specified in the otherNode parameter refers to the same node.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=In the following example isSameNode is false since
-document.body is the body node while document.documentElement is the html node.
-|Code=var isSameNode = document.body..isSameNode(document.documentElement);
-}}
-}}
-{{Notes_Section
-|Usage=This determines whether or not two references refer to the same node.  If the references refer to the same node, you can use the references interchangeably, even when using a proxy.
-|Notes=Obsolete
-This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.
-In browsers where isSameNode is no longer supported 
-// Instead of using
-node1.isSameNode(node2)
+---
+title: isSameNode
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: Deprecated
+summary: 'Determines if two nodes are the same node.'
+uri: dom/Node/isSameNode
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'Template:==='
+    - 'Template:=='
 
-// use
-node1 {{===}} node2 // or
-node1 {{==}} node2
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}{{Related Specification
-|Name=DOM Level 4 Core
-|URL=http://www.w3.org/TR/domcore/
-|Status=Recommendation
-|Relevant_changes=9.2 DOM Core
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.isSameNode Node.isSameNode]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975129(v=vs.85).aspx isSameNode Method]
-|HTML5Rocks_link=
-}}
+---
+# isSameNode
+
+## Summary
+
+Determines if two nodes are the same node.
+
+*Method of [dom/Node](/dom/Node)*
+
+## Syntax
+
+``` {.js}
+var isSame = node.isSameNode(/* see parameter list */);
+```
+
+## Parameters
+
+### otherNode
+
+ Data-typeÂ
+:   DOM Node
+
+ The node to be compared to the node that is executing the method.
+
+## Return Value
+
+Returns an object of type Boolean.
+
+Whether the node specified in the otherNode parameter refers to the same node.
+
+## Examples
+
+In the following example isSameNode is false since document.body is the body node while document.documentElement is the html node.
+
+    var isSameNode = document.body..isSameNode(document.documentElement);
+
+## Usage
+
+     This determines whether or not two references refer to the same node.  If the references refer to the same node, you can use the references interchangeably, even when using a proxy.
+
+## Notes
+
+Obsolete This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it. In browsers where isSameNode is no longer supported // Instead of using node1.isSameNode(node2)
+
+// use node1 [Template:===](/w/index.php?title=Template:%3D%3D%3D&action=edit&redlink=1) node2 // or node1 [Template:==](/w/index.php?title=Template:%3D%3D&action=edit&redlink=1) node2
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+[DOM Level 4 Core](http://www.w3.org/TR/domcore/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.isSameNode](https://developer.mozilla.org/en-US/docs/Web/API/Node.isSameNode) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[isSameNode Method](http://msdn.microsoft.com/en-us/library/ie/ff975129(v=vs.85).aspx) Article]
+

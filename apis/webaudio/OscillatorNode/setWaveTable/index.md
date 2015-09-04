@@ -1,63 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Not in spec; deletion candidate. See http://webaudio.github.io/web-audio-api/.
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Sets an arbitrary custom periodic waveform given a [[apis/webaudio/WaveTable|'''WaveTable''']].
+---
+title: setWaveTable
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: WebAudio
+readiness: 'Not Ready'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Not in spec; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
+summary: "Sets an arbitrary custom periodic waveform given a WaveTable.\n"
+uri: apis/webaudio/OscillatorNode/setWaveTable
 
-'''Not in spec; deletion candidate. See [http://webaudio.github.io/web-audio-api/ http://webaudio.github.io/web-audio-api/].'''
-}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=waveTable
-|Data type=String
-|Description=
-|Optional=No
-}}
-|Method_applies_to=apis/webaudio/OscillatorNode
-|Example_object_name=OscillatorNode
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+# setWaveTable
+
+## Summary
+
+Sets an arbitrary custom periodic waveform given a WaveTable.
+
+**Not in spec; deletion candidate. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+
+*Method of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)*
+
+## Syntax
+
+``` {.js}
+var  = OscillatorNode.setWaveTable(waveTable);
+```
+
+## Parameters
+
+### waveTable
+
+ Data-typeÂ
+:   String
+
+## Return Value
+
+Returns an object of type .
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

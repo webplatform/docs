@@ -1,42 +1,61 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Removes a child node from a node.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=oldChild
-|Data type=Blob
-|Description=The node to be removed from the document.
-|Optional=No
-}}
-|Method_applies_to=dom/Node
-|Example_object_name=node
-|Return_value_name=removedNode
-|Javascript_data_type=DOM Node
-|Return_value_description=The removed node.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''removeChild''' method to remove a bold element from a '''div'''.
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;script type{{=}}"application/javascript"&gt;
+---
+title: removeChild
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Removes a child node from a node.'
+uri: dom/Node/removeChild
+
+---
+# removeChild
+
+## Summary
+
+Removes a child node from a node.
+
+*Method of [dom/Node](/dom/Node)*
+
+## Syntax
+
+``` {.js}
+var removedNode = node.removeChild(/* see parameter list */);
+```
+
+## Parameters
+
+### oldChild
+
+ Data-typeÂ
+:   Blob
+
+ The node to be removed from the document.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+The removed node.
+
+## Examples
+
+This example uses the **removeChild** method to remove a bold element from a **div**.
+
+``` {.html}
+<!doctype html>
+<html>
+<head>
+<script type="application/javascript">
 function removeElement()
 {
   var div1 = document.getElementById("Div1");
   try
   {
       //The first child of the div is the bold element.
-    var oChild{{=}}div1.children(0);	
+    var oChild=div1.children(0);
     div1.removeChild(oChild);
   }
   catch(x)
@@ -45,54 +64,40 @@ function removeElement()
     document.location.reload();
   }
 }
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id{{=}}"Div1" onclick{{=}}"removeElement()"&gt;
-Click anywhere in this sentence to remove this &lt;strong&gt;Bold&lt;/strong&gt; word.
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-}}{{Single Example
-|Language=JavaScript
-|Description=Remove all children from a node.
-|Code=while (element.lastChild) {
+</script>
+</head>
+<body>
+<div id="Div1" onclick="removeElement()">
+Click anywhere in this sentence to remove this <strong>Bold</strong> word.
+</div>
+</body>
+</html>
+```
+
+Remove all children from a node.
+
+``` {.js}
+while (element.lastChild) {
   element.removeChild(element.lastChild);
 }
-}}
-}}
-{{Notes_Section
-|Notes=The node to be removed must be an immediate child of the parent node.
-This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9
-|Note=Exceptions are supported
-}}{{Compatibility Notes Row
-|Browser=WebKit/Blink browsers
-|Note=If the oldChild has focus, 'blur' event for it dispatches.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.removeChild Node.removeChild]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536702(v=vs.85).aspx removeChild Method]
-|HTML5Rocks_link=
-}}
+```
+
+## Notes
+
+The node to be removed must be an immediate child of the parent node. This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.removeChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.removeChild) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[removeChild Method](http://msdn.microsoft.com/en-us/library/ie/ms536702(v=vs.85).aspx) Article]
+

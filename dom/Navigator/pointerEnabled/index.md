@@ -1,33 +1,48 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Stub
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|Deprecated}}
-{{API_Name}}
-{{Summary_Section|Indicates if the browser will fire pointer events for pointing input.
+---
+title: pointerEnabled
+tags:
+  - API
+  - Object
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: Deprecated
+summary: "Indicates if the browser will fire pointer events for pointing input.\n"
+uri: dom/Navigator/pointerEnabled
+
+---
+# pointerEnabled
+
+## Summary
+
+Indicates if the browser will fire pointer events for pointing input.
 
 In late 2013, pointerEnabled was removed from the specification as checking PointerEvent in Window object is sufficient for feature detection. Do not use this property and use PointerEvent instead.
-}}
-{{API_Object_Property
-|Property_applies_to=dom/Navigator
-|Read_only=Yes
-|Example_object_name=navigator
-|Javascript_data_type=Boolean
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Basic HTML5 Canvas painting application
-|Code=<style>
-  /* Disable intrinsic user agent touch behaviors (such as panning or zooming) so 
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Navigator](/dom/Navigator)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = navigator.pointerEnabled;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+
+## Examples
+
+Basic HTML5 Canvas painting application
+
+``` {.js}
+<style>
+  /* Disable intrinsic user agent touch behaviors (such as panning or zooming) so
   that all events are given to the application instead. */
-  
-  html { 
-    touch-action: none; 
+
+  html {
+    touch-action: none;
   }
 </style>
 
@@ -39,71 +54,54 @@ window.addEventListener('load', function() {
   context = canvas.getContext("2d");
   if (window.navigator.pointerEnabled) {
     canvas.addEventListener("pointermove", paint, false);
-	if(window.navigator.maxTouchPoints>1)
-		alert("Your user agent and hardware support multi-touch!");
-  } 
+    if(window.navigator.maxTouchPoints>1)
+        alert("Your user agent and hardware support multi-touch!");
+  }
   else {
-	//Provide fallback for user agents that do not support Pointer Events
+    //Provide fallback for user agents that do not support Pointer Events
     canvas.addEventListener("mousemove", paint, false);
   }
   function paint(event) {
-	if(event.buttons>0)
-		context.fillRect(event.clientX, event.clientY, 5, 5);
+    if(event.buttons>0)
+        context.fillRect(event.clientX, event.clientY, 5, 5);
   }
 });
-}}
-}}
-{{Notes_Section
-|Notes=In late 2013, pointerEnabled was removed from the specification as checking PointerEvent in Window object is sufficient for feature detection. Do not use this property and use PointerEvent instead.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Pointer Events
-|URL=http://www.w3.org/TR/pointerevents/
-|Status=Candidate Recommendation
-|Relevant_changes=Section 5
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=IE10
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10
-|Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh972895(v=vs.85).aspx msPointerEnabled]
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh972895(v=vs.85).aspx navigator.pointerEnabled]
-|HTML5Rocks_link=
-}}
+```
+
+## Notes
+
+In late 2013, pointerEnabled was removed from the specification as checking PointerEvent in Window object is sufficient for feature detection. Do not use this property and use PointerEvent instead.
+
+## Related specifications
+
+Specification
+:   Status
+[Pointer Events](http://www.w3.org/TR/pointerevents/)
+:   Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Pointer Events
+
+-   [Pointer Events Primer](/concepts/Pointer_Events)
+
+-   [releasePointerCapture](/dom/Element/releasePointerCapture)
+
+-   [setPointerCapture](/dom/Element/setPointerCapture)
+
+-   [maxTouchPoints](/dom/Navigator/maxTouchPoints)
+
+-   **pointerEnabled**
+
+-   [PointerEvent](/dom/PointerEvent)
+
+-   [Introduction to multi-touch Web development](/tutorials/mobile_touch)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[navigator.pointerEnabled](http://msdn.microsoft.com/en-us/library/ie/hh972895(v=vs.85).aspx) Article]
+

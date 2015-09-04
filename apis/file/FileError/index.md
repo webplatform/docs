@@ -1,49 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Represents an error that occurs while using the FileReader interface.
+---
+title: FileError
+tags:
+  0: API
+  1: Objects
+  3: FileAPI
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs example, spec reference'
+summary: "Represents an error that occurs while using the FileReader interface.\n"
+uri: apis/file/FileError
 
-Obsolete per latest specification. Use [[dom/DOMError|DOMError]] instead.
-}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772306(v=vs.85).aspx fileError Object]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+# FileError
+
+## Summary
+
+Represents an error that occurs while using the FileReader interface.
+
+Obsolete per latest specification. Use [DOMError](/dom/DOMError) instead.
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[fileError Object](http://msdn.microsoft.com/en-us/library/ie/hh772306(v=vs.85).aspx) Article]
+

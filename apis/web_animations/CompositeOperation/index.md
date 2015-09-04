@@ -1,37 +1,57 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The possible values of an animation effect’s composition behavior are represented by the CompositeOperation enumeration.}}
-{{API_Object
-|Subclass_of=enum
-|Overview=enum CompositeOperation {"replace", "add", "accumulate"};
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: CompositeOperation
+tags:
+  - API
+  - Objects
+  - Web
+  - Animations
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The possible values of an animation effect’s composition behavior are represented by the CompositeOperation enumeration.'
+uri: 'apis/web animations/CompositeOperation'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - enum
+
+---
+# CompositeOperation
+
+## Summary
+
+The possible values of an animation effect’s composition behavior are represented by the CompositeOperation enumeration.
+
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[enum](/w/index.php?title=enum&action=edit&redlink=1)</span></span>
+
+## Overview
+
+enum CompositeOperation {"replace", "add", "accumulate"};
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Inherited from enum
+
+### Properties
+
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+

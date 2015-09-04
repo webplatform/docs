@@ -1,50 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=examples, compatibility, clean-up of MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Earliest point in seconds where the playback can (should) start playing}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLVideoElement
-|Read_only=No
-|Javascript_data_type=Number
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/media|media]]</code>
-*<code>audio</code>
-*<code>audio</code>
-*<code>video element</code>
-*<code>video object</code>
-}}
-{{Topics|API, Audio, DOM, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: initialTime
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Audio
+  5: DOM
+  6: Video
+readiness: 'In Progress'
+notes:
+  - 'examples, compatibility, clean-up of MSDN import'
+summary: 'Earliest point in seconds where the playback can (should) start playing'
+uri: dom/HTMLVideoElement/initialTime
+
+---
+# initialTime
+
+## Summary
+
+Earliest point in seconds where the playback can (should) start playing
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLVideoElement](/dom/HTMLVideoElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.initialTime;
+element.initialTime = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `media`
+-   `audio`
+-   `audio`
+-   `video element`
+-   `video object`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

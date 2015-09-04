@@ -1,45 +1,36 @@
-{{Page_Title}}
-{{Flags
-|State=
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The specified start delay.
+---
+title: delay
+tags:
+  - API
+  - Object
+  - Properties
+  - Web
+  - Animations
+readiness: readiness-state
+summary: "The specified start delay.\n"
+uri: 'apis/web animations/AnimationTimingProperties/delay'
+
+---
+# delay
+
+## Summary
+
+The specified start delay.
 
 See the description of the delay attribute on the AnimationTiming interface.
-}}
-{{API_Object_Property
-|Property_applies_to=apis/web animations/AnimationTimingProperties
-|Read_only=No
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=double
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.delay;
+element.delay = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">double</span></span>
+
+**Needs Examples**: This section should include examples.
+

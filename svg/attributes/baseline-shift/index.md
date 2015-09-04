@@ -1,75 +1,157 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs parent, example
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed, Examples Best Practices, Needs Summary
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline.}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-|Content=Name:	baseline-shift
-Value:	baseline
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: baseline-shift
+tags:
+  - Markup
+  - Attributes
+  - DOM
+  - SVG
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs parent, example'
+summary: 'The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline.'
+uri: svg/attributes/baseline-shift
 
-The '''baseline-shift''' property allows repositioning of the dominant
-baseline relative to the dominant baseline of the parent text content
-element.  The shifted object might be a subscript or superscript.
-Within the shifted object, the whole baseline table is offset; not
-just a single baseline.  The amount of the shift is determined by one
-of the following:
+---
+# baseline-shift
 
-*the parent text content element
-*the subscript or superscript offset from the nominal font of the parent text content element
-*the percent of the '''line-height''' of the parent text content element
-*an absolute value.
-|Import_Notes====Syntax===
+## Summary
 
- '''baseline-shift: '''baseline '''{{!}}''' sub '''{{!}}''' super '''{{!}}''' ''percentage'' '''{{!}}''' ''length''
+The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline.
 
-===Standards information===
+Applies to
+:    ?
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.9.2
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Scalable Vector Graphics (SVG) 1.1
-|URL=http://www.w3.org/TR/SVG/text.html#BaselineShiftProperty
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Layout, CSS Attributes
-|Manual_sections====Related pages (MSDN)===
+Name: baseline-shift Value: baseline
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[css/cssom/currentStyle|'''currentStyle''']]
-*[[css/cssom/style|'''style''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/attributes/dominant-baseline|'''dominantBaseline''']]
-}}
-{{Topics|DOM, SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+The **baseline-shift** property allows repositioning of the dominant baseline relative to the dominant baseline of the parent text content element. The shifted object might be a subscript or superscript. Within the shifted object, the whole baseline table is offset; not just a single baseline. The amount of the shift is determined by one of the following:
+
+-   the parent text content element
+-   the subscript or superscript offset from the nominal font of the parent text content element
+-   the percent of the **line-height** of the parent text content element
+-   an absolute value.
+
+### Syntax
+
+    baseline-shift: baseline | sub | super | percentage | length
+
+### Standards information
+
+-   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.9.2
+
+## Related specifications
+
+Specification
+:   Status
+[Scalable Vector Graphics (SVG) 1.1](http://www.w3.org/TR/SVG/text.html#BaselineShiftProperty)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### CSS Layout
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [@import](/css/atrules/@import)
+
+-   [align-self](/css/properties/align-self)
+
+-   [background](/css/properties/background)
+
+-   [box-decoration-break](/css/properties/box-decoration-break)
+
+-   [box-flex](/css/properties/box-flex)
+
+-   [box-lines](/css/properties/box-lines)
+
+-   [box-ordinal-group](/css/properties/box-ordinal-group)
+
+-   [box-orient](/css/properties/box-orient)
+
+-   [box-pack](/css/properties/box-pack)
+
+-   [box-shadow](/css/properties/box-shadow)
+
+-   [break-before](/css/properties/break-before)
+
+-   [flex-align](/css/properties/flex-align)
+
+-   [flex-item-align](/css/properties/flex-item-align)
+
+-   [flex-line-pack](/css/properties/flex-line-pack)
+
+-   [grid-auto-rows](/css/properties/grid-auto-rows)
+
+-   [grid-definition-columns](/css/properties/grid-definition-columns)
+
+-   [grid-definition-rows](/css/properties/grid-definition-rows)
+
+-   [height](/css/properties/height)
+
+-   [max-width](/css/properties/max-width)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   **baseline-shift**
+
+#### CSS Attributes
+
+-   [background-blend-mode](/css/properties/background-blend-mode)
+
+-   [background-position](/css/properties/background-position)
+
+-   [break-before](/css/properties/break-before)
+
+-   [height](/css/properties/height)
+
+-   [list-style](/css/properties/list-style)
+
+-   [list-style-position](/css/properties/list-style-position)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [user-select](/css/properties/user-select)
+
+-   [equality](/css/selectors/attributes/equality)
+
+-   [Attribute selector](/css/selectors/attributes/existence)
+
+-   [hyphen](/css/selectors/attributes/hyphen)
+
+-   [prefix](/css/selectors/attributes/prefix)
+
+-   [substring](/css/selectors/attributes/substring)
+
+-   [suffix](/css/selectors/attributes/suffix)
+
+-   **baseline-shift**
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**currentStyle**](/css/cssom/currentStyle)
+-   [**style**](/css/cssom/style)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**dominantBaseline**](/svg/attributes/dominant-baseline)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

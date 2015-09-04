@@ -1,28 +1,37 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category, Parent and Children information. Complete Compatibility information.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The '''header''' element (&lt;header&gt;) represents the header of a section: a group of introductory or navigational aids.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=Closing tag required
-|CSS_display=block
-|Content=The '''header''' element represents introductory content for its nearest ancestor sectioning content ([[html/elements/article|article]] [[html/elements/aside|aside]] [[html/elements/nav|nav]] [[html/elements/section|section]]) or sectioning root element ([[html/elements/blockquote|blockquote]] [[html/elements/body|body]] [[html/elements/fieldset|fieldset]] [[html/elements/figure|figure]] [[html/elements/td|td]]).
+---
+title: header
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+notes:
+  - 'Add Category, Parent and Children information. Complete Compatibility information.'
+summary: 'The header element (<header>) represents the header of a section: a group of introductory or navigational aids.'
+uri: html/elements/header
+
+---
+# header
+
+## Summary
+
+The header element (\<header\>) represents the header of a section: a group of introductory or navigational aids.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+The **header** element represents introductory content for its nearest ancestor sectioning content ([article](/html/elements/article) [aside](/html/elements/aside) [nav](/html/elements/nav) [section](/html/elements/section)) or sectioning root element ([blockquote](/html/elements/blockquote) [body](/html/elements/body) [fieldset](/html/elements/fieldset) [figure](/html/elements/figure) [td](/html/elements/td)).
 
 A header element is intended to usually contain the section's heading (an h1–h6 element or an hgroup element), but this is not required. The header element can also be used to wrap a section's table of contents, a search form, or any relevant logos.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following snippet shows how the element can be used to mark up a specification's header
-|Code=<nowiki>
+
+## Examples
+
+The following snippet shows how the element can be used to mark up a specification's header
+
+``` {.html}
+
 <header>
  <hgroup>
   <h1>Scalable Vector Graphics (SVG) 1.2</h1>
@@ -44,12 +53,12 @@ A header element is intended to usually contain the section's heading (an h1–h
  </dl>
  <p class="copyright"><a href="http://www.w3.org/Consortium/Legal/ipr-notic ...
 </header>
-</nowiki>
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=In this example, the page has a page heading given by the h1 element, and two subsections whose headings are given by h2 elements. The content after the header element is still part of the last subsection started in the header element, because the header element doesn't take part in the outline algorithm
-|Code=<nowiki>
+```
+
+In this example, the page has a page heading given by the h1 element, and two subsections whose headings are given by h2 elements. The content after the header element is still part of the last subsection started in the header element, because the header element doesn't take part in the outline algorithm
+
+``` {.html}
+
 <body>
  <header>
   <h1>Little Green Guys With Guns</h1>
@@ -68,110 +77,39 @@ A header element is intended to usually contain the section's heading (an h1–h
  <p>You have three active games:</p>
  <!-- this is still part of the subsection entitled "Games" -->
  ...
-</nowiki>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-Windows Internet Explorer 9.  The '''header''' element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
-A '''header''' element can contain the section's heading (an '''h1-h6''' element or an '''hgroup''' element) but this is not required. The '''header''' element can also be used to wrap a section's table of contents, a search form, or any relevant logos.
-The '''header''' element is not sectioning content; it does not introduce a new section.
-|Import_Notes====HTML information===
-{{{!}} class="wikitable"
-{{!}}-
-{{!}}Closing Tag
-{{!}}required
-{{!}}-
-{{!}}CSS Display
-{{!}}block
-{{!}}}
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/sections.html#the-header-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/sections.html#the-header-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=http://www.w3.org/TR/html-markup/header.html
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=5.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=4.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=11.10
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=4.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=2.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=9.0
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=11.0
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=5.0 (iOS 4.2)
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+```
+
+## Notes
+
+### Remarks
+
+Windows Internet Explorer 9. The **header** element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility. A **header** element can contain the section's heading (an **h1-h6** element or an **hgroup** element) but this is not required. The **header** element can also be used to wrap a section's table of contents, a search form, or any relevant logos. The **header** element is not sectioning content; it does not introduce a new section.
+
+### HTML information
+
+Closing Tag
+:   required
+CSS Display
+:   block
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-header-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/sections.html#the-header-element)
+:   W3C Recommendation
+
+## See also
+
+### External resources
+
+[http://www.w3.org/TR/html-markup/header.html](http://www.w3.org/TR/html-markup/header.html)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,68 +1,76 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat table
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets the root node of the document.}}
-{{API_Object_Property
-|Property_applies_to=dom/Document
-|Read_only=Yes
-|Example_object_name=document
-|Return_value_name=documentElement
-|Javascript_data_type=DOM Node
-|Return_value_description=The root element of the document.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''documentElement''' property to get the [[dom/HTMLElement/innerHTML|'''innerHTML''']] property of the entire document, essentially everything inside the <code><html>...</html></code> tags.
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
- &lt;head&gt;
-  &lt;script&gt;
+---
+title: documentElement
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs compat table'
+summary: 'Gets the root node of the document.'
+uri: dom/Document/documentElement
+
+---
+# documentElement
+
+## Summary
+
+Gets the root node of the document.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var documentElement = document.documentElement;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+The root element of the document.
+
+## Examples
+
+This example uses the **documentElement** property to get the [**innerHTML**](/dom/HTMLElement/innerHTML) property of the entire document, essentially everything inside the `<html>...</html>` tags.
+
+``` {.html}
+<!doctype html>
+<html>
+ <head>
+  <script>
 function getHTML() {
-   var sData {{=}} document.documentElement.innerHTML;
-   document.getElementById("oResults").value {{=}} sData;
+   var sData = document.documentElement.innerHTML;
+   document.getElementById("oResults").value = sData;
 }
 window.addEventListener("load", getHTML, false);
-  &lt;/script&gt;
- &lt;/head&gt;
- &lt;body&gt;
-  &lt;textarea id{{=}}"oResults" cols{{=}}"50" rows{{=}}"10"&gt;&lt;/textarea&gt;
- &lt;/body&gt;
-&lt;/html&gt;
-}}
-}}
-{{Notes_Section
-|Notes=The root node of a typical HTML document is the '''html''' object.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#i-Document
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+  </script>
+ </head>
+ <body>
+  <textarea id="oResults" cols="50" rows="10"></textarea>
+ </body>
+</html>
+```
+
+## Notes
+
+The root node of a typical HTML document is the **html** object.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#i-Document)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

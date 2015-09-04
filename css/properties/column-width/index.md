@@ -1,46 +1,62 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specifies the width of columns in multi-column elements.}}
-{{CSS Property
-|Initial value=auto
-|Applies to=non-replaced block-level elements (except table elements), table cells, and inline-block elements
-|Inherited=No
-|Media=visual
-|Computed value=the absolute length, zero or larger
-|Animatable=Yes
-|CSS object model property=columnWidth
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=length
-|Description=A floating-point number, followed by either an absolute units designator
-(<code>cm</code>,
-<code>mm</code>,
-<code>in</code>,
-<code>pt</code>,
-or <code>pc</code>)
-or a relative units designator
-(<code>rem</code>, <code>em</code>,
-<code>ex</code>,
-or <code>px</code>), that indicates the optimal width.
-For more information about the supported length units,
-see CSS Length Units Reference.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=Default. The optimal column width is determined through other property values of the multi-column element, such as [[css/properties/column-count|'''columnCount''']].
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Makes as many columns that are 100px as there is space in the browser.
-|Code=/*
+---
+title: column-width
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Specifies the width of columns in multi-column elements.'
+code_samples:
+  - 'http://gist.github.com/5305475'
+uri: css/properties/column-width
+
+---
+# column-width
+
+## Summary
+
+Specifies the width of columns in multi-column elements.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `auto`
+Applies to
+:   non-replaced block-level elements (except table elements), table cells, and inline-block elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   the absolute length, zero or larger
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `columnWidth`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `column-width: auto`
+-   `column-width: length`
+
+## Values
+
+length
+:   A floating-point number, followed by either an absolute units designator
+
+(`cm`, `mm`, `in`, `pt`, or `pc`) or a relative units designator (`rem`, `em`, `ex`, or `px`), that indicates the optimal width. For more information about the supported length units, see CSS Length Units Reference.
+
+auto
+:   Default. The optimal column width is determined through other property values of the multi-column element, such as [**columnCount**](/css/properties/column-count).
+
+## Examples
+
+Makes as many columns that are 100px as there is space in the browser.
+
+``` {.css}
+/*
 Makes as many columns that are 100px as there is space in the browser.
 */
 
@@ -48,58 +64,56 @@ Makes as many columns that are 100px as there is space in the browser.
   /* Prefix free example below, use vendor prefixes where needed */
   column-width: 100px;
 }
-|LiveURL=http://code.webplatform.org/gist/5305475
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-The actual column width may vary from the value specified due to available space.
-To ensure that the exact value specified for this property is used, all property values of the multi-column element that pertain to length (such as width, column-width, column-gap, and column-rule-width) must be specified.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Multi-column Layout Module
-|URL=http://www.w3.org/TR/css3-multicol/
-|Status=Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Multi-Column
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Chrome
-|Note=Requires -webkit- prefix
-}}{{Compatibility Notes Row
-|Browser=Safari
-|Note=Requires -webkit- prefix
-}}{{Compatibility Notes Row
-|Browser=Opera
-|Version=14–Current
-|Note=Requires -webkit- prefix
-}}{{Compatibility Notes Row
-|Browser=Firefox
-|Note=Requires -moz- prefix
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=10
-}}
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5305475)
+
+## Notes
+
+### Remarks
+
+The actual column width may vary from the value specified due to available space. To ensure that the exact value specified for this property is used, all property values of the multi-column element that pertain to length (such as width, column-width, column-gap, and column-rule-width) must be specified.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
+:   Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Multi-Column
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [column-count](/css/properties/column-count)
+
+-   [column-gap](/css/properties/column-gap)
+
+-   [column-rule](/css/properties/column-rule)
+
+-   [column-rule-color](/css/properties/column-rule-color)
+
+-   [column-rule-style](/css/properties/column-rule-style)
+
+-   [column-rule-width](/css/properties/column-rule-width)
+
+-   [column-span](/css/properties/column-span)
+
+-   **column-width**
+
+-   [content](/css/properties/content)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

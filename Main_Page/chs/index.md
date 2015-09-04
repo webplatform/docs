@@ -1,157 +1,138 @@
-{{Page Title|欢迎进入 '''Web Platform''' 文库}}
+---
+title: chs
+uri: 'Main Page/chs'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'Main Page/af'
+    - 'Main Page/ar'
+    - 'Main Page/ast'
+    - 'Main Page/az'
+    - 'Main Page/bcc'
+    - 'Main Page/bg'
+    - 'Main Page/br'
+    - 'Main Page/ca'
+    - 'Main Page/cs'
+    - 'Main Page/da'
+    - 'Main Page/diq'
+    - 'Main Page/el'
+    - 'Main Page/eo'
+    - 'Main Page/fa'
+    - 'Main Page/fi'
+    - 'Main Page/gl'
+    - 'Main Page/gu'
+    - 'Main Page/he'
+    - 'Main Page/hu'
+    - 'Main Page/hy'
+    - 'Main Page/id'
+    - 'Main Page/it'
+    - 'Main Page/ka'
+    - 'Main Page/kk'
+    - 'Main Page/km'
+    - 'Main Page/ksh'
+    - 'Main Page/kw'
+    - 'Main Page/mk'
+    - 'Main Page/ml'
+    - 'Main Page/mr'
+    - 'Main Page/ms'
+    - 'Main Page/no'
+    - 'Main Page/oc'
+    - 'Main Page/pl'
+    - 'Main Page/pt'
+    - 'Main Page/ro'
+    - 'Main Page/ru'
+    - 'Main Page/si'
+    - 'Main Page/sk'
+    - 'Main Page/sl'
+    - 'Main Page/sq'
+    - 'Main Page/sr'
+    - 'Main Page/sv'
+    - 'Main Page/ta'
+    - 'Main Page/th'
+    - 'Main Page/uk'
+    - 'Main Page/vi'
+    - 'Main Page/yue'
+    - 'Main Page/zh-tw'
+    - beginners/chs
+    - concepts/chs
+    - html/chs
+    - css/chs
+    - javascript/chs
 
-{{Flags|State=Unreviewed}}
+---
+# 欢迎进入 Web Platform 文库
 
-==总结==
-<b>Web platform</b> 文库是一个社区驱动的网站，旨在成为一个综合性和权威性，为Web开发人员文档。
+## 总结
 
-{{Languages}}
+**Web platform** 文库是一个社区驱动的网站，旨在成为一个综合性和权威性，为Web开发人员文档。
 
-==探索我们的网站开发文档==
+**Language:**
+:   **[English](/Main_Page)**  • <span lang="de">[Deutsch](/Main_Page/de)</span> • <span lang="es">[español](/Main_Page/es)</span> • <span lang="fr">[français](/Main_Page/fr)</span> • <span lang="ja">[日本語](/Main_Page/ja)</span> • <span lang="ko">[한국어](/Main_Page/ko)</span> • <span lang="nl">[Nederlands](/Main_Page/nl)</span> • <span lang="pt-br">[português do Brasil](/Main_Page/pt-br)</span> • <span lang="tr">[Türkçe](/Main_Page/tr)</span> • <span lang="zh">[中文](/Main_Page/zh)</span> • <span lang="zh-hans">[中文（简体）‎](/Main_Page/zh-hans)</span> • <span lang="zh-hant">[中文（繁體）‎](/Main_Page/zh-hant)</span>
 
-<div class="topic-container">
+## 探索我们的网站开发文档
 
-  <div class="long-topic">
-  
-    <div class="image icon-beginners"></div>
-    
-    <div class="inner">
-    <h3>[[beginners/chs|初学者指南]]</h3>
-    
-    <p>针对Web开发的入门教材。</p>
-    </div>
-  
-  </div>
-  
-  <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/chs|一般网络概念]]</h3>
-    
-    <p>概念和教程文章主题，如网络工程，信息架构，排版和网页设计。</p>
-    </div>
-  
-  </div>
- 
-  <div class="long-topic">
-  
-    <div class="image icon-html"></div>
-    
-    <div class="inner">
-    <h3>[[html/chs|HTML]]</h3>
-    
-    <p>概念，教程和网页的主要标记语言的参考材料。</p>
-    </div>
-  
-  </div>
-  
-  <div class="long-topic">
-  
-    <div class="image icon-css"></div>
-    
-    <div class="inner">
-    <h3>[[css/chs|CSS]]</h3>
-    
-    <p>概念，教程和参考材料层叠样式表(<abbr>CSS</abbr>).</p>
-    </div>
-  
-  </div>
-  
-  <div class="long-topic">
-  
-    <div class="image icon-accessibility"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/accessibility|无障碍]]</h3>
-    
-    <p>模式，做法和网络工作的人与不同的能力范围的商业案例。</p>
-    </div>
-  
-  </div>
-  
-  <div class="long-topic">
-  
-    <div class="image icon-js"></div>
-    
-    <div class="inner">
-    <h3>[[javascript/chs|JavaScript]]</h3>
-    
-    <p>教程和参考材料为JavaScript网页的客户端脚本语言;包括第三方JavaScript库的参考材料。</p>
-    </div>
-  
-  </div>
-  
-  <div class="long-topic">
-  
-    <div class="image icon-dom"></div>
-    
-    <div class="inner">
-    <h3>[[dom|DOM]]</h3>
-    
-    <p>文档对象模型（DOM）事件和方法教程和参考材料。 (<abbr>DOM</abbr>).</p>
-    </div>
-  
-  </div>
+### 初学者指南
 
-  <div class="long-topic">
-  
-    <div class="image icon-svg"></div>
-    
-    <div class="inner">
-    <h3>[[svg|SVG]]</h3>
-    
-    <p>可伸缩矢量图形(<abbr>SVG</abbr>)，用于描述二维矢量图形的<abbr>XML</abbr>标记语言的教程和参考材料。</p>
-    </div>
-  
-  </div>
+针对Web开发的入门教材。
 
-  <div class="long-topic">
-  
-    <div class="image icon-api"></div>
-    
-    <div class="inner">
-    <h3>[[apis|APIs]]</h3>
-    
-    <p>从AppCache到XHR的JavaScript <abbr>API</abbr> 参考材料。</p>
-    </div>
-  
-  </div>
+### 一般网络概念
 
-</div>
+概念和教程文章主题，如网络工程，信息架构，排版和网页设计。
 
-<div class="clearfixboth"></div>
+### HTML
 
+概念，教程和网页的主要标记语言的参考材料。
 
-==Web Platform 文库用途及发展==
+### CSS
 
-<b>Web Platform</b> 文库现阶段仍然是不成熟的，但你已经可以在网站上找到很多有价值的内容，包括：
+概念，教程和参考材料层叠样式表(<abbr>CSS</abbr>).
 
-* 如何使用开放式网络的特点，语法和示例
-* 什么样的平台和设备，你可以使用各种技术
-* 目前每个技术规范的标准化，稳定性和执行情况
+### 无障碍
 
-未来，<b>Web Platform</b> 文库将为你开拓丰富更多内容：
-最新实例代码、教育资源和更多。为加快发展脚步，我们诚意邀请你加入我们的行列，贡献你的知识。
+模式，做法和网络工作的人与不同的能力范围的商业案例。
 
-==完善 <b>Web Plaftorm</b> 文库==
+### JavaScript
 
-我们很乐意对您有帮助改善 <b>Web Platform</b> 文库。哪怕是一丁点的努力，可以在网站上有显着的影响，提醒有关错误修复这些错误，移植现有的物品，甚至贡献完全新的内容在我们的文档，同开发商。要了解更多信息，请仔细阅读我们的[[WPD:Getting_Started|编辑入门指南]]。
+教程和参考材料为JavaScript网页的客户端脚本语言;包括第三方JavaScript库的参考材料。
 
-* 要向 <b>Web Platform</b> 提交错误信息（<abbr>BUG</abbr>）, 请使用 [https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org W3C“项目管理”页面]。 有关更多信息，请阅读我们的[http://docs.webplatform.org/wiki/WPD:Filing_Bugs 申报错误页面]。 
-* 如果你在 <b>Web Platform</b> 文库有任何疑问，请先参照 [[WPD:FAQ|常见问题]]里的提示。
+### DOM
 
+文档对象模型（DOM）事件和方法教程和参考材料。 (<abbr>DOM</abbr>).
 
-==保持联系==
+### SVG
 
-* 加入我们的 [http://talk.webplatform.org/forums/ 问答论坛]
-* 在<abbr>IRC</abbr>与众多编辑们聊天: 我们在[irc://chat.freenode.net#webplatform FREENODE]
-* 阅读我们的 [http://blog.webplatform.org/ 博客]
-* 在Twitter关注我们 [https://twitter.com/webplatform @WebPlatform]
-* 分享并链接我们网站 [http://webplatform.org/logo logo]
-* 参加我们的交流活动 [[WPD:Community/Community_Events|Eventos]]
+可伸缩矢量图形(<abbr>SVG</abbr>)，用于描述二维矢量图形的<abbr>XML</abbr>标记语言的教程和参考材料。
 
-==网站政策==
+### APIs
 
-<b>Web Platform</b> 文库维基上的内容根据[[Template:CC-by-3.0| 知识共享署名（CC-BY）牌照]]建立，其他情况会有标注说明。关于政策的详细信息，请参阅我们的[[WPD:Copyright|版权]]和[[WPD:Privacy|隐私]]，以及我们的[[WPD:Policy|基本政策]]。
+从AppCache到XHR的JavaScript <abbr>API</abbr> 参考材料。
+
+## Web Platform 文库用途及发展
+
+**Web Platform** 文库现阶段仍然是不成熟的，但你已经可以在网站上找到很多有价值的内容，包括：
+
+-   如何使用开放式网络的特点，语法和示例
+-   什么样的平台和设备，你可以使用各种技术
+-   目前每个技术规范的标准化，稳定性和执行情况
+
+未来，**Web Platform** 文库将为你开拓丰富更多内容： 最新实例代码、教育资源和更多。为加快发展脚步，我们诚意邀请你加入我们的行列，贡献你的知识。
+
+## 完善 Web Plaftorm 文库
+
+我们很乐意对您有帮助改善 **Web Platform** 文库。哪怕是一丁点的努力，可以在网站上有显着的影响，提醒有关错误修复这些错误，移植现有的物品，甚至贡献完全新的内容在我们的文档，同开发商。要了解更多信息，请仔细阅读我们的[编辑入门指南](/WPD:Getting_Started)。
+
+-   要向 **Web Platform** 提交错误信息（<abbr>BUG</abbr>）, 请使用 [W3C“项目管理”页面](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform.org)。 有关更多信息，请阅读我们的[申报错误页面](http://docs.webplatform.org/wiki/WPD:Filing_Bugs)。
+-   如果你在 **Web Platform** 文库有任何疑问，请先参照 [常见问题](/WPD:FAQ)里的提示。
+
+## 保持联系
+
+-   加入我们的 [问答论坛](http://talk.webplatform.org/forums/)
+-   在<abbr>IRC</abbr>与众多编辑们聊天: 我们在[FREENODE](irc://chat.freenode.net#webplatform)
+-   阅读我们的 [博客](http://blog.webplatform.org/)
+-   在Twitter关注我们 [@WebPlatform](https://twitter.com/webplatform)
+-   分享并链接我们网站 [logo](http://webplatform.org/logo)
+-   参加我们的交流活动 [Eventos](/WPD:Community/Community_Events)
+
+## 网站政策
+
+**Web Platform** 文库维基上的内容根据[知识共享署名（CC-BY）牌照](/Template:CC-by-3.0)建立，其他情况会有标注说明。关于政策的详细信息，请参阅我们的[版权](/WPD:Copyright)和[隐私](/WPD:Privacy)，以及我们的[基本政策](/WPD:Policy)。

@@ -1,58 +1,65 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Returns the contents of a Range as a string. This string contains only the data characters, no markup.}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=dom/Range
-|Example_object_name=range
-|Return_value_name=text
-|Javascript_data_type=String
-|Return_value_description=Contains only the data characters, no markup.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=var range {{=}} document.createRange();
+---
+title: toString
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Returns the contents of a Range as a string. This string contains only the data characters, no markup.'
+uri: dom/Range/toString
+
+---
+# toString
+
+## Summary
+
+Returns the contents of a Range as a string. This string contains only the data characters, no markup.
+
+*Method of [dom/Range](/dom/Range)*
+
+## Syntax
+
+``` {.js}
+var text = range.toString();
+```
+
+## Return Value
+
+Returns an object of type String.
+
+Contains only the data characters, no markup.
+
+## Examples
+
+``` {.js}
+var range = document.createRange();
 
 range.selectNode(document.getElementsByTagName("div").item(0));
-text {{=}} range.toString();
-}}
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
 text = range.toString();
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/#dom-range-stringifier
-|Status=Living Standard
-|Relevant_changes=No Change
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.toString Range.toString]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh869616(v=vs.85).aspx toString Method]
-|HTML5Rocks_link=
-}}
+```
+
+### Syntax
+
+text = range.toString();
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
+
+## Related specifications
+
+Specification
+:   Status
+[DOM](http://dom.spec.whatwg.org/#dom-range-stringifier)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.toString](https://developer.mozilla.org/en-US/docs/Web/API/Range.toString) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[toString Method](http://msdn.microsoft.com/en-us/library/ie/hh869616(v=vs.85).aspx) Article]
+

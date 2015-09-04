@@ -1,71 +1,68 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: externalResourcesRequired
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/externalResourcesRequired
 
-===Remarks===
+---
+# externalResourcesRequired
 
-If an external resource is not available, progressive rendering is suspended and the [[svg/events/load|'''onload''']] event does not occur. If a time-out event occurs with the Scalable Vector Graphics (SVG) document while loading a required resource, the document enters an error state that remains until all required resources  are  available.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+If an external resource is not available, progressive rendering is suspended and the [**onload**](/svg/events/load) event does not occur. If a time-out event occurs with the Scalable Vector Graphics (SVG) document while loading a required resource, the document enters an error state that remains until all required resources are available.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.27
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.27
 
-*[[svg/elements/clipPath|'''SVGClipPathElement''']]
-*[[svg/elements/patterrn|'''SVGPatternElement''']]
-*[[svg/elements/svg|'''SVGSVGElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/g|'''SVGGElement''']]
-*[[svg/elements/symbol|'''SVGSymbolElement''']]
-*[[svg/elements/defs|'''SVGDefsElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/gradient|'''SVGGradientElement''']]
-*[[svg/elements/linearGradient|'''SVGLinearGradientElement''']]
-*[[svg/elements/radialGradient|'''SVGRadialGradientElement''']]
-*[[svg/elements/mask|'''SVGMaskElement''']]
-*[[svg/elements/marker|'''SVGMarkerElement''']]
-*[[svg/elements/a|'''SVGAElement''']]
-*[[svg/elements/view|'''SVGViewElement''']]
-*[[svg/elements/switch|'''SVGSwitchElement''']]
-*[[svg/elements/script|'''SVGScriptElement''']]
-*[[svg/elements/etextContent|'''SVGTextContentElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]
-*[[svg/elements/image|'''SVGImageElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/use|'''SVGUseElement''']]
-*[[svg/elements/feImage|'''SVGFEImageElement''']]
-*[[svg/elements/filter|'''SVGFilterElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGClipPathElement**](/svg/elements/clipPath)
+-   [**SVGPatternElement**](/svg/elements/patterrn)
+-   [**SVGSVGElement**](/svg/elements/svg)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGGElement**](/svg/elements/g)
+-   [**SVGSymbolElement**](/svg/elements/symbol)
+-   [**SVGDefsElement**](/svg/elements/defs)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGGradientElement**](/svg/elements/gradient)
+-   [**SVGLinearGradientElement**](/svg/elements/linearGradient)
+-   [**SVGRadialGradientElement**](/svg/elements/radialGradient)
+-   [**SVGMaskElement**](/svg/elements/mask)
+-   [**SVGMarkerElement**](/svg/elements/marker)
+-   [**SVGAElement**](/svg/elements/a)
+-   [**SVGViewElement**](/svg/elements/view)
+-   [**SVGSwitchElement**](/svg/elements/switch)
+-   [**SVGScriptElement**](/svg/elements/script)
+-   [**SVGTextContentElement**](/svg/elements/etextContent)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   ****externalResourcesRequired****
+-   [**SVGImageElement**](/svg/elements/image)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGUseElement**](/svg/elements/use)
+-   [**SVGFEImageElement**](/svg/elements/feImage)
+-   [**SVGFilterElement**](/svg/elements/filter)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

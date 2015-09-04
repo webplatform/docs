@@ -1,72 +1,71 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Changes the value of the height without changing the units designator.}}
-{{API_Object_Property
-|Property_applies_to=css/cssom/properties
-|Read_only=No
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example uses a timer to increment the '''pixelHeight''' property.
-|Code=&lt;SCRIPT&gt;
+---
+title: pixelHeight
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+notes:
+  - 'Needs spec reference, standardization status'
+summary: 'Changes the value of the height without changing the units designator.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pixelWidth.htm'
+uri: css/cssom/properties/pixelHeight
+
+---
+# pixelHeight
+
+## Summary
+
+Changes the value of the height without changing the units designator.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/properties](/css/cssom/properties)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.pixelHeight;
+element.pixelHeight = value;
+```
+
+## Examples
+
+This example uses a timer to increment the **pixelHeight** property.
+
+``` {.js}
+<SCRIPT>
 function scaleThis()
 {
-    if (sphere.style.pixelWidth &lt;900) {
-        sphere.style.pixelWidth +{{=}} 4;
-        sphere.style.pixelHeight +{{=}}4;
+    if (sphere.style.pixelWidth <900) {
+        sphere.style.pixelWidth += 4;
+        sphere.style.pixelHeight +=4;
         window.setTimeout("scaleThis();", 1);
     }
 }
 :
-&lt;/SCRIPT&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pixelWidth.htm
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-Setting this property changes the value of the height without changing the units designator. Unlike the [[css/properties/height|'''height''']] property, this property's value is an integer, not a string, and is always interpreted in pixels.
+</SCRIPT>
+```
 
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/cssom/properties/posHeight|posHeight]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pixelWidth.htm)
+
+## Notes
+
+### Remarks
+
+Setting this property changes the value of the height without changing the units designator. Unlike the [**height**](/css/properties/height) property, this property's value is an integer, not a string, and is always interpreted in pixels.
+
+## See also
+
+### Related pages (MSDN)
+
+-   `runtimeStyle`
+-   `style`
+-   `posHeight`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

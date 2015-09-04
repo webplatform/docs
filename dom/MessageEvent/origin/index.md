@@ -1,55 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=examples, compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Gets the URL of the document of origin.}}
-{{API_Object_Property
-|Property_applies_to=dom/MessageEvent
-|Read_only=Yes
-|Example_object_name=event
-|Return_value_name=messageOrigin
-|Javascript_data_type=String
-|Return_value_description=The origin URL of the document that sent the message.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=In cross-document messaging, this property represents the originating  URI  of the document that sent the message (typically the URI includes the scheme, host name, and port of the document, but not its path or fragment identifier).
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 6.1
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 6.1
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM, DOMEvents}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: origin
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+  - DOMEvents
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'examples, compatibility'
+summary: 'Gets the URL of the document of origin.'
+uri: dom/MessageEvent/origin
+
+---
+# origin
+
+## Summary
+
+Gets the URL of the document of origin.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MessageEvent](/dom/MessageEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var messageOrigin = event.origin;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The origin URL of the document that sent the message.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+In cross-document messaging, this property represents the originating URI of the document that sent the message (typically the URI includes the scheme, host name, and port of the document, but not its path or fragment identifier).
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5](http://www.w3.org/TR/html5/)
+:   Working Draft
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,45 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: refX
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/refX
 
-===Remarks===
+---
+# refX
 
-The x-coordinate is defined in the coordinate system after [[svg/properties/viewBox|'''viewBox''']] and [[svg/properties/preserveAspectRatio|'''preserveAspectRatio''']] attributes are applied to the coordinates.
+## Notes
 
-If you do not specify the  '''refX'''   property, the effect is the same as if you specify a value of '''"0"'''.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+The x-coordinate is defined in the coordinate system after [**viewBox**](/svg/properties/viewBox) and [**preserveAspectRatio**](/svg/properties/preserveAspectRatio) attributes are applied to the coordinates.
 
-===Standards information===
+If you do not specify the **refX** property, the effect is the same as if you specify a value of **"0"**.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.9.2
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.9.2
 
-===Reference===
+## See also
 
-*[[svg/elements/marker|'''SVGMarkerElement''']]
-*[[svg/properties/refY|'''refY''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+### Related pages (MSDN)
+
+### Reference
+
+-   [**SVGMarkerElement**](/svg/elements/marker)
+-   [**refY**](/svg/properties/refY)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,39 +1,51 @@
-== Summary ==
-[http://python.org/ Python] is a dynamic programming language which emphasizes code readability. It is widely used in a variety of areas, most notably scientific computing and system administration, though it has recently gained much wider usage in web development.
+---
+title: python
+uri: 'server-side languages/python'
 
-=== Similarity with Javascript ===
-* Functional programming features
-* Dynamic typing
+---
+## Summary
 
-=== Features ===
-* "Batteries-included" - numerous useful standard libraries included by default
-* Object-Oriented
-* Excellent support for string and lists operations
-* Many web frameworks
-* Many system utility tools and years of traction as server-side scripting language (if you need to do more advanced server-side tasks in the future)
-* Strong community
+[Python](http://python.org/) is a dynamic programming language which emphasizes code readability. It is widely used in a variety of areas, most notably scientific computing and system administration, though it has recently gained much wider usage in web development.
 
-== Resources ==
-* [http://python.org/doc/ Official Python Documentation]
-* [http://wiki.python.org/moin/BeginnersGuide Python.org's Beginner Guide]
+### Similarity with Javascript
 
-== Support ==
+-   Functional programming features
+-   Dynamic typing
+
+### Features
+
+-   "Batteries-included" - numerous useful standard libraries included by default
+-   Object-Oriented
+-   Excellent support for string and lists operations
+-   Many web frameworks
+-   Many system utility tools and years of traction as server-side scripting language (if you need to do more advanced server-side tasks in the future)
+-   Strong community
+
+## Resources
+
+-   [Official Python Documentation](http://python.org/doc/)
+-   [Python.org's Beginner Guide](http://wiki.python.org/moin/BeginnersGuide)
+
+## Support
 
 Python also has a fairly vibrant community:
 
-* [http://www.python.org/community/irc/ IRC Channel]
-* [http://mail.python.org/mailman/listinfo Mailing Lists]
+-   [IRC Channel](http://www.python.org/community/irc/)
+-   [Mailing Lists](http://mail.python.org/mailman/listinfo)
 
-== Tutorials ==
-* [http://docs.python.org/2/tutorial/ Official Python Tutorial]
-* [https://code.google.com/edu/languages/google-python-class/ Google's Python Class]
-* [http://docs.python.org/2/howto/webservers.html HOWTO Use Python in the Web]
+## Tutorials
 
-== Frameworks ==
+-   [Official Python Tutorial](http://docs.python.org/2/tutorial/)
+-   [Google's Python Class](https://code.google.com/edu/languages/google-python-class/)
+-   [HOWTO Use Python in the Web](http://docs.python.org/2/howto/webservers.html)
+
+## Frameworks
+
 Some of the more widely used Python web frameworks are:
-* [https://www.djangoproject.com/ Django] - full stack framework, colloquially referred to as Python's counterpart to Ruby's Rails web framework.
-* [http://www.pylonsproject.org/ Pylons/Pyramid] 
-* [http://flask.pocoo.org/ Flask]
-* [http://wiki.python.org/moin/WebFrameworks more]
 
-[http://www.python.org/dev/peps/pep-0333/ WSGI] is the standard API for Python to talk to web servers and most (but not all) web frameworks support it. Understanding a high level overview of the WSGI interface may aid you in understanding the control flow of your web requests when using Python as the backend.
+-   [Django](https://www.djangoproject.com/) - full stack framework, colloquially referred to as Python's counterpart to Ruby's Rails web framework.
+-   [Pylons/Pyramid](http://www.pylonsproject.org/)
+-   [Flask](http://flask.pocoo.org/)
+-   [more](http://wiki.python.org/moin/WebFrameworks)
+
+[WSGI](http://www.python.org/dev/peps/pep-0333/) is the standard API for Python to talk to web servers and most (but not all) web frameworks support it. Understanding a high level overview of the WSGI interface may aid you in understanding the control flow of your web requests when using Python as the backend.

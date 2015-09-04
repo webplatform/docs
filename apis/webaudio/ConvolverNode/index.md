@@ -1,50 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|This interface represents a processing node which applies a linear convolution effect given an impulse response.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: ConvolverNode
+tags:
+  0: API
+  1: Objects
+  3: WebAudio
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'This interface represents a processing node which applies a linear convolution effect given an impulse response.'
+uri: apis/webaudio/ConvolverNode
+
+---
+# ConvolverNode
+
+## Summary
+
+This interface represents a processing node which applies a linear convolution effect given an impulse response.
+
+## Properties
+
+API Name
+:   Summary
+[buffer](/apis/webaudio/ConvolverNode/buffer)
+:   A mono, stereo, or 4-channel [**AudioBuffer**](/apis/webaudio/AudioBuffer) containing the (possibly multi-channel) impulse response used by the ****ConvolverNode****. At the time when this attribute is set, the buffer and the state of the normalize attribute will be used to configure the ****ConvolverNode**** with this impulse response having the given normalization.
+[normalize](/apis/webaudio/ConvolverNode/normalize)
+:   Controls whether the impulse response from the buffer will be scaled by an equal-power normalization when the buffer atttribute is set. Its default value is true in order to achieve a more uniform output level from the convolver when loaded with diverse impulse responses. If normalize is set to false, then the convolution will be rendered with no pre-processing/scaling of the impulse response. Changes to this value do not take effect until the next time the buffer attribute is set. If the normalize attribute is false when the buffer attribute is set then the ****ConvolverNode**** will perform a linear convolution given the exact impulse response contained within the buffer.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

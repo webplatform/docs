@@ -1,42 +1,38 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The animation node’s playback rate property.}}
-{{API_Object_Property
-|Property_applies_to=apis/web_animations/AnimationTimingReadOnly
-|Read_only=Yes
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=double
-|Return_value_description=This is a multiplier applied to the local time potentially causing the node to run at a different rate to its natural speed.
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: playbackRate
+tags:
+  - API
+  - Object
+  - Properties
+  - Web
+  - Animations
+readiness: 'Almost Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The animation node’s playback rate property.'
+uri: 'apis/web animations/AnimationTimingReadOnly/playbackRate'
+
+---
+# playbackRate
+
+## Summary
+
+The animation node’s playback rate property.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.playbackRate;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">double</span></span>
+
+This is a multiplier applied to the local time potentially causing the node to run at a different rate to its natural speed.
+
+**Needs Examples**: This section should include examples.
+

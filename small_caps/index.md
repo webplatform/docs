@@ -1,19 +1,17 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Glossary term; move candidate
-|Checked_Out=No
-}}
-{{Glossary_Item
-|Term=small caps
-|Definition=A typographical feature in which smaller uppercase letters are set at the same height and weight as the font's lowercase letters and used as though they were lowercase, creating a visually distinctive appearance from both equivalent uppercase characters and surrounding text.
-}}
-{{Notes_Section}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: mall caps
+tags:
+  - Glossary
+  - Items
+readiness: 'Not Ready'
+notes:
+  - 'Glossary term; move candidate'
+uri: 'small caps'
+
+---
+# small caps
+
+## small caps
+
+A typographical feature in which smaller uppercase letters are set at the same height and weight as the font's lowercase letters and used as though they were lowercase, creating a visually distinctive appearance from both equivalent uppercase characters and surrounding text.
+

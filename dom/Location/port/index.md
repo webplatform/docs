@@ -1,60 +1,61 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=compatibility, standards, more info/cross ref to explain the concept of "port"
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Sets or retrieves the port number associated with a URL.}}
-{{API_Object_Property
-|Property_applies_to=dom/Location
-|Read_only=No
-|Example_object_name=location
-|Return_value_name=port
-|Javascript_data_type=String
-|Return_value_description=The port of the URL.
-|Example_value_name=port
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example function returns the '''port''' property of two [[html/elements/a|'''a''']] elements.
-|Code=&lt;script&gt;
+---
+title: port
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+notes:
+  - 'compatibility, standards, more info/cross ref to explain the concept of "port"'
+summary: 'Sets or retrieves the port number associated with a URL.'
+uri: dom/Location/port
+
+---
+# port
+
+## Summary
+
+Sets or retrieves the port number associated with a URL.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Location](/dom/Location)</span></span>
+
+## Syntax
+
+``` {.js}
+var port = location.port;
+location.port = port;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The port of the URL.
+
+## Examples
+
+This example function returns the **port** property of two [**a**](/html/elements/a) elements.
+
+``` {.html}
+<script>
 function getPort()
 {
     console.log("FTP: " + document.getElementById("ftp").port + "\n" + "HTTP: " + document.getElementById("http").port);
 }
-&lt;/script&gt;
+</script>
 
-&lt;a href{{=}}"ftp://www.microsoft.com" onclick{{=}}"getPort();" id{{=}}"ftp"&gt;ftp&lt;/a&gt;
-&lt;a href{{=}}"http://www.microsoft.com" onclick{{=}}"getPort();" id{{=}}"http"&gt;http&lt;/a&gt;
-}}
-}}
-{{Notes_Section
-|Notes=The port will resolve based on the default port for the protocol set in the HREF attribute:  <code>21</code> for FTP, <code>80</code> for HTTP, and so forth.
-Proprietary protocols that do not require a port return <code>0</code> or an empty string.
-[[dom/Location|'''location''']].'''port''' returns an empty string when read in a page reached by the http protocol.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+<a href="ftp://www.microsoft.com" onclick="getPort();" id="ftp">ftp</a>
+<a href="http://www.microsoft.com" onclick="getPort();" id="http">http</a>
+```
+
+## Notes
+
+The port will resolve based on the default port for the protocol set in the HREF attribute: `21` for FTP, `80` for HTTP, and so forth. Proprietary protocols that do not require a port return `0` or an empty string. [**location**](/dom/Location).**port** returns an empty string when read in a page reached by the http protocol.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

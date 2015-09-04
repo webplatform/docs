@@ -1,25 +1,14 @@
-{{Page_Title|あまり知られていない意味を記す要素}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Stub page, needs translation of content
-|Checked_Out=No
-}}
-{{Byline}}
-{{Summary_Section}}
-{{Guide}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: ja
+tags:
+  - Guides
+readiness: 'Not Ready'
+notes:
+  - 'Stub page, needs translation of content'
+uri: 'guides/lesser-known semantic elements/ja'
+
+---
+# あまり知られていない意味を記す要�
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+

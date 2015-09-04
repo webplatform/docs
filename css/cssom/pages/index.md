@@ -1,49 +1,49 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Browser bias. Needs spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-Although this collection is represented in the Cascading Style Sheets (CSS) object model in Microsoft Internet Explorer 5.5 and later,  '''@page''' rules are not represented in the default print template for Windows Internet Explorer.  The rules can be used by print templates developed for applications that host MSHTML.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>Print Template Reference</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: pages
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Almost Ready'
+notes:
+  - 'Browser bias. Needs spec reference, standardization status'
+uri: css/cssom/pages
+
+---
+# pages
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Properties
+
+API Name
+:   Summary
+[item](/css/cssom/pages/item)
+:
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Notes
+
+### Remarks
+
+Although this collection is represented in the Cascading Style Sheets (CSS) object model in Microsoft Internet Explorer 5.5 and later, **@page** rules are not represented in the default print template for Windows Internet Explorer. The rules can be used by print templates developed for applications that host MSHTML.
+
+## See also
+
+### Related pages (MSDN)
+
+-   `Print Template Reference`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

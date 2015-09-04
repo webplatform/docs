@@ -1,162 +1,202 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLScriptElement
-|Tag_omissions=Closing tag required
-|CSS_display=none
-|Content=
-===Attributes===
+---
+title: script
+tags:
+  - Markup
+  - Elements
+  - HTML
+  - JavaScript
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.'
+uri: html/elements/script
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/attributes/Type
 
-{{{!}} class="wikitable"
-{{!}}-
-!Property
-!Description
-!Used with inline scripts
-{{!}}-
-{{!}}[[html/attributes/src (script){{!}}'''src''']]
-{{!}}The URL to an external file that contains the source code or data.
-{{!}}No
-{{!}}-
-{{!}}[[html/attributes/type (script element){{!}}'''type''']]
-{{!}}The MIME type for the script. Required in HTML 4, defaults to <code>text/javascript</code> in HTML 5. For JavaScript, this should always be set to  <code>application/javascript</code> since [https://tools.ietf.org/html/rfc4329 RFC4329].
-{{!}}Yes
-{{!}}-
-{{!}}[[html/attributes/charset{{!}}'''charset''']]
-{{!}}Sets or retrieves the script's character encoding. You can't use the type attribute with this attribute.
-{{!}}No
-{{!}}-  
-{{!}}[[html/attributes/language{{!}}'''language''']]
-{{!}}The programming language for the associated scripting engine. Depracated, use type instead.
-{{!}}Yes
-{{!}}-  
-{{!}}[[html/attributes/defer{{!}}'''defer''']]
-{{!}}Specifies that script should be executed after the document has been parsed.
-{{!}}No
-{{!}}-
-{{!}}[[html/attributes/async{{!}}'''async''']]
-{{!}}Specifies that the script should be executed asynchronously, as soon as it becomes available.
-{{!}}No
-{{!}}-
-{{!}}[[html/attributes/crossorigin{{!}}'''crossorigin''']]
-{{!}}Whether or not script error information will be revealed from the script(This is used only when scripts are being loaded from different origins).
-{{!}}No
-{{!}}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=Loading an external script.
-|Code=<nowiki><script src="http://example.com/Script/Url/here.js" type="application/javascript"></script></nowiki>
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=Writing an inline script.
-|Code=<nowiki><script type="application/javascript">
+---
+# script
+
+## Summary
+
+The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLScriptElement](/dom/HTMLScriptElement)
+
+### Attributes
+
+Property
+:   Description
+[**src**](/html/attributes/src_(script))
+:   The URL to an external file that contains the source code or data.
+[**type**](/html/attributes/type_(script_element))
+:   The MIME type for the script. Required in HTML 4, defaults to `text/javascript` in HTML 5. For JavaScript, this should always be set to `application/javascript` since [RFC4329](https://tools.ietf.org/html/rfc4329).
+[**charset**](/html/attributes/charset)
+:   Sets or retrieves the script's character encoding. You can't use the type attribute with this attribute.
+[**language**](/html/attributes/language)
+:   The programming language for the associated scripting engine. Depracated, use type instead.
+[**defer**](/html/attributes/defer)
+:   Specifies that script should be executed after the document has been parsed.
+[**async**](/html/attributes/async)
+:   Specifies that the script should be executed asynchronously, as soon as it becomes available.
+[**crossorigin**](/html/attributes/crossorigin)
+:   Whether or not script error information will be revealed from the script(This is used only when scripts are being loaded from different origins).
+
+## Examples
+
+Loading an external script.
+
+``` {.html}
+<script src="http://example.com/Script/Url/here.js" type="application/javascript"></script>
+```
+
+Writing an inline script.
+
+``` {.html}
+<script type="application/javascript">
   //Do stuff...
-</script></nowiki>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=Code within the '''script''' block that is not contained within a function is executed immediately as the document is loaded.When the [[html/attributes/Type|'''Type''']] attribute is unset on the '''script''' object, then <code>text/javascript</code> is used. The order of the '''script''' objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document. Using <code lang="HTML">async="async"</code> didn't work in some older browser, instead <code lang="HTML">async="true"</code> was used.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/scripting-1.html#the-script-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/scripting-1.html#the-script-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/interact/scripts.html#edef-SCRIPT
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|Manual_links=[[html/elements/noscript|<noscript> tag]]
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>XML Data Islands</code>
-}}
-{{Topics|HTML, JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=1.0(probably)
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=1.0
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=1.0
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=1.0
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+</script>
+```
+
+## Notes
+
+Code within the **script** block that is not contained within a function is executed immediately as the document is loaded.When the [**Type**](/w/index.php?title=html/attributes/Type&action=edit&redlink=1) attribute is unset on the **script** object, then `text/javascript` is used. The order of the **script** objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document. Using `async="async"` didn't work in some older browser, instead `async="true"` was used.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/scripting-1.html#the-script-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/scripting-1.html#the-script-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/interact/scripts.html#edef-SCRIPT)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+### Other articles
+
+[\<noscript\> tag](/html/elements/noscript)
+
+### Related pages (MSDN)
+
+-   `XML Data Islands`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

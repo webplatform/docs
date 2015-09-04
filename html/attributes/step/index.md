@@ -1,124 +1,199 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+---
+title: step
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+summary: 'Specify the increment for input with types number, time, or range'
+code_samples:
+  - 'http://jsfiddle.net/mejarc/YkGZY/2/'
+  - 'http://jsfiddle.net/mejarc/YkGZY/6/'
+uri: html/attributes/step
 
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specify the increment for <code>input</code> with types <code>number</code>, <code>time</code>, or <code>range</code>}}
-{{Markup_Attribute
-|Applies_to=[[html/elements/input|HTMLInputElement]]
-|Property_applies_to=dom/HTMLElement
-|Content=When <code>input type="range"</code>, <code>input type="date"</code>, or <code>input type="number"</code> is specified, the default increment from <code>min</code> to <code>max</code> is 1.  Override this default with a value in <code>step</code>.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A slider with a  range from 1-12 that increments by 3.
-|Code=<input type="range" min="1" max="24" step="3" />
-}}{{Single Example
-|Language=HTML
-|Description=A form input for a number between 0 and 15 that increments by 3.
-|Code=<input type="number" min="0" max="15" step="3" />​​​​​​​​​​​​​​​​​​​​
-|LiveURL=http://jsfiddle.net/mejarc/YkGZY/2/
-}}{{Single Example
-|Language=HTML
-|Description=Restricting time input to half-hours.
-|Code=<input type="time"  step="1800" />
-|LiveURL=http://jsfiddle.net/mejarc/YkGZY/6/
-}}
-}}
-{{Notes_Section
-|Usage=* when used for <code>input type="time"</code>, value must be in seconds
-|Notes====Remarks===
-The following example shows the use of the [[html/attributes/min|'''min''']], [[html/attributes/max (HTMLInputElement)|'''max''']], and '''step''' attributes.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.7.3.11
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=16
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=10
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|External_links=* http://dev.opera.com/articles/view/new-form-features-in-html5/#input-datetime
-* http://www.quirksmode.org/html5/inputs.html
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
-*<code>[[html/elements/input/type/number|input type{{=}}number]]</code>
-*<code>[[html/elements/input/type/range|input type{{=}}range]]</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN, DevOpera
-|MDN_link=https://developer.mozilla.org/en-US/docs/HTML/Element/Input#Attributes
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+# step
+
+## Summary
+
+Specify the increment for input with types number, time, or range
+
+Applies to
+:   [HTMLInputElement](/html/elements/input)
+
+When `input type="range"`, `input type="date"`, or `input type="number"` is specified, the default increment from `min` to `max` is 1. Override this default with a value in `step`.
+
+## Examples
+
+A slider with a range from 1-12 that increments by 3.
+
+``` {.html}
+<input type="range" min="1" max="24" step="3" />
+```
+
+A form input for a number between 0 and 15 that increments by 3.
+
+``` {.html}
+<input type="number" min="0" max="15" step="3" />​​​​​​​​​​​​​​​​​​​​
+```
+
+[View live example](http://jsfiddle.net/mejarc/YkGZY/2/)
+
+Restricting time input to half-hours.
+
+``` {.html}
+<input type="time"  step="1800" />
+```
+
+[View live example](http://jsfiddle.net/mejarc/YkGZY/6/)
+
+## Usage
+
+     * when used for input type="time", value must be in seconds
+
+## Notes
+
+### Remarks
+
+The following example shows the use of the [**min**](/html/attributes/min), [**max**](/html/attributes/max_(HTMLInputElement)), and **step** attributes.
+
+### Syntax
+
+### Standards information
+
+-   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.3.11
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   **step**
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+### External resources
+
+-   [http://dev.opera.com/articles/view/new-form-features-in-html5/\#input-datetime](http://dev.opera.com/articles/view/new-form-features-in-html5/#input-datetime)
+-   [http://www.quirksmode.org/html5/inputs.html](http://www.quirksmode.org/html5/inputs.html)
+
+### Related pages (MSDN)
+
+-   `HTMLInputElement`
+-   `input type=number`
+-   `input type=range`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/Input#Attributes)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+
+This content was originally published on [DevOpera](http://dev.opera.com), Opera's Developer Network. .
+

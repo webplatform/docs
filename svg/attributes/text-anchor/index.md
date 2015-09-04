@@ -1,57 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs all content
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: text-anchor
+tags:
+  - Markup
+  - Attributes
+  - SVG
+readiness: 'Not Ready'
+notes:
+  - 'Needs all content'
+uri: svg/attributes/text-anchor
+
+---
+# text-anchor
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+Applies to
+:    ?
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
 
 Each text element has an initial current text position, defined as a point in the user coordinate system.
-|Import_Notes====Syntax===
 
- '''text-anchor: '''start '''{{!}}''' middle '''{{!}}''' end '''{{!}}''' inherit
+### Syntax
 
-===Standards information===
+    text-anchor: start | middle | end | inherit
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.9.1
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+### Standards information
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+-   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.9.1
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

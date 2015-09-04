@@ -1,69 +1,79 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces. Needs summary; non-standard; deletion candidate.
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=bstrProfilerMarkName
-|Data type=any
-|Description=An event name. This parameter may be null.
-|Optional=No
-}}
-|Method_applies_to=dom/Element
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+---
+title: msWriteProfilerMark
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+notes:
+  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces. Needs summary; non-standard; deletion candidate.'
+uri: apis/timing/methods/msWriteProfilerMark
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - apis/workers/objects/WorkerGlobalScope
 
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
+---
+# msWriteProfilerMark
 
-Type: '''HRESULT'''
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-Internet Explorer 10. This method is also available in the Web Worker global scope.
-For Windows XP, this method sends an event to an event tracing session with TraceEvent; for systems after Windows XP, this method writes an event with EventWrite.
-The event includes a pointer to a '''window''' object, current markup, and the event name passed as ''bstrProfilerMarkName''.
-The ''bstrProfilerMarkName'' property has a 32-character limit when called from script.
-This method is useful to profile real website performance by using the operating system metrics as a baseline.
-|Import_Notes====Syntax===
-===Standards information===
+*Method of [dom/Element](/dom/Element)*
+
+## Syntax
+
+``` {.js}
+var object = object.msWriteProfilerMark(/* see parameter list */);
+```
+
+## Parameters
+
+### bstrProfilerMarkName
+
+ Data-type�
+:   any
+
+ An event name. This parameter may be null.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+Type: **HRESULT**
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+Type: **HRESULT**
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+Internet Explorer 10. This method is also available in the Web Worker global scope. For Windows XP, this method sends an event to an event tracing session with TraceEvent; for systems after Windows XP, this method writes an event with EventWrite. The event includes a pointer to a **window** object, current markup, and the event name passed as *bstrProfilerMarkName*. The *bstrProfilerMarkName* property has a 32-character limit when called from script. This method is useful to profile real website performance by using the operating system metrics as a baseline.
+
+### Syntax
+
+### Standards information
+
 There are no standards that apply here.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>window</code>
-*<code>[[apis/workers/objects/WorkerGlobalScope|WorkerGlobalScope]]</code>
-*<code>Windows Events</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+## See also
+
+### Related pages (MSDN)
+
+-   `window`
+-   `WorkerGlobalScope`
+-   `Windows Events`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

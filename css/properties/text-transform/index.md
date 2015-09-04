@@ -1,179 +1,157 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Last Call Working Draft}}
-{{API_Name}}
-{{Summary_Section|This property transforms text for styling purposes. (It has no effect on the underlying content.)}}
-{{CSS Property
-|Initial value=none
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=
-|CSS percentages=no
-|Values={{CSS Property Value
-|Data Type=none
-|Description=Default. Text is not transformed.
-}}{{CSS Property Value
-|Data Type=capitalize
-|Description=Transforms the first character of each word to uppercase.
-}}{{CSS Property Value
-|Data Type=uppercase
-|Description=Transforms all the characters to uppercase.
-}}{{CSS Property Value
-|Data Type=lowercase
-|Description=Transforms all the characters to lowercase.
-}}{{CSS Property Value
-|Data Type=full-width
-|Description=Puts all characters in fullwidth form. If the character does not have a corresponding fullwidth form, it is left as is. This value is typically used to typeset Latin characters and digits like ideographic characters.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Examples using different values for text-transform
-|Code=/*
-	- text-transform property examples
-	- explanations inline
+---
+title: text-transform
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'This property transforms text for styling purposes. (It has no effect on the underlying content.)'
+code_samples:
+  - 'http://gist.github.com/5651013'
+  - 'http://gist.github.com/5651033'
+uri: css/properties/text-transform
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/defaultSelected
+
+---
+# text-transform
+
+## Summary
+
+This property transforms text for styling purposes. (It has no effect on the underlying content.)
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   no
+
+## Syntax
+
+-   `text-transform: capitalize`
+-   `text-transform: full-width`
+-   `text-transform: lowercase`
+-   `text-transform: none`
+-   `text-transform: uppercase`
+
+## Values
+
+none
+:   Default. Text is not transformed.
+
+capitalize
+:   Transforms the first character of each word to uppercase.
+
+uppercase
+:   Transforms all the characters to uppercase.
+
+lowercase
+:   Transforms all the characters to lowercase.
+
+full-width
+:   Puts all characters in fullwidth form. If the character does not have a corresponding fullwidth form, it is left as is. This value is typically used to typeset Latin characters and digits like ideographic characters.
+
+## Examples
+
+Examples using different values for text-transform
+
+``` {.css}
+/*
+    - text-transform property examples
+    - explanations inline
 */
 
 body {
-	padding:50px;
-	font-size:22px;
+    padding:50px;
+    font-size:22px;
 }
 
 .text--uppercase {
-	text-transform:uppercase; /* all uppercase characters */
+    text-transform:uppercase; /* all uppercase characters */
 }
 
 .text--lowercase{
-	text-transform: lowercase; /* all lowercase characters */
+    text-transform: lowercase; /* all lowercase characters */
 }
 
 .text--capitalize{
-	text-transform: capitalize; /* _first_ letter of each word is capitalized  */
+    text-transform: capitalize; /* _first_ letter of each word is capitalized  */
 }
 
 .text--no-transform {
-	text-transform: none; /* disables any other inherited text-transform */
+    text-transform: none; /* disables any other inherited text-transform */
 }
-|LiveURL=http://code.webplatform.org/gist/5651013
-}}{{Single Example
-|Language=CSS
-|Description=Using text-transform also works on greek or german letters
-|Code=/*
-	- text-transform property examples
-	- explanations inline
+```
+
+[View live example](http://code.webplatform.org/gist/5651013)
+
+Using text-transform also works on greek or german letters
+
+``` {.css}
+/*
+    - text-transform property examples
+    - explanations inline
 */
 
 body {
-	padding:50px;
-	font-size:22px;
+    padding:50px;
+    font-size:22px;
 }
 
 .text--uppercase {
-	text-transform:uppercase; /* works on non-latin characters as well */
+    text-transform:uppercase; /* works on non-latin characters as well */
 }
-|LiveURL=http://code.webplatform.org/gist/5651033
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Text Module Level 3
-|URL=http://www.w3.org/TR/css3-text/
-|Status=W3C Last Call Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=http://www.w3.org/TR/CSS2/text.html#caps-prop
+```
 
-http://www.w3.org/wiki/CSS/Properties/text-transform
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=4.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=1.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=6.0
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=6.0
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=1.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+[View live example](http://code.webplatform.org/gist/5651033)
+
+## Notes
+
+When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
+:   W3C Last Call Working Draft
+
+## See also
+
+### External resources
+
+[http://www.w3.org/TR/CSS2/text.html\#caps-prop](http://www.w3.org/TR/CSS2/text.html#caps-prop)
+
+[http://www.w3.org/wiki/CSS/Properties/text-transform](http://www.w3.org/wiki/CSS/Properties/text-transform)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaults`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

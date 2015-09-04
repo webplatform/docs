@@ -1,93 +1,69 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Proposed Recommendation}}
-{{API_Name}}
-{{Summary_Section|The abort method is used to abort a transaction. Once called, the abort method follows the [http://www.w3.org/TR/IndexedDB/#dfn-steps-for-aborting-a-transaction steps to abort] a transaction}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=apis/indexeddb/IDBTransaction
-|Example_object_name=transaction
-|Return_value_name=
-|Javascript_data_type=void
-|Return_value_description=No return value
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=var dbOpenRequest = window.indexedDB.open("BookShop1");
+---
+title: abort
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: IndexedDB
+readiness: 'Ready to Use'
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'The abort method is used to abort a transaction. Once called, the abort method follows the steps to abort a transaction'
+code_samples:
+  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort%20Transaction&'
+uri: apis/indexeddb/IDBTransaction/abort
+
+---
+# abort
+
+## Summary
+
+The abort method is used to abort a transaction. Once called, the abort method follows the steps to abort a transaction
+
+*Method of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)*
+
+## Syntax
+
+``` {.js}
+ transaction.abort();
+```
+
+## Return Value
+
+No return value
+
+## Examples
+
+``` {.js}
+var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function (event) {
     var db = dbOpenRequest.result;
     try {
         var transaction = db.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);
 
-        // Now that the transaction is created, lets abort it !! 
+        // Now that the transaction is created, lets abort it !!
         transaction.abort();
     } catch (e) {
         write("Could not open transaction");
     }
 };
-|LiveURL=http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort%20Transaction&
-}}
-}}
-{{Notes_Section
-|Usage=If the transaction is finished, a DOMException of type InvalidStateError is thrown. Otherwise, the steps to abort a transactions are run.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C IndexedDB Specification
-|URL=http://www.w3.org/TR/IndexedDB/
-|Status=W3C Proposed Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=24
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=16
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+[View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort%20Transaction&)
+
+## Usage
+
+     If the transaction is finished, a DOMException of type InvalidStateError is thrown. Otherwise, the steps to abort a transactions are run.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
+:   W3C Proposed Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

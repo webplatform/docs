@@ -1,28 +1,41 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Clears the buffer used to store the current list of PerformanceResourceTiming resources.}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=apis/resource_timing/Performance
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=void
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example uses clearResourceTimings and setResourceTimingBufferSize to set an initial buffer size. It then uses onresourcetimingbufferfull to detect when the buffer is full, and executes a function that uses clearResourceTimings to clear the buffer.
-|Code=performance.clearResourceTimings();
+---
+title: clearResourceTimings
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: Resource
+  5: Timing
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Clears the buffer used to store the current list of PerformanceResourceTiming resources.'
+uri: 'apis/resource timing/Performance/clearResourceTimings'
+
+---
+# clearResourceTimings
+
+## Summary
+
+Clears the buffer used to store the current list of PerformanceResourceTiming resources.
+
+*Method of [apis/resource\_timing/Performance](/apis/resource_timing/Performance)*
+
+## Syntax
+
+``` {.js}
+ .clearResourceTimings();
+```
+
+## Return Value
+
+No return value
+
+## Examples
+
+This example uses clearResourceTimings and setResourceTimingBufferSize to set an initial buffer size. It then uses onresourcetimingbufferfull to detect when the buffer is full, and executes a function that uses clearResourceTimings to clear the buffer.
+
+``` {.js}
+performance.clearResourceTimings();
 setResourceTimingBufferSize(100);
 
 function buffFull() {
@@ -30,39 +43,18 @@ function buffFull() {
   };
 
 performance.onresourcetimingbufferfull = buffFull;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Resource Timing Specification
-|URL=http://www.w3.org/TR/resource-timing/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Resource Timing}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

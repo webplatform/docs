@@ -1,34 +1,46 @@
-{{Page Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=needs summary, general clean-up of MSDN import
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLElement
-|Read_only=
-}}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
-===Remarks===
+---
+title: self
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'needs summary, general clean-up of MSDN import'
+uri: dom/HTMLElement/self
+
+---
+# self
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.self;
+element.self = value;
+```
+
+## Notes
+
+### Remarks
+
 You can use the property to explicitly refer to the current window or frame. To improve scripting efficiency, you also can use it to make implicit window references explicit.
-|Import_Notes=
-===Syntax===
-}}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>frame</code>
-*<code>window</code>
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `frame`
+-   `window`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

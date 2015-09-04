@@ -1,54 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: lengthAdjust
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/lengthAdjust
 
-===Remarks===
+---
+# lengthAdjust
 
-Indicates the type of adjustments to perform in order to make the rendered length of the text match the value specified on the [[svg/properties/textLength|'''textLength''']] attribute.
+## Notes
 
-A value of '''spacing''' indicates that only the advance values are adjusted. The glyphs themselves are not stretched or compressed.
+### Remarks
 
-A value of '''spacingAndGlyphs''' indicates that the advance values are adjusted and the glyphs themselves are stretched or compressed in one axis (that is, in a direction parallel to the inline-progression direction).
+Indicates the type of adjustments to perform in order to make the rendered length of the text match the value specified on the [**textLength**](/svg/properties/textLength) attribute.
+
+A value of **spacing** indicates that only the advance values are adjusted. The glyphs themselves are not stretched or compressed.
+
+A value of **spacingAndGlyphs** indicates that the advance values are adjusted and the glyphs themselves are stretched or compressed in one axis (that is, in a direction parallel to the inline-progression direction).
 
 The correct start and end positions for the text strings are guaranteed, but the locations of intermediate glyphs are not predictable because browsers might employ advanced algorithms to stretch or compress text strings in order to balance correct start and end positioning with optimal typography.
 
-Be aware that, for a text string that contains ''n'' characters, the adjustments to the advance values often occur only for ''n''-1 characters, whereas stretching or compressing of the glyphs will be applied to all ''n'' characters.
+Be aware that, for a text string that contains *n* characters, the adjustments to the advance values often occur only for *n*-1 characters, whereas stretching or compressing of the glyphs will be applied to all *n* characters.
 
-If the attribute is not specified, the effect is as if a value of '''spacing''' were specified.
-|Import_Notes=
+If the attribute is not specified, the effect is as if a value of **spacing** were specified.
 
-===Syntax===
+### Syntax
 
-===Standards information===
+### Standards information
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.4
+-   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.4
 
-}}
-{{See_Also_Section
-|Manual_sections=
+## See also
 
-===Related pages (MSDN)===
+### Related pages (MSDN)
 
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/etextContent|'''SVGTextContentElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGTextContentElement**](/svg/elements/etextContent)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

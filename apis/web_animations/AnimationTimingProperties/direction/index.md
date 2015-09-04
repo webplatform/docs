@@ -1,42 +1,30 @@
-{{Page_Title}}
-{{Flags
-|State=
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|See the direction member of the AnimationTimingReadOnly interface.}}
-{{API_Object_Property
-|Property_applies_to=apis/web animations/AnimationTimingProperties
-|Read_only=No
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: direction
+tags:
+  - API
+  - Object
+  - Properties
+  - Web
+  - Animations
+readiness: readiness-state
+summary: 'See the direction member of the AnimationTimingReadOnly interface.'
+uri: 'apis/web animations/AnimationTimingProperties/direction'
+
+---
+# direction
+
+## Summary
+
+See the direction member of the AnimationTimingReadOnly interface.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.direction;
+element.direction = value;
+```
+
+**Needs Examples**: This section should include examples.
+

@@ -1,52 +1,76 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|A text track cue is the unit of time-sensitive data in a text track corresponding, for instance, for subtitles and captions to the text that appear at a particular time and disappear at another time.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=Individual cues are returned from a [[apis/audio-video/TextTrackCueList|TextTrackCueList]] object (collection of cues). Cues can also be created and added to a track.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5 Specification
-|URL=http://dev.w3.org/html5/spec/single-page.html
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Audio, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: TextTrackCue
+tags:
+  0: API
+  1: Objects
+  3: Audio
+  4: Video
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'A text track cue is the unit of time-sensitive data in a text track corresponding, for instance, for subtitles and captions to the text that appear at a particular time and disappear at another time.'
+uri: apis/audio-video/TextTrackCue
+
+---
+# TextTrackCue
+
+## Summary
+
+A text track cue is the unit of time-sensitive data in a text track corresponding, for instance, for subtitles and captions to the text that appear at a particular time and disappear at another time.
+
+## Properties
+
+API Name
+:   Summary
+[align](/apis/audio-video/TextTrackCue/align)
+:   A string representing the text track cue alignment, as follows. If it is start alignment: the string "start". If it is middle alignment: the string "middle". If it is end alignment: the string "end". If it is left alignment: the string "left". If it is right alignment: the string "right". Default is "middle".
+[endTime](/apis/audio-video/TextTrackCue/endTime)
+:   The text track cue end time, in seconds.
+[id](/apis/audio-video/TextTrackCue/id)
+:   Gets or sets a text track cue identifier.
+[line](/apis/audio-video/TextTrackCue/line)
+:   The text track cue line position. In the case of the value being auto, the string "auto" is returned.
+[pauseOnExit](/apis/audio-video/TextTrackCue/pauseOnExit)
+:   Returns the pause-on-exit flag on a TextTrackCue. When the flag is true, playback will pause when it reaches the cue's endTime.
+[position](/apis/audio-video/TextTrackCue/position)
+:   The text track cue text position.
+[size](/apis/audio-video/TextTrackCue/size)
+:   The text track cue size.
+[snapToLines](/apis/audio-video/TextTrackCue/snapToLines)
+:   Returns the text track cue snap-to-lines flag setting.
+[startTime](/apis/audio-video/TextTrackCue/startTime)
+:   The text track cue start time, in seconds.
+[text](/apis/audio-video/TextTrackCue/text)
+:   The text track cue text in raw, unparsed form.
+[track](/apis/audio-video/TextTrackCue/track)
+:   Returns the TextTrack object to which this text track cue belongs, if any, or null otherwise.
+[vertical](/apis/audio-video/TextTrackCue/vertical)
+:   A string representing the text track cue writing direction, as follows. If it is horizontal: The empty string. If it is vertical growing left: The string "rl". If it is vertical growing right: The string "lr".
+
+## Methods
+
+API Name
+:   Summary
+[getCueAsHTML](/apis/audio-video/TextTrackCue/getCueAsHTML)
+:   Returns the text track cue text as a DocumentFragment of HTML elements and other DOM nodes.
+
+## Events
+
+*No events.*
+
+## Notes
+
+Individual cues are returned from a [TextTrackCueList](/apis/audio-video/TextTrackCueList) object (collection of cues). Cues can also be created and added to a track.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
+:   W3C Editor's Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

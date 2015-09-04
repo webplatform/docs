@@ -1,61 +1,85 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Examples needed.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=css/functions/
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-Once the last color stop has been reached, the gradient starts again at the first color stop and repeats. It's a good idea to specify identical colors for the first and last color stops to prevent abrupt color changes between each repeating group.
-The syntax for the '''repeating-linear-gradient''' function is identical to that of the [[css/linear-gradient|'''linear-gradient''']] function.
-'''Important'''  The Cascading Style Sheets (CSS) Gradients properties do not require a vendor prefix (that is, "-ms-") to work correctly in Internet Explorer 10. The syntax for the '''repeating-linear-gradient''' function given in this topic is different from that supported in previous pre-releases of Internet Explorer 10, which required the "-ms-" prefix. To maximize backward compatibility, those older implementations are still recognized, as described in [[css/properties/-ms-repeating-linear-gradient|'''-ms-repeating-linear-gradient''']].
-|Import_Notes====Syntax===
-'''repeating-linear-gradient'''
-<code>('''[''' '''[''' ''
-&lt;angle&gt;
-'' '''{{!}}''' to ''
-&lt;side-or-corner&gt;
-'' ''']''' , ''']''' ? ''
-&lt;color-stop&gt;
-'' '''[''' ,  ''
-&lt;color-stop&gt;
-'' ''']''' +)</code>
-===Parameters===
-;''angle'':Optional. The angle the gradient line should assume, expressed as a number followed by an angle units designator(for instance, "deg")."0deg" points upward and positive angles increase in a clockwise direction. Therefore, "90deg" points toward the right, "180deg" points downward, and so on.If no angle is provided, the gradient line starts in the corner or side opposite the corner or side specified by ''&lt;side-or-corner&gt;''.
-;''side-or-corner'':Optional value that specifies an corner point or side for the gradient. This value begins with "to", which is followed by one or two of the following keywords. Including one keyword specifies an ending side, and two keywords specify an ending corner. <ul><li>The following values can be used as the first value only:<ul><li>'''left'''  First value only. Indicates gradient ends on the left.</li><li>'''right'''  First value only. Indicates gradient ends on the  right.</li></ul></li><li>The following values can be used as the second value only:<ul><li>'''top'''  Second value only. Indicates gradient ends on the top.</li><li>'''bottom'''  Second value only. Indicates gradient ends on the  bottom.</li></ul></li><li>Not including any keywords or angle is equivalent to "to bottom".</li></ul>
-;''color-stop'':At least two color stops are required. Each color stop has one or two components—a color component and an optional position component. The first component defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be any supported color value.Each stop point can have an optional percentage or supported length value that indicates where along the gradient line to place the color stop. "0%" (or "0px", "0em", and so on) indicates the starting point (or side); "100%" indicates the ending point (or side).
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Gradients
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: repeating-linear-gradient
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+notes:
+  - 'Examples needed.'
+uri: css/functions/repeating-linear-gradient
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - css/functions/
+
+---
+# repeating-linear-gradient
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/functions/](/w/index.php?title=css/functions/&action=edit&redlink=1)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.repeating-linear-gradient;
+element.repeating-linear-gradient = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+Once the last color stop has been reached, the gradient starts again at the first color stop and repeats. It's a good idea to specify identical colors for the first and last color stops to prevent abrupt color changes between each repeating group. The syntax for the **repeating-linear-gradient** function is identical to that of the [**linear-gradient**](/css/linear-gradient) function. **Important**  The Cascading Style Sheets (CSS) Gradients properties do not require a vendor prefix (that is, "-ms-") to work correctly in Internet Explorer 10. The syntax for the **repeating-linear-gradient** function given in this topic is different from that supported in previous pre-releases of Internet Explorer 10, which required the "-ms-" prefix. To maximize backward compatibility, those older implementations are still recognized, as described in [**-ms-repeating-linear-gradient**](/css/properties/-ms-repeating-linear-gradient).
+
+### Syntax
+
+**repeating-linear-gradient** `([ [  <angle>  | to  <side-or-corner>  ] , ] ?  <color-stop>  [ ,   <color-stop>  ] +)`
+
+### Parameters
+
+*angle*
+:   Optional. The angle the gradient line should assume, expressed as a number followed by an angle units designator(for instance, "deg")."0deg" points upward and positive angles increase in a clockwise direction. Therefore, "90deg" points toward the right, "180deg" points downward, and so on.If no angle is provided, the gradient line starts in the corner or side opposite the corner or side specified by *\<side-or-corner\>*.
+*side-or-corner*
+:   Optional value that specifies an corner point or side for the gradient. This value begins with "to", which is followed by one or two of the following keywords. Including one keyword specifies an ending side, and two keywords specify an ending corner.
+    -   The following values can be used as the first value only:
+        -   **left**  First value only. Indicates gradient ends on the left.
+        -   **right**  First value only. Indicates gradient ends on the right.
+    -   The following values can be used as the second value only:
+        -   **top**  Second value only. Indicates gradient ends on the top.
+        -   **bottom**  Second value only. Indicates gradient ends on the bottom.
+    -   Not including any keywords or angle is equivalent to "to bottom".
+
+*color-stop*
+:   At least two color stops are required. Each color stop has one or two components—a color component and an optional position component. The first component defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be any supported color value.Each stop point can have an optional percentage or supported length value that indicates where along the gradient line to place the color stop. "0%" (or "0px", "0em", and so on) indicates the starting point (or side); "100%" indicates the ending point (or side).
+
+## See also
+
+### Related articles
+
+#### Gradients
+
+-   [linear-gradient](/css/functions/linear-gradient)
+
+-   [css/functions/radial-gradient](/css/functions/radial-gradient)
+
+-   **repeating-linear-gradient**
+
+-   [repeating-radial-gradient](/css/functions/repeating-radial-gradient)
+
+-   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
+
+-   [-ms-repeating-linear-gradient](/css/properties/-ms-repeating-linear-gradient)
+
+-   [-ms-repeating-radial-gradient](/css/properties/-ms-repeating-radial-gradient)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

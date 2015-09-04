@@ -1,45 +1,28 @@
-{{Page_Title|OAuth: an open standard for authentication}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs additional content; content only visible in "Edit Source" mode.
-|Checked_Out=No
-|High-level issues=Stub, Needs Review
-|Content=Examples Needed
-}}
-{{API_Name}}
-{{Summary_Section|Description of the OAuth standard.}}
-{{Concept_Page
-|Content=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Security}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-== OAuth ==
+---
+title: OAuth
+tags:
+  - Concept
+  - Pages
+  - Security
+readiness: 'In Progress'
+notes:
+  - 'Needs additional content; content only visible in "Edit Source" mode.'
+summary: 'Description of the OAuth standard.'
+uri: 'concepts/Internet and Web/OAuth'
 
-OAuth is an open standard for authorization initiated in November 2006 by Blaine Cook at Twitter and subsequently developed by a group of implementers including people from openID, and Google.  OAuth allows users to share their private resources (e.g. photos, videos, contact lists) stored on one site with another site without having to hand out their credentials, typically supplying username and password tokens instead. Each token grants access to a specific site (e.g., a video editing site) for specific resources (e.g., just videos from a specific album) and for a defined duration (e.g., the next 2 hours). This allows a user to grant a third party site access to their information stored with another service provider, without sharing their access permissions or the full extent of their data.
+---
+# OAuth: an open standard for authentication
 
-[http://oauth.net/ OAuth.net]
+## Summary
 
-[http://tools.ietf.org/html/draft-ietf-oauth-v2-31 OAuth 2 Specification]
-[[Category:Concept Pages]]
+Description of the OAuth standard.
+
+**Needs Examples**: This section should include examples.
+
+## OAuth
+
+OAuth is an open standard for authorization initiated in November 2006 by Blaine Cook at Twitter and subsequently developed by a group of implementers including people from openID, and Google. OAuth allows users to share their private resources (e.g. photos, videos, contact lists) stored on one site with another site without having to hand out their credentials, typically supplying username and password tokens instead. Each token grants access to a specific site (e.g., a video editing site) for specific resources (e.g., just videos from a specific album) and for a defined duration (e.g., the next 2 hours). This allows a user to grant a third party site access to their information stored with another service provider, without sharing their access permissions or the full extent of their data.
+
+[OAuth.net](http://oauth.net/)
+
+[OAuth 2 Specification](http://tools.ietf.org/html/draft-ietf-oauth-v2-31)

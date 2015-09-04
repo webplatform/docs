@@ -1,78 +1,83 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The <code>padding-right</code> CSS property of an element sets the [[css/properties/padding|padding]] space required on the right side of an element. The padding area is the space between the content of the element and its border. Contrary to [[css/properties/margin-right|margin-right]] values, negative values of <code>padding-right</code> are invalid.}}
-{{CSS Property
-|Initial value=0
-|Applies to=All elements (except table-*-group, table-row and table-column, br)
-|Inherited=No
-|Media=visual
-|Computed value=the percentage as specified or the absolute length
-|Animatable=Yes
-|CSS object model property=
-|CSS percentages=refer to [[css/properties/width|width]] of closest block-level ancestor
-|Values={{CSS Property Value
-|Data Type=length
-|Description=Specifies a positive fixed width. See [[css/data_types/length|length]] for details.
-}}{{CSS Property Value
-|Data Type=percentage
-|Description=A percentage with respect to the width of the containing block.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=The following examples use the <code>padding-right</code> property to change the [[css/properties/padding|padding]] of the elements.
-|Code=td { padding-right: 20%; }
-|LiveURL=http://code.webplatform.org/gist/6948655
-}}{{Single Example
-|Language=CSS
-|Description=
-|Code=td { padding-right: 30px; }
-|LiveURL=http://code.webplatform.org/gist/6948661
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS basic box model
-|URL=http://www.w3.org/TR/css3-box/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS 2.1, 8 Box model
-|URL=http://www.w3.org/TR/CSS21/box.html#propdef-padding
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: padding-right
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The padding-right CSS property of an element sets the padding space required on the right side of an element. The padding area is the space between the content of the element and its border. Contrary to margin-right values, negative values of padding-right are invalid.'
+code_samples:
+  - 'http://gist.github.com/6948655'
+  - 'http://gist.github.com/6948661'
+uri: css/properties/padding-right
+
+---
+# padding-right
+
+## Summary
+
+The padding-right CSS property of an element sets the padding space required on the right side of an element. The padding area is the space between the content of the element and its border. Contrary to margin-right values, negative values of padding-right are invalid.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `0`
+Applies to
+:   All elements (except table-\*-group, table-row and table-column, br)
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   the percentage as specified or the absolute length
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   [[CSS percentages::refer to [width](/css/properties/width) of closest block-level ancestor]]
+
+## Syntax
+
+-   `padding-right: length`
+-   `padding-right: percentage`
+
+## Values
+
+length
+:   Specifies a positive fixed width. See [length](/css/data_types/length) for details.
+
+percentage
+:   A percentage with respect to the width of the containing block.
+
+## Examples
+
+The following examples use the `padding-right` property to change the [padding](/css/properties/padding) of the elements.
+
+``` {.css}
+td { padding-right: 20%; }
+```
+
+[View live example](http://code.webplatform.org/gist/6948655)
+
+``` {.css}
+td { padding-right: 30px; }
+```
+
+[View live example](http://code.webplatform.org/gist/6948661)
+
+## Related specifications
+
+Specification
+:   Status
+[CSS basic box model](http://www.w3.org/TR/css3-box/)
+:   W3C Working Draft
+[CSS 2.1, 8 Box model](http://www.w3.org/TR/CSS21/box.html#propdef-padding)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
+

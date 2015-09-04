@@ -1,44 +1,44 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Returns true if the RTCDataChannel is reliable, and false otherwise.}}
-{{API_Object_Property
-|Property_applies_to=apis/webrtc/RTCDataChannel
-|Read_only=Yes
-|Example_object_name=object
-|Javascript_data_type=Boolean
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web RTC Specification
-|URL=http://dev.w3.org/2011/webrtc/editor/webrtc.html
-|Status=W3C Editor's Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: reliable
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: WebRTC
+readiness: 'Almost Ready'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Needs example'
+summary: 'Returns true if the RTCDataChannel is reliable, and false otherwise.'
+uri: apis/webrtc/RTCDataChannel/reliable
+
+---
+# reliable
+
+## Summary
+
+Returns true if the RTCDataChannel is reliable, and false otherwise.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/RTCDataChannel](/apis/webrtc/RTCDataChannel)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = object.reliable;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web RTC Specification](http://dev.w3.org/2011/webrtc/editor/webrtc.html)
+:   W3C Editor's Draft
+

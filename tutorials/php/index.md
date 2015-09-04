@@ -1,3 +1,9 @@
-==Sections==
-* [[tutorials/php/intro|Intro]]
-* [[tutorials/php/hello_world|Hello World]]
+---
+title: php
+uri: tutorials/php
+
+---
+## Sections
+
+-   [Intro](/tutorials/php/intro)
+-   [Hello World](/tutorials/php/hello_world)

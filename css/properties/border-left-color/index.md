@@ -1,44 +1,70 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The CSS border-left-color property sets the color of an element's left border. This page explains the border-left-color value, but often you will find it more convenient to fix the border's left color as part of a shorthand set, either [[css/properties/border-left|border-left]] or [[css/properties/border-color|border-color]].
+---
+title: border-left-color
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: "The CSS border-left-color property sets the color of an element's left border. This page explains the border-left-color value, but often you will find it more convenient to fix the border's left color as part of a shorthand set, either border-left or border-color.\n"
+code_samples:
+  - 'http://gist.github.com/5535442'
+uri: css/properties/border-left-color
 
-[[css/data_types/color|Colors]] can be defined several ways. For more information, see [[css/properties/border-left-color#Usage|Usage]].
-}}
-{{CSS Property
-|Initial value=color - The value of the 'color' property
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=when taken from the 'color' property, the computed value of 'color'; otherwise, as specified
-|Animatable=Yes
-|CSS object model property=borderTopColor
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=<color>
-|Description=The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [[css/properties/border-left-color#Usage|Usage]].
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=currentColor, the color value inherited from parent object.
-}}{{CSS Property Value
-|Data Type=currentColor
-|Description=The same as ‘color: inherit’, the color value inherited from parent object.
-}}{{CSS Property Value
-|Data Type=transparent
-|Description=Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=The following example demonstrates the use of <code>border-left-color</code> by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
-|Code=.box {
+---
+# border-left-color
+
+## Summary
+
+The CSS border-left-color property sets the color of an element's left border. This page explains the border-left-color value, but often you will find it more convenient to fix the border's left color as part of a shorthand set, either border-left or border-color.
+
+[Colors](/css/data_types/color) can be defined several ways. For more information, see [Usage](/css/properties/border-left-color#Usage).
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `color - The value of the 'color' property`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   when taken from the 'color' property, the computed value of 'color'; otherwise, as specified
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `borderTopColor`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `border-left-color: <color>`
+-   `border-left-color: currentColor`
+-   `border-left-color: inherit`
+-   `border-left-color: transparent`
+
+## Values
+
+\<color\>
+:   The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [Usage](/css/properties/border-left-color#Usage).
+
+inherit
+:   currentColor, the color value inherited from parent object.
+
+currentColor
+:   The same as ‘color: inherit’, the color value inherited from parent object.
+
+transparent
+:   Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
+
+## Examples
+
+The following example demonstrates the use of `border-left-color` by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
+
+``` {.css}
+.box {
   border: 5px solid #efefef;
 }
 
@@ -69,100 +95,147 @@
 .hsla-value {
   border-left-color: hsla(282, 100%, 41%, 0.8);
 }
-|LiveURL=http://code.webplatform.org/gist/5535442
-}}{{Single Example
-|Language=HTML
-|Description=
-|Code=&lt;div class="box named-value"&gt;
-  &lt;h1&gt;Named color&lt;/h1&gt;
-  &lt;p&gt;&lt;code&gt;red&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
+```
 
-&lt;div class="box hex-value"&gt;
-  &lt;h1&gt;Hexadecimal color&lt;/h1&gt;
-  &lt;p&gt;&lt;code&gt;#FD6C02&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
+[View live example](http://code.webplatform.org/gist/5535442)
 
-&lt;div class="box rgb-value"&gt;
-  &lt;h1&gt;RGB color&lt;/h1&gt;
-  &lt;p&gt;&lt;code&gt;rgb(255, 255, 0)&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
+``` {.html}
+<div class="box named-value">
+  <h1>Named color</h1>
+  <p><code>red</code></p>
+</div>
 
-&lt;div class="box rgb-percentage-value"&gt;
-  &lt;h1&gt;RGB percentage color&lt;/h1&gt;
-  &lt;p&gt;&lt;code&gt;rgb(0%, 100%, 0%)&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
+<div class="box hex-value">
+  <h1>Hexadecimal color</h1>
+  <p><code>#FD6C02</code></p>
+</div>
 
-&lt;div class="box hsl-value"&gt;
-  &lt;h1&gt;HSL color&lt;/h1&gt;
-  &lt;p&gt;&lt;code&gt;hsl(240, 100%, 50%)&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
+<div class="box rgb-value">
+  <h1>RGB color</h1>
+  <p><code>rgb(255, 255, 0)</code></p>
+</div>
 
-&lt;div class="box rgba-value"&gt;
-  &lt;h1&gt;RGB with alpha color&lt;/h1&gt;
-  &lt;p&gt;&lt;code&gt;rgba(75, 0, 130, 0.8)&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
+<div class="box rgb-percentage-value">
+  <h1>RGB percentage color</h1>
+  <p><code>rgb(0%, 100%, 0%)</code></p>
+</div>
 
-&lt;div class="box hsla-value"&gt;
-  &lt;h1&gt;HSL with alpha color&lt;/h1&gt;
-  &lt;p&gt;&lt;code&gt;hsla(282, 100%, 41%, 0.8)&lt;/code&gt;&lt;/p&gt;
-&lt;/div&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
+<div class="box hsl-value">
+  <h1>HSL color</h1>
+  <p><code>hsl(240, 100%, 50%)</code></p>
+</div>
+
+<div class="box rgba-value">
+  <h1>RGB with alpha color</h1>
+  <p><code>rgba(75, 0, 130, 0.8)</code></p>
+</div>
+
+<div class="box hsla-value">
+  <h1>HSL with alpha color</h1>
+  <p><code>hsla(282, 100%, 41%, 0.8)</code></p>
+</div>
+```
+
+## Usage
+
+     The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
 
 The color value can also be a numerical value, such as one of the following:
 
-* a basic color keyword, such as "red"
-* a hex value, such as #ff0000
-* an red-green-blue (RGB) value, such as rgb(255,0,0)
-* an RGB-alpha (RGBA) that includes color opacity, such as rgba(255,0,0,1) or rgba(100%,0%,0%,1)
-* a hue-saturation-lightness (HSL), such as hsl(0, 100%, 50%)
-* HSLa, such as hsl(0, 100%, 50%, 1)
+-   a basic color keyword, such as "red"
+-   a hex value, such as \#ff0000
+-   an red-green-blue (RGB) value, such as rgb(255,0,0)
+-   an RGB-alpha (RGBA) that includes color opacity, such as rgba(255,0,0,1) or rgba(100%,0%,0%,1)
+-   a hue-saturation-lightness (HSL), such as hsl(0, 100%, 50%)
+-   HSLa, such as hsl(0, 100%, 50%, 1)
 
-The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [http://www.w3.org/TR/css3-color/#svg-color CSS Color Module Level 3 spec], which is the consolidation of various specifications.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Level 3 - Backgrounds and Borders Module
-|URL=http://www.w3.org/TR/css3-background/#the-border-color
-|Status=Candidate Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/box.html#border-color-properties
-|Status=Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Border
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/HTMLOptionElement/defaultSelected|defaultsSelected]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/border|border]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [CSS Color Module Level 3 spec](http://www.w3.org/TR/css3-color/#svg-color), which is the consolidation of various specifications.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-color)
+:   Candidate Recommendation
+[CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/box.html#border-color-properties)
+:   Recommendation
+
+## See also
+
+### Related articles
+
+#### Border
+
+-   [border](/css/properties/border)
+
+-   [border-bottom](/css/properties/border-bottom)
+
+-   [border-bottom-color](/css/properties/border-bottom-color)
+
+-   [border-bottom-left-radius](/css/properties/border-bottom-left-radius)
+
+-   [border-bottom-style](/css/properties/border-bottom-style)
+
+-   [border-bottom-width](/css/properties/border-bottom-width)
+
+-   [border-color](/css/properties/border-color)
+
+-   [border-image](/css/properties/border-image)
+
+-   [border-image-outset](/css/properties/border-image-outset)
+
+-   [border-image-repeat](/css/properties/border-image-repeat)
+
+-   [border-image-slice](/css/properties/border-image-slice)
+
+-   [border-image-source](/css/properties/border-image-source)
+
+-   [border-image-width](/css/properties/border-image-width)
+
+-   [border-left](/css/properties/border-left)
+
+-   **border-left-color**
+
+-   [border-left-style](/css/properties/border-left-style)
+
+-   [border-left-width](/css/properties/border-left-width)
+
+-   [border-radius](/css/properties/border-radius)
+
+-   [border-right](/css/properties/border-right)
+
+-   [border-right-color](/css/properties/border-right-color)
+
+-   [border-right-style](/css/properties/border-right-style)
+
+-   [border-right-width](/css/properties/border-right-width)
+
+-   [border-top](/css/properties/border-top)
+
+-   [border-top-color](/css/properties/border-top-color)
+
+-   [border-top-left-radius](/css/properties/border-top-left-radius)
+
+-   [border-top-right-radius](/css/properties/border-top-right-radius)
+
+-   [border-top-style](/css/properties/border-top-style)
+
+-   [border-top-width](/css/properties/border-top-width)
+
+-   [border-width](/css/properties/border-width)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaultsSelected`
+-   `runtimeStyle`
+-   `style`
+-   `border`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

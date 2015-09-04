@@ -1,69 +1,125 @@
-{{Page_Title|acronym}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Deletion Candidate: It's deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
-|Checked_Out=No
-}}
-{{Standardization_Status|Deprecated}}
-{{API_Name}}
-{{Summary_Section|HTML5では[[html/elements/abbr/ja|abbr]]が追加されており、この要素は'''非推奨'''となっています。今後はもう使うべきではありません。
+---
+title: ja
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Not Ready'
+standardization_status: Deprecated
+notes:
+  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
+summary: "HTML5ではabbrが追加されており、この要素は非推奨となっています。今後はもう使うべきではありません。\n"
+uri: html/elements/acronym/ja
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/elements/acronym/af
+    - html/elements/acronym/ar
+    - html/elements/acronym/ast
+    - html/elements/acronym/az
+    - html/elements/acronym/bcc
+    - html/elements/acronym/bg
+    - html/elements/acronym/br
+    - html/elements/acronym/ca
+    - html/elements/acronym/cs
+    - html/elements/acronym/da
+    - html/elements/acronym/de
+    - html/elements/acronym/diq
+    - html/elements/acronym/el
+    - html/elements/acronym/eo
+    - html/elements/acronym/es
+    - html/elements/acronym/fa
+    - html/elements/acronym/fi
+    - html/elements/acronym/fr
+    - html/elements/acronym/gl
+    - html/elements/acronym/gu
+    - html/elements/acronym/he
+    - html/elements/acronym/hu
+    - html/elements/acronym/hy
+    - html/elements/acronym/id
+    - html/elements/acronym/it
+    - html/elements/acronym/ka
+    - html/elements/acronym/kk
+    - html/elements/acronym/km
+    - html/elements/acronym/ko
+    - html/elements/acronym/ksh
+    - html/elements/acronym/kw
+    - html/elements/acronym/mk
+    - html/elements/acronym/ml
+    - html/elements/acronym/mr
+    - html/elements/acronym/ms
+    - html/elements/acronym/nl
+    - html/elements/acronym/no
+    - html/elements/acronym/oc
+    - html/elements/acronym/pl
+    - html/elements/acronym/pt
+    - html/elements/acronym/pt-br
+    - html/elements/acronym/ro
+    - html/elements/acronym/ru
+    - html/elements/acronym/si
+    - html/elements/acronym/sk
+    - html/elements/acronym/sl
+    - html/elements/acronym/sq
+    - html/elements/acronym/sr
+    - html/elements/acronym/sv
+    - html/elements/acronym/ta
+    - html/elements/acronym/th
+    - html/elements/acronym/tr
+    - html/elements/acronym/uk
+    - html/elements/acronym/vi
+    - html/elements/acronym/yue
+    - html/elements/acronym/zh
+    - html/elements/acronym/zh-hans
+    - html/elements/acronym/zh-hant
+    - html/elements/acronym/zh-tw
+    - html/elements/abbr/ja
 
-<code><acronym></code>要素は、NATO(North Atlantic Treaty Organization)、レーダー（RAdio Detection And Ranging）、インターポール（the International Criminal Police Organization）などのような頭字語を表します。
-}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Content=<code><acronym></code>要素は「段落」レベルにおけるフレージング・コンテンツの一つであり、「ブロック」レベルの要素ではありません。
+---
+# acronym
 
-HTML5では'''<code>[[html/elements/abbr/ja|abbr]]</code>''' 要素が<acronym>と同等の役割を持っています。
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 4.01 Specification
-|URL=http://www.w3.org/TR/html401/struct/text.html#h-9.2.1
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## Summary
 
-== See also ==
-=== Deprecated ===
-{{#ask:[[Topic_Cluster::Deprecated]][[Path::~*/ja]]
-|?Page Title
-|format=template
-|limit=50
-|link=none
-|headers=hide
-|searchlabel=See more pages...
-|template=See_Also_Item
-}}
-=== HTML ===
-{{#ask:[[Topic_Cluster::HTML]][[Path::~*/ja]]
-|?Page Title
-|format=template
-|limit=50
-|link=none
-|headers=hide
-|searchlabel=See more pages...
-|template=See_Also_Item
-}}
+HTML5ではabbrが追加されており、この要素は非推奨となっています。今後はもう使うべきではありません。
 
+`<acronym>`要素は、NATO(North Atlantic Treaty Organization)、レーダー（RAdio Detection And Ranging）、インターポール（the International Criminal Police Organization）などのような頭字語を表します。
 
-{{Languages}}
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+`<acronym>`要素は「段落」レベルにおけるフレージング・コンテンツの一つであり、「ブロック」レベルの要素ではありません。
+
+HTML5では**`abbr`** 要素が\<acronym\>と同等の役割を持っています。
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 4.01 Specification](http://www.w3.org/TR/html401/struct/text.html#h-9.2.1)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+
+## See also
+
+### Deprecated
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+### HTML
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button/ja)
+
+**言語:**
+:   **[English](/html/elements/acronym)**  • <span lang="ja">**日本語**</span>

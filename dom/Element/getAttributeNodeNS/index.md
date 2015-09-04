@@ -1,60 +1,66 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example and compat tables
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets an attribute node that matches the specified namespace and name.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=namespace
-|Data type=String
-|Description=The namespace URI that defines the desired attribute, or a null value.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=name
-|Data type=Blob
-|Description=The name of the desired attribute, or a null value.
-|Optional=No
-}}
-|Method_applies_to=dom/Element
-|Example_object_name=element
-|Return_value_name=attributeNode
-|Javascript_data_type=DOM Node
-|Return_value_description=An attribute node that matches the specified namespace and attribute name, or a null value when no attribute node is found.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: getAttributeNodeNS
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs example and compat tables'
+summary: 'Gets an attribute node that matches the specified namespace and name.'
+uri: dom/Element/getAttributeNodeNS
+
+---
+# getAttributeNodeNS
+
+## Summary
+
+Gets an attribute node that matches the specified namespace and name.
+
+*Method of [dom/Element](/dom/Element)*
+
+## Syntax
+
+``` {.js}
+var attributeNode = element.getAttributeNodeNS(namespace, name);
+```
+
+## Parameters
+
+### namespace
+
+ Data-typeÂ
+:   String
+
+ The namespace URI that defines the desired attribute, or a null value.
+
+### name
+
+ Data-typeÂ
+:   Blob
+
+ The name of the desired attribute, or a null value.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+An attribute node that matches the specified namespace and attribute name, or a null value when no attribute node is found.
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,30 +1,46 @@
-{{Page_Title|window.location.port}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The port number the document was accessed via.}}
-{{API_Object_Property
-|Property_applies_to=apis/location
-|Read_only=Yes
-|Example_object_name=window.location
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=The port number the document was accessed via.
+---
+title: port
+tags:
+  - API
+  - Object
+  - Properties
+  - JavaScript
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The port number the document was accessed via.'
+uri: apis/location/port
 
-For example, <code>http://example.org/</code> would return the default HTTP port number of <code>80</code>.
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example assumes your document has a div element with id 'hostDiv', like this.
+---
+# window.location.port
 
-|Code=// Get the port from window.location
+## Summary
+
+The port number the document was accessed via.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/location](/apis/location)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = window.location.port;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+
+The port number the document was accessed via.
+
+For example, `http://example.org/` would return the default HTTP port number of `80`.
+
+## Examples
+
+The following example assumes your document has a div element with id 'hostDiv', like this.
+
+``` {.js}
+// Get the port from window.location
 var host = window.location.port;
 
 // Get a div element with id 'hostDiv'
@@ -32,38 +48,12 @@ var container = document.getElementById('hostDiv');
 
 // Fill in the div element with the port
 container.innerHTML = port;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Window Object 1.0
-|URL=http://www.w3.org/TR/Window/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[Window Object 1.0](http://www.w3.org/TR/Window/)
+:   W3C Working Draft
+

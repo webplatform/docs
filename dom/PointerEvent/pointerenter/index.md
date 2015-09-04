@@ -1,54 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Stub, Needs Flags
-|Content=Incomplete, Compatibility Incomplete, Examples Needed
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Dispatched when a pointing device is moved into the hit test boundaries of an element or one of its descendants, including as a result of a [[dom/PointerEvent/pointerdown|pointerdown]] event from a device that does not support hover.}}
-{{Event
-|Event_applies_to=dom/PointerEvent
-|Synchronous=Yes
-|Bubbles=No
-|Target=dom/Element
-|Cancelable=Yes
-|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/MouseEvent/mouseenter|mouseenter]] event.
-|Content=This event type is similar to [[dom/PointerEvent/pointerover|pointerover]], but differs in that it does not bubble.
-|Interface=dom/PointerEvent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=element.addEventListener("pointerenter", handler, useCapture) ;
-}}
-}}
-{{Notes_Section
-|Notes=There are similarities between this event type, the [[dom/MouseEvent/mouseenter|mouseenter]] event described in [http://www.w3.org/TR/DOM-Level-3-Events/ DOM Level 3 Events] and the CSS :hover pseudo-class described in [http://www.w3.org/TR/CSS2/ CSS 2.1]. See also the [[dom/objects/PointerEvent/pointerleave|pointerleave]] event.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Pointer Events
-|URL=http://www.w3.org/TR/pointerevents
-|Status=Working Draft
-|Relevant_changes=3.2.8
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/dn254944(v=vs.85).aspx pointerenter Event]
-|HTML5Rocks_link=
-}}
+---
+title: pointerenter
+tags:
+  - Events
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Dispatched when a pointing device is moved into the hit test boundaries of an element or one of its descendants, including as a result of a pointerdown event from a device that does not support hover.'
+uri: dom/PointerEvent/pointerenter
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/objects/PointerEvent/pointerleave
+
+---
+# pointerenter
+
+## Summary
+
+Dispatched when a pointing device is moved into the hit test boundaries of an element or one of its descendants, including as a result of a pointerdown event from a device that does not support hover.
+
+## Overview Table
+
+Synchronous
+:   Yes
+Bubbles
+:   No
+Target
+:   dom/Element
+Cancelable
+:   Yes
+Default action
+:   Varies: when the pointer is primary, all default actions of the [mouseenter](/dom/MouseEvent/mouseenter) event.
+
+This event type is similar to [pointerover](/dom/PointerEvent/pointerover), but differs in that it does not bubble.
+
+## Examples
+
+``` {.js}
+element.addEventListener("pointerenter", handler, useCapture) ;
+```
+
+## Notes
+
+There are similarities between this event type, the [mouseenter](/dom/MouseEvent/mouseenter) event described in [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/) and the CSS :hover pseudo-class described in [CSS 2.1](http://www.w3.org/TR/CSS2/). See also the [pointerleave](/w/index.php?title=dom/objects/PointerEvent/pointerleave&action=edit&redlink=1) event.
+
+## Related specifications
+
+Specification
+:   Status
+[Pointer Events](http://www.w3.org/TR/pointerevents)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[pointerenter Event](http://msdn.microsoft.com/en-us/library/ie/dn254944(v=vs.85).aspx) Article]
+

@@ -1,57 +1,137 @@
-{{Page_Title|WebRTC Resources}}
-{{Flags|State=Not Ready|Editorial notes=No editing form}}
-{{Byline
-|Name=Sam Dutton
-|URL=http://www.samdutton.com
-|Published=24 January 2013
-}}
+---
+title: webrtc resources
+tags:
+  - Audio
+  - Media
+  - Video
+  - WebAudio
+  - WebRTC
+readiness: 'Not Ready'
+notes:
+  - 'No editing form'
+uri: 'tutorials/webrtc resources'
 
-== Demos ==
- 
-* [http://w3.org/TR/webrtc/#simple-example Simple RTCPeerConnection example demonstrating signalling]: there is a code walkthrough and commentary for this in the [http://www.html5rocks.com/en/tutorials/webrtc/basics/#toc-signalling HTML5 Rocks WebRTC article]  
-* RTCPeerConnection example 'on one page', i.e. without signalling: [http://www.simpl.info/peerconnection simpl.info/pc].<br/>  
-* Move on to the WebRTC video chat demo at [http://apprtc.appspot.com apprtc.appspot.com].<br/>  
-* [http://browsermeeting.com Multiparty video and text chat application]
-  
-== Tutorials ==  
-  
-* [http://webrtcbook.com  WebRTC book]<br/>  
-* [http://html5rocks.com/en/tutorials/getusermedia/intro Capturing audio and video in HTML5]<br/>  
-* [http://html5rocks.com/en/tutorials/webrtc/basics/ Getting Started With WebRTC]<br/>  
-* [http://youtube.com/watch?v=E8C8ouiXHHk Video of Justin Uberti at Google I/O]<br/>  
-* [http://vimeo.com/47682405 Cullen Jennings video]<br/>  
-* [http://samdutton.com/webrtc.pdf WebRTC presentation with links to demos and resources]  
-  
-== Reference ==  
-  
-* [http://webrtc.org/ webrtc.org]<br/>   
-* [http://webrtc.org/reference/api-description C++ APIs]  
-  
-== Standards and protocols ==  
-  
-* [http://w3.org/TR/webrtc W3C Working Draft: WebRTC 1.0: Real-time Communication Between Browsers]<br/>   
-* [http://dev.w3.org/2011/webrtc/editor/getusermedia.html W3C Editor's Draft: Media Capture and Streams]<br/>  
-* [http://tools.ietf.org/wg/rtcweb/ IETF WebRTC  documents]
-  
-== Discussion ==  
-  
-* [http://groups.google.com/forum/?fromgroups#!forum/discuss-webrtc discuss-webrtc Google group]<br/>  
-* [http://twitter.com/webrtc twitter.com/webrtc]
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Audio, Multimedia, Video, WebRTC
-}}
-{{Topics|Audio, Media, Video, WebAudio, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+# WebRTC Resources
+
+**By [Sam Dutton](http://www.samdutton.com)**
+Originally published 24 January 2013
+
+## Demos
+
+-   [Simple RTCPeerConnection example demonstrating signalling](http://w3.org/TR/webrtc/#simple-example): there is a code walkthrough and commentary for this in the [HTML5 Rocks WebRTC article](http://www.html5rocks.com/en/tutorials/webrtc/basics/#toc-signalling)
+-   RTCPeerConnection example 'on one page', i.e. without signalling: [simpl.info/pc](http://www.simpl.info/peerconnection).
+-   Move on to the WebRTC video chat demo at [apprtc.appspot.com](http://apprtc.appspot.com).
+-   [Multiparty video and text chat application](http://browsermeeting.com)
+
+## Tutorials
+
+-   [WebRTC book](http://webrtcbook.com)
+-   [Capturing audio and video in HTML5](http://html5rocks.com/en/tutorials/getusermedia/intro)
+-   [Getting Started With WebRTC](http://html5rocks.com/en/tutorials/webrtc/basics/)
+-   [Video of Justin Uberti at Google I/O](http://youtube.com/watch?v=E8C8ouiXHHk)
+-   [Cullen Jennings video](http://vimeo.com/47682405)
+-   [WebRTC presentation with links to demos and resources](http://samdutton.com/webrtc.pdf)
+
+## Reference
+
+-   [webrtc.org](http://webrtc.org/)
+-   [C++ APIs](http://webrtc.org/reference/api-description)
+
+## Standards and protocols
+
+-   [W3C Working Draft: WebRTC 1.0: Real-time Communication Between Browsers](http://w3.org/TR/webrtc)
+-   [W3C Editor's Draft: Media Capture and Streams](http://dev.w3.org/2011/webrtc/editor/getusermedia.html)
+-   [IETF WebRTC  documents](http://tools.ietf.org/wg/rtcweb/)
+
+## Discussion
+
+-   [discuss-webrtc Google group](http://groups.google.com/forum/?fromgroups#!forum/discuss-webrtc)
+-   [twitter.com/webrtc](http://twitter.com/webrtc)
+
+## See also
+
+### Related articles
+
+#### Audio
+
+-   [audio-video](/apis/audio-video)
+
+-   [enabled](/apis/audio-video/AudioTrack/enabled)
+
+-   [language](/apis/audio-video/AudioTrack/language)
+
+-   [Web Audio API](/apis/webaudio)
+
+-   [value](/apis/webaudio/AudioParam/value)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [user-input](/css/properties/user-input)
+
+-   [bgSound](/html/elements/bgSound)
+
+-   [bgsound](/html/elements/bgSound/ja)
+
+-   [implementing html5 audio](/tutorials/implementing_html5_audio)
+
+-   **WebRTC Resources**
+
+#### Multimedia
+
+-   [Track ended](/apis/MediaStream/ended)
+
+-   [MediaSource](/apis/media_source_extensions/MediaSource)
+
+-   [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
+
+-   [VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [object-fit](/css/properties/object-fit)
+
+-   [height](/html/attributes/height)
+
+-   [standby](/html/attributes/standby)
+
+-   [EMBED](/html/elements/embed)
+
+-   [img](/html/elements/img)
+
+-   **WebRTC Resources**
+
+#### Video
+
+-   [audio-video](/apis/audio-video)
+
+-   [enabled](/apis/audio-video/AudioTrack/enabled)
+
+-   [language](/apis/audio-video/AudioTrack/language)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [object-fit](/css/properties/object-fit)
+
+-   [EMBED](/html/elements/embed)
+
+-   [video](/html/elements/video)
+
+-   [MSEPrimer](/tutorials/MSEPrimer)
+
+-   [HTML5 Video and Other Recommendations](/tutorials/video_others)
+
+-   **WebRTC Resources**
+
+#### WebRTC
+
+-   [Track ended](/apis/MediaStream/ended)
+
+-   [Media Capture and Streams](/apis/media_capture_and_streams)
+
+-   [WebRTC API](/apis/webrtc)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   **WebRTC Resources**
+

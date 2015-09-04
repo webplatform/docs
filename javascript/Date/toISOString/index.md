@@ -1,37 +1,45 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Returns a date as a string value in simplified ISO 8601 Extended format.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=toISOString()
-}}
-|Values=
-}}
-{{JS_Return_Value
-|Description=String in simplified [http://en.wikipedia.org/wiki/ISO_8601 ISO 8601 Extended] format: <code>YYYY-MM-DDTHH:mm:ss.sssZ</code>
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=var now = new Date();
+---
+title: toISOString
+tags:
+  0: JS
+  1: Basic
+  3: Method
+readiness: 'Ready to Use'
+summary: 'Returns a date as a string value in simplified ISO 8601 Extended format.'
+uri: javascript/Date/toISOString
+
+---
+# toISOString
+
+## Summary
+
+Returns a date as a string value in simplified ISO 8601 Extended format.
+
+## Syntax
+
+    toISOString()
+
+## Return Value
+
+String in simplified [ISO 8601 Extended](http://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:mm:ss.sssZ`
+
+## Examples
+
+``` {.js}
+var now = new Date();
 console.log(date.toISOString());
 // ouputs: "2014-10-08T12:54:27.487Z"
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=Manually assembling the ISO 8601 format (polyfill)
-|Code=// if the environment does not support toISOString() yet
+```
+
+Manually assembling the ISO 8601 format (polyfill)
+
+``` {.js}
+// if the environment does not support toISOString() yet
 // add it to the Date prototype
 if (!Date.prototype.toISOString) {
   Date.prototype.toISOString = (function() {
     function twoDigits(value) {
-      return (value < 10 ? '0' : ') + value;
+      return (value < 10 ? '0' : ') + value;
     }
 
     return function toISOString() {
@@ -46,50 +54,48 @@ if (!Date.prototype.toISOString) {
     };
   })();
 }
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks====Throws===
+```
 
-[[javascript/Error|<code>RangeError</code>]] when called on a date object with an ''invalid date'' (e.g. <code>new Date("I am not a date");</code> - see [http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.1 Time Values And Time Range])
-}}
-{{Notes_Section
-|Usage=The ISO 8601 Extended format is supported by [[javascript/Date/parse|Date.parse()]], it is therefore a good choice when dates need to be exchanged between APIs.
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Date/toString{{!}}toString Method (Date)]]
-* [[javascript/Date/toDateString{{!}}toDateString Method (Date)]]
-* [[javascript/Date/toGMTString{{!}}toGMTString Method (Date)]]
-* [[javascript/Date/toLocaleString{{!}}toLocaleString Method (Date)]]
-* [[javascript/Date/toLocaleDateString{{!}}toLocaleDateString Method (Date)]]
-* [[javascript/Date/toLocaleTimeString{{!}}toLocaleTimeString Method (Date)]]
-* [[javascript/Date/toTimeString{{!}}toTimeString Method (Date)]]
-* [[javascript/Date/toUTCString{{!}}toUTCString Method (Date)]]
-|External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString toISOString(), by Mozilla Developer Network]
-* [http://msdn.microsoft.com/en-us/library/ie/ff925953%28v=vs.94%29.aspx toISOString(), by Microsoft Developer Network]
-* [http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.15 Date Time String Format, ECMAScript 5.1]
-* [http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.1 Time Values and Time Range, ECMAScript 5.1]
-* [http://en.wikipedia.org/wiki/ISO_8601 ISO 8601, Wikipedia]
-|Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.43 Date.prototype.toISOString()]
+## Remarks
 
-ECMAScript® Language Specification
-Standard ECMA-262
-5.1 Edition / June 2011
-}}
-{{JS Topics
-|JS Page Type=JS Method
-|Applies to=Date
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/ff925953(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+### Throws
+
+[`RangeError`](/javascript/Error) when called on a date object with an *invalid date* (e.g. `new Date("I am not a date");` - see [Time Values And Time Range](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.1))
+
+## Usage
+
+     The ISO 8601 Extended format is supported by Date.parse(), it is therefore a good choice when dates need to be exchanged between APIs.
+
+## See also
+
+### Other articles
+
+-   [toString Method (Date)](/javascript/Date/toString)
+-   [toDateString Method (Date)](/javascript/Date/toDateString)
+-   [toGMTString Method (Date)](/javascript/Date/toGMTString)
+-   [toLocaleString Method (Date)](/javascript/Date/toLocaleString)
+-   [toLocaleDateString Method (Date)](/javascript/Date/toLocaleDateString)
+-   [toLocaleTimeString Method (Date)](/javascript/Date/toLocaleTimeString)
+-   [toTimeString Method (Date)](/javascript/Date/toTimeString)
+-   [toUTCString Method (Date)](/javascript/Date/toUTCString)
+
+### External resources
+
+-   [toISOString(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString)
+-   [toISOString(), by Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ff925953%28v=vs.94%29.aspx)
+-   [Date Time String Format, ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.15)
+-   [Time Values and Time Range, ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.1)
+-   [ISO 8601, Wikipedia](http://en.wikipedia.org/wiki/ISO_8601)
+
+### Specification
+
+[Date.prototype.toISOString()](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.43)
+
+ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff925953(v=vs.94).aspx)
+

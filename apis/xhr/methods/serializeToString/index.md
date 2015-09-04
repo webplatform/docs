@@ -1,59 +1,66 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Converts the parent DOM node of a document tree to an XML string.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=pNode
-|Data type=any
-|Description=The parent DOM node of a document tree to convert to an XML string.
-|Optional=No
-}}
-|Method_applies_to=apis/xhr/objects/XMLSerializer
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=String
+---
+title: serializeToString
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+notes:
+  - 'Needs spec reference, standardization status'
+summary: 'Converts the parent DOM node of a document tree to an XML string.'
+uri: apis/xhr/methods/serializeToString
+
+---
+# serializeToString
+
+## Summary
+
+Converts the parent DOM node of a document tree to an XML string.
+
+*Method of [apis/xhr/objects/XMLSerializer](/apis/xhr/objects/XMLSerializer)*
+
+## Syntax
+
+``` {.js}
+var object = object.serializeToString(pNode);
+```
+
+## Parameters
+
+### pNode
+
+ Data-typeÂ
+:   any
+
+ The parent DOM node of a document tree to convert to an XML string.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+String
 
 The string that contains an XML representation of a DOM node tree.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=To use the '''serializeToString''' method, type the following syntax.
-|Code=oXmlSerializer {{=}}  new XMLSerializer();
-sXmlString {{=}} oXmlSerializer.serializeToString(oDOMNode);
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/xhr/objects/XMLSerializer|XMLSerializer]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+## Examples
+
+To use the **serializeToString** method, type the following syntax.
+
+``` {.js}
+oXmlSerializer =  new XMLSerializer();
+sXmlString = oXmlSerializer.serializeToString(oDOMNode);
+```
+
+## See also
+
+### Related pages (MSDN)
+
+-   `XMLSerializer`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

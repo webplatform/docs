@@ -1,81 +1,80 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=compatibility, more info
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|A mouse double click event.}}
-{{Event
-|Event_applies_to=dom/MouseEvent
-|Synchronous=No
-|Bubbles=No
-|Target=dom/Element
-|Cancelable=No
-|Interface=dom/MouseEvent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''dblclick''' event to add items to a list box when the user double-clicks in the text box.
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
- &lt;head&gt;
-  &lt;script&gt;
+---
+title: dblclick
+tags:
+  - Events
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'compatibility, more info'
+summary: 'A mouse double click event.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ondblclickEX.htm'
+uri: dom/MouseEvent/dblclick
+
+---
+# dblclick
+
+## Summary
+
+A mouse double click event.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:    ?
+
+## Examples
+
+This example uses the **dblclick** event to add items to a list box when the user double-clicks in the text box.
+
+``` {.html}
+<!doctype html>
+<html>
+ <head>
+  <script>
 function addItem() {
-  sNewItem {{=}} new Option(txtEnter.value);
+  sNewItem = new Option(txtEnter.value);
   selList.add(sNewItem);
 }
-  &lt;/script&gt;
- &lt;/head&gt;
- &lt;body&gt;
-  &lt;p&gt;Enter text and then double-click in the text box to add text to the list box.
-  &lt;input type="text" name="txtEnter" value="Enter_text" ondblclick="addItem()"&gt;
-  &lt;select name="selList" size="5"&gt;&lt;/select&gt;
- &lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ondblclickEX.htm
-}}
-}}
-{{Notes_Section
-|Notes=The order of events leading to the '''dblclick''' event is [[dom/MouseEvent/mousedown|'''mousedown''']], [[dom/MouseEvent/mouseup|'''mouseup''']], [[dom/MouseEvent/click|'''click''']], '''mouseup''', and then '''dblclick'''. Actions associated with any of these events are executed when the '''dblclick''' event fires.
-Initiates any action that is associated with the event.
-To invoke this event, do one of the following:
-*Click the left mouse button twice in rapid succession over an object. The user's double-click must occur within the time limit specified by the user's system.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/
-|Status=Recommendation
-|Relevant_changes=Section 18.2.3
-}}{{Related Specification
-|Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
-|Status=Working Draft
-|Relevant_changes=Section 5.2.3.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Safari on iPad
-|Note=This event is not supported.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+  </script>
+ </head>
+ <body>
+  <p>Enter text and then double-click in the text box to add text to the list box.
+  <input type="text" name="txtEnter" value="Enter_text" ondblclick="addItem()">
+  <select name="selList" size="5"></select>
+ </body>
+</html>
+```
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/ondblclickEX.htm)
+
+## Notes
+
+The order of events leading to the **dblclick** event is [**mousedown**](/dom/MouseEvent/mousedown), [**mouseup**](/dom/MouseEvent/mouseup), [**click**](/dom/MouseEvent/click), **mouseup**, and then **dblclick**. Actions associated with any of these events are executed when the **dblclick** event fires. Initiates any action that is associated with the event. To invoke this event, do one of the following:
+
+-   Click the left mouse button twice in rapid succession over an object. The user's double-click must occur within the time limit specified by the user's system.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 4.01](http://www.w3.org/TR/html401/)
+:   Recommendation
+[DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

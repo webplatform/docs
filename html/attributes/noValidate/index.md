@@ -1,48 +1,49 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Checked_Out=Yes
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|When present, it specifies that the form-data (input) should not be validated when submitted.}}
-{{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/html/elements/input
-|Property_applies_to=dom/HTMLElement
-|Content=The novalidate attribute is a boolean attribute.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: noValidate
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'When present, it specifies that the form-data (input) should not be validated when submitted.'
+uri: html/attributes/noValidate
+
+---
+# noValidate
+
+## Summary
+
+When present, it specifies that the form-data (input) should not be validated when submitted.
+
+Applies to
+:   [http://docs.webplatform.org/wiki/html/elements/input](http://docs.webplatform.org/wiki/html/elements/input)
+
+The novalidate attribute is a boolean attribute.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
 The following example shows a form that has required fields but won't be validated when submitted.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.19.6
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/HTMLFormElement|HTMLFormElement]]</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+### Syntax
+
+### Standards information
+
+-   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
+
+## See also
+
+### Related pages (MSDN)
+
+-   `HTMLFormElement`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

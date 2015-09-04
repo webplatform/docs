@@ -1,49 +1,43 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
-Insert nodes before the first child.
-}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=AnimationNode...nodes
-|Data type=Object
-|Description=Takes a sequence of AnimationNodes as a parameter. 
-|Optional=No
-}}
-|Method_applies_to=apis/web_animations/AnimationGroup
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=void
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: prepend
+tags:
+  - API
+  - Object
+  - Methods
+  - Web
+  - Animations
+readiness: 'Almost Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: "If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.\nInsert nodes before the first child.\n"
+uri: 'apis/web animations/AnimationGroup/prepend'
+
+---
+# prepend
+
+## Summary
+
+If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps. Insert nodes before the first child.
+
+*Method of [apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)*
+
+## Syntax
+
+``` {.js}
+ .prepend(AnimationNode...nodes);
+```
+
+## Parameters
+
+### AnimationNode...nodes
+
+ Data-typeÂ
+:   Object
+
+ Takes a sequence of AnimationNodes as a parameter.
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+

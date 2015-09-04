@@ -1,61 +1,55 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs all content
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: glyph-orientation-vertical
+tags:
+  - Markup
+  - Attributes
+  - SVG
+readiness: 'Not Ready'
+notes:
+  - 'Needs all content'
+uri: svg/attributes/glyph-orientation-vertical
 
-This property is applied only to text written in a horizontal [[css/properties/writing-mode|'''writingMode''']].
+---
+# glyph-orientation-vertical
 
-The glyph orientation affects the amount that the current text position advances as each glyph is rendered.  When the inline-progression-direction is vertical and the '''glyphOrientationVertical''' property results in an orientation angle that is a multiple of 180 degrees, the current text position is incremented according to the vertical metrics of the glyph.  Otherwise, if the '''glyphOrientationVertical''' property results in an orientation angle that is not a multiple of 180 degrees, the current text position is incremented according to the horizontal metrics of the glyph.
-|Import_Notes====Syntax===
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
- '''glyph-orientation-vertical: '''auto '''{{!}}''' ''angle'' '''{{!}}''' inherit
+Applies to
+:    ?
 
-===Standards information===
+**Needs Examples**: This section should include examples.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.7.2
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+## Notes
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[css/cssom/currentStyle|'''currentStyle''']]
-*[[css/cssom/style|'''style''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/attributes/glyph-orientation-horizontal|'''glyphOrientationHorizontal''']]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Remarks
+
+This property is applied only to text written in a horizontal [**writingMode**](/css/properties/writing-mode).
+
+The glyph orientation affects the amount that the current text position advances as each glyph is rendered. When the inline-progression-direction is vertical and the **glyphOrientationVertical** property results in an orientation angle that is a multiple of 180 degrees, the current text position is incremented according to the vertical metrics of the glyph. Otherwise, if the **glyphOrientationVertical** property results in an orientation angle that is not a multiple of 180 degrees, the current text position is incremented according to the horizontal metrics of the glyph.
+
+### Syntax
+
+    glyph-orientation-vertical: auto | angle | inherit
+
+### Standards information
+
+-   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.7.2
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**currentStyle**](/css/cssom/currentStyle)
+-   [**style**](/css/cssom/style)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**glyphOrientationHorizontal**](/svg/attributes/glyph-orientation-horizontal)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

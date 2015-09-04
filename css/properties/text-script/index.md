@@ -1,38 +1,41 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Obsolete; deletion candidate
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Obsolete: unsupported.}}
-{{CSS Property
-|Inherited=No
-|Animatable=No
-|Values=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: text-script
+tags:
+  - CSS
+  - Properties
+readiness: 'Not Ready'
+notes:
+  - 'Obsolete; deletion candidate'
+summary: 'Obsolete: unsupported.'
+uri: css/properties/text-script
+
+---
+# text-script
+
+## Summary
+
+Obsolete: unsupported.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   ``
+Applies to
+:
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+## Values
+
+**Needs Examples**: This section should include examples.
+

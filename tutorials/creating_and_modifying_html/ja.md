@@ -1,25 +1,14 @@
-{{Page_Title|HTMLの追加、修正}}
-{{Flags
-|State=Not Ready
-|Editorial notes=No content; deletion candidate
-|Checked_Out=No
-}}
-{{Byline}}
-{{Summary_Section}}
-{{Tutorial}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: ja
+tags:
+  - Tutorials
+readiness: 'Not Ready'
+notes:
+  - 'No content; deletion candidate'
+uri: 'tutorials/creating and modifying html/ja'
+
+---
+# HTMLの追加、修正
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+

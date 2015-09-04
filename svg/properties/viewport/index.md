@@ -1,44 +1,41 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: viewport
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/properties/viewport
 
-===Remarks===
+---
+# viewport
 
-Often, the current viewport is the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element. A value of NULL is returned if the given element is the outermost or furthest ancestor '''svg''' element.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+Often, the current viewport is the nearest ancestor [**svg**](/svg/objects/SVGElement) element. A value of NULL is returned if the given element is the outermost or furthest ancestor **svg** element.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
+### Syntax
 
-===Device Support===
+### Standards information
 
-*[https://docs.google.com/spreadsheet/lv?key=0AoUAJWmYgaHHdHZZWWpPQkx4eHpBaUxna3dyMGkzLUE Device Viewport Width Reference (maintained by Matt Stow)]
+-   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Device Support
 
-===Related pages===
+-   [Device Viewport Width Reference (maintained by Matt Stow)](https://docs.google.com/spreadsheet/lv?key=0AoUAJWmYgaHHdHZZWWpPQkx4eHpBaUxna3dyMGkzLUE)
 
-*[[svg/elements/svg|SVGSVGElement (MSDN)]]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages
+
+-   [SVGSVGElement (MSDN)](/svg/elements/svg)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

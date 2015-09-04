@@ -1,129 +1,97 @@
-{{Page_Title|WebGL}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken links in Examples / Best Practices
-|Checked_Out=Yes
-}}
-{{API_Name}}
-{{Summary_Section|WebGL is a standard that allows you to create real 3D content and render it in a web browser. WebGL is the web binding to the OpenGL ES 2.0 graphics API, and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. WebGL is maintained by [http://www.khronos.org/webgl/ the Khronos Group] for 3D graphics on the Web.  In web technology terms, WebGL is the 3D drawing context of the HTML5 <canvas> element and can be used through the [[html|HTML5]] [[canvas|Canvas]] element with a Javascript API.}}
-{{Concept_Page
-|Content={{Page Title}}
+---
+title: ebgl
+tags:
+  - WebGL
+  - Concept
+  - Pages
+  - API
+readiness: 'Almost Ready'
+notes:
+  - 'Fix broken links in Examples / Best Practices'
+summary: 'WebGL is a standard that allows you to create real 3D content and render it in a web browser. WebGL is the web binding to the OpenGL ES 2.0 graphics API, and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. WebGL is maintained by the Khronos Group for 3D graphics on the Web.  In web technology terms, WebGL is the 3D drawing context of the HTML5 <canvas> element and can be used through the HTML5 Canvas element with a Javascript API.'
+uri: webgl
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'webgl/examples/Drawing Images using WebGL'
+    - 'webgl/examples/Working with the Convolution Matrix'
+    - 'webgl/examples/Working with the Extended ColorTransform Matrix'
 
-== WebGL educational material ==
+---
+# WebGL
 
-You can start studying WebGL with the [[webgl/tutorials|WebGL tutorials]].
+## Summary
+
+WebGL is a standard that allows you to create real 3D content and render it in a web browser. WebGL is the web binding to the OpenGL ES 2.0 graphics API, and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. WebGL is maintained by the Khronos Group for 3D graphics on the Web. In web technology terms, WebGL is the 3D drawing context of the HTML5 \<canvas\> element and can be used through the HTML5 Canvas element with a Javascript API.
+
+# webgl
+
+## WebGL educational material
+
+You can start studying WebGL with the [WebGL tutorials](/webgl/tutorials).
 
 The following sites feature WebGL introductions and tutorials as well
 
-* [http://learningwebgl.com/blog/?page_id=1217 Learning WebGL]
-* [http://www.khronos.org/webgl/wiki/Tutorial Khronos Tutorial]
-* [https://developer.mozilla.org/en-US/docs/WebGL/Getting_started_with_WebGL MDN Getting Started with WebGL]
-* [http://www.netmagazine.com/tag/webgl?ct=tutorial Netmagazine WebGL Tutorials]
+-   [Learning WebGL](http://learningwebgl.com/blog/?page_id=1217)
+-   [Khronos Tutorial](http://www.khronos.org/webgl/wiki/Tutorial)
+-   [MDN Getting Started with WebGL](https://developer.mozilla.org/en-US/docs/WebGL/Getting_started_with_WebGL)
+-   [Netmagazine WebGL Tutorials](http://www.netmagazine.com/tag/webgl?ct=tutorial)
 
 The following books on WebGL have been published
 
-* [http://shop.oreilly.com/product/0636920024729.do WebGL: Up and Running, O'Reilly Media] ISBN: 978-1449323578
-* [http://shop.oreilly.com/product/0636920029205.do Programming 3D Applications with HTML5 and WebGL] ISBN: 978-1-4493-6296-6 
-* [http://www.packtpub.com/webgl-javascript-beginners-guide/book WebGL Beginner's Guide, Packt Publishing] ISBN: 978-1849691727
-* [http://www.apress.com/9781430239963 Beginning WebGL for HTML5, Apress Publishing] ISBN: 978-1430239963
-* [http://www.wrox.com/WileyCDA/WroxTitle/Professional-WebGL-Programming-Developing-3D-Graphics-for-the-Web.productCd-1119968860.html Professional WebGL Programming: Developing 3D Graphics for the Web] ISBN: 978-1119968863
+-   [WebGL: Up and Running, O'Reilly Media](http://shop.oreilly.com/product/0636920024729.do) ISBN: 978-1449323578
+-   [Programming 3D Applications with HTML5 and WebGL](http://shop.oreilly.com/product/0636920029205.do) ISBN: 978-1-4493-6296-6
+-   [WebGL Beginner's Guide, Packt Publishing](http://www.packtpub.com/webgl-javascript-beginners-guide/book) ISBN: 978-1849691727
+-   [Beginning WebGL for HTML5, Apress Publishing](http://www.apress.com/9781430239963) ISBN: 978-1430239963
+-   [Professional WebGL Programming: Developing 3D Graphics for the Web](http://www.wrox.com/WileyCDA/WroxTitle/Professional-WebGL-Programming-Developing-3D-Graphics-for-the-Web.productCd-1119968860.html) ISBN: 978-1119968863
 
 The following videos feature tutorials and explanations about WebGL
 
-* [http://www.youtube.com/watch?v=rfQ8rKGTVlg Google I/O 2011: WebGL Techniques and Performance by Greg Tavares]
+-   [Google I/O 2011: WebGL Techniques and Performance by Greg Tavares](http://www.youtube.com/watch?v=rfQ8rKGTVlg)
 
-== WebGL reference ==
+## WebGL reference
 
-You can consult the [[webgl/reference|WebGL Reference]] 
+You can consult the [WebGL Reference](/webgl/reference)
 
-Additional reference resources on WebGL can be found on the [http://www.khronos.org/webgl/ Khronos WebGL page]
+Additional reference resources on WebGL can be found on the [Khronos WebGL page](http://www.khronos.org/webgl/)
 
-== WebGL Availability ==
+## WebGL Availability
 
-Not all browsers support WebGL yet. To test whether your browser supports WebGL go to the [[http://get.webgl.org/|WebGL test page]]
+Not all browsers support WebGL yet. To test whether your browser supports WebGL go to the [[test page](http://get.webgl.org/%7CWebGL)]
 
-=== Statistics of support ===
+### Statistics of support
 
-<table class="wikitable">
+Source
+:   Support
+[WebGL Stats](http://webglstats.com), July 4, 2014
+:   74%
+[Can I Use](http://caniuse.com/#feat=webgl), July 4, 2014
+:   65%
 
-<tr>
-<th>Source</th>
-<th>Support</th>
-</tr>
+### Browser Support
 
+Â
+:   IE
+Â
+:   Yes
 
-<tr>
-<td>[http://webglstats.com WebGL Stats], July 4, 2014</td>
-<td>74%</td>
-</tr>
+[Source: Can I Use, May 1. 2015](http://caniuse.com/#feat=webgl)
 
-<tr>
-<td>[http://caniuse.com/#feat=webgl Can I Use], July 4, 2014</td>
-<td>65%</td>
-</tr>
-</table>
-
-=== Browser Support ===
-
-<table class="wikitable">
-<tr>
-<th>&nbsp;</th>
-<th>IE</th>
-<th>Firefox</th>
-<th>Chrome</th>
-<th>Safari</th>
-<th>Opera</th>
-<th>iOS Safari</th>
-<th>Opera Mini</th>
-<th>Android Browser</th>
-<th>Chrome for Android</th>
-</tr>
-
-<tr>
-<td>&nbsp;</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</table>
-
-[http://caniuse.com/#feat=webgl Source: Can I Use, May 1. 2015]
-
-=== OS, GPU and Driver Support ===
+### OS, GPU and Driver Support
 
 The criteria for support differ from browser to browser. The details of support are listed at:
 
-* [http://support.google.com/chrome/bin/answer.py?hl=en&answer=1220892 The Google Chrome WebGL and 3D graphics support page]
-* [https://wiki.mozilla.org/Blocklisting/Blocked_Graphics_Drivers The Mozilla Wiki entry on Blocked Graphics Drivers]
+-   [The Google Chrome WebGL and 3D graphics support page](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1220892)
+-   [The Mozilla Wiki entry on Blocked Graphics Drivers](https://wiki.mozilla.org/Blocklisting/Blocked_Graphics_Drivers)
 
-== Examples / Best Practices ==
+## Examples / Best Practices
 
-* [[webgl/examples/Drawing Images using WebGL|Drawing Images using WebGL]]
-* [[webgl/examples/Working with the Convolution Matrix|Working with the Convolution Matrix]]
-* [[webgl/examples/Working with the Extended ColorTransform Matrix|Working with the Extended ColorTransform Matrix]]
+-   [Drawing Images using WebGL](/w/index.php?title=webgl/examples/Drawing_Images_using_WebGL&action=edit&redlink=1)
+-   [Working with the Convolution Matrix](/w/index.php?title=webgl/examples/Working_with_the_Convolution_Matrix&action=edit&redlink=1)
+-   [Working with the Extended ColorTransform Matrix](/w/index.php?title=webgl/examples/Working_with_the_Extended_ColorTransform_Matrix&action=edit&redlink=1)
 
-== Index of WebGL topics ==
+## Index of WebGL topics
 
-{{Special:PrefixIndex/webgl/}}
+[webgl/reference](/webgl/reference)
+:   [webgl/tutorials](/webgl/tutorials)
 
-[[Category:WebGL]]
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section}}
-{{Topics|API}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-}}

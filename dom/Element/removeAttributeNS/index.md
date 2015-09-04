@@ -1,72 +1,77 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs examples and compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Removes a specified content attribute in a specified namespace from an element.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=namespaceURI
-|Data type=String
-|Description=The namespace name of the attribute to remove.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=name
-|Data type=String
-|Description=The local name of the attribute to remove.
-|Optional=No
-}}
-|Method_applies_to=dom/Element
-|Example_object_name=element
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Use this method to remove a content attribute in a specified namespace from an element.
-|Notes=*The attribute to remove may not exist in the first place.
-*Where namespaces are irrelevant, [[dom/Element/removeAttribute|removeAttribute]] can be used instead.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Document Object Model (DOM) Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}{{Related Specification
-|Name=Document Object Model (DOM) Level 2 Core
-|URL=http://www.w3.org/TR/DOM-Level-2-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}{{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/
-|Status=Living Standard
-|Relevant_changes=Section 6.8
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: removeAttributeNS
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs examples and compat'
+summary: 'Removes a specified content attribute in a specified namespace from an element.'
+uri: dom/Element/removeAttributeNS
+
+---
+# removeAttributeNS
+
+## Summary
+
+Removes a specified content attribute in a specified namespace from an element.
+
+*Method of [dom/Element](/dom/Element)*
+
+## Syntax
+
+``` {.js}
+ element.removeAttributeNS(namespaceURI, name);
+```
+
+## Parameters
+
+### namespaceURI
+
+ Data-typeÂ
+:   String
+
+ The namespace name of the attribute to remove.
+
+### name
+
+ Data-typeÂ
+:   String
+
+ The local name of the attribute to remove.
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Use this method to remove a content attribute in a specified namespace from an element.
+
+## Notes
+
+-   The attribute to remove may not exist in the first place.
+-   Where namespaces are irrelevant, [removeAttribute](/dom/Element/removeAttribute) can be used instead.
+
+## Related specifications
+
+Specification
+:   Status
+[Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+[Document Object Model (DOM) Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
+:   Recommendation
+[DOM](http://dom.spec.whatwg.org/)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

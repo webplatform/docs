@@ -1,48 +1,60 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.}}
-{{Markup_Attribute
-|Applies_to=dom/HTMLContentElement
-|Property_applies_to=html/elements/content
-|Content=The select tokens define the matching criteria for distributing child nodes of the shadow host. Each token must be a valid selector fragment, which consists of the following:
-* a selector that uniquely identifies the shadow host.
-* a combination selector that identifies the parent element and the element at this insertion point.
-* the following CSS3 [[css/selectors|selectors]]:
-** [[css/selectors/type|type selector]]
-** [[css/selectors/universal_selector|universal selector]]
-** [[css/selectors/class_selector|class selector]]
-** [[css/selectors/id_selector|ID selector]]
-** [[css/selectors/attribute_selector|attribute selectors]]
-** The following pseudo-class selectors: 
-*** link
-*** visited
-*** target
-*** enabled
-*** disabled
-*** checked
-*** indeterminate
-*** nth-child()
-*** nth-last-child()
-*** nth-of-type()
-*** nth-last-of-type()
-*** first-child
-*** last-child
-*** first-of-type
-*** last-of-type
-*** only-of-type
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses CSS selectors to select specific content from a shadow root.
-|Code=<nowiki><div style="background: purple; padding: 1em;">
+---
+title: select
+tags:
+  - Markup
+  - Attributes
+  - HTML
+  - Shadow
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.'
+uri: html/attributes/select
+
+---
+# select
+
+## Summary
+
+One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.
+
+Applies to
+:   dom/HTMLContentElement
+
+The select tokens define the matching criteria for distributing child nodes of the shadow host. Each token must be a valid selector fragment, which consists of the following:
+
+-   a selector that uniquely identifies the shadow host.
+-   a combination selector that identifies the parent element and the element at this insertion point.
+-   the following CSS3 [selectors](/css/selectors):
+    -   [type selector](/css/selectors/type)
+    -   [universal selector](/css/selectors/universal_selector)
+    -   [class selector](/css/selectors/class_selector)
+    -   [ID selector](/css/selectors/id_selector)
+    -   [attribute selectors](/css/selectors/attribute_selector)
+    -   The following pseudo-class selectors:
+        -   link
+        -   visited
+        -   target
+        -   enabled
+        -   disabled
+        -   checked
+        -   indeterminate
+        -   nth-child()
+        -   nth-last-child()
+        -   nth-of-type()
+        -   nth-last-of-type()
+        -   first-child
+        -   last-child
+        -   first-of-type
+        -   last-of-type
+        -   only-of-type
+
+## Examples
+
+This example uses CSS selectors to select specific content from a shadow root.
+
+``` {.html}
+<div style="background: purple; padding: 1em;">
   <div style="color: red;">
     <content select=".first"></content>
   </div>
@@ -52,61 +64,19 @@
   <div style="color: blue;">
     <content select=".email"></content>
   </div>
-</div></nowiki>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Shadow DOM
-|URL=http://www.w3.org/TR/2012/WD-shadow-dom-20120522/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML, Shadow DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=HTML5Rocks
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=25
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
+</div>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[Shadow DOM](http://www.w3.org/TR/2012/WD-shadow-dom-20120522/)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
+

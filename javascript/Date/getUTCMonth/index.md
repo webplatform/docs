@@ -1,56 +1,54 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Gets the month of a Date object using Universal Coordinated Time (UTC).}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=dateObj.getUTCMonth()
-}}
-|Values=
-}}
-{{JS_Return_Value
-|Description=Returns an integer between 0 (January) and 11 (December).
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example shows how to use the '''getUTCMonth''' method.
-|Code=var date = new Date("2/2/2002");
+---
+title: getUTCMonth
+tags:
+  0: JS
+  1: Basic
+  3: Method
+readiness: 'Ready to Use'
+summary: 'Gets the month of a Date object using Universal Coordinated Time (UTC).'
+uri: javascript/Date/getUTCMonth
+
+---
+# getUTCMonth
+
+## Summary
+
+Gets the month of a Date object using Universal Coordinated Time (UTC).
+
+## Syntax
+
+    dateObj.getUTCMonth()
+
+## Return Value
+
+Returns an integer between 0 (January) and 11 (December).
+
+## Examples
+
+The following example shows how to use the **getUTCMonth** method.
+
+``` {.js}
+var date = new Date("2/2/2002");
  document.write(date.getUTCMonth());
- 
+
  // Output: 1
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=The required dateObj reference is a '''Date''' object. To get the month in local time, use the '''getMonth''' method.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Date/getMonth{{!}}getMonth Method (Date)]]
-* [[javascript/Date/setMonth{{!}}setMonth Method (Date)]]
-* [[javascript/Date/setUTCMonth{{!}}setUTCMonth Method (Date)]]
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Method
-|Applies to=Date
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hkd7k0a3(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+```
+
+## Remarks
+
+The required dateObj reference is a **Date** object. To get the month in local time, use the **getMonth** method.
+
+## See also
+
+### Other articles
+
+-   [getMonth Method (Date)](/javascript/Date/getMonth)
+-   [setMonth Method (Date)](/javascript/Date/setMonth)
+-   [setUTCMonth Method (Date)](/javascript/Date/setUTCMonth)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hkd7k0a3(v=vs.94).aspx)
+

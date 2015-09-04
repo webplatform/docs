@@ -1,75 +1,91 @@
-{{Page_Title}}
-{{Flags
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object
-|Subclass_of=dom/HTMLOptionElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following script creates three new '''option''' objects and adds them to a '''select''' element. Because of the optional arguments, option "Two" is originally selected but option "Three" gains focus when the reset button is pressed.
-|Code=&lt;form action{{=}}"#"&gt;
-&lt;select id{{=}}"oSelect"&gt;&lt;/select&gt;
-&lt;button type{{=}}"reset"&gt;Reset to Defaults&lt;/button&gt;
-&lt;/form&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-var sel {{=}} document.getElementById('oSelect');
+---
+title: Option
+tags:
+  - API
+  - Objects
+  - DOM
+uri: dom/Option
+
+---
+# Option
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[HTMLOptionElement](/dom/HTMLOptionElement)</span></span>
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Inherited from HTMLOptionElement
+
+### Properties
+
+API Name
+:   Summary
+[defaultSelected](/dom/HTMLOptionElement/defaultSelected)
+:   Gets or sets the value of the [selected](/html/attributes/selected) HTML attribute.
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+## Examples
+
+The following script creates three new **option** objects and adds them to a **select** element. Because of the optional arguments, option "Two" is originally selected but option "Three" gains focus when the reset button is pressed.
+
+``` {.html}
+<form action="#">
+<select id="oSelect"></select>
+<button type="reset">Reset to Defaults</button>
+</form>
+<script type="text/javascript">
+var sel = document.getElementById('oSelect');
 sel.options.add( new Option("One","1") );
 sel.options.add( new Option("Two","2",false,true) );
 sel.options.add( new Option("Three",3,1,0) );
-&lt;/script&gt;
-}}
-}}
-{{Notes_Section
-|Notes=Use this object to instantiate new '''option''' elements before adding them to a '''select''' element. You can specify up to four optional arguments:
-{{{!}} class="wikitable"
-{{!}}-
-{{!}}sText
-{{!}}'''String''' that specifies the option text.
-{{!}}-
-{{!}}sValue
-{{!}}'''String''' that specifies the option value.
-{{!}}-
-{{!}}bDefaultSelected
-{{!}}'''Boolean''' that indicates whether the option is the default selection.
-{{!}}-
-{{!}}bSelected
-{{!}}'''Boolean''' that indicates whether this option is selected when it is added to the collection.
-{{!}}}
- 
-Numeric values are coerced into string and Boolean equivalents if possible.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=WHATG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#the-option-element
-|Status=Living Standard
-}}{{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/forms.html#the-option-element
-|Status=Last Call Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+</script>
+```
+
+## Notes
+
+Use this object to instantiate new **option** elements before adding them to a **select** element. You can specify up to four optional arguments:
+
+sText
+:   **String** that specifies the option text.
+sValue
+:   **String** that specifies the option value.
+bDefaultSelected
+:   **Boolean** that indicates whether the option is the default selection.
+bSelected
+:   **Boolean** that indicates whether this option is selected when it is added to the collection.
+
+  Numeric values are coerced into string and Boolean equivalents if possible.
+
+## Related specifications
+
+Specification
+:   Status
+[WHATG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#the-option-element)
+:   Living Standard
+[HTML5](http://www.w3.org/TR/html5/forms.html#the-option-element)
+:   Last Call Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,136 +1,120 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The '''base''' element is used to specify a document's base URL and base target that is used for resolving URI references (relative URLs) within the document.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLBaseElement
-|Tag_omissions=No end tag (self-closing)
-|CSS_display=none
-|Content=<table class{{=}}"wikitable">
-<tr>
-<th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
-<td style{{=}}"vertical-align: top; padding-top: 10px"><em>none</em></td>
-</tr>
-<tr>
-<th id="permitted-parents">Permitted&#160;parents</th>
-<td>Only permitted to occur once within [[html/elements/head|<code>&lt;head&gt;</code>]].</td>
-</tr>
-</table>
+---
+title: base
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The base element is used to specify a document''s base URL and base target that is used for resolving URI references (relative URLs) within the document.'
+uri: html/elements/base
 
-A relative URL (<var>some/example.html</var>) needs to be transformed to a fully qualified URL (<var>http://example.org/some/example.html</var>) before it can be downloaded. Usually the document's URL (available to JavaScript through the [[dom/Location|<code>location</code>]] object) is used as the base URL for resolving relative URLs. The <code>&lt;base&gt;</code> element allows you to override this default with the [[html/attributes/href|<code>href</code>]] attribute.
+---
+# base
 
-Links ([[html/elements/a|<code>&lt;a&gt;</code>]]) and forms ([[html/elements/form|<code>&lt;form&gt;</code>]]) open in a ([[html/attributes/target|<code>target</code>]]). The default target is <var>_self</var>, resulting in the link opening in the same window as the document currently viewed. This default can be overridden document-wide using <code>&lt;base target="…"&gt;</code>.
+## Summary
 
-If a document is integrated in an [[html/elements/iframe|<code>iframe</code>]], it may help to specify <code>&lt;base target="_parent"&gt;</code> in order to open the links within the iframe in the scope parent document. If <var>_parent</var> or <var>_top</var> are used without the document really being integrated in an hierarchy, expect the behavior of <var>_self</var>.
+The base element is used to specify a document's base URL and base target that is used for resolving URI references (relative URLs) within the document.
 
+## Overview Table
 
+[DOM Interface](/dom/interface)
+:   [HTMLBaseElement](/dom/HTMLBaseElement)
 
-== HTML Attributes ==
+Permitted contents
+:   *none*
+Permitted parents
+:   Only permitted to occur once within [`<head>`](/html/elements/head).
 
-*<code>href</code> = URI, potentially surrounded by spaces<br />A base element, if it has an href attribute, must come before any other elements in the tree that have attributes defined as taking URLs, except the html element (its manifest attribute isn't affected by base elements). [[#Example_A|[Example A]]]
+A relative URL (<var>some/example.html</var>) needs to be transformed to a fully qualified URL (<var>[http://example.org/some/example.html](http://example.org/some/example.html)</var>) before it can be downloaded. Usually the document's URL (available to JavaScript through the [`location`](/dom/Location) object) is used as the base URL for resolving relative URLs. The `<base>` element allows you to override this default with the [`href`](/html/attributes/href) attribute.
 
-*<code>target</code> = browsing context name or keyword ( _blank, _self, _parent, or _top)<br />The value of the target attribute is used as the default when hyperlinks and forms in the Document cause navigation.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The example shows a link with the relative destination <var>some-file.html</var> that gets rewritten to <var>http://example.org/deep/some-file.html</var>
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;base element example&lt;/title&gt;
-    &lt;base href="http://www.example.org/deep/"&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p&gt;A &lt;a href="some-file.html"&gt;relative link&lt;/a&gt;.&lt;/p&gt;
-    &lt;!-- after resolving the above link equals to --&gt;
-    &lt;p&gt;A &lt;a href="http://www.example.org/deep/some-file.html"&gt;relative link&lt;/a&gt;.&lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=The example shows that '''base''' only affects elements following it
-|Code=&lt;head&gt;
-  &lt;title&gt;base element example&lt;/title&gt;
-  &lt;link href="my-style.css&quot; rel="stylesheet"&gt;
-  &lt;base href="http://example.com"&gt;
-  &lt;link href="my-other-style.css" rel="stylesheet"&gt;
-  &lt;!--
+Links ([`<a>`](/html/elements/a)) and forms ([`<form>`](/html/elements/form)) open in a ([`target`](/html/attributes/target)). The default target is <var>\_self</var>, resulting in the link opening in the same window as the document currently viewed. This default can be overridden document-wide using `<base target="…">`.
+
+If a document is integrated in an [`iframe`](/html/elements/iframe), it may help to specify `<base target="_parent">` in order to open the links within the iframe in the scope parent document. If <var>\_parent</var> or <var>\_top</var> are used without the document really being integrated in an hierarchy, expect the behavior of <var>\_self</var>.
+
+## HTML Attributes
+
+-   `href` = URI, potentially surrounded by spaces
+    A base element, if it has an href attribute, must come before any other elements in the tree that have attributes defined as taking URLs, except the html element (its manifest attribute isn't affected by base elements). [[Example A]](#Example_A)
+
+-   `target` = browsing context name or keyword ( \_blank, \_self, \_parent, or \_top)
+    The value of the target attribute is used as the default when hyperlinks and forms in the Document cause navigation.
+
+## Examples
+
+The example shows a link with the relative destination <var>some-file.html</var> that gets rewritten to <var>[http://example.org/deep/some-file.html](http://example.org/deep/some-file.html)</var>
+
+``` {.html}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>base element example</title>
+    <base href="http://www.example.org/deep/">
+  </head>
+  <body>
+    <p>A <a href="some-file.html">relative link</a>.</p>
+    <!-- after resolving the above link equals to -->
+    <p>A <a href="http://www.example.org/deep/some-file.html">relative link</a>.</p>
+  </body>
+</html>
+```
+
+The example shows that **base** only affects elements following it
+
+``` {.html}
+<head>
+  <title>base element example</title>
+  <link href="my-style.css" rel="stylesheet">
+  <base href="http://example.com">
+  <link href="my-other-style.css" rel="stylesheet">
+  <!--
     resolves to
     [current domain and directory]/my-style.css
     http://example.com/my-other-style.css
-  --&gt;
-&lt;/head&gt;
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=The example shows how multiple '''base''' occurrences are collapsed and ignored
-|Code=&lt;head&gt;
-  &lt;title&gt;base element example&lt;/title&gt;
-  &lt;base href="http://example.com"&gt;
-  &lt;base target="_blank"&gt;
-  &lt;base href="http://webplatform.org" target="_top"&gt;
-  &lt;!--
-    equals to the single definition:
-    &lt;base href="http://example.com/" target="_blank"&gt;
-    except for Internet Explorer, where only the first element is read:
-    &lt;base href="http://example.com/" target="_self"&gt;    
-  --&gt;
-&lt;/head&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=* Relative URLs within <code>&lt;base&gt;</code> don't work in every browser, resolving a relative base URL was introduced in Firefox 4 and Internet Explorer 10.
-* <code>&lt;base&gt;</code> only affects elements following it's declaration.
-* multiple <code>&lt;base&gt;</code> declarations are illegal, only the ''first'' [[html/attributes/href|<code>href</code>]] and [[html/attributes/target|<code>target</code>]] are used, the rest is discarded. Internet Explorer ignores all <code>&lt;base&gt;</code> instances after the first.
+  -->
+</head>
+```
 
-'''Note''' Inline SVGs using references like <code>fill="url(#element-id)"</code> can be a problem in documents using <code>&lt;base&gt;</code>. The reason is that <code>url(#element-id)</code> is actually a URL, not a CSS selector. At least Firefox and Chrome are susceptible to this behavior.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/document-metadata.html#the-base-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/document-metadata.html#the-base-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/links.html#edef-BASE
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/base Mozilla Developer Network]
-* [http://msdn.microsoft.com/en-us/library/ie/ms535191%28v=vs.85%29.aspx Microsoft Developer Network]
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+The example shows how multiple **base** occurrences are collapsed and ignored
+
+``` {.html}
+<head>
+  <title>base element example</title>
+  <base href="http://example.com">
+  <base target="_blank">
+  <base href="http://webplatform.org" target="_top">
+  <!--
+    equals to the single definition:
+    <base href="http://example.com/" target="_blank">
+    except for Internet Explorer, where only the first element is read:
+    <base href="http://example.com/" target="_self">
+  -->
+</head>
+```
+
+## Notes
+
+-   Relative URLs within `<base>` don't work in every browser, resolving a relative base URL was introduced in Firefox 4 and Internet Explorer 10.
+-   `<base>` only affects elements following it's declaration.
+-   multiple `<base>` declarations are illegal, only the *first* [`href`](/html/attributes/href) and [`target`](/html/attributes/target) are used, the rest is discarded. Internet Explorer ignores all `<base>` instances after the first.
+
+**Note** Inline SVGs using references like `fill="url(#element-id)"` can be a problem in documents using `<base>`. The reason is that `url(#element-id)` is actually a URL, not a CSS selector. At least Firefox and Chrome are susceptible to this behavior.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/document-metadata.html#the-base-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/document-metadata.html#the-base-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/links.html#edef-BASE)
+:   W3C Recommendation
+
+## See also
+
+### External resources
+
+-   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/base)
+-   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535191%28v=vs.85%29.aspx)
+

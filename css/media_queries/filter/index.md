@@ -1,109 +1,161 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add summery, specifications, compatibility.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=css/media_queries
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following example shows how to use the '''-ms-filter''' attribute in Internet Explorer 8.
-|Code=-ms-filter: 'progid:DXImageTransform.Microsoft.MotionBlur(strength{{=}}50), progid:DXImageTransform.Microsoft.BasicImage(mirror{{=}}1)';
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_8.htm
-}}{{Single Example
-|Description=The following example shows how to use an inline style sheet to set the filter on an image.
-|Code=&lt;img style{{=}}"filter:progid:DXImageTransform.Microsoft.MotionBlur(strength{{=}}50)
-    progid:DXImageTransform.Microsoft.BasicImage(mirror{{=}}1)"
-    src{{=}}"/workshop/samples/author/dhtml/graphics/cone.jpg"
-    height{{=}}"80px" width{{=}}"80px" alt{{=}}"cone"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_h.htm
-}}{{Single Example
-|Description=The following example shows how to use inline scripting to set the filter on an image.
-|Code=&lt;script type{{=}}"text/javascript"&gt;
-function doFilter ()
-{ 
-    filterFrom.filters.item(0).Apply();
-    // 12 is the dissolve filter.  
-    filterFrom.filters.item(0).Transition{{=}}12;
-    imageFrom.style.visibility {{=}} "hidden";
-    filterTo.style.visibility {{=}} ""; 
-    filterFrom.filters.item(0).play(14); 
-}
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;p&gt;Click the image to start the filter.&lt;/p&gt;
-// Call the function.
-&lt;div id{{=}}"filterFrom" onclick{{=}}"doFilter()" 
-    style{{=}}"position: absolute; 
-        width: 200px; 
-        height: 250px; 
-        background-color: white; 
-        filter: revealTrans()"&gt;
-&lt;img id{{=}}"imageFrom" 
-    style{{=}}"position: absolute; 
-        top: 20px; 
-        left: 20px;" 
-    src{{=}}"sphere.jpg" 
-    alt{{=}}"sphere"&gt;
-&lt;div id{{=}}"filterTo" 
-    style{{=}}"position: absolute; 
-        width: 200px; 
-        height: 250px; 
-        top: 20px; 
-        left: 20px; 
-        background: white; 
-        visibility: hidden;"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_s.htm
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-filter''' attribute is an extension to CSS, and can  be used as a synonym for '''filter''' in IE8 Standards mode. When you use '''-ms-filter''', enclose the progid in single quotes (') or double quotes ("). Use commas (,) to separate multiple values, as shown in the Examples section.
-An object must have layout for the filter to render. A simple way to accomplish this is to give the element a specified [[css/properties/height|'''height''']] and [[css/cssom/properties/hasLayout|'''hasLayout''']]  property.
-The shadow filter can be applied to the '''img''' object by setting the filter on the image's parent container.
-The filter mechanism is extensible and enables you to develop and add  filters later. For more information about filters, see Introduction to Filters and Transitions.
-Not available on the Macintosh platform.
-|Import_Notes====Syntax===
-<code>'''-ms-filter: '''filtertype1 (parameter1, parameter2,...) '''{{!}}''' filtertype2 (parameter1, parameter2,...)</code>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Media Queries
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: filter
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Add summery, specifications, compatibility.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_8.htm'
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_h.htm'
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_s.htm'
+uri: 'css/media queries/filter'
+
+---
+# filter
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [css/media\_queries](/css/media_queries)*
+
+## Syntax
+
+``` {.js}
+var object = object.filter();
+```
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+## Examples
+
+The following example shows how to use the **-ms-filter** attribute in Internet Explorer 8.
+
+    -ms-filter: 'progid:DXImageTransform.Microsoft.MotionBlur(strength=50), progid:DXImageTransform.Microsoft.BasicImage(mirror=1)';
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_8.htm)
+
+The following example shows how to use an inline style sheet to set the filter on an image.
+
+    <img style="filter:progid:DXImageTransform.Microsoft.MotionBlur(strength=50)
+        progid:DXImageTransform.Microsoft.BasicImage(mirror=1)"
+        src="/workshop/samples/author/dhtml/graphics/cone.jpg"
+        height="80px" width="80px" alt="cone">
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_h.htm)
+
+The following example shows how to use inline scripting to set the filter on an image.
+
+    <script type="text/javascript">
+    function doFilter ()
+    {
+        filterFrom.filters.item(0).Apply();
+        // 12 is the dissolve filter.
+        filterFrom.filters.item(0).Transition=12;
+        imageFrom.style.visibility = "hidden";
+        filterTo.style.visibility = "";
+        filterFrom.filters.item(0).play(14);
+    }
+    </script>
+    </head>
+    <body>
+    <p>Click the image to start the filter.</p>
+    // Call the function.
+    <div id="filterFrom" onclick="doFilter()"
+        style="position: absolute;
+            width: 200px;
+            height: 250px;
+            background-color: white;
+            filter: revealTrans()">
+    <img id="imageFrom"
+        style="position: absolute;
+            top: 20px;
+            left: 20px;"
+        src="sphere.jpg"
+        alt="sphere">
+    <div id="filterTo"
+        style="position: absolute;
+            width: 200px;
+            height: 250px;
+            top: 20px;
+            left: 20px;
+            background: white;
+            visibility: hidden;">
+    </div>
+    </div>
+    </body>
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filter_s.htm)
+
+## Notes
+
+### Remarks
+
+Windows Internet Explorer 8. The **-ms-filter** attribute is an extension to CSS, and can be used as a synonym for **filter** in IE8 Standards mode. When you use **-ms-filter**, enclose the progid in single quotes (') or double quotes ("). Use commas (,) to separate multiple values, as shown in the Examples section. An object must have layout for the filter to render. A simple way to accomplish this is to give the element a specified [**height**](/css/properties/height) and [**hasLayout**](/css/cssom/properties/hasLayout) property. The shadow filter can be applied to the **img** object by setting the filter on the image's parent container. The filter mechanism is extensible and enables you to develop and add filters later. For more information about filters, see Introduction to Filters and Transitions. Not available on the Macintosh platform.
+
+### Syntax
+
+`-ms-filter: filtertype1 (parameter1, parameter2,...) | filtertype2 (parameter1, parameter2,...)`
+
+## See also
+
+### Related articles
+
+#### Media Queries
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [\<resolution\>](/css/data_types/resolution)
+
+-   [accelerator](/css/media_queries/accelerator)
+
+-   [MediaQueryList](/css/media_queries/apis/MediaQueryList)
+
+-   [MediaQueryListListener](/css/media_queries/apis/MediaQueryListListener)
+
+-   [StyleMedia](/css/media_queries/apis/StyleMedia)
+
+-   [addListener](/css/media_queries/apis/addListener)
+
+-   [handleChange](/css/media_queries/apis/handleChange)
+
+-   [matchMedia](/css/media_queries/apis/matchMedia)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [matches](/css/media_queries/apis/matches)
+
+-   [media](/css/media_queries/apis/media)
+
+-   [type](/css/media_queries/apis/properties/type)
+
+-   [removeListener](/css/media_queries/apis/removeListener)
+
+-   [Colors by](/css/media_queries/colors_by)
+
+-   [device-height](/css/media_queries/device-height)
+
+-   **filter**
+
+-   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
+
+-   [behavior](/css/properties/behavior)
+
+-   [Targeting styles with media queries](/tutorials/media_queries)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

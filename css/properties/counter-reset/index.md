@@ -1,52 +1,57 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The counter-reset property contains a list of one or more names of counters, each one optionally followed by an integer (otherwise, the integer defaults to 0.)  Each time the given element is invoked, the counters specified by the property are set to the given integer.}}
-{{CSS Property
-|Initial value=none
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=
-|Animatable=No
-|CSS object model property=
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=identifier
-|Description=The name of the counter, optionally followed by an integer.
-}}{{CSS Property Value
-|Data Type=integer
-|Description=The value to which the counter is set when the element is invoked. The default value is 0.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=The following example demonstrates automatic
-chapter and section numbering using
-'''counter-reset''',
-[[css/properties/counter-increment|'''counter-increment''']],
-and [[css/properties/content|'''content''']].
-The <code>chapter</code> counter is set to zero for the
-'''body''' element,
-and then incremented for each '''h1'''
-element encountered. The <code>section</code> counter is
-reset for each '''h1''' element and
-incremented for each '''h2''' element.
-When the page is viewed, each
-'''h1''' element is preceded by
-a chapter heading of the form
-<code>"Chapter</code>''X''<code>."</code>,
-while each '''h2''' element is preceded by
-a section number of the form
-<code>"</code>''X.N''<code>"</code>.
-|Code=body {
+---
+title: counter-reset
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+summary: 'The counter-reset property contains a list of one or more names of counters, each one optionally followed by an integer (otherwise, the integer defaults to 0.)  Each time the given element is invoked, the counters specified by the property are set to the given integer.'
+code_samples:
+  - 'http://gist.github.com/5841988'
+uri: css/properties/counter-reset
+
+---
+# counter-reset
+
+## Summary
+
+The counter-reset property contains a list of one or more names of counters, each one optionally followed by an integer (otherwise, the integer defaults to 0.) Each time the given element is invoked, the counters specified by the property are set to the given integer.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `counter-reset: identifier`
+-   `counter-reset: integer`
+
+## Values
+
+identifier
+:   The name of the counter, optionally followed by an integer.
+
+integer
+:   The value to which the counter is set when the element is invoked. The default value is 0.
+
+## Examples
+
+The following example demonstrates automatic chapter and section numbering using **counter-reset**, [**counter-increment**](/css/properties/counter-increment), and [**content**](/css/properties/content). The `chapter` counter is set to zero for the **body** element, and then incremented for each **h1** element encountered. The `section` counter is reset for each **h1** element and incremented for each **h2** element. When the page is viewed, each **h1** element is preceded by a chapter heading of the form `"Chapter`*X*`."`, while each **h2** element is preceded by a section number of the form `"`*X.N*`"`.
+
+``` {.css}
+body {
     counter-reset: chapter;      /* Create a chapter counter */
 }
 h1 {
@@ -62,72 +67,55 @@ h2 {
 h2:before {
     content: counter(chapter) "." counter(section) " ";
 }
-|LiveURL=http://code.webplatform.org/gist/5841988
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-The
-'''counter-reset'''
-attribute can contain a list of one or more counters,
-each one optionally followed by an integer. The integer represents
-the value that the counter is set to after each occurrence
-of the element.
-If an element both resets and increments a counter, the counter is
-reset first and then incremented. If the same counter is specified
-more than once, each reset or increment of the counter is processed
-in the order specified.
-The
-[[css/properties/counter-increment|'''counter-increment''']]
-and
-'''counter-reset'''
-attributes follow the rules of the CSS cascade. Given two style
-declarations with the same specificity, only the last one encountered
-will be processed. For more information about cascade and specificity,
-see Understanding CSS Selectors.
-An element that is not displayed
-([[css/properties/display|'''display''']]
-attribute set to 'none') and pseudo-elements that do not generate content
-([[css/properties/content|'''content''']]
-attribute set to 'normal') cannot increment or reset a counter.
-This property requires Windows Internet Explorer to be in
-IE8 Standards mode rendering.
-|Import_Notes====Syntax===
-<code>'''counter-reset: ''''''[''' '''
-&lt;identifier&gt;
-''' '''
-&lt;integer&gt;
-''' ''']''''''+'''</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 12.4
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=Generated and Replaced Content
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/counter-increment|counter-increment]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5841988)
+
+## Notes
+
+### Remarks
+
+The **counter-reset** attribute can contain a list of one or more counters, each one optionally followed by an integer. The integer represents the value that the counter is set to after each occurrence of the element. If an element both resets and increments a counter, the counter is reset first and then incremented. If the same counter is specified more than once, each reset or increment of the counter is processed in the order specified. The [**counter-increment**](/css/properties/counter-increment) and **counter-reset** attributes follow the rules of the CSS cascade. Given two style declarations with the same specificity, only the last one encountered will be processed. For more information about cascade and specificity, see Understanding CSS Selectors. An element that is not displayed ([**display**](/css/properties/display) attribute set to 'none') and pseudo-elements that do not generate content ([**content**](/css/properties/content) attribute set to 'normal') cannot increment or reset a counter. This property requires Windows Internet Explorer to be in IE8 Standards mode rendering.
+
+### Syntax
+
+`counter-reset: '[  <identifier>   <integer>  ]'+`
+
+### Standards information
+
+-   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 12.4
+
+## See also
+
+### Related articles
+
+#### Generated and Replaced Content
+
+-   [Generated and Replaced Content](/css/generated_and_replaced_content)
+
+-   [content](/css/properties/content)
+
+-   [counter-increment](/css/properties/counter-increment)
+
+-   **counter-reset**
+
+-   [list-style-image](/css/properties/list-style-image)
+
+-   [list-style-type](/css/properties/list-style-type)
+
+-   [object-fit](/css/properties/object-fit)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `runtimeStyle`
+-   `style`
+-   `counter-increment`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

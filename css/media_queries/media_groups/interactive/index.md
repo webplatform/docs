@@ -1,30 +1,36 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add values, syntax, example, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{Summary_Section|The '''interactive''' media group is used to distinguish CSS properties that require a technology that can change the document over time, particularly in response to user actions.}}
-{{CSS Media Group
-|Description=The opposite of an interactive media is a [[css/media queries/media groups/static|static media]].
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: interactive
+tags:
+  - CSS
+  - Media
+  - Groups
+readiness: 'Not Ready'
+notes:
+  - 'Add values, syntax, example, specifications, compatibility.'
+summary: 'The interactive media group is used to distinguish CSS properties that require a technology that can change the document over time, particularly in response to user actions.'
+uri: 'css/media queries/media groups/interactive'
+
+---
+# interactive
+
+## Summary
+
+The interactive media group is used to distinguish CSS properties that require a technology that can change the document over time, particularly in response to user actions.
+
+The opposite of an interactive media is a [static media](/css/media_queries/media_groups/static).
+
+## Applicable Media Types
+
+(none in the database)
+
+## Applicable Media Features
+
+(none in the database)
+
+## Applicable CSS properties
+
+-   [css/properties/transition](/css/properties/transition)
+-   [css/properties/transition-delay](/css/properties/transition-delay)
+-   [css/properties/transition-duration](/css/properties/transition-duration)
+-   [css/properties/transition-timing-function](/css/properties/transition-timing-function)
+

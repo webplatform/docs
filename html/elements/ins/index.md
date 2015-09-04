@@ -1,102 +1,312 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Compatibility
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The '''ins''' element represents a range of text that has been inserted (added) into a document.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLModElement
-|Tag_omissions=
-|CSS_display=
-|Content==== Attributes ===
+---
+title: ins
+tags:
+  - Markup
+  - Elements
+  - HTML
+  - XHTML
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add Compatibility'
+summary: 'The ins element represents a range of text that has been inserted (added) into a document.'
+code_samples:
+  - 'http://gist.github.com/6365735'
+uri: html/elements/ins
 
-<p>Besides the [[html/global_attributes|global attributes]] the following attributes are supported:</p>
+---
+# ins
 
-<dl>
-    <dt>[[html/attributes/cite|'''cite''']]</dt>
-    <dd>
-        The '''cite''' attribute may be used to specify the address of a document that explains the change. When that document is long (e.g. the minutes of a meeting) authors are encouraged to include a fragment identifier pointing to the specific part of that document that discusses the change.
-    </dd>
-    <dt>[[html/attributes/datetime|'''datetime''']]</dt>
-    <dd>
-        The '''datetime''' attribute may be used to specify the time and date of the change. If present, it must be a valid [http://www.w3.org/html/wg/drafts/html/master/infrastructure.html#valid-date-string-with-optional-time date string with optional time].
-    </dd>
-</dl>
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''ins''' element to specify text inserted into a document.
-|Code=&lt;p>This text existed in the document when it 
-was written. &lt;ins datetime{{=}}"1997-10-01T12:15:30-05:00"&gt;This 
+## Summary
+
+The ins element represents a range of text that has been inserted (added) into a document.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLModElement](/dom/HTMLModElement)
+
+### Attributes
+
+Besides the [global attributes](/html/global_attributes) the following attributes are supported:
+
+[**cite**](/html/attributes/cite)
+:   The **cite** attribute may be used to specify the address of a document that explains the change. When that document is long (e.g. the minutes of a meeting) authors are encouraged to include a fragment identifier pointing to the specific part of that document that discusses the change.
+[**datetime**](/html/attributes/datetime)
+:   The **datetime** attribute may be used to specify the time and date of the change. If present, it must be a valid [date string with optional time](http://www.w3.org/html/wg/drafts/html/master/infrastructure.html#valid-date-string-with-optional-time).
+
+## Examples
+
+This example uses the **ins** element to specify text inserted into a document.
+
+``` {.html}
+<p>This text existed in the document when it
+was written. <ins datetime="1997-10-01T12:15:30-05:00">This
 text was inserted on 1 October 1997 at 12:15pm in
-the Eastern time zone.&lt;/ins>&lt;/p>
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=This example uses '''ins''' and '''del''' elements to explain changes in a document
-|Code=&lt;p&gt;I &lt;del&gt;am&lt;/del&gt;&lt;ins&gt;was&lt;/ins&gt; on vacation in &lt;del&gt;France&lt;/del&gt;&lt;ins&gt;Italy&lt;/ins&gt;.&lt;/p&gt;
-&lt;p&gt;
-  &lt;del&gt;It is supposed to be sunny and hot.&lt;/del&gt;
-  &lt;ins&gt;It rained in France so we decided to go to Italy instead.&lt;/ins&gt;
-&lt;/p&gt;
-|LiveURL=http://code.webplatform.org/gist/6365735
-}}
-}}
-{{Notes_Section
-|Usage=The default behavior of the '''ins''' element is as a phrasing-level element, but it can be wrapped around any element within the '''body'''.
-|Notes=The default browser display of '''ins''' is underlined.
+the Eastern time zone.</ins></p>
+```
 
-If you want to underline text, but it is not an insertion, you should use the CSS rule '''text-decoration: underline''' on the appropriate element enclosing the text.
+This example uses **ins** and **del** elements to explain changes in a document
 
-If you are looking to emphasize a word or phrase, the [[html/elements/em|'''em''' element]] would be a better choice.
+``` {.html}
+<p>I <del>am</del><ins>was</ins> on vacation in <del>France</del><ins>Italy</ins>.</p>
+<p>
+  <del>It is supposed to be sunny and hot.</del>
+  <ins>It rained in France so we decided to go to Italy instead.</ins>
+</p>
+```
 
-For Internet Explorer 8 and later the value of the [[html/attributes/cite|'''cite''']] attribute depends on the current document compatibility mode.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/edits.html#the-ins-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/edits.html#the-ins-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/text.html#edef-ins
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML, Text
-|Manual_links=* [[html/elements/ins|ins]]
-* [[html/elements/del|del]]
-|External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/ins Mozilla Developer Network]
-* [http://msdn.microsoft.com/en-us/library/ie/ms535842%28v=vs.85%29.aspx Microsoft Developer Network]
-* http://www.w3.org/TR/html-markup/ins.html#ins
-|Manual_sections=
-}}
-{{Topics|HTML, XHTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+[View live example](http://code.webplatform.org/gist/6365735)
+
+## Usage
+
+     The default behavior of the ins element is as a phrasing-level element, but it can be wrapped around any element within the body.
+
+## Notes
+
+The default browser display of **ins** is underlined.
+
+If you want to underline text, but it is not an insertion, you should use the CSS rule **text-decoration: underline** on the appropriate element enclosing the text.
+
+If you are looking to emphasize a word or phrase, the [**em** element](/html/elements/em) would be a better choice.
+
+For Internet Explorer 8 and later the value of the [**cite**](/html/attributes/cite) attribute depends on the current document compatibility mode.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/edits.html#the-ins-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/edits.html#the-ins-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-ins)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   **ins**
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+### Other articles
+
+-   **ins**
+-   [del](/html/elements/del)
+
+### External resources
+
+-   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/ins)
+-   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535842%28v=vs.85%29.aspx)
+-   [http://www.w3.org/TR/html-markup/ins.html\#ins](http://www.w3.org/TR/html-markup/ins.html#ins)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

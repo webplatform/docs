@@ -1,33 +1,73 @@
-{{Page_Title|CSSRegionStyleRule}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Represents an [[css/atrules/@region|'''@region''']] rule in a CSS style sheet, which applies styles to [[css/concepts/fragment|fragments]] of content that flow into a CSS [[css/concepts/region|region]].}}
-{{API_Object
-|Subclass_of=css/cssom/CSSRule
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Starting with this CSS...
-|Code=@region div.region {
+---
+title: CSSRegionStyleRule
+tags:
+  0: API
+  1: Objects
+  3: CSS-Regions
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Represents an @region rule in a CSS style sheet, which applies styles to fragments of content that flow into a CSS region.'
+uri: apis/css-regions/CSSRegionStyleRule
+
+---
+# CSSRegionStyleRule
+
+## Summary
+
+Represents an @region rule in a CSS style sheet, which applies styles to fragments of content that flow into a CSS region.
+
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[CSSRule](/css/cssom/CSSRule)</span></span>
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Inherited from CSSRule
+
+### Properties
+
+API Name
+:   Summary
+[parentRule](/css/cssom/CSSRule/parentRule)
+:
+[parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
+:
+[type](/css/cssom/CSSRule/type)
+:
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+## Examples
+
+Starting with this CSS...
+
+``` {.css}
+@region div.region {
     p {
-	color: #fff;
+    color: #fff;
         background-color: #000;
     }
 }
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=Narrow the scope of the first rule within the @region to the first paragraph, and modify its background color
-|Code=// corresponds to @region rule above:
+```
+
+Narrow the scope of the first rule within the @region to the first paragraph, and modify its background color
+
+``` {.js}
+// corresponds to @region rule above:
 rule = document.styleSheets[0].cssRules[0];
 
 // modify first nested style's selector:
@@ -41,106 +81,92 @@ console.log(rule.cssRules[0].cssText);
 
 // inspect CSS syntax for entire @region rule:
 console.log(rule.cssText);
-|LiveURL=
-}}{{Single Example
-|Language=CSS
-|Description=The '''cssText''' above now dynamically reflects these altered values:
-|Code=@region div.region {
+```
+
+The **cssText** above now dynamically reflects these altered values:
+
+``` {.css}
+@region div.region {
     p:first-of-type {
-	color: #fff;
+    color: #fff;
         background-color: #777;
     }
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Regions Module Level 1
-|URL=http://www.w3.org/TR/2012/WD-css3-regions-20120823/
-|Status=W3C Working Draft 23 August 2012
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|Manual_links=
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-|Manual_sections=
-}}
-{{Topics|API, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=534
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=No
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=537
-}}
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Regions Module Level 1](http://www.w3.org/TR/2012/WD-css3-regions-20120823/)
+:   W3C Working Draft 23 August 2012
+
+## See also
+
+### Related articles
+
+#### Regions
+
+-   [CSS Regions API](/apis/css-regions)
+
+-   **CSSRegionStyleRule**
+
+-   [NamedFlow](/apis/css-regions/NamedFlow)
+
+-   [firstEmptyRegionIndex](/apis/css-regions/NamedFlow/firstEmptyRegionIndex)
+
+-   [getContent()](/apis/css-regions/NamedFlow/getContent)
+
+-   [getRegions()](/apis/css-regions/NamedFlow/getRegions)
+
+-   [getRegionsByContent()](/apis/css-regions/NamedFlow/getRegionsByContent)
+
+-   [name](/apis/css-regions/NamedFlow/name)
+
+-   [overset](/apis/css-regions/NamedFlow/overset)
+
+-   [regionfragmentchange](/apis/css-regions/NamedFlow/regionfragmentchange)
+
+-   [regionoversetchange](/apis/css-regions/NamedFlow/regionoversetchange)
+
+-   [NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
+
+-   [namedItem()](/apis/css-regions/NamedFlowCollection/namedItem)
+
+-   [Region](/apis/css-regions/Region)
+
+-   [getComputedRegionStyle()](/apis/css-regions/Region/getComputedRegionStyle)
+
+-   [getRegionFlowRanges()](/apis/css-regions/Region/getRegionFlowRanges)
+
+-   [regionOverset](/apis/css-regions/Region/regionOverset)
+
+-   [@region](/css/atrules/@region)
+
+-   [content fragments](/css/concepts/fragment)
+
+-   [named flows](/css/concepts/named_flow)
+
+-   [overset content](/css/concepts/overset)
+
+-   [regions](/css/concepts/region)
+
+-   [region chains](/css/concepts/region_chain)
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [flow-from](/css/properties/flow-from)
+
+-   [flow-into](/css/properties/flow-into)
+
+### External resources
+
+-   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
+-   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
+-   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
+-   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
+

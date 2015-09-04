@@ -1,37 +1,37 @@
-{{Page Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Stub MSDN import
-}}
-{{Standardization_Status|}}
-{{Topics|SVG}}
-{{API_Name}}
-{{Notes_Section
-|Notes=
+---
+title: unsuspendRedrawAll
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Stub MSDN import'
+uri: svg/methods/unsuspendRedrawAll
 
-===Remarks===
+---
+# unsuspendRedrawAll
 
-Typically, you should call the '''unsuspendRedrawAll'''  method as the last call  of a set of SVG DOM calls to  make sure that all pending [[svg/methods/suspendRedraw|'''suspendRedraw''']] method calls  are  canceled.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+Typically, you should call the **unsuspendRedrawAll** method as the last call of a set of SVG DOM calls to make sure that all pending [**suspendRedraw**](/svg/methods/suspendRedraw) method calls are canceled.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-*[[svg/elements/svg|'''SVGSVGElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGSVGElement**](/svg/elements/svg)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

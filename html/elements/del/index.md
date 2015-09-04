@@ -1,91 +1,303 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category, Parent, Children and Compatibility information. 
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The '''del''' element indicates text that has been deleted from the document.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLModElement
-|Content=<p>Besides the [[html/global_attributes|global attributes]] the following attributes are supported:</p>
+---
+title: del
+tags:
+  - Markup
+  - Elements
+  - HTML
+  - XHTML
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+summary: 'The del element indicates text that has been deleted from the document.'
+code_samples:
+  - 'http://gist.github.com/6365735'
+uri: html/elements/del
 
-<dl>
-    <dt>[[html/attributes/cite|cite]]</dt>
-    <dd>
-        The '''cite''' attribute may be used to specify the address of a document that explains the change. When that document is long (e.g. the minutes of a meeting) authors are encouraged to include a fragment identifier pointing to the specific part of that document that discusses the change.
-    </dd>
-    <dt>[[html/attributes/datetime|datetime]]</dt>
-    <dd>
-        The '''datetime''' attribute may be used to specify the time and date of the change. If present, it must be a valid [http://www.w3.org/html/wg/drafts/html/master/infrastructure.html#valid-date-string-with-optional-time date string with optional time].
-    </dd>
-</dl>
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the <code>&lt;del&gt;</code>' element to mark deleted text.
-|Code=&lt;p>This text existed in the document when it 
-was written and persists. &lt;del datetime="1997-10-01T12:15:30-05:00"&gt;This text was deleted on 1 October 1997.&lt;/del&gt;&lt;/p>
-}}{{Single Example
-|Language=HTML
-|Description=This example uses <code>&lt;ins&gt;</code> and <code>&lt;del&gt;</code> elements to explain changes in a document
-|Code=&lt;p&gt;I &lt;del&gt;am&lt;/del&gt;&lt;ins&gt;was&lt;/ins&gt; on vacation in &lt;del&gt;France&lt;/del&gt;&lt;ins&gt;Italy&lt;/ins&gt;.&lt;/p&gt;
-&lt;p&gt;
-  &lt;del&gt;It is supposed to be sunny and hot.&lt;/del&gt;
-  &lt;ins&gt;It rained in France so we decided to go to Italy instead.&lt;/ins&gt;
-&lt;/p&gt;
-|LiveURL=http://code.webplatform.org/gist/6365735
-}}
-}}
-{{Notes_Section
-|Usage=The default behavior of the '''del''' element is as a phrasing-level element, but it can be wrapped around any element within the '''body'''.
-|Notes=The default browser display of '''del''' is struck-through (with a line through the vertical middle of the text).
+---
+# del
 
-If you want to strike-through text, but the word or phrase in question is not a deletion, you should use the CSS rule [[css/properties/text-decoration|'''text-decoration: strikethrough''']] on the appropriate element enclosing the text.
+## Summary
 
-While [[html/elements/s|'''s''']] and '''del''' appear to perform the same function—marking obsolete content—they differ in semantics. The '''del''' element marks text that has been removed from the document, but [[html/elements/s|'''s''']] marks text that is to be kept in the document, but is no longer accurate.
+The del element indicates text that has been deleted from the document.
 
-For Internet Explorer 8 and later the value of the [[html/attributes/cite|'''cite''']] attribute depends on the current document compatibility mode.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related_Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/edits.html#the-del-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/edits.html#the-del-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/text.html#edef-del
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=HTML, Text
-|External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/del Mozilla Developer Network]
-* [http://msdn.microsoft.com/en-us/library/ie/ms535236%28v=vs.85%29.aspx Microsoft Developer Network]
-* http://www.w3.org/TR/html-markup/del.html#del
-}}
-{{Topics|HTML, XHTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLModElement](/dom/HTMLModElement)
+
+Besides the [global attributes](/html/global_attributes) the following attributes are supported:
+
+[cite](/html/attributes/cite)
+:   The **cite** attribute may be used to specify the address of a document that explains the change. When that document is long (e.g. the minutes of a meeting) authors are encouraged to include a fragment identifier pointing to the specific part of that document that discusses the change.
+[datetime](/html/attributes/datetime)
+:   The **datetime** attribute may be used to specify the time and date of the change. If present, it must be a valid [date string with optional time](http://www.w3.org/html/wg/drafts/html/master/infrastructure.html#valid-date-string-with-optional-time).
+
+## Examples
+
+This example uses the `<del>`' element to mark deleted text.
+
+``` {.html}
+<p>This text existed in the document when it
+was written and persists. <del datetime="1997-10-01T12:15:30-05:00">This text was deleted on 1 October 1997.</del></p>
+```
+
+This example uses `<ins>` and `<del>` elements to explain changes in a document
+
+``` {.html}
+<p>I <del>am</del><ins>was</ins> on vacation in <del>France</del><ins>Italy</ins>.</p>
+<p>
+  <del>It is supposed to be sunny and hot.</del>
+  <ins>It rained in France so we decided to go to Italy instead.</ins>
+</p>
+```
+
+[View live example](http://code.webplatform.org/gist/6365735)
+
+## Usage
+
+     The default behavior of the del element is as a phrasing-level element, but it can be wrapped around any element within the body.
+
+## Notes
+
+The default browser display of **del** is struck-through (with a line through the vertical middle of the text).
+
+If you want to strike-through text, but the word or phrase in question is not a deletion, you should use the CSS rule [**text-decoration: strikethrough**](/css/properties/text-decoration) on the appropriate element enclosing the text.
+
+While [**s**](/html/elements/s) and **del** appear to perform the same function—marking obsolete content—they differ in semantics. The **del** element marks text that has been removed from the document, but [**s**](/html/elements/s) marks text that is to be kept in the document, but is no longer accurate.
+
+For Internet Explorer 8 and later the value of the [**cite**](/html/attributes/cite) attribute depends on the current document compatibility mode.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/edits.html#the-del-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/edits.html#the-del-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-del)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   **del**
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   **del**
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+### External resources
+
+-   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/del)
+-   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535236%28v=vs.85%29.aspx)
+-   [http://www.w3.org/TR/html-markup/del.html\#del](http://www.w3.org/TR/html-markup/del.html#del)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

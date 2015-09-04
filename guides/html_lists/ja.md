@@ -1,102 +1,174 @@
-{{Page_Title|HTMLのリスト}}
-{{Flags
-|State=Unreviewed
-|Checked_Out=No
-}}
-{{Byline}}
-{{Summary_Section|この文書では、HTMLの3つのタイプのリストを紹介し、その基本的な特徴を調べます。}}
-{{Guide
-|Content={{Languages}}
-== はじめに ==
+---
+title: ja
+tags:
+  - Guides
+  - HTML
+summary: この文書では、HTMLの3つのタイプのリストを紹介し、その基本的な特徴を調べます。
+uri: 'guides/html lists/ja'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'guides/html lists/af'
+    - 'guides/html lists/ar'
+    - 'guides/html lists/ast'
+    - 'guides/html lists/az'
+    - 'guides/html lists/bcc'
+    - 'guides/html lists/bg'
+    - 'guides/html lists/br'
+    - 'guides/html lists/ca'
+    - 'guides/html lists/cs'
+    - 'guides/html lists/da'
+    - 'guides/html lists/de'
+    - 'guides/html lists/diq'
+    - 'guides/html lists/el'
+    - 'guides/html lists/eo'
+    - 'guides/html lists/es'
+    - 'guides/html lists/fa'
+    - 'guides/html lists/fi'
+    - 'guides/html lists/fr'
+    - 'guides/html lists/gl'
+    - 'guides/html lists/gu'
+    - 'guides/html lists/he'
+    - 'guides/html lists/hu'
+    - 'guides/html lists/hy'
+    - 'guides/html lists/id'
+    - 'guides/html lists/it'
+    - 'guides/html lists/ka'
+    - 'guides/html lists/kk'
+    - 'guides/html lists/km'
+    - 'guides/html lists/ko'
+    - 'guides/html lists/ksh'
+    - 'guides/html lists/kw'
+    - 'guides/html lists/mk'
+    - 'guides/html lists/ml'
+    - 'guides/html lists/mr'
+    - 'guides/html lists/ms'
+    - 'guides/html lists/nl'
+    - 'guides/html lists/no'
+    - 'guides/html lists/oc'
+    - 'guides/html lists/pl'
+    - 'guides/html lists/pt'
+    - 'guides/html lists/pt-br'
+    - 'guides/html lists/ro'
+    - 'guides/html lists/ru'
+    - 'guides/html lists/si'
+    - 'guides/html lists/sk'
+    - 'guides/html lists/sl'
+    - 'guides/html lists/sq'
+    - 'guides/html lists/sr'
+    - 'guides/html lists/sv'
+    - 'guides/html lists/ta'
+    - 'guides/html lists/th'
+    - 'guides/html lists/tr'
+    - 'guides/html lists/uk'
+    - 'guides/html lists/vi'
+    - 'guides/html lists/yue'
+    - 'guides/html lists/zh'
+    - 'guides/html lists/zh-hans'
+    - 'guides/html lists/zh-hant'
+    - 'guides/html lists/zh-tw'
+
+---
+# HTMLのリスト
+
+## Summary
+
+この文書では、HTMLの3つのタイプのリストを紹介し、その基本的な特徴を調べます。
+
+**言語:**
+:   **[English](/guides/html_lists)**  • <span lang="ja">**日本語**</span>
+
+## はじめに
 
 リストは、関連する個々の情報を集めるのに使われ、相互の関連がはっきりして読みやすくなります。最近のweb開発において、リストはとても役立つ要素であり、一般的なコンテンツと同様、ナビゲーションによく使われます。
 
-リストは構造的な点で優れています。というのは、構造が整えられて分かりやすくなり、ドキュメントのメンテナンスも容易になるからです。
-また便利な点として、CSSスタイルと連携できる専用の要素を用意していることも挙げられます。最後に、意味的に正しいリストによって、webサイトを訪れた人が読み取りやすくなります。加えて、ページがアップデートを必要とした時、メンテナンスがやさしくなります。
+リストは構造的な点で優れています。というのは、構造が整えられて分かりやすくなり、ドキュメントのメンテナンスも容易になるからです。 また便利な点として、CSSスタイルと連携できる専用の要素を用意していることも挙げられます。最後に、意味的に正しいリストによって、webサイトを訪れた人が読み取りやすくなります。加えて、ページがアップデートを必要とした時、メンテナンスがやさしくなります。
 
-== 3つのタイプのリスト ==
+## 3つのタイプのリスト
 
 HTMLには、3つのタイプのリストがあります。
 
-* '''順序なしリスト''' — 任意の順序で関連した項目を集めるのに使用
-* '''順序ありリスト''' — 特定の順序で関連した項目を集めるのに使用
-* '''説明リスト''' — 項目と定義のような、名前と値を組み合わせて表示するのに使用
+-   **順序なしリスト** — 任意の順序で関連した項目を集めるのに使用
+-   **順序ありリスト** — 特定の順序で関連した項目を集めるのに使用
+-   **説明リスト** — 項目と定義のような、名前と値を組み合わせて表示するのに使用
 
 リストの各タイプは、webページの中で独自の目的と意味を持っています。
 
-=== 順序なしリスト ===
+### 順序なしリスト
 
-''順序なし'' (ビュレット)リストは、順序に関係なく項目を並べる時に使います。買い物リストがその例です。
+*順序なし* (ビュレット)リストは、順序に関係なく項目を並べる時に使います。買い物リストがその例です。
 
-* milk
-* bread
-* butter
-* coffee beans
+-   milk
+-   bread
+-   butter
+-   coffee beans
 
 その項目はリストの一部ですが、どんな順序にでも並べられ、それでも意味があるリストになるでしょう。
 
-* bread
-* coffee beans
-* milk
-* butter
+-   bread
+-   coffee beans
+-   milk
+-   butter
 
-CSSを使うと、ビュレットを既定のスタイルの1つに変更したり、自分で用意した画像を使ったり、ビュレットなしでリストを表示したりできます — このやり方は [[guides/Styling lists and links|Styling lists and links]] という文書で見るつもりです。
+CSSを使うと、ビュレットを既定のスタイルの1つに変更したり、自分で用意した画像を使ったり、ビュレットなしでリストを表示したりできます — このやり方は [Styling lists and links](/guides/Styling_lists_and_links) という文書で見るつもりです。
 
-==== 順序なしリストをマークアップする ====
+#### 順序なしリストをマークアップする
 
-順序なしリストは、1つの <code>&lt;ul&gt;&lt;/ul&gt;</code> タグが、複数の <code>&lt;li&gt;&lt;/li&gt;</code> タグを囲む形で使います。
+順序なしリストは、1つの `<ul></ul>` タグが、複数の `<li></li>` タグを囲む形で使います。
 
-<syntaxhighlight lang="html5"><ul>
+``` {.html}
+<ul>
   <li>bread</li>
   <li>coffee beans</li>
   <li>milk</li>
   <li>butter</li>
-</ul></syntaxhighlight>
+</ul>
+```
 
-=== 順序ありリスト ===
+### 順序ありリスト
 
-''順序あり'' (番号付き)リストは、特定の順序で並んだ項目のリストを表示するのに使われます。調理の説明がその例です。
+*順序あり* (番号付き)リストは、特定の順序で並んだ項目のリストを表示するのに使われます。調理の説明がその例です。
 
-# Gather ingredients
-# Mix ingredients together
-# Place ingredients in a baking dish
-# Bake in oven for an hour
-# Remove from oven
-# Allow to stand for ten minutes
-# Serve
+1.  Gather ingredients
+2.  Mix ingredients together
+3.  Place ingredients in a baking dish
+4.  Bake in oven for an hour
+5.  Remove from oven
+6.  Allow to stand for ten minutes
+7.  Serve
 
 リストのアイテムを違う順番に移動すると、もはや情報は意味を持たなくなります。
 
-# Gather ingredients
-# Bake in oven for an hour
-# Serve
-# Remove from oven
-# Place ingredients in a baking dish
-# Allow to stand for ten minutes
-# Mix ingredients together
+1.  Gather ingredients
+2.  Bake in oven for an hour
+3.  Serve
+4.  Remove from oven
+5.  Place ingredients in a baking dish
+6.  Allow to stand for ten minutes
+7.  Mix ingredients together
 
 順序ありリストは、順序の付け方を選択して表示できます。たいていのブラウザのデフォルトは10進数字ですが、他に利用できるものもあります。
 
-* 文字
-** アスキー文字 小文字 (a, b, c…)
-** アスキー文字 大文字 (A, B, C…).
-** 古典ギリシャ文字 小文字 (έ, ή, ί…)
-* 数字
-** 10進数字 (1, 2, 3…)
-** ゼロを先頭に付けた10進数字 (01, 02, 03…)
-** ローマ数字 小文字 (i, ii, iii…)
-** ローマ数字 大文字 (I, II, III…)
-** 伝統的なグルジア数字 (an, ban, gan…)
-** 伝統的なアルメニア数字 (mek, yerku, yerek…)
+-   文字
+    -   アスキー文字 小文字 (a, b, c…)
+    -   アスキー文字 大文字 (A, B, C…).
+    -   古典ギリシャ文字 小文字 (έ, ή, ί…)
+-   数字
+    -   10進数字 (1, 2, 3…)
+    -   ゼロを先頭に付けた10進数字 (01, 02, 03…)
+    -   ローマ数字 小文字 (i, ii, iii…)
+    -   ローマ数字 大文字 (I, II, III…)
+    -   伝統的なグルジア数字 (an, ban, gan…)
+    -   伝統的なアルメニア数字 (mek, yerku, yerek…)
 
-順序なしリストと同様、CSSを使って順序ありリストのスタイルを変更できます。
-さらに詳しい情報は、[[guides/Styling lists and links|Styling lists and links]] を見てください。
+順序なしリストと同様、CSSを使って順序ありリストのスタイルを変更できます。 さらに詳しい情報は、[Styling lists and links](/guides/Styling_lists_and_links) を見てください。
 
-==== 順序ありリストをマークアップする ====
+#### 順序ありリストをマークアップする
 
-順序ありリストは、1つの  <code>&lt;ol&gt;&lt;/ol&gt;</code> タグが、複数の  <code>&lt;li&gt;&lt;/li&gt;</code> タグを囲む形で使います。
+順序ありリストは、1つの `<ol></ol>` タグが、複数の `<li></li>` タグを囲む形で使います。
 
-<syntaxhighlight lang="html5"><ol>
+``` {.html}
+<ol>
   <li>Gather ingredients</li>
   <li>Mix ingredients together</li>
   <li>Place ingredients in a baking dish</li>
@@ -105,13 +177,14 @@ CSSを使うと、ビュレットを既定のスタイルの1つに変更した�
   <li>Allow to stand for ten minutes</li>
   <li>Serve</li>
 </ol>
-</syntaxhighlight>
+```
 
-==== 順序ありリストを1以外の番号で開始する ====
+#### 順序ありリストを1以外の番号で開始する
 
-順序ありリストを使う際によく必要となるのは、リストを1(もしくはiや I等)以外の番号ではじめることです。<code>start</code>  属性を使って実現します。この属性には数値を指定します(CSSを使ってリストのカウンターをアルファベットやローマ字にしていても)。項目リストが1つあって、そのリストに注釈や別の関連情報を割り込ませる必要があるとすると、これは役に立ちます。
+順序ありリストを使う際によく必要となるのは、リストを1(もしくはiや I等)以外の番号ではじめることです。`start` 属性を使って実現します。この属性には数値を指定します(CSSを使ってリストのカウンターをアルファベットやローマ字にしていても)。項目リストが1つあって、そのリストに注釈や別の関連情報を割り込ませる必要があるとすると、これは役に立ちます。
 
-<syntaxhighlight lang="html5"><ol>
+``` {.html}
+<ol>
   <li>Gather ingredients</li>
   <li>Mix ingredients together</li>
   <li>Place ingredients in a baking dish</li>
@@ -125,77 +198,76 @@ CSSを使うと、ビュレットを既定のスタイルの1つに変更した�
   <li>Remove from oven</li>
   <li>Allow to stand for ten minutes</li>
   <li>Serve</li>
-</ol></syntaxhighlight>
-
-これは下記の結果になります。
-
-<ol>
-  <li>Gather ingredients</li>
-  <li>Mix ingredients together</li>
-  <li>Place ingredients in a baking dish</li>
 </ol>
+```
 
-<p>Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step.</p>
+ これは下記の結果になります。
 
-<ol start="4">
-  <li>Bake in oven for an hour</li>
-  <li>Remove from oven</li>
-  <li>Allow to stand for ten minutes</li>
-  <li>Serve</li>
-</ol>
+1.  Gather ingredients
+2.  Mix ingredients together
+3.  Place ingredients in a baking dish
 
-注意したいのは、この属性はHTML 4では非推奨だったことです。したがって、ページでHTML 4の strict 型を使っていると検証が通らないでしょう。HTML 4の strict 型なページでそのような機能を使って完璧に正しくしたいのなら、代わりに [http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/ CSS Counters] を使って実装してください。しかし幸いにも、 <code>start</code> 属性は、HTML5で非推奨ではなくなりました。
+Before you place the ingredients in the baking dish, preheat the oven to 180 degrees centigrade/350 degrees fahrenheit in readiness for the next step.
 
-=== 説明リスト===
+1.  Bake in oven for an hour
+2.  Remove from oven
+3.  Allow to stand for ten minutes
+4.  Serve
 
-''説明リスト''(以前は ''定義リスト'' と言われていましたが、HTML5で変わりました)は、リスト内で特定の名前と値を関連付けます。
-例として、材料リストと説明や記事の著者と略歴、競技会の勝者と勝利した年が挙げられるかもしれません。好きなだけ名前と値のグループを作成できますが、少なくとも1つの名前と値のペアが存在する必要があります。
+注意したいのは、この属性はHTML 4では非推奨だったことです。したがって、ページでHTML 4の strict 型を使っていると検証が通らないでしょう。HTML 4の strict 型なページでそのような機能を使って完璧に正しくしたいのなら、代わりに [CSS Counters](http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/) を使って実装してください。しかし幸いにも、 `start` 属性は、HTML5で非推奨ではなくなりました。
+
+### 説明リスト
+
+*説明リスト*(以前は *定義リスト* と言われていましたが、HTML5で変わりました)は、リスト内で特定の名前と値を関連付けます。 例として、材料リストと説明や記事の著者と略歴、競技会の勝者と勝利した年が挙げられるかもしれません。好きなだけ名前と値のグループを作成できますが、少なくとも1つの名前と値のペアが存在する必要があります。
 
 説明リストは融通が利きます。1つの名前に複数の値を関連付けられますし、その逆も可能です。例えば「coffee」という項目にいくつも意味を持たせられ、次々と表示できます。
 
-<pre>coffee
+    coffee
 
-  a beverage made from roasted, ground coffee beans
-  a cup of coffee
-  a social gathering at which coffee is consumed
-  a medium to dark brown colour</pre>
+      a beverage made from roasted, ground coffee beans
+      a cup of coffee
+      a social gathering at which coffee is consumed
+      a medium to dark brown colour
 
 もしくは、1つの値に複数の名前を関連付けることもできます。これは項目全てが同じ意味を持つといった、項目のバリエーションを表すのに便利です。
 
-<pre>soda
-pop
-fizzy drink
-cola
+    soda
+    pop
+    fizzy drink
+    cola
 
-  a sweet, carbonated beverage</pre>
+      a sweet, carbonated beverage
 
-==== 説明リストをマークアップする ====
+#### 説明リストをマークアップする
 
-説明リストは、1つの <code>&lt;dl&gt;&lt;/dl&gt;</code> タグが複数の <code>&lt;dt&gt;&lt;/dt&gt;</code> (名前)と <code>&lt;dd&gt;&lt;/dd&gt;</code> (値)タグを囲む形で使います。少なくても1つの<code>&lt;dt&gt;&lt;/dt&gt;</code> と<code>&lt;dd&gt;&lt;/dd&gt;</code> のペアが必要です。<code>&lt;dt&gt;&lt;/dt&gt;</code> は、ソース上の順番で必ず最初にくるようにしてください。
+説明リストは、1つの `<dl></dl>` タグが複数の `<dt></dt>` (名前)と `<dd></dd>` (値)タグを囲む形で使います。少なくても1つの`<dt></dt>` と`<dd></dd>` のペアが必要です。`<dt></dt>` は、ソース上の順番で必ず最初にくるようにしてください。
 
 名前1つに値が1つの単純な説明リストは、このようになります。
 
-<syntaxhighlight lang="html5"><dl>
+``` {.html}
+<dl>
   <dt>Name</dt>
   <dd>Value</dd>
   <dt>Name</dt>
   <dd>Value</dd>
   <dt>Name</dt>
   <dd>Value</dd>
-</dl></syntaxhighlight>
+</dl>
+```
 
-これは次のようにレンダリングされます。
+ これは次のようにレンダリングされます。
 
-<pre>Name
-  Value
-Name
-  Value
-Name
-  Value</pre>
+    Name
+      Value
+    Name
+      Value
+    Name
+      Value
 
 下記の例では、名前1つに複数の値のものと複数の名前に値が1つもの両方を関連付けしています。
 
-<syntaxhighlight lang="html5"><dl>
+``` {.html}
+<dl>
   <dt>Name1</dt>
   <dd>Value that applies to Name1</dd>
   <dt>Name2</dt>
@@ -204,61 +276,55 @@ Name
   <dt>Name4</dt>
   <dd>One value that applies to Name4</dd>
   <dd>Another value that applies to Name4</dd>
-</dl></syntaxhighlight>
+</dl>
+```
 
-このコードは、このようにレンダリングされます。
+ このコードは、このようにレンダリングされます。
 
-<pre>Name1
-  Value that applies to Name1
-Name2
-Name3
-  Value that applies to both Name2 and Name3
-Name4
-  One value that applies to Name4
-  Another value that applies to Name4</pre>
+    Name1
+      Value that applies to Name1
+    Name2
+    Name3
+      Value that applies to both Name2 and Name3
+    Name4
+      One value that applies to Name4
+      Another value that applies to Name4
 
-==  リストのタイプを選ぶ ==
+## リストのタイプを選ぶ
 
 どのタイプのリストにするのかを決めようとする時には、簡単な2つの質問を自問してください。
 
-<ol>
-  <li>項目を定義するか? もしくは他の名前と値の組み合わせを関連付けするか?
-    <ul>
-      <li>Yesなら、説明リストを使用</li>
-      <li>Noなら、説明リストは不使用</li>
-    </ul>
-  </li>
-  <li>リストの項目の順序は重要か?
-    <ul>
-      <li>Yesなら、順序ありリストを使用</li>
-      <li>Noなら、順序なしリストを使用</li>
-    </ul>
-  </li>
-</ol>
+1.  項目を定義するか? もしくは他の名前と値の組み合わせを関連付けするか?
+    -   Yesなら、説明リストを使用
+    -   Noなら、説明リストは不使用
 
-== HTMLのリストの長所 ==
+2.  リストの項目の順序は重要か?
+    -   Yesなら、順序ありリストを使用
+    -   Noなら、順序なしリストを使用
 
-* 柔軟さ：順序ありリストでリストの項目の順序を変更しなければならなくなっても、リストの項目要素を移動させるだけです。ブラウザがそのリストをレンダリングすると、正しく並ぶでしょう。
-* スタイル：HTMLのリストを使えば、CSSを利用してリストをきっちり整えられます。リストの項目の <code>&lt;li&gt;</code> タグは、ドキュメントにある他のタグと違っていて、CSSのルールを細かく適用できます。
-* 意味付け：HTMLのリストは、コンテンツに正しい意味的な構造をもたらします。これは重要なメリットで、スクリーンリーダーによって視覚障害があるユーザーが、リストを読めるようになります。テキストと数字がごちゃまぜで、ややこしくなったものから読み取ることがなくなります。
+## HTMLのリストの長所
 
-別の言い方をすれば、'''普通のテキストタグを使って、リストの項目を記述するな''' です。リストのかわりにテキストを使うと、手間が余計にかかる上、ドキュメントの読者も困難な状況になります。したがって、ドキュメントにリストが必要なら、HTMLのリスト形式を正しく使う必要があります。
+-   柔軟さ：順序ありリストでリストの項目の順序を変更しなければならなくなっても、リストの項目要素を移動させるだけです。ブラウザがそのリストをレンダリングすると、正しく並ぶでしょう。
+-   スタイル：HTMLのリストを使えば、CSSを利用してリストをきっちり整えられます。リストの項目の `<li>` タグは、ドキュメントにある他のタグと違っていて、CSSのルールを細かく適用できます。
+-   意味付け：HTMLのリストは、コンテンツに正しい意味的な構造をもたらします。これは重要なメリットで、スクリーンリーダーによって視覚障害があるユーザーが、リストを読めるようになります。テキストと数字がごちゃまぜで、ややこしくなったものから読み取ることがなくなります。
 
-==リストをネスト(入れ子に)する ==
+別の言い方をすれば、**普通のテキストタグを使って、リストの項目を記述するな** です。リストのかわりにテキストを使うと、手間が余計にかかる上、ドキュメントの読者も困難な状況になります。したがって、ドキュメントにリストが必要なら、HTMLのリスト形式を正しく使う必要があります。
 
-個々のリストの項目には、 別のリスト全体を入れることができます。いわゆる ''ネストされたリスト(入れ子のリスト)'' です。
-サブセクションがあるコンテンツの見出しのようなものに役に立ちます。
+## リストをネスト(入れ子に)する
 
-<pre>1. Chapter One
-    a. Section One
-    b. Section Two
-    c. Section Three
-2. Chapter Two
-3. Chapter Three</pre>
+個々のリストの項目には、 別のリスト全体を入れることができます。いわゆる *ネストされたリスト(入れ子のリスト)* です。 サブセクションがあるコンテンツの見出しのようなものに役に立ちます。
+
+    1. Chapter One
+        a. Section One
+        b. Section Two
+        c. Section Three
+    2. Chapter Two
+    3. Chapter Three
 
 コードで示すと、最初のリストの項目の内側にネストされたリスト全体を入れることになります。コードはこのようになります。
 
-<syntaxhighlight lang="html5"><ol>
+``` {.html}
+<ol>
   <li>Chapter One
     <ol style="list-style-type: lower-alpha;">
       <li>Section One</li>
@@ -268,39 +334,30 @@ Name4
   </li>
   <li>Chapter Two</li>
   <li>Chapter Three  </li>
-</ol></syntaxhighlight>
+</ol>
+```
 
-注意して欲しいのは、CSSのプロパティの <code>list-style-type: lower-alpha</code> を使って、ネストされたリストを10進数字の代わりに小文字を並べている点です。
+ 注意して欲しいのは、CSSのプロパティの `list-style-type: lower-alpha` を使って、ネストされたリストを10進数字の代わりに小文字を並べている点です。
 
 ネストされたリストはとても便利で、ナビゲーションメニューの基礎となっており、webサイトの階層的な構造を規定するための手っ取り早い方法になっています。またとても融通が利き、順序あり・順序なしリストどちらでも、順序あり・順序なしリストの項目を内側にネストできます。順序ありリストの内側に順序なしリストをネストさせた例が、上記の「リストのタイプを選ぶ 」にあります。
 
-理屈の上では、好きなレベルだけリストをネストすることができますが、実際はあまりに深くネストしてしまうと混乱をきたします。とても大きなリストなら、コンテンツを分割し見出しを付けてリストを分けるか、さらにページに分割するかした方がもっと良くなるでしょう。
-経験則では、3レベル以上に深くしないことです。
+理屈の上では、好きなレベルだけリストをネストすることができますが、実際はあまりに深くネストしてしまうと混乱をきたします。とても大きなリストなら、コンテンツを分割し見出しを付けてリストを分けるか、さらにページに分割するかした方がもっと良くなるでしょう。 経験則では、3レベル以上に深くしないことです。
 
-== 結論 ==
+## 結論
 
-この文書では、HTMLのリストの様々なタイプがどのように使われ、コーディングされるかを見てきました。基本的なリストのオプションも調べました。
-HTMLのリストの体裁や振る舞い修正する具体的な情報がさらに必要なら、[[guides/Styling lists and links|Styling lists and links]] を見てください。
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|External_links=* [http://www.alistapart.com/articles/taminglists/ A List Apart: Taming Lists]
-* [http://www.w3.org/TR/REC-CSS2/generate.html#lists W3C CSS2: list-style-type definition]
-|Manual_sections==== 練習問題 ===
- 
-* 3つのタイプのHTMLリストとは何か?
-* どのような時にそれぞれのリストを使うか? どうやって選ぶのか?
-* どうやってリストをネストするのか?
-* リストを整形するのに、なぜHTMLよりもCSSを使うのか?
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-}}
+この文書では、HTMLのリストの様々なタイプがどのように使われ、コーディングされるかを見てきました。基本的なリストのオプションも調べました。 HTMLのリストの体裁や振る舞い修正する具体的な情報がさらに必要なら、[Styling lists and links](/guides/Styling_lists_and_links) を見てください。
+
+## See also
+
+### External resources
+
+-   [A List Apart: Taming Lists](http://www.alistapart.com/articles/taminglists/)
+-   [W3C CSS2: list-style-type definition](http://www.w3.org/TR/REC-CSS2/generate.html#lists)
+
+### 練習問題
+
+-   3つのタイプのHTMLリストとは何か?
+-   どのような時にそれぞれのリストを使うか? どうやって選ぶのか?
+-   どうやってリストをネストするのか?
+-   リストを整形するのに、なぜHTMLよりもCSSを使うのか?
+

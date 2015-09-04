@@ -1,46 +1,76 @@
-{{Page_Title|unicode-range}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|<code>unicode-range</code> allows you to set a specific range of characters to be downloaded from a font (embedded using <code>@font-face</code>) and made available for use on the current page.}}
-{{CSS Property
-|Initial value=U+0-10FFFF
-|Applies to=The <code>@font-face</code> block the property is included inside.
-|Inherited=No
-|Media=visual
-|Computed value=Same as the inputted value
-|Animatable=No
-|CSS object model property=unicodeRange
-|Values={{CSS Property Value
-|Data Type=single codepoint
-|Description=A single unicode character codepoint, for example <code>unicode-range: U+26</code>.
-}}{{CSS Property Value
-|Data Type=codepoint range
-|Description=A range of unicode codepoints. So for example, <code>unicode-range: U+0025-00FF</code> means "include all characters in the range U+0025 to U+00FF."
-}}{{CSS Property Value
-|Data Type=wildcard range
-|Description=You can specify wildcard characters using the "?" character, so for example <code>unicode-range: U+4??</code> would mean "include all characters in the range U+400 to U+4FF."
-}}{{CSS Property Value
-|Data Type=multiple value declarations
-|Description=You can specify multiple single codepoints and/or codepoint groups, delimiting them using commas. For example, <code>unicode-range: U+00-FF, U+980-9FF</code>.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A single paragraph of HTML, including an ampersand. We have wrapped the ampersand in a <code>&lt;span&gt;</code> element because we want to use a different ampersand from a different font.
-|Code=&lt;p&gt;Me & You = Us&lt;/p&gt;
-|LiveURL=http://code.webplatform.org/gist/6366676
-}}{{Single Example
-|Language=CSS
-|Description=The CSS for the example above: you can see that we are in effect defining a completely separate <code>@font-face</code> that only includes a single character in it, meaning that we don't need to download the entire font to get what we want if it is a hosted font, and if it is a local font as in this example, we can at least cut down on extra markup and styles (we could also do this by wrapping the ampersand in a <code>&lt;span&gt;</code> and applying a different font just to that, but that is an extra element and ruleset!)
+---
+title: unicode-range
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'unicode-range allows you to set a specific range of characters to be downloaded from a font (embedded using @font-face) and made available for use on the current page.'
+code_samples:
+  - 'http://gist.github.com/6366676'
+uri: css/properties/unicode-range
 
-Be aware that Firefox does not yet support <code>unicode-range</code> properly, hence the reason for the second <code>@font-face</code> block. Here we are pointing to an obscure unicode codepoint that will likely never be used in our document, causing Firefox to stop applying the posh Eccentric font to the whole paragraph (definitely not what we want.) — just helvetica is a better fallback.
-|Code=@font-face {
+---
+# unicode-range
+
+## Summary
+
+unicode-range allows you to set a specific range of characters to be downloaded from a font (embedded using @font-face) and made available for use on the current page.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `U+0-10FFFF`
+Applies to
+:   The `@font-face` block the property is included inside.
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   Same as the inputted value
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `unicodeRange`
+
+## Syntax
+
+-   `unicode-range: codepoint range`
+-   `unicode-range: multiple value declarations`
+-   `unicode-range: single codepoint`
+-   `unicode-range: wildcard range`
+
+## Values
+
+single codepoint
+:   A single unicode character codepoint, for example `unicode-range: U+26`.
+
+codepoint range
+:   A range of unicode codepoints. So for example, `unicode-range: U+0025-00FF` means "include all characters in the range U+0025 to U+00FF."
+
+wildcard range
+:   You can specify wildcard characters using the "?" character, so for example `unicode-range: U+4??` would mean "include all characters in the range U+400 to U+4FF."
+
+multiple value declarations
+:   You can specify multiple single codepoints and/or codepoint groups, delimiting them using commas. For example, `unicode-range: U+00-FF, U+980-9FF`.
+
+## Examples
+
+A single paragraph of HTML, including an ampersand. We have wrapped the ampersand in a `<span>` element because we want to use a different ampersand from a different font.
+
+``` {.html}
+<p>Me & You = Us</p>
+```
+
+[View live example](http://code.webplatform.org/gist/6366676)
+
+The CSS for the example above: you can see that we are in effect defining a completely separate `@font-face` that only includes a single character in it, meaning that we don't need to download the entire font to get what we want if it is a hosted font, and if it is a local font as in this example, we can at least cut down on extra markup and styles (we could also do this by wrapping the ampersand in a `<span>` and applying a different font just to that, but that is an extra element and ruleset!)
+
+Be aware that Firefox does not yet support `unicode-range` properly, hence the reason for the second `@font-face` block. Here we are pointing to an obscure unicode codepoint that will likely never be used in our document, causing Firefox to stop applying the posh Eccentric font to the whole paragraph (definitely not what we want.) — just helvetica is a better fallback.
+
+``` {.css}
+@font-face {
   font-family: 'Ampersand';
   src: local('Eccentric STD');
   unicode-range: U+26;
@@ -54,43 +84,34 @@ Be aware that Firefox does not yet support <code>unicode-range</code> properly, 
 }
 
 p {
-	color: #faf;
-	letter-spacing: -0.05em;
-	font-size: 64px;
-	font-family: Ampersand, helvetica, sans-serif;	
+    color: #faf;
+    letter-spacing: -0.05em;
+    font-size: 64px;
+    font-family: Ampersand, helvetica, sans-serif;
 }
-}}
-}}
-{{Notes_Section
-|Usage=* As the examples above show, you can use <code>unicode-range</code> to create a custom <code>@font-face</code> that contains only the characters you need to be downloaded, saving on bandwidth.
-* You should always include a fallback font that is acceptable in case your <code>unicode-range @font-face</code> is not supported.
-* Support for <code>unicode-range</code> is currently limited; Chrome and Safari supports it well, Internet Explorer supports is as of version 9, Opera supports it, Firefox ''doesn't'' support it.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Fonts Module Level 3
-|URL=http://www.w3.org/TR/css-fonts-3/#descdef-unicode-range
-|Status=Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|External_links=* [http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/ Creating custom font stacks with unicode-range]
-* [http://www.rishida.net/tools/conversion/ Unicode code converter]
-*[http://rishida.net/scripts/uniview/ UniView] web-based tool for viewing and working with Unicode codepoints
-* [http://rishida.net/blog/?p=760 Using unicode-range in @font-face in CSS]
-* [http://en.wikipedia.org/wiki/List_of_Unicode_characters List of Unicode Characters]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Usage
+
+     * As the examples above show, you can use unicode-range to create a custom @font-face that contains only the characters you need to be downloaded, saving on bandwidth.
+
+-   You should always include a fallback font that is acceptable in case your `unicode-range @font-face` is not supported.
+-   Support for `unicode-range` is currently limited; Chrome and Safari supports it well, Internet Explorer supports is as of version 9, Opera supports it, Firefox *doesn't* support it.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Fonts Module Level 3](http://www.w3.org/TR/css-fonts-3/#descdef-unicode-range)
+:   Candidate Recommendation
+
+## See also
+
+### External resources
+
+-   [Creating custom font stacks with unicode-range](http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/)
+-   [Unicode code converter](http://www.rishida.net/tools/conversion/)
+-   [UniView](http://rishida.net/scripts/uniview/) web-based tool for viewing and working with Unicode codepoints
+-   [Using unicode-range in @font-face in CSS](http://rishida.net/blog/?p=760)
+-   [List of Unicode Characters](http://en.wikipedia.org/wiki/List_of_Unicode_characters)
+

@@ -1,84 +1,80 @@
-==Adding and Deleting Elements ==
+---
+title: adding and deleting elements
+uri: 'dom/tutorials/adding and deleting elements'
+
+---
+## Adding and Deleting Elements
 
 So far we have seen how to manipulate html tags that have already been declared in the document, but now let's create some. (and then get rid of them).
 
-{| class="wikitable"
-|-
-! Method Name
-! Description
-|-
-| createElement()
-| Used to create an element
-|-
-| removeChild()
-| Remove the selected element or child node.
-|- 
-| appendChild()
-| Add an element or child node.
-|- 
-| replaceChild()
-| Replace an element or child node
-|- 
-|}
+Method Name
+:   Description
+createElement()
+:   Used to create an element
+removeChild()
+:   Remove the selected element or child node.
+appendChild()
+:   Add an element or child node.
+replaceChild()
+:   Replace an element or child node
 
-* '''createElement()'''
+-   **createElement()**
 
 Syntax for this method is as follows:
 
-<syntaxhighlight lang ="javascript">
+``` {.js}
 Variable = element.createElement("element name");
-</syntaxhighlight>
+```
 
-<syntaxhighlight lang ="javascript">
+``` {.js}
 var newimg = document.createElement("img");
-</syntaxhighlight>
+```
 
-This will just create an image element. To display an image we must first set its attributes.
+ This will just create an image element. To display an image we must first set its attributes.
 
-<syntaxhighlight lang ="javascript">
+``` {.js}
 var newimg = document.createElement("img");
 newimg.setAttribute("src", "abc.jpg");
-</syntaxhighlight>
+```
 
-* '''removeChild()'''
+-   **removeChild()**
 
 Syntax for this method is as follows:
 
-<syntaxhighlight lang="javascript">
+``` {.js}
 element.node.removeChild(node);
-</syntaxhighlight>
+```
 
-<syntaxhighlight lang ="javascript">
+``` {.js}
 document.getElementsByTagName.removeChild(newimg);
-</syntaxhighlight>
+```
 
-* '''appendChild()'''
+-   **appendChild()**
 
-Syntax for this method is as follows: 
+Syntax for this method is as follows:
 
-<syntaxhighlight lang ="javascript">
+``` {.js}
 element.node.appendChild(node);
-</syntaxhighlight>
+```
 
-<syntaxhighlight lang ="javascript">
+``` {.js}
 document.getElementsByTagName("p")[0].appendChild(newimg);
-</syntaxhighlight>
+```
 
-* '''replaceChild()'''
+-   **replaceChild()**
 
-The Syntax for this method is as follows: 
+The Syntax for this method is as follows:
 
-<syntaxhighlight lang ="javascript">
+``` {.js}
 node.replaceChild(newnode,oldnode);
-</syntaxhighlight>
+```
 
-All right, lets look at these methods in action.
+ All right, lets look at these methods in action.
 
-<syntaxhighlight lang="html5">
-
+``` {.html}
 <html>
 <head>
-	       
+
 <script type="text/javascript">
 
 
@@ -100,37 +96,38 @@ document.getElementById("container").removeChild(olddata);
 </script>
 
         <title>Javascript2_lesson11</title>
-		
+
 </head>
 <body>
       <input type="button" value="Psst over here" onmouseover="create();" onmouseout="destroy();">
-	  
-      <p id="container"></p> 
-	 
+
+      <p id="container"></p>
+
 
 
 </body>
 </html>
+```
 
-</syntaxhighlight>
+ Ask yourself a few questions:
 
-Ask yourself a few questions:
+-   What is happening in the create() function?
+-   What is happening in the destroy() function?
+-   In the destroy() function, what happens if you replace :
 
-* What is happening in the create() function?
-* What is happening in the destroy() function?
-* In the destroy() function, what happens if you replace :
-<syntaxhighlight lang="javascript">
+``` {.js}
 var olddata=document.getElementById("container").lastChild;
-</syntaxhighlight>
+```
+
 with
-<syntaxhighlight lang="javascript">
+
+``` {.js}
 var olddata=document.getElementById("container").firstChild;
-</syntaxhighlight>
+```
 
-Now let's look at an example for replaceChild():
+ Now let's look at an example for replaceChild():
 
-<syntaxhighlight lang="html5">
-
+``` {.html}
 <html>
 <head>
 <title>replaceChild</title>
@@ -158,4 +155,4 @@ theoriginal.replaceChild(thereplacement, theoriginal.lastChild);
 
 </body>
 </html>
-</syntaxhighlight>
+```

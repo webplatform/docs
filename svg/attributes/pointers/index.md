@@ -1,70 +1,65 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs all content
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: pointers
+tags:
+  - Markup
+  - Attributes
+  - SVG
+readiness: 'Not Ready'
+notes:
+  - 'Needs all content'
+uri: svg/attributes/pointers
 
-The '''pointerEvents''' property affects the circumstances under which the following are processed:
-*User interface events, such as mouse clicks
+---
+# pointers
 
-*Dynamic pseudo-classes (that is, [[css/selectors/pseudo-classes/:hover|''':hover''']], [[css/selectors/pseudo-classes/:active|''':active''']], and [[css/selectors/pseudo-classes/:focus|''':focus''']])
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Hyperlinks (that is, the [[svg/elements/a|'''a''']] element)
-|Import_Notes====Syntax===
+Applies to
+:    ?
 
- '''pointer-events: '''visiblePainted '''{{!}}''' visibleFill '''{{!}}''' visibleStroke '''{{!}}''' visible '''{{!}}''' painted '''{{!}}''' fill '''{{!}}''' stroke '''{{!}}''' all '''{{!}}''' none '''{{!}}''' inherit
+**Needs Examples**: This section should include examples.
 
-===Standards information===
+## Notes
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204743 Scalable Vector Graphics: Interactivity], Section 16.6
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+### Remarks
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[css/cssom/currentStyle|'''currentStyle''']]
-*[[css/cssom/style|'''style''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/elements/image|'''SVGImageElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/use|'''SVGUseElement''']]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+The **pointerEvents** property affects the circumstances under which the following are processed:
+
+-   User interface events, such as mouse clicks
+
+-   Dynamic pseudo-classes (that is, [**:hover**](/css/selectors/pseudo-classes/:hover), [**:active**](/css/selectors/pseudo-classes/:active), and [**:focus**](/css/selectors/pseudo-classes/:focus))
+
+-   Hyperlinks (that is, the [**a**](/svg/elements/a) element)
+
+### Syntax
+
+    pointer-events: visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | none | inherit
+
+### Standards information
+
+-   [Scalable Vector Graphics: Interactivity](http://go.microsoft.com/fwlink/p/?linkid=204743), Section 16.6
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**currentStyle**](/css/cssom/currentStyle)
+-   [**style**](/css/cssom/style)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   [**SVGImageElement**](/svg/elements/image)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGUseElement**](/svg/elements/use)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

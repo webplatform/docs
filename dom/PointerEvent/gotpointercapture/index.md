@@ -1,86 +1,63 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=example required
-unsure about CSS DOM values
--ms-touch-action:none;
-touch-action:none;
-|Checked_Out=No
-|High-level issues=Needs Flags
-|Content=Incomplete, Compatibility Incomplete, Examples Needed
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer. See the [[dom/PointerEvent|PointerEvent]] object.}}
-{{Event
-|Event_applies_to=dom/PointerEvent
-|Synchronous=No
-|Bubbles=Yes
-|Target=dom/Element
-|Cancelable=No
-|Default_action=None
-|Content=This event is dispatched to the element that is receiving pointer capture. Subsequent events for that pointer will be dispatched to this element. See [[dom/Element/setPointerCapture|setPointerCapture]].
-|Interface=dom/PointerEvent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Pointer Events
-|URL=http://www.w3.org/TR/pointerevents
-|Status=Working Draft
-|Relevant_changes=3.2.10
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=IE10
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10
-|Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771904(v=vs.85).aspx MSGotPointerCapture]
-}}
-}}
-{{See_Also_Section
-|Manual_links=[http://code.msdn.microsoft.com/ie/Pointers-and-Gestures-ae95918f code.MSDN Pointers and Gestures Example]
+---
+title: gotpointercapture
+tags:
+  - Events
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - "example required\nunsure about CSS DOM values\n-ms-touch-action:none;\n\ntouch-action:none;"
+summary: 'Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer. See the PointerEvent object.'
+uri: dom/PointerEvent/gotpointercapture
 
-[http://msdn.microsoft.com/en-us/library/ie/dn433244(v=vs.85).aspx#feature_detection_and_touch_support_testing Feature Detection and Touch Support Testing]
+---
+# gotpointercapture
 
-[http://blogs.msdn.com/b/eternalcoding/archive/2013/01/16/hand-js-a-polyfill-for-supporting-pointer-events-on-every-browser.aspx Hand.js - A polyfill for supporting pointer events on every browser.]
+## Summary
 
-[https://github.com/toolkitchen/PointerEvents PointerEvents Polyfill on Github]
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN, HTML5Rocks
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh771904(v=vs.85).aspx gotpointercapture Event]
-|HTML5Rocks_link=[http://www.html5rocks.com/en/mobile/touchandmouse/ Using touch and mouse]
-}}
+Dispatched prior to the dispatch of the first event after pointer capture is set for a pointer. See the PointerEvent object.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   Yes
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:   None
+
+This event is dispatched to the element that is receiving pointer capture. Subsequent events for that pointer will be dispatched to this element. See [setPointerCapture](/dom/Element/setPointerCapture).
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[Pointer Events](http://www.w3.org/TR/pointerevents)
+:   Working Draft
+
+## See also
+
+### Other articles
+
+[code.MSDN Pointers and Gestures Example](http://code.msdn.microsoft.com/ie/Pointers-and-Gestures-ae95918f)
+
+[Feature Detection and Touch Support Testing](http://msdn.microsoft.com/en-us/library/ie/dn433244(v=vs.85).aspx#feature_detection_and_touch_support_testing)
+
+[Hand.js - A polyfill for supporting pointer events on every browser.](http://blogs.msdn.com/b/eternalcoding/archive/2013/01/16/hand-js-a-polyfill-for-supporting-pointer-events-on-every-browser.aspx)
+
+[PointerEvents Polyfill on Github](https://github.com/toolkitchen/PointerEvents)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[gotpointercapture Event](http://msdn.microsoft.com/en-us/library/ie/hh771904(v=vs.85).aspx) Article]
+
+Portions of this content come from HTML5Rocks! [[Using touch and mouse](http://www.html5rocks.com/en/mobile/touchandmouse/) article]
+

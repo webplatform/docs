@@ -1,117 +1,69 @@
-{{Page_Title|CloseEvent}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Object representing the close event for a WebSocket.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=<syntaxhighlight lang="javascript">
+---
+title: CloseEvent
+tags:
+  0: API
+  1: Objects
+  3: WebSocket
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Object representing the close event for a WebSocket.'
+uri: apis/websocket/CloseEvent
+
+---
+# CloseEvent
+
+## Summary
+
+Object representing the close event for a WebSocket.
+
+## Properties
+
+API Name
+:   Summary
+[code](/apis/websocket/CloseEvent/code)
+:   The WebSocket connection close code provided by the server.
+[reason](/apis/websocket/CloseEvent/reason)
+:   Indicates the reason the server closed the WebSocket connection.
+[wasClean](/apis/websocket/CloseEvent/wasClean)
+:   Indicates whether the WebSocket connection was cleanly closed.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Examples
+
+``` {.js}
+
+
 socket.onclose = function(event) {
   var code = event.code;
   var reason = event.reason;
   var wasClean = event.wasClean;
   // handle close event
 };
-</syntaxhighlight>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=When a WebSocket connection is closed, possibly cleanly, the user agent must create an [[apis/websocket/WebSocket/onclose{{!}}event]] that uses the CloseEvent interface, with the event name close, which does not bubble, is not cancelable, has no default action, whose [[apis/websocket/CloseEvent/wasClean{{!}}wasClean]] attribute is set to true if the connection closed cleanly and false otherwise, whose code attribute is set to the WebSocket connection close code, and whose [[apis/websocket/CloseEvent/reason{{!}}reason]] attribute is set to the WebSocket connection close reason; and then queue a task to first change the [[apis/websocket/WebSocket/readyState{{!}}readyState]] attribute's value to CLOSED (3), and then [[apis/websocket/WebSocket/onclose{{!}}dispatch the event]] at the [[apis/websocket/WebSocket{{!}}WebSocket object]].
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C WebSocket Specification
-|URL=http://www.w3.org/TR/websockets/
-|Status=W3C Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebSocket}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=23.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=6.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=6.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+```
+
+</pre>
+
+## Notes
+
+When a WebSocket connection is closed, possibly cleanly, the user agent must create an [event](/apis/websocket/WebSocket/onclose) that uses the CloseEvent interface, with the event name close, which does not bubble, is not cancelable, has no default action, whose [wasClean](/apis/websocket/CloseEvent/wasClean) attribute is set to true if the connection closed cleanly and false otherwise, whose code attribute is set to the WebSocket connection close code, and whose [reason](/apis/websocket/CloseEvent/reason) attribute is set to the WebSocket connection close reason; and then queue a task to first change the [readyState](/apis/websocket/WebSocket/readyState) attribute's value to CLOSED (3), and then [dispatch the event](/apis/websocket/WebSocket/onclose) at the [WebSocket object](/apis/websocket/WebSocket).
+
+## Related specifications
+
+Specification
+:   Status
+[W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
+:   W3C Candidate Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

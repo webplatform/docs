@@ -1,88 +1,89 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Proposed Recommendation}}
-{{API_Name}}
-{{Summary_Section|Creates and returns a new key range with lower set to ''lower'', lowerOpen set to ''lowerOpen'', upper set to ''upper'' and upperOpen set to ''upperOpen''.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=lower
-|Data type=String
-|Description=The lower value of the key range.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=upper
-|Data type=String
-|Description=The upper value of the key range.
-|Optional=No
-}}{{Method Parameter
-|Index=2
-|Name=lowerOpen
-|Data type=Boolean
-|Description=Indicates whether the key range includes the lower value.
-|Optional=No
-}}{{Method Parameter
-|Index=3
-|Name=upperOpen
-|Data type=Boolean
-|Description=Indicates whether the key range includes the upper value.
-|Optional=No
-}}
-|Method_applies_to=apis/indexeddb/IDBKeyRange
-|Example_object_name=IDBKeyRange
-|Return_value_name=range
-|Javascript_data_type=DOM Node
-|Return_value_description=A range that can be used for specifying the range of cursors.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=var range = new IDBKeyRange.bound(2, 4);
+---
+title: bound
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: IndexedDB
+readiness: 'Ready to Use'
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'Creates and returns a new key range with lower set to lower, lowerOpen set to lowerOpen, upper set to upper and upperOpen set to upperOpen.'
+uri: apis/indexeddb/IDBKeyRange/bound
+
+---
+# bound
+
+## Summary
+
+Creates and returns a new key range with lower set to lower, lowerOpen set to lowerOpen, upper set to upper and upperOpen set to upperOpen.
+
+*Method of [apis/indexeddb/IDBKeyRange](/apis/indexeddb/IDBKeyRange)*
+
+## Syntax
+
+``` {.js}
+var range = IDBKeyRange.bound(lower, upper, lowerOpen, upperOpen);
+```
+
+## Parameters
+
+### lower
+
+ Data-typeÂ
+:   String
+
+ The lower value of the key range.
+
+### upper
+
+ Data-typeÂ
+:   String
+
+ The upper value of the key range.
+
+### lowerOpen
+
+ Data-typeÂ
+:   Boolean
+
+ Indicates whether the key range includes the lower value.
+
+### upperOpen
+
+ Data-typeÂ
+:   Boolean
+
+ Indicates whether the key range includes the upper value.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+A range that can be used for specifying the range of cursors.
+
+## Examples
+
+``` {.js}
+var range = new IDBKeyRange.bound(2, 4);
 var cursor = store.openCursor(range);
-// each value is a contact and each key is the id for that  
+// each value is a contact and each key is the id for that
 // contact whose id is between 2 and 4, both inclusive
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=Raises a DOMException when either the lower or upper parameters were not passed a valid key or the lower key is greater than the upper key or the lower key and upper key match and either of the bounds are open.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C IndexedDB Specification
-|URL=http://www.w3.org/TR/IndexedDB/
-|Status=W3C Proposed Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Usage
+
+     Raises a DOMException when either the lower or upper parameters were not passed a valid key or the lower key is greater than the upper key or the lower key and upper key match and either of the bounds are open.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
+:   W3C Proposed Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

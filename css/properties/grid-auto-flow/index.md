@@ -1,53 +1,80 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add description, compatibility.
-|Checked_Out=No
-|Content=Examples Needed
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Automatically places grid elements into the grid layout if an explicit location is not designated.  Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.}}
-{{CSS Property
-|Initial value=none
-|Applies to=Grid containers
-|Inherited=No
-|Media=visual
-|Computed value=As specified
-|Animatable=No
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=none
-|Description=Causes auto-placed grid items to be placed according to the grid-auto-position property, rather than using the auto-placement algorithm.
-}}{{CSS Property Value
-|Data Type=rows
-|Description=Fills each row in turn, adding new rows as necessary.
-}}{{CSS Property Value
-|Data Type=columns
-|Description=Fills each column in turn, adding new columns as necessary.
-}}{{CSS Property Value
-|Data Type=dense
-|Description=Uses a "dense" packing algorithm approach to fill in holes in the grid as smaller items appear. 
+---
+title: grid-auto-flow
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Add description, compatibility.'
+summary: 'Automatically places grid elements into the grid layout if an explicit location is not designated.  Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.'
+uri: css/properties/grid-auto-flow
+
+---
+# grid-auto-flow
+
+## Summary
+
+Automatically places grid elements into the grid layout if an explicit location is not designated. Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   Grid containers
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   As specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   N/A
+
+## Syntax
+
+-   `grid-auto-flow: columns`
+-   `grid-auto-flow: dense`
+-   `grid-auto-flow: none`
+-   `grid-auto-flow: rows`
+-   `grid-auto-flow: sparse`
+
+## Values
+
+none
+:   Causes auto-placed grid items to be placed according to the grid-auto-position property, rather than using the auto-placement algorithm.
+
+rows
+:   Fills each row in turn, adding new rows as necessary.
+
+columns
+:   Fills each column in turn, adding new columns as necessary.
+
+dense
+:   Uses a "dense" packing algorithm approach to fill in holes in the grid as smaller items appear.
 
 Note: This may cause items to appear out-of-order.
-}}{{CSS Property Value
-|Data Type=sparse
-|Description=Permanently skips cells that are not filled with the current item.  The default auto-pacement algorithm packing approach.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Code=/*
+
+sparse
+:   Permanently skips cells that are not filled with the current item. The default auto-pacement algorithm packing approach.
+
+## Examples
+
+``` {.css}
+/*
 In this form layout example, there are three columns, each auto-sized to their
-contents. No rows are explicitly defined. The grid-auto-flow property is set to "rows", 
-which instructs the grid to search the rows first (that is, across the columns), 
-starting with the first row and adding rows as needed until sufficient space 
+contents. No rows are explicitly defined. The grid-auto-flow property is set to "rows",
+which instructs the grid to search the rows first (that is, across the columns),
+starting with the first row and adding rows as needed until sufficient space
 is located to accommodate the position of any auto-placed grid item.
 If the grid-auto-flow property is set to "columns", this instructs the grid to instead
 search the columns first (that is, down the rows), starting with the first column
-and adding columns as needed until sufficient space is located to accommodate 
+and adding columns as needed until sufficient space is located to accommodate
 the position of any auto-placed grid item, resulting in a significantly different
 object sequence within the grid.
 */
@@ -60,41 +87,42 @@ object sequence within the grid.
     grid-auto-flow: rows;
   }
   form > label {
-    /* Place all labels in the "labels" column and 
+    /* Place all labels in the "labels" column and
        automatically find the next available row. */
     grid-column: labels;
     grid-row: auto;
   }
   form > input, form > select {
-    /* Place all controls in the "controls" column and 
+    /* Place all controls in the "controls" column and
        automatically find the next available row. */
     grid-column: controls;
     grid-row: auto;
   }
 
   #department {
-    /* Auto place this item in the "oversized" column 
-       in the first row where an area that spans three rows 
-       won’t overlap other explicitly placed items or areas 
+    /* Auto place this item in the "oversized" column
+       in the first row where an area that spans three rows
+       won’t overlap other explicitly placed items or areas
        or any items automatically placed prior to this area. */
     grid-column: oversized;
     grid-row: span 3;
   }
 
-  /* Place all the buttons of the form 
+  /* Place all the buttons of the form
      in the explicitly defined grid area. */
   #buttons {
     grid-row: auto;
 
-    /* Ensure the button area spans the entire grid element 
+    /* Ensure the button area spans the entire grid element
        in the row axis. */
     grid-column: 1 / -1;
     text-align: end;
   }
 </style>
-}}{{Single Example
-|Language=HTML
-|Code=<form>
+```
+
+``` {.html}
+<form>
   <label for="firstname">First name:</label>
   <input type="text" id="firstname" name="firstname" />
   <label for="lastname">Last name:</label>
@@ -112,43 +140,28 @@ object sequence within the grid.
   <label for="zip">Zip:</label>
   <input type="text" id="zip" name="zip" />
 
-  <div id="department">
-    <label for="department">Department:</label>
-    <select id="department" name="department" multiple>
-      <option value="finance">Finance</option>
-      <option value="humanresources">Human Resources</option>
-      <option value="marketing">Marketing</option>
-    </select>
-  </div>
 
-  <div id="buttons">
-    <button id="cancel">Cancel</button>
-    <button id="back">Back</button>
-    <button id="next">Next</button>
-  </div>
-</form>
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Grid Layout Module
-|URL=http://www.w3.org/TR/css3-grid-layout
-|Status=W3C Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+   <label for="department">Department:</label>
+   <select id="department" name="department" multiple>
+     <option value="finance">Finance</option>
+     <option value="humanresources">Human Resources</option>
+     <option value="marketing">Marketing</option>
+   </select>
+```
+
+       <button id="cancel">Cancel</button>
+       <button id="back">Back</button>
+       <button id="next">Next</button>
+
+\</form\>
+
+</pre>
+</div>
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
+:   W3C Working Draft
+

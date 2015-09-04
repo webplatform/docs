@@ -1,49 +1,40 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Returns the label of the object’s corresponding track, if any. If the corresponding track has or had no label, it returns the empty string.}}
-{{API_Object_Property
-|Property_applies_to=apis/media_capture_and_streams/MediaStreamTrack
-|Read_only=Yes
-|Example_object_name=track
-|Return_value_name=
-|Javascript_data_type=String
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Media Capture and Streams}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: label
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Media
+  5: Capture
+  6: and
+  7: Streams
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs example, spec reference'
+summary: 'Returns the label of the object’s corresponding track, if any. If the corresponding track has or had no label, it returns the empty string.'
+uri: 'apis/media capture and streams/MediaStreamTrack/label'
+
+---
+# label
+
+## Summary
+
+Returns the label of the object’s corresponding track, if any. If the corresponding track has or had no label, it returns the empty string.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = track.label;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+**Needs Examples**: This section should include examples.
+

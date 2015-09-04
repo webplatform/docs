@@ -1,36 +1,21 @@
-{{Page_Title|Definitions / Types of disability}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Stub
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{API_Name}}
-{{Summary_Section|The following article will list the disabilities that will affect their experience on the web.}}
-{{Concept_Page
-|Content=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Accessibility}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: definitions
+tags:
+  - Concept
+  - Pages
+  - Accessibility
+readiness: 'Not Ready'
+notes:
+  - Stub
+summary: 'The following article will list the disabilities that will affect their experience on the web.'
+uri: concepts/accessibility/definitions
+
+---
+# Definitions / Types of disability
+
+## Summary
+
+The following article will list the disabilities that will affect their experience on the web.
+
+**Needs Examples**: This section should include examples.
+

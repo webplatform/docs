@@ -1,60 +1,169 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add description, compatibility.
-|Checked_Out=No
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Specifies the maximum amount of trailing whitespace (before justification) that may be left in a line before hyphenation is triggered to pull part of a word from the next line back up into the current one.}}
-{{CSS Property
-|Initial value=0
-|Applies to=block containers
-|Inherited=Yes
-|Media=visual
-|Computed value=specified value
-|Animatable=No
-|CSS object model property=hyphenateLimitZone
-|CSS percentages=refer to width of the line box
-|Values={{CSS Property Value
-|Data Type=percentage
-|Description=Specifies the width of the hyphenation zone, relative to the total line length. Negative values are not allowed.
-}}{{CSS Property Value
-|Data Type=length
-|Description=Indicates the width of the hyphenation zone. Lengths set in font-relative units (em, ex, ch) tend to be more useful here. Negative values are not allowed.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Code=/* Only hyphenate if the line would otherwise be <= 90% its maximum possible width */
+---
+title: hyphenate-limit-zone
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Add description, compatibility.'
+summary: 'Specifies the maximum amount of trailing whitespace (before justification) that may be left in a line before hyphenation is triggered to pull part of a word from the next line back up into the current one.'
+uri: css/properties/hyphenate-limit-zone
+
+---
+# hyphenate-limit-zone
+
+## Summary
+
+Specifies the maximum amount of trailing whitespace (before justification) that may be left in a line before hyphenation is triggered to pull part of a word from the next line back up into the current one.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `0`
+Applies to
+:   block containers
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   specified value
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `hyphenateLimitZone`
+Percentages
+:   refer to width of the line box
+
+## Syntax
+
+-   `hyphenate-limit-zone: length`
+-   `hyphenate-limit-zone: percentage`
+
+## Values
+
+percentage
+:   Specifies the width of the hyphenation zone, relative to the total line length. Negative values are not allowed.
+
+length
+:   Indicates the width of the hyphenation zone. Lengths set in font-relative units (em, ex, ch) tend to be more useful here. Negative values are not allowed.
+
+## Examples
+
+``` {.css}
+/* Only hyphenate if the line would otherwise be <= 90% its maximum possible width */
 hyphenate-limit-zone: 10%;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Text Level 4
-|URL=http://dev.w3.org/csswg/css-text-4/#hyphenate-limit-zone
-|Status=W3C Editor’s Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Text
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Text Level 4](http://dev.w3.org/csswg/css-text-4/#hyphenate-limit-zone)
+:   W3C Editor’s Draft
+
+## See also
+
+### Related articles
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   **hyphenate-limit-zone**
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+

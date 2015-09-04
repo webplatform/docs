@@ -1,71 +1,61 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Returns a string representation of a Boolean object.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=boolean.toString()
-}}
-|Values={{JS Syntax Parameter
-|Name=boolean
-|Required=Required
-|Description=An object for which to get a string representation.
-}}
-}}
-{{JS_Return_Value
-|Description=If the Boolean value is true , returns "true". Otherwise, returns "false".
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the '''toString''' method.
-|Code=var s = new Boolean(0);
+---
+title: toString
+tags:
+  0: JS
+  1: Basic
+  3: Method
+readiness: 'Ready to Use'
+summary: 'Returns a string representation of a Boolean object.'
+uri: javascript/Boolean/toString
+
+---
+# toString
+
+## Summary
+
+Returns a string representation of a Boolean object.
+
+## Syntax
+
+    boolean.toString()
+
+**boolean**
+:   Required. An object for which to get a string representation.
+
+## Return Value
+
+If the Boolean value is true , returns "true". Otherwise, returns "false".
+
+## Examples
+
+The following example illustrates the use of the **toString** method.
+
+``` {.js}
+var s = new Boolean(0);
  document.write(s.toString());
- 
+
  // Output: false;
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=Create a Boolean variable and convert it to a string
-|Code=// Create a Boolean Variable
+```
+
+Create a Boolean variable and convert it to a string
+
+``` {.js}
+// Create a Boolean Variable
 var flag = new Boolean(true);
 // Convert the variable to a string
 var myVar = flag.toString();
 // myVar returns the string "true"
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
+```
 
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.6 Boolean Objects]
-ECMAScript® Language Specification
-Standard ECMA-262
-5.1 Edition / June 2011
-}}
-{{JS Topics
-|JS Page Type=JS Method
-|Applies to=Boolean
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/jj155292(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+## See also
+
+### Specification
+
+[Boolean Objects](http://www.ecma-international.org/ecma-262/5.1/#sec-15.6) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155292(v=vs.94).aspx)
+

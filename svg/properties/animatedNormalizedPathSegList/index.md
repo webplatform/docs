@@ -1,46 +1,43 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: animatedNormalizedPathSegList
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/animatedNormalizedPathSegList
 
-===Remarks===
+---
+# animatedNormalizedPathSegList
 
-When  the animated contents are normalized, all path data commands are expressed in terms of one of the following [[svg/objects/SVGPathSeg|'''SVGPathSeg''']] types:
-*SVG_PATHSEG_MOVETO_ABS (M)
-*SVG_PATHSEG_LINETO_ABS (L)
-*SVG_PATHSEG_CURVETO_CUBIC_ABS (C)
-*SVG_PATHSEG_CLOSEPATH (z)
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+When the animated contents are normalized, all path data commands are expressed in terms of one of the following [**SVGPathSeg**](/svg/objects/SVGPathSeg) types:
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.22
+-   SVG\_PATHSEG\_MOVETO\_ABS (M)
+-   SVG\_PATHSEG\_LINETO\_ABS (L)
+-   SVG\_PATHSEG\_CURVETO\_CUBIC\_ABS (C)
+-   SVG\_PATHSEG\_CLOSEPATH (z)
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Syntax
 
-===Related pages (MSDN)===
+### Standards information
 
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/properties/normalizedPathSegList|'''normalizedPathSegList''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+-   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.22
 
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**normalizedPathSegList**](/svg/properties/normalizedPathSegList)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

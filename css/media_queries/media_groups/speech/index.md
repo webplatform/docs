@@ -1,30 +1,55 @@
-{{Page_Title|speech (abstract CSS media group)}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add values, syntax, example, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{Summary_Section|This media group is used to identify CSS properties applicable to screen readers and related speech synthesizers.}}
-{{CSS Media Group
-|Description=The speech media group is an abstract category, but it corresponds fairly directly to the [[css/media queries/media types/speech|speech media type]].  However, speech media may also implement properties associated with other media groups, such as [[css/media queries/media groups/interactive|interactive media]].
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: speech
+tags:
+  - CSS
+  - Media
+  - Groups
+readiness: 'Not Ready'
+notes:
+  - 'Add values, syntax, example, specifications, compatibility.'
+summary: 'This media group is used to identify CSS properties applicable to screen readers and related speech synthesizers.'
+uri: 'css/media queries/media groups/speech'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'css/media queries/media types/speech'
+
+---
+# speech (abstract CSS media group)
+
+## Summary
+
+This media group is used to identify CSS properties applicable to screen readers and related speech synthesizers.
+
+The speech media group is an abstract category, but it corresponds fairly directly to the [speech media type](/w/index.php?title=css/media_queries/media_types/speech&action=edit&redlink=1). However, speech media may also implement properties associated with other media groups, such as [interactive media](/css/media_queries/media_groups/interactive).
+
+## Applicable Media Types
+
+(none in the database)
+
+## Applicable Media Features
+
+(none in the database)
+
+## Applicable CSS properties
+
+-   [css/properties/cue](/css/properties/cue)
+-   [css/properties/cue-after](/css/properties/cue-after)
+-   [css/properties/cue-before](/css/properties/cue-before)
+-   [css/properties/pause](/css/properties/pause)
+-   [css/properties/pause-after](/css/properties/pause-after)
+-   [css/properties/pause-before](/css/properties/pause-before)
+-   [css/properties/rest](/css/properties/rest)
+-   [css/properties/rest-after](/css/properties/rest-after)
+-   [css/properties/rest-before](/css/properties/rest-before)
+-   [css/properties/speak](/css/properties/speak)
+-   [css/properties/speak-as](/css/properties/speak-as)
+-   [css/properties/voice-balance](/css/properties/voice-balance)
+-   [css/properties/voice-duration](/css/properties/voice-duration)
+-   [css/properties/voice-family](/css/properties/voice-family)
+-   [css/properties/voice-pitch](/css/properties/voice-pitch)
+-   [css/properties/voice-range](/css/properties/voice-range)
+-   [css/properties/voice-rate](/css/properties/voice-rate)
+-   [css/properties/voice-stress](/css/properties/voice-stress)
+-   [css/properties/voice-volume](/css/properties/voice-volume)
+

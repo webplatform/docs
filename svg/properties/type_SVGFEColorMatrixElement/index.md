@@ -1,63 +1,34 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: type (SVGFEColorMatrixElement)
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: 'svg/properties/type (SVGFEColorMatrixElement)'
 
-===Remarks===
+---
+# type (SVGFEColorMatrixElement)
 
-The following are constants associated with [[svg/elements/feColorMatrix|'''SVGFEColorMatrixElement''']].
-{| class="wikitable"
-|-
-!Constant
-!Value
-!Description
-|-
-|SVG_FECOLORMATRIX_TYPE_UNKNOWN
-|0
-|The type is not one of the predefined types. It is invalid to attempt to define a new value of this type or to attempt to switch an existing value to this type.
-|-
-|SVG_FECOLORMATRIX_TYPE_MATRIX
-|1
-|Corresponds to value '''matrix'''.
-|-
-|SVG_FECOLORMATRIX_TYPE_SATURATE
-|2
-|Corresponds to value '''saturate'''.
-|-
-|SVG_FECOLORMATRIX_TYPE_HUEROTATE
-|3
-|Corresponds to value '''hueRotate'''.
-|-
-|SVG_FECOLORMATRIX_TYPE_LUMINANCETOALPHA
-|4
-|Corresponds to value '''luminanceToAlpha'''.
+## Notes
 
-|Import_Notes=
+### Remarks
 
-===Syntax===
+The following are constants associated with [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix). {
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Syntax
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/elements/feColorMatrix|'''SVGFEColorMatrixElement''']]
-*[[svg/properties/values|'''values''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)
+-   [**values**](/svg/properties/values)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

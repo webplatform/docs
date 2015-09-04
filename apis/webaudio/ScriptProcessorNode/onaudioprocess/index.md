@@ -1,58 +1,41 @@
-{{Page_Title}}
-{{Flags
-|State=Out of Date
-|Editorial notes=Deprecated; deletion candidate. See http://webaudio.github.io/web-audio-api/.
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|An event listener which is called periodically for audio processing. An event of type [[apis/webaudio/AudioProcessingEvent|'''AudioProcessingEvent''']] will be passed to the event handler.
+---
+title: onaudioprocess
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: WebAudio
+readiness: 'Out of Date'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Deprecated; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
+summary: "An event listener which is called periodically for audio processing. An event of type AudioProcessingEvent will be passed to the event handler.\n"
+uri: apis/webaudio/ScriptProcessorNode/onaudioprocess
 
-'''Deprecated; deletion candidate. See [http://webaudio.github.io/web-audio-api/ http://webaudio.github.io/web-audio-api/].'''
-}}
-{{API_Object_Property
-|Property_applies_to=apis/webaudio/ScriptProcessorNode
-|Read_only=No
-|Example_object_name=ScriptProcessorNode
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+# onaudioprocess
+
+## Summary
+
+An event listener which is called periodically for audio processing. An event of type AudioProcessingEvent will be passed to the event handler.
+
+**Deprecated; deletion candidate. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/ScriptProcessorNode](/apis/webaudio/ScriptProcessorNode)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = ScriptProcessorNode.onaudioprocess;
+ScriptProcessorNode.onaudioprocess = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

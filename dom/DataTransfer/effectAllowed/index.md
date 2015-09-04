@@ -1,36 +1,55 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.}}
-{{API_Object_Property
-|Property_applies_to=dom/DataTransfer
-|Read_only=No
-|Example_object_name=event.dataTransfer
-|Return_value_name=effectAllowed
-|Javascript_data_type=String
-|Return_value_description=One of the following values:
-*none
-*copy
-*copyLink
-*copyMove
-*link
-*linkMove
-*move
-*all
-*uninitialized
-|Example_value_name=newEffectAllowed
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the [[dom/DataTransfer/dropEffect|'''dropEffect''']] and '''effectAllowed''' properties of the [[dom/DataTransfer|'''DataTransfer''']] object to display the move cursor.
-|Code=<!doctype html>
+---
+title: effectAllowed
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/effectAllowedEX.htm'
+uri: dom/DataTransfer/effectAllowed
+
+---
+# effectAllowed
+
+## Summary
+
+Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DataTransfer](/dom/DataTransfer)</span></span>
+
+## Syntax
+
+``` {.js}
+var effectAllowed = event.dataTransfer.effectAllowed;
+event.dataTransfer.effectAllowed = newEffectAllowed;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+One of the following values:
+
+-   none
+-   copy
+-   copyLink
+-   copyMove
+-   link
+-   linkMove
+-   move
+-   all
+-   uninitialized
+
+## Examples
+
+This example uses the [**dropEffect**](/dom/DataTransfer/dropEffect) and **effectAllowed** properties of the [**DataTransfer**](/dom/DataTransfer) object to display the move cursor.
+
+``` {.html}
+<!doctype html>
 <html>
  <head>
   <title>Example of the effectAllowed and dropEffect Properties</title>
@@ -43,7 +62,7 @@
 }
   </style>
   <script>
-// This function is called when the user 
+// This function is called when the user
 // initiates a drag-and-drop operation.
 function fnHandleDragStart(e) {
   var oData = e.dataTransfer;
@@ -51,7 +70,7 @@ function fnHandleDragStart(e) {
   oData.effectAllowed = "move";
 }
 
-// This function is called by the target 
+// This function is called by the target
 // object in the ondrop event.
 function fnHandleDrop(e) {
   var oTarg = e.target;
@@ -65,7 +84,7 @@ function fnHandleDrop(e) {
   oTarg.textContent += oData.getData("Text");
 }
 
-// This function sets the dropEffect when the user moves the 
+// This function sets the dropEffect when the user moves the
 // mouse over the target object.
 function fnHandleDragEnter(e) {
   var oData = e.dataTransfer;
@@ -93,57 +112,52 @@ window.addEventListener("load", initialize, false);
   </script>
  </head>
  <body>
-  <h1>Example of the effectAllowed and dropEffect Properties</h1>
-  <p>The code in this example sets the <b>effectAllowed</b> property 
-to <span class="literal">move</span>. It sets the <b>dropEffect</b> 
-property to display the move cursor. The default action must be canceled in all events that are handled&amp;#151;in this example, 
-<b>ondragstart</b>, <b>ondragover</b>, <b>ondragenter</b>, and 
-<b>ondrop</b>.</p>
-<p>
-<b>
+  Example of the effectAllowed and dropEffect Properties
+  The code in this example sets the effectAllowed property
+to move. It sets the dropEffect
+property to display the move cursor. The default action must be canceled in all events that are handled&#151;in this example,
+ondragstart, ondragover, ondragenter, and
+ondrop.
+
+
   [not this text]
-<span id="oSource">
+
   [select and drag this text]
-</span>
+
   [not this text]
-</b>
-</p>
-<p>&nbsp;</p>
-<div id="oTarget">
+
+
+Â
+
 [drop text here]
-  </div>
- </body>
-</html>
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/effectAllowedEX.htm
-}}
-}}
-{{Notes_Section
-|Notes=Set the '''effectAllowed''' property in the [[dom/DragEvent/dragstart|'''ondragstart''']] event. This property is used most effectively with the [[dom/DataTransfer/dropEffect|'''dropEffect''']] property.
 
-This property can be used to override the default behavior in other applications. For example, the script can set the '''effectAllowed''' property to '''copy''' for a text field and override the Microsoft Word default of '''move'''. In the application, '''copy''' is the default '''effectAllowed''' behavior; however,  anchors are set to '''link''' by default, and text fields are set to '''move''' by default.
 
-By setting '''effectAllowed''' to '''none''', dropping is disabled but the no-drop cursor is still displayed. To avoid displaying the no-drop cursor, cancel the [[dom/BeforeUnloadEvent/returnValue|'''returnValue''']] of the [[dom/DragEvent/dragstart|'''ondragstart''']] window.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML
-|URL=http://www.w3.org/TR/html5/editing.html
-|Status=Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+</body>
+```
+
+\</html\>
+
+</pre>
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/effectAllowedEX.htm)
+
+## Notes
+
+Set the **effectAllowed** property in the [**ondragstart**](/dom/DragEvent/dragstart) event. This property is used most effectively with the [**dropEffect**](/dom/DataTransfer/dropEffect) property.
+
+This property can be used to override the default behavior in other applications. For example, the script can set the **effectAllowed** property to **copy** for a text field and override the Microsoft Word default of **move**. In the application, **copy** is the default **effectAllowed** behavior; however, anchors are set to **link** by default, and text fields are set to **move** by default.
+
+By setting **effectAllowed** to **none**, dropping is disabled but the no-drop cursor is still displayed. To avoid displaying the no-drop cursor, cancel the [**returnValue**](/dom/BeforeUnloadEvent/returnValue) of the [**ondragstart**](/dom/DragEvent/dragstart) window.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML](http://www.w3.org/TR/html5/editing.html)
+:   Candidate Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,44 +1,61 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Deletion Candidate
-|Checked_Out=No
-|High-level issues=Deletion Candidate
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The element element defines a custom element.
-Note: This element has been deprecated, and is not supported by any browser. See [[dom/apis/document/register|document.register]] for the standard custom element definition.
-}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElementElement
-|Content=Custom elements are new types of DOM elements that can be defined by authors.
+---
+title: element
+tags:
+  - Markup
+  - Elements
+readiness: 'Not Ready'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Deletion Candidate'
+summary: "The element element defines a custom element.\nNote: This element has been deprecated, and is not supported by any browser. See document.register for the standard custom element definition.\n"
+uri: html/elements/element
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/apis/document/register
+    - dom/HTMLElementElement
+
+---
+# element
+
+## Summary
+
+The element element defines a custom element. Note: This element has been deprecated, and is not supported by any browser. See document.register for the standard custom element definition.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElementElement](/w/index.php?title=dom/HTMLElementElement&action=edit&redlink=1)
+
+Custom elements are new types of DOM elements that can be defined by authors.
 
 Custom elements can define presentation aspects like decorators. Unlike a decorator, which can be applied or unapplied to a given element, the element's type is fixed. So custom elements can also define new state and behavior, which decorators can't do because of their ephemeral nature.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Web Components
-|External_links=https://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html#custom-element-section
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+
+**Needs Examples**: This section should include examples.
+
+## See also
+
+### Related articles
+
+#### Web Components
+
+-   [register](/dom/Document/register)
+
+-   [shadowdom](/dom/shadowdom)
+
+-   [ShadowRoot](/dom/shadowdom/ShadowRoot)
+
+-   [is](/html/attributes/is)
+
+-   [reset-style-inheritance](/html/attributes/reset-style-inheritance)
+
+-   [content](/html/elements/content)
+
+-   **element**
+
+-   [template](/html/elements/template)
+
+### External resources
+
+[https://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html\#custom-element-section](https://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html#custom-element-section)
+

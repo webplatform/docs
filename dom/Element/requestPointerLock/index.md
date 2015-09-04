@@ -1,43 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs examples and compat
-|Checked_Out=No
-|High-level issues=Stub, Needs Flags
-|Content=Errors
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|requestPointerLock lets you lock the target of mouse events to a single element while hiding the cursor.}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=dom/Element
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Pointer Lock
-|URL=http://www.w3.org/TR/pointerlock/#methods
-|Status=W3C Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: requestPointerLock
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs examples and compat'
+summary: 'requestPointerLock lets you lock the target of mouse events to a single element while hiding the cursor.'
+uri: dom/Element/requestPointerLock
+
+---
+# requestPointerLock
+
+## Summary
+
+requestPointerLock lets you lock the target of mouse events to a single element while hiding the cursor.
+
+*Method of [dom/Element](/dom/Element)*
+
+## Syntax
+
+``` {.js}
+ element.requestPointerLock();
+```
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[Pointer Lock](http://www.w3.org/TR/pointerlock/#methods)
+:   W3C Working Draft
+

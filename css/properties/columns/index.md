@@ -1,60 +1,79 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add description, compatibility.
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|This property is a shorthand property for setting [[css/properties/column-width|column-width]] and/or [[css/properties/column-count|column-count]].}}
-{{CSS Property
-|Initial value=See individual properties.
-|Applies to=Non-replaced block-level elements (except table elements), table cells, and inline-block elements.
-|Inherited=No
-|Media=visual
-|Computed value=See individual properties.
-|Animatable=No
-|CSS percentages=See individual properties.
-|Values={{CSS Property Value
-|Data Type=column-width
-|Description=Any of the values available to [[css/properties/column-width|column-width]] property.
-}}{{CSS Property Value
-|Data Type=column-count
-|Description=Any of the values available to [[css/properties/column-count|column-count]] property.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Code=/* Make 3 columns at auto width */
+---
+title: columns
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Add description, compatibility.'
+summary: 'This property is a shorthand property for setting column-width and/or column-count.'
+code_samples:
+  - 'http://gist.github.com/6288803'
+uri: css/properties/columns
+
+---
+# columns
+
+## Summary
+
+This property is a shorthand property for setting column-width and/or column-count.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `See individual properties.`
+Applies to
+:   Non-replaced block-level elements (except table elements), table cells, and inline-block elements.
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   See individual properties.
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   See individual properties.
+
+## Syntax
+
+-   `columns: column-count`
+-   `columns: column-width`
+
+## Values
+
+column-width
+:   Any of the values available to [column-width](/css/properties/column-width) property.
+
+column-count
+:   Any of the values available to [column-count](/css/properties/column-count) property.
+
+## Examples
+
+``` {.css}
+/* Make 3 columns at auto width */
 #columns {
   columns: auto 3;
 }
-|LiveURL=http://code.webplatform.org/gist/6288803
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Multi-column Layout Module
-|URL=http://www.w3.org/TR/css3-multicol
-|Status=W3C Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/6288803)
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol)
+:   W3C Candidate Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

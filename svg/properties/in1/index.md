@@ -1,54 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: in1
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/in1
 
-===Remarks===
+---
+# in1
 
-Identifies input for the given filter primitive. The value can be either one of six keywords (see above) or can be a string which matches a previous '''result''' attribute value within the same [[svg/elements/filter|'''filter''']] element. If no value is provided and this is the first filter primitive, then this filter primitive will use '''SourceGraphic''' as its input. If no value is provided and this is a subsequent filter primitive, then this filter primitive will use the result from the previous filter primitive as its input.
+## Notes
 
-If the value for '''result''' appears multiple times within a given [[svg/elements/filter|'''filter''']] element, then a reference to that result will use the closest preceding filter primitive with the given value for attribute '''result'''. Forward references to results are an error.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+Identifies input for the given filter primitive. The value can be either one of six keywords (see above) or can be a string which matches a previous **result** attribute value within the same [**filter**](/svg/elements/filter) element. If no value is provided and this is the first filter primitive, then this filter primitive will use **SourceGraphic** as its input. If no value is provided and this is a subsequent filter primitive, then this filter primitive will use the result from the previous filter primitive as its input.
 
-===Standards information===
+If the value for **result** appears multiple times within a given [**filter**](/svg/elements/filter) element, then a reference to that result will use the closest preceding filter primitive with the given value for attribute **result**. Forward references to results are an error.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.7.2
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.7.2
 
-*[[svg/elements/feBlend|'''SVGFEBlendElement''']]
-*[[svg/elements/feColorMatrix|'''SVGFEColorMatrixElement''']]
-*[[svg/elements/feComponentTransfer|'''SVGFEComponentTransferElement''']]
-*[[svg/elements/feComposite|'''SVGFECompositeElement''']]
-*[[svg/elements/feConvolveMatrix|'''SVGFEConvolveMatrixElement''']]
-*[[svg/elements/feDiffuseLighting|'''SVGFEDiffuseLightingElement''']]
-*[[svg/elements/feDisplacementMap|'''SVGFEDisplacementMapElement''']]
-*[[svg/elements/feGaussianBlur|'''SVGFEGaussianBlurElement''']]
-*[[svg/elements/feMergeNode|'''SVGFEMergeNodeElement''']]
-*[[svg/elements/feMorphology|'''SVGFEMorphologyElement''']]
-*[[svg/elements/feOffset|'''SVGFEOffsetElement''']]
-*[[svg/elements/feSpecularLighting|'''SVGFESpecularLightingElement''']]
-*[[svg/elements/feTile|'''SVGFETileElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGFEBlendElement**](/svg/elements/feBlend)
+-   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)
+-   [**SVGFEComponentTransferElement**](/svg/elements/feComponentTransfer)
+-   [**SVGFECompositeElement**](/svg/elements/feComposite)
+-   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)
+-   [**SVGFEDiffuseLightingElement**](/svg/elements/feDiffuseLighting)
+-   [**SVGFEDisplacementMapElement**](/svg/elements/feDisplacementMap)
+-   [**SVGFEGaussianBlurElement**](/svg/elements/feGaussianBlur)
+-   [**SVGFEMergeNodeElement**](/svg/elements/feMergeNode)
+-   [**SVGFEMorphologyElement**](/svg/elements/feMorphology)
+-   [**SVGFEOffsetElement**](/svg/elements/feOffset)
+-   [**SVGFESpecularLightingElement**](/svg/elements/feSpecularLighting)
+-   [**SVGFETileElement**](/svg/elements/feTile)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

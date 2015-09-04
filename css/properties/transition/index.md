@@ -1,143 +1,174 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The transition CSS property is a shorthand property for [[css/properties/transition-property|transition-property]], [[css/properties/transition-duration|transition-duration]], [[css/properties/transition-timing-function|transition-timing-function]], and [[css/properties/transition-delay|transition-delay]]. It allows to define the transition between two states of an element.}}
-{{CSS Property
-|Initial value=see individual properties
-|Applies to=all elements, :before and :after pseudo elements
-|Inherited=No
-|Media=interactive
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=transition
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=transition-property
-|Description=Value of the [[css/properties/transition-property|'''transition-property''']] property.
-}}{{CSS Property Value
-|Data Type=transition-duration
-|Description=Value of the [[css/properties/animation-duration|'''transition-duration''']] property.
-}}{{CSS Property Value
-|Data Type=transition-timing-function
-|Description=Value of the [[css/properties/animation-timing-function|'''transition-timing-function''']] property.
-}}{{CSS Property Value
-|Data Type=transition-delay
-|Description=Value of the [[css/properties/animation-delay|'''transition-delay''']] property.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=When you hover over the div, the height property will gradually change from 100 to 500.
-|Code=/*
+---
+title: transition
+tags:
+  0: CSS
+  1: Properties
+  3: Vendor
+  4: Prefix
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay. It allows to define the transition between two states of an element.'
+code_samples:
+  - 'http://gist.github.com/5842511'
+uri: css/properties/transition
+
+---
+# transition
+
+## Summary
+
+The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay. It allows to define the transition between two states of an element.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `see individual properties`
+Applies to
+:   all elements, :before and :after pseudo elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   interactive
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `transition`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `transition: transition-delay`
+-   `transition: transition-duration`
+-   `transition: transition-property`
+-   `transition: transition-timing-function`
+
+## Values
+
+transition-property
+:   Value of the [**transition-property**](/css/properties/transition-property) property.
+
+transition-duration
+:   Value of the [**transition-duration**](/css/properties/animation-duration) property.
+
+transition-timing-function
+:   Value of the [**transition-timing-function**](/css/properties/animation-timing-function) property.
+
+transition-delay
+:   Value of the [**transition-delay**](/css/properties/animation-delay) property.
+
+## Examples
+
+When you hover over the div, the height property will gradually change from 100 to 500.
+
+``` {.css}
+/*
  * This example usage of the transition shorthand
- * 
- * In this example the height of a div will change 
- * to 300px over 2 seconds. 
- * 
+ *
+ * In this example the height of a div will change
+ * to 300px over 2 seconds.
+ *
  * The non-shorthand equivalent would be:
  * transition-property: height;
- * transition-duration: 2s; 
+ * transition-duration: 2s;
  */
 
 div:hover {
   height: 300px;
   transition: height 2s;
 }
-|LiveURL=http://code.webplatform.org/gist/5842511
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=A list of translatable properties exists here: http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties-
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Transitions
-|URL=http://www.w3.org/TR/2009/WD-css3-transitions-20091201/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Animation, Transitions
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS, Vendor Prefix}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/transition
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=26
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=1
-|Firefox_supported=Yes
-|Firefox_version=16
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=4
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=11.6
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=3
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=26
-|Chrome_mobile_prefixed_supported=Yes
-|Chrome_mobile_prefixed_version=1
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=16
-|Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=4
-|IE_mobile_supported=Yes
-|IE_mobile_version=10
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=12.10
-|Opera_mobile_prefixed_supported=Yes
-|Opera_mobile_prefixed_version=10
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}
-|Notes_rows=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5842511)
+
+A list of translatable properties exists here: [http://www.w3.org/TR/2009/WD-css3-transitions-20091201/\#animatable-properties-](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties-)
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
+:   W3C Working Draft
+
+## See also
+
+### Related articles
+
+#### Animation
+
+-   [Web Animations API](/apis/web_animations)
+
+-   [clone](/apis/web_animations/AnimationEffect/clone)
+
+-   [AnimationNode](/apis/web_animations/AnimationNode)
+
+-   [timing](/apis/web_animations/AnimationNode/timing)
+
+-   [currentTime](/apis/web_animations/AnimationPlayer/currentTime)
+
+-   [reverse](/apis/web_animations/AnimationPlayer/reverse)
+
+-   [source](/apis/web_animations/AnimationPlayer/source)
+
+-   [AnimationPlayerEvent](/apis/web_animations/AnimationPlayerEvent)
+
+-   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
+
+-   [play](/apis/web_animations/AnimationTimeline/play)
+
+-   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
+
+-   [@keyframes](/css/atrules/@keyframes)
+
+-   [CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
+
+-   [keyText](/css/cssom/CSSKeyframeRule/keyText)
+
+-   [style](/css/cssom/CSSKeyframeRule/style)
+
+-   [CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
+
+-   [cssRules](/css/cssom/CSSKeyframesRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSKeyframesRule/deleteRule)
+
+-   [findRule](/css/cssom/CSSKeyframesRule/findRule)
+
+-   [insertRule](/css/cssom/CSSKeyframesRule/insertRule)
+
+-   [name](/css/cssom/CSSKeyframesRule/name)
+
+-   [cubic-bezier](/css/functions/cubic-bezier)
+
+-   [Animations](/css/properties/animations)
+
+-   **transition**
+
+-   [SVG animation](/svg/tutorials/smarter_svg_animation)
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+
+#### Transitions
+
+-   [cubic-bezier](/css/functions/cubic-bezier)
+
+-   **transition**
+
+-   [transition-delay](/css/properties/transition-delay)
+
+-   [transition-duration](/css/properties/transition-duration)
+
+-   [transition-property](/css/properties/transition-property)
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/transition)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

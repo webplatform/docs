@@ -1,76 +1,191 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add summery, specifications, compatibility.
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{CSS Property
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=auto
-|Description=Default. IME is not affected. This is the same as not specifying the '''-ms-ime-mode''' attribute.
-}}{{CSS Property Value
-|Data Type=active
-|Description=All characters are entered through the IME. Users can still deactivate the IME.
-}}{{CSS Property Value
-|Data Type=inactive
-|Description=All characters are entered without IME. Users can still activate the IME.
-}}{{CSS Property Value
-|Data Type=disabled
-|Description=IME is completely disabled. Users cannot activate the IME if the control has focus.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example uses the '''-ms-ime-mode''' attribute.
-|Code=&lt;INPUT TYPE {{=}} text STYLE {{=}} "ime-mode:active" &gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-ime-mode''' attribute is an extension to CSS, and can  be used as a synonym for '''ime-mode''' in IE8 Standards mode.
-An IME allows users to enter and edit Chinese, Japanese, and Korean characters. The IME is an essential component for writing Chinese, Japanese, and Korean scripts. These writing systems have more characters than can be encoded for a regular keyboard. The IMEs for these languages use sequences of base characters that describe an individual character or group of characters to enter a larger set of characters. Base characters can be component letters from Hangul syllables, phonetic components for Japanese Kanji characters, or various combinations for Chinese characters.
-To compose text with an IME, the user generally uses dictionary lookup and contextual analysis, especially in languages where homonyms are frequent, as in Japanese. A user typically starts by entering a few component characters, optionally selecting from various choices, and a confirmation command.
-Input Method Editors have two principle states:
-*Inactive mode. The keyboard acts like a regular keyboard and input is limited to a small set of characters.
-*Active mode. The IME accepts component characters or processing commands.
+---
+title: ime-mode
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Add summery, specifications, compatibility.'
+uri: css/properties/ime-mode
+
+---
+# ime-mode
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   ``
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `ime-mode: active`
+-   `ime-mode: auto`
+-   `ime-mode: disabled`
+-   `ime-mode: inactive`
+
+## Values
+
+auto
+:   Default. IME is not affected. This is the same as not specifying the **-ms-ime-mode** attribute.
+
+active
+:   All characters are entered through the IME. Users can still deactivate the IME.
+
+inactive
+:   All characters are entered without IME. Users can still activate the IME.
+
+disabled
+:   IME is completely disabled. Users cannot activate the IME if the control has focus.
+
+## Examples
+
+This example uses the **-ms-ime-mode** attribute.
+
+    <INPUT TYPE = text STYLE = "ime-mode:active" >
+
+## Notes
+
+### Remarks
+
+Windows Internet Explorer 8. The **-ms-ime-mode** attribute is an extension to CSS, and can be used as a synonym for **ime-mode** in IE8 Standards mode. An IME allows users to enter and edit Chinese, Japanese, and Korean characters. The IME is an essential component for writing Chinese, Japanese, and Korean scripts. These writing systems have more characters than can be encoded for a regular keyboard. The IMEs for these languages use sequences of base characters that describe an individual character or group of characters to enter a larger set of characters. Base characters can be component letters from Hangul syllables, phonetic components for Japanese Kanji characters, or various combinations for Chinese characters. To compose text with an IME, the user generally uses dictionary lookup and contextual analysis, especially in languages where homonyms are frequent, as in Japanese. A user typically starts by entering a few component characters, optionally selecting from various choices, and a confirmation command. Input Method Editors have two principle states:
+
+-   Inactive mode. The keyboard acts like a regular keyboard and input is limited to a small set of characters.
+-   Active mode. The IME accepts component characters or processing commands.
 
 HTML authors can provide users with some control by specifying an IME mode for a specific text entry. For example, if Japanese users enter information in a registration form, they might be required to enter their names in Kanji and Roman characters. By default, the users would have to make sure that the IME is inactive when entering their names in the Latin alphabet. The user would activate the IME to enter Kanji letters, then deactivate the IME to complete the form in the Latin alphabet. By controlling the IME mode, the HTML author prevents the user from having to activate and deactivate the IME.
-|Import_Notes====Syntax===
-<code>'''-ms-ime-mode: '''auto '''{{!}}''' active '''{{!}}''' inactive '''{{!}}''' disabled</code>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Text
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+### Syntax
+
+`-ms-ime-mode: auto | active | inactive | disabled`
+
+## See also
+
+### Related articles
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   **ime-mode**
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

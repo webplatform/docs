@@ -1,75 +1,72 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: className
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/className
 
-===Remarks===
+---
+# className
 
-The '''className'''  property gets the names of the classes that are assigned to this object. The object ''belongs'' to these classes. Several object instances can share a class name.
+## Notes
 
-The '''className''' property has several roles:
-*As a style sheet selector (when  you want  to assign style information to a set of elements).
-*For general purpose browser processing.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+The **className** property gets the names of the classes that are assigned to this object. The object *belongs* to these classes. Several object instances can share a class name.
 
-===Standards information===
+The **className** property has several roles:
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.22
+-   As a style sheet selector (when you want to assign style information to a set of elements).
+-   For general purpose browser processing.
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Syntax
 
-===Related pages (MSDN)===
+### Standards information
 
-*[[svg/elements/a|'''SVGAElement''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/clipPath|'''SVGClipPathElement''']]
-*[[svg/elements/defs|'''SVGDefsElement''']]
-*[[svg/elements/desc|'''SVGDescElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/elements/filter|'''SVGFilterElement''']]
-*[[svg/elements/g|'''SVGGElement''']]
-*[[svg/elements/gradient|'''SVGGradientElement''']]
-*[[svg/elements/image|'''SVGImageElement''']]
-*[[svg/elements/linearGradient|'''SVGLinearGradientElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/marker|'''SVGMarkerElement''']]
-*[[svg/elements/mask|'''SVGMaskElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/patterrn|'''SVGPatternElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/radialGradient|'''SVGRadialGradientElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/stop|'''SVGStopElement''']]
-*[[svg/elements/svg|'''SVGSVGElement''']]
-*[[svg/elements/switch|'''SVGSwitchElement''']]
-*[[svg/elements/symbol|'''SVGSymbolElement''']]
-*[[svg/elements/etextContent|'''SVGTextContentElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/title|'''SVGTitleElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/use|'''SVGUseElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.22
 
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGAElement**](/svg/elements/a)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGClipPathElement**](/svg/elements/clipPath)
+-   [**SVGDefsElement**](/svg/elements/defs)
+-   [**SVGDescElement**](/svg/elements/desc)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   [**SVGFilterElement**](/svg/elements/filter)
+-   [**SVGGElement**](/svg/elements/g)
+-   [**SVGGradientElement**](/svg/elements/gradient)
+-   [**SVGImageElement**](/svg/elements/image)
+-   [**SVGLinearGradientElement**](/svg/elements/linearGradient)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGMarkerElement**](/svg/elements/marker)
+-   [**SVGMaskElement**](/svg/elements/mask)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGPatternElement**](/svg/elements/patterrn)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGRadialGradientElement**](/svg/elements/radialGradient)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGStopElement**](/svg/elements/stop)
+-   [**SVGSVGElement**](/svg/elements/svg)
+-   [**SVGSwitchElement**](/svg/elements/switch)
+-   [**SVGSymbolElement**](/svg/elements/symbol)
+-   [**SVGTextContentElement**](/svg/elements/etextContent)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTitleElement**](/svg/elements/title)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGUseElement**](/svg/elements/use)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

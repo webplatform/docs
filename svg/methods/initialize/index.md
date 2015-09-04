@@ -1,47 +1,42 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: initialize
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/initialize
 
-===Remarks===
+---
+## Notes
 
-If the inserted item is already in the list, the '''initialize''' method  removes the item  from its previous list before it is inserted into this list. The inserted item is the item itself and not a copy.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+If the inserted item is already in the list, the **initialize** method removes the item from its previous list before it is inserted into this list. The inserted item is the item itself and not a copy.
 
- ISVGTransform retVal = ''object.''initialize(newItem);
+### Syntax
 
-===Standards information===
+    ISVGTransform retVal = object.initialize(newItem);
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.4
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.4
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/objects/SVGLengthList|'''SVGLengthList''']]
-*[[svg/objects/SVGNumberList|'''SVGNumberList''']]
-*[[svg/objects/SVGPathSegList|'''SVGPathSegList''']]
-*[[svg/objects/SVGPointList|'''SVGPointList''']]
-*[[svg/objects/SVGStringList|'''SVGStringList''']]
-*[[svg/objects/SVGTransformList|'''SVGTransformList''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+### Related pages (MSDN)
 
-[[Category:SVG]]
+-   [**SVGLengthList**](/svg/objects/SVGLengthList)
+-   [**SVGNumberList**](/svg/objects/SVGNumberList)
+-   [**SVGPathSegList**](/svg/objects/SVGPathSegList)
+-   [**SVGPointList**](/svg/objects/SVGPointList)
+-   [**SVGStringList**](/svg/objects/SVGStringList)
+-   [**SVGTransformList**](/svg/objects/SVGTransformList)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

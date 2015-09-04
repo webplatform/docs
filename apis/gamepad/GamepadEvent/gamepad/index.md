@@ -1,29 +1,44 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Provides access to the associated gamepad data for this event.}}
-{{API_Object_Property
-|Property_applies_to=apis/gamepad/GamepadEvent
-|Read_only=Yes
-|Example_object_name=object
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=Gamepad
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The Gamepad API provides a function, [[dom/Navigator/getGamepads|Navigator.getGamepads]], that returns a list of all devices currently visible to the web page, as an array of Gamepad objects. When a gamepad is connected, this example reports its index, id, number of buttons, number of axes, and when the gamepad data was updated.
-|Code=window.addEventListener("gamepadconnected", function(e) {
+---
+title: gamepad
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Gamepad
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Provides access to the associated gamepad data for this event.'
+uri: apis/gamepad/GamepadEvent/gamepad
+
+---
+# gamepad
+
+## Summary
+
+Provides access to the associated gamepad data for this event.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/gamepad/GamepadEvent](/apis/gamepad/GamepadEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = object.gamepad;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+
+Gamepad
+
+## Examples
+
+The Gamepad API provides a function, [Navigator.getGamepads](/dom/Navigator/getGamepads), that returns a list of all devices currently visible to the web page, as an array of Gamepad objects. When a gamepad is connected, this example reports its index, id, number of buttons, number of axes, and when the gamepad data was updated.
+
+``` {.js}
+window.addEventListener("gamepadconnected", function(e) {
   var gp = navigator.getGamepads()[e.gamepad.index];
   console.log("Gamepad connected.");
   console.log("Gamepad index:", gp.index);
@@ -32,39 +47,18 @@
   console.log("Gamepad axes:", gp.axes.length);
   console.log("Gamepad last updated:", gp.timestamp);
 });
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Gamepad Specification
-|URL=https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Gamepad}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/Guide/API/Gamepad
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Gamepad Specification](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/Guide/API/Gamepad)
+

@@ -1,16 +1,23 @@
-{{Page_Title|Working Off the Grid with HTML5 Offline}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Flags
-}}
-{{Byline
-|Name=Paul Kinlan
-|Published=June 1, 2011
-}}
-{{Summary_Section|Take your application offline using HTML5 Application Cache}}
-{{Tutorial
-|Content===Introduction==
+---
+title: mobile offline
+tags:
+  - Tutorials
+  - Appcache
+readiness: 'Ready to Use'
+summary: 'Take your application offline using HTML5 Application Cache'
+uri: 'tutorials/mobile offline'
+
+---
+# Working Off the Grid with HTML5 Offline
+
+**By Paul Kinlan**
+Originally published June 1, 2011
+
+## Summary
+
+Take your application offline using HTML5 Application Cache
+
+## Introduction
 
 When your web browser was tied to your desktop, there was never really a time that you couldn't get an Internet connection whenever you wanted to.
 
@@ -20,23 +27,23 @@ This article was written on a train from London to Liverpool. The train has Wifi
 
 So how do we solve this problem? It is not simple, but there are steps that you can take today that will let your users use your app whereever they are. Some of these steps have direct solutions implemented in HTML; some will require you to implement some logic, all will help you build a better app.
 
-==Cache your assets==
+## Cache your assets
 
 Users are conditioned to not enter a URL when they are not online because they know they will get an error page. But it doesn't have to be this way. It is possible to build applications that will load even when there is no Internet connection.
 
 You should build your application to present a consistent UI to your users so that even if they are offline, they can still see and use some of your application. This will allow you to detect presence of a network connection and inform the user of the connection requirements of your application in a graceful, friendly manner.
 
-Following our [http://www.html5rocks.com/tutorials/appcache/beginner/ AppCache tutorial], you will see that it is pretty easy to get this into existing apps. Your application will include a link to a manifest file, and that manifest file will contain all the files that encompass your application.
+Following our [AppCache tutorial](http://www.html5rocks.com/tutorials/appcache/beginner/), you will see that it is pretty easy to get this into existing apps. Your application will include a link to a manifest file, and that manifest file will contain all the files that encompass your application.
 
- CACHE:
- /js/logic.js
- /js/options.js
- /images/loading.png
- /css/main.css
+    CACHE:
+    /js/logic.js
+    /js/options.js
+    /images/loading.png
+    /css/main.css
 
 The browser then ensures that these assets are cached offline until the next time that the manifest file is updated.
 
-==Detecting network connectivity==
+## Detecting network connectivity
 
 Now that you can make your app load and present a consistent interface to your users even when you are offline, you need to detect when there is Internet connectivity. This is especially important if your app needs an Internet connection to function properly.
 
@@ -44,37 +51,37 @@ HTML5 defines an event that signals when your app has connectivity. This is the 
 
 It is simple to check if you are online by querying window.navigator.onLine
 
- if (navigator.onLine) {
-   alert('online')
- } else {
-   alert('offline');
- }
+    if (navigator.onLine) {
+      alert('online')
+    } else {
+      alert('offline');
+    }
 
 You can also be told when there is a change in the network state. Just listen for the for the events on window.onOnline and window.onOffline
 
- window.addEventListener("offline", function(e) {
-   alert("offline");
- }, false);
- 
- window.addEventListener("online", function(e) {
-   alert("online");
- }, false);
+    window.addEventListener("offline", function(e) {
+      alert("offline");
+    }, false);
+
+    window.addEventListener("online", function(e) {
+      alert("online");
+    }, false);
 
 The API is straightforward, how do you get it to work if the API isn't implemented in the browser?
 
 It is possible to use a couple more signals to detect if you are offline including side-effects of the AppCache and listening to the responses from XMLHttpRequest.
 
-===AppCache error event===
+### AppCache error event
 
 The AppCache system always makes an attempt to request the manifest to check to see if it needs to update its list of assets. If that requests fails it is normally one of two things, the manifest file is no longer being used (that is, it is not hosted) or the system is unable to access the network to fetch the file.
 
- window.applicationCache.addEventListener("error", function(e) {
-   alert("Error fetching manifest: a good chance we are offline");
- });
+    window.applicationCache.addEventListener("error", function(e) {
+      alert("Error fetching manifest: a good chance we are offline");
+    });
 
 Detecting this request failure is a good indication of whether you have a network connection or not.
 
-===XMLHttpRequest===
+### XMLHttpRequest
 
 Network connections can fail during the use of your application, so how do you detect this?
 
@@ -84,125 +91,125 @@ Once you build your application to be able to handle these errors you can then i
 
 The following code is a great example of a "fetch" function that is able to respond to network failures.
 
- var fetch = function(url, callback) {
-   var xhr = new XMLHttpRequest();
- 
-   var noResponseTimer = setTimeout(function() {
-     xhr.abort();
-     if (!!localStorage[url]) {
-       // We have some data cached, return that to the callback.
-       callback(localStorage[url]);
-       return;
-     }
-   }, maxWaitTime);
- 
-   xhr.onreadystatechange = function() {
-     if (xhr.readyState != 4) {
-       return;
-     }
- 
-     if (xhr.status == 200) {
-       clearTimeout(noResponseTimer);
-       // Save the data to local storage
-       localStorage[url] = xhr.responseText;
-       // call the handler
-       callback(xhr.responseText);
-     }
-     else {
-       // There is an error of some kind, use our cached copy (if available).
-       if (!!localStorage[url]) {
-         // We have some data cached, return that to the callback.
-         callback(localStorage[url]);
-         return;
-       }
-     }
-   };
-   xhr.open("GET", url);
-   xhr.send();
- };
+    var fetch = function(url, callback) {
+      var xhr = new XMLHttpRequest();
+
+      var noResponseTimer = setTimeout(function() {
+        xhr.abort();
+        if (!!localStorage[url]) {
+          // We have some data cached, return that to the callback.
+          callback(localStorage[url]);
+          return;
+        }
+      }, maxWaitTime);
+
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState != 4) {
+          return;
+        }
+
+        if (xhr.status == 200) {
+          clearTimeout(noResponseTimer);
+          // Save the data to local storage
+          localStorage[url] = xhr.responseText;
+          // call the handler
+          callback(xhr.responseText);
+        }
+        else {
+          // There is an error of some kind, use our cached copy (if available).
+          if (!!localStorage[url]) {
+            // We have some data cached, return that to the callback.
+            callback(localStorage[url]);
+            return;
+          }
+        }
+      };
+      xhr.open("GET", url);
+      xhr.send();
+    };
 
 Watching for this error event is pretty easy, but passing the result out as a return value becomes quickly cubmersome and prone to errors. Luckily, the HTML DOM has a rich event mechanism that you can hook in to, to create a custom "offline/online" event.
 
- var fireEvent = function(name, data) {
-   var e = document.createEvent("Event");
-   e.initEvent(name, true, true);
-   e.data = data;
-   window.dispatchEvent(e);
- };
+    var fireEvent = function(name, data) {
+      var e = document.createEvent("Event");
+      e.initEvent(name, true, true);
+      e.data = data;
+      window.dispatchEvent(e);
+    };
 
 Integrating the "fireEvent" method into our "fetch" function allows us to respond to events based on the network connectivity and gives us the freedom to build applications that are not tied to monitoring the returned data from a method.
 
- var fetch = function(url, callback) {
-   var xhr = new XMLHttpRequest();
- 
-   var noResponseTimer = setTimeout(function() {
-     xhr.abort();
-     '''fireEvent("connectiontimeout", {});'''
-     if (!!localStorage[url]) {
-       // We have some data cached, return that to the callback.
-       callback(localStorage[url]);
-       return;
-     }
-   }, maxWaitTime);
- 
-   xhr.onreadystatechange = function(e) {
-     if (xhr.readyState != 4) {
-       return;
-     }
- 
-     if (xhr.status == 200) {
-       '''fireEvent("goodconnection", {});'''
-       clearTimeout(noResponseTimer);
-       // Save the data to local storage
-       localStorage[url] = xhr.responseText;
-       // call the handler
-       callback(xhr.responseText);
-     } else {
-       '''fireEvent("connectionerror", {});'''
-       // There is an error of some kind, use our cached copy (if available).
-       if (!!localStorage[url]) {
-         // We have some data cached, return that to the callback.
-         callback(localStorage[url]);
-         return;
-       }
-     }
-   };
-   xhr.open("GET", url);
-   xhr.send();
- };
+    var fetch = function(url, callback) {
+      var xhr = new XMLHttpRequest();
+
+      var noResponseTimer = setTimeout(function() {
+        xhr.abort();
+        fireEvent("connectiontimeout", {});
+        if (!!localStorage[url]) {
+          // We have some data cached, return that to the callback.
+          callback(localStorage[url]);
+          return;
+        }
+      }, maxWaitTime);
+
+      xhr.onreadystatechange = function(e) {
+        if (xhr.readyState != 4) {
+          return;
+        }
+
+        if (xhr.status == 200) {
+          fireEvent("goodconnection", {});
+          clearTimeout(noResponseTimer);
+          // Save the data to local storage
+          localStorage[url] = xhr.responseText;
+          // call the handler
+          callback(xhr.responseText);
+        } else {
+          fireEvent("connectionerror", {});
+          // There is an error of some kind, use our cached copy (if available).
+          if (!!localStorage[url]) {
+            // We have some data cached, return that to the callback.
+            callback(localStorage[url]);
+            return;
+          }
+        }
+      };
+      xhr.open("GET", url);
+      xhr.send();
+    };
 
 We can now build applications that are notified when there is a failure somewhere in the network.
 
- window.addEventListener("connectionerror", function(e) {
-   alert("There is a connection error");
- });
+    window.addEventListener("connectionerror", function(e) {
+      alert("There is a connection error");
+    });
 
-===Periodically checking network state===
+### Periodically checking network state
 
 Using the exact same structure that we in the XML Http Request example, it is possible to periodically check a file on the network to see if there is a network connection.
 
- setTimeout(function() { fetch("favicon.ico"); } , 30000);
+    setTimeout(function() { fetch("favicon.ico"); } , 30000);
 
 Use this sparingly. If your service is popular this can produce an increased amount of traffic.
 
-==Cache your assets. Part II: Bootstrapping==
+## Cache your assets. Part II: Bootstrapping
 
 A common misconception with AppCache is the belief that all of your application's logic and assets must be cached for it to function offline. This is not the case. You can bootstrap just enough of your app to get it into a state where you can present a user interface to your users, and load the rest of the information in at run-time.
 
 Lets have a look at a simple example:
 
- <nowiki>-- index.html --
- <html manifest="cache.manifest">
- 
- -- cache.manifest --
- CACHE:
- /js/logic.js
- /js/options.js
- /images/loading.png
- /css/main.css
- 
- NETWORK:
- *</nowiki>
+    -- index.html --
+     <html manifest="cache.manifest">
+
+     -- cache.manifest --
+     CACHE:
+     /js/logic.js
+     /js/options.js
+     /images/loading.png
+     /css/main.css
+
+     NETWORK:
+     *
 
 It is very similar to the AppCache example in the first chapter, but note the inclusion of the “NETWORK:” section. Every request for data that is not in the CACHE section will be allowed out on to the network.
 
@@ -210,17 +217,17 @@ With this very simple method, we can then provide the minimum number of assets t
 
 Script Loaders have been gaining acceptance in the Web Development community as a way to target load scripts and other against specific criteria. For example, if your browser doesn't support any client-side storage, then why load all that extra code?
 
-Integrating a script loader into your projects can while combining it with our tests for offline support can allow you to build applications that will delight the user. Below is an example using the [http://yepnopejs.com YepNope] JavaScript framework.
+Integrating a script loader into your projects can while combining it with our tests for offline support can allow you to build applications that will delight the user. Below is an example using the [YepNope](http://yepnopejs.com) JavaScript framework.
 
- yepnope({
-   '''test : isOnline,'''
-   yep  : ['normal.js', 'controller.js', 'assets.js'],
-   nope : 'errors.js'
- });
+    yepnope({
+      test : isOnline,
+      yep  : ['normal.js', 'controller.js', 'assets.js'],
+      nope : 'errors.js'
+    });
 
 The above example is sligthly contrived, but you can see how given knowledge of the connection state, you can easily start to load more of your application in at run-time, and, if offline load a different set of scripts that can handle the failure cases.
 
-==Cache your data==
+## Cache your data
 
 We gave it away a little earlier in our example "fetch" request.
 
@@ -228,90 +235,25 @@ To make applications useful, you must cache the data your app uses on the client
 
 Every single request made by the XMLHttpRequest framework can either succeed or fail. If it is successful we store the results of the response against the URL. If there is a failure we check localStorage for the presence of the requested URL, and if there is data we return that.
 
- if (xhr.status == 200) {
-   clearTimeout(noResponseTimer);
-   // Save the data to local storage
-   localStorage[url] = xhr.responseText;
-   // call the handler
-   callback(xhr.responseText);
- }
- else {
-   // There is an error of some kind, use our cached copy (if available).
-   if (!!localStorage[url]) {
-     // We have some data cached, return that to the callback.
-     callback(localStorage[url]);
-     return;
-   }
- }
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=21
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=14
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=2.1
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=3.2
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|Appcache}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=HTML5Rocks
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/mobile/workingoffthegrid/
-}}
+    if (xhr.status == 200) {
+      clearTimeout(noResponseTimer);
+      // Save the data to local storage
+      localStorage[url] = xhr.responseText;
+      // call the handler
+      callback(xhr.responseText);
+    }
+    else {
+      // There is an error of some kind, use our cached copy (if available).
+      if (!!localStorage[url]) {
+        // We have some data cached, return that to the callback.
+        callback(localStorage[url]);
+        return;
+      }
+    }
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/mobile/workingoffthegrid/)
+

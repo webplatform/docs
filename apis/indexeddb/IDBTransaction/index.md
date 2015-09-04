@@ -1,52 +1,61 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Proposed Recommendation}}
-{{API_Name}}
-{{Summary_Section|Provides for the scope and type of access to a database, and represents a transaction on the database.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C IndexedDB Specification
-|URL=http://www.w3.org/TR/IndexedDB/
-|Status=W3C Proposed Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: IDBTransaction
+tags:
+  0: API
+  1: Objects
+  3: IndexedDB
+readiness: 'Ready to Use'
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'Provides for the scope and type of access to a database, and represents a transaction on the database.'
+uri: apis/indexeddb/IDBTransaction
+
+---
+# IDBTransaction
+
+## Summary
+
+Provides for the scope and type of access to a database, and represents a transaction on the database.
+
+## Properties
+
+API Name
+:   Summary
+[db](/apis/indexeddb/IDBTransaction/db)
+:   The database connection of which this transaction is a part.
+[error](/apis/indexeddb/IDBTransaction/error)
+:   Null if the transaction is not finished, is finished and successfully committed, or was aborted with the abort() function. Returns the same DOMError as the request object which caused the transaction to be aborted due to a failed request, or a DOMError for the transaction failure not due to a failed request (such as QuotaExceededError or UnknownError).
+[mode](/apis/indexeddb/IDBTransaction/mode)
+:   The mode for isolating access to data in the object stores that are in the scope of the transaction. For possible values, see Return Value, below. The default value is readonly.
+[onabort](/apis/indexeddb/IDBTransaction/onabort)
+:   The event handler for the onabort event.
+[oncomplete](/apis/indexeddb/IDBTransaction/oncomplete)
+:   The event handler for the oncomplete event.
+[onerror](/apis/indexeddb/IDBTransaction/onerror)
+:   The event handler for the error event.
+
+## Methods
+
+API Name
+:   Summary
+[abort](/apis/indexeddb/IDBTransaction/abort)
+:   The abort method is used to abort a transaction. Once called, the abort method follows the [steps to abort](http://www.w3.org/TR/IndexedDB/#dfn-steps-for-aborting-a-transaction) a transaction
+[objectStore](/apis/indexeddb/IDBTransaction/objectStore)
+:   Returns an object store that has already been added to the scope of this transaction.
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
+:   W3C Proposed Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

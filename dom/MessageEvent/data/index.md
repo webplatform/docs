@@ -1,45 +1,49 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=example, standards, compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Gets the content of the message.}}
-{{API_Object_Property
-|Property_applies_to=dom/MessageEvent
-|Read_only=Yes
-|Example_object_name=event
-|Return_value_name=data
-|Javascript_data_type=any
-|Return_value_description=The content of the message.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=This property contains the value passed to [[dom/Window/postMessage|'''postMessage''']]. Before trusting the data, check the [[dom/Window/URL|'''URL''']] property of the message request to determine its source.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: data
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'example, standards, compatibility'
+summary: 'Gets the content of the message.'
+uri: dom/MessageEvent/data
+
+---
+# data
+
+## Summary
+
+Gets the content of the message.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MessageEvent](/dom/MessageEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var data = event.data;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">any</span></span>
+
+The content of the message.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+This property contains the value passed to [**postMessage**](/dom/Window/postMessage). Before trusting the data, check the [**URL**](/dom/Window/URL) property of the message request to determine its source.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

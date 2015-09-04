@@ -1,44 +1,34 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs children, example, spec reference, standardization status. May be a dup of apis/image capture/ImageCapture/photoSettingsOptions; deletion candidate?
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Provides the photo-specific settings options and current settings values.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Mobile}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: PhotoSettingsOptions
+tags:
+  0: API
+  1: Objects
+  3: Mobile
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs children, example, spec reference, standardization status. May be a dup of apis/image capture/ImageCapture/photoSettingsOptions; deletion candidate?'
+summary: 'Provides the photo-specific settings options and current settings values.'
+uri: 'apis/image capture/PhotoSettingsOptions'
+
+---
+# PhotoSettingsOptions
+
+## Summary
+
+Provides the photo-specific settings options and current settings values.
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+

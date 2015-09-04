@@ -1,46 +1,48 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add example, notes section.
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Cancels the application cache download process. This method is intended to be used by Web applications showing their own caching progress UI, in case the user wants to stop the update (e.g., because bandwidth is limited).}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=apis/appcache/ApplicationCache
-|Example_object_name=window.applicationCache
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C ApplicationCache Specification
-|URL=http://dev.w3.org/html5/spec/single-page.html#application-cache-api
-|Status=W3C Editor's Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=apis/appcache/ApplicationCache
-}}
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|Appcache, API}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
-|HTML5Rocks_link=
-}}
+---
+title: abort
+tags:
+  - API
+  - Object
+  - Methods
+  - Appcache
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Add example, notes section.'
+summary: 'Cancels the application cache download process. This method is intended to be used by Web applications showing their own caching progress UI, in case the user wants to stop the update (e.g., because bandwidth is limited).'
+uri: apis/appcache/ApplicationCache/abort
+
+---
+# abort
+
+## Summary
+
+Cancels the application cache download process. This method is intended to be used by Web applications showing their own caching progress UI, in case the user wants to stop the update (e.g., because bandwidth is limited).
+
+*Method of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)*
+
+## Syntax
+
+``` {.js}
+ window.applicationCache.abort();
+```
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#application-cache-api)
+:   W3C Editor's Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

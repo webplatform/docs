@@ -1,31 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Fires whenever the readyState of the request changes. Mostly used to determine whether the body of the response is available for handling.}}
-{{Event
-|Event_applies_to=apis/xhr/XMLHttpRequest
-|Synchronous=No
-|Bubbles=No
-|Target=apis/xhr/XMLHttpRequest
-|Cancelable=No
-|Default_action=
-|Content=
-|Interface=dom/objects/Event
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following script demonstrates how to set an asynchronous event handler that alerts the user when the '''readyState''' property of the request reaches complete (<code>4</code>). Note that you must set the event handler after calling '''open''', which resets all properties of the '''XMLHttpRequest''' object to their initial value.
-|Code=function reportStatus() {
-    if (xhr.readyState {{=}}{{=}} 4 /* complete */) {
-        if (xhr.status {{=}}{{=}} 200 {{!}}{{!}} xhr.status {{=}}{{=}} 304) {
+---
+title: readystatechange
+tags:
+  - Events
+  - API
+  - XHR
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Fires whenever the readyState of the request changes. Mostly used to determine whether the body of the response is available for handling.'
+uri: apis/xhr/XMLHttpRequest/readystatechange
+
+---
+# readystatechange
+
+## Summary
+
+Fires whenever the readyState of the request changes. Mostly used to determine whether the body of the response is available for handling.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:   apis/xhr/XMLHttpRequest
+Cancelable
+:   No
+Default action
+:
+
+## Examples
+
+The following script demonstrates how to set an asynchronous event handler that alerts the user when the **readyState** property of the request reaches complete (`4`). Note that you must set the event handler after calling **open**, which resets all properties of the **XMLHttpRequest** object to their initial value.
+
+``` {.js}
+function reportStatus() {
+    if (xhr.readyState == 4 /* complete */) {
+        if (xhr.status == 200 || xhr.status == 304) {
             console.log("Transfer complete.");
         }
         else {
@@ -33,99 +44,22 @@
         }
     }
 }
-var xhr {{=}} new XMLHttpRequest();
-xhr.open("GET", "<nowiki>http://localhost/test.xml</nowiki>", true);
-xhr.onreadystatechange {{=}} reportStatus;
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://localhost/test.xml", true);
+xhr.onreadystatechange = reportStatus;
 xhr.send();
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C XMLHttpRequest Specification
-|URL=http://www.w3.org/TR/XMLHttpRequest/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=
-|Chrome_supported=Yes
-|Chrome_version=23.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=
-|Android_supported=Yes
-|Android_version=3.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=5.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, XHR}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

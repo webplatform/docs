@@ -1,50 +1,40 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|[[apis/webaudio/WaveShaperNode|'''WaveShaperNode''']] is an [[apis/webaudio/AudioNode|'''AudioNode''']] processor implementing non-linear distortion effects. Non-linear waveshaping distortion is commonly used for both subtle non-linear warming, or for more obvious distortion effects.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: WaveShaperNode
+tags:
+  0: API
+  1: Objects
+  3: WebAudio
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'WaveShaperNode is an AudioNode processor implementing non-linear distortion effects. Non-linear waveshaping distortion is commonly used for both subtle non-linear warming, or for more obvious distortion effects.'
+uri: apis/webaudio/WaveShaperNode
+
+---
+# WaveShaperNode
+
+## Summary
+
+WaveShaperNode is an AudioNode processor implementing non-linear distortion effects. Non-linear waveshaping distortion is commonly used for both subtle non-linear warming, or for more obvious distortion effects.
+
+## Properties
+
+API Name
+:   Summary
+[curve](/apis/webaudio/WaveShaperNode/curve)
+:   The shaping curve used for the waveshaping effect. The input signal is nominally within the range -1 -\> +1. Each input sample within this range will index into the shaping curve with a signal level of zero corresponding to the center value of the curve array. Any sample value less than -1 will correspond to the first value in the curve array. Any sample value less greater than +1 will correspond to the last value in the curve array.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

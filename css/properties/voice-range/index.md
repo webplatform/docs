@@ -1,46 +1,52 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs usage, example
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The <code>voice-range</code> property determines how much variation in pitch or tone will be created by the speech synthesize when reading an element.  Emphasized text, grammatical structures and punctuation may all be rendered as changes in pitch, this property determines how strong or obvious those changes are; large ranges are associated with enthusiastic or emotional speech, while small ranges are associated with flat or mechanical speech.}}
-{{CSS Property
-|Initial value=medium
-|Media=speech
-|Values=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Speech Module
-|URL=http://www.w3.org/TR/css3-speech/#voice-props-voice-range
-|Status=W3C Candidate Recommendation
-}}{{Related Specification
-|Name=CSS 2.1, Appendix A. (Aural style sheets)
-|URL=http://www.w3.org/TR/CSS21/aural.html
-|Status=Deprecated
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|Accessibility, CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: voice-range
+tags:
+  - CSS
+  - Properties
+  - Accessibility
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Needs usage, example'
+summary: 'The voice-range property determines how much variation in pitch or tone will be created by the speech synthesize when reading an element.  Emphasized text, grammatical structures and punctuation may all be rendered as changes in pitch, this property determines how strong or obvious those changes are; large ranges are associated with enthusiastic or emotional speech, while small ranges are associated with flat or mechanical speech.'
+uri: css/properties/voice-range
+
+---
+# voice-range
+
+## Summary
+
+The voice-range property determines how much variation in pitch or tone will be created by the speech synthesize when reading an element. Emphasized text, grammatical structures and punctuation may all be rendered as changes in pitch, this property determines how strong or obvious those changes are; large ranges are associated with enthusiastic or emotional speech, while small ranges are associated with flat or mechanical speech.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `medium`
+Applies to
+:
+[Inherited](/css/concepts/inherited)
+:
+Media
+:   speech
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+## Values
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Speech Module](http://www.w3.org/TR/css3-speech/#voice-props-voice-range)
+:   W3C Candidate Recommendation
+[CSS 2.1, Appendix A. (Aural style sheets)](http://www.w3.org/TR/CSS21/aural.html)
+:   Deprecated
+

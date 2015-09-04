@@ -1,46 +1,41 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: angle
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/angle
 
-===Remarks===
+---
+# angle
 
-For angle values in properties and their corresponding presentation attributes, the angle unit identifier is optional. If you do not  the identifier, the angle value is treated as if it is in degrees. If you provide the identifier, the angle unit identifier must be in lowercase.
+## Notes
 
-When   you use angles  in an SVG attribute,  the '''angle''' property is defined as '''deg''' for degrees, '''grad''' for gradians, or '''rad''' for radians.
-In the SVG DOM, '''angle''' values are represented by using [[svg/objects/SVGAngle|'''SVGAngle''']] or [[svg/objects/SVGAnimatedAngle|'''SVGAnimatedAngle''']] objects.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+For angle values in properties and their corresponding presentation attributes, the angle unit identifier is optional. If you do not the identifier, the angle value is treated as if it is in degrees. If you provide the identifier, the angle unit identifier must be in lowercase.
 
-===Standards information===
+When you use angles in an SVG attribute, the **angle** property is defined as **deg** for degrees, **grad** for gradians, or **rad** for radians. In the SVG DOM, **angle** values are represented by using [**SVGAngle**](/svg/objects/SVGAngle) or [**SVGAnimatedAngle**](/svg/objects/SVGAnimatedAngle) objects.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.1
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.1
 
-*[[svg/objects/SVGPathSegArcAbs|'''SVGPathSegArcAbs''']]
-*[[svg/objects/SVGPathSegArcRel|'''SVGPathSegArcRel''']]
-*[[svg/objects/SVGTransform|'''SVGTransform''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGPathSegArcAbs**](/svg/objects/SVGPathSegArcAbs)
+-   [**SVGPathSegArcRel**](/svg/objects/SVGPathSegArcRel)
+-   [**SVGTransform**](/svg/objects/SVGTransform)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

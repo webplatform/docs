@@ -1,63 +1,93 @@
-{{Page_Title|break-after}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=Yes
-|Content=Examples Needed, Needs Summary
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The CSS break-after property allows you to force a break on multi-column layouts. More specifically, it allows you to force a break after an element. It allows you to determine if a break should occur, and what type of break it should be. The break-after CSS property describes how the page, column or region break behaves after the generated box. If there is no generated box, the property is ignored.}}
-{{CSS Property
-|Initial value=auto
-|Applies to=block-level elements
-|Inherited=No
-|Media=visual
-|Computed value=
-|Animatable=No
-|CSS object model property=breakAfter
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=auto
-|Description=Default. A page break or column break is determined  by the flow of content.
-}}{{CSS Property Value
-|Data Type=always
-|Description=A page/column/region break is inserted (forced) after the content block.
-}}{{CSS Property Value
-|Data Type=avoid
-|Description=A page/column/region break is not allowed after the content block.
-}}{{CSS Property Value
-|Data Type=left
-|Description=A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the "left" page that immediately follows the current page (according to the paging format of the document).
-}}{{CSS Property Value
-|Data Type=right
-|Description=A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the "right" page that immediately follows the current page (according to the paging format of the document).
-}}{{CSS Property Value
-|Data Type=page
-|Description=A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the page that immediately follows the current page (according to the paging format of the document).
-}}{{CSS Property Value
-|Data Type=column
-|Description=A column break is inserted (forced) after the content block.
-}}{{CSS Property Value
-|Data Type=avoid-page
-|Description=A page break is not allowed after the content block.
-}}{{CSS Property Value
-|Data Type=avoid-column
-|Description=A column break is not allowed after the content block.
-}}{{CSS Property Value
-|Data Type=region
-|Description=A [[css/concepts/region|region]] break is inserted (forced) after the content block.
-}}{{CSS Property Value
-|Data Type=avoid-region
-|Description=A [[css/concepts/region|region]] break is not allowed after the content block.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=
-|Code=/* forces top-level headings onto a new page, column, or region */
+---
+title: break-after
+tags:
+  0: CSS
+  1: Properties
+  3: CSS-Regions
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The CSS break-after property allows you to force a break on multi-column layouts. More specifically, it allows you to force a break after an element. It allows you to determine if a break should occur, and what type of break it should be. The break-after CSS property describes how the page, column or region break behaves after the generated box. If there is no generated box, the property is ignored.'
+code_samples:
+  - 'http://gist.github.com/7281550'
+uri: css/properties/break-after
+
+---
+# break-after
+
+## Summary
+
+The CSS break-after property allows you to force a break on multi-column layouts. More specifically, it allows you to force a break after an element. It allows you to determine if a break should occur, and what type of break it should be. The break-after CSS property describes how the page, column or region break behaves after the generated box. If there is no generated box, the property is ignored.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `auto`
+Applies to
+:   block-level elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `breakAfter`
+
+## Syntax
+
+-   `break-after: always`
+-   `break-after: auto`
+-   `break-after: avoid`
+-   `break-after: avoid-column`
+-   `break-after: avoid-page`
+-   `break-after: avoid-region`
+-   `break-after: column`
+-   `break-after: left`
+-   `break-after: page`
+-   `break-after: region`
+-   `break-after: right`
+
+## Values
+
+auto
+:   Default. A page break or column break is determined by the flow of content.
+
+always
+:   A page/column/region break is inserted (forced) after the content block.
+
+avoid
+:   A page/column/region break is not allowed after the content block.
+
+left
+:   A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the "left" page that immediately follows the current page (according to the paging format of the document).
+
+right
+:   A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the "right" page that immediately follows the current page (according to the paging format of the document).
+
+page
+:   A page break is inserted (forced) after the content block, causing the flow of content to continue in the first column of the page that immediately follows the current page (according to the paging format of the document).
+
+column
+:   A column break is inserted (forced) after the content block.
+
+avoid-page
+:   A page break is not allowed after the content block.
+
+avoid-column
+:   A column break is not allowed after the content block.
+
+region
+:   A [region](/css/concepts/region) break is inserted (forced) after the content block.
+
+avoid-region
+:   A [region](/css/concepts/region) break is not allowed after the content block.
+
+## Examples
+
+``` {.css}
+/* forces top-level headings onto a new page, column, or region */
 h1 {
     break-before: always;
 }
@@ -68,16 +98,15 @@ h2, h3 {
     break-after: avoid;
     break-inside: avoid;
 }
-|LiveURL=
-}}{{Single Example
-|Language=CSS
-|Description=
-|Code=.multicol {
+```
+
+``` {.css}
+.multicol {
 background-color:lightyellow;
 padding:20px;
 
 /* CSS3 */
-column-count: 3; 
+column-count: 3;
 column-rule: 5px dotted coral;
 vertical-align:text-top;
 }
@@ -85,85 +114,174 @@ vertical-align:text-top;
 .multicol hr {
 break-after: column;
 }
-|LiveURL=http://code.webplatform.org/gist/7281550
-}}
-}}
-{{Notes_Section
-|Usage=The break-after property is not supported for absolutely positioned elements.
+```
 
-This property replaces separate '''column-break-after''', '''page-break-after''', and '''region-break-after''' properties, which may still be present in some browser implementations.
-|Notes=The break-after property is ignored if there is no generated box or flows defined. So most of the times, you have to define a flow of content to test the property.
-|Import_Notes=Each possible break point, that is each element boundary, is under the influence of three properties, the break-after value of the previous element, the break-before value of the next element and the break-inside of the containing element.
+[View live example](http://code.webplatform.org/gist/7281550)
+
+## Usage
+
+     The break-after property is not supported for absolutely positioned elements.
+
+This property replaces separate **column-break-after**, **page-break-after**, and **region-break-after** properties, which may still be present in some browser implementations.
+
+## Notes
+
+The break-after property is ignored if there is no generated box or flows defined. So most of the times, you have to define a flow of content to test the property.
+
+Each possible break point, that is each element boundary, is under the influence of three properties, the break-after value of the previous element, the break-before value of the next element and the break-inside of the containing element.
 
 To define if a break must be done, the following rules are applied:
 
 If any of the three concerned values is a forced break value, that is always, left, right, page, column or region, it has precedence. If several of the concerned values is such a break, the one of the element that appears the latest in the flow is taken (that is the break-before value has precedence over the break-after value, which itself has precedence over the break-inside value).
 
 If any of the three concerned values is an avoid break value, that is avoid, avoid-page, avoid-region, avoid-column, no such break will be applied at that point.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Regions Module Level 1
-|URL=http://www.w3.org/TR/css3-regions/#region-flow-break
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Multi-Column, Regions
-|Manual_links=* [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>address</code>
-*<code>blockQuote</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>fieldSet</code>
-*<code>form</code>
-*<code>noFrames</code>
-*<code>noScript</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>pre</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>ul</code>
-*<code>dd</code>
-*<code>dt</code>
-*<code>li</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>button</code>
-*<code>del</code>
-*<code>ins</code>
-*<code>map</code>
-*<code>object</code>
-*<code>script</code>
-*<code>Reference</code>
-*<code>[[css/properties/break-before|breakBefore]]</code>
-*<code>[[css/properties/break-inside|breakInside]]</code>
-}}
-{{Topics|CSS, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/#region-flow-break)
+:   W3C Working Draft
+
+## See also
+
+### Related articles
+
+#### Multi-Column
+
+-   **break-after**
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [column-count](/css/properties/column-count)
+
+-   [column-gap](/css/properties/column-gap)
+
+-   [column-rule](/css/properties/column-rule)
+
+-   [column-rule-color](/css/properties/column-rule-color)
+
+-   [column-rule-style](/css/properties/column-rule-style)
+
+-   [column-rule-width](/css/properties/column-rule-width)
+
+-   [column-span](/css/properties/column-span)
+
+-   [column-width](/css/properties/column-width)
+
+-   [content](/css/properties/content)
+
+#### Regions
+
+-   [CSS Regions API](/apis/css-regions)
+
+-   [CSSRegionStyleRule](/apis/css-regions/CSSRegionStyleRule)
+
+-   [NamedFlow](/apis/css-regions/NamedFlow)
+
+-   [firstEmptyRegionIndex](/apis/css-regions/NamedFlow/firstEmptyRegionIndex)
+
+-   [getContent()](/apis/css-regions/NamedFlow/getContent)
+
+-   [getRegions()](/apis/css-regions/NamedFlow/getRegions)
+
+-   [getRegionsByContent()](/apis/css-regions/NamedFlow/getRegionsByContent)
+
+-   [name](/apis/css-regions/NamedFlow/name)
+
+-   [overset](/apis/css-regions/NamedFlow/overset)
+
+-   [regionfragmentchange](/apis/css-regions/NamedFlow/regionfragmentchange)
+
+-   [regionoversetchange](/apis/css-regions/NamedFlow/regionoversetchange)
+
+-   [NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
+
+-   [namedItem()](/apis/css-regions/NamedFlowCollection/namedItem)
+
+-   [Region](/apis/css-regions/Region)
+
+-   [getComputedRegionStyle()](/apis/css-regions/Region/getComputedRegionStyle)
+
+-   [getRegionFlowRanges()](/apis/css-regions/Region/getRegionFlowRanges)
+
+-   [regionOverset](/apis/css-regions/Region/regionOverset)
+
+-   [@region](/css/atrules/@region)
+
+-   [content fragments](/css/concepts/fragment)
+
+-   [named flows](/css/concepts/named_flow)
+
+-   [overset content](/css/concepts/overset)
+
+-   [regions](/css/concepts/region)
+
+-   [region chains](/css/concepts/region_chain)
+
+-   **break-after**
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [flow-from](/css/properties/flow-from)
+
+-   [flow-into](/css/properties/flow-into)
+
+### Other articles
+
+-   [Using CSS Regions to flow content through a layout](/tutorials/css-regions)
+
+### External resources
+
+-   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
+-   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
+-   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
+-   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `style`
+-   `address`
+-   `blockQuote`
+-   `div`
+-   `dl`
+-   `fieldSet`
+-   `form`
+-   `noFrames`
+-   `noScript`
+-   `ol`
+-   `p`
+-   `pre`
+-   `table`
+-   `ul`
+-   `dd`
+-   `dt`
+-   `li`
+-   `tBody`
+-   `td`
+-   `tFoot`
+-   `th`
+-   `tHead`
+-   `tr`
+-   `button`
+-   `del`
+-   `ins`
+-   `map`
+-   `object`
+-   `script`
+-   `Reference`
+-   `breakBefore`
+-   `breakInside`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

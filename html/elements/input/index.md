@@ -1,58 +1,78 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category, Parent, Children and Compatibility information.
-Is <code>size="20,5"</code> valid?
-|Checked_Out=No
-|Content=Broken Links, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The '''input''' element (&lt;input/&gt;) is a multipurpose element for representing form widgets. The type of widget depends on the <code>type</code> attribute.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLInputElement
-|Tag_omissions=No closing tag (self-closing)
-|CSS_display=inline
-|Content=<!-- HTML Element Categories: flow phrasing interactive
--->
+---
+title: input
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - "Add Category, Parent, Children and Compatibility information.\nIs size=\"20,5\" valid?"
+summary: 'The input element (<input/>) is a multipurpose element for representing form widgets. The type of widget depends on the type attribute.'
+code_samples:
+  - 'http://gist.github.com/6364130'
+uri: html/elements/input
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/attributes/dirname
+    - html/attributes/formaction
+    - html/attributes/formenctype
+    - html/attributes/formmethod
+    - html/attributes/formnovalidate
+    - html/attributes/value
 
-The input element behavior varies depending on the value of its [[html/elements/input/type|type]] attribute:
-* [[html/elements/input/type/button|type=button]]
-* [[html/elements/input/type/checkbox|type=checkbox]]
-* [[html/elements/input/type/color|type=color]]
-* [[html/elements/input/type/date|type=date]]
-* [[html/elements/input/type/datetime-local|type=datetime-local]]
-* [[html/elements/input/type/email|type=email]]
-* [[html/elements/input/type/file|type=file]]
-* [[html/elements/input/type/hidden|type=hidden]]
-* [[html/elements/input/type/image|type=image]]
-* [[html/elements/input/type/month|type=month]]
-* [[html/elements/input/type/number|type=number]]
-* [[html/elements/input/type/password|type=password]]
-* [[html/elements/input/type/radio|type=radio]]
-* [[html/elements/input/type/range|type=range]]
-* [[html/elements/input/type/reset|type=reset]]
-* [[html/elements/input/type/time|type=time]]
-* [[html/elements/input/type/search|type=search]]
-* [[html/elements/input/type/submit|type=submit]]
-* [[html/elements/input/type/tel|type=tel]]
-* '''[[html/elements/input/type/text|type=text]]''' (default if type is not set or empty)
-* [[html/elements/input/type/url|type=url]]
-* [[html/elements/input/type/week|type=week]]
+---
+# input
 
-Other valid attributes for the input element are <code>[[html/attributes/accept|accept]]</code>, <code>[[html/attributes/alt|alt]]</code>, <code>[[html/attributes/autocomplete|autocomplete]]</code>, <code>[[html/attributes/autofocus|autofocus]]</code>, <code>[[html/attributes/checked|checked]]</code>, <code>[[html/attributes/dirname|dirname]]</code>, <code>[[html/attributes/disabled|disabled]]</code>, <code>[[html/attributes/form|form]]</code>, <code>[[html/attributes/formaction|formaction]]</code>, <code>[[html/attributes/formenctype|formenctype]]</code>, <code>[[html/attributes/formmethod|formmethod]]</code>, <code>[[html/attributes/formnovalidate|formnovalidate]]</code>, <code>[[html/attributes/formtarget|formtarget]]</code>, <code>[[html/attributes/height|height]]</code>, <code>[[html/attributes/list|list]]</code>, <code>[[html/attributes/max_(HTMLInputElement)|max]]</code>, <code>[[html/attributes/maxLength|maxlength]]</code>, <code>[[html/attributes/min|min]]</code>, <code>[[html/attributes/multiple|multiple]]</code>, <code>[[html/attributes/name|name]]</code>, <code>[[html/attributes/pattern|pattern]]</code>, <code>[[html/attributes/placeholder|placeholder]]</code>, <code>[[html/attributes/readonly|readonly]]</code>, <code>[[html/attributes/required|required]]</code>, <code>[[html/attributes/size|size]]</code>, <code>[[html/attributes/src|src]]</code>, <code>[[html/attributes/step|step]]</code>, <code>[[html/attributes/value|value]]</code>, <code>[[html/attributes/width|width]]</code>, and global element attributes. Note that some attributes do not apply for certain types.
+## Summary
 
-Internationalization topics related to the <code>input</code> element:
-* [http://www.w3.org/International/techniques/authoring-html#formdir Managing text direction in form controls]
-* [http://www.w3.org/International/techniques/authoring-html#localdata Working with date formats]
-* [http://www.w3.org/International/techniques/authoring-html#localnames Working with personal names]
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''input''' element to create different types of input controls.
-|Code=<nowiki><form action="http://example.org/survey" method="post">
+The input element (\<input/\>) is a multipurpose element for representing form widgets. The type of widget depends on the type attribute.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLInputElement](/dom/HTMLInputElement)
+
+The input element behavior varies depending on the value of its [type](/html/elements/input/type) attribute:
+
+-   [type=button](/html/elements/input/type/button)
+-   [type=checkbox](/html/elements/input/type/checkbox)
+-   [type=color](/html/elements/input/type/color)
+-   [type=date](/html/elements/input/type/date)
+-   [type=datetime-local](/html/elements/input/type/datetime-local)
+-   [type=email](/html/elements/input/type/email)
+-   [type=file](/html/elements/input/type/file)
+-   [type=hidden](/html/elements/input/type/hidden)
+-   [type=image](/html/elements/input/type/image)
+-   [type=month](/html/elements/input/type/month)
+-   [type=number](/html/elements/input/type/number)
+-   [type=password](/html/elements/input/type/password)
+-   [type=radio](/html/elements/input/type/radio)
+-   [type=range](/html/elements/input/type/range)
+-   [type=reset](/html/elements/input/type/reset)
+-   [type=time](/html/elements/input/type/time)
+-   [type=search](/html/elements/input/type/search)
+-   [type=submit](/html/elements/input/type/submit)
+-   [type=tel](/html/elements/input/type/tel)
+-   **[type=text](/html/elements/input/type/text)** (default if type is not set or empty)
+-   [type=url](/html/elements/input/type/url)
+-   [type=week](/html/elements/input/type/week)
+
+Other valid attributes for the input element are `accept`, `alt`, `autocomplete`, `autofocus`, `checked`, `dirname`, `disabled`, `form`, `formaction`, `formenctype`, `formmethod`, `formnovalidate`, `formtarget`, `height`, `list`, `max`, `maxlength`, `min`, `multiple`, `name`, `pattern`, `placeholder`, `readonly`, `required`, `size`, `src`, `step`, `value`, `width`, and global element attributes. Note that some attributes do not apply for certain types.
+
+Internationalization topics related to the `input` element:
+
+-   [Managing text direction in form controls](http://www.w3.org/International/techniques/authoring-html#formdir)
+-   [Working with date formats](http://www.w3.org/International/techniques/authoring-html#localdata)
+-   [Working with personal names](http://www.w3.org/International/techniques/authoring-html#localnames)
+
+## Examples
+
+This example uses the **input** element to create different types of input controls.
+
+``` {.html}
+<form action="http://example.org/survey" method="post">
 <p>Name</p>
 <br/><input name="control1" type="text" value="Your Name"/>
 <p>Password</p>
@@ -65,47 +85,151 @@ Internationalization topics related to the <code>input</code> element:
 <br/><input type="text" name="control4" size="20,5" maxlength="250"/>
 <p><input name="control5" type=checkbox checked>Send receipt</p>
 <p><input type="submit" value="OK"/><input type="reset" value="reset"/></p>
-</form></nowiki>
-|LiveURL=http://code.webplatform.org/gist/6364130
-}}
-}}
-{{Notes_Section
-|Usage=To cater for international users see: [http://www.w3.org/International/techniques/authoring-html#form-dir Managing text direction in form controls]
-|Notes=For code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
+</form>
+```
 
-Firefox will, unlike other browsers, by default, [http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing persist the dynamic disabled state and (if applicable) dynamic checkedness] of an '''input''' across page loads. Setting the value of the <code>autocomplete</code> attribute to <code>off</code> disables this feature; this works even when the <code>autocomplete</code> attribute would normally not apply to the '''input''' by virtue of its <code>type</code>. See [https://bugzilla.mozilla.org/show_bug.cgi?id=654072 Mozilla bug #654072].
+[View live example](http://code.webplatform.org/gist/6364130)
 
-Safari Mobile for iOS applies a default style of [[css/properties/opacity|<code>opacity</code>]]<code>: 0.4</code> to disabled textual '''input''' elements. Other major browsers don't currently share this particular default style.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/forms.html#the-input-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/forms.html#the-input-element
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/interact/forms.html#edef-INPUT
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|External_links=http://www.w3.org/TR/html-markup/input.html#input
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## Usage
+
+     To cater for international users see: Managing text direction in form controls
+
+## Notes
+
+For code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
+
+Firefox will, unlike other browsers, by default, [persist the dynamic disabled state and (if applicable) dynamic checkedness](http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing) of an **input** across page loads. Setting the value of the `autocomplete` attribute to `off` disables this feature; this works even when the `autocomplete` attribute would normally not apply to the **input** by virtue of its `type`. See [Mozilla bug \#654072](https://bugzilla.mozilla.org/show_bug.cgi?id=654072).
+
+Safari Mobile for iOS applies a default style of [`opacity`](/css/properties/opacity)`: 0.4` to disabled textual **input** elements. Other major browsers don't currently share this particular default style.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-input-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/forms.html#the-input-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-INPUT)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+### External resources
+
+[http://www.w3.org/TR/html-markup/input.html\#input](http://www.w3.org/TR/html-markup/input.html#input)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

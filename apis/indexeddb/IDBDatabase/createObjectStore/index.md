@@ -1,44 +1,65 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Proposed Recommendation}}
-{{API_Name}}
-{{Summary_Section|The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a "versionchange" transaction.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=name
-|Data type=String
-|Description=The name of the object store to be created.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=optionalParameters
-|Data type=DOM Node
-|Description=An object literal containing one or more of the following attributes:
-* '''keyPath''': specifies the key path of the new object store. If the attribute is null, no key path is specified. In this case the key isn't an attribute of the object stored in the value
-* '''autoIncrement''': specifies whether the object store should have a key generator. If a key generator is present, the key will be automatically incremented when objects get inserted.
-|Optional=Yes
-}}
-|Method_applies_to=apis/indexeddb/IDBDatabase
-|Example_object_name=IDBDatabase
-|Return_value_name=IDBObjectStore
-|Javascript_data_type=DOM Node
-|Return_value_description=[[apis/indexeddb/IDBObjectStore|'''IDBObjectStore''']]
+---
+title: createObjectStore
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: IndexedDB
+readiness: 'Ready to Use'
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a "versionchange" transaction.'
+code_samples:
+  - 'http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#createObjectStore&'
+uri: apis/indexeddb/IDBDatabase/createObjectStore
+
+---
+# createObjectStore
+
+## Summary
+
+The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a "versionchange" transaction.
+
+*Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)*
+
+## Syntax
+
+``` {.js}
+var IDBObjectStore = IDBDatabase.createObjectStore(name, optionalParameters);
+```
+
+## Parameters
+
+### name
+
+ Data-typeÂ
+:   String
+
+ The name of the object store to be created.
+
+### optionalParameters
+
+ Data-typeÂ
+:   DOM Node
+
+*(Optional)*
+
+An object literal containing one or more of the following attributes:
+
+-   **keyPath**: specifies the key path of the new object store. If the attribute is null, no key path is specified. In this case the key isn't an attribute of the object stored in the value
+-   **autoIncrement**: specifies whether the object store should have a key generator. If a key generator is present, the key will be automatically incremented when objects get inserted.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+[**IDBObjectStore**](/apis/indexeddb/IDBObjectStore)
 
 An object representing the new object store.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=// the db object was opened in the upgradeNeeded method
+
+## Examples
+
+``` {.js}
+// the db object was opened in the upgradeNeeded method
 try {
   var objectStore = db.createObjectStore("ObjectStore_BookList", {
     "keyPath": "id",
@@ -48,43 +69,28 @@ try {
 } catch (e) {
   write("Error occured", e);
 }â€‹
-|LiveURL=http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#createObjectStore&
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=The method throws an exception if 
+```
 
-* This method was not called from a "versionchange" transaction. Also occurs if a request is made on a source object that has been deleted or removed.
-* If an object store with the same name, compared in a case-sensitive manner, already exists in the connected database.
-* If autoIncrement is set to true, and keyPath either is the empty string, or an Array containing the empty string.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Proposed Recommendation
-|URL=http://www.w3.org/TR/IndexedDB/
-|Status=W3C Proposed Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+[View live example](http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#createObjectStore&)
+
+## Notes
+
+The method throws an exception if
+
+-   This method was not called from a "versionchange" transaction. Also occurs if a request is made on a source object that has been deleted or removed.
+-   If an object store with the same name, compared in a case-sensitive manner, already exists in the connected database.
+-   If autoIncrement is set to true, and keyPath either is the empty string, or an Array containing the empty string.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Proposed Recommendation](http://www.w3.org/TR/IndexedDB/)
+:   W3C Proposed Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

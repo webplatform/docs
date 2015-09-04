@@ -1,28 +1,77 @@
-{{Page_Title|SVG DOM objects}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add introduction to SVG DOM objects
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|List of all pages in svg/objects/}}
-{{API_Listing|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Concept_Listing
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Import_Notes===All Pages==
-{{Page_Index_Listing}}
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: objects
+tags:
+  - API
+  - Listings
+readiness: 'Not Ready'
+notes:
+  - 'Add introduction to SVG DOM objects'
+summary: 'List of all pages in svg/objects/'
+uri: svg/objects
+
+---
+# SVG DOM objects
+
+## Summary
+
+List of all pages in svg/objects/
+
+## All Pages
+
+-   [SVGAngle](/svg/objects/SVGAngle)
+-   [SVGAnimatedAngle](/svg/objects/SVGAnimatedAngle)
+-   [SVGAnimatedBoolean](/svg/objects/SVGAnimatedBoolean)
+-   [SVGAnimatedEnumeration](/svg/objects/SVGAnimatedEnumeration)
+-   [SVGAnimatedInteger](/svg/objects/SVGAnimatedInteger)
+-   [SVGAnimatedLength](/svg/objects/SVGAnimatedLength)
+-   [SVGAnimatedLengthList](/svg/objects/SVGAnimatedLengthList)
+-   [SVGAnimatedNumber](/svg/objects/SVGAnimatedNumber)
+-   [SVGAnimatedNumberList](/svg/objects/SVGAnimatedNumberList)
+-   [SVGAnimatedPreserveAspectRatio](/svg/objects/SVGAnimatedPreserveAspectRatio)
+-   [SVGAnimatedRect](/svg/objects/SVGAnimatedRect)
+-   [SVGAnimatedString](/svg/objects/SVGAnimatedString)
+-   [SVGAnimatedStringNS](/svg/objects/SVGAnimatedStringNS)
+-   [SVGAnimatedTransformList](/svg/objects/SVGAnimatedTransformList)
+-   [SVGComponentTransferFunctionElement](/svg/objects/SVGComponentTransferFunctionElement)
+-   [SVGElement](/svg/objects/SVGElement)
+-   [SVGElementInstance](/svg/objects/SVGElementInstance)
+-   [SVGElementInstanceList](/svg/objects/SVGElementInstanceList)
+-   [SVGException](/svg/objects/SVGException)
+-   [SVGLength](/svg/objects/SVGLength)
+-   [SVGLengthList](/svg/objects/SVGLengthList)
+-   [SVGMatrix](/svg/objects/SVGMatrix)
+-   [SVGNumber](/svg/objects/SVGNumber)
+-   [SVGNumberList](/svg/objects/SVGNumberList)
+-   [SVGPath](/svg/objects/SVGPath)
+-   [SVGPathSeg](/svg/objects/SVGPathSeg)
+-   [SVGPathSegArcAbs](/svg/objects/SVGPathSegArcAbs)
+-   [SVGPathSegArcRel](/svg/objects/SVGPathSegArcRel)
+
+-   [SVGPathSegClosePath](/svg/objects/SVGPathSegClosePath)
+-   [SVGPathSegCurvetoCubicAbs](/svg/objects/SVGPathSegCurvetoCubicAbs)
+-   [SVGPathSegCurvetoCubicRel](/svg/objects/SVGPathSegCurvetoCubicRel)
+-   [SVGPathSegCurvetoCubicSmoothAbs](/svg/objects/SVGPathSegCurvetoCubicSmoothAbs)
+-   [SVGPathSegCurvetoCubicSmoothRel](/svg/objects/SVGPathSegCurvetoCubicSmoothRel)
+-   [SVGPathSegCurvetoQuadraticAbs](/svg/objects/SVGPathSegCurvetoQuadraticAbs)
+-   [SVGPathSegCurvetoQuadraticRel](/svg/objects/SVGPathSegCurvetoQuadraticRel)
+-   [SVGPathSegCurvetoQuadraticSmoothAbs](/svg/objects/SVGPathSegCurvetoQuadraticSmoothAbs)
+-   [SVGPathSegCurvetoQuadraticSmoothRel](/svg/objects/SVGPathSegCurvetoQuadraticSmoothRel)
+-   [SVGPathSegLinetoAbs](/svg/objects/SVGPathSegLinetoAbs)
+-   [SVGPathSegLinetoHorizontalAbs](/svg/objects/SVGPathSegLinetoHorizontalAbs)
+-   [SVGPathSegLinetoHorizontalRel](/svg/objects/SVGPathSegLinetoHorizontalRel)
+-   [SVGPathSegLinetoRel](/svg/objects/SVGPathSegLinetoRel)
+-   [SVGPathSegLinetoVerticalAbs](/svg/objects/SVGPathSegLinetoVerticalAbs)
+-   [SVGPathSegLinetoVerticalRel](/svg/objects/SVGPathSegLinetoVerticalRel)
+-   [SVGPathSegList](/svg/objects/SVGPathSegList)
+-   [SVGPathSegMovetoAbs](/svg/objects/SVGPathSegMovetoAbs)
+-   [SVGPathSegMovetoRel](/svg/objects/SVGPathSegMovetoRel)
+-   [SVGPoint](/svg/objects/SVGPoint)
+-   [SVGPointList](/svg/objects/SVGPointList)
+-   [SVGPreserveAspectRatio](/svg/objects/SVGPreserveAspectRatio)
+-   [SVGRect](/svg/objects/SVGRect)
+-   [SVGStringList](/svg/objects/SVGStringList)
+-   [SVGTransform](/svg/objects/SVGTransform)
+-   [SVGTransformList](/svg/objects/SVGTransformList)
+-   [SVGZoom](/svg/objects/SVGZoom)
+-   [SVGZoomAndPan](/svg/objects/SVGZoomAndPan)
+

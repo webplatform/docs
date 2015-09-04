@@ -1,147 +1,111 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Last Call Working Draft}}
-{{API_Name}}
-{{Summary_Section|The '''FileReader''' object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using File or Blob objects to specify the file or data to read. File objects may be obtained from a FileList object returned as a result of a user selecting files using the ''input'' element, from a drag-and-drop operation's ''DataTransfer'' object, or from the ''mozGetAsFile() API'' on an ''HTMLCanvasElement''.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=Preview an image before upload
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta content=&quot;text/html; charset=UTF-8&quot; http-equiv=&quot;Content-Type&quot; /&gt;
-&lt;title&gt;Image preview example&lt;/title&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
+---
+title: FileReader
+tags:
+  0: API
+  1: Objects
+  3: FileAPI
+readiness: 'Ready to Use'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'The FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user''s computer, using File or Blob objects to specify the file or data to read. File objects may be obtained from a FileList object returned as a result of a user selecting files using the input element, from a drag-and-drop operation''s DataTransfer object, or from the mozGetAsFile() API on an HTMLCanvasElement.'
+code_samples:
+  - 'https://developer.mozilla.org/files/3698/image_upload_preview.html'
+uri: apis/file/FileReader
+
+---
+# FileReader
+
+## Summary
+
+The FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using File or Blob objects to specify the file or data to read. File objects may be obtained from a FileList object returned as a result of a user selecting files using the input element, from a drag-and-drop operation's DataTransfer object, or from the mozGetAsFile() API on an HTMLCanvasElement.
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+API Name
+:   Summary
+[abort](/apis/file/FileReader/abort)
+:   The abort method is used to aborts the read operation. Upon return, the [dom/Element/readyState](/dom/Element/readyState) will be *DONE*.
+[readAsArrayBuffer](/apis/file/FileReader/readAsArrayBuffer)
+:   Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), as an ArrayBuffer object, a fixed-length binary data buffer.
+[readAsDataURL](/apis/file/FileReader/readAsDataURL)
+:   Returns the complete data of blob as a Data URL, essentially a Base64-encoded string of the file data.
+[readAsText](/apis/file/FileReader/readAsText)
+:   Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.
+
+## Events
+
+*No events.*
+
+## Examples
+
+Preview an image before upload
+
+``` {.html}
+<!doctype html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<title>Image preview example</title>
+<script type="text/javascript">
 oFReader = new FileReader(), rFilter = 'image/jpg';
- 
+
 oFReader.onload = function (oFREvent) {
-  document.getElementById(&quot;uploadPreview&quot;).src = oFREvent.target.result;
+  document.getElementById("uploadPreview").src = oFREvent.target.result;
 };
- 
+
 function loadImageFile() {
-  if (document.getElementById(&quot;uploadImage&quot;).files.length === 0) { return; }
-  var oFile = document.getElementById(&quot;uploadImage&quot;).files[0];
-  if (!rFilter.test(oFile.type)) { alert(&quot;You must select a valid image file!&quot;); return; }
+  if (document.getElementById("uploadImage").files.length === 0) { return; }
+  var oFile = document.getElementById("uploadImage").files[0];
+  if (!rFilter.test(oFile.type)) { alert("You must select a valid image file!"); return; }
   oFReader.readAsDataURL(oFile);
 }
-&lt;/script&gt;
-&lt;/head&gt;
- 
-&lt;body onload=&quot;loadImageFile();&quot;&gt;
-  &lt;form name=&quot;uploadForm&quot;&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;&lt;img id=&quot;uploadPreview&quot; style=&quot;width: 100px; height: 100px;&quot; src=&quot;&quot; alt=&quot;Image preview&quot; /&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;input id=&quot;uploadImage&quot; type=&quot;file&quot; name=&quot;myPhoto&quot; onchange=&quot;loadImageFile();&quot; /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
- 
-    &lt;p&gt;&lt;input type=&quot;submit&quot; value=&quot;Send&quot; /&gt;&lt;/p&gt;
-  &lt;/form&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=https://developer.mozilla.org/files/3698/image_upload_preview.html
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=When the <code>FileReader</code> constructor is invoked, a new FileReader object is returned. This FileReader object enables asynchronous reads on individual File objects by firing progress events as the read occurs to event handler methods attached to the FileReader object.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C File API Specification
-|URL=http://www.w3.org/TR/FileAPI
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=[https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications Using files from web applications]
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/FileReader FileReader]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772310(v=vs.85).aspx fileReader Object]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome_supported=Yes
-|Chrome_version=22.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=15.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=6.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Basic Support
-|Android_supported=Yes
-|Android_version=3.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=10.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=6.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+</script>
+</head>
+
+<body onload="loadImageFile();">
+  <form name="uploadForm">
+    <table>
+      <tbody>
+        <tr>
+          <td><img id="uploadPreview" style="width: 100px; height: 100px;" src="" alt="Image preview" /></td>
+          <td><input id="uploadImage" type="file" name="myPhoto" onchange="loadImageFile();" /></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><input type="submit" value="Send" /></p>
+  </form>
+</body>
+</html>
+```
+
+[View live example](https://developer.mozilla.org/files/3698/image_upload_preview.html)
+
+## Notes
+
+When the `FileReader` constructor is invoked, a new FileReader object is returned. This FileReader object enables asynchronous reads on individual File objects by firing progress events as the read occurs to event handler methods attached to the FileReader object.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C File API Specification](http://www.w3.org/TR/FileAPI)
+:   W3C Working Draft
+
+## See also
+
+### Other articles
+
+[Using files from web applications](https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[fileReader Object](http://msdn.microsoft.com/en-us/library/ie/hh772310(v=vs.85).aspx) Article]
+

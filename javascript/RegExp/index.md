@@ -1,58 +1,65 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=Todo: Replace manual properties and methods tables with generated tables.
-|Checked_Out=No
-}}
-{{Summary_Section|An intrinsic global object that stores information about the results of regular expression pattern matches.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format='''RegExp'''.property
-}}
-|Values=
-}}
-{{JS_Return_Value
-|Description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example performs a regular expression search. It displays matches and submatches from the global <code>RegExp</code> object, and from the array that is returned by the <code>exec</code> method.
-|Code=var newLine = "&lt;br /&gt;";
- 
+---
+title: RegExp
+tags:
+  0: JS
+  1: Basic
+  3: Object
+readiness: 'Ready to Use'
+notes:
+  - 'Todo: Replace manual properties and methods tables with generated tables.'
+summary: 'An intrinsic global object that stores information about the results of regular expression pattern matches.'
+uri: javascript/RegExp
+
+---
+# RegExp
+
+## Summary
+
+An intrinsic global object that stores information about the results of regular expression pattern matches.
+
+## Syntax
+
+    RegExp.property
+
+## Examples
+
+The following example performs a regular expression search. It displays matches and submatches from the global `RegExp` object, and from the array that is returned by the `exec` method.
+
+``` {.js}
+var newLine = "<br />";
+
  var re = /(\w+)@(\w+)\.(\w+)/g
  var src = "Please send mail to george@contoso.com and someone@example.com. Thanks!"
- 
+
  var result;
  var s = "";
- 
+
  // Get the first match.
  result = re.exec(src);
- 
- while (result != null) {
+
+ while (result != null) {
      // Show the entire match.
      s += newLine;
- 
+
      // Show the match and submatches from the RegExp global object.
      s += "RegExp.lastMatch: " + RegExp.lastMatch + newLine;
      s += "RegExp.: " + RegExp. + newLine;
      s += "RegExp.: " + RegExp. + newLine;
      s += "RegExp.: " + RegExp. + newLine;
- 
+
      // Show the match and submatches from the array that is returned
      // by the exec method.
-     for (var index = 0; index &lt; result.length; index++) {
+     for (var index = 0; index < result.length; index++) {
          s +=  index + ": ";
          s += result[index];
          s += newLine;
      }
- 
+
      // Get the next match.
      result = re.exec(src);
  }
  document.write(s);
- 
+
  // Output:
  //  RegExp.lastMatch: george@contoso.com
  //  RegExp.: george
@@ -62,7 +69,7 @@
  //  1: george
  //  2: contoso
  //  3: com
- 
+
  //  RegExp.lastMatch: someone@example.com
  //  RegExp.: someone
  //  RegExp.: example
@@ -71,114 +78,107 @@
  //  1: someone
  //  2: example
  //  3: com
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=The required property argument can be any one of the <code>RegExp</code> object properties.
+```
 
-The <code>RegExp</code> object cannot be created directly, but is always available for use. Until a successful regular expression search has been completed, the initial values of the various properties of the <code>RegExp</code> object are as follows:
+## Remarks
 
-{{{!}} class='wikitable'
-{{!}}-
-! Property
-! Shorthand
-! Initial Value
-{{!}}-
-{{!}} [[javascript/RegExp/index|index]]
-{{!}} -1
-{{!}} (none)
-{{!}}-
-{{!}} [[javascript/RegExp/input|input]]
-{{!}} $_
-{{!}} Empty string.
-{{!}}-
-{{!}} [[javascript/RegExp/lastIndex|lastIndex]]
-{{!}} -1
-{{!}} (none)
-{{!}}-
-{{!}} [[javascript/RegExp/lastMatch|lastMatch]]
-{{!}} $&amp;
-{{!}} Empty string.
-{{!}}-
-{{!}} [[javascript/RegExp/lastParen|lastParen]]
-{{!}} $+
-{{!}} Empty string.
-{{!}}-
-{{!}} [[javascript/RegExp/leftContext|leftContext]]
-{{!}} $`
-{{!}} Empty string.
-{{!}}-
-{{!}} [[javascript/RegExp/rightContext|rightContext]]
-{{!}} $'
-{{!}} Empty string.
-{{!}}-
-{{!}} [[javascript/RegExp/1_9_Properties|$1 - $9]]
-{{!}} $1 - $9
-{{!}} Empty string.
-{{!}}} 
+The required property argument can be any one of the `RegExp` object properties.
+
+The `RegExp` object cannot be created directly, but is always available for use. Until a successful regular expression search has been completed, the initial values of the various properties of the `RegExp` object are as follows:
+
+Property
+:   Shorthand
+[index](/javascript/RegExp/index)
+:   -1
+[input](/javascript/RegExp/input)
+:   \$\_
+[lastIndex](/javascript/RegExp/lastIndex)
+:   -1
+[lastMatch](/javascript/RegExp/lastMatch)
+:   \$&
+[lastParen](/javascript/RegExp/lastParen)
+:   \$+
+[leftContext](/javascript/RegExp/leftContext)
+:   \$\`
+[rightContext](/javascript/RegExp/rightContext)
+:   \$'
+[\$1 - \$9](/javascript/RegExp/1_9_Properties)
+:   \$1 - \$9
+
 Its properties have undefined as their value until a successful regular expression search has been completed.
 
-The global <code>RegExp</code> object should not be confused with the '''Regular Expression''' object. Even though they sound like the same thing, they are separate and distinct. The properties of the global <code>RegExp</code> object contain continually updated information about each match as it occurs, while the properties of the '''Regular Expression''' object contain only information about the matches that occur with that instance of the '''Regular Expression'''.
+The global `RegExp` object should not be confused with the **Regular Expression** object. Even though they sound like the same thing, they are separate and distinct. The properties of the global `RegExp` object contain continually updated information about each match as it occurs, while the properties of the **Regular Expression** object contain only information about the matches that occur with that instance of the **Regular Expression**.
 
-==Properties==
+## Properties
 
-{{{!}} class='wikitable'
-{{!}}-
-{{!}} [[javascript/RegExp/global|global]]
-{{!}} Returns a Boolean value indicating the state of the global flag ( g ) used with a regular expression.
-{{!}}-
-{{!}} [[javascript/RegExp/ignoreCase|ignoreCase]]
-{{!}} Returns a Boolean value indicating the state of the ignoreCase flag ( i ) used with a regular expression.
-{{!}}-
-{{!}} [[javascript/RegExp/multiline|multiline]]
-{{!}} Returns a Boolean value indicating the state of the multiline flag ( m ) used with a regular expression.
-{{!}}-
-{{!}} [[javascript/RegExp/source|source]]
-{{!}} Returns a copy of the text of the regular expression pattern.
-{{!}}-
-{{!}} [[javascript/RegExp/sticky|sticky]]
-{{!}} Returns a Boolean value indicating the state of the sticky flag ( y ) used with a regular expression.
-{{!}}-
-{{!}} [[javascript/RegExp/unicode|unicode]]
-{{!}} Returns a Boolean value indicating the state of the Unicode flag (u) used with a regular expression.
-{{!}}} 
+[global](/javascript/RegExp/global)
+:   Returns a Boolean value indicating the state of the global flag ( g ) used with a regular expression.
+[ignoreCase](/javascript/RegExp/ignoreCase)
+:   Returns a Boolean value indicating the state of the ignoreCase flag ( i ) used with a regular expression.
+[multiline](/javascript/RegExp/multiline)
+:   Returns a Boolean value indicating the state of the multiline flag ( m ) used with a regular expression.
+[source](/javascript/RegExp/source)
+:   Returns a copy of the text of the regular expression pattern.
+[sticky](/javascript/RegExp/sticky)
+:   Returns a Boolean value indicating the state of the sticky flag ( y ) used with a regular expression.
+[unicode](/javascript/RegExp/unicode)
+:   Returns a Boolean value indicating the state of the Unicode flag (u) used with a regular expression.
 
-==Methods==
+## Methods
 
-{{{!}} class='wikitable'
-{{!}}-
-{{!}} [[javascript/RegExp/compile|compile]]
-{{!}} Compiles a regular expression into an internal format for faster execution.
-{{!}}-
-{{!}} [[javascript/RegExp/exec|exec]]
-{{!}} Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.
-{{!}}-
-{{!}} [[javascript/RegExp/test|test]]
-{{!}} Returns a Boolean value that indicates whether or not a pattern exists in a searched string.
-{{!}}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/regular expression{{!}}Regular Expression Object]]
-* [[javascript/String{{!}}String Object]]
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Object
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/9dthzd08(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+[compile](/javascript/RegExp/compile)
+:   Compiles a regular expression into an internal format for faster execution.
+[exec](/javascript/RegExp/exec)
+:   Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.
+[test](/javascript/RegExp/test)
+:   Returns a Boolean value that indicates whether or not a pattern exists in a searched string.
+
+## Properties
+
+The following table lists the properties of the **RegExp** object.
+
+Property
+:   Summary
+[global](/javascript/RegExp/global)
+:   Returns a Boolean value indicating the state of the global flag ( **g** ) used with a regular expression. Default is **false**. Read-only.
+[ignoreCase](/javascript/RegExp/ignoreCase)
+:   Returns a Boolean value indicating the state of the ignoreCase flag ( **i** ) used with a regular expression. Default is **false**. Read-only.
+[multiline](/javascript/RegExp/multiline)
+:   Returns a Boolean value indicating the state of the multiline flag ( **m** ) used with a regular expression. Default is **false**. Read-only.
+[source](/javascript/RegExp/source)
+:   Returns a copy of the text of the regular expression pattern. Read-only. The rgExp argument is a **Regular expression** object. It can be a variable name or a literal.
+[sticky](/javascript/RegExp/sticky)
+:   Returns a Boolean value indicating the state of the sticky flag ( **y** ) used with a regular expression. Default is `false`. Read-only.
+[unicode](/javascript/RegExp/unicode)
+:   Returns a Boolean value indicating the state of the Unicode flag (`u`) used with a regular expression. Default is `false`. Read-only.
+
+## Functions
+
+The following table lists the functions of the **RegExp** object.
+
+## Methods
+
+The following table lists the methods of the **RegExp** object.
+
+Method
+:   Summary
+[compile](/javascript/RegExp/compile)
+:   Compiles a regular expression into an internal format for faster execution.
+[exec](/javascript/RegExp/exec)
+:   Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.
+[test](/javascript/RegExp/test)
+:   Returns a Boolean value that indicates whether or not a pattern exists in a searched string.
+
+## See also
+
+### Other articles
+
+-   [Regular Expression Object](/javascript/regular_expression)
+-   [String Object](/javascript/String)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9dthzd08(v=vs.94).aspx)
+

@@ -1,69 +1,75 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Prevents propagation of an event beyond the current target.}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=dom/Event
-|Example_object_name=event
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Use this method to stop event propagation in the capturing or bubbling event phase.
-|Notes=The event dispatches to all event listeners on the current target (regardless of capturing or bubbling) before the event flow stops. To completely prevent any remaining handlers from running, use the [[dom/Event/stopImmediatePropagation|'''stopImmediatePropagation''']] method instead.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
-|Status=Working Draft
-|Relevant_changes=Section 4.1
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=8 and earlier
-|Note=A proprietary alternative for this method is the [[dom/properties/cancelBubble|cancelBubble]] property.
-}}
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[svg/objects/SVGZoom|SVGZoomEvent]]</code>
-*<code>[[dom/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
-*<code>[[dom/CompositionEvent|CompositionEvent]]</code>
-*<code>[[dom/CustomEvent|CustomEvent]]</code>
-*<code>[[dom/DragEvent|DragEvent]]</code>
-*<code>[[dom/Event|Event]]</code>
-*<code>[[dom/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
-*<code>[[dom/MessageEvent|MessageEvent]]</code>
-*<code>[[dom/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/MutationEvent|MutationEvent]]</code>
-*<code>[[dom/StorageEvent|StorageEvent]]</code>
-*<code>[[dom/TextEvent|TextEvent]]</code>
-*<code>[[dom/UIEvent|UIEvent]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: stopPropagation
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs example'
+summary: 'Prevents propagation of an event beyond the current target.'
+uri: dom/Event/stopPropagation
+
+---
+# stopPropagation
+
+## Summary
+
+Prevents propagation of an event beyond the current target.
+
+*Method of [dom/Event](/dom/Event)*
+
+## Syntax
+
+``` {.js}
+ event.stopPropagation();
+```
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Use this method to stop event propagation in the capturing or bubbling event phase.
+
+## Notes
+
+The event dispatches to all event listeners on the current target (regardless of capturing or bubbling) before the event flow stops. To completely prevent any remaining handlers from running, use the [**stopImmediatePropagation**](/dom/Event/stopImmediatePropagation) method instead.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
+:   Working Draft
+
+## See also
+
+### Related pages (MSDN)
+
+-   `SVGZoomEvent`
+-   `BeforeUnloadEvent`
+-   `CompositionEvent`
+-   `CustomEvent`
+-   `DragEvent`
+-   `Event`
+-   `FocusEvent`
+-   `KeyboardEvent`
+-   `MessageEvent`
+-   `MouseEvent`
+-   `MutationEvent`
+-   `StorageEvent`
+-   `TextEvent`
+-   `UIEvent`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

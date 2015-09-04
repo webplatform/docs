@@ -1,55 +1,164 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=I am not sure examples are needed, as this property should be discouraged.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Use ''[[dom/HTMLTextAreaElement/value|value]].[[javascript/String/length|length]]'' (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLTextAreaElement
-|Read_only=Yes
-|Example_object_name=textAreaElement
-|Return_value_name=valueLength
-|Javascript_data_type=Number
-|Return_value_description=The codepoint length of the value of the element.
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Use the well known and well supported [[dom/HTMLTextAreaElement/value|value]].[[javascript/String/length|length]] instead (in JavaScript/ECMAScript).
+---
+title: textLength
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'I am not sure examples are needed, as this property should be discouraged.'
+summary: 'Use value.length (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.'
+uri: dom/HTMLTextAreaElement/textLength
 
-Use this property to get the codepoint length of the value of the element. For more details about '''codepoint length''', see [[javascript/String/length|length]].
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/2014/CR-html5-20140731/forms.html#dom-textarea-textlength
-|Status=W3C Candidate Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#dom-textarea-textlength
-|Status=Living Standard
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+# textLength
+
+## Summary
+
+Use value.length (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var valueLength = textAreaElement.textLength;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+
+The codepoint length of the value of the element.
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Use the well known and well supported value.length instead (in JavaScript/ECMAScript).
+
+Use this property to get the codepoint length of the value of the element. For more details about **codepoint length**, see [length](/javascript/String/length).
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5](http://www.w3.org/TR/2014/CR-html5-20140731/forms.html#dom-textarea-textlength)
+:   W3C Candidate Recommendation
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#dom-textarea-textlength)
+:   Living Standard
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   **textLength**
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+

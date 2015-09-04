@@ -1,41 +1,37 @@
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: y2 (SVGLinearGradientElement)
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: 'svg/properties/y2 (SVGLinearGradientElement)'
 
-===Remarks===
+---
+## Notes
 
-The [[svg/properties/x1 (SVGLinearGradientElement)|'''x1''']], [[svg/properties/y1 (SVGLinearGradientElement)|'''y1''']], [[svg/properties/x2 (SVGLinearGradientElement)|'''x2''']], and '''y2'''  properties define a gradient vector for a linear gradient. This gradient vector provides the starting and ending points  that  the gradient [[svg/elements/stop|'''stops''']] are mapped onto. The values of '''x1''', '''y1''', '''x2''', and '''y2''' can be either numbers or percentages.
+### Remarks
 
-If you do not specify this property, the effect is the same as if you specify a value of '''0%'''.
-|Import_Notes=
+The [**x1**](/svg/properties/x1_(SVGLinearGradientElement)), [**y1**](/svg/properties/y1_(SVGLinearGradientElement)), [**x2**](/svg/properties/x2_(SVGLinearGradientElement)), and **y2** properties define a gradient vector for a linear gradient. This gradient vector provides the starting and ending points that the gradient [**stops**](/svg/elements/stop) are mapped onto. The values of **x1**, **y1**, **x2**, and **y2** can be either numbers or percentages.
 
-===Syntax===
+If you do not specify this property, the effect is the same as if you specify a value of **0%**.
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.2
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.2
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/elements/linearGradient|'''SVGLinearGradientElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGLinearGradientElement**](/svg/elements/linearGradient)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

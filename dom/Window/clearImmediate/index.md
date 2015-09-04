@@ -1,60 +1,72 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Cancels a function request created with setImmediate.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=handle
-|Data type=Number
-|Description=A handle to an immediate callback request, which is the value returned by [[dom/Window/setImmediate|'''setImmediate''']].
-|Optional=No
-}}
-|Method_applies_to=dom/Window
-|Example_object_name=window
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=var immediateID {{=}} setImmediate(function () {
+---
+title: clearImmediate
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: Non-Standard
+notes:
+  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces.'
+summary: 'Cancels a function request created with setImmediate.'
+uri: dom/Window/clearImmediate
+
+---
+# clearImmediate
+
+## Summary
+
+Cancels a function request created with setImmediate.
+
+*Method of [dom/Window](/dom/Window)*
+
+## Syntax
+
+``` {.js}
+ window.clearImmediate(/* see parameter list */);
+```
+
+## Parameters
+
+### handle
+
+ Data-typeÂ
+:   Number
+
+ A handle to an immediate callback request, which is the value returned by [**setImmediate**](/dom/Window/setImmediate).
+
+## Return Value
+
+No return value
+
+## Examples
+
+``` {.js}
+var immediateID = setImmediate(function () {
   // Run some code
 }
 
 document.getElementById("button").addEventListener('click',function () {
   clearImmediate(immediateID);
 }, false);
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}247522 Efficient Script Yielding]
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.clearImmediate clearImmediate]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/windows/apps/hh965354.aspx clearImmediate Method]
-|HTML5Rocks_link=
-}}
+```
+
+## Notes
+
+### Remarks
+
+### Syntax
+
+### Standards information
+
+-   [Efficient Script Yielding](http://go.microsoft.com/fwlink/p/?linkid=247522)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[clearImmediate](https://developer.mozilla.org/en-US/docs/Web/API/Window.clearImmediate) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[clearImmediate Method](http://msdn.microsoft.com/en-us/library/windows/apps/hh965354.aspx) Article]
+

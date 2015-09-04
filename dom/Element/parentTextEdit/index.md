@@ -1,60 +1,60 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, spec, and compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/Element
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example retrieves the parent object, if needed, creates the text range, moves to the original object, and selects the first word in the object.
-|Code=&lt;SCRIPT LANGUAGE{{=}}"JScript"&gt;
-function selectWord()
-{
-    var oSource {{=}} window.event.srcElement ;
-    if (!oSource.isTextEdit) 
-        oSource {{=}} oSource.parentTextEdit;
-    if (oSource !{{=}} null) {
-        var oTextRange {{=}} oSource.createTextRange();
-        oTextRange.moveToElementText(window.event.srcElement);
-        oTextRange.collapse();
-        oTextRange.expand("word");
-        oTextRange.select();
+---
+title: parentTextEdit
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, spec, and compat'
+uri: dom/Element/parentTextEdit
+
+---
+# parentTextEdit
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Element](/dom/Element)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.parentTextEdit;
+element.parentTextEdit = value;
+```
+
+## Examples
+
+This example retrieves the parent object, if needed, creates the text range, moves to the original object, and selects the first word in the object.
+
+    <SCRIPT LANGUAGE="JScript">
+    function selectWord()
+    {
+        var oSource = window.event.srcElement ;
+        if (!oSource.isTextEdit)
+            oSource = oSource.parentTextEdit;
+        if (oSource != null) {
+            var oTextRange = oSource.createTextRange();
+            oTextRange.moveToElementText(window.event.srcElement);
+            oTextRange.collapse();
+            oTextRange.expand("word");
+            oTextRange.select();
+        }
     }
-}
-&lt;/SCRIPT&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The property is an object if the parent exists; otherwise, it is <code>null</code>. For example, the '''parentTextEdit''' property of the '''body''' is <code>null</code>.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+    </SCRIPT>
+
+## Notes
+
+### Remarks
+
+The property is an object if the parent exists; otherwise, it is `null`. For example, the **parentTextEdit** property of the **body** is `null`.
+
+### Syntax
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

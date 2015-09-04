@@ -1,102 +1,71 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add example, compatibility.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The <code>track</code> tag specifies text tracks for media elements (audio and video).
+---
+title: track
+tags:
+  - Pages
+  - using
+  - duplicate
+  - arguments
+  - in
+  - template
+  - calls
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Not Ready'
+notes:
+  - 'Add example, compatibility.'
+summary: "The track tag specifies text tracks for media elements (audio and video).\n"
+uri: html/elements/track
+
+---
+# track
+
+## Summary
+
+The track tag specifies text tracks for media elements (audio and video).
 
 This element is used to specify subtitles, caption files or other files containing text, that should be visible when the media is playing.
 
-<code>Track</code> is new to HTML5 and is not yet supported in any major browser.
-}}
-{{Markup_Element
-|DOM_interface=dom/HTMLTrackElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Members===
-The '''track''' object has these types of members:
-*[#events Events]
-*[#properties Properties]
+`Track` is new to HTML5 and is not yet supported in any major browser.
 
+## Overview Table
 
-====Events====
-The '''track''' object has these events.
-{| class="wikitable"
-|-
-!Event
-!Description
-|-
-|[[apis/audio-video/events/cuechange|'''oncuechange''']]
-|Occurs when a [[apis/audio-video/TextTrackCue|'''TextTrackCue''']] in a '''HTMLTrackElement''' changes.
-|}
- 
+[DOM Interface](/dom/interface)
+:   [HTMLTrackElement](/dom/HTMLTrackElement)
 
-====Properties====
-The '''track''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[apis/audio-video/properties/default|'''default''']]
-|Gets or sets the default timed text track to use when multiple track elements are specified for a '''video''' element.
-|-
-|[[apis/audio-video/properties/kind|'''kind''']]
-|Gets or sets the type or category of the timed text track associated with a '''track''' element.
-|-
-|[[apis/audio-video/properties/label|'''label''']]
-|Gets or sets the label attribute to give a user a readable title for a text track.
-|-
-|[[apis/audio-video/properties/src|'''src''']]
-|The address or URL of the a media resource ('''video''', '''audio''') that is to be considered.
-|-
-|[[apis/audio-video/properties/srclang|'''srclang''']]
-|Gets or sets the language of the text track data. This attribute is required if "subtitles" is specified in the [[apis/audio-video/properties/kind|'''kind''']] attribute.
-|-
-|[[apis/audio-video/properties/track (HTMLTrackElement)|'''track''']]
-|Returns the [[apis/audio-video/TextTrack|'''TextTrack''']] object that corresponds to a '''track''' element.
-|}
- 
-}}
-{{Related_Specifications_Section
-|Specifications={{Related_Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/embedded-content.html#the-track-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-track-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>track object</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+**Needs Examples**: This section should include examples.
+
+### Syntax
+
+### Members
+
+The **track** object has these types of members:
+
+-   [\#events Events]
+-   [\#properties Properties]
+
+#### Events
+
+The **track** object has these events. {
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-track-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-track-element)
+:   W3C Recommendation
+
+## See also
+
+### Related pages (MSDN)
+
+-   `track object`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

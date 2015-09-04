@@ -1,44 +1,69 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{API_Object
-|Subclass_of=svg/objects/SVGElement
-}}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
+---
+title: SVGPathSegLinetoHorizontalRel
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/objects/SVGPathSegLinetoHorizontalRel
 
-===Remarks===
+---
+# SVGPathSegLinetoHorizontalRel
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
 
-The '''h''' object uses relative coordinates to draw a horizontal line from the current point (cpx, cpy) to (x, cpy). You can provide multiple x-coordinate values (typically, multiple coordinates do not make sense). At the end of the command, the new current point becomes (x, cpy) for the final value of x.
+## Properties
 
-|Import_Notes=
+*No properties.*
 
-===Standards information===
+## Methods
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.14
+*No methods.*
 
-===Members===
+## Events
 
-The '''SVGPathSegLinetoHorizontalRel''' object has these properties:
+*No events.*
 
-*[[svg/properties/pathSegType|'''pathSegType''']]: Gets the type of the path segment.
-*[[svg/properties/pathSegTypeAsLetter|'''pathSegTypeAsLetter''']]: Gets the type of the path segment, specified by the corresponding one-character command name.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
+## Inherited from SVGElement
 
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+### Properties
+
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+## Notes
+
+### Remarks
+
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+The **h** object uses relative coordinates to draw a horizontal line from the current point (cpx, cpy) to (x, cpy). You can provide multiple x-coordinate values (typically, multiple coordinates do not make sense). At the end of the command, the new current point becomes (x, cpy) for the final value of x.
+
+### Standards information
+
+-   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.14
+
+### Members
+
+The **SVGPathSegLinetoHorizontalRel** object has these properties:
+
+-   [**pathSegType**](/svg/properties/pathSegType): Gets the type of the path segment.
+-   [**pathSegTypeAsLetter**](/svg/properties/pathSegTypeAsLetter): Gets the type of the path segment, specified by the corresponding one-character command name.
+-   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

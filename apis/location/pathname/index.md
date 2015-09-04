@@ -1,63 +1,52 @@
-{{Page_Title|window.location.pathname}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The path to the current document, relative to the root of the current host.}}
-{{API_Object_Property
-|Property_applies_to=apis/location
-|Read_only=Yes
-|Example_object_name=window.location
-|Return_value_name=
-|Javascript_data_type=String
-|Return_value_description=The path to the current document, relative to the root of the current host.
+---
+title: pathname
+tags:
+  - API
+  - Object
+  - Properties
+  - JavaScript
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The path to the current document, relative to the root of the current host.'
+uri: apis/location/pathname
 
-For example, <code>http://example.org/myyfolder/mypage.html</code> would return the pathname of <code>/myfoler/mypage.html</code>.
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=// Returns the pathname part of the current window location.
+---
+# window.location.pathname
+
+## Summary
+
+The path to the current document, relative to the root of the current host.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/location](/apis/location)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = window.location.pathname;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The path to the current document, relative to the root of the current host.
+
+For example, `http://example.org/myyfolder/mypage.html` would return the pathname of `/myfoler/mypage.html`.
+
+## Examples
+
+``` {.js}
+// Returns the pathname part of the current window location.
 // For this page, for instance, this will return the string '/wiki/apis/location/pathname'.
 var pname = window.location.pathname;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Window Object 1.0
-|URL=http://www.w3.org/TR/Window/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[Window Object 1.0](http://www.w3.org/TR/Window/)
+:   W3C Working Draft
+

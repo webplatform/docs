@@ -1,22 +1,21 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=examples, compatibility, general clean-up/review for accuracy
-|Checked_Out=No
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Non standard. Use [[dom/HTMLElement/matches|<code>HTMLElement.matches</code>]] instead. An old, non standard version of [[dom/HTMLElement/matches|<code>HTMLElement.matches</code>]].}}
-{{Notes_Section
-|Usage=Refer to [[dom/HTMLElement/matches|matches]] instead. This article is outdated.
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
+---
+title: matchesSelector
+tags:
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'examples, compatibility, general clean-up/review for accuracy'
+summary: 'Non standard. Use HTMLElement.matches instead. An old, non standard version of HTMLElement.matches.'
+uri: dom/HTMLElement/matchesSelector
+
+---
+# matchesSelector
+
+## Summary
+
+Non standard. Use HTMLElement.matches instead. An old, non standard version of HTMLElement.matches.
+
+## Usage
+
+     Refer to matches instead. This article is outdated.

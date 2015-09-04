@@ -1,34 +1,15 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Listing page with no children.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Listing|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Concept_Listing
-|Query=
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: objects
+tags:
+  - API
+  - Listings
+readiness: 'Not Ready'
+notes:
+  - 'Listing page with no children.'
+uri: apis/xhr/objects
+
+---
+# objects
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+

@@ -1,33 +1,29 @@
-{{Page_Title|Device access tutorials}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Fix broken link
-|Checked_Out=No
-}}
-{{Byline}}
-{{Summary_Section|This page lists tutorials related to device access.}}
-{{Tutorial
-|Content=* [[tutorials/detection|Detection]]
-* [[tutorials/file dnd|File drag 'n drop]]
-* [[tutorials/file filesystem|Filesystem APIs]]
-* [[tutorials/filesystem sync|The synchronous FileSystem API for workers]]
-* [[tutorials/device orientation|Device orientation]]
-* [[tutorials/geolocation-trip-meter|Geolocation API]]
-* [[tutorials/notifications api|Notifications API]]
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: device access
+tags:
+  - Tutorials
+readiness: 'Almost Ready'
+notes:
+  - 'Fix broken link'
+summary: 'This page lists tutorials related to device access.'
+uri: 'tutorials/device access'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'tutorials/notifications api'
+
+---
+# Device access tutorials
+
+## Summary
+
+This page lists tutorials related to device access.
+
+-   [Detection](/tutorials/detection)
+-   [File drag 'n drop](/tutorials/file_dnd)
+-   [Filesystem APIs](/tutorials/file_filesystem)
+-   [The synchronous FileSystem API for workers](/tutorials/filesystem_sync)
+-   [Device orientation](/tutorials/device_orientation)
+-   [Geolocation API](/tutorials/geolocation-trip-meter)
+-   [Notifications API](/w/index.php?title=tutorials/notifications_api&action=edit&redlink=1)
+

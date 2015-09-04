@@ -1,28 +1,121 @@
-{{Page_Title|SVG DOM methods}}
-{{Flags
-|State=In Progress
-|Editorial notes=Some content needed.  Alternately, all methods could be moved to be sub-pages of the appropriate object, as is done in the DOM/API sections, and this page deleted.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|List of all pages in svg/methods/}}
-{{API_Listing|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Concept_Listing
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Import_Notes===All Pages==
-{{Page_Index_Listing}}
-}}
-{{See_Also_Section}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: methods
+tags:
+  - API
+  - Listings
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Some content needed.  Alternately, all methods could be moved to be sub-pages of the appropriate object, as is done in the DOM/API sections, and this page deleted.'
+summary: 'List of all pages in svg/methods/'
+uri: svg/methods
+
+---
+# SVG DOM methods
+
+## Summary
+
+List of all pages in svg/methods/
+
+## All Pages
+
+-   [addListener](/svg/methods/addListener)
+-   [animationsPaused](/svg/methods/animationsPaused)
+-   [appendItem](/svg/methods/appendItem)
+-   [checkEnclosure](/svg/methods/checkEnclosure)
+-   [checkIntersection](/svg/methods/checkIntersection)
+-   [clear](/svg/methods/clear)
+-   [consolidate](/svg/methods/consolidate)
+-   [convertToSpecifiedUnits](/svg/methods/convertToSpecifiedUnits)
+-   [createEvent](/svg/methods/createEvent)
+-   [createSVGAngle](/svg/methods/createSVGAngle)
+-   [createSVGLength](/svg/methods/createSVGLength)
+-   [createSVGMatrix](/svg/methods/createSVGMatrix)
+-   [createSVGNumber](/svg/methods/createSVGNumber)
+-   [createSVGPathSegArcAbs](/svg/methods/createSVGPathSegArcAbs)
+-   [createSVGPathSegArcRel](/svg/methods/createSVGPathSegArcRel)
+-   [createSVGPathSegClosePath](/svg/methods/createSVGPathSegClosePath)
+-   [createSVGPathSegCurvetoCubicAbs](/svg/methods/createSVGPathSegCurvetoCubicAbs)
+-   [createSVGPathSegCurvetoCubicRel](/svg/methods/createSVGPathSegCurvetoCubicRel)
+-   [createSVGPathSegCurvetoCubicSmoothAbs](/svg/methods/createSVGPathSegCurvetoCubicSmoothAbs)
+-   [createSVGPathSegCurvetoCubicSmoothRel](/svg/methods/createSVGPathSegCurvetoCubicSmoothRel)
+-   [createSVGPathSegCurvetoQuadraticAbs](/svg/methods/createSVGPathSegCurvetoQuadraticAbs)
+-   [createSVGPathSegCurvetoQuadraticRel](/svg/methods/createSVGPathSegCurvetoQuadraticRel)
+-   [createSVGPathSegCurvetoQuadraticSmoothAbs](/svg/methods/createSVGPathSegCurvetoQuadraticSmoothAbs)
+-   [createSVGPathSegCurvetoQuadraticSmoothRel](/svg/methods/createSVGPathSegCurvetoQuadraticSmoothRel)
+-   [createSVGPathSegLinetoAbs](/svg/methods/createSVGPathSegLinetoAbs)
+-   [createSVGPathSegLinetoHorizontalAbs](/svg/methods/createSVGPathSegLinetoHorizontalAbs)
+-   [createSVGPathSegLinetoHorizontalRel](/svg/methods/createSVGPathSegLinetoHorizontalRel)
+-   [createSVGPathSegLinetoRel](/svg/methods/createSVGPathSegLinetoRel)
+-   [createSVGPathSegLinetoVerticalAbs](/svg/methods/createSVGPathSegLinetoVerticalAbs)
+-   [createSVGPathSegLinetoVerticalRel](/svg/methods/createSVGPathSegLinetoVerticalRel)
+-   [createSVGPathSegMovetoAbs](/svg/methods/createSVGPathSegMovetoAbs)
+-   [createSVGPathSegMovetoRel](/svg/methods/createSVGPathSegMovetoRel)
+-   [createSVGPoint](/svg/methods/createSVGPoint)
+-   [createSVGRect()](/svg/methods/createSVGRect)
+-   [createSVGTransform](/svg/methods/createSVGTransform)
+-   [createSVGTransformFromMatrix](/svg/methods/createSVGTransformFromMatrix)
+-   [deselectAll](/svg/methods/deselectAll)
+-   [dispatchEvent](/svg/methods/dispatchEvent)
+-   [flipX](/svg/methods/flipX)
+-   [flipY](/svg/methods/flipY)
+-   [forceRedraw](/svg/methods/forceRedraw)
+-   [getBBox](/svg/methods/getBBox)
+-   [getCTM](/svg/methods/getCTM)
+-   [getCharNumAtPosition](/svg/methods/getCharNumAtPosition)
+-   [getComputedStyle](/svg/methods/getComputedStyle)
+-   [getComputedTextLength](/svg/methods/getComputedTextLength)
+-   [getCurrentTime](/svg/methods/getCurrentTime)
+-   [getElementById](/svg/methods/getElementById)
+-   [getEnclosureList](/svg/methods/getEnclosureList)
+
+-   [getEndPositionOfChar](/svg/methods/getEndPositionOfChar)
+-   [getExtentOfChar](/svg/methods/getExtentOfChar)
+-   [getIntersectionList](/svg/methods/getIntersectionList)
+-   [getItem](/svg/methods/getItem)
+-   [getNumberOfChars](/svg/methods/getNumberOfChars)
+-   [getPathSegAtLength](/svg/methods/getPathSegAtLength)
+-   [getPointAtLength](/svg/methods/getPointAtLength)
+-   [getRotationOfChar](/svg/methods/getRotationOfChar)
+-   [getSVGDocument](/svg/methods/getSVGDocument)
+-   [getScreenCTM](/svg/methods/getScreenCTM)
+-   [getStartPositionOfChar](/svg/methods/getStartPositionOfChar)
+-   [getSubStringLength](/svg/methods/getSubStringLength)
+-   [getTotalLength](/svg/methods/getTotalLength)
+-   [getTransformToElement](/svg/methods/getTransformToElement)
+-   [hasExtension](/svg/methods/hasExtension)
+-   [insertItemBefore](/svg/methods/insertItemBefore)
+-   [inverse](/svg/methods/inverse)
+-   [item](/svg/methods/item)
+-   [matrixTransform](/svg/methods/matrixTransform)
+-   [multiply](/svg/methods/multiply)
+-   [newValueSpecifiedUnits](/svg/methods/newValueSpecifiedUnits)
+-   [pauseAnimations](/svg/methods/pauseAnimations)
+-   [removeItem](/svg/methods/removeItem)
+-   [removeListener](/svg/methods/removeListener)
+-   [replaceItem](/svg/methods/replaceItem)
+-   [rotate](/svg/methods/rotate)
+-   [rotateFromVector](/svg/methods/rotateFromVector)
+-   [scale](/svg/methods/scale)
+-   [scaleNonUniform](/svg/methods/scaleNonUniform)
+-   [selectSubString](/svg/methods/selectSubString)
+-   [setCurrentTime](/svg/methods/setCurrentTime)
+-   [setFilterRes](/svg/methods/setFilterRes)
+-   [setMatrix](/svg/methods/setMatrix)
+-   [setOrientToAngle](/svg/methods/setOrientToAngle)
+-   [setOrientToAuto](/svg/methods/setOrientToAuto)
+-   [setRotate](/svg/methods/setRotate)
+-   [setScale](/svg/methods/setScale)
+-   [setSkewX](/svg/methods/setSkewX)
+-   [setSkewY](/svg/methods/setSkewY)
+-   [setStdDeviation](/svg/methods/setStdDeviation)
+-   [setTranslate](/svg/methods/setTranslate)
+-   [skewX](/svg/methods/skewX)
+-   [skewY](/svg/methods/skewY)
+-   [suspendRedraw](/svg/methods/suspendRedraw)
+-   [toString](/svg/methods/toString)
+-   [translate](/svg/methods/translate)
+-   [unpauseAnimations](/svg/methods/unpauseAnimations)
+-   [unsuspendRedraw](/svg/methods/unsuspendRedraw)
+-   [unsuspendRedrawAll](/svg/methods/unsuspendRedrawAll)
+

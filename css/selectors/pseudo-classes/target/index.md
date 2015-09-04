@@ -1,77 +1,125 @@
-{{Page_Title|:target pseudo-class selector}}
-{{Flags
-|State=Not Ready
-|Editorial notes=No matching spec
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The <tt>:target</tt> pseudo-class (note the ":") represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.}}
-{{CSS_Selector
-|Content=An URI fragment is what follows the "number sign" (<tt>#</tt>).
+---
+title: :target
+tags:
+  - CSS
+  - Selectors
+readiness: 'Not Ready'
+notes:
+  - 'No matching spec'
+summary: 'The :target pseudo-class (note the ":") represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.'
+code_samples:
+  - 'http://gist.github.com/6f2803eda8ad3c66aaf4'
+uri: 'CSS/Selectors/pseudo-classes/:target'
 
-[[File:example-css-target-pseudo-activated.png]]
+---
+# :target pseudo-class selector
+
+## Summary
+
+The :target pseudo-class (note the ":") represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.
+
+ An URI fragment is what follows the "number sign" (`#`).
+
+![example-css-target-pseudo-activated.png](/assets/public/e/e6/example-css-target-pseudo-activated.png)
 
 URIs with fragment identifier can be used to link to a specific part of a document, known as the target element. This also how we can navigate directly to a section of a page long without scrolling manually.
 
 Scrolling automatically to a fragment is not the only benefit; It is also possible to target and style those elements through CSS.
 
-Let us say you have a section in a document called "<tt>foo</tt>" (e.g. <tt>&lt;div id="foo"&gt;...&lt;/div&gt;</tt>), and you want to style it differently when it gets linked. When somebody navigates to that page with the appropriate URI fragment in the address bar (e.g. <tt>http://example.com/some/page.html#foo</tt>) we then can adjust the style to suit our requirements.
+Let us say you have a section in a document called "`foo`" (e.g. `<div id="foo">...</div>`), and you want to style it differently when it gets linked. When somebody navigates to that page with the appropriate URI fragment in the address bar (e.g. `http://example.com/some/page.html#foo`) we then can adjust the style to suit our requirements.
 
-Any element can be a target, as long as it has the <tt>id=".."</tt> attribute set, and the current URI matches it. To use the selector, we use the <code>:target</code> pseudo-class notation. If the document's URI has no fragment identifier, then the document has no target element.
+Any element can be a target, as long as it has the `id=".."` attribute set, and the current URI matches it. To use the selector, we use the `:target` pseudo-class notation. If the document's URI has no fragment identifier, then the document has no target element.
 
-== Using the selector ==
+## Using the selector
 
-To use the selector, append the pseudo selector (<tt>:target</tt>) after a selector string.
+To use the selector, append the pseudo selector (`:target`) after a selector string.
 
-<syntaxHighlight lang="css">
+``` {.css}
   .note:target { /* ... */ }
-</syntaxHighlight>
+```
 
-In this example, the selector targets an element that has a [[css/selectors/class|''class name'' selector]] <tt>note</tt> and will be used when its matching elements also has an <tt>id</tt> attribute matching the current URI.
+ In this example, the selector targets an element that has a [*class name* selector](/css/selectors/class) `note` and will be used when its matching elements also has an `id` attribute matching the current URI.
 
-Since it is a pseudo selector, it has to be at the end of the chain (e.g. <tt>tagName#idName.className:pseudo-selector</tt>).
+Since it is a pseudo selector, it has to be at the end of the chain (e.g. `tagName#idName.className:pseudo-selector`).
 
 For example, to change the background color of ANY tag that happens to be refered in the URI, you can do like the following:
 
-<syntaxHighlight lang="css">
+``` {.css}
 *:target { background-color: red }
-</syntaxHighlight>
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Changing background color of an element that has an id attribute with a name that matches the current URI after the pound (#)
-|Code=*:target {
+```
+
+## Examples
+
+Changing background color of an element that has an id attribute with a name that matches the current URI after the pound (\#)
+
+``` {.css}
+*:target {
   background-color: #f06;
  /* any element that has an id attribute matching
     in the URI will have the background color
     affected to pink */
 }
-|LiveURL=http://code.webplatform.org/gist/6f2803eda8ad3c66aaf4
-}}
-}}
-{{Notes_Section
-|Notes=The <tt>id</tt> attribute was new in HTML 4 (December 1997). Before that, we were using the name attribute in an ahcnor tag (e.g. &lt;a name="foo"&gt;.  The <tt>:target</tt> pseudo-class applies to those targets as well.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Pseudo-Classes
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/6f2803eda8ad3c66aaf4)
+
+## Notes
+
+The `id` attribute was new in HTML 4 (December 1997). Before that, we were using the name attribute in an ahcnor tag (e.g. \<a name="foo"\>. The `:target` pseudo-class applies to those targets as well.
+
+## See also
+
+### Related articles
+
+#### Pseudo-Classes
+
+-   **:target pseudo-class selector**
+
+-   [:-ms-input-placeholder](/css/selectors/pseudo-classes/:-ms-input-placeholder)
+
+-   [:checked](/css/selectors/pseudo-classes/:checked)
+
+-   [:disabled](/css/selectors/pseudo-classes/:disabled)
+
+-   [:empty](/css/selectors/pseudo-classes/:empty)
+
+-   [:enabled](/css/selectors/pseudo-classes/:enabled)
+
+-   [:first-child](/css/selectors/pseudo-classes/:first-child)
+
+-   [:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
+
+-   [:focus](/css/selectors/pseudo-classes/:focus)
+
+-   [:in-range](/css/selectors/pseudo-classes/:in-range)
+
+-   [:indeterminate](/css/selectors/pseudo-classes/:indeterminate)
+
+-   [:invalid](/css/selectors/pseudo-classes/:invalid)
+
+-   [:lang(c)](/css/selectors/pseudo-classes/:lang(c))
+
+-   [:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+
+-   [:nth-child(n)](/css/selectors/pseudo-classes/:nth-child(n))
+
+-   [:nth-last-child(n)](/css/selectors/pseudo-classes/:nth-last-child(n))
+
+-   [:nth-last-of-type(n)](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+
+-   [:nth-of-type(n)](/css/selectors/pseudo-classes/:nth-of-type(n))
+
+-   [:only-child](/css/selectors/pseudo-classes/:only-child)
+
+-   [:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+
+-   [:optional](/css/selectors/pseudo-classes/:optional)
+
+-   [:required](/css/selectors/pseudo-classes/:required)
+
+-   [:root](/css/selectors/pseudo-classes/:root)
+
+-   [:target](/css/selectors/pseudo-classes/:target)
+
+-   [:valid](/css/selectors/pseudo-classes/:valid)
+

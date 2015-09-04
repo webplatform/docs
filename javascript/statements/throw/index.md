@@ -1,59 +1,52 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Generates an error condition that can be handled by a try...catch...finally statement.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=throw exception
-}}
-|Values=
-}}
-{{JS_Return_Value
-|Description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example throws an error inside a try block, and it is caught in the catch block.
-|Code=try {
+---
+title: throw
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Generates an error condition that can be handled by a try...catch...finally statement.'
+uri: javascript/statements/throw
+
+---
+# throw
+
+## Summary
+
+Generates an error condition that can be handled by a try...catch...finally statement.
+
+## Syntax
+
+    throw exception
+
+## Examples
+
+The following example throws an error inside a try block, and it is caught in the catch block.
+
+``` {.js}
+try {
          throw new Error(200, "x equals zero");
  }
  catch (e) {
      document.write(e.message);
  }
- 
+
  // Output: x equals zero.
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=The required exception argument can be any expression.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/statements/try catch finally{{!}}try...catch...finally Statement]]
-* [[javascript/Error{{!}}Error Object]]
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/85fscz6h(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+```
+
+## Remarks
+
+The required exception argument can be any expression.
+
+## See also
+
+### Other articles
+
+-   [try...catch...finally Statement](/javascript/statements/try_catch_finally)
+-   [Error Object](/javascript/Error)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/85fscz6h(v=vs.94).aspx)
+

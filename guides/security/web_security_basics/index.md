@@ -1,48 +1,37 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs a lot more content; Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content
+---
+title: web security basics
+tags:
+  - Guides
+readiness: 'Not Ready'
+notes:
+  - 'Needs a lot more content; Need to remove compatibility table; Address minor bugs in comments; Need to cross-link to other relevant content'
+summary: "This page provides an overview of common web security threats, lists good practices for client and server-side security, and offers examples for implementing security measures for your site or application.\n"
+uri: 'guides/security/web security basics'
 
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Byline}}
-{{Summary_Section|This page provides an overview of common web security threats, lists good practices for client and server-side security, and offers examples for implementing security measures for your site or application.
+---
+# web security basics
+
+## Summary
+
+This page provides an overview of common web security threats, lists good practices for client and server-side security, and offers examples for implementing security measures for your site or application.
 
 Learning and using good Web security practices protects the integrity of your site or application, and helps keep the users safe and happy. Poor security practices can tarnish an organization's reputation, can cause a business to lose revenue, or can lead to the spread of malware.
-}}
-{{Guide
-|Content===Web security basics==
+
+## Web security basics
 
 Common Web Security Attacks:
-* Cross-site scripting (XSS)
-* SQL injection
-* Denial-of-Service (DoS)
 
-<h2>Client-side Security</h2>
+-   Cross-site scripting (XSS)
+-   SQL injection
+-   Denial-of-Service (DoS)
 
-<h3>Form Validation</h3>
+## Client-side Security
 
+### Form Validation
 
-<h2>Server-side Security</h2>
+## Server-side Security
 
-<h3>SSL and Network Security Protocols</h3>
+### SSL and Network Security Protocols
 
-<h3>Configuring MIME Types</h3>
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+### Configuring MIME Types
+

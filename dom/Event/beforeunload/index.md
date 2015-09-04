@@ -1,118 +1,125 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, spec, and compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Event
-|Event_applies_to=dom/Event
-|Synchronous=No
-|Bubbles=No
-|Target=dom/Element
-|Cancelable=No
-|Interface=dom/Event
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example uses the '''onbeforeunload''' event to ask users whether they want to remain on the current document or navigate to a new URL. When the user clicks on the hyperlink or attempts to close the window, the '''onbeforeunload''' event fires on the '''body''' and a dialog box displays. If the user chooses '''OK''', the document navigates to the new URL (www.microsoft.com) or closes the window; if the user chooses '''Cancel''', the document remains the same.
-|Code=&lt;HTML&gt;
-&lt;head&gt;
-&lt;script&gt;
-function closeIt()
-{
-  return "Any string value here forces a dialog box to \n" + 
-         "appear before closing the window.";
-}
-window.onbeforeunload {{=}} closeIt;
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;a href{{=}}"http://www.microsoft.com"&gt;Click here to navigate to 
-      www.microsoft.com&lt;/a&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeunload.htm
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-When a string is assigned to the '''returnValue''' property of '''window'''.'''event''', a dialog box appears that gives users the option to stay on the current document and retain the string that was assigned to it. The default statement that appears in the dialog box, "<code>Are you sure you want to navigate away from this page? ... Press OK to continue, or Cancel to stay on the current page.</code>", cannot be removed or altered.
+---
+title: beforeunload
+tags:
+  - Events
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, spec, and compat'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeunload.htm'
+uri: dom/Event/beforeunload
 
-====onbeforeunload in Metro style apps using JavaScript====
-In Metro style apps using JavaScript,  the '''returnValue''' property of '''window'''.'''event'''  is always ignored and '''onunload''' will fire immediately.  No dialog is shown to the user and the navigation can't be cancelled. Note that, in most cases, the app should never navigate its top-level document. Metro style apps using JavaScript should use '''oncheckpoint''' event to determine when they need to save state information.
+---
+# beforeunload
 
-====General info====
-This event signals that the document is about to be unloaded.
-To invoke this event, do one of the following:
-*Close the current window.
-*Navigate to another location by entering a new address or selecting a Favorite.
-*Click an [[html/elements/a|'''anchor''']] that refers to another document.
-*Invoke the [[html/elements/a|'''anchor''']].[[dom/HTMLElement/click|'''click''']] method.
-*Invoke the [[dom/Document|'''Document''']].[[dom/Document/write|'''write''']] method.
-*Invoke the [[dom/Document|'''Document''']].[[dom/Document/close|'''close''']] method.
-*Invoke the '''window'''.[[dom/Window/close|'''close''']] method.
-*Invoke the [[dom/Location|'''location''']].[[dom/Location/replace|'''replace''']] method.
-*Invoke the [[dom/Location|'''location''']].[[dom/Location/reload|'''reload''']] method.
-*Specify a new value for the [[dom/Location|'''location''']].[[dom/Location/href|'''href''']] property.
-*Submit a '''form''' to the address specified in the '''ACTION''' attribute via the '''INPUT type{{=}}submit''' control, or invoke the '''form'''.[[dom/HTMLFormElement/submit|'''submit''']] method.
-*Invoke the '''window'''.[[dom/Window/open|'''open''']] method, providing the possible value '''_self''' for the window name.
-*Invoke the [[dom/Document|'''Document''']].[[dom/Document/open|'''open''']] method.
-*Click the Back, Forward, Refresh, or Home button.
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*'''HTMLAnchorEvents2'''
-*'''HTMLAreaEvents2'''
-*'''HTMLButtonElementEvents2'''
-*'''HTMLControlElementEvents2'''
-*'''HTMLDocumentEvents2'''
-*'''HTMLElementEvents2'''
-*'''HTMLFormElementEvents2'''
-*'''HTMLImgEvents2'''
-*'''HTMLFrameSiteEvents2'''
-*'''HTMLInputFileElementEvents2'''
-*'''HTMLInputImageEvents2'''
-*'''HTMLInputTextElementEvents2'''
-*'''HTMLLabelEvents2'''
-*'''HTMLLinkElementEvents2'''
-*'''HTMLMapEvents2'''
-*'''HTMLMarqueeElementEvents2'''
-*'''HTMLObjectElementEvents2'''
-*'''HTMLOptionButtonElementEvents2'''
-*'''HTMLScriptEvents2'''
-*'''HTMLSelectElementEvents2'''
-*'''HTMLStyleElementEvents2'''
-*'''HTMLTableEvents2'''
-*'''HTMLTextContainerEvents2'''
-*'''HTMLWindowEvents2'''
-|Import_Notes====Syntax===
-===Standards information===
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:    ?
+
+## Examples
+
+This example uses the **onbeforeunload** event to ask users whether they want to remain on the current document or navigate to a new URL. When the user clicks on the hyperlink or attempts to close the window, the **onbeforeunload** event fires on the **body** and a dialog box displays. If the user chooses **OK**, the document navigates to the new URL (www.microsoft.com) or closes the window; if the user chooses **Cancel**, the document remains the same.
+
+    <HTML>
+    <head>
+    <script>
+    function closeIt()
+    {
+      return "Any string value here forces a dialog box to \n" +
+             "appear before closing the window.";
+    }
+    window.onbeforeunload = closeIt;
+    </script>
+    </head>
+    <body>
+      <a href="http://www.microsoft.com">Click here to navigate to
+          www.microsoft.com</a>
+    </body>
+    </html>
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeunload.htm)
+
+## Notes
+
+### Remarks
+
+When a string is assigned to the **returnValue** property of **window**.**event**, a dialog box appears that gives users the option to stay on the current document and retain the string that was assigned to it. The default statement that appears in the dialog box, "`Are you sure you want to navigate away from this page? ... Press OK to continue, or Cancel to stay on the current page.`", cannot be removed or altered.
+
+#### onbeforeunload in Metro style apps using JavaScript
+
+In Metro style apps using JavaScript, the **returnValue** property of **window**.**event** is always ignored and **onunload** will fire immediately. No dialog is shown to the user and the navigation can't be cancelled. Note that, in most cases, the app should never navigate its top-level document. Metro style apps using JavaScript should use **oncheckpoint** event to determine when they need to save state information.
+
+#### General info
+
+This event signals that the document is about to be unloaded. To invoke this event, do one of the following:
+
+-   Close the current window.
+-   Navigate to another location by entering a new address or selecting a Favorite.
+-   Click an [**anchor**](/html/elements/a) that refers to another document.
+-   Invoke the [**anchor**](/html/elements/a).[**click**](/dom/HTMLElement/click) method.
+-   Invoke the [**Document**](/dom/Document).[**write**](/dom/Document/write) method.
+-   Invoke the [**Document**](/dom/Document).[**close**](/dom/Document/close) method.
+-   Invoke the **window**.[**close**](/dom/Window/close) method.
+-   Invoke the [**location**](/dom/Location).[**replace**](/dom/Location/replace) method.
+-   Invoke the [**location**](/dom/Location).[**reload**](/dom/Location/reload) method.
+-   Specify a new value for the [**location**](/dom/Location).[**href**](/dom/Location/href) property.
+-   Submit a **form** to the address specified in the **ACTION** attribute via the **INPUT type=submit** control, or invoke the **form**.[**submit**](/dom/HTMLFormElement/submit) method.
+-   Invoke the **window**.[**open**](/dom/Window/open) method, providing the possible value **\_self** for the window name.
+-   Invoke the [**Document**](/dom/Document).[**open**](/dom/Document/open) method.
+-   Click the Back, Forward, Refresh, or Home button.
+
+The *pEvtObj* parameter is required for the following interfaces:
+
+-   **HTMLAnchorEvents2**
+-   **HTMLAreaEvents2**
+-   **HTMLButtonElementEvents2**
+-   **HTMLControlElementEvents2**
+-   **HTMLDocumentEvents2**
+-   **HTMLElementEvents2**
+-   **HTMLFormElementEvents2**
+-   **HTMLImgEvents2**
+-   **HTMLFrameSiteEvents2**
+-   **HTMLInputFileElementEvents2**
+-   **HTMLInputImageEvents2**
+-   **HTMLInputTextElementEvents2**
+-   **HTMLLabelEvents2**
+-   **HTMLLinkElementEvents2**
+-   **HTMLMapEvents2**
+-   **HTMLMarqueeElementEvents2**
+-   **HTMLObjectElementEvents2**
+-   **HTMLOptionButtonElementEvents2**
+-   **HTMLScriptEvents2**
+-   **HTMLSelectElementEvents2**
+-   **HTMLStyleElementEvents2**
+-   **HTMLTableEvents2**
+-   **HTMLTextContainerEvents2**
+-   **HTMLWindowEvents2**
+
+### Syntax
+
+### Standards information
+
 There are no standards that apply here.
 
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Event handler parameters
+
+*pEvtObj* [in]
+:   Type: ****IHTMLEventObj****
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

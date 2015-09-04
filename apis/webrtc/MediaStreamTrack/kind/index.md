@@ -1,38 +1,33 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs example, spec reference, usage
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The value, either '''audio''' or '''video''' for the source of the track.}}
-{{API_Object_Property
-|Property_applies_to=apis/webrtc/MediaStreamTrack
-|Read_only=Yes
-|Example_object_name=track
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: kind
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: WebRTC
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs example, spec reference, usage'
+summary: 'The value, either audio or video for the source of the track.'
+uri: apis/webrtc/MediaStreamTrack/kind
+
+---
+# kind
+
+## Summary
+
+The value, either audio or video for the source of the track.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = track.kind;
+```
+
+**Needs Examples**: This section should include examples.
+

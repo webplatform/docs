@@ -1,26 +1,14 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs all content
-|Checked_Out=No
-|High-level issues=Stub, Needs Flags
-}}
-{{Byline}}
-{{Summary_Section}}
-{{Tutorial}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: Hello world in JavaScript
+tags:
+  - Tutorials
+readiness: 'Not Ready'
+notes:
+  - 'Needs all content'
+uri: 'tutorials/Hello world in JavaScript'
+
+---
+# Hello world in JavaScript
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+

@@ -1,85 +1,77 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=do {
-    statement
-} while (expression) ;
-}}
-|Values={{JS Syntax Parameter
-|Name=statement
-|Required=Required
-|Description=The statement to be executed if expression is true. Can be a compound statement.
-}}{{JS Syntax Parameter
-|Name=expression
-|Required=Required
-|Description=An expression that can be coerced to Boolean true or false. If expression is true , the loop is executed again. If expression is false , the loop is terminated.
-}}
-}}
-{{JS_Return_Value
-|Description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=In the following example, the statements in the do...while loop continue to execute as long as the variable <code>i</code> is less than 10.
-|Code=var i = 0;
+---
+title: do while
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.'
+uri: 'javascript/statements/do while'
+
+---
+# do while
+
+## Summary
+
+Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.
+
+## Syntax
+
+    do {
+        statement
+    } while (expression) ;
+
+**statement**
+:   Required. The statement to be executed if expression is true. Can be a compound statement.
+
+**expression**
+:   Required. An expression that can be coerced to Boolean true or false. If expression is true , the loop is executed again. If expression is false , the loop is terminated.
+
+## Examples
+
+In the following example, the statements in the do...while loop continue to execute as long as the variable `i` is less than 10.
+
+``` {.js}
+var i = 0;
  do {
      document.write(i + " ");
      i++;
- } while (i &lt; 10);
- 
+ } while (i < 10);
+
  // Output: 0 1 2 3 4 5 6 7 8 9
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=In the following example, the statements inside the loop are executed once even though the condition is not met.
-|Code=var i = 10;
+```
+
+In the following example, the statements inside the loop are executed once even though the condition is not met.
+
+``` {.js}
+var i = 10;
  do {
      document.write(i + " ");
      i++;
- } while (i &lt; 10);
- 
+ } while (i < 10);
+
  // Output: 10
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=Unlike the while statement, a do...while loop is executed one time before the conditional expression is evaluated.
+```
+
+## Remarks
+
+Unlike the while statement, a do...while loop is executed one time before the conditional expression is evaluated.
 
 On any line in a do...while block, you can use the break statement to cause the program flow to exit the loop, or you can use the continue statement to go directly to the while expression.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/statements/break{{!}}break Statement]]
-* [[javascript/statements/continue{{!}}continue Statement]]
-* [[javascript/statements/for{{!}}for Statement]]
-* [[javascript/statements/for in{{!}}for...in Statement]]
-* [[javascript/statements/while{{!}}while Statement]]
-* [[javascript/statements/Labeled{{!}}Labeled Statement]]
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/5c1h7h0k(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+
+## See also
+
+### Other articles
+
+-   [break Statement](/javascript/statements/break)
+-   [continue Statement](/javascript/statements/continue)
+-   [for Statement](/javascript/statements/for)
+-   [for...in Statement](/javascript/statements/for_in)
+-   [while Statement](/javascript/statements/while)
+-   [Labeled Statement](/javascript/statements/Labeled)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/5c1h7h0k(v=vs.94).aspx)
+

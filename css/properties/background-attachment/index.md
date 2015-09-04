@@ -1,152 +1,147 @@
-{{Page_Title|background-attachment}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Defines if a background image scrolls with the content or stays fixed.}}
-{{CSS Property
-|Initial value=scroll
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=scroll
-|CSS percentages=n/a
-|Values={{CSS Property Value
-|Data Type=scroll
-|Description=Default. Background image scrolls with the object as the document is scrolled.
-}}{{CSS Property Value
-|Data Type=fixed
-|Description=Background image stays fixed within the viewport and does not move when the element or the page is scrolled.
-}}{{CSS Property Value
-|Data Type=local
-|Description=Background image stays fixed with regard to the element’s contents and scrolls as the element is scrolled.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following examples use the '''background-attachment''' attribute and the '''background-attachment''' property to set the background to "fixed", so that the background does not scroll with the text.
+---
+title: background-attachment
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Defines if a background image scrolls with the content or stays fixed.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-attachment.htm'
+uri: css/properties/background-attachment
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/defaultSelected
+
+---
+# background-attachment
+
+## Summary
+
+Defines if a background image scrolls with the content or stays fixed.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `scroll`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `scroll`
+Percentages
+:   n/a
+
+## Syntax
+
+-   `background-attachment: fixed`
+-   `background-attachment: local`
+-   `background-attachment: scroll`
+
+## Values
+
+scroll
+:   Default. Background image scrolls with the object as the document is scrolled.
+
+fixed
+:   Background image stays fixed within the viewport and does not move when the element or the page is scrolled.
+
+local
+:   Background image stays fixed with regard to the element’s contents and scrolls as the element is scrolled.
+
+## Examples
+
+The following examples use the **background-attachment** attribute and the **background-attachment** property to set the background to "fixed", so that the background does not scroll with the text.
 
 This example uses an inline style sheet to set the background to fixed.
-|Code=&lt;style &gt;
-    body { background-attachment:fixed }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body background{{=}}"some.jpg"&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-attachment.htm
-}}{{Single Example
-|Language=JavaScript
-|Description=This example uses scripting to set the page background to fixed.
-|Code=document.body.backgroundAttachment = 'fixed';
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-This property can be set with the other background properties by using the [[css/cssom/properties/background|'''background''']] composite property.
 
-With CSS3 Backgrounds, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [[css/properties/background-image|'''background-image''']] property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ('''background-attachment''', [[css/properties/background-clip|'''background-clip''']], [[css/properties/background-origin|'''background-origin''']], [[css/properties/background-position|'''background-position''']], [[css/properties/background-repeat|'''background-repeat''']], and [[css/properties/background-size|'''background-size''']]). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS 2.1
-|URL=http://www.w3.org/TR/CSS2/colors.html#propdef-background-attachment
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
-|URL=http://www.w3.org/TR/css3-background/#the-background-attachment
-|Status=W3C Candidate Recommendation
-|Relevant_changes=add "local" as a possible value of the property
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=scroll
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=6
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=fixed
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=7
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=local
-|Chrome_supported=Yes
-|Chrome_version=4
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=10.5
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=3.0
-|Note=Microsoft Internet Explorer 3.0 supports the '''background-attachment''' attribute, but only when it's set by using the [[css/cssom/properties/background|'''background''']] attribute.
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Background
-|Manual_sections====Related pages===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>LayoutRect</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+``` {.html}
+<style >
+    body { background-attachment:fixed }
+</style>
+</head>
+<body background="some.jpg">
+```
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-attachment.htm)
+
+This example uses scripting to set the page background to fixed.
+
+``` {.js}
+document.body.backgroundAttachment = 'fixed';
+```
+
+## Notes
+
+### Remarks
+
+This property can be set with the other background properties by using the [**background**](/css/cssom/properties/background) composite property.
+
+With CSS3 Backgrounds, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [**background-image**](/css/properties/background-image) property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties (**background-attachment**, [**background-clip**](/css/properties/background-clip), [**background-origin**](/css/properties/background-origin), [**background-position**](/css/properties/background-position), [**background-repeat**](/css/properties/background-repeat), and [**background-size**](/css/properties/background-size)). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS 2.1](http://www.w3.org/TR/CSS2/colors.html#propdef-background-attachment)
+:   W3C Recommendation
+[CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/#the-background-attachment)
+:   W3C Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Background
+
+-   [background](/css/cssom/properties/background)
+
+-   [background](/css/properties/background)
+
+-   **background-attachment**
+
+-   [background-blend-mode](/css/properties/background-blend-mode)
+
+-   [background-clip](/css/properties/background-clip)
+
+-   [background-color](/css/properties/background-color)
+
+-   [background-image](/css/properties/background-image)
+
+-   [background-origin](/css/properties/background-origin)
+
+-   [background-position](/css/properties/background-position)
+
+-   [background-position-x](/css/properties/background-position-x)
+
+-   [background-position-y](/css/properties/background-position-y)
+
+-   [background-repeat](/css/properties/background-repeat)
+
+-   [background-size](/css/properties/background-size)
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+
+### Related pages
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaults`
+-   `LayoutRect`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

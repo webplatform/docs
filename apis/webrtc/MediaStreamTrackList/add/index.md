@@ -1,46 +1,48 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Parent object obsolete; deletion candidate
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Adds a MediaStreamTrack to this track list.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=track
-|Data type=MediaStreamTrack
-|Description=MediaStreamTrack '''track''', required.
-|Optional=No
-}}
-|Method_applies_to=apis/webrtc/MediaStreamTrackList
-|Example_object_name=trackList
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=Exception INVALID_STATE_ERR if the stream is finished (all tracks have ended).
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: add
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: WebRTC
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Parent object obsolete; deletion candidate'
+summary: 'Adds a MediaStreamTrack to this track list.'
+uri: apis/webrtc/MediaStreamTrackList/add
+
+---
+# add
+
+## Summary
+
+Adds a MediaStreamTrack to this track list.
+
+*Method of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)*
+
+## Syntax
+
+``` {.js}
+ trackList.add(/* see parameter list */);
+```
+
+## Parameters
+
+### track
+
+ Data-typeÂ
+:   MediaStreamTrack
+
+ MediaStreamTrack **track**, required.
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+Exception INVALID\_STATE\_ERR if the stream is finished (all tracks have ended).
+

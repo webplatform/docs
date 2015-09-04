@@ -1,62 +1,60 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Gets the minutes of a Date object using Universal Coordinated Time (UTC).}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=dateObj.getUTCMinutes()
-}}
-|Values=
-}}
-{{JS_Return_Value
-|Description=Returns an integer between 0 and 59. Zero is returned the time is less than one minute after the hour. If a '''Date''' object was created without specifying the time, by default the UTC minute value is 0. However, in other time zones it may be different.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the '''getUTCMinutes''' method.
-|Code=var date = new Date("1/1/2001");
+---
+title: getUTCMinutes
+tags:
+  0: JS
+  1: Basic
+  3: Method
+readiness: 'Ready to Use'
+summary: 'Gets the minutes of a Date object using Universal Coordinated Time (UTC).'
+uri: javascript/Date/getUTCMinutes
+
+---
+# getUTCMinutes
+
+## Summary
+
+Gets the minutes of a Date object using Universal Coordinated Time (UTC).
+
+## Syntax
+
+    dateObj.getUTCMinutes()
+
+## Return Value
+
+Returns an integer between 0 and 59. Zero is returned the time is less than one minute after the hour. If a **Date** object was created without specifying the time, by default the UTC minute value is 0. However, in other time zones it may be different.
+
+## Examples
+
+The following example illustrates the use of the **getUTCMinutes** method.
+
+``` {.js}
+var date = new Date("1/1/2001");
  document.write(date.getUTCMinutes());
- document.write("&lt;br/&gt;");
- 
+ document.write("<br/>");
+
  date.setMinutes(5);
  document.write(date.getUTCMinutes());
- 
- // Output: 
+
+ // Output:
  // 0
  // 5
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=The required dateObj reference is a '''Date''' object. To get the number of minutes stored using local time, use the '''getMinutes''' method.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Date/getMinutes{{!}}getMinutes Method (Date)]]
-* [[javascript/Date/setMinutes{{!}}setMinutes Method (Date)]]
-* [[javascript/Date/setUTCMinutes{{!}}setUTCMinutes Method (Date)]]
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Method
-|Applies to=Date
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/7xt0y1cc(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+```
+
+## Remarks
+
+The required dateObj reference is a **Date** object. To get the number of minutes stored using local time, use the **getMinutes** method.
+
+## See also
+
+### Other articles
+
+-   [getMinutes Method (Date)](/javascript/Date/getMinutes)
+-   [setMinutes Method (Date)](/javascript/Date/setMinutes)
+-   [setUTCMinutes Method (Date)](/javascript/Date/setUTCMinutes)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7xt0y1cc(v=vs.94).aspx)
+

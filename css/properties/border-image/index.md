@@ -1,113 +1,165 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. It can be used to set [[css/properties/border-image-source|'''border-image-source''']], [[css/properties/border-image-slice|'''border-image-slice''']], [[css/properties/border-image-width|'''border-image-width''']], [[css/properties/border-image-outset|'''border-image-outset''']] and [[css/properties/border-image-repeat|'''border-image-repeat''']], or a subset of these.}}
-{{CSS Property
-|Initial value=based on individual properties
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=based on individual properties
-|Animatable=No
-|CSS object model property=borderImage
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=border-image-source border-image-slice border-image-width border-image-outset border-image-repeat
-|Description=The <code>border-image</code> property can contain up to five components:
-* <code>border-image-source</code>: This can take a valid [[css/functions/url()|"CSS images: url()"]] as its value.
-* <code>border-image-slice</code>: This takes any of the values available to the [[css/properties/border-image-slice|'''border-image-slice''']] property, which includes <number>, <percentage> and <code>fill</code>. For more details about each, see the [[css/properties/border-image-slice|'''border-image-slice''']] page.
-* <code>border-image-width</code>: This takes a numeric value with any of the standard length units.
-* <code>border-image-outset</code>: This takes a numeric value with any of the standard length units.
-* <code>border-image-repeat</code>: This takes any of the type of values available to the [[css/properties/border-image-repeat|'''border-image-repeat ''']] property, which includes <code>stretch</code>, <code>repeat</code>, <code>round</code> and <code>space</code>. For more details about each, see the [[css/properties/border-image-repeat|'''border-image-repeat''']] page.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=A simple example showing a &lt;div&gt;.
-|Code=&lt;div class="pattern"&gt;one&lt;/div&gt;
-|LiveURL=http://code.webplatform.org/gist/5622521
-}}{{Single Example
-|Language=CSS
-|Code=/* General setup of the containers */
+---
+title: border-image
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for ''border'' property. It can be used to set border-image-source, border-image-slice, border-image-width, border-image-outset and border-image-repeat, or a subset of these.'
+code_samples:
+  - 'http://gist.github.com/5622521'
+uri: css/properties/border-image
+
+---
+# border-image
+
+## Summary
+
+Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. It can be used to set border-image-source, border-image-slice, border-image-width, border-image-outset and border-image-repeat, or a subset of these.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `based on individual properties`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   based on individual properties
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `borderImage`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `border-image: border-image-source border-image-slice border-image-width border-image-outset border-image-repeat`
+
+## Values
+
+border-image-source border-image-slice border-image-width border-image-outset border-image-repeat
+:   The `border-image` property can contain up to five components:
+
+-   `border-image-source`: This can take a valid ["CSS images: url()"](/css/functions/url()) as its value.
+-   `border-image-slice`: This takes any of the values available to the [**border-image-slice**](/css/properties/border-image-slice) property, which includes \<number\>, \<percentage\> and `fill`. For more details about each, see the [**border-image-slice**](/css/properties/border-image-slice) page.
+-   `border-image-width`: This takes a numeric value with any of the standard length units.
+-   `border-image-outset`: This takes a numeric value with any of the standard length units.
+-   `border-image-repeat`: This takes any of the type of values available to the [**border-image-repeat**](/css/properties/border-image-repeat) property, which includes `stretch`, `repeat`, `round` and `space`. For more details about each, see the [**border-image-repeat**](/css/properties/border-image-repeat) page.
+
+## Examples
+
+A simple example showing a \<div\>.
+
+``` {.css}
+<div class="pattern">one</div>
+```
+
+[View live example](http://code.webplatform.org/gist/5622521)
+
+``` {.css}
+/* General setup of the containers */
 div {
-	height: 100px;
-	width: 100px;
-	margin: 25px; 
-	text-align: center;
-	line-height: 100px;
-	font-family: sans-serif;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    text-align: center;
+    line-height: 100px;
+    font-family: sans-serif;
 }
 
 .pattern {
-	border: 30px solid transparent;
-	border-image: url(http://docs.webplatform.org/w/images/d/d8/border-image.png) 30 repeat;
+    border: 30px solid transparent;
+    border-image: url(http://docs.webplatform.org/w/images/d/d8/border-image.png) 30 repeat;
 }
-|LiveURL=http://code.webplatform.org/gist/5622521
-}}
-}}
-{{Notes_Section
-|Notes=[[css/properties/border-image-slice|'''border-image-slice: fill''']] was introduced in latest recommendation and breaks backwards compatibility. If you want border-image to fill an inner area of your block you have to use this property.
+```
 
-===Compatibility with other properties===
-[[css/properties/border-radius|'''border-radius''']] has no effect on border-image.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Backgrounds and Borders Module Level 3
-|URL=http://www.w3.org/TR/css3-background/
-|Status=W3C Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=10
-|Firefox_supported=Yes
-|Firefox_version=15
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=3.5
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=10
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=4
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Firefox
-|Version=15+
-|Note=As required by the final specification, the unprefixed version requires [[css/properties/border-style|'''border-style''']] to be different than 'none' or border-image will be ignored.
-}}{{Compatibility Notes Row
-|Browser=Chrome, Safari, Opera
-|Version=All
-|Note=Implement an early version of the spec and incorrectly display border-image when [[css/properties/border-style|'''border-style''']] is 'none'.
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Border
-|Manual_links=* [[tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+[View live example](http://code.webplatform.org/gist/5622521)
+
+## Notes
+
+[**border-image-slice: fill**](/css/properties/border-image-slice) was introduced in latest recommendation and breaks backwards compatibility. If you want border-image to fill an inner area of your block you have to use this property.
+
+### Compatibility with other properties
+
+[**border-radius**](/css/properties/border-radius) has no effect on border-image.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/)
+:   W3C Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Border
+
+-   [border](/css/properties/border)
+
+-   [border-bottom](/css/properties/border-bottom)
+
+-   [border-bottom-color](/css/properties/border-bottom-color)
+
+-   [border-bottom-left-radius](/css/properties/border-bottom-left-radius)
+
+-   [border-bottom-style](/css/properties/border-bottom-style)
+
+-   [border-bottom-width](/css/properties/border-bottom-width)
+
+-   [border-color](/css/properties/border-color)
+
+-   **border-image**
+
+-   [border-image-outset](/css/properties/border-image-outset)
+
+-   [border-image-repeat](/css/properties/border-image-repeat)
+
+-   [border-image-slice](/css/properties/border-image-slice)
+
+-   [border-image-source](/css/properties/border-image-source)
+
+-   [border-image-width](/css/properties/border-image-width)
+
+-   [border-left](/css/properties/border-left)
+
+-   [border-left-color](/css/properties/border-left-color)
+
+-   [border-left-style](/css/properties/border-left-style)
+
+-   [border-left-width](/css/properties/border-left-width)
+
+-   [border-radius](/css/properties/border-radius)
+
+-   [border-right](/css/properties/border-right)
+
+-   [border-right-color](/css/properties/border-right-color)
+
+-   [border-right-style](/css/properties/border-right-style)
+
+-   [border-right-width](/css/properties/border-right-width)
+
+-   [border-top](/css/properties/border-top)
+
+-   [border-top-color](/css/properties/border-top-color)
+
+-   [border-top-left-radius](/css/properties/border-top-left-radius)
+
+-   [border-top-right-radius](/css/properties/border-top-right-radius)
+
+-   [border-top-style](/css/properties/border-top-style)
+
+-   [border-top-width](/css/properties/border-top-width)
+
+-   [border-width](/css/properties/border-width)
+
+### Other articles
+
+-   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)
+

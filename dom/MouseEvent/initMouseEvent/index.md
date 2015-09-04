@@ -1,136 +1,156 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=compatibility, examples
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Initializes a new mouse event that the  [[dom/Document/createEvent|'''createEvent''']] method created.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=eventType
-|Data type=String
-|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=canBubble
-|Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
-|Optional=No
-}}{{Method Parameter
-|Index=2
-|Name=cancelable
-|Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
-|Optional=No
-}}{{Method Parameter
-|Index=3
-|Name=view
-|Data type=DOM Node
-|Description=The window on which this event is occurring. Sets the value for the [[dom/UIEvent/view|view]] property.
-|Optional=No
-}}{{Method Parameter
-|Index=4
-|Name=detail
-|Data type=Number
-|Description=Specifies additional information. This value is returned in the [[dom/UIEvent/detail|'''detail''']] property  of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=5
-|Name=screenX
-|Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/MouseEvent/screenX|'''screenX''']] property,
-|Optional=No
-}}{{Method Parameter
-|Index=6
-|Name=screenY
-|Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. Sets the value for the [[dom/MouseEvent/screenY|'''screenY''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=7
-|Name=clientX
-|Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/MouseEvent/clientX|'''clientX''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=8
-|Name=clientY
-|Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. Sets the value for the [[dom/MouseEvent/clientY|'''clientY''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=9
-|Name=ctrlKey
-|Data type=Boolean
-|Description=Whether the Control key is depressed. Sets the value for the [[dom/KeyboardEvent/ctrlKey|'''ctrlKey''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=10
-|Name=altKey
-|Data type=Boolean
-|Description=Whether the Alt key is depressed. Sets the value for the [[dom/KeyboardEvent/altKey|'''altKey''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=11
-|Name=shiftKey
-|Data type=Boolean
-|Description=Whether the Shift key is depressed. Sets the value for the [[dom/KeyboardEvent/shiftKey|'''shiftKey''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=12
-|Name=metaKey
-|Data type=Boolean
-|Description=Whether a meta key is depressed. Sets the value for the [[dom/KeyboardEvent/metaKey|'''metaKey''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=13
-|Name=button
-|Data type=Number
-|Description=The mouse button that caused the event. Sets the value for the [[dom/MouseEvent/button|'''button''']] property (see the property page for common values).
-|Optional=No
-}}{{Method Parameter
-|Index=14
-|Name=relatedTarget
-|Data type=DOM Node
-|Description=A secondary element that is involved in the event.  Sets the value for the [[dom/MouseEvent/relatedTarget|'''relatedTarget''']] property.
-|Optional=No
-}}
-|Method_applies_to=dom/MouseEvent
-|Example_object_name=event
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
-|Status=Working Draft
-|Relevant_changes=Section 5.2.3
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM, DOMEvents}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: initMouseEvent
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+  - DOMEvents
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'compatibility, examples'
+summary: 'Initializes a new mouse event that the  createEvent method created.'
+uri: dom/MouseEvent/initMouseEvent
+
+---
+# initMouseEvent
+
+## Summary
+
+Initializes a new mouse event that the createEvent method created.
+
+*Method of [dom/MouseEvent](/dom/MouseEvent)*
+
+## Syntax
+
+``` {.js}
+ event.initMouseEvent(eventType, canBubble, cancelable, view, detail, screenX, screenY, clientX, clientY, ctrlKey, altKey, shiftKey, metaKey, button, relatedTarget);
+```
+
+## Parameters
+
+### eventType
+
+ Data-typeÂ
+:   String
+
+ The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
+
+### canBubble
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
+
+### cancelable
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
+
+### view
+
+ Data-typeÂ
+:   DOM Node
+
+ The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
+
+### detail
+
+ Data-typeÂ
+:   Number
+
+ Specifies additional information. This value is returned in the [**detail**](/dom/UIEvent/detail) property of the event.
+
+### screenX
+
+ Data-typeÂ
+:   Number
+
+ The x-coordinate of the mouse pointer, relative to the upper-left corner of the screen. Sets the value for the [**screenX**](/dom/MouseEvent/screenX) property,
+
+### screenY
+
+ Data-typeÂ
+:   Number
+
+ The y-coordinate of the mouse pointer, relative to the upper-left corner of the screen. Sets the value for the [**screenY**](/dom/MouseEvent/screenY) property.
+
+### clientX
+
+ Data-typeÂ
+:   Number
+
+ The x-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. Sets the value for the [**clientX**](/dom/MouseEvent/clientX) property.
+
+### clientY
+
+ Data-typeÂ
+:   Number
+
+ The y-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. Sets the value for the [**clientY**](/dom/MouseEvent/clientY) property.
+
+### ctrlKey
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the Control key is depressed. Sets the value for the [**ctrlKey**](/dom/KeyboardEvent/ctrlKey) property.
+
+### altKey
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the Alt key is depressed. Sets the value for the [**altKey**](/dom/KeyboardEvent/altKey) property.
+
+### shiftKey
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the Shift key is depressed. Sets the value for the [**shiftKey**](/dom/KeyboardEvent/shiftKey) property.
+
+### metaKey
+
+ Data-typeÂ
+:   Boolean
+
+ Whether a meta key is depressed. Sets the value for the [**metaKey**](/dom/KeyboardEvent/metaKey) property.
+
+### button
+
+ Data-typeÂ
+:   Number
+
+ The mouse button that caused the event. Sets the value for the [**button**](/dom/MouseEvent/button) property (see the property page for common values).
+
+### relatedTarget
+
+ Data-typeÂ
+:   DOM Node
+
+ A secondary element that is involved in the event. Sets the value for the [**relatedTarget**](/dom/MouseEvent/relatedTarget) property.
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

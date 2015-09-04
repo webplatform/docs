@@ -1,63 +1,104 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add example, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specifies the distance between the borders of adjacent cells.}}
-{{CSS Property
-|Initial value=0
-|Applies to=Table and inline-table elements
-|Inherited=Yes
-|Media=visual
-|Computed value=Two absolute lengths
-|Animatable=No
-|CSS object model property=borderSpacing
-|Values={{CSS Property Value
-|Data Type=length
-|Description=The distance that separates adjoining cell borders. If one length is specified, it gives both the horizontal and vertical spacing. If two are specified, the first gives the horizontal spacing and the second the vertical spacing. Lengths may not be negative.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=The same specified value as the property for the element's parent will be used.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|LiveURL=http://code.webplatform.org/gist/6948537
-}}
-}}
-{{Notes_Section
-|Notes=* The CSS2.1 specification states that user agents may apply this property to frameset elements (therefore replacing the framespacing attribute).
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS 2.1, 17.6.1. The separated borders model
-|URL=http://www.w3.org/TR/CSS2/tables.html#propdef-border-spacing
-|Status=Recommendation
-}}{{Related Specification
-|Name=CSS 3, 8.1. The separated borders model
-|URL=http://dev.w3.org/csswg/css3-tables/#border-spacing
-|Status=Editor's Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Tables
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: border-spacing
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add example, compatibility.'
+summary: 'Specifies the distance between the borders of adjacent cells.'
+code_samples:
+  - 'http://gist.github.com/6948537'
+uri: css/properties/border-spacing
+
+---
+# border-spacing
+
+## Summary
+
+Specifies the distance between the borders of adjacent cells.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `0`
+Applies to
+:   Table and inline-table elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   Two absolute lengths
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `borderSpacing`
+
+## Syntax
+
+-   `border-spacing: inherit`
+-   `border-spacing: length`
+
+## Values
+
+length
+:   The distance that separates adjoining cell borders. If one length is specified, it gives both the horizontal and vertical spacing. If two are specified, the first gives the horizontal spacing and the second the vertical spacing. Lengths may not be negative.
+
+inherit
+:   The same specified value as the property for the element's parent will be used.
+
+## Examples
+
+[View live example](http://code.webplatform.org/gist/6948537)
+
+## Notes
+
+-   The CSS2.1 specification states that user agents may apply this property to frameset elements (therefore replacing the framespacing attribute).
+
+## Related specifications
+
+Specification
+:   Status
+[CSS 2.1, 17.6.1. The separated borders model](http://www.w3.org/TR/CSS2/tables.html#propdef-border-spacing)
+:   Recommendation
+[CSS 3, 8.1. The separated borders model](http://dev.w3.org/csswg/css3-tables/#border-spacing)
+:   Editor's Draft
+
+## See also
+
+### Related articles
+
+#### Tables
+
+-   [border-collapse](/css/properties/border-collapse)
+
+-   **border-spacing**
+
+-   [caption-side](/css/properties/caption-side)
+
+-   [empty-cells](/css/properties/empty-cells)
+
+-   [Tables](/css/tables)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

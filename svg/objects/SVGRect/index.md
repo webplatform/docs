@@ -1,46 +1,71 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{API_Object
-|Subclass_of=svg/objects/SVGElement
-}}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
+---
+title: SVGRect
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/objects/SVGRect
 
-===Remarks===
+---
+# SVGRect
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
 
-SVG rectangles consist of an (x,y) coordinate pair that identifies a minimum x-coordinate value and  a minimum y-coordinate value and a [[svg/properties/width|'''width''']] and [[svg/properties/height|'''height''']], which are  typically  constrained to be non-negative.
+## Properties
 
-|Import_Notes=
+*No properties.*
 
-===Standards information===
+## Methods
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.19
+*No methods.*
 
-===Members===
+## Events
 
-The '''SVGRect''' object has these properties:
+*No events.*
 
-*[[svg/properties/height|'''height''']]: Gets or sets  the height of an element.
-*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
-*[[svg/properties/width|'''width''']]: Defines the width of an element.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
+## Inherited from SVGElement
 
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+### Properties
+
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+## Notes
+
+### Remarks
+
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+SVG rectangles consist of an (x,y) coordinate pair that identifies a minimum x-coordinate value and a minimum y-coordinate value and a [**width**](/svg/properties/width) and [**height**](/svg/properties/height), which are typically constrained to be non-negative.
+
+### Standards information
+
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.19
+
+### Members
+
+The **SVGRect** object has these properties:
+
+-   [**height**](/svg/properties/height): Gets or sets the height of an element.
+-   [**style**](/svg/properties/style): Gets a [**style**](/css/cssom/style) object.
+-   [**width**](/svg/properties/width): Defines the width of an element.
+-   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
+-   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

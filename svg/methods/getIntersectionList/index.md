@@ -1,43 +1,38 @@
-{{Page Title}}
-{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: getIntersectionList
+tags:
+  - SVG
+standardization_status: Unknown
+uri: svg/methods/getIntersectionList
 
-===Remarks===
+---
+# getIntersectionList
 
-A  graphics element is considered a match only if the same graphics element can be a target of pointer events.
-|Import_Notes=
+{Flags |High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import |Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup |State=Not Ready |Editorial notes=No editing form }}
 
-===Syntax===
+## Notes
 
- var retval = SVGSVGElement.getIntersectionList(rect, referenceElement);
+### Remarks
 
-===Standards information===
+A graphics element is considered a match only if the same graphics element can be a target of pointer events.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+    var retval = SVGSVGElement.getIntersectionList(rect, referenceElement);
 
-===Related pages (MSDN)===
+### Standards information
 
-*[[svg/elements/svg|'''SVGSVGElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+-   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGSVGElement**](/svg/elements/svg)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

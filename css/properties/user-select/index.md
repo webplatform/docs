@@ -1,155 +1,141 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=Editing this page produces: "Warning: More than one default form is defined for this page." ?
-|Checked_Out=No
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Controls the visible highlighting of selections of text and elements. It is possible to blind out selection completely or to allow the selection of text only.}}
-{{CSS Property
-|Initial value=all
-|Applies to=Visible elements
-|Inherited=Yes
-|Media=visual
-|Computed value=
-|Animatable=No
-|CSS object model property=
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=none
-|Description=None of the descendants of the element can be selected, neither text nor images.
-}}{{CSS Property Value
-|Data Type=text
-|Description=Only text of the element and its descendants can be selected.
-}}{{CSS Property Value
-|Data Type=all
-|Description=Default. Everything, text and images, can be selected.
-}}{{CSS Property Value
-|Data Type=element
-|Description=Only specified elements can be selected. Only supported in Firefox and Internet Explorer.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Deactivate selection of text for elements with the class '''no-select'''.
-|Code=.no-select {
+---
+title: user-select
+tags:
+  0: CSS
+  1: Properties
+  3: Design
+  5: Selectors
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+notes:
+  - "Editing this page produces: \"Warning: More than one default form is defined for this page.\"\_?"
+summary: 'Controls the visible highlighting of selections of text and elements. It is possible to blind out selection completely or to allow the selection of text only.'
+code_samples:
+  - 'http://jsfiddle.net/R5Ygm/'
+uri: css/properties/user-select
+
+---
+# user-select
+
+## Summary
+
+Controls the visible highlighting of selections of text and elements. It is possible to blind out selection completely or to allow the selection of text only.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `all`
+Applies to
+:   Visible elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `user-select: all`
+-   `user-select: element`
+-   `user-select: none`
+-   `user-select: text`
+
+## Values
+
+none
+:   None of the descendants of the element can be selected, neither text nor images.
+
+text
+:   Only text of the element and its descendants can be selected.
+
+all
+:   Default. Everything, text and images, can be selected.
+
+element
+:   Only specified elements can be selected. Only supported in Firefox and Internet Explorer.
+
+## Examples
+
+Deactivate selection of text for elements with the class **no-select**.
+
+``` {.css}
+.no-select {
     user-select: none;
 }
-|LiveURL=http://jsfiddle.net/R5Ygm/
-}}
-}}
-{{Notes_Section
-|Usage=Needs vendor prefixes.
-|Notes=Also works on mobile devices to suppress selection by touch and hold.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=User Interface for CSS3
-|URL=http://www.w3.org/TR/2000/WD-css3-userint-20000216
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Attributes
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[http://go.microsoft.com/fwlink/p/?LinkID{{=}}235901 IE Test Drive: User-Select]</code>
-*<code>[https://developer.mozilla.org/en-US/docs/CSS/user-select]</code>
-}}
-{{Topics|CSS, Design}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=1
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Yes
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Yes
-}}{{Compatibility Table Desktop Row
-|Feature=element
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Yes
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Yes
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Yes
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-}}
-|Notes_rows=
-}}
+```
 
+[View live example](http://jsfiddle.net/R5Ygm/)
 
+## Usage
 
-{{CSS_Selector
-|Content=
-}}
+     Needs vendor prefixes.
+
+## Notes
+
+Also works on mobile devices to suppress selection by touch and hold.
+
+## Related specifications
+
+Specification
+:   Status
+[User Interface for CSS3](http://www.w3.org/TR/2000/WD-css3-userint-20000216)
+:   W3C Working Draft
+
+## See also
+
+### Related articles
+
+#### CSS Attributes
+
+-   [background-blend-mode](/css/properties/background-blend-mode)
+
+-   [background-position](/css/properties/background-position)
+
+-   [break-before](/css/properties/break-before)
+
+-   [height](/css/properties/height)
+
+-   [list-style](/css/properties/list-style)
+
+-   [list-style-position](/css/properties/list-style-position)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   **user-select**
+
+-   [equality](/css/selectors/attributes/equality)
+
+-   [Attribute selector](/css/selectors/attributes/existence)
+
+-   [hyphen](/css/selectors/attributes/hyphen)
+
+-   [prefix](/css/selectors/attributes/prefix)
+
+-   [substring](/css/selectors/attributes/substring)
+
+-   [suffix](/css/selectors/attributes/suffix)
+
+-   [baseline-shift](/svg/attributes/baseline-shift)
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+
+### Related pages (MSDN)
+
+-   `IE Test Drive: User-Select`
+-   `[1]`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

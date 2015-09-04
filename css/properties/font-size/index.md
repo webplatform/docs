@@ -1,197 +1,321 @@
-{{Page_Title|font-size}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|<code>font-size</code> sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. [[guides/css_text_styling_fundamentals|CSS Text Styling Fundamentals]] provides an overview.}}
-{{CSS Property
-|Initial value=medium
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Computed value=as specified, but with relative lengths converted into absolute pixel values.
-|Animatable=Yes
-|CSS object model property=fontSize
-|Values={{CSS Property Value
-|Data Type=absolute keywords
-|Description=A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From smallest to largest, possible values are '''xx-small''', '''x-small''', '''small''', '''medium''', '''large''', '''x-large''', and '''xx-large'''.
-}}{{CSS Property Value
-|Data Type=relative keywords
-|Description=A set of keywords interpreted relative to the parent element's '''font-size''' — either '''smaller''' or '''larger'''.
-}}{{CSS Property Value
-|Data Type=length
-|Description=An absolute unit value: any of the standard [[css/data_types/length|css length units]] are allowed. Negative lengths are illegal.
-}}{{CSS Property Value
-|Data Type=percentage
-|Description=A percentage value specifies an absolute font size relative to the parent element's  '''font-size'''.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=The <code>inherit</code> keyword causes the element to adopt its parent element's font size.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A selection of examples showing some typical uses of the font-size property.
-|Code=&lt;p class="example-one"&gt;Example One: We ♥ WebPlatform Docs!&lt;/p&gt;
-&lt;p class="example-two"&gt;Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!&lt;/p&gt;
-&lt;p class="example-three"&gt;Example Three: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.&lt;/p&gt;
-}}{{Single Example
-|Language=CSS
-|Code=.example-one {
-	font-size: 1.2em;
-}		
+---
+title: font-size
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'font-size sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element''s parent or root elements. CSS Text Styling Fundamentals provides an overview.'
+code_samples:
+  - 'http://gist.github.com/5628042'
+  - 'http://gist.github.com/5628240'
+uri: css/properties/font-size
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'css/concepts/CSS pixels'
+    - css/properties/text-size-adjust
+
+---
+# font-size
+
+## Summary
+
+font-size sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. CSS Text Styling Fundamentals provides an overview.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `medium`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified, but with relative lengths converted into absolute pixel values.
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `fontSize`
+
+## Syntax
+
+-   `font-size: absolute keywords`
+-   `font-size: inherit`
+-   `font-size: length`
+-   `font-size: percentage`
+-   `font-size: relative keywords`
+
+## Values
+
+absolute keywords
+:   A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From smallest to largest, possible values are **xx-small**, **x-small**, **small**, **medium**, **large**, **x-large**, and **xx-large**.
+
+relative keywords
+:   A set of keywords interpreted relative to the parent element's **font-size** — either **smaller** or **larger**.
+
+length
+:   An absolute unit value: any of the standard [css length units](/css/data_types/length) are allowed. Negative lengths are illegal.
+
+percentage
+:   A percentage value specifies an absolute font size relative to the parent element's **font-size**.
+
+inherit
+:   The `inherit` keyword causes the element to adopt its parent element's font size.
+
+## Examples
+
+A selection of examples showing some typical uses of the font-size property.
+
+``` {.html}
+<p class="example-one">Example One: We ♥ WebPlatform Docs!</p>
+<p class="example-two">Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!</p>
+<p class="example-three">Example Three: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.</p>
+```
+
+``` {.css}
+.example-one {
+    font-size: 1.2em;
+}
 
 .example-two {
-	font-size: small;
+    font-size: small;
 }
 
 .example-three {
-	font-size: 28px;
+    font-size: 28px;
 }
-|LiveURL=http://code.webplatform.org/gist/5628042
-}}{{Single Example
-|Language=CSS
-|Description=A redefinition of the typical '''16px''' browser default font size '''medium''' value as '''10px''', followed by a resizing of the text that follows proportionate to that.
-|Code=html { font-size: 62.5%; } 
-/* 
-16 * 62.5% == 10 
+```
+
+[View live example](http://code.webplatform.org/gist/5628042)
+
+A redefinition of the typical **16px** browser default font size **medium** value as **10px**, followed by a resizing of the text that follows proportionate to that.
+
+``` {.css}
+html { font-size: 62.5%; }
+/*
+16 * 62.5% == 10
 */
 
 .example-one { font-size: 3.6rem }   /* 36px */
 .example-two { font-size: 2.4rem }   /* 24px */
 .example-three  { font-size: 1.4rem }   /* 14px */
-|LiveURL=http://code.webplatform.org/gist/5628240
-}}
-}}
-{{Notes_Section
-|Usage=Keywords such as '''large''' and '''medium''', or relative '''em''' or percentage units, are generally safer to use than pixel measurements, especially for mobile web browsers that adjust their set of default font sizes for legibility. Use of percentage values, or values in  '''em'''s, leads to more robust and cascadable style sheets.
+```
 
-Otherwise, pixels offer the safest way to specify measurements, since [[css/concepts/CSS_pixels|CSS pixels]] are adjusted for variations in display pixel density.
+[View live example](http://code.webplatform.org/gist/5628240)
 
-While the initial '''medium''' size applies widely, browsers apply a default style sheet that modifies it for various semantic elements, boosting the size of headings, for example. Browsers also automatically resize fonts when zooming the page, stepping by values that may not correspond exactly to the zoom factor. Unless disabled using [[css/properties/text-size-adjust|'''text-size-adjust''']], fonts also resize when tipping between portrait and landscape orientations on mobile browsers. For an overview of the issue, see [[tutorials/mobile_viewport|The Mobile Viewport and Orientation]].
+## Usage
 
-The value of '''font-size''' also affects the value of [[css/properties/line-height|'''line-height''']] when using its default or relative measurements.
+     Keywords such as large and medium, or relative em or percentage units, are generally safer to use than pixel measurements, especially for mobile web browsers that adjust their set of default font sizes for legibility. Use of percentage values, or values in  ems, leads to more robust and cascadable style sheets.
 
-Along with many other CSS properties, '''font-size''' can also be applied directly as an SVG attribute:
+Otherwise, pixels offer the safest way to specify measurements, since [CSS pixels](/w/index.php?title=css/concepts/CSS_pixels&action=edit&redlink=1) are adjusted for variations in display pixel density.
 
-<syntaxhighlight lang="xml">
+While the initial **medium** size applies widely, browsers apply a default style sheet that modifies it for various semantic elements, boosting the size of headings, for example. Browsers also automatically resize fonts when zooming the page, stepping by values that may not correspond exactly to the zoom factor. Unless disabled using [**text-size-adjust**](/w/index.php?title=css/properties/text-size-adjust&action=edit&redlink=1), fonts also resize when tipping between portrait and landscape orientations on mobile browsers. For an overview of the issue, see [The Mobile Viewport and Orientation](/tutorials/mobile_viewport).
+
+The value of **font-size** also affects the value of [**line-height**](/css/properties/line-height) when using its default or relative measurements.
+
+Along with many other CSS properties, **font-size** can also be applied directly as an SVG attribute:
+
+``` {.xml}
 <text x="12px" y="12px" font-family="sans-serif" font-size="120%"/>
-</syntaxhighlight>
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Fonts Module Level 3
-|URL=http://www.w3.org/TR/css3-fonts/#font-size-prop
-|Status=Working Draft
-}}{{Related Specification
-|Name=CSS Values and Units Module Level 3
-|URL=http://www.w3.org/TR/css3-values/
-|Status=Candidate Recommendation
-}}{{Related Specification
-|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
-|URL=http://www.w3.org/TR/CSS2/
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=5.5
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=1.0
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=3.8
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1.0
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=6.0
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=6.0
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=1.0
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=1.0
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 6.0
-|Note=Requires a [[html/elements/!DOCTYPE|'''!DOCTYPE''']] declaration that triggers [[concepts/standards_mode|standards mode]], otherwise the initial value is '''small''' rather than '''medium'''.
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 7.0
-|Note=Does not support '''inherit''' as a value.
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 8.0
-|Note=Does not resize text specified with absolute pixel measurements when using the browser's ''text-resize'' feature, but does resize correctly when zooming the page.
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=≤ 8.0
-|Note=Does not support [[css/data_types/length|'''rem''']] values; specify other supported values as fallback properties.
-}}{{Compatibility Notes Row
-|Browser=All
-|Note=Check compatibility for more recent [[css/data_types/length|viewport unit values]].
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, Fonts, Text
-|Manual_links=* [[guides/css_text_styling_fundamentals|CSS text styling fundamentals]]
-|External_links=* Smashing: [http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake 16 Pixels: For Body Copy. Anything Less Is a Costly Mistake]
-* HTML5 Boilerplate: [https://github.com/h5bp/html5-boilerplate/issues/724 Reasoning behind default font-size and line-height]
-* A List Apart: [http://www.alistapart.com/articles/howtosizetextincss How to Size Text in CSS] 
-* Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
-* WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
-* CSS-Tricks: [http://css-tricks.com/css-font-size/ Font size keywords]
-* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-size font-size]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-size-prop)
+:   Working Draft
+[CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
+:   Candidate Recommendation
+[Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/CSS2/)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### CSS Font
+
+-   [font-family](/css/properties/font-family)
+
+-   [font-kerning](/css/properties/font-kerning)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   **font-size**
+
+-   [font-size-adjust](/css/properties/font-size-adjust)
+
+-   [font-style](/css/properties/font-style)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [font-variant](/css/properties/font-variant)
+
+-   [kerning-mode](/css/properties/kerning-mode)
+
+-   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline](/css/properties/text-underline)
+
+-   [user-modify](/css/properties/user-modify)
+
+#### Fonts
+
+-   [@font-face](/css/atrules/@font-face)
+
+-   [Font related properties](/css/fonts)
+
+-   [font-variant](/css/fonts/font-variant)
+
+-   [font](/css/properties/font)
+
+-   [font-family](/css/properties/font-family)
+
+-   [font-feature-settings](/css/properties/font-feature-settings)
+
+-   [font-kerning](/css/properties/font-kerning)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   **font-size**
+
+-   [font-size-adjust](/css/properties/font-size-adjust)
+
+-   [font-stretch](/css/properties/font-stretch)
+
+-   [font-style](/css/properties/font-style)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [font-variant](/css/properties/font-variant)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [size](/html/attributes/size)
+
+-   [font](/html/elements/font)
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   **font-size**
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+### Other articles
+
+-   [CSS text styling fundamentals](/guides/css_text_styling_fundamentals)
+
+### External resources
+
+-   Smashing: [16 Pixels: For Body Copy. Anything Less Is a Costly Mistake](http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake)
+-   HTML5 Boilerplate: [Reasoning behind default font-size and line-height](https://github.com/h5bp/html5-boilerplate/issues/724)
+-   A List Apart: [How to Size Text in CSS](http://www.alistapart.com/articles/howtosizetextincss)
+-   Mozilla: [default style sheet](http://mxr.mozilla.org/mozilla/source/layout/style/html.css)
+-   WebKit: [default style sheet](http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css)
+-   CSS-Tricks: [Font size keywords](http://css-tricks.com/css-font-size/)
+-   MDN: [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+

@@ -1,61 +1,166 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+---
+title: formEnctype
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+summary: 'The formenctype attribute specifies how the form-data should be encoded when submitting it to the server.'
+uri: html/attributes/formEnctype
 
-|Checked_Out=No
-|High-level issues=Unreviewed Import
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The formenctype attribute specifies how the form-data should be encoded when submitting it to the server.}}
-{{Markup_Attribute
-|Applies_to=[[html/elements/input|HTMLInputElement]]
-|Property_applies_to=dom/HTMLElement
-|Content=The formenctype attribute overrides the enctype attribute of the <form> element with method="post".
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=<form action="submit.php" method="post">
+---
+# formEnctype
+
+## Summary
+
+The formenctype attribute specifies how the form-data should be encoded when submitting it to the server.
+
+Applies to
+:   [HTMLInputElement](/html/elements/input)
+
+The formenctype attribute overrides the enctype attribute of the \<form\> element with method="post".
+
+## Examples
+
+``` {.html}
+<form action="submit.php" method="post">
   Input field: <input type="text" name="inputfield">
   <input type="submit" value="Submit">
   <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
 </form>
-}}
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.19.6
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
-*<code>[[dom/HTMLBGSoundElement|HTMLButtonElement]]</code>
-*<code>input type{{=}}submit</code>
-*<code>[[html/attributes/formMethod|formMethod]]</code>
-*<code>[[html/attributes/formAction|formAction]]</code>
-*<code>[[html/attributes/formNoValidate|formNoValidate]]</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+### Syntax
+
+### Standards information
+
+-   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   **formEnctype**
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+### Related pages (MSDN)
+
+-   `HTMLInputElement`
+-   `HTMLButtonElement`
+-   `input type=submit`
+-   `formMethod`
+-   `formAction`
+-   `formNoValidate`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

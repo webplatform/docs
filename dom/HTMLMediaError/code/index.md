@@ -1,55 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=examples, clean-up of MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Returns the current '''HTMLMediaError''' code or null if no error has occurred.}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLMediaError
-|Read_only=Yes
-|Example_object_name=audio.error
-|Return_value_name=errorCode
-|Javascript_data_type=unsigned short
-|Return_value_description=The error code (from the [[dom/HTMLMediaError|MediaError]] constants), or null.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=If no error has occurred, the [[dom/HTMLMediaError|'''MediaError''']] object is null.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 4.8.10.1
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 4.8.10.1
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, Audio, DOM, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: code
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Audio
+  5: DOM
+  6: Video
+readiness: 'In Progress'
+notes:
+  - 'examples, clean-up of MSDN import'
+summary: 'Returns the current HTMLMediaError code or null if no error has occurred.'
+uri: dom/HTMLMediaError/code
+
+---
+# code
+
+## Summary
+
+Returns the current HTMLMediaError code or null if no error has occurred.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLMediaError](/dom/HTMLMediaError)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var errorCode = audio.error.code;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+
+The error code (from the [MediaError](/dom/HTMLMediaError) constants), or null.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+If no error has occurred, the [**MediaError**](/dom/HTMLMediaError) object is null.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5](http://www.w3.org/TR/html5/)
+:   Working Draft
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,47 +1,122 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.}}
-{{API_Object
-|Subclass_of=
-|Overview=The '''XMLHttpRequest''' property is available on the '''window''' object.
- <code class="language-javascript">var xhr {{=}} new XMLHttpRequest();</code>
-With the '''XMLHttpRequest''' object, clients can make HTTP requests to a URL without reloading the entire page. Despite the term "XML" in the name, this object can be used to retrieve any type of data.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following script demonstrates how to create and use the '''XMLHttpRequest''' object. For best client-side performance, the request is asynchronous and uses an '''onreadystatechange''' event handler to process the data returned by the call.
-|Code=function handler() {
-  if (xhr.readyState {{=}}{{=}}{{=}} 4 /* complete */) {
-    if (xhr.status {{=}}{{=}}{{=}} 200) {
+---
+title: XMLHttpRequest
+tags:
+  - API
+  - Objects
+  - XHR
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.'
+uri: apis/xhr/XMLHttpRequest
+
+---
+# XMLHttpRequest
+
+## Summary
+
+XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.
+
+## Overview
+
+The **XMLHttpRequest** property is available on the **window** object.
+
+    var xhr = new XMLHttpRequest();
+
+With the **XMLHttpRequest** object, clients can make HTTP requests to a URL without reloading the entire page. Despite the term "XML" in the name, this object can be used to retrieve any type of data.
+
+## Properties
+
+API Name
+:   Summary
+[readyState](/apis/xhr/XMLHttpRequest/readyState)
+:   Returns the current state of the XMLHttpRequest.
+[response](/apis/xhr/XMLHttpRequest/response)
+:   Returns the response entity body, which is the fragment of the entity body of the response received so far (if LOADING) or the complete entity body of the response (if DONE).
+[responseText](/apis/xhr/XMLHttpRequest/responseText)
+:   Returns the text response entity body, a string representing the response entity body, which is the fragment of the entity body of the response received so far (if LOADING) or the complete entity body of the response (if DONE).
+[responseType](/apis/xhr/XMLHttpRequest/responseType)
+:   Returns or sets the format the response will be returned in.
+[responseXML](/apis/xhr/XMLHttpRequest/responseXML)
+:   Returns the response to the request as a DOM Document object, or null if the request was unsuccessful, has not yet been sent, or cannot be parsed as XML or HTML.
+[status](/apis/xhr/XMLHttpRequest/status)
+:   Returns the HTTP result code (status) of the response to the request.
+[statusText](/apis/xhr/XMLHttpRequest/statusText)
+:   Returns the HTTP status text.
+[timeout](/apis/xhr/XMLHttpRequest/timeout)
+:   Returns or sets the number of milliseconds a request can take before automatically being terminated.
+[upload](/apis/xhr/XMLHttpRequest/upload)
+:   Returns the associated XMLHttpRequestUpload object. It can be used to gather transmission information when data is transferred to a server.
+[withCredentials](/apis/xhr/XMLHttpRequest/withCredentials)
+:   Returns or sets whether cross-site Access-Control requests should be made using credentials such as cookies or authorization headers.
+
+## Methods
+
+API Name
+:   Summary
+[abort](/apis/xhr/XMLHttpRequest/abort)
+:   Stops an asynchronous XMLHttpRequest in progress.
+[getAllResponseHeaders](/apis/xhr/XMLHttpRequest/getAllResponseHeaders)
+:   Returns all the response headers as a string, or null if no response has been received.
+[getResponseHeader](/apis/xhr/XMLHttpRequest/getResponseHeader)
+:   Returns the string containing the text of the specified header, or null if the response has not been received or the header does not exist.
+[open](/apis/xhr/XMLHttpRequest/open)
+:   Initializes an XMLHttpRequest.
+[overrideMimeType](/apis/xhr/XMLHttpRequest/overrideMimeType)
+:   Overrides the MIME type returned by the server.
+[send](/apis/xhr/XMLHttpRequest/send)
+:   Initiates the request defined by the XMLHttpRequest.
+[setRequestHeader](/apis/xhr/XMLHttpRequest/setRequestHeader)
+:   Sets the value of an XMLHttpRequest header.
+
+## Events
+
+API Name
+:   Summary
+[abort](/apis/xhr/XMLHttpRequest/abort-event)
+:   When the request has been aborted. For instance, by invoking the abort() method.
+[error](/apis/xhr/XMLHttpRequest/error)
+:   When the request has failed.
+[load](/apis/xhr/XMLHttpRequest/load)
+:   When the request has successfully completed.
+[loadend](/apis/xhr/XMLHttpRequest/loadend)
+:   When the request has completed (either in success or failure).
+[loadstart](/apis/xhr/XMLHttpRequest/loadstart)
+:   When the request starts.
+[progress](/apis/xhr/XMLHttpRequest/progress)
+:   While sending and loading data.
+[readystatechange](/apis/xhr/XMLHttpRequest/readystatechange)
+:   Fires whenever the readyState of the request changes. Mostly used to determine whether the body of the response is available for handling.
+[timeout](/apis/xhr/XMLHttpRequest/timeout-event)
+:   When the author specified timeout has passed before the request could complete.
+
+## Examples
+
+The following script demonstrates how to create and use the **XMLHttpRequest** object. For best client-side performance, the request is asynchronous and uses an **onreadystatechange** event handler to process the data returned by the call.
+
+``` {.js}
+function handler() {
+  if (xhr.readyState === 4 /* complete */) {
+    if (xhr.status === 200) {
             console.log(xhr.responseText);
         }
     }
 }
-var xhr {{=}} new XMLHttpRequest();
-xhr.open("GET", "<nowiki>http://localhost/test.xml</nowiki>", true);
-xhr.onreadystatechange {{=}} handler;
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://localhost/test.xml", true);
+xhr.onreadystatechange = handler;
 xhr.send();
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=This script demonstrates how to access resources that sits on a different domain. 
-Example: siteA.com gets resource from siteB.com
-|Code=// Create the XHR object.
+```
+
+This script demonstrates how to access resources that sits on a different domain. Example: siteA.com gets resource from siteB.com
+
+``` {.js}
+// Create the XHR object.
 function createCORSRequest(method, url) {
   var xhr = new XMLHttpRequest();
   if ("withCredentials" in xhr) {
     // XHR for Chrome/Firefox/Opera/Safari.
     xhr.open(method, url, true);
-  } else if (typeof XDomainRequest != "undefined") {
+  } else if (typeof XDomainRequest != "undefined") {
     // XDomainRequest for IE 9 and earlier.
     xhr = new XDomainRequest();
     xhr.open(method, url);
@@ -81,103 +156,46 @@ function makeCorsRequest() {
 
   xhr.send();
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=The XMLHttpRequest object can be used to make either same-origin or cross-origin requests.
+```
 
-Same-origin requests are subject to the browser's same-origin policy: http://en.wikipedia.org/wiki/Same_origin_policy  This basically says that an XMLHttpRequest instance can make a request to a resource that lives on the same origin as the calling page.
+## Usage
 
-Requests that go across origins (for example, a request from originA.com to originB.com) can also be made. But in order for them to work, the destination server must support Cross-Origin Resource Sharing (CORS,  http://www.w3.org/TR/cors/). These are a set of headers included in the response that indicate how a resource can be accessed across domains.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C XMLHttpRequest Specification
-|URL=http://www.w3.org/TR/XMLHttpRequest/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=Cross-Origin Resource Sharing
-|URL=http://www.w3.org/TR/cors/
-|Status=W3C Candidate Recommendation 29 January 2013
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=XHR
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|XHR}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN, HTML5Rocks
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/cors/
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=7.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=4.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=3.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=18.0
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=18.0
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=12.0
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=5.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+     The XMLHttpRequest object can be used to make either same-origin or cross-origin requests.
+
+Same-origin requests are subject to the browser's same-origin policy: [http://en.wikipedia.org/wiki/Same\_origin\_policy](http://en.wikipedia.org/wiki/Same_origin_policy) This basically says that an XMLHttpRequest instance can make a request to a resource that lives on the same origin as the calling page.
+
+Requests that go across origins (for example, a request from originA.com to originB.com) can also be made. But in order for them to work, the destination server must support Cross-Origin Resource Sharing (CORS, [http://www.w3.org/TR/cors/](http://www.w3.org/TR/cors/)). These are a set of headers included in the response that indicate how a resource can be accessed across domains.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
+:   W3C Working Draft
+[Cross-Origin Resource Sharing](http://www.w3.org/TR/cors/)
+:   W3C Candidate Recommendation 29 January 2013
+
+## See also
+
+### Related articles
+
+#### XHR
+
+-   [XMLHttpRequest (XHR) API](/apis/xhr)
+
+-   **XMLHttpRequest**
+
+-   [FormData](/dom/FormData)
+
+-   [MSEPrimer](/tutorials/MSEPrimer)
+
+-   [file xhr](/tutorials/file_xhr)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+
+Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/cors/)
+

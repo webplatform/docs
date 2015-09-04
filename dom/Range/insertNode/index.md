@@ -1,64 +1,73 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs some more content.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Inserts a Node into the start of a Range object.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=oNode
-|Data type=DOM Node
-|Description=The new node to insert.
-|Optional=No
-}}
-|Method_applies_to=dom/Range
-|Example_object_name=newNode
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=var range {{=}} document.createRange();
-newNode {{=}} document.createElement("p");
+---
+title: insertNode
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs some more content.'
+summary: 'Inserts a Node into the start of a Range object.'
+uri: dom/Range/insertNode
+
+---
+# insertNode
+
+## Summary
+
+Inserts a Node into the start of a Range object.
+
+*Method of [dom/Range](/dom/Range)*
+
+## Syntax
+
+``` {.js}
+ newNode.insertNode(/* see parameter list */);
+```
+
+## Parameters
+
+### oNode
+
+ Data-type�
+:   DOM Node
+
+ The new node to insert.
+
+## Return Value
+
+No return value
+
+## Examples
+
+``` {.js}
+var range = document.createRange();
+newNode = document.createElement("p");
 newNode.appendChild(document.createTextNode("New Node Inserted Here"));
 range.selectNode(document.getElementsByTagName("div").item(0));
 range.insertNode(newNode);
-}}
-}}
-{{Notes_Section
-|Notes=If the container is a node of type [[dom/Text|'''Text''']], '''insertNode''' splits the text node, and inserts ''newNode'' between the resulting two text nodes.
-If ''newNode'' is a document fragment, the children of the document fragment node are inserted rather than the ''newNode'' itself.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/#dom-range-insertnode
-|Status=Living Standard
-}}{{Related Specification
-|Name=Document Object Model (DOM) Level 2 Traversal and Range
-|URL=http://www.w3.org/TR/DOM-Level-2-Traversal-Range/ranges.html#Level2-Range-method-insertNode
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.insertNode Range.insertNode]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975445(v=vs.85).aspx insertNode Method]
-|HTML5Rocks_link=
-}}
+```
+
+## Notes
+
+If the container is a node of type [**Text**](/dom/Text), **insertNode** splits the text node, and inserts *newNode* between the resulting two text nodes. If *newNode* is a document fragment, the children of the document fragment node are inserted rather than the *newNode* itself.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM](http://dom.spec.whatwg.org/#dom-range-insertnode)
+:   Living Standard
+[Document Object Model (DOM) Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/ranges.html#Level2-Range-method-insertNode)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.insertNode](https://developer.mozilla.org/en-US/docs/Web/API/Range.insertNode) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[insertNode Method](http://msdn.microsoft.com/en-us/library/ie/ff975445(v=vs.85).aspx) Article]
+

@@ -1,43 +1,39 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: clipPathUnits
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/clipPathUnits
 
-===Remarks===
+---
+# clipPathUnits
 
-The '''clipPathUnits'''  property provides the user coordinate system for the contents of the [[svg/elements/clipPath|'''SVGClipPathElement''']] element.
+## Notes
 
-The default  '''svgUnitTypes'''  value of '''SVG_UNIT_TYPE_OBJECTBOUNDINGBOX''' means that the coordinate system is established by using the bounding box of the element that the clipping path is applied on.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+The **clipPathUnits** property provides the user coordinate system for the contents of the [**SVGClipPathElement**](/svg/elements/clipPath) element.
 
-===Standards information===
+The default **svgUnitTypes** value of **SVG\_UNIT\_TYPE\_OBJECTBOUNDINGBOX** means that the coordinate system is established by using the bounding box of the element that the clipping path is applied on.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.6.1
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.6.1
 
-*[[svg/elements/clipPath|'''SVGClipPathElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGClipPathElement**](/svg/elements/clipPath)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

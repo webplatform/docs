@@ -1,31 +1,50 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Gets the x-coordinate of the mouse pointer, relative to the upper-left corner of the viewport (that is, the user agent's client area).}}
-{{API_Object_Property
-|Property_applies_to=dom/MouseEvent
-|Read_only=Yes
-|Example_object_name=event
-|Return_value_name=xCoordinate
-|Javascript_data_type=Number
-|Return_value_description=The X coordinate of the mouse cursor.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''clientX''' property to determine the mouse position relative to the window. The console shows the mouse position at all times.
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
- &lt;head&gt;
-  &lt;script&gt;
+---
+title: clientX
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+  - DOMEvents
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - compatibility
+summary: 'Gets the x-coordinate of the mouse pointer, relative to the upper-left corner of the viewport (that is, the user agent''s client area).'
+uri: dom/MouseEvent/clientX
+
+---
+# clientX
+
+## Summary
+
+Gets the x-coordinate of the mouse pointer, relative to the upper-left corner of the viewport (that is, the user agent's client area).
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MouseEvent](/dom/MouseEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var xCoordinate = event.clientX;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+
+The X coordinate of the mouse cursor.
+
+## Examples
+
+This example uses the **clientX** property to determine the mouse position relative to the window. The console shows the mouse position at all times.
+
+``` {.html}
+<!doctype html>
+<html>
+ <head>
+  <script>
 function logClientCoords() {
   console.log("The x coordinate is: " + e.clientX + "The y coordinate is: " + e.clientY);
 }
@@ -34,37 +53,27 @@ function logCursorPosition(e) {
 }
 window.addEventListener("move", logCursorPosition, false);
 window.addEventListener("click", logClientCoords, false)
-  &lt;/script&gt;
- &lt;/head&gt;
- &lt;body&gt;
- &lt;/body&gt;
-&lt;/html&gt;
-}}
-}}
-{{Notes_Section
-|Notes=Client coordinates do not reflect the scroll offset of the page. To get the mouse pointer's coordinates  relative to the upper-left corner of the document, use  the [[css/cssom/properties/pageX|'''pageX''']] and [[css/cssom/properties/pageY|'''pageY''']] properties.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
-|Status=Working Draft
-|Relevant_changes=Section 5.2.3
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM, DOMEvents}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+  </script>
+ </head>
+ <body>
+ </body>
+</html>
+```
+
+## Notes
+
+Client coordinates do not reflect the scroll offset of the page. To get the mouse pointer's coordinates relative to the upper-left corner of the document, use the [**pageX**](/css/cssom/properties/pageX) and [**pageY**](/css/cssom/properties/pageY) properties.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

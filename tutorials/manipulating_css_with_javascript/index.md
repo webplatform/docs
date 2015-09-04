@@ -1,121 +1,116 @@
-{{Page_Title|Manipulating CSS with JavaScript}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Byline}}
-{{Summary_Section|In this article we look at the basics of how to manipulate CSS styles using JavaScript.}}
-{{Tutorial
-|Content==== Information: JavaScript === 
-JavaScript is a ''programming language''. JavaScript is widely used to provide interactivity in web sites and applications. JavaScript can interact with stylesheets, allowing you to write programs that change a document's style dynamically.
+---
+title: manipulating css with javascript
+tags:
+  - Tutorials
+  - CSS
+  - DOM
+  - JavaScript
+readiness: 'Ready to Use'
+summary: 'In this article we look at the basics of how to manipulate CSS styles using JavaScript.'
+uri: 'tutorials/manipulating css with javascript'
 
- 
-There are three ways to do this:
+---
+# Manipulating CSS with JavaScript
 
-* By working with the document's list of stylesheets—for example: adding, removing or modifying a stylesheet.
-* By working with the rules in a stylesheet—for example: adding, removing or modifying a rule.
-* By working with an individual element in the DOM—modifying its style independently of the document's stylesheets
-        
-=== Action: A JavaScript demonstration ===
+## Summary
 
-<ol>
-<li>Make a new HTML document, <code>doc5.html</code>. Copy and paste the content from here, making sure that you scroll to get all of it:<br /><br />
+In this article we look at the basics of how to manipulate CSS styles using JavaScript.
 
+### Information: JavaScript
 
+JavaScript is a *programming language*. JavaScript is widely used to provide interactivity in web sites and applications. JavaScript can interact with stylesheets, allowing you to write programs that change a document's style dynamically.
 
-<syntaxhighlight lang="html5">
-<!DOCTYPE html>
-<html>
+ There are three ways to do this:
 
-<head>
-<title>Mozilla CSS Getting Started - JavaScript demonstration</title>
-<link rel="stylesheet" type="text/css" href="style5.css" />
-<script type="text/javascript" src="script5.js"></script>
-</head>
+-   By working with the document's list of stylesheets—for example: adding, removing or modifying a stylesheet.
+-   By working with the rules in a stylesheet—for example: adding, removing or modifying a rule.
+-   By working with an individual element in the DOM—modifying its style independently of the document's stylesheets
 
-<body>
-<h1>JavaScript sample</h1>
+### Action: A JavaScript demonstration
 
-<div id="square"></div>
+1.  Make a new HTML document, `doc5.html`. Copy and paste the content from here, making sure that you scroll to get all of it:
 
-<button type="button" id="clickMe">Click Me</button>
+    ``` {.html}
+    <!DOCTYPE html>
+    <html>
 
-</body>
-</html>
-</syntaxhighlight>
-</li>
+    <head>
+    <title>Mozilla CSS Getting Started - JavaScript demonstration</title>
+    <link rel="stylesheet" type="text/css" href="style5.css" />
+    <script type="text/javascript" src="script5.js"></script>
+    </head>
 
+    <body>
+    <h1>JavaScript sample</h1>
 
-<li>Make a new CSS file, <code>style5.css</code>. Copy and paste the content from here:<br /><br />
-<syntaxhighlight lang="css">
-#square {
-  width: 20em;
-  height: 20em;
-  border: 2px inset gray;
-  margin-bottom: 1em;
-}
+    <div id="square"></div>
 
-button {
-  padding: .5em 2em;
-}​</syntaxhighlight>
-</li>
-<li><p>Make a new text file, <code>script5.js</code>. Copy and paste the content from here:</p>
-<syntaxhighlight lang="javascript">// JavaScript demonstration
+    <button type="button" id="clickMe">Click Me</button>
 
-var square = document.getElementById("square"),
-    clickMe = document.getElementById('clickMe'); //Keeping it unobstrusive
-function doDemo () {
+    </body>
+    </html>
+    ```
 
-  var button = this;
-  square.style.backgroundColor = "#fa4";
-  button.setAttribute("disabled", "true");
-  setTimeout(clearDemo, 2000, button);
-}
+2.  Make a new CSS file, `style5.css`. Copy and paste the content from here:
 
-function clearDemo (button) {
-  var square = document.getElementById("square");
-  square.style.backgroundColor = "transparent";
-  button.removeAttribute("disabled");
-}
+    ``` {.css}
+    #square {
+      width: 20em;
+      height: 20em;
+      border: 2px inset gray;
+      margin-bottom: 1em;
+    }
 
-clickMe.onclick = doDemo; //Onclick call. Pass no arguments.​​​​​
+    button {
+      padding: .5em 2em;
+    }​
+    ```
 
-</syntaxhighlight>
-</li>
+3.  Make a new text file, `script5.js`. Copy and paste the content from here:
 
+    ``` {.js}
+    // JavaScript demonstration
 
-<li>Open the document in your browser and press the button.</ol>
+    var square = document.getElementById("square"),
+        clickMe = document.getElementById('clickMe'); //Keeping it unobstrusive
+    function doDemo () {
 
+      var button = this;
+      square.style.backgroundColor = "#fa4";
+      button.setAttribute("disabled", "true");
+      setTimeout(clearDemo, 2000, button);
+    }
 
-What this code does, is that it changes the background color of the <code>#square</code> to <code>#ffaa44</code>. Here's a [http://jsfiddle.net/namanyayg/Angmu/1/ JSFiddle] so you can see it working live.
+    function clearDemo (button) {
+      var square = document.getElementById("square");
+      square.style.backgroundColor = "transparent";
+      button.removeAttribute("disabled");
+    }
 
-  
-Notes on what is happening in the above example:
+    clickMe.onclick = doDemo; //Onclick call. Pass no arguments.​​​​​
+    ```
 
-* The HTML document links the stylesheet as usual, and it also links the script.
-* The script works with individual elements in the DOM. It modifies the square's style directly. It modifies the button's style indirectly by changing an attribute.
-* In JavaScript, <code>document.getElementById("square")</code> is similar in function to to the CSS selector <code>#square</code> and in a similar way, <code>document.getElementById('clickMe')</code> is similar to <code>#clickMe</code>.
-* In JavaScript, <code>backgroundColor</code> corresponds to the CSS property <code>background-color</code>. JavaScript does not allow hyphens in names, so "camelCase" is used instead.
-* Your browser has a built-in CSS rule for <code>button</code> that changes the button's appearance when it is disabled.
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections===Exercise question==
+4.  Open the document in your browser and press the button.
+
+ What this code does, is that it changes the background color of the `#square` to `#ffaa44`. Here's a [JSFiddle](http://jsfiddle.net/namanyayg/Angmu/1/) so you can see it working live.
+
+ Notes on what is happening in the above example:
+
+-   The HTML document links the stylesheet as usual, and it also links the script.
+-   The script works with individual elements in the DOM. It modifies the square's style directly. It modifies the button's style indirectly by changing an attribute.
+-   In JavaScript, `document.getElementById("square")` is similar in function to to the CSS selector `#square` and in a similar way, `document.getElementById('clickMe')` is similar to `#clickMe`.
+-   In JavaScript, `backgroundColor` corresponds to the CSS property `background-color`. JavaScript does not allow hyphens in names, so "camelCase" is used instead.
+-   Your browser has a built-in CSS rule for `button` that changes the button's appearance when it is disabled.
+
+## See also
+
+## Exercise question
 
 Change the script so that the square jumps to the right by 20 em when its color changes, and jumps back afterwards.
-}}
-{{Topics|CSS, DOM, JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/JavaScript
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+
+## Attribution
+
+*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
+
+Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/JavaScript)
+

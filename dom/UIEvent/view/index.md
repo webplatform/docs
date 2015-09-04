@@ -1,54 +1,62 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs createUIEvent example????
-don't know why you would specify a different window to the current in creteUIEvent.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Gets the '''window''' object that an event is generated from.
-[object window]
-}}
-{{API_Object_Property
-|Property_applies_to=dom/UIEvent
-|Read_only=Yes
-|Example_object_name=event
-|Return_value_name=eventWindow
-|Javascript_data_type=DOM Node
-|Return_value_description=The window object on which the event occurred.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Use this property to determine the window object on which the event has occurred.
-|Notes=Use [[dom/UIEvent/initUIEvent|initUIEvent]] to set the value of this property.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
-|Status=Working Draft
-|Relevant_changes=Section 5.2.1
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/event.view event.view]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974803(v=vs.85).aspx view Property]
-|HTML5Rocks_link=
-}}
+---
+title: view
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - "Needs createUIEvent example????\ndon't know why you would specify a different window to the current in creteUIEvent."
+summary: "Gets the window object that an event is generated from.\n[object window]\n"
+uri: dom/UIEvent/view
+
+---
+# view
+
+## Summary
+
+Gets the window object that an event is generated from. [object window]
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/UIEvent](/dom/UIEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var eventWindow = event.view;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+The window object on which the event occurred.
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Use this property to determine the window object on which the event has occurred.
+
+## Notes
+
+Use [initUIEvent](/dom/UIEvent/initUIEvent) to set the value of this property.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[event.view](https://developer.mozilla.org/en-US/docs/Web/API/event.view) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[view Property](http://msdn.microsoft.com/en-us/library/ie/ff974803(v=vs.85).aspx) Article]
+

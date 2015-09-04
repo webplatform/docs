@@ -1,116 +1,112 @@
-=General web concepts=
+---
+title: oncepts
+uri: concepts
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - concepts/af
+    - concepts/ar
+    - concepts/ast
+    - concepts/az
+    - concepts/bcc
+    - concepts/bg
+    - concepts/br
+    - concepts/ca
+    - concepts/cs
+    - concepts/da
+    - concepts/de
+    - concepts/diq
+    - concepts/el
+    - concepts/eo
+    - concepts/fa
+    - concepts/fi
+    - concepts/fr
+    - concepts/gl
+    - concepts/gu
+    - concepts/he
+    - concepts/hu
+    - concepts/hy
+    - concepts/id
+    - concepts/it
+    - concepts/ja
+    - concepts/ka
+    - concepts/kk
+    - concepts/km
+    - concepts/ko
+    - concepts/ksh
+    - concepts/kw
+    - concepts/mk
+    - concepts/ml
+    - concepts/mr
+    - concepts/ms
+    - concepts/nl
+    - concepts/no
+    - concepts/oc
+    - concepts/pl
+    - concepts/pt
+    - concepts/pt-br
+    - concepts/ro
+    - concepts/ru
+    - concepts/si
+    - concepts/sk
+    - concepts/sl
+    - concepts/sq
+    - concepts/sr
+    - concepts/sv
+    - concepts/ta
+    - concepts/th
+    - concepts/tr
+    - concepts/uk
+    - concepts/vi
+    - concepts/yue
+    - concepts/zh
+    - concepts/zh-hans
+    - concepts/zh-hant
+    - concepts/zh-tw
 
-==Summary==
+---
+# General web concepts
+
+## Summary
 
 Our general web concepts are concept and tutorial articles covering general subjects related to the web and web design and development, such as how the web works, information architecture, typography and web design. These do not directly tie in with specific technologies and techniques covered in the other major site topics, but they will inevitably reference such technologies, for example responsive web design involves HTML, CSS, JavaScript, etc.
 
-If you are completely new to web development, you may want to review the [[Beginners]] section should cover the basics.
+If you are completely new to web development, you may want to review the [Beginners](/Beginners) section should cover the basics.
 
-{{Languages}}
+**Language:**
+:   ****English****  • <span lang="es">[español](/concepts/es)</span>
 
-== Explore our general web concept docs ==
+## Explore our general web concept docs
 
-<div class="topic-container">
+### Internet and Web
 
-  <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/internet and web|Internet and Web]]</h3>
-    
-    <p>Topics related to the high level functioning of the Internet and Web, such as basics and communication protocols.</p>
-    </div>
-  
-  </div>
-  
-  <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/general programming|General programming]]</h3>
-    
-    <p>Articles covering general programming techniques and fundamental ideas.</p>
-    </div>
-  
-  </div>
- 
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/ia and usability|Information architecture / usability]]</h3>
-    
-    <p>Best practices concerned with developing your content and functionality in a logical and intuitive way, so it is easy to find and use.</p>
-    </div>
-  
-  </div>
+Topics related to the high level functioning of the Internet and Web, such as basics and communication protocols.
 
-  
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/mobile_web|Mobile and devices]]</h3>
-    
-    <p>Techniques and ideas concerning the optimisation of web documents for mobile and other alternative browsing devices.</p>
-    </div>
-  
-  </div>
+### General programming
 
-  
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/web design|Designing the Web]]</h3>
-    
-    <p>Articles related to the planning, prototyping and graphic design of web sites and applications.</p>
-    </div>
-  
-  </div>
+Articles covering general programming techniques and fundamental ideas.
 
-  
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/cross browser techniques|Cross browser techniques]]</h3>
-    
-    <p>Articles covering concepts related to making sites work better across different browsers, modern and old.</p>
-    </div>
-  
-  </div>
+### Information architecture / usability
 
-  
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/localisation|Localisation and internationalisation]]</h3>
-    
-    <p>Articles covering techniques and technologies used to serve an international audience that speaks multiple languages.</p>
-    </div>
-  
-  </div>
+Best practices concerned with developing your content and functionality in a logical and intuitive way, so it is easy to find and use.
 
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/performance|Optimizing Performance]]</h3>
-    
-    <p>Programming and monitoring techniques that make the most of bandwidth and performance .</p>
-    </div>
-  
-  </div>
+### Mobile and devices
 
-</div>
-<div class="clearfixboth"></div>
+Techniques and ideas concerning the optimisation of web documents for mobile and other alternative browsing devices.
+
+### Designing the Web
+
+Articles related to the planning, prototyping and graphic design of web sites and applications.
+
+### Cross browser techniques
+
+Articles covering concepts related to making sites work better across different browsers, modern and old.
+
+### Localisation and internationalisation
+
+Articles covering techniques and technologies used to serve an international audience that speaks multiple languages.
+
+### Optimizing Performance
+
+Programming and monitoring techniques that make the most of bandwidth and performance .
+

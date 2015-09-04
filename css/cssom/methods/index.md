@@ -1,34 +1,54 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Listing page for css/cssom methods.}}
-{{API_Listing|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Concept_Listing
-|Query=
-|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: methods
+tags:
+  - API
+  - Listings
+  - DOM
+readiness: 'Ready to Use'
+summary: 'Listing page for css/cssom methods.'
+uri: css/cssom/methods
+
+---
+# methods
+
+## Summary
+
+Listing page for css/cssom methods.
+
+## Subpages
+
+<dl data-table="mw-prefixindex-list-table">
+<dt>
+[css/cssom/methods/addPageRule](/css/cssom/methods/addPageRule)
+
+</dt>
+<dd>
+[css/cssom/methods/addRule](/css/cssom/methods/addRule)
+
+</dd>
+<dt>
+[css/cssom/methods/msGetPropertyEnabled](/css/cssom/methods/msGetPropertyEnabled)
+
+</dt>
+<dd>
+[css/cssom/methods/msPutPropertyEnabled](/css/cssom/methods/msPutPropertyEnabled)
+
+</dd>
+<dt>
+[css/cssom/methods/removeImport](/css/cssom/methods/removeImport)
+
+</dt>
+<dd>
+[css/cssom/methods/removeProperty](/css/cssom/methods/removeProperty)
+
+</dd>
+<dt>
+[css/cssom/methods/setExpression](/css/cssom/methods/setExpression)
+
+</dt>
+<dd>
+[css/cssom/methods/setProperty](/css/cssom/methods/setProperty)
+
+</dd>
+</dl>
+

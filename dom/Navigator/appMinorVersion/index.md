@@ -1,50 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=Yes
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Retrieves the userAgent application's minor version value.}}
-{{API_Object_Property
-|Property_applies_to=dom/Navigator
-|Read_only=Yes
-|Example_object_name=navigator
-|Javascript_data_type=String
-|Return_value_description=The userAgent application's minor version number.
-|Example_value_name="0"
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The linked example enumerates the window.navigator object and displays the results on the screen.
-|LiveURL=http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788
-}}
-}}
-{{Notes_Section
-|Usage=Do not use to try to detect the userAgent version number... this is unreliable.
+---
+title: appMinorVersion
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+summary: 'Retrieves the userAgent application''s minor version value.'
+code_samples:
+  - 'http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788'
+uri: dom/Navigator/appMinorVersion
+
+---
+# appMinorVersion
+
+## Summary
+
+Retrieves the userAgent application's minor version value.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Navigator](/dom/Navigator)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = navigator.appMinorVersion;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The userAgent application's minor version number.
+
+## Examples
+
+The linked example enumerates the window.navigator object and displays the results on the screen.
+
+``` {.js}
+```
+
+[View live example](http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788)
+
+## Usage
+
+     Do not use to try to detect the userAgent version number... this is unreliable.
+
 Use 'feature detection' instead.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms533078(v=vs.85).aspx navigator.appMinorVersion]
-|HTML5Rocks_link=
-}}
+
+### Syntax
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[navigator.appMinorVersion](http://msdn.microsoft.com/en-us/library/ie/ms533078(v=vs.85).aspx) Article]
+

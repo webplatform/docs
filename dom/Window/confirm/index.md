@@ -1,67 +1,75 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|N/A}}
-{{API_Name}}
-{{Summary_Section|Displays a synchronized confirmation dialog box showing the given text and possibly localized OK and Cancel buttons.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=message
-|Data type=String
-|Description=The message to display in the confirmation dialog box. If no value is provided, the dialog box does not contain a message.
-|Optional=No
-}}
-|Method_applies_to=dom/Window
-|Example_object_name=window
-|Return_value_name=confirmed
-|Javascript_data_type=Boolean
-|Return_value_description=Whether the user confirmed (clicked on OK).
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=if(window.confirm('Do you want to contine?')){
+---
+title: confirm
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+summary: 'Displays a synchronized confirmation dialog box showing the given text and possibly localized OK and Cancel buttons.'
+uri: dom/Window/confirm
+
+---
+# confirm
+
+## Summary
+
+Displays a synchronized confirmation dialog box showing the given text and possibly localized OK and Cancel buttons.
+
+*Method of [dom/Window](/dom/Window)*
+
+## Syntax
+
+``` {.js}
+var confirmed = window.confirm(/* see parameter list */);
+```
+
+## Parameters
+
+### message
+
+ Data-typeÂ
+:   String
+
+ The message to display in the confirmation dialog box. If no value is provided, the dialog box does not contain a message.
+
+## Return Value
+
+Returns an object of type Boolean.
+
+Whether the user confirmed (clicked on OK).
+
+## Examples
+
+``` {.js}
+if(window.confirm('Do you want to contine?')){
 // Next action
 }else{
 // Return to previous
 }
-}}
-}}
-{{Notes_Section
-|Usage=Not recommended for general use. See the notes for details.
+```
+
+## Usage
+
+     Not recommended for general use. See the notes for details.
 
 Use this method to let the user confirm some action.
-|Notes=*The title bar of the confirmation dialog box cannot be changed.
-*Not recommended due to the following issues -
-**This is a synchronized method call. Meaning, calling this method pauses scripting execution of the window from which this method is called, until the user closes the displayed dialog. Also, depending on your cross tab/window usage, this can sometimes pause scripting executions of other windows/tabs from the same domain.
-**Calling this method in some browsers prevents the user from interacting with the entire browser, or browser window (along with all of its tabs), until the dialog is closed.
-**Intrusive dialog boxes are generally annoying for the user.
+
+## Notes
+
+-   The title bar of the confirmation dialog box cannot be changed.
+-   Not recommended due to the following issues -
+    -   This is a synchronized method call. Meaning, calling this method pauses scripting execution of the window from which this method is called, until the user closes the displayed dialog. Also, depending on your cross tab/window usage, this can sometimes pause scripting executions of other windows/tabs from the same domain.
+    -   Calling this method in some browsers prevents the user from interacting with the entire browser, or browser window (along with all of its tabs), until the dialog is closed.
+    -   Intrusive dialog boxes are generally annoying for the user.
+
 Alternatively, create a dialog using other web platform means.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Note=Closing the confirmation box instead of clicking OK or Cancel, returns <code>undefined</code>.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/window.confirm confirm]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536376(v=vs.85).aspx confirm Method]
-|HTML5Rocks_link=
-}}
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[confirm](https://developer.mozilla.org/en-US/docs/Web/API/window.confirm) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[confirm Method](http://msdn.microsoft.com/en-us/library/ie/ms536376(v=vs.85).aspx) Article]
+

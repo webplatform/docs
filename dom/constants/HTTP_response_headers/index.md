@@ -1,58 +1,71 @@
-{{Page_Title|HTTP Response Headers constant}}
-{{Flags
-|State=Not Ready
-|Editorial notes=summary, examples, proper syntax, compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/constants
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-A response header can be created using the [[html/attributes/httpEquiv|'''HTTP-EQUIV''']] attribute of the '''meta''' tag.
-Corresponding values are provided for use with '''QueryInfo'''.
-In Internet Explorer 6, The MSTHEMECOMPATIBLE constant disables theming support within Web pages.
-|Import_Notes====Requirements===
-{{{!}} class="wikitable"
-{{!}}-
-!Minimum supported client
-{{!}}Windows XP
-{{!}}-
-!Minimum supported server
-{{!}}Windows 2000 Server
-{{!}}-
-!Header
-{{!}}<dl>
-<dt/>
+---
+title: HTTP response headers
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'summary, examples, proper syntax, compatibility'
+uri: 'dom/constants/HTTP response headers'
+
+---
+# HTTP Response Headers constant
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/constants](/dom/constants)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.HTTP response headers;
+element.HTTP response headers = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+A response header can be created using the [**HTTP-EQUIV**](/html/attributes/httpEquiv) attribute of the **meta** tag. Corresponding values are provided for use with **QueryInfo**. In Internet Explorer 6, The MSTHEMECOMPATIBLE constant disables theming support within Web pages.
+
+### Requirements
+
+<dl data-table="wikitable">
+<dt>
+Minimum supported client
+
+</dt>
+<dd>
+Windows XP
+
+</dd>
+<dt>
+Minimum supported server
+
+</dt>
+<dd>
+Windows 2000 Server
+
+</dd>
+<dt>
+Header
+
+</dt>
+<dd>
+<dl>
+
+<dt>
+</dt>
 </dl>
-{{!}}}
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+</dd>
+</dl>
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

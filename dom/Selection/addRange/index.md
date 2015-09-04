@@ -1,83 +1,96 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Adds a Range to the current selection.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=range
-|Data type=Range
-|Description=Range to add.
-|Optional=No
-}}
-|Method_applies_to=dom/Selection
-|Example_object_name=selObj
-|Return_value_name=result
-|Javascript_data_type=Number
-|Return_value_description=Type: '''HRESULT'''
+---
+title: addRange
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Adds a Range to the current selection.'
+uri: dom/Selection/addRange
 
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=/* Select all STRONG elements in an HTML document */
+---
+# addRange
 
-var strongs {{=}} document.getElementsByTagName('strong');
-var selObj {{=}} window.getSelection();
+## Summary
+
+Adds a Range to the current selection.
+
+*Method of [dom/Selection](/dom/Selection)*
+
+## Syntax
+
+``` {.js}
+var result = selObj.addRange(/* see parameter list */);
+```
+
+## Parameters
+
+### range
+
+ Data-type�
+:   Range
+
+ Range to add.
+
+## Return Value
+
+Returns an object of type Number.
+
+Type: **HRESULT**
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Examples
+
+``` {.js}
+/* Select all STRONG elements in an HTML document */
+
+var strongs = document.getElementsByTagName('strong');
+var selObj = window.getSelection();
 
 if(selObj.rangeCount > 0) selObj.removeAllRanges();
 
 for(var i = 0; i < strongs.length; i++) {
-  var range {{=}} document.createRange();
+  var range = document.createRange();
   range.selectNode(strongs[i]);
   selObj.addRange(range);
 }
-}}{{Single Example
-|Language=JavaScript
-|Code=function selectElements(tagName){
-var els {{=}} document.getElementsByTagName(tagName);
-var selObj {{=}} window.getSelection();
-if(selObj.rangeCount > 0) selObj.removeAllRanges();
-		for(var i {{=}} 0; i < els.length; i++) {
-		  var range {{=}} document.createRange();
-		  range.selectNode(els[i]);
-		  selObj.addRange(range);
-		}   
-   }
+```
 
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-Windows Internet Explorer 9 and higher and Webkit browser do not currently support multiple or disjointed selections in standards mode. If '''addRange''' is applied to a selection that already contains a Range, the new Range is not added.
-|Import_Notes====Syntax===
+``` {.js}
+function selectElements(tagName){
+var els = document.getElementsByTagName(tagName);
+var selObj = window.getSelection();
+if(selObj.rangeCount > 0) selObj.removeAllRanges();
+        for(var i = 0; i < els.length; i++) {
+          var range = document.createRange();
+          range.selectNode(els[i]);
+          selObj.addRange(range);
+        }
+   }
+```
+
+## Notes
+
+### Remarks
+
+Windows Internet Explorer 9 and higher and Webkit browser do not currently support multiple or disjointed selections in standards mode. If **addRange** is applied to a selection that already contains a Range, the new Range is not added.
+
+### Syntax
+
 selObj.addRange(range)
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 7.6.1
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Selection.addRange Selection.addRange]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975172(v=vs.85).aspx addRange Method]
-|HTML5Rocks_link=
-}}
+
+### Standards information
+
+-   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.addRange](https://developer.mozilla.org/en-US/docs/Web/API/Selection.addRange) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[addRange Method](http://msdn.microsoft.com/en-us/library/ie/ff975172(v=vs.85).aspx) Article]
+

@@ -1,37 +1,49 @@
-{{Page_Title}}
-{{Flags
-|State=
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object
-|Subclass_of=AnimationTimingProperties
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: ComputedTimingProperties
+tags:
+  - API
+  - Objects
+  - Web
+  - Animations
+readiness: readiness-state
+uri: 'apis/web animations/ComputedTimingProperties'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - AnimationTimingProperties
+
+---
+# ComputedTimingProperties
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[AnimationTimingProperties](/w/index.php?title=AnimationTimingProperties&action=edit&redlink=1)</span></span>
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Inherited from AnimationTimingProperties
+
+### Properties
+
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+

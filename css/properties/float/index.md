@@ -1,50 +1,83 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic
-|Content=Incomplete
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Elements which have the style <code>float</code>  are floated horizontally.  These elements can move as far to the <code> left</code> or <code>right</code>  of the containing element.  All elements after the floating element will flow around it, but elements before the floating element are not impacted.  If several floating elements are placed after each other, they will float next to each other as long as there is room.}}
-{{CSS Property
-|Initial value=none
-|Applies to=all elements except absolutely positioned, replaced elements
-|Inherited=No
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=none
-|Description=<code>none</code> indicates that the element does not contain any float at all. This is the initial value of the <code>float</code> property.
-}}{{CSS Property Value
-|Data Type=left
-|Description=The <code>left</code> value indicates that the element must float to the far left side of its containing block.
-}}{{CSS Property Value
-|Data Type=right
-|Description=The <code>right</code> value indicates that the element must float to the far right side of its containing block.
-}}{{CSS Property Value
-|Data Type=footnote
-|Description=The <code>footnote</code> value indicates that the element is moved to the footnote area and that a footnote call is put in its original location.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=In this example, we create a simple layout containing a title, a logo (image) and some textual content. Notice the use of the <code>clearfix</code> class on the <code>article</code> element below.
-|Code=&lt;article class="clearfix"&gt;
-  &lt;img class="logo" src="http://www.webplatform.org/logo/wplogo_pillow_tan.png" alt="Web Platform Docs logo" /&gt;
-  &lt;h1&gt;Web Platform Docs&lt;/h1&gt;
-  &lt;p class="desc"&gt;Web Platform Docs is a community-driven site that aims to become a comprehensive and authoritative source for web developer documentation. Learn more about &lt;a href="http://docs.webplatform.org"&gt;Web Platform Docs&lt;/a&gt;. To understand the &lt;a href="http://docs.webplatform.org/wiki/css/properties/float"&gt;&lt;code&gt;float&lt;/code&gt;&lt;/a&gt; and the &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float#Clearing_floats"&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/a&gt; property.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/article&gt;
-|LiveURL=http://code.webplatform.org/gist/5974883
-}}{{Single Example
-|Language=CSS
-|Description=The CSS for the above layout is described below. Notice the use of the <code>float</code>s.
-|Code=/* Some CSS rules remove for brevity; please see the live URL for the complete example. */
+---
+title: float
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Elements which have the style float  are floated horizontally.  These elements can move as far to the  left or right  of the containing element.  All elements after the floating element will flow around it, but elements before the floating element are not impacted.  If several floating elements are placed after each other, they will float next to each other as long as there is room.'
+code_samples:
+  - 'http://gist.github.com/5974883'
+uri: css/properties/float
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/defaultSelected
+
+---
+# float
+
+## Summary
+
+Elements which have the style float are floated horizontally. These elements can move as far to the left or right of the containing element. All elements after the floating element will flow around it, but elements before the floating element are not impacted. If several floating elements are placed after each other, they will float next to each other as long as there is room.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   all elements except absolutely positioned, replaced elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `float: footnote`
+-   `float: left`
+-   `float: none`
+-   `float: right`
+
+## Values
+
+none
+:   `none` indicates that the element does not contain any float at all. This is the initial value of the `float` property.
+
+left
+:   The `left` value indicates that the element must float to the far left side of its containing block.
+
+right
+:   The `right` value indicates that the element must float to the far right side of its containing block.
+
+footnote
+:   The `footnote` value indicates that the element is moved to the footnote area and that a footnote call is put in its original location.
+
+## Examples
+
+In this example, we create a simple layout containing a title, a logo (image) and some textual content. Notice the use of the `clearfix` class on the `article` element below.
+
+``` {.html}
+<article class="clearfix">
+  <img class="logo" src="http://www.webplatform.org/logo/wplogo_pillow_tan.png" alt="Web Platform Docs logo" />
+  <h1>Web Platform Docs</h1>
+  <p class="desc">Web Platform Docs is a community-driven site that aims to become a comprehensive and authoritative source for web developer documentation. Learn more about <a href="http://docs.webplatform.org">Web Platform Docs</a>. To understand the <a href="http://docs.webplatform.org/wiki/css/properties/float"><code>float</code></a> and the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float#Clearing_floats"><code>clear</code></a> property.</p>
+  </div>
+</article>
+```
+
+[View live example](http://code.webplatform.org/gist/5974883)
+
+The CSS for the above layout is described below. Notice the use of the `float`s.
+
+``` {.css}
+/* Some CSS rules remove for brevity; please see the live URL for the complete example. */
 
 .logo {
   float: left;
@@ -54,150 +87,135 @@
   float: left;
   width: 60%;
 }
-|LiveURL=http://code.webplatform.org/gist/5974883
-}}
-}}
-{{Notes_Section
-|Usage=As float implicitly implies the use of the block layout, it modifies the computed value of the [[css/properties/display|display]] values in some cases:
+```
 
+[View live example](http://code.webplatform.org/gist/5974883)
 
-{{{!}}
-{{!}}-
-! Specified value !! Computed value
-{{!}}-
-{{!}} inline {{!}}{{!}} block
-{{!}}-
-{{!}} inline-block {{!}}{{!}} block
-{{!}}-
-{{!}} inline-table {{!}}{{!}} table
-{{!}}-
-{{!}} table-row {{!}}{{!}} block
-{{!}}-
-{{!}} table-row-group {{!}}{{!}} block
-{{!}}-
-{{!}} table-column {{!}}{{!}} block
-{{!}}-
-{{!}} table-column-group {{!}}{{!}} block
-{{!}}-
-{{!}} table-cell {{!}}{{!}} block
-{{!}}-
-{{!}} table-caption {{!}}{{!}} block
-{{!}}-
-{{!}} table-header-group {{!}}{{!}} block
-{{!}}-
-{{!}} table-footer-group {{!}}{{!}} block
-{{!}}-
-{{!}} flex {{!}}{{!}} flex, but float has no effect on such elements
-{{!}}-
-{{!}} inline-flex {{!}}{{!}} inline-flex, but float has no effect on such elements
-{{!}}-
-{{!}} other {{!}}{{!}} unchanged
-{{!}}}
+## Usage
 
-'''Note:''' If you're referring to this property from JavaScript as a member of the element.style object, you must spell it as cssFloat. Also note that Internet Explorer versions 8 and older spelled this styleFloat. This is an exception to the rule that the name of the DOM member is the camel-case name of the dash-separated CSS name (and is due to the fact that "float" is a reserved word in JavaScript, as with the need to escape "class" as "className" and escape <label>'s "for" as "htmlFor").
-|Notes====Remarks===
-* When using floats it's often necessary to clear the parent element. Check out the [[css/properties/clear|clear]]-property.
-* Objects following a floating object move in relation to the position of the floating object.
-* The floating object is moved left or right until it reaches the border, padding, or margin of another block-level object.
-|Import_Notes====Syntax===
-<code>'''float: '''left '''{{!}}''' right '''{{!}}''' none '''{{!}}''' inherit</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 5.5.25
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS basic box model
-|URL=http://www.w3.org/TR/css3-box/#floating0
-|Status=Working Draft
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/visuren.html#float-position
-|Status=Recommendation
-|Relevant_changes=No change.
-}}{{Related Specification
-|Name=CSS Level 1
-|URL=http://www.w3.org/TR/CSS1/#float
-|Status=Recommendation
-|Relevant_changes=Initial definition.
-}}{{Related Specification
-|Name=CSS Generated Content for Paged Media Module
-|URL=http://www.w3.org/TR/css3-gcpm/#turning-elements-into-footnotes
-|Status=Working Draft
-|Relevant_changes=Addition of the ''footnote'' value.
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=4.0
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=1.0
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=6.0
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=6.0
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=1.0
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/float
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+     As float implicitly implies the use of the block layout, it modifies the computed value of the display values in some cases:
+
+Specified value
+:   Computed value
+inline
+:   block
+inline-block
+:   block
+inline-table
+:   table
+table-row
+:   block
+table-row-group
+:   block
+table-column
+:   block
+table-column-group
+:   block
+table-cell
+:   block
+table-caption
+:   block
+table-header-group
+:   block
+table-footer-group
+:   block
+flex
+:   flex, but float has no effect on such elements
+inline-flex
+:   inline-flex, but float has no effect on such elements
+ other
+:   unchanged
+
+**Note:** If you're referring to this property from JavaScript as a member of the element.style object, you must spell it as cssFloat. Also note that Internet Explorer versions 8 and older spelled this styleFloat. This is an exception to the rule that the name of the DOM member is the camel-case name of the dash-separated CSS name (and is due to the fact that "float" is a reserved word in JavaScript, as with the need to escape "class" as "className" and escape \<label\>'s "for" as "htmlFor").
+
+## Notes
+
+### Remarks
+
+-   When using floats it's often necessary to clear the parent element. Check out the [clear](/css/properties/clear)-property.
+-   Objects following a floating object move in relation to the position of the floating object.
+-   The floating object is moved left or right until it reaches the border, padding, or margin of another block-level object.
+
+### Syntax
+
+`float: left | right | none | inherit`
+
+### Standards information
+
+-   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.5.25
+
+## Related specifications
+
+Specification
+:   Status
+[CSS basic box model](http://www.w3.org/TR/css3-box/#floating0)
+:   Working Draft
+[CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/visuren.html#float-position)
+:   Recommendation
+[CSS Level 1](http://www.w3.org/TR/CSS1/#float)
+:   Recommendation
+[CSS Generated Content for Paged Media Module](http://www.w3.org/TR/css3-gcpm/#turning-elements-into-footnotes)
+:   Working Draft
+
+## See also
+
+### Related articles
+
+#### Box Model
+
+-   [border](/css/properties/border)
+
+-   [border-corner-shape](/css/properties/border-corner-shape)
+
+-   [bottom](/css/properties/bottom)
+
+-   [box-shadow](/css/properties/box-shadow)
+
+-   [box-sizing](/css/properties/box-sizing)
+
+-   [break-before](/css/properties/break-before)
+
+-   [clear](/css/properties/clear)
+
+-   **float**
+
+-   [height](/css/properties/height)
+
+-   [left](/css/properties/left)
+
+-   [line-height](/css/properties/line-height)
+
+-   [margin](/css/properties/margin)
+
+-   [margin-bottom](/css/properties/margin-bottom)
+
+-   [margin-left](/css/properties/margin-left)
+
+-   [margin-right](/css/properties/margin-right)
+
+-   [margin-top](/css/properties/margin-top)
+
+-   [max-height](/css/properties/max-height)
+
+-   [max-width](/css/properties/max-width)
+
+-   [min-height](/css/properties/min-height)
+
+-   [min-width](/css/properties/min-width)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaults`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/float)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

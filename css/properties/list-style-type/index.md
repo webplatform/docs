@@ -1,266 +1,307 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add specification, complete compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Specifies the type of list-item marker in a list.}}
-{{CSS Property
-|Initial value=disc
-|Applies to=elements with 'display: list-item'
-|Inherited=Yes
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=armenian
-|Description=The marker is traditional Armenian numbering
-}}{{CSS Property Value
-|Data Type=circle
-|Description=circle
-}}{{CSS Property Value
-|Data Type=decimal
-|Description=number. This is default for &lt;ol&gt;
-}}{{CSS Property Value
-|Data Type=decimal-leading-zero
-|Description=number with leading zeros (01, 02, 03, etc.)
-}}{{CSS Property Value
-|Data Type=disc
-|Description=filled circle. This is default for &lt;ul&gt;
-}}{{CSS Property Value
-|Data Type=georgian
-|Description=traditional Georgian numbering
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=The value of the listStyleType property is inherited from parent element
-}}{{CSS Property Value
-|Data Type=lower-alpha
-|Description=lower-alpha (a, b, c, d, e, etc.)
-}}{{CSS Property Value
-|Data Type=lower-greek
-|Description=lower-greek
-}}{{CSS Property Value
-|Data Type=lower-latin
-|Description=lower-latin (a, b, c, d, e, etc.)
-}}{{CSS Property Value
-|Data Type=lower-roman
-|Description=lower-roman (i, ii, iii, iv, v, etc.)
-}}{{CSS Property Value
-|Data Type=none
-|Description=No marker is shown
-}}{{CSS Property Value
-|Data Type=square
-|Description=square
-}}{{CSS Property Value
-|Data Type=upper-alpha
-|Description=upper-alpha (A, B, C, D, E, etc.)
-}}{{CSS Property Value
-|Data Type=upper-latin
-|Description=upper-latin (A, B, C, D, E, etc.)
-}}{{CSS Property Value
-|Data Type=upper-roman
-|Description=upper-roman (I, II, III, IV, V, etc.)
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=The following examples use the '''<code>list-style-type</code>''' attribute and the '''<code>list-style-type</code>''' property to set the markers.
+---
+title: list-style-type
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Add specification, complete compatibility.'
+summary: 'Specifies the type of list-item marker in a list.'
+code_samples:
+  0: 'http://gist.github.com/6798718'
+  2: 'http://gist.github.com/5597602'
+  3: 'http://gist.github.com/5598129'
+  4: 'http://gist.github.com/5597530'
+  5: 'http://gist.github.com/5697355'
+uri: css/properties/list-style-type
 
-This example uses '''<code>ul</code>''' as a selector in an embedded (global) style sheet to change the marker type to '''<code>circle</code>'''.
-|Code=&lt;style&gt;
+---
+# list-style-type
+
+## Summary
+
+Specifies the type of list-item marker in a list.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `disc`
+Applies to
+:   elements with 'display: list-item'
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `list-style-type: armenian`
+-   `list-style-type: circle`
+-   `list-style-type: decimal`
+-   `list-style-type: decimal-leading-zero`
+-   `list-style-type: disc`
+-   `list-style-type: georgian`
+-   `list-style-type: inherit`
+-   `list-style-type: lower-alpha`
+-   `list-style-type: lower-greek`
+-   `list-style-type: lower-latin`
+-   `list-style-type: lower-roman`
+-   `list-style-type: none`
+-   `list-style-type: square`
+-   `list-style-type: upper-alpha`
+-   `list-style-type: upper-latin`
+-   `list-style-type: upper-roman`
+
+## Values
+
+armenian
+:   The marker is traditional Armenian numbering
+
+circle
+:   circle
+
+decimal
+:   number. This is default for \<ol\>
+
+decimal-leading-zero
+:   number with leading zeros (01, 02, 03, etc.)
+
+disc
+:   filled circle. This is default for \<ul\>
+
+georgian
+:   traditional Georgian numbering
+
+inherit
+:   The value of the listStyleType property is inherited from parent element
+
+lower-alpha
+:   lower-alpha (a, b, c, d, e, etc.)
+
+lower-greek
+:   lower-greek
+
+lower-latin
+:   lower-latin (a, b, c, d, e, etc.)
+
+lower-roman
+:   lower-roman (i, ii, iii, iv, v, etc.)
+
+none
+:   No marker is shown
+
+square
+:   square
+
+upper-alpha
+:   upper-alpha (A, B, C, D, E, etc.)
+
+upper-latin
+:   upper-latin (A, B, C, D, E, etc.)
+
+upper-roman
+:   upper-roman (I, II, III, IV, V, etc.)
+
+## Examples
+
+The following examples use the **`list-style-type`** attribute and the **`list-style-type`** property to set the markers.
+
+This example uses **`ul`** as a selector in an embedded (global) style sheet to change the marker type to **`circle`**.
+
+``` {.css}
+<style>
     ul { list-style-type:circle }
-&lt;/style&gt;
-|LiveURL=http://code.webplatform.org/gist/6798718
-}}{{Single Example
-|Language=HTML
-|Description=This example demonstrates the  use of <code>decimal-leading-zero</code>.
-|Code=&lt;style type{{=}}"text/css"&gt;
+</style>
+```
+
+[View live example](http://code.webplatform.org/gist/6798718)
+
+This example demonstrates the use of `decimal-leading-zero`.
+
+``` {.html}
+<style type="text/css">
 .decleadzero {
-	list-style-type: decimal-leading-zero;
+    list-style-type: decimal-leading-zero;
 }
 ...
-&lt;/style&gt;
-&lt;body&gt;
- &lt;ol class{{=}}"decleadzero"&gt;
-  &lt;li&gt;This is the first item. &lt;/li&gt;
-  &lt;li&gt;This is the second item. &lt;/li&gt;
-  &lt;li&gt;This is the third item. &lt;/li&gt;
- &lt;/ol&gt;
+</style>
+<body>
+ <ol class="decleadzero">
+  <li>This is the first item. </li>
+  <li>This is the second item. </li>
+  <li>This is the third item. </li>
+ </ol>
     ...
-&lt;/body&gt;
-|LiveURL=http://code.webplatform.org/gist/6798718
-}}{{Single Example
-|Language=CSS
-|Description=Using the <code>list-style-type</code> on ordered lists
-|Code=/**
+</body>
+```
+
+[View live example](http://code.webplatform.org/gist/6798718)
+
+Using the `list-style-type` on ordered lists
+
+``` {.css}
+/**
  * using list-style-type on ordered lists
  * the default for ol's is list-style-type: decimal
  */
 
 .list-style--leading-zero {
-	list-style-type:  decimal-leading-zero;
+    list-style-type:  decimal-leading-zero;
 }
 
 .list-style--roman {
-	list-style-type:  upper-roman; /* you can also use lower-roman */
+    list-style-type:  upper-roman; /* you can also use lower-roman */
 }
-|LiveURL=http://code.webplatform.org/gist/5597602
-}}{{Single Example
-|Language=CSS
-|Description=If the left padding of a line item is set to 0 and the list has <code>list-style-position: outside;</code> (which is the default) the list-item markers will not show.
-|Code=/*
+```
+
+[View live example](http://code.webplatform.org/gist/5597602)
+
+If the left padding of a line item is set to 0 and the list has `list-style-position: outside;` (which is the default) the list-item markers will not show.
+
+``` {.css}
+/*
 If the left padding is set to 0 the list-item markers do not show
 This happens only if the list-style-position is set on outside (which is the default)
 */
 
 ul {
-	padding:0;
+    padding:0;
 }
 
 .list-position--inside {
-	list-style-position: inside;
+    list-style-position: inside;
 }
-|LiveURL=http://code.webplatform.org/gist/5598129
-}}{{Single Example
-|Language=CSS
-|Description=Example for unordered lists
-|Code=/*
-	Example for unordered lists
+```
+
+[View live example](http://code.webplatform.org/gist/5598129)
+
+Example for unordered lists
+
+``` {.css}
+/*
+    Example for unordered lists
 */
 
 .list-style--circle {
-	list-style-type: circle;
+    list-style-type: circle;
 }
 
 .list-style--square {
-	list-style-type: square;
+    list-style-type: square;
 }
 
 .list-style--square {
-	list-style-type: none; /* use none to remove the bullets */
+    list-style-type: none; /* use none to remove the bullets */
 }
-|LiveURL=http://code.webplatform.org/gist/5597530
-}}{{Single Example
-|Language=CSS
-|Description=Example for unordered lists with <code>list-style-type</code> set as <code>none</code> which removes the default bullet style of the unordered list.
-|Code=/**
+```
+
+[View live example](http://code.webplatform.org/gist/5597530)
+
+Example for unordered lists with `list-style-type` set as `none` which removes the default bullet style of the unordered list.
+
+``` {.css}
+/**
  * Example of list-style-type
- 
+
  One value for the list-style-type is none which just removes the bullets and all.
  This example includes two unordered lists one with list-style-type set as none and other set as square bullets.
  */
 
 #withBullets ul {
-	color: #f06;
-	font: italic 100% Georgia, serif;
-	width: 500px;
-	padding:10px;
-	margin:10px;
-	list-style-type:none;	/*To remove the default bullet style*/	
+    color: #f06;
+    font: italic 100% Georgia, serif;
+    width: 500px;
+    padding:10px;
+    margin:10px;
+    list-style-type:none;   /*To remove the default bullet style*/
 }
 #withBullets li{
-	display:inline;
-	margin:8px;
-	padding:4px;
+    display:inline;
+    margin:8px;
+    padding:4px;
 }
 #withBullets li:hover{
-	border-bottom:3px solid black;
-	border-radius:4px;
+    border-bottom:3px solid black;
+    border-radius:4px;
 }
 
 ul{
-	color: #f06;
-	font: italic 100% Georgia, serif;
-	width: 500px;
-	padding:10px;
-	margin:10px;
-	list-style-type:square;	
+    color: #f06;
+    font: italic 100% Georgia, serif;
+    width: 500px;
+    padding:10px;
+    margin:10px;
+    list-style-type:square;
 }
 li{
-	margin:8px;
+    margin:8px;
 }
 a:link{text-decoration:none;color:green;}
 a:hover{text-decoration:none;color:green;}
 a:active{text-decoration:none;color:green;}
 a:visited{text-decoration:none;color:green;}
-|LiveURL=http://code.webplatform.org/gist/5697355
-}}
-}}
-{{Notes_Section
-|Usage=The <code>list-style-type</code> CSS property specifies appearance of a list item element. As it is the only one who defaults to <code>display:list-item</code>, this is usually a <code>&lt;li&gt;</code> element, but can be any element with this display value.
-|Notes====Notes===
-*The color of the marker will be the same as the computed color of the element it applies to.
+```
 
-*Some <code>list-style-type</code>s require a suitable font installed to display as expected.
+[View live example](http://code.webplatform.org/gist/5697355)
 
-*The CSS specification does not define how alphabetic systems wrap at the end of the alphabet. For instance, after 26 list items, upper-alpha rendering is undefined. Firefox and other browsers will continue as AA, AB, AC,... For long lists, it is recommended that authors specify true numbers.
+## Usage
 
-*The list styles <code>hebrew</code>, <code>cjk-ideographs</code>, <code>hiragana</code>, <code>katakana</code>, <code>hiragana-iroha</code> and <code>katakana-iroha</code> were specified in CSS2 but removed from CSS 2.1 due to lack of implementation experience. They are expected to return in the CSS3 Lists module.
+     The list-style-type CSS property specifies appearance of a list item element. As it is the only one who defaults to display:list-item, this is usually a <li> element, but can be any element with this display value.
 
-* The property also supports a shorthand syntax which is list-style
+## Notes
 
-* If the left padding of a list is set to 0 using one of the padding properties, the list-item markers do not show only if that list has the default list-style-position: inside; . For a better understanding see the examples.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=4.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=3.5
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0 (85)
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9
-|Note=do not support: cjk-ideographic, hebrew, hiragana, hiragana-iroha, katakana, and katakana-iroha
-}}{{Compatibility Notes Row
-|Browser=Opera
-|Version=11
-|Note=do not support: cjk-ideographic, hebrew, hiragana, hiragana-iroha, katakana, and katakana-iroha
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=8, and earlier
-|Note=only support the property values: decimal-leading-zero, lower-greek, lower-latin, upper-latin, armenian, georgian, and inherit if a DOCTYPE is specified.
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Generated and Replaced Content
-|Manual_sections====Related pages===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/list-style-type
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Notes
+
+-   The color of the marker will be the same as the computed color of the element it applies to.
+
+-   Some `list-style-type`s require a suitable font installed to display as expected.
+
+-   The CSS specification does not define how alphabetic systems wrap at the end of the alphabet. For instance, after 26 list items, upper-alpha rendering is undefined. Firefox and other browsers will continue as AA, AB, AC,... For long lists, it is recommended that authors specify true numbers.
+
+-   The list styles `hebrew`, `cjk-ideographs`, `hiragana`, `katakana`, `hiragana-iroha` and `katakana-iroha` were specified in CSS2 but removed from CSS 2.1 due to lack of implementation experience. They are expected to return in the CSS3 Lists module.
+
+-   The property also supports a shorthand syntax which is list-style
+
+-   If the left padding of a list is set to 0 using one of the padding properties, the list-item markers do not show only if that list has the default list-style-position: inside; . For a better understanding see the examples.
+
+## See also
+
+### Related articles
+
+#### Generated and Replaced Content
+
+-   [Generated and Replaced Content](/css/generated_and_replaced_content)
+
+-   [content](/css/properties/content)
+
+-   [counter-increment](/css/properties/counter-increment)
+
+-   [counter-reset](/css/properties/counter-reset)
+
+-   [list-style-image](/css/properties/list-style-image)
+
+-   **list-style-type**
+
+-   [object-fit](/css/properties/object-fit)
+
+### Related pages
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/list-style-type)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

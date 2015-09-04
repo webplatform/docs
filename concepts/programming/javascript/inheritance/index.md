@@ -1,92 +1,86 @@
-{{Page_Title|Inheritance revisited}}
-{{Flags
-|State=In Progress
-|Checked_Out=No
-}}
-{{Byline}}
-{{Summary_Section|Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.}}
-{{Tutorial
-|Content===Example==
+---
+title: inheritance
+tags:
+  - Tutorials
+  - Inheritance
+  - JavaScript
+readiness: 'In Progress'
+summary: 'Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.'
+uri: concepts/programming/javascript/inheritance
 
-<code>B</code> shall inherit from <code>A</code><nowiki>:</nowiki>
+---
+# Inheritance revisited
 
- function A(a){
-   this.varA = a;
- }
- A.prototype = {
-   varA : null,
-   doSomething : function(){
-     // ...
-   }
- }
- function B(a, b){
-   A.call(this, a);
-   this.varB = b;
- }
- B.prototype = Object.create(A.prototype, {
-   varB : { value: null, enumerable: true, configurable: true, writable: true },
-   doSomething : { value: function(){ // override
-        A.prototype.doSomething.apply(this, arguments); // call super
+## Summary
+
+Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.
+
+## Example
+
+`B` shall inherit from `A`:
+
+    function A(a){
+      this.varA = a;
+    }
+    A.prototype = {
+      varA : null,
+      doSomething : function(){
         // ...
-     }, enumerable: true, configurable: true, writable: true }
- })
- 
- var b = new B();
- b.doSomething();
+      }
+    }
+    function B(a, b){
+      A.call(this, a);
+      this.varB = b;
+    }
+    B.prototype = Object.create(A.prototype, {
+      varB : { value: null, enumerable: true, configurable: true, writable: true },
+      doSomething : { value: function(){ // override
+           A.prototype.doSomething.apply(this, arguments); // call super
+           // ...
+        }, enumerable: true, configurable: true, writable: true }
+    })
+
+    var b = new B();
+    b.doSomething();
 
 The important parts are:
 
-* Types are defined in <code>.prototype</code>
-* You use <code>Object.create()</code> to inherit
+-   Types are defined in `.prototype`
+-   You use `Object.create()` to inherit
 
-==<code>prototype</code> and Object.getPrototypeOf==
+## prototype and Object.getPrototypeOf
 
 JavaScript is a bit confusing for developers coming from Java or C++, as it's all dynamic, all runtime, and it has no classes at all. It's all just instances (objects). Even the "classes" we simulate are just a function object.
 
-You probably already noticed that our <code>function A</code> has a special property called <code>prototype</code>. This special property works with the JavaScript <code>new </code>operator. The reference to the prototype object is copied to the internal <code><nowiki>[[Prototype]]</nowiki></code> property of the new instance. For example, when you do <code>var a1 = new A()</code>, JavaScript (after creating the object in memory and before running function <code>A()</code> with <code>this</code> defined to it) sets <code><nowiki>a1.[[Prototype]] = A.prototype</nowiki></code>. When you then access properties of the instance, JavaScript first checks whether they exist on that object directly, and if not, it looks in <code><nowiki>[[Prototype]]</nowiki></code>. This means that all the stuff you define in <code>prototype</code> is effectively shared by all instances, and you can even later change parts of <code>prototype</code> and have the changes appear in all existing instances, if you wanted to.
+You probably already noticed that our `function A` has a special property called `prototype`. This special property works with the JavaScript `new `operator. The reference to the prototype object is copied to the internal `[[Prototype]]` property of the new instance. For example, when you do `var a1 = new A()`, JavaScript (after creating the object in memory and before running function `A()` with `this` defined to it) sets `a1.[[Prototype]] = A.prototype`. When you then access properties of the instance, JavaScript first checks whether they exist on that object directly, and if not, it looks in `[[Prototype]]`. This means that all the stuff you define in `prototype` is effectively shared by all instances, and you can even later change parts of `prototype` and have the changes appear in all existing instances, if you wanted to.
 
-If, in the example above, you do <code>var a1 = new A(); var a2 = new A();</code> then <code>a1.doSomething</code> would actually refer to <code>Object.getPrototypeOf(a1).doSomething</code>, which is the same as the <code>A.prototype.doSomething</code> you defined, i.e. <code>Object.getPrototypeOf(a1).doSomething == Object.getPrototypeOf(a2).doSomething == A.prototype.doSomething</code>.
+If, in the example above, you do `var a1 = new A(); var a2 = new A();` then `a1.doSomething` would actually refer to `Object.getPrototypeOf(a1).doSomething`, which is the same as the `A.prototype.doSomething` you defined, i.e. `Object.getPrototypeOf(a1).doSomething == Object.getPrototypeOf(a2).doSomething == A.prototype.doSomething`.
 
-In short, <code>prototype</code> is for types, while <code>Object.getPrototypeOf()</code> is the same for instances.
+In short, `prototype` is for types, while `Object.getPrototypeOf()` is the same for instances.
 
-<code><nowiki>[[Prototype]]</nowiki></code> is looked at ''recursively'', i.e. <code>a1.doSomething</code>, <code>Object.getPrototypeOf(a1).doSomething</code>, <code>Object.getPrototypeOf(Object.getPrototypeOf(a1)).doSomething</code> etc., until it's found or <code>Object.getPrototypeOf </code>returns null.
+`[[Prototype]]` is looked at *recursively*, i.e. `a1.doSomething`, `Object.getPrototypeOf(a1).doSomething`, `Object.getPrototypeOf(Object.getPrototypeOf(a1)).doSomething` etc., until it's found or `Object.getPrototypeOf `returns null.
 
 So, when you call
 
- var o = new Foo();
+    var o = new Foo();
 
 JavaScript actually just does
 
- <nowiki>var o = new Object();
- o.[[Prototype]] = Foo.prototype;
- o.Foo();</nowiki>
+    var o = new Object();
+     o.[[Prototype]] = Foo.prototype;
+     o.Foo();
 
 (or something like that) and when you later do
 
- o.someProp;
+    o.someProp;
 
-it checks whether <code>o</code> has a property <code>someProp</code>. If not it checks <code>Object.getPrototypeOf(o).someProp</code> and if that doesn't exist it checks <code>Object.getPrototypeOf(Object.getPrototypeOf(o)).someProp</code> and so on.
+it checks whether `o` has a property `someProp`. If not it checks `Object.getPrototypeOf(o).someProp` and if that doesn't exist it checks `Object.getPrototypeOf(Object.getPrototypeOf(o)).someProp` and so on.
 
-<div>
+<span style="float: left">[« Previous](http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Details_of_the_Object_Model)</span>[Next »](http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Iterators_and_Generators)
 
-<span style="float: left">[http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Details_of_the_Object_Model &laquo; Previous]</span>[http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Iterators_and_Generators Next &raquo;]
+## Attribution
 
-</div>
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|Inheritance, JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=Yes
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Inheritance_Revisited
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
+
+Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Inheritance_Revisited)
+

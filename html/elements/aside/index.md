@@ -1,101 +1,60 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The '''aside''' element (&lt;aside&gt;) indicates content that is only tangentially related to the rest of the content.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=required
-|CSS_display=block
-|Content=The aside element may be used for:
+---
+title: aside
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The aside element (<aside>) indicates content that is only tangentially related to the rest of the content.'
+uri: html/elements/aside
 
-*pull quotes
-*sidebars
-*advertising
-*groups of nav elements
+---
+# aside
+
+## Summary
+
+The aside element (\<aside\>) indicates content that is only tangentially related to the rest of the content.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+The aside element may be used for:
+
+-   pull quotes
+-   sidebars
+-   advertising
+-   groups of nav elements
 
 Or any other content that is considered separate from the main content of the page.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following example shows how an aside is used to mark up background material on Switzerland in a much longer news story on Europe.
-|Code=&lt;aside&gt;
- &lt;h1&gt;Switzerland&lt;/h1&gt;
- &lt;p&gt;Switzerland, a land-locked country in the middle of geographic
+
+## Examples
+
+The following example shows how an aside is used to mark up background material on Switzerland in a much longer news story on Europe.
+
+``` {.html}
+<aside>
+ <h1>Switzerland</h1>
+ <p>Switzerland, a land-locked country in the middle of geographic
  Europe, has not joined the geopolitical European Union, though it is
- a signatory to a number of European treaties.&lt;/p&gt;
-&lt;/aside&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/sections.html#the-aside-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/sections.html#the-aside-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9
-|Note=The '''aside''' element is only supported for webpages displayed in IE9 Standards mode.
-}}
-}}
+ a signatory to a number of European treaties.</p>
+</aside>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-aside-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/sections.html#the-aside-element)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

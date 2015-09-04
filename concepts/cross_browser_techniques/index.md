@@ -1,40 +1,48 @@
-{{Page_Title|Cross browser techniques}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Listing page. Fix broken link
-|Checked_Out=No
-}}
-{{Summary_Section|This pages lists article related to making web pages and applications work better across different browsers, from mobile browsers, to older browsers that we may be called upon to support.}}
-{{Basic Page}}
-==Responsive Design==
-* [[concepts/responsive/an_introduction_to_responsive_website_design|An Introduction to Responsive Website Design]]
+---
+title: cross browser techniques
+tags:
+  - Basic
+  - Pages
+readiness: 'Almost Ready'
+notes:
+  - 'Listing page. Fix broken link'
+summary: 'This pages lists article related to making web pages and applications work better across different browsers, from mobile browsers, to older browsers that we may be called upon to support.'
+uri: 'concepts/cross browser techniques'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'concepts/graceful enhancement'
 
-==Working With Older Browsers==
-* [[concepts/progressive_enhancement|An introduction to progressive enhancement]]
-* [[concepts/graceful degradation|Graceful degradation]]
-* [[concepts/polyfill|Polyfill]]
-* [http://www.modern.ie modern.IE]
-* [[concepts/proprietary_internet_explorer_techniques|Proprietary Internet Explorer Techniques]]
+---
+# Cross browser techniques
 
-==Working With New Features==
-* [[concepts/experimental_features|Enabling experimental features]]
-* [[concepts/Pointer_Events|Pointer Events for mouse, touch, and pen input]]
+## Summary
 
-==HTML 5 Video Captioning==
-*[[concepts/VTT_Captioning|HTML5 Video Captioning Using WebVTT]]
+This pages lists article related to making web pages and applications work better across different browsers, from mobile browsers, to older browsers that we may be called upon to support.
 
-==Working without JavaScript==
-*[[concepts/graceful_enhancement|Gracefully enhancing your site with JavaScript]]
-*[[concepts/redirect_no_javascript|Redirect browsers running without JavaScript to a special area catered to them]]
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+## Responsive Design
+
+-   [An Introduction to Responsive Website Design](/concepts/responsive/an_introduction_to_responsive_website_design)
+
+## Working With Older Browsers
+
+-   [An introduction to progressive enhancement](/concepts/progressive_enhancement)
+-   [Graceful degradation](/concepts/graceful_degradation)
+-   [Polyfill](/concepts/polyfill)
+-   [modern.IE](http://www.modern.ie)
+-   [Proprietary Internet Explorer Techniques](/concepts/proprietary_internet_explorer_techniques)
+
+## Working With New Features
+
+-   [Enabling experimental features](/concepts/experimental_features)
+-   [Pointer Events for mouse, touch, and pen input](/concepts/Pointer_Events)
+
+## HTML 5 Video Captioning
+
+-   [HTML5 Video Captioning Using WebVTT](/concepts/VTT_Captioning)
+
+## Working without JavaScript
+
+-   [Gracefully enhancing your site with JavaScript](/w/index.php?title=concepts/graceful_enhancement&action=edit&redlink=1)
+-   [Redirect browsers running without JavaScript to a special area catered to them](/concepts/redirect_no_javascript)
+

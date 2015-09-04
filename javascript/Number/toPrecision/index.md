@@ -1,31 +1,39 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Needs Review
-}}
-{{Summary_Section|Represents a number either in exponential or fixed-point notation with a specified number of digits.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=toPrecision([ precision ])
-}}
-|Values={{JS Syntax Parameter
-|Name=precision
-|Required=Optional
-|Description=The number of significant digits. Must be in the range 1 - 21, inclusive.
-}}
-}}
-{{JS_Return_Value
-|Description=For numbers in exponential notation, precision - 1 digits are returned after the decimal point. For numbers in fixed notation, precision significant digits are returned.
+---
+title: toPrecision
+tags:
+  0: JS
+  1: Basic
+  3: Function
+readiness: 'Ready to Use'
+summary: 'Represents a number either in exponential or fixed-point notation with a specified number of digits.'
+uri: javascript/Number/toPrecision
 
-If precision is not supplied or is <code>undefined</code> , [[javascript/Number/toString|<code>toString()</code>]] is called instead.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Using <code>toPrecision</code> to format the decimal presentation of a number.
-|Code=var pie = 3.14159;
+---
+# toPrecision
+
+## Summary
+
+Represents a number either in exponential or fixed-point notation with a specified number of digits.
+
+## Syntax
+
+    toPrecision([ precision ])
+
+**precision**
+:   Optional. The number of significant digits. Must be in the range 1 - 21, inclusive.
+
+## Return Value
+
+For numbers in exponential notation, precision - 1 digits are returned after the decimal point. For numbers in fixed notation, precision significant digits are returned.
+
+If precision is not supplied or is `undefined` , [`toString()`](/javascript/Number/toString) is called instead.
+
+## Examples
+
+Using `toPrecision` to format the decimal presentation of a number.
+
+``` {.js}
+var pie = 3.14159;
 
 // Call passed through to toString()
 pie.toPrecision();
@@ -43,36 +51,35 @@ pie.toPrecision(1);
 // Watch out for exponential notation
 (1234.5).toPrecision(2);
 // Returns "1.2e+3"
-}}
-}}
-{{Remarks_Section
-|Remarks====Throws===
+```
 
-[[javascript/Error|<code>RangeError</code>]] when a ''fractionDigits'' outside the bounds of 1 - 21 (inclusive) was given.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Number/toExponential{{!}}toExponential Method (Number)]]
-* [[javascript/Number/toFixed{{!}}toFixed Method (Number)]]
-* [[javascript/Number/toString{{!}}toString Method (Number)]]
-|External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision toPrecision(), by Mozilla Developer Network]
-|Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.7 15.7.4.7 Number.prototype.toPrecision(precision)]
+## Remarks
 
-ECMAScript® Language Specification
-Standard ECMA-262
-5.1 Edition / June 2011
-}}
-{{JS Topics
-|JS Page Type=JS Function
-|Applies to=Number
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/kcs121ad(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+### Throws
+
+[`RangeError`](/javascript/Error) when a *fractionDigits* outside the bounds of 1 - 21 (inclusive) was given.
+
+## See also
+
+### Other articles
+
+-   [toExponential Method (Number)](/javascript/Number/toExponential)
+-   [toFixed Method (Number)](/javascript/Number/toFixed)
+-   [toString Method (Number)](/javascript/Number/toString)
+
+### External resources
+
+-   [toPrecision(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision)
+
+### Specification
+
+[15.7.4.7 Number.prototype.toPrecision(precision)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.7)
+
+ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/kcs121ad(v=vs.94).aspx)
+

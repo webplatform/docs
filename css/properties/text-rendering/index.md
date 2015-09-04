@@ -1,97 +1,272 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Last Call Working Draft}}
-{{API_Name}}
-{{Summary_Section|The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.}}
-{{CSS Property
-|Initial value=auto
-|Applies to=text elements
-|Inherited=Yes
-|Media=visual
-|Computed value=auto
-|Animatable=Yes
-|CSS object model property=text-rendering
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=auto
-|Description=Indicates that the browser should choose the most appropriate method between speed, legibility and geometric precision, but favors legibility over speed and geometric precision.
-}}{{CSS Property Value
-|Data Type=optimizeSpeed
-|Description=Indicates that the browser should favor rendering speed over legibility and geometric precision. Browsers usually disable kerning and ligatures and sometimes turn off anti-aliasing.
-}}{{CSS Property Value
-|Data Type=optimizeLegibility
-|Description=Indicates that the browser should favor legibility over rendering speed and geometric precision. Browsers usually apply anti-aliasing or font hinting to display the most legible text.
-}}{{CSS Property Value
-|Data Type=geometricPrecision
-|Description=Indicates that the browser should favor geometric precision over rendering speed and legibility. Usually, this option causes the browser to not use hinting. Instead glyph outlines are drawn with comparable geometric precision to the rendering of path data.
+---
+title: text-rendering
+tags:
+  0: CSS
+  1: Properties
+  3: Graphics
+  4: SVG
+readiness: 'Ready to Use'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.'
+uri: css/properties/text-rendering
+
+---
+# text-rendering
+
+## Summary
+
+The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `auto`
+Applies to
+:   text elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   auto
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `text-rendering`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `text-rendering: auto`
+-   `text-rendering: geometricPrecision`
+-   `text-rendering: optimizeLegibility`
+-   `text-rendering: optimizeSpeed`
+
+## Values
+
+auto
+:   Indicates that the browser should choose the most appropriate method between speed, legibility and geometric precision, but favors legibility over speed and geometric precision.
+
+optimizeSpeed
+:   Indicates that the browser should favor rendering speed over legibility and geometric precision. Browsers usually disable kerning and ligatures and sometimes turn off anti-aliasing.
+
+optimizeLegibility
+:   Indicates that the browser should favor legibility over rendering speed and geometric precision. Browsers usually apply anti-aliasing or font hinting to display the most legible text.
+
+geometricPrecision
+:   Indicates that the browser should favor geometric precision over rendering speed and legibility. Usually, this option causes the browser to not use hinting. Instead glyph outlines are drawn with comparable geometric precision to the rendering of path data.
+
 This setting can be helpful when using kerning, which does often not scale linearly and can make text using such fonts look good.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=
-|Code=/* The user agent will decide how to optimize text for speed, legibility and geometric precision. */
+
+## Examples
+
+``` {.css}
+/* The user agent will decide how to optimize text for speed, legibility and geometric precision. */
 body {
-	text-rendering: auto;
+    text-rendering: auto;
 }
 
 /* The user agent will prioritize the rendering speed of text. */
 body {
-	text-rendering: optimizeSpeed;
+    text-rendering: optimizeSpeed;
 }
 
 /* The user agent will prioritize the legibility of text. */
 body {
-	text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
 }
 
 /* The user agent will prioritize the geometric precision of text. */
 body {
-	text-rendering: optimizePrecision;
+    text-rendering: optimizePrecision;
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=Gecko note:
-In Gecko browsers there is a way to set the threshold value for the auto keyword by changing the preference in browser.display.auto_quality_min_font_size. By default it is set to 20px.
-On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed option has no effect because there is no faster way of rendering text than the standard code already does. See bug [https://bugzilla.mozilla.org/show_bug.cgi?id=595688 bug 595688] for more details on that.
-|Notes=The property is a SVG property not specified in any CSS standard yet. However, user agents including Gecko and WebKit browsers let you apply this property to HTML and XML content on Windows, Mac OS X and Linux via CSS.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Text Module Level 3
-|URL=http://www.w3.org/TR/css3-text/
-|Status=W3C Last Call Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, CSS Attributes, Text
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS, Graphics, SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=https://developer.mozilla.org/en-US/docs/CSS/text-rendering MDN Compatibility Table
-}}
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Usage
+
+     Gecko note:
+
+In Gecko browsers there is a way to set the threshold value for the auto keyword by changing the preference in browser.display.auto\_quality\_min\_font\_size. By default it is set to 20px. On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed option has no effect because there is no faster way of rendering text than the standard code already does. See bug [bug 595688](https://bugzilla.mozilla.org/show_bug.cgi?id=595688) for more details on that.
+
+## Notes
+
+The property is a SVG property not specified in any CSS standard yet. However, user agents including Gecko and WebKit browsers let you apply this property to HTML and XML content on Windows, Mac OS X and Linux via CSS.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
+:   W3C Last Call Working Draft
+
+## See also
+
+### Related articles
+
+#### CSS Font
+
+-   [font-family](/css/properties/font-family)
+
+-   [font-kerning](/css/properties/font-kerning)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-size-adjust](/css/properties/font-size-adjust)
+
+-   [font-style](/css/properties/font-style)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [font-variant](/css/properties/font-variant)
+
+-   [kerning-mode](/css/properties/kerning-mode)
+
+-   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
+
+-   **text-rendering**
+
+-   [text-underline](/css/properties/text-underline)
+
+-   [user-modify](/css/properties/user-modify)
+
+#### CSS Attributes
+
+-   [background-blend-mode](/css/properties/background-blend-mode)
+
+-   [background-position](/css/properties/background-position)
+
+-   [break-before](/css/properties/break-before)
+
+-   [height](/css/properties/height)
+
+-   [list-style](/css/properties/list-style)
+
+-   [list-style-position](/css/properties/list-style-position)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   **text-rendering**
+
+-   [user-select](/css/properties/user-select)
+
+-   [equality](/css/selectors/attributes/equality)
+
+-   [Attribute selector](/css/selectors/attributes/existence)
+
+-   [hyphen](/css/selectors/attributes/hyphen)
+
+-   [prefix](/css/selectors/attributes/prefix)
+
+-   [substring](/css/selectors/attributes/substring)
+
+-   [suffix](/css/selectors/attributes/suffix)
+
+-   [baseline-shift](/svg/attributes/baseline-shift)
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   **text-rendering**
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+

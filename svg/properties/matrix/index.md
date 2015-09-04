@@ -1,51 +1,47 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: matrix
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/matrix
 
-===Remarks===
+---
+# matrix
 
-The matrix object is ''live''  (that is, any changes to the [[svg/objects/SVGTransform|'''SVGTransform''']] object are immediately reflected in the matrix object and vice versa). If you change  the matrix object directly (that is, without using the '''SVGTransform''' methods), the '''SVGTransform''' type  changes to SVG_TRANSFORM_MATRIX.
+## Notes
+
+### Remarks
+
+The matrix object is *live* (that is, any changes to the [**SVGTransform**](/svg/objects/SVGTransform) object are immediately reflected in the matrix object and vice versa). If you change the matrix object directly (that is, without using the **SVGTransform** methods), the **SVGTransform** type changes to SVG\_TRANSFORM\_MATRIX.
 
 The values in the returned matrix changes based on the type of matrix:
 
-*For a SVG_TRANSFORM_MATRIX matrix, the matrix contains the [[svg/properties/a|'''a''']], [[svg/properties/b|'''b''']], [[svg/properties/c|'''c''']], [[svg/properties/d|'''d''']], [[svg/properties/e|'''e''']], and [[svg/properties/f|'''f''']] values  that  the user supplies.
+-   For a SVG\_TRANSFORM\_MATRIX matrix, the matrix contains the [**a**](/svg/properties/a), [**b**](/svg/properties/b), [**c**](/svg/properties/c), [**d**](/svg/properties/d), [**e**](/svg/properties/e), and [**f**](/svg/properties/f) values that the user supplies.
 
-*For a SVG_TRANSFORM_TRANSLATE matrix, the [[svg/properties/e|'''e''']] and [[svg/properties/f|'''f''']] values represent the translation amounts ([[svg/properties/a|'''a''']]{{=}}1, [[svg/properties/b|'''b''']]{{=}}0, [[svg/properties/c|'''c''']]{{=}}0, and [[svg/properties/d|'''d''']]{{=}}1).
+-   For a SVG\_TRANSFORM\_TRANSLATE matrix, the [**e**](/svg/properties/e) and [**f**](/svg/properties/f) values represent the translation amounts ([**a**](/svg/properties/a)=1, [**b**](/svg/properties/b)=0, [**c**](/svg/properties/c)=0, and [**d**](/svg/properties/d)=1).
 
-*For a SVG_TRANSFORM_SCALE matrix, the [[svg/properties/a|'''a''']] and [[svg/properties/d|'''d''']] values represent the translation amounts ([[svg/properties/b|'''b''']]{{=}}0, [[svg/properties/c|'''c''']]{{=}}0, [[svg/properties/e|'''e''']]{{=}}0, and [[svg/properties/f|'''f''']]{{=}}0).
+-   For a SVG\_TRANSFORM\_SCALE matrix, the [**a**](/svg/properties/a) and [**d**](/svg/properties/d) values represent the translation amounts ([**b**](/svg/properties/b)=0, [**c**](/svg/properties/c)=0, [**e**](/svg/properties/e)=0, and [**f**](/svg/properties/f)=0).
 
-*For a SVG_TRANSFORM_ROTATE, SVG_TRANSFORM_SKEWX,  or SVG_TRANSFORM_SKEWY matrix, the [[svg/properties/a|'''a''']], [[svg/properties/b|'''b''']], [[svg/properties/c|'''c''']], and [[svg/properties/d|'''d''']]  values represent the matrix  that causes  the given transformation ([[svg/properties/e|'''e''']]{{=}}0 and [[svg/properties/f|'''f''']]{{=}}0).
+-   For a SVG\_TRANSFORM\_ROTATE, SVG\_TRANSFORM\_SKEWX, or SVG\_TRANSFORM\_SKEWY matrix, the [**a**](/svg/properties/a), [**b**](/svg/properties/b), [**c**](/svg/properties/c), and [**d**](/svg/properties/d) values represent the matrix that causes the given transformation ([**e**](/svg/properties/e)=0 and [**f**](/svg/properties/f)=0).
 
-|Import_Notes=
+### Syntax
 
-===Syntax===
+### Standards information
 
-===Standards information===
+-   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.4
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.4
+## See also
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Related pages (MSDN)
 
-===Related pages (MSDN)===
+-   [**SVGTransform**](/svg/objects/SVGTransform)
 
-*[[svg/objects/SVGTransform|'''SVGTransform''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

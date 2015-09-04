@@ -1,386 +1,258 @@
-{{Page_Title|Building the HTML5 MathBoard app}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Flags
-}}
-{{Byline
-|Name=Jeremy Chone
-|URL=http://www.html5rocks.com/profiles/#jeremychone
-|Published=January 28, 2011
-}}
-{{Summary_Section|This article discusses development of the HTML5 MathBoard app.|[http://itunes_apple_com/us/app/mathboard/id373909837?mt=8 MathBoard on iPad], a [http://www.palasoftware.com/MathBoard.html PalaSoftware] application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.
-}}
-{{Tutorial
-|Content===Introduction==
+---
+title: mathboard
+tags:
+  - Tutorials
+  - CSS
+  - Webstorage
+readiness: 'Ready to Use'
+summary: 'This article discusses development of the HTML5 MathBoard app.'
+uri: tutorials/mathboard
 
-[[Image:MathBoard-CaseStudy-01-iPad-Screenshot.png|146px|MathBoard application]]
+---
+# Building the HTML5 MathBoard app
 
-[http://itunes.apple.com/us/app/mathboard/id373909837?mt=8 MathBoard on iPad], a [http://www.palasoftware.com/MathBoard.html PalaSoftware] application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.
+**By [Jeremy Chone](http://www.html5rocks.com/profiles/#jeremychone)**
+Originally published January 28, 2011
+
+## Summary
+
+This article discusses development of the HTML5 MathBoard app.
+
+## Introduction
+
+![MathBoard application](/assets/public/0/07/MathBoard-CaseStudy-01-iPad-Screenshot.png)
+
+[MathBoard on iPad](http://itunes.apple.com/us/app/mathboard/id373909837?mt=8), a [PalaSoftware](http://www.palasoftware.com/MathBoard.html) application, is a highly polished application with many subtle but natural animations and a unique realistic look and feel. The goal was to do the highest fidelity port of the iPad application to HTML5.
 
 N2N-Apps is a Software Development company focusing on building next generation of Web and Mobile application with HTML5 technology. The company was funded in 2010 by Jeremy Chone whom, after 11 years of engineering and management experience from Netscape, Oracle, and Adobe, decided to share its expertise with businesses to build high-quality Web and Mobile applications. N2N-Apps focuses on quality and speed of delivery.
 
-[https://chrome.google.com/webstore/detail/elcilkmmbpmchojdmdohhoalmfmkcklk Download MathBoard for the Chrome Web Store]
+[Download MathBoard for the Chrome Web Store](https://chrome.google.com/webstore/detail/elcilkmmbpmchojdmdohhoalmfmkcklk)
 
-[https://chrome.google.com/webstore/detail/ocjpbdojdmdmnoijibadlmpiamcmmmcj Download MathBoard for the Chrome Web Store] (free version)
+[Download MathBoard for the Chrome Web Store](https://chrome.google.com/webstore/detail/ocjpbdojdmdmnoijibadlmpiamcmmmcj) (free version)
 
-<h2 id="toc-requirements">Requirements</h2>
+## Requirements
 
 The key requirements for this HTML5 porting project were the following:
 
-# High fidelity port of the original iPad application look and feel and user interface.
-# Adapt to the target form factor (i.e. PC/Mac with keyboard/mouse vs touch screen).
-# Implement 100% of the applicable features.
-# Target principally HTML5 browsers.
-# Make the application "server-less" so that the application runs entirely on the client and could be hosted on a static server or Google Chrome packaged application.
-# Make a 1.0 version with all the features but the problem solver in less than a month.
+1.  High fidelity port of the original iPad application look and feel and user interface.
+2.  Adapt to the target form factor (i.e. PC/Mac with keyboard/mouse vs touch screen).
+3.  Implement 100% of the applicable features.
+4.  Target principally HTML5 browsers.
+5.  Make the application "server-less" so that the application runs entirely on the client and could be hosted on a static server or Google Chrome packaged application.
+6.  Make a 1.0 version with all the features but the problem solver in less than a month.
 
-<h2 id="toc-architecture">Architecture</h2>
+## Architecture
 
-[[Image:MathBoard-CaseStudy-02-Architecture.png|Architecture]]
+![Architecture](/assets/public/c/cf/MathBoard-CaseStudy-02-Architecture.png)
 
 Given the requirements, we decided to go with the following architecture:
 
-# HTML5: Since we do not have any HTML4 support requirements, we decided to go with HTML5 as the base.
-# jQuery: While HTML5 has many of the advanced selectors that make jQuery so great, we decided to stick with jQuery anyway as it gave us a very robust and mature way to manipulate the DOM and related events. jQuery also has the benefit of being more DOM centric, which tends to make the design and implementation of an application closer to HTML.
-# [https://github.com/jeremychone/snowUI SnowUI]<nowiki>: jQuery provides a great API and best practice to work with the DOM, however, for the HTML5 MathBoard application we needed an MVC or MVP style framework to orchestrate all of the different views. SnowUI is a simple yet powerful MVC framework on top of jQuery. It provides a DOM centric MVC mechanism and a flexible way to build custom components while leaving the opportunity for the application developer to use any widget/controls library or custom code he or she deems optimal.</nowiki>
+1.  HTML5: Since we do not have any HTML4 support requirements, we decided to go with HTML5 as the base.
+2.  jQuery: While HTML5 has many of the advanced selectors that make jQuery so great, we decided to stick with jQuery anyway as it gave us a very robust and mature way to manipulate the DOM and related events. jQuery also has the benefit of being more DOM centric, which tends to make the design and implementation of an application closer to HTML.
+3.  [SnowUI](https://github.com/jeremychone/snowUI): jQuery provides a great API and best practice to work with the DOM, however, for the HTML5 MathBoard application we needed an MVC or MVP style framework to orchestrate all of the different views. SnowUI is a simple yet powerful MVC framework on top of jQuery. It provides a DOM centric MVC mechanism and a flexible way to build custom components while leaving the opportunity for the application developer to use any widget/controls library or custom code he or she deems optimal.
 
-<h2 id="toc-ipadtopc">iPad to PC considerations</h2>
+## iPad to PC considerations
 
 When porting the application to HTML5 for PC usage, we had to make several modifications to the design and user-interaction of the application.
 
-===Screen orientation===
+### Screen orientation
 
 The iPad MathBoard is exclusively vertically oriented, which was not optimal for PC displays as they are generally used in a horizontal fashion. Consequently, we reorganized the UI design and moved the settings panel to the right side, on a sliding view (animated by CSS3 transitions).
 
- [[Image:MathBoard-CaseStudy-03-iPad-vs-HTML5.png|500px|Screen Orientation]]
-
-===Input: keyboard/mouse vs. touch===
+### Input: keyboard/mouse vs. touch
 
 Another key difference between the iPad and Web version is the input interface. On the iPad you have only the touch interface, on the PC you need take into consideration both mouse and keyboard.
 
 The MathBoard input controls on the iPad are highly polished. We wanted the same high fidelity representation in the Web interface. The solution was adding support for keyboard shortcuts and replicating UI controls using CSS positioning. The port to HTML5 was pixel perfect:
 
- [[Image:MathBoard-CaseStudy-04-DialogSettings.png|iPad vs. HTML5 Version Settings]] 
 
-As in the iPad interface, we allow the user to click on the left and right arrow to change the value of a control. The vertical line can also be dragged to quickly change values. A repeat behavior was implemented for <code>click</code> and <code>keydown</code> so that users can accelerate the value change when the mouse or the keyboard is pressed.
+
+As in the iPad interface, we allow the user to click on the left and right arrow to change the value of a control. The vertical line can also be dragged to quickly change values. A repeat behavior was implemented for `click` and `keydown` so that users can accelerate the value change when the mouse or the keyboard is pressed.
 
 TAB support was added to move from one input field to another and the ← and → arrows cycles through values.
 
 One feature in the iPad version that didn't make much sense for the PC interface was the drawing board. While it could have been fancy to implement it, drawing numbers with a mouse is not very practical. Instead, we decided to spend more time polishing the keyboard interface than implementing the drawing board.
 
-<h2 id="toc-features">HTML5 features</h2>
+## HTML5 features
 
 In the Web version of MathBoard, we use many HTML5 features:
 
-===Local storage===
+### Local storage
 
-MathBoard allow users to save their quiz to later replay them. HTML5 MathBoard implements this feature using HTML5 <code>localStorage</code> using the SnowUI DAO interface.
+MathBoard allow users to save their quiz to later replay them. HTML5 MathBoard implements this feature using HTML5 `localStorage` using the SnowUI DAO interface.
 
-<code>localStorage</code> was a natural choice since the data was simple enough and did not require advanced indexing. We store all quizzes in one JSON format that we <code>JSON.stringify</code> as text.
+`localStorage` was a natural choice since the data was simple enough and did not require advanced indexing. We store all quizzes in one JSON format that we `JSON.stringify` as text.
 
 The snowUI DAO is a simple CRUD interface wrapper which allows the UI to fetch data without having to worry about how it's actually stored. The DAO implementation takes care of the storage particulars.
 
-In MathBoard, the storage requirements were very simple. We needed to store only the user settings and the quiz data. Both where stored as JSON strings in <code>localStorage</code>.
+In MathBoard, the storage requirements were very simple. We needed to store only the user settings and the quiz data. Both where stored as JSON strings in `localStorage`.
 
 So, for example, the DAO for the setting value looked like this:
 
- 
- snow.dm.registerDao('settingValue', (function() {
- 
-   var _settingValues = null;
- 
-   function SettingValueDao() {};
- 
-   // ------ DAO CRUD Interface ------ //
-   // get
-   SettingValueDao.prototype.get = function(objectType, id) {
-     return $.extend({},getSettingValues()[id]);
-   };
- 
-   // find, remove
- 
-   // save
-   SettingValueDao.prototype.save = function(objectType, data) {
-     var storeValue = getSettingValues('settingValue')[data.id];
-     if (!storeValue) {
-       storeValue = {};
-       getSettingValues()[data.id] = storeValue;
-     }
- 
-     $.extend(storeValue, data);
-     saveSettingValues();
-   };
-   // ------ /DAO CRUD Interface ------ //
- 
-   function getSettingValues() {
-     if (_settingValues == null) {
-       var settingValuesString = localStorage.getItem('settingValues');
-       if (settingValuesString) {
-         _settingValues = JSON.parse(settingValuesString);
-       } else{
-         _settingValues = {};
-       }
-     }
- 
-     return _settingValues;
-   }
- 
-   function saveSettingValues(){
-     var settingValues = getSettingValues();
-     if (settingValues != null) {
-       localStorage.removeItem('settingValues');
-       localStorage.setItem('settingValues', JSON.stringify(settingValues));
-     }
-   }
- 
-   return new SettingValueDao();
- })());
+    snow.dm.registerDao('settingValue', (function() {
 
-Once this DAO is registered for the <code>settingValue</code>, the UI can make the following call without needing to worry about the store logic:
+      var _settingValues = null;
 
- 
- var addition = snow.dm.get('settingValue', 'operator_addition');
- addition.value = true; // to check the addition checkbox
- snow.dm.save('settingValue', addition);
+      function SettingValueDao() {};
 
-===CSS3 fonts===
+      // ------ DAO CRUD Interface ------ //
+      // get
+      SettingValueDao.prototype.get = function(objectType, id) {
+        return $.extend({},getSettingValues()[id]);
+      };
+
+      // find, remove
+
+      // save
+      SettingValueDao.prototype.save = function(objectType, data) {
+        var storeValue = getSettingValues('settingValue')[data.id];
+        if (!storeValue) {
+          storeValue = {};
+          getSettingValues()[data.id] = storeValue;
+        }
+
+        $.extend(storeValue, data);
+        saveSettingValues();
+      };
+      // ------ /DAO CRUD Interface ------ //
+
+      function getSettingValues() {
+        if (_settingValues == null) {
+          var settingValuesString = localStorage.getItem('settingValues');
+          if (settingValuesString) {
+            _settingValues = JSON.parse(settingValuesString);
+          } else{
+            _settingValues = {};
+          }
+        }
+
+        return _settingValues;
+      }
+
+      function saveSettingValues(){
+        var settingValues = getSettingValues();
+        if (settingValues != null) {
+          localStorage.removeItem('settingValues');
+          localStorage.setItem('settingValues', JSON.stringify(settingValues));
+        }
+      }
+
+      return new SettingValueDao();
+    })());
+
+Once this DAO is registered for the `settingValue`, the UI can make the following call without needing to worry about the store logic:
+
+    var addition = snow.dm.get('settingValue', 'operator_addition');
+    addition.value = true; // to check the addition checkbox
+    snow.dm.save('settingValue', addition);
+
+### CSS3 fonts
 
 MathBoard uses custom fonts. Thanks to CSS3 font support, it was trivial to include the 'Chalkduster' true type font into our application:
 
- 
- @font-face {
-   font-family: Chalkduster;
-   src: url(Chalkduster.ttf);
- }
+    @font-face {
+      font-family: Chalkduster;
+      src: url(Chalkduster.ttf);
+    }
 
 And, since this font was the default for almost all the text in the application, we made it the default for body.
 
- 
- body {
-   background: #333333;
-   font-family: Chalkduster;
-   color: #ffffff;
- }
+    body {
+      background: #333333;
+      font-family: Chalkduster;
+      color: #ffffff;
+    }
 
-===CSS3 gradient, shadow, rounded corners===
+### CSS3 gradient, shadow, rounded corners
 
 All gradient, shadow, transparency, and rounded corners are done with CSS3. This was a real game saver compared to the traditional .png way of doing user interfaces.
 
-We also used advanced CSS3 properties to customize the look and feel of the scrollbar to make it more subtle (see http://webkit.org/blog/363/styling-scrollbars/ for styling scroll bars on WebKit browsers).
+We also used advanced CSS3 properties to customize the look and feel of the scrollbar to make it more subtle (see [http://webkit.org/blog/363/styling-scrollbars/](http://webkit.org/blog/363/styling-scrollbars/) for styling scroll bars on WebKit browsers).
 
-===CSS3 transitions===
+### CSS3 transitions
 
 For HTML5 MathBoard, we replicated all of the iPad's animations and even added a new one for the sliding right panel. Thanks to CSS3 transitions, adding animations was trivial and allowed for the best performance.
 
 We had three main animations in the applications.
 
-====1.) The sliding right pane====
+#### 1.) The sliding right pane
 
-The first animation is on the right pane (<code><nowiki>#rightPane</nowiki></code>), which slides closed when the user starts a new quiz and slides open when the user ends a quiz. To create this effect, we used the following CSS transition and triggered it via JavaScript. The default style of the rightPane is open:
+The first animation is on the right pane (`#rightPane`), which slides closed when the user starts a new quiz and slides open when the user ends a quiz. To create this effect, we used the following CSS transition and triggered it via JavaScript. The default style of the rightPane is open:
 
- <nowiki>
- #rightPane {
-   /* look and feel, and layout property */
-   position: absolute;
-   width: 370px;
-   height: 598px;
-   top: 28px;
-   left: 720px; /* open */
-   -webkit-transition: all .6s ease-in-out;
- }
- </nowiki>
+     #rightPane {
+       /* look and feel, and layout property */
+       position: absolute;
+       width: 370px;
+       height: 598px;
+       top: 28px;
+       left: 720px; /* open */
+       -webkit-transition: all .6s ease-in-out;
+     }
+
 
 When the user starts a quiz, our JavaScript logic moves the panel:
 
- 
- var $rightPane = $('#rightPane');
- var left = $rightPane.position().left - 400;
- setTimeout(function() {
-   $rightPane.css('left', left + 'px');
- }, 0);
+    var $rightPane = $('#rightPane');
+    var left = $rightPane.position().left - 400;
+    setTimeout(function() {
+      $rightPane.css('left', left + 'px');
+    }, 0);
 
 A few notes on this implementation:
 
-# Given that the application sizes are fixed, we could have used a CSS class '.close' and hardcode the close position the same way we hardcode the open one.
-# We could also have used CSS 'translate', which would have been more performant than animating the pane's 'left' property. This is especially true for mobile devices (such as iOS) where 3D transforms are hardware accelerated.
-# The <code>setTimeout</code> is not strictly necessary in this case since the original position was set prior to the modification. However, it allows the browser to make the animation smoother by displaying the quiz just before sliding the rightPane in.
+1.  Given that the application sizes are fixed, we could have used a CSS class '.close' and hardcode the close position the same way we hardcode the open one.
+2.  We could also have used CSS 'translate', which would have been more performant than animating the pane's 'left' property. This is especially true for mobile devices (such as iOS) where 3D transforms are hardware accelerated.
+3.  The `setTimeout` is not strictly necessary in this case since the original position was set prior to the modification. However, it allows the browser to make the animation smoother by displaying the quiz just before sliding the rightPane in.
 
-====2.) Settings dialog box animation====
+#### 2.) Settings dialog box animation
 
 When the user clicks on a setting in the right, the settings dialog appears from the bottom of the screen and scrolls down to the appropriate section.
 
-To accomplish this, we had a similar transition to the right pane. The only thing that took some time was to resolve the jerkiness on first appearance of the dialog. To instruct the browser to cache the dialog UI, we ended up displaying it once and scrolling to it. At first, we tried with <code>display: none</code>. This approach was wrong because the browser assumed the dialog does not need to be shown. The solution was to display the settings with a <code>z-index: -1</code> at initialization, making it invisible to the user but visible to the browser.
+To accomplish this, we had a similar transition to the right pane. The only thing that took some time was to resolve the jerkiness on first appearance of the dialog. To instruct the browser to cache the dialog UI, we ended up displaying it once and scrolling to it. At first, we tried with `display: none`. This approach was wrong because the browser assumed the dialog does not need to be shown. The solution was to display the settings with a `z-index: -1` at initialization, making it invisible to the user but visible to the browser.
 
-====3.) Quiz success or incorrect message animation====
+#### 3.) Quiz success or incorrect message animation
 
-The third animation is actually two in one. When the 'success' or 'incorrect' message appears, first scale to a point, wait for a little, and finally scale even bigger and disappear. For this, we have two CSS3 animation styles, and orchestrate it via JavaScript on a <code>webkitTransitionEnd</code> event.
+The third animation is actually two in one. When the 'success' or 'incorrect' message appears, first scale to a point, wait for a little, and finally scale even bigger and disappear. For this, we have two CSS3 animation styles, and orchestrate it via JavaScript on a `webkitTransitionEnd` event.
 
- 
- .quiz-result > div.anim1 {
-   opacity: 0.8;
-   -webkit-transform: scale(6,6);
- }
- .quiz-result > div.anim2{
-   opacity: 0;
-   -webkit-transform: scale(9,9);
- }
+    .quiz-result > div.anim1 {
+      opacity: 0.8;
+      -webkit-transform: scale(6,6);
+    }
+    .quiz-result > div.anim2{
+      opacity: 0;
+      -webkit-transform: scale(9,9);
+    }
 
- 
- setTimeout(function() {
-   $msg.addClass("anim1");
-   $msg.bind("webkitTransitionEnd", function(){
-     if ($msg.hasClass("anim1")) {
-       setTimeout(function() {
-         $msg.removeClass("anim1");
-         $msg.addClass("anim2");
-       }, 300);
-     } else {
-       $msg.remove();
-       displayNextItem();
-       freezeInput = false;
-     }
-   });
- }, 0);
+    setTimeout(function() {
+      $msg.addClass("anim1");
+      $msg.bind("webkitTransitionEnd", function(){
+        if ($msg.hasClass("anim1")) {
+          setTimeout(function() {
+            $msg.removeClass("anim1");
+            $msg.addClass("anim2");
+          }, 300);
+        } else {
+          $msg.remove();
+          displayNextItem();
+          freezeInput = false;
+        }
+      });
+    }, 0);
 
-===Audio tag===
+### Audio tag
 
-When users answer a quiz, the application makes a success or fail sound. The simple choice was to use the audio tag and call <code>play()</code> on them. These audio bits are added to the main page of the application:
+When users answer a quiz, the application makes a success or fail sound. The simple choice was to use the audio tag and call `play()` on them. These audio bits are added to the main page of the application:
 
- 
- <audio id="audioCorrect" src="correct.mp3" preload="auto" autobuffer></audio>
- <audio id="audioWrong" src="wrong.mp3" preload="auto" autobuffer></audio>
+    <audio id="audioCorrect" src="correct.mp3" preload="auto" autobuffer></audio>
+    <audio id="audioWrong" src="wrong.mp3" preload="auto" autobuffer></audio>
 
-<h2 id="toc-conclusion">Conclusion</h2>
+## Conclusion
 
 HTML5 is truly enabling a new breed of Web, desktop, and mobile applications. CSS3 was instrumental in customizing the look and feel of the application to closely match the high sophistication of MathBoard for iPad, HTML5 storage was a perfect fit for our data persistence, and the simplicity of HTML5 audio allowed us to closely replicate the iPad app.
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Local storage
-|Chrome_supported=Yes
-|Chrome_version=21
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=14
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=8
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=Transitions
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=21
-|Firefox_supported=Yes
-|Firefox_version=16
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=14
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=12
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=5.1
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Local storage
-|Android_supported=Yes
-|Android_version=2.1
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=3.2
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}{{Compatibility Table Mobile Row
-|Feature=Transitions
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS, Webstorage}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=HTML5Rocks
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=http://www.html5rocks.com/tutorials/casestudies/mathboard/
-}}
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/casestudies/mathboard/)
+

@@ -1,90 +1,89 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=
-|Name=version
-|Data type=Blob
-|Description=The new version identifier.
-|Optional=No
-}}{{Method Parameter
-|Index=
-|Name=retVal
-|Data type=Blob
-|Description=The transaction associated with the VERSION_CHANGE request.
-|Optional=No
-}}
-|Method_applies_to=apis/indexeddb/IDBDatabase
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+---
+title: setVersion
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: IndexedDB
+readiness: 'Not Ready'
+notes:
+  - 'Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/'
+summary: 'Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/'
+uri: apis/indexeddb/IDBDatabase/setVersion
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - apis/indexedDB/methods/open
+    - apis/indexedDB/properties/indexedDB
+    - apis/indexedDB/events/onupgradeneeded
+    - apis/indexedDB/IDBDatabase
+
+---
+# setVersion
+
+## Summary
+
+Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/
+
+*Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)*
+
+## Syntax
+
+``` {.js}
+var object = object.setVersion(/* see parameter list */);
+```
+
+## Parameters
+
+### version
+
+ Data-typeÂ
+:   Blob
+
+ The new version identifier.
+
+### retVal
+
+ Data-typeÂ
+:   Blob
+
+ The transaction associated with the VERSION\_CHANGE request.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+Type: **HRESULT**
 
 This method can return one of these values.
 
-{| class="wikitable"
-|-
-!Return code/value
-!Description
-|-
-|S_OK
-|
-|-
-|IDBDatabaseException.NOT_ALLOWED_ERR
-6
-|The data source has been deleted or is otherwise not available.
-|}
-Â 
+{
 
-IDBVersionChangeRequest
+**Needs Examples**: This section should include examples.
 
-The transaction associated with the VERSION_CHANGE request.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-The '''setVersion''' method was specified by an early draft of the [http://go.microsoft.com/fwlink/p/?LinkID{{=}}224519 Indexed Database specification].  The method was removed from later drafts of the specification and is no longer supported.
-To create object stores, indexes, and other IndexedDB objects, use the '''version''' parameter of the [[apis/indexedDB/methods/open|'''open''']] method of the [[apis/indexedDB/properties/indexedDB|'''indexedDB''']] property to  generate an [[apis/indexedDB/events/onupgradeneeded|'''onupgradeneeded''']] event.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/indexedDB/IDBDatabase|IDBDatabase]]</code>
-*<code>[[apis/indexedDB/events/onupgradeneeded|onupgradeneeded]]</code>
-*<code>[[apis/indexedDB/methods/open|open]]</code>
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## Notes
+
+### Remarks
+
+The **setVersion** method was specified by an early draft of the [Indexed Database specification](http://go.microsoft.com/fwlink/p/?LinkID=224519). The method was removed from later drafts of the specification and is no longer supported. To create object stores, indexes, and other IndexedDB objects, use the **version** parameter of the [**open**](/w/index.php?title=apis/indexedDB/methods/open&action=edit&redlink=1) method of the [**indexedDB**](/w/index.php?title=apis/indexedDB/properties/indexedDB&action=edit&redlink=1) property to generate an [**onupgradeneeded**](/w/index.php?title=apis/indexedDB/events/onupgradeneeded&action=edit&redlink=1) event.
+
+### Syntax
+
+### Standards information
+
+-   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
+
+## See also
+
+### Related pages (MSDN)
+
+-   `IDBDatabase`
+-   `onupgradeneeded`
+-   `open`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

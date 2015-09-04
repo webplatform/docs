@@ -1,39 +1,61 @@
-{{Page_Title|getComputedRegionStyle()}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Returns styles calculated for an element as it appears within a [[css/concepts/region|region]], including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=element
-|Data type=DOM Node
-|Description=The element that contains the desired style settings, regardless of whether it currently appears within the region.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=pseudoElementName
-|Data type=String
-|Description=The name of a CSS pseudo-element (such as '''::before''' or '''::after''') or a null value. Optional in WebKit-based browsers.
-|Optional=Yes
-}}
-|Method_applies_to=apis/css-regions/Region
-|Example_object_name=region
-|Return_value_name=propValue
-|Javascript_data_type=CSSStyleDeclaration
-|Return_value_description=Returns styles calculated for an element as it appears within a region, including styles from [[css/atrules/@region|'''@region''']] rules applied to ranges within the element.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Check if the formatting of an element's property varies within a [[css/concepts/region_chain|region chain]]
-|Code=var flow = document.getNamedFlows().namedItem('sidebar');
+---
+title: getComputedRegionStyle
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: CSS
+  5: CSS-Regions
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Returns styles calculated for an element as it appears within a region, including styles from @region rules applied to ranges within the element.'
+uri: apis/css-regions/Region/getComputedRegionStyle
+
+---
+# getComputedRegionStyle()
+
+## Summary
+
+Returns styles calculated for an element as it appears within a region, including styles from @region rules applied to ranges within the element.
+
+*Method of [apis/css-regions/Region](/apis/css-regions/Region)*
+
+## Syntax
+
+``` {.js}
+var propValue = region.getComputedRegionStyle(element, pseudoElementName);
+```
+
+## Parameters
+
+### element
+
+ Data-typeÂ
+:   DOM Node
+
+ The element that contains the desired style settings, regardless of whether it currently appears within the region.
+
+### pseudoElementName
+
+ Data-typeÂ
+:   String
+
+*(Optional)*
+
+The name of a CSS pseudo-element (such as **::before** or **::after**) or a null value. Optional in WebKit-based browsers.
+
+## Return Value
+
+Returns an object of type CSSStyleDeclaration.
+
+Returns styles calculated for an element as it appears within a region, including styles from [**@region**](/css/atrules/@region) rules applied to ranges within the element.
+
+## Examples
+
+Check if the formatting of an element's property varies within a [region chain](/css/concepts/region_chain)
+
+``` {.js}
+var flow = document.getNamedFlows().namedItem('sidebar');
 var regions = flow.getRegions();
 var contents = flow.getContent();
 
@@ -48,7 +70,7 @@ function regionsVaryCSS(regs, elem, prop) {
     var values = {};
     var value, style;
     var count = 0;
-    for (var i = 0; i &amp;lt; regs.length; i++) {
+    for (var i = 0; i &lt; regs.length; i++) {
         value = regs[i].getComputedRegionStyle(elem).getPropertyValue(prop);
         if (! values[value]) values[value] = 0;
         values[value]++;
@@ -56,96 +78,85 @@ function regionsVaryCSS(regs, elem, prop) {
     for (key in values) if (values.hasOwnProperty(key)) count++;
     return count;
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=Behaves the same as [[dom/Window/getComputedStyle|'''getComputedStyle()''']], but incorporates CSS formatting from [[css/atrules/@region|'''@region''']] rules that may apply to individual regions.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Regions Module Level 1
-|URL=http://www.w3.org/TR/2013/WD-css3-regions-20130528/
-|Status=W3C Working Draft 28 May 2013
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|Manual_links=
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-|Manual_sections=
-}}
-{{Topics|API, CSS, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=No
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+```
+
+## Usage
+
+     Behaves the same as getComputedStyle(), but incorporates CSS formatting from @region rules that may apply to individual regions.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Regions Module Level 1](http://www.w3.org/TR/2013/WD-css3-regions-20130528/)
+:   W3C Working Draft 28 May 2013
+
+## See also
+
+### Related articles
+
+#### Regions
+
+-   [CSS Regions API](/apis/css-regions)
+
+-   [CSSRegionStyleRule](/apis/css-regions/CSSRegionStyleRule)
+
+-   [NamedFlow](/apis/css-regions/NamedFlow)
+
+-   [firstEmptyRegionIndex](/apis/css-regions/NamedFlow/firstEmptyRegionIndex)
+
+-   [getContent()](/apis/css-regions/NamedFlow/getContent)
+
+-   [getRegions()](/apis/css-regions/NamedFlow/getRegions)
+
+-   [getRegionsByContent()](/apis/css-regions/NamedFlow/getRegionsByContent)
+
+-   [name](/apis/css-regions/NamedFlow/name)
+
+-   [overset](/apis/css-regions/NamedFlow/overset)
+
+-   [regionfragmentchange](/apis/css-regions/NamedFlow/regionfragmentchange)
+
+-   [regionoversetchange](/apis/css-regions/NamedFlow/regionoversetchange)
+
+-   [NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
+
+-   [namedItem()](/apis/css-regions/NamedFlowCollection/namedItem)
+
+-   [Region](/apis/css-regions/Region)
+
+-   **getComputedRegionStyle()**
+
+-   [getRegionFlowRanges()](/apis/css-regions/Region/getRegionFlowRanges)
+
+-   [regionOverset](/apis/css-regions/Region/regionOverset)
+
+-   [@region](/css/atrules/@region)
+
+-   [content fragments](/css/concepts/fragment)
+
+-   [named flows](/css/concepts/named_flow)
+
+-   [overset content](/css/concepts/overset)
+
+-   [regions](/css/concepts/region)
+
+-   [region chains](/css/concepts/region_chain)
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [flow-from](/css/properties/flow-from)
+
+-   [flow-into](/css/properties/flow-into)
+
+### External resources
+
+-   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
+-   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
+-   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
+-   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
+

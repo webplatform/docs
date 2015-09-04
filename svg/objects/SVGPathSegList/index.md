@@ -1,50 +1,75 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{API_Object
-|Subclass_of=svg/objects/SVGElement
-}}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
+---
+title: SVGPathSegList
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/objects/SVGPathSegList
 
-===Remarks===
+---
+# SVGPathSegList
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
 
-|Import_Notes=
+## Properties
 
-===Standards information===
+*No properties.*
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.21
+## Methods
 
-===Members===
+*No methods.*
 
-The '''SVGPathSegList''' object has these methods:
+## Events
 
-*[[svg/methods/appendItem|'''appendItem''']]: Inserts a new item at the end of the list.
-*[[svg/methods/clear|'''clear''']]: Clears all existing items from the list, which creates  an empty list.
-*[[svg/methods/getItem|'''getItem''']]: Returns the specified item from a list.
-*[[svg/methods/initialize|'''initialize''']]: Clears current items from the list and re-initializes the list to  contain  the  specified item.
-*[[svg/methods/insertItemBefore|'''insertItemBefore''']]: Inserts a new item into a list at a specified position.
-*[[svg/methods/removeItem|'''removeItem''']]: Removes an existing item from the list.
-*[[svg/methods/replaceItem|'''replaceItem''']]: Replaces a specified  existing item in the list with a specified new item.
+*No events.*
 
-The '''SVGPathSegList''' object has these properties:
+## Inherited from SVGElement
 
-*[[svg/properties/numberOfItems|'''numberOfItems''']]: Gets or sets  the number of items in a list.
+### Properties
 
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+## Notes
+
+### Remarks
+
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+### Standards information
+
+-   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.21
+
+### Members
+
+The **SVGPathSegList** object has these methods:
+
+-   [**appendItem**](/svg/methods/appendItem): Inserts a new item at the end of the list.
+-   [**clear**](/svg/methods/clear): Clears all existing items from the list, which creates an empty list.
+-   [**getItem**](/svg/methods/getItem): Returns the specified item from a list.
+-   [**initialize**](/svg/methods/initialize): Clears current items from the list and re-initializes the list to contain the specified item.
+-   [**insertItemBefore**](/svg/methods/insertItemBefore): Inserts a new item into a list at a specified position.
+-   [**removeItem**](/svg/methods/removeItem): Removes an existing item from the list.
+-   [**replaceItem**](/svg/methods/replaceItem): Replaces a specified existing item in the list with a specified new item.
+
+The **SVGPathSegList** object has these properties:
+
+-   [**numberOfItems**](/svg/properties/numberOfItems): Gets or sets the number of items in a list.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

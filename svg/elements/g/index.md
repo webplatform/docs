@@ -1,97 +1,104 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs spec reference, standardization status, fix broken link
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The '''g''' element <nowiki>(<g>)</nowiki> is a container element for grouping together related graphics elements.}}
-{{Markup_Element
-|DOM_interface=svg/objects/SVGElement
-|Content=The '''g''' element (&lt;g&gt;) groups two or more graphics elements or other '''g''' elements together to provide document structure. Groups containing the [[svg/elements/desc|'''desc''']] and [[svg/elements/title|'''title''']] elements, provide additional semantic information and increase accessibility. When defined inside of a [[svg/elements/defs|'''defs''']] element and named using the [[svg/attributes/id|'''id''']] attribute, groups can be reused.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=In the following code example, the g element is used to group two elements together. They are then rotated together.
-|Code=<syntaxhighlight lang="xml">
-<!DOCTYPE HTML>
-<html>
-  <head></head>
-  <body>
-    <svg width="400" height="400">
-      <g transform="rotate(30 75 50)">
-        <rect x="50" y="50" width="50" height="50" fill="firebrick"/>
-        <ellipse cx="100" cy="50" rx="25" ry="50" fill="dodgerblue"/>
-      </g>
-    </svg>
-  </body>
-</html>
-</syntaxhighlight>
-|LiveURL=http://code.webplatform.org/gist/09f7ebf9fa8ed1d9b0d6
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: g
+tags:
+  - Markup
+  - Elements
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Needs spec reference, standardization status, fix broken link'
+summary: 'The g element (<g>) is a container element for grouping together related graphics elements.'
+code_samples:
+  - 'http://gist.github.com/09f7ebf9fa8ed1d9b0d6'
+uri: svg/elements/g
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - svg/attributes/id
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-|Import_Notes====Standards information===
+---
+# g
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.3
+## Summary
 
-===Members===
+The g element (\<g\>) is a container element for grouping together related graphics elements.
 
-The '''SVGGElement''' object has these events:
+## Overview Table
 
-*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
+[DOM Interface](/dom/interface)
+:   [SVGElement](/svg/objects/SVGElement)
 
-The '''SVGGElement''' object has these methods:
+The **g** element (\<g\>) groups two or more graphics elements or other **g** elements together to provide document structure. Groups containing the [**desc**](/svg/elements/desc) and [**title**](/svg/elements/title) elements, provide additional semantic information and increase accessibility. When defined inside of a [**defs**](/svg/elements/defs) element and named using the [**id**](/w/index.php?title=svg/attributes/id&action=edit&redlink=1) attribute, groups can be reused.
 
-*[[svg/methods/getBBox|'''getBBox''']]: Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
-*[[svg/methods/getCTM|'''getCTM''']]: Gets  the transformation matrix  that transforms from  the current user units to the viewport coordinate system for the [[svg/properties/nearestViewportElement|'''nearestViewportElement''']] object.
-*[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
-*[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
-*[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
+## Examples
 
-The '''SVGGElement''' object has these properties:
+In the following code example, the g element is used to group two elements together. They are then rotated together.
 
-*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
-*[[svg/properties/clipPath|'''clipPath''']]: Sets or retrieves a reference to the SVG graphical object that will be used as the clipping path.
-*[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]: Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
-*[[svg/properties/farthestViewportElement|'''farthestViewportElement''']]: Gets  a value that represents the farthest ancestor [[svg/elements/svg|'''svg''']] element.
-*[[svg/properties/focusable|'''focusable''']]: Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when  a user presses  the Tab key).
-*[[svg/attributes/mask|'''mask''']]: Sets or retrieves a value that indicates a SVG mask.
-*[[svg/properties/nearestViewportElement|'''nearestViewportElement''']]: Gets  a value that indicates which element established the current viewport.
-*[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
-*[[svg/properties/requiredExtensions|'''requiredExtensions''']]: Gets a white space-delimited list of required language extensions.
-*[[svg/properties/requiredFeatures|'''requiredFeatures''']]: Gets or sets a white space-delimited list of feature strings.
-*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
-*[[svg/properties/systemLanguage|'''systemLanguage''']]: Gets or sets a comma-separated list of language names.
-*[[svg/properties/transform|'''transform''']]: Gets the value of a [[svg/properties/transform|'''transform''']] attribute.
-*[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
-*[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
-*[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
-*[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+
+    <!DOCTYPE HTML>
+    <html>
+      <head></head>
+      <body>
+        <svg width="400" height="400">
+          <g transform="rotate(30 75 50)">
+            <rect x="50" y="50" width="50" height="50" fill="firebrick"/>
+            <ellipse cx="100" cy="50" rx="25" ry="50" fill="dodgerblue"/>
+          </g>
+        </svg>
+      </body>
+    </html>
+
+</pre>
+[View live example](http://code.webplatform.org/gist/09f7ebf9fa8ed1d9b0d6)
+
+## Notes
+
+### Remarks
+
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+### Standards information
+
+-   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.3
+
+### Members
+
+The **SVGGElement** object has these events:
+
+-   [**onload**](/svg/events/load): Occurs when the browser has fully parsed the element and all of its descendants.
+
+The **SVGGElement** object has these methods:
+
+-   [**getBBox**](/svg/methods/getBBox): Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
+-   [**getCTM**](/svg/methods/getCTM): Gets the transformation matrix that transforms from the current user units to the viewport coordinate system for the [**nearestViewportElement**](/svg/properties/nearestViewportElement) object.
+-   [**getScreenCTM**](/svg/methods/getScreenCTM): Gets the transformation matrix from the current user units to the screen coordinate system.
+-   [**getTransformToElement**](/svg/methods/getTransformToElement): Gets the transformation matrix that transforms from the user coordinate system on the current element to the user coordinate system on the specified target element.
+-   [**hasExtension**](/svg/methods/hasExtension): Determines if the specified extension is supported.
+
+The **SVGGElement** object has these properties:
+
+-   [**className**](/svg/properties/className): Gets the names of the classes that are assigned to this object.
+-   [**clipPath**](/svg/properties/clipPath): Sets or retrieves a reference to the SVG graphical object that will be used as the clipping path.
+-   [**externalResourcesRequired**](/svg/properties/externalResourcesRequired): Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
+-   [**farthestViewportElement**](/svg/properties/farthestViewportElement): Gets a value that represents the farthest ancestor [**svg**](/svg/elements/svg) element.
+-   [**focusable**](/svg/properties/focusable): Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when a user presses the Tab key).
+-   [**mask**](/svg/attributes/mask): Sets or retrieves a value that indicates a SVG mask.
+-   [**nearestViewportElement**](/svg/properties/nearestViewportElement): Gets a value that indicates which element established the current viewport.
+-   [**ownerSVGElement**](/svg/properties/ownerSVGElement): Gets the nearest ancestor [**svg**](/svg/objects/SVGElement) element.
+-   [**requiredExtensions**](/svg/properties/requiredExtensions): Gets a white space-delimited list of required language extensions.
+-   [**requiredFeatures**](/svg/properties/requiredFeatures): Gets or sets a white space-delimited list of feature strings.
+-   [**style**](/svg/properties/style): Gets a [**style**](/css/cssom/style) object.
+-   [**systemLanguage**](/svg/properties/systemLanguage): Gets or sets a comma-separated list of language names.
+-   [**transform**](/svg/properties/transform): Gets the value of a [**transform**](/svg/properties/transform) attribute.
+-   [**viewportElement**](/svg/properties/viewportElement): Gets the element that established the current viewport.
+-   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
+-   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
+-   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

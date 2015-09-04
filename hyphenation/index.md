@@ -1,19 +1,17 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Merge Candidate: glossary/
-|Checked_Out=No
-}}
-{{Glossary_Item
-|Term=hyphenation
-|Definition=The practice of separating words at syllable boundaries with a hyphen character (-) in order to make them fit better on a line and avoid unnecessary trailing whitespace. Modern editing software has refined the text justification process, making hyphenation largely superfluous. Also called syllabication.
-}}
-{{Notes_Section}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: yphenation
+tags:
+  - Glossary
+  - Items
+readiness: 'Not Ready'
+notes:
+  - 'Merge Candidate: glossary/'
+uri: hyphenation
+
+---
+# hyphenation
+
+## hyphenation
+
+The practice of separating words at syllable boundaries with a hyphen character (-) in order to make them fit better on a line and avoid unnecessary trailing whitespace. Modern editing software has refined the text justification process, making hyphenation largely superfluous. Also called syllabication.
+

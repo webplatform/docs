@@ -1,58 +1,67 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=should be document.URL not window>URL
+---
+title: URL
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'should be document.URL not window>URL'
+summary: 'Sets or gets the URL for the current document.'
+uri: dom/Window/URL
 
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Sets or gets the URL for the current document.}}
-{{API_Object_Property
-|Property_applies_to=dom/Window
-|Read_only=No
-|Example_object_name=document
-|Return_value_name=string
-|Javascript_data_type=String
-|Return_value_description=the URL of the current web document.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example function returns the '''URL''' property of the current document.
-|Code=function getURL()
+---
+# URL
+
+## Summary
+
+Sets or gets the URL for the current document.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Window](/dom/Window)</span></span>
+
+## Syntax
+
+``` {.js}
+var string = document.URL;
+document.URL = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+the URL of the current web document.
+
+## Examples
+
+This example function returns the **URL** property of the current document.
+
+``` {.js}
+function getURL()
 {
     return document.URL;
 }
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The '''URL''' property is case-sensitive.
-This property is an alias for the [[dom/Location|'''location''']].[[dom/Location/href|'''href''']] property on the window.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.4
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/document.URL document.URL]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534708(v=vs.85).aspx URL Property]
-|HTML5Rocks_link=
-}}
+```
+
+## Notes
+
+### Remarks
+
+The **URL** property is case-sensitive. This property is an alias for the [**location**](/dom/Location).[**href**](/dom/Location/href) property on the window.
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.4
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[document.URL](https://developer.mozilla.org/en-US/docs/Web/API/document.URL) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[URL Property](http://msdn.microsoft.com/en-us/library/ie/ms534708(v=vs.85).aspx) Article]
+

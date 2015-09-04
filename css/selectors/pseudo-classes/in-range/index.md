@@ -1,19 +1,32 @@
-{{Page_Title|&#58;in-range}}
-{{Flags
-|State=Not Ready
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The <code>:in-range</code> pseudo selector selects input elements when their value is within a specified range.}}
-{{CSS_Selector
-|Content=The <code>:in-range</code> CSS pseudo-class matches when an element has its value attribute inside the specified range limitations for this element. It allows the page to give a feedback that the value currently defined using the element is inside the range limits.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Code=<code>
+---
+title: :in-range
+tags:
+  - CSS
+  - Selectors
+readiness: 'Not Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The :in-range pseudo selector selects input elements when their value is within a specified range.'
+code_samples:
+  - 'http://gist.github.com/73a791bbe2cd884f6b2e'
+uri: 'css/selectors/pseudo-classes/:in-range'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - selection
+
+---
+# :in-range
+
+## Summary
+
+The :in-range pseudo selector selects input elements when their value is within a specified range.
+
+ The `:in-range` CSS pseudo-class matches when an element has its value attribute inside the specified range limitations for this element. It allows the page to give a feedback that the value currently defined using the element is inside the range limits.
+
+## Examples
+
+``` {.css}
+
 li {
     list-style: none;
     margin-bottom: 1em;
@@ -34,26 +47,146 @@ input:in-range + label::after {
 input:out-of-range + label::after {
     content:'out of range!';
 }
-</code>
-|LiveURL=http://code.webplatform.org/gist/73a791bbe2cd884f6b2e
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Selectors Level 4
-|URL=http://dev.w3.org/csswg/selectors-4/#range-pseudos
-|Status=W3C Editor's Draft
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Pseudo-Classes, Selectors
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-}}
-{{Compatibility
-|feature=pseudo-in-range
-|topic=css
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/73a791bbe2cd884f6b2e)
+
+## Related specifications
+
+Specification
+:   Status
+[Selectors Level 4](http://dev.w3.org/csswg/selectors-4/#range-pseudos)
+:   W3C Editor's Draft
+
+## See also
+
+### Related articles
+
+#### Pseudo-Classes
+
+-   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
+
+-   [:-ms-input-placeholder](/css/selectors/pseudo-classes/:-ms-input-placeholder)
+
+-   [:checked](/css/selectors/pseudo-classes/:checked)
+
+-   [:disabled](/css/selectors/pseudo-classes/:disabled)
+
+-   [:empty](/css/selectors/pseudo-classes/:empty)
+
+-   [:enabled](/css/selectors/pseudo-classes/:enabled)
+
+-   [:first-child](/css/selectors/pseudo-classes/:first-child)
+
+-   [:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
+
+-   [:focus](/css/selectors/pseudo-classes/:focus)
+
+-   **:in-range**
+
+-   [:indeterminate](/css/selectors/pseudo-classes/:indeterminate)
+
+-   [:invalid](/css/selectors/pseudo-classes/:invalid)
+
+-   [:lang(c)](/css/selectors/pseudo-classes/:lang(c))
+
+-   [:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+
+-   [:nth-child(n)](/css/selectors/pseudo-classes/:nth-child(n))
+
+-   [:nth-last-child(n)](/css/selectors/pseudo-classes/:nth-last-child(n))
+
+-   [:nth-last-of-type(n)](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+
+-   [:nth-of-type(n)](/css/selectors/pseudo-classes/:nth-of-type(n))
+
+-   [:only-child](/css/selectors/pseudo-classes/:only-child)
+
+-   [:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+
+-   [:optional](/css/selectors/pseudo-classes/:optional)
+
+-   [:required](/css/selectors/pseudo-classes/:required)
+
+-   [:root](/css/selectors/pseudo-classes/:root)
+
+-   [:target](/css/selectors/pseudo-classes/:target)
+
+-   [:valid](/css/selectors/pseudo-classes/:valid)
+
+#### Selectors
+
+-   [querySelectorAll](/css/selectors_api/querySelectorAll)
+
+-   [ID](/css/selectors/ID)
+
+-   [Namespaced](/css/selectors/Namespaced)
+
+-   [Universal](/css/selectors/Universal)
+
+-   [equality](/css/selectors/attributes/equality)
+
+-   [Attribute selector](/css/selectors/attributes/existence)
+
+-   [hyphen](/css/selectors/attributes/hyphen)
+
+-   [prefix](/css/selectors/attributes/prefix)
+
+-   [substring](/css/selectors/attributes/substring)
+
+-   [suffix](/css/selectors/attributes/suffix)
+
+-   [whitespace](/css/selectors/attributes/whitespace)
+
+-   [:-ms-input-placeholder](/css/selectors/pseudo-classes/:-ms-input-placeholder)
+
+-   [:checked](/css/selectors/pseudo-classes/:checked)
+
+-   [:disabled](/css/selectors/pseudo-classes/:disabled)
+
+-   [:empty](/css/selectors/pseudo-classes/:empty)
+
+-   [:enabled](/css/selectors/pseudo-classes/:enabled)
+
+-   [:first-child](/css/selectors/pseudo-classes/:first-child)
+
+-   [:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
+
+-   [:focus](/css/selectors/pseudo-classes/:focus)
+
+-   **:in-range**
+
+-   [:indeterminate](/css/selectors/pseudo-classes/:indeterminate)
+
+-   [:invalid](/css/selectors/pseudo-classes/:invalid)
+
+-   [:lang(c)](/css/selectors/pseudo-classes/:lang(c))
+
+-   [:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+
+-   [:nth-child(n)](/css/selectors/pseudo-classes/:nth-child(n))
+
+-   [:nth-last-child(n)](/css/selectors/pseudo-classes/:nth-last-child(n))
+
+-   [:nth-last-of-type(n)](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+
+-   [:nth-of-type(n)](/css/selectors/pseudo-classes/:nth-of-type(n))
+
+-   [:only-child](/css/selectors/pseudo-classes/:only-child)
+
+-   [:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+
+-   [:optional](/css/selectors/pseudo-classes/:optional)
+
+-   [:required](/css/selectors/pseudo-classes/:required)
+
+-   [:root](/css/selectors/pseudo-classes/:root)
+
+-   [:target](/css/selectors/pseudo-classes/:target)
+
+-   [:valid](/css/selectors/pseudo-classes/:valid)
+
+-   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
+
+-   [type](/css/selectors/type)
+

@@ -1,31 +1,89 @@
-{{Page_Title|content fragments}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Fix or remove broken link to DOM API; 
-|Checked_Out=No
-}}
-{{API_Name}}
-{{Summary_Section|A contiguous range of content, which may stretch arbitrarily across DOM nodes.}}
-{{Concept_Page
-|Content=A ''range'' (or ''fragment'') is a contiguous stretch of content within a document, one that may traverse DOM nodes arbitrarily. For example, a user may select a stretch of text that starts in the middle of one paragraph, and ends in the middle of another. CSS styling may apply dynamically to the [[css/selectors/pseudo-elements/&#58;&#58;first-line|'''&#58;&#58;first-line''']] or [[css/selectors/pseudo-elements/&#58;&#58;first-letter|'''&#58;&#58;first-letter''']] of text.  Or a [[css/concepts/named_flow|''flow'']] of text may thread through a series of [[css/concepts/region|''region'']] elements, each of which may display only a portion of a paragraph that spills over from adjacent regions within the [[css/concepts/region_chain|chain]].
+---
+title: fragment
+tags:
+  - Concept
+  - Pages
+  - CSS-Regions
+readiness: 'Almost Ready'
+notes:
+  - 'Fix or remove broken link to DOM API;'
+summary: 'A contiguous range of content, which may stretch arbitrarily across DOM nodes.'
+uri: css/concepts/fragment
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/traversal/Range
 
-You can use the [[dom/traversal/Range|DOM Range API]] to programatically access such arbitrary stretches of content.
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-}}
-{{Topics|CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+# content fragments
+
+## Summary
+
+A contiguous range of content, which may stretch arbitrarily across DOM nodes.
+
+ A *range* (or *fragment*) is a contiguous stretch of content within a document, one that may traverse DOM nodes arbitrarily. For example, a user may select a stretch of text that starts in the middle of one paragraph, and ends in the middle of another. CSS styling may apply dynamically to the [**::first-line**](/css/selectors/pseudo-elements/::first-line) or [**::first-letter**](/css/selectors/pseudo-elements/::first-letter) of text. Or a [*flow*](/css/concepts/named_flow) of text may thread through a series of [*region*](/css/concepts/region) elements, each of which may display only a portion of a paragraph that spills over from adjacent regions within the [chain](/css/concepts/region_chain).
+
+You can use the [DOM Range API](/w/index.php?title=dom/traversal/Range&action=edit&redlink=1) to programatically access such arbitrary stretches of content.
+
+## See also
+
+### Related articles
+
+#### Regions
+
+-   [CSS Regions API](/apis/css-regions)
+
+-   [CSSRegionStyleRule](/apis/css-regions/CSSRegionStyleRule)
+
+-   [NamedFlow](/apis/css-regions/NamedFlow)
+
+-   [firstEmptyRegionIndex](/apis/css-regions/NamedFlow/firstEmptyRegionIndex)
+
+-   [getContent()](/apis/css-regions/NamedFlow/getContent)
+
+-   [getRegions()](/apis/css-regions/NamedFlow/getRegions)
+
+-   [getRegionsByContent()](/apis/css-regions/NamedFlow/getRegionsByContent)
+
+-   [name](/apis/css-regions/NamedFlow/name)
+
+-   [overset](/apis/css-regions/NamedFlow/overset)
+
+-   [regionfragmentchange](/apis/css-regions/NamedFlow/regionfragmentchange)
+
+-   [regionoversetchange](/apis/css-regions/NamedFlow/regionoversetchange)
+
+-   [NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
+
+-   [namedItem()](/apis/css-regions/NamedFlowCollection/namedItem)
+
+-   [Region](/apis/css-regions/Region)
+
+-   [getComputedRegionStyle()](/apis/css-regions/Region/getComputedRegionStyle)
+
+-   [getRegionFlowRanges()](/apis/css-regions/Region/getRegionFlowRanges)
+
+-   [regionOverset](/apis/css-regions/Region/regionOverset)
+
+-   [@region](/css/atrules/@region)
+
+-   **content fragments**
+
+-   [named flows](/css/concepts/named_flow)
+
+-   [overset content](/css/concepts/overset)
+
+-   [regions](/css/concepts/region)
+
+-   [region chains](/css/concepts/region_chain)
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [flow-from](/css/properties/flow-from)
+
+-   [flow-into](/css/properties/flow-into)
+

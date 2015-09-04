@@ -1,53 +1,45 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Examples_Section
-|Not_required=No
-|Examples=}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: values
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/properties/values
 
-===Remarks===
+---
+# values
 
-The contents of '''values''' depends on the value of attribute [[svg/properties/type (SVGFEColorMatrixElement)|'''type''']], as indicated in the following:
+**Needs Examples**: This section should include examples.
 
-For '''type{{=}}"matrix"''', '''values''' is a list of 20 matrix values (a00 a01 a02 a03 a04 a10 a11 ... a34), separated by whitespace and/or a comma. For example, the identity matrix could be expressed as:
+## Notes
 
-For '''type{{=}}"saturate"''', '''values''' is a single real number value (0 to 1). A saturate operation is equivalent to the following matrix operation:
-For '''type{{=}}"hueRotate"''', '''values''' is a single real number value (degrees). A hueRotate operation is equivalent to the following matrix operation:
-where the terms a00, a01, ..., a22 are calculated as follows:
-Thus, the upper-left term of the hue matrix turns out to be:
-For '''type{{=}}"luminanceToAlpha"''', '''values''' is not applicable. A luminanceToAlpha operation is equivalent to the following matrix operation:
+### Remarks
 
-If the '''values''' attribute is not specified, then the default behavior depends on the value of attribute [[svg/properties/type (SVGFEColorMatrixElement)|'''type''']]. If '''type{{=}}"matrix"''', then this attribute defaults to the identity matrix. If '''type{{=}}"saturate"''', then this attribute defaults to the value 1, which results in the identity matrix. If '''type{{=}}"hueRotate"''', then this attribute defaults to the value 0, which results in the identity matrix.
-|Import_Notes=
+The contents of **values** depends on the value of attribute [**type**](/svg/properties/type_(SVGFEColorMatrixElement)), as indicated in the following:
 
-===Syntax===
+For **type="matrix"**, **values** is a list of 20 matrix values (a00 a01 a02 a03 a04 a10 a11 ... a34), separated by whitespace and/or a comma. For example, the identity matrix could be expressed as:
 
-===Standards information===
+For **type="saturate"**, **values** is a single real number value (0 to 1). A saturate operation is equivalent to the following matrix operation: For **type="hueRotate"**, **values** is a single real number value (degrees). A hueRotate operation is equivalent to the following matrix operation: where the terms a00, a01, ..., a22 are calculated as follows: Thus, the upper-left term of the hue matrix turns out to be: For **type="luminanceToAlpha"**, **values** is not applicable. A luminanceToAlpha operation is equivalent to the following matrix operation:
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.4
+If the **values** attribute is not specified, then the default behavior depends on the value of attribute [**type**](/svg/properties/type_(SVGFEColorMatrixElement)). If **type="matrix"**, then this attribute defaults to the identity matrix. If **type="saturate"**, then this attribute defaults to the value 1, which results in the identity matrix. If **type="hueRotate"**, then this attribute defaults to the value 0, which results in the identity matrix.
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Syntax
 
-===Related pages (MSDN)===
+### Standards information
 
-*[[svg/elements/feColorMatrix|'''SVGFEColorMatrixElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.4
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

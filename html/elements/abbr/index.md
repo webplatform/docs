@@ -1,88 +1,86 @@
-{{Page_Title|abbr}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add syntax, attribute, compatibility.
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Use the '''abbr''' element to indicate an abbreviation or acronym.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Content=The '''abbr''' is a phrasing-level element used to indicate an abbreviation or acronym. It can’t contain block-level elements, but it can contain other phrasing type elements.
+---
+title: abbr
+tags:
+  - Markup
+  - Elements
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add syntax, attribute, compatibility.'
+summary: 'Use the abbr element to indicate an abbreviation or acronym.'
+code_samples:
+  - 'http://gist.github.com/939206'
+uri: html/elements/abbr
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/acronym
 
-The '''abbr''' element’s role has been expanded to incorporate the role previously performed by [[html/acronym|'''acronym''' element]] (which has been deprecated).
+---
+# abbr
 
-==Attributes==
+## Summary
 
-A '''abbr''' element may optionally have a [[html/attributes/title|'''title''' attribute]] that must contain an expansion of the abbreviation (and nothing else). The '''abbr''' element can accept any attributes permitted globally (e.g. '''class''').
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following example shows how to use the '''abbr''' element with an optional [[html/attributes/title|'''title''']] attribute.
-|Code=&lt;p>The national capital of the 
-United States is located in Washington, 
-&lt;abbr title="District of Columbia">D.C.&lt;/abbr>.&lt;/p>
-|LiveURL=http://code.webplatform.org/gist/939206
-}}{{Single Example
-|Language=HTML
-|Description=Linking an abbreviation to its definition
-|Code=&lt;p>
-The &lt;dfn id="HTML">Hyper Text Markup Language</dfn>
-(&lt;abbr title="HyperText Markup Language">HTML&lt;/abbr>) is the publishing language of the World Wide Web.
-&lt;/p>
-&lt;p>The first version of &lt;a href="#HTML">&lt;abbr title="Hyper Text Markup Language">HTML&lt;/abbr>&lt;/a>
- was described by Tim Berners-Lee in late 1991.&lt;/p>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=Abbreviations don’t have to marked up in the '''abbr''' element, but it can be useful
+Use the abbr element to indicate an abbreviation or acronym.
 
-* When you want to provide an expanded version of the term;
-* When you are using a term that may be unfamiliar to your audience; or
-* When you want to visually-separate abbreviations from other content on the page (using CSS).
+## Overview Table
 
-In the first two instances, it would make sense to include an expansion of the abbreviation in a '''title''' attribute.
-|Notes=If you use the same abbreviation multiple times in a  document, you might consider using a '''title''' to expand the first instance (perhaps wrapping it in a [[html/elements/dfn|'''dfn''' element]] to mark it as the defining instance) and then leave the '''title''' attribute off of the additional instances. This may provide a better reading experience for assistive technologies, but it should be noted that the instances without '''title''' attributes will not provide the expanded text as each '''abbr''' is independent (expansions are not shared among identical '''abbr''' elements).
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related_Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-abbr-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-abbr-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/text.html#edef-ABBR
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+The **abbr** is a phrasing-level element used to indicate an abbreviation or acronym. It can’t contain block-level elements, but it can contain other phrasing type elements.
+
+The **abbr** element’s role has been expanded to incorporate the role previously performed by [**acronym** element](/w/index.php?title=html/acronym&action=edit&redlink=1) (which has been deprecated).
+
+## Attributes
+
+A **abbr** element may optionally have a [**title** attribute](/html/attributes/title) that must contain an expansion of the abbreviation (and nothing else). The **abbr** element can accept any attributes permitted globally (e.g. **class**).
+
+## Examples
+
+The following example shows how to use the **abbr** element with an optional [**title**](/html/attributes/title) attribute.
+
+``` {.html}
+<p>The national capital of the
+United States is located in Washington,
+<abbr title="District of Columbia">D.C.</abbr>.</p>
+```
+
+[View live example](http://code.webplatform.org/gist/939206)
+
+Linking an abbreviation to its definition
+
+``` {.html}
+<p>
+The <dfn id="HTML">Hyper Text Markup Language</dfn>
+(<abbr title="HyperText Markup Language">HTML</abbr>) is the publishing language of the World Wide Web.
+</p>
+<p>The first version of <a href="#HTML"><abbr title="Hyper Text Markup Language">HTML</abbr></a>
+ was described by Tim Berners-Lee in late 1991.</p>
+```
+
+## Usage
+
+     Abbreviations don’t have to marked up in the abbr element, but it can be useful
+
+-   When you want to provide an expanded version of the term;
+-   When you are using a term that may be unfamiliar to your audience; or
+-   When you want to visually-separate abbreviations from other content on the page (using CSS).
+
+In the first two instances, it would make sense to include an expansion of the abbreviation in a **title** attribute.
+
+## Notes
+
+If you use the same abbreviation multiple times in a document, you might consider using a **title** to expand the first instance (perhaps wrapping it in a [**dfn** element](/html/elements/dfn) to mark it as the defining instance) and then leave the **title** attribute off of the additional instances. This may provide a better reading experience for assistive technologies, but it should be noted that the instances without **title** attributes will not provide the expanded text as each **abbr** is independent (expansions are not shared among identical **abbr** elements).
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-abbr-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-abbr-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-ABBR)
+:   W3C Recommendation
+

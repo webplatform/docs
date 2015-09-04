@@ -1,11 +1,17 @@
-Here is a list of HTML APIs:
-* [[apis/audio-video/audio|Audio]]
-* [[apis/audio-video/video|Video]]
-* [[apis/audio-video/TextTrack|Text Track]]
-* [[apis/appcache/ApplicationCache|Application Cache]]
-* [[apis/canvas|Canvas]]
-* [[apis/geolocation|Geolocation]]
-* [[apis/indexedDB|IndexedDB]]
-* [[apis/file|File]]
+---
+title: apis
+tags:
+  - HTML
+uri: html/apis
 
-[[Category:HTML]]
+---
+Here is a list of HTML APIs:
+
+-   [Audio](/apis/audio-video/audio)
+-   [Video](/apis/audio-video/video)
+-   [Text Track](/apis/audio-video/TextTrack)
+-   [Application Cache](/apis/appcache/ApplicationCache)
+-   [Canvas](/apis/canvas)
+-   [Geolocation](/apis/geolocation)
+-   [IndexedDB](/apis/indexedDB)
+-   [File](/apis/file)

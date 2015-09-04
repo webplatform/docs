@@ -1,64 +1,73 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Retrieves the next child node of the parent of the node.}}
-{{API_Object_Property
-|Property_applies_to=dom/Node
-|Read_only=Yes
-|Example_object_name=node
-|Return_value_name=nextNode
-|Javascript_data_type=DOM Node
-|Return_value_description=The next child node of the parent of the node, or null if the node is the last child.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''nextSibling''' property to obtain the next item in the list.
-|Code=&lt;body&gt;
-&lt;ul id{{=}}"oList"&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
-&lt;li&gt;List Item 2&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-// returns the list item labeled 'List Item 2'
-var oSibling {{=}} document.getElementById("oList").childNodes(0).nextSibling;
-&lt;/script&gt;
+---
+title: nextSibling
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves the next child node of the parent of the node.'
+uri: dom/Node/nextSibling
 
-&lt;/body&gt;
-}}
-}}
-{{Notes_Section
-|Usage=Used to Enumerate the DOM tree.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.nextSibling Node.nextSibling]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534189(v=vs.85).aspx nextSibbling Property]
-|HTML5Rocks_link=
-}}
+---
+# nextSibling
+
+## Summary
+
+Retrieves the next child node of the parent of the node.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Node](/dom/Node)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var nextNode = node.nextSibling;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+The next child node of the parent of the node, or null if the node is the last child.
+
+## Examples
+
+This example uses the **nextSibling** property to obtain the next item in the list.
+
+``` {.html}
+<body>
+<ul id="oList">
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>List Item 3</li>
+</ul>
+<script type="text/javascript">
+// returns the list item labeled 'List Item 2'
+var oSibling = document.getElementById("oList").childNodes(0).nextSibling;
+</script>
+
+</body>
+```
+
+## Usage
+
+     Used to Enumerate the DOM tree.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.nextSibling](https://developer.mozilla.org/en-US/docs/Web/API/Node.nextSibling) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[nextSibbling Property](http://msdn.microsoft.com/en-us/library/ie/ms534189(v=vs.85).aspx) Article]
+

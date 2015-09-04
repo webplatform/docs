@@ -1,49 +1,46 @@
-{{Page_Title|HTML tutorials}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|HTML is a markup language, used to give content structure and meaning. This page lists all of our HTML tutorials — perfect for learning HTML from scratch, or diving into learning more complex HTML topics.}}
-{{Basic Page|Content=PAGE CONTENT GOES HERE
-}}
-==HTML fundamentals==
+---
+title: tutorials
+tags:
+  - Basic
+  - Pages
+  - HTML
+readiness: 'Ready to Use'
+summary: 'HTML is a markup language, used to give content structure and meaning. This section should cover all of our HTML tutorials — Ideal for learning HTML from scratch, or diving into learning more complex HTML topics.'
+uri: html/tutorials
 
-* [[guides/the basics of html|The basics of HTML]]
-* [[guides/doctypes and markup styles|DOCTYPES and markup styles]]
-* [[guides/html validation|HTML validation]]
+---
+# HTML tutorials
 
-==The HTML head==
+## Summary
 
-* [[guides/the html head|The HTML &lt;head&gt;]]
-* [[guides/more about the html head|More about the HTML &lt;head&gt;]]
+HTML is a markup language, used to give content structure and meaning. This section should cover all of our HTML tutorials — Ideal for learning HTML from scratch, or diving into learning more complex HTML topics.
 
-==The HTML body==
+## HTML fundamentals
 
-* [[guides/html text|HTML text]]&nbsp;&nbsp;&nbsp;[[guides/html text es|Spanish version]]
-* [[guides/html lists|HTML lists]]
-* [[guides/html links|HTML links]]
-* [[guides/Styling_lists_and_links|Styling lists and links]]
-* [[guides/html tables|HTML tables]]
-* [[guides/images in html|Images in HTML]]
-* [[guides/html forms basics|HTML forms basics]]
-* [[guides/html5 form features|HTML5 form features]]
-* [[guides/html structural elements|HTML structural elements]]
-* [[guides/lesser-known semantic elements|Lesser-known semantic elements]]
+-   [The basics of HTML](/guides/the_basics_of_html)
+-   [DOCTYPES and markup styles](/guides/doctypes_and_markup_styles)
+-   [HTML validation](/guides/html_validation)
 
-==Applied techniques==
+## The HTML head
 
-* [[tutorials/creating basic navigation menus|Creating navigation menus]]
-* [[concepts/Pointer_Events|Input from mouse, touch, or pen with pointer events]]
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+-   [The HTML \<head\>](/guides/the_html_head)
+-   [More about the HTML \<head\>](/guides/more_about_the_html_head)
+
+## The HTML body
+
+-   [HTML text](/guides/html_text)   [Spanish version](/guides/html_text_es)
+-   [HTML lists](/guides/html_lists)
+-   [HTML links](/guides/html_links)
+-   [Styling lists and links](/guides/Styling_lists_and_links)
+-   [HTML tables](/guides/html_tables)
+-   [Images in HTML](/guides/images_in_html)
+-   [HTML forms basics](/guides/html_forms_basics)
+-   [HTML5 form features](/guides/html5_form_features)
+-   [HTML structural elements](/guides/html_structural_elements)
+-   [Lesser-known semantic elements](/guides/lesser-known_semantic_elements)
+
+## Applied techniques
+
+-   [Creating navigation menus](/tutorials/creating_basic_navigation_menus)
+-   [Input from mouse, touch, or pen with pointer events](/concepts/Pointer_Events)
+

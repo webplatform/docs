@@ -1,136 +1,141 @@
-{{Page_Title|article}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|'''&lt;article&gt;'''はページ内で単独で完結する構成要素を定義します。}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=required
-|CSS_display=block
-|Content=<article>は&lt;div&gt;タグを減らすためにHTML5から導入された要素です。'''<article>'''は主に以下の内容を表します。
+---
+title: ja
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: '<article>はページ内で単独で完結する構成要素を定義します。'
+uri: html/elements/article/ja
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/elements/article/af
+    - html/elements/article/ar
+    - html/elements/article/ast
+    - html/elements/article/az
+    - html/elements/article/bcc
+    - html/elements/article/bg
+    - html/elements/article/br
+    - html/elements/article/ca
+    - html/elements/article/cs
+    - html/elements/article/da
+    - html/elements/article/de
+    - html/elements/article/diq
+    - html/elements/article/el
+    - html/elements/article/eo
+    - html/elements/article/es
+    - html/elements/article/fa
+    - html/elements/article/fi
+    - html/elements/article/fr
+    - html/elements/article/gl
+    - html/elements/article/gu
+    - html/elements/article/he
+    - html/elements/article/hu
+    - html/elements/article/hy
+    - html/elements/article/id
+    - html/elements/article/it
+    - html/elements/article/ka
+    - html/elements/article/kk
+    - html/elements/article/km
+    - html/elements/article/ko
+    - html/elements/article/ksh
+    - html/elements/article/kw
+    - html/elements/article/mk
+    - html/elements/article/ml
+    - html/elements/article/mr
+    - html/elements/article/ms
+    - html/elements/article/nl
+    - html/elements/article/no
+    - html/elements/article/oc
+    - html/elements/article/pl
+    - html/elements/article/pt
+    - html/elements/article/pt-br
+    - html/elements/article/ro
+    - html/elements/article/ru
+    - html/elements/article/si
+    - html/elements/article/sk
+    - html/elements/article/sl
+    - html/elements/article/sq
+    - html/elements/article/sr
+    - html/elements/article/sv
+    - html/elements/article/ta
+    - html/elements/article/th
+    - html/elements/article/tr
+    - html/elements/article/uk
+    - html/elements/article/vi
+    - html/elements/article/yue
+    - html/elements/article/zh
+    - html/elements/article/zh-hans
+    - html/elements/article/zh-hant
+    - html/elements/article/zh-tw
+    - html/elements/nav/ja
 
-* フォーラムの投稿
-* 雑誌や新聞の記事
-* ブログのエントリ
-* ユーザの投稿したコメント
-* インタラクティブなウィジェット/ガジェット
+---
+# article
+
+## Summary
+
+\<article\>はページ内で単独で完結する構成要素を定義します。
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+\<article\>は\<div\>タグを減らすためにHTML5から導入された要素です。**\<article\>**は主に以下の内容を表します。
+
+-   フォーラムの投稿
+-   雑誌や新聞の記事
+-   ブログのエントリ
+-   ユーザの投稿したコメント
+-   インタラクティブなウィジェット/ガジェット
 
 上記以外にも独立したコンテンツを表すのに使います。
 
-'''<article>'''要素をネストする時は、内側の<article>の内容は外側の<article>に関連したコンテンツでなければいけません。例えば、コメントの付いたブログのエントリでは、ブログエントリの'''<article>'''の中にコメントの'''<article>'''をネストするほうがよいでしょう。
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=以下の例では'''<article>'''、'''<header>'''、'''<footer>'''を使った記事の基本構成を示します。
-|Code=&lt;article&gt;
- &lt;header&gt;
-  &lt;h1&gt;見出し&lt;/h1&gt;
- &lt;/header&gt;
- &lt;p&gt;本文&lt;/p&gt;
- &lt;p&gt;...&lt;/p&gt;
- &lt;footer&gt;フッター&lt;/footer&gt;
-&lt;/article&gt;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/sections.html#the-article-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/sections.html#the-article-element
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section
-|Manual_links=[[html/elements/nav/ja|nav]] - <article>タグの子要素としてよく用いられます。
-|External_links=* http://www.w3.org/TR/html-markup/article.html#article
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Languages}}
+**\<article\>**要素をネストする時は、内側の\<article\>の内容は外側の\<article\>に関連したコンテンツでなければいけません。例えば、コメントの付いたブログのエントリでは、ブログエントリの**\<article\>**の中にコメントの**\<article\>**をネストするほうがよいでしょう。
 
+## Examples
 
+以下の例では**\<article\>**、**\<header\>**、**\<footer\>**を使った記事の基本構成を示します。
 
+``` {.html}
+<article>
+ <header>
+  <h1>見出し</h1>
+ </header>
+ <p>本文</p>
+ <p>...</p>
+ <footer>フッター</footer>
+</article>
+```
 
+## Related specifications
 
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-article-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/sections.html#the-article-element)
+:   W3C Recommendation
 
+## See also
 
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=21
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=14
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=2.2
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=18
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=15
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=11.5
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=4
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9
-|Note=The '''article''' element is only supported for webpages displayed in IE9 Standards mode. Internet Explorer 9 does not natively support the '''time''' element, which is intended to provide the publication date of the article element.
-}}
-}}
+### Other articles
+
+[nav](/w/index.php?title=html/elements/nav/ja&action=edit&redlink=1) - \<article\>タグの子要素としてよく用いられます。
+
+### External resources
+
+-   [http://www.w3.org/TR/html-markup/article.html\#article](http://www.w3.org/TR/html-markup/article.html#article)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+
+**言語:**
+:   **[English](/html/elements/article)**  • <span lang="ja">**日本語**</span>
+

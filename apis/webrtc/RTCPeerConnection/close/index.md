@@ -1,38 +1,35 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, return value
-|Checked_Out=No
-|High-level issues=Stub, Missing Relevant Sections, Needs Review
-|Content=Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Closes a peer connection, stops all active ICE processing and any active streaming, and releases any relevant resources such as TURN permissions.}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=apis/webrtc/RTCPeerConnection
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: close
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: WebRTC
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs example, spec reference, return value'
+summary: 'Closes a peer connection, stops all active ICE processing and any active streaming, and releases any relevant resources such as TURN permissions.'
+uri: apis/webrtc/RTCPeerConnection/close
+
+---
+# close
+
+## Summary
+
+Closes a peer connection, stops all active ICE processing and any active streaming, and releases any relevant resources such as TURN permissions.
+
+*Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)*
+
+## Syntax
+
+``` {.js}
+var result = element.close();
+```
+
+## Return Value
+
+Returns an object of type .
+
+**Needs Examples**: This section should include examples.
+

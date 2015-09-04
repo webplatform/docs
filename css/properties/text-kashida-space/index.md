@@ -1,85 +1,72 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs summary, example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{CSS Property
-|Initial value=0%
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=percentage
-|Description=An integer, followed by a %. The value is the ratio of kashida expansion to white space expansion. 100% specifies kashida expansion only, and 0% specifies white space expansion only
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-Windows Internet Explorer 8. The '''-ms-text-kashida-space''' attribute is an extension to CSS, and can be used as a synonym for '''text-kashida-space''' in IE8 Standards mode.
-Kashida is a typographic effect that justifies lines of text by elongating characters at carefully chosen points.  It is used in Arabic writing systems.
-The property can be used with any justification style where kashida style expansion is used, such as the '''auto''', '''distribute''', '''kashida''', and '''newspaper''' values of the [[css/properties/text-justify|'''-ms-text-justify''']] property.
-The property is read-only for the
-.
-The property applies to block elements only.
-|Import_Notes====Syntax===
-<code>'''-ms-text-kashida-space: '''percentage</code>
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203766 CSS Text Level 3], Section 8.3
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=5.5
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: text-kashida-space
+tags:
+  - CSS
+  - Properties
+readiness: 'Not Ready'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+uri: css/properties/text-kashida-space
+
+---
+# text-kashida-space
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `0%`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `text-kashida-space: percentage`
+
+## Values
+
+percentage
+:   An integer, followed by a %. The value is the ratio of kashida expansion to white space expansion. 100% specifies kashida expansion only, and 0% specifies white space expansion only
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+Windows Internet Explorer 8. The **-ms-text-kashida-space** attribute is an extension to CSS, and can be used as a synonym for **text-kashida-space** in IE8 Standards mode. Kashida is a typographic effect that justifies lines of text by elongating characters at carefully chosen points. It is used in Arabic writing systems. The property can be used with any justification style where kashida style expansion is used, such as the **auto**, **distribute**, **kashida**, and **newspaper** values of the [**-ms-text-justify**](/css/properties/text-justify) property. The property is read-only for the . The property applies to block elements only.
+
+### Syntax
+
+`-ms-text-kashida-space: percentage`
+
+### Standards information
+
+-   [CSS Text Level 3](http://go.microsoft.com/fwlink/p/?linkid=203766), Section 8.3
+
+## See also
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

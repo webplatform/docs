@@ -1,37 +1,33 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Import_Notes=
+---
+title: pixelUnitToMillimeterY
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/pixelUnitToMillimeterY
 
-===Syntax===
+---
+# pixelUnitToMillimeterY
 
-HRESULT value {{=}} object.put_pixelUnitToMillimeterY(float vPixelUnitY);HRESULT value {{=}} object.get_pixelUnitToMillimeterY(float* pPixelUnitY);
+### Syntax
 
-===Standards information===
+HRESULT value = object.put\_pixelUnitToMillimeterY(float vPixelUnitY);HRESULT value = object.get\_pixelUnitToMillimeterY(float\* pPixelUnitY);
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/elements/svg|'''SVGSVGElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGSVGElement**](/svg/elements/svg)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

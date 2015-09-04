@@ -1,34 +1,27 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections
-|Content=Incomplete
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Quirks mode is a way for some browsers to maintain backward compatibility with sites designed for older browsers which don't strictly comply with W3C or IETF standards.}}
-{{API_Listing|Query=[[Category:Quirks Mode]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Concept_Listing
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Notes=When some browser makers implemented CSS, their support did not match W3C standards. To make their sites work correctly with these browsers, developers had to use non-standard CSS. 
+---
+title: quirks mode
+tags:
+  - API
+  - Listings
+  - Compatibility
+  - Basic
+  - Pages
+readiness: 'Not Ready'
+summary: 'Quirks mode is a way for some browsers to maintain backward compatibility with sites designed for older browsers which don''t strictly comply with W3C or IETF standards.'
+uri: 'html/quirks mode'
+
+---
+# quirks mode
+
+## Summary
+
+Quirks mode is a way for some browsers to maintain backward compatibility with sites designed for older browsers which don't strictly comply with W3C or IETF standards.
+
+## Notes
+
+When some browser makers implemented CSS, their support did not match W3C standards. To make their sites work correctly with these browsers, developers had to use non-standard CSS.
 
 When standards compliance became more important, developers couldn't switch to standards mode immediately as this would break the sites. Existing CSS would start to show odd side effects when interpreted in the correct way in standards mode.
 
 For example before version 6, IE interpreted the sizing of elements in a web page differently than W3C specifications which led to the infamous "Internet Explorer box model bug". Beginning with IE6, Internet Explorer introduced a second rendering mode (standards mode) but for backward compatiblity issues all versions still behave in the usual, non-standard way by default unless otherwise stated.
-}}
-{{See_Also_Section}}
-{{Topics|Compatibility}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Basic Page}}
+

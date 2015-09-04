@@ -1,93 +1,92 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs mobile compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Returns the element at the specified x and y coordinates.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=x
-|Data type=double
-|Description=A numberÂ that specifies the X-offset, in pixels. Zero-based.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=y
-|Data type=double
-|Description=A number that specifies the Y-offset, in pixels. Zero-based.
-|Optional=No
-}}
-|Method_applies_to=dom/Document
-|Example_object_name=document
-|Return_value_name=element
-|Javascript_data_type=DOM Node
-|Return_value_description=The element at the given point.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Listen for click event on entire document, log nodeName of element found with elementFromPoint()
-|Code=document.addEventListener("click", function(event){
+---
+title: elementFromPoint
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Needs mobile compat'
+summary: 'Returns the element at the specified x and y coordinates.'
+uri: dom/Document/elementFromPoint
+
+---
+# elementFromPoint
+
+## Summary
+
+Returns the element at the specified x and y coordinates.
+
+*Method of [dom/Document](/dom/Document)*
+
+## Syntax
+
+``` {.js}
+var element = document.elementFromPoint(x, y);
+```
+
+## Parameters
+
+### x
+
+ Data-typeÂ
+:   double
+
+ A numberÂ that specifies the X-offset, in pixels. Zero-based.
+
+### y
+
+ Data-typeÂ
+:   double
+
+ A number that specifies the Y-offset, in pixels. Zero-based.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+The element at the given point.
+
+## Examples
+
+Listen for click event on entire document, log nodeName of element found with elementFromPoint()
+
+``` {.js}
+document.addEventListener("click", function(event){
   var el = document.elementFromPoint(event.clientX, event.clientY);
   console.log(el.nodeName);
 });
-}}
-}}
-{{Notes_Section
-|Usage=This methods is used to get the element from the document whose elementFromPoint method is being called which is the ''topmost element'' which lies under the given point.  To get an element, specify the point via coordinates, in CSS pixels, relative to the upper-left-most point in the window or frame containing the document.
-|Notes=Coordinates are supplied in client coordinates. The upper-left corner of the client area is (0,0). For '''elementFromPoint''' to exhibit expected behavior, the object or element located at position (x, y) must support and respond to mouse events.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSSOM View Module
-|URL=http://dev.w3.org/csswg/cssom-view/#widl-Document-elementFromPoint-Element-float-x-float-y
-|Status=Editor's Draft 3
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=4
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=3
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=5.5
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=10.53
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/MouseEvent/clientX|clientX]]</code>
-*<code>[[dom/MouseEvent/clientY|clientY]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/document.elementFromPoint
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Usage
+
+     This methods is used to get the element from the document whose elementFromPoint method is being called which is the topmost element which lies under the given point.  To get an element, specify the point via coordinates, in CSS pixels, relative to the upper-left-most point in the window or frame containing the document.
+
+## Notes
+
+Coordinates are supplied in client coordinates. The upper-left corner of the client area is (0,0). For **elementFromPoint** to exhibit expected behavior, the object or element located at position (x, y) must support and respond to mouse events.
+
+## Related specifications
+
+Specification
+:   Status
+[CSSOM View Module](http://dev.w3.org/csswg/cssom-view/#widl-Document-elementFromPoint-Element-float-x-float-y)
+:   Editor's Draft 3
+
+## See also
+
+### Related pages (MSDN)
+
+-   `clientX`
+-   `clientY`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/DOM/document.elementFromPoint)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

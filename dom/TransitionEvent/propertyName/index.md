@@ -1,93 +1,113 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Duplicate propertyName properties listed on the
-TransitionEvent Page.
-http://docs.webplatform.org/wiki/dom/TransitionEvent
->>http://docs.webplatform.org/wiki/dom/TransitionEvent/propertyName
->>http://docs.webplatform.org/wiki/dom/TransitionEvent/propertyName
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Specifies or retrives a string containg the name of the changed property.}}
-{{API_Object_Property
-|Property_applies_to=dom/TransitionEvent
-|Read_only=Yes
-|Example_object_name=object
-|Return_value_name=result
-|Javascript_data_type=String
-|Return_value_description=The name of the CSS property associated with the transition.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the [[dom/Element/propertychange|'''onpropertychange''']] event to change the value of the '''propertyName''' property. This example needs to be run on IE prior to version 9 in order to work properly.
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html lang{{=}}"en"&gt;
-&lt;head&gt;
-&lt;script&gt;
+---
+title: propertyName
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+  - JavaScript
+readiness: 'Almost Ready'
+standardization_status: Non-Standard
+notes:
+  - "Duplicate propertyName properties listed on the\nTransitionEvent Page.\nhttp://docs.webplatform.org/wiki/dom/TransitionEvent\n>>http://docs.webplatform.org/wiki/dom/TransitionEvent/propertyName\n\n>>http://docs.webplatform.org/wiki/dom/TransitionEvent/propertyName"
+summary: 'Specifies or retrives a string containg the name of the changed property.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/propertyNameEX.htm'
+uri: dom/TransitionEvent/propertyName
+
+---
+# propertyName
+
+## Summary
+
+Specifies or retrives a string containg the name of the changed property.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/TransitionEvent](/dom/TransitionEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = object.propertyName;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The name of the CSS property associated with the transition.
+
+## Examples
+
+This example uses the [**onpropertychange**](/dom/Element/propertychange) event to change the value of the **propertyName** property. This example needs to be run on IE prior to version 9 in order to work properly.
+
+``` {.html}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
     function inform() {
         //Get propertyName property
         alert(event.propertyName + " property has changed value");
     };
 
     function changeProperty() {
-        btnProp.value {{=}} "This is the new VALUE";
+        btnProp.value = "This is the new VALUE";
     };
 
     function changeCSSProperty() {
-        btnStyleProp.style.backgroundColor {{=}} "aqua";
+        btnStyleProp.style.backgroundColor = "aqua";
     };
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;p&gt;The event object property propertyName is used here to return which property has been altered.&lt;/p&gt;
-    &lt;input 
-      id{{=}}"btnProp"
-      type{{=}}"button"
-      value{{=}}"Click to change the VALUE property of this button"
-      onclick{{=}}"changeProperty()"
-      onpropertychange{{=}}"inform()"
-    /&gt;
-    &lt;input 
-      id{{=}}"btnStyleProp"
-      type{{=}}"button"
-      value{{=}}"Click to change the CSS backgroundColor property of this button"
-      onclick{{=}}"changeCSSProperty()"
-      onpropertychange{{=}}"inform()"
-    /&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/propertyNameEX.htm
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-You can alter the value of '''propertyName''' by using it with the [[dom/Element/propertychange|'''onpropertychange''']] event that is available only on IE<9.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Javascript
-}}
-{{Topics|DOM, JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772142(v=vs.85).aspx propertyName Property]
-|HTML5Rocks_link=
-}}
+</script>
+</head>
+<body>
+    <p>The event object property propertyName is used here to return which property has been altered.</p>
+    <input
+      id="btnProp"
+      type="button"
+      value="Click to change the VALUE property of this button"
+      onclick="changeProperty()"
+      onpropertychange="inform()"
+    />
+    <input
+      id="btnStyleProp"
+      type="button"
+      value="Click to change the CSS backgroundColor property of this button"
+      onclick="changeCSSProperty()"
+      onpropertychange="inform()"
+    />
+</body>
+</html>
+```
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/propertyNameEX.htm)
+
+## Notes
+
+### Remarks
+
+You can alter the value of **propertyName** by using it with the [**onpropertychange**](/dom/Element/propertychange) event that is available only on IE\<9.
+
+### Syntax
+
+## See also
+
+### Related articles
+
+#### Javascript
+
+-   **propertyName**
+
+-   [Number](/javascript/Number)
+
+-   [unicode](/javascript/RegExp/unicode)
+
+-   [future reserved words](/javascript/future_reserved_words)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[propertyName Property](http://msdn.microsoft.com/en-us/library/ie/hh772142(v=vs.85).aspx) Article]
+

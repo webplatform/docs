@@ -1,83 +1,107 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Returns an IDBIndex representing an index that is part of the object store.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=name
-|Data type=Blob
-|Description=Name of the index to be retrieved.
-|Optional=No
-}}
-|Method_applies_to=apis/indexeddb/IDBObjectStore
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-This method can throw the following [[dom/DOMException|'''DOMException''']] exceptions:
-{{{!}} class="wikitable"
-{{!}}-
-{{!}}'''Exception properties'''
-{{!}}'''Description'''
-{{!}}-
-{{!}}<dl>
+---
+title: index
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: IndexedDB
+readiness: 'In Progress'
+notes:
+  - 'Needs example, spec reference, standardization status'
+summary: 'Returns an IDBIndex representing an index that is part of the object store.'
+uri: apis/indexeddb/IDBObjectStore/index
+
+---
+# index
+
+## Summary
+
+Returns an IDBIndex representing an index that is part of the object store.
+
+*Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)*
+
+## Syntax
+
+``` {.js}
+var object = object.index(name);
+```
+
+## Parameters
+
+### name
+
+ Data-type�
+:   Blob
+
+ Name of the index to be retrieved.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
+
+<dl data-table="wikitable">
 <dt>
-'''name''': NotFoundError</dt>
+**Exception properties**
+
+</dt>
+<dd>
+**Description**
+
+</dd>
 <dt>
-'''code''': DOMException.NOT_FOUND_ERR (8)</dt>
+<dl>
+
+<dt>
+**name**: NotFoundError
+
+</dt>
+<dt>
+**code**: DOMException.NOT\_FOUND\_ERR (8)
+
+</dt>
 </dl>
-{{!}}The specified index was not found in the database (case-sensitive).
-{{!}}-
-{{!}}<dl>
+</dt>
+<dd>
+The specified index was not found in the database (case-sensitive).
+
+</dd>
 <dt>
-'''name''': InvalidStateError</dt>
+<dl>
+
 <dt>
-'''code''': DOMException.INVALID_STATE_ERR (11)</dt>
+**name**: InvalidStateError
+
+</dt>
+<dt>
+**code**: DOMException.INVALID\_STATE\_ERR (11)
+
+</dt>
 </dl>
-{{!}}The data source has been deleted or removed.
-{{!}}}
- 
-'''Note'''  As of Internet Explorer 10, the '''code''' property is deprecated in favor of the '''name''' property, which is preferred for standards compliance and future compatibility.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?LinkId{{=}}224519 Indexed Database API]
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+</dt>
+<dd>
+The data source has been deleted or removed.
+
+</dd>
+</dl>
+  **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
+
+### Syntax
+
+### Standards information
+
+-   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

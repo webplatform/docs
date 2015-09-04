@@ -1,44 +1,37 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: patternTransform
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/patternTransform
 
-===Remarks===
+---
+# patternTransform
 
-The  '''patternTransform''' property enables options such as skewing the
-pattern tiles.
-The additional transformation matrix that '''patternTransform''' gets or sets is post-multiplied to (that is, inserted to the right
-of) any previously defined transformations, including the implicit transformation that is required to
-convert from object bounding box units to user space.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+The **patternTransform** property enables options such as skewing the pattern tiles. The additional transformation matrix that **patternTransform** gets or sets is post-multiplied to (that is, inserted to the right of) any previously defined transformations, including the implicit transformation that is required to convert from object bounding box units to user space.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.5
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.5
 
-*[[svg/elements/patterrn|'''SVGPatternElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGPatternElement**](/svg/elements/patterrn)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

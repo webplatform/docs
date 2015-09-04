@@ -1,45 +1,41 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Examples_Section
-|Not_required=No
-|Examples=}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: in2
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/in2
 
-===Remarks===
+---
+# in2
 
-For additional information, see [[svg/properties/in1|'''in''']].
-|Import_Notes=
+**Needs Examples**: This section should include examples.
 
-===Syntax===
+## Notes
 
-===Standards information===
+### Remarks
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.7.2
+For additional information, see [**in**](/svg/properties/in1).
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Syntax
 
-===Related pages (MSDN)===
+### Standards information
 
-*[[svg/elements/feBlend|'''SVGFEBlendElement''']]
-*[[svg/elements/feComposite|'''SVGFECompositeElement''']]
-*[[svg/elements/feDisplacementMap|'''SVGFEDisplacementMapElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.7.2
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGFEBlendElement**](/svg/elements/feBlend)
+-   [**SVGFECompositeElement**](/svg/elements/feComposite)
+-   [**SVGFEDisplacementMapElement**](/svg/elements/feDisplacementMap)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

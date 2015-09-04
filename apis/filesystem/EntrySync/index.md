@@ -1,109 +1,96 @@
-{{Page_Title}}
-{{Flags
-|State=Out of Date
-|Editorial notes=Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|An abstract interface representing entries in a file system, each of which may be a File or DirectoryEntry.
+---
+title: EntrySync
+tags:
+  0: API
+  1: Objects
+  3: FileSystemAPI
+readiness: 'Out of Date'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
+summary: "An abstract interface representing entries in a file system, each of which may be a File or DirectoryEntry.\n"
+uri: apis/filesystem/EntrySync
 
-'''Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api/ http://www.w3.org/TR/file-system-api].'''
-}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C File API: Directories and System Specification
-|URL=http://dev.w3.org/2009/dap/file-system/pub/FileSystem/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, FileSystemAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Filesystem and FileWriter API
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=23.0
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Filesystem and FileWriter API
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=10.0
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+---
+# EntrySync
+
+## Summary
+
+An abstract interface representing entries in a file system, each of which may be a File or DirectoryEntry.
+
+**Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+## Properties
+
+API Name
+:   Summary
+[filesystem](/apis/filesystem/EntrySync/filesystem)
+:   The file system on which the EntrySync resides.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+[fullPath](/apis/filesystem/EntrySync/fullPath)
+:   The full absolute path from the root to the EntrySync.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+[isDirectory](/apis/filesystem/EntrySync/isDirectory)
+:   True if the EntrySync is a directory.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+[isFile](/apis/filesystem/EntrySync/isFile)
+:   True if the EntrySync is a file.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+[name](/apis/filesystem/EntrySync/name)
+:   The name of the EntrySync, excluding the path leading to it.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+## Methods
+
+API Name
+:   Summary
+[copyTo](/apis/filesystem/EntrySync/copyTo)
+:   Copy an EntrySync to a different location on the file system.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+[getMetadata](/apis/filesystem/EntrySync/getMetadata)
+:   Look up metadata about this EntrySync.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+[getParent](/apis/filesystem/EntrySync/getParent)
+:   Look up the parent DirectoryEntrySync containing this EntrySync. If this EntrySync is the root of its filesystem, its parent is itself.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+[moveTo](/apis/filesystem/EntrySync/moveTo)
+:   Move an EntrySync to a different location on the file system.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+[remove](/apis/filesystem/EntrySync/remove)
+:   Deletes a file or directory.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+[toURL](/apis/filesystem/EntrySync/toURL)
+:   Returns a URL that can be used to identify this EntrySync.
+
+    **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
+:   W3C Working Draft
+

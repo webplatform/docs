@@ -1,126 +1,171 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Represents an event.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example uses [[dom/EventTarget/addEventListener|addEventListener]] to listen to the '''load''' event in order to change the title of the page to indicate that the page is done loading. It uses [[dom/Event/isTrusted|isTrusted]] to make sure the event was triggered by the user agent itself and not by some script.
-|Code=function initialize(e) {
+---
+title: Event
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Represents an event.'
+uri: dom/Event
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/MouseWheelEvent
+
+---
+# Event
+
+## Summary
+
+Represents an event.
+
+## Properties
+
+API Name
+:   Summary
+[bubbles](/dom/Event/bubbles)
+:   Gets a value that indicates whether an event propagates up from the event target.
+[cancelable](/dom/Event/cancelable)
+:   Gets a value that indicates whether you can cancel an event's default action.
+[currentTarget](/dom/Event/currentTarget)
+:   Gets the event target that is currently being processed.
+[defaultPrevented](/dom/Event/defaultPrevented)
+:   Gets whether the default action should be canceled.
+[eventPhase](/dom/Event/eventPhase)
+:   Gets the event phase that is being evaluated.
+[isTrusted](/dom/Event/isTrusted)
+:   Gets a value that indicates whether a trusted event source created an event.
+[target](/dom/Event/target)
+:   Gets the element that is the original target of the event.
+[timeStamp](/dom/Event/timeStamp)
+:   Gets the time, in milliseconds, when an event occurred.
+[type](/dom/Event/type)
+:   Gets the name of an event.
+
+## Methods
+
+API Name
+:   Summary
+[initEvent](/dom/Event/initEvent)
+:   Initializes a new generic event that the [**createEvent**](/dom/Document/createEvent) method created.
+[preventDefault](/dom/Event/preventDefault)
+:   Cancels the default action of an event, if possible.
+[stopImmediatePropagation](/dom/Event/stopImmediatePropagation)
+:   Prevents any further propagation of an event.
+[stopPropagation](/dom/Event/stopPropagation)
+:   Prevents propagation of an event beyond the current target.
+
+## Events
+
+API Name
+:   Summary
+[DOMContentLoaded](/dom/Event/DOMContentLoaded)
+:
+[afterprint](/dom/Event/afterprint)
+:
+[afterupdate](/dom/Event/afterupdate)
+:
+[beforeactivate](/dom/Event/beforeactivate)
+:
+[beforecopy](/dom/Event/beforecopy)
+:
+[beforecut](/dom/Event/beforecut)
+:
+[beforedeactivate](/dom/Event/beforedeactivate)
+:
+[beforeeditfocus](/dom/Event/beforeeditfocus)
+:
+[beforepaste](/dom/Event/beforepaste)
+:
+[beforeprint](/dom/Event/beforeprint)
+:
+[beforeunload](/dom/Event/beforeunload)
+:
+[beforeupdate](/dom/Event/beforeupdate)
+:
+[bounce](/dom/Event/bounce)
+:
+[cellchange](/dom/Event/cellchange)
+:
+[change](/dom/Event/change)
+:
+[contextmenu](/dom/Event/contextmenu)
+:
+[controlselect](/dom/Event/controlselect)
+:
+[copy](/dom/Event/copy)
+:
+[cut](/dom/Event/cut)
+:   Fires after a data selection is cut to the clipboard.
+[dataavailable](/dom/Event/dataavailable)
+:   Fires when new data at a data source becomes available.
+[datasetchanged](/dom/Event/datasetchanged)
+:   Fires when content at a data source has changed.
+[datasetcomplete](/dom/Event/datasetcomplete)
+:   Fires when data transfer from the data source has completed.
+[deactivate](/dom/Event/deactivate)
+:   Sets an active version of an object to not active.
+[error](/dom/Event/error)
+:   Fires when an error occurs.
+[errorupdate](/dom/Event/errorupdate)
+:   Executes any error handling associated with the event.
+[filterchange](/dom/Event/filterchange)
+:
+[finish](/dom/Event/finish)
+:
+
+## Examples
+
+This example uses [addEventListener](/dom/EventTarget/addEventListener) to listen to the **load** event in order to change the title of the page to indicate that the page is done loading. It uses [isTrusted](/dom/Event/isTrusted) to make sure the event was triggered by the user agent itself and not by some script.
+
+``` {.js}
+function initialize(e) {
   if (e.isTrusted) {
     document.title = "The page is done loading.";
   }
 }
 window.addEventListener("load", initialize, false);
-}}{{Single Example
-|Language=JavaScript
-|Description=This example uses [[dom/EventTarget/addEventListener|addEventListener]] to listen to the '''keydown''' event and suppress key down operations using the [[dom/Event/preventDefault|preventDefault]] method of the Event instance object. This causes any key presses that occurs within text fields not to emit text into the fields.
-|Code=function suppressPresses(e) {
+```
+
+This example uses [addEventListener](/dom/EventTarget/addEventListener) to listen to the **keydown** event and suppress key down operations using the [preventDefault](/dom/Event/preventDefault) method of the Event instance object. This causes any key presses that occurs within text fields not to emit text into the fields.
+
+``` {.js}
+function suppressPresses(e) {
   e.preventDefault();
 }
 document.addEventListener("keydown", suppressPresses, false);
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
-|Status=Working Draft
-|Relevant_changes=Section 4.1
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=1
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=18
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=9
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=8 and earlier
-|Note=Uses a different, proprietary legacy model, using [[dom/methods/attachEvent|attachEvent]] and [[dom/methods/detachEvent|detachEvent]] and window.event instead of an event parameter.
-}}
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/BeforeUnloadEvent|BeforeUnloadEvent]]</code>
-*<code>[[dom/CompositionEvent|CompositionEvent]]</code>
-*<code>[[dom/CustomEvent|CustomEvent]]</code>
-*<code>[[dom/DragEvent|DragEvent]]</code>
-*<code>[[dom/FocusEvent|FocusEvent]]</code>
-*<code>[[dom/KeyboardEvent|KeyboardEvent]]</code>
-*<code>[[dom/MessageEvent|MessageEvent]]</code>
-*<code>[[dom/MouseEvent|MouseEvent]]</code>
-*<code>[[dom/MouseWheelEvent|MouseWheelEvent]]</code>
-*<code>[[dom/MutationEvent|MutationEvent]]</code>
-*<code>[[dom/StorageEvent|StorageEvent]]</code>
-*<code>[[dom/TextEvent|TextEvent]]</code>
-*<code>[[dom/UIEvent|UIEvent]]</code>
-*<code>[[dom/WheelEvent|WheelEvent]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
+:   Working Draft
+
+## See also
+
+### Related pages (MSDN)
+
+-   `BeforeUnloadEvent`
+-   `CompositionEvent`
+-   `CustomEvent`
+-   `DragEvent`
+-   `FocusEvent`
+-   `KeyboardEvent`
+-   `MessageEvent`
+-   `MouseEvent`
+-   `MouseWheelEvent`
+-   `MutationEvent`
+-   `StorageEvent`
+-   `TextEvent`
+-   `UIEvent`
+-   `WheelEvent`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

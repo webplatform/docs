@@ -1,49 +1,49 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: getNumberOfChars
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/getNumberOfChars
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/properties/textContent
 
-===Remarks===
+---
+# getNumberOfChars
 
-The total number of characters  includes referenced characters from '''tref''' reference, regardless of whether they  are  rendered.
+## Notes
 
-The total number of characters  is  effectively equivalent to the length of the [[dom/properties/textContent|'''textContent''']] attribute from the [http://go.microsoft.com/fwlink/p/?linkid{{=}}203747 DOM Level 3 Core] specification (section 1.4), if that attribute also expands '''tref'''  elements.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+The total number of characters includes referenced characters from **tref** reference, regardless of whether they are rendered.
 
-  retVal = ''object.''getNumberOfChars();
+The total number of characters is effectively equivalent to the length of the [**textContent**](/w/index.php?title=dom/properties/textContent&action=edit&redlink=1) attribute from the [DOM Level 3 Core](http://go.microsoft.com/fwlink/p/?linkid=203747) specification (section 1.4), if that attribute also expands **tref** elements.
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199818 Scalable Vector Graphics: Text], Section 10.17.1
+     retVal = object.getNumberOfChars();
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.1
 
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/etextContent|'''ISVGTextContentElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**ISVGTextContentElement**](/svg/elements/etextContent)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

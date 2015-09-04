@@ -1,31 +1,39 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Needs Review
-}}
-{{Summary_Section|The toFixed() method formats a number to fixed-point notation (decimal).}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=toFixed([ fractionDigits ])
-}}
-|Values={{JS Syntax Parameter
-|Name=fractionDigits
-|Required=Optional
-|Description=The number of digits after the decimal point. Must be in the range 0 - 20, inclusive. Defaults to 0.
-}}
-}}
-{{JS_Return_Value
-|Description=Returns a string representation of a number in fixed-point notation, containing fractionDigits digits after the decimal point.
+---
+title: toFixed
+tags:
+  0: JS
+  1: Basic
+  3: Function
+readiness: 'Ready to Use'
+summary: 'The toFixed() method formats a number to fixed-point notation (decimal).'
+uri: javascript/Number/toFixed
 
-If fractionDigits is not supplied or '''undefined''' , the default value is 0.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Using <code>toFixed</code> to format the decimal presentation of a number.
-|Code=var pie = 3.14159;
+---
+# toFixed
+
+## Summary
+
+The toFixed() method formats a number to fixed-point notation (decimal).
+
+## Syntax
+
+    toFixed([ fractionDigits ])
+
+**fractionDigits**
+:   Optional. The number of digits after the decimal point. Must be in the range 0 - 20, inclusive. Defaults to 0.
+
+## Return Value
+
+Returns a string representation of a number in fixed-point notation, containing fractionDigits digits after the decimal point.
+
+If fractionDigits is not supplied or **undefined** , the default value is 0.
+
+## Examples
+
+Using `toFixed` to format the decimal presentation of a number.
+
+``` {.js}
+var pie = 3.14159;
 
 // output a number without decimal digits
 pie.toFixed(0);
@@ -46,43 +54,44 @@ pie.toFixed(10);
 // Returns: "0.00"
 
 // Watch out for operator precedence
--3.1415.toFixed(2); 
+-3.1415.toFixed(2);
 // Returns: -3.14
 (-3.1415).toFixed(2);
 // Returns: "-3.14"
-}}
-}}
-{{Remarks_Section
-|Remarks====Throws===
+```
 
-[[javascript/Error|<code>RangeError</code>]] when a ''fractionDigits'' outside the bounds of 0 - 20 (inclusive) was given.
-}}
-{{Notes_Section
-|Notes=* <code>toFixed(3.9)</code> will be treated as <code>toFixed(3)</code>.
-* If number is greater than <code>1e+21</code>, <code>toFixed()</code> calls [[javascript/Number/toString|<code>toString()</code>]] internally and returns a string in exponential notation.
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Number/toExponential{{!}}toExponential Method (Number)]]
-* [[javascript/Number/toPrecision{{!}}toPrecision Method (Number)]]
-* [[javascript/Number/toString{{!}}toString Method (Number)]]
-|External_links=* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed toFixed(), by Mozilla Developer Network]
-|Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.5 15.7.4.5 Number.prototype.toFixed(fractionDigits)]
+## Remarks
 
-ECMAScript® Language Specification
-Standard ECMA-262
-5.1 Edition / June 2011
-}}
-{{JS Topics
-|JS Page Type=JS Function
-|Applies to=Number
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/sstyff0z(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+### Throws
+
+[`RangeError`](/javascript/Error) when a *fractionDigits* outside the bounds of 0 - 20 (inclusive) was given.
+
+## Notes
+
+-   `toFixed(3.9)` will be treated as `toFixed(3)`.
+-   If number is greater than `1e+21`, `toFixed()` calls [`toString()`](/javascript/Number/toString) internally and returns a string in exponential notation.
+
+## See also
+
+### Other articles
+
+-   [toExponential Method (Number)](/javascript/Number/toExponential)
+-   [toPrecision Method (Number)](/javascript/Number/toPrecision)
+-   [toString Method (Number)](/javascript/Number/toString)
+
+### External resources
+
+-   [toFixed(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
+
+### Specification
+
+[15.7.4.5 Number.prototype.toFixed(fractionDigits)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.5)
+
+ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/sstyff0z(v=vs.94).aspx)
+

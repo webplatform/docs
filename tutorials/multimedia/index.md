@@ -1,30 +1,21 @@
-{{Page_Title|Multimedia Tutorials}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Byline}}
-{{Summary_Section|Audio and video are first class citizens in the HTML5 web, living in harmony with your apps and sites. Lights, camera, action!}}
-{{Tutorial
-|Content=* [[tutorials/audio tag|Audio tag]]
-* [[tutorials/games onslaught|Creating a game]]
-* [[tutorials/implementing html5 audio|HTML5 audio]]
-* [[tutorials/video basics|Video basics]]
-* [[tutorials/using web audio|Using web audio]]
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: multimedia
+tags:
+  - Tutorials
+readiness: 'Ready to Use'
+summary: 'Audio and video are first class citizens in the HTML5 web, living in harmony with your apps and sites. Lights, camera, action!'
+uri: tutorials/multimedia
+
+---
+# Multimedia Tutorials
+
+## Summary
+
+Audio and video are first class citizens in the HTML5 web, living in harmony with your apps and sites. Lights, camera, action!
+
+-   [Audio tag](/tutorials/audio_tag)
+-   [Creating a game](/tutorials/games_onslaught)
+-   [HTML5 audio](/tutorials/implementing_html5_audio)
+-   [Video basics](/tutorials/video_basics)
+-   [Using web audio](/tutorials/using_web_audio)
+

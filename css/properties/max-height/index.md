@@ -1,62 +1,95 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Sets the maximum [[css/properties/height|height]] for an element. It prevents the height of the element to exceed the specified value. If [[css/properties/min-height|min-height]] is specified and is greater than max-height, max-height is overridden.}}
-{{CSS Property
-|Initial value=none
-|Applies to=All elements but non-replaced inline elements, table columns, and column groups
-|Inherited=No
-|Media=visual
-|Computed value=The percentage as specified or the absolute length or 'none'
-|Animatable=Yes
-|CSS object model property=max-height
-|CSS percentages=Of the height of containing block. If the height of the containing block depends on the content & the element does not have position as absolute, then this value becomes 'none'.
-|Values={{CSS Property Value
-|Data Type=length
-|Description=Specifies a fixed height. Negative values are not allowed. See [[css/data_types/length|length]] for possible units.
-}}{{CSS Property Value
-|Data Type=percentage
-|Description=A <percentage> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as none. Negative values are not allowed.
-}}{{CSS Property Value
-|Data Type=calc()
-|Description=See [[css/functions/calc|css calc function]] for mode details.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Takes the same specified value as the property for the element's parent.
-}}{{CSS Property Value
-|Data Type=none
-|Description=Default. Clears the max-height value. The height property can have any value.
-}}{{CSS Property Value
-|Data Type=max-content
-|Description=The narrowest space a box could take while fitting around its contents if none of the soft wrap opportunities within the box were taken.(Space/Punctuation in text are examples of a soft-wrap opportunity). Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
-}}{{CSS Property Value
-|Data Type=min-content
-|Description=The narrowest measure a box could take that doesn't lead to inline-dimension overflow that could be avoided by choosing a larger measure. Roughly, the measure that would fit around its contents if all soft wrap opportunities within the box were taken. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
-}}{{CSS Property Value
-|Data Type=fill-available
-|Description=Fill the entire available space of from the containing block (Height minus horizontal margin, border and padding of the containing block). Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
-}}{{CSS Property Value
-|Data Type=fit-content
-|Description=If the total available space is finite, equals to min(max-content, max(min-content, fill-available)). Otherwise, equal to the max-content measure. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Use max-height with any CSS selector to apply it.
-|Code=/* Restrict all div elements to a max-height of 10px */
+---
+title: max-height
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Sets the maximum height for an element. It prevents the height of the element to exceed the specified value. If min-height is specified and is greater than max-height, max-height is overridden.'
+code_samples:
+  - 'http://gist.github.com/5070850'
+uri: css/properties/max-height
+
+---
+# max-height
+
+## Summary
+
+Sets the maximum height for an element. It prevents the height of the element to exceed the specified value. If min-height is specified and is greater than max-height, max-height is overridden.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   All elements but non-replaced inline elements, table columns, and column groups
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   The percentage as specified or the absolute length or 'none'
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `max-height`
+Percentages
+:   Of the height of containing block. If the height of the containing block depends on the content & the element does not have position as absolute, then this value becomes 'none'.
+
+## Syntax
+
+-   `max-height: calc()`
+-   `max-height: fill-available`
+-   `max-height: fit-content`
+-   `max-height: inherit`
+-   `max-height: length`
+-   `max-height: max-content`
+-   `max-height: min-content`
+-   `max-height: none`
+-   `max-height: percentage`
+
+## Values
+
+length
+:   Specifies a fixed height. Negative values are not allowed. See [length](/css/data_types/length) for possible units.
+
+percentage
+:   A \<percentage\> relative to the height of the containing block. If the containing block has no height explicitly set then is is treated as none. Negative values are not allowed.
+
+calc()
+:   See [css calc function](/css/functions/calc) for mode details.
+
+inherit
+:   Takes the same specified value as the property for the element's parent.
+
+none
+:   Default. Clears the max-height value. The height property can have any value.
+
+max-content
+:   The narrowest space a box could take while fitting around its contents if none of the soft wrap opportunities within the box were taken.(Space/Punctuation in text are examples of a soft-wrap opportunity). Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+
+min-content
+:   The narrowest measure a box could take that doesn't lead to inline-dimension overflow that could be avoided by choosing a larger measure. Roughly, the measure that would fit around its contents if all soft wrap opportunities within the box were taken. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+
+fill-available
+:   Fill the entire available space of from the containing block (Height minus horizontal margin, border and padding of the containing block). Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+
+fit-content
+:   If the total available space is finite, equals to min(max-content, max(min-content, fill-available)). Otherwise, equal to the max-content measure. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
+
+## Examples
+
+Use max-height with any CSS selector to apply it.
+
+``` {.css}
+/* Restrict all div elements to a max-height of 10px */
 div { max-height: 10px }
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=max-height property overrides the height of an element.
-|Code=&lt;style&gt;
+```
+
+max-height property overrides the height of an element.
+
+``` {.html}
+<style>
 /*Default width. Height is based on the content*/
 .without-max-height, .with-max-height {
     width: 100px;
@@ -67,184 +100,93 @@ div { max-height: 10px }
     max-height: 50px;
 }
 .without-max-height {
-	background: red;
+    background: red;
 }
-&lt;/style&gt;
-&lt;div class=&quot;without-max-height&quot;&gt;Without Max Height. Height taken from content&lt;/div&gt;
-&lt;br /&gt;
-&lt;div class=&quot;with-max-height&quot;&gt;With Max Height. Content may overflow if it goes beyond height.&lt;/div&gt;
-&lt;br /&gt;
-&lt;p&gt;&lt;strong&gt;Other elements&lt;/strong&gt; will flow overtop of objects that are overflowed from their max-height containers.&lt;/p&gt;
-|LiveURL=http://code.webplatform.org/gist/5070850
-}}
-}}
-{{Notes_Section
-|Usage=CSS max height is well supported across most browsers. A few things to consider while usage:
-* Both max-height & height should not be specified in the same units as one would override the other. The end result would be min(height, max-height).
-* [[css/properties/min-height|min-height]] overrides max-height. If min-height supplied is greater than max-height, max-height does not have an impact.
-* max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
-* Support for [[css/functions/calc|calc]] is better across browsers. Vendor prefixes may be needed.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS 2.1 (Section 10.7)
-|URL=http://www.w3.org/TR/CSS2/visudet.html#min-max-heights
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS Intrinsic & Extrinsic Sizing Module Level 3
-|URL=http://dev.w3.org/csswg/css3-sizing/#width-height-keywords
-|Status=Working Draft
-|Relevant_changes=Adds max-content, min-content, fit-content, and fill-available.
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|Manual_links=
-|External_links=* [http://www.w3.org/wiki/CSS/Properties/max-height W3C Wiki]
-* [http://msdn.microsoft.com/en-in/library/ie/ms530809(v=vs.85).aspx Internet Explorer Docs]
-* [https://developer.mozilla.org/en-US/docs/CSS/max-height Firefox Docs]
-* [https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/css/property/max-height Safari Docs]
-*[http://caniuse.com/#feat=minmaxwh Can I Use]
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=length, precentage, inherit, none
-|Chrome_supported=Yes
-|Chrome_version=4
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=2
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=7
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=9
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=3.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=max-content, min-content, fit-content & fill-available
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=3
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=length, precentage, inherit, none
-|Android_supported=Yes
-|Android_version=2
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=1
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=10
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=5
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=3.2
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}{{Compatibility Table Mobile Row
-|Feature=max-content, min-content, fit-content & fill-available
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=7/8
-|Note='inherit' is not supported in IE7. IE8 requires strict !DOCTYPE for 'inherit'
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=7/8
-|Note=Known bugs when used along overflow: auto/scroll.
-}}{{Compatibility Notes Row
-|Browser=Chrome/Safari
-|Note=Support intrinsic(max-content) & min-intrinsic(min-content)
-}}
-}}
+</style>
+<div class="without-max-height">Without Max Height. Height taken from content</div>
+<br />
+<div class="with-max-height">With Max Height. Content may overflow if it goes beyond height.</div>
+<br />
+<p><strong>Other elements</strong> will flow overtop of objects that are overflowed from their max-height containers.</p>
+```
+
+[View live example](http://code.webplatform.org/gist/5070850)
+
+## Usage
+
+     CSS max height is well supported across most browsers. A few things to consider while usage:
+
+-   Both max-height & height should not be specified in the same units as one would override the other. The end result would be min(height, max-height).
+-   [min-height](/css/properties/min-height) overrides max-height. If min-height supplied is greater than max-height, max-height does not have an impact.
+-   max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
+-   Support for [calc](/css/functions/calc) is better across browsers. Vendor prefixes may be needed.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS 2.1 (Section 10.7)](http://www.w3.org/TR/CSS2/visudet.html#min-max-heights)
+:   W3C Recommendation
+[CSS Intrinsic & Extrinsic Sizing Module Level 3](http://dev.w3.org/csswg/css3-sizing/#width-height-keywords)
+:   Working Draft
+
+## See also
+
+### Related articles
+
+#### Box Model
+
+-   [border](/css/properties/border)
+
+-   [border-corner-shape](/css/properties/border-corner-shape)
+
+-   [bottom](/css/properties/bottom)
+
+-   [box-shadow](/css/properties/box-shadow)
+
+-   [box-sizing](/css/properties/box-sizing)
+
+-   [break-before](/css/properties/break-before)
+
+-   [clear](/css/properties/clear)
+
+-   [float](/css/properties/float)
+
+-   [height](/css/properties/height)
+
+-   [left](/css/properties/left)
+
+-   [line-height](/css/properties/line-height)
+
+-   [margin](/css/properties/margin)
+
+-   [margin-bottom](/css/properties/margin-bottom)
+
+-   [margin-left](/css/properties/margin-left)
+
+-   [margin-right](/css/properties/margin-right)
+
+-   [margin-top](/css/properties/margin-top)
+
+-   **max-height**
+
+-   [max-width](/css/properties/max-width)
+
+-   [min-height](/css/properties/min-height)
+
+-   [min-width](/css/properties/min-width)
+
+### External resources
+
+-   [W3C Wiki](http://www.w3.org/wiki/CSS/Properties/max-height)
+-   [Internet Explorer Docs](http://msdn.microsoft.com/en-in/library/ie/ms530809(v=vs.85).aspx)
+-   [Firefox Docs](https://developer.mozilla.org/en-US/docs/CSS/max-height)
+-   [Safari Docs](https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/css/property/max-height)
+-   [Can I Use](http://caniuse.com/#feat=minmaxwh)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

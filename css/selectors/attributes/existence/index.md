@@ -1,102 +1,188 @@
-{{Page_Title|Attribute selector}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, spec reference, standardization status, remove topic cluster flags
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Allows to select tags that has an attributes. While it can match the class and the id selector, its specificity value is lower.}}
-{{CSS_Selector
-|Content====Syntax===
-<code>
-[''sel''=''att''] {...}
-</code>
+---
+title: existence
+tags:
+  - CSS
+  - Selectors
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs summary, spec reference, standardization status, remove topic cluster flags'
+summary: 'Allows to select tags that has an attributes. While it can match the class and the id selector, its specificity value is lower.'
+uri: css/selectors/attributes/existence
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - selection
 
-===Parameters===
-* ''sel'': The name of a tag property
-* ''att'': Must be either an Identifier or a String.
-* "=": An equality expression, one of 
-** <code>=</code>  Exactly equals,
-** <code>^=</code>  Begins with, 
-** <code>$=</code>  Ends with, 
-** <code>~=</code>  Contains (with word boundary),
-** <code>*=</code>  Contains (without word boundary)
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following style rule selects any element with an "attr" attribute whose value is exactly "Value".
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;style type{{=}}"text/css"&gt;
+---
+# Attribute selector
+
+## Summary
+
+Allows to select tags that has an attributes. While it can match the class and the id selector, its specificity value is lower.
+
+### Syntax
+
+` [sel=att] {...}`
+
+### Parameters
+
+-   *sel*: The name of a tag property
+-   *att*: Must be either an Identifier or a String.
+-   "=": An equality expression, one of
+    -   `=` Exactly equals,
+    -   `^=` Begins with,
+    -   `$=` Ends with,
+    -   `~=` Contains (with word boundary),
+    -   `*=` Contains (without word boundary)
+
+## Examples
+
+The following style rule selects any element with an "attr" attribute whose value is exactly "Value".
+
+``` {.html}
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
       .test          { display:none; }
-      [attr{{=}}"Value"] { display:block; }
-    &lt;/style&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;div class{{=}}"test" attr{{=}}"Value"&gt;Test for [{{=}}] (Value) succeeded.&lt;/div&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Selectors Level 3
-|URL=http://www.w3.org/TR/css3-selectors/#attribute-selectors
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Attributes, Selectors
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7+
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
+      [attr="Value"] { display:block; }
+    </style>
+  </head>
+  <body>
+    <div class="test" attr="Value">Test for [=] (Value) succeeded.</div>
+  </body>
+</html>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[Selectors Level 3](http://www.w3.org/TR/css3-selectors/#attribute-selectors)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### CSS Attributes
+
+-   [background-blend-mode](/css/properties/background-blend-mode)
+
+-   [background-position](/css/properties/background-position)
+
+-   [break-before](/css/properties/break-before)
+
+-   [height](/css/properties/height)
+
+-   [list-style](/css/properties/list-style)
+
+-   [list-style-position](/css/properties/list-style-position)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [user-select](/css/properties/user-select)
+
+-   [equality](/css/selectors/attributes/equality)
+
+-   **Attribute selector**
+
+-   [hyphen](/css/selectors/attributes/hyphen)
+
+-   [prefix](/css/selectors/attributes/prefix)
+
+-   [substring](/css/selectors/attributes/substring)
+
+-   [suffix](/css/selectors/attributes/suffix)
+
+-   [baseline-shift](/svg/attributes/baseline-shift)
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+
+#### Selectors
+
+-   [querySelectorAll](/css/selectors_api/querySelectorAll)
+
+-   [ID](/css/selectors/ID)
+
+-   [Namespaced](/css/selectors/Namespaced)
+
+-   [Universal](/css/selectors/Universal)
+
+-   [equality](/css/selectors/attributes/equality)
+
+-   **Attribute selector**
+
+-   [hyphen](/css/selectors/attributes/hyphen)
+
+-   [prefix](/css/selectors/attributes/prefix)
+
+-   [substring](/css/selectors/attributes/substring)
+
+-   [suffix](/css/selectors/attributes/suffix)
+
+-   [whitespace](/css/selectors/attributes/whitespace)
+
+-   [:-ms-input-placeholder](/css/selectors/pseudo-classes/:-ms-input-placeholder)
+
+-   [:checked](/css/selectors/pseudo-classes/:checked)
+
+-   [:disabled](/css/selectors/pseudo-classes/:disabled)
+
+-   [:empty](/css/selectors/pseudo-classes/:empty)
+
+-   [:enabled](/css/selectors/pseudo-classes/:enabled)
+
+-   [:first-child](/css/selectors/pseudo-classes/:first-child)
+
+-   [:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
+
+-   [:focus](/css/selectors/pseudo-classes/:focus)
+
+-   [:in-range](/css/selectors/pseudo-classes/:in-range)
+
+-   [:indeterminate](/css/selectors/pseudo-classes/:indeterminate)
+
+-   [:invalid](/css/selectors/pseudo-classes/:invalid)
+
+-   [:lang(c)](/css/selectors/pseudo-classes/:lang(c))
+
+-   [:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+
+-   [:nth-child(n)](/css/selectors/pseudo-classes/:nth-child(n))
+
+-   [:nth-last-child(n)](/css/selectors/pseudo-classes/:nth-last-child(n))
+
+-   [:nth-last-of-type(n)](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+
+-   [:nth-of-type(n)](/css/selectors/pseudo-classes/:nth-of-type(n))
+
+-   [:only-child](/css/selectors/pseudo-classes/:only-child)
+
+-   [:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+
+-   [:optional](/css/selectors/pseudo-classes/:optional)
+
+-   [:required](/css/selectors/pseudo-classes/:required)
+
+-   [:root](/css/selectors/pseudo-classes/:root)
+
+-   [:target](/css/selectors/pseudo-classes/:target)
+
+-   [:valid](/css/selectors/pseudo-classes/:valid)
+
+-   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
+
+-   [type](/css/selectors/type)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

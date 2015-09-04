@@ -1,108 +1,76 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs summary, spec reference, standardization status, example, fix table coding in Notes, fix broken link
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{CSS Property
-|Initial value=
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=
-|Animatable=No
-|CSS object model property=
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=true
-|Description=The [[css/properties/text-decoration|'''textDecoration''']] property is set to "blink."
-}}{{CSS Property Value
-|Data Type=false
-|Description=The [[css/properties/text-decoration|'''textDecoration''']] property is not set to "blink."
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-This property currently has no visible effect because "blink" is not currently implemented as a possible value of the [[css/properties/text-decoration|'''textDecoration''']] property.
-|Import_Notes====Syntax===
-<code>'''textDecorationBlink: '''true '''{{!}}''' false</code>
-===Requirements===
-{| class="wikitable"
-|-
-!Minimum supported client
-|Windows XP
-|-
-!Minimum supported server
-|Windows Server 2003
-|-
-!Header
-|<dl>
-<dt>Mshtml.h</dt>
-</dl>
-|-
-!IDL
-|<dl>
-<dt>Mshtml.idl</dt>
-</dl>
-|-
-!DLL
-|<dl>
-<dt>Mshtml.dll</dt>
-</dl>
-|}
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/HTMLOptionElement/defaultSelected|defaultSelected]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/text-decoration|textDecoration]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: text-decoration-blink
+tags:
+  - CSS
+  - Properties
+readiness: 'Not Ready'
+notes:
+  - 'Needs summary, spec reference, standardization status, example, fix table coding in Notes, fix broken link'
+uri: css/properties/text-decoration-blink
+
+---
+# text-decoration-blink
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   ``
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `text-decoration-blink: false`
+-   `text-decoration-blink: true`
+
+## Values
+
+true
+:   The [**textDecoration**](/css/properties/text-decoration) property is set to "blink."
+
+false
+:   The [**textDecoration**](/css/properties/text-decoration) property is not set to "blink."
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+This property currently has no visible effect because "blink" is not currently implemented as a possible value of the [**textDecoration**](/css/properties/text-decoration) property.
+
+### Syntax
+
+`textDecorationBlink: true | false`
+
+### Requirements
+
+{
+
+## See also
+
+### Related pages (MSDN)
+
+-   `defaultSelected`
+-   `runtimeStyle`
+-   `style`
+-   `textDecoration`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

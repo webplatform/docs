@@ -1,81 +1,84 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Returns the focus state of the current document, <code>true</code> if the document has focus, <code>false</code> if not.}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=dom/Document
-|Example_object_name=document
-|Return_value_name=boolean
-|Javascript_data_type=Boolean
-|Return_value_description=Returns true if the document has focus, otherwise returns false
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following example shows how to use the '''hasFocus''' method to determine if the document has focus. If you mouse over the text when the document has focus, "A message for you!" appears; if you mouse over the text when the document does not have focus, the message does not appear.
-|Code=<!DOCTYPE HTML>
-<html>
-<head>
-<script>
-// Function displays the message DIV when the main document has focus
-function fnOpenMessage()
-{
-	if (document.hasFocus())
-	{
-		oMessageDiv.style.display = "block";
-	}
-}
-function fnCloseMessage()
-{
-	oMessageDiv.style.display = "none";
-}
-</script>
-</head>
-<body>
-<nowiki>
-<p>
-<span style= "color:darkmagenta;font-size:large;" onmouseout="fnCloseMessage();" 
-onmouseover="fnOpenMessage();">Mouse over this!</span>
-</p>
+---
+title: hasFocus
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Needs compat'
+summary: 'Returns the focus state of the current document, true if the document has focus, false if not.'
+uri: dom/Document/hasFocus
 
-<div id="oMessageDiv" style="display:none; font-family:arial; width:200px; font-size:large; color:steelblue; border:4px solid gold;">
-A message for you!
-</div>
-</nowiki>
-</body>
-</html>
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/editing.html#dom-document-hasfocus
-|Status=Candidate Recommendation
-|Relevant_changes=Defined here
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+# hasFocus
+
+## Summary
+
+Returns the focus state of the current document, true if the document has focus, false if not.
+
+*Method of [dom/Document](/dom/Document)*
+
+## Syntax
+
+``` {.js}
+var boolean = document.hasFocus();
+```
+
+## Return Value
+
+Returns an object of type Boolean.
+
+Returns true if the document has focus, otherwise returns false
+
+## Examples
+
+The following example shows how to use the **hasFocus** method to determine if the document has focus. If you mouse over the text when the document has focus, "A message for you!" appears; if you mouse over the text when the document does not have focus, the message does not appear.
+
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+    <script>
+    // Function displays the message DIV when the main document has focus
+    function fnOpenMessage()
+    {
+        if (document.hasFocus())
+        {
+            oMessageDiv.style.display = "block";
+        }
+    }
+    function fnCloseMessage()
+    {
+        oMessageDiv.style.display = "none";
+    }
+    </script>
+    </head>
+    <body>
+
+    <p>
+    <span style= "color:darkmagenta;font-size:large;" onmouseout="fnCloseMessage();"
+    onmouseover="fnOpenMessage();">Mouse over this!</span>
+    </p>
+
+    <div id="oMessageDiv" style="display:none; font-family:arial; width:200px; font-size:large; color:steelblue; border:4px solid gold;">
+    A message for you!
+    </div>
+
+    </body>
+    </html>
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5](http://www.w3.org/TR/html5/editing.html#dom-document-hasfocus)
+:   Candidate Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

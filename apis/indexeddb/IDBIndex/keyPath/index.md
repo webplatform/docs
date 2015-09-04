@@ -1,51 +1,36 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Stub, Missing Relevant Sections, Needs Review
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The key path of this index. If null, this index is not auto-populated.}}
-{{API_Object_Property
-|Property_applies_to=apis/indexeddb/IDBIndex
-|Read_only=Yes
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=String
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: keyPath
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: IndexedDB
+readiness: 'In Progress'
+notes:
+  - 'Needs example, spec reference, standardization status'
+summary: 'The key path of this index. If null, this index is not auto-populated.'
+uri: apis/indexeddb/IDBIndex/keyPath
+
+---
+# keyPath
+
+## Summary
+
+The key path of this index. If null, this index is not auto-populated.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.keyPath;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+**Needs Examples**: This section should include examples.
+

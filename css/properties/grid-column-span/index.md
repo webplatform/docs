@@ -1,49 +1,83 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add example, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|See [[css/properties/grid-column]]. This property has been removed from the specification.}}
-{{CSS Property
-|Initial value=1
-|Applies to=grid item elements
-|Inherited=No
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=integer
-|Description=Integer value that specifies the number of columns to span.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=This property was originally imported as ms-grid-column-span.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}215213 CSS Grid Layout], Section 6
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Grid Layout
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: grid-column-span
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: Non-Standard
+notes:
+  - 'Add example, compatibility.'
+summary: 'See css/properties/grid-column. This property has been removed from the specification.'
+uri: css/properties/grid-column-span
+
+---
+# grid-column-span
+
+## Summary
+
+See css/properties/grid-column. This property has been removed from the specification.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `1`
+Applies to
+:   grid item elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `grid-column-span: integer`
+
+## Values
+
+integer
+:   Integer value that specifies the number of columns to span.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+This property was originally imported as ms-grid-column-span.
+
+### Standards information
+
+-   [CSS Grid Layout](http://go.microsoft.com/fwlink/p/?linkid=215213), Section 6
+
+## See also
+
+### Related articles
+
+#### Grid Layout
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [grid-auto-rows](/css/properties/grid-auto-rows)
+
+-   [grid-column-position](/css/properties/grid-column-position)
+
+-   **grid-column-span**
+
+-   [grid-definition-columns](/css/properties/grid-definition-columns)
+
+-   [grid-definition-rows](/css/properties/grid-definition-rows)
+
+-   [grid-row-position](/css/properties/grid-row-position)
+
+-   [height](/css/properties/height)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

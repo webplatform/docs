@@ -1,61 +1,46 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|An optional value in seconds where looping should begin if the loop attribute is true. Its default value is 0, and it may usefully be set to any value between 0 and the duration of the buffer.}}
-{{API_Object_Property
-|Property_applies_to=apis/webaudio/AudioBufferSourceNode
-|Read_only=No
-|Example_object_name=AudioBufferSourceNode
-|Return_value_name=
-|Javascript_data_type=Number
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=var source = audioCtx.createBufferSource();
+---
+title: loopStart
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: WebAudio
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'An optional value in seconds where looping should begin if the loop attribute is true. Its default value is 0, and it may usefully be set to any value between 0 and the duration of the buffer.'
+uri: apis/webaudio/AudioBufferSourceNode/loopStart
+
+---
+# loopStart
+
+## Summary
+
+An optional value in seconds where looping should begin if the loop attribute is true. Its default value is 0, and it may usefully be set to any value between 0 and the duration of the buffer.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = AudioBufferSourceNode.loopStart;
+AudioBufferSourceNode.loopStart = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+
+## Examples
+
+``` {.js}
+var source = audioCtx.createBufferSource();
 source.loopStart = 2;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

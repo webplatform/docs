@@ -1,49 +1,61 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=needs example
-|Checked_Out=Yes
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specifies the number of bytes downloaded since the beginning of the operation.}}
-{{API_Object_Property
-|Property_applies_to=dom/ProgressEvent
-|Read_only=Yes
-|Example_object_name=ProgressEvent
-|Javascript_data_type=unsigned long
-|Return_value_description=Number of bytes downloaded since the beginning of the operation.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Used to calculate the percentage completed of an operation.
-|Notes====Remarks===
-This property refers to the content associated with the operation; it  does not account for headers or other overhead associated with the operation.
-If the operation specifies content encoding or transfer encoding, the value of this property reflects the specified encoding.
-|Import_Notes====Syntax===
+---
+title: loaded
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'needs example'
+summary: 'Specifies the number of bytes downloaded since the beginning of the operation.'
+uri: dom/ProgressEvent/loaded
+
+---
+# loaded
+
+## Summary
+
+Specifies the number of bytes downloaded since the beginning of the operation.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/ProgressEvent](/dom/ProgressEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = ProgressEvent.loaded;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+
+Number of bytes downloaded since the beginning of the operation.
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Used to calculate the percentage completed of an operation.
+
+## Notes
+
+### Remarks
+
+This property refers to the content associated with the operation; it does not account for headers or other overhead associated with the operation. If the operation specifies content encoding or transfer encoding, the value of this property reflects the specified encoding.
+
+### Syntax
+
 value = ProgressEvent.loaded
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/ProgressEvent.loaded ProgressEvent.loaded]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772355(v=vs.85).aspx loaded Property]
-|HTML5Rocks_link=
-}}
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[ProgressEvent.loaded](https://developer.mozilla.org/en-US/docs/Web/API/ProgressEvent.loaded) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[loaded Property](http://msdn.microsoft.com/en-us/library/ie/hh772355(v=vs.85).aspx) Article]
+

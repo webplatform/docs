@@ -1,88 +1,120 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object
-|Subclass_of=svg/objects/SVGElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: SVGZoom
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/objects/SVGZoom
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/methods/initEvent
+    - dom/methods/createEvent
+    - dom/methods/initUIEvent
+    - dom/methods/preventDefault
+    - dom/methods/stopImmediatePropagation
+    - dom/methods/stopPropagation
+    - dom/properties/bubbles
+    - dom/properties/cancelable
+    - dom/methods/cancelBubble
+    - dom/properties/currentTarget
+    - dom/properties/defaultPrevented
+    - dom/properties/detail
+    - dom/properties/eventPhase
+    - dom/properties/isTrusted
+    - dom/properties/srcElement
+    - dom/properties/target
+    - dom/properties/timeStamp
+    - 'dom/properties/type (event)'
+    - dom/properties/view
 
-'''Note:''' In addition to the attributes, properties, events, methods,
-and styles listed above, SVG elements also inherent core HTML
-attributes, properties, events, methods, and styles.
+---
+# SVGZoom
 
-The '''zoom''' event occurs when a user initiates an action that
-causes the current view of the SVG document (or SVGdocument fragment)
-to be rescaled (including any change to the
-[[svg/elements/svg|'''svg''']] element's
-[[svg/properties/currentScale|'''currentScale''']] property).
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-'''Note:''' A zoom event applies only to the outermost
-[[svg/elements/svg|'''svg''']] element.
-|Import_Notes====Syntax===
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
 
-===Standards information===
+## Properties
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204745 Scalable Vector Graphics: Scripting], Section 18.5.2
+*No properties.*
 
-===Members===
+## Methods
 
-The '''SVGZoomEvent''' object has these methods:
+*No methods.*
 
-*[[dom/methods/initEvent|'''initEvent''']]: Initializes a new generic event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
-*[[dom/methods/initUIEvent|'''initUIEvent''']]: Initializes a new user interface event that the  [[dom/methods/createEvent|'''createEvent''']] method created.
-*[[dom/methods/preventDefault|'''preventDefault''']]: Cancels the default action of an event.
-*[[dom/methods/stopImmediatePropagation|'''stopImmediatePropagation''']]: Prevents any further propagation of an event.
-*[[dom/methods/stopPropagation|'''stopPropagation''']]: Prevents propagation of an event beyond the current target.
+## Events
 
-The '''SVGZoomEvent''' object has these properties:
+*No events.*
 
-*[[dom/properties/bubbles|'''bubbles''']]: Gets a value that  indicates whether an event propagates up from the event target.
-*[[dom/properties/cancelable|'''cancelable''']]: Gets a value that indicates whether you can cancel an event's default action.
-*[[dom/methods/cancelBubble|'''cancelBubble''']]: Gets or sets a value that indicates whether an event should be stopped from propagating up from the current target.
-*[[dom/properties/currentTarget|'''currentTarget''']]: Gets the event target that is currently being processed.
-*[[dom/properties/defaultPrevented|'''defaultPrevented''']]: Gets a value that indicates whether the default action should be canceled.
-*[[dom/properties/detail|'''detail''']]: Gets additional  information about  an event.
-*[[dom/properties/eventPhase|'''eventPhase''']]: Gets the event phase that is being evaluated.
-*[[dom/properties/isTrusted|'''isTrusted''']]: Gets a value that indicates whether a trusted event source created an event.
-*[[svg/properties/newScale|'''newScale''']]: Gets the new scale value of a zoom event.
-*[[svg/properties/newTranslate|'''newTranslate''']]: Gets the new translation values of a zoom event.
-*[[svg/properties/previousScale|'''previousScale''']]: Gets the previous scale value of a zoom event.
-*[[svg/properties/previousTranslate|'''previousTranslate''']]: Gets the previous translation values of a zoom event.
-*[[dom/properties/srcElement|'''srcElement''']]: Gets the element that the event was originally dispatched to. Compare to [[dom/properties/target|'''target''']].
-*[[dom/properties/target|'''target''']]: Gets the element that is the target of the event.
-*[[dom/properties/timeStamp|'''timeStamp''']]: Gets the time, in milliseconds, when an event occurred.
-*[[dom/properties/type (event)|'''type''']]: Gets the name of an event.
-*[[dom/properties/view|'''view''']]: Gets  the '''window''' object  that an  event is generated from.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+## Inherited from SVGElement
+
+### Properties
+
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+The **zoom** event occurs when a user initiates an action that causes the current view of the SVG document (or SVGdocument fragment) to be rescaled (including any change to the [**svg**](/svg/elements/svg) element's [**currentScale**](/svg/properties/currentScale) property).
+
+**Note:** A zoom event applies only to the outermost [**svg**](/svg/elements/svg) element.
+
+### Syntax
+
+### Standards information
+
+-   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.5.2
+
+### Members
+
+The **SVGZoomEvent** object has these methods:
+
+-   [**initEvent**](/w/index.php?title=dom/methods/initEvent&action=edit&redlink=1): Initializes a new generic event that the [**createEvent**](/w/index.php?title=dom/methods/createEvent&action=edit&redlink=1) method created.
+-   [**initUIEvent**](/w/index.php?title=dom/methods/initUIEvent&action=edit&redlink=1): Initializes a new user interface event that the [**createEvent**](/w/index.php?title=dom/methods/createEvent&action=edit&redlink=1) method created.
+-   [**preventDefault**](/w/index.php?title=dom/methods/preventDefault&action=edit&redlink=1): Cancels the default action of an event.
+-   [**stopImmediatePropagation**](/w/index.php?title=dom/methods/stopImmediatePropagation&action=edit&redlink=1): Prevents any further propagation of an event.
+-   [**stopPropagation**](/w/index.php?title=dom/methods/stopPropagation&action=edit&redlink=1): Prevents propagation of an event beyond the current target.
+
+The **SVGZoomEvent** object has these properties:
+
+-   [**bubbles**](/w/index.php?title=dom/properties/bubbles&action=edit&redlink=1): Gets a value that indicates whether an event propagates up from the event target.
+-   [**cancelable**](/w/index.php?title=dom/properties/cancelable&action=edit&redlink=1): Gets a value that indicates whether you can cancel an event's default action.
+-   [**cancelBubble**](/w/index.php?title=dom/methods/cancelBubble&action=edit&redlink=1): Gets or sets a value that indicates whether an event should be stopped from propagating up from the current target.
+-   [**currentTarget**](/w/index.php?title=dom/properties/currentTarget&action=edit&redlink=1): Gets the event target that is currently being processed.
+-   [**defaultPrevented**](/w/index.php?title=dom/properties/defaultPrevented&action=edit&redlink=1): Gets a value that indicates whether the default action should be canceled.
+-   [**detail**](/w/index.php?title=dom/properties/detail&action=edit&redlink=1): Gets additional information about an event.
+-   [**eventPhase**](/w/index.php?title=dom/properties/eventPhase&action=edit&redlink=1): Gets the event phase that is being evaluated.
+-   [**isTrusted**](/w/index.php?title=dom/properties/isTrusted&action=edit&redlink=1): Gets a value that indicates whether a trusted event source created an event.
+-   [**newScale**](/svg/properties/newScale): Gets the new scale value of a zoom event.
+-   [**newTranslate**](/svg/properties/newTranslate): Gets the new translation values of a zoom event.
+-   [**previousScale**](/svg/properties/previousScale): Gets the previous scale value of a zoom event.
+-   [**previousTranslate**](/svg/properties/previousTranslate): Gets the previous translation values of a zoom event.
+-   [**srcElement**](/w/index.php?title=dom/properties/srcElement&action=edit&redlink=1): Gets the element that the event was originally dispatched to. Compare to [**target**](/w/index.php?title=dom/properties/target&action=edit&redlink=1).
+-   [**target**](/w/index.php?title=dom/properties/target&action=edit&redlink=1): Gets the element that is the target of the event.
+-   [**timeStamp**](/w/index.php?title=dom/properties/timeStamp&action=edit&redlink=1): Gets the time, in milliseconds, when an event occurred.
+-   [**type**](/w/index.php?title=dom/properties/type_(event)&action=edit&redlink=1): Gets the name of an event.
+-   [**view**](/w/index.php?title=dom/properties/view&action=edit&redlink=1): Gets the **window** object that an event is generated from.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

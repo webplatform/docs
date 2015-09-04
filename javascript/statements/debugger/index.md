@@ -1,62 +1,55 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Suspends execution.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=debugger
-}}
-|Values=
-}}
-{{JS_Return_Value
-|Description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example uses the debugger statement to suspend execution for each iteration through the for loop.
+---
+title: debugger
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Suspends execution.'
+uri: javascript/statements/debugger
 
-'''Note''' -- To run this example, you must have a script debugger installed and the script must run in debug mode.Internet Explorer 8 includes the JavaScript debugger. If you are using an earlier version of Internet Explorer, see [http://go.microsoft.com/fwlink/?LinkId=133801 How to: Enable and Start Script Debugging from Internet Explorer].
-|Code=for(i = 1; i&lt;5; i++) {
+---
+# debugger
+
+## Summary
+
+Suspends execution.
+
+## Syntax
+
+    debugger
+
+## Examples
+
+This example uses the debugger statement to suspend execution for each iteration through the for loop.
+
+**Note** -- To run this example, you must have a script debugger installed and the script must run in debug mode.Internet Explorer 8 includes the JavaScript debugger. If you are using an earlier version of Internet Explorer, see [How to: Enable and Start Script Debugging from Internet Explorer](http://go.microsoft.com/fwlink/?LinkId=133801).
+
+``` {.js}
+for(i = 1; i<5; i++) {
     // Print i to the Output window.
     Debug.write("loop index is " + i);
     // Wait for user to resume.
     debugger
  }
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=You can place debugger statements anywhere in procedures to suspend execution. Using the debugger statement is similar to setting a breakpoint in the code.
+```
+
+## Remarks
+
+You can place debugger statements anywhere in procedures to suspend execution. Using the debugger statement is similar to setting a breakpoint in the code.
 
 The debugger statement suspends execution, but it does not close any files or clear any variables.
 
-'''Note''' -- The debugger statement has no effect unless the script is being debugged.
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/statements{{!}}JavaScript Statements]]
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/0bwt76sk(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+**Note** -- The debugger statement has no effect unless the script is being debugged.
+
+## See also
+
+### Other articles
+
+-   [JavaScript Statements](/javascript/statements)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0bwt76sk(v=vs.94).aspx)
+

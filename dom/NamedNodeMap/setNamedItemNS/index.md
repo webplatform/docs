@@ -1,73 +1,71 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=example required
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Sets an attribute object as part of the object.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=pAttrNode
-|Data type=any
-|Description=The [[dom/HTMLElement|'''attribute''']] to add.
-|Optional=No
-}}{{Method Parameter
-|Name=ppNodeOut
-|Data type=any
-|Description=The [[dom/HTMLElement|'''attribute''']] node that the ''pAttrNode'' node replaces, or a null value.
-|Optional=No
-}}
-|Method_applies_to=dom/NamedNodeMap
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+---
+title: setNamedItemNS
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'example required'
+summary: 'Sets an attribute object as part of the object.'
+uri: dom/NamedNodeMap/setNamedItemNS
+
+---
+# setNamedItemNS
+
+## Summary
+
+Sets an attribute object as part of the object.
+
+*Method of [dom/NamedNodeMap](/dom/NamedNodeMap)*
+
+## Syntax
+
+``` {.js}
+var object = object.setNamedItemNS(/* see parameter list */);
+```
+
+## Parameters
+
+### pAttrNode
+
+ Data-typeÂ
+:   any
+
+ The [**attribute**](/dom/HTMLElement) to add.
+
+### ppNodeOut
+
+ Data-typeÂ
+:   any
+
+ The [**attribute**](/dom/HTMLElement) node that the *pAttrNode* node replaces, or a null value.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+Type: **HRESULT**
 
 This method can return one of these values.
 
-{| class="wikitable"
-|-
-!Return code
-!Description
-|-
-|S_OK
-|The operation completed successfully.
-|}
-Â 
+{
 
-'''IHTMLDOMAttribute2'''
+**Needs Examples**: This section should include examples.
 
-The [[dom/attributes|'''attribute''']] node that the ''pAttrNode'' node replaces, or a null value.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap NamedNodeMap]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975204(v=vs.85).aspx setNamedItemNS Method]
-|HTML5Rocks_link=
-}}
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[setNamedItemNS Method](http://msdn.microsoft.com/en-us/library/ie/ff975204(v=vs.85).aspx) Article]
+

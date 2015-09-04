@@ -1,51 +1,32 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Stub, Missing Relevant Sections, Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Name of the connected database.}}
-{{API_Object_Property
-|Property_applies_to=apis/indexeddb/IDBDatabase
-|Read_only=Yes
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, IndexedDB}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: name
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: IndexedDB
+readiness: 'In Progress'
+notes:
+  - 'Needs example, spec reference, standardization status'
+summary: 'Name of the connected database.'
+uri: apis/indexeddb/IDBDatabase/name
+
+---
+# name
+
+## Summary
+
+Name of the connected database.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.name;
+```
+
+**Needs Examples**: This section should include examples.
+

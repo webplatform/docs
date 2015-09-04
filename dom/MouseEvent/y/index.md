@@ -1,59 +1,60 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.}}
-{{API_Object_Property
-|Property_applies_to=dom/MouseEvent
-|Read_only=Yes
-|Example_object_name=event
-|Return_value_name=yCoordinate
-|Javascript_data_type=Number
-|Return_value_description=The Y coordinate of the mouse cursor.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example displays the current mouse position in the browser's status window.
-|Code=document.body.onmousemove = function (e) { console.log('X = ' + e.x + ' Y = " + e.y); }
-}}
-}}
-{{Notes_Section
-|Notes=If the event firing element is relatively positioned, then the y-coordinate from the boundary of the element is returned. If the event firing element and all of its parent elements are not relatively positioned, then the '''y''' property returns a coordinate relative to the '''body''' element.
-The '''y''' property returns a coordinate relative to the '''body''' element.
-If the mouse or finger is outside the window at the time the event fires, this property returns -1.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSSOM View
-|URL=http://www.w3.org/TR/cssom-view/
-|Status=Working Draft
-|Relevant_changes=Section 9
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=Earlier than 5
-|Note=This property is read only. This property retrieves a coordinate relative to the client.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms535164(v=vs.85).aspx event.y Property]
-|HTML5Rocks_link=
-}}
+---
+title: y
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.'
+uri: dom/MouseEvent/y
+
+---
+# y
+
+## Summary
+
+Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MouseEvent](/dom/MouseEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var yCoordinate = event.y;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+
+The Y coordinate of the mouse cursor.
+
+## Examples
+
+This example displays the current mouse position in the browser's status window.
+
+``` {.js}
+document.body.onmousemove = function (e) { console.log('X = ' + e.x + ' Y = " + e.y); }
+```
+
+## Notes
+
+If the event firing element is relatively positioned, then the y-coordinate from the boundary of the element is returned. If the event firing element and all of its parent elements are not relatively positioned, then the **y** property returns a coordinate relative to the **body** element. The **y** property returns a coordinate relative to the **body** element. If the mouse or finger is outside the window at the time the event fires, this property returns -1.
+
+## Related specifications
+
+Specification
+:   Status
+[CSSOM View](http://www.w3.org/TR/cssom-view/)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[event.y Property](http://msdn.microsoft.com/en-us/library/ie/ms535164(v=vs.85).aspx) Article]
+

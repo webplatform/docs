@@ -1,26 +1,15 @@
-{{Page_Title|Scripting SVG}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Stub
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Byline}}
-{{Summary_Section}}
-{{Tutorial}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: scripting svg
+tags:
+  - Tutorials
+  - SVG
+readiness: 'Not Ready'
+notes:
+  - Stub
+uri: 'tutorials/scripting svg'
+
+---
+# Scripting SVG
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+

@@ -1,74 +1,67 @@
-==Modifying Attributes Methods==
+---
+title: attribute methods
+uri: 'dom/tutorials/attribute methods'
 
-{| class="wikitable"
-|-
-! Method Name
-! Description
-|-
-| getAttribute()
-| Used to retrieve an attribute value
-|-
-| setAttribute()
-| Used to assign an attribute to an element
-|- 
-| removeAttribute()
-| Used to remove an attribute from an element
-|}
+---
+## Modifying Attributes Methods
 
-* '''getAttribute()'''
+Method Name
+:   Description
+getAttribute()
+:   Used to retrieve an attribute value
+setAttribute()
+:   Used to assign an attribute to an element
+removeAttribute()
+:   Used to remove an attribute from an element
+
+-   **getAttribute()**
 
 Syntax for this method is as follows:
 
-<syntaxhighlight lang="javascript">
-
+``` {.js}
 Variable = element.node.getAttribute("attribute name", "attribute value");
-</syntaxhighlight>
+```
 
-<syntaxhighlight lang="javascript">
-
+``` {.js}
 var x = document.getElementsByTagName("p")[0].getAttribute("align");
-</syntaxhighlight>
+```
 
-* '''setAttribute()'''
+-   **setAttribute()**
 
 Syntax for this method is as follows:
 
-<syntaxhighlight lang="javascript">
-
+``` {.js}
 element.node.setAttribute("attribute name", "attribute value");
-</syntaxhighlight>
+```
 
-<syntaxhighlight lang="javascript">
-
+``` {.js}
 document.getElementsByTagName("p")[0].setAttribute("align","right");
-</syntaxhighlight>
+```
 
-This method is often used with event handlers like onclick() or onmouseover() to change an aspect of a website based on user input.
+ This method is often used with event handlers like onclick() or onmouseover() to change an aspect of a website based on user input.
 
-* '''removeAttribute()'''
+-   **removeAttribute()**
 
 Syntax for this method is as follows:
 
-<syntaxhighlight lang="javascript">
-
+``` {.js}
 element.node.removeAttribute("attribute name");
-</syntaxhighlight>
+```
 
-<syntaxhighlight lang="javascript">
-
+``` {.js}
 document.getElementsByTagName("p")[0].removeAttribute("align");
-</syntaxhighlight>
+```
 
-Let's look at a quick example of these attributes in action:
+ Let's look at a quick example of these attributes in action:
 
-<syntaxhighlight lang="html5">
+``` {.html}
 <html>
-<head> 
+<head>
   <title>Setting and removing attributes</title>
 
   <script type="text/javascript">
    function onmousefont(){
-    document.getElementsByTagName("font")[0].setAttribute("size","7"); 
+    document.getElementsByTagName("font")[0].setAttribute("size","7");
    }
    function offmousefont(){
     document.getElementsByTagName("font")[0].removeAttribute("size");
@@ -80,9 +73,8 @@ Let's look at a quick example of these attributes in action:
    <font onmouseover="onmousefont();" onmouseout="offmousefont();">Mouse over me! </font>
 </body>
 </html>
+```
 
-</syntaxhighlight>
+ In the example above, using event handlers we are able to change the font size of the text based on mouse movement.
 
-In the example above, using event handlers we are able to change the font size of the text based on mouse movement.
-
-[[dom/tutorials/node interface ‎   |Next Tutorial: Node Interface]]
+[Next Tutorial: Node Interface](/dom/tutorials/node_interface)

@@ -1,49 +1,37 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Fired when the battery charging time is updated.}}
-{{Event
-|Event_applies_to=apis/battery_status/BatteryManager
-|Synchronous=No
-|Bubbles=No
-|Target=
-|Cancelable=No
-|Default_action=
-|Content=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Battery Status, Mobile}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: chargingtimechange
+tags:
+  - Events
+  - API
+  - Battery
+  - Status
+  - Mobile
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Needs example, spec reference'
+summary: 'Fired when the battery charging time is updated.'
+uri: 'apis/battery status/BatteryManager/chargingtimechange'
+
+---
+# chargingtimechange
+
+## Summary
+
+Fired when the battery charging time is updated.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:
+Cancelable
+:   No
+Default action
+:
+
+**Needs Examples**: This section should include examples.
+

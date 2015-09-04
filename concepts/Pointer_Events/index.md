@@ -1,56 +1,65 @@
-{{Page_Title|Pointer Events Primer}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=dag
-|Checked_Out=No
-|High-level issues=Stub, Deletion Candidate, Merge Candidate, Split Candidate, Move Candidate, Copyright Issue, Undescriptive Title, Needs Flags, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import, Needs Review
-|Content=Outdated, Incomplete, Errors, Not Neutral, Grammar/Spelling, Cleanup, Broken Links, Compatibility Incomplete, Examples Needed, Examples Errors, Examples Best Practices, Accessibility, Needs Summary
-}}
-{{API_Name}}
-{{Summary_Section|This document is written for web developers who have basic familiarity with [[html|HTML]] and [[javascript|JavaScript]].  This document should help you:
-# Understand the end-user and web developer problems that Pointer Events address
-# Easily add Pointer Events to an existing web page
-# Take advantage of additional methods and attributes available in Pointer Events
-# Find additional resources to learn more about Pointer Events
-}}
-{{Concept_Page
-|Content===Why Pointer Events?==
+---
+title: Pointer Events
+tags:
+  - Concept
+  - Pages
+  - DOM
+  - DOMEvents
+  - Touch
+readiness: 'Almost Ready'
+notes:
+  - dag
+summary: "This document is written for web developers who have basic familiarity with HTML and JavaScript.  This document should help you:\n"
+uri: 'concepts/Pointer Events'
 
-===Unified Model for Multiple Input Types===
-In the last few years, there has been an explosion of computing devices that use mechanisms other than a mouse for user input.  
-These input mechanisms include touch as on a smartphone, or pen/stylus as on a slate.  All of today's web browsers support mouse events 
-(mouseover, mousedown, mousemove, etc.) but many users aren't using a mouse.  Today's user may be interacting with a web page using their 
-fingers on a smartphone while riding public transit, or using a pen on a slate/tablet while in a meeting.  Pointer Events provides a 
-unified model for all three of these input types without requiring web developers to write unique code for each.  
-And Pointer Events is intended to be forward-compatible, covering future interaction paradigms.
+---
+# Pointer Events Primer
 
-===Ability to Identify Different Input Types===
-Most modern browsers such as Chrome, Firefox, Internet Explorer, Opera, and Safari all map touch or pen input to mouse events.  
-But this makes it hard to know if a mouse event is an actual mouse event or if was synthetically generated from a touch or pen input event.  
-Pointer Events also includes attributes to identify which mouse or pen button(s) were pressed during the event.  
+## Summary
 
-===Additional Methods and Attributes===
-Finally, Pointer Events provides additional attributes such as touch contact geometry size, pressure, and pen tilt so that web developers 
-can take advantage of these additional inputs in building experiences for end users.  And if web developers want, they can write unique code 
-for each input type.
+This document is written for web developers who have basic familiarity with HTML and JavaScript. This document should help you:
 
-==Basic Pointer Events==
+1.  Understand the end-user and web developer problems that Pointer Events address
+2.  Easily add Pointer Events to an existing web page
+3.  Take advantage of additional methods and attributes available in Pointer Events
+4.  Find additional resources to learn more about Pointer Events
+
+## Why Pointer Events?
+
+### Unified Model for Multiple Input Types
+
+In the last few years, there has been an explosion of computing devices that use mechanisms other than a mouse for user input. These input mechanisms include touch as on a smartphone, or pen/stylus as on a slate. All of today's web browsers support mouse events (mouseover, mousedown, mousemove, etc.) but many users aren't using a mouse. Today's user may be interacting with a web page using their fingers on a smartphone while riding public transit, or using a pen on a slate/tablet while in a meeting. Pointer Events provides a unified model for all three of these input types without requiring web developers to write unique code for each. And Pointer Events is intended to be forward-compatible, covering future interaction paradigms.
+
+### Ability to Identify Different Input Types
+
+Most modern browsers such as Chrome, Firefox, Internet Explorer, Opera, and Safari all map touch or pen input to mouse events. But this makes it hard to know if a mouse event is an actual mouse event or if was synthetically generated from a touch or pen input event. Pointer Events also includes attributes to identify which mouse or pen button(s) were pressed during the event.
+
+### Additional Methods and Attributes
+
+Finally, Pointer Events provides additional attributes such as touch contact geometry size, pressure, and pen tilt so that web developers can take advantage of these additional inputs in building experiences for end users. And if web developers want, they can write unique code for each input type.
+
+## Basic Pointer Events
+
 Pointer Events includes a number of basic events similar to mouse events:
 
-===Down and Up===
-Pointer Events includes basic pointer down and pointer up events.  
-* <code>pointerdown</code> is triggered when a user clicks a mouse button or touches the screen with a finger or pen.
-* <code>pointerup</code> is triggered when a user releases a mouse button or releases their finger or pen from touching the screen. 
+### Down and Up
+
+Pointer Events includes basic pointer down and pointer up events.
+
+-   `pointerdown` is triggered when a user clicks a mouse button or touches the screen with a finger or pen.
+-   `pointerup` is triggered when a user releases a mouse button or releases their finger or pen from touching the screen.
+
 The example below shows how pointerdown and pointerup are similar to mousedown and mouseup:
 
-<syntaxhighlight lang="html5">
+``` {.html}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script type="text/javascript">
-</syntaxhighlight>
-<syntaxhighlight lang="javascript">
+```
+
+``` {.js}
         function MouseDownResponse(event) {
             document.getElementById("dvMouseStatus").innerHTML += "Mouse Down<br />";
         }
@@ -82,8 +91,9 @@ The example below shows how pointerdown and pointerup are similar to mousedown a
             document.addEventListener("MSPointerDown", PointerDownResponse, false);
             document.addEventListener("MSPointerUp", PointerUpResponse, false);
         }
-</syntaxhighlight>
-<syntaxhighlight lang="html5">
+```
+
+``` {.html}
     </script>
 </head>
 <body onload="init()">
@@ -96,22 +106,21 @@ The example below shows how pointerdown and pointerup are similar to mousedown a
     </table>
 </body>
 </html>
-</syntaxhighlight>
+```
 
-===Move===
-Pointer Events also includes a basic move event.  The <code>pointermove</code> event is triggered when a user moves their mouse, finger, or pen.
-Many devices with touch screens have default pan and zoom behaviors, such as zooming for a double tap.  Web developers can disable these default 
-behaviors with the <code>touch-action</code> CSS value of <code>none</code> as shown below.  
-This example shows how <code>pointermove</code> is similar to <code>mousemove</code>:
+### Move
 
-<syntaxhighlight lang="html5">
+Pointer Events also includes a basic move event. The `pointermove` event is triggered when a user moves their mouse, finger, or pen. Many devices with touch screens have default pan and zoom behaviors, such as zooming for a double tap. Web developers can disable these default behaviors with the `touch-action` CSS value of `none` as shown below. This example shows how `pointermove` is similar to `mousemove`:
+
+``` {.html}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script type="text/javascript">
-</syntaxhighlight>
-<syntaxhighlight lang="javascript">
+```
+
+``` {.js}
         function MouseMoveResponse(event) {
             document.getElementById("dvMouseStatus").innerHTML =
                 "Mouse position: " + event.clientX + ", " + event.clientY + "<br />";
@@ -131,8 +140,9 @@ This example shows how <code>pointermove</code> is similar to <code>mousemove</c
             // Support for prefixed IE10 implementation
             document.addEventListener("MSPointerMove", PointerMoveResponse, false);
         }
-</syntaxhighlight>
-<syntaxhighlight lang="html5">
+```
+
+``` {.html}
     </script>
 </head>
 <body onload="init()" style="touch-action:none; -ms-touch-action:none;">
@@ -145,23 +155,28 @@ This example shows how <code>pointermove</code> is similar to <code>mousemove</c
     </table>
 </body>
 </html>
-</syntaxhighlight>
-In addition to the basic x and y coordinates, <code>pointermove</code> includes <code>pointerId</code>, <code>pointerType</code>, and other attributes.
+```
 
-===Over and Out===
-Pointer Events includes basic pointer over and pointer out events.  
-* <code>pointerover</code> is triggered when a user moves their mouse over an HTML element or touches it with their finger or pen. 
-* <code>pointerout</code> is triggered when a user moves their mouse out of an HTML element, releases a finger or pen touch, or moves their finger our out of an HTML element while still touching the screen.
-This example shows how <code>pointerover</code> and <code>pointerout</code> are similar to <code>mouseover</code> and <code>mouseout</code>.
+In addition to the basic x and y coordinates, `pointermove` includes `pointerId`, `pointerType`, and other attributes.
 
-<syntaxhighlight lang="html5">
+### Over and Out
+
+Pointer Events includes basic pointer over and pointer out events.
+
+-   `pointerover` is triggered when a user moves their mouse over an HTML element or touches it with their finger or pen.
+-   `pointerout` is triggered when a user moves their mouse out of an HTML element, releases a finger or pen touch, or moves their finger our out of an HTML element while still touching the screen.
+
+This example shows how `pointerover` and `pointerout` are similar to `mouseover` and `mouseout`.
+
+``` {.html}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script type="text/javascript">
-</syntaxhighlight>
-<syntaxhighlight lang="javascript">
+```
+
+``` {.js}
         function MouseOverResponse(event) {
             document.getElementById("dvMouseStatus").innerHTML += "Mouse Over<br />";
         }
@@ -191,8 +206,9 @@ This example shows how <code>pointerover</code> and <code>pointerout</code> are 
             dvObject.addEventListener("MSPointerOver", PointerOverResponse, false);
             dvObject.addEventListener("MSPointerOut", PointerOutResponse, false);
         }
-</syntaxhighlight>
-<syntaxhighlight lang="html5">
+```
+
+``` {.html}
     </script>
 </head>
 <body onload="init()">
@@ -207,23 +223,26 @@ This example shows how <code>pointerover</code> and <code>pointerout</code> are 
     </table>
 </body>
 </html>
-</syntaxhighlight>
+```
 
-===Enter and Leave===
-Pointer Events includes basic pointer enter and pointer leave events.  Enter and leave events are similar to over and out events described in the 
-previous section, but with some exceptions, including that they do not bubble.  
-* <code>pointerenter</code> is triggered when a user moves their mouse over an HTML element or touches it with their finger or pen.
-* <code>pointerleave</code> is triggered when a user moves their mouse out of an HTML element, releases a finger or pen touch, or moves their finger our out of an HTML element while still touching the screen.
-This example shows how <code>pointerenter</code> and <code>pointerleave</code> are similar to <code>mouseenter</code> and <code>mouseleave</code>.
+### Enter and Leave
 
-<syntaxhighlight lang="html5">
+Pointer Events includes basic pointer enter and pointer leave events. Enter and leave events are similar to over and out events described in the previous section, but with some exceptions, including that they do not bubble.
+
+-   `pointerenter` is triggered when a user moves their mouse over an HTML element or touches it with their finger or pen.
+-   `pointerleave` is triggered when a user moves their mouse out of an HTML element, releases a finger or pen touch, or moves their finger our out of an HTML element while still touching the screen.
+
+This example shows how `pointerenter` and `pointerleave` are similar to `mouseenter` and `mouseleave`.
+
+``` {.html}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script type="text/javascript">
-</syntaxhighlight>
-<syntaxhighlight lang="javascript">
+```
+
+``` {.js}
         function MouseEnterResponse(event) {
             document.getElementById("dvMouseStatus").innerHTML += "Mouse Enter<br />";
         }
@@ -249,8 +268,9 @@ This example shows how <code>pointerenter</code> and <code>pointerleave</code> a
             dvObject.addEventListener("pointerenter", PointerEnterResponse, false);
             dvObject.addEventListener("pointerleave", PointerLeaveResponse, false);
         }
-</syntaxhighlight>
-<syntaxhighlight lang="html5">
+```
+
+``` {.html}
     </script>
 </head>
 <body onload="init()">
@@ -265,72 +285,82 @@ This example shows how <code>pointerenter</code> and <code>pointerleave</code> a
     </table>
 </body>
 </html>
-</syntaxhighlight>
+```
 
-===Cancel===
-In the modern world of desktop PCs with multiple monitors or smartphones and tablets supporting multiple orientations, there are cases 
-where a pointer is down and the next event should be a <code>pointercancel</code> event; rather than a <code>pointerup</code> event.  
-These include:
-* A user changes the position of a screen in a multi-screen configuration
-* A user changes the orientation of a screen (i.e. rotate from portrait to landscape)
-* A user exceeds the number of simultaneous contacts a device can support
-* A user locks their device or logs off
-In all of these cases, a <code>pointercancel</code> event is triggered.  This gives the developer a chance to handle any clean-up that is needed.
-More information on <code>pointercancel</code> cases can be found at: http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx 
+### Cancel
 
-===Comparison Of Mouse Events and Pointer Events===
+In the modern world of desktop PCs with multiple monitors or smartphones and tablets supporting multiple orientations, there are cases where a pointer is down and the next event should be a `pointercancel` event; rather than a `pointerup` event. These include:
+
+-   A user changes the position of a screen in a multi-screen configuration
+-   A user changes the orientation of a screen (i.e. rotate from portrait to landscape)
+-   A user exceeds the number of simultaneous contacts a device can support
+-   A user locks their device or logs off
+
+In all of these cases, a `pointercancel` event is triggered. This gives the developer a chance to handle any clean-up that is needed. More information on `pointercancel` cases can be found at: [http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx](http://msdn.microsoft.com/en-us/library/ie/hh846776(v=vs.85).aspx)
+
+### Comparison Of Mouse Events and Pointer Events
+
 The below table lists Mouse Events and the related Pointer Events:
-<table>
-<tr><th>Mouse Event</th><th>Pointer Event</th><th>(Prefixed) IE10 Pointer Event</th></tr>
-<tr><td>mousedown</td><td>pointerdown</td><td>MSPointerDown</td></tr>
-<tr><td>mouseup</td><td>pointerup</td><td>MSPointerUp</td></tr>
-<tr><td>mousemove</td><td>pointermove</td><td>MSPointerMove</td></tr>
-<tr><td>mouseover</td><td>pointerover</td><td>MSPointerOver</td></tr>
-<tr><td>mouseout</td><td>pointerout</td><td>MSPointerOut</td></tr>
-<tr><td>mouseenter</td><td>pointerenter</td><td>(none)</td></tr>
-<tr><td>mouseleave</td><td>pointerleave</td><td>(none)</td></tr>
-<tr><td>(none)</td><td>pointercancel</td><td>MSPointerCancel</td></tr>
-</table>
 
-==Pointer Event Attributes==
+Mouse Event
+:   Pointer Event
+mousedown
+:   pointerdown
+mouseup
+:   pointerup
+mousemove
+:   pointermove
+mouseover
+:   pointerover
+mouseout
+:   pointerout
+mouseenter
+:   pointerenter
+mouseleave
+:   pointerleave
+(none)
+:   pointercancel
+
+## Pointer Event Attributes
+
 Pointer Events have a number of additional attributes that enable you, as a web developer, to enhance your interactions:
 
-===pointerType===
-The <code>pointerType</code> attribute tells you if a pointer is a mouse, a touch, a pen, or some new future pointer type. Use of the 
-<code>pointerType</code> attribute was shown in the earlier examples for <code>pointerdown</code>, <code>pointerup</code>, and 
-<code>pointermove</code>.  As a best practice, if you are writing code that behaves uniquely for different <code>pointerType</code> values 
-you should make sure to also handle a new future pointer type.  
+### pointerType
 
-===pointerId===
-The <code>pointerId</code> attribute tells you which pointer you're interacting with.  The mouse always has a <code>pointerId</code> of 1, 
-and touch and pen pointers have integer <code>pointerId</code> values that are not 1.  
+The `pointerType` attribute tells you if a pointer is a mouse, a touch, a pen, or some new future pointer type. Use of the `pointerType` attribute was shown in the earlier examples for `pointerdown`, `pointerup`, and `pointermove`. As a best practice, if you are writing code that behaves uniquely for different `pointerType` values you should make sure to also handle a new future pointer type.
 
-===isPrimary===
-The <code>isPrimary</code> attribute tells you which pointer is the ''primary'' pointer for that device type:
-* For mouse, there is only one pointer so it is primary for the mouse type
-* For touch, a pointer is considered primary if the user touched the screen where there were no other active touches
-* For pen, a pointer is considered primary if the user's pen initially contacted the screen when there were no other active pens contacting the screen
+### pointerId
 
-Two potential uses for the <code>isPrimary</code> attribute are:
-* If you are intending to support only single touch (and not multi-touch) only react if the pointer <code>isPrimary</code>
-* If you want to see which pointer will also generate Mouse Events, check the <code>isPrimary</code> attribute
+The `pointerId` attribute tells you which pointer you're interacting with. The mouse always has a `pointerId` of 1, and touch and pen pointers have integer `pointerId` values that are not 1.
 
-===Contact Geometry Width and Height===
-With some input types (especially touch) and screens of increasing resolution, the contact area between the pointer and the screen can be more 
-than a single pixel.  The <code>width</code> and <code>height</code> attributes indicate the width and height of the contact between the 
-pointer and the screen.
-The example below shows the width and height attributes:
+### isPrimary
 
-<syntaxhighlight lang="html5">
+The `isPrimary` attribute tells you which pointer is the *primary* pointer for that device type:
+
+-   For mouse, there is only one pointer so it is primary for the mouse type
+-   For touch, a pointer is considered primary if the user touched the screen where there were no other active touches
+-   For pen, a pointer is considered primary if the user's pen initially contacted the screen when there were no other active pens contacting the screen
+
+Two potential uses for the `isPrimary` attribute are:
+
+-   If you are intending to support only single touch (and not multi-touch) only react if the pointer `isPrimary`
+-   If you want to see which pointer will also generate Mouse Events, check the `isPrimary` attribute
+
+### Contact Geometry Width and Height
+
+With some input types (especially touch) and screens of increasing resolution, the contact area between the pointer and the screen can be more than a single pixel. The `width` and `height` attributes indicate the width and height of the contact between the pointer and the screen. The example below shows the width and height attributes:
+
+``` {.html}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script type="text/javascript">
-</syntaxhighlight>
-<syntaxhighlight lang="javascript">
+```
+
+``` {.js}
         function PointerDownInfo(event) {
-            document.getElementById("dvPointerStatus").innerHTML += 
+            document.getElementById("dvPointerStatus").innerHTML +=
                 "Height:" + event.height + " Width:" + event.width + "<br />";
         }
 
@@ -340,8 +370,9 @@ The example below shows the width and height attributes:
             // Support for legacy IE10 implementation
             document.addEventListener("MSPointerDown", PointerDownInfo, false);
         }
-</syntaxhighlight>
-<syntaxhighlight lang="html5">
+```
+
+``` {.html}
     </script>
 </head>
 <body onload="init()">
@@ -349,37 +380,41 @@ The example below shows the width and height attributes:
     <div id="dvPointerStatus"></div>
 </body>
 </html>
-</syntaxhighlight>
+```
 
-===pressure===
-Another attribute that you can get with Pointer Events is <code>pressure</code>.  If the hardware supports it, <code>pressure</code> is a floating 
-point value between 0 and 1 (inclusive) where 0 represents no force per area and 1 represents the maximum force per area that the hardware can 
-detect.  If the hardware does not support detecting <code>pressure</code>, the browser might simulate values for pointer devices that do not 
-report pressure, such as 0.5 for any action.
+### pressure
 
-===Pen tiltX and tiltY===
-Like <code>pressure</code>, if the hardware supports it, the tilt of the pen is also included on Pointer Events.  There are two measures:
-* <code>tiltX</code> measures the angle in degrees (-90 to 90) between the pen and a plane formed by the Y Axis and Z Axis as shown below:
-[[File:TiltX.png|alt=Image showing positive TiltX]]
-* <code>tiltY</code> measures the angle in degrees (-90 to 90) between the pen and a plane formed by the X Axis and Z Axis as shown below:
-[[File:TiltY.png|alt=Image showing positive TiltY]]
+Another attribute that you can get with Pointer Events is `pressure`. If the hardware supports it, `pressure` is a floating point value between 0 and 1 (inclusive) where 0 represents no force per area and 1 represents the maximum force per area that the hardware can detect. If the hardware does not support detecting `pressure`, the browser might simulate values for pointer devices that do not report pressure, such as 0.5 for any action.
 
-If the pen is perpendicular to the plane formed by the X Axis and Y Axis, then its <code>tiltX</code> and <code>tiltY</code> values will both be zero.
+### Pen tiltX and tiltY
 
-==Multiple Pointers At Once / Multi-Touch==
-Pointer Events allows for interacting with multiple pointers at once.  However, there are some systems where two touches on a screen at once 
-causes the screen to pan or zoom.  
+Like `pressure`, if the hardware supports it, the tilt of the pen is also included on Pointer Events. There are two measures:
 
-As the developer, you can disable pan and zoom behaviors by setting the CSS style of <code>touch-action</code> to none.  For example:
+-   `tiltX` measures the angle in degrees (-90 to 90) between the pen and a plane formed by the Y Axis and Z Axis as shown below:
 
-<syntaxhighlight lang="html5">
+![Image showing positive TiltX](/assets/public/2/20/TiltX.png)
+
+-   `tiltY` measures the angle in degrees (-90 to 90) between the pen and a plane formed by the X Axis and Z Axis as shown below:
+
+![Image showing positive TiltY](/assets/public/6/62/TiltY.png)
+
+If the pen is perpendicular to the plane formed by the X Axis and Y Axis, then its `tiltX` and `tiltY` values will both be zero.
+
+## Multiple Pointers At Once / Multi-Touch
+
+Pointer Events allows for interacting with multiple pointers at once. However, there are some systems where two touches on a screen at once causes the screen to pan or zoom.
+
+As the developer, you can disable pan and zoom behaviors by setting the CSS style of `touch-action` to none. For example:
+
+``` {.html}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script type="text/javascript">
-</syntaxhighlight>
-<syntaxhighlight lang="javascript">
+```
+
+``` {.js}
         function PointerDownResponse(event) {
             document.getElementById("dvPointerStatus").innerHTML +=
                 "PointerId:" + event.pointerId +
@@ -392,8 +427,9 @@ As the developer, you can disable pan and zoom behaviors by setting the CSS styl
             // Support for prefixed IE10 implementation
             document.addEventListener("MSPointerDown", PointerDownResponse, false);
         }
-</syntaxhighlight>
-<syntaxhighlight lang="html5">
+```
+
+``` {.html}
     </script>
 </head>
 <body onload="init()">
@@ -402,31 +438,33 @@ As the developer, you can disable pan and zoom behaviors by setting the CSS styl
     <div style="float:left; background-color:orange; height:300px; width:300px">
             Touches in this box will invoke default pan and zoom behaviors
     </div>
-    <div style="float:left; background-color:blue; height:300px; width:300px; 
+    <div style="float:left; background-color:blue; height:300px; width:300px;
         touch-action:none; -ms-touch-action:none;">
             This box has touch-action set to none
     </div>
 </body>
 </html>
-</syntaxhighlight>
+```
 
-By disabling pan and zoom behaviors, you can capture Pointer Events for multiple pointers at the same time and build exciting multi-touch interactive experiences for your end-users.
+ By disabling pan and zoom behaviors, you can capture Pointer Events for multiple pointers at the same time and build exciting multi-touch interactive experiences for your end-users.
 
-==Detecting which Button(s) are Pressed==
+## Detecting which Button(s) are Pressed
+
 Another opportunity for building new interactive experiences for your end-users is multi-button interactions.
 
-Pointer Events provides <code>button</code> and <code>buttons</code> that indicate which input device button(s) were involved in an interaction.  For example:
+Pointer Events provides `button` and `buttons` that indicate which input device button(s) were involved in an interaction. For example:
 
-<syntaxhighlight lang="html5">
+``` {.html}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script type="text/javascript">
-</syntaxhighlight>
-<syntaxhighlight lang="javascript">
+```
+
+``` {.js}
         function PointerDownInfo(event) {
-            document.getElementById("dvPointerStatus").innerHTML += 
+            document.getElementById("dvPointerStatus").innerHTML +=
                 "Button: " + event.button + " Buttons: " + event.buttons + "<br />";
         }
 
@@ -436,8 +474,9 @@ Pointer Events provides <code>button</code> and <code>buttons</code> that indica
             // Support for legacy IE10 implementation
             document.addEventListener("MSPointerDown", PointerDownInfo, false);
         }
-</syntaxhighlight>
-<syntaxhighlight lang="html5">
+```
+
+``` {.html}
     </script>
 </head>
 <body onload="init()">
@@ -445,44 +484,53 @@ Pointer Events provides <code>button</code> and <code>buttons</code> that indica
     <div id="dvPointerStatus"></div>
 </body>
 </html>
-</syntaxhighlight>
+```
 
-Here is the list of potential values for <code>button</code> and <code>buttons</code>:
+ Here is the list of potential values for `button` and `buttons`:
 
-<table>
-<tr><th>Device Button State</th><th>button</th><th>buttons</th></tr>
-<tr><td>Mouse move with no buttons pressed</td><td>-1</td><td>0</td></tr>
-<tr><td>Left Mouse, Touch Contact, Pen contact (with no modifier buttons pressed)</td><td>0</td><td>1</td></tr>
-<tr><td>Middle Mouse</td><td>1</td><td>4</td></tr>
-<tr><td>Right Mouse, Pen contact with barrel button pressed</td><td>2</td><td>2</td></tr>
-<tr><td>X1 (back) Mouse</td><td>3</td><td>8</td></tr>
-<tr><td>X2 (forward) Mouse</td><td>4</td><td>16</td></tr>
-<tr><td>Pen contact with eraser button pressed</td><td>5</td><td>32</td></tr>
-</table>
+Device Button State
+:   button
+Mouse move with no buttons pressed
+:   -1
+Left Mouse, Touch Contact, Pen contact (with no modifier buttons pressed)
+:   0
+Middle Mouse
+:   1
+Right Mouse, Pen contact with barrel button pressed
+:   2
+X1 (back) Mouse
+:   3
+X2 (forward) Mouse
+:   4
+Pen contact with eraser button pressed
+:   5
 
-==Try Pointer Events Today==
-You can tell if a browser supports Pointer Events by checking the <code>navigator.PointerEnabled</code> attribute:
+## Try Pointer Events Today
 
-<syntaxhighlight lang="html5">
+You can tell if a browser supports Pointer Events by checking the `navigator.PointerEnabled` attribute:
+
+``` {.html}
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
     <script type="text/javascript">
-</syntaxhighlight>
-<syntaxhighlight lang="javascript">
+```
+
+``` {.js}
         function init() {
             if ( (navigator.pointerEnabled) || (navigator.msPointerEnabled) ) {
-                document.getElementById("dvPointerStatus").innerHTML = 
-                    "This browser supports Pointer Events :)<br />and supports " +
+                document.getElementById("dvPointerStatus").innerHTML =
+                    "This browser supports Pointer Events :)<br />and supports " +
                     navigator.maxTouchPoints + " simultaneous touch contacts.";
             } else {
-                document.getElementById("dvPointerStatus").innerHTML = 
-                    "This browser does not support Pointer Events. :("
+                document.getElementById("dvPointerStatus").innerHTML =
+                    "This browser does not support Pointer Events. :("
             }
         }
-</syntaxhighlight>
-<syntaxhighlight lang="html5">
+```
+
+``` {.html}
     </script>
 </head>
 <body onload="init()">
@@ -490,86 +538,89 @@ You can tell if a browser supports Pointer Events by checking the <code>navigato
     <div id="dvPointerStatus"></div>
 </body>
 </html>
-</syntaxhighlight>
+```
 
-Also shown in the above example is how to use the <code>navigator.maxTouchPoints</code> attribute to check the maximum number of touch points 
-the hardware supports.
+ Also shown in the above example is how to use the `navigator.maxTouchPoints` attribute to check the maximum number of touch points the hardware supports.
 
-===Webkit With Pointer Events Patch===
-As of February 2013, builds of WebKit with the Pointer Events patch for OSX and Windows are linked from this blog post by appendTo: http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/
+### Webkit With Pointer Events Patch
 
-===Internet Explorer 10===
-A version of Pointer Events was implemented in IE10 and Pointer Events are prefixed with ''MS'' (for Microsoft.)
+As of February 2013, builds of WebKit with the Pointer Events patch for OSX and Windows are linked from this blog post by appendTo: [http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/](http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/)
 
-IE10 is included with Windows 8 and Windows Server 2012.  
+### Internet Explorer 10
 
-IE10 for Windows 7 or Windows Server 2008 can be downloaded from: 
-http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-10/worldwide-languages
+A version of Pointer Events was implemented in IE10 and Pointer Events are prefixed with *MS* (for Microsoft.)
 
-==Further Reading==
-If you're interested in the W3C standardization process for Pointer Events, including reading the specification and providing feedback, 
-here are some useful links:
-* Specification: http://www.w3.org/TR/pointerevents/ 
-* Pointer Events Working Group: http://www.w3.org/2012/pointerevents/ 
-* Working Group Charter: http://www.w3.org/2012/pointerevents/charter/ 
-* Working Group Email List: mailto:public-pointer-events@w3.org 
-* Working Group Email List Archive: http://lists.w3.org/Archives/Public/public-pointer-events/
+IE10 is included with Windows 8 and Windows Server 2012.
 
-To provide feedback to the working group, send [mailto:public-pointer-events@w3.org email to the Pointer Events WG].
+IE10 for Windows 7 or Windows Server 2008 can be downloaded from: [http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-10/worldwide-languages](http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-10/worldwide-languages)
+
+## Further Reading
+
+If you're interested in the W3C standardization process for Pointer Events, including reading the specification and providing feedback, here are some useful links:
+
+-   Specification: [http://www.w3.org/TR/pointerevents/](http://www.w3.org/TR/pointerevents/)
+-   Pointer Events Working Group: [http://www.w3.org/2012/pointerevents/](http://www.w3.org/2012/pointerevents/)
+-   Working Group Charter: [http://www.w3.org/2012/pointerevents/charter/](http://www.w3.org/2012/pointerevents/charter/)
+-   Working Group Email List: [mailto:public-pointer-events@w3.org](mailto:public-pointer-events@w3.org)
+-   Working Group Email List Archive: [http://lists.w3.org/Archives/Public/public-pointer-events/](http://lists.w3.org/Archives/Public/public-pointer-events/)
+
+To provide feedback to the working group, send [email to the Pointer Events WG](mailto:public-pointer-events@w3.org).
 
 If you're interested in the patch that adds Pointer Events to WebKit, see:
-* 2013-02-11 (AppendTo Blog): [http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/ Prototype Chromium build with support for MS Pointer Events]
-* 2012-12-18 (Interoperability @ Microsoft): [http://blogs.msdn.com/b/interoperability/archive/2012/12/18/open-source-release-from-ms-open-tech-pointer-events-initial-prototype-for-webkit.aspx Open source release from MS Open Tech: Pointer Events initial prototype for WebKit]
-* 2012-12-18 (HTML5 Labs): [http://html5labs.interoperabilitybridges.com/prototypes/pointer-events-for-webkit/pointer-events-for-webkit/info Pointer Events for WebKit]
+
+-   2013-02-11 (AppendTo Blog): [Prototype Chromium build with support for MS Pointer Events](http://appendto.com/blog/2013/02/prototype-chromium-build-with-support-for-ms-pointer-events/)
+-   2012-12-18 (Interoperability @ Microsoft): [Open source release from MS Open Tech: Pointer Events initial prototype for WebKit](http://blogs.msdn.com/b/interoperability/archive/2012/12/18/open-source-release-from-ms-open-tech-pointer-events-initial-prototype-for-webkit.aspx)
+-   2012-12-18 (HTML5 Labs): [Pointer Events for WebKit](http://html5labs.interoperabilitybridges.com/prototypes/pointer-events-for-webkit/pointer-events-for-webkit/info)
 
 If you're interested in some of the history and evolution of Pointer Events, visit these links from the IEBlog:
-* 2012-11-12 (IEBlog): [http://blogs.msdn.com/b/ie/archive/2012/11/12/w3c-charters-pointer-events-working-group.aspx W3C Charters Pointer Events Working Group]
-* 2012-09-24 (IEBlog): [http://blogs.msdn.com/b/ie/archive/2012/09/24/towards-interoperable-pointer-events-evolving-input-events-for-multiple-devices.aspx Towards Interoperable Pointer Events: Evolving Input Events for Multiple Devices]
-* 2012-04-20 (IEBlog): [http://blogs.msdn.com/b/ie/archive/2012/04/20/guidelines-for-building-touch-friendly-sites.aspx Guildelines for Building Touch-friendly Sites]
-* 2011-09-20 (IEBlog): [http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx Touch Input for IE10 and Metro style Apps]
+
+-   2012-11-12 (IEBlog): [W3C Charters Pointer Events Working Group](http://blogs.msdn.com/b/ie/archive/2012/11/12/w3c-charters-pointer-events-working-group.aspx)
+-   2012-09-24 (IEBlog): [Towards Interoperable Pointer Events: Evolving Input Events for Multiple Devices](http://blogs.msdn.com/b/ie/archive/2012/09/24/towards-interoperable-pointer-events-evolving-input-events-for-multiple-devices.aspx)
+-   2012-04-20 (IEBlog): [Guildelines for Building Touch-friendly Sites](http://blogs.msdn.com/b/ie/archive/2012/04/20/guidelines-for-building-touch-friendly-sites.aspx)
+-   2011-09-20 (IEBlog): [Touch Input for IE10 and Metro style Apps](http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx)
 
 Here are a few news articles about Pointer Events:
-* 2012-12-20 (NeoWin): http://www.neowin.net/news/microsoft-offers-pointer-events-specs-to-webkit-developers 
-* 2012-12-19 (Ars Technica): http://arstechnica.com/information-technology/2012/12/microsoft-offers-patches-to-webkit-to-aid-touch-compatibility/
-* 2012-09-24 (The Next Web): http://thenextweb.com/microsoft/2012/09/24/the-w3c-accepted-published-microsofts-pointer-events-submission/
 
-==Appendix: Designing for Touch==
-[[File:TouchGuidelines.png|frame|alt=Image showing 40px hit targets and 10px spacing]]
+-   2012-12-20 (NeoWin): [http://www.neowin.net/news/microsoft-offers-pointer-events-specs-to-webkit-developers](http://www.neowin.net/news/microsoft-offers-pointer-events-specs-to-webkit-developers)
+-   2012-12-19 (Ars Technica): [http://arstechnica.com/information-technology/2012/12/microsoft-offers-patches-to-webkit-to-aid-touch-compatibility/](http://arstechnica.com/information-technology/2012/12/microsoft-offers-patches-to-webkit-to-aid-touch-compatibility/)
+-   2012-09-24 (The Next Web): [http://thenextweb.com/microsoft/2012/09/24/the-w3c-accepted-published-microsofts-pointer-events-submission/](http://thenextweb.com/microsoft/2012/09/24/the-w3c-accepted-published-microsofts-pointer-events-submission/)
+
+## Appendix: Designing for Touch
+
+![Image showing 40px hit targets and 10px spacing](/assets/public/a/a9/TouchGuidelines.png)
 
 There are a few key principles that web designers should keep in-mind when updating pages for modern web browsers:
-# '''There may be no hover''' &mdash; For touch-only devices like many smartphones, there is no ability to hover without invoking
-# '''Don't make hit targets too small''' &mdash; Studies by Microsoft indicate about 11mm is a good size hit target
-# '''Have spacing between targets''' &mdash; Studies also by Microsoft suggest 2mm is a good size for spacing between hit targets
 
-For more information, see: http://blogs.msdn.com/b/ie/archive/2012/04/20/guidelines-for-building-touch-friendly-sites.aspx
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Pointer Events
-|URL=http://www.w3.org/TR/pointerevents/
-|Status=Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Pointer Events
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM, DOMEvents, Touch}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+1.  **There may be no hover** — For touch-only devices like many smartphones, there is no ability to hover without invoking
+2.  **Don't make hit targets too small** — Studies by Microsoft indicate about 11mm is a good size hit target
+3.  **Have spacing between targets** — Studies also by Microsoft suggest 2mm is a good size for spacing between hit targets
+
+For more information, see: [http://blogs.msdn.com/b/ie/archive/2012/04/20/guidelines-for-building-touch-friendly-sites.aspx](http://blogs.msdn.com/b/ie/archive/2012/04/20/guidelines-for-building-touch-friendly-sites.aspx)
+
+## Related specifications
+
+Specification
+:   Status
+[Pointer Events](http://www.w3.org/TR/pointerevents/)
+:   Working Draft
+
+## See also
+
+### Related articles
+
+#### Pointer Events
+
+-   **Pointer Events Primer**
+
+-   [releasePointerCapture](/dom/Element/releasePointerCapture)
+
+-   [setPointerCapture](/dom/Element/setPointerCapture)
+
+-   [maxTouchPoints](/dom/Navigator/maxTouchPoints)
+
+-   [pointerEnabled](/dom/Navigator/pointerEnabled)
+
+-   [PointerEvent](/dom/PointerEvent)
+
+-   [Introduction to multi-touch Web development](/tutorials/mobile_touch)
+

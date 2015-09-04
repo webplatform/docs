@@ -1,47 +1,72 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{API_Object
-|Subclass_of=svg/objects/SVGElement
-}}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
+---
+title: SVGPathSegCurvetoQuadraticRel
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/objects/SVGPathSegCurvetoQuadraticRel
 
-===Remarks===
+---
+# SVGPathSegCurvetoQuadraticRel
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
 
-The '''q''' object uses relative coordinates to draw a quadratic B&eacute;zier curve from the current point to (x,y) by using (x1,y1) as the control point.  You can specify multiple sets of coordinates to draw a polyb&eacute;zier. At the end of the command, the new current point becomes the final (x,y) coordinate pair that is used in the polyb&eacute;zier.
+## Properties
 
-|Import_Notes=
+*No properties.*
 
-===Standards information===
+## Methods
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204736 Scalable Vector Graphics: Paths], Section 8.5.10
+*No methods.*
 
-===Members===
+## Events
 
-The '''SVGPathSegCurvetoQuadraticRel''' object has these properties:
+*No events.*
 
-*[[svg/properties/pathSegType|'''pathSegType''']]: Gets the type of the path segment.
-*[[svg/properties/pathSegTypeAsLetter|'''pathSegTypeAsLetter''']]: Gets the type of the path segment, specified by the corresponding one-character command name.
-*[[svg/properties/x|'''x''']]: Gets or sets the x-coordinate value.
-*[[svg/properties/x1|'''x1''']]: Gets or sets the absolute or relative x-coordinate for the first control point.
-*[[svg/properties/y|'''y''']]: Gets or sets the y-coordinate value.
-*[[svg/properties/y1|'''y1''']]: Gets or sets the absolute or relative y-coordinate for the first control point.
+## Inherited from SVGElement
 
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+### Properties
+
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+## Notes
+
+### Remarks
+
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+The **q** object uses relative coordinates to draw a quadratic Bézier curve from the current point to (x,y) by using (x1,y1) as the control point. You can specify multiple sets of coordinates to draw a polybézier. At the end of the command, the new current point becomes the final (x,y) coordinate pair that is used in the polybézier.
+
+### Standards information
+
+-   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.10
+
+### Members
+
+The **SVGPathSegCurvetoQuadraticRel** object has these properties:
+
+-   [**pathSegType**](/svg/properties/pathSegType): Gets the type of the path segment.
+-   [**pathSegTypeAsLetter**](/svg/properties/pathSegTypeAsLetter): Gets the type of the path segment, specified by the corresponding one-character command name.
+-   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
+-   [**x1**](/svg/properties/x1): Gets or sets the absolute or relative x-coordinate for the first control point.
+-   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
+-   [**y1**](/svg/properties/y1): Gets or sets the absolute or relative y-coordinate for the first control point.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

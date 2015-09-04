@@ -1,62 +1,57 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Deletion candidate; see http://docs.webplatform.org/wiki/css/properties/fill-rule
-|Checked_Out=Yes
-|High-level issues=Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Please refer to http://docs.webplatform.org/wiki/css/properties/fill-rule}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
+---
+title: fill-rule
+tags:
+  - Markup
+  - Attributes
+  - SVG
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Deletion candidate; see http://docs.webplatform.org/wiki/css/properties/fill-rule'
+summary: 'Please refer to http://docs.webplatform.org/wiki/css/properties/fill-rule'
+uri: svg/attributes/fill-rule
 
- '''fill-rule: '''nonzero '''{{!}}''' evenodd '''{{!}}''' inherit
+---
+# fill-rule
 
-===Standards information===
+## Summary
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.3
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+Please refer to http://docs.webplatform.org/wiki/css/properties/fill-rule
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[css/cssom/currentStyle|'''currentStyle''']]
-*[[css/cssom/style|'''style''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+Applies to
+:    ?
+
+**Needs Examples**: This section should include examples.
+
+### Syntax
+
+    fill-rule: nonzero | evenodd | inherit
+
+### Standards information
+
+-   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.3
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**currentStyle**](/css/cssom/currentStyle)
+-   [**style**](/css/cssom/style)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

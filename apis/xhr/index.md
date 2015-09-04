@@ -1,38 +1,53 @@
-{{Page_Title|XMLHttpRequest (XHR) API}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs correct listing of child pages.
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.}}
-{{API_Listing|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Concept_Listing
-|Query=[[Category:XHR]][[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{See_Also_Section
-|Topic_clusters=XHR
-|Manual_links=
-|External_links=*[http://www.w3.org/TR/XMLHttpRequest/ W3C XMLHttpRequest Specification]
-|Manual_sections=
-}}
-{{Topics|API, XHR}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-[[Category:API_Listings]]
+---
+title: xhr
+tags:
+  0: API
+  1: Listings
+  3: XHR
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs correct listing of child pages.'
+summary: 'XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.'
+uri: apis/xhr
+
+---
+# XMLHttpRequest (XHR) API
+
+## Summary
+
+XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.
+
+API Name
+:   Summary
+[XMLHttpRequest](/apis/xhr/XMLHttpRequest)
+:   XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.
+[DOMParser](/apis/xhr/objects/DOMParser)
+:
+
+## See also
+
+### Related articles
+
+#### XHR
+
+-   **XMLHttpRequest (XHR) API**
+
+-   [XMLHttpRequest](/apis/xhr/XMLHttpRequest)
+
+-   [FormData](/dom/FormData)
+
+-   [MSEPrimer](/tutorials/MSEPrimer)
+
+-   [file xhr](/tutorials/file_xhr)
+
+### External resources
+
+-   [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

@@ -1,32 +1,41 @@
-{{Page_Title|Text values in CSS properties}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{API_Name}}
-{{Summary_Section|Various CSS data types are expressed using character text, however the meaning and syntax of each type differs.}}
-{{Concept_Page
-|Content=Text-like [[css/data_types|CSS data-types]] include:
+---
+title: text
+tags:
+  - Concept
+  - Pages
+  - CSS
+readiness: 'Ready to Use'
+summary: 'Various CSS data types are expressed using character text, however the meaning and syntax of each type differs.'
+uri: 'css/data types/text'
 
-* [[css/data_types/string|<code>&lt;string></code>s]]
+---
+# Text values in CSS properties
 
-* [[css/data_types/custom_ident|<code>&lt;custom-ident></code> (custom identifier) values]]
+## Summary
 
-* [[css/data_types/keyword|keywords]]
+Various CSS data types are expressed using character text, however the meaning and syntax of each type differs.
 
-In addition, various [[css/functions| CSS functions]] can be used to generate values of these or other data types.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Code=a[href$=".pdf"]::after {
+ Text-like [CSS data-types](/css/data_types) include:
+
+-   [`<string>`s](/css/data_types/string)
+
+-   [`<custom-ident>` (custom identifier) values](/css/data_types/custom_ident)
+
+-   [keywords](/css/data_types/keyword)
+
+In addition, various [CSS functions](/css/functions) can be used to generate values of these or other data types.
+
+## Examples
+
+``` {.css}
+a[href$=".pdf"]::after {
     /* literal string marks links to PDF files */
     content: " (PDF)";
 }
-}}{{Single Example
-|Language=CSS
-|Code=.pulse {
+```
+
+``` {.css}
+.pulse {
     /* identifier for keyframe animation defined below */
     animation-name: pulse
     animation-duration: 1s;
@@ -42,21 +51,12 @@ In addition, various [[css/functions| CSS functions]] can be used to generate va
     from { opacity: 1   }
     to   { opacity: 0.5 }
 }
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Values and Units Module Level 3
-|URL=http://www.w3.org/TR/css3-values/
-|Status=Candidate Recommendation
-}}
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
+:   Candidate Recommendation
+

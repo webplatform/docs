@@ -1,50 +1,41 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Gets the number of dropped video frames.}}
-{{API_Object_Property
-|Property_applies_to=apis/media_source_extensions/VideoPlaybackQuality
-|Read_only=No
-|Example_object_name=VideoPlaybackQuality
-|Return_value_name=number
-|Javascript_data_type=Number
-|Return_value_description=
-|Example_value_name=number
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: droppedVideoFrames
+tags:
+  - API
+  - Object
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Needs example, spec reference'
+summary: 'Gets the number of dropped video frames.'
+uri: 'apis/media source extensions/VideoPlaybackQuality/droppedVideoFrames'
+
+---
+# droppedVideoFrames
+
+## Summary
+
+Gets the number of dropped video frames.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)</span></span>
+
+## Syntax
+
+``` {.js}
+var number = VideoPlaybackQuality.droppedVideoFrames;
+VideoPlaybackQuality.droppedVideoFrames = number;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+
+**Needs Examples**: This section should include examples.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network.
+

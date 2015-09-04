@@ -1,50 +1,38 @@
-{{Page_Title|abort}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs example, usage, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Stub, Needs Review
-}}
-{{Standardization_Status}}
-{{API_Name|abort}}
-{{Summary_Section|When the request has been aborted. For instance, by invoking the abort() method.}}
-{{Event
-|Event_applies_to=apis/xhr/XMLHttpRequest
-|Synchronous=No
-|Bubbles=No
-|Target=
-|Cancelable=No
-|Default_action=
-|Content=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, XHR}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: abort-event
+tags:
+  - Events
+  - API
+  - XHR
+readiness: 'Not Ready'
+notes:
+  - 'Needs example, usage, spec reference, standardization status'
+summary: 'When the request has been aborted. For instance, by invoking the abort() method.'
+uri: apis/xhr/XMLHttpRequest/abort-event
+
+---
+# abort
+
+## abort
+
+For technical reasons, the title of this article is not the text used to call this API. Instead, use `abort`
+
+## Summary
+
+When the request has been aborted. For instance, by invoking the abort() method.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:
+Cancelable
+:   No
+Default action
+:
+
+**Needs Examples**: This section should include examples.
+

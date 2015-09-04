@@ -1,61 +1,55 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Element
-|DOM_interface=svg/objects/SVGElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: style
+tags:
+  - Markup
+  - Elements
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+uri: svg/elements/style
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+---
+# style
 
-The '''style''' element  enables you to embed  style sheets directly within SVG content. The  '''style''' element has the same attributes as the corresponding element in HTML.
-|Import_Notes====Standards information===
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204734 Scalable Vector Graphics: Styling], Section 6.18.1
+## Overview Table
 
-===Members===
+[DOM Interface](/dom/interface)
+:   [SVGElement](/svg/objects/SVGElement)
 
-The '''SVGStyleElement''' object has these events:
+**Needs Examples**: This section should include examples.
 
-*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
+## Notes
 
-The '''SVGStyleElement''' object has these properties:
+### Remarks
 
-*[[svg/properties/media|'''media''']]: Gets or sets  the destination medium for style information.
-*[[svg/properties/title|'''title''']]: Gets or returns the advisory title of the '''SVGStyleElement'''.
-*[[svg/properties/type (SVGStyleElement)|'''type''']]: Gets the style sheet language of the '''style''' element's contents.
-*[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
-*[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+The **style** element enables you to embed style sheets directly within SVG content. The **style** element has the same attributes as the corresponding element in HTML.
+
+### Standards information
+
+-   [Scalable Vector Graphics: Styling](http://go.microsoft.com/fwlink/p/?linkid=204734), Section 6.18.1
+
+### Members
+
+The **SVGStyleElement** object has these events:
+
+-   [**onload**](/svg/events/load): Occurs when the browser has fully parsed the element and all of its descendants.
+
+The **SVGStyleElement** object has these properties:
+
+-   [**media**](/svg/properties/media): Gets or sets the destination medium for style information.
+-   [**title**](/svg/properties/title): Gets or returns the advisory title of the **SVGStyleElement**.
+-   [**type**](/svg/properties/type_(SVGStyleElement)): Gets the style sheet language of the **style** element's contents.
+-   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
+-   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

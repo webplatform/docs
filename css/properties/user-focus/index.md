@@ -1,51 +1,54 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|This is for all the high level UX stuff.}}
-{{CSS Property
-|Initial value=all
-|Applies to=visible elements
-|Inherited=Yes
-|Media=visual
-|Computed value=Specified value
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=none
-|Description=None of the descendants of the element can be brought under consideration or focus, neither text nor images.
-}}{{CSS Property Value
-|Data Type=text
-|Description=Only text of the element and its descendants can be focused or brought under consideration..
-}}{{CSS Property Value
-|Data Type=all
-|Description=Default.  Every single thing is under focus.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: user-focus
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+summary: 'This is for all the high level UX stuff.'
+uri: css/properties/user-focus
+
+---
+# user-focus
+
+## Summary
+
+This is for all the high level UX stuff.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `all`
+Applies to
+:   visible elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   Specified value
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `user-focus: all`
+-   `user-focus: none`
+-   `user-focus: text`
+
+## Values
+
+none
+:   None of the descendants of the element can be brought under consideration or focus, neither text nor images.
+
+text
+:   Only text of the element and its descendants can be focused or brought under consideration..
+
+all
+:   Default. Every single thing is under focus.
+
+**Needs Examples**: This section should include examples.
+

@@ -1,94 +1,101 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specifies what parts of an element’s content are  skipped over when applying any text decoration.}}
-{{CSS Property
-|Initial value=objects
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=textDecorationSkip
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=none
-|Description=Will not skip anything; the text decoration will be drawn for all text content
-}}{{CSS Property Value
-|Data Type=object
-|Description=Will skip the element (including it’s margin) if it’s atomic inline
-}}{{CSS Property Value
-|Data Type=spaces
-|Description=Will skip white space,  including:
-* regular spaces - U+0020
-* tabs - U+0009
-* nbsp - U+00A0
-* ideographic space - U+3000
-* all fixed width spaces - examples: U+2000 to U+200A, U+202F and U+205F
-* any adjacent letter-spacing or word-spacing
-}}{{CSS Property Value
-|Data Type=ink
-|Description=Will skip over where any glyphs are drawn. It will interrupt the decoration line so that the text will show through where otherwise the decoration would cross through the text. This commonly includes ascenders and descenders of glyphs. 
+---
+title: text-decoration-skip
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Specifies what parts of an element’s content are  skipped over when applying any text decoration.'
+uri: css/properties/text-decoration-skip
+
+---
+# text-decoration-skip
+
+## Summary
+
+Specifies what parts of an element’s content are skipped over when applying any text decoration.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `objects`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `textDecorationSkip`
+
+## Syntax
+
+-   `text-decoration-skip: box-decoration`
+-   `text-decoration-skip: edges`
+-   `text-decoration-skip: ink`
+-   `text-decoration-skip: none`
+-   `text-decoration-skip: object`
+-   `text-decoration-skip: spaces`
+
+## Values
+
+none
+:   Will not skip anything; the text decoration will be drawn for all text content
+
+object
+:   Will skip the element (including it’s margin) if it’s atomic inline
+
+spaces
+:   Will skip white space, including:
+
+-   regular spaces - U+0020
+-   tabs - U+0009
+-   nbsp - U+00A0
+-   ideographic space - U+3000
+-   all fixed width spaces - examples: U+2000 to U+200A, U+202F and U+205F
+-   any adjacent letter-spacing or word-spacing
+
+ink
+:   Will skip over where any glyphs are drawn. It will interrupt the decoration line so that the text will show through where otherwise the decoration would cross through the text. This commonly includes ascenders and descenders of glyphs.
 
 Note: The UA also may skip over small distances on the right or the left side of the glyph outline
-}}{{CSS Property Value
-|Data Type=box-decoration
-|Description=Will skip over the box's margin, border, and padding areas.
+
+box-decoration
+:   Will skip over the box's margin, border, and padding areas.
 
 Note: It is not known yet if this is a needed value
-}}{{CSS Property Value
-|Data Type=edges
-|Description=The text decoration will be inset slightly, so that two side by side elements do not appear to have a single continuous decoration. This is important for Chinese content, where underlining is a form of punctuation.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Skip ascenders and descenders, allowing text to show through any decoration.
-|Code=p {
+
+edges
+:   The text decoration will be inset slightly, so that two side by side elements do not appear to have a single continuous decoration. This is important for Chinese content, where underlining is a form of punctuation.
+
+## Examples
+
+Skip ascenders and descenders, allowing text to show through any decoration.
+
+``` {.css}
+p {
    text-decoration-skip: ink;
 }
+```
 
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=This property inherits so the descendent elements can have different setting.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Text Decoration Module Level 3
-|URL=http://www.w3.org/TR/css-text-decor-3/
-|Status=Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/gg721763(v=expression.40).aspx
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## Notes
+
+This property inherits so the descendent elements can have different setting.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Text Decoration Module Level 3](http://www.w3.org/TR/css-text-decor-3/)
+:   Candidate Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/gg721763(v=expression.40).aspx)
+

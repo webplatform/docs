@@ -1,72 +1,190 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Update/improve example; update descriptions; fix lists & compatibility info
-|Checked_Out=Yes
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The autocomplete attribute specifies whether a browser should automatically provide values for a form element.}}
-{{Markup_Attribute
-|Applies_to=[[html/elements/input|HTMLInputElement]]
-|Property_applies_to=dom/HTMLElement
-|Content=When autocomplete is on, the browser may automatically fill previously entered values, or match input [[html/attributes/name|names]] with values the user has provided.
+---
+title: autocomplete
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Update/improve example; update descriptions; fix lists & compatibility info'
+summary: 'The autocomplete attribute specifies whether a browser should automatically provide values for a form element.'
+uri: html/attributes/autocomplete
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/elements/input/password
+    - html/elements/input/text
 
-For sensitive information or form content that is not repeated, autocomplete should be turned off so the user is forced to fill the field every time. 
+---
+# autocomplete
+
+## Summary
+
+The autocomplete attribute specifies whether a browser should automatically provide values for a form element.
+
+Applies to
+:   [HTMLInputElement](/html/elements/input)
+
+When autocomplete is on, the browser may automatically fill previously entered values, or match input [names](/html/attributes/name) with values the user has provided.
+
+For sensitive information or form content that is not repeated, autocomplete should be turned off so the user is forced to fill the field every time.
 
 Autocomplete should also be turned off if the website provides its own mechanism for filling a field; for example, an autocomplete like shown in this site's search.
 
-Valid values for autocomplete are <code>on</code> or <code>off</code>. The attribute is not required.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''AUTOCOMPLETE''' attribute to disable the AutoComplete feature.
-|Code=<input type="password" autocomplete="off">
-}}{{Single Example
-|Language=HTML
-|Description=The following example shows an HTML form with autocomplete on. One of the inputs ha autocomplete off.
-|Code=<form action="submit.php" autocomplete="on">
-  First name:<input type="text" name="name"><br />
-  Last name: <input type="text" name="surname"><br />
-  E-mail: <input type="email" name="email" autocomplete="off"><br />
+Valid values for autocomplete are `on` or `off`. The attribute is not required.
+
+## Examples
+
+This example uses the **AUTOCOMPLETE** attribute to disable the AutoComplete feature.
+
+``` {.html}
+<input type="password" autocomplete="off">
+```
+
+The following example shows an HTML form with autocomplete on. One of the inputs ha autocomplete off.
+
+``` {.html}
+<form action="submit.php" autocomplete="on">
+  First name:<input type="text" name="name">
+  Last name: <input type="text" name="surname">
+  E-mail: <input type="email" name="email" autocomplete="off">
   <input type="submit">
 </form>
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/forms.html#attr-form-autocomplete
-|Status=W3C Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=HTML, Security
-|Manual_sections====Related pages (MSDN)===
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}text</code>
-*<code>form</code>
+```
 
-[[html/elements/input/password]]
-[[html/elements/input/text]]
-[[html/elements/form]]
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+## Related specifications
+
+Specification
+:   Status
+[HTML5](http://www.w3.org/TR/html5/forms.html#attr-form-autocomplete)
+:   W3C Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   **autocomplete**
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+#### Security
+
+-   **autocomplete**
+
+### Related pages (MSDN)
+
+-   `input type=password`
+-   `input type=text`
+-   `form`
+
+[html/elements/input/password](/w/index.php?title=html/elements/input/password&action=edit&redlink=1) [html/elements/input/text](/w/index.php?title=html/elements/input/text&action=edit&redlink=1) [html/elements/form](/html/elements/form)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

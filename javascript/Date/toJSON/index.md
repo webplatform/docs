@@ -1,30 +1,36 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Used by the [[javascript/JSON/stringify{{!}}JSON.stringify]] method to enable the transformation of an object's data for JavaScript Object Notation (JSON) serialization.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=objectname.'''toJSON()'''
-}}
-|Values={{JS Syntax Parameter
-|Name=objectname
-|Required=Required
-|Description=An object for which JSON serialization is wanted.
-}}
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example uses the toJSON method to serialize string member values in uppercase. The toJSON method is called when JSON.stringify is called.
-|Code=var contact = new Object();
+---
+title: toJSON
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Used by the JSON.stringify method to enable the transformation of an object''s data for JavaScript Object Notation (JSON) serialization.'
+uri: javascript/Date/toJSON
+
+---
+# toJSON
+
+## Summary
+
+Used by the JSON.stringify method to enable the transformation of an object's data for JavaScript Object Notation (JSON) serialization.
+
+## Syntax
+
+    objectname.toJSON()
+
+**objectname**
+:   Required. An object for which JSON serialization is wanted.
+
+## Examples
+
+The following example uses the toJSON method to serialize string member values in uppercase. The toJSON method is called when JSON.stringify is called.
+
+``` {.js}
+var contact = new Object();
  contact.firstname = "Jesper";
  contact.surname = "Aaberg";
  contact.phone = ["555-0100", "555-0120"];
- 
+
  contact.toJSON = function(key)
   {
      var replacement = new Object();
@@ -37,48 +43,46 @@
      }
      return replacement;
  };
- 
+
  var jsonText = JSON.stringify(contact);
- 
+
  /* The value of jsonText is:
  '{"firstname":"JESPER","surname":"AABERG","phone":["555-0100","555-0120"]}'
  */
-}}{{Single Example
-|Language=JavaScript
-|Description=The following example illustrates how to use the toJSON method that is a built-in member of the [[javascript/Date{{!}}Date]] object.
-|Code=var dt = new Date('8/24/2009');
+```
+
+The following example illustrates how to use the toJSON method that is a built-in member of the [Date](/javascript/Date) object.
+
+``` {.js}
+var dt = new Date('8/24/2009');
  dt.setUTCHours(7, 30, 0);
  var jsonText = JSON.stringify(dt);
- 
+
  /* The value of jsonText is:
  '"2009-08-24T07:30:00Z"'
  */
-}}
-}}
-{{Remarks_Section
-|Remarks=The toJSON method is used by the JSON.stringify function.JSON.stringify serializes a JavaScript value into JSON text. If a toJSON method is provided to JSON.stringify , the toJSON method is called when JSON.stringify is called.
+```
 
-The toJSON method is a built-in member of the [[javascript/Date{{!}}Date]] JavaScript object. It returns an ISO-formatted date string for the UTC time zone (denoted by the suffix Z).
+## Remarks
+
+The toJSON method is used by the JSON.stringify function.JSON.stringify serializes a JavaScript value into JSON text. If a toJSON method is provided to JSON.stringify , the toJSON method is called when JSON.stringify is called.
+
+The toJSON method is a built-in member of the [Date](/javascript/Date) JavaScript object. It returns an ISO-formatted date string for the UTC time zone (denoted by the suffix Z).
 
 You can override the toJSON method for the Date type, or define a toJSON method for other object types to achieve transformation of data for the specific object type before JSON serialization.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/JSON{{!}}JSON Object]]
-* [[javascript/JSON/parse{{!}}JSON.parse Function]]
-* [[javascript/JSON/stringify{{!}}JSON.stringify Function]]
-* [[javascript/methods{{!}}JavaScript Methods]]
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/cc907896(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+
+## See also
+
+### Other articles
+
+-   [JSON Object](/javascript/JSON)
+-   [JSON.parse Function](/javascript/JSON/parse)
+-   [JSON.stringify Function](/javascript/JSON/stringify)
+-   [JavaScript Methods](/javascript/methods)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc907896(v=vs.94).aspx)
+

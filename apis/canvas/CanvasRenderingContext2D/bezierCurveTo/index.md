@@ -1,65 +1,88 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Ensures there is a subpath for ''(cp1x, cp1y)'', then connects the last point in the subpath to the given point ''(x, y)'' using a cubic Bézier curve with control points ''(cp1x, cp1y)'' and ''(cp2x, cp2y)'', then adds the point ''(x, y)'' to the subpath.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=cp1x
-|Data type=Number
-|Description=The x-coordinate of the first Bézier control point.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=cp1y
-|Data type=Number
-|Description=The y-coordinate of the first Bézier control point.
-|Optional=No
-}}{{Method Parameter
-|Index=2
-|Name=cp2x
-|Data type=Number
-|Description=The x-coordinate of the second Bézier control point.
-|Optional=No
-}}{{Method Parameter
-|Index=3
-|Name=cp2y
-|Data type=Number
-|Description=The y-coordinate of the second Bézier control point.
-|Optional=No
-}}{{Method Parameter
-|Index=4
-|Name=x
-|Data type=Number
-|Description=The x-coordinate of the point to add to the current path.
-|Optional=No
-}}{{Method Parameter
-|Index=5
-|Name=y
-|Data type=Number
-|Description=The y-coordinate of the point to add to the current path.
-|Optional=No
-}}
-|Method_applies_to=apis/canvas/CanvasRenderingContext2D
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+---
+title: bezierCurveTo
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: Canvas
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Ensures there is a subpath for (cp1x, cp1y), then connects the last point in the subpath to the given point (x, y) using a cubic Bézier curve with control points (cp1x, cp1y) and (cp2x, cp2y), then adds the point (x, y) to the subpath.'
+uri: apis/canvas/CanvasRenderingContext2D/bezierCurveTo
 
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following code example draws a Bézier curve between two points. It also draws a reference line to display the deviation of the curve over a straight line between the beginning and ending points.
-|Code=<html>
+---
+# bezierCurveTo
+
+## Summary
+
+Ensures there is a subpath for (cp1x, cp1y), then connects the last point in the subpath to the given point (x, y) using a cubic Bézier curve with control points (cp1x, cp1y) and (cp2x, cp2y), then adds the point (x, y) to the subpath.
+
+*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+
+## Syntax
+
+``` {.js}
+var object = object.bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y);
+```
+
+## Parameters
+
+### cp1x
+
+ Data-type�
+:   Number
+
+ The x-coordinate of the first Bézier control point.
+
+### cp1y
+
+ Data-type�
+:   Number
+
+ The y-coordinate of the first Bézier control point.
+
+### cp2x
+
+ Data-type�
+:   Number
+
+ The x-coordinate of the second Bézier control point.
+
+### cp2y
+
+ Data-type�
+:   Number
+
+ The y-coordinate of the second Bézier control point.
+
+### x
+
+ Data-type�
+:   Number
+
+ The x-coordinate of the point to add to the current path.
+
+### y
+
+ Data-type�
+:   Number
+
+ The y-coordinate of the point to add to the current path.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+Type: **HRESULT**
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## Examples
+
+The following code example draws a Bézier curve between two points. It also draws a reference line to display the deviation of the curve over a straight line between the beginning and ending points.
+
+``` {.js}
+<html>
 <head>
     <title>BezierCurveTo example</title>
 </head>
@@ -90,104 +113,32 @@ If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRES
 
     </body>
 </html>
-|LiveURL=
-}}{{Single Example
-|Language=
-|Description=The following sets up a bezierCurve using a black line with a width of 3 pixels.
-|Code=// Draw a Bézier curve by using the same line cooridinates.
-ctx.beginPath();
-ctx.lineWidth = "3";
-ctx.strokeStyle = "black";
-ctx.moveTo(100, 100);
-ctx.bezierCurveTo(200, 200, 200, 0, 300, 100);
-ctx.stroke();
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=A cubic Bézier curve  must include  three points. The first two are control points and the third is the ending point for the curve. The first point on the curve is the last point in the existing current subpath. If a path does not exist, use the ''beginPath'' and ''moveTo'' methods to create a starting point.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML Canvas 2D Specification
-|URL=http://www.w3.org/TR/2012/CR-2dcontext-20121217/
-|Status=W3C Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=22.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=15.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=2.1
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=5.0-7.0 (partial)
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=3.2
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+```
+
+The following sets up a bezierCurve using a black line with a width of 3 pixels.
+
+    // Draw a Bézier curve by using the same line cooridinates.
+    ctx.beginPath();
+    ctx.lineWidth = "3";
+    ctx.strokeStyle = "black";
+    ctx.moveTo(100, 100);
+    ctx.bezierCurveTo(200, 200, 200, 0, 300, 100);
+    ctx.stroke();
+
+## Notes
+
+A cubic Bézier curve must include three points. The first two are control points and the third is the ending point for the curve. The first point on the curve is the last point in the existing current subpath. If a path does not exist, use the *beginPath* and *moveTo* methods to create a starting point.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
+:   W3C Candidate Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

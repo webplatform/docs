@@ -1,107 +1,109 @@
-{{Page_Title|Conceptos web generales}}
-{{Flags
-|State=Unreviewed
-|Editorial notes=Not in English}}
-==Resumen==
+---
+title: es
+notes:
+  - 'Not in English'
+uri: concepts/es
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - concepts/af
+    - concepts/ar
+    - concepts/ast
+    - concepts/az
+    - concepts/bcc
+    - concepts/bg
+    - concepts/br
+    - concepts/ca
+    - concepts/cs
+    - concepts/da
+    - concepts/de
+    - concepts/diq
+    - concepts/el
+    - concepts/eo
+    - concepts/fa
+    - concepts/fi
+    - concepts/fr
+    - concepts/gl
+    - concepts/gu
+    - concepts/he
+    - concepts/hu
+    - concepts/hy
+    - concepts/id
+    - concepts/it
+    - concepts/ja
+    - concepts/ka
+    - concepts/kk
+    - concepts/km
+    - concepts/ko
+    - concepts/ksh
+    - concepts/kw
+    - concepts/mk
+    - concepts/ml
+    - concepts/mr
+    - concepts/ms
+    - concepts/nl
+    - concepts/no
+    - concepts/oc
+    - concepts/pl
+    - concepts/pt
+    - concepts/pt-br
+    - concepts/ro
+    - concepts/ru
+    - concepts/si
+    - concepts/sk
+    - concepts/sl
+    - concepts/sq
+    - concepts/sr
+    - concepts/sv
+    - concepts/ta
+    - concepts/th
+    - concepts/tr
+    - concepts/uk
+    - concepts/vi
+    - concepts/yue
+    - concepts/zh
+    - concepts/zh-hans
+    - concepts/zh-hant
+    - concepts/zh-tw
 
-Nuestros conceptos web generales son artículos teóricos y tutoriales que abarcan temas generales relacionados con la web y el diseño y desarrollo web, como por ejemplo:  cómo funciona Internet, arquitectura de la información,  tipografía y diseño web. Estos no están directamente vinculados con tecnologías y técnicas específicas tratadas en los otros temas principales del sitio, pero inevitablemente harán referencia a tales tecnologías, por ejemplo, el diseño web responsivo implica HTML, CSS, JavaScript, etc.
+---
+# Conceptos web generales
 
-{{Languages}}
+## Resumen
 
-== Explora nuestros documentos sobre conceptos web generales ==
+Nuestros conceptos web generales son artículos teóricos y tutoriales que abarcan temas generales relacionados con la web y el diseño y desarrollo web, como por ejemplo: cómo funciona Internet, arquitectura de la información, tipografía y diseño web. Estos no están directamente vinculados con tecnologías y técnicas específicas tratadas en los otros temas principales del sitio, pero inevitablemente harán referencia a tales tecnologías, por ejemplo, el diseño web responsivo implica HTML, CSS, JavaScript, etc.
 
-<div class="topic-container">
+**Idioma:**
+:   **[English](/concepts)**  • <span lang="es">**español**</span>
 
-  <div class="long-topic">
-  
-    <div class="image icon-concept"></div>    
-    
-    <div class="inner">
-     <h3>[[concepts/internet and web|Internet y la Web]]</h3>
+## Explora nuestros documentos sobre conceptos web generales
 
-    <p>Temas relacionados con el funcionamiento de alto nivel de Internet y la Web, tales como fundamentos y protocolos de comunicación.</p>
-    </div>
-  
-  </div>
-  
-  <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/general programming|Programación en general]]</h3>
-    
-    <p>Artículos que abarcan técnicas generales de programación e ideas fundamentales.</p>
-    </div>
-  
-  </div>
- 
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/ia and usability|Arquitectura de la información / usabilidad]]</h3>
-    
-    <p>Prácticas recomendadas relacionadas con el desarrollo de tu contenido y funcionalidad de una manera lógica e intuitiva, de modo que sea fácil de encontrar y utilizar.</p>
-    </div>
-  
-  </div>
+### Internet y la Web
 
-  
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/mobile_web|Móvil y dispositivos]]</h3>
-    
-    <p>Técnicas e ideas respecto a la optimización de documentos web para móviles y otros dispositivos de navegación alternativos.</p>
-    </div>
-  
-  </div>
+Temas relacionados con el funcionamiento de alto nivel de Internet y la Web, tales como fundamentos y protocolos de comunicación.
 
-  
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/web design|Diseñando la Web]]</h3>
-    
-    <p>Artículos relacionados con la planificación, creación de prototipos y diseño gráfico de sitios web y aplicaciones.</p>
-    </div>
-  
-  </div>
+### Programación en general
 
-  
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/cross browser techniques|Técnicas multi-navegador]]</h3>
-    
-    <p>Artículos que tratan los conceptos relacionados con  hacer que nuestros sitios funcionen mejor en los diferentes navegadores, antiguos y actuales.</p>
-    </div>
-  
-  </div>
+Artículos que abarcan técnicas generales de programación e ideas fundamentales.
 
-  
-    <div class="long-topic">
-  
-    <div class="image icon-concept"></div>
-    
-    <div class="inner">
-    <h3>[[concepts/localisation|Localización e  internacionalización]]</h3>
-    
-    <p>Artículos sobre técnicas y tecnologías utilizadas para dirigirnos a un público internacional que habla diversos idiomas.</p>
-    </div>
-  
-  </div>
+### Arquitectura de la información / usabilidad
 
-</div>
-<div class="clearfixboth"></div>
+Prácticas recomendadas relacionadas con el desarrollo de tu contenido y funcionalidad de una manera lógica e intuitiva, de modo que sea fácil de encontrar y utilizar.
 
+### Móvil y dispositivos
 
-Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [[beginners/es|Desarrollo web para principiantes]].
+Técnicas e ideas respecto a la optimización de documentos web para móviles y otros dispositivos de navegación alternativos.
+
+### Diseñando la Web
+
+Artículos relacionados con la planificación, creación de prototipos y diseño gráfico de sitios web y aplicaciones.
+
+### Técnicas multi-navegador
+
+Artículos que tratan los conceptos relacionados con hacer que nuestros sitios funcionen mejor en los diferentes navegadores, antiguos y actuales.
+
+### Localización e internacionalización
+
+Artículos sobre técnicas y tecnologías utilizadas para dirigirnos a un público internacional que habla diversos idiomas.
+
+ Nota: Si eres completamente nuevo en el desarrollo web, puede que desees revisar [Desarrollo web para principiantes](/beginners/es).

@@ -1,46 +1,83 @@
-{{Page_Title|Track ended}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Everything. Passed by and did some cleaning, there were garbage. 
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|All tracks of the MediaStream object have ended; the MediaStream is said to be finished.}}
-{{Event
-|Event_applies_to=apis/webrtc/MediaStream
-|Synchronous=No
-|Bubbles=No
-|Cancelable=No
-|Content=Property is read-only. Value becomes true at the moment the video content is finished.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Media Capture and Streams
-|URL=http://dev.w3.org/2011/webrtc/editor/getusermedia.html#track-ended
-|Status=Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Multimedia, WebRTC
-}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: ended
+tags:
+  - Events
+  - API
+  - WebRTC
+readiness: 'Not Ready'
+notes:
+  - 'Everything. Passed by and did some cleaning, there were garbage.'
+summary: 'All tracks of the MediaStream object have ended; the MediaStream is said to be finished.'
+uri: apis/MediaStream/ended
+
+---
+# Track ended
+
+## Summary
+
+All tracks of the MediaStream object have ended; the MediaStream is said to be finished.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:    ?
+Cancelable
+:   No
+Default action
+:    ?
+
+Property is read-only. Value becomes true at the moment the video content is finished.
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[Media Capture and Streams](http://dev.w3.org/2011/webrtc/editor/getusermedia.html#track-ended)
+:   Working Draft
+
+## See also
+
+### Related articles
+
+#### Multimedia
+
+-   **Track ended**
+
+-   [MediaSource](/apis/media_source_extensions/MediaSource)
+
+-   [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
+
+-   [VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [object-fit](/css/properties/object-fit)
+
+-   [height](/html/attributes/height)
+
+-   [standby](/html/attributes/standby)
+
+-   [EMBED](/html/elements/embed)
+
+-   [img](/html/elements/img)
+
+-   [WebRTC Resources](/tutorials/webrtc_resources)
+
+#### WebRTC
+
+-   **Track ended**
+
+-   [Media Capture and Streams](/apis/media_capture_and_streams)
+
+-   [WebRTC API](/apis/webrtc)
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [WebRTC Resources](/tutorials/webrtc_resources)
+

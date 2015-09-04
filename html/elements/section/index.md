@@ -1,168 +1,120 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Defines sections in a document, such as chapters, headers, footers, or any other sections of the document. It is new to HTML5.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=Required
-|CSS_display=block
-|Content=A section  is a thematic grouping of content, typically with a heading. Examples of sections would be chapters, the various tabbed pages in a tabbed dialog box, or the numbered sections of a thesis. A website's home page could be split into sections for an introduction, news items, and contact information.
-The '''section''' element is not a generic container element. Authors are encouraged to use the '''div''' element for styling purposes or when an element is needed as a convenience for scripting. The '''section''' element is appropriate only if the element's contents would be listed explicitly in the document's outline.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=In the following example, an '''article''' (part of a larger document about apples) contains two short sections.
-|Code=&lt;article&gt;
- &lt;hgroup&gt;
-  &lt;h1&gt;Apples&lt;/h1&gt;
-  &lt;h2&gt;Tasty, delicious fruit!&lt;/h2&gt;
- &lt;/hgroup&gt;
- &lt;p&gt;The apple is the pomaceous fruit of the apple tree.&lt;/p&gt;
- &lt;section&gt;
-  &lt;h1&gt;Red Delicious&lt;/h1&gt;
-  &lt;p&gt;These bright red apples are the most common found in many
-  supermarkets.&lt;/p&gt;
- &lt;/section&gt;
- &lt;section&gt;
-  &lt;h1&gt;Granny Smith&lt;/h1&gt;
-  &lt;p&gt;These juicy, green apples make a great filling for
-  apple pies.&lt;/p&gt;
- &lt;/section&gt;
-&lt;/article&gt;
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=The rank of '''h1-h6''' elements is determined by the number in their name.  The '''h1''' element is said to have the highest rank; the '''h6''' element has the lowest rank.  Two elements with the same name have the same rank. The default style applied to '''hn''' elements varies according to the rank of the element. However, the rank of headings that appear within a '''section''' element is automatically reduced.  This affects the visual appearance of the headings inside the '''section''' element. In the following example, the author uses '''h1''' elements without worrying whether a particular section is at the top level, the second level, the third level, and so on. The two outlines produce equivalent output.
-|Code=&lt;!-- First outline --&gt;
-&lt;h1&gt;Let's call it a draw(ing surface)&lt;/h1&gt;
-&lt;h2&gt;Diving in&lt;/h2&gt;
-&lt;h2&gt;Simple shapes&lt;/h2&gt;
-&lt;h2&gt;Canvas coordinates&lt;/h2&gt;
-&lt;h3&gt;Canvas coordinates diagram&lt;/h3&gt;
-&lt;h2&gt;Paths&lt;/h2&gt;
-&lt;hr/&gt;
-&lt;!-- Equivalent outline using section elements --&gt;
-&lt;h1&gt;Let's call it a draw(ing surface)&lt;/h1&gt;
-&lt;section&gt;
-&lt;h1&gt;Diving in&lt;/h1&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h1&gt;Simple shapes&lt;/h1&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h1&gt;Canvas coordinates&lt;/h1&gt;
-&lt;section&gt;
-&lt;h1&gt;Canvas coordinates diagram&lt;/h1&gt;
-&lt;/section&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h1&gt;Paths&lt;/h1&gt;
-&lt;/section&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage='''Note'''  Authors are encouraged to use the '''[[html/elements/article|article]]''' element instead of the '''section''' element when it would make sense to syndicate the contents of the element.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/sections.html#the-section-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/sections.html#the-section-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Document Structure
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=6
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=4
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=11.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=2.2
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=18
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=15
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=11.5
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=4
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9
-|Note=Windows Internet Explorer 9.  The '''section''' element is only supported for webpages displayed in IE9 Standards mode.
-}}
-}}
+---
+title: section
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Defines sections in a document, such as chapters, headers, footers, or any other sections of the document. It is new to HTML5.'
+uri: html/elements/section
+
+---
+# section
+
+## Summary
+
+Defines sections in a document, such as chapters, headers, footers, or any other sections of the document. It is new to HTML5.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+A section is a thematic grouping of content, typically with a heading. Examples of sections would be chapters, the various tabbed pages in a tabbed dialog box, or the numbered sections of a thesis. A website's home page could be split into sections for an introduction, news items, and contact information. The **section** element is not a generic container element. Authors are encouraged to use the **div** element for styling purposes or when an element is needed as a convenience for scripting. The **section** element is appropriate only if the element's contents would be listed explicitly in the document's outline.
+
+## Examples
+
+In the following example, an **article** (part of a larger document about apples) contains two short sections.
+
+``` {.html}
+<article>
+ <hgroup>
+  <h1>Apples</h1>
+  <h2>Tasty, delicious fruit!</h2>
+ </hgroup>
+ <p>The apple is the pomaceous fruit of the apple tree.</p>
+ <section>
+  <h1>Red Delicious</h1>
+  <p>These bright red apples are the most common found in many
+  supermarkets.</p>
+ </section>
+ <section>
+  <h1>Granny Smith</h1>
+  <p>These juicy, green apples make a great filling for
+  apple pies.</p>
+ </section>
+</article>
+```
+
+The rank of **h1-h6** elements is determined by the number in their name. The **h1** element is said to have the highest rank; the **h6** element has the lowest rank. Two elements with the same name have the same rank. The default style applied to **hn** elements varies according to the rank of the element. However, the rank of headings that appear within a **section** element is automatically reduced. This affects the visual appearance of the headings inside the **section** element. In the following example, the author uses **h1** elements without worrying whether a particular section is at the top level, the second level, the third level, and so on. The two outlines produce equivalent output.
+
+``` {.html}
+<!-- First outline -->
+<h1>Let's call it a draw(ing surface)</h1>
+<h2>Diving in</h2>
+<h2>Simple shapes</h2>
+<h2>Canvas coordinates</h2>
+<h3>Canvas coordinates diagram</h3>
+<h2>Paths</h2>
+<hr/>
+<!-- Equivalent outline using section elements -->
+<h1>Let's call it a draw(ing surface)</h1>
+<section>
+<h1>Diving in</h1>
+</section>
+<section>
+<h1>Simple shapes</h1>
+</section>
+<section>
+<h1>Canvas coordinates</h1>
+<section>
+<h1>Canvas coordinates diagram</h1>
+</section>
+</section>
+<section>
+<h1>Paths</h1>
+</section>
+```
+
+## Usage
+
+     Note  Authors are encouraged to use the article element instead of the section element when it would make sense to syndicate the contents of the element.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-section-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/sections.html#the-section-element)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### Document Structure
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [main](/html/elements/main)
+
+-   [nav](/html/elements/nav)
+
+-   [p](/html/elements/p)
+
+-   **section**
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,53 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Determines whether a specified property is enumerable.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=propertyIsEnumerable( proName )
-}}
-|Values={{JS Syntax Parameter
-|Name=proName
-|Required=Required
-|Description=String value of a property name.
-}}
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=var a = new Array("apple", "banana", "cactus");
+---
+title: propertyIsEnumerable
+tags:
+  0: JS
+  1: Basic
+  3: Method
+readiness: 'Ready to Use'
+summary: 'Determines whether a specified property is enumerable.'
+uri: javascript/Object/propertyIsEnumerable
+
+---
+# propertyIsEnumerable
+
+## Summary
+
+Determines whether a specified property is enumerable.
+
+## Syntax
+
+    propertyIsEnumerable( proName )
+
+**proName**
+:   Required. String value of a property name.
+
+## Examples
+
+``` {.js}
+var a = new Array("apple", "banana", "cactus");
  document.write(a.propertyIsEnumerable(1));
- 
+
  // Output: true
-}}
-}}
-{{Remarks_Section
-|Remarks=The '''propertyIsEnumerable''' method returns true if proName exists in object and can be enumerated using a For loop. The '''propertyIsEnumerable''' method returns false if object does not have a property of the specified name or if the specified property is not enumerable. Typically, predefined properties are not enumerable, but user-defined properties are always enumerable.
+```
 
-The '''propertyIsEnumerable''' method does not consider objects in the prototype chain.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
+## Remarks
 
-{{See_Also_Section
-|Manual_sections====Specification===
-[http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.7 15.2.4.7 Object.prototype.propertyIsEnumerable (V)]
-ECMAScript® Language Specification
-Standard ECMA-262
-5.1 Edition / June 2011
-}}
-{{JS Topics
-|JS Page Type=JS Method
-|Applies to=Array
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/adebfyya(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+The **propertyIsEnumerable** method returns true if proName exists in object and can be enumerated using a For loop. The **propertyIsEnumerable** method returns false if object does not have a property of the specified name or if the specified property is not enumerable. Typically, predefined properties are not enumerable, but user-defined properties are always enumerable.
+
+The **propertyIsEnumerable** method does not consider objects in the prototype chain.
+
+## See also
+
+### Specification
+
+[15.2.4.7 Object.prototype.propertyIsEnumerable (V)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.7) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/adebfyya(v=vs.94).aspx)
+

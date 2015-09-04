@@ -1,23 +1,18 @@
-{{Page_Title}}
-{{Flags
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Listing|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Concept_Listing
-|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Notes_Section}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: constants
+tags:
+  - API
+  - Listings
+  - DOM
+uri: dom/constants
+
+---
+# constants
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Subpages
+
+[dom/constants/DOM exception error codes](/dom/constants/DOM_exception_error_codes)
+:   [dom/constants/HTTP response headers](/dom/constants/HTTP_response_headers)
+

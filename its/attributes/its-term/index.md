@@ -1,21 +1,35 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add summery, example, note, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The its-term attribute is used to mark terms so they can be recognized during translation process. This helps to increase consistency of translation across different parts of the documentation.}}
-{{Markup_Attribute
-|Applies_to=http://docs.webplatform.org/wiki/dom/HTMLElement
-|Content=The its-term attribute can contain "yes" or "no" values. Defintion of the term can be optionally linked by using its-term-info-ref attribute.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=<syntaxhighlight>
+---
+title: its-term
+tags:
+  - Markup
+  - Attributes
+  - Internationalization
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add summery, example, note, compatibility.'
+summary: 'The its-term attribute is used to mark terms so they can be recognized during translation process. This helps to increase consistency of translation across different parts of the documentation.'
+code_samples:
+  - 'http://gist.github.com/8404173'
+uri: its/attributes/its-term
+
+---
+# its-term
+
+## Summary
+
+The its-term attribute is used to mark terms so they can be recognized during translation process. This helps to increase consistency of translation across different parts of the documentation.
+
+Applies to
+:   [http://docs.webplatform.org/wiki/dom/HTMLElement](http://docs.webplatform.org/wiki/dom/HTMLElement)
+
+The its-term attribute can contain "yes" or "no" values. Defintion of the term can be optionally linked by using its-term-info-ref attribute.
+
+## Examples
+
+``` {.html}
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,32 +40,19 @@
     <p>We need a new <span its-term="yes">motherboard</span></p>
   </body>
 </html>
-</syntaxhighlight>
-|LiveURL=http://code.webplatform.org/gist/8404173
-}}
-}}
-{{Notes_Section
-|Usage=Use its-term for all terms on your page especially if you expect your content being translated to other languages in the future.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Internationalization Tag Set (ITS) Version 2.0
-|URL=http://www.w3.org/TR/its20/
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|Internationalization}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+</pre>
+[View live example](http://code.webplatform.org/gist/8404173)
+
+## Usage
+
+     Use its-term for all terms on your page especially if you expect your content being translated to other languages in the future.
+
+## Related specifications
+
+Specification
+:   Status
+[Internationalization Tag Set (ITS) Version 2.0](http://www.w3.org/TR/its20/)
+:   W3C Recommendation
+

@@ -1,77 +1,88 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.}}
-{{API_Object_Property
-|Property_applies_to=dom/TreeWalker
-|Read_only=No
-|Example_object_name=walker
-|Return_value_name=node
-|Javascript_data_type=DOM Node
-|Return_value_description=The currentNode of the TreeWalker object.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=&lt;div id{{=}}"divcontent"&gt;
-&lt;p&gt;Some &lt;span&gt;text&lt;/span&gt;&lt;/p&gt;
-&lt;b&gt;Bold text&lt;/b&gt;
-&lt;/div&gt;
+---
+title: currentNode
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.'
+uri: dom/TreeWalker/currentNode
 
-&lt;script type{{=}}"text/javascript"&gt;
+---
+# currentNode
 
-var rootnode{{=}}document.getElementById('divcontent');
-var walker{{=}}document.createTreeWalker(rootnode, NodeFilter.SHOW_ELEMENT, null, false);
+## Summary
+
+Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/TreeWalker](/dom/TreeWalker)</span></span>
+
+## Syntax
+
+``` {.js}
+var node = walker.currentNode;
+walker.currentNode = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+The currentNode of the TreeWalker object.
+
+## Examples
+
+``` {.html}
+<div id="divcontent">
+<p>Some <span>text</span></p>
+<b>Bold text</b>
+</div>
+
+<script type="text/javascript">
+
+var rootnode=document.getElementById('divcontent');
+var walker=document.createTreeWalker(rootnode, NodeFilter.SHOW_ELEMENT, null, false);
 
 //Alert the starting node Tree Walker currently points to (root node)
-alert(walker.currentNode.tagName) //alerts DIV (with id{{=}}divcontent)
+alert(walker.currentNode.tagName) //alerts DIV (with id=divcontent)
 
 //Step through and alert all child nodes
 while (walker.nextNode())
 alert(walker.currentNode.tagName) //alerts P, SPAN, and B.
 
 //Go back to the first child node of the collection and alert it
-walker.currentNode{{=}}rootnode; //reset TreeWalker pointer to point to root node
+walker.currentNode=rootnode; //reset TreeWalker pointer to point to root node
 alert(walker.firstChild().tagName); //alerts P
 
-&lt;/script&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-'''currentNode''' will never return null in Windows Internet Explorer 9, even when the traversing method returns null.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 1.2
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/#dom-treewalker-currentnode
-|Status=Living Standard
-|Relevant_changes=No Change
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker.currentNode TreeWalker.currentNode]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974804(v=vs.85).aspx currentNode Property]
-|HTML5Rocks_link=
-}}
+</script>
+```
+
+## Notes
+
+### Remarks
+
+**currentNode** will never return null in Windows Internet Explorer 9, even when the traversing method returns null.
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
+
+## Related specifications
+
+Specification
+:   Status
+[DOM](http://dom.spec.whatwg.org/#dom-treewalker-currentnode)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[TreeWalker.currentNode](https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker.currentNode) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[currentNode Property](http://msdn.microsoft.com/en-us/library/ie/ff974804(v=vs.85).aspx) Article]
+

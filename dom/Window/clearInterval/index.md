@@ -1,78 +1,84 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Cancels the interval previously started using the setInterval method. }}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=timerID
-|Data type=Number
-|Description='''Integer''' that specifies the interval to cancel. This value must have been previously returned by the [[dom/Window/setInterval|'''setInterval''']] method.
-|Optional=No
-}}
-|Method_applies_to=dom/Window
-|Example_object_name=window
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta charset{{=}}"UTF-8"&gt;
-&lt;title&gt;setInterval/clearInterval example&lt;/title&gt;
-&lt;script&gt;
+---
+title: clearInterval
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: Non-Standard
+summary: 'Cancels the interval previously started using the setInterval method. '
+uri: dom/Window/clearInterval
+
+---
+# clearInterval
+
+## Summary
+
+Cancels the interval previously started using the setInterval method.
+
+*Method of [dom/Window](/dom/Window)*
+
+## Syntax
+
+``` {.js}
+ window.clearInterval(/* see parameter list */);
+```
+
+## Parameters
+
+### timerID
+
+ Data-type�
+:   Number
+
+**Integer** that specifies the interval to cancel. This value must have been previously returned by the [**setInterval**](/dom/Window/setInterval) method.
+
+## Return Value
+
+No return value
+
+## Examples
+
+``` {.html}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>setInterval/clearInterval example</title>
+<script>
 var nIntervId;
- 
+
 function changeColor() {
-  nIntervId {{=}} setInterval(flashText, 500);
+  nIntervId = setInterval(flashText, 500);
 }
- 
+
 function flashText() {
-  var oElem {{=}} document.getElementById("my_box");
-  oElem.style.color {{=}} oElem.style.color {{=}}{{=}} "red" ? "blue" : "red";
+  var oElem = document.getElementById("my_box");
+  oElem.style.color = oElem.style.color == "red" ? "blue" : "red";
 }
- 
+
 function stopTextColor() {
   clearInterval(nIntervId);
 }
-&lt;/script&gt;
-&lt;/head&gt;
- 
-&lt;body onload{{=}}"changeColor();"&gt;
-&lt;div id{{=}}"my_box" style{{=}}"color: red;"&gt;
-&lt;p&gt;Hello World&lt;/p&gt;
-&lt;/div&gt;
-&lt;button onclick{{=}}"stopTextColor();"&gt;Stop&lt;/button&gt;
+</script>
+</head>
 
-&lt;/body&gt;
-&lt;/html&gt;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.clearInterval clearInterval]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536353(v=vs.85).aspx clearInterval Method]
-|HTML5Rocks_link=
-}}
+<body onload="changeColor();">
+<div id="my_box" style="color: red;">
+<p>Hello World</p>
+</div>
+<button onclick="stopTextColor();">Stop</button>
+
+</body>
+</html>
+```
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window.clearInterval) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[clearInterval Method](http://msdn.microsoft.com/en-us/library/ie/ms536353(v=vs.85).aspx) Article]
+

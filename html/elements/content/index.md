@@ -1,76 +1,63 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Deletion Candidate
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The <code>&lt;content&gt;</code> element provides an insertion point into a shadow DOM tree.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLContentElement
-|Content====Attributes===
+---
+title: content
+tags:
+  - Markup
+  - Elements
+readiness: 'Not Ready'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Deletion Candidate'
+summary: 'The <content> element provides an insertion point into a shadow DOM tree.'
+uri: html/elements/content
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/HTMLContentElement
 
-In addition to the [http://www.w3.org/html/wg/drafts/html/master/dom.html#global-attributes Global Attributes], the <code>&lt;content&gt;</code> element supports the following attributes:
+---
+# content
 
-{{{!}}
-! Attribute
-! Type
-! Description
-{{!}}-
-{{!}} [[html/attributes/select|select]]
-{{!}} A set of [http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#comma-separated-tokens comma-separated tokens]
-{{!}} The select tokens define the matching criteria for distributing child nodes of the shadow host.
-{{!}}-
-{{!}} [[html/attributes/reset-style-inheritance|reset-style-inheritance]]
-{{!}} Read-only. Boolean.
-{{!}} Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.
-{{!}}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=25
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Web Components
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+## Summary
+
+The \<content\> element provides an insertion point into a shadow DOM tree.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLContentElement](/w/index.php?title=dom/HTMLContentElement&action=edit&redlink=1)
+
+### Attributes
+
+In addition to the [Global Attributes](http://www.w3.org/html/wg/drafts/html/master/dom.html#global-attributes), the `<content>` element supports the following attributes:
+
+Attribute
+:   Type
+[select](/html/attributes/select)
+:   A set of [comma-separated tokens](http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#comma-separated-tokens)
+[reset-style-inheritance](/html/attributes/reset-style-inheritance)
+:   Read-only. Boolean.
+
+**Needs Examples**: This section should include examples.
+
+## See also
+
+### Related articles
+
+#### Web Components
+
+-   [register](/dom/Document/register)
+
+-   [shadowdom](/dom/shadowdom)
+
+-   [ShadowRoot](/dom/shadowdom/ShadowRoot)
+
+-   [is](/html/attributes/is)
+
+-   [reset-style-inheritance](/html/attributes/reset-style-inheritance)
+
+-   **content**
+
+-   [element](/html/elements/element)
+
+-   [template](/html/elements/template)
+

@@ -1,61 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|The following number constants are properties of the '''Number''' object.}}
-{{JS_Syntax
-|Formats=
-|Values=
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Remarks_Section}}
-{{Notes_Section}}
-{{JS Object Listing}}
-==Number Object Constants==
-You do not have to create '''Number''' object to access these constants.
+---
+title: constants
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'The following number constants are properties of the Number object.'
+uri: javascript/Number/constants
 
-{| class='wikitable'
-|-
-! Constant
-! Value returned
-|-
-| '''Number.MAX_VALUE'''
-| The largest number that can be represented in JavaScript. Equal to approximately 1.79E+308.
-|-
-| '''Number.MIN_VALUE'''
-| The closest number to zero that can be represented in JavaScript. Equal to approximately 5.00E-324.
-|-
-| '''Number.NaN'''
-| A value that is not a number.In equality comparisons, NaN does not equal any value, including itself. To test whether a value is equivalent to NaN , use the [[javascript/isNaN|isNaN function]].
-|-
-| '''Number.NEGATIVE_INFINITY'''
-| A value that is less than the largest negative number that can be represented in JavaScript.JavaScript displays NEGATIVE_INFINITY values as <code>-infinity</code>.
-|-
-| '''Number.POSITIVE_INFINITY'''
-| A value greater than the largest number that can be represented in JavaScript.JavaScript displays POSITIVE_INFINITY values as <code>infinity</code>.
-|}
+---
+# constants
 
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Math/constants{{!}}Math Constants]]
-* [[javascript/constants{{!}}JavaScript Constants]]
-* [[javascript/Infinity{{!}}Infinity Constant]]
-* [[javascript/NaN{{!}}NaN Constant]]
-* [[javascript/isNaN{{!}}isNaN Function]]
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/ff806190(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+## Summary
+
+The following number constants are properties of the Number object.
+
+## Syntax
+
+## Number Object Constants
+
+You do not have to create **Number** object to access these constants.
+
+Constant
+:   Value returned
+**Number.MAX\_VALUE**
+:   The largest number that can be represented in JavaScript. Equal to approximately 1.79E+308.
+**Number.MIN\_VALUE**
+:   The closest number to zero that can be represented in JavaScript. Equal to approximately 5.00E-324.
+**Number.NaN**
+:   A value that is not a number.In equality comparisons, NaN does not equal any value, including itself. To test whether a value is equivalent to NaN , use the [isNaN function](/javascript/isNaN).
+**Number.NEGATIVE\_INFINITY**
+:   A value that is less than the largest negative number that can be represented in JavaScript.JavaScript displays NEGATIVE\_INFINITY values as `-infinity`.
+**Number.POSITIVE\_INFINITY**
+:   A value greater than the largest number that can be represented in JavaScript.JavaScript displays POSITIVE\_INFINITY values as `infinity`.
+
+## See also
+
+### Other articles
+
+-   [Math Constants](/javascript/Math/constants)
+-   [JavaScript Constants](/javascript/constants)
+-   [Infinity Constant](/javascript/Infinity)
+-   [NaN Constant](/javascript/NaN)
+-   [isNaN Function](/javascript/isNaN)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806190(v=vs.94).aspx)
+

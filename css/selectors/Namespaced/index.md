@@ -1,54 +1,134 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs title, summary, spec reference, standardization status, remove topic cluster flags
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{CSS_Selector}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description='''Type''' selectors allow an optional namespace component (namespace prefix). The namespace prefix can be left empty to indicate that the selector is only to match elements with no namespace, or an asterisk can be used to indicate that the selector matches elements in any namespace (as well as elements with no namespace).
-|Code=@namespace myprfx url(http://www.microsoft.com);
-|LiveURL=First, declare the namespace prefix (<code>myprfx</code> in this example):
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-A ''CSS qualified name'' is an element or attribute name that is located within a namespace. To form a qualified name, first declare a namespace prefix by using the [[css/atrules/@namespace|'''@namespace''']] at-rule. Then, prepend the namespace prefix to the element or attribute name, separating the prefix and the name with a vertical bar ({{!}}).
-'''Type''', universal, and attribute selectors can be namespaced, as shown in Examples.
-|Import_Notes====Syntax===
-<code><strong/>''prfx'''''{{!}}'''''selector'' {...}
-</code>
-===Parameters===
-;''prfx'':A namespace prefix. The namespace prefix is declared by the [[css/atrules/@namespace|'''@namespace''']] at-rule.
-;''selector'':A local element or attribute name.
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199777 CSS Namespaces Module], Section 4
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Selectors
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: Namespaced
+tags:
+  - CSS
+  - Selectors
+readiness: 'In Progress'
+notes:
+  - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
+uri: css/selectors/Namespaced
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - selection
+
+---
+# Namespaced
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Examples
+
+**Type** selectors allow an optional namespace component (namespace prefix). The namespace prefix can be left empty to indicate that the selector is only to match elements with no namespace, or an asterisk can be used to indicate that the selector matches elements in any namespace (as well as elements with no namespace).
+
+    @namespace myprfx url(http://www.microsoft.com);
+
+[First, declare the namespace prefix (`myprfx` in this example): View live example]
+
+## Notes
+
+### Remarks
+
+A *CSS qualified name* is an element or attribute name that is located within a namespace. To form a qualified name, first declare a namespace prefix by using the [**@namespace**](/css/atrules/@namespace) at-rule. Then, prepend the namespace prefix to the element or attribute name, separating the prefix and the name with a vertical bar (|). **Type**, universal, and attribute selectors can be namespaced, as shown in Examples.
+
+### Syntax
+
+`<strong/>prfx|selector {...}`
+
+### Parameters
+
+*prfx*
+:   A namespace prefix. The namespace prefix is declared by the [**@namespace**](/css/atrules/@namespace) at-rule.
+*selector*
+:   A local element or attribute name.
+
+### Standards information
+
+-   [CSS Namespaces Module](http://go.microsoft.com/fwlink/p/?linkid=199777), Section 4
+
+## See also
+
+### Related articles
+
+#### Selectors
+
+-   [querySelectorAll](/css/selectors_api/querySelectorAll)
+
+-   [ID](/css/selectors/ID)
+
+-   **Namespaced**
+
+-   [Universal](/css/selectors/Universal)
+
+-   [equality](/css/selectors/attributes/equality)
+
+-   [Attribute selector](/css/selectors/attributes/existence)
+
+-   [hyphen](/css/selectors/attributes/hyphen)
+
+-   [prefix](/css/selectors/attributes/prefix)
+
+-   [substring](/css/selectors/attributes/substring)
+
+-   [suffix](/css/selectors/attributes/suffix)
+
+-   [whitespace](/css/selectors/attributes/whitespace)
+
+-   [:-ms-input-placeholder](/css/selectors/pseudo-classes/:-ms-input-placeholder)
+
+-   [:checked](/css/selectors/pseudo-classes/:checked)
+
+-   [:disabled](/css/selectors/pseudo-classes/:disabled)
+
+-   [:empty](/css/selectors/pseudo-classes/:empty)
+
+-   [:enabled](/css/selectors/pseudo-classes/:enabled)
+
+-   [:first-child](/css/selectors/pseudo-classes/:first-child)
+
+-   [:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
+
+-   [:focus](/css/selectors/pseudo-classes/:focus)
+
+-   [:in-range](/css/selectors/pseudo-classes/:in-range)
+
+-   [:indeterminate](/css/selectors/pseudo-classes/:indeterminate)
+
+-   [:invalid](/css/selectors/pseudo-classes/:invalid)
+
+-   [:lang(c)](/css/selectors/pseudo-classes/:lang(c))
+
+-   [:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+
+-   [:nth-child(n)](/css/selectors/pseudo-classes/:nth-child(n))
+
+-   [:nth-last-child(n)](/css/selectors/pseudo-classes/:nth-last-child(n))
+
+-   [:nth-last-of-type(n)](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+
+-   [:nth-of-type(n)](/css/selectors/pseudo-classes/:nth-of-type(n))
+
+-   [:only-child](/css/selectors/pseudo-classes/:only-child)
+
+-   [:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+
+-   [:optional](/css/selectors/pseudo-classes/:optional)
+
+-   [:required](/css/selectors/pseudo-classes/:required)
+
+-   [:root](/css/selectors/pseudo-classes/:root)
+
+-   [:target](/css/selectors/pseudo-classes/:target)
+
+-   [:valid](/css/selectors/pseudo-classes/:valid)
+
+-   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
+
+-   [type](/css/selectors/type)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

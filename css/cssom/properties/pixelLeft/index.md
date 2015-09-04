@@ -1,58 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Reflects the value of the Cascading Style Sheets (CSS) '''left''' attribute.}}
-{{API_Object_Property
-|Property_applies_to=css/cssom/properties
-|Read_only=No
-|Example_object_name=
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-The '''pixelLeft''' property reflects the value of the Cascading Style Sheets (CSS) [[css/properties/left|'''left''']] attribute. Use the [[dom/HTMLElement/offsetLeft|'''offsetLeft''']] property to calculate actual positions within the document area.
-Unlike the [[css/properties/left|'''left''']] property, the '''pixelLeft''' value is an integer, not a string, and is always interpreted in pixels.
+---
+title: pixelLeft
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs example, spec reference, standardization status'
+summary: 'Reflects the value of the Cascading Style Sheets (CSS) left attribute.'
+uri: css/cssom/properties/pixelLeft
 
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/cssom/properties/posLeft|posLeft]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+# pixelLeft
+
+## Summary
+
+Reflects the value of the Cascading Style Sheets (CSS) left attribute.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/properties](/css/cssom/properties)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.pixelLeft;
+element.pixelLeft = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+The **pixelLeft** property reflects the value of the Cascading Style Sheets (CSS) [**left**](/css/properties/left) attribute. Use the [**offsetLeft**](/dom/HTMLElement/offsetLeft) property to calculate actual positions within the document area. Unlike the [**left**](/css/properties/left) property, the **pixelLeft** value is an integer, not a string, and is always interpreted in pixels.
+
+## See also
+
+### Related pages (MSDN)
+
+-   `runtimeStyle`
+-   `style`
+-   `posLeft`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

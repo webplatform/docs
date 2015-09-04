@@ -1,86 +1,139 @@
-{{Page_Title|Desenvolvimento web para inciantes}}
-{{Flags
-|State=Unreviewed
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Então você quer aprender a fazer websites? Essa página possui uma lista de artigos que são perfeitos para ajudar você a entender o básico. Descrevemos e explicamos como utilizar as ferramentas básicas..}}
-{{Basic Page}}
-==Resumo==
+---
+title: pt-br
+tags:
+  - Basic
+  - Pages
+summary: 'Então você quer aprender a fazer websites? Essa página possui uma lista de artigos que são perfeitos para ajudar você a entender o básico. Descrevemos e explicamos como utilizar as ferramentas básicas..'
+uri: Beginners/pt-br
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - Beginners/af
+    - Beginners/ar
+    - Beginners/ast
+    - Beginners/az
+    - Beginners/bcc
+    - Beginners/bg
+    - Beginners/br
+    - Beginners/ca
+    - Beginners/cs
+    - Beginners/da
+    - Beginners/de
+    - Beginners/diq
+    - Beginners/el
+    - Beginners/eo
+    - Beginners/fa
+    - Beginners/fi
+    - Beginners/fr
+    - Beginners/gl
+    - Beginners/gu
+    - Beginners/he
+    - Beginners/hu
+    - Beginners/hy
+    - Beginners/id
+    - Beginners/it
+    - Beginners/ka
+    - Beginners/kk
+    - Beginners/km
+    - Beginners/ksh
+    - Beginners/kw
+    - Beginners/mk
+    - Beginners/ml
+    - Beginners/mr
+    - Beginners/ms
+    - Beginners/nl
+    - Beginners/no
+    - Beginners/oc
+    - Beginners/pl
+    - Beginners/pt
+    - Beginners/ro
+    - Beginners/ru
+    - Beginners/si
+    - Beginners/sk
+    - Beginners/sl
+    - Beginners/sq
+    - Beginners/sr
+    - Beginners/sv
+    - Beginners/ta
+    - Beginners/th
+    - Beginners/uk
+    - Beginners/vi
+    - Beginners/yue
+    - Beginners/zh-hans
+    - Beginners/zh-hant
+    - Beginners/zh-tw
+
+---
+# Desenvolvimento web para inciantes
+
+## Summary
+
+Então você quer aprender a fazer websites? Essa página possui uma lista de artigos que são perfeitos para ajudar você a entender o básico. Descrevemos e explicamos como utilizar as ferramentas básicas..
+
+## Resumo
+
 Este conjunto de artigos é para que os inciantes possam adquirir confiança, construindo suas habilidades essenciais no início da jornada para se tornar um web designer ou desenvolvedor.
 
+**Língua:**
+:   **[English](/Beginners)**  • <span lang="es">[español](/Beginners/es)</span> • <span lang="ja">[日本語](/Beginners/ja)</span> • <span lang="ko">[한국어](/Beginners/ko)</span> • <span lang="pt-br">**português do Brasil**</span> • <span lang="tr">[Türkçe](/Beginners/tr)</span> • <span lang="zh">[中文](/Beginners/zh)</span>
 
-{{Languages}}
-{{Flags}}
-
-==Antes de você começar==
+## Antes de você começar
 
 Neste curso, você vai escrever uma grande quantidade de código, e poderá testá-lo em navegadores web. Antes de começar, você deve instalar pelo menos o seguinte:
 
-* Um navegador para web atualizado. Se você ainda não tem, encontre-os nas páginas oficiais do [http://www.google.com/chrome Chrome], [http://www.mozilla.org/firefox Firefox], [http://microsoft.com/ie Internet Explorer], [http://www.opera.com Opera], e [http://www.apple.com/safari/ Safari].
-* Um bom editor de texto. Algumas opções gratuitas interessantes são o [http://notepad-plus-plus.org/ Notepad++] para Windows, [http://bluefish.openoffice.nl/index.html Bluefish] para Linux e [http://brackets.io Brackets] para ambos Mac e Windows (versão para Linux em breve).
+-   Um navegador para web atualizado. Se você ainda não tem, encontre-os nas páginas oficiais do [Chrome](http://www.google.com/chrome), [Firefox](http://www.mozilla.org/firefox), [Internet Explorer](http://microsoft.com/ie), [Opera](http://www.opera.com), e [Safari](http://www.apple.com/safari/).
+-   Um bom editor de texto. Algumas opções gratuitas interessantes são o [Notepad++](http://notepad-plus-plus.org/) para Windows, [Bluefish](http://bluefish.openoffice.nl/index.html) para Linux e [Brackets](http://brackets.io) para ambos Mac e Windows (versão para Linux em breve).
 
-Agora arregace as mangas e prepare-se para aprender. [[tutorials|Consulte a nossa lista completa de artigos]] se você cansar destes e quiser aprender muito mais!
+Agora arregace as mangas e prepare-se para aprender. [Consulte a nossa lista completa de artigos](/tutorials) se você cansar destes e quiser aprender muito mais!
 
-==Fundamentos da Web==
+## Fundamentos da Web
 
-* [[concepts/internet and web/the history of the web|A história da Web]]
-* [[concepts/internet and web/how does the internet work|Como a Internet funciona]]
-* [[concepts/internet and web/the web standards model|Os modelos de padrões para Web — HTML, CSS e JavaScript]]
-* [[tutorials/getting your content online|Colocando seu conteúdo online]]
-* [[concepts/accessibility|Acessibilidade]]
+-   [A história da Web](/concepts/internet_and_web/the_history_of_the_web)
+-   [Como a Internet funciona](/concepts/internet_and_web/how_does_the_internet_work)
+-   [Os modelos de padrões para Web — HTML, CSS e JavaScript](/concepts/internet_and_web/the_web_standards_model)
+-   [Colocando seu conteúdo online](/tutorials/getting_your_content_online)
+-   [Acessibilidade](/concepts/accessibility)
 
-==HTML — estruturando o seu conteúdo web==
+## HTML — estruturando o seu conteúdo web
 
-* [[guides/the basics of html|Noções básicas de HTML]]
-* [[guides/doctypes and markup styles|DOCTYPES e estilos de marcação]]
-* [[guides/html validation|Validação de HTML]]
-* [[guides/the html head|O &lt;head&gt; HTML]]
-* [[guides/html text|Texto HTML]]
-* [[guides/html lists|Listas HTML]]
-* [[guides/images in html|Imagens em HTML]]
-* [[guides/html links|Links HTML]]
-* [[guides/html structural elements|Elementos estruturais HTML]]
-* [[guides/html tables|Tabelas HTML]]
-* [[guides/html forms basics|Formulários básicos HTML]]
-* [[guides/html5 form features|Recursos para formulários utilizando HTML5]]
-* [[guides/lesser-known semantic elements|Elementos semânticos menos conhecidos]]
+-   [Noções básicas de HTML](/guides/the_basics_of_html)
+-   [DOCTYPES e estilos de marcação](/guides/doctypes_and_markup_styles)
+-   [Validação de HTML](/guides/html_validation)
+-   [O \<head\> HTML](/guides/the_html_head)
+-   [Texto HTML](/guides/html_text)
+-   [Listas HTML](/guides/html_lists)
+-   [Imagens em HTML](/guides/images_in_html)
+-   [Links HTML](/guides/html_links)
+-   [Elementos estruturais HTML](/guides/html_structural_elements)
+-   [Tabelas HTML](/guides/html_tables)
+-   [Formulários básicos HTML](/guides/html_forms_basics)
+-   [Recursos para formulários utilizando HTML5](/guides/html5_form_features)
+-   [Elementos semânticos menos conhecidos](/guides/lesser-known_semantic_elements)
 
-==CSS — estilizando o seu conteúdo web==
+## CSS — estilizando o seu conteúdo web
 
-* [[guides/getting started with css|Introdução ao CSS]]
-* [[tutorials/using selectors|Usando seletores]]
-* [[guides/css text styling fundamentals|Noções básicas de estilização de texto]]
-* [[tutorials/using css background images|Imagens de fundo CSS]]
-* [[tutorials/box model|Explorando o CSS box model]]
-* [[tutorials/layout fundamentals|Explorando o CSS layout model]]
-* [[tutorials/making css easier to read|Tornando a leitura do CSS mais fácil]]
-* [[tutorials/media queries|Direcionando estilos com media queries]]
+-   [Introdução ao CSS](/guides/getting_started_with_css)
+-   [Usando seletores](/tutorials/using_selectors)
+-   [Noções básicas de estilização de texto](/guides/css_text_styling_fundamentals)
+-   [Imagens de fundo CSS](/tutorials/using_css_background_images)
+-   [Explorando o CSS box model](/tutorials/box_model)
+-   [Explorando o CSS layout model](/tutorials/layout_fundamentals)
+-   [Tornando a leitura do CSS mais fácil](/tutorials/making_css_easier_to_read)
+-   [Direcionando estilos com media queries](/tutorials/media_queries)
 
-==JavaScript — adicionando comportamento dinâmico para seu website==
+## JavaScript — adicionando comportamento dinâmico para seu website
 
-* [[concepts/programming/programming basics|Noções básicas de programação]]
-* [[tutorials/your first look at javascript|Seu primeiro olhar para o JavaScript]]
-* [[concepts/programming/the purpose of javascript|O objetivo do JavaScript]]
-* [[tutorials/javascript functions|Funções JavaScript]]
-* [[tutorials/objects in javascript|Objetos em JavaScript]]
-* [[tutorials/traversing the dom|Atravessando o DOM]]
-* [[tutorials/creating and modifying html|Criando e modificando o HTML]]
-* [[tutorials/manipulating css with javascript|Manipulando CSS com JavaScript]]
-* [[tutorials/events in javascript|Eventos em JavaScript]]
+-   [Noções básicas de programação](/concepts/programming/programming_basics)
+-   [Seu primeiro olhar para o JavaScript](/tutorials/your_first_look_at_javascript)
+-   [O objetivo do JavaScript](/concepts/programming/the_purpose_of_javascript)
+-   [Funções JavaScript](/tutorials/javascript_functions)
+-   [Objetos em JavaScript](/tutorials/objects_in_javascript)
+-   [Atravessando o DOM](/tutorials/traversing_the_dom)
+-   [Criando e modificando o HTML](/tutorials/creating_and_modifying_html)
+-   [Manipulando CSS com JavaScript](/tutorials/manipulating_css_with_javascript)
+-   [Eventos em JavaScript](/tutorials/events_in_javascript)
 
-==Técnicas aplicadas==
+## Técnicas aplicadas
 
-* [[tutorials/creating basic navigation menus|Criando menus de navegação]]
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+-   [Criando menus de navegação](/tutorials/creating_basic_navigation_menus)
+

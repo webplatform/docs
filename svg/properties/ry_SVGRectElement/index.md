@@ -1,45 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: ry (SVGRectElement)
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: 'svg/properties/ry (SVGRectElement)'
 
-===Remarks===
+---
+# ry (SVGRectElement)
 
-If  you properly specify a  value  for  the [[svg/properties/rx (SVGRectElement)|'''rx''']]  property but not for the  '''ry''' property,  the [[svg/elements/rect|'''rect''']] element is rendered with the effective value of '''ry'''  equal to '''rx'''. If  you  properly specify a  value  for '''ry''' but not for '''rx''',  the '''rect''' element is rendered with the effective value of '''rx'''  equal to '''ry'''.
+## Notes
 
-If  you do not properly specify [[svg/properties/rx (SVGRectElement)|'''rx''']] or '''ry''' ,  the [[svg/elements/rect|'''rect''']] element is rendered  without  rounding, resulting in square corners.
+### Remarks
 
-If [[svg/properties/rx (SVGRectElement)|'''rx''']] is greater than half of the width of the rectangle,  the [[svg/elements/rect|'''rect''']] element is rendered with the effective value for '''rx''' as half of the width of the rectangle. If '''ry''' is greater than half of the height of the rectangle,  the '''rect''' element is rendered with the effective value for '''ry''' as half of the height of the rectangle.
-|Import_Notes=
+If you properly specify a value for the [**rx**](/svg/properties/rx_(SVGRectElement)) property but not for the **ry** property, the [**rect**](/svg/elements/rect) element is rendered with the effective value of **ry** equal to **rx**. If you properly specify a value for **ry** but not for **rx**, the **rect** element is rendered with the effective value of **rx** equal to **ry**.
 
-===Syntax===
+If you do not properly specify [**rx**](/svg/properties/rx_(SVGRectElement)) or **ry** , the [**rect**](/svg/elements/rect) element is rendered without rounding, resulting in square corners.
 
-===Standards information===
+If [**rx**](/svg/properties/rx_(SVGRectElement)) is greater than half of the width of the rectangle, the [**rect**](/svg/elements/rect) element is rendered with the effective value for **rx** as half of the width of the rectangle. If **ry** is greater than half of the height of the rectangle, the **rect** element is rendered with the effective value for **ry** as half of the height of the rectangle.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204737 Scalable Vector Graphics: Basic Shapes], Section 9.8.1
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Basic Shapes](http://go.microsoft.com/fwlink/p/?linkid=204737), Section 9.8.1
 
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/ellipse|'''ellipse''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**ellipse**](/svg/elements/ellipse)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

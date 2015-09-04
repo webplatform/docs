@@ -1,41 +1,37 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: bias
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/bias
 
-===Remarks===
+---
+# bias
 
-After applying the [[svg/properties/kernelMatrix|'''kernelMatrix''']] to the input image to yield a number and applying the [[svg/properties/divisor|'''divisor''']], the '''bias''' attribute is added to each component. One application of '''bias''' is when it is desirable to have 0.5 gray value be the zero response of the filter. The '''bias''' property shifts the range of the filter. This allows representation of values that would otherwise be clamped to 0 or 1. If '''bias''' is not specified, then the effect is as if a value of 0 were specified.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+After applying the [**kernelMatrix**](/svg/properties/kernelMatrix) to the input image to yield a number and applying the [**divisor**](/svg/properties/divisor), the **bias** attribute is added to each component. One application of **bias** is when it is desirable to have 0.5 gray value be the zero response of the filter. The **bias** property shifts the range of the filter. This allows representation of values that would otherwise be clamped to 0 or 1. If **bias** is not specified, then the effect is as if a value of 0 were specified.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.12
 
-*[[svg/elements/feConvolveMatrix|'''SVGFEConvolveMatrixElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

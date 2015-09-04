@@ -1,37 +1,39 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Summary/overview, compatibility, possible examples
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Concept_Listing
-|Use_page_title=No
-|List_all_subpages=No
-}}
+---
+title: Implementation
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Summary/overview, compatibility, possible examples'
+uri: dom/Implementation
+
+---
+# Implementation
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+API Name
+:   Summary
+[createDocument](/dom/Implementation/createDocument)
+:   Creates a [Document](/dom/Document) that is not attached to a window.
+[createDocumentType](/dom/Implementation/createDocumentType)
+:   Creates a Document Type node.
+[createHTMLDocument](/dom/Implementation/createHTMLDocument)
+:   Creates an HTML document.
+[hasFeature](/dom/Implementation/hasFeature)
+:   Returns whether a specific DOM standard is implemented.
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+

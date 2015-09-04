@@ -1,62 +1,76 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The Range.collapsed read-only property returns a Boolean flag indicating whether the start and end points of the Range are at the same position. It returns true if the start and end boundary points of the Range are the same point in the DOM, false if not.}}
-{{API_Object_Property
-|Property_applies_to=dom/Range
-|Read_only=Yes
-|Example_object_name=range
-|Javascript_data_type=Boolean
-|Return_value_description=true - start and end boundary points of the Range are the same point in the DOM
+---
+title: collapsed
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The Range.collapsed read-only property returns a Boolean flag indicating whether the start and end points of the Range are at the same position. It returns true if the start and end boundary points of the Range are the same point in the DOM, false if not.'
+uri: dom/Range/collapsed
+
+---
+# collapsed
+
+## Summary
+
+The Range.collapsed read-only property returns a Boolean flag indicating whether the start and end points of the Range are at the same position. It returns true if the start and end boundary points of the Range are the same point in the DOM, false if not.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Range](/dom/Range)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = range.collapsed;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+
+true - start and end boundary points of the Range are the same point in the DOM
 
 false - start and end boundary points of the Range are NOT the same point in the DOM
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=var range {{=}} document.createRange(); 
 
-range.setStart(startNode,startOffset); 
+## Examples
+
+``` {.js}
+var range = document.createRange();
+
+range.setStart(startNode,startOffset);
 range.setEnd(endNode,endOffset);
-var isCollapsed {{=}} range.collapsed;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
+var isCollapsed = range.collapsed;
+```
+
+## Notes
+
+### Remarks
+
 A collapsed range has its start and end boundary points set to the same value, rendering it empty.
-|Import_Notes====Syntax===
+
+### Syntax
+
 isCollapsed = range.collapsed;
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 2.13
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/#dom-range-collapsed
-|Status=Living Standard
-|Relevant_changes=No Change
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Range.collapsed Range.collapsed]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974925(v=vs.85).aspx collapsed Property]
-|HTML5Rocks_link=
-}}
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
+
+## Related specifications
+
+Specification
+:   Status
+[DOM](http://dom.spec.whatwg.org/#dom-range-collapsed)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.collapsed](https://developer.mozilla.org/en-US/docs/Web/API/Range.collapsed) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[collapsed Property](http://msdn.microsoft.com/en-us/library/ie/ff974925(v=vs.85).aspx) Article]
+

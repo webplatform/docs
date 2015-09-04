@@ -1,34 +1,46 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Returns the text track cues from the text track list of cues that are currently active (i.e. that start before the current playback position and end after it), as a TextTrackCueList object.}}
-{{API_Object_Property
-|Property_applies_to=apis/audio-video/TextTrack
-|Read_only=Yes
-|Example_object_name=TextTrack
-|Return_value_name=
-|Javascript_data_type=DOM Node
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=
-|Code=&lt;!DOCTYPE html>
-&lt;html xmlns="http://www.w3.org/1999/xhtml">
-&lt;head>
-    &lt;title>activeCues example&lt;/title>
+---
+title: activeCues
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Audio
+  5: Video
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the text track cues from the text track list of cues that are currently active (i.e. that start before the current playback position and end after it), as a TextTrackCueList object.'
+uri: apis/audio-video/TextTrack/activeCues
 
-    &lt;script type="text/javascript">
+---
+# activeCues
+
+## Summary
+
+Returns the text track cues from the text track list of cues that are currently active (i.e. that start before the current playback position and end after it), as a TextTrackCueList object.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/TextTrack](/apis/audio-video/TextTrack)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = TextTrack.activeCues;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+## Examples
+
+``` {.html}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>activeCues example</title>
+
+    <script type="text/javascript">
         // don't add this listener until all DOM content is loaded
         document.addEventListener("DOMContentLoaded", function () {
             var track = document.getElementById("track1");
@@ -42,50 +54,29 @@
                 }
             }, false);
         }, false);
-    &lt;/script>
-&lt;/head>
-&lt;body>
-    &lt;video id="video1" controls>
-        &lt;source src="video.mp4">
-        &lt;track id="track1" label="English subtitles" kind="captions" src="entrack.vtt" srclang="en" default>
+    </script>
+</head>
+<body>
+    <video id="video1" controls>
+        <source src="video.mp4">
+        <track id="track1" label="English subtitles" kind="captions" src="entrack.vtt" srclang="en" default>
         HTML5 video is not supported
-    &lt;/video>
-    &lt;div id="display">&lt;/div>
-&lt;/body>
-&lt;</html>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5 Specification
-|URL=http://dev.w3.org/html5/spec/single-page.html
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Audio, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+    </video>
+    <div id="display"></div>
+</body>
+<</html>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
+:   W3C Editor's Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

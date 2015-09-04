@@ -1,67 +1,70 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Finds the first substring match in a regular expression search.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=stringObj.search( rgExp )
-}}
-|Values={{JS Syntax Parameter
-|Name=stringObj
-|Required=Required
-|Description=The String object or string literal on which to perform the search.
-}}{{JS Syntax Parameter
-|Name=rgExp
-|Required=Required
-|Description=An instance of a '''Regular Expression''' object containing the regular expression pattern and applicable flags.
-}}
-}}
-{{JS_Return_Value
-|Description=If a match is found, the '''search''' method returns an integer value that indicates the offset from the beginning of the string where the first match occurred. If no match is found, it returns -1.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the '''search''' method.
-|Code=var src = "is but a Dream within a dream";
+---
+title: search
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Finds the first substring match in a regular expression search.'
+uri: javascript/String/search
+
+---
+# search
+
+## Summary
+
+Finds the first substring match in a regular expression search.
+
+## Syntax
+
+    stringObj.search( rgExp )
+
+**stringObj**
+:   Required. The String object or string literal on which to perform the search.
+
+**rgExp**
+:   Required. An instance of a **Regular Expression** object containing the regular expression pattern and applicable flags.
+
+## Return Value
+
+If a match is found, the **search** method returns an integer value that indicates the offset from the beginning of the string where the first match occurred. If no match is found, it returns -1.
+
+## Examples
+
+The following example illustrates the use of the **search** method.
+
+``` {.js}
+var src = "is but a Dream within a dream";
  var re = /dream/;
  var pos = src.search(re);
  document.write(pos);
- document.write("&lt;br/&gt;");
- 
+ document.write("<br/>");
+
  re = /dream/i;
  pos = src.search(re);
  document.write(pos);
- 
- // Output: 
- // 24 
+
+ // Output:
+ // 24
  // 9
-}}
-}}
-{{Remarks_Section
-|Remarks=You can also set the '''i''' flag that causes the search to be case-insensitive.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/regular expression/exec{{!}}exec Method (Regular Expression)]]
-* [[javascript/String/match{{!}}match Method (String)]]
-* [[javascript/regular expression{{!}}Regular Expression Object]]
-* [[javascript/String/replace{{!}}replace Method (String)]]
-* [[javascript/regular expression/test{{!}}test Method (Regular Expression)]]
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/tbc7a78k(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+```
+
+## Remarks
+
+You can also set the **i** flag that causes the search to be case-insensitive.
+
+## See also
+
+### Other articles
+
+-   [exec Method (Regular Expression)](/javascript/regular_expression/exec)
+-   [match Method (String)](/javascript/String/match)
+-   [Regular Expression Object](/javascript/regular_expression)
+-   [replace Method (String)](/javascript/String/replace)
+-   [test Method (Regular Expression)](/javascript/regular_expression/test)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tbc7a78k(v=vs.94).aspx)
+

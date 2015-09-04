@@ -1,129 +1,73 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|'''length''' returns the number of files in the FileList object. If there are no files, this attribute must return 0.}}
-{{API_Object_Property
-|Property_applies_to=apis/file/FileList
-|Read_only=Yes
-|Example_object_name=FileList
-|Return_value_name=
-|Javascript_data_type=unsigned long
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example lets you select one or more files, then uses the filelist length to report each filelist item's name and last modified date/time.
-|Code=<input type="file" multiple id="myfileinput"><br/>
+---
+title: length
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: FileAPI
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'length returns the number of files in the FileList object. If there are no files, this attribute must return 0.'
+uri: apis/file/FileList/length
+
+---
+# length
+
+## Summary
+
+length returns the number of files in the FileList object. If there are no files, this attribute must return 0.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/file/FileList](/apis/file/FileList)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = FileList.length;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+
+## Examples
+
+This example lets you select one or more files, then uses the filelist length to report each filelist item's name and last modified date/time.
+
+``` {.html}
+<input type="file" multiple id="myfileinput">
 <input type="button" value="Show file names and last modified dates" onclick="shownd()">
-<p>. . .</p>
+. . .
 <script>
 function shownd() {
-  var fileinp = document.getElementById("myfileinput");
-  var filelist = fileinp.files;
-  alert(filelist.length);
-  for (var i = 0; i < filelist.length; i++) {
-    alert(filelist.item(i).name + " was last modified: " + filelist.item(i).lastModifiedDate);
-  }
-}
-</script>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=Returns the number of files that are selected and available on the [[apis/file/FileList|'''FileList''']] object. This value can be greater than or equal to 1 if multiple file selection is enabled (typically via the <code>multiple</code> attribute on the <code>input</code> element). If no files have been selected, 0 is returned.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C File API Specification
-|URL=http://www.w3.org/TR/FileAPI
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome_supported=Yes
-|Chrome_version=22.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=15.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=6.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Basic Support
-|Android_supported=Yes
-|Android_version=3.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=10.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=6.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+
+ var fileinp = document.getElementById("myfileinput");
+ var filelist = fileinp.files;
+ alert(filelist.length);
+ for (var i = 0; i < filelist.length; i++) {
+   alert(filelist.item(i).name + " was last modified: " + filelist.item(i).lastModifiedDate);
+ }
+```
+
+} \</script\>
+
+</pre>
+
+## Notes
+
+Returns the number of files that are selected and available on the [**FileList**](/apis/file/FileList) object. This value can be greater than or equal to 1 if multiple file selection is enabled (typically via the `multiple` attribute on the `input` element). If no files have been selected, 0 is returned.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C File API Specification](http://www.w3.org/TR/FileAPI)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

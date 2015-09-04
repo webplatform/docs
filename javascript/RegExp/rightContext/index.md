@@ -1,67 +1,70 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Returns the characters from the position following the last match to the end of the searched string. Read-only.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format='''RegExp'''.'''rightContext'''
-}}
-|Values=
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example illustrates the use of the '''rightContext''' property:
-|Code=// Create the regular expression pattern.
+---
+title: rightContext
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Returns the characters from the position following the last match to the end of the searched string. Read-only.'
+uri: javascript/RegExp/rightContext
+
+---
+# rightContext
+
+## Summary
+
+Returns the characters from the position following the last match to the end of the searched string. Read-only.
+
+## Syntax
+
+    RegExp.rightContext
+
+## Examples
+
+The following example illustrates the use of the **rightContext** property:
+
+``` {.js}
+// Create the regular expression pattern.
     var re = new RegExp("d(b+)(d)","ig");
     var str = "cdbBdbsbdbdz";
- 
+
     // Perform the search.
     var arr = re.exec(str);
- 
-    // Print the output.
-    var s = "" 
-    s += ": " + RegExp. + "&lt;br /&gt;";
-    s += ": " + RegExp. + "&lt;br /&gt;";
-    s += ": " + RegExp. + "&lt;br /&gt;";
-    s += "input: " + RegExp.input + "&lt;br /&gt;";
-    s += "lastMatch: " + RegExp.lastMatch + "&lt;br /&gt;";
-    s += "leftContext: " + RegExp.leftContext + "&lt;br /&gt;";
-    s += "rightContext: " + RegExp.rightContext + "&lt;br /&gt;"; 
-    s += "lastParen: " + RegExp.lastParen + "&lt;br /&gt;";
- 
-    document.write(s);
-}}
-}}
-{{Remarks_Section
-|Remarks=The object associated with this property is always the global '''RegExp''' object.
 
-The initial value of the '''rightContext''' property is an empty string. The value of the '''rightContext''' property changes whenever a successful match is made.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/RegExp/1 9 Properties{{!}}$1...$9 Properties (RegExp)]]
-* [[javascript/RegExp/index{{!}}index Property (RegExp)]]
-* [[javascript/RegExp/input{{!}}input Property ($_) (RegExp)]]
-* [[javascript/RegExp/lastIndex{{!}}lastIndex Property (RegExp)]]
-* [[javascript/RegExp/lastMatch{{!}}lastMatch Property ($&#38;) (RegExp)]]
-* [[javascript/RegExp/lastParen{{!}}lastParen Property ($+) (RegExp)]]
-* [[javascript/RegExp/leftContext{{!}}leftContext Property ($`) (RegExp)]]
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/b4sb5k1b(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+    // Print the output.
+    var s = ""
+    s += ": " + RegExp. + "<br />";
+    s += ": " + RegExp. + "<br />";
+    s += ": " + RegExp. + "<br />";
+    s += "input: " + RegExp.input + "<br />";
+    s += "lastMatch: " + RegExp.lastMatch + "<br />";
+    s += "leftContext: " + RegExp.leftContext + "<br />";
+    s += "rightContext: " + RegExp.rightContext + "<br />";
+    s += "lastParen: " + RegExp.lastParen + "<br />";
+
+    document.write(s);
+```
+
+## Remarks
+
+The object associated with this property is always the global **RegExp** object.
+
+The initial value of the **rightContext** property is an empty string. The value of the **rightContext** property changes whenever a successful match is made.
+
+## See also
+
+### Other articles
+
+-   [\$1...\$9 Properties (RegExp)](/javascript/RegExp/1_9_Properties)
+-   [index Property (RegExp)](/javascript/RegExp/index)
+-   [input Property (\$\_) (RegExp)](/javascript/RegExp/input)
+-   [lastIndex Property (RegExp)](/javascript/RegExp/lastIndex)
+-   [lastMatch Property (\$&) (RegExp)](/javascript/RegExp/lastMatch)
+-   [lastParen Property (\$+) (RegExp)](/javascript/RegExp/lastParen)
+-   [leftContext Property (\$\`) (RegExp)](/javascript/RegExp/leftContext)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/b4sb5k1b(v=vs.94).aspx)
+

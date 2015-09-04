@@ -1,33 +1,43 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Used to associate the [[html/elements/menu|menu]] element in the DOM to the given element as its context menu.}}
-{{Markup_Attribute
-|Applies_to=html/elements/menu
-|Property_applies_to=
-|Content=The contextmenu attribute allows a developer to modify the menu shown upon interacting with an element. Its value must be set to be the ID of a '''menu''' element contained within the DOM which has a type of context.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=
-|Code=<!doctype html>
+---
+title: contextmenu
+tags:
+  - Markup
+  - Attributes
+  - HTML
+  - JavaScript
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Used to associate the menu element in the DOM to the given element as its context menu.'
+code_samples:
+  - 'http://gist.github.com/11067829'
+uri: html/attributes/contextmenu
+
+---
+# contextmenu
+
+## Summary
+
+Used to associate the menu element in the DOM to the given element as its context menu.
+
+Applies to
+:   html/elements/menu
+
+The contextmenu attribute allows a developer to modify the menu shown upon interacting with an element. Its value must be set to be the ID of a **menu** element contained within the DOM which has a type of context.
+
+## Examples
+
+``` {.html}
+<!doctype html>
 <title>Demo for contextmenu attribute</title>
-&lt;!-- Setting the context menu for the image to be imageMenu. -->
+<!-- Setting the context menu for the image to be imageMenu. -->
 <img src="http://www.webplatform.org/logo/logo-with-text.png" alt="WPD" width="500" height="500" contextmenu="imageMenu">
 
-&lt;!-- Declare the menu with a type of context and the proper ID that was set in the images attribute -->
+<!-- Declare the menu with a type of context and the proper ID that was set in the images attribute -->
 <menu id="imageMenu" type="context">
-    &lt;!-- Since we are going to have multiple related options, let's set a menu item
+    <!-- Since we are going to have multiple related options, let's set a menu item
             with a label to create a submenu -->
     <menu label="resize">
-        &lt;!-- Create the menu items -->
+        <!-- Create the menu items -->
         <menuitem label="Increase" id="increaseImageSize">
         <menuitem label="Decrease" id="decreaseImageSize">
     </menu>
@@ -59,38 +69,18 @@ var increaseItem = document.getElementById('increaseImageSize'),
     increaseItem.addEventListener("click", increaseSize);
     decreaseItem.addEventListener("click", decreaseSize);
 </script>
-|LiveURL=http://code.webplatform.org/gist/11067829
-}}
-}}
-{{Notes_Section
-|Usage=This feature may only work in Firefox currently. (Untested in IE and Safari.)
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html-markup/global-attributes.html#common.attrs.contextmenu
-|Status=Candidate Recommendation
-|Relevant_changes=Initial specification of the attribute
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML, JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/11067829)
+
+## Usage
+
+     This feature may only work in Firefox currently. (Untested in IE and Safari.)
+
+## Related specifications
+
+Specification
+:   Status
+[HTML5](http://www.w3.org/TR/html-markup/global-attributes.html#common.attrs.contextmenu)
+:   Candidate Recommendation
+

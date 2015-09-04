@@ -1,86 +1,65 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs example
+---
+title: lostpointercapture
+tags:
+  - Events
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs example'
+summary: 'Dispatched after pointer capture is released for a pointer.'
+uri: dom/PointerEvent/lostpointercapture
 
-|Checked_Out=No
-|High-level issues=Stub, Needs Flags
-|Content=Incomplete, Compatibility Incomplete, Examples Needed
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Dispatched after pointer capture is released for a pointer.}}
-{{Event
-|Event_applies_to=dom/PointerEvent
-|Synchronous=No
-|Bubbles=Yes
-|Target=dom/Element
-|Cancelable=No
-|Default_action=None
-|Content=This event is dispatched prior to any subsequent events for the pointer after capture was released. This event is dispatched to the element from which pointer capture was removed. Subsequent events for that pointer follow normal hit testing mechanisms for determining the event target. See [[dom/Element/releasePointerCapture|releasePointerCapture]].
-|Interface=dom/PointerEvent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=Note  As of Internet Explorer 11, the Microsoft vendor prefixed version of this event (MSLostPointerCapture) is no longer supported and may be removed in a future release. Instead, use the non-prefixed lowercase name, lostpointercapture, which is better for standards compliance and future compatibility.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Pointer Events
-|URL=http://www.w3.org/TR/pointerevents
-|Status=Working Draft
-|Relevant_changes=3.2.11
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=IE10
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10
-|Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771907(v=vs.85).aspx MSLostPointerCapture]
-}}
-}}
-{{See_Also_Section
-|Manual_links=[http://code.msdn.microsoft.com/ie/Pointers-and-Gestures-ae95918f code.MSDN Pointers and Gestures Example]
+---
+# lostpointercapture
 
-[http://msdn.microsoft.com/en-us/library/ie/dn433244(v=vs.85).aspx#feature_detection_and_touch_support_testing Feature Detection and Touch Support Testing]
+## Summary
 
-[http://blogs.msdn.com/b/eternalcoding/archive/2013/01/16/hand-js-a-polyfill-for-supporting-pointer-events-on-every-browser.aspx Hand.js - A polyfill for supporting pointer events on every browser.]
+Dispatched after pointer capture is released for a pointer.
 
-[https://github.com/toolkitchen/PointerEvents PointerEvents Polyfill on Github]
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh771907(v=vs.85).aspx lostPointerCapture Event]
-|HTML5Rocks_link=
-}}
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   Yes
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:   None
+
+This event is dispatched prior to any subsequent events for the pointer after capture was released. This event is dispatched to the element from which pointer capture was removed. Subsequent events for that pointer follow normal hit testing mechanisms for determining the event target. See [releasePointerCapture](/dom/Element/releasePointerCapture).
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+Note As of Internet Explorer 11, the Microsoft vendor prefixed version of this event (MSLostPointerCapture) is no longer supported and may be removed in a future release. Instead, use the non-prefixed lowercase name, lostpointercapture, which is better for standards compliance and future compatibility.
+
+## Related specifications
+
+Specification
+:   Status
+[Pointer Events](http://www.w3.org/TR/pointerevents)
+:   Working Draft
+
+## See also
+
+### Other articles
+
+[code.MSDN Pointers and Gestures Example](http://code.msdn.microsoft.com/ie/Pointers-and-Gestures-ae95918f)
+
+[Feature Detection and Touch Support Testing](http://msdn.microsoft.com/en-us/library/ie/dn433244(v=vs.85).aspx#feature_detection_and_touch_support_testing)
+
+[Hand.js - A polyfill for supporting pointer events on every browser.](http://blogs.msdn.com/b/eternalcoding/archive/2013/01/16/hand-js-a-polyfill-for-supporting-pointer-events-on-every-browser.aspx)
+
+[PointerEvents Polyfill on Github](https://github.com/toolkitchen/PointerEvents)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[lostPointerCapture Event](http://msdn.microsoft.com/en-us/library/ie/hh771907(v=vs.85).aspx) Article]
+

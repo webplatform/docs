@@ -1,73 +1,74 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, examples, compat and better spec link
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section}}
-{{Event
-|Event_applies_to=dom/Element
-|Synchronous=No
-|Bubbles=No
-|Target=dom/Element
-|Cancelable=No
-|Default_action=
-|Content=
-|Interface=dom/Element
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-The '''onloadedmetadata''' event is raised when enough of the resource has been obtained to know the full duration of the resource. In the case of a '''video''' element, the dimensions of the video are also known.
-This event occurs after [[dom/Element/durationchange|'''ondurationchange''']].
-To invoke this event, do one of the following:
-*Load a media resource.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.8.9.12
+---
+title: loadedmetadata
+tags:
+  - Events
+  - API
+  - Audio
+  - DOM
+  - Video
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Needs summary, examples, compat and better spec link'
+uri: dom/Element/loadedmetadata
 
+---
+# loadedmetadata
 
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[apis/audio-video/audio|audioApi]]</code>
-*<code>[[html/elements/audio|audioElement]]</code>
-*<code>[[dom/Document|Document]]</code>
-*<code>[[html/elements/source|source]]</code>
-*<code>[[html/elements/video|videoElement]]</code>
-*<code>[[apis/audio-video/video|videoApi]]</code>
-*<code>[[dom/Window|Window]]</code>
-*<code>Reference</code>
-*<code>[[dom/Element/loadstart|onloadstart]]</code>
-*<code>[[dom/Element/loadeddata|onloadeddata]]</code>
-}}
-{{Topics|API, Audio, DOM, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+The **onloadedmetadata** event is raised when enough of the resource has been obtained to know the full duration of the resource. In the case of a **video** element, the dimensions of the video are also known. This event occurs after [**ondurationchange**](/dom/Element/durationchange). To invoke this event, do one of the following:
+
+-   Load a media resource.
+
+### Syntax
+
+### Standards information
+
+-   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.12
+
+### Event handler parameters
+
+*pEvtObj* [in]
+:   Type: ****IHTMLEventObj****
+
+## See also
+
+### Related pages (MSDN)
+
+-   `audioApi`
+-   `audioElement`
+-   `Document`
+-   `source`
+-   `videoElement`
+-   `videoApi`
+-   `Window`
+-   `Reference`
+-   `onloadstart`
+-   `onloadeddata`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

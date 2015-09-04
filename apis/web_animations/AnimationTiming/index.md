@@ -1,37 +1,79 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Timing parameters for an AnimationNode are collected together under the AnimationTiming type.}}
-{{API_Object
-|Subclass_of=apis/web_animations/AnimationTimingReadOnly
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: AnimationTiming
+tags:
+  - API
+  - Objects
+  - Web
+  - Animations
+readiness: 'Almost Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Timing parameters for an AnimationNode are collected together under the AnimationTiming type.'
+uri: 'apis/web animations/AnimationTiming'
+
+---
+# AnimationTiming
+
+## Summary
+
+Timing parameters for an AnimationNode are collected together under the AnimationTiming type.
+
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)</span></span>
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Inherited from AnimationTimingReadOnly
+
+### Properties
+
+API Name
+:   Summary
+[delay](/apis/web_animations/AnimationTimingReadOnly/delay)
+:   The start delay which represents the number of milliseconds from an animation node’s start time to the start of the active interval.
+[direction](/apis/web_animations/AnimationTimingReadOnly/direction)
+:   The playback direction of the animation node as specified by one of the PlaybackDirection enumeration values.
+[duration](/apis/web_animations/AnimationTimingReadOnly/duration)
+:   The iteration duration which is a real number greater than or equal to zero (including positive infinity) representing the time taken to complete a single iteration of the animation node.
+[easing](/apis/web_animations/AnimationTimingReadOnly/easing)
+:   The timing function used to scale the time to produce easing effects.
+[endDelay](/apis/web_animations/AnimationTimingReadOnly/endDelay)
+:   The end delay which represents the number of milliseconds from the end of an animation node’s active interval until the start time of any animation node that may follow, for example, in an animation sequence.
+[fill](/apis/web_animations/AnimationTimingReadOnly/fill)
+:   The fill mode as specified by one of the FillMode enumeration values.
+
+    When performing timing calculations the special value auto is expanded to one of the fill modes recognized by the timing model as follows,
+
+    If the animation node to which the fill mode is being is applied is an animation, Use none as the fill mode. Otherwise, Use both as the fill mode.
+
+[iterationStart](/apis/web_animations/AnimationTimingReadOnly/iterationStart)
+:   The animation node’s iteration start property.
+
+    A finite real number greater than or equal to zero representing the number of iterations into the animation node at which to begin.
+
+[iterations](/apis/web_animations/AnimationTimingReadOnly/iterations)
+:   The animation node’s iteration count property.
+
+    A real number greater than or equal to zero (including positive infinity) representing the number of times to repeat the animation node.
+
+[playbackRate](/apis/web_animations/AnimationTimingReadOnly/playbackRate)
+:   The animation node’s playback rate property.
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+

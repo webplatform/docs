@@ -1,19 +1,40 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=needs example
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Collapses the given text range and moves the empty range by the given number of units.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=Unit
-|Data type=BSTR
-|Description='''String''' that specifies the units to move, using one of the following values:
+---
+title: move
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: Non-Standard
+notes:
+  - 'needs example'
+summary: 'Collapses the given text range and moves the empty range by the given number of units.'
+uri: dom/TextRange/move
+
+---
+# move
+
+## Summary
+
+Collapses the given text range and moves the empty range by the given number of units.
+
+*Method of [dom/TextRange](/dom/TextRange)*
+
+## Syntax
+
+``` {.js}
+var result = textRange.move(/* see parameter list */);
+```
+
+## Parameters
+
+### Unit
+
+ Data-type�
+:   BSTR
+
+**String** that specifies the units to move, using one of the following values:
 
 character - Moves one or more characters.
 
@@ -23,46 +44,34 @@ sentence - Moves one or more sentences. A sentence is a collection of words term
 
 textedit - Moves to the start or end of the original range.
 
-|Optional=No
-}}{{Method Parameter
-|Name=Count
-|Data type=any
-|Description='''Integer''' that specifies the number of units to move. This can be positive or negative. The default is '''1'''.
-|Optional=No
-}}
-|Method_applies_to=dom/TextRange
-|Example_object_name=textRange
-|Return_value_name=result
-|Javascript_data_type=Number
-|Return_value_description='''Integer''' that returns the number of units moved.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+### Count
 
-|Import_Notes====Syntax===
-===Standards information===
+ Data-type�
+:   any
+
+**Integer** that specifies the number of units to move. This can be positive or negative. The default is **1**.
+
+## Return Value
+
+Returns an object of type Number.
+
+**Integer** that returns the number of units moved.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+### Syntax
+
+### Standards information
+
 There are no standards that apply here.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536616(v=vs.85).aspx move Method]
-|HTML5Rocks_link=
-}}
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[move Method](http://msdn.microsoft.com/en-us/library/ie/ms536616(v=vs.85).aspx) Article]
+

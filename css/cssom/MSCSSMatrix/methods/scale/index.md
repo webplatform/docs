@@ -1,76 +1,77 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Little content; browser-specific; move/deletion candidate
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=css/cssom/MSCSSMatrix
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+---
+title: scale
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Little content; browser-specific; move/deletion candidate'
+uri: css/cssom/MSCSSMatrix/methods/scale
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - css/cssom/MSCSSMatrix
+
+---
+# scale
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)*
+
+## Syntax
+
+``` {.js}
+var object = object.scale();
+```
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+Type: **HRESULT**
 
 This method can return one of these values.
 
-{{{!}} class="wikitable"
-{{!}}-
-!Return value
-!Description
-{{!}}-
-{{!}}S_OK
-{{!}}The operation completed successfully.
-{{!}}}
+Return value
+:   Description
+S\_OK
+:   The operation completed successfully.
 
 MSCSSMatrix
 
 The returned matrix.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}223140 CSS Transitions Module Level 3], Section 10.1
 
+**Needs Examples**: This section should include examples.
 
-===Parameters===
-;''scaleX'' [in]:Type: '''float'''The ''x'' component (in degrees) of the scale value.
-;''scaleY'' [in, optional]:Type: '''float'''The ''y'' component (in degrees) of the scale value. If ''scaleY'' is not defined, the ''y'' component of the scale value is the same as the ''x'' component.
-;''scaleZ'' [in, optional]:Type: '''float'''The ''z'' component (in degrees) of the scale value. If ''scaleY'' is not defined, the value of ''scaleZ'' is 1.
-;''retMatrix'' [out, retval]:Type: '''MSCSSMatrix'''The returned matrix.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/transforms/MSCSSMatrix|MSCSSMatrix]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Syntax
+
+### Standards information
+
+-   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
+
+### Parameters
+
+*scaleX* [in]
+:   Type: **float**The *x* component (in degrees) of the scale value.
+*scaleY* [in, optional]
+:   Type: **float**The *y* component (in degrees) of the scale value. If *scaleY* is not defined, the *y* component of the scale value is the same as the *x* component.
+*scaleZ* [in, optional]
+:   Type: **float**The *z* component (in degrees) of the scale value. If *scaleY* is not defined, the value of *scaleZ* is 1.
+*retMatrix* [out, retval]
+:   Type: **MSCSSMatrix**The returned matrix.
+
+## See also
+
+### Related pages (MSDN)
+
+-   `MSCSSMatrix`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

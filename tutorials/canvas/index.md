@@ -1,23 +1,27 @@
-{{Page_Title|Canvas Tutorials}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs links to other existing tutorials
-|Checked_Out=No
-}}
-{{Summary_Section|Index of tutorials related to canvas.}}
-{{Basic Page}}
-<code><canvas></code> is an HTML element which can be used to draw graphics using scripting (usually JavaScript). It can, for instance, be used to draw graphs, make photo compositions or do simple (and not so simple) animations.
+---
+title: canvas
+tags:
+  - Basic
+  - Pages
+  - Canvas
+readiness: 'Almost Ready'
+notes:
+  - 'Needs links to other existing tutorials'
+summary: 'Index of tutorials related to canvas.'
+uri: tutorials/canvas
 
-[[tutorials/canvas/Canvas_tutorial|Introduction to Canvas]]
+---
+# Canvas Tutorials
 
-[[tutorials/canvas_notearsgame|No tears guide to HTML5 game development (using canvas)]]
+## Summary
 
-[[tutorials/canvas_texteffects|Canvas Text Effects]]
-{{Notes_Section}}
-{{Topics|Canvas}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+Index of tutorials related to canvas.
+
+`<canvas>` is an HTML element which can be used to draw graphics using scripting (usually JavaScript). It can, for instance, be used to draw graphs, make photo compositions or do simple (and not so simple) animations.
+
+[Introduction to Canvas](/tutorials/canvas/Canvas_tutorial)
+
+[No tears guide to HTML5 game development (using canvas)](/tutorials/canvas_notearsgame)
+
+[Canvas Text Effects](/tutorials/canvas_texteffects)
+

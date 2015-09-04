@@ -1,42 +1,38 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The previous sibling of this animation node.}}
-{{API_Object_Property
-|Property_applies_to=apis/web_animations/AnimationNode
-|Read_only=Yes
-|Example_object_name=element
-|Return_value_name=result
-|Javascript_data_type=Object
-|Return_value_description=Returns an AnimationNode object
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: previousSibling
+tags:
+  - API
+  - Object
+  - Properties
+  - Web
+  - Animations
+readiness: 'Almost Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The previous sibling of this animation node.'
+uri: 'apis/web animations/AnimationNode/previousSibling'
+
+---
+# previousSibling
+
+## Summary
+
+The previous sibling of this animation node.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = element.previousSibling;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+
+Returns an AnimationNode object
+
+**Needs Examples**: This section should include examples.
+

@@ -1,46 +1,83 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add summery, values, syntax, example, description, specifications, compatibility.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section}}
-{{CSS_Media_Feature
-|Content=The device-height media query should not be used for the same reasons the [[css/media_queries/device-width|device-width]] should not be used. Use [[css/media_queries/height|height]] instead.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Media Queries Level 4
-|URL=http://www.w3.org/TR/mediaqueries-4/
-|Status=Working Draft
-}}{{Related Specification
-|Name=Media Queries
-|URL=http://www.w3.org/TR/css3-mediaqueries/
-|Status=Recommendation
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Media Queries
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: device-height
+tags:
+  - CSS
+  - Media
+  - Feature
+  - DOM
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add summery, values, syntax, example, description, specifications, compatibility.'
+uri: 'css/media queries/device-height'
+
+---
+# device-height
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+ The device-height media query should not be used for the same reasons the [device-width](/css/media_queries/device-width) should not be used. Use [height](/css/media_queries/height) instead.
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[Media Queries Level 4](http://www.w3.org/TR/mediaqueries-4/)
+:   Working Draft
+[Media Queries](http://www.w3.org/TR/css3-mediaqueries/)
+:   Recommendation
+
+## See also
+
+### Related articles
+
+#### Media Queries
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [\<resolution\>](/css/data_types/resolution)
+
+-   [accelerator](/css/media_queries/accelerator)
+
+-   [MediaQueryList](/css/media_queries/apis/MediaQueryList)
+
+-   [MediaQueryListListener](/css/media_queries/apis/MediaQueryListListener)
+
+-   [StyleMedia](/css/media_queries/apis/StyleMedia)
+
+-   [addListener](/css/media_queries/apis/addListener)
+
+-   [handleChange](/css/media_queries/apis/handleChange)
+
+-   [matchMedia](/css/media_queries/apis/matchMedia)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [matches](/css/media_queries/apis/matches)
+
+-   [media](/css/media_queries/apis/media)
+
+-   [type](/css/media_queries/apis/properties/type)
+
+-   [removeListener](/css/media_queries/apis/removeListener)
+
+-   [Colors by](/css/media_queries/colors_by)
+
+-   **device-height**
+
+-   [filter](/css/media_queries/filter)
+
+-   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
+
+-   [behavior](/css/properties/behavior)
+
+-   [Targeting styles with media queries](/tutorials/media_queries)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,50 +1,73 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The &lt;object&gt; element represents can represent an external resource, which, depending on the type of the resource, will either be treated as an image, as a nested browsing context, or as an external resource to be processed by a plugin.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLObjectElement
-|Tag_omissions=required
-|CSS_display=inline
-|Content=Examples of external resources:
+---
+title: object
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.'
+summary: 'The <object> element represents can represent an external resource, which, depending on the type of the resource, will either be treated as an image, as a nested browsing context, or as an external resource to be processed by a plugin.'
+uri: html/elements/object
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/properties/object
 
-* Flash contents
-* Java applet
-* HTML resource
+---
+# object
 
-== Accessibility ==
-Authors should ensure that the information and user interface components must be presentable to users in ways they can perceive ([http://www.w3.org/TR/WCAG20/#perceivable WCAG 2.0 - Principle 1: Perceivable]). This includes providing alternatives for time-based media [http://www.w3.org/TR/WCAG20/#media-equiv Guideline 1.2].
+## Summary
 
-== HTML Attributes ==
-*<code>data</code> = URL potentially surrounded by spaces<br />Specifies the address of the resource.
+The \<object\> element represents can represent an external resource, which, depending on the type of the resource, will either be treated as an image, as a nested browsing context, or as an external resource to be processed by a plugin.
 
-*<code>type</code> = MIME type<br />Specifies the type of the resource.
+## Overview Table
 
-*<code>name</code> = string<br />Gives the name of the input element.
+[DOM Interface](/dom/interface)
+:   [HTMLObjectElement](/dom/HTMLObjectElement)
 
-*<code>usemap</code> = hash-name reference<br />Specifies a hash-name reference to a map element with which to associate the object.
+Examples of external resources:
 
-*<code>form</code> = the ID of a form element in the element's owner<br />Associate the object element with its form owner.
+-   Flash contents
+-   Java applet
+-   HTML resource
 
-*<code>width</code> = non-negative integer<br />Give the width of the visual content of the element, in CSS pixels.
+## Accessibility
 
-*<code>height</code> = non-negative integer<br />Give the height of the visual content of the element, in CSS pixels.
+Authors should ensure that the information and user interface components must be presentable to users in ways they can perceive ([WCAG 2.0 - Principle 1: Perceivable](http://www.w3.org/TR/WCAG20/#perceivable)). This includes providing alternatives for time-based media [Guideline 1.2](http://www.w3.org/TR/WCAG20/#media-equiv).
 
-The following attributes were previously defined but obsolete: <code>noembed</code>, <code>archive</code>, <code>classid</code>, <code>code</code>, <code>codebase</code>, <code>codetype</code>, <code>declare</code>, <code>standby</code>, <code>datasrc</code>, <code>datafld</code>, <code>dataformatas</code>, <code>align</code>, <code>border</code>, <code>hspace</code>, <code>vspace</code>.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following example shows how a plugin can be used in HTML (in this case the Flash plugin, to show a video file). Fallback is provided for users who do not have Flash enabled, in this case using the video element to show the video for those using user agents that support video, and finally providing a link to the video for those who have neither Flash nor a video-capable browser
-|Code=<nowiki><p>Look at my video:
+## HTML Attributes
+
+-   `data` = URL potentially surrounded by spaces
+    Specifies the address of the resource.
+
+-   `type` = MIME type
+    Specifies the type of the resource.
+
+-   `name` = string
+    Gives the name of the input element.
+
+-   `usemap` = hash-name reference
+    Specifies a hash-name reference to a map element with which to associate the object.
+
+-   `form` = the ID of a form element in the element's owner
+    Associate the object element with its form owner.
+
+-   `width` = non-negative integer
+    Give the width of the visual content of the element, in CSS pixels.
+
+-   `height` = non-negative integer
+    Give the height of the visual content of the element, in CSS pixels.
+
+The following attributes were previously defined but obsolete: `noembed`, `archive`, `classid`, `code`, `codebase`, `codetype`, `declare`, `standby`, `datasrc`, `datafld`, `dataformatas`, `align`, `border`, `hspace`, `vspace`.
+
+## Examples
+
+The following example shows how a plugin can be used in HTML (in this case the Flash plugin, to show a video file). Fallback is provided for users who do not have Flash enabled, in this case using the video element to show the video for those using user agents that support video, and finally providing a link to the video for those who have neither Flash nor a video-capable browser
+
+``` {.html}
+<p>Look at my video:
   <object type="application/x-shockwave-flash">
     <param name=movie value="http://video.example.com/library/watch.swf">
     <param name=allowfullscreen value=true>
@@ -53,68 +76,59 @@ The following attributes were previously defined but obsolete: <code>noembed</co
       <a href="http://video.example.com/vids/315981">View video</a>.
     </video>
   </object>
-</p></nowiki>
-}}{{Single Example
-|Language=HTML
-|Description=In the following example, a Java applet is embedded in a page using the object element. (Generally speaking, it is better to avoid using applets like these and instead use native JavaScript and HTML to provide the functionality, since that way the application will work on all Web browsers without requiring a third-party plugin. Many devices, especially embedded devices, do not support third-party technologies like Java.)
-|Code=<nowiki><figure>
+</p>
+```
+
+In the following example, a Java applet is embedded in a page using the object element. (Generally speaking, it is better to avoid using applets like these and instead use native JavaScript and HTML to provide the functionality, since that way the application will work on all Web browsers without requiring a third-party plugin. Many devices, especially embedded devices, do not support third-party technologies like Java.)
+
+``` {.html}
+<figure>
   <object type="application/x-java-applet">
     <param name="code" value="MyJavaClass">
     <p>You do not have Java available, or it is disabled.</p>
   </object>
   <figcaption>My Java Clock</figcaption>
-</figure></nowiki>
-}}{{Single Example
-|Language=HTML
-|Description=In this example, an HTML page is embedded in another using the object element
-|Code=<nowiki><figure>
+</figure>
+```
+
+In this example, an HTML page is embedded in another using the object element
+
+``` {.html}
+<figure>
   <object data="clock.html"></object>
   <figcaption>My HTML Clock</figcaption>
-</figure></nowiki>
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-An '''object''' element can be a child of the '''head''' or the '''body''' element of a document.
-Possible return values (those generated by Dynamic HTML (DHTML) Object Model properties) on the '''object''' element depend on the implementation of the '''object'''. For example, the '''readyState''' property returns null or error if the '''object''' does not implement a '''readyState''' property. DHTML Object Model properties available for an '''object''' depend on the content of the '''object'''. For information about supported properties, see the documentation for the individual object.
-Events are sent directly to the '''object''' element. If the event is returned by the embedded object, it bubbles accordingly. If the event is not returned, it does not bubble.
-'''Note'''  You can use the [[dom/properties/object|'''object''']] property for the '''object''' element to reconcile DHTML Object Model members that are duplicated by the '''object''' element's implementation and by DHTML. For instance, if the '''object''' implements an item method and DHTML implements an item method, use <code>document.all.objectID.object.item()</code> to access the one defined for the '''object'''.
-Windows Internet Explorer 9.  In IE9 Standards mode, the '''object''' element is allowed to load content from other domains.  In IE8 Standards mode, however, this is not allowed.
-Windows Internet Explorer 8 and later. IE8 mode enables several enhancements to the '''object''' element that are not available when pages are displayed in earlier document modes.
-*Images are supported as native object types.
-*The values of the [[html/attributes/codeBase|'''codeBase''']] and [[html/attributes/data|'''data''']] attributes depend on the current document compatibility mode.
-*Object fallback is supported when an '''object''' fails to load for communication or cross-domain security failures.
+</figure>
+```
 
-'''Note'''  Object fallback does not occur when the [[html/attributes/contentEditable|'''contentEditable''']] property of the [[dom/Document|'''Document''']]  object is set to <code>true</code>.
-*The [[html/attributes/title|'''title''']] attribute is preferred over the [[html/attributes/alt|'''alt''']] attribute when specified as a pop-up tooltip.
-*When the value of the [[html/attributes/data|'''data''']] attribute specifies the data URI protocol, the value is not passed to Microsoft ActiveX controls upon instantiation. This preserves compatibility with older ActiveX controls that do not support the data URI protocol.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/embedded-content.html#the-object-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/embedded-content-0.html#the-object-element
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/objects.html#edef-OBJECT
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## Notes
+
+### Remarks
+
+An **object** element can be a child of the **head** or the **body** element of a document. Possible return values (those generated by Dynamic HTML (DHTML) Object Model properties) on the **object** element depend on the implementation of the **object**. For example, the **readyState** property returns null or error if the **object** does not implement a **readyState** property. DHTML Object Model properties available for an **object** depend on the content of the **object**. For information about supported properties, see the documentation for the individual object. Events are sent directly to the **object** element. If the event is returned by the embedded object, it bubbles accordingly. If the event is not returned, it does not bubble. **Note**  You can use the [**object**](/w/index.php?title=dom/properties/object&action=edit&redlink=1) property for the **object** element to reconcile DHTML Object Model members that are duplicated by the **object** element's implementation and by DHTML. For instance, if the **object** implements an item method and DHTML implements an item method, use `document.all.objectID.object.item()` to access the one defined for the **object**. Windows Internet Explorer 9. In IE9 Standards mode, the **object** element is allowed to load content from other domains. In IE8 Standards mode, however, this is not allowed. Windows Internet Explorer 8 and later. IE8 mode enables several enhancements to the **object** element that are not available when pages are displayed in earlier document modes.
+
+-   Images are supported as native object types.
+-   The values of the [**codeBase**](/html/attributes/codeBase) and [**data**](/html/attributes/data) attributes depend on the current document compatibility mode.
+-   Object fallback is supported when an **object** fails to load for communication or cross-domain security failures.
+
+**Note**  Object fallback does not occur when the [**contentEditable**](/html/attributes/contentEditable) property of the [**Document**](/dom/Document) object is set to `true`.
+
+-   The [**title**](/html/attributes/title) attribute is preferred over the [**alt**](/html/attributes/alt) attribute when specified as a pop-up tooltip.
+-   When the value of the [**data**](/html/attributes/data) attribute specifies the data URI protocol, the value is not passed to Microsoft ActiveX controls upon instantiation. This preserves compatibility with older ActiveX controls that do not support the data URI protocol.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-object-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-object-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/objects.html#edef-OBJECT)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

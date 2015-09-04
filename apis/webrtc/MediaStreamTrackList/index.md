@@ -1,90 +1,53 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes={{Editorial/Deletion_Candidate
-| The MediaStreamTrackList API object has been removed from the WebRTC Editor's Draft in Nov 13, 2012. Even if MediaStreamTrackList is still used in the WebRTC Working Draft, it is not defined in the Media Capture and Streams Working Drafts after Nov 15, 2012.
-}}
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|A MediaStream has two MediaStreamTrackList objects, one for the video tracks and one for the audio tracks.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=21
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=18
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: MediaStreamTrackList
+tags:
+  0: API
+  1: Objects
+  3: WebRTC
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - "\nDeletion Candidate:   The MediaStreamTrackList API object has been removed from the WebRTC Editor's Draft in Nov 13, 2012. Even if MediaStreamTrackList is still used in the WebRTC Working Draft, it is not defined in the Media Capture and Streams Working Drafts after Nov 15, 2012.\n\n"
+summary: 'A MediaStream has two MediaStreamTrackList objects, one for the video tracks and one for the audio tracks.'
+uri: apis/webrtc/MediaStreamTrackList
+
+---
+# MediaStreamTrackList
+
+## Summary
+
+A MediaStream has two MediaStreamTrackList objects, one for the video tracks and one for the audio tracks.
+
+## Properties
+
+API Name
+:   Summary
+[length](/apis/webrtc/MediaStreamTrackList/length)
+:   The number of tracks in the list.
+[onaddtrack](/apis/webrtc/MediaStreamTrackList/onaddtrack)
+:   Handles the addtrack event.
+[onremovetrack](/apis/webrtc/MediaStreamTrackList/onremovetrack)
+:   Handles the removetrack event.
+
+## Methods
+
+API Name
+:   Summary
+[add](/apis/webrtc/MediaStreamTrackList/add)
+:   Adds a MediaStreamTrack to this track list.
+[item](/apis/webrtc/MediaStreamTrackList/item)
+:   Returns the MediaStreamTrack at the specified index value.
+[remove](/apis/webrtc/MediaStreamTrackList/remove)
+:   Removes a MediaStreamTrack from this track list.
+
+## Events
+
+API Name
+:   Summary
+[addtrack](/apis/webrtc/MediaStreamTrackList/addtrack)
+:   A MediaStreamTrack has been added to the list.
+[removetrack](/apis/webrtc/MediaStreamTrackList/removetrack)
+:   A MediaStreamTrack has been removed from the list.
+
+**Needs Examples**: This section should include examples.
+

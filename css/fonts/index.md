@@ -1,86 +1,122 @@
-{{Page_Title|Font related properties}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs more content including examples. 
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Sets font-style, font-variant, font-weight, font-size/line-height, font-family properties in one declaration. 
+---
+title: fonts
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs more content including examples.'
+summary: "Sets font-style, font-variant, font-weight, font-size/line-height, font-family properties in one declaration. \n"
+uri: css/fonts
+
+---
+# Font related properties
+
+## Summary
+
+Sets font-style, font-variant, font-weight, font-size/line-height, font-family properties in one declaration.
 
 The order is obligatory, not all options must be set.
 
-''font-size'' and ''font-family'' are required options.
-}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=p <nowiki>{</nowiki>
-  font: italic 1.2em/1.5 Georgia;
-  }
+*font-size* and *font-family* are required options.
 
-  div {
-  font: italic small-caps 1.2em/14px "Times New Roman";
-  }
+## Properties
 
-  em { font: bold 1.2em/2ex Arial; }
-|Import_Notes====In this section===
-{{{!}} class="wikitable"
-{{!}}-
-!Property
-!Description
-{{!}}-
-{{!}}[[css/properties/font|'''font''']]
-{{!}}Sets or retrieves a combination of separate [[css/properties/font|'''font''']] properties of the object. Alternatively, sets or retrieves one or more of six user-preference fonts.Sets or retrieves a combination of separate '''font''' properties of the object. Alternatively, sets or retrieves one or more of six user-preference fonts.
-{{!}}-
-{{!}}[[css/properties/font-family|'''font-family''']]
-{{!}}Sets or retrieves  the name of the font used for text in the object.
-{{!}}-
-{{!}}[[css/properties/font-feature-settings|'''font-feature-settings''']]
-{{!}}Gets or sets one or more values that specify glyph substitution and positioning in fonts that include OpenType layout features.
-{{!}}-
-{{!}}[[css/properties/font-size|'''font-size''']]
-{{!}}Sets or retrieves  a value that indicates the font size used for text in the object.
-{{!}}-
-{{!}}[[css/properties/font-size-adjust|'''font-size-adjust''']]
-{{!}}Sets or retrieves a value that specifies an aspect value for an element that will effectively preserve the x-height of the first choice font, whether it is substituted or not.
-{{!}}-
-{{!}}[[css/properties/font-stretch|'''font-stretch''']]
-{{!}}Sets or retrieves a value that indicates a normal, condensed, or expanded face of a font family.
-{{!}}-
-{{!}}[[css/properties/font-style|'''font-style''']]
-{{!}}Sets or retrieves  the font style of the object as '''italic''', '''normal''', or '''oblique'''.
-{{!}}-
-{{!}}[[css/fonts/font-variant|'''font-variant''']]
-{{!}}Gets or sets  whether the text of the object is in small capital letters.
-{{!}}-
-{{!}}[[css/properties/font-weight|'''font-weight''']]
-{{!}}Gets of sets  the weight of the font of the object.
-{{!}}}
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Fonts
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+*No properties.*
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     p {
+     font: italic 1.2em/1.5 Georgia;
+     }
+
+     div {
+     font: italic small-caps 1.2em/14px "Times New Roman";
+     }
+
+     em { font: bold 1.2em/2ex Arial; }
+
+### In this section
+
+Property
+:   Description
+[**font**](/css/properties/font)
+:   Sets or retrieves a combination of separate [**font**](/css/properties/font) properties of the object. Alternatively, sets or retrieves one or more of six user-preference fonts.Sets or retrieves a combination of separate **font** properties of the object. Alternatively, sets or retrieves one or more of six user-preference fonts.
+[**font-family**](/css/properties/font-family)
+:   Sets or retrieves the name of the font used for text in the object.
+[**font-feature-settings**](/css/properties/font-feature-settings)
+:   Gets or sets one or more values that specify glyph substitution and positioning in fonts that include OpenType layout features.
+[**font-size**](/css/properties/font-size)
+:   Sets or retrieves a value that indicates the font size used for text in the object.
+[**font-size-adjust**](/css/properties/font-size-adjust)
+:   Sets or retrieves a value that specifies an aspect value for an element that will effectively preserve the x-height of the first choice font, whether it is substituted or not.
+[**font-stretch**](/css/properties/font-stretch)
+:   Sets or retrieves a value that indicates a normal, condensed, or expanded face of a font family.
+[**font-style**](/css/properties/font-style)
+:   Sets or retrieves the font style of the object as **italic**, **normal**, or **oblique**.
+[**font-variant**](/css/fonts/font-variant)
+:   Gets or sets whether the text of the object is in small capital letters.
+[**font-weight**](/css/properties/font-weight)
+:   Gets of sets the weight of the font of the object.
+
+## See also
+
+### Related articles
+
+#### Fonts
+
+-   [@font-face](/css/atrules/@font-face)
+
+-   **Font related properties**
+
+-   [font-variant](/css/fonts/font-variant)
+
+-   [font](/css/properties/font)
+
+-   [font-family](/css/properties/font-family)
+
+-   [font-feature-settings](/css/properties/font-feature-settings)
+
+-   [font-kerning](/css/properties/font-kerning)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-size-adjust](/css/properties/font-size-adjust)
+
+-   [font-stretch](/css/properties/font-stretch)
+
+-   [font-style](/css/properties/font-style)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [font-variant](/css/properties/font-variant)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [size](/html/attributes/size)
+
+-   [font](/html/elements/font)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

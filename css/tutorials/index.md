@@ -1,96 +1,153 @@
-{{Page_Title|CSS tutorials}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.}}
-{{Basic Page|Content=PAGE CONTENT GOES HERE
-}}
-{{Languages}}
+---
+title: tutorials
+tags:
+  - Basic
+  - Pages
+  - CSS
+readiness: 'Ready to Use'
+summary: 'Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.'
+uri: css/tutorials
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - css/af
+    - css/ar
+    - css/ast
+    - css/az
+    - css/bcc
+    - css/bg
+    - css/br
+    - css/ca
+    - css/cs
+    - css/da
+    - css/de
+    - css/diq
+    - css/el
+    - css/eo
+    - css/fa
+    - css/fi
+    - css/gl
+    - css/gu
+    - css/he
+    - css/hu
+    - css/hy
+    - css/id
+    - css/it
+    - css/ja
+    - css/ka
+    - css/kk
+    - css/km
+    - css/ksh
+    - css/kw
+    - css/mk
+    - css/ml
+    - css/mr
+    - css/ms
+    - css/nl
+    - css/no
+    - css/oc
+    - css/pl
+    - css/pt
+    - css/pt-br
+    - css/ro
+    - css/ru
+    - css/si
+    - css/sk
+    - css/sl
+    - css/sq
+    - css/sr
+    - css/sv
+    - css/ta
+    - css/th
+    - css/tr
+    - css/uk
+    - css/vi
+    - css/yue
+    - css/zh-hans
+    - css/zh-hant
+    - css/zh-tw
 
-==Beginning with CSS==
+---
+# CSS tutorials
 
-* [[tutorials/learning what css is|What is CSS?]]
-* [[tutorials/learning why we use css|Why use CSS?]]
-* [[guides/getting started with css|Getting started with CSS]]
+## Summary
 
-==CSS fundamentals==
+Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.
 
-* [[tutorials/using selectors|Using selectors]]
-* [[guides/advanced selectors guide|Advanced selectors guide]]
-* [[tutorials/inheritance and cascade|Inheritance and cascade]]
-*[[tutorials/understanding-css-units|Understanding CSS units]]
-* [[guides/css shorthand|CSS shorthand guide]]
-* [[tutorials/debugging css|Debugging CSS]]
+**Language:**
+:   **[English](/css)**  • <span lang="es">[español](/css/es)</span> • <span lang="fr">[français](/css/fr)</span> • <span lang="ko">[한국어](/css/ko)</span> • <span lang="zh">[中文](/css/zh)</span>
 
-==Working with fonts and text==
+## Beginning with CSS
 
-* [[tutorials/css text quick start|CSS text quick start]]
-* [[guides/css text styling fundamentals|Text styling fundamentals]]
-* [[guides/advanced css text styling|Advanced CSS text styling]]
-* [[tutorials/using specific list styles|Using specific list styles]]
+-   [What is CSS?](/tutorials/learning_what_css_is)
+-   [Why use CSS?](/tutorials/learning_why_we_use_css)
+-   [Getting started with CSS](/guides/getting_started_with_css)
 
-==Graphics==
+## CSS fundamentals
 
-* [[tutorials/using css background images|Using CSS background images]]
-* [[tutorials/creating gradients in css|Creating gradients in CSS]]
-* [[tutorials/css border image|Decorating fancy borders with CSS border-image]]
-* [[tutorials/css box shadow|Adding depth with CSS box-shadow]]
-* [[tutorials/css_filters|Understanding CSS filter effects]]
-* [[tutorials/using_css_multiple_background|Using multiple backgrounds]]
+-   [Using selectors](/tutorials/using_selectors)
+-   [Advanced selectors guide](/guides/advanced_selectors_guide)
+-   [Inheritance and cascade](/tutorials/inheritance_and_cascade)
+-   [Understanding CSS units](/tutorials/understanding-css-units)
+-   [CSS shorthand guide](/guides/css_shorthand)
+-   [Debugging CSS](/tutorials/debugging_css)
 
-==CSS layout==
+## Working with fonts and text
 
-* [[guides/the css layout model|The CSS layout model: border, boxes, margin and padding]]
-* [[tutorials/box model|Exploring the CSS box model]]
-* [[tutorials/layout fundamentals|Exploring CSS layout fundamentals]]
-* [[tutorials/floats and clearing|Page layout with floats and clearing]]
-* [[tutorials/static and relative positioning|Understanding static and relative positioning]]
-* [[tutorials/absolute and fixed positioning|Advanced layouts with absolute and fixed positioning]]
-* [[tutorials/css-regions|Using CSS Regions to flow content through a layout]]
+-   [CSS text quick start](/tutorials/css_text_quick_start)
+-   [Text styling fundamentals](/guides/css_text_styling_fundamentals)
+-   [Advanced CSS text styling](/guides/advanced_css_text_styling)
+-   [Using specific list styles](/tutorials/using_specific_list_styles)
 
-==CSS best practices==
+## Graphics
 
-* [[tutorials/making css easier to read|Making CSS easier to read]]
-* [[tutorials/optimizing css|Optimizing CSS]]
-* [[tutorials/state in css|State in CSS]]
+-   [Using CSS background images](/tutorials/using_css_background_images)
+-   [Creating gradients in CSS](/tutorials/creating_gradients_in_css)
+-   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)
+-   [Adding depth with CSS box-shadow](/tutorials/css_box_shadow)
+-   [Understanding CSS filter effects](/tutorials/css_filters)
+-   [Using multiple backgrounds](/tutorials/using_css_multiple_background)
 
-==CSS transforms and animations==
+## CSS layout
 
-* [[tutorials/css transforms|Manipulating content with CSS3 transforms]]
-* [[tutorials/css transitions|Dynamic visual effects with CSS3 transitions]]
-* [[tutorials/css animations|Making things move with CSS3 animations]]
+-   [The CSS layout model: border, boxes, margin and padding](/guides/the_css_layout_model)
+-   [Exploring the CSS box model](/tutorials/box_model)
+-   [Exploring CSS layout fundamentals](/tutorials/layout_fundamentals)
+-   [Page layout with floats and clearing](/tutorials/floats_and_clearing)
+-   [Understanding static and relative positioning](/tutorials/static_and_relative_positioning)
+-   [Advanced layouts with absolute and fixed positioning](/tutorials/absolute_and_fixed_positioning)
+-   [Using CSS Regions to flow content through a layout](/tutorials/css-regions)
 
-==Advanced CSS techniques==
+## CSS best practices
 
-* [[tutorials/generated content|Generating content with CSS]]
-* [[tutorials/manipulating css with javascript|Manipulating CSS with JavaScript]]
-* [[tutorials/styling svg with css|Styling SVG with CSS]]
-* [[tutorials/styling xml with css|Styling XML data with CSS]]
-* [[tutorials/object fit|Manipulating replaced content with object-fit]]
+-   [Making CSS easier to read](/tutorials/making_css_easier_to_read)
+-   [Optimizing CSS](/tutorials/optimizing_css)
+-   [State in CSS](/tutorials/state_in_css)
 
-==Applied styling exercises==
+## CSS transforms and animations
 
-* [[tutorials/styling lists and links|Styling lists and links]]
-* [[guides/styling tables|Styling HTML tables]]
-* [[tutorials/table styling basics|Table styling basics]]
-* [[guides/styling forms guide|Styling forms]]
+-   [Manipulating content with CSS3 transforms](/tutorials/css_transforms)
+-   [Dynamic visual effects with CSS3 transitions](/tutorials/css_transitions)
+-   [Making things move with CSS3 animations](/tutorials/css_animations)
 
-==CSS for mobile and devices==
+## Advanced CSS techniques
 
-* [[tutorials/targetting css at different media|Targeting CSS at different media types]] 
-* [[tutorials/media queries|Targeting CSS with media queries]]
-* [[tutorials/responsive layouts|Creating responsive layouts]]
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+-   [Generating content with CSS](/tutorials/generated_content)
+-   [Manipulating CSS with JavaScript](/tutorials/manipulating_css_with_javascript)
+-   [Styling SVG with CSS](/tutorials/styling_svg_with_css)
+-   [Styling XML data with CSS](/tutorials/styling_xml_with_css)
+-   [Manipulating replaced content with object-fit](/tutorials/object_fit)
+
+## Applied styling exercises
+
+-   [Styling lists and links](/tutorials/styling_lists_and_links)
+-   [Styling HTML tables](/guides/styling_tables)
+-   [Table styling basics](/tutorials/table_styling_basics)
+-   [Styling forms](/guides/styling_forms_guide)
+
+## CSS for mobile and devices
+
+-   [Targeting CSS at different media types](/tutorials/targetting_css_at_different_media)
+-   [Targeting CSS with media queries](/tutorials/media_queries)
+-   [Creating responsive layouts](/tutorials/responsive_layouts)
+

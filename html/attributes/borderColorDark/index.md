@@ -1,50 +1,44 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-This property is the opposite of [[html/attributes/borderColorLight|'''borderColorLight''']] and must be used with the [[html/attributes/border|'''border''']] property that corresponds to the '''BORDER''' attribute. This property does not affect the Cascading Style Sheets (CSS) [[css/properties/border|'''border''']] composite properties.
-Some client applications do not recognize color names, but all client applications should recognize RGB color values and display them correctly.
-This property is no longer recommended. Use the [[css/properties/border-color|'''borderColor''']] property instead.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/table|table]]</code>
-*<code>td</code>
-*<code>th</code>
-*<code>tr</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: borderColorDark
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+uri: html/attributes/borderColorDark
+
+---
+# borderColorDark
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+Applies to
+:    ?
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+This property is the opposite of [**borderColorLight**](/html/attributes/borderColorLight) and must be used with the [**border**](/html/attributes/border) property that corresponds to the **BORDER** attribute. This property does not affect the Cascading Style Sheets (CSS) [**border**](/css/properties/border) composite properties. Some client applications do not recognize color names, but all client applications should recognize RGB color values and display them correctly. This property is no longer recommended. Use the [**borderColor**](/css/properties/border-color) property instead.
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `table`
+-   `td`
+-   `th`
+-   `tr`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

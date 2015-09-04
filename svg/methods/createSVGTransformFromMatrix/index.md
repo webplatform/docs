@@ -1,47 +1,43 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: createSVGTransformFromMatrix
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/createSVGTransformFromMatrix
 
-===Remarks===
+---
+# createSVGTransformFromMatrix
 
-The '''createSVGTransformFromMatrix''' method creates an [[svg/objects/SVGTransform|'''SVGTransform''']] object, of transform type SVG_TRANSFORM_MATRIX, whose values are given by the ''matrix'' parameter. The values from the ''matrix'' parameter   are copied;  the ''matrix'' parameter is not adopted as  the [[svg/properties/matrix|'''matrix''']] property.
+## Notes
 
-The [[svg/objects/SVGTransform|'''SVGTransform''']] object corresponds to a single '''matrix()''' component within an element's '''transform''' attribute specification.
+### Remarks
 
-'''Note:'''  For   [[svg/elements/svg|'''SVGSVGElement''']]  elements, the [[svg/objects/SVGTransform|'''SVGTransform''']] object is created outside of any document trees.
-|Import_Notes=
+The **createSVGTransformFromMatrix** method creates an [**SVGTransform**](/svg/objects/SVGTransform) object, of transform type SVG\_TRANSFORM\_MATRIX, whose values are given by the *matrix* parameter. The values from the *matrix* parameter are copied; the *matrix* parameter is not adopted as the [**matrix**](/svg/properties/matrix) property.
 
-===Syntax===
+The [**SVGTransform**](/svg/objects/SVGTransform) object corresponds to a single **matrix()** component within an element's **transform** attribute specification.
 
-===Standards information===
+**Note:** For [**SVGSVGElement**](/svg/elements/svg) elements, the [**SVGTransform**](/svg/objects/SVGTransform) object is created outside of any document trees.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.5
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.5
 
-*[[svg/elements/svg|'''SVGSVGElement''']]
-*[[svg/objects/SVGTransformList|'''SVGTransformList''']]
-*[[svg/objects/SVGMatrix|'''SVGMatrix''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGSVGElement**](/svg/elements/svg)
+-   [**SVGTransformList**](/svg/objects/SVGTransformList)
+-   [**SVGMatrix**](/svg/objects/SVGMatrix)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

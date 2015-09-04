@@ -1,28 +1,46 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets the [[html/elements/head|head]] element of the document.}}
-{{API_Object_Property
-|Property_applies_to=dom/Document
-|Read_only=Yes
-|Example_object_name=document
-|Return_value_name=headElement
-|Javascript_data_type=DOM Node
-|Return_value_description=The [[html/elements/head|head]] element of the document.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example displays the text (innerHTML) of the document's <code>head</code> element.
-|Code=<!DOCTYPE HTML>
+---
+title: head
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Needs compat'
+summary: 'Gets the head element of the document.'
+uri: dom/Document/head
+
+---
+# head
+
+## Summary
+
+Gets the head element of the document.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var headElement = document.head;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+The [head](/html/elements/head) element of the document.
+
+## Examples
+
+This example displays the text (innerHTML) of the document's `head` element.
+
+``` {.html}
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>New Document</title>
@@ -33,40 +51,25 @@
 </head>
 
 <body>
-<nowiki>
-<p onclick="alert(document.head.innerHTML)">Click me to see the contents of the &lt;head&gt; element</p>
-</nowiki>
+
+<p onclick="alert(document.head.innerHTML)">Click me to see the contents of the <head> element</p>
+
 </body>
 </html>
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/dom.html#dom-document-head
-|Status=Candidate Recommendation
-|Relevant_changes=Section 3.1.1
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 3.1.1
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5](http://www.w3.org/TR/html5/dom.html#dom-document-head)
+:   Candidate Recommendation
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

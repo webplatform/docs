@@ -1,103 +1,311 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category, Parent, Children and Compatibility information.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The '''dfn''' element indicates the defining instance of a term.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=Closing tag required
-|CSS_display=inline
-|Content=*If the dfn element is specified, nearest parent of the dfn element(paragraph, description list group, or section) must also contain the definitions for the defining term.
-*The priority level of defining term is as follow:
-*# Value of the title attribute in the dfn element.
-*# Value of the title attribute in the abbr element. (if the dfn element contains exactly one element child node and no child text nodes, and that child element is the abbr element
-*# TextContent of the dfn element
-*If the title attribute of the dfn element is present, then it must contain only the term being defined.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''dfn''' element to indicate the defining instance of a new term.
-|Code=&lt;p>The &lt;dfn title="Garage Door Opener">GDO&lt;/dfn>
-is a device that allows off-world teams to open the iris.&lt;/p>
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=This example uses the '''dfn''' element to indicate the defining instance of a new term that is an abbreviation.
-|Code=&lt;p>The &lt;dfn>&lt;abbr title="Garage Door Opener">GDO&lt;/abbr>&lt;/dfn>
-is a device that allows off-world teams to open the iris.&lt;/p>
-&lt;!-- ... later in the document: -->
-&lt;p>Teal'c activated his &lt;abbr>GDO&lt;/abbr>
-and so Hammond ordered the iris to be opened.&lt;/p>
-|LiveURL=
-}}{{Single Example
-|Language=HTML
-|Description=This example uses the '''dfn''' element to indicate the defining instance of a new term and then uses an anchor to provide a reference to that instance.
-|Code=&lt;p>The &lt;dfn id="dfn-gdo">&lt;abbr title="Garage Door Opener">GDO&lt;/abbr>&lt;/dfn>
-is a device that allows off-world teams to open the iris.&lt;/p>
-&lt;!-- ... later in the document: -->
-&lt;p>Teal'c activated his &lt;a href="#dfn-gdo">&lt;abbr>GDO&lt;/abbr>&lt;/a>
-and so Hammond ordered the iris to be opened.&lt;/p>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=The '''dfn''' is a phrasing-level element and can’t contain block-level elements, but it can contain other phrasing type elements like '''abbr''', read on…
+---
+title: dfn
+tags:
+  - Markup
+  - Elements
+  - HTML
+  - XHTML
+readiness: 'In Progress'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+summary: 'The dfn element indicates the defining instance of a term.'
+uri: html/elements/dfn
 
-If the '''dfn''' element has a [[html/attributes/title|'''title''' attribute]], then the value of that attribute serves as the definition for the text inside the element (see Example 1).
+---
+# dfn
 
-If the '''dfn''' contains exactly one child element (and no other text) //and// that child element is an [[html/elements/abbr|'''abbr''' element]] with a [[html/attributes/title|'''title''' attribute]], then the exact value of that '''title''' attribute serves as the definition for the text inside the '''abbr''' (see Example 2).
+## Summary
 
-If the '''dfn''' only contains text, the exact text content of the element gives the term being defined.
+The dfn element indicates the defining instance of a term.
 
-If the [[html/attributes/title|'''title''' attribute]] of the '''dfn''' element is present, then it must contain only the definition of the term being defined.
-|Notes=If given an [[html/attributes/id|'''id''' attribute]], a '''dfn''' may serve as a reference for other elements on the page by anchoring to the '''dfn''' (see Example 3).
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-dfn-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-dfn-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/text.html#edef-DFN
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML, Text
-|Manual_links=*<code>[[html/elements/acronym|acronym]]</code>
-*<code>[[html/elements/address|address]]</code>
-*<code>[[html/elements/cite|cite]]</code>
-*<code>[[html/elements/i|i]]</code>
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML, XHTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+-   If the dfn element is specified, nearest parent of the dfn element(paragraph, description list group, or section) must also contain the definitions for the defining term.
+-   The priority level of defining term is as follow:
+    1.  Value of the title attribute in the dfn element.
+    2.  Value of the title attribute in the abbr element. (if the dfn element contains exactly one element child node and no child text nodes, and that child element is the abbr element
+    3.  TextContent of the dfn element
+-   If the title attribute of the dfn element is present, then it must contain only the term being defined.
+
+## Examples
+
+This example uses the **dfn** element to indicate the defining instance of a new term.
+
+``` {.html}
+<p>The <dfn title="Garage Door Opener">GDO</dfn>
+is a device that allows off-world teams to open the iris.</p>
+```
+
+This example uses the **dfn** element to indicate the defining instance of a new term that is an abbreviation.
+
+``` {.html}
+<p>The <dfn><abbr title="Garage Door Opener">GDO</abbr></dfn>
+is a device that allows off-world teams to open the iris.</p>
+<!-- ... later in the document: -->
+<p>Teal'c activated his <abbr>GDO</abbr>
+and so Hammond ordered the iris to be opened.</p>
+```
+
+This example uses the **dfn** element to indicate the defining instance of a new term and then uses an anchor to provide a reference to that instance.
+
+``` {.html}
+<p>The <dfn id="dfn-gdo"><abbr title="Garage Door Opener">GDO</abbr></dfn>
+is a device that allows off-world teams to open the iris.</p>
+<!-- ... later in the document: -->
+<p>Teal'c activated his <a href="#dfn-gdo"><abbr>GDO</abbr></a>
+and so Hammond ordered the iris to be opened.</p>
+```
+
+## Usage
+
+     The dfn is a phrasing-level element and can’t contain block-level elements, but it can contain other phrasing type elements like abbr, read on…
+
+If the **dfn** element has a [**title** attribute](/html/attributes/title), then the value of that attribute serves as the definition for the text inside the element (see Example 1).
+
+If the **dfn** contains exactly one child element (and no other text) //and// that child element is an [**abbr** element](/html/elements/abbr) with a [**title** attribute](/html/attributes/title), then the exact value of that **title** attribute serves as the definition for the text inside the **abbr** (see Example 2).
+
+If the **dfn** only contains text, the exact text content of the element gives the term being defined.
+
+If the [**title** attribute](/html/attributes/title) of the **dfn** element is present, then it must contain only the definition of the term being defined.
+
+## Notes
+
+If given an [**id** attribute](/html/attributes/id), a **dfn** may serve as a reference for other elements on the page by anchoring to the **dfn** (see Example 3).
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-dfn-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-dfn-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-DFN)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   **dfn**
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   **dfn**
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+### Other articles
+
+-   `acronym`
+-   `address`
+-   `cite`
+-   `i`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

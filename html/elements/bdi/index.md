@@ -1,47 +1,32 @@
-{{Page_Title}}
-{{Flags
-|State=Unreviewed
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Represents a span of text that is to be isolated from its surroundings for the purposes of bidirectional text formatting}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Content=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related_Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-bdi-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-bdi-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: bdi
+tags:
+  - Markup
+  - Elements
+standardization_status: 'W3C Recommendation'
+summary: 'Represents a span of text that is to be isolated from its surroundings for the purposes of bidirectional text formatting'
+uri: html/elements/bdi
+
+---
+# bdi
+
+## Summary
+
+Represents a span of text that is to be isolated from its surroundings for the purposes of bidirectional text formatting
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-bdi-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-bdi-element)
+:   W3C Recommendation
+

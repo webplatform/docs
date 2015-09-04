@@ -1,58 +1,48 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Deletion Candidate: It's deprecated
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Deprecated}}
-{{API_Name}}
-{{Summary_Section|Recognized as a deprecated element. Intended to provide content for browsers that cannot, or are configured not to, display frames.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=
-|CSS_display=
-|Content=Deprecated, see [http://www.w3.org/TR/html5/obsolete.html#non-conforming-features]
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=
-|Description=This example uses the '''NOFRAMES''' element to specify HTML that is rendered by browsers incapable of displaying frames.
-|Code=&lt;FRAMESET&gt;
-&lt;NOFRAMES&gt;You need Internet Explorer version 3.0 or later to view 
-frames!&lt;/NOFRAMES&gt;
-&lt;/FRAMESET&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>frame</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: noFrames
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Not Ready'
+standardization_status: Deprecated
+notes:
+  - 'Deletion Candidate: It''s deprecated'
+summary: 'Recognized as a deprecated element. Intended to provide content for browsers that cannot, or are configured not to, display frames.'
+uri: html/elements/noFrames
+
+---
+# noFrames
+
+## Summary
+
+Recognized as a deprecated element. Intended to provide content for browsers that cannot, or are configured not to, display frames.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+Deprecated, see [[1]](http://www.w3.org/TR/html5/obsolete.html#non-conforming-features)
+
+## Examples
+
+This example uses the **NOFRAMES** element to specify HTML that is rendered by browsers incapable of displaying frames.
+
+    <FRAMESET>
+    <NOFRAMES>You need Internet Explorer version 3.0 or later to view
+    frames!</NOFRAMES>
+    </FRAMESET>
+
+## See also
+
+### Related pages (MSDN)
+
+-   `frame`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

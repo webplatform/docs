@@ -1,57 +1,56 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+---
+title: hreflang
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+uri: html/attributes/hreflang
 
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-|Content=Internationalization topics related to the <code>hreflang</code> attribute:
-* [http://www.w3.org/International/techniques/authoring-html#linkdestination Indicating the language of a link destination]
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=In the [[html/elements/a|'''a''']] element in the following example, the '''HREFLANG''' attribute specifies the language code of the U.S. version of English.
-|Code=&lt;A HREF{{=}}"http://example.microsoft.com/..." HREFLANG{{=}}"en-US"&gt;anchor text&lt;/A&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-You must set the value of this property before you can retrieve it.
-Language codes identify natural languages that are spoken, written, or otherwise used for the communication of information among people, and are defined and explained in [http://www.rfc-editor.org/rfc/bcp/bcp47.txt Internet-Draft: BCP 47].  Computer languages are explicitly excluded from language codes.
+---
+# hreflang
 
-'''hreflang''' was introduced in Microsoft Internet Explorer 6
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>link</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+Applies to
+:    ?
+
+Internationalization topics related to the `hreflang` attribute:
+
+-   [Indicating the language of a link destination](http://www.w3.org/International/techniques/authoring-html#linkdestination)
+
+## Examples
+
+In the [**a**](/html/elements/a) element in the following example, the **HREFLANG** attribute specifies the language code of the U.S. version of English.
+
+    <A HREF="http://example.microsoft.com/..." HREFLANG="en-US">anchor text</A>
+
+## Notes
+
+### Remarks
+
+You must set the value of this property before you can retrieve it. Language codes identify natural languages that are spoken, written, or otherwise used for the communication of information among people, and are defined and explained in [Internet-Draft: BCP 47](http://www.rfc-editor.org/rfc/bcp/bcp47.txt). Computer languages are explicitly excluded from language codes.
+
+**hreflang** was introduced in Microsoft Internet Explorer 6
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
+
+## See also
+
+### Related pages (MSDN)
+
+-   `a`
+-   `link`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,236 +1,314 @@
-{{Page_Title|button}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category, Parent, Children and Compatibility information.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|'''button'''要素はクリック可能なボタンを表示します。|The "button" tag is one of many ways to create buttons on an HTML page_ A web developer can also use the "input" tag in conjunction with type="button" or by styling an "a" tag to achieve the same functionality. However, those may be harder and their results may not be as clean.
-}}
-{{Markup_Element
-|DOM_interface=dom/HTMLButtonElement
-|Content=button要素ではボタンの中にテキストや画像を設置することができます。button要素がdisableでなければ、ボタンを押すことができます。
+---
+title: ja
+tags:
+  - Markup
+  - Elements
+  - HTML
+  - UI
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+summary: 'button要素はクリック可能なボタンを表示します。'
+code_samples:
+  - 'http://gist.github.com/b08191a8d5915621a5e1'
+  - 'http://gist.github.com/ceb6531b1b86fb0b21d0'
+  - 'http://gist.github.com/c579515bcd4378bfd634'
+uri: html/elements/button/ja
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/elements/form/ja
+    - dom/MouseEvent/click/ja
+    - html/elements/input/ja
+    - css/properties/background-image/ja
 
+---
+# button
 
-デフォルトではボタンをクリックすることで、[[html/elements/form/ja|'''form''']]のデータをサブミットします。type属性を変更することでボタンがクリックされた際の挙動を変更できます。
+## Summary
 
-===属性(HTML 4)===
-<dl>
-<dt>name</dt>
-<dd>ボタンの名前です。これによってformをサブミットしたボタンを識別することができます。</dd>
-<dt>type</dt>
-<dd>ボタンのタイプを指定します。type属性を記述しない場合、<code>submit</code>となります。使用できるtypeは以下の3つです。
-<ul>
-<li><code>submit</code>:  紐付いたフォームのデータをサーバに送ります。これがデフォルト値となります。</li>
-<li><code>reset</code>: 紐付いたフォームをリセットします。フィールドに初期値をセットします。</li>
-<li><code>button</code>: これを指定すると、デフォルトでは何もしません。JavaScriptの[[dom/MouseEvent/click/ja|'''click''']]イベントを設定すると非常に便利です。</li> 
-</ul>
-</dd>
-<dt>value</dt>
-<dd>ボタンの初期値です。</dd>
-<dt>disabled</dt>
-<dd>このBooleanの属性は、ユーザにボタンを操作できなくするためのものです。特にこの属性を指定しない場合、button要素は親要素の設定を継承します。例えば、'''fieldset'''の中の要素にdisabled属性を設定したものがなければ、ボタンは有効となります。disabledを指定したボタンはクリックすることができません。</dd>
-</dl>
+button要素はクリック可能なボタンを表示します。
 
-===追加属性(HTML 5勧告候補)===
-<dl>
-<dt>autofocus</dt>
-<dd>この属性を"true"にすると、ユーザが別の入力をしない限り、ページをロードしたあとすぐにボタンがフォーカスされます。
-ドキュメント内のform関連要素の中で1つだけがこの属性を指定できます。</dd>
-<dt>form</dt>
-<dd>ボタンに紐づくformを指定します。属性の値はformのid属性と一致していなければいけません。'''button'''要素をサブミットできるformデータを持ったフォームの子要素としていれば、この属性を指定せずに使用することができます。この属性によって'''form'''要素の子要素としてだけでなく、button要素をドキュメント内のどこにでも配置することができます。
-<dt>formaction</dt>
-<dd>formからの情報を処理するプログラムのURIを指定します。紐付いたformのaction属性を上書きます。</dd>
-<dt>formmethod</dt>
-<dd>formデータをサブミットするHTTP メソッドを指定します。<code>post</code>または<code>get</code>を指定できます。指定した場合、紐付いたformのmethod属性を上書きます。利用可能な値は以下のとおりです。
-* <code>post</code>: formのbodyに含まれるデータをサーバに送信します。
-* <code>get</code>: form属性のURIにセパレータとして”?”をつけてフォームのデータを追記し、作成されたURIをサーバに送信します。formが動的でなく、ASCII文字のみで構成されていればこのメソッドを使用できます。</dd>
-<dt>formnovalidate</dt>
-<dd>ボタンがサブミットボタンであれば、formの値の妥当性を確認するかどうかを指定することができます。formの持つnovalidate属性を上書きます。</dd>
-<dt>formtarget</dt>
-<dd>この属性は送信されたフォームを受け取るウィンドウを指定します。以下の中から一つ指定することができます。
-<ul>
-<li><code>_self</code>: 自身のフォームにレスポンスを表示します。これがデフォルト値となります。</li>
-<li><code>_blank</code>: 名前の無いコンテキストとして新しいウインドウにレスポンスを読み込ませます。</li>
-<li><code>_parent</code>: 親コンテキストにレスポンスを読み込ませます。親が存在しない場合、_selfを指定した時と同じ動作をします。</li>
-<li><code>_top</code>: 一番上のコンテキストにレスポンスを読み込ませます。これは現在のコンテキストの一番祖先のコンテキストを指します。親が存在しない場合、_selfを指定した時と同じ動作をします。</li>
-</ul>
-</dd>
-</dl>
+## Overview Table
 
-これらの属性は<code>name</code>属性を除き、デフォルト値を持っているため、記載せずに利用することができます。
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=この例は<code>&lt;button&gt;</code>要素を使って、送信もリセットもしないクリック可能なボタンを表示しています。
-|Code=<button name="myButton" type="button">クリックしてね</button>
-|LiveURL=http://code.webplatform.org/gist/b08191a8d5915621a5e1
-}}{{Single Example
-|Language=HTML
-|Description=この例ではフォームを送信するための<code>&lt;button&gt;</code>の使い方を紹介します。よくわからない場合は、form要素についてのページを読んで[[html/elements/form/ja|'''form''']]の使い方について詳細な情報を学んでください。
-|Code=<form action="dataReceiverURI">
+[DOM Interface](/dom/interface)
+:   [HTMLButtonElement](/dom/HTMLButtonElement)
+
+button要素ではボタンの中にテキストや画像を設置することができます。button要素がdisableでなければ、ボタンを押すことができます。
+
+ デフォルトではボタンをクリックすることで、[**form**](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)のデータをサブミットします。type属性を変更することでボタンがクリックされた際の挙動を変更できます。
+
+### 属性(HTML 4)
+
+name
+:   ボタンの名前です。これによってformをサブミットしたボタンを識別することができます。
+type
+:   ボタンのタイプを指定します。type属性を記述しない場合、`submit`となります。使用できるtypeは以下の3つです。
+
+    -   `submit`: 紐付いたフォームのデータをサーバに送ります。これがデフォルト値となります。
+    -   `reset`: 紐付いたフォームをリセットします。フィールドに初期値をセットします。
+    -   `button`: これを指定すると、デフォルトでは何もしません。JavaScriptの[**click**](/w/index.php?title=dom/MouseEvent/click/ja&action=edit&redlink=1)イベントを設定すると非常に便利です。
+
+value
+:   ボタンの初期値です。
+disabled
+:   このBooleanの属性は、ユーザにボタンを操作できなくするためのものです。特にこの属性を指定しない場合、button要素は親要素の設定を継承します。例えば、**fieldset**の中の要素にdisabled属性を設定したものがなければ、ボタンは有効となります。disabledを指定したボタンはクリックすることができません。
+
+### 追加属性(HTML 5勧告候補)
+
+autofocus
+:   この属性を"true"にすると、ユーザが別の入力をしない限り、ページをロードしたあとすぐにボタンがフォーカスされます。 ドキュメント内のform関連要素の中で1つだけがこの属性を指定できます。
+form
+:   ボタンに紐づくformを指定します。属性の値はformのid属性と一致していなければいけません。**button**要素をサブミットできるformデータを持ったフォームの子要素としていれば、この属性を指定せずに使用することができます。この属性によって**form**要素の子要素としてだけでなく、button要素をドキュメント内のどこにでも配置することができます。
+formaction
+:   formからの情報を処理するプログラムのURIを指定します。紐付いたformのaction属性を上書きます。
+formmethod
+:   formデータをサブミットするHTTP メソッドを指定します。`post`または`get`を指定できます。指定した場合、紐付いたformのmethod属性を上書きます。利用可能な値は以下のとおりです。
+    -   `post`: formのbodyに含まれるデータをサーバに送信します。
+    -   `get`: form属性のURIにセパレータとして”?”をつけてフォームのデータを追記し、作成されたURIをサーバに送信します。formが動的でなく、ASCII文字のみで構成されていればこのメソッドを使用できます。
+
+formnovalidate
+:   ボタンがサブミットボタンであれば、formの値の妥当性を確認するかどうかを指定することができます。formの持つnovalidate属性を上書きます。
+formtarget
+:   この属性は送信されたフォームを受け取るウィンドウを指定します。以下の中から一つ指定することができます。
+
+    -   `_self`: 自身のフォームにレスポンスを表示します。これがデフォルト値となります。
+    -   `_blank`: 名前の無いコンテキストとして新しいウインドウにレスポンスを読み込ませます。
+    -   `_parent`: 親コンテキストにレスポンスを読み込ませます。親が存在しない場合、\_selfを指定した時と同じ動作をします。
+    -   `_top`: 一番上のコンテキストにレスポンスを読み込ませます。これは現在のコンテキストの一番祖先のコンテキストを指します。親が存在しない場合、\_selfを指定した時と同じ動作をします。
+
+これらの属性は`name`属性を除き、デフォルト値を持っているため、記載せずに利用することができます。
+
+## Examples
+
+この例は`<button>`要素を使って、送信もリセットもしないクリック可能なボタンを表示しています。
+
+``` {.html}
+<button name="myButton" type="button">クリックしてね</button>
+```
+
+[View live example](http://code.webplatform.org/gist/b08191a8d5915621a5e1)
+
+この例ではフォームを送信するための`<button>`の使い方を紹介します。よくわからない場合は、form要素についてのページを読んで[**form**](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)の使い方について詳細な情報を学んでください。
+
+``` {.html}
+<form action="dataReceiverURI">
   <label for="name">氏名:</label>
   <input id="name" type="text" name="user_name">
   <button name="mySubmitButton">送信</button>
 </form>
-|LiveURL=http://code.webplatform.org/gist/ceb6531b1b86fb0b21d0
-}}{{Single Example
-|Language=HTML
-|Description=<code>&lt;button=&quot;reset&quot;&gt;</code>を使ってformをリセットする例を紹介します。よくわからない場合は、form要素についてのページを読んで[[html/elements/form/ja|'''form''']]の使い方について詳細な情報を学んでください。
-|Code=<form>
+```
+
+[View live example](http://code.webplatform.org/gist/ceb6531b1b86fb0b21d0)
+
+`<button="reset">`を使ってformをリセットする例を紹介します。よくわからない場合は、form要素についてのページを読んで[**form**](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)の使い方について詳細な情報を学んでください。
+
+``` {.html}
+<form>
   <label for="name">氏名:</label>
   <input id="name" type="text" name="user_name" >
   <button name="myResetButton">リセット</button>
 </form>
-|LiveURL=http://code.webplatform.org/gist/c579515bcd4378bfd634
-}}
-}}
-{{Notes_Section
-|Usage=一般的に、'''button'''要素はいつでもクリック可能であるべきです。
+```
+
+[View live example](http://code.webplatform.org/gist/c579515bcd4378bfd634)
+
+## Usage
+
+     一般的に、button要素はいつでもクリック可能であるべきです。
 
 閉じタグは必須です。
 
 ボタンには簡単な説明文をボタン内に記載するべきです。ボタンの中のテキストが空だとｍユーザはそのボタンがどんな動きをするのかわからなくなってしまいます。
 
-サブミットボタンを装飾するときは<button>要素を使うよりもtype属性に<code>submit</code>を指定した[[html/elements/input/ja|'''input''']]要素のほうが簡単に実装することができます。
-|Notes=type属性のデフォルト値は<code>type</code>であるため、特に他の<code>type</code>を使用する必要がない場合は、<code>type</code>を省略することができます。過去のブラウザでは<code>type</code>の値がそれぞれ違いました。
+サブミットボタンを装飾するときは\<button\>要素を使うよりもtype属性に`submit`を指定した[**input**](/w/index.php?title=html/elements/input/ja&action=edit&redlink=1)要素のほうが簡単に実装することができます。
 
-Android用のFirefoxではデフォルトで<code>[[css/properties/background-image/ja|background-image]]</code>がセットされており、すべての'''button'''にグラデーションがついていました。
-これは<code>background-image: none</code>を指定することで無効化することができます。
+## Notes
 
-Firefoxは他のブラウザと異なり、デフォルトでbuttonの[http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing disabledの状態がページ読み込みを挟んでも保持されます]。
-autocomplete属性をoffにするとこの機能を無効にすることができます。[https://bugzilla.mozilla.org/show_bug.cgi?id=654072 Mozilla Bug #654072]をご覧ください。
+type属性のデフォルト値は`type`であるため、特に他の`type`を使用する必要がない場合は、`type`を省略することができます。過去のブラウザでは`type`の値がそれぞれ違いました。
 
-===クリックとフォーカス===
-ブラウザ/OS別　'''button'''をクリックした際、フォーカスが切り替わるかどうか
+Android用のFirefoxではデフォルトで`background-image`がセットされており、すべての**button**にグラデーションがついていました。 これは`background-image: none`を指定することで無効化することができます。
+
+Firefoxは他のブラウザと異なり、デフォルトでbuttonの[disabledの状態がページ読み込みを挟んでも保持されます](http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing)。 autocomplete属性をoffにするとこの機能を無効にすることができます。[Mozilla Bug \#654072](https://bugzilla.mozilla.org/show_bug.cgi?id=654072)をご覧ください。
+
+### クリックとフォーカス
+
+ブラウザ/OS別　**button**をクリックした際、フォーカスが切り替わるかどうか
 
 buttonをクリックしたときフォーカスされますか？
-{{{!}} class="wikitable"
-! デスクトップブラウザ
-! Windows 8.1
-! OS X 10.9
-{{!}}-
-{{!}} Firefox 30.0
-{{!}} Yes
-{{!}} No (even with a [[html/attributes/tabIndex|<code>tabindex</code>]])
-{{!}}-
-{{!}} Chrome 35
-{{!}} Yes
-{{!}} Yes
-{{!}}-
-{{!}} Safari 7.0.5
-{{!}} N/A
-{{!}} No (even with a [[html/attributes/tabIndex|<code>tabindex</code>]])
-{{!}}-
-{{!}} Internet Explorer 11
-{{!}} Yes
-{{!}} N/A
-{{!}}-
-{{!}} Presto (Opera 12)
-{{!}} Yes
-{{!}} ???
-{{!}}}
 
+デスクトップブラウザ
+:   Windows 8.1
+Firefox 30.0
+:   Yes
+Chrome 35
+:   Yes
+Safari 7.0.5
+:   N/A
+Internet Explorer 11
+:   Yes
+Presto (Opera 12)
+:   Yes
 
-'''button'''をタップしたときフォーカスされますか？
-{{{!}} class="wikitable"
-! Mobile Browsers
-! iOS 7.1.2
-! Android 4.4.4
-{{!}}-
-{{!}} Safari Mobile
-{{!}} No (even with a [[html/attributes/tabIndex|<code>tabindex</code>]])
-{{!}} N/A
-{{!}}-
-{{!}} Chrome 35
-{{!}} ???
-{{!}} Yes
-{{!}}}
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/forms.html#the-button-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/forms.html#the-button-element
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Document Structure, HTML
-|Manual_links=* [[html/elements/input/type/button|'''input type="button"''']]
-* [[html/elements/input/type/submit|'''input type="submit"''']]
-}}
-{{Topics|HTML, UI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button <button> on MDN]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=8 and later
-|Note=The default value of the type attribute depends on the current document compatibility mode. In IE8 Standards mode, the default value is submit. In other compatibility modes and earlier versions of Windows Internet Explorer, the default value is button. When the BUTTON element is submitted in a form, the value depends on the current document compatibility mode. In IE8 mode, the value attribute is submitted. In other document modes and earlier versions of Internet Explorer, the innerText value is submitted.
-}}
-}}
+**button**をタップしたときフォーカスされますか？
+
+Mobile Browsers
+:   iOS 7.1.2
+Safari Mobile
+:   No (even with a [`tabindex`](/html/attributes/tabIndex))
+Chrome 35
+:    ???
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-button-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/forms.html#the-button-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### Document Structure
+
+-   [button](/html/elements/button)
+
+-   **button**
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [main](/html/elements/main)
+
+-   [nav](/html/elements/nav)
+
+-   [p](/html/elements/p)
+
+-   [section](/html/elements/section)
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   **button**
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+### Other articles
+
+-   [**input type="button"**](/html/elements/input/type/button)
+-   [**input type="submit"**](/html/elements/input/type/submit)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[\<button\> on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

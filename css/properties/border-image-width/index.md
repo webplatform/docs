@@ -1,110 +1,191 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The <code>border-image-width</code> CSS property defines the offset to use for dividing the border image in nine parts, the top-left corner, central top edge, top-right-corner, central right edge, bottom-right corner, central bottom edge, bottom-left corner, and central right edge. They represent inward distance from the top, right, bottom, and left edges.}}
-{{CSS Property
-|Initial value=none
-|Applies to=all elements, except internal table elements when <code>border-collapse</code> is set to <code>collapse</code>.
-|Inherited=No
-|Media=visual
-|Computed value=all length made absolute, or as specified
-|Animatable=No
-|CSS object model property=borderImageWidth
-|CSS percentages=Relative to the width, for horizontal effects, or the height, for vertical effects, of the border image area.
-|Values={{CSS Property Value
-|Data Type=<length>
-|Description=Represents the length of the image slice. It can be an absolute or relative length. This length must not be negative.
-}}{{CSS Property Value
-|Data Type=<percentage>
-|Description=Represents the percentage of the image slice relative to the height, or width, of the border image area. The percentage must not be negative.
-}}{{CSS Property Value
-|Data Type=<number>
-|Description=Represents a multiple of the computed value of the element's <code>border-width</code> property to be used as the image slice size. The number must not be negative.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=Indicates that the width, or height, of the image size must be the intrinsic size of that dimension.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A simple example showing multiple &lt;div&gt;s, identical in style except that they have different border-image-width properties applied to them.
-|Code=&lt;div class="pattern one"&gt;one&lt;/div&gt;
-&lt;div class="pattern two"&gt;two&lt;/div&gt;
-&lt;div class="pattern three"&gt;three&lt;/div&gt;
-&lt;div class="pattern four"&gt;four&lt;/div&gt;
-|LiveURL=http://code.webplatform.org/gist/5621387
-}}{{Single Example
-|Language=CSS
-|Description=
-|Code=/* This general class will apply the pattern to the containers */
+---
+title: border-image-width
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The border-image-width CSS property defines the offset to use for dividing the border image in nine parts, the top-left corner, central top edge, top-right-corner, central right edge, bottom-right corner, central bottom edge, bottom-left corner, and central right edge. They represent inward distance from the top, right, bottom, and left edges.'
+code_samples:
+  - 'http://gist.github.com/5621387'
+uri: css/properties/border-image-width
+
+---
+# border-image-width
+
+## Summary
+
+The border-image-width CSS property defines the offset to use for dividing the border image in nine parts, the top-left corner, central top edge, top-right-corner, central right edge, bottom-right corner, central bottom edge, bottom-left corner, and central right edge. They represent inward distance from the top, right, bottom, and left edges.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   all elements, except internal table elements when `border-collapse` is set to `collapse`.
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   all length made absolute, or as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `borderImageWidth`
+Percentages
+:   Relative to the width, for horizontal effects, or the height, for vertical effects, of the border image area.
+
+## Syntax
+
+-   `border-image-width: <length>`
+-   `border-image-width: <number>`
+-   `border-image-width: <percentage>`
+-   `border-image-width: auto`
+
+## Values
+
+\<length\>
+:   Represents the length of the image slice. It can be an absolute or relative length. This length must not be negative.
+
+\<percentage\>
+:   Represents the percentage of the image slice relative to the height, or width, of the border image area. The percentage must not be negative.
+
+\<number\>
+:   Represents a multiple of the computed value of the element's `border-width` property to be used as the image slice size. The number must not be negative.
+
+auto
+:   Indicates that the width, or height, of the image size must be the intrinsic size of that dimension.
+
+## Examples
+
+A simple example showing multiple \<div\>s, identical in style except that they have different border-image-width properties applied to them.
+
+``` {.html}
+<div class="pattern one">one</div>
+<div class="pattern two">two</div>
+<div class="pattern three">three</div>
+<div class="pattern four">four</div>
+```
+
+[View live example](http://code.webplatform.org/gist/5621387)
+
+``` {.css}
+/* This general class will apply the pattern to the containers */
 .pattern {
-	border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
-	border-image-slice: 30;
-	border-image-repeat: repeat;
-	border-image-outset: 3;	
+    border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
+    border-image-slice: 30;
+    border-image-repeat: repeat;
+    border-image-outset: 3;
 }
 
 /* One-value syntax */
 .pattern.one{
-	border-image-width: 3;
+    border-image-width: 3;
 }
 
 /* Two-value syntax */
 .pattern.two{
-	border-image-width: 1.2em 1.8em;
+    border-image-width: 1.2em 1.8em;
 }
 
 /* Three-value syntax */
 .pattern.three{
-	border-image-width: 5% 15% 10%;
+    border-image-width: 5% 15% 10%;
 }
 
 /* Four-value syntax */
 .pattern.four{
-	border-image-width: 5% 2em 10% auto; 
+    border-image-width: 5% 2em 10% auto;
 }
-|LiveURL=http://code.webplatform.org/gist/5621387
-}}
-}}
-{{Notes_Section
-|Usage=* Up to four different widths can be specified, in the following order: top, right, bottom, left.
-* If one width is specified, it is used for all four sides. If two widths are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three widths are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Level 3 - Backgrounds and Borders Module
-|URL=http://www.w3.org/TR/css3-background/#the-border-image-width
-|Status=W3C Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Border
-|Manual_links=* [[tutorials/css_border_image|Decorating fancy borders with CSS border-image]]
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/border-image-width
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5621387)
+
+## Usage
+
+     * Up to four different widths can be specified, in the following order: top, right, bottom, left.
+
+-   If one width is specified, it is used for all four sides. If two widths are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three widths are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-image-width)
+:   W3C Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Border
+
+-   [border](/css/properties/border)
+
+-   [border-bottom](/css/properties/border-bottom)
+
+-   [border-bottom-color](/css/properties/border-bottom-color)
+
+-   [border-bottom-left-radius](/css/properties/border-bottom-left-radius)
+
+-   [border-bottom-style](/css/properties/border-bottom-style)
+
+-   [border-bottom-width](/css/properties/border-bottom-width)
+
+-   [border-color](/css/properties/border-color)
+
+-   [border-image](/css/properties/border-image)
+
+-   [border-image-outset](/css/properties/border-image-outset)
+
+-   [border-image-repeat](/css/properties/border-image-repeat)
+
+-   [border-image-slice](/css/properties/border-image-slice)
+
+-   [border-image-source](/css/properties/border-image-source)
+
+-   **border-image-width**
+
+-   [border-left](/css/properties/border-left)
+
+-   [border-left-color](/css/properties/border-left-color)
+
+-   [border-left-style](/css/properties/border-left-style)
+
+-   [border-left-width](/css/properties/border-left-width)
+
+-   [border-radius](/css/properties/border-radius)
+
+-   [border-right](/css/properties/border-right)
+
+-   [border-right-color](/css/properties/border-right-color)
+
+-   [border-right-style](/css/properties/border-right-style)
+
+-   [border-right-width](/css/properties/border-right-width)
+
+-   [border-top](/css/properties/border-top)
+
+-   [border-top-color](/css/properties/border-top-color)
+
+-   [border-top-left-radius](/css/properties/border-top-left-radius)
+
+-   [border-top-right-radius](/css/properties/border-top-right-radius)
+
+-   [border-top-style](/css/properties/border-top-style)
+
+-   [border-top-width](/css/properties/border-top-width)
+
+-   [border-width](/css/properties/border-width)
+
+### Other articles
+
+-   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-width)
+

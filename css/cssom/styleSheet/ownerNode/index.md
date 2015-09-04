@@ -1,49 +1,163 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Returns an element's corresponding '''link''' or '''style''' node. See Notes.}}
-{{API_Object_Property
-|Property_applies_to=css/cssom/styleSheet
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-For HTML, the node returned is the corresponding '''link''' or '''style''' element. For XML, it is the linking processing instruction. For style sheets that are included by other style sheets, the value of this attribute is <code>null</code>.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203741 Document Object Model (DOM) Level 2 Style Specification], Section 1.2
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=CSSOM
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/styleSheet|styleSheet]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: ownerNode
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs example, spec reference, standardization status'
+summary: 'Returns an element''s corresponding link or style node. See Notes.'
+uri: css/cssom/styleSheet/ownerNode
+
+---
+# ownerNode
+
+## Summary
+
+Returns an element's corresponding link or style node. See Notes.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/styleSheet](/css/cssom/styleSheet)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.ownerNode;
+element.ownerNode = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+For HTML, the node returned is the corresponding **link** or **style** element. For XML, it is the linking processing instruction. For style sheets that are included by other style sheets, the value of this attribute is `null`.
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 1.2
+
+## See also
+
+### Related articles
+
+#### CSSOM
+
+-   [href](/css/cssom/CSSImportRule/href)
+
+-   [media](/css/cssom/CSSImportRule/media)
+
+-   [CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
+
+-   [keyText](/css/cssom/CSSKeyframeRule/keyText)
+
+-   [style](/css/cssom/CSSKeyframeRule/style)
+
+-   [CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
+
+-   [cssRules](/css/cssom/CSSKeyframesRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSKeyframesRule/deleteRule)
+
+-   [findRule](/css/cssom/CSSKeyframesRule/findRule)
+
+-   [insertRule](/css/cssom/CSSKeyframesRule/insertRule)
+
+-   [name](/css/cssom/CSSKeyframesRule/name)
+
+-   [CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)
+
+-   [appendMedium](/css/cssom/CSSMediaList/appendMedium)
+
+-   [deleteMedium](/css/cssom/CSSMediaList/deleteMedium)
+
+-   [item](/css/cssom/CSSMediaList/item)
+
+-   [mediaText](/css/cssom/CSSMediaList/mediaText)
+
+-   [CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
+
+-   [cssRules](/css/cssom/CSSMediaRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSMediaRule/deleteRule)
+
+-   [insertRule](/css/cssom/CSSMediaRule/insertRule)
+
+-   [media](/css/cssom/CSSMediaRule/media)
+
+-   [CSSNamespaceRule](/css/cssom/CSSNamespaceRule/CSSNamespaceRule)
+
+-   [namespaceURI](/css/cssom/CSSNamespaceRule/namespaceURI)
+
+-   [prefix](/css/cssom/CSSNamespaceRule/prefix)
+
+-   [CSSOM View](/css/cssom/CSSOM_view)
+
+-   [CSSRule](/css/cssom/CSSRule)
+
+-   [cssText](/css/cssom/CSSRule/cssText)
+
+-   [parentRule](/css/cssom/CSSRule/parentRule)
+
+-   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
+
+-   [type](/css/cssom/CSSRule/type)
+
+-   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+
+-   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
+
+-   [clipLeft](/css/cssom/properties/clipLeft)
+
+-   [clipRight](/css/cssom/properties/clipRight)
+
+-   [clipTop](/css/cssom/properties/clipTop)
+
+-   [cssFloat](/css/cssom/properties/cssFloat)
+
+-   [fontWeight](/css/cssom/properties/fontWeight)
+
+-   [hasLayout](/css/cssom/properties/hasLayout)
+
+-   [height](/css/cssom/properties/height)
+
+-   [href](/css/cssom/properties/href)
+
+-   [imports](/css/cssom/properties/imports)
+
+-   [innerWidth](/css/cssom/properties/innerWidth)
+
+-   [isAlternate](/css/cssom/properties/isAlternate)
+
+-   [isPrefAlternate](/css/cssom/properties/isPrefAlternate)
+
+-   [item](/css/cssom/properties/item)
+
+-   [length](/css/cssom/properties/length)
+
+-   [media](/css/cssom/properties/media)
+
+-   [offsetX](/css/cssom/properties/offsetX)
+
+-   [offsetY](/css/cssom/properties/offsetY)
+
+-   [outerHeight](/css/cssom/properties/outerHeight)
+
+<!-- -->
+
+    … further results
+
+### Related pages (MSDN)
+
+-   `styleSheet`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

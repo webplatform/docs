@@ -1,42 +1,45 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
+---
+title: XMLSerializer
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+uri: apis/xhr/objects/XMLSerializer
+
+---
+# XMLSerializer
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+API Name
+:   Summary
+[serializeToString](/apis/xhr/methods/serializeToString)
+:   Converts the parent DOM node of a document tree to an XML string.
+
+## Events
+
+*No events.*
+
+## Notes
+
+### Remarks
+
 Do the following to create an instance:
- <code>oXMLSerializer {{=}}  new XMLSerializer();</code>
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+    oXMLSerializer =  new XMLSerializer();
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

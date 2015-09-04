@@ -1,162 +1,130 @@
-{{Page_Title|dd – description list data}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category information. Modify/Complete Parent and Children information. Complete Compatibility information.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name|dd}}
-{{Summary_Section|The '''dd''' element represents the description, definition, or value, part of a term-description group in a definition list ([[html/elements/dl|'''dl''']]). 
+---
+title: dd
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add Category information. Modify/Complete Parent and Children information. Complete Compatibility information.'
+summary: "The dd element represents the description, definition, or value, part of a term-description group in a definition list (dl). \n"
+code_samples:
+  - 'http://gist.github.com/5821157'
+uri: html/elements/dd
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/concepts/flowContent
 
-A [[html/elements/dt|'''dt''']] (topic) is usually followed by one or more [[html/elements/dd|'''dd''']] (definition) elements. Several consecutive [[html/elements/dt|'''dt''']] are attributed to the [[html/elements/dd|'''dd''']] element that immediately follows the group.
-}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Content=<table class{{=}}"wikitable">
-<tr>
-<th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
-<td style{{=}}"vertical-align: top; padding-top: 10px">[[html/concepts/flowContent|flow content]].</td>
-</tr>
-<tr>
-<th id="permitted-parents">Permitted&#160;parents</th>
-<td>[[html/elements/dl|dl]].</td>
-</tr>
-<tr>
-<th id="tag-omission">Tag&#160;omission</th>
-<td>A '''dl''' element must have both a start tag and an end tag.</td>
-</tr>
-</table>
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The example shows a simple definition list with two item/description pairs.
-|Code=&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
-  &lt;dt&gt;Coca Cola&lt;/dt&gt;
-  &lt;dd&gt;One of the leading brands of a popular cold fizzy drink.&lt;/dd&gt;
-&lt;/dl&gt;
-|LiveURL=http://code.webplatform.org/gist/5821157
-}}{{Single Example
-|Language=HTML
-|Description=The example shows a definition list with a single item but multiple descriptions for that item.
-|Code=&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
-  &lt;dd&gt;A mid brown colour&lt;/dd&gt;
-  &lt;dd&gt;A common social invitation&lt;/dd&gt;
-&lt;/dl&gt;
-|LiveURL=http://code.webplatform.org/gist/5821157
-}}{{Single Example
-|Language=HTML
-|Description=The example shows a definition list with a single description and multiple items fitting that description.
-|Code=&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dt&gt;Tea&lt;/dt&gt;
-  &lt;dt&gt;Vimto (in the North of England)&lt;/dt&gt;
-  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
-&lt;/dl&gt;
-|LiveURL=http://code.webplatform.org/gist/5821157
-}}{{Single Example
-|Language=CSS
-|Description=Typical browser default CSS properties for the '''dd''' element.
-|Code=display: block;
+---
+# dd – description list data
+
+## dd
+
+For technical reasons, the title of this article is not the text used to call this API. Instead, use `dd`
+
+## Summary
+
+The dd element represents the description, definition, or value, part of a term-description group in a definition list (dl).
+
+A [**dt**](/html/elements/dt) (topic) is usually followed by one or more ****dd**** (definition) elements. Several consecutive [**dt**](/html/elements/dt) are attributed to the ****dd**** element that immediately follows the group.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+Permitted contents
+:   [flow content](/w/index.php?title=html/concepts/flowContent&action=edit&redlink=1).
+Permitted parents
+:   [dl](/html/elements/dl).
+Tag omission
+:   A **dl** element must have both a start tag and an end tag.
+
+## Examples
+
+The example shows a simple definition list with two item/description pairs.
+
+``` {.html}
+<dl>
+  <dt>Coffee</dt>
+  <dd>A popular hot drink.</dd>
+  <dt>Coca Cola</dt>
+  <dd>One of the leading brands of a popular cold fizzy drink.</dd>
+</dl>
+```
+
+[View live example](http://code.webplatform.org/gist/5821157)
+
+The example shows a definition list with a single item but multiple descriptions for that item.
+
+``` {.html}
+<dl>
+  <dt>Coffee</dt>
+  <dd>A popular hot drink.</dd>
+  <dd>A mid brown colour</dd>
+  <dd>A common social invitation</dd>
+</dl>
+```
+
+[View live example](http://code.webplatform.org/gist/5821157)
+
+The example shows a definition list with a single description and multiple items fitting that description.
+
+``` {.html}
+<dl>
+  <dt>Coffee</dt>
+  <dt>Tea</dt>
+  <dt>Vimto (in the North of England)</dt>
+  <dd>A popular hot drink.</dd>
+</dl>
+```
+
+[View live example](http://code.webplatform.org/gist/5821157)
+
+Typical browser default CSS properties for the **dd** element.
+
+``` {.css}
+display: block;
 margin-left: 40px;
-}}
-}}
-{{Notes_Section
-|Notes=While [[dom/HTMLDTElement|HTMLDTElement]] is the defined DOM interface for this element, most browsers currently use [[dom/HTMLElement|HTMLElement]] instead.
-|}
- ====Properties====
-The '''dd''' object has these properties.
-{
-|class="wikitable"
-|Retrieves the number of immediate child nodes of the current element or a zero if the element does not contain any child nodes_ [[dom/traversal/properties/childElementCount|'''childElementCount''']] does not return all child nodes, only child nodes that are [[dom/properties/nodeType|'''nodeType''']] {{=}}1, or element nodes.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related_Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/grouping-content.html#the-dd-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/grouping-content.html#the-dd-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/lists.html#edef-DD
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=* [[html/elements/dir|<code>dir</code>]]
-* [[html/elements/menu|<code>menu</code>]]
-* [[html/elements/ol|<code>ol</code>]]
-* [[html/elements/ul|<code>ul</code>]]
-* [[html/elements/li|<code>li</code>]]
-* [[html/elements/dt|<code>dt</code>]]
-|External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dd Mozilla Developer Network]
-* [http://msdn.microsoft.com/en-US/library/ie/ms535234.aspx Microsoft Developer Network]
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Notes
+
+While [HTMLDTElement](/dom/HTMLDTElement) is the defined DOM interface for this element, most browsers currently use [HTMLElement](/dom/HTMLElement) instead.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-dd-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-dd-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html#edef-DD)
+:   W3C Recommendation
+
+## See also
+
+### Other articles
+
+-   [`dir`](/html/elements/dir)
+-   [`menu`](/html/elements/menu)
+-   [`ol`](/html/elements/ol)
+-   [`ul`](/html/elements/ul)
+-   [`li`](/html/elements/li)
+-   [`dt`](/html/elements/dt)
+
+### External resources
+
+-   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/dd)
+-   [Microsoft Developer Network](http://msdn.microsoft.com/en-US/library/ie/ms535234.aspx)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+
 }

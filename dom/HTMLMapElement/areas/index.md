@@ -1,51 +1,56 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=examples, compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Returns an HTMLCollection of [[dom/HTMLAreaElement|area]] elements included within the element.}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLMapElement
-|Read_only=Yes
-|Example_object_name=mapElement
-|Return_value_name=areaElements
-|Javascript_data_type=Object
-|Return_value_description=An HTMLCollection of [[dom/HTMLAreaElement|area]] elements.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=Areas can be added to or removed from the collection. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position.
-To add elements to the collection, use the [[dom/Document/createElement|'''createElement''']] and [[dom/HTMLSelectElement/add|'''add''']] methods.  Alternatively, use the [[dom/Element/insertAdjacentHTML|'''insertAdjacentHTML''']] method.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 2 HTML
-|URL=http://www.w3.org/TR/DOM-Level-2-HTML/
-|Status=Recommendation
-|Relevant_changes=Section 1.6.5
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: areas
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'examples, compatibility'
+summary: 'Returns an HTMLCollection of area elements included within the element.'
+uri: dom/HTMLMapElement/areas
+
+---
+# areas
+
+## Summary
+
+Returns an HTMLCollection of area elements included within the element.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLMapElement](/dom/HTMLMapElement)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var areaElements = mapElement.areas;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+
+An HTMLCollection of [area](/dom/HTMLAreaElement) elements.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+Areas can be added to or removed from the collection. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position. To add elements to the collection, use the [**createElement**](/dom/Document/createElement) and [**add**](/dom/HTMLSelectElement/add) methods. Alternatively, use the [**insertAdjacentHTML**](/dom/Element/insertAdjacentHTML) method.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

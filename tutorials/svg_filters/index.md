@@ -1,133 +1,128 @@
-{{Page_Title|SVG filters}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Stub
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Byline}}
-{{Summary_Section|CSS custom filters go way beyond the image-processing capabilities of CSS's pre-defined filter effects, allowing you to bend, fold, spindle, and mutilate otherwise flat web content.}}
-{{Tutorial
-|Content=
-==Filters: a review==
+---
+title: svg filters
+tags:
+  - Tutorials
+  - SVG
+readiness: 'Not Ready'
+notes:
+  - Stub
+summary: 'CSS custom filters go way beyond the image-processing capabilities of CSS''s pre-defined filter effects, allowing you to bend, fold, spindle, and mutilate otherwise flat web content.'
+uri: 'tutorials/svg filters'
 
-<!--
-* built-in CSS filter effects
-* SVG filters, arguably "custom"
-* custom CSS filters rely on GLSL
--->
+---
+# SVG filters
 
-==Custom filter terminology==
+## Summary
 
-<!--
-* GLSL            == Graphics Language Shading Language
-* shader          == external GLSL program
-* vertex shader   == manipulates mesh
-* fragment shader == manipulates pixels along mesh surface
-* uniforms        == global parameters
-* attributes      == per-vertex parameters
-* varyings        == per-vertex parameters passed to fragment shader (e.g. for lighting effects);
-* tesselation     == how big is your mesh?
-* vertices
-* "textures"?
-* uvs?
--->
+CSS custom filters go way beyond the image-processing capabilities of CSS's pre-defined filter effects, allowing you to bend, fold, spindle, and mutilate otherwise flat web content.
 
-==Vertex filters==
+## Filters: a review
 
-<!--
-built-in attributes:
+## Custom filter terminology
 
-attribute vec4 a_position       ;
-attribute vec2 a_texCoord       ; ???
-attribute vec2 a_meshCoord      ;
-attribute vec3 a_triangleCoord  ;
+## Vertex filters
 
-built-in uniforms:
+## Fragment filters
 
-uniform mat4 u_projectionMatrix ;
-uniform vec2 u_textureSize      ; ???
-uniform vec4 u_meshBox          ;
-uniform vec2 u_tileSize         ;
-uniform vec2 u_meshSize         ; ???
+## custom() function syntax
 
-built-in varyings:
+## Coding the custom vertex filter
 
-varying vec2 v_texCoord         ;
-
-
-precision mediump float         ;
-
-attribute vec4 a_position       ;
-uniform mat4 u_projectionMatrix ;
-
-no-op:
-
-void main() {
-    gl_Position = u_projectionMatrix * a_position;
-}
-
-
--->
-
-==Fragment filters==
-
-<!--
-no-op:
-
-precision mediump float;
-
-void main() {
-
-    float r = 1.0;
-    float g = 1.0;
-    float b = 1.0;
-    float a = 1.0;
-
-    css_ColorMatrix = mat4( r, 0.0, 0.0, 0.0,
-                      0.0, g, 0.0, 0.0,
-                      0.0, 0.0, b, 0.0,
-                      0.0, 0.0, 0.0, a );
-}
-
--->
-
-==custom() function syntax==
-
-<!--
-url(.vs)
-mix( url(.fs) blend composite),
-rows columns,
-uniform_name value,
-etc.
--->
-
-==Coding the custom vertex filter==
-
-<!--
--->
-
-==Coding the custom fragment filter==
-
-<!--
-* css_ColorMatrix
-* css_MixColor
--->
+## Coding the custom fragment filter
 
 ...
-}}
-{{Notes_Section}}
-{{See_Also_Section
-|Topic_clusters=Filters
-|External_links=
-* [http://www.w3.org/TR/filter-effects/ Filter Effects 1.0]
-* [http://www.adobe.com/devnet/html5/articles/css-shaders.html Introducing CSS shaders: Cinematic effects for the web]
-* [http://aerotwist.com/presentations/custom-filters/ WebGL &amp; Custom Filters]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+
+## See also
+
+### Related articles
+
+#### Filters
+
+-   [blur()](/css/functions/blur)
+
+-   [brightness()](/css/functions/brightness)
+
+-   [contrast()](/css/functions/contrast)
+
+-   [custom()](/css/functions/custom)
+
+-   [drop-shadow()](/css/functions/drop-shadow)
+
+-   [grayscale()](/css/functions/grayscale)
+
+-   [hue-rotate()](/css/functions/hue-rotate)
+
+-   [invert()](/css/functions/invert)
+
+-   [opacity()](/css/functions/opacity)
+
+-   [saturate()](/css/functions/saturate)
+
+-   [sepia()](/css/functions/sepia)
+
+-   [filter](/css/properties/filter)
+
+-   [feBlend](/svg/elements/feBlend)
+
+-   [feColorMatrix](/svg/elements/feColorMatrix)
+
+-   [feComponentTransfer](/svg/elements/feComponentTransfer)
+
+-   [feComposite](/svg/elements/feComposite)
+
+-   [feConvolveMatrix](/svg/elements/feConvolveMatrix)
+
+-   [feDiffuseLighting](/svg/elements/feDiffuseLighting)
+
+-   [feDisplacementMap](/svg/elements/feDisplacementMap)
+
+-   [feDistantLight](/svg/elements/feDistantLight)
+
+-   [feFlood](/svg/elements/feFlood)
+
+-   [feFuncA](/svg/elements/feFuncA)
+
+-   [feFuncB](/svg/elements/feFuncB)
+
+-   [feFuncG](/svg/elements/feFuncG)
+
+-   [feFuncR](/svg/elements/feFuncR)
+
+-   [feGaussianBlur](/svg/elements/feGaussianBlur)
+
+-   [feImage](/svg/elements/feImage)
+
+-   [feMerge](/svg/elements/feMerge)
+
+-   [feMergeNode](/svg/elements/feMergeNode)
+
+-   [feMorphology](/svg/elements/feMorphology)
+
+-   [feOffset](/svg/elements/feOffset)
+
+-   [fePointLight](/svg/elements/fePointLight)
+
+-   [feSpecularLighting](/svg/elements/feSpecularLighting)
+
+-   [feSpotlight](/svg/elements/feSpotlight)
+
+-   [feTile](/svg/elements/feTile)
+
+-   [feTurbulence](/svg/elements/feTurbulence)
+
+-   [SVG deployment](/svg/tutorials/smarter_svg_deploy)
+
+-   [SVG filters](/svg/tutorials/smarter_svg_filters)
+
+-   [SVG graphic effects](/svg/tutorials/smarter_svg_graphics)
+
+-   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
+
+-   **SVG filters**
+
+### External resources
+
+-   [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
+-   [Introducing CSS shaders: Cinematic effects for the web](http://www.adobe.com/devnet/html5/articles/css-shaders.html)
+-   [WebGL & Custom Filters](http://aerotwist.com/presentations/custom-filters/)
+

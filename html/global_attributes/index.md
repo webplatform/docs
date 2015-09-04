@@ -1,65 +1,52 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Checked_Out=No
-}}
-{{Summary_Section|HTML defines a set of attributes common to all HTML elements.}}
-{{Basic Page}}
-This page should document the HTML global attributes as defined in http://dev.w3.org/html5/markup/global-attributes.html#global-attributes
+---
+title: global attributes
+tags:
+  - Basic
+  - Pages
+  - HTML
+readiness: 'Not Ready'
+summary: 'HTML defines a set of attributes common to all HTML elements.'
+uri: 'html/global attributes'
 
-===Attributes===
+---
+# global attributes
 
-<dl>
-  <dt>accesskey</dt>
-  <dd></dd>
+## Summary
 
-  <dt>class</dt>
-  <dd>A list of classes that apply to this element</dd>
+HTML defines a set of attributes common to all HTML elements.
 
-  <dt>contenteditable</dt>
-  <dd>Whether the content of this element is editable or not</dd>
+This page should document the HTML global attributes as defined in [http://dev.w3.org/html5/markup/global-attributes.html\#global-attributes](http://dev.w3.org/html5/markup/global-attributes.html#global-attributes)
 
-  <dt>contextmenu</dt>
-  <dd></dd>
+### Attributes
 
-  <dt>dir</dt>
-  <dd>Specificies the direction this elements text is displayed.Valid values are '''lrt''', '''rtl''' or '''auto'''</dd>
+accesskey
+:
+class
+:   A list of classes that apply to this element
+contenteditable
+:   Whether the content of this element is editable or not
+contextmenu
+:
+dir
+:   Specificies the direction this elements text is displayed.Valid values are **lrt**, **rtl** or **auto**
+draggable
+:
+dropzone
+:
+hidden
+:   This element is no longer relevant, or not relevant yet
+id
+:   A unique identifier for the element
+lang
+:   The primary language of the content of the element, as well as any attributes that contain text
+spellcheck
+:
+style
+:   Used to apply css declarations directly on the element
+tabindex
+:
+title
+:
+translate
+:   Whether this elements
 
-  <dt>draggable</dt>
-  <dd></dd>
-
-  <dt>dropzone</dt>
-  <dd></dd>
-
-  <dt>hidden</dt>
-  <dd>This element is no longer relevant, or not relevant yet</dd>
-
-  <dt>id</dt>
-  <dd>A unique identifier for the element</dd>
-
-  <dt>lang</dt>
-  <dd>The primary language of the content of the element, as well as any attributes that contain text</dd>
-
-  <dt>spellcheck</dt>
-  <dd></dd>
-
-  <dt>style</dt>
-  <dd>Used to apply css declarations directly on the element</dd>
-
-  <dt>tabindex</dt>
-  <dd></dd>
-
-  <dt>title</dt>
-  <dd></dd>
-
-  <dt>translate</dt>
-  <dd>Whether this elements </dd>
-</dl>
-{{Notes_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}

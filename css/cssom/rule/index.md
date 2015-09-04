@@ -1,62 +1,68 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Double check correct printing of tokens, needs spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The '''rule''' object defines a set of Cascading Style Sheet (CSS) attributes applied to a set of HTML elements.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses a '''rule''' object consisting of the selector '''H1''' to define a single rule that changes the H1 headings in a document to red.
-|Code=&lt;STYLE&gt;
+---
+title: rule
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Double check correct printing of tokens, needs spec reference, standardization status'
+summary: 'The rule object defines a set of Cascading Style Sheet (CSS) attributes applied to a set of HTML elements.'
+uri: css/cssom/rule
+
+---
+# rule
+
+## Summary
+
+The rule object defines a set of Cascading Style Sheet (CSS) attributes applied to a set of HTML elements.
+
+## Properties
+
+API Name
+:   Summary
+[selectorText](/css/cssom/rule/selectorText)
+:
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Examples
+
+This example uses a **rule** object consisting of the selector **H1** to define a single rule that changes the H1 headings in a document to red.
+
+``` {.html}
+<STYLE>
     H1 { color: red }
-&lt;/STYLE&gt;
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=If the style sheet containing the preceding rule is the first style sheet in the document, the following code returns the '''rule''' object associated with the rule.
-|Code=oRule{{=}}document.styleSheets(0).rules(0)
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-The '''rule''' object defines a set of Cascading Style Sheets (CSS) attributes applied to a set of HTML elements. For example, a rule consisting of the selector '''H1''' and the declaration [[css/properties/font-family|'''font-family''']]:Arial defines all '''H1''' elements to render in the Arial font.
-This object is available in script as of Microsoft Internet Explorer 5.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/rules|rules]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+</STYLE>
+```
+
+If the style sheet containing the preceding rule is the first style sheet in the document, the following code returns the **rule** object associated with the rule.
+
+``` {.js}
+oRule=document.styleSheets(0).rules(0)
+```
+
+## Notes
+
+### Remarks
+
+The **rule** object defines a set of Cascading Style Sheets (CSS) attributes applied to a set of HTML elements. For example, a rule consisting of the selector **H1** and the declaration [**font-family**](/css/properties/font-family):Arial defines all **H1** elements to render in the Arial font. This object is available in script as of Microsoft Internet Explorer 5.
+
+## See also
+
+### Related pages (MSDN)
+
+-   `rules`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

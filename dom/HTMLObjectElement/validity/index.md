@@ -1,47 +1,57 @@
-{{Page Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=stub MSDN import
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLObjectElement
-|Read_only=
-}}
-{{Topics|DOM}}
-{{Examples_Section
-|Not_required=No
-|Examples=}}
-{{Notes_Section
-|Notes=
-===Remarks===
-The following example displays all attributes in the [[dom/ValidityState|''' ValidityState''']] object.
-'''Note'''  For more  code samples, see [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251128 Form controls part 1] and [http://go.microsoft.com/fwlink/p/?LinkID{{=}}251131 Form controls part 2: validation] on the Windows Internet Explorer sample site.
-|Import_Notes=
-===Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}221374 HTML5 A vocabulary and associated APIs for HTML and XHTML], Section 4.10.21.3
+---
+title: validity
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'stub MSDN import'
+uri: dom/HTMLObjectElement/validity
 
+---
+# validity
 
-}}
-{{See_Also_Section
-|Manual_sections=
-===Related pages (MSDN)===
-*<code>[[dom/HTMLObjectElement|HTMLObjectElement]]</code>
-*<code>[[dom/HTMLTextAreaElement|HTMLTextAreaElement]]</code>
-*<code>[[dom/HTMLSelectElement|HTMLSelectElement]]</code>
-*<code>[[dom/HTMLInputElement|HTMLInputElement]]</code>
-*<code>[[dom/HTMLBGSoundElement|HTMLButtonElement]]</code>
-*<code>[[dom/HTMLFieldSetElement|HTMLFieldSetElement]]</code>
-*<code>[[dom/ValidityState| ValidityState]]</code>
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLObjectElement](/dom/HTMLObjectElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.validity;
+element.validity = value;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+The following example displays all attributes in the [**ValidityState**](/dom/ValidityState) object. **Note**  For more code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
+
+### Syntax
+
+### Standards information
+
+-   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.21.3
+
+## See also
+
+### Related pages (MSDN)
+
+-   `HTMLObjectElement`
+-   `HTMLTextAreaElement`
+-   `HTMLSelectElement`
+-   `HTMLInputElement`
+-   `HTMLButtonElement`
+-   `HTMLFieldSetElement`
+-   ` ValidityState`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

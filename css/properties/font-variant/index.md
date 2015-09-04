@@ -1,107 +1,163 @@
-{{Page_Title|font-variant}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|Content=Outdated
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The <code>font-variant</code> property enables you to select the small-caps font within a font family.}}
-{{CSS Property
-|Initial value=normal
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=fontVariant
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=normal
-|Description=Selects a font that is not a 'small-caps' font, usually the available 'normal' font.
-}}{{CSS Property Value
-|Data Type=small-caps
-|Description=Selects a 'small-caps' font. If not small caps variant is available, the browser generates a small caps approximation.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Inherits the font-variant setting from its parent.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A simple example to show the effect achieved when small-caps are applied to a text paragraph.
-|Code=<p>I think WebPlatform rocks.</p>
-|LiveURL=http://code.webplatform.org/gist/5716625
-}}{{Single Example
-|Language=CSS
-|Description=The CSS applied to the HTML above.
-|Code=p {
+---
+title: font-variant
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The font-variant property enables you to select the small-caps font within a font family.'
+code_samples:
+  - 'http://gist.github.com/5716625'
+uri: css/properties/font-variant
+
+---
+# font-variant
+
+## Summary
+
+The font-variant property enables you to select the small-caps font within a font family.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `normal`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `fontVariant`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `font-variant: inherit`
+-   `font-variant: normal`
+-   `font-variant: small-caps`
+
+## Values
+
+normal
+:   Selects a font that is not a 'small-caps' font, usually the available 'normal' font.
+
+small-caps
+:   Selects a 'small-caps' font. If not small caps variant is available, the browser generates a small caps approximation.
+
+inherit
+:   Inherits the font-variant setting from its parent.
+
+## Examples
+
+A simple example to show the effect achieved when small-caps are applied to a text paragraph.
+
+``` {.html}
+I think WebPlatform rocks.
+```
+
+[View live example](http://code.webplatform.org/gist/5716625)
+
+The CSS applied to the HTML above.
+
+``` {.css}
+p {
   font-size: 300%;
-  font-variant: small-caps;	
+  font-variant: small-caps;
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=In ([http://www.w3.org/TR/css3-fonts/#propdef-font-variant CSS Fonts Module Level 3, W3C Working Draft 11 December 2012]), this property is extended. However, no browser seems to support these changes yet.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Fonts Module Level 3
-|URL=http://www.w3.org/TR/css3-fonts/#propdef-font-variant
-|Status=W3C Candidate Recommendation
-|Relevant_changes=Changes the property to an overall shorthand for font rendering. Extends the options that can be used as value. Not implemented in any browser as of yet.
-}}{{Related Specification
-|Name=Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification
-|URL=http://www.w3.org/TR/CSS21/fonts.html#small-caps
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, Fonts
-|Manual_links=
-|External_links=* MDN: [https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant]
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic support (CSS2.1 version)
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=4.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=3.5
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Notes
+
+In ([CSS Fonts Module Level 3, W3C Working Draft 11 December 2012](http://www.w3.org/TR/css3-fonts/#propdef-font-variant)), this property is extended. However, no browser seems to support these changes yet.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#propdef-font-variant)
+:   W3C Candidate Recommendation
+[Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/CSS21/fonts.html#small-caps)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### CSS Font
+
+-   [font-family](/css/properties/font-family)
+
+-   [font-kerning](/css/properties/font-kerning)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-size-adjust](/css/properties/font-size-adjust)
+
+-   [font-style](/css/properties/font-style)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   **font-variant**
+
+-   [kerning-mode](/css/properties/kerning-mode)
+
+-   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline](/css/properties/text-underline)
+
+-   [user-modify](/css/properties/user-modify)
+
+#### Fonts
+
+-   [@font-face](/css/atrules/@font-face)
+
+-   [Font related properties](/css/fonts)
+
+-   [font-variant](/css/fonts/font-variant)
+
+-   [font](/css/properties/font)
+
+-   [font-family](/css/properties/font-family)
+
+-   [font-feature-settings](/css/properties/font-feature-settings)
+
+-   [font-kerning](/css/properties/font-kerning)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-size-adjust](/css/properties/font-size-adjust)
+
+-   [font-stretch](/css/properties/font-stretch)
+
+-   [font-style](/css/properties/font-style)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   **font-variant**
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [size](/html/attributes/size)
+
+-   [font](/html/elements/font)
+
+### External resources
+
+-   MDN: [[1]](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant)
+

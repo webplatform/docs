@@ -1,65 +1,54 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Summary_Section|Returns the angle (in radians) from the X axis to a point ( y , x ).}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format='''Math'''.'''atan2(''' y , x ''')'''
-}}
-|Values={{JS Syntax Parameter
-|Name=x
-|Required=Required
-|Description=A numeric expression representing the cartesian x-coordinate.
-}}{{JS Syntax Parameter
-|Name=y
-|Required=Required
-|Description=A numeric expression representing the cartesian y-coordinate.
-}}
-}}
-{{JS_Return_Value
-|Description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=var v1 = Math.atan2(2,3);
+---
+title: atan2
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Returns the angle (in radians) from the X axis to a point ( y , x ).'
+uri: javascript/Math/atan2
+
+---
+# atan2
+
+## Summary
+
+Returns the angle (in radians) from the X axis to a point ( y , x ).
+
+## Syntax
+
+    Math.atan2( y , x )
+
+**x**
+:   Required. A numeric expression representing the cartesian x-coordinate.
+
+**y**
+:   Required. A numeric expression representing the cartesian y-coordinate.
+
+## Examples
+
+``` {.js}
+var v1 = Math.atan2(2,3);
 document.write(v1);
 // Output: 0.5880026035475675
-|LiveURL=
-}}
-}}
-{{Remarks_Section
-|Remarks=The return value is between -pi and pi. It represents the angle of the supplied ( y , x ) point, in radians.
+```
 
-'''Applies To''' : [[javascript/Math{{!}}Math Object]]
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Math/atan{{!}}Math.atan Function]]
-* [[javascript/Math/tan{{!}}Math.tan Function]]
-* [[javascript/Math{{!}}Math Object]]
-|External_links=
-|Manual_sections=
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/a5h904dw(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+## Remarks
+
+The return value is between -pi and pi. It represents the angle of the supplied ( y , x ) point, in radians.
+
+**Applies To** : [Math Object](/javascript/Math)
+
+## See also
+
+### Other articles
+
+-   [Math.atan Function](/javascript/Math/atan)
+-   [Math.tan Function](/javascript/Math/tan)
+-   [Math Object](/javascript/Math)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/a5h904dw(v=vs.94).aspx)
+

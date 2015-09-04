@@ -1,124 +1,137 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Retrieves the type of the requested node.}}
-{{API_Object_Property
-|Property_applies_to=dom/Node
-|Read_only=Yes
-|Example_object_name=node
-|Return_value_name=nodeType
-|Javascript_data_type=Number
-|Return_value_description=One of the node type constants defined on [[dom/Node|Node]], or null.
+---
+title: nodeType
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves the type of the requested node.'
+uri: dom/Node/nodeType
 
-Node.ELEMENT_NODE {{=}}1
+---
+# nodeType
 
-Node.ATTRIBUTE_NODE {{=}} 2
+## Summary
 
-Node.TEXT_NODE {{=}} 3
+Retrieves the type of the requested node.
 
-Node.CDATA_SECTION_NODE {{=}} 4
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Node](/dom/Node)</span></span>
 
-Node.ENTITY_REFERENCE_NODE {{=}} 5
+## Syntax
 
-Node.ENTITY_NODE {{=}} 6
+***Note**: This property is read-only.*
 
-Node.PROCESSING_INSTRUCTION_NODE {{=}} 7
+``` {.js}
+var nodeType = node.nodeType;
+```
 
-Node.COMMENT_NODE {{=}} 8
+## Return Value
 
-Node.DOCUMENT_NODE {{=}} 9
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
 
-Node.DOCUMENT_TYPE_NODE {{=}} 10
+One of the node type constants defined on [Node](/dom/Node), or null.
 
-Node.DOCUMENT_FRAGMENT_NODE {{=}} 11
+Node.ELEMENT\_NODE =1
 
-Node.NOTATION_NODE {{=}} 12
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example assigns the '''nodeType''' property of the '''body''' object to a variable.
-|Code=var iType {{=}} document.body.nodeType;
-}}{{Single Example
-|Language=JavaScript
-|Description=This example assigns the '''nodeType''' property of a node created with the [[dom/Document/createElement|'''createElement''']] method to a variable.
-|Code=var oNode {{=}} document.createElement("B");
+Node.ATTRIBUTE\_NODE = 2
+
+Node.TEXT\_NODE = 3
+
+Node.CDATA\_SECTION\_NODE = 4
+
+Node.ENTITY\_REFERENCE\_NODE = 5
+
+Node.ENTITY\_NODE = 6
+
+Node.PROCESSING\_INSTRUCTION\_NODE = 7
+
+Node.COMMENT\_NODE = 8
+
+Node.DOCUMENT\_NODE = 9
+
+Node.DOCUMENT\_TYPE\_NODE = 10
+
+Node.DOCUMENT\_FRAGMENT\_NODE = 11
+
+Node.NOTATION\_NODE = 12
+
+## Examples
+
+This example assigns the **nodeType** property of the **body** object to a variable.
+
+``` {.js}
+var iType = document.body.nodeType;
+```
+
+This example assigns the **nodeType** property of a node created with the [**createElement**](/dom/Document/createElement) method to a variable.
+
+``` {.js}
+var oNode = document.createElement("B");
 document.body.insertBefore(oNode);
-var iType {{=}} oNode.nodeType;
-}}{{Single Example
-|Language=JavaScript
-|Description=This example users the node constants to return the nodeType description.
-|Code=function getNodeTypeName(nType){
+var iType = oNode.nodeType;
+```
+
+This example users the node constants to return the nodeType description.
+
+``` {.js}
+function getNodeTypeName(nType){
    switch (nType){
-   		case Node.ELEMENT_NODE:
-   			return 'ELEMENT_NODE';
-   		case Node.ATTRIBUTE_NODE:
-   			return 'ATTRIBUTE_NODE';
-   		case Node.TEXT_NODE:
-   			return 'TEXT_NODE';
-   		case Node.CDATA_SECTION_NODE:
-   			return 'CDATA_SECTION_NODE';
-   		case Node.ENTITY_REFERENCE_NODE:
-   			return 'ENTITY_REFERENCE_NODE';
-   		case Node.ENTITY_NODE:
-   			return 'ENTITY_NODE';
-   		case Node.PROCESSING_INSTRUCTION_NODE:
-   			return 'PROCESSING_INSTRUCTION_NODE';
-   		case Node.COMMENT_NODE:
-   			return 'COMMENT_NODE';
-   		case Node.DOCUMENT_NODE:
-   			return 'DOCUMENT_NODE';
-   		case Node.DOCUMENT_TYPE_NODE:
-   			return 'DOCUMENT_TYPE_NODE';
-   		case Node.DOCUMENT_FRAGMENT_NODE:
-   			return 'DOCUMENT_FRAGMENT_NODE';
-   		case Node.NOTATION_NODE:
-   			return 'NOTATION_NODE';
-   		default:
-   			return 'unknown nodeType:'+ntype;
+        case Node.ELEMENT_NODE:
+            return 'ELEMENT_NODE';
+        case Node.ATTRIBUTE_NODE:
+            return 'ATTRIBUTE_NODE';
+        case Node.TEXT_NODE:
+            return 'TEXT_NODE';
+        case Node.CDATA_SECTION_NODE:
+            return 'CDATA_SECTION_NODE';
+        case Node.ENTITY_REFERENCE_NODE:
+            return 'ENTITY_REFERENCE_NODE';
+        case Node.ENTITY_NODE:
+            return 'ENTITY_NODE';
+        case Node.PROCESSING_INSTRUCTION_NODE:
+            return 'PROCESSING_INSTRUCTION_NODE';
+        case Node.COMMENT_NODE:
+            return 'COMMENT_NODE';
+        case Node.DOCUMENT_NODE:
+            return 'DOCUMENT_NODE';
+        case Node.DOCUMENT_TYPE_NODE:
+            return 'DOCUMENT_TYPE_NODE';
+        case Node.DOCUMENT_FRAGMENT_NODE:
+            return 'DOCUMENT_FRAGMENT_NODE';
+        case Node.NOTATION_NODE:
+            return 'NOTATION_NODE';
+        default:
+            return 'unknown nodeType:'+ntype;
       }
    }
-}}
-}}
-{{Notes_Section
-|Notes=If the node represents an attribute retrieved from the [[dom/Node/attributes|'''attributes''']] collection, the '''nodeType''' returns <code>null</code>.
+```
 
-The proprietary &lt;comment&gt; element is recognized as a HTMLUnknown element in IE10 and higher and returns ELEMENT_NODE as its type.
+## Notes
+
+If the node represents an attribute retrieved from the [**attributes**](/dom/Node/attributes) collection, the **nodeType** returns `null`.
+
+The proprietary \<comment\> element is recognized as a HTMLUnknown element in IE10 and higher and returns ELEMENT\_NODE as its type.
 
 Use the HTML comment block instead.
 
-&lt;-- this is a hidden comment tag --&gt;
+\<-- this is a hidden comment tag --\>
 
-&lt;comment&gt; this is a legacy IE comment tag and will display on your web page... do not use or remove from your legacy pages&lt;/comment&gt;
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.nodeType Node.nodeType]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms534191(v=vs.85).aspx nodeType Property]
-|HTML5Rocks_link=
-}}
+\<comment\> this is a legacy IE comment tag and will display on your web page... do not use or remove from your legacy pages\</comment\>
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.nodeType](https://developer.mozilla.org/en-US/docs/Web/API/Node.nodeType) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[nodeType Property](http://msdn.microsoft.com/en-us/library/ie/ms534191(v=vs.85).aspx) Article]
+

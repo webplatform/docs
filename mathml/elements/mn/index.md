@@ -1,146 +1,90 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The MathML '''mn''' element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However,  it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example "eleven".}}
-{{Markup_Element
-|DOM_interface=mathml
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example demonstrates a simple usage of the mn element:
-|Code=<syntaxhighlight lang="html5">
+---
+title: mn
+tags:
+  - Markup
+  - Elements
+  - MathML
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The MathML mn element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However,  it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example "eleven".'
+uri: mathml/elements/mn
+
+---
+# mn
+
+## Summary
+
+The MathML mn element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However, it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example "eleven".
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [mathml](/mathml)
+
+## Examples
+
+This example demonstrates a simple usage of the mn element:
+
+``` {.html}
+
+
 <math>
- 
+
   <mn> 0 </mn>
- 
+
   <mn> 1.337 </mn>
- 
+
   <mn> twelve </mn>
- 
-  <mn> XVI </mn>    
- 
+
+  <mn> XVI </mn>
+
   <mn> 2e10 </mn>
- 
+
 </math>
-</syntaxhighlight>
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=MathML 3.0
-|URL=http://www.w3.org/TR/MathML3/chapter3.html#presm.mn
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=24
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=9.5
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|MathML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/MathML/Element/mn
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-== Attributes ==
-<dl>
- <dt id="attr-mathsize">
-    mathsize</dt>
-  <dd>
-    The size of the content. Possible values are:
-* <code>small:</code> Font is rendered smaller than the current font size.
-* <code>normal:</code> Equivalent to 100% or 1em.
-* <code>big:</code> Font is rendered larger than the current font size.
-* or a custom length.
-  </dd>
-  <dt id="attr-mathvariant">
-    mathvariant</dt>
-  <dd>
-    This logical class of the identifier, which varies in typography. That is, although the names suggest the typographic style for the class, semantically, items with the same class are treated "the same" within an expression, which might or might not involve displaying them with the named typography. The following values are allowed:
-* <code>normal</code> (Default value for ''more than one character'')
-* <code>bold</code>
-* <code>italic</code> (Default value for ''a single character'')
-* <code>bold-italic</code>
-* <code>double-struck</code>
-* <code>bold-fraktur</code>
-* <code>script</code>
-* <code>bold-script</code>
-* <code>fraktur</code>
-* <code>sans-serif</code>
-* <code>bold-sans-serif</code>
-* <code>sans-serif-italic</code>
-* <code>sans-serif-bold-italic</code>
-* <code>monospace</code>
-* <code>initial</code>
-* <code>tailed</code>
-* <code>looped</code>
-* <code>stretched</code>
-  </dd>
-</dl>
+```
+
+</pre>
+
+## Related specifications
+
+Specification
+:   Status
+[MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mn)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mn)
+
+## Attributes
+
+ mathsize
+:   The size of the content. Possible values are:
+    -   `small:` Font is rendered smaller than the current font size.
+    -   `normal:` Equivalent to 100% or 1em.
+    -   `big:` Font is rendered larger than the current font size.
+    -   or a custom length.
+
+ mathvariant
+:   This logical class of the identifier, which varies in typography. That is, although the names suggest the typographic style for the class, semantically, items with the same class are treated "the same" within an expression, which might or might not involve displaying them with the named typography. The following values are allowed:
+    -   `normal` (Default value for *more than one character*)
+    -   `bold`
+    -   `italic` (Default value for *a single character*)
+    -   `bold-italic`
+    -   `double-struck`
+    -   `bold-fraktur`
+    -   `script`
+    -   `bold-script`
+    -   `fraktur`
+    -   `sans-serif`
+    -   `bold-sans-serif`
+    -   `sans-serif-italic`
+    -   `sans-serif-bold-italic`
+    -   `monospace`
+    -   `initial`
+    -   `tailed`
+    -   `looped`
+    -   `stretched`
+

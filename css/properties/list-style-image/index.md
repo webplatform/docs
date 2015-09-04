@@ -1,152 +1,143 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|This property sets the image that will be used as the list item marker. When the image is available, it will replace the marker set with the 'list-style-type' marker. That also means that if the image is not available, it will show the style specified by list-style-property}}
-{{CSS Property
-|Initial value=none
-|Applies to=elements with 'display: list-item'
-|Inherited=Yes
-|Media=visual
-|Computed value=absolute URI or 'none'
-|Animatable=No
-|CSS object model property=listStyleImage
-|Values={{CSS Property Value
-|Data Type=none
-|Description=Default. No image is specified.
-}}{{CSS Property Value
-|Data Type=url(path/to/image.png)
-|Description=Location of the image, where path/to/image.png is an absolute or relative URL.  More details can be found at the [[css/functions/url()]] section.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Takes the same specified value as the property for the element's parent. (Acts similarly to other uses of inherit in CSS.)
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=The following examples shows the different possible values you can use for the list-style-image property. It also contains an example to show what happened when an unavailable image is not provided and how to use 'none' to break the inheritance.
-|Code=/* Using an absolute URI to specify an image */
+---
+title: list-style-image
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'This property sets the image that will be used as the list item marker. When the image is available, it will replace the marker set with the ''list-style-type'' marker. That also means that if the image is not available, it will show the style specified by list-style-property'
+code_samples:
+  - 'http://gist.github.com/6948599'
+uri: css/properties/list-style-image
+
+---
+# list-style-image
+
+## Summary
+
+This property sets the image that will be used as the list item marker. When the image is available, it will replace the marker set with the 'list-style-type' marker. That also means that if the image is not available, it will show the style specified by list-style-property
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   elements with 'display: list-item'
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   absolute URI or 'none'
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `listStyleImage`
+
+## Syntax
+
+-   `list-style-image: inherit`
+-   `list-style-image: none`
+-   `list-style-image: url(path/to/image.png)`
+
+## Values
+
+none
+:   Default. No image is specified.
+
+url(path/to/image.png)
+:   Location of the image, where path/to/image.png is an absolute or relative URL. More details can be found at the [css/functions/url()](/css/functions/url()) section.
+
+inherit
+:   Takes the same specified value as the property for the element's parent. (Acts similarly to other uses of inherit in CSS.)
+
+## Examples
+
+The following examples shows the different possible values you can use for the list-style-image property. It also contains an example to show what happened when an unavailable image is not provided and how to use 'none' to break the inheritance.
+
+``` {.css}
+/* Using an absolute URI to specify an image */
 .first-list {
-	list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
-} 
+    list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
+}
 
 /* Using a relative URI to specify an image */
 .second-list {
-	list-style-image: url(favicon.ico);
+    list-style-image: url(favicon.ico);
 }
 
 /* When providing an unavailable image, the marker used will be the one specified by the 'list-style-type' property */
 .third-list {
-	list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
+    list-style-image: url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
 }
 
 /* Setting the value to none we are breaking the inheritance */
 .third-list .third-list-inner-non-inherit {
-	list-style-image: none;
+    list-style-image: none;
 }
 
 /* When providing an unavailable image, the marker used will be the one specified by the 'list-style-type' property */
 .fourth-list {
-	list-style-image: url(http://wrong.url.used.com);
-	list-style-type: disc; 
+    list-style-image: url(http://wrong.url.used.com);
+    list-style-type: disc;
 }
-|LiveURL=http://code.webplatform.org/gist/6948599
-}}
-}}
-{{Notes_Section
-|Usage=The property has limited positioning options for the background image, and in some circumstances doesn’t work at all in IE. 
+```
+
+[View live example](http://code.webplatform.org/gist/6948599)
+
+## Usage
+
+     The property has limited positioning options for the background image, and in some circumstances doesn’t work at all in IE.
+
 So it has become a far more common practice to simply set a background image on the list items.
-|Notes====Remarks===
-When the image is available, it replaces the marker that is set with the [[css/properties/list-style-type|'''list-style-type''']] marker.
-If the left margin of the list item is set to 0 using one of the [[css/properties/margin|'''margin''']] properties, the list-item markers do not show.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Lists and Counters Module Level 3
-|URL=http://dev.w3.org/csswg/css3-lists/#list-style-image
-|Status=Working Draft
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/generate.html#propdef-list-style-image
-|Status=Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=4.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=1.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1.0
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=6.0
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=6.0
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Generated and Replaced Content
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/CSS/list-style-image
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+## Notes
+
+### Remarks
+
+When the image is available, it replaces the marker that is set with the [**list-style-type**](/css/properties/list-style-type) marker. If the left margin of the list item is set to 0 using one of the [**margin**](/css/properties/margin) properties, the list-item markers do not show.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Lists and Counters Module Level 3](http://dev.w3.org/csswg/css3-lists/#list-style-image)
+:   Working Draft
+[CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/generate.html#propdef-list-style-image)
+:   Recommendation
+
+## See also
+
+### Related articles
+
+#### Generated and Replaced Content
+
+-   [Generated and Replaced Content](/css/generated_and_replaced_content)
+
+-   [content](/css/properties/content)
+
+-   [counter-increment](/css/properties/counter-increment)
+
+-   [counter-reset](/css/properties/counter-reset)
+
+-   **list-style-image**
+
+-   [list-style-type](/css/properties/list-style-type)
+
+-   [object-fit](/css/properties/object-fit)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `runtimeStyle`
+-   `style`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/list-style-image)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

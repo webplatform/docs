@@ -1,50 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=example required
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Gets the x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen.}}
-{{API_Object_Property
-|Property_applies_to=dom/MouseEvent
-|Read_only=Yes
-|Example_object_name=event
-|Return_value_name=xCoordinate
-|Javascript_data_type=Number
-|Return_value_description=The X coordinate of the mouse cursor.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=Screen coordinates depend on the document zoom level. At 200% magnification, some user agents may report the "logical" position of a pixel as half of the distance of the same position at 100% zoom.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
-|Status=Working Draft
-|Relevant_changes=Section 5.2.3
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM, DOMEvents}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/event.screenX event.screenX]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974882(v=vs.85).aspx event.screenX]
-|HTML5Rocks_link=
-}}
+---
+title: screenX
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+  - DOMEvents
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'example required'
+summary: 'Gets the x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen.'
+uri: dom/MouseEvent/screenX
+
+---
+# screenX
+
+## Summary
+
+Gets the x-coordinate of the mouse pointer, relative to the upper-left corner of the screen.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MouseEvent](/dom/MouseEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var xCoordinate = event.screenX;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+
+The X coordinate of the mouse cursor.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+Screen coordinates depend on the document zoom level. At 200% magnification, some user agents may report the "logical" position of a pixel as half of the distance of the same position at 100% zoom.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[event.screenX](https://developer.mozilla.org/en-US/docs/Web/API/event.screenX) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[event.screenX](http://msdn.microsoft.com/en-us/library/ie/ff974882(v=vs.85).aspx) Article]
+

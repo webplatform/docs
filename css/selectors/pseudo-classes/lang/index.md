@@ -1,95 +1,106 @@
-{{Page_Title|&#58;lang(c)}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs title, summary, spec reference, standardization status, remove topic cluster flags
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The ''':lang(c)''' pseudo selector applies to documents that specifies the <code>lang</code> attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.}}
-{{CSS_Selector
-|Content=
-If the document language specifies how the human language of an element is determined, it is possible to write selectors that represent an element based on its language. For example, in HTML [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#HTML401 HTML401]], the language is determined by a combination of the <code>lang</code> attribute and possibly information from the <code>meta</code> elements or the protocol (such as HTTP headers). XML uses an attribute called <code>xml:lang</code>, and there may be other document language-specific methods for determining the language.
+---
+title: :lang(c)
+tags:
+  - CSS
+  - Selectors
+readiness: 'Not Ready'
+notes:
+  - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
+summary: 'The :lang(c) pseudo selector applies to documents that specifies the lang attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.'
+uri: 'css/selectors/pseudo-classes/:lang(c)'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - selection
 
-The pseudo-class <code>:lang(C)</code> represents an element that is in language <code>C</code>. Whether an element is represented by a <code>:lang()</code> selector is based solely on the element's language value (normalized to BCP 47 syntax if necessary) being equal to the identifier <code>C</code>, or beginning with the identifier <code>C</code> immediately followed by "<code>-</code>" (U+002D). The matching of <code>C</code> against the element's language value is performed case-insensitively. The identifier C does not have to be a valid language name.
+---
+# :lang(c)
 
-<code>C</code> must be a valid CSS [http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier identifier] [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS21 CSS21]] and must not be empty. (Otherwise, the selector is invalid.)
+## Summary
 
-<blockquote>'''Note:''' It is [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#lang-pseudo recommended]] that documents and protocols indicate language using codes from BCP 47 [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#BCP47 BCP47]] or its successor, and by means of "<code>xml:lang</code>" attributes in the case of XML-based documents [[http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#XML10 XML10]]. See "[http://www.w3.org/International/questions/qa-lang-2or3.htmlFAQ: Two-letter or three-letter language codes.]" </blockquote>
+The :lang(c) pseudo selector applies to documents that specifies the lang attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.
+
+ If the document language specifies how the human language of an element is determined, it is possible to write selectors that represent an element based on its language. For example, in HTML [[HTML401](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#HTML401)], the language is determined by a combination of the `lang` attribute and possibly information from the `meta` elements or the protocol (such as HTTP headers). XML uses an attribute called `xml:lang`, and there may be other document language-specific methods for determining the language.
+
+The pseudo-class `:lang(C)` represents an element that is in language `C`. Whether an element is represented by a `:lang()` selector is based solely on the element's language value (normalized to BCP 47 syntax if necessary) being equal to the identifier `C`, or beginning with the identifier `C` immediately followed by "`-`" (U+002D). The matching of `C` against the element's language value is performed case-insensitively. The identifier C does not have to be a valid language name.
+
+`C` must be a valid CSS [identifier](http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier) [[CSS21](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS21)] and must not be empty. (Otherwise, the selector is invalid.)
+
+> **Note:** It is [[recommended](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#lang-pseudo)] that documents and protocols indicate language using codes from BCP 47 [[BCP47](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#BCP47)] or its successor, and by means of "`xml:lang`" attributes in the case of XML-based documents [[XML10](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#XML10)]. See "[Two-letter or three-letter language codes.](http://www.w3.org/International/questions/qa-lang-2or3.htmlFAQ:)"
+
+ The value of *C* should be a language code that is indicated by [RFC3066: Tags for the Identification of Languages](http://www.ietf.org/rfc/rfc3066.txt).
+
+If *C* is empty or invalid, the selector will have no effect.
+
+### Syntax
 
 
-The value of ''C'' should be a language code that is  indicated by [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages].
+     selector:lang(C) { /* ... */ }
 
-If ''C'' is empty or invalid, the selector will have no effect.
 
-===Syntax===
-  <code>
-  selector:lang(C) { /* ... */ }
-  </code>
-===Parameters===
-;''selector'':A CSS simple selector
-;''C'':Language code as specified in [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages]
+### Parameters
 
-}}
-{{Compatibility
-|feature=pseudo-lang
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following code example uses the ''':lang(C)''' pseudo-class to apply a color to any '''p''' elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
-|Code=
-  &lt;!DOCTYPE html&gt;
-  &lt;html&gt;
-  &lt;head&gt;
-  &lt;meta http-equiv="X-UA-Compatible" content="IE=8"/&gt;
-  &lt;title&gt;:lang pseudo-class&lt;/title&gt;
-  &lt;style type="text/css"&gt;
+*selector*
+:   A CSS simple selector
+*C*
+:   Language code as specified in [RFC3066: Tags for the Identification of Languages](http://www.ietf.org/rfc/rfc3066.txt)
+
+## Examples
+
+The following code example uses the **:lang(C)** pseudo-class to apply a color to any **p** elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
+
+``` {.html}
+<!DOCTYPE html>
+  <html>
+  <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=8"/>
+  <title>:lang pseudo-class</title>
+  <style type="text/css">
   p:lang(en) {
-	color: green;
+    color: green;
   }
-  &lt;/style&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-  &lt;div class=body&gt;
-	
-	&lt;h1&gt;:lang(C) Sample&lt;/h1&gt;
-	
-	&lt;!-- This paragraph gets "en-us" (a subset of "en") and thus turns green. --&gt;
-	&lt;p lang{{=}}"en-us"&gt;This paragraph's language is set to "en-us", so it's green.&lt;/p&gt;
-	&lt;!-- This paragraph has no language value and thus does not turn green. --&gt;
-	&lt;p&gt;This paragraph has no language attribute, so it doesn't turn green.&lt;/p&gt;
-	&lt;!-- This paragraph is actually a div; therefore, even though its language value 
-	    is "en-us", it does not turn green. --&gt;
-	&lt;div lang{{=}}"en-us"&gt;This div's language is set to "en-us", but this page's :lang 
-	    pseudo-class only applies to paragraphs, so it doesn't turn green.&lt;/div&gt;
-		
-  &lt;/div&gt;
-  &lt;/body&gt;
-  &lt;/html&gt;
-}}{{Single Example
-|Language=HTML
-|Description=How to declare a full HTML document body language
-|Code=
-  &lt;body&gt;
-    &lt;p&gt;This text is written in english, but &lt;span lang=fr&gt;cette section ci est écrite en français&lt;/span&gt;.&lt;/p&gt;
-  &lt;/body&gt;
-}}{{Single Example
-|Language=CSS
-|Description=The two following selectors represent an HTML document that is in Belgian French or German. The two next selectors represent q quotations in an arbitrary element in Belgian French or German.
-|Code=
-  html:lang(fr-be)
+  </style>
+  </head>
+  <body>
+  <div class=body>
+
+    <h1>:lang(C) Sample</h1>
+
+    <!-- This paragraph gets "en-us" (a subset of "en") and thus turns green. -->
+    <p lang="en-us">This paragraph's language is set to "en-us", so it's green.</p>
+    <!-- This paragraph has no language value and thus does not turn green. -->
+    <p>This paragraph has no language attribute, so it doesn't turn green.</p>
+    <!-- This paragraph is actually a div; therefore, even though its language value
+        is "en-us", it does not turn green. -->
+    <div lang="en-us">This div's language is set to "en-us", but this page's :lang
+        pseudo-class only applies to paragraphs, so it doesn't turn green.</div>
+
+  </div>
+  </body>
+  </html>
+```
+
+How to declare a full HTML document body language
+
+``` {.html}
+<body>
+    <p>This text is written in english, but <span lang=fr>cette section ci est écrite en français</span>.</p>
+  </body>
+```
+
+The two following selectors represent an HTML document that is in Belgian French or German. The two next selectors represent q quotations in an arbitrary element in Belgian French or German.
+
+``` {.css}
+html:lang(fr-be)
   html:lang(de)
-  :lang(fr-be) > q
-  :lang(de) > q
-}}{{Single Example
-|Language=CSS
-|Description=Match all of the listed language codes (and any corresponding hyphen-separated substrings of language codes) that are known to have text orientation from '''right to left''' (see the "rtl" value at the ''direction'' property).
-|Code=
-  html:lang(ar),
+  :lang(fr-be) > q
+  :lang(de) > q
+```
+
+Match all of the listed language codes (and any corresponding hyphen-separated substrings of language codes) that are known to have text orientation from **right to left** (see the "rtl" value at the *direction* property).
+
+``` {.css}
+html:lang(ar),
   html:lang(dv),
   html:lang(fa),
   html:lang(he),
@@ -104,29 +115,155 @@ If ''C'' is empty or invalid, the selector will have no effect.
   html:lang(qps-plocm) {
      direction: rtl;
   }
-}}
-}}
-{{Notes_Section
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS 2.1
-|URL=http://www.w3.org/TR/CSS2/selector.html#lang
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Pseudo-Classes, Selectors
-|External_links=
-* Language code as specified in [http://www.ietf.org/rfc/rfc3066.txt RFC3066: Tags for the Identification of Languages]
-* [http://www.w3.org/International/techniques/authoring-html#langstyle Styling by language]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#lang)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### Pseudo-Classes
+
+-   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
+
+-   [:-ms-input-placeholder](/css/selectors/pseudo-classes/:-ms-input-placeholder)
+
+-   [:checked](/css/selectors/pseudo-classes/:checked)
+
+-   [:disabled](/css/selectors/pseudo-classes/:disabled)
+
+-   [:empty](/css/selectors/pseudo-classes/:empty)
+
+-   [:enabled](/css/selectors/pseudo-classes/:enabled)
+
+-   [:first-child](/css/selectors/pseudo-classes/:first-child)
+
+-   [:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
+
+-   [:focus](/css/selectors/pseudo-classes/:focus)
+
+-   [:in-range](/css/selectors/pseudo-classes/:in-range)
+
+-   [:indeterminate](/css/selectors/pseudo-classes/:indeterminate)
+
+-   [:invalid](/css/selectors/pseudo-classes/:invalid)
+
+-   **:lang(c)**
+
+-   [:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+
+-   [:nth-child(n)](/css/selectors/pseudo-classes/:nth-child(n))
+
+-   [:nth-last-child(n)](/css/selectors/pseudo-classes/:nth-last-child(n))
+
+-   [:nth-last-of-type(n)](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+
+-   [:nth-of-type(n)](/css/selectors/pseudo-classes/:nth-of-type(n))
+
+-   [:only-child](/css/selectors/pseudo-classes/:only-child)
+
+-   [:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+
+-   [:optional](/css/selectors/pseudo-classes/:optional)
+
+-   [:required](/css/selectors/pseudo-classes/:required)
+
+-   [:root](/css/selectors/pseudo-classes/:root)
+
+-   [:target](/css/selectors/pseudo-classes/:target)
+
+-   [:valid](/css/selectors/pseudo-classes/:valid)
+
+#### Selectors
+
+-   [querySelectorAll](/css/selectors_api/querySelectorAll)
+
+-   [ID](/css/selectors/ID)
+
+-   [Namespaced](/css/selectors/Namespaced)
+
+-   [Universal](/css/selectors/Universal)
+
+-   [equality](/css/selectors/attributes/equality)
+
+-   [Attribute selector](/css/selectors/attributes/existence)
+
+-   [hyphen](/css/selectors/attributes/hyphen)
+
+-   [prefix](/css/selectors/attributes/prefix)
+
+-   [substring](/css/selectors/attributes/substring)
+
+-   [suffix](/css/selectors/attributes/suffix)
+
+-   [whitespace](/css/selectors/attributes/whitespace)
+
+-   [:-ms-input-placeholder](/css/selectors/pseudo-classes/:-ms-input-placeholder)
+
+-   [:checked](/css/selectors/pseudo-classes/:checked)
+
+-   [:disabled](/css/selectors/pseudo-classes/:disabled)
+
+-   [:empty](/css/selectors/pseudo-classes/:empty)
+
+-   [:enabled](/css/selectors/pseudo-classes/:enabled)
+
+-   [:first-child](/css/selectors/pseudo-classes/:first-child)
+
+-   [:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
+
+-   [:focus](/css/selectors/pseudo-classes/:focus)
+
+-   [:in-range](/css/selectors/pseudo-classes/:in-range)
+
+-   [:indeterminate](/css/selectors/pseudo-classes/:indeterminate)
+
+-   [:invalid](/css/selectors/pseudo-classes/:invalid)
+
+-   **:lang(c)**
+
+-   [:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+
+-   [:nth-child(n)](/css/selectors/pseudo-classes/:nth-child(n))
+
+-   [:nth-last-child(n)](/css/selectors/pseudo-classes/:nth-last-child(n))
+
+-   [:nth-last-of-type(n)](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+
+-   [:nth-of-type(n)](/css/selectors/pseudo-classes/:nth-of-type(n))
+
+-   [:only-child](/css/selectors/pseudo-classes/:only-child)
+
+-   [:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+
+-   [:optional](/css/selectors/pseudo-classes/:optional)
+
+-   [:required](/css/selectors/pseudo-classes/:required)
+
+-   [:root](/css/selectors/pseudo-classes/:root)
+
+-   [:target](/css/selectors/pseudo-classes/:target)
+
+-   [:valid](/css/selectors/pseudo-classes/:valid)
+
+-   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
+
+-   [type](/css/selectors/type)
+
+### External resources
+
+-   Language code as specified in [RFC3066: Tags for the Identification of Languages](http://www.ietf.org/rfc/rfc3066.txt)
+-   [Styling by language](http://www.w3.org/International/techniques/authoring-html#langstyle)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

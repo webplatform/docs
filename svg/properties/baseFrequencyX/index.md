@@ -1,43 +1,39 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: baseFrequencyX
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/baseFrequencyX
 
-===Remarks===
+---
+# baseFrequencyX
 
-For markup, you can  use '''baseFrequency''' to combine '''baseFrequencyX''' and [[svg/properties/baseFrequencyY|'''baseFrequencyY''']].
+## Notes
+
+### Remarks
+
+For markup, you can use **baseFrequency** to combine **baseFrequencyX** and [**baseFrequencyY**](/svg/properties/baseFrequencyY).
 
 The larger the base frequency number, the more quickly the colors change. The number must be positive and provides good results if the number is less than 1. If no number is provided, the value is assumed to be zero.
-|Import_Notes=
 
-===Syntax===
+### Syntax
 
-===Standards information===
+### Standards information
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.27
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.27
 
-}}
-{{See_Also_Section
-|Manual_sections=
+## See also
 
-===Related pages (MSDN)===
+### Related pages (MSDN)
 
-*[[svg/elements/feTurbulence|'''SVGFETurbulenceElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+-   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)
 
-[[Category:SVG]]
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

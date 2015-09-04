@@ -1,42 +1,38 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: baseVal (SVGAnimatedInteger)
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: 'svg/properties/baseVal (SVGAnimatedInteger)'
 
-===Remarks===
+---
+# baseVal (SVGAnimatedInteger)
 
-Windows Internet Explorer 9 supports script-based SVG animation but it does not support declarative-based SVG animation.  As a result, the [[svg/properties/animVal (SVGAnimatedInteger)|'''animVal''']]  property contains the same value as the '''baseVal''' property.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+Windows Internet Explorer 9 supports script-based SVG animation but it does not support declarative-based SVG animation. As a result, the [**animVal**](/svg/properties/animVal_(SVGAnimatedInteger)) property contains the same value as the **baseVal** property.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.6
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.6
 
-*[[svg/objects/SVGAnimatedInteger|'''SVGAnimatedInteger''']]
-*[[svg/properties/animVal (SVGAnimatedInteger)|'''animVal''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGAnimatedInteger**](/svg/objects/SVGAnimatedInteger)
+-   [**animVal**](/svg/properties/animVal_(SVGAnimatedInteger))
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

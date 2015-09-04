@@ -1,22 +1,32 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Empty "Main Content" section, see @import for notes for improvement. 
-In the summary, "Keyframes" is defined using itself, would reword and provide a working definition of "Keyframes" to the general public.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Sets the keyframes for the CSS [[css/properties/animation/animation|animation]] property.}}
-{{CSS_At_Rule}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Example of prefixed/prefix-free @keyframes blocks
-|Code=/* defining the animation */
+---
+title: @keyframes
+tags:
+  - CSS
+  - At
+  - Rules
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - "Empty \"Main Content\" section, see @import for notes for improvement. \nIn the summary, \"Keyframes\" is defined using itself, would reword and provide a working definition of \"Keyframes\" to the general public."
+summary: 'Sets the keyframes for the CSS animation property.'
+code_samples:
+  - 'http://03sq.net/examples/animation.html'
+  - 'http://03sq.net/examples/animation2.html'
+uri: css/atrules/@keyframes
+
+---
+# @keyframes
+
+## Summary
+
+Sets the keyframes for the CSS animation property.
+
+## Examples
+
+Example of prefixed/prefix-free @keyframes blocks
+
+``` {.css}
+/* defining the animation */
 @keyframes fadeInAnimation {
     /* starting state */
     from {
@@ -32,11 +42,14 @@ In the summary, "Keyframes" is defined using itself, would reword and provide a 
 div {
     animation: fadeInAnimation linear;
 }
-|LiveURL=http://03sq.net/examples/animation.html
-}}{{Single Example
-|Language=CSS
-|Description=Example of an unprefixed @keyframes block that uses percentages to control the keyframes more exactly.
-|Code=@keyframes bounceFadeInAnimation {
+```
+
+[View live example](http://03sq.net/examples/animation.html)
+
+Example of an unprefixed @keyframes block that uses percentages to control the keyframes more exactly.
+
+``` {.css}
+@keyframes bounceFadeInAnimation {
     /* starting state (same as "from") */
     0% {
         opacity: 0;
@@ -64,146 +77,127 @@ div {
         opacity: 1;
     }
 }
-|LiveURL=http://03sq.net/examples/animation2.html
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The version of this rule using a vendor prefix, '''@-ms-keyframes''', has been deprecated. To ensure compatibility in the future, applications using this rule with a vendor prefix should be updated accordingly.
-This rule has no default value.
-This rule is used to specify property values at various points during an animation. The '''@keyframes''' rule specifies the property values during one cycle of an animation; the animation may iterate one or more times.
-This rule uses keyframe selectors to specify property values at various stages of the animation. Keyframe selectors can be declared as <code>from</code> (equivalent to <code>0%</code>), <code>to</code> (equivalent to <code>100%</code>), and one or more  percentages.
-Keyframe selectors use keyframe descriptors to specify the properties and values being animated. If a property cannot be animated, the specification is ignored.
-|Import_Notes====Syntax===
-<code>'''@keyframes '''''
-&lt;identifier&gt;
-'' { ''
-&lt;keyframes_blocks&gt;
-'' };</code>
-===Parameters===
-;''identifier'':The name of the animation.
-;''keyframes_blocks'':A set of keyframes blocks, each of which is composed of keyframe selectors.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Animations
-|URL=http://www.w3.org/TR/css3-animations/#keyframes
-|Status=W3C Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=4.0
-|Firefox_supported=Yes
-|Firefox_version=16.0
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=5.0
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.10
-|Opera_prefixed_supported=Yes
-|Opera_prefixed_version=12
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=4.0
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=4.0
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7.0
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Yes
-|Chrome_mobile_prefixed_version=18.0
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Yes
-|Firefox_mobile_prefixed_version=15.0
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=12.1
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}{{Compatibility Table Mobile Row
-|Feature=Partial Support
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=10
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=No
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=iOS Safari
-|Version=all
-|Note=Only some properties are hardware accelerated, this is also the case with [[css/properties/transition|transitions]]. Known properties are: opacity, translate3d. There may be more, but it is hard to find documentation for this.
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Animation, Syntax
-|Manual_links=*[http://caniuse.com/#feat=css-animation canIUse Compatibility Table]
-*[https://developer.mozilla.org/en-US/docs/CSS/@keyframes MDN]
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/properties/animation-name|animationName]]</code>
-*<code>[[css/properties/animation/animation]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://03sq.net/examples/animation2.html)
+
+## Notes
+
+### Remarks
+
+The version of this rule using a vendor prefix, **@-ms-keyframes**, has been deprecated. To ensure compatibility in the future, applications using this rule with a vendor prefix should be updated accordingly. This rule has no default value. This rule is used to specify property values at various points during an animation. The **@keyframes** rule specifies the property values during one cycle of an animation; the animation may iterate one or more times. This rule uses keyframe selectors to specify property values at various stages of the animation. Keyframe selectors can be declared as `from` (equivalent to `0%`), `to` (equivalent to `100%`), and one or more percentages. Keyframe selectors use keyframe descriptors to specify the properties and values being animated. If a property cannot be animated, the specification is ignored.
+
+### Syntax
+
+`@keyframes  <identifier>  {  <keyframes_blocks>  };`
+
+### Parameters
+
+*identifier*
+:   The name of the animation.
+*keyframes\_blocks*
+:   A set of keyframes blocks, each of which is composed of keyframe selectors.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Animations](http://www.w3.org/TR/css3-animations/#keyframes)
+:   W3C Working Draft
+
+## See also
+
+### Related articles
+
+#### Animation
+
+-   [Web Animations API](/apis/web_animations)
+
+-   [clone](/apis/web_animations/AnimationEffect/clone)
+
+-   [AnimationNode](/apis/web_animations/AnimationNode)
+
+-   [timing](/apis/web_animations/AnimationNode/timing)
+
+-   [currentTime](/apis/web_animations/AnimationPlayer/currentTime)
+
+-   [reverse](/apis/web_animations/AnimationPlayer/reverse)
+
+-   [source](/apis/web_animations/AnimationPlayer/source)
+
+-   [AnimationPlayerEvent](/apis/web_animations/AnimationPlayerEvent)
+
+-   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
+
+-   [play](/apis/web_animations/AnimationTimeline/play)
+
+-   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
+
+-   **@keyframes**
+
+-   [CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
+
+-   [keyText](/css/cssom/CSSKeyframeRule/keyText)
+
+-   [style](/css/cssom/CSSKeyframeRule/style)
+
+-   [CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
+
+-   [cssRules](/css/cssom/CSSKeyframesRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSKeyframesRule/deleteRule)
+
+-   [findRule](/css/cssom/CSSKeyframesRule/findRule)
+
+-   [insertRule](/css/cssom/CSSKeyframesRule/insertRule)
+
+-   [name](/css/cssom/CSSKeyframesRule/name)
+
+-   [cubic-bezier](/css/functions/cubic-bezier)
+
+-   [Animations](/css/properties/animations)
+
+-   [transition](/css/properties/transition)
+
+-   [SVG animation](/svg/tutorials/smarter_svg_animation)
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+
+#### Syntax
+
+-   [@charset](/css/atrules/@charset)
+
+-   [@font-face](/css/atrules/@font-face)
+
+-   [@import](/css/atrules/@import)
+
+-   **@keyframes**
+
+-   [@namespace](/css/atrules/@namespace)
+
+-   [@page](/css/atrules/@page)
+
+-   [@supports](/css/atrules/@supports)
+
+-   [CSS reference](/css/reference)
+
+-   [Alphabetical list of CSS reference](/css/reference/alphabetical)
+
+-   [!important](/css/syntax/!important)
+
+### Other articles
+
+-   [canIUse Compatibility Table](http://caniuse.com/#feat=css-animation)
+-   [MDN](https://developer.mozilla.org/en-US/docs/CSS/@keyframes)
+
+### Related pages (MSDN)
+
+-   `animationName`
+-   `css/properties/animation/animation`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

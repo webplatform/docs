@@ -1,55 +1,60 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Obsolete; deletion candidate
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The '''text-line-through''' property is a shorthand property for [[css/properties/text-line-through-style |text-line-through-style]], [[css/properties/text-line-through-color |text-line-through-color]] and [[css/properties/text-line-through-mode |text-line-through-mode]].  (Considered obsolete; use [[css/properties/text-decoration|text-decoration]] instead.)}}
-{{CSS Property
-|Initial value=Not defined for shorthand properties
-|Applies to=all elements and generated content with textual content
-|Inherited=Yes
-|Media=visual
-|Computed value=See individual properties
-|Animatable=No
-|CSS object model property=N/A
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=<style> <color> <mode>
-|Description=Values supported by the [[css/properties/text-line-through-style|text-line-through-style]],  [[css/properties/text-line-through-color|text-line-through-color]], and [[css/properties/text-line-through-mode|text-line-through-mode]] properties.
-}}
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=This property is obsolete and has been replaced by the  [[css/properties/text-decoration|text-decoration]] property. 
+---
+title: text-line-through
+tags:
+  - CSS
+  - Properties
+readiness: 'Not Ready'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Obsolete; deletion candidate'
+summary: 'The text-line-through property is a shorthand property for text-line-through-style, text-line-through-color and text-line-through-mode.  (Considered obsolete; use text-decoration instead.)'
+uri: css/properties/text-line-through
 
-Originally defined in an earlier draft of the [http://www.w3.org/TR/2003/CR-css3-text-20030514/ CSS3 Text Module specification], the functionality controlled by this property is now defined in the [http://www.w3.org/TR/css-text-decor-3 CSS Text Decoration Level 3] module.  Sites (and apps) relying on the earlier behavior should be updated accordingly.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS3 Text Module (CR 2003)
-|URL=http://www.w3.org/TR/2003/CR-css3-text-20030514/
-|Status=Working Draft (current)
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+# text-line-through
+
+## Summary
+
+The text-line-through property is a shorthand property for text-line-through-style, text-line-through-color and text-line-through-mode. (Considered obsolete; use text-decoration instead.)
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `Not defined for shorthand properties`
+Applies to
+:   all elements and generated content with textual content
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   See individual properties
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `N/A`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `text-line-through: <style> <color> <mode>`
+
+## Values
+
+\<style\> \<color\> \<mode\>
+:   Values supported by the [text-line-through-style](/css/properties/text-line-through-style), [text-line-through-color](/css/properties/text-line-through-color), and [text-line-through-mode](/css/properties/text-line-through-mode) properties.
+
+## Usage
+
+     This property is obsolete and has been replaced by the  text-decoration property.
+
+Originally defined in an earlier draft of the [CSS3 Text Module specification](http://www.w3.org/TR/2003/CR-css3-text-20030514/), the functionality controlled by this property is now defined in the [CSS Text Decoration Level 3](http://www.w3.org/TR/css-text-decor-3) module. Sites (and apps) relying on the earlier behavior should be updated accordingly.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS3 Text Module (CR 2003)](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
+:   Working Draft (current)
+

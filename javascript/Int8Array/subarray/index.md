@@ -1,35 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Gets a new Int8Array view of the ArrayBuffer store for this array, referencing the elements at begin, inclusive, up to end, exclusive.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=var newInt8Array = int8Array.subset(begin, end);
-}}
-|Values={{JS Syntax Parameter
-|Name=newInt8Array
-|Description=The subarray returned by this method.
-}}{{JS Syntax Parameter
-|Name=begin
-|Description=The index of the beginning of the array.
-}}{{JS Syntax Parameter
-|Name=end
-|Description=The index of the end of the array.
-}}
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example shows how to get a subarray three elements long, starting with the first element of the array.
-|Code=var req = new XMLHttpRequest();
+---
+title: subarray
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Gets a new Int8Array view of the ArrayBuffer store for this array, referencing the elements at begin, inclusive, up to end, exclusive.'
+uri: javascript/Int8Array/subarray
+
+---
+# subarray
+
+## Summary
+
+Gets a new Int8Array view of the ArrayBuffer store for this array, referencing the elements at begin, inclusive, up to end, exclusive.
+
+## Syntax
+
+    var newInt8Array = int8Array.subset(begin, end);
+
+**newInt8Array**
+:   The subarray returned by this method.
+
+**begin**
+:   The index of the beginning of the array.
+
+**end**
+:   The index of the end of the array.
+
+## Examples
+
+The following example shows how to get a subarray three elements long, starting with the first element of the array.
+
+``` {.js}
+var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
      req.send();
- 
+
      req.onreadystatechange = function () {
          if (req.readyState === 4) {
              var buffer = req.response;
@@ -38,23 +45,15 @@
              var subArr = intArr.subarray(0, 2);
          }
      }
-}}
-}}
-{{Remarks_Section
-|Remarks=If either begin or end is negative, it refers to an index from the end of the array, as opposed to from the beginning. If end is unspecified, the subarray contains all elements from begin to the end of the TypedArray. The range specified by the begin and end values is clamped to the valid index range for the current array. If the computed length of the new TypedArray would be negative, it is clamped to zero. The returned TypedArray will be of the same type as the array on which this method is invoked.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/br212914(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+```
+
+## Remarks
+
+If either begin or end is negative, it refers to an index from the end of the array, as opposed to from the beginning. If end is unspecified, the subarray contains all elements from begin to the end of the TypedArray. The range specified by the begin and end values is clamped to the valid index range for the current array. If the computed length of the new TypedArray would be negative, it is clamped to zero. The returned TypedArray will be of the same type as the array on which this method is invoked.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212914(v=vs.94).aspx)
+

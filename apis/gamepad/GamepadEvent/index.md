@@ -1,51 +1,40 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|This object provides access to event data for this gamepad.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Gamepad Specification
-|URL=https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Gamepad}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: GamepadEvent
+tags:
+  0: API
+  1: Objects
+  3: Gamepad
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'This object provides access to event data for this gamepad.'
+uri: apis/gamepad/GamepadEvent
+
+---
+# GamepadEvent
+
+## Summary
+
+This object provides access to event data for this gamepad.
+
+## Properties
+
+API Name
+:   Summary
+[gamepad](/apis/gamepad/GamepadEvent/gamepad)
+:   Provides access to the associated gamepad data for this event.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Gamepad Specification](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html)
+:   W3C Working Draft
+

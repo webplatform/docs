@@ -1,67 +1,80 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Moves a table row to a new position.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=indexFrom
-|Data type=Number
-|Description='''Integer''' that specifies the index in the [[dom/HTMLElement/rows|'''rows''']] collection of the table row that is moved. -1 Default.
-|Optional=No
-}}{{Method Parameter
-|Name=indexTo
-|Data type=Number
-|Description='''Integer''' that specifies where the row is moved within the [[dom/HTMLElement/rows|'''rows''']] collection. -1 Default.
-|Optional=No
-}}
-|Method_applies_to=dom/Window
-|Example_object_name=oTable
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example uses the '''moveRow''' method to exchange the first and second rows in a table when the user clicks a button.
-|Code=&lt;script type{{=}}"text/javascript&gt;
+---
+title: moveRow
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: Non-Standard
+summary: 'Moves a table row to a new position.'
+uri: dom/Window/moveRow
+
+---
+# moveRow
+
+## Summary
+
+Moves a table row to a new position.
+
+*Method of [dom/Window](/dom/Window)*
+
+## Syntax
+
+``` {.js}
+ oTable.moveRow(/* see parameter list */);
+```
+
+## Parameters
+
+### indexFrom
+
+ Data-type�
+:   Number
+
+**Integer** that specifies the index in the [**rows**](/dom/HTMLElement/rows) collection of the table row that is moved. -1 Default.
+
+### indexTo
+
+ Data-type�
+:   Number
+
+**Integer** that specifies where the row is moved within the [**rows**](/dom/HTMLElement/rows) collection. -1 Default.
+
+## Return Value
+
+No return value
+
+## Examples
+
+This example uses the **moveRow** method to exchange the first and second rows in a table when the user clicks a button.
+
+``` {.js}
+<script type="text/javascript>
 function fnMove(){
    oTable.moveRow(0,1);
 }
-&lt;/script&gt;
-&lt;input type{{=}}"button" value{{=}}"Change Rows" onclick{{=}}"fnMove()"&gt;
-&lt;table id{{=}}"oTable"&gt;
-&lt;tr&gt;&lt;td&gt;Cell 1, Row 1&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Cell 1, Row 2&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-}}
-}}
-{{Notes_Section
-|Usage=Use to re-order rows of tabula data.
-|Notes====Remarks===
-Rows between the ''indexFrom'' and ''indexTo'' positions in the [[dom/HTMLElement/rows|'''rows''']] collection are shifted based on the direction the row moves.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536622(v=vs.85).aspx moveRow Method]
-|HTML5Rocks_link=
-}}
+</script>
+<input type="button" value="Change Rows" onclick="fnMove()">
+<table id="oTable">
+<tr><td>Cell 1, Row 1</td></tr>
+<tr><td>Cell 1, Row 2</td></tr>
+</table>
+```
+
+## Usage
+
+     Use to re-order rows of tabula data.
+
+## Notes
+
+### Remarks
+
+Rows between the *indexFrom* and *indexTo* positions in the [**rows**](/dom/HTMLElement/rows) collection are shifted based on the direction the row moves.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[moveRow Method](http://msdn.microsoft.com/en-us/library/ie/ms536622(v=vs.85).aspx) Article]
+

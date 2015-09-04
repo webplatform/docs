@@ -1,75 +1,90 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=General cleanup, compatibility
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections
-|Content=Incomplete, Compatibility Incomplete
-}}
-{{Standardization_Status|Deprecated}}
-{{API_Name}}
-{{Summary_Section|Deprecated event for detecting when a key was pressed on the keyboard.}}
-{{Event
-|Event_applies_to=dom/KeyboardEvent
-|Synchronous=Yes
-|Bubbles=Yes
-|Target=[[dom/Element]], [[dom/Document]]
-|Cancelable=Yes
-|Default_action=Varies: launch text composition system; blur and focus events; DOMActivate event; other event
-|Content=This event used to be used to detect when a key value was inserted into the DOM. Developers should use beforeInput, keyup, or keydown events depending on the task instead of this event.
+---
+title: keypress
+tags:
+  - Events
+  - DOM
+  - DOMEvents
+readiness: 'Almost Ready'
+standardization_status: Deprecated
+notes:
+  - 'General cleanup, compatibility'
+summary: 'Deprecated event for detecting when a key was pressed on the keyboard.'
+code_samples:
+  - 'http://gist.github.com/8631904'
+uri: dom/KeyboardEvent/keypress
 
-=== Context information ===
-;<code>Event.target</code>
-: focused element which triggered the key event. This will be the root element if no suitable input element is focused.
-;<code>KeyboardEvent.charCode</code>
-: legacy character code value for the event
-;<code>KeyboardEvent.keyCode</code>
-: legacy numerical code for the key pressed
-;<code>KeyboardEvent.which</code>
-: legacy numerical code for the key pressed
-;<code>KeyboardEvent.key</code>
-: The key value of the key pressed
-; <code>KeybaordEvent.location</code>
-: The location of the key on the device
-; <code>KeyboardEvent.altKey</code>
-: true if 'Alt' modifier was active, otherwise false
-; <code>KeyboardEvent.shiftKey</code>
-: true if 'Shift' modifier was active, otherwise false
-; <code>KeyboardEvent.ctrlKey</code>
-: true if 'Control' modifier was active, otherwise false
-; <code>KeyboardEvent.metaKey</code>
-: true if 'Meta' modifier was active, otherwise false
-; <code>KeyboardEvent.repeat</code>
-: true if a key has been depressed long enough to trigger key repetition, otherwise false.
-|Default Action=Varies: launch text composition system; blur and focus events; DOMActivate event; other event
-|Interface=dom/KeyboardEvent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;title&gt;Keypress event demonstration&lt;/title&gt;
-    &lt;style&gt;
+---
+# keypress
+
+## Summary
+
+Deprecated event for detecting when a key was pressed on the keyboard.
+
+## Overview Table
+
+Synchronous
+:   Yes
+Bubbles
+:   Yes
+Target
+:   [dom/Element](/dom/Element), [dom/Document](/dom/Document)
+Cancelable
+:   Yes
+Default action
+:   Varies: launch text composition system; blur and focus events; DOMActivate event; other event
+
+This event used to be used to detect when a key value was inserted into the DOM. Developers should use beforeInput, keyup, or keydown events depending on the task instead of this event.
+
+### Context information
+
+`Event.target`
+:   focused element which triggered the key event. This will be the root element if no suitable input element is focused.
+`KeyboardEvent.charCode`
+:   legacy character code value for the event
+`KeyboardEvent.keyCode`
+:   legacy numerical code for the key pressed
+`KeyboardEvent.which`
+:   legacy numerical code for the key pressed
+`KeyboardEvent.key`
+:   The key value of the key pressed
+ `KeybaordEvent.location`
+:   The location of the key on the device
+ `KeyboardEvent.altKey`
+:   true if 'Alt' modifier was active, otherwise false
+ `KeyboardEvent.shiftKey`
+:   true if 'Shift' modifier was active, otherwise false
+ `KeyboardEvent.ctrlKey`
+:   true if 'Control' modifier was active, otherwise false
+ `KeyboardEvent.metaKey`
+:   true if 'Meta' modifier was active, otherwise false
+ `KeyboardEvent.repeat`
+:   true if a key has been depressed long enough to trigger key repetition, otherwise false.
+
+## Examples
+
+``` {.js}
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Keypress event demonstration</title>
+    <style>
         // this styling only exists so things look better on code.webplatform.org
         form {
             padding-top: 30px;
         }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;form&gt;
-        &lt;label for=&quot;keypress&quot;&gt;Keypress&lt;/label&gt;
-        &lt;input name=&quot;keypress&quot;/&gt;
-    &lt;/form&gt;
-    &lt;div id=&quot;target&quot;&gt;
-        &lt;p&gt;The last key code you entered for keypress is: &lt;span id=&quot;keypressEcho&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-    &lt;/div&gt;
+    </style>
+</head>
+<body>
+    <form>
+        <label for="keypress">Keypress</label>
+        <input name="keypress"/>
+    </form>
+    <div id="target">
+        <p>The last key code you entered for keypress is: <span id="keypressEcho"></span></p>
+    </div>
 
-    &lt;script&gt;
+    <script>
     // Getting the target elements from the DOM that we would like to mess with.
     var keypressInput = document.getElementsByName('keypress')[0];
     var keypressTarget = document.getElementById('keypressEcho');
@@ -81,42 +96,31 @@
         // Log the key event as well.
         console.log(e.which);
     });
-    &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://code.webplatform.org/gist/8631904
-}}
-}}
-{{Notes_Section
-|Usage====Related event order===
-# keydown
-# beforeInput
-# keypress
-# input
-# keyup
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Firefox
-|Note=Firefox is the only browser which currently triggers the keypress event on the use of [http://www.w3.org/TR/DOM-Level-3-Events/#keys-editing editing keys].
-}}
-}}
-{{See_Also_Section
-|Manual_links=*<code>[[dom/KeyboardEvent/keydown|onkeydown]]</code>
-*<code>[[dom/KeyboardEvent/keyup|onkeyup]]</code>
-|External_links=*[http://www.w3.org/TR/DOM-Level-3-Events/#event-type-keypress DOM Level 3 Events]
-}}
-{{Topics|DOM, DOMEvents}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+    </script>
+</body>
+</html>
+```
+
+[View live example](http://code.webplatform.org/gist/8631904)
+
+## Usage
+
+     ===Related event order===
+
+1.  keydown
+2.  beforeInput
+3.  keypress
+4.  input
+5.  keyup
+
+## See also
+
+### Other articles
+
+-   `onkeydown`
+-   `onkeyup`
+
+### External resources
+
+-   [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/#event-type-keypress)
+

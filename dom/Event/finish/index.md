@@ -1,96 +1,102 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Event
-|Event_applies_to=dom/Event
-|Synchronous=No
-|Bubbles=No
-|Target=dom/Element
-|Cancelable=No
-|Interface=dom/Event
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The example uses the '''srcElement''' property of the event object to determine which marquee has fired the '''onfinish''' event.
-|Code=&lt;body&gt;
-&lt;label&gt;mqLooper1&lt;/label&gt;
-&lt;marquee id{{=}}"mqLooper1" loop{{=}}"2" 
-    onfinish{{=}}"alert(event.srcElement.id + ' finished looping.')"&gt; 
-this marquee loops twice &lt;/marquee&gt; 
-&lt;hr&gt;
-&lt;label&gt;mqLooper2&lt;/label&gt;
-&lt;marquee id{{=}}"mqLooper2" loop{{=}}"5" 
-onfinish{{=}}"alert(event.srcElement.id + ' finished looping.')"&gt; 
-this marquee loops five times &lt;/marquee&gt;
-&lt;/body&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onfinishEX.htm
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-A value greater than 1 and less than infinity must be set on the [[html/attributes/loop|'''LOOP''']] attribute for this event to fire.
-Marquee ceases to loop.
-To invoke this event, do one of the following:
-*Specify a value for the [[html/attributes/loop|'''LOOP''']] attribute of the '''marquee''' object.
+---
+title: finish
+tags:
+  - Events
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onfinishEX.htm'
+uri: dom/Event/finish
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*'''HTMLAnchorEvents2'''
-*'''HTMLAreaEvents2'''
-*'''HTMLButtonElementEvents2'''
-*'''HTMLControlElementEvents2'''
-*'''HTMLDocumentEvents2'''
-*'''HTMLElementEvents2'''
-*'''HTMLFormElementEvents2'''
-*'''HTMLImgEvents2'''
-*'''HTMLFrameSiteEvents2'''
-*'''HTMLInputFileElementEvents2'''
-*'''HTMLInputImageEvents2'''
-*'''HTMLInputTextElementEvents2'''
-*'''HTMLLabelEvents2'''
-*'''HTMLLinkElementEvents2'''
-*'''HTMLMapEvents2'''
-*'''HTMLMarqueeElementEvents2'''
-*'''HTMLObjectElementEvents2'''
-*'''HTMLOptionButtonElementEvents2'''
-*'''HTMLScriptEvents2'''
-*'''HTMLSelectElementEvents2'''
-*'''HTMLStyleElementEvents2'''
-*'''HTMLTableEvents2'''
-*'''HTMLTextContainerEvents2'''
-*'''HTMLWindowEvents2'''
-|Import_Notes====Syntax===
-===Standards information===
+---
+# finish
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:    ?
+
+## Examples
+
+The example uses the **srcElement** property of the event object to determine which marquee has fired the **onfinish** event.
+
+``` {.html}
+<body>
+<label>mqLooper1</label>
+<marquee id="mqLooper1" loop="2"
+    onfinish="alert(event.srcElement.id + ' finished looping.')">
+this marquee loops twice </marquee>
+<hr>
+<label>mqLooper2</label>
+<marquee id="mqLooper2" loop="5"
+onfinish="alert(event.srcElement.id + ' finished looping.')">
+this marquee loops five times </marquee>
+</body>
+```
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onfinishEX.htm)
+
+## Notes
+
+### Remarks
+
+A value greater than 1 and less than infinity must be set on the [**LOOP**](/html/attributes/loop) attribute for this event to fire. Marquee ceases to loop. To invoke this event, do one of the following:
+
+-   Specify a value for the [**LOOP**](/html/attributes/loop) attribute of the **marquee** object.
+
+The *pEvtObj* parameter is required for the following interfaces:
+
+-   **HTMLAnchorEvents2**
+-   **HTMLAreaEvents2**
+-   **HTMLButtonElementEvents2**
+-   **HTMLControlElementEvents2**
+-   **HTMLDocumentEvents2**
+-   **HTMLElementEvents2**
+-   **HTMLFormElementEvents2**
+-   **HTMLImgEvents2**
+-   **HTMLFrameSiteEvents2**
+-   **HTMLInputFileElementEvents2**
+-   **HTMLInputImageEvents2**
+-   **HTMLInputTextElementEvents2**
+-   **HTMLLabelEvents2**
+-   **HTMLLinkElementEvents2**
+-   **HTMLMapEvents2**
+-   **HTMLMarqueeElementEvents2**
+-   **HTMLObjectElementEvents2**
+-   **HTMLOptionButtonElementEvents2**
+-   **HTMLScriptEvents2**
+-   **HTMLSelectElementEvents2**
+-   **HTMLStyleElementEvents2**
+-   **HTMLTableEvents2**
+-   **HTMLTextContainerEvents2**
+-   **HTMLWindowEvents2**
+
+### Syntax
+
+### Standards information
+
 There are no standards that apply here.
 
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Event handler parameters
+
+*pEvtObj* [in]
+:   Type: ****IHTMLEventObj****
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

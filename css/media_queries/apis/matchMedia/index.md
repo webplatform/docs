@@ -1,62 +1,112 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add summery, example, specifications, compatibility.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=css/media_queries
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+---
+title: matchMedia
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Add summery, example, specifications, compatibility.'
+uri: 'css/media queries/apis/matchMedia'
+
+---
+# matchMedia
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [css/media\_queries](/css/media_queries)*
+
+## Syntax
+
+``` {.js}
+var object = object.matchMedia();
+```
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+Type: **HRESULT**
 
 This method can return one of these values.
 
-S_OK
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+S\_OK
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
 The following example creates a media query that checks whether the width or height of a window is less than a certain size.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199793 CSSOM View Module], Section 4
 
+### Syntax
 
-===Parameters===
-;''mediaQuery'' [in]:Type: '''DOMString'''
-;''retVal'' [out, retval]:Type: '''MediaQueryList'''
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Media Queries
-|Manual_sections====Related pages (MSDN)===
-*<code>Window</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Standards information
+
+-   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), Section 4
+
+### Parameters
+
+*mediaQuery* [in]
+:   Type: **DOMString**
+*retVal* [out, retval]
+:   Type: **MediaQueryList**
+
+## See also
+
+### Related articles
+
+#### Media Queries
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [\<resolution\>](/css/data_types/resolution)
+
+-   [accelerator](/css/media_queries/accelerator)
+
+-   [MediaQueryList](/css/media_queries/apis/MediaQueryList)
+
+-   [MediaQueryListListener](/css/media_queries/apis/MediaQueryListListener)
+
+-   [StyleMedia](/css/media_queries/apis/StyleMedia)
+
+-   [addListener](/css/media_queries/apis/addListener)
+
+-   [handleChange](/css/media_queries/apis/handleChange)
+
+-   **matchMedia**
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [matches](/css/media_queries/apis/matches)
+
+-   [media](/css/media_queries/apis/media)
+
+-   [type](/css/media_queries/apis/properties/type)
+
+-   [removeListener](/css/media_queries/apis/removeListener)
+
+-   [Colors by](/css/media_queries/colors_by)
+
+-   [device-height](/css/media_queries/device-height)
+
+-   [filter](/css/media_queries/filter)
+
+-   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
+
+-   [behavior](/css/properties/behavior)
+
+-   [Targeting styles with media queries](/tutorials/media_queries)
+
+### Related pages (MSDN)
+
+-   `Window`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

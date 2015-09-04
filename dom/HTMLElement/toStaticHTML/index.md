@@ -1,92 +1,101 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=summary, clean-up MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=bstrHTML
-|Data type=BSTR
-|Description=An HTML fragment.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=pbstrStaticHTML
-|Data type=BSTR
-|Description=An HTML fragment consisting of static elements only.
-|Optional=No
-}}
-|Method_applies_to=dom/HTMLElement
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=Type: '''HRESULT'''
+---
+title: toStaticHTML
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'summary, clean-up MSDN import'
+uri: dom/HTMLElement/toStaticHTML
 
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
+---
+# toStaticHTML
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [dom/HTMLElement](/dom/HTMLElement)*
+
+## Syntax
+
+``` {.js}
+var object = object.toStaticHTML(bstrHTML, pbstrStaticHTML);
+```
+
+## Parameters
+
+### bstrHTML
+
+ Data-type�
+:   BSTR
+
+ An HTML fragment.
+
+### pbstrStaticHTML
+
+ Data-type�
+:   BSTR
+
+ An HTML fragment consisting of static elements only.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+Type: **HRESULT**
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
 String
 
 An HTML fragment consisting of static elements only.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following script demonstrates how '''toStaticHTML''' sanitizes script and dynamic HTML attributes. The result of the operation is: <code>&lt;span&gt;Click Me&lt;/span&gt;</code>.
-|Code=&lt;script type{{=}}"text/javascript"&gt;
-function sanitize() 
-{
-    var szInput {{=}} myDiv.innerHTML;
-    var szStaticHTML {{=}} toStaticHTML(szInput);
-    ResultComment {{=}} "\ntoStaticHTML sanitized the HTML fragment as follows:\n"
-        + "Original Content:\n" + szInput + "\n"
-        + "Static Content:\n" + szStaticHTML + "\n";
-    myDiv.innerText {{=}} ResultComment;
-}
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body onload{{=}}"sanitize()"&gt;
-    &lt;div id{{=}}"myDiv"&gt;
-    &lt;script&gt;function test() { alert("Testing, Testing, 123..."); }&lt;/script&gt;
-    &lt;span onclick{{=}}"test()"&gt;Click Me&lt;/span&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The '''toStaticHTML''' method can be used to remove event attributes and script from user input before it is displayed as HTML. Malicious HTML can be passed on a URL, in form parameters, or across domains by '''XDomainRequest''' or [[dom/Window/postMessage|'''postMessage''']]. Always validate user input before adding it as an HTML fragment to a webpage or storing it in a database.
-'''Note'''   This method does not filter the attributes of the '''base''' element. This can cause potentially unwanted redirect requests for '''link''' and [[html/elements/a|'''anchor''']] elements injected into a webpage. For best results, only use '''toStaticHTML''' to modify elements in the body of a webpage.
-|Import_Notes====Syntax===
-===Standards information===
+
+## Examples
+
+The following script demonstrates how **toStaticHTML** sanitizes script and dynamic HTML attributes. The result of the operation is: `<span>Click Me</span>`.
+
+    <script type="text/javascript">
+    function sanitize()
+    {
+        var szInput = myDiv.innerHTML;
+        var szStaticHTML = toStaticHTML(szInput);
+        ResultComment = "\ntoStaticHTML sanitized the HTML fragment as follows:\n"
+            + "Original Content:\n" + szInput + "\n"
+            + "Static Content:\n" + szStaticHTML + "\n";
+        myDiv.innerText = ResultComment;
+    }
+    </script>
+    </head>
+    <body onload="sanitize()">
+        <div id="myDiv">
+        <script>function test() { alert("Testing, Testing, 123..."); }</script>
+        <span onclick="test()">Click Me</span>
+        </div>
+    </body>
+
+## Notes
+
+### Remarks
+
+The **toStaticHTML** method can be used to remove event attributes and script from user input before it is displayed as HTML. Malicious HTML can be passed on a URL, in form parameters, or across domains by **XDomainRequest** or [**postMessage**](/dom/Window/postMessage). Always validate user input before adding it as an HTML fragment to a webpage or storing it in a database. **Note**   This method does not filter the attributes of the **base** element. This can cause potentially unwanted redirect requests for **link** and [**anchor**](/html/elements/a) elements injected into a webpage. For best results, only use **toStaticHTML** to modify elements in the body of a webpage.
+
+### Syntax
+
+### Standards information
+
 There are no standards that apply here.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>window</code>
-*<code>[[dom/HTMLElement/innerHTML|innerHTML]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+## See also
+
+### Related pages (MSDN)
+
+-   `window`
+-   `innerHTML`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,44 +1,41 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: limitingConeAngle
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/limitingConeAngle
 
-===Remarks===
+---
+# limitingConeAngle
+
+## Notes
+
+### Remarks
 
 No light is projected outside the cone.
 
-The '''limitingConeAngle''' attribute represents the angle in degrees between the spot light axis (that is, the axis between the light source and the point to which it is pointing at) and the spot light cone. An anti-aliasing technique is applied at the boundary of the cone.
+The **limitingConeAngle** attribute represents the angle in degrees between the spot light axis (that is, the axis between the light source and the point to which it is pointing at) and the spot light cone. An anti-aliasing technique is applied at the boundary of the cone.
 
-If no value is specified for the '''limitingConeAngle''' attribute, then no limiting cone will be applied.
-|Import_Notes=
+If no value is specified for the **limitingConeAngle** attribute, then no limiting cone will be applied.
 
-===Syntax===
+### Syntax
 
-===Standards information===
+### Standards information
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.16
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.16
 
-}}
-{{See_Also_Section
-|Manual_sections=
+## See also
 
-===Related pages (MSDN)===
+### Related pages (MSDN)
 
-*[[svg/elements/feSpotlight|'''SVGFESpotLightElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+-   [**SVGFESpotLightElement**](/svg/elements/feSpotlight)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,97 +1,101 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=example, standards, compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Initializes a new cross-document message (XDM) event  that the  [[dom/Document/createEvent|'''createEvent''']] method created.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=eventType
-|Data type=String
-|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=canBubble
-|Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
-|Optional=No
-}}{{Method Parameter
-|Index=2
-|Name=cancelable
-|Data type=Boolean
-|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
-|Optional=No
-}}{{Method Parameter
-|Index=3
-|Name=data
-|Data type=any
-|Description=The cross-document message. Sets the value for the [[dom/MessageEvent/data|'''data''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=4
-|Name=origin
-|Data type=String
-|Description=The originating domain of the message. Sets the value for the [[dom/MessageEvent/origin|'''origin''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=5
-|Name=lastEventId
-|Data type=String
-|Description=Not used. Set this parameter to an empty string.
-|Optional=No
-}}{{Method Parameter
-|Index=6
-|Name=source
-|Data type=Object
-|Description=A reference to the '''window''' that generated the event. Sets the value for the [[dom/MessageEvent/source|'''source''']] property.
-|Optional=No
-}}
-|Method_applies_to=dom/MessageEvent
-|Example_object_name=event
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 6.1
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/
-|Status=Living Standard
-|Relevant_changes=Section 6.1
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9
-|Note=The ''lastEventId'' parameter emulates server-initiated messages, which are unsupported.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: initMessageEvent
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'example, standards, compatibility'
+summary: 'Initializes a new cross-document message (XDM) event  that the  createEvent method created.'
+uri: dom/MessageEvent/initMessageEvent
+
+---
+# initMessageEvent
+
+## Summary
+
+Initializes a new cross-document message (XDM) event that the createEvent method created.
+
+*Method of [dom/MessageEvent](/dom/MessageEvent)*
+
+## Syntax
+
+``` {.js}
+ event.initMessageEvent(eventType, canBubble, cancelable, data, origin, lastEventId, source);
+```
+
+## Parameters
+
+### eventType
+
+ Data-typeÂ
+:   String
+
+ The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
+
+### canBubble
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
+
+### cancelable
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
+
+### data
+
+ Data-typeÂ
+:   any
+
+ The cross-document message. Sets the value for the [**data**](/dom/MessageEvent/data) property.
+
+### origin
+
+ Data-typeÂ
+:   String
+
+ The originating domain of the message. Sets the value for the [**origin**](/dom/MessageEvent/origin) property.
+
+### lastEventId
+
+ Data-typeÂ
+:   String
+
+ Not used. Set this parameter to an empty string.
+
+### source
+
+ Data-typeÂ
+:   Object
+
+ A reference to the **window** that generated the event. Sets the value for the [**source**](/dom/MessageEvent/source) property.
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5](http://www.w3.org/TR/html5/)
+:   Working Draft
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

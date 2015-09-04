@@ -1,59 +1,60 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Retrieves a collection of all cells in the table row or in the entire table.}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example uses the '''cellspacing''' attribute and the '''cellSpacing''' property to change the spacing between two cells.
-|Code=&lt;table id{{=}}"oTable" border="0" cellspacing{{=}}"10"&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Cell 1&lt;/td&gt;
-        &lt;td&gt;Cell 2&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-:
-&lt;button onclick{{=}}"oTable.cellSpacing{{=}}20"&gt;Larger spacing&lt;/button&gt;
-&lt;button onclick{{=}}"oTable.cellSpacing{{=}}5"&gt;Smaller spacing&lt;/button&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cellSpacing.htm
-}}
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 2.5.5
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}25320 HTML 4.01 Specification], Section 11.3.3
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/table|table]]</code>
-*<code>[[html/attributes/cellPadding|cellPadding]]</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: cells
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+summary: 'Retrieves a collection of all cells in the table row or in the entire table.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cellSpacing.htm'
+uri: html/attributes/cells
+
+---
+# cells
+
+## Summary
+
+Retrieves a collection of all cells in the table row or in the entire table.
+
+Applies to
+:    ?
+
+## Examples
+
+This example uses the **cellspacing** attribute and the **cellSpacing** property to change the spacing between two cells.
+
+    <table id="oTable" border="0" cellspacing="10">
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+    </table>
+    :
+    <button onclick="oTable.cellSpacing=20">Larger spacing</button>
+    <button onclick="oTable.cellSpacing=5">Smaller spacing</button>
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cellSpacing.htm)
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
+-   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 11.3.3
+
+## See also
+
+### Related pages (MSDN)
+
+-   `table`
+-   `cellPadding`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

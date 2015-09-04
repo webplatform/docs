@@ -1,38 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=[[apis/media_capture_and_streams/MediaStreamTrack]]
-}}
-|Checked_Out=No
-|High-level issues=Merge Candidate, Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|A MediaStreamTrack is one of two kinds, audio or video, and represents the media source, such as a camera.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=apis/webrtc/objects/MediaStream
-}}
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: MediaStreamTrack
+tags:
+  0: API
+  1: Objects
+  3: WebRTC
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[apis/media_capture_and_streams/MediaStreamTrack]] \n\n"
+summary: 'A MediaStreamTrack is one of two kinds, audio or video, and represents the media source, such as a camera.'
+uri: apis/webrtc/MediaStreamTrack
+
+---
+# MediaStreamTrack
+
+## Summary
+
+A MediaStreamTrack is one of two kinds, audio or video, and represents the media source, such as a camera.
+
+## Properties
+
+API Name
+:   Summary
+[enabled](/apis/webrtc/MediaStreamTrack/enabled)
+:   True if the track is still associated with its source.
+[kind](/apis/webrtc/MediaStreamTrack/kind)
+:   The value, either **audio** or **video** for the source of the track.
+[label](/apis/webrtc/MediaStreamTrack/label)
+:   A user agent-assigned string that identifies the track source, as in "internal microphone."
+[onended](/apis/webrtc/MediaStreamTrack/onended)
+:   Handles the ended event when fired on the MediaStream object.
+[onmute](/apis/webrtc/MediaStreamTrack/onmute)
+:   Handles the muted event when fired on the MediaStream object.
+[readyState](/apis/webrtc/MediaStreamTrack/readyState)
+:   The track's ready state; values.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+API Name
+:   Summary
+[ended](/apis/webrtc/MediaStreamTrack/ended)
+:   The MediaStreamTrack object's source will not provide data; this may be caused by the following:
+    -   the user has revoked permissions on the application
+    -   the source device has been disconnected
+    -   the remote peer has stopped sending data
+    -   the stop() method was invoked
+
+[muted](/apis/webrtc/MediaStreamTrack/muted)
+:   The MediaStreamTrack object's source is temporarily unable to provide data.
+[unmuted](/apis/webrtc/MediaStreamTrack/unmuted)
+:   The MediaStreamTrack object's source has resumed providing data.
+
+**Needs Examples**: This section should include examples.
+

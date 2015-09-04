@@ -1,58 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Out of Date
-|Editorial notes=Deprecated; deletion candidate. See http://webaudio.github.io/web-audio-api/.
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|An [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] containing the input audio data. It will have a number of channels equal to the '''numberOfInputChannels''' parameter of the [[apis/webaudio/AudioContext/createScriptProcessor|'''createScriptProcessor()''']] method. This [[apis/webaudio/AudioBuffer|'''AudioBuffer''']] is only valid while in the scope of the [[apis/webaudio/ScriptProcessorNode/onaudioprocess|'''onaudioprocess''']] function. Its values will be meaningless outside of this scope.
+---
+title: inputBuffer
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: WebAudio
+readiness: 'Out of Date'
+standardization_status: 'W3C Editor''s Draft'
+notes:
+  - 'Deprecated; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
+summary: "An AudioBuffer containing the input audio data. It will have a number of channels equal to the numberOfInputChannels parameter of the createScriptProcessor() method. This AudioBuffer is only valid while in the scope of the onaudioprocess function. Its values will be meaningless outside of this scope.\n"
+uri: apis/webaudio/AudioProcessingEvent/inputBuffer
 
-'''Deprecated; deletion candidate. See [http://webaudio.github.io/web-audio-api/ http://webaudio.github.io/web-audio-api/].'''
-}}
-{{API_Object_Property
-|Property_applies_to=apis/webaudio/AudioProcessingEvent
-|Read_only=Yes
-|Example_object_name=AudioProcessingEvent
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+# inputBuffer
+
+## Summary
+
+An AudioBuffer containing the input audio data. It will have a number of channels equal to the numberOfInputChannels parameter of the createScriptProcessor() method. This AudioBuffer is only valid while in the scope of the onaudioprocess function. Its values will be meaningless outside of this scope.
+
+**Deprecated; deletion candidate. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = AudioProcessingEvent.inputBuffer;
+```
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

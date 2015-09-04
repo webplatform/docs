@@ -1,39 +1,38 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs spec reference, standardization status, example
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|Indicates whether the rules in author styles associated with the element's document apply to the shadow tree. If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.}}
-{{API_Object_Property
-|Property_applies_to=dom/shadowdom/ShadowRoot
-|Read_only=No
-|Javascript_data_type=Boolean
-|Return_value_description=If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, DOM, Shadow DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: applyAuthorStyles
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: DOM
+  5: Shadow
+readiness: 'In Progress'
+notes:
+  - 'Needs spec reference, standardization status, example'
+summary: 'Indicates whether the rules in author styles associated with the element''s document apply to the shadow tree. If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.'
+uri: dom/shadowdom/ShadowRoot/applyAuthorStyles
+
+---
+# applyAuthorStyles
+
+## Summary
+
+Indicates whether the rules in author styles associated with the element's document apply to the shadow tree. If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.applyAuthorStyles;
+element.applyAuthorStyles = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+
+If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.
+
+**Needs Examples**: This section should include examples.
+

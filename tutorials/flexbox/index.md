@@ -1,46 +1,17 @@
-{{Page_Title|Using flex for page layout}}
-{{Flags
-|State=Not Ready
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Byline
-|Name=
-|URL=
-|Published=
-}}
-{{Summary_Section|'''[[css/properties/flex|flex]]''', also known as "flexbox", is a new layout mode in CSS3 designed for laying out complex applications and web pages and fill the gaps that developers used "block" layout’s '''[[css/properties/float|float]]''' property for.}}
-{{Tutorial
-|Next_page=
-|Prev_page=
-|Content=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS, Flexbox}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility
-|topic=css
-|feature=flex
-}}
+---
+title: flexbox
+tags:
+  - Tutorials
+  - CSS
+  - Flexbox
+readiness: 'Not Ready'
+summary: 'flex, also known as "flexbox", is a new layout mode in CSS3 designed for laying out complex applications and web pages and fill the gaps that developers used "block" layout’s float property for.'
+uri: tutorials/flexbox
+
+---
+# Using flex for page layout
+
+## Summary
+
+flex, also known as "flexbox", is a new layout mode in CSS3 designed for laying out complex applications and web pages and fill the gaps that developers used "block" layout’s float property for.
+

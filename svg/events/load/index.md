@@ -1,92 +1,94 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Event
-|Event_applies_to=dom/Element
-|Synchronous=No
-|Bubbles=No
-|Target=dom/Element
-|Cancelable=No
-|Interface=dom/objects/Event
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: load
+tags:
+  - Events
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+uri: svg/events/load
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/objects/Event
 
-The '''onload'''  event  occurs  when the browser has fully parsed the element and its descendants and is ready to act appropriately on that element, such as rendering  the element to the target device. Before the event occurs, the browser must have loaded, parsed, and prepared referenced external resources  for  rendering. Optional external resources are not required to be ready for the event to occur.
+---
+# load
 
-The object  that  the event is specified for is loaded.
-To invoke this event, do one of the following:
-*A user opens a page in the browser to  fire  this event for the document or any object within it.
-|Import_Notes====Syntax===
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-===Standards information===
+## Overview Table
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204745 Scalable Vector Graphics: Scripting], Section 18.4.2
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:    ?
 
-===Event handler parameters===
+**Needs Examples**: This section should include examples.
 
-;''pEvt'' [in]:Type: '''IDOMUIEvent'''The [[dom/objects/Event|'''IDOMEvent''']] object.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+## Notes
 
-*[[svg/elements/a|'''SVGAElement''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/clipPath|'''SVGClipPathElement''']]
-*[[svg/elements/defs|'''SVGDefsElement''']]
-*[[svg/elements/desc|'''SVGDescElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/elements/g|'''SVGGElement''']]
-*[[svg/elements/gradient|'''SVGGradientElement''']]
-*[[svg/elements/image|'''SVGImageElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/marker|'''SVGMarkerElement''']]
-*[[svg/elements/mask|'''SVGMaskElement''']]
-*[[svg/elements/metadata|'''SVGMetadataElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/patterrn|'''SVGPatternElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/script|'''SVGScriptElement''']]
-*[[svg/elements/stop|'''SVGStopElement''']]
-*[[svg/elements/style|'''SVGStyleElement''']]
-*[[svg/elements/svg|'''SVGSVGElement''']]
-*[[svg/elements/switch|'''SVGSwitchElement''']]
-*[[svg/elements/symbol|'''SVGSymbolElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-*[[svg/elements/use|'''SVGUseElement''']]
-*[[svg/elements/view|'''SVGViewElement''']]
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Remarks
+
+The **onload** event occurs when the browser has fully parsed the element and its descendants and is ready to act appropriately on that element, such as rendering the element to the target device. Before the event occurs, the browser must have loaded, parsed, and prepared referenced external resources for rendering. Optional external resources are not required to be ready for the event to occur.
+
+The object that the event is specified for is loaded. To invoke this event, do one of the following:
+
+-   A user opens a page in the browser to fire this event for the document or any object within it.
+
+### Syntax
+
+### Standards information
+
+-   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.4.2
+
+### Event handler parameters
+
+*pEvt* [in]
+:   Type: **IDOMUIEvent**The [**IDOMEvent**](/w/index.php?title=dom/objects/Event&action=edit&redlink=1) object.
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGAElement**](/svg/elements/a)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGClipPathElement**](/svg/elements/clipPath)
+-   [**SVGDefsElement**](/svg/elements/defs)
+-   [**SVGDescElement**](/svg/elements/desc)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   [**SVGGElement**](/svg/elements/g)
+-   [**SVGGradientElement**](/svg/elements/gradient)
+-   [**SVGImageElement**](/svg/elements/image)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGMarkerElement**](/svg/elements/marker)
+-   [**SVGMaskElement**](/svg/elements/mask)
+-   [**SVGMetadataElement**](/svg/elements/metadata)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGPatternElement**](/svg/elements/patterrn)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGScriptElement**](/svg/elements/script)
+-   [**SVGStopElement**](/svg/elements/stop)
+-   [**SVGStyleElement**](/svg/elements/style)
+-   [**SVGSVGElement**](/svg/elements/svg)
+-   [**SVGSwitchElement**](/svg/elements/switch)
+-   [**SVGSymbolElement**](/svg/elements/symbol)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+-   [**SVGUseElement**](/svg/elements/use)
+-   [**SVGViewElement**](/svg/elements/view)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

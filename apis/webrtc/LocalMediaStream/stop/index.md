@@ -1,39 +1,35 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, spec reference
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Permanently halts the generation of data for the tracks' sources and removes the references to the sources.}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=apis/webrtc/LocalMediaStream
-|Example_object_name=localStream
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: stop
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: WebRTC
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs example, spec reference'
+summary: 'Permanently halts the generation of data for the tracks'' sources and removes the references to the sources.'
+uri: apis/webrtc/LocalMediaStream/stop
+
+---
+# stop
+
+## Summary
+
+Permanently halts the generation of data for the tracks' sources and removes the references to the sources.
+
+*Method of [apis/webrtc/LocalMediaStream](/apis/webrtc/LocalMediaStream)*
+
+## Syntax
+
+``` {.js}
+ localStream.stop();
+```
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+

@@ -1,76 +1,84 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=This property seems to have been deprecated.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The <code>marquee-speed</code> determines how fast the marquee content scrolls.}}
-{{CSS Property
-|Initial value=normal
-|Applies to=non-replaced block-level elements and non-replaced ’inline-block’ elements
-|Inherited=Yes
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=marqueeSpeed
-|CSS percentages=n/a
-|Values={{CSS Property Value
-|Data Type=slow
-|Description=slower than normal
-}}{{CSS Property Value
-|Data Type=normal
-|Description=faster than slow, slower than fast
-}}{{CSS Property Value
-|Data Type=fast
-|Description=faster than normal
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=A basic example on how to use marquee-speed.
-|Code=h1 {
-	overflow: auto; 
-	overflow-style: marquee-line;
-	white-space: nowrap;
-	width: 200px;
-	marquee-speed: fast;
+---
+title: marquee-speed
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'This property seems to have been deprecated.'
+summary: 'The marquee-speed determines how fast the marquee content scrolls.'
+code_samples:
+  - 'http://gist.github.com/6948165'
+uri: css/properties/marquee-speed
+
+---
+# marquee-speed
+
+## Summary
+
+The marquee-speed determines how fast the marquee content scrolls.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `normal`
+Applies to
+:   non-replaced block-level elements and non-replaced ’inline-block’ elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `marqueeSpeed`
+Percentages
+:   n/a
+
+## Syntax
+
+-   `marquee-speed: fast`
+-   `marquee-speed: normal`
+-   `marquee-speed: slow`
+
+## Values
+
+slow
+:   slower than normal
+
+normal
+:   faster than slow, slower than fast
+
+fast
+:   faster than normal
+
+## Examples
+
+A basic example on how to use marquee-speed.
+
+``` {.css}
+h1 {
+    overflow: auto;
+    overflow-style: marquee-line;
+    white-space: nowrap;
+    width: 200px;
+    marquee-speed: fast;
 }
-|LiveURL=http://code.webplatform.org/gist/6948165
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=The actual speed depends on the UA and the type of content.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Marquee Module Level 3
-|URL=http://www.w3.org/TR/css3-marquee/#marquee-speed
-|Status=Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/6948165)
+
+## Notes
+
+The actual speed depends on the UA and the type of content.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Marquee Module Level 3](http://www.w3.org/TR/css3-marquee/#marquee-speed)
+:   Candidate Recommendation
+

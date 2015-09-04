@@ -1,73 +1,82 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat table
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Creates a text node containing the passed string (nodeValue).}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=text
-|Data type=String
-|Description=The [[dom/Node/nodeValue|'''nodeValue''']] property of the text node.
-|Optional=No
-}}
-|Method_applies_to=dom/Document
-|Example_object_name=document
-|Return_value_name=textNode
-|Javascript_data_type=DOM Node
-|Return_value_description=The created TextNode.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=&lt;script&gt;
+---
+title: createTextNode
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs compat table'
+summary: 'Creates a text node containing the passed string (nodeValue).'
+uri: dom/Document/createTextNode
+
+---
+# createTextNode
+
+## Summary
+
+Creates a text node containing the passed string (nodeValue).
+
+*Method of [dom/Document](/dom/Document)*
+
+## Syntax
+
+``` {.js}
+var textNode = document.createTextNode(text);
+```
+
+## Parameters
+
+### text
+
+ Data-typeÂ
+:   String
+
+ The [**nodeValue**](/dom/Node/nodeValue) property of the text node.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+The created TextNode.
+
+## Examples
+
+``` {.html}
+<script>
 //create a text node and replace an existing node with the new one
 function changeNode() {
-   var textNode {{=}} document.createTextNode("New Text");
-   var replaceNode {{=}} document.getElementById("span").childNodes(0);
+   var textNode = document.createTextNode("New Text");
+   var replaceNode = document.getElementById("span").childNodes(0);
    replaceNode.replaceNode(textNode);
 }
-&lt;/script&gt;
-&lt;span id{{=}}"span" onclick{{=}}"changeNode()"&gt;
+</script>
+<span id="span" onclick="changeNode()">
 Original Text
-&lt;/span&gt;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-1975348127
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/Document/createElement|createElement]]</code>
-*<code>Conceptual</code>
-*<code>About the W3C Document Object Model</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+</span>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-1975348127)
+:   Recommendation
+
+## See also
+
+### Related pages (MSDN)
+
+-   `Reference`
+-   `createElement`
+-   `Conceptual`
+-   `About the W3C Document Object Model`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,53 +1,85 @@
-{{Page_Title|WebRTC API}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs more DataChannel API info
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Enables real-time communication across the web.}}
-{{API_Listing}}
-{{Concept_Listing
-|Query=[[Category:WebRTC]][[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Usage=The RTC in WebRTC stands for Real-Time Communications, technology that enables audio/video streaming and data sharing between browser clients (peers). As a set of standards, WebRTC provides any browser with the ability to share application data and perform teleconferencing peer to peer, without the need to install plug-ins or third-party software. 
+---
+title: webrtc
+tags:
+  0: API
+  1: Listings
+  3: WebRTC
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs more DataChannel API info'
+summary: 'Enables real-time communication across the web.'
+uri: apis/webrtc
+
+---
+# WebRTC API
+
+## Summary
+
+Enables real-time communication across the web.
+
+API Name
+:   Summary
+[LocalMediaStream](/apis/webrtc/LocalMediaStream)
+:   The LocalMediaStream object is the MediaStream object returned from the call to [getUserMedia()](/dom/Navigator/getUserMedia). It has all the properties and events of the MediaStream object and the stop method.
+[MediaStream](/apis/webrtc/MediaStream)
+:   The MediaStream interface of the **WebRTC** API describes a stream of audio or video data. A MediaStream object represents a linear, potentially infinite timeline. It is not preloadable, nor is it seekable.
+[MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
+:   A MediaStreamTrack is one of two kinds, audio or video, and represents the media source, such as a camera.
+[MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)
+:   A MediaStream has two MediaStreamTrackList objects, one for the video tracks and one for the audio tracks.
+[RTCDataChannel](/apis/webrtc/RTCDataChannel)
+:   Represents a bi-directional data channel between two peers.
+[RTCIceCandidate](/apis/webrtc/RTCIceCandidate)
+:
+[RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
+:   Provides for the connection between remote peers, the transmission of locally generated MediaStream data and arbitrary data between peers.
+[RTCSessionDescription](/apis/webrtc/RTCSessionDescription)
+:   Describes the session with a serialized Session Description Protocol object.
+
+## Usage
+
+     The RTC in WebRTC stands for Real-Time Communications, technology that enables audio/video streaming and data sharing between browser clients (peers). As a set of standards, WebRTC provides any browser with the ability to share application data and perform teleconferencing peer to peer, without the need to install plug-ins or third-party software.
 
 WebRTC components are accessed with JavaScript APIs. Currently in development are the Network Stream API, which represents an audio or video data stream, and the PeerConnection API, which allows two or more users to communicate browser-to-browser. Also under development is a DataChannel API that enables communication of other types of data for real-time gaming, text chat, file transfer, and so forth.
 
-==MediaStream API==
+## MediaStream API
 
-A [[apis/webrtc/MediaStream|MediaStream]] object is typically set as a simple URL string which can be used to reference data stored in a DOM File or Blob object with window.URL.createObjectURL(). The [[apis/webrtc/MediaStream|MediaStream]] object is further distinguished as either a [[apis/webrtc/MediaStreamTrack|MediaStreamTrack]] or a [[apis/webrtc/LocalMediaStream|LocalMediaStream]].
+A [MediaStream](/apis/webrtc/MediaStream) object is typically set as a simple URL string which can be used to reference data stored in a DOM File or Blob object with window.URL.createObjectURL(). The [MediaStream](/apis/webrtc/MediaStream) object is further distinguished as either a [MediaStreamTrack](/apis/webrtc/MediaStreamTrack) or a [LocalMediaStream](/apis/webrtc/LocalMediaStream).
 
-A [[apis/webrtc/MediaStream|MediaStream]] consists of zero or more [[apis/webrtc/MediaStreamTrack|MediaStreamTrack]] objects, which comprise one or more channels, and which are contained in a [[apis/webrtc/MediaStreamTrackList|MediaStreamTrackList]]. Each [[apis/webrtc/MediaStreamTrack|MediaStreamTrack]] may have one or more channels. The channel represents the smallest unit of a media stream, such as an audio signal.
+A [MediaStream](/apis/webrtc/MediaStream) consists of zero or more [MediaStreamTrack](/apis/webrtc/MediaStreamTrack) objects, which comprise one or more channels, and which are contained in a [MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList). Each [MediaStreamTrack](/apis/webrtc/MediaStreamTrack) may have one or more channels. The channel represents the smallest unit of a media stream, such as an audio signal.
 
-[[apis/webrtc/MediaStream|MediaStream]] objects have an input and an output. A [[apis/webrtc/LocalMediaStream|LocalMediaStream]] is a MediaStream object generated by [[dom/Navigator/getUserMedia|getUserMedia()]], and which has as its source input the user's camera or microphone. The output describes how the consumer uses the [[apis/webrtc/MediaStream|MediaStream]] object. The consumer is either of the media elements, <code><audio></code> or <code><video></code>, or the PeerConnection API.
+[MediaStream](/apis/webrtc/MediaStream) objects have an input and an output. A [LocalMediaStream](/apis/webrtc/LocalMediaStream) is a MediaStream object generated by [getUserMedia()](/dom/Navigator/getUserMedia), and which has as its source input the user's camera or microphone. The output describes how the consumer uses the [MediaStream](/apis/webrtc/MediaStream) object. The consumer is either of the media elements, `<audio>` or `<video>`, or the PeerConnection API.
 
-==PeerConnection API==
-The PeerConnection API, represented chiefly by the [[apis/webrtc/RTCPeerConnection|RTCPeerConnection]] object, provides for the exchange of [[apis/webrtc/MediaStream|MediaStream]] object data between browser instances (peers) across a secure channel. The process starts with signaling from one peer to others through a server. The signaling protocol is determined by the application, and once established, encapsulated in the [[apis/webrtc/RTCSessionDescription|RTCSessionDescription]] object.
+## PeerConnection API
 
-==DataChannel API==
-{{TODO|Add more information here.}}
-The DataChannel API, represented by the [[apis/webrtc/RTCDataChannel|RTCDataChannel]] and leveraged through RTCPeerConnection, provides for the exchange of strings or binary data between peers. A data channel can be reliable, semi reliable and not reliable.
-|Notes=
-|Import_Notes=
-}}
-{{See_Also_Section
-|Topic_clusters=WebRTC
-|Manual_links=
-|External_links=* [http://www.w3.org/2011/04/webrtc/ WebRTC working group]
-* [http://dev.w3.org/2011/webrtc/editor/webrtc.html PeerConnection API] (includes DataChannel)
-* [http://dev.w3.org/2011/webrtc/editor/getusermedia.html Media Capture and Streams API]
-|Manual_sections=
-}}
-{{Topics|API, WebRTC}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+The PeerConnection API, represented chiefly by the [RTCPeerConnection](/apis/webrtc/RTCPeerConnection) object, provides for the exchange of [MediaStream](/apis/webrtc/MediaStream) object data between browser instances (peers) across a secure channel. The process starts with signaling from one peer to others through a server. The signaling protocol is determined by the application, and once established, encapsulated in the [RTCSessionDescription](/apis/webrtc/RTCSessionDescription) object.
+
+## DataChannel API
+
+**TODO**: Add more information here.
+
+The DataChannel API, represented by the [RTCDataChannel](/apis/webrtc/RTCDataChannel) and leveraged through RTCPeerConnection, provides for the exchange of strings or binary data between peers. A data channel can be reliable, semi reliable and not reliable.
+
+## See also
+
+### Related articles
+
+#### WebRTC
+
+-   [Track ended](/apis/MediaStream/ended)
+
+-   [Media Capture and Streams](/apis/media_capture_and_streams)
+
+-   **WebRTC API**
+
+-   [WebRTC](/concepts/Internet_and_Web/webrtc)
+
+-   [WebRTC Resources](/tutorials/webrtc_resources)
+
+### External resources
+
+-   [WebRTC working group](http://www.w3.org/2011/04/webrtc/)
+-   [PeerConnection API](http://dev.w3.org/2011/webrtc/editor/webrtc.html) (includes DataChannel)
+-   [Media Capture and Streams API](http://dev.w3.org/2011/webrtc/editor/getusermedia.html)
+

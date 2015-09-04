@@ -1,76 +1,82 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Indicates whether or not a namespace is the default namespace for a document.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=namespace
-|Data type=String
-|Description=The namespace to be compared to the default namespace.
-|Optional=No
-}}
-|Method_applies_to=dom/Node
-|Example_object_name=node
-|Return_value_name=isDefault
-|Javascript_data_type=Boolean
-|Return_value_description=Whether the namespace specified in the ''namespace'' parameter is the default namespace for the document.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following example compares the default Namespace of the body element to the SVG namespace and then to the xHTML namespace. 
-false then true is displayed.
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
+---
+title: isDefaultNamespace
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Indicates whether or not a namespace is the default namespace for a document.'
+uri: dom/Node/isDefaultNamespace
 
-&lt;head&gt;
-&lt;meta content{{=}}"text/html; charset=utf-8" http-equiv{{=}}"Content-Type"&gt;
-&lt;title&gt;isDefaultNamespace example&lt;/title&gt;
-&lt;/head&gt;
+---
+# isDefaultNamespace
 
-&lt;body&gt;
+## Summary
+
+Indicates whether or not a namespace is the default namespace for a document.
+
+*Method of [dom/Node](/dom/Node)*
+
+## Syntax
+
+``` {.js}
+var isDefault = node.isDefaultNamespace(/* see parameter list */);
+```
+
+## Parameters
+
+### namespace
+
+ Data-typeÂ
+:   String
+
+ The namespace to be compared to the default namespace.
+
+## Return Value
+
+Returns an object of type Boolean.
+
+Whether the namespace specified in the *namespace* parameter is the default namespace for the document.
+
+## Examples
+
+The following example compares the default Namespace of the body element to the SVG namespace and then to the xHTML namespace. false then true is displayed.
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>isDefaultNamespace example</title>
+    </head>
+
+    <body>
 
 
-   &lt;script type{{=}}"text/javascript"&gt;//&lt;![CDATA[
-   	var nsSVG{{=}}'http://www.w3.org/2000/svg';
-	alert(document.body.isDefaultNamespace(nsSVG));
-	var nsxHTML{{=}}'http://www.w3.org/1999/xhtml';
-	alert(document.body.isDefaultNamespace(nsxHTML));
-   //]]&gt;&lt;/script&gt;
-&lt;/body&gt;
+       <script type="text/javascript">//<![CDATA[
+        var nsSVG='http://www.w3.org/2000/svg';
+        alert(document.body.isDefaultNamespace(nsSVG));
+        var nsxHTML='http://www.w3.org/1999/xhtml';
+        alert(document.body.isDefaultNamespace(nsxHTML));
+       //]]></script>
+    </body>
 
-&lt;/html&gt;
+    </html>
 
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.isDefaultNamespace Node.isDefaultNamespace]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff975127(v=vs.85).aspx isDefaultNamespace Method]
-|HTML5Rocks_link=
-}}
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.isDefaultNamespace](https://developer.mozilla.org/en-US/docs/Web/API/Node.isDefaultNamespace) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[isDefaultNamespace Method](http://msdn.microsoft.com/en-us/library/ie/ff975127(v=vs.85).aspx) Article]
+

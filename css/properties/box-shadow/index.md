@@ -1,217 +1,273 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The <code>box-shadow</code> property programmatically creates one or more shadows on the inside or outside of a block level element.|The ‘box-shadow’ property attaches one or more shadows inside or outside of a box-model element_ The property is a comma-separated list of shadows, each specified by 2-4 length values, an optional color, and an optional ‘inset’ keyword_ box-shadow is a simple style that can be manipulated to generate complex effects_
+---
+title: box-shadow
+tags:
+  0: CSS
+  1: Properties
+  3: Design
+  4: UI
+  5: Usability
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The box-shadow property programmatically creates one or more shadows on the inside or outside of a block level element.'
+code_samples:
+  - 'http://gist.github.com/5259244'
+  - 'http://gist.github.com/5259299'
+  - 'http://gist.github.com/5259449'
+  - 'http://gist.github.com/5259463'
+  - 'http://gist.github.com/5259501'
+  - 'http://gist.github.com/5259470'
+  - 'http://gist.github.com/5259531'
+uri: css/properties/box-shadow
 
-Given a box, the shadow style is represented as follows:
+---
+# box-shadow
 
-<pre><shadow>=inset? && [ <length>{2,4} && <color>? ]</pre>
+## Summary
 
-Links to descriptions of length and color are in the [[#Remarks]] section, below.
-}}
-{{CSS Property
-|Initial value=none
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=any length made absolute; any specified color computed; otherwise as specified
-|Animatable=Yes
-|CSS object model property=boxShadow
-|CSS percentages=n/a
-|Values={{CSS Property Value
-|Data Type=inset (optional)
-|Description=If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content). The presence of the <code>inset</code> keyword changes the shadow to one inside the frame (as if the content was depressed inside the box). Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
-}}{{CSS Property Value
-|Data Type=offset-x (optional)
-|Description=The first length is the horizontal offset of the shadow — offset-x specifies the horizontal offset of the shadow, which can be a number of any length unit. Positive values place the shadow to the right of the element, and negative values to the left. If both offset-x and offset-y values are 0, the shadow is placed directly behind the element.
-}}{{CSS Property Value
-|Data Type=offset-y (optional)
-|Description=The second length is the vertical offset of the shadow — offset-y specifies the vertical offset of the shadow, which can be a number of any length unit. Positive values place the shadow below the element, and negative values above. If both offset-x and offset-y values are 0, the shadow is placed directly behind the element.
-}}{{CSS Property Value
-|Data Type=blur-radius (optional)
-|Description=The third length is a blur radius, which can be a number of any length unit. The larger this value, the bigger the blur, meaning the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it defaults to 0 (the shadow's edge is sharp).
-}}{{CSS Property Value
-|Data Type=spread-distance (optional)
-|Description=The fourth length is a spread distance, which again can be a number of any unit. Positive values cause the shadow to expand and grow bigger, negative values cause the shadow to shrink. If not specified, it defaults to 0 (the shadow is the same size as the element). Note that setting the size of an outer shadow to 0 causes it to disappear, whereas a 0-sized inner shadow covers the entire padding-box. For inner shadows, expanding the shadow (creating more shadow area) means contracting the shadow's perimeter shape.
-}}{{CSS Property Value
-|Data Type=offset-x offset-y blur-radius color, offset-x offset-y blur-radius color
-|Description=To apply multiple shadows to one element, write the <code>box-shadow</code> values out one after another, separated by commas.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=An example of a basic drop shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
-|Code=article {
+The box-shadow property programmatically creates one or more shadows on the inside or outside of a block level element.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   any length made absolute; any specified color computed; otherwise as specified
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `boxShadow`
+Percentages
+:   n/a
+
+## Syntax
+
+-   `box-shadow: blur-radius (optional)`
+-   `box-shadow: inset (optional)`
+-   `box-shadow: offset-x (optional)`
+-   `box-shadow: offset-x offset-y blur-radius color, offset-x offset-y blur-radius color`
+-   `box-shadow: offset-y (optional)`
+-   `box-shadow: spread-distance (optional)`
+
+## Values
+
+inset (optional)
+:   If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content). The presence of the `inset` keyword changes the shadow to one inside the frame (as if the content was depressed inside the box). Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
+
+offset-x (optional)
+:   The first length is the horizontal offset of the shadow — offset-x specifies the horizontal offset of the shadow, which can be a number of any length unit. Positive values place the shadow to the right of the element, and negative values to the left. If both offset-x and offset-y values are 0, the shadow is placed directly behind the element.
+
+offset-y (optional)
+:   The second length is the vertical offset of the shadow — offset-y specifies the vertical offset of the shadow, which can be a number of any length unit. Positive values place the shadow below the element, and negative values above. If both offset-x and offset-y values are 0, the shadow is placed directly behind the element.
+
+blur-radius (optional)
+:   The third length is a blur radius, which can be a number of any length unit. The larger this value, the bigger the blur, meaning the shadow becomes bigger and lighter. Negative values are not allowed. If not specified, it defaults to 0 (the shadow's edge is sharp).
+
+spread-distance (optional)
+:   The fourth length is a spread distance, which again can be a number of any unit. Positive values cause the shadow to expand and grow bigger, negative values cause the shadow to shrink. If not specified, it defaults to 0 (the shadow is the same size as the element). Note that setting the size of an outer shadow to 0 causes it to disappear, whereas a 0-sized inner shadow covers the entire padding-box. For inner shadows, expanding the shadow (creating more shadow area) means contracting the shadow's perimeter shape.
+
+offset-x offset-y blur-radius color, offset-x offset-y blur-radius color
+:   To apply multiple shadows to one element, write the `box-shadow` values out one after another, separated by commas.
+
+## Examples
+
+An example of a basic drop shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
+
+``` {.css}
+article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-|LiveURL=http://code.webplatform.org/gist/5259244
-}}{{Single Example
-|Language=CSS
-|Description=An example of inner drop shadows. An inner box-shadow casts a shadow as if everything outside the padding edge were opaque. The inner shadow is drawn inside the padding edge only: it is clipped outside the padding box of the element.
-|Code=article {
+```
+
+[View live example](http://code.webplatform.org/gist/5259244)
+
+An example of inner drop shadows. An inner box-shadow casts a shadow as if everything outside the padding edge were opaque. The inner shadow is drawn inside the padding edge only: it is clipped outside the padding box of the element.
+
+``` {.css}
+article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
 }
-|LiveURL=http://code.webplatform.org/gist/5259299
-}}{{Single Example
-|Language=CSS
-|Description=An example of how a positive spread distance length value affects the drop shadow. If a spread distance is defined, the shadow is expanded outward or contracted inward.
-|Code=article {
+```
+
+[View live example](http://code.webplatform.org/gist/5259299)
+
+An example of how a positive spread distance length value affects the drop shadow. If a spread distance is defined, the shadow is expanded outward or contracted inward.
+
+``` {.css}
+article {
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.5);
 }
-|LiveURL=http://code.webplatform.org/gist/5259449
-}}{{Single Example
-|Language=CSS
-|Description=Negative values cause the shadow shape to contract.
-|Code=article {
+```
+
+[View live example](http://code.webplatform.org/gist/5259449)
+
+Negative values cause the shadow shape to contract.
+
+``` {.css}
+article {
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.5);
 }
-|LiveURL=http://code.webplatform.org/gist/5259463
-}}{{Single Example
-|Language=CSS
-|Description=If the blur value is zero, the shadow's edge is sharp. (A non-zero blur value indicates the resulting shadow should be blurred, such as by a Gaussian filter.)
-|Code=article {
+```
+
+[View live example](http://code.webplatform.org/gist/5259463)
+
+If the blur value is zero, the shadow's edge is sharp. (A non-zero blur value indicates the resulting shadow should be blurred, such as by a Gaussian filter.)
+
+``` {.css}
+article {
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
 }
-|LiveURL=http://code.webplatform.org/gist/5259501
-}}{{Single Example
-|Language=CSS
-|Description=If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way. (The ‘border-image’ does not affect the shape of the box-shadow.)
-|Code=article {
+```
+
+[View live example](http://code.webplatform.org/gist/5259501)
+
+If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way. (The ‘border-image’ does not affect the shape of the box-shadow.)
+
+``` {.css}
+article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
    border-radius: 10px;
 }
-|LiveURL=http://code.webplatform.org/gist/5259470
-}}{{Single Example
-|Language=HTML
-|Description=An example of a multiple box-shadows. The inner shadow appears on all four sides by creating two box-shadows.
-|Code=&lt;style&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;.shadow-style {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 100px;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 100px;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;box-shadow: inset 30px 30px 5px green, inset -30px -30px 5px blue;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border: 10px solid yellow;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: red;
-&nbsp;&nbsp;&nbsp;&nbsp;}
-&lt;/style&gt;
-&lt;body&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;shadow-style&quot;&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-&lt;/body&gt;
-|LiveURL=http://code.webplatform.org/gist/5259531
-}}
-}}
-{{Notes_Section
-|Usage====Remarks===
+```
+
+[View live example](http://code.webplatform.org/gist/5259470)
+
+An example of a multiple box-shadows. The inner shadow appears on all four sides by creating two box-shadows.
+
+``` {.html}
+<style>
+    .shadow-style {
+        width: 100px;
+        height: 100px;
+        box-shadow: inset 30px 30px 5px green, inset -30px -30px 5px blue;
+        border: 10px solid yellow;
+        background-color: red;
+    }
+</style>
+<body>
+    <div class="shadow-style">
+    </div>
+</body>
+```
+
+[View live example](http://code.webplatform.org/gist/5259531)
+
+## Usage
+
+     ===Remarks===
+
 See also:
-* [[css/data_types/length]]
-* [[css/color]]
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Level 3 - Backgrounds and Borders Module
-|URL=http://www.w3.org/TR/css3-background/#box-shadow
-|Status=Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Layout, Box Model
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS, Design, UI, Usability}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=10.0
-|Chrome_prefixed_supported=Yes
-|Chrome_prefixed_version=1.0
-|Firefox_supported=Yes
-|Firefox_version=13.0
-|Firefox_prefixed_supported=Yes
-|Firefox_prefixed_version=4.0
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=10.5
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=5.1
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=3.0
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=4.0
-|Android_prefixed_supported=Yes
-|Android_prefixed_version=2.1
-|Blackberry_supported=Yes
-|Blackberry_version=10.0
-|Blackberry_prefixed_supported=Yes
-|Blackberry_prefixed_version=7.0
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=5.0-5.1
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=3.2
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=IE
-|Version=9.0
-|Note=In order to get box-shadow in IE9 or later, you need to set border-collapse to separate. Since version 5.5, Internet Explorer supports Microsoft's DropShadow and Shadow Filter. You can use this proprietary extension to cast a drop shadow (though the syntax and the effect are different from CSS3).
-}}{{Compatibility Notes Row
-|Browser=Chrome
-|Version=10.0
-|Note=Basic support in 1.0 with -webkit prefix, inset and spread radius in 4.0  with -webkit prefix.
-}}{{Compatibility Notes Row
-|Browser=Firefox (Gecko)
-|Version=4.0 (2.0)
-|Note=Since Firefox 13 (Gecko 13), -moz-box-shadow prefix was dropped and only the unprefixed version is supported.
-}}
-}}
+
+-   [css/data\_types/length](/css/data_types/length)
+-   [css/color](/css/color)
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#box-shadow)
+:   Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### CSS Layout
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [@import](/css/atrules/@import)
+
+-   [align-self](/css/properties/align-self)
+
+-   [background](/css/properties/background)
+
+-   [box-decoration-break](/css/properties/box-decoration-break)
+
+-   [box-flex](/css/properties/box-flex)
+
+-   [box-lines](/css/properties/box-lines)
+
+-   [box-ordinal-group](/css/properties/box-ordinal-group)
+
+-   [box-orient](/css/properties/box-orient)
+
+-   [box-pack](/css/properties/box-pack)
+
+-   **box-shadow**
+
+-   [break-before](/css/properties/break-before)
+
+-   [flex-align](/css/properties/flex-align)
+
+-   [flex-item-align](/css/properties/flex-item-align)
+
+-   [flex-line-pack](/css/properties/flex-line-pack)
+
+-   [grid-auto-rows](/css/properties/grid-auto-rows)
+
+-   [grid-definition-columns](/css/properties/grid-definition-columns)
+
+-   [grid-definition-rows](/css/properties/grid-definition-rows)
+
+-   [height](/css/properties/height)
+
+-   [max-width](/css/properties/max-width)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [baseline-shift](/svg/attributes/baseline-shift)
+
+#### Box Model
+
+-   [border](/css/properties/border)
+
+-   [border-corner-shape](/css/properties/border-corner-shape)
+
+-   [bottom](/css/properties/bottom)
+
+-   **box-shadow**
+
+-   [box-sizing](/css/properties/box-sizing)
+
+-   [break-before](/css/properties/break-before)
+
+-   [clear](/css/properties/clear)
+
+-   [float](/css/properties/float)
+
+-   [height](/css/properties/height)
+
+-   [left](/css/properties/left)
+
+-   [line-height](/css/properties/line-height)
+
+-   [margin](/css/properties/margin)
+
+-   [margin-bottom](/css/properties/margin-bottom)
+
+-   [margin-left](/css/properties/margin-left)
+
+-   [margin-right](/css/properties/margin-right)
+
+-   [margin-top](/css/properties/margin-top)
+
+-   [max-height](/css/properties/max-height)
+
+-   [max-width](/css/properties/max-width)
+
+-   [min-height](/css/properties/min-height)
+
+-   [min-width](/css/properties/min-width)
+

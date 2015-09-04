@@ -1,61 +1,67 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, example, compat, better spec link
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=psarray
-|Data type=any
-|Description=A '''String''' that specifies the text and HTML tags to write.
-|Optional=No
-}}
-|Method_applies_to=dom/Document
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-In HTML, the carriage return is ignored unless it occurs in preformatted text.
-Do not use the [[dom/Document/write|'''write''']] method or the '''writeln''' method on the current document after the document has finished loading unless you first call the [[dom/Document/open|'''open''']] method, which clears the current document window and erases all variables.
-'''Note'''  When [[dom/Document|'''Document''']].[[dom/Document/write|'''write''']] or '''document'''.'''writeln''' is used in an event handler, you must also use '''document'''.[[dom/Document/close|'''close''']].
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}196991 Document Object Model (DOM) Level 2 HTML Specification], Section 1.5
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>Reference</code>
-*<code>[[dom/Document/write|write]]</code>
-*<code>[[dom/Document/open|open]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: writeln
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs summary, example, compat, better spec link'
+uri: dom/Document/writeln
+
+---
+# writeln
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [dom/Document](/dom/Document)*
+
+## Syntax
+
+``` {.js}
+ object.writeln(psarray);
+```
+
+## Parameters
+
+### psarray
+
+ Data-type�
+:   any
+
+ A **String** that specifies the text and HTML tags to write.
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+In HTML, the carriage return is ignored unless it occurs in preformatted text. Do not use the [**write**](/dom/Document/write) method or the **writeln** method on the current document after the document has finished loading unless you first call the [**open**](/dom/Document/open) method, which clears the current document window and erases all variables. **Note**  When [**Document**](/dom/Document).[**write**](/dom/Document/write) or **document**.**writeln** is used in an event handler, you must also use **document**.[**close**](/dom/Document/close).
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.5
+
+## See also
+
+### Related pages (MSDN)
+
+-   `Reference`
+-   `write`
+-   `open`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,60 +1,70 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets a reference to the last child in the childNodes collection of an object. }}
-{{API_Object_Property
-|Property_applies_to=dom/Node
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following code example implements the '''lastChild''' property to obtain a reference to the last child element of an object.
-|Code=&lt;body&gt;
-&lt;ul id {{=}} "oList"&gt;
-&lt;li&gt;List Item 1&lt;/li&gt;
-&lt;li&gt;List Item 2&lt;/li&gt;
-&lt;li&gt;List Item 3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;script type{{=}}"text/javascript"&gt;
-var olastChild {{=}} oList.lastChild;
-&lt;/script&gt;
-&lt;body&gt;
-}}
-}}
-{{Notes_Section
-|Usage=Used to remove and append nodes to user lists and tables.
-|Import_Notes====Syntax===
-var last_child = element.lastChild
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}161725 Document Object Model (DOM) Level 1 Specification], Section 1.2
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 2 Core
-|URL=http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-61AD09FB
-|Status=Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.lastChild Node.lastChild]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms533943(v=vs.85).aspx lastChild Property]
-|HTML5Rocks_link=
-}}
+---
+title: lastChild
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Gets a reference to the last child in the childNodes collection of an object. '
+uri: dom/Node/lastChild
+
+---
+# lastChild
+
+## Summary
+
+Gets a reference to the last child in the childNodes collection of an object.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Node](/dom/Node)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.lastChild;
+element.lastChild = value;
+```
+
+## Examples
+
+The following code example implements the **lastChild** property to obtain a reference to the last child element of an object.
+
+    <body>
+    <ul id = "oList">
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+    </ul>
+    <script type="text/javascript">
+    var olastChild = oList.lastChild;
+    </script>
+    <body>
+
+## Usage
+
+     Used to remove and append nodes to user lists and tables.
+
+### Syntax
+
+var last\_child = element.lastChild
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 1.2
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 2 Core](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#ID-61AD09FB)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.lastChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.lastChild) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[lastChild Property](http://msdn.microsoft.com/en-us/library/ie/ms533943(v=vs.85).aspx) Article]
+

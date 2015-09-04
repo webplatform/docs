@@ -1,60 +1,88 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The ShadowRoot object is the point of entry to a shadow tree, which provides functional encapsulation of DOM objects within an established document.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Shadow DOM
-|URL=https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html#dfn-shadow-root
-|Status=Editor's Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=26
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Web Components
-}}
-{{Topics|API, DOM, Shadow DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: ShadowRoot
+tags:
+  0: API
+  1: Objects
+  3: DOM
+  4: Shadow
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The ShadowRoot object is the point of entry to a shadow tree, which provides functional encapsulation of DOM objects within an established document.'
+uri: dom/shadowdom/ShadowRoot
+
+---
+# ShadowRoot
+
+## Summary
+
+The ShadowRoot object is the point of entry to a shadow tree, which provides functional encapsulation of DOM objects within an established document.
+
+## Properties
+
+API Name
+:   Summary
+[activeElement](/dom/shadowdom/ShadowRoot/activeElement)
+:   Represents the currently focused element in the shadow tree.
+[applyAuthorStyles](/dom/shadowdom/ShadowRoot/applyAuthorStyles)
+:   Indicates whether the rules in author styles associated with the element's document apply to the shadow tree. If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.
+[innerHTML](/dom/shadowdom/ShadowRoot/innerHTML)
+:   Represents the markup of the ShadowRoot's contents.
+[resetStyleInheritance](/dom/shadowdom/ShadowRoot/resetStyleInheritance)
+:   Indicates whether or not the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit. If true, the properties are set to initial value.
+[styleSheets](/dom/shadowdom/ShadowRoot/styleSheets)
+:   Represents the shadow root style sheets.
+
+## Methods
+
+API Name
+:   Summary
+[addStyleSheet](/dom/shadowdom/ShadowRoot/addStyleSheet)
+:   Adds a new style sheet to shadow root style sheets.
+[elementFromPoint](/dom/shadowdom/ShadowRoot/elementFromPoint)
+:   Returns an element at specified coordinates.
+[getElementById](/dom/shadowdom/ShadowRoot/getElementById)
+:   Just like [Document.getElementById](/dom/Document/getElementById) except that it only works within the scope of this ShadowRoot's shadow tree.
+[getElementsByClassName](/dom/shadowdom/ShadowRoot/getElementsByClassName)
+:   Just like [Document/getElementsByClassName](/dom/Document/getElementsByClassName) except that it only works within the scope of this ShadowRoot's shadow tree.
+[getElementsByTagName](/dom/shadowdom/ShadowRoot/getElementsByTagName)
+:   Just like [Document/getElementsByTagName](/dom/Document/getElementsByTagName) except that it only works within the scope of this ShadowRoot's shadow tree.
+[getElementsByTagNameNS](/dom/shadowdom/ShadowRoot/getElementsByTagNameNS)
+:   Just like [document.getElementsByTagNameNS](/dom/Document/getElementsByTagNameNS) except that it only works within the scope of this ShadowRoot's shadow tree.
+[getSelection](/dom/shadowdom/ShadowRoot/getSelection)
+:   Returns the current selection in this ShadowRoot's shadow tree.
+[removeStyleSheet](/dom/shadowdom/ShadowRoot/removeStyleSheet)
+:   Removes a style sheet from the ShadowRoot.
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[Shadow DOM](https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html#dfn-shadow-root)
+:   Editor's Draft
+
+## See also
+
+### Related articles
+
+#### Web Components
+
+-   [register](/dom/Document/register)
+
+-   [shadowdom](/dom/shadowdom)
+
+-   **ShadowRoot**
+
+-   [is](/html/attributes/is)
+
+-   [reset-style-inheritance](/html/attributes/reset-style-inheritance)
+
+-   [content](/html/elements/content)
+
+-   [element](/html/elements/element)
+
+-   [template](/html/elements/template)
+

@@ -1,46 +1,80 @@
-{{Page_Title|border-right}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add description, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Shorthand property that defines the [[css/properties/border-width|'''border-width''']], [[css/properties/border-style|'''border-style''']] and [[css/properties/border-color|'''border-color''']] of an element's right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — [[css/properties/border-right-width|'''border-right-width''']], [[css/properties/border-right-style|'''border-right-style''']] and [[css/properties/border-right-color|'''border-right-color''']].}}
-{{CSS Property
-|Initial value=For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=For <code>style</code> values, the computed value is as specified. For <code>width</code> values, the computed value is the absolute pixel value, or <code>0</code> if the value is set to <code>none</code> or <code>hidden</code>. For <code>color</code> values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
-|Animatable=Yes
-|CSS object model property=borderRight
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=border-width border-style color
-|Description=The <code>border-right</code> property can contain up to three components:
-* <code>border-width</code>: This takes a numeric value with any of the standard length units.
-* <code>border-style</code>: This takes any of the range of style values available to the [[css/properties/border-style|'''border-style''']] property, which includes <code>none</code>, <code>hidden</code>, <code>dotted</code>, <code>dashed</code>, <code>solid</code>, <code>double</code>, <code>groove</code>, <code>ridge</code>, <code>inset</code>, <code>outset</code>. For more details about each, see the [[css/properties/border-style|'''border-style''']] page.
-* <code>color</code>: This can take any valid CSS color as its value.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=When we set the value to <code>inherit</code>, the element will inherit the border values set on its parent.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A simple example showing multiple <code>&lt;div&gt;</code>s, identical in style except that they have different <code>border-right</code> properties applied to them.
-|Code=<div class="one"><p>One</p></div>
-<div class="two"><p>Two</p></div>
-<div class="three"><p>Three</p></div>
-<div class="four"><p>Four</p></div>
-<div class="five"><p>Five</p></div>
-|LiveURL=http://code.webplatform.org/gist/5534715
-}}{{Single Example
-|Language=CSS
-|Code=/**
+---
+title: border-right
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add description, specifications, compatibility.'
+summary: 'Shorthand property that defines the border-width, border-style and border-color of an element''s right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — border-right-width, border-right-style and border-right-color.'
+code_samples:
+  - 'http://gist.github.com/5534715'
+uri: css/properties/border-right
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/defaultSelected
+
+---
+# border-right
+
+## Summary
+
+Shorthand property that defines the border-width, border-style and border-color of an element's right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — border-right-width, border-right-style and border-right-color.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   <span class="smwttpersist" data-type="warning" data-context="persitent"><span class="smwtticon warning"></span><span class="smwttcontent">String representation "For \<code\>style … slucent colors." is too long.</span></span>
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `borderRight`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `border-right: border-width border-style color`
+-   `border-right: inherit`
+
+## Values
+
+border-width border-style color
+:   The `border-right` property can contain up to three components:
+
+-   `border-width`: This takes a numeric value with any of the standard length units.
+-   `border-style`: This takes any of the range of style values available to the [**border-style**](/css/properties/border-style) property, which includes `none`, `hidden`, `dotted`, `dashed`, `solid`, `double`, `groove`, `ridge`, `inset`, `outset`. For more details about each, see the [**border-style**](/css/properties/border-style) page.
+-   `color`: This can take any valid CSS color as its value.
+
+inherit
+:   When we set the value to `inherit`, the element will inherit the border values set on its parent.
+
+## Examples
+
+A simple example showing multiple `<div>`s, identical in style except that they have different `border-right` properties applied to them.
+
+``` {.html}
+One
+Two
+Three
+Four
+Five
+```
+
+[View live example](http://code.webplatform.org/gist/5534715)
+
+``` {.css}
+/**
  * border-right example
 **/
 
@@ -56,7 +90,7 @@ p {
 }
 
 .one {
-  /* The most basic border-top example you can show. */ 
+  /* The most basic border-top example you can show. */
   border-right: 1px solid black;
 }
 
@@ -85,40 +119,89 @@ p {
   border: 1px inset black;
   border-right: 10px inset rgba(234,190,50,0.75);
 }
-|LiveURL=http://code.webplatform.org/gist/5534715
-}}
-}}
-{{Notes_Section
-|Usage=* It is usual to use the <code>border-right</code> property to set the default state of a box's right border, and then override individual values using more specific propeties, such as <code>border-right-width</code> or <code>border-right-color</code>.
-* <code>border-right</code> can be used as a divider between horizontally laid out items, such as a horizontal navigation menu, or table cells.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Border
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Reference</code>
-*<code>[[css/properties/border|border]]</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5534715)
+
+## Usage
+
+     * It is usual to use the border-right property to set the default state of a box's right border, and then override individual values using more specific propeties, such as border-right-width or border-right-color.
+
+-   `border-right` can be used as a divider between horizontally laid out items, such as a horizontal navigation menu, or table cells.
+
+## See also
+
+### Related articles
+
+#### Border
+
+-   [border](/css/properties/border)
+
+-   [border-bottom](/css/properties/border-bottom)
+
+-   [border-bottom-color](/css/properties/border-bottom-color)
+
+-   [border-bottom-left-radius](/css/properties/border-bottom-left-radius)
+
+-   [border-bottom-style](/css/properties/border-bottom-style)
+
+-   [border-bottom-width](/css/properties/border-bottom-width)
+
+-   [border-color](/css/properties/border-color)
+
+-   [border-image](/css/properties/border-image)
+
+-   [border-image-outset](/css/properties/border-image-outset)
+
+-   [border-image-repeat](/css/properties/border-image-repeat)
+
+-   [border-image-slice](/css/properties/border-image-slice)
+
+-   [border-image-source](/css/properties/border-image-source)
+
+-   [border-image-width](/css/properties/border-image-width)
+
+-   [border-left](/css/properties/border-left)
+
+-   [border-left-color](/css/properties/border-left-color)
+
+-   [border-left-style](/css/properties/border-left-style)
+
+-   [border-left-width](/css/properties/border-left-width)
+
+-   [border-radius](/css/properties/border-radius)
+
+-   **border-right**
+
+-   [border-right-color](/css/properties/border-right-color)
+
+-   [border-right-style](/css/properties/border-right-style)
+
+-   [border-right-width](/css/properties/border-right-width)
+
+-   [border-top](/css/properties/border-top)
+
+-   [border-top-color](/css/properties/border-top-color)
+
+-   [border-top-left-radius](/css/properties/border-top-left-radius)
+
+-   [border-top-right-radius](/css/properties/border-top-right-radius)
+
+-   [border-top-style](/css/properties/border-top-style)
+
+-   [border-top-width](/css/properties/border-top-width)
+
+-   [border-width](/css/properties/border-width)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaults`
+-   `runtimeStyle`
+-   `style`
+-   `Reference`
+-   `border`
+-   `Other Resources`
+-   `CSS Enhancements in Internet Explorer 6`
+

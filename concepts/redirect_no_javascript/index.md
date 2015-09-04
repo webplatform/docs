@@ -1,45 +1,62 @@
-{{Page_Title|Redirect browsers without JavaScript Support}}
-{{Flags
-|State=In Progress
-|Checked_Out=No
-|High-level issues=
-}}
-{{API_Name}}
-{{Summary_Section|This is an HTML hack to make pages more friendly to those with JavaScript disabled or with no JavaScript support.}}
-{{Concept_Page
-|Content=This HTML hack allows users with JavaScript disabled or without JavaScript support to still view web content, just without the convenience of JavaScript. Add this tag to the HTML head (best after the <code><meta charset="utf-8" /></code> tag) and it will create an automatic redirect to the no-JS-friendly site.
-{{Single Example
-|Language=HTML
-|Description=Core code.
-|Code=&nbsp;
-<noscript><meta http-equiv="refresh" content="0; url=www.example.com/no-js-version" /></noscript>
-}}
-This would alleviate the need for JavaScript to be required for many services to even be used, and it would allow for some degree of dynamic content to still be served to those without JS through CSS and server-side logic. The ''url'' parameter of the <code>content</code> attribute can be any legal URL, even the original one with extra parameters. The whole purpose is to serve a page that has no JavaScript requirement for the browser.
+---
+title: redirect no javascript
+tags:
+  - Concept
+  - Pages
+  - Accessibility
+  - Compatibility
+  - Design
+  - HTML
+  - JavaScript
+  - Usability
+readiness: 'In Progress'
+summary: 'This is an HTML hack to make pages more friendly to those with JavaScript disabled or with no JavaScript support.'
+uri: 'concepts/redirect no javascript'
 
-This only validates correctly as HTML5 (plug in the source in the [http://validator.w3.org/check W3C validator tool]).
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=Initial page, assumes JavaScript support.
-|Code=&lt;!-- www.example.com/index.html --&gt;
+---
+# Redirect browsers without JavaScript Support
+
+## Summary
+
+This is an HTML hack to make pages more friendly to those with JavaScript disabled or with no JavaScript support.
+
+ This HTML hack allows users with JavaScript disabled or without JavaScript support to still view web content, just without the convenience of JavaScript. Add this tag to the HTML head (best after the `<meta charset="utf-8" />` tag) and it will create an automatic redirect to the no-JS-friendly site.
+
+Core code.
+
+``` {.html}
+Â
+<noscript><meta http-equiv="refresh" content="0; url=www.example.com/no-js-version" /></noscript>
+```
+
+This would alleviate the need for JavaScript to be required for many services to even be used, and it would allow for some degree of dynamic content to still be served to those without JS through CSS and server-side logic. The *url* parameter of the `content` attribute can be any legal URL, even the original one with extra parameters. The whole purpose is to serve a page that has no JavaScript requirement for the browser.
+
+This only validates correctly as HTML5 (plug in the source in the [W3C validator tool](http://validator.w3.org/check)).
+
+## Examples
+
+Initial page, assumes JavaScript support.
+
+``` {.html}
+<!-- www.example.com/index.html -->
 <!DOCTYPE html>
 <html>
   <head>
   <meta charset="utf-8" />
   <noscript><meta http-equiv="refresh" content="0; url=www.example.com/no-js-version.html" /></noscript>
-  &lt;!-- Browsers without JavaScript will never see this. --&gt;
+  <!-- Browsers without JavaScript will never see this. -->
   <script type="text/javascript" src="www.example.com/js/jquery.min.js"></script>
   <script type="text/javascript" src="www.example.com/js/dynamic.js"></script>
 <title>Example Page</title>
 </head>
 <body></body>
 </html>
-}}{{Single Example
-|Language=JavaScript
-|Description=Little helper dynamic script
-|Code=// www.example.com/js/dynamic.js
+```
+
+Little helper dynamic script
+
+``` {.js}
+// www.example.com/js/dynamic.js
 $(function () {
   var div = document.createElement('div');
   div.innerHTML        = 'Content that requires JavaScript to run.';
@@ -47,11 +64,13 @@ $(function () {
   div.style.fontWeight = bold;
   $(body).append(div);
 })();
-}}{{Single Example
-|Language=HTML
-|Description=Non-JS version
-|Code=&lt;!-- www.example.com/no-js-version.html --&gt;
-&lt;!-- Browsers with JavaScript support will likely never see this page. --&gt;
+```
+
+Non-JS version
+
+``` {.html}
+<!-- www.example.com/no-js-version.html -->
+<!-- Browsers with JavaScript support will likely never see this page. -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -64,21 +83,9 @@ $(function () {
   <title>Example Page</title>
 </head>
 <body>
-<div>Content that requires absolutely no JavaScript.</div>
+Content that requires absolutely no JavaScript.
 </body>
 </html>
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section}}
-{{Topics|Accessibility, Compatibility, Design, HTML, JavaScript, Usability}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
 This minimal example demonstrates an example usage of this hack.

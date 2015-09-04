@@ -1,56 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=examples, compatibility, more info
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Gets the mouse button that caused an event.}}
-{{API_Object_Property
-|Property_applies_to=dom/MouseEvent
-|Read_only=Yes
-|Example_object_name=event
-|Return_value_name=button
-|Javascript_data_type=Number
-|Return_value_description=One of the following values -
-* 0 - The primary button (usually the left mouse button).
-* 1 - The auxiliary button (usually the middle/wheel mouse button).
-* 2 - The secondary button (usually the right mouse button).
+---
+title: button
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+  - DOMEvents
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'examples, compatibility, more info'
+summary: 'Gets the mouse button that caused an event.'
+uri: dom/MouseEvent/button
+
+---
+# button
+
+## Summary
+
+Gets the mouse button that caused an event.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MouseEvent](/dom/MouseEvent)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var button = event.button;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+
+One of the following values -
+
+-   0 - The primary button (usually the left mouse button).
+-   1 - The auxiliary button (usually the middle/wheel mouse button).
+-   2 - The secondary button (usually the right mouse button).
+
 Any value higher than 2 represents other less common buttons.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
-|Status=Working Draft
-|Relevant_changes=Section 5.2.3
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=8 and earlier
-|Note=A proprietary alternative for this property is the [[dom/properties/which|which]] property.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM, DOMEvents}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

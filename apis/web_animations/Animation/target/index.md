@@ -1,41 +1,33 @@
-{{Page_Title}}
-{{Flags
-|State=
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=apis/web_animations/Animation
-|Read_only=No
-|Example_object_name=myAnimation
-|Return_value_name=myTarget
-|Return_value_description=returns an apis/web_animations/Animatable object. 
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: target
+tags:
+  - API
+  - Object
+  - Properties
+  - Web
+  - Animations
+readiness: readiness-state
+uri: 'apis/web animations/Animation/target'
+
+---
+# target
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/Animation](/apis/web_animations/Animation)</span></span>
+
+## Syntax
+
+``` {.js}
+var myTarget = myAnimation.target;
+myAnimation.target = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+
+returns an apis/web\_animations/Animatable object.
+
+**Needs Examples**: This section should include examples.
+

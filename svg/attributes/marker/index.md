@@ -1,65 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs all content
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: marker
+tags:
+  - Markup
+  - Attributes
+  - SVG
+readiness: 'Not Ready'
+notes:
+  - 'Needs all content'
+uri: svg/attributes/marker
 
-The '''marker''' property is a composite property for the three individual marker properties.
-|Import_Notes====Syntax===
+---
+# marker
 
- '''marker: '''none '''{{!}}''' ''funciri'' '''{{!}}''' inherit
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-===Standards information===
+Applies to
+:    ?
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199816 Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols], Section 11.6.3
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+**Needs Examples**: This section should include examples.
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[css/cssom/currentStyle|'''currentStyle''']]
-*[[css/cssom/style|'''style''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
+## Notes
 
-===Reference===
+### Remarks
 
-*[[svg/attributes/marker-start|'''markerStart''']]
-*[[svg/attributes/marker-mid|'''markerMid''']]
-*[[svg/attributes/marker-end|'''markerEnd''']]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+The **marker** property is a composite property for the three individual marker properties.
+
+### Syntax
+
+    marker: none | funciri | inherit
+
+### Standards information
+
+-   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.6.3
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**currentStyle**](/css/cssom/currentStyle)
+-   [**style**](/css/cssom/style)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+
+### Reference
+
+-   [**markerStart**](/svg/attributes/marker-start)
+-   [**markerMid**](/svg/attributes/marker-mid)
+-   [**markerEnd**](/svg/attributes/marker-end)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

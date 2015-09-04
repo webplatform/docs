@@ -1,75 +1,69 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The text-emphasis-color property specifies the foreground color of the emphasis marks.}}
-{{CSS Property
-|Initial value=currentColor
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=textEmphasisColor
-|CSS percentages=Not available
-|Values={{CSS Property Value
-|Data Type=color
-|Description=Specify the foreground color of the emphasis marks.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Code=p {
-	text-emphasis-color: #000;	
-	text-emphasis-style: open;
+---
+title: text-emphasis-color
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The text-emphasis-color property specifies the foreground color of the emphasis marks.'
+code_samples:
+  - 'http://gist.github.com/5654528'
+uri: css/properties/text-emphasis-color
+
+---
+# text-emphasis-color
+
+## Summary
+
+The text-emphasis-color property specifies the foreground color of the emphasis marks.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `currentColor`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `textEmphasisColor`
+Percentages
+:   Not available
+
+## Syntax
+
+-   `text-emphasis-color: color`
+
+## Values
+
+color
+:   Specify the foreground color of the emphasis marks.
+
+## Examples
+
+``` {.css}
+p {
+    text-emphasis-color: #000;
+    text-emphasis-style: open;
 }
-|LiveURL=http://code.webplatform.org/gist/5654528
-}}
-}}
-{{Notes_Section
-|Notes=The initial value of the currentColor means that it defaults to match the text color.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Text Decoration Module Level 3
-|URL=http://dev.w3.org/csswg/css-text-decor-3/#emphasis-marks
-|Status=Editor's Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=Yes
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=Yes
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5654528)
+
+## Notes
+
+The initial value of the currentColor means that it defaults to match the text color.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Text Decoration Module Level 3](http://dev.w3.org/csswg/css-text-decor-3/#emphasis-marks)
+:   Editor's Draft
+

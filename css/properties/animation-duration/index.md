@@ -1,41 +1,69 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Defines the length of time an animation takes to complete one cycle.}}
-{{CSS Property
-|Initial value=0s
-|Applies to=All elements, &#58;&#58;before and &#58;&#58;after pseudo-elements.
-|Inherited=No
-|Media=visual
-|Computed value=As specified.
-|Animatable=No
-|CSS object model property=animationDuration
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=&#60;time&#62;
-|Description=Can be specified in seconds or milliseconds, e.g., '''2s''' or '''150ms'''. Can also be a comma-separated list of durations, e.g., '''.25s, .5s, 1s''', where each duration is applied to the corresponding ordinal position value of the [[css/properties/animation-name|animation-name]] property. 
+---
+title: animation-duration
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Defines the length of time an animation takes to complete one cycle.'
+code_samples:
+  - 'http://gist.github.com/7010824'
+  - 'http://gist.github.com/7010365'
+uri: css/properties/animation-duration
 
-The initial value of 0s means the animation takes no time; that is, it is applied instantaneously. When the duration is 0s (or 0ms), [[css/properties/animation-fill-mode|animation-fill-mode]] still applies, such that an animation filling backward will show the value of the 0% [[css/atrules/@keyframes|keyframe]] during any [[css/properties/animation-delay|delay]] period, while an animation filling forward will retain the value specified at the 100% [[css/atrules/@keyframes|keyframe]] even if the animation was instantaneous. Also, animation events are still fired.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=An animation duration of 5 seconds; runs once, does not repeat.
-|Code=div.duration {
+---
+# animation-duration
+
+## Summary
+
+Defines the length of time an animation takes to complete one cycle.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `0s`
+Applies to
+:   All elements, ::before and ::after pseudo-elements.
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   As specified.
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `animationDuration`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `animation-duration: <time>`
+
+## Values
+
+\<time\>
+:   Can be specified in seconds or milliseconds, e.g., **2s** or **150ms**. Can also be a comma-separated list of durations, e.g., **.25s, .5s, 1s**, where each duration is applied to the corresponding ordinal position value of the [animation-name](/css/properties/animation-name) property.
+
+The initial value of 0s means the animation takes no time; that is, it is applied instantaneously. When the duration is 0s (or 0ms), [animation-fill-mode](/css/properties/animation-fill-mode) still applies, such that an animation filling backward will show the value of the 0% [keyframe](/css/atrules/@keyframes) during any [delay](/css/properties/animation-delay) period, while an animation filling forward will retain the value specified at the 100% [keyframe](/css/atrules/@keyframes) even if the animation was instantaneous. Also, animation events are still fired.
+
+## Examples
+
+An animation duration of 5 seconds; runs once, does not repeat.
+
+``` {.css}
+div.duration {
     animation-duration: 5s;
 }
-|LiveURL=http://code.webplatform.org/gist/7010824
-}}{{Single Example
-|Language=CSS
-|Description=A repeating pulse animation that shrinks and dims an element, then restores it.
-|Code=div.selected {
+```
+
+[View live example](http://code.webplatform.org/gist/7010824)
+
+A repeating pulse animation that shrinks and dims an element, then restores it.
+
+``` {.css}
+div.selected {
     animation-name: pulse;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -43,66 +71,54 @@ The initial value of 0s means the animation takes no time; that is, it is applie
 
 @keyframes pulse {
     from {
-        transform : scale(1) translateX(0);
-        opacity : 1;
+        transform : scale(1) translateX(0);
+        opacity : 1;
     }
     50% {
-        transform : scale(0.75) translateX(0);
-        opacity : 0.25;
+        transform : scale(0.75) translateX(0);
+        opacity : 0.25;
     }
     to {
-        transform : scale(1) translateX(0);
-        opacity : 1;
+        transform : scale(1) translateX(0);
+        opacity : 1;
     }
 }
-|LiveURL=http://code.webplatform.org/gist/7010365
-}}
-}}
-{{Notes_Section
-|Usage=*Negative duration values are invalid and cause the entire property value to be ignored.
-*If <code>[[css/properties/animation-duration|animation-duration]]</code> specifies more durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the excess durations are ignored.
-*If <code>[[css/properties/animation-duration|animation-duration]]</code> specifies fewer durations than there are values in <code>[[css/properties/animation-name|animation-name]]</code>, the list of durations is repeated as many times as necessary to ensure each animation has a duration.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Animations
-|URL=http://www.w3.org/TR/css3-animations/
-|Status=Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=*[[tutorials/css_animations|Making things move with CSS3 animations]]
-*[[css/atrules/@keyframes|@keyframes]]
-*[[css/properties/animation|animation]]
-*[[css/properties/animation-delay|animation-delay]]
-*[[css/properties/animation-direction|animation-direction]]
-*[[css/properties/animation-fill-mode|animation-fill-mode]]
-*[[css/properties/animation-iteration-count|animation-iteration-count]]
-*[[css/properties/animation-name|animation-name]]
-*[[css/properties/animation-play-state|animation-play-state]]
-*[[css/properties/animation-timing-function|animation-timing-function]]
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10.0
-|Note=The -ms- prefixed property is deprecated and should not be used.
-}}
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/7010365)
+
+## Usage
+
+     *Negative duration values are invalid and cause the entire property value to be ignored.
+
+-   If `animation-duration` specifies more durations than there are values in `animation-name`, the excess durations are ignored.
+-   If `animation-duration` specifies fewer durations than there are values in `animation-name`, the list of durations is repeated as many times as necessary to ensure each animation has a duration.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Animations](http://www.w3.org/TR/css3-animations/)
+:   Working Draft
+
+## See also
+
+### Other articles
+
+-   [Making things move with CSS3 animations](/tutorials/css_animations)
+-   [@keyframes](/css/atrules/@keyframes)
+-   [animation](/css/properties/animation)
+-   [animation-delay](/css/properties/animation-delay)
+-   [animation-direction](/css/properties/animation-direction)
+-   [animation-fill-mode](/css/properties/animation-fill-mode)
+-   [animation-iteration-count](/css/properties/animation-iteration-count)
+-   [animation-name](/css/properties/animation-name)
+-   [animation-play-state](/css/properties/animation-play-state)
+-   [animation-timing-function](/css/properties/animation-timing-function)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

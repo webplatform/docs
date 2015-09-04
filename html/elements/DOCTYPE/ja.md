@@ -1,72 +1,275 @@
-{{Page_Title|!DOCTYPE}}
-{{Flags
-|State=In Progress
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Needed
-}}
-{{Standardization_Status|N/A}}
-{{API_Name}}
-{{Summary_Section|'''文書型宣言（DOCTYPE宣言）'''とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。<!DOCTYPE>を書かないとQuirksモード(互換モード)で表示されます。}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=HTML5ではDOCTYPE宣言は以下のように記述されます。
-|Code=<!DOCTYPE html>
-}}{{Single Example
-|Language=HTML
-|Description=HTML4.01のStrict DTDでは
-|Code=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-}}{{Single Example
-|Language=HTML
-|Description=HTML4.01のTransitional DTDでは
-|Code=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-}}
-}}
-{{Notes_Section
-|Usage=htmlファイルの始まりの部分に <syntaxhighlight lang="HTML5">
+---
+title: ja
+tags:
+  - Markup
+  - Elements
+  - DOCTYPE
+  - HTML
+readiness: 'In Progress'
+summary: 文書型宣言（DOCTYPE宣言）とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。<!DOCTYPE>を書かないとQuirksモード(互換モード)で表示されます。
+uri: html/elements/!DOCTYPE/ja
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/elements/!DOCTYPE/af
+    - html/elements/!DOCTYPE/ar
+    - html/elements/!DOCTYPE/ast
+    - html/elements/!DOCTYPE/az
+    - html/elements/!DOCTYPE/bcc
+    - html/elements/!DOCTYPE/bg
+    - html/elements/!DOCTYPE/br
+    - html/elements/!DOCTYPE/ca
+    - html/elements/!DOCTYPE/cs
+    - html/elements/!DOCTYPE/da
+    - html/elements/!DOCTYPE/de
+    - html/elements/!DOCTYPE/diq
+    - html/elements/!DOCTYPE/el
+    - html/elements/!DOCTYPE/eo
+    - html/elements/!DOCTYPE/es
+    - html/elements/!DOCTYPE/fa
+    - html/elements/!DOCTYPE/fi
+    - html/elements/!DOCTYPE/fr
+    - html/elements/!DOCTYPE/gl
+    - html/elements/!DOCTYPE/gu
+    - html/elements/!DOCTYPE/he
+    - html/elements/!DOCTYPE/hu
+    - html/elements/!DOCTYPE/hy
+    - html/elements/!DOCTYPE/id
+    - html/elements/!DOCTYPE/it
+    - html/elements/!DOCTYPE/ka
+    - html/elements/!DOCTYPE/kk
+    - html/elements/!DOCTYPE/km
+    - html/elements/!DOCTYPE/ko
+    - html/elements/!DOCTYPE/ksh
+    - html/elements/!DOCTYPE/kw
+    - html/elements/!DOCTYPE/mk
+    - html/elements/!DOCTYPE/ml
+    - html/elements/!DOCTYPE/mr
+    - html/elements/!DOCTYPE/ms
+    - html/elements/!DOCTYPE/nl
+    - html/elements/!DOCTYPE/no
+    - html/elements/!DOCTYPE/oc
+    - html/elements/!DOCTYPE/pl
+    - html/elements/!DOCTYPE/pt
+    - html/elements/!DOCTYPE/pt-br
+    - html/elements/!DOCTYPE/ro
+    - html/elements/!DOCTYPE/ru
+    - html/elements/!DOCTYPE/si
+    - html/elements/!DOCTYPE/sk
+    - html/elements/!DOCTYPE/sl
+    - html/elements/!DOCTYPE/sq
+    - html/elements/!DOCTYPE/sr
+    - html/elements/!DOCTYPE/sv
+    - html/elements/!DOCTYPE/ta
+    - html/elements/!DOCTYPE/th
+    - html/elements/!DOCTYPE/tr
+    - html/elements/!DOCTYPE/uk
+    - html/elements/!DOCTYPE/vi
+    - html/elements/!DOCTYPE/yue
+    - html/elements/!DOCTYPE/zh
+    - html/elements/!DOCTYPE/zh-hans
+    - html/elements/!DOCTYPE/zh-hant
+    - html/elements/!DOCTYPE/zh-tw
+
+---
+# !DOCTYPE
+
+## Summary
+
+文書型宣言（DOCTYPE宣言）とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。\<!DOCTYPE\>を書かないとQuirksモード(互換モード)で表示されます。
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+## Examples
+
+HTML5ではDOCTYPE宣言は以下のように記述されます。
+
+``` {.html}
 <!DOCTYPE html>
-</syntaxhighlight> を追加してください。
-|Notes=<!DOCTYPE>はHTML文書の<html>タグより前の一番最初の部分に書かなければいけません。
+```
 
-<!DOCTYPE>はHTMLのタグではなく、ブラウザにそのhtmlファイルのバージョン情報を教えるためのものです。
+HTML4.01のStrict DTDでは
 
-HTML4.01はSGMLベースであり、<!DOCTYPE>では参照するDTDを指定します。
-DTDがマークアップ言語用のルールを定義しているため、ブラウザはコンテンツを正しく表示することができます。
+``` {.html}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
+
+HTML4.01のTransitional DTDでは
+
+``` {.html}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
+
+## Usage
+
+     htmlファイルの始まりの部分に
+
+``` {.html}
+<!DOCTYPE html>
+```
+
+    を追加してください。
+
+## Notes
+
+\<!DOCTYPE\>はHTML文書の\<html\>タグより前の一番最初の部分に書かなければいけません。
+
+\<!DOCTYPE\>はHTMLのタグではなく、ブラウザにそのhtmlファイルのバージョン情報を教えるためのものです。
+
+HTML4.01はSGMLベースであり、\<!DOCTYPE\>では参照するDTDを指定します。 DTDがマークアップ言語用のルールを定義しているため、ブラウザはコンテンツを正しく表示することができます。
 
 一方HTML5はSGMLベースではないため、DTDを参照する必要がありません。
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=Deprecated, HTML
-|Manual_links=html/quirksmode
-}}
-{{Topics|DOCTYPE, HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-}}
-{{Languages}}
 
+## See also
 
+### Related articles
 
+#### Deprecated
 
+-   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
+-   [-ms-repeating-linear-gradient](/css/properties/-ms-repeating-linear-gradient)
 
+-   [-ms-repeating-radial-gradient](/css/properties/-ms-repeating-radial-gradient)
 
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+-   [MutationEvent](/dom/MutationEvent)
 
+-   [attrChange](/dom/MutationEvent/attrChange)
 
+-   [attrName](/dom/MutationEvent/attrName)
+
+-   [initMutationEvent](/dom/MutationEvent/initMutationEvent)
+
+-   [newValue](/dom/MutationEvent/newValue)
+
+-   [prevValue](/dom/MutationEvent/prevValue)
+
+-   [relatedNode](/dom/MutationEvent/relatedNode)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   **!DOCTYPE**
+
+-   [acronym](/html/elements/acronym)
+
+-   [escape](/javascript/escape)
+
+-   [unescape](/javascript/unescape)
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   **!DOCTYPE**
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+### Other articles
+
+html/quirksmode
+
+**言語:**
+:   **[English](/html/elements/!DOCTYPE)**  • <span lang="ja">**日本語**</span>
 
 と記述されます。

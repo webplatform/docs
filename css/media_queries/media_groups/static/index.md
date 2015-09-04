@@ -1,30 +1,33 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add values, syntax, example, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{Summary_Section|The '''static''' media group encompasses any media type that cannot change the document once it is created.}}
-{{CSS Media Group
-|Description=The opposite of static media is [[css/media_queries/media_groups/interactive| interactive media]].
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: static
+tags:
+  - CSS
+  - Media
+  - Groups
+readiness: 'Not Ready'
+notes:
+  - 'Add values, syntax, example, specifications, compatibility.'
+summary: 'The static media group encompasses any media type that cannot change the document once it is created.'
+uri: 'css/media queries/media groups/static'
+
+---
+# static
+
+## Summary
+
+The static media group encompasses any media type that cannot change the document once it is created.
+
+The opposite of static media is [interactive media](/css/media_queries/media_groups/interactive).
+
+## Applicable Media Types
+
+(none in the database)
+
+## Applicable Media Features
+
+(none in the database)
+
+## Applicable CSS properties
+
+(none in the database)
+

@@ -1,53 +1,55 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, specs, and compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/Document
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example shows how to display the [[html/attributes/href|'''href''']] of the third link (Microsoft.com) defined in the document.
-|Code=&lt;a href{{=}}"http://yahoo.com"&gt;Yahoo.com&lt;/a&gt;
-&lt;a href{{=}}"http://msn.com"&gt;MSN.com&lt;/a&gt;
-&lt;a href{{=}}"http://microsoft.com"&gt;Microsoft.com&lt;/a&gt;
-&lt;script&gt;
-alert(document.links[2].href);
-&lt;/script&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-For [[html/elements/a|'''a''']] objects to appear in the collection, they must have an [[html/attributes/href|'''href''']] attribute.
-|Import_Notes====Syntax===
-===Standards information===
+---
+title: links
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, specs, and compat'
+uri: dom/Document/links
+
+---
+# links
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.links;
+element.links = value;
+```
+
+## Examples
+
+This example shows how to display the [**href**](/html/attributes/href) of the third link (Microsoft.com) defined in the document.
+
+    <a href="http://yahoo.com">Yahoo.com</a>
+    <a href="http://msn.com">MSN.com</a>
+    <a href="http://microsoft.com">Microsoft.com</a>
+    <script>
+    alert(document.links[2].href);
+    </script>
+
+## Notes
+
+### Remarks
+
+For [**a**](/html/elements/a) objects to appear in the collection, they must have an [**href**](/html/attributes/href) attribute.
+
+### Syntax
+
+### Standards information
+
 There are no standards that apply here.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

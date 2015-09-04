@@ -1,56 +1,83 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The outline-offset property offsets the [[css/properties/outline|outline]] and draw it beyond the border edge.}}
-{{CSS Property
-|Initial value=0
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=<length> value in absolute units (px or physical).
-|Animatable=Yes
-|CSS object model property=outlineOffset
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=<length>
-|Description=Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). For more information about the supported length units, see CSS Values and Units Reference (Length). 
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=This is a keyword indicating that the value is inherited from their parent's element calculated value.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A simple example showing multiple &lt;span&gt;s with border and outline.
-|Code=&lt;div class="all"&gt;
-    &lt;p&gt;
-      &lt;span class="one"&gt;One&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="two"&gt;Two&lt;/span&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      &lt;span class="three"&gt;Three&lt;/span&gt;
-    &lt;/p&gt;
-&lt;/div&gt;
-|LiveURL=http://code.webplatform.org/gist/5579301
-}}{{Single Example
-|Language=CSS
-|Code=.all {
+---
+title: outline-offset
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The outline-offset property offsets the outline and draw it beyond the border edge.'
+code_samples:
+  - 'http://gist.github.com/5579301'
+uri: css/properties/outline-offset
+
+---
+# outline-offset
+
+## Summary
+
+The outline-offset property offsets the outline and draw it beyond the border edge.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `0`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   \<length\> value in absolute units (px or physical).
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `outlineOffset`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `outline-offset: <length>`
+-   `outline-offset: inherit`
+
+## Values
+
+\<length\>
+:   Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). For more information about the supported length units, see CSS Values and Units Reference (Length).�
+
+inherit
+:   This is a keyword indicating that the value is inherited from their parent's element calculated value.
+
+## Examples
+
+A simple example showing multiple \<span\>s with border and outline.
+
+``` {.html}
+<div class="all">
+    <p>
+      <span class="one">One</span>
+    </p>
+    <p>
+      <span class="two">Two</span>
+    </p>
+    <p>
+      <span class="three">Three</span>
+    </p>
+</div>
+```
+
+[View live example](http://code.webplatform.org/gist/5579301)
+
+``` {.css}
+.all {
   background-color: lightgrey;
 }
 
 .all p {
   padding: 20px;
 }
-  
+
 .all span {
   padding: 10px;
   margin: 10px 10px 10px 10px;
@@ -71,32 +98,24 @@
 .all .three {
   outline-offset: 0.2em;
 }
-|LiveURL=http://code.webplatform.org/gist/5579301
-}}
-}}
-{{Notes_Section
-|Usage=If the computed value of ‘outline-offset’ is anything other than 0, then the outline is outset from the border edge by that amount.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Basic User Interface Module Level 3 (CSS3 UI)
-|URL=http://dev.w3.org/csswg/css-ui/#outline-offset0
-|Status=Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/5579301)
+
+## Usage
+
+     If the computed value of ‘outline-offset’ is anything other than 0, then the outline is outset from the border edge by that amount.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Basic User Interface Module Level 3 (CSS3 UI)](http://dev.w3.org/csswg/css-ui/#outline-offset0)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

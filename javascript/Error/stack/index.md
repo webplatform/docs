@@ -1,22 +1,29 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Gets or sets the error stack as a string that contains the stack trace frames.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=object '''.stack'''
-}}
-|Values=
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example shows how to get the stack when you're catching an error.
-|Code=try
+---
+title: stack
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Gets or sets the error stack as a string that contains the stack trace frames.'
+uri: javascript/Error/stack
+
+---
+# stack
+
+## Summary
+
+Gets or sets the error stack as a string that contains the stack trace frames.
+
+## Syntax
+
+    object .stack
+
+## Examples
+
+The following example shows how to get the stack when you're catching an error.
+
+``` {.js}
+try
      {
          var x = y.name;
      }
@@ -25,10 +32,12 @@
          document.write ("Error stack: ")
          document.write (e.stack);
      }
-}}{{Single Example
-|Language=JavaScript
-|Description=The following example shows how to set and then get the stack.
-|Code=try
+```
+
+The following example shows how to set and then get the stack.
+
+``` {.js}
+try
      {
          var err = Error("my error");
          err.stack = "my stack trace";
@@ -39,34 +48,30 @@
          document.write ("Error stack: ")
          document.write (e.stack);
      }
-}}
-}}
-{{Remarks_Section
-|Remarks=The '''stack''' property is set to undefined when the error is constructed, and gets the trace information when the error is raised. If an error is raised multiple times, the '''stack''' property is updated each time the error is raised.
+```
 
-Stack frames are displayed in the following format: at FunctionName (&lt;Fully-qualified name/URL&gt;:&lt;line number&gt;:&lt;column number&gt;)
+## Remarks
+
+The **stack** property is set to undefined when the error is constructed, and gets the trace information when the error is raised. If an error is raised multiple times, the **stack** property is updated each time the error is raised.
+
+Stack frames are displayed in the following format: at FunctionName (\<Fully-qualified name/URL\>:\<line number\>:\<column number\>)
 
 If you create your own Error object and set the stack trace to a value, the value won't be overwritten when the error is thrown.
 
-The '''stack''' property does not show inline functions in its frames. It shows only the physical stack.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Error/description{{!}}description Property (Error)]]
-* [[javascript/Error/message{{!}}message Property (Error)]]
-* [[javascript/Error/name{{!}}name Property (Error)]]
-* [[javascript/Error/stackTraceLimit{{!}}stackTraceLimit Property (Error)]]
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh699850(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+The **stack** property does not show inline functions in its frames. It shows only the physical stack.
+
+## See also
+
+### Other articles
+
+-   [description Property (Error)](/javascript/Error/description)
+-   [message Property (Error)](/javascript/Error/message)
+-   [name Property (Error)](/javascript/Error/name)
+-   [stackTraceLimit Property (Error)](/javascript/Error/stackTraceLimit)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh699850(v=vs.94).aspx)
+

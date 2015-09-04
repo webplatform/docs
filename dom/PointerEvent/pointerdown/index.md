@@ -1,83 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Stub, Needs Flags
-|Content=Incomplete, Compatibility Incomplete, Examples Needed
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Dispatched when a pointer enters the state of having a non-zero value for the [[dom/MouseEvent/buttons|buttons]] property.}}
-{{Event
-|Event_applies_to=dom/PointerEvent
-|Synchronous=Yes
-|Bubbles=Yes
-|Target=dom/Element
-|Cancelable=Yes
-|Default_action=Varies: when the pointer is primary, all default actions of the [[dom/MouseEvent/mousedown|mousedown]] event
-|Content=For mouse, this is when the device has at least one button depressed. For touch, this is when there is physical contact with the digitizer. For pen, this is when the pen has physical contact with the digitizer.
+---
+title: pointerdown
+tags:
+  - Events
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Dispatched when a pointer enters the state of having a non-zero value for the buttons property.'
+uri: dom/PointerEvent/pointerdown
+
+---
+# pointerdown
+
+## Summary
+
+Dispatched when a pointer enters the state of having a non-zero value for the buttons property.
+
+## Overview Table
+
+Synchronous
+:   Yes
+Bubbles
+:   Yes
+Target
+:   dom/Element
+Cancelable
+:   Yes
+Default action
+:   Varies: when the pointer is primary, all default actions of the [mousedown](/dom/MouseEvent/mousedown) event
+
+For mouse, this is when the device has at least one button depressed. For touch, this is when there is physical contact with the digitizer. For pen, this is when the pen has physical contact with the digitizer.
 
 For input devices that do not support hover, the user agent also fires a pointerover event preceding the pointerdown event.
-|Interface=dom/PointerEvent
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=element.addEventListener("pointerdown", handler, useCapture) 
-}}
-}}
-{{Notes_Section
-|Notes=Some pointer devices, such as mouse or pen, support multiple buttons. In the [http://www.w3.org/TR/DOM-Level-3-Events/ DOM Level 3 Events] Mouse Event model, each button press produces a mousedown and mouseup event.  
 
-Pointer Events do not fire overlapping pointerdown and pointerup events when an additional button is depressed while another button on the pointer device is already depressed. For detecting these cases, see [http://www.w3.org/TR/pointerevents/#chorded-button-interactions Chorded Button Interactions] in the PointerEvents specification.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Pointer Events
-|URL=http://www.w3.org/TR/pointerevents
-|Status=Working Draft
-|Relevant_changes=3.2.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=IE10
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10
-|Note=Supported as: [http://msdn.microsoft.com/en-us/library/ie/hh771909(v=vs.85).aspx MSPointerDown]
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh771909(v=vs.85).aspx pointerdown Event]
-|HTML5Rocks_link=
-}}
+## Examples
+
+``` {.js}
+element.addEventListener("pointerdown", handler, useCapture)
+```
+
+## Notes
+
+Some pointer devices, such as mouse or pen, support multiple buttons. In the [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/) Mouse Event model, each button press produces a mousedown and mouseup event.
+
+Pointer Events do not fire overlapping pointerdown and pointerup events when an additional button is depressed while another button on the pointer device is already depressed. For detecting these cases, see [Chorded Button Interactions](http://www.w3.org/TR/pointerevents/#chorded-button-interactions) in the PointerEvents specification.
+
+## Related specifications
+
+Specification
+:   Status
+[Pointer Events](http://www.w3.org/TR/pointerevents)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[pointerdown Event](http://msdn.microsoft.com/en-us/library/ie/hh771909(v=vs.85).aspx) Article]
+

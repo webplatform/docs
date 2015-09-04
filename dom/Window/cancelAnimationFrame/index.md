@@ -1,96 +1,108 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=Not part of user_timing, resource_timing, or navigation_timing interfaces.
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Cancels a requestAnimationFrame request}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=handle
-|Data type=any
-|Description=A handle of the animation request to cancel. The handle is the value returned by [[dom/Window/requestAnimationFrame|'''requestAnimationFrame''']].
-|Optional=No
-}}
-|Method_applies_to=dom/Window
-|Example_object_name=window
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Script-based animation using requestAnimationFrame&lt;/title&gt;
-&lt;style type{{=}}"text/css"&gt;
+---
+title: cancelAnimationFrame
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: Non-Standard
+notes:
+  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces.'
+summary: 'Cancels a requestAnimationFrame request'
+uri: dom/Window/cancelAnimationFrame
+
+---
+# cancelAnimationFrame
+
+## Summary
+
+Cancels a requestAnimationFrame request
+
+*Method of [dom/Window](/dom/Window)*
+
+## Syntax
+
+``` {.js}
+ window.cancelAnimationFrame(/* see parameter list */);
+```
+
+## Parameters
+
+### handle
+
+ Data-typeÂ
+:   any
+
+ A handle of the animation request to cancel. The handle is the value returned by [**requestAnimationFrame**](/dom/Window/requestAnimationFrame).
+
+## Return Value
+
+No return value
+
+## Examples
+
+``` {.html}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Script-based animation using requestAnimationFrame</title>
+<style type="text/css">
 div { position: absolute; left: 10px; top:100px; padding: 50px;
   background: crimson; color: white }
-&lt;/style&gt;
+</style>
 
-&lt;/head&gt;
-&lt;body&gt;
+</head>
+<body>
 
-&lt;div id{{=}}"animated" style{{=}}"left: 549.5px;"&gt;Hello there.&lt;/div&gt;
-&lt;button onclick{{=}}"start()"&gt;Start&lt;/button&gt;
-&lt;button onclick{{=}}"stop()"&gt;Stop&lt;/button&gt;
-    &lt;script type{{=}}"text/javascript"&gt;
-        var elm {{=}} document.getElementById("animated");
+<div id="animated" style="left: 549.5px;">Hello there.</div>
+<button onclick="start()">Start</button>
+<button onclick="stop()">Stop</button>
+    <script type="text/javascript">
+        var elm = document.getElementById("animated");
         var stopped;
-        var requestId {{=}} 0;
+        var requestId = 0;
         var starttime;
 
         function render(time) {
-            // set left style to a function of time. 
+            // set left style to a function of time.
           if (!stopped) {
-            elm.style.left {{=}} ((Date.now() - starttime) / 4 % 600) + "px";
-            requestId {{=}} window.requestAnimationFrame(render);
+            elm.style.left = ((Date.now() - starttime) / 4Â % 600) + "px";
+            requestId = window.requestAnimationFrame(render);
             }
         }
 
         function start() {
-            starttime {{=}} Date.now();
-            requestId {{=}} window.requestAnimationFrame(render);
-            stopped {{=}} false;
+            starttime = Date.now();
+            requestId = window.requestAnimationFrame(render);
+            stopped = false;
         }
         function stop() {
             if (requestId) {
                 window.cancelAnimationFrame(requestId);
             }
-            stopped {{=}} true;
+            stopped = true;
         }
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-}}
-}}
-{{Notes_Section
-|Usage=Script based animations.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}229562 Timing control for script-based animations]
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Window.cancelAnimationFrame cancelAnimationFrame]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/windows/apps/hh453388.aspx cancelAnimationFrame Method]
-|HTML5Rocks_link=
-}}
+</script>
+</body>
+</html>
+```
+
+## Usage
+
+     Script based animations.
+
+### Syntax
+
+### Standards information
+
+-   [Timing control for script-based animations](http://go.microsoft.com/fwlink/p/?linkid=229562)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[cancelAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/Window.cancelAnimationFrame) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[cancelAnimationFrame Method](http://msdn.microsoft.com/en-us/library/windows/apps/hh453388.aspx) Article]
+

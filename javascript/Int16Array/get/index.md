@@ -1,32 +1,39 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Omittable. Gets the element at the specified index.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=var value = int16Array.get(index);
-}}
-|Values={{JS Syntax Parameter
-|Name=value
-|Description=The value returned by this method.
-}}{{JS Syntax Parameter
-|Name=index
-|Description=The index at which to get the element of the array.
-}}
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following example shows how to get the first element of the array.
-|Code=var req = new XMLHttpRequest();
+---
+title: get
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Omittable. Gets the element at the specified index.'
+uri: javascript/Int16Array/get
+
+---
+# get
+
+## Summary
+
+Omittable. Gets the element at the specified index.
+
+## Syntax
+
+    var value = int16Array.get(index);
+
+**value**
+:   The value returned by this method.
+
+**index**
+:   The index at which to get the element of the array.
+
+## Examples
+
+The following example shows how to get the first element of the array.
+
+``` {.js}
+var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
      req.send();
- 
+
      req.onreadystatechange = function () {
          if (req.readyState === 4) {
              var buffer = req.response;
@@ -35,21 +42,11 @@
              var element = intArr.get(0);
          }
      }
-}}
-}}
-{{Remarks_Section}}
-{{Notes_Section}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx Windows Internet Explorer JavaScript reference
-|HTML5Rocks_link=
-}}
+```
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)
+

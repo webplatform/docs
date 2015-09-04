@@ -1,89 +1,91 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat table
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Returns the value of the content attribute within a specified namespace.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=namespaceURI
-|Data type=String
-|Description=The namespace URI that defines the desired attribute, or a null value.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=name
-|Data type=String
-|Description=The name of the desired attribute within the specified namespace.
-|Optional=No
-}}
-|Method_applies_to=dom/Element
-|Example_object_name=element
-|Return_value_name=attributeValue
-|Javascript_data_type=String
-|Return_value_description=The value of the content attribute, or null if it does not exist.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=// Get the first div element in the page.
+---
+title: getAttributeNS
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs compat table'
+summary: 'Returns the value of the content attribute within a specified namespace.'
+uri: dom/Element/getAttributeNS
+
+---
+# getAttributeNS
+
+## Summary
+
+Returns the value of the content attribute within a specified namespace.
+
+*Method of [dom/Element](/dom/Element)*
+
+## Syntax
+
+``` {.js}
+var attributeValue = element.getAttributeNS(namespaceURI, name);
+```
+
+## Parameters
+
+### namespaceURI
+
+ Data-typeÂ
+:   String
+
+ The namespace URI that defines the desired attribute, or a null value.
+
+### name
+
+ Data-typeÂ
+:   String
+
+ The name of the desired attribute within the specified namespace.
+
+## Return Value
+
+Returns an object of type String.
+
+The value of the content attribute, or null if it does not exist.
+
+## Examples
+
+``` {.js}
+// Get the first div element in the page.
 var element = document.querySelector("div");
 // Continue only if the element exists.
 if (element) {
  console.log("The value of the data-example attribute of the first div is " + element.getAttributeNS("html", "data-example"));
 }
-}}
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182717 Document Object Model (DOM) Level 3 Core Specification], Section 1.4
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Document Object Model (DOM) Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}{{Related Specification
-|Name=Document Object Model (DOM) Level 2 Core
-|URL=http://www.w3.org/TR/DOM-Level-2-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}{{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/
-|Status=Living Standard
-|Relevant_changes=Section 6.8
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=7 and earlier
-|Note=May return a number or a boolean value, if the attribute were set with [[dom/Element/setAttribute|'''setAttribute''']] and a number or boolean value, respectively (<code>element.setAttribute("wow", false)</code>).
-}}
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Element/getAttribute|getAttribute]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+### Syntax
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
+
+## Related specifications
+
+Specification
+:   Status
+[Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+[Document Object Model (DOM) Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
+:   Recommendation
+[DOM](http://dom.spec.whatwg.org/)
+:   Living Standard
+
+## See also
+
+### Related pages (MSDN)
+
+-   `getAttribute`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

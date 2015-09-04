@@ -1,104 +1,238 @@
-{{Page_Title|table}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add description, notes, compatibility.
-|Checked_Out=Yes
-|High-level issues=Data Not Semantic
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The <code>&lt;table&gt;</code> element is a wrapper for an HTML table. It defines the start and end of a table, and can contain other table elements, such as <code>&lt;tr&gt;</code>.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLTableElement
-|Tag_omissions=
-|CSS_display=
-|Content=The <code>&lt;table&gt;</code> element is a container for HTML table data, which is used to mark up tabular data. Tabular data is any data that can be systematically displayed in rows and columns, for example, "See table 3 for an example."
+---
+title: table
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add description, notes, compatibility.'
+summary: 'The <table> element is a wrapper for an HTML table. It defines the start and end of a table, and can contain other table elements, such as <tr>.'
+uri: html/elements/table
 
-Tables were often used for laying out web pages because tables helped fix the position of text on the page, however, this use has become an outdated.  We recommend you use <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> for fixed layouts. You can still use tables for tabular data. 
+---
+# table
 
-You might find working with an HTML table editor easier than coding tables by hand, unless you are especially adept at visualizing table row and columns using the appropriate HTML tags. It is easy to miss or drop a tag when coding tables manually, which will cause your table to be malformed.  
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the [[html/elements/tbody|'''tbody''']] element with the [[html/elements/table|'''table''']], [[html/elements/td|'''td''']], [[html/elements/thead|'''thead''']], and [[html/elements/tr|'''tr''']] elements to create a table with the first row in the table head and the second row in the table body.
-|Code=&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
+## Summary
+
+The \<table\> element is a wrapper for an HTML table. It defines the start and end of a table, and can contain other table elements, such as \<tr\>.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLTableElement](/dom/HTMLTableElement)
+
+The `<table>` element is a container for HTML table data, which is used to mark up tabular data. Tabular data is any data that can be systematically displayed in rows and columns, for example, "See table 3 for an example."
+
+Tables were often used for laying out web pages because tables helped fix the position of text on the page, however, this use has become an outdated. We recommend you use `<div>` and `<span>` for fixed layouts. You can still use tables for tabular data.
+
+You might find working with an HTML table editor easier than coding tables by hand, unless you are especially adept at visualizing table row and columns using the appropriate HTML tags. It is easy to miss or drop a tag when coding tables manually, which will cause your table to be malformed.
+
+## Examples
+
+This example uses the [**tbody**](/html/elements/tbody) element with the ****table****, [**td**](/html/elements/td), [**thead**](/html/elements/thead), and [**tr**](/html/elements/tr) elements to create a table with the first row in the table head and the second row in the table body.
+
+``` {.html}
+<table>
+  <thead>
+    <tr>
+      <td>
         This text is in the thead.
-      &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
         This text is in the tbody.
-      &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=At the most simple level you need to use the following three groups of tags to create a basic table. 
+      </td>
+    </tr>
+  </tbody>
+</table>
+```
 
-1) <table></table>
-<table> tag begins the table, and <ltable> tag ends the table.
+## Usage
 
-2> <tr</tr>
-<tr> creates a row while </tr> ends the row. 
+     At the most simple level you need to use the following three groups of tags to create a basic table.
 
-3> <td></td>
-<td> creates a column space while </td> ends the column space. These are usually nested inside a pair of <tr></tr> tags. The term "td" stands for table data, but as a representation, you can view it like a "column tag".
-
-The three pairs of tags can create a simple two row, two column table using the code below. 
+1)
 
 <table>
-<tr><td>row 1 col 1</td><td>row 1 col 2</td></tr>
-<tr><td>row 1 col 2</td><td>row 2 col 2</td></tr>
 </table>
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/tabular-data.html#the-table-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/tabular-data.html#the-table-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/tables.html#edef-TABLE
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML, Tables
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+<table>
+tag begins the table, and \<ltable\> tag ends the table. 2\> \<tr\</tr\>
+
+<tr>
+creates a row while
+
+</tr>
+ends the row. 3\>
+
+<td>
+</td>
+<td>
+creates a column space while
+
+</td>
+ends the column space. These are usually nested inside a pair of
+
+<tr>
+</tr>
+tags. The term "td" stands for table data, but as a representation, you can view it like a "column tag".
+
+The three pairs of tags can create a simple two row, two column table using the code below.
+
+row 1 col 1
+:   row 1 col 2
+row 1 col 2
+:   row 2 col 2
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-table-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-table-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TABLE)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+#### Tables
+
+-   [border-collapse](/css/properties/border-collapse)
+
+-   [border-spacing](/css/properties/border-spacing)
+
+-   [caption-side](/css/properties/caption-side)
+
+-   [empty-cells](/css/properties/empty-cells)
+
+-   [Tables](/css/tables)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   **table**
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+</table>

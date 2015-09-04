@@ -1,30 +1,38 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, example, spec reference, standardization status
-|Checked_Out=No
-|High-level issues=Missing Relevant Sections, Needs Topics, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Element
-|DOM_interface=svg/objects/SVGElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=In the following code example, the clipPath element is used to create a clipping path that will visually hide part of an element. The clipping path is defined by a circle in a defs element and has a defined URL.
+---
+title: clipPath
+tags:
+  - Markup
+  - Elements
+  - SVG
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+uri: svg/elements/clipPath
 
-<syntaxhighlight lang="xml">
+---
+# clipPath
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [SVGElement](/svg/objects/SVGElement)
+
+## Examples
+
+In the following code example, the clipPath element is used to create a clipping path that will visually hide part of an element. The clipping path is defined by a circle in a defs element and has a defined URL.
+
+``` {.xml}
 <path d="M 50,100 Q 150,50 250,100" stroke="hotpink"
     stroke-width="10" fill="white"/>
-</syntaxhighlight>
+```
 
-The original path would have looked like this:
-|Code=<syntaxhighlight lang="xml">
+ The original path would have looked like this:
+
+``` {.html}
+
+
 <!DOCTYPE HTML>
 <html>
   <head></head>
@@ -35,12 +43,13 @@ The original path would have looked like this:
     </svg>
   </body>
 </html>
-</syntaxhighlight>
-}}{{Single Example
-|Language=HTML
-|Description=The path after being clipped by the circle looks like this:
+```
 
-<syntaxhighlight lang="xml">
+</pre>
+
+The path after being clipped by the circle looks like this:
+
+``` {.xml}
 <svg width="400" height="400">
   <defs>
     <clipPath id="myClipPath">
@@ -50,8 +59,11 @@ The original path would have looked like this:
   <path d="M 50,100 Q 150,50 250,100" stroke="hotpink"
       stroke-width="10" fill="white" clip-path="url(#myClipPath)"/>
 </svg>
-</syntaxhighlight>
-|Code=<syntaxhighlight lang="xml">
+```
+
+``` {.html}
+
+
 <!DOCTYPE HTML>
 <html>
   <head></head>
@@ -67,66 +79,56 @@ The original path would have looked like this:
     </svg>
   </body>
 </html>
-</syntaxhighlight>
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
+```
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
-|Import_Notes====Standards information===
+</pre>
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.6.1
+## Notes
 
-===Members===
+### Remarks
 
-The '''SVGClipPathElement''' object has these events:
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
+### Standards information
 
-The '''SVGClipPathElement''' object has these methods:
+-   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.6.1
 
-*[[svg/methods/getBBox|'''getBBox''']]: Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
-*[[svg/methods/getCTM|'''getCTM''']]: Gets  the transformation matrix  that transforms from  the current user units to the viewport coordinate system for the [[svg/properties/nearestViewportElement|'''nearestViewportElement''']] object.
-*[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
-*[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
-*[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
+### Members
 
-The '''SVGClipPathElement''' object has these properties:
+The **SVGClipPathElement** object has these events:
 
-*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
-*[[svg/properties/clipPathUnits|'''clipPathUnits''']]: Gets or sets the  given '''SVGClipPathElement''' element.
-*[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]: Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
-*[[svg/properties/farthestViewportElement|'''farthestViewportElement''']]: Gets  a value that represents the farthest ancestor [[svg/elements/svg|'''svg''']] element.
-*[[svg/properties/focusable|'''focusable''']]: Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when  a user presses  the Tab key).
-*[[svg/properties/nearestViewportElement|'''nearestViewportElement''']]: Gets  a value that indicates which element established the current viewport.
-*[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
-*[[svg/properties/requiredExtensions|'''requiredExtensions''']]: Gets a white space-delimited list of required language extensions.
-*[[svg/properties/requiredFeatures|'''requiredFeatures''']]: Gets or sets a white space-delimited list of feature strings.
-*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
-*[[svg/properties/systemLanguage|'''systemLanguage''']]: Gets or sets a comma-separated list of language names.
-*[[svg/properties/transform|'''transform''']]: Gets the value of a [[svg/properties/transform|'''transform''']] attribute.
-*[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
-*[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
-*[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
-*[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+-   [**onload**](/svg/events/load): Occurs when the browser has fully parsed the element and all of its descendants.
+
+The **SVGClipPathElement** object has these methods:
+
+-   [**getBBox**](/svg/methods/getBBox): Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
+-   [**getCTM**](/svg/methods/getCTM): Gets the transformation matrix that transforms from the current user units to the viewport coordinate system for the [**nearestViewportElement**](/svg/properties/nearestViewportElement) object.
+-   [**getScreenCTM**](/svg/methods/getScreenCTM): Gets the transformation matrix from the current user units to the screen coordinate system.
+-   [**getTransformToElement**](/svg/methods/getTransformToElement): Gets the transformation matrix that transforms from the user coordinate system on the current element to the user coordinate system on the specified target element.
+-   [**hasExtension**](/svg/methods/hasExtension): Determines if the specified extension is supported.
+
+The **SVGClipPathElement** object has these properties:
+
+-   [**className**](/svg/properties/className): Gets the names of the classes that are assigned to this object.
+-   [**clipPathUnits**](/svg/properties/clipPathUnits): Gets or sets the given **SVGClipPathElement** element.
+-   [**externalResourcesRequired**](/svg/properties/externalResourcesRequired): Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
+-   [**farthestViewportElement**](/svg/properties/farthestViewportElement): Gets a value that represents the farthest ancestor [**svg**](/svg/elements/svg) element.
+-   [**focusable**](/svg/properties/focusable): Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when a user presses the Tab key).
+-   [**nearestViewportElement**](/svg/properties/nearestViewportElement): Gets a value that indicates which element established the current viewport.
+-   [**ownerSVGElement**](/svg/properties/ownerSVGElement): Gets the nearest ancestor [**svg**](/svg/objects/SVGElement) element.
+-   [**requiredExtensions**](/svg/properties/requiredExtensions): Gets a white space-delimited list of required language extensions.
+-   [**requiredFeatures**](/svg/properties/requiredFeatures): Gets or sets a white space-delimited list of feature strings.
+-   [**style**](/svg/properties/style): Gets a [**style**](/css/cssom/style) object.
+-   [**systemLanguage**](/svg/properties/systemLanguage): Gets or sets a comma-separated list of language names.
+-   [**transform**](/svg/properties/transform): Gets the value of a [**transform**](/svg/properties/transform) attribute.
+-   [**viewportElement**](/svg/properties/viewportElement): Gets the element that established the current viewport.
+-   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
+-   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
+-   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

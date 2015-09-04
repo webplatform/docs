@@ -1,76 +1,176 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Stub, needs content.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=css/cssom/styleSheet
-|Example_object_name=p
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=CSSOM
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/address|address]]</code>
-*<code>[[html/elements/blockquote|blockquote]]</code>
-*<code>[[html/elements/body|body]]</code>
-*<code>[[html/elements/center|center]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[html/elements/custom|custom]]</code>
-*<code>[[html/elements/dd|dd]]</code>
-*<code>[[html/elements/div|div]]</code>
-*<code>[[html/elements/dl|dl]]</code>
-*<code>[[html/elements/dt|dt]]</code>
-*<code>[[html/elements/fieldset|fieldset]]</code>
-*<code>[[html/elements/form|form]]</code>
-*<code>[[html/elements/hn|hn]]</code>
-*<code>[[html/elements/isIndex|isIndex]]</code>
-*<code>[[html/elements/li|li]]</code>
-*<code>[[html/elements/listing|listing]]</code>
-*<code>[[html/elements/menu|menu]]</code>
-*<code>[[html/elements/ol|ol]]</code>
-*<code>[[html/elements/p|p]]</code>
-*<code>[[html/elements/plainText|plainText]]</code>
-*<code>[[html/elements/pre|pre]]</code>
-*<code>[[html/elements/ul|ul]]</code>
-*<code>[[html/elements/xmp|xmp]]</code>
-*<code>[[css/properties/direction|direction]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: blockDirection
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Stub, needs content.'
+uri: css/cssom/styleSheet/blockDirection
+
+---
+# blockDirection
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [css/cssom/styleSheet](/css/cssom/styleSheet)*
+
+## Syntax
+
+``` {.js}
+var object = p.blockDirection();
+```
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+**Needs Examples**: This section should include examples.
+
+### Syntax
+
+## See also
+
+### Related articles
+
+#### CSSOM
+
+-   [href](/css/cssom/CSSImportRule/href)
+
+-   [media](/css/cssom/CSSImportRule/media)
+
+-   [CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
+
+-   [keyText](/css/cssom/CSSKeyframeRule/keyText)
+
+-   [style](/css/cssom/CSSKeyframeRule/style)
+
+-   [CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
+
+-   [cssRules](/css/cssom/CSSKeyframesRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSKeyframesRule/deleteRule)
+
+-   [findRule](/css/cssom/CSSKeyframesRule/findRule)
+
+-   [insertRule](/css/cssom/CSSKeyframesRule/insertRule)
+
+-   [name](/css/cssom/CSSKeyframesRule/name)
+
+-   [CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)
+
+-   [appendMedium](/css/cssom/CSSMediaList/appendMedium)
+
+-   [deleteMedium](/css/cssom/CSSMediaList/deleteMedium)
+
+-   [item](/css/cssom/CSSMediaList/item)
+
+-   [mediaText](/css/cssom/CSSMediaList/mediaText)
+
+-   [CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
+
+-   [cssRules](/css/cssom/CSSMediaRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSMediaRule/deleteRule)
+
+-   [insertRule](/css/cssom/CSSMediaRule/insertRule)
+
+-   [media](/css/cssom/CSSMediaRule/media)
+
+-   [CSSNamespaceRule](/css/cssom/CSSNamespaceRule/CSSNamespaceRule)
+
+-   [namespaceURI](/css/cssom/CSSNamespaceRule/namespaceURI)
+
+-   [prefix](/css/cssom/CSSNamespaceRule/prefix)
+
+-   [CSSOM View](/css/cssom/CSSOM_view)
+
+-   [CSSRule](/css/cssom/CSSRule)
+
+-   [cssText](/css/cssom/CSSRule/cssText)
+
+-   [parentRule](/css/cssom/CSSRule/parentRule)
+
+-   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
+
+-   [type](/css/cssom/CSSRule/type)
+
+-   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+
+-   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
+
+-   [clipLeft](/css/cssom/properties/clipLeft)
+
+-   [clipRight](/css/cssom/properties/clipRight)
+
+-   [clipTop](/css/cssom/properties/clipTop)
+
+-   [cssFloat](/css/cssom/properties/cssFloat)
+
+-   [fontWeight](/css/cssom/properties/fontWeight)
+
+-   [hasLayout](/css/cssom/properties/hasLayout)
+
+-   [height](/css/cssom/properties/height)
+
+-   [href](/css/cssom/properties/href)
+
+-   [imports](/css/cssom/properties/imports)
+
+-   [innerWidth](/css/cssom/properties/innerWidth)
+
+-   [isAlternate](/css/cssom/properties/isAlternate)
+
+-   [isPrefAlternate](/css/cssom/properties/isPrefAlternate)
+
+-   [item](/css/cssom/properties/item)
+
+-   [length](/css/cssom/properties/length)
+
+-   [media](/css/cssom/properties/media)
+
+-   [offsetX](/css/cssom/properties/offsetX)
+
+-   [offsetY](/css/cssom/properties/offsetY)
+
+-   [outerHeight](/css/cssom/properties/outerHeight)
+
+<!-- -->
+
+    … further results
+
+### Related pages (MSDN)
+
+-   `address`
+-   `blockquote`
+-   `body`
+-   `center`
+-   `currentStyle`
+-   `custom`
+-   `dd`
+-   `div`
+-   `dl`
+-   `dt`
+-   `fieldset`
+-   `form`
+-   `hn`
+-   `isIndex`
+-   `li`
+-   `listing`
+-   `menu`
+-   `ol`
+-   `p`
+-   `plainText`
+-   `pre`
+-   `ul`
+-   `xmp`
+-   `direction`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

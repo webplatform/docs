@@ -1,145 +1,88 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets an element with a specified ID.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=id
-|Data type=String
-|Description=The ID to match.
-|Optional=No
-}}
-|Method_applies_to=dom/Document
-|Example_object_name=document
-|Return_value_name=element
-|Javascript_data_type=DOM Node
-|Return_value_description=An element that matches the specified ID. If there are multiple matches, the first is returned. If there is no match, <code>null</code> is returned.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following example uses '''getElementById''' to display the content of the first '''div''' element in a collection with the [[html/attributes/id|'''ID''']] attribute value, <code>div1</code>, when a button is clicked.
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
- &lt;head&gt;
-  &lt;title&gt;"Show First DIV Content"&lt;/title&gt;
-  &lt;meta charset{{=}}"utf-8"/&gt;
-  &lt;script type{{=}}"text/javascript"&gt;
+---
+title: getElementById
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Gets an element with a specified ID.'
+uri: dom/Document/getElementById
+
+---
+# getElementById
+
+## Summary
+
+Gets an element with a specified ID.
+
+*Method of [dom/Document](/dom/Document)*
+
+## Syntax
+
+``` {.js}
+var element = document.getElementById(id);
+```
+
+## Parameters
+
+### id
+
+ Data-typeÂ
+:   String
+
+ The ID to match.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+An element that matches the specified ID. If there are multiple matches, the first is returned. If there is no match, `null` is returned.
+
+## Examples
+
+The following example uses **getElementById** to display the content of the first **div** element in a collection with the [**ID**](/html/attributes/id) attribute value, `div1`, when a button is clicked.
+
+``` {.html}
+<!doctype html>
+<html>
+ <head>
+  <title>"Show First DIV Content"</title>
+  <meta charset="utf-8"/>
+  <script type="text/javascript">
 function getID() {
    // Display the content of the first DIV element in the collection.
-   var div {{=}} document.getElementById("div1");
+   var div = document.getElementById("div1");
    alert("The content of the first DIV element is " + "\"" + div.innerHTML + "\".");
 }
-  &lt;/script&gt;
- &lt;/head&gt;
- &lt;body&gt;
-  &lt;div id{{=}}"div1"&gt;Div #1&lt;/div&gt;
-  &lt;div id{{=}}"div2"&gt;Div #2&lt;/div&gt;
-  &lt;div id{{=}}"div3"&gt;Div #3&lt;/div&gt;
-  &lt;input type{{=}}"button" value{{=}}"Show First DIV Content" onclick{{=}}"getID()"&gt; 
- &lt;/body&gt;
-&lt;/html&gt;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 2 Core
-|URL=http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-getElBId
-|Status=Recommendation
-|Relevant_changes=Section 1.2. Fundamental Interfaces
-}}{{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-getElBId
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}{{Related Specification
-|Name=W3C DOM4
-|URL=http://www.w3.org/TR/2014/CR-dom-20140508/#dom-nonelementparentnode-getelementbyid
-|Status=Candidate Recommendation
-|Relevant_changes=Section 5.2.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=5.5 (earlier?)
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=1
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=4 (older)
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=16
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=1
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=6
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=6
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=4 (earlier)
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=1
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=5.5 - 7
-|Note=The method also considers results of searches for elements with ID or name attributes that match the the specified value in a case insensitive manner as valid matches.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx
-|HTML5Rocks_link=
-}}
-{{Editorial/Deletion_Candidate}}
+  </script>
+ </head>
+ <body>
+  <div id="div1">Div #1</div>
+  <div id="div2">Div #2</div>
+  <div id="div3">Div #3</div>
+  <input type="button" value="Show First DIV Content" onclick="getID()">
+ </body>
+</html>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-getElBId)
+:   Recommendation
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-getElBId)
+:   Recommendation
+[W3C DOM4](http://www.w3.org/TR/2014/CR-dom-20140508/#dom-nonelementparentnode-getelementbyid)
+:   Candidate Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+
+**Deletion Candidate**: This page is a candidate for deletion
+

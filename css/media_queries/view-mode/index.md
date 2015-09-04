@@ -1,33 +1,18 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add summery, values, syntax, example, description, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{CSS_Media_Feature}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: view-mode
+tags:
+  - CSS
+  - Media
+  - Feature
+readiness: 'Not Ready'
+notes:
+  - 'Add summery, values, syntax, example, description, specifications, compatibility.'
+uri: 'css/media queries/view-mode'
+
+---
+# view-mode
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+**Needs Examples**: This section should include examples.
+

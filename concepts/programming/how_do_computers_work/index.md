@@ -1,5 +1,10 @@
-==What is Binary?==
+---
+title: how do computers work
+uri: 'concepts/programming/how do computers work'
 
-==Compilers==
+---
+## What is Binary?
 
-==Compiled Languages vs. Interpreted Languages==
+## Compilers
+
+## Compiled Languages vs. Interpreted Languages

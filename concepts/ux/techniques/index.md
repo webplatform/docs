@@ -1,65 +1,71 @@
-{{Page_Title|User eXperience (UX) Design Techniques}}
-{{Flags
-|State=Not Ready
-|Checked_Out=No
-}}
-{{API_Name}}
-{{Summary_Section|A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.}}
-{{Concept_Page
-|Content====Research & Analysis===
-*[[concepts/ux/techniques/contextual_inquiry|Contextual inquiry]]
-*[[concepts/ux/techniques/stakeholder_mapping|Stakeholder mapping]]
-*[[concepts/ux/techniques/ux_map|User eXperience map]]
-*[[concepts/ux/techniques/personas|Personas]]
-*[[concepts/ux/techniques/empathy_map|Empathy map]]
-*[[concepts/ux/techniques/journey_map|Journey map]]
+---
+title: techniques
+tags:
+  - Concept
+  - Pages
+  - Design
+  - UI
+  - Usability
+readiness: 'Not Ready'
+summary: 'A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.'
+uri: concepts/ux/techniques
 
-===Scoping and Initial Design===
-*[[concepts/ux/techniques/elevator_pitch|Elevator Pitch]]
-*[[concepts/ux/techniques/inception_deck|Collaborative design sessions (Inception deck)]]
-*[[concepts/ux/techniques/user_stories|User Stories]]
-*[[concepts/ux/techniques/story_mapping|Story mapping]]
-*[[concepts/ux/techniques/storyboard|Storyboard]]
-*[[concepts/ux/techniques/sketchboard|Sketchboard]]
-*[[concepts/ux/techniques/visual_board|Agile Schedule, Rich Visual Backlog or Visual Board]]
-*Flow diagram
-*Rich Visual Backlog
-*Behavior driven development
+---
+# User eXperience (UX) Design Techniques
 
-===Prototyping===
-*Sketches
-*Wireframes
-*Paper prototyping
-*Mockups
-*Functional Prototype
+## Summary
 
-===Development===
-*Just-in-time design
+A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.
 
-===Testing===
-*Quantitative Usability Testing
-*Pair testing
-*Controlled experiments
-*Cognitive walkthrough
-*Heuristic Evaluation
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=At product development stages
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=[[concepts/ux/user_experience_design|User eXperience (UX)]]
-}}
-{{Topics|Design, UI, Usability}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+### Research & Analysis
+
+-   [Contextual inquiry](/concepts/ux/techniques/contextual_inquiry)
+-   [Stakeholder mapping](/concepts/ux/techniques/stakeholder_mapping)
+-   [User eXperience map](/concepts/ux/techniques/ux_map)
+-   [Personas](/concepts/ux/techniques/personas)
+-   [Empathy map](/concepts/ux/techniques/empathy_map)
+-   [Journey map](/concepts/ux/techniques/journey_map)
+
+### Scoping and Initial Design
+
+-   [Elevator Pitch](/concepts/ux/techniques/elevator_pitch)
+-   [Collaborative design sessions (Inception deck)](/concepts/ux/techniques/inception_deck)
+-   [User Stories](/concepts/ux/techniques/user_stories)
+-   [Story mapping](/concepts/ux/techniques/story_mapping)
+-   [Storyboard](/concepts/ux/techniques/storyboard)
+-   [Sketchboard](/concepts/ux/techniques/sketchboard)
+-   [Agile Schedule, Rich Visual Backlog or Visual Board](/concepts/ux/techniques/visual_board)
+-   Flow diagram
+-   Rich Visual Backlog
+-   Behavior driven development
+
+### Prototyping
+
+-   Sketches
+-   Wireframes
+-   Paper prototyping
+-   Mockups
+-   Functional Prototype
+
+### Development
+
+-   Just-in-time design
+
+### Testing
+
+-   Quantitative Usability Testing
+-   Pair testing
+-   Controlled experiments
+-   Cognitive walkthrough
+-   Heuristic Evaluation
+
+## Usage
+
+     At product development stages
+
+## See also
+
+### Other articles
+
+[User eXperience (UX)](/concepts/ux/user_experience_design)
+

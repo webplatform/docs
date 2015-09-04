@@ -1,44 +1,41 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: gradientTransform
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/gradientTransform
 
-===Remarks===
+---
+# gradientTransform
 
-The  transformation matrix that the '''gradientTransform''' property defines is inserted to the right of any previously defined transformations, including the implicit transformation that is required  to convert from object bounding box units to user space.
+## Notes
 
-If you do not specify the '''gradientTransform'''  property, the gradient effect will be as if an identity transform were used instead.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+The transformation matrix that the **gradientTransform** property defines is inserted to the right of any previously defined transformations, including the implicit transformation that is required to convert from object bounding box units to user space.
 
-===Standards information===
+If you do not specify the **gradientTransform** property, the gradient effect will be as if an identity transform were used instead.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.1
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.1
 
-*[[svg/elements/gradient|'''SVGGradientElement''']]
-*[[svg/elements/linearGradient|'''SVGLinearGradientElement''']]
-*[[svg/elements/radialGradient|'''SVGRadialGradientElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGGradientElement**](/svg/elements/gradient)
+-   [**SVGLinearGradientElement**](/svg/elements/linearGradient)
+-   [**SVGRadialGradientElement**](/svg/elements/radialGradient)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

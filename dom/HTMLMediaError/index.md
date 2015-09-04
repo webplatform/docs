@@ -1,48 +1,56 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=summary, examples, clean-up of MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Represents a media element ([[html/elements/audio|audio]] or [[html/elements/video|video]]) error.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=Retrieve the actual error code by using the [[dom/HTMLMediaError/code|'''code''']] property.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 4.8.10.1
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 4.8.10.1
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: HTMLMediaError
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'summary, examples, clean-up of MSDN import'
+summary: 'Represents a media element (audio or video) error.'
+uri: dom/HTMLMediaError
+
+---
+# HTMLMediaError
+
+## Summary
+
+Represents a media element (audio or video) error.
+
+## Properties
+
+API Name
+:   Summary
+[code](/dom/HTMLMediaError/code)
+:   Returns the current **HTMLMediaError** code or null if no error has occurred.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+Retrieve the actual error code by using the [**code**](/dom/HTMLMediaError/code) property.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5](http://www.w3.org/TR/html5/)
+:   Working Draft
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,195 +1,208 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs summary, examples, spec, and compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Event
-|Event_applies_to=dom/Event
-|Synchronous=No
-|Bubbles=No
-|Target=dom/Element
-|Cancelable=No
-|Interface=dom/Event
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-Each document may have up to one active element.  Set the active element with the [[dom/methods/setActive|'''setActive''']] or [[dom/methods/focus|'''focus''']] methods.  Using the '''setActive''' method has no effect on document focus.  Using the '''focus''' method on an individual element causes the element to gain focus and become the active element.
-Using the [[dom/methods/focus|'''focus''']] method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus.
-For a given display, only one element has focus at any given time.  Striking a key directly affects only the element with focus.  Events fired by that keystroke may be scripted to affect other documents and child elements.
-With Microsoft Internet Explorer 5.5 and later, focus on a [[dom/Document|'''Document''']], and the [[dom/properties/activeElement|'''active element''']] of a '''document''' can be managed separately.  With Microsoft Internet Explorer 6 and later, use the '''onbeforeactivate''' event to cancel setting an element as active.  Canceling an element's '''onbeforeactivate''' event has three different behaviors, depending on the action which fired the event.
-*When fired by a user clicking on the element, canceling will force the [[dom/methods/focus|'''focus''']] on the parent element and bubble up the chain until it hits a focusable element.
-*When fired by a user tabbing through the document, canceling will force the [[dom/methods/focus|'''focus''']] on the next element in the taborder. Shift-tab will force the '''focus''' on the previous element in the taborder.
-*When fired programmatically by the [[dom/methods/focus|'''focus''']] or the document.[[dom/methods/setActive|'''setActive''']] methods, canceling will have no effect.
+---
+title: beforeactivate
+tags:
+  - Events
+readiness: 'Not Ready'
+notes:
+  - 'Needs summary, examples, spec, and compat'
+uri: dom/Event/beforeactivate
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/methods/setActive
+    - dom/methods/focus
+    - dom/properties/activeElement
+    - dom/properties/fromElement2
+    - dom/events/activate
+    - dom/events/beforedeactivate
+    - dom/events/deactivate
+    - dom/events/focusin
+    - dom/events/focusout
 
-'''Note'''  The '''onbeforeactivate''' event cannot be canceled when fired programmatically.
-Change activation from the '''event'''.[[dom/properties/fromElement2|'''fromElement''']] to the '''event'''.'''srcElement'''.
-To invoke this event, do one of the following:
-*Click an element, other than the [[dom/properties/activeElement|'''active''']] element of the document.
-*Use the keyboard to move focus from the active element to another element.
-*Invoke the [[dom/methods/setActive|'''setActive''']] method on an element, when the element is not the active element.
-*Invoke the [[dom/methods/focus|'''focus''']] method on an element, when the element is not the active element.
+---
+# beforeactivate
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*'''HTMLFrameSiteEvents2'''
-*'''HTMLElementEvents'''
-*'''HTMLElementEvents2'''
-*'''HTMLLinkElementEvents'''
-*'''HTMLLinkElementEvents2'''
-*'''HTMLFormElementEvents'''
-*'''HTMLFormElementEvents2'''
-*'''HTMLImgEvents'''
-*'''HTMLImgEvents2'''
-*'''HTMLTextContainerEvents'''
-*'''HTMLTextContainerEvents2'''
-*'''HTMLAnchorEvents2'''
-*'''HTMLLabelEvents'''
-*'''HTMLLabelEvents2'''
-*'''HTMLSelectElementEvents'''
-*'''HTMLSelectElementEvents2'''
-*'''HTMLInputTextElementEvents'''
-*'''HTMLInputTextElementEvents2'''
-*'''HTMLOptionButtonElementEvents'''
-*'''HTMLOptionButtonElementEvents2'''
-*'''HTMLButtonElementEvents'''
-*'''HTMLButtonElementEvents2'''
-*'''HTMLMarqueeElementEvents'''
-*'''HTMLMarqueeElementEvents2'''
-*'''HTMLControlElementEvents'''
-*'''HTMLControlElementEvents2'''
-*'''HTMLMapEvents'''
-*'''HTMLMapEvents2'''
-*'''HTMLAreaEvents'''
-*'''HTMLAreaEvents2'''
-*'''HTMLTableEvents'''
-*'''HTMLTableEvents2'''
-*'''HTMLScriptEvents'''
-*'''HTMLScriptEvents2'''
-*'''HTMLStyleElementEvents'''
-*'''HTMLStyleElementEvents2'''
-*'''HTMLInputFileElementEvents'''
-*'''HTMLInputFileElementEvents2'''
-*'''HTMLInputImageEvents'''
-*'''HTMLInputImageEvents2'''
-*'''HTMLDocumentEvents'''
-|Import_Notes====Syntax===
-===Standards information===
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:    ?
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+Each document may have up to one active element. Set the active element with the [**setActive**](/w/index.php?title=dom/methods/setActive&action=edit&redlink=1) or [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) methods. Using the **setActive** method has no effect on document focus. Using the **focus** method on an individual element causes the element to gain focus and become the active element. Using the [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus. For a given display, only one element has focus at any given time. Striking a key directly affects only the element with focus. Events fired by that keystroke may be scripted to affect other documents and child elements. With Microsoft Internet Explorer 5.5 and later, focus on a [**Document**](/dom/Document), and the [**active element**](/w/index.php?title=dom/properties/activeElement&action=edit&redlink=1) of a **document** can be managed separately. With Microsoft Internet Explorer 6 and later, use the **onbeforeactivate** event to cancel setting an element as active. Canceling an element's **onbeforeactivate** event has three different behaviors, depending on the action which fired the event.
+
+-   When fired by a user clicking on the element, canceling will force the [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) on the parent element and bubble up the chain until it hits a focusable element.
+-   When fired by a user tabbing through the document, canceling will force the [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) on the next element in the taborder. Shift-tab will force the **focus** on the previous element in the taborder.
+-   When fired programmatically by the [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) or the document.[**setActive**](/w/index.php?title=dom/methods/setActive&action=edit&redlink=1) methods, canceling will have no effect.
+
+**Note**  The **onbeforeactivate** event cannot be canceled when fired programmatically. Change activation from the **event**.[**fromElement**](/w/index.php?title=dom/properties/fromElement2&action=edit&redlink=1) to the **event**.**srcElement**. To invoke this event, do one of the following:
+
+-   Click an element, other than the [**active**](/w/index.php?title=dom/properties/activeElement&action=edit&redlink=1) element of the document.
+-   Use the keyboard to move focus from the active element to another element.
+-   Invoke the [**setActive**](/w/index.php?title=dom/methods/setActive&action=edit&redlink=1) method on an element, when the element is not the active element.
+-   Invoke the [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) method on an element, when the element is not the active element.
+
+The *pEvtObj* parameter is required for the following interfaces:
+
+-   **HTMLFrameSiteEvents2**
+-   **HTMLElementEvents**
+-   **HTMLElementEvents2**
+-   **HTMLLinkElementEvents**
+-   **HTMLLinkElementEvents2**
+-   **HTMLFormElementEvents**
+-   **HTMLFormElementEvents2**
+-   **HTMLImgEvents**
+-   **HTMLImgEvents2**
+-   **HTMLTextContainerEvents**
+-   **HTMLTextContainerEvents2**
+-   **HTMLAnchorEvents2**
+-   **HTMLLabelEvents**
+-   **HTMLLabelEvents2**
+-   **HTMLSelectElementEvents**
+-   **HTMLSelectElementEvents2**
+-   **HTMLInputTextElementEvents**
+-   **HTMLInputTextElementEvents2**
+-   **HTMLOptionButtonElementEvents**
+-   **HTMLOptionButtonElementEvents2**
+-   **HTMLButtonElementEvents**
+-   **HTMLButtonElementEvents2**
+-   **HTMLMarqueeElementEvents**
+-   **HTMLMarqueeElementEvents2**
+-   **HTMLControlElementEvents**
+-   **HTMLControlElementEvents2**
+-   **HTMLMapEvents**
+-   **HTMLMapEvents2**
+-   **HTMLAreaEvents**
+-   **HTMLAreaEvents2**
+-   **HTMLTableEvents**
+-   **HTMLTableEvents2**
+-   **HTMLScriptEvents**
+-   **HTMLScriptEvents2**
+-   **HTMLStyleElementEvents**
+-   **HTMLStyleElementEvents2**
+-   **HTMLInputFileElementEvents**
+-   **HTMLInputFileElementEvents2**
+-   **HTMLInputImageEvents**
+-   **HTMLInputImageEvents2**
+-   **HTMLDocumentEvents**
+
+### Syntax
+
+### Standards information
+
 There are no standards that apply here.
 
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/a|a]]</code>
-*<code>address</code>
-*<code>applet</code>
-*<code>area</code>
-*<code>b</code>
-*<code>bdo</code>
-*<code>big</code>
-*<code>blockQuote</code>
-*<code>body</code>
-*<code>button</code>
-*<code>caption</code>
-*<code>center</code>
-*<code>cite</code>
-*<code>code</code>
-*<code>custom</code>
-*<code>dd</code>
-*<code>dfn</code>
-*<code>dir</code>
-*<code>div</code>
-*<code>dl</code>
-*<code>[[dom/Document|Document]]</code>
-*<code>dt</code>
-*<code>em</code>
-*<code>embed</code>
-*<code>fieldSet</code>
-*<code>font</code>
-*<code>form</code>
-*<code>hn</code>
-*<code>hr</code>
-*<code>i</code>
-*<code>img</code>
-*<code>input type{{=}}button</code>
-*<code>input type{{=}}checkbox</code>
-*<code>input type{{=}}file</code>
-*<code>input type{{=}}image</code>
-*<code>input type{{=}}reset</code>
-*<code>input type{{=}}password</code>
-*<code>input type{{=}}radio</code>
-*<code>input type{{=}}submit</code>
-*<code>input type{{=}}text</code>
-*<code>kbd</code>
-*<code>label</code>
-*<code>legend</code>
-*<code>li</code>
-*<code>listing</code>
-*<code>map</code>
-*<code>marquee</code>
-*<code>menu</code>
-*<code>[[html/elements/nextID|nextID]]</code>
-*<code>noBR</code>
-*<code>ol</code>
-*<code>p</code>
-*<code>plainText</code>
-*<code>pre</code>
-*<code>rt</code>
-*<code>ruby</code>
-*<code>s</code>
-*<code>samp</code>
-*<code>select</code>
-*<code>small</code>
-*<code>span</code>
-*<code>strike</code>
-*<code>strong</code>
-*<code>sub</code>
-*<code>sup</code>
-*<code>[[html/elements/table|table]]</code>
-*<code>tBody</code>
-*<code>td</code>
-*<code>textArea</code>
-*<code>tFoot</code>
-*<code>th</code>
-*<code>tHead</code>
-*<code>tr</code>
-*<code>tt</code>
-*<code>u</code>
-*<code>ul</code>
-*<code>var</code>
-*<code>xmp</code>
-*<code>Reference</code>
-*<code>[[dom/events/activate|onactivate]]</code>
-*<code>[[dom/events/beforedeactivate|onbeforedeactivate]]</code>
-*<code>[[dom/events/deactivate|ondeactivate]]</code>
-*<code>[[dom/events/focusin|onfocusin]]</code>
-*<code>[[dom/events/focusout|onfocusout]]</code>
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Event handler parameters
+
+*pEvtObj* [in]
+:   Type: ****IHTMLEventObj****
+
+## See also
+
+### Related pages (MSDN)
+
+-   `a`
+-   `address`
+-   `applet`
+-   `area`
+-   `b`
+-   `bdo`
+-   `big`
+-   `blockQuote`
+-   `body`
+-   `button`
+-   `caption`
+-   `center`
+-   `cite`
+-   `code`
+-   `custom`
+-   `dd`
+-   `dfn`
+-   `dir`
+-   `div`
+-   `dl`
+-   `Document`
+-   `dt`
+-   `em`
+-   `embed`
+-   `fieldSet`
+-   `font`
+-   `form`
+-   `hn`
+-   `hr`
+-   `i`
+-   `img`
+-   `input type=button`
+-   `input type=checkbox`
+-   `input type=file`
+-   `input type=image`
+-   `input type=reset`
+-   `input type=password`
+-   `input type=radio`
+-   `input type=submit`
+-   `input type=text`
+-   `kbd`
+-   `label`
+-   `legend`
+-   `li`
+-   `listing`
+-   `map`
+-   `marquee`
+-   `menu`
+-   `nextID`
+-   `noBR`
+-   `ol`
+-   `p`
+-   `plainText`
+-   `pre`
+-   `rt`
+-   `ruby`
+-   `s`
+-   `samp`
+-   `select`
+-   `small`
+-   `span`
+-   `strike`
+-   `strong`
+-   `sub`
+-   `sup`
+-   `table`
+-   `tBody`
+-   `td`
+-   `textArea`
+-   `tFoot`
+-   `th`
+-   `tHead`
+-   `tr`
+-   `tt`
+-   `u`
+-   `ul`
+-   `var`
+-   `xmp`
+-   `Reference`
+-   `onactivate`
+-   `onbeforedeactivate`
+-   `ondeactivate`
+-   `onfocusin`
+-   `onfocusout`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,98 +1,88 @@
-{{Page_Title|Touch Input Considerations}}
-{{Flags
-|State=In Progress
-|Checked_Out=No
-}}
-{{API_Name}}
-{{Summary_Section|Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces.  When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.}}
-{{Concept_Page
-|Content===Conceptual differences between mouse and touch==
+---
+title: touch
+tags:
+  - Concept
+  - Pages
+readiness: 'In Progress'
+summary: 'Today''s mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces.  When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.'
+uri: 'concepts/mobile web/touch'
+
+---
+# Touch Input Considerations
+
+## Summary
+
+Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces. When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.
+
+## Conceptual differences between mouse and touch
+
 Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces:
-* Coarse input (fat fingers vs. tiny mouse pointers)
-* Multiple pointers
-* No hover events
 
-When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events, as described in the [http://www.google.com mouse and keyboard events] article.
+-   Coarse input (fat fingers vs. tiny mouse pointers)
+-   Multiple pointers
+-   No hover events
 
-With the advent of touch screens, the web had to adapt, and eventually the touch events were developed and implemented in mobile web browsers. 
+When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events, as described in the [mouse and keyboard events](http://www.google.com) article.
 
-==Touch events on the web==
+With the advent of touch screens, the web had to adapt, and eventually the touch events were developed and implemented in mobile web browsers.
+
+## Touch events on the web
+
 The basic touch events of the web are:
-* <code>touchstart</code>, which corresponds to a new finger being placed on the touchscreen.
-* <code>touchmove</code>, which corresponds to a finger moving across the screen.
-* <code>touchend</code>, which corresponds to a finger lifting from the screen.
-* <code>touchenter</code>, which corresponds to a moving finger already on the screen entering a target.
-* <code>touchleave</code>, which corresponds to a moving finger already on the screen leaving a target.
 
-Each of these events contains a list of touches, with a numeric identifier associated with each touch. The [http://www.google.com basic touch events] article describes this model in greater detail.
+-   `touchstart`, which corresponds to a new finger being placed on the touchscreen.
+-   `touchmove`, which corresponds to a finger moving across the screen.
+-   `touchend`, which corresponds to a finger lifting from the screen.
+-   `touchenter`, which corresponds to a moving finger already on the screen entering a target.
+-   `touchleave`, which corresponds to a moving finger already on the screen leaving a target.
 
-==Demystifying the click event==
+Each of these events contains a list of touches, with a numeric identifier associated with each touch. The [basic touch events](http://www.google.com) article describes this model in greater detail.
+
+## Demystifying the click event
+
 When the click event was conceived (before touch screens became popular), it was intended as a high level event to describe a mouse press followed by a mouse release in roughly the same area of the screen.
 
-On touch screens, click behaves more like a tap. The main difference here stems from the fact that fingers are far less precise than mouse pointers. As a result, some browsers like Chrome for Android do touch adjustments which scores all nodes underneath the finger (using radius information if available from the hardware) and picks the best one. This is very different from just using the <code>touchdown</code> event, which taps on the first element only using the center of the touch point. 
+On touch screens, click behaves more like a tap. The main difference here stems from the fact that fingers are far less precise than mouse pointers. As a result, some browsers like Chrome for Android do touch adjustments which scores all nodes underneath the finger (using radius information if available from the hardware) and picks the best one. This is very different from just using the `touchdown` event, which taps on the first element only using the center of the touch point.
 
-==Building sites for both mouse and touch input==
-Though the mouse is still a very common input modality, increasingly, the web is being viewed on touch screens. This means that we need to build sites that work well for both mouse and touch. Furthermore, some devices (eg. Windows 8 Surface) let you use both kinds of input by providing a touch screen and a physical keyboard. It is not safe to assume that just because a device has touch support, it doesn't have mouse input, and vice versa. 
+## Building sites for both mouse and touch input
 
-Because of this complex landscape, it's important to do proper feature detection. New media queries have been proposed around the coarseness of the input <nowiki>(pointer: course
-|1)</nowiki>_ In general, feature detection is best handled by an external library like [http://modernizr_com Modernizr], since feature detection approaches vary between browsers and browser versions, and are constantly in flux_
+Though the mouse is still a very common input modality, increasingly, the web is being viewed on touch screens. This means that we need to build sites that work well for both mouse and touch. Furthermore, some devices (eg. Windows 8 Surface) let you use both kinds of input by providing a touch screen and a physical keyboard. It is not safe to assume that just because a device has touch support, it doesn't have mouse input, and vice versa.
 
-Because many web pages were not originally developed for devices with touch screens, browsers implement a fallback to mouse events_ If a user taps some element on a touch screen, in addition to triggering a touch event, the browsers will pretend as if there was also a mouse event, and relay it to the page_ This behavior is described in more detail in the synthetic mouse events article_ You can also prevent the associated [http://www_google_com synthetic mouse events] from firing by calling <code>event_prentDefault()</code> in your touch handlers_==Touch performance considerations==
-Beware of the infamous 300ms click delay in many mobile web browsers. This delay exists because in many cases, double tapping the screen causes the page to zoom. After each tap, the browser cannot fire a click event until it is certain that there was no follow up touch event (which would indicate a zoom). This behavior causes a visible delay before the resulting event is fired. This can be remedied by using one of many [http://www.google.com fast click] approaches which use raw touch events, or in some newer browsers by [http://www.google.com setting the viewport] to never scale.
+Because of this complex landscape, it's important to do proper feature detection. New media queries have been proposed around the coarseness of the input (pointer: course |1)\_ In general, feature detection is best handled by an external library like [Modernizr](http://modernizr_com), since feature detection approaches vary between browsers and browser versions, and are constantly in flux\_
 
-Scrolling is another tricky area for performance. Mobile devices often feature inertial scrolling, where moving a finger on the screen and then releasing it causes the scrolled content to continue scrolling in the same direction. This effect is provided by a [http://www.google.com variety of JavaScript libraries], but incurs significant performance overhead. The web platform provides some optional scrolling optimizations as well, which are described in more detail in [http://www.google.com optimizing scrolling] performance.
+Because many web pages were not originally developed for devices with touch screens, browsers implement a fallback to mouse events\_ If a user taps some element on a touch screen, in addition to triggering a touch event, the browsers will pretend as if there was also a mouse event, and relay it to the page\_ This behavior is described in more detail in the synthetic mouse events article\_ You can also prevent the associated [synthetic mouse events](http://www_google_com) from firing by calling `event_prentDefault()` in your touch handlers\_==Touch performance considerations== Beware of the infamous 300ms click delay in many mobile web browsers. This delay exists because in many cases, double tapping the screen causes the page to zoom. After each tap, the browser cannot fire a click event until it is certain that there was no follow up touch event (which would indicate a zoom). This behavior causes a visible delay before the resulting event is fired. This can be remedied by using one of many [fast click](http://www.google.com) approaches which use raw touch events, or in some newer browsers by [setting the viewport](http://www.google.com) to never scale.
 
-Finally, handling large amounts of multi-touch input can be very taxing because of the high frequency of <code>touchmove</code> events that results from many fingers being on the screen simultaneously. It's important to decouple drawing and input handling in this cases.
+Scrolling is another tricky area for performance. Mobile devices often feature inertial scrolling, where moving a finger on the screen and then releasing it causes the scrolled content to continue scrolling in the same direction. This effect is provided by a [variety of JavaScript libraries](http://www.google.com), but incurs significant performance overhead. The web platform provides some optional scrolling optimizations as well, which are described in more detail in [optimizing scrolling](http://www.google.com) performance.
 
-==Higher level gestures==
-Touch screens unlock the possibility of interesting multi-touch gestures, the best known of which is pinch-zoom, often used for zooming content. Unfortunately, this area is heavily laden with patents, leading to an uneven landscape of support across the different browsers. iOS devices provide [http://www.google.com Safari high level gesture events], and there are [http://www.google.com a number of JavaScript libraries] that implement gestures on top of the raw touch events.
+Finally, handling large amounts of multi-touch input can be very taxing because of the high frequency of `touchmove` events that results from many fingers being on the screen simultaneously. It's important to decouple drawing and input handling in this cases.
 
-==Touching developer tools==
-Debugging input on mobile devices can be challenging because of the overhead of dealing with multiple devices. Though nothing can really replace testing on the actual device you are targeting, it can make sense to start by using tools to simulate a touch environment on the desktop. The Chrome DevTools provide a way to emulate touch events, essentially pre-translating every mouse event into the equivalent touch one (eg. <code>mousedown</code> becomes <code>touchstart</code>). This is useful for debugging single-touch applications. For more complex interactions, multi-touch can also be simulated (with projects like [http://www.google.com MagicTouch]), given the appropriate setup.
+## Higher level gestures
 
-With remote debugging in the Chrome DevTools, you can also set up event listener breakpoints that will break whenever a user performs touch-based interactions with the desired element. For more information on these techniques, see the [http://www.google.com mobile developer tools] article.
+Touch screens unlock the possibility of interesting multi-touch gestures, the best known of which is pinch-zoom, often used for zooming content. Unfortunately, this area is heavily laden with patents, leading to an uneven landscape of support across the different browsers. iOS devices provide [Safari high level gesture events](http://www.google.com), and there are [a number of JavaScript libraries](http://www.google.com) that implement gestures on top of the raw touch events.
 
-==A consolidated model==
-Despite the many differences between the two input modes, mouse and touch input is fundamentally similar in one way: both fingers and mouse pointers can be viewed as abstract points with screen coordinates. This similarity makes it tempting to consolidate the two disparate models into one, which just deals with lists of pointers. This model was first proposed by Microsoft in the [http://www.google.com pointer events specification]. Though not implemented in the web platform yet, several [http://www.google.com pointer event polyfills] exist in the wild.
+## Touching developer tools
 
-A consolidated pointer-based model makes it easier to build sites that work well for both mouse and touch, avoiding click delays but still making it as easy to write multi-touch gestures if needed.
-|none)</nowiki>, and presence of hover state_ In general, feature detection is best handled by an external library like Modernizr, since feature detection approaches vary between browsers and browser versions, and are constantly in flux_
+Debugging input on mobile devices can be challenging because of the overhead of dealing with multiple devices. Though nothing can really replace testing on the actual device you are targeting, it can make sense to start by using tools to simulate a touch environment on the desktop. The Chrome DevTools provide a way to emulate touch events, essentially pre-translating every mouse event into the equivalent touch one (eg. `mousedown` becomes `touchstart`). This is useful for debugging single-touch applications. For more complex interactions, multi-touch can also be simulated (with projects like [MagicTouch](http://www.google.com)), given the appropriate setup.
 
-Because many web pages were not originally developed for devices with touch screens, browsers implement a fallback to mouse events_ If a user taps some element on a touch screen, in addition to triggering a touch event, the browsers will pretend as if there was also a mouse event, and relay it to the page_ This behavior is described in more detail in the synthetic mouse events article_ You can also prevent the associated synthetic mouse events from firing by calling <code>event_prentDefault()</code> in your touch handlers_==Touch performance considerations==
-Beware of the infamous 300ms click delay in many mobile web browsers. This delay exists because in many cases, double tapping the screen causes the page to zoom. After each tap, the browser cannot fire a click event until it is certain that there was no follow up touch event (which would indicate a zoom). This behavior causes a visible delay before the resulting event is fired. This can be remedied by using one of many fast click approaches which use raw touch events, or in some newer browsers by setting the viewport to never scale.
+With remote debugging in the Chrome DevTools, you can also set up event listener breakpoints that will break whenever a user performs touch-based interactions with the desired element. For more information on these techniques, see the [mobile developer tools](http://www.google.com) article.
 
-Scrolling is another tricky area for performance. Mobile devices often feature inertial scrolling, where moving a finger on the screen and then releasing it causes the scrolled content to continue scrolling in the same direction. This effect is provided by a variety of JavaScript libraries, but incurs significant performance overhead. The web platform provides some optional scrolling optimizations as well, which are described in more detail in optimizing scrolling performance.
+## A consolidated model
 
-Finally, handling large amounts of multi-touch input can be very taxing because of the high frequency of <code>touchmove</code> events that results from many fingers being on the screen simultaneously. It's important to decouple drawing and input handling in this cases.
-
-==Higher level gestures==
-Touch screens unlock the possibility of interesting multi-touch gestures, the best known of which is pinch-zoom, often used for zooming content. Unfortunately, this area is heavily laden with patents, leading to an uneven landscape of support across the different browsers. iOS devices provide Safari high level gesture events, and there are a number of JavaScript libraries that implement gestures on top of the raw touch events.
-
-==Touching developer tools==
-Debugging input on mobile devices can be challenging because of the overhead of dealing with multiple devices. Though nothing can really replace testing on the actual device you are targeting, it can make sense to start by using tools to simulate a touch environment on the desktop. The Chrome DevTools provide a way to emulate touch events, essentially pre-translating every mouse event into the equivalent touch one (eg. <code>mousedown</code> becomes <code>touchstart</code>). This is useful for debugging single-touch applications. For more complex interactions, multi-touch can also be simulated (with projects like MagicTouch), given the appropriate setup.
-
-With remote debugging in the Chrome DevTools, you can also set up event listener breakpoints that will break whenever a user performs touch-based interactions with the desired element. For more information on these techniques, see the mobile developer tools article.
-
-==A consolidated model==
-Despite the many differences between the two input modes, mouse and touch input is fundamentally similar in one way: both fingers and mouse pointers can be viewed as abstract points with screen coordinates. This similarity makes it tempting to consolidate the two disparate models into one, which just deals with lists of pointers. This model was first proposed by Microsoft in the pointer events specification. Though not implemented in the web platform yet, several pointer event polyfills exist in the wild.
+Despite the many differences between the two input modes, mouse and touch input is fundamentally similar in one way: both fingers and mouse pointers can be viewed as abstract points with screen coordinates. This similarity makes it tempting to consolidate the two disparate models into one, which just deals with lists of pointers. This model was first proposed by Microsoft in the [pointer events specification](http://www.google.com). Though not implemented in the web platform yet, several [pointer event polyfills](http://www.google.com) exist in the wild.
 
 A consolidated pointer-based model makes it easier to build sites that work well for both mouse and touch, avoiding click delays but still making it as easy to write multi-touch gestures if needed.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=Touch
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+
+**Needs Examples**: This section should include examples.
+
+## See also
+
+### Related articles
+
+#### Touch
+
+-   **Touch Input Considerations**
+
+-   [user-input](/css/properties/user-input)
+
+-   [touch](/css/touch)
+

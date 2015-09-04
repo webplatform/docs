@@ -1,87 +1,135 @@
-== Optimizing performance ==
+---
+title: performance
+uri: concepts/performance
+
+---
+## Optimizing performance
+
 Articles in this section describe ways to improve the performance of your applications.
 
-== List of all performance-related articles ==
-{{Concept_Listing
-|Query=[[Category:Performance]]
-|Use_page_title=Yes
-|List_all_subpages=No
-}}
+## List of all performance-related articles
 
+Page
+:   Summary
+[Timing and performance standards](/apis/timing-and-performance)
+:   This section documents the timing and performance-based standards supported by Windows Internet Explorer and Windows Store apps.
+[performance.memory](/apis/timing/properties/memory)
+:   Do not use. Proprietary. Chrome only. Gets quantized scripting memory usage numbers.
+[Mobile web debugging](/concepts/mobile_web/mobile_debugging)
+:   Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources., Debugging web applications on multiple platforms requires careful prioritisation. This article explains techniques and tools available, with links to external resources.
+[hidden](/dom/Document/hidden)
+:   document.hidden returns true if the document is hidden or false if it is visible at all
+[visibilityState](/dom/Document/visibilityState)
+:   Returns the visibility state of a webpage.
+[visibilitychange](/dom/Document/visibilitychange)
+:   Set the visibility state of an element
+[async](/html/attributes/async)
+:   Provides additional control over when an external script or an HTML import is being fetched and executed while a document loads.
+[Building web games](/tutorials/building_web_games)
+:   With the combination of developments in HTML5 and improvements to modern browsers, it's now possible to build high-quality games using web technologies.
 
-== List of Web Performance Resources ==
-=== Books ===
-* Souders, Steve. ''Even Faster Websites'', O'Reilly Media 2009. ISBN 0596522304
-* Smith, Peter. ''Professional Website Performance'', Wrox Press, 2012. ISBN 1118487524
-* O'Reilly Media's ''High Performance'' series:
-** ''High Performance Python'' by Micha Gorelick, Ian Ozsvald (O'Reilly Media estimates July 2014 release)
-** ''High Performance Drupal'' by Jeff Sheltren, Narayan Newton, Nathaniel Catchpole (O'Reilly Media 2013. ISBN 144939261X)
-** ''High Performance Browser Networking'' by Ilya Grigorik (O'Reilly Media 2013. ISBN 1449344763)
-** ''High Performance MySQL'' by Baron Schwartz, Peter Zaitsev, Vadim Tkachenko (O'Reilly Media 2012. ISBN 1449314287)
-** ''High Performance Web Sites'' by Steve Souders (O'Reilly Media 2007. ISBN 0596529309)
+    In this document, we'll provide you with the tools, frameworks, and tutorials you'll need to create games. We'll also explain how they should be used and how they fit together.
 
-=== Free Tools (Browser Based) ===
-* [http://yslow.org/ YSlow]
-* [https://developers.google.com/speed/pagespeed/ Google PageSpeed]
+[Building the Onslaught! Arena game](/tutorials/games_onslaught)
+:   Learn how to use the \<canvas\> element to create an interactive game with retro-looking graphics.
+["Mobifying" your HTML5 site](/tutorials/mobile_mobifying)
+:   An introduction to HTML5 enhancement techniques for mobile devices.
+[HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
+:   Learn the fundamentals of an HTML5 mobile framework. From network detection to sliding, flipping, and more.
+[Mobile optimization best practices](/tutorials/mobile_optimization_best_practices)
+:   Mobile Devices may have slow network connections, hardware specific limitations and varying screen sizes. We need standardized best practices for building web apps. The goal is to provide the best user experience optimizing the HTML5 standards.
+[Best practices for building faster Web apps with HTML5](/tutorials/speed_best_practices)
+:   Tips to improve HTML5 web app performance.
+[Auditing your web app for speed](/tutorials/tools_audit_panel)
+:   How to audit a web app for speed.
 
-=== Free Tools (Windows Based) ===
-* Compuware Ajax Edition
+## List of Web Performance Resources
 
-=== Front-end Optimization (FEO) Tools ===
-The companies and tools below provide automated performance optimization solutions ([http://www.strangeloopnetworks.com/resources/presentations/front-end-optimization-feo-what-it-is-and-how-to-fix-it/ FEO])  Some of them are cloud based, and others are applications that live inside a datacenter.
+### Books
 
-* Yottaa Site Optimizer
-* AkamaiAkamai Blaze
-* Limelight Orchestrate Performance
-* SiteSpect Front-end Optimization ([http://www.sitespect.com/solutions/front-end-optimization AMPS])
-* Radware FastView
-* EdgeCast Edge Optimizer
-* [https://developers.google.com/speed/pagespeed/module mod_pagespeed]
-* Fasterize
-* Cloudflare Optimizer
+-   Souders, Steve. *Even Faster Websites*, O'Reilly Media 2009. [ISBN 0596522304](/Special:BookSources/0596522304)
+-   Smith, Peter. *Professional Website Performance*, Wrox Press, 2012. [ISBN 1118487524](/Special:BookSources/1118487524)
+-   O'Reilly Media's *High Performance* series:
+    -   *High Performance Python* by Micha Gorelick, Ian Ozsvald (O'Reilly Media estimates July 2014 release)
+    -   *High Performance Drupal* by Jeff Sheltren, Narayan Newton, Nathaniel Catchpole (O'Reilly Media 2013. [ISBN 144939261X](/Special:BookSources/144939261X))
+    -   *High Performance Browser Networking* by Ilya Grigorik (O'Reilly Media 2013. [ISBN 1449344763](/Special:BookSources/1449344763))
+    -   *High Performance MySQL* by Baron Schwartz, Peter Zaitsev, Vadim Tkachenko (O'Reilly Media 2012. [ISBN 1449314287](/Special:BookSources/1449314287))
+    -   *High Performance Web Sites* by Steve Souders (O'Reilly Media 2007. [ISBN 0596529309](/Special:BookSources/0596529309))
 
-=== Backend Optimization Resources ===
-* Database caching
-* PHP accelerator (list of PHP accelerators)
-* HipHop for PHP
-* SSL acceleration
-* Web accelerator
-* Web cache
+### Free Tools (Browser Based)
 
-=== Backend Optimization Products ===
-* Amazon DynamoDB
-* Windows Azure Caching
+-   [YSlow](http://yslow.org/)
+-   [Google PageSpeed](https://developers.google.com/speed/pagespeed/)
 
-=== Web Application Streaming ===
-* [http://blogs.gartner.com/lydia_leong/2013/06/17/instart-logic-launches-a-new-kind-of-acceleration-service/ Instart Logic]
+### Free Tools (Windows Based)
 
-=== Lists of Best Practices ===
-* [http://developer.yahoo.com/performance/rules.html Yahoo Performance Rules]
-* [https://developers.google.com/speed/docs/best-practices/rules_intro Google Best Practices]
-* [http://www.webperformancetoday.com/tag/best-practices/ Web Performance Today Best Practices]
+-   Compuware Ajax Edition
 
-=== Conferences and Meetups ===
-* [http://velocityconf.com/ Velocity]
-* [http://web-performance.meetup.com/ Web Performance Meetup Groups]
-* [http://www.webperfdays.org/ Web Performance Days]
+### Front-end Optimization (FEO) Tools
 
-=== Monitoring Tools ===
-There are two main types of performance monitoring: Synthetic monitoring and Real user monitoring (RUM).  There are a number of free and paid tools that provide monitoring services in both categories
+The companies and tools below provide automated performance optimization solutions ([FEO](http://www.strangeloopnetworks.com/resources/presentations/front-end-optimization-feo-what-it-is-and-how-to-fix-it/)) Some of them are cloud based, and others are applications that live inside a datacenter.
 
-'''Synthetic Monitoring'''
-* [http://webpagetest.org WebPagetest]
-* Rigor Web Performance
-* Keynote Systems|Keynote Web Performance Testing
-* Compuware APM Website Performance Test
-* Website Test, a product by Yottaa
-* GTMetrix
-* Catchpoint
-* Uptrends
+-   Yottaa Site Optimizer
+-   AkamaiAkamai Blaze
+-   Limelight Orchestrate Performance
+-   SiteSpect Front-end Optimization ([AMPS](http://www.sitespect.com/solutions/front-end-optimization))
+-   Radware FastView
+-   EdgeCast Edge Optimizer
+-   [mod\_pagespeed](https://developers.google.com/speed/pagespeed/module)
+-   Fasterize
+-   Cloudflare Optimizer
 
-'''Real User Monitoring'''
-* SOASTA mPulse
-* New Relic
-* Catchpoint Glimpse
+### Backend Optimization Resources
 
-=== Blogs ===
-The [http://www.perfplanet.com/ Perf Planet] website provides an RSS feed with the latest updates from an aggregated list of web performance blogs.  This blogroll is managed via Perf Planet's [https://github.com/stoyan/perfplanet GitHub repository].
+-   Database caching
+-   PHP accelerator (list of PHP accelerators)
+-   HipHop for PHP
+-   SSL acceleration
+-   Web accelerator
+-   Web cache
+
+### Backend Optimization Products
+
+-   Amazon DynamoDB
+-   Windows Azure Caching
+
+### Web Application Streaming
+
+-   [Instart Logic](http://blogs.gartner.com/lydia_leong/2013/06/17/instart-logic-launches-a-new-kind-of-acceleration-service/)
+
+### Lists of Best Practices
+
+-   [Yahoo Performance Rules](http://developer.yahoo.com/performance/rules.html)
+-   [Google Best Practices](https://developers.google.com/speed/docs/best-practices/rules_intro)
+-   [Web Performance Today Best Practices](http://www.webperformancetoday.com/tag/best-practices/)
+
+### Conferences and Meetups
+
+-   [Velocity](http://velocityconf.com/)
+-   [Web Performance Meetup Groups](http://web-performance.meetup.com/)
+-   [Web Performance Days](http://www.webperfdays.org/)
+
+### Monitoring Tools
+
+There are two main types of performance monitoring: Synthetic monitoring and Real user monitoring (RUM). There are a number of free and paid tools that provide monitoring services in both categories
+
+**Synthetic Monitoring**
+
+-   [WebPagetest](http://webpagetest.org)
+-   Rigor Web Performance
+-   Keynote Systems|Keynote Web Performance Testing
+-   Compuware APM Website Performance Test
+-   Website Test, a product by Yottaa
+-   GTMetrix
+-   Catchpoint
+-   Uptrends
+
+**Real User Monitoring**
+
+-   SOASTA mPulse
+-   New Relic
+-   Catchpoint Glimpse
+
+### Blogs
+
+The [Perf Planet](http://www.perfplanet.com/) website provides an RSS feed with the latest updates from an aggregated list of web performance blogs. This blogroll is managed via Perf Planet's [GitHub repository](https://github.com/stoyan/perfplanet).

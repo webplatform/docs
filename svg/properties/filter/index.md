@@ -1,49 +1,39 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: filter
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/filter
 
-===Remarks===
+---
+# filter
 
-[[svg/elements/filter|'''Filter''']] elements are never rendered
-directly; their only usage is as something that can be referenced
-using the '''filter''' property. Be aware that '''filter''' elements
-are available for referencing even when the
-[[css/properties/display|'''display''']] property on the '''filter'''
-element or any of its ancestors is set to '''none'''.
+## Notes
 
-In the following example, a previously defined Gaussian_Blur filter
-(that is, '''filter:url(#Gaussian_Blur)"/&gt;''') is being applied to
-an SVG ellipse:
+### Remarks
 
-  &lt;ellipse cx="200" cy="150" rx="70" ry="40" style="fill:#ff0000; stroke:#000000;
-           stroke-width:2; filter:url(#Gaussian_Blur)"/&gt;
-|Import_Notes=
+[**Filter**](/svg/elements/filter) elements are never rendered directly; their only usage is as something that can be referenced using the **filter** property. Be aware that **filter** elements are available for referencing even when the [**display**](/css/properties/display) property on the **filter** element or any of its ancestors is set to **none**.
 
-===Syntax===
+In the following example, a previously defined Gaussian\_Blur filter (that is, **filter:url(\#Gaussian\_Blur)"/\>**) is being applied to an SVG ellipse:
 
-}}
-{{See_Also_Section
-|Manual_sections=
+     <ellipse cx="200" cy="150" rx="70" ry="40" style="fill:#ff0000; stroke:#000000;
+              stroke-width:2; filter:url(#Gaussian_Blur)"/>
 
-===Related pages (MSDN)===
+### Syntax
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[svg/elements/filter|'''Filter''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**Filter**](/svg/elements/filter)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

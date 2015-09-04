@@ -1,163 +1,177 @@
-{{Page_Title|overflow}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|Mixed}}
-{{API_Name}}
-{{Summary_Section|The <code>overflow</code> property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.}}
-{{CSS Property
-|Initial value=visible
-|Applies to=non-replaced block-level elements and non-replaced ’inline-block’ elements
-|Inherited=No
-|Media=visual
-|Computed value=as specified, except ‘visible’
-|Animatable=No
-|CSS object model property=overflow
-|Values={{CSS Property Value
-|Data Type=visible
-|Description=The default value for most elements. Content is not clipped and a scroll mechanism is not added.
-}}{{CSS Property Value
-|Data Type=scroll
-|Description=Content is clipped and a scroll mechanism is added, even if the content does not exceed the dimensions of the object.
-}}{{CSS Property Value
-|Data Type=hidden
-|Description=Content that exceeds the dimensions of the object is not shown. No scroll mechanism is applied.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=Content is clipped and scrolling is added only when necessary.
-}}{{CSS Property Value
-|Data Type=no-display
-|Description=When the content doesn't fit in the content box, the whole box is removed, as if ‘display: none’ were specified.
-}}{{CSS Property Value
-|Data Type=no-content
-|Description=When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
-}}{{CSS Property Value
-|Data Type=&lt;overflow-x&gt; &lt;overflow-y&gt;
-|Description=Set '''overflow-x''' and '''overflow-y''' separately.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Add different behavior for paragraphs via the <code>overflow</code> property.
-|Code=.hidden {
-	overflow: hidden;
+---
+title: overflow
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: Mixed
+summary: 'The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.'
+code_samples:
+  - 'http://gist.github.com/6365118'
+  - 'http://gist.github.com/6365403'
+  - 'http://gist.github.com/6366211'
+uri: css/properties/overflow
+
+---
+# overflow
+
+## Summary
+
+The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `visible`
+Applies to
+:   non-replaced block-level elements and non-replaced ’inline-block’ elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified, except ‘visible’
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `overflow`
+
+## Syntax
+
+-   `overflow: <overflow-x> <overflow-y>`
+-   `overflow: auto`
+-   `overflow: hidden`
+-   `overflow: no-content`
+-   `overflow: no-display`
+-   `overflow: scroll`
+-   `overflow: visible`
+
+## Values
+
+visible
+:   The default value for most elements. Content is not clipped and a scroll mechanism is not added.
+
+scroll
+:   Content is clipped and a scroll mechanism is added, even if the content does not exceed the dimensions of the object.
+
+hidden
+:   Content that exceeds the dimensions of the object is not shown. No scroll mechanism is applied.
+
+auto
+:   Content is clipped and scrolling is added only when necessary.
+
+no-display
+:   When the content doesn't fit in the content box, the whole box is removed, as if ‘display: none’ were specified.
+
+no-content
+:   When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
+
+\<overflow-x\> \<overflow-y\>
+:   Set **overflow-x** and **overflow-y** separately.
+
+## Examples
+
+Add different behavior for paragraphs via the `overflow` property.
+
+``` {.css}
+.hidden {
+    overflow: hidden;
 }
 .scroll {
-	overflow: scroll;
+    overflow: scroll;
 }
 .auto {
-	overflow: auto;
+    overflow: auto;
 }
 .visible {
-	overflow: visible;
+    overflow: visible;
 }
 
 /* Helper for paragraphes */
 p {
-	height: 60px;
+    height: 60px;
 }
-|LiveURL=http://code.webplatform.org/gist/6365118
-}}{{Single Example
-|Language=CSS
-|Description=Clearing floats with overflow
-|Code=.clear {
-	overflow: hidden;
-	background: green;
+```
+
+[View live example](http://code.webplatform.org/gist/6365118)
+
+Clearing floats with overflow
+
+``` {.css}
+.clear {
+    overflow: hidden;
+    background: green;
 }
 
 /* A floating element that is bigger than its non-floating neighbor */
 .floating {
-	float: left;
-	width: 200px;
+    float: left;
+    width: 200px;
 }
-|LiveURL=http://code.webplatform.org/gist/6365403
-}}{{Single Example
-|Language=CSS
-|Description=Two values for <code>overflow</code>.
-|Code=.overflow-y {
-	overflow: hidden auto;
-	height: 30px;
-}
-|LiveURL=http://code.webplatform.org/gist/6366211
-}}
-}}
-{{Notes_Section
-|Usage=The <code>overflow</code> CSS property specifies whether to clip content, render scroll bars or display overflow content of a block-level element.
+```
 
-The <code>overflow</code> property takes up to two values. If given one value, both <code>overflow-x</code> and <code>overflow-y</code> are set to that value. If given two values, the first value applies to <code>overflow-x</code> and the second applies to <code>overflow-y</code>.
+[View live example](http://code.webplatform.org/gist/6365403)
+
+Two values for `overflow`.
+
+``` {.css}
+.overflow-y {
+    overflow: hidden auto;
+    height: 30px;
+}
+```
+
+[View live example](http://code.webplatform.org/gist/6366211)
+
+## Usage
+
+     The overflow CSS property specifies whether to clip content, render scroll bars or display overflow content of a block-level element.
+
+The `overflow` property takes up to two values. If given one value, both `overflow-x` and `overflow-y` are set to that value. If given two values, the first value applies to `overflow-x` and the second applies to `overflow-y`.
 
 Using the overflow property with a value different than visible, its default, will create a new block formatting context. This is technically necessary as if a float would intersect with the scrolling element it would force to rewrap the content of the scrollable element around intruding floats. The rewrap would happen after each scroll step and would be lead to a far too slow scrolling experience. Note that, by programmatically setting scrollTop to the relevant HTML element, even when overflow has the hidden value an element may need to scroll.
-|Notes=The default value for the <code>html</code> element is <code>auto</code>.
-Setting the <code>overflow</code> property to <code>visible</code> causes the content to clip to the size of the window or frame that contains the object.
 
-=== CSS basic box model ===
+## Notes
+
+The default value for the `html` element is `auto`. Setting the `overflow` property to `visible` causes the content to clip to the size of the window or frame that contains the object.
+
+### CSS basic box model
+
 Specifying two values is currently not supported by browsers.
 
-=== Firefox (Gecko) Notes ===
-Through Firefox 3.6 (Gecko 1.9.2), the overflow property is incorrectly applied to table-group elements (<thead> , <tbody> , <tfoot>). This behavior is corrected in later versions.
+### Firefox (Gecko) Notes
 
-=== Internet Explorer Notes ===
-Internet Explorer 4 to 6 enlarges an element with <code>overflow: visible</code> (default value) to fit the content in it. height/width behaves like min-height/min-width.
-|Import_Notes=*[http://go.microsoft.com/fwlink/p/?linkid{{=}}203757 CSS 2.1], Section 11.1.1
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/visufx.html#overflow
-|Status=Recommendation
-}}{{Related Specification
-|Name=CSS3 module: The box model
-|URL=http://www.w3.org/TR/2002/WD-css3-box-20021024/#overflow
-|Status=Working Draft
-|Relevant_changes=No changes
-}}{{Related Specification
-|Name=CSS basic box model
-|URL=http://www.w3.org/TR/css3-box/#overflow1
-|Status=Working Draft
-|Relevant_changes=Add no-display and no-content; accepts up to two values, one for overflow-x and the other for overflow-y
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=4.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections==== Related Properties ===
-* [[css/properties/overflow-x|overflow-x]]
-* [[css/properties/overflow-y|overflow-y]]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+Through Firefox 3.6 (Gecko 1.9.2), the overflow property is incorrectly applied to table-group elements (\<thead\> , \<tbody\> , \<tfoot\>). This behavior is corrected in later versions.
+
+### Internet Explorer Notes
+
+Internet Explorer 4 to 6 enlarges an element with `overflow: visible` (default value) to fit the content in it. height/width behaves like min-height/min-width.
+
+-   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 11.1.1
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/visufx.html#overflow)
+:   Recommendation
+[CSS3 module: The box model](http://www.w3.org/TR/2002/WD-css3-box-20021024/#overflow)
+:   Working Draft
+[CSS basic box model](http://www.w3.org/TR/css3-box/#overflow1)
+:   Working Draft
+
+## See also
+
+### Related Properties
+
+-   [overflow-x](/css/properties/overflow-x)
+-   [overflow-y](/css/properties/overflow-y)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

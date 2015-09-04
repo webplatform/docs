@@ -1,26 +1,18 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add summary, description, notes. This page should be moved out of the guide/html_validation or somewhere.
-|Checked_Out=No
-|High-level issues=Merge Candidate
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Listing|Query=[[Category:HTML]][[Category:Validation]]
-}}
-{{Concept_Listing
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section}}
-{{See_Also_Section}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Basic Page}}
+---
+title: validation
+tags:
+  - API
+  - Listings
+  - HTML
+  - Basic
+  - Pages
+readiness: 'Not Ready'
+notes:
+  - 'Add summary, description, notes. This page should be moved out of the guide/html_validation or somewhere.'
+uri: html/validation
+
+---
+# validation
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+

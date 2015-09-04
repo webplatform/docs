@@ -1,112 +1,72 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|The following table lists predefined JavaScript constants that you can use in expressions.}}
-{{JS_Syntax
-|Formats=
-|Values=
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Remarks_Section}}
-{{Notes_Section}}
-{{JS Object Listing}}
-==Constants==
-{| class='wikitable'
-|-
-! Constant
-! Description
-! JavaScript object
-|-
-| [[javascript/Math/constants|E]]
-| The mathematical constant e. This is Euler's number, the base of natural logarithms.
-| '''Math'''
-|-
-| [[javascript/Infinity|Infinity]]
-| A value that is larger than the largest floating point number. Negative Infinity (-Infinity) is smaller than the smallest floating point number.
-| '''Global'''
-|-
-| [[javascript/Math/constants|LN2]]
-| The natural logarithm of 2.
-| '''Math'''
-|-
-| [[javascript/Math/constants|LN10]]
-| The natural logarithm of 10.
-| '''Math'''
-|-
-| [[javascript/Math/constants|LOG2E]]
-| The base-2 logarithm of e.
-| '''Math'''
-|-
-| [[javascript/Math/constants|LOG10E]]
-| The base-10 logarithm of e.
-| '''Math'''
-|-
-| [[javascript/Number/constants|MAX_VALUE]]
-| The largest number that can be represented in JavaScript.
-| '''Number'''
-|-
-| [[javascript/Number/constants|MIN_VALUE]]
-| The closest number to zero that can be represented in JavaScript.
-| '''Number'''
-|-
-| [[javascript/Number/constants|NaN]]
-| Indicates that an arithmetic expression returned a value that is not a number.
-| '''Number'''
-|-
-| [[javascript/NaN|NaN (Global)]]
-| A value that indicates that an expression is not a number.
-| '''Global'''
-|-
-| [[javascript/Number/constants|NEGATIVE_INFINITY]]
-| A value that is smaller than the smallest floating point number.
-| '''Number'''
-|-
-| [[javascript/null|null Constant]]
-| The value of a variable that does not point to valid data.
-| '''Global'''
-|-
-| [[javascript/Math/constants|PI]]
-| Pi. This is the ratio of the circumference of a circle to its diameter.
-| '''Math'''
-|-
-| [[javascript/Number/constants|POSITIVE_INFINITY]]
-| A value that is larger than the largest floating point number.
-| '''Number'''
-|-
-| [[javascript/Math/constants|SQRT1_2]]
-| The square root of 0.5, or, equivalently, one divided by the square root of 2.
-| '''Math'''
-|-
-| [[javascript/Math/constants|SQRT2]]
-| The square root of 2.
-| '''Math'''
-|-
-| [[javascript/undefined|undefined]]
-| The value of a variable that has been declared but not initialized.
-| '''Global'''
-|}
+---
+title: constants
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'The following table lists predefined JavaScript constants that you can use in expressions.'
+uri: javascript/constants
 
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Global{{!}}Global Object]]
-* [[javascript/Math{{!}}Math Object]]
-* [[javascript/Number{{!}}Number Object]]
-* [[javascript{{!}}JavaScript Reference]]
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/ff818462(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+---
+# constants
+
+## Summary
+
+The following table lists predefined JavaScript constants that you can use in expressions.
+
+## Syntax
+
+## Constants
+
+Constant
+:   Description
+[E](/javascript/Math/constants)
+:   The mathematical constant e. This is Euler's number, the base of natural logarithms.
+[Infinity](/javascript/Infinity)
+:   A value that is larger than the largest floating point number. Negative Infinity (-Infinity) is smaller than the smallest floating point number.
+[LN2](/javascript/Math/constants)
+:   The natural logarithm of 2.
+[LN10](/javascript/Math/constants)
+:   The natural logarithm of 10.
+[LOG2E](/javascript/Math/constants)
+:   The base-2 logarithm of e.
+[LOG10E](/javascript/Math/constants)
+:   The base-10 logarithm of e.
+[MAX\_VALUE](/javascript/Number/constants)
+:   The largest number that can be represented in JavaScript.
+[MIN\_VALUE](/javascript/Number/constants)
+:   The closest number to zero that can be represented in JavaScript.
+[NaN](/javascript/Number/constants)
+:   Indicates that an arithmetic expression returned a value that is not a number.
+[NaN (Global)](/javascript/NaN)
+:   A value that indicates that an expression is not a number.
+[NEGATIVE\_INFINITY](/javascript/Number/constants)
+:   A value that is smaller than the smallest floating point number.
+[null Constant](/javascript/null)
+:   The value of a variable that does not point to valid data.
+[PI](/javascript/Math/constants)
+:   Pi. This is the ratio of the circumference of a circle to its diameter.
+[POSITIVE\_INFINITY](/javascript/Number/constants)
+:   A value that is larger than the largest floating point number.
+[SQRT1\_2](/javascript/Math/constants)
+:   The square root of 0.5, or, equivalently, one divided by the square root of 2.
+[SQRT2](/javascript/Math/constants)
+:   The square root of 2.
+[undefined](/javascript/undefined)
+:   The value of a variable that has been declared but not initialized.
+
+## See also
+
+### Other articles
+
+-   [Global Object](/javascript/Global)
+-   [Math Object](/javascript/Math)
+-   [Number Object](/javascript/Number)
+-   [JavaScript Reference](/javascript)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff818462(v=vs.94).aspx)
+

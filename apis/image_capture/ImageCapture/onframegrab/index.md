@@ -1,49 +1,33 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs example, usage, spec reference
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Register/unregister for frame capture events of type FrameGrabEvent.}}
-{{API_Object_Property
-|Property_applies_to=apis/image_capture/ImageCapture
-|Read_only=No
-|Example_object_name=pictureDevice
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Image Capture}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: onframegrab
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: Image
+  5: Capture
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs example, usage, spec reference'
+summary: 'Register/unregister for frame capture events of type FrameGrabEvent.'
+uri: 'apis/image capture/ImageCapture/onframegrab'
+
+---
+# onframegrab
+
+## Summary
+
+Register/unregister for frame capture events of type FrameGrabEvent.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = pictureDevice.onframegrab;
+pictureDevice.onframegrab = value;
+```
+
+**Needs Examples**: This section should include examples.
+

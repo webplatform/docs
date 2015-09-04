@@ -1,57 +1,93 @@
-{{Page_Title|margin}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The <code>margin</code> property is shorthand to allow you to set all four margins of an element at once. Its equivalent longhand properties are <code>margin-top</code>, <code>margin-right</code>, <code>margin-bottom</code> and <code>margin-left</code>. Negative values are also allowed.}}
-{{CSS Property
-|Initial value=Depends on the particular element. Different elements have different default margins.
-|Applies to=All elements except elements with table display types other than table-caption, table, and inline-table
-|Inherited=No
-|Media=visual
-|Computed value=As specified, but with relative lengths converted into absolute pixel values.
-|Animatable=Yes
-|CSS object model property=margin
-|Values={{CSS Property Value
-|Data Type=length
-|Description=Specifies a fixed length, using any standard  [http://docs.webplatform.org/wiki/css/units/length CSS length units] . Negative Values are allowed.
-}}{{CSS Property Value
-|Data Type=percentage
-|Description=A percentage relative to the width of the containing block. Negative values are allowed.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=<code>auto</code> is replaced by some suitable value by the browser. For example, it can be used for centering of blocks.
+---
+title: margin
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The margin property is shorthand to allow you to set all four margins of an element at once. Its equivalent longhand properties are margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.'
+code_samples:
+  0: 'http://gist.github.com/5727296'
+  2: 'http://gist.github.com/5727295'
+uri: css/properties/margin
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/defaultSelected
 
-<code>div { width:50%;  margin:0 auto; }</code> centers the <code>&lt;div&gt;</code> container horizontally.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Causes the element it is applied to to take on the same margin values as its parent.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=A simple example showing different combinations of margin values applied to three identically sized elements.
-* The first one has a margin of 50 pixels on all sides.
-* The second one has no margin on the top and bottom, but <code>auto</code> set on the left and right, causing it to center in the parent container.
-* The third one has four individual values, including a negative top margin, causing it to move up, above the level of the second container, and a large left margin, causing it to be shunted over to the right.
-|Code=&lt;div class="one"&gt;&lt;/div&gt;
-&lt;div class="two"&gt;&lt;/div&gt;
-&lt;div class="three"&gt;&lt;/div&gt;
-|LiveURL=http://code.webplatform.org/gist/5727296
-}}{{Single Example
-|Language=CSS
-|Description=The CSS applied to the above HTML.
-|Code=/**
+---
+# margin
+
+## Summary
+
+The margin property is shorthand to allow you to set all four margins of an element at once. Its equivalent longhand properties are margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `Depends on the particular element. Different elements have different default margins.`
+Applies to
+:   All elements except elements with table display types other than table-caption, table, and inline-table
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   As specified, but with relative lengths converted into absolute pixel values.
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `margin`
+
+## Syntax
+
+-   `margin: auto`
+-   `margin: inherit`
+-   `margin: length`
+-   `margin: percentage`
+
+## Values
+
+length
+:   Specifies a fixed length, using any standard [CSS length units](http://docs.webplatform.org/wiki/css/units/length) . Negative Values are allowed.
+
+percentage
+:   A percentage relative to the width of the containing block. Negative values are allowed.
+
+auto
+:   `auto` is replaced by some suitable value by the browser. For example, it can be used for centering of blocks.
+
+`div { width:50%;  margin:0 auto; }` centers the `<div>` container horizontally.
+
+inherit
+:   Causes the element it is applied to to take on the same margin values as its parent.
+
+## Examples
+
+A simple example showing different combinations of margin values applied to three identically sized elements.
+
+-   The first one has a margin of 50 pixels on all sides.
+-   The second one has no margin on the top and bottom, but `auto` set on the left and right, causing it to center in the parent container.
+-   The third one has four individual values, including a negative top margin, causing it to move up, above the level of the second container, and a large left margin, causing it to be shunted over to the right.
+
+``` {.html}
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+```
+
+[View live example](http://code.webplatform.org/gist/5727296)
+
+The CSS applied to the above HTML.
+
+``` {.css}
+/**
  * margin examples
  */
- 
+
 /**
-  * It is strongly rocommended to NOT do this, if you want to 
-  *   have an even styling for all browsers you should have a 
+  * It is strongly rocommended to NOT do this, if you want to
+  *   have an even styling for all browsers you should have a
   *   look at current CSS reset technique.   In the case of this
   *   example, it is only to demonstrate cascading.
   **/
@@ -80,11 +116,14 @@ div {
   background-color: green;
   margin: -11em 0px 0px 210px;
 }
-|LiveURL=http://code.webplatform.org/gist/5727296
-}}{{Single Example
-|Language=CSS
-|Description=The following example demonstrates the different ways of using the <code>margin</code> property.
-|Code=.text-margin {
+```
+
+[View live example](http://code.webplatform.org/gist/5727296)
+
+The following example demonstrates the different ways of using the `margin` property.
+
+``` {.css}
+.text-margin {
   /*
   This uses the margin: value syntax.
   value can be specified in em, px etc.
@@ -114,122 +153,104 @@ div {
   */
   margin: 5mm 1in 5ex 10ch;
 }
-|LiveURL=http://code.webplatform.org/gist/5727295
-}}{{Single Example
-|Language=HTML
-|Description=The HTML accompanying the above example.
-|Code=&lt;div class="container"&gt;
-  &lt;p class="text-margin"&gt;This paragraph uses the &lt;code&gt;margin: value&lt;/code&gt; syntax.&lt;/p&gt;
-&lt;/div&gt;
+```
 
-&lt;div class="container"&gt;
-  &lt;p class="text-vertical-horizontal"&gt;This paragraph uses the &lt;code&gt;margin: horizontal vertical&lt;/code&gt; syntax.&lt;/p&gt;
-&lt;/div&gt;
+[View live example](http://code.webplatform.org/gist/5727295)
 
-&lt;div class="container"&gt;
-  &lt;p class="text-top-horizontal-bottom"&gt;This paragraph uses the &lt;code&gt;margin: top horizontal bottom&lt;/code&gt; syntax.&lt;/p&gt;
-&lt;/div&gt;
+The HTML accompanying the above example.
 
-&lt;div class="container"&gt;
-  &lt;p class="text-top-right-bottom-left"&gt;This paragraph uses the &lt;code&gt;margin: top right bottom left&lt;/code&gt; syntax.&lt;/p&gt;
-&lt;/div&gt;
-}}
-}}
-{{Notes_Section
-|Usage=* <code>margin</code> can take 1-4 values for its value, including CSS length units, percentage values, or the keywords '''auto''' or '''inherit''':
-** If one value is given, it applies to all four sides.
-** If two values are given, the first applies to the top and bottom, the second applies to the right and left.
-** If three values are given, the first applies to the top, the second applies to the right and left sides, and the third applies to the bottom.
-** If four values are given, they are applied in clockwise order, starting from the top (top, right, bottom, left).
-* Negative margins are supported except for top and bottom margins on inline objects.
-* When two margins collide, for example when one block level element has a bottom margin set, immediately followed by another block level element with a top margin, the larger of the two margins remains, and the smaller one collapses and disappears.
-* Margins are always transparent.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS 2.1 (Section 8.3)
-|URL=http://www.w3.org/TR/CSS2/box.html#margin-properties
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=All
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=All
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=All
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=All
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=All
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=All
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=All
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=All
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_version=All
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=All
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_version=All
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=All
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=All
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Box Model
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[dom/defaultSelected|defaults]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>Conceptual</code>
-*<code>CSS Values and Units Reference</code>
-*<code>Other Resources</code>
-*<code>CSS Enhancements in Internet Explorer 6</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+``` {.html}
+<div class="container">
+  <p class="text-margin">This paragraph uses the <code>margin: value</code> syntax.</p>
+</div>
+
+<div class="container">
+  <p class="text-vertical-horizontal">This paragraph uses the <code>margin: horizontal vertical</code> syntax.</p>
+</div>
+
+<div class="container">
+  <p class="text-top-horizontal-bottom">This paragraph uses the <code>margin: top horizontal bottom</code> syntax.</p>
+</div>
+
+<div class="container">
+  <p class="text-top-right-bottom-left">This paragraph uses the <code>margin: top right bottom left</code> syntax.</p>
+</div>
+```
+
+## Usage
+
+     * margin can take 1-4 values for its value, including CSS length units, percentage values, or the keywords auto or inherit:
+
+-   -   If one value is given, it applies to all four sides.
+    -   If two values are given, the first applies to the top and bottom, the second applies to the right and left.
+    -   If three values are given, the first applies to the top, the second applies to the right and left sides, and the third applies to the bottom.
+    -   If four values are given, they are applied in clockwise order, starting from the top (top, right, bottom, left).
+-   Negative margins are supported except for top and bottom margins on inline objects.
+-   When two margins collide, for example when one block level element has a bottom margin set, immediately followed by another block level element with a top margin, the larger of the two margins remains, and the smaller one collapses and disappears.
+-   Margins are always transparent.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS 2.1 (Section 8.3)](http://www.w3.org/TR/CSS2/box.html#margin-properties)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### Box Model
+
+-   [border](/css/properties/border)
+
+-   [border-corner-shape](/css/properties/border-corner-shape)
+
+-   [bottom](/css/properties/bottom)
+
+-   [box-shadow](/css/properties/box-shadow)
+
+-   [box-sizing](/css/properties/box-sizing)
+
+-   [break-before](/css/properties/break-before)
+
+-   [clear](/css/properties/clear)
+
+-   [float](/css/properties/float)
+
+-   [height](/css/properties/height)
+
+-   [left](/css/properties/left)
+
+-   [line-height](/css/properties/line-height)
+
+-   **margin**
+
+-   [margin-bottom](/css/properties/margin-bottom)
+
+-   [margin-left](/css/properties/margin-left)
+
+-   [margin-right](/css/properties/margin-right)
+
+-   [margin-top](/css/properties/margin-top)
+
+-   [max-height](/css/properties/max-height)
+
+-   [max-width](/css/properties/max-width)
+
+-   [min-height](/css/properties/min-height)
+
+-   [min-width](/css/properties/min-width)
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `defaults`
+-   `runtimeStyle`
+-   `style`
+-   `Conceptual`
+-   `CSS Values and Units Reference`
+-   `Other Resources`
+-   `CSS Enhancements in Internet Explorer 6`
+

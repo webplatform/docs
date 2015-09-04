@@ -1,96 +1,95 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Summary, examples, compatibility, standards, clean-up of MSDN import
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Property
-|Property_applies_to=dom/KeyboardEvent
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The following example shows how to use the '''altLeft''' property to indicate when the user presses the left or right ALT keys.
-|Code=&lt;HEAD&gt;
-&lt;SCRIPT&gt;
-function init() {
-    spanLeftAlt.innerText{{=}}'false';
-    spanRightAlt.innerText{{=}}'false';
-}
+---
+title: altLeft
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Summary, examples, compatibility, standards, clean-up of MSDN import'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/starLeft.htm'
+uri: dom/KeyboardEvent/altLeft
 
-function indicate(obj, arg) {
-    obj.innerText{{=}}arg;
-}
+---
+# altLeft
 
-function AltDown() {
-    if (event.altLeft) {
-        indicate(spanLeftAlt,'true');
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/KeyboardEvent](/dom/KeyboardEvent)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.altLeft;
+element.altLeft = value;
+```
+
+## Examples
+
+The following example shows how to use the **altLeft** property to indicate when the user presses the left or right ALT keys.
+
+    <HEAD>
+    <SCRIPT>
+    function init() {
+        spanLeftAlt.innerText='false';
+        spanRightAlt.innerText='false';
     }
-    else {
-        if (event.altKey) {
-             indicate(spanRightAlt,'true');
+
+    function indicate(obj, arg) {
+        obj.innerText=arg;
+    }
+
+    function AltDown() {
+        if (event.altLeft) {
+            indicate(spanLeftAlt,'true');
+        }
+        else {
+            if (event.altKey) {
+                 indicate(spanRightAlt,'true');
+            }
         }
     }
-}
-    
-function AltUp() {
-    if (!event.altKey) {
-        indicate(spanLeftAlt,'false');
-        indicate(spanRightAlt,'false');
+
+    function AltUp() {
+        if (!event.altKey) {
+            indicate(spanLeftAlt,'false');
+            indicate(spanRightAlt,'false');
+        }
     }
-}
-&lt;/SCRIPT&gt;
-&lt;/HEAD&gt;
+    </SCRIPT>
+    </HEAD>
 
-&lt;BODY onload{{=}}"document.body.focus(); init()" onkeydown{{=}}"AltDown();" onkeyup{{=}}"AltUp();"&gt;
+    <BODY onload="document.body.focus(); init()" onkeydown="AltDown();" onkeyup="AltUp();">
 
-&lt;P&gt;Press either the left or right ALT key.&lt;/P&gt;
-&lt;TABLE&gt;
-&lt;TR&gt;
-&lt;TD&gt;&lt;I&gt;Left ALT Key Pressed&lt;/I&gt;&lt;/TD&gt;
-&lt;TD&gt;&lt;I&gt;Right ALT Key Pressed&lt;/I&gt;&lt;/TD&gt;
-&lt;/TR&gt;
-&lt;TR&gt;
-&lt;TD ALIGN{{=}}"center"&gt;&lt;SPAN ID{{=}}"spanLeftAlt"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
-&lt;TD ALIGN{{=}}"center"&gt;&lt;SPAN ID{{=}}"spanRightAlt"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
-&lt;/TR&gt;
-&lt;/TABLE&gt;
-&lt;/P&gt;
-&lt;/BODY&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/starLeft.htm
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-This property is currently supported only in Microsoft Windows NT 4.0 and Windows 2000.
-The [[dom/Document|Document]] must have 
-'''focus'''
-for this property to return true.
-No '''altRight''' property is available. Authors can test for the right ALT key by using the '''altKey''' and '''altLeft''' properties.
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+    <P>Press either the left or right ALT key.</P>
+    <TABLE>
+    <TR>
+    <TD><I>Left ALT Key Pressed</I></TD>
+    <TD><I>Right ALT Key Pressed</I></TD>
+    </TR>
+    <TR>
+    <TD ALIGN="center"><SPAN ID="spanLeftAlt"></SPAN></TD>
+    <TD ALIGN="center"><SPAN ID="spanRightAlt"></SPAN></TD>
+    </TR>
+    </TABLE>
+    </P>
+    </BODY>
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/starLeft.htm)
+
+## Notes
+
+### Remarks
+
+This property is currently supported only in Microsoft Windows NT 4.0 and Windows 2000. The [Document](/dom/Document) must have **focus** for this property to return true. No **altRight** property is available. Authors can test for the right ALT key by using the **altKey** and **altLeft** properties.
+
+### Syntax
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

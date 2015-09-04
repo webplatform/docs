@@ -1,155 +1,384 @@
-{{Page_Title|CSS Selectors}}
-{{Flags
-|State=Ready to Use
-}}
-{{Summary_Section|A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.
+---
+title: selectors
+tags:
+  - Basic
+  - Pages
+  - CSS
+readiness: 'Ready to Use'
+summary: "A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.\n"
+uri: css/selectors
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'css/selectors/pseudo-classes/:lang'
+
+---
+# CSS Selectors
+
+## Summary
+
+A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.
 
 Selectors may range from simple element names to rich contextual representations.
-}}
-{{Basic Page}}
-== CSS Selector Reference ==
-=== Type Selector ===
-*[[css/selectors/type|<code>elementname</code>]]
 
-=== Universal Selector ===
-*[[css/selectors/universal_selector|<code>*</code>]]
+## CSS Selector Reference
 
-=== [[css/selectors/attribute_selector|Attribute Selector]] ===
-*<code>[[css/selectors/attributes/existence|[attributename]]]</code>
-*<code>[[css/selectors/attributes/equality|[attributename="val"]]]</code>
-*<code>[[css/selectors/attributes/whitespace|[attributename~="val"]]]</code>
-*<code>[[css/selectors/attributes/hyphen|[attributename{{!}}="val"]]]</code>
-*<code>[[css/selectors/attributes/prefix|[attributename^="val"]]]</code>
-*<code>[[css/selectors/attributes/suffix|[attributename$="val"]]]</code>
-*<code>[[css/selectors/attributes/substring|[attributename*="val"]]]</code>
+### Type Selector
 
-=== Class Selector ===
-*[[css/selectors/class_selector|<code>.classname</code>]]
+-   [`elementname`](/css/selectors/type)
 
-=== ID Selector ===
-*[[css/selectors/id_selector|<code>#idname</code>]]
+### Universal Selector
 
-=== Pseudo-classes ===
-==== [[css/selectors/pseudo-classes|Dynamic pseudo-classes]] ====
-*<code>[[:css/selectors/pseudo-classes/:link|:link]]</code>
-*<code>[[:css/selectors/pseudo-classes/:visited|:visited]]</code>
-*<code>[[:css/selectors/pseudo-classes/:hover|:hover]]</code>
-*<code>[[:css/selectors/pseudo-classes/:active|:active]]</code>
-*<code>[[:css/selectors/pseudo-classes/:focus|:focus]]</code>
+-   [`*`](/css/selectors/universal_selector)
 
-==== The target pseudo-class ====
-*[[css/selectors/pseudo-classes/:target|<code>:target</code>]]
+### Attribute Selector
 
-==== The language pseudo-class ====
-*[[css/selectors/pseudo-classes/:lang|<code>:lang</code>]]
+-   `[attributename]`
+-   `[attributename="val"]`
+-   `[attributename~="val"]`
+-   `[attributename|="val"]`
+-   `[attributename^="val"]`
+-   `[attributename$="val"]`
+-   `[attributename*="val"]`
 
-==== [[css/selectors/pseudo-classes/ui_element_states_pseudo-classes|The UI element states pseudo-classes]] ====
-*<code>[[:css/selectors/pseudo-classes/:enabled|:enabled]]</code>
-*<code>[[:css/selectors/pseudo-classes/:disabled|:disabled]]</code>
-*<code>[[:css/selectors/pseudo-classes/:checked|:checked]]</code>
+### Class Selector
 
-==== [[css/selectors/pseudo-classes/Structural_pseudo-classes|Structural pseudo-classes]] ====
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:root_pseudo-class|<code>:root</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-child.28.29_pseudo-class|<code>:nth-child</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-last-child.28.29_pseudo-class|<code>:nth-last-child</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-of-type.28.29_pseudo-class|<code>:nth-of-type</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-last-of-type.28.29_pseudo-class|<code>:nth-last-of-type</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:first-child_pseudo-class|<code>:first-child</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:last-child_pseudo-class|<code>:last-child</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:first-of-type_pseudo-class|<code>:first-of-type</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:last-of-type_pseudo-class|<code>:last-of-type</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:only-child_pseudo-class|<code>:only-child</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:only-of-type_pseudo-class|<code>:only-of-type</code>]]
-*[[css/selectors/pseudo-classes/Structural_pseudo-classes#:empty_pseudo-class|<code>:empty</code>]]
+-   [`.classname`](/css/selectors/class_selector)
 
-==== The negation pseudo-class ====
-*[[css/selectors/pseudo-classes/:not|<code>:not</code>]]
+### ID Selector
 
-=== Pseudo-elements ===
-*[[:css/selectors/pseudo-elements/::first-line|<code><span>:</span>:first-line</code>]]
-*[[:css/selectors/pseudo-elements/::first-letter|<code><span>:</span>:first-letter</code>]]
-*[[:css/selectors/pseudo-elements/::before|<code><span>:</span>:before</code>]]
-*[[:css/selectors/pseudo-elements/::after|<code><span>:</span>:after</code>]]
+-   [`#idname`](/css/selectors/id_selector)
 
-=== Combinators ===
-==== Descendant combinator ====
-*[[css/selectors/combinators/descendant|<code>A B</code>]]
+### Pseudo-classes
 
-==== Child combinator ====
-*[[css/selectors/combinators/child|<code>A > B</code>]]
+#### Dynamic pseudo-classes
 
-==== Adjacent sibling combinator ====
-*[[css/selectors/combinators/adjacent_sibling|<code>A + B</code>]]
+-   `:link`
+-   `:visited`
+-   `:hover`
+-   `:active`
+-   `:focus`
 
-==== General sibling combinator ====
-*[[css/selectors/combinators/general_sibling|<code>A ~ B</code>]]
+#### The target pseudo-class
 
-== Case sensitivity ==
-All Selectors syntax is case-insensitive within the ASCII range (i.e. [a-z] and [A-Z] are equivalent), except for parts that are not under the control of Selectors. The case sensitivity of document language element names, attribute names, and attribute values in selectors depends on the document language. For example, in HTML, element names are case-insensitive, but in XML, they are case-sensitive. Case sensitivity of namespace prefixes is defined in [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE CSS3NAMESPACE]. 
+-   [`:target`](/css/selectors/pseudo-classes/:target)
 
-== Selector syntax ==
-A selector is a chain of one or more sequences of simple selectors separated by combinators. One pseudo-element may be appended to the last sequence of simple selectors in a selector.
-A sequence of simple selectors is a chain of simple selectors that are not separated by a combinator. It always begins with a type selector or a universal selector. No other type selector or universal selector is allowed in the sequence.
+#### The language pseudo-class
+
+-   [`:lang`](/w/index.php?title=css/selectors/pseudo-classes/:lang&action=edit&redlink=1)
+
+#### The UI element states pseudo-classes
+
+-   `:enabled`
+-   `:disabled`
+-   `:checked`
+
+#### Structural pseudo-classes
+
+-   [`:root`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:root_pseudo-class)
+-   [`:nth-child`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-child.28.29_pseudo-class)
+-   [`:nth-last-child`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-last-child.28.29_pseudo-class)
+-   [`:nth-of-type`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-of-type.28.29_pseudo-class)
+-   [`:nth-last-of-type`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-last-of-type.28.29_pseudo-class)
+-   [`:first-child`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:first-child_pseudo-class)
+-   [`:last-child`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:last-child_pseudo-class)
+-   [`:first-of-type`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:first-of-type_pseudo-class)
+-   [`:last-of-type`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:last-of-type_pseudo-class)
+-   [`:only-child`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:only-child_pseudo-class)
+-   [`:only-of-type`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:only-of-type_pseudo-class)
+-   [`:empty`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:empty_pseudo-class)
+
+#### The negation pseudo-class
+
+-   [`:not`](/css/selectors/pseudo-classes/:not)
+
+### Pseudo-elements
+
+-   [`::first-line`](/css/selectors/pseudo-elements/::first-line)
+-   [`::first-letter`](/css/selectors/pseudo-elements/::first-letter)
+-   [`::before`](/css/selectors/pseudo-elements/::before)
+-   [`::after`](/css/selectors/pseudo-elements/::after)
+
+### Combinators
+
+#### Descendant combinator
+
+-   [`A B`](/css/selectors/combinators/descendant)
+
+#### Child combinator
+
+-   [`A > B`](/css/selectors/combinators/child)
+
+#### Adjacent sibling combinator
+
+-   [`A + B`](/css/selectors/combinators/adjacent_sibling)
+
+#### General sibling combinator
+
+-   [`A ~ B`](/css/selectors/combinators/general_sibling)
+
+## Case sensitivity
+
+All Selectors syntax is case-insensitive within the ASCII range (i.e. [a-z] and [A-Z] are equivalent), except for parts that are not under the control of Selectors. The case sensitivity of document language element names, attribute names, and attribute values in selectors depends on the document language. For example, in HTML, element names are case-insensitive, but in XML, they are case-sensitive. Case sensitivity of namespace prefixes is defined in [CSS3NAMESPACE](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE).
+
+## Selector syntax
+
+A selector is a chain of one or more sequences of simple selectors separated by combinators. One pseudo-element may be appended to the last sequence of simple selectors in a selector. A sequence of simple selectors is a chain of simple selectors that are not separated by a combinator. It always begins with a type selector or a universal selector. No other type selector or universal selector is allowed in the sequence.
 
 A simple selector is either a type selector, universal selector, attribute selector, class selector, ID selector, or pseudo-class.
 
-Combinators are: whitespace, "greater-than sign" (U+003E, >), "plus sign" (U+002B, +) and "tilde" (U+007E, ~). White space may appear between a combinator and the simple selectors around it. Only the characters "space" (U+0020), "tab" (U+0009), "line feed" (U+000A), "carriage return" (U+000D), and "form feed" (U+000C) can occur in whitespace. Other space-like characters, such as "em-space" (U+2003) and "ideographic space" (U+3000), are never part of whitespace.
+Combinators are: whitespace, "greater-than sign" (U+003E, \>), "plus sign" (U+002B, +) and "tilde" (U+007E, \~). White space may appear between a combinator and the simple selectors around it. Only the characters "space" (U+0020), "tab" (U+0009), "line feed" (U+000A), "carriage return" (U+000D), and "form feed" (U+000C) can occur in whitespace. Other space-like characters, such as "em-space" (U+2003) and "ideographic space" (U+3000), are never part of whitespace.
 
 The elements of a document tree that are represented by a selector are the subjects of the selector. A selector consisting of a single sequence of simple selectors represents any element satisfying its requirements. Prepending another sequence of simple selectors and a combinator to a sequence imposes additional matching constraints, so the subjects of a selector are always a subset of the elements represented by the last sequence of simple selectors.
 
-An empty selector, containing no sequence of simple selectors and no pseudo-element, is an invalid selector.
-Characters in Selectors can be escaped with a backslash according to the same escaping rules as CSS. [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS21 CSS21].
+An empty selector, containing no sequence of simple selectors and no pseudo-element, is an invalid selector. Characters in Selectors can be escaped with a backslash according to the same escaping rules as CSS. [CSS21](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS21).
 
-Certain selectors support namespace prefixes. The mechanism by which namespace prefixes are declared should be specified by the language that uses Selectors. If the language does not specify a namespace prefix declaration mechanism, then no prefixes are declared. In CSS, namespace prefixes are declared with the @namespace rule. [http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE CSS3NAMESPACE]
+Certain selectors support namespace prefixes. The mechanism by which namespace prefixes are declared should be specified by the language that uses Selectors. If the language does not specify a namespace prefix declaration mechanism, then no prefixes are declared. In CSS, namespace prefixes are declared with the @namespace rule. [CSS3NAMESPACE](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE)
 
-== Groups of selectors ==
+## Groups of selectors
+
 A comma-separated list of selectors represents the union of all elements selected by each of the individual selectors in the list. (A comma is U+002C.) For example, in CSS when several selectors share the same declarations, they may be grouped into a comma-separated list. White space may appear before and/or after the comma.
 
 In this example, we condense three rules with identical declarations into one. Thus,
-<syntaxhighlight lang="css">
+
+``` {.css}
 h1 { font-family: sans-serif }
 h2 { font-family: sans-serif }
 h3 { font-family: sans-serif }
-</syntaxhighlight>
+```
+
 is equivalent to:
 
-<syntaxhighlight lang="css">
+``` {.css}
 h1, h2, h3 { font-family: sans-serif }
-</syntaxhighlight>
+```
 
-'''Warning''': the equivalence is true in this example because all the selectors are valid selectors. If just one of these selectors were invalid, the entire group of selectors would be invalid. This would invalidate the rule for all three heading elements, whereas in the former case only one of the three individual heading rules would be invalidated. 
+**Warning**: the equivalence is true in this example because all the selectors are valid selectors. If just one of these selectors were invalid, the entire group of selectors would be invalid. This would invalidate the rule for all three heading elements, whereas in the former case only one of the three individual heading rules would be invalidated.
 
 Invalid CSS example:
-<syntaxhighlight lang="css">
+
+``` {.css}
 h1 { font-family: sans-serif }
 h2..foo { font-family: sans-serif }
 h3 { font-family: sans-serif }
-</syntaxhighlight>
+```
+
 is not equivalent to:
-<syntaxhighlight lang="css">
+
+``` {.css}
 h1, h2..foo, h3 { font-family: sans-serif }
-</syntaxhighlight>
+```
+
 because the above selector (h1, h2..foo, h3) is entirely invalid and the entire style rule is dropped. (When the selectors are not grouped, only the rule for h2..foo is dropped.)
 
-{{See_Also_Section
-|Manual_sections=
-===Related topics===
-*[[tutorials/using_selectors|Using Selectors Tutorial]]
-*[[css/tutorials|CSS Educational Materials for Beginners]]
-*[[css/properties|CSS Properties Reference]]
+## See also
 
-===Selector list===
-{{Special:PrefixIndex/css/selectors/}}
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Selectors Level 3
-|URL=http://www.w3.org/TR/css3-selectors/
-|Status=Recommendation
-}}
-}}
-[[Category:CSS]]
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-}}
+### Related topics
+
+-   [Using Selectors Tutorial](/tutorials/using_selectors)
+-   [CSS Educational Materials for Beginners](/css/tutorials)
+-   [CSS Properties Reference](/css/properties)
+
+### Selector list
+
+<dl data-table="mw-prefixindex-list-table">
+<dt>
+[css/selectors/-ms-scrollbar-shadow-color](/css/selectors/-ms-scrollbar-shadow-color)
+
+</dt>
+<dd>
+[css/selectors/ID](/css/selectors/ID)
+
+</dd>
+<dt>
+[css/selectors/Type](/css/selectors/Type)
+
+</dt>
+<dd>
+[css/selectors/Universal](/css/selectors/Universal)
+
+</dd>
+<dt>
+[css/selectors/attributes/equality](/css/selectors/attributes/equality)
+
+</dt>
+<dd>
+[css/selectors/attributes/existence](/css/selectors/attributes/existence)
+
+</dd>
+<dt>
+[css/selectors/attributes/prefix](/css/selectors/attributes/prefix)
+
+</dt>
+<dd>
+[css/selectors/attributes/substring](/css/selectors/attributes/substring)
+
+</dd>
+<dt>
+[css/selectors/attributes/whitespace](/css/selectors/attributes/whitespace)
+
+</dt>
+<dd>
+[css/selectors/border-image](/css/selectors/border-image)
+
+</dd>
+<dt>
+[css/selectors/class selector](/css/selectors/class_selector)
+
+</dt>
+<dd>
+[css/selectors/combinators/adjacent sibling](/css/selectors/combinators/adjacent_sibling)
+
+</dd>
+<dt>
+[css/selectors/combinators/descendant](/css/selectors/combinators/descendant)
+
+</dt>
+<dd>
+[css/selectors/combinators/general sibling](/css/selectors/combinators/general_sibling)
+
+</dd>
+<dt>
+[css/selectors/id selector](/css/selectors/id_selector)
+
+</dt>
+<dd>
+[css/selectors/outline](/css/selectors/outline)
+
+</dd>
+<dt>
+[css/selectors/outline-style](/css/selectors/outline-style)
+
+</dt>
+<dd>
+[css/selectors/outline-width](/css/selectors/outline-width)
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:-ms-input-placeholder](/css/selectors/pseudo-classes/:-ms-input-placeholder)
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:active](/css/selectors/pseudo-classes/:active)
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:disabled](/css/selectors/pseudo-classes/:disabled)
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:empty](/css/selectors/pseudo-classes/:empty)
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:first-child](/css/selectors/pseudo-classes/:first-child)
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:hover](/css/selectors/pseudo-classes/:hover)
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:in-range](/css/selectors/pseudo-classes/:in-range)
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:invalid](/css/selectors/pseudo-classes/:invalid)
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:lang(c)](/css/selectors/pseudo-classes/:lang(c))
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:link](/css/selectors/pseudo-classes/:link)
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:nth-child(n)](/css/selectors/pseudo-classes/:nth-child(n))
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:nth-last-child(n)](/css/selectors/pseudo-classes/:nth-last-child(n))
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:nth-of-type(n)](/css/selectors/pseudo-classes/:nth-of-type(n))
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:only-child](/css/selectors/pseudo-classes/:only-child)
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:optional](/css/selectors/pseudo-classes/:optional)
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:required](/css/selectors/pseudo-classes/:required)
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/:target](/css/selectors/pseudo-classes/:target)
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/:valid](/css/selectors/pseudo-classes/:valid)
+
+</dd>
+<dt>
+[css/selectors/pseudo-classes/Dynamic pseudo-classes](/css/selectors/pseudo-classes/Dynamic_pseudo-classes)
+
+</dt>
+<dd>
+[css/selectors/pseudo-classes/Structural pseudo-classes](/css/selectors/pseudo-classes/Structural_pseudo-classes)
+
+</dd>
+<dt>
+[css/selectors/pseudo-elements](/css/selectors/pseudo-elements)
+
+</dt>
+<dd>
+[css/selectors/pseudo-elements/::after](/css/selectors/pseudo-elements/::after)
+
+</dd>
+<dt>
+[css/selectors/pseudo-elements/::first-letter](/css/selectors/pseudo-elements/::first-letter)
+
+</dt>
+<dd>
+[css/selectors/pseudo-elements/::first-line](/css/selectors/pseudo-elements/::first-line)
+
+</dd>
+<dt>
+[css/selectors/pseudo-elements/::selection](/css/selectors/pseudo-elements/::selection)
+
+</dt>
+<dd>
+[css/selectors/type](/css/selectors/type)
+
+</dd>
+<dt>
+[css/selectors/user-select](/css/selectors/user-select)
+
+</dt>
+<dd>
+[css/selectors/zoom](/css/selectors/zoom)
+
+</dd>
+</dl>
+## Related specifications
+
+Specification
+:   Status
+[Selectors Level 3](http://www.w3.org/TR/css3-selectors/)
+:   Recommendation
+

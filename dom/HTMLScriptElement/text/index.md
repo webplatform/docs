@@ -1,29 +1,45 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Final review.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status|W3C Last Call Working Draft}}
-{{API_Name}}
-{{Summary_Section|Legacy. Use [[dom/Node/textContent|textContent]] instead. When setting, does same as [[dom/Node/textContent|textContent]]. When getting, gets a concatenated version of all of the child text nodes of a [[html/elements/script|script]] element.}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLScriptElement
-|Read_only=No
-|Example_object_name=scriptElement
-|Return_value_name=scriptCode
-|Javascript_data_type=String
-|Return_value_description=A concatenation of all of the child [[dom/Text|text nodes]] of the element.
-|Example_value_name=newScriptCode
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following script gets the code of an inline script element, changes the name of a function, constructs a new scripts element, sets the changed code as its code and appends it to the document in order to run it.
-|Code=// Caching the script element with the some-script ID.
+---
+title: text
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Last Call Working Draft'
+notes:
+  - 'Final review.'
+summary: 'Legacy. Use textContent instead. When setting, does same as textContent. When getting, gets a concatenated version of all of the child text nodes of a script element.'
+uri: dom/HTMLScriptElement/text
+
+---
+# text
+
+## Summary
+
+Legacy. Use textContent instead. When setting, does same as textContent. When getting, gets a concatenated version of all of the child text nodes of a script element.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLScriptElement](/dom/HTMLScriptElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var scriptCode = scriptElement.text;
+scriptElement.text = newScriptCode;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+A concatenation of all of the child [text nodes](/dom/Text) of the element.
+
+## Examples
+
+The following script gets the code of an inline script element, changes the name of a function, constructs a new scripts element, sets the changed code as its code and appends it to the document in order to run it.
+
+``` {.js}
+// Caching the script element with the some-script ID.
 var script = document.getElementById("some-script");
 
 // Getting the script code.
@@ -44,44 +60,33 @@ newScript.text = scriptCode;
 // Appending the script element to the head element
 // in order to run it.
 document.head.appendChild(newScript);
-}}
-}}
-{{Notes_Section
-|Usage=Legacy. Use [[dom/Node/textContent|textContent]] instead.
+```
 
-Use this property to get a concatenated version of all of the child text nodes of a [[html/elements/script|script]] element.
-Setting this property works the same way as setting the [[dom/Node/textContent|textContent]] property.
-|Notes=* [[dom/Text|Text nodes]] that are nested within elements or HTML comments are excluded.
-* Settings this property of a [[html/elements/script|'''script''']] element after its contained or referenced script has already ran does not run the new set code.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Document Object Model (DOM) Level 1
-|URL=http://www.w3.org/TR/REC-DOM-Level-1/level-one-html.html#ID-46872999
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage/scripting.html#dom-script-text
-|Status=Living Standard
-}}{{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/scripting-1.html#dom-script-text
-|Status=W3C Last Call Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+## Usage
+
+     Legacy. Use textContent instead.
+
+Use this property to get a concatenated version of all of the child text nodes of a [script](/html/elements/script) element. Setting this property works the same way as setting the [textContent](/dom/Node/textContent) property.
+
+## Notes
+
+-   [Text nodes](/dom/Text) that are nested within elements or HTML comments are excluded.
+-   Settings this property of a [**script**](/html/elements/script) element after its contained or referenced script has already ran does not run the new set code.
+
+## Related specifications
+
+Specification
+:   Status
+[Document Object Model (DOM) Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-html.html#ID-46872999)
+:   W3C Recommendation
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/scripting.html#dom-script-text)
+:   Living Standard
+[HTML5](http://www.w3.org/TR/html5/scripting-1.html#dom-script-text)
+:   W3C Last Call Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

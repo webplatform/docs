@@ -1,72 +1,80 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=example/more description, compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Queries the state of the specified modifier key.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=modifierKeyName
-|Data type=String
-|Description=One of the following values -
-*'''Alt''' - The left or right Alt key. 
-*'''AltGraph''' - The Ctrl and Alt keys.
-*'''CapsLock''' - The Caps Lock toggle.
-*'''Control''' - The left or right Ctrl key.
-*'''Meta''' - The Meta/Control key.
-*'''NumLock''' - The Num Lock toggle.
-*'''ScrollLock''' - The Scroll Lock toggle.
-*'''Shift''' - The left or right Shift key.
-*'''Fn'''
-*'''OS'''
-*'''SymbolLock'''
+---
+title: getModifierState
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'example/more description, compatibility'
+summary: 'Queries the state of the specified modifier key.'
+uri: dom/KeyboardEvent/getModifierState
 
-Other implementation specific options may be supported.
-For example -
-*'''Win''' (on Microsoft Windows) - The left or right Windows logo key.
-*'''Scroll''' - The Scroll Lock toggle.
-|Optional=No
-}}
-|Method_applies_to=dom/KeyboardEvent
-|Example_object_name=event
-|Return_value_name=modifierState
-|Javascript_data_type=Boolean
-|Return_value_description=Whether the modifier key is active.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=Some keyboard configurations contain a left and right modifier key. To determine whether the left or right key is pressed, use the  [[dom/KeyboardEvent/location|'''location''']] property.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Events
-|URL=http://www.w3.org/TR/DOM-Level-3-Events/
-|Status=Working Draft
-|Relevant_changes=Section 5.2.6
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+# getModifierState
+
+## Summary
+
+Queries the state of the specified modifier key.
+
+*Method of [dom/KeyboardEvent](/dom/KeyboardEvent)*
+
+## Syntax
+
+``` {.js}
+var modifierState = event.getModifierState(modifierKeyName);
+```
+
+## Parameters
+
+### modifierKeyName
+
+ Data-typeÂ
+:   String
+
+ One of the following values -
+
+-   **Alt** - The left or right Alt key.
+-   **AltGraph** - The Ctrl and Alt keys.
+-   **CapsLock** - The Caps Lock toggle.
+-   **Control** - The left or right Ctrl key.
+-   **Meta** - The Meta/Control key.
+-   **NumLock** - The Num Lock toggle.
+-   **ScrollLock** - The Scroll Lock toggle.
+-   **Shift** - The left or right Shift key.
+-   **Fn**
+-   **OS**
+-   **SymbolLock**
+
+Other implementation specific options may be supported. For example -
+
+-   **Win** (on Microsoft Windows) - The left or right Windows logo key.
+-   **Scroll** - The Scroll Lock toggle.
+
+## Return Value
+
+Returns an object of type Boolean.
+
+Whether the modifier key is active.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+Some keyboard configurations contain a left and right modifier key. To determine whether the left or right key is pressed, use the [**location**](/dom/KeyboardEvent/location) property.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

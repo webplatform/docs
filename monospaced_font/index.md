@@ -1,19 +1,17 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Glossary term; move candidate
-|Checked_Out=No
-}}
-{{Glossary_Item
-|Term=monospaced font
-|Definition=A font whose characters each occupy the same amount of horizontal space, such that typically-narrow letters like "i" and typically-wide letters like "w" are the same width. Also called fixed-pitch or fixed-width font. <code>This sentence is in a monospaced font.</code> Contrast with [[proportional_font|proportional font]].
-}}
-{{Notes_Section}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: onospaced font
+tags:
+  - Glossary
+  - Items
+readiness: 'Not Ready'
+notes:
+  - 'Glossary term; move candidate'
+uri: 'monospaced font'
+
+---
+# monospaced font
+
+## monospaced font
+
+A font whose characters each occupy the same amount of horizontal space, such that typically-narrow letters like "i" and typically-wide letters like "w" are the same width. Also called fixed-pitch or fixed-width font. `This sentence is in a monospaced font.` Contrast with [proportional font](/proportional_font).
+

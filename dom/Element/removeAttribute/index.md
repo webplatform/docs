@@ -1,86 +1,78 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs examples and compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Removes a specified content attribute from an element.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=name
-|Data type=String
-|Description=The name of the attribute.
-|Optional=No
-}}
-|Method_applies_to=dom/Element
-|Example_object_name=element
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=Use this method to remove a content attribute from an element.
-|Notes=*The attribute to remove may not exist in the first place.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Document Object Model (DOM) Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}{{Related Specification
-|Name=Document Object Model (DOM) Level 2 Core
-|URL=http://www.w3.org/TR/DOM-Level-2-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}{{Related Specification
-|Name=Document Object Model (DOM) Level 1
-|URL=http://www.w3.org/TR/REC-DOM-Level-1
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}{{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/
-|Status=Living Standard
-|Relevant_changes=Section 6.8
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=7 and earlier
-|Note=The '''name''' parameter requires the name of the desired DOM attribute ("className", for example) and not the content attribute ("class").
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=7 and earlier
-|Note=There is an optional '''flag''' parameter that accepts one of the following values - <code>0</code> (default) - case insensitive attribute name. <code>1</code> - case sensitive attribute name.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=7 and earlier
-|Note=The '''name''' parameter value is case sensitive.
-}}
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Element/getAttribute|getAttribute]]</code>
-*<code>[[dom/Element/setAttribute|setAttribute]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: removeAttribute
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs examples and compat'
+summary: 'Removes a specified content attribute from an element.'
+uri: dom/Element/removeAttribute
+
+---
+# removeAttribute
+
+## Summary
+
+Removes a specified content attribute from an element.
+
+*Method of [dom/Element](/dom/Element)*
+
+## Syntax
+
+``` {.js}
+ element.removeAttribute(name);
+```
+
+## Parameters
+
+### name
+
+ Data-typeÂ
+:   String
+
+ The name of the attribute.
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Usage
+
+     Use this method to remove a content attribute from an element.
+
+## Notes
+
+-   The attribute to remove may not exist in the first place.
+
+## Related specifications
+
+Specification
+:   Status
+[Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+[Document Object Model (DOM) Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
+:   Recommendation
+[Document Object Model (DOM) Level 1](http://www.w3.org/TR/REC-DOM-Level-1)
+:   Recommendation
+[DOM](http://dom.spec.whatwg.org/)
+:   Living Standard
+
+## See also
+
+### Related pages (MSDN)
+
+-   `getAttribute`
+-   `setAttribute`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,57 +1,55 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Objects that may be the target of an [[apis/web_animations/Animation|'''Animation''']] implement the Animatable interface.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=elem.ownerDocument.timeline.play(anim);
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=
-|Code=var anim = new Animation(elem, { opacity: 0 }, 2000);
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=
-|Code=var anim = elem.animate({ opacity: 0 }, 2000);
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Web Animations 1.0
-|URL=http://www.w3.org/TR/web-animations/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: Animatable
+tags:
+  - API
+  - Objects
+  - Web
+  - Animations
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Objects that may be the target of an Animation implement the Animatable interface.'
+uri: 'apis/web animations/Animatable'
+
+---
+# Animatable
+
+## Summary
+
+Objects that may be the target of an Animation implement the Animatable interface.
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+API Name
+:   Summary
+[animate](/apis/web_animations/Animatable/animate)
+:   Creates a new Animation object whose animation target is the object on which the method is called, and calls the play method of the AnimationTimeline object of the document timeline of the node document [DOM4] of the element, passing the newly created Animation as the argument to the method.
+
+## Events
+
+*No events.*
+
+## Examples
+
+``` {.js}
+elem.ownerDocument.timeline.play(anim);
+```
+
+``` {.js}
+var anim = new Animation(elem, { opacity: 0 }, 2000);
+```
+
+``` {.js}
+var anim = elem.animate({ opacity: 0 }, 2000);
+```
+
+## Related specifications
+
+Specification
+:   Status
+[Web Animations 1.0](http://www.w3.org/TR/web-animations/)
+:   W3C Working Draft
+

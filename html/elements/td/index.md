@@ -1,82 +1,200 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Add description/notes, compatibility.
-|Checked_Out=No
-|Content=Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Defines a standard Cell in an HTML table.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLTableDataCellElement
-|Tag_omissions=Closing tag omissible in certain cases
-|CSS_display=table-cell
-|Content=== Attributes ==
-*<code>colspan</code> = valid non-negative integer<br />This attribute gives the number of columns respectively that the cell is to span.
-*<code>rowspan</code> = valid non-negative integer<br />This attribute gives the number of rows respectively that the cell is to span.
-*<code>headers</code> = unordered set of unique space-separated tokens<br />The value of this attribute must have the value of an id attribute of the th element that is targeted.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the [[html/elements/table|'''table''']] element with [[html/elements/tr|'''tr''']] and [[html/elements/td|'''td''']] to create a table with three rows and two columns.
-|Code=&lt;table border{{=}}"1" width{{=}}"80%"&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Row 1, Column 1 text.&lt;/td&gt;
-      &lt;td&gt;Row 1, Column 2 text.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Row 2, Column 1 text.&lt;/td&gt;
-      &lt;td&gt;Row 2, Column 2 text.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/tabular-data.html#the-td-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/tabular-data.html#the-td-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/tables.html#edef-TD
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML, Tables
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: td
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add description/notes, compatibility.'
+summary: 'Defines a standard Cell in an HTML table.'
+uri: html/elements/td
+
+---
+# td
+
+## Summary
+
+Defines a standard Cell in an HTML table.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLTableDataCellElement](/dom/HTMLTableDataCellElement)
+
+## Attributes
+
+-   `colspan` = valid non-negative integer
+    This attribute gives the number of columns respectively that the cell is to span.
+-   `rowspan` = valid non-negative integer
+    This attribute gives the number of rows respectively that the cell is to span.
+-   `headers` = unordered set of unique space-separated tokens
+    The value of this attribute must have the value of an id attribute of the th element that is targeted.
+
+## Examples
+
+This example uses the [**table**](/html/elements/table) element with [**tr**](/html/elements/tr) and ****td**** to create a table with three rows and two columns.
+
+``` {.html}
+<table border="1" width="80%">
+  <tbody>
+    <tr>
+      <td>Row 1, Column 1 text.</td>
+      <td>Row 1, Column 2 text.</td>
+    </tr>
+    <tr>
+      <td>Row 2, Column 1 text.</td>
+      <td>Row 2, Column 2 text.</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-td-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-td-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TD)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+#### Tables
+
+-   [border-collapse](/css/properties/border-collapse)
+
+-   [border-spacing](/css/properties/border-spacing)
+
+-   [caption-side](/css/properties/caption-side)
+
+-   [empty-cells](/css/properties/empty-cells)
+
+-   [Tables](/css/tables)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   **td**
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+

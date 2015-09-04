@@ -1,29 +1,47 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Denotes one choice in a [[html/elements/select|select]] element.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLOptionElement
-|Tag_omissions=Closing tag omissible in certain cases
-|Content=== Attributes ==
-*<code>disabled</code> = boolean<br />if present, disable a option.
-*<code>label</code> = string<br />Provides a label for element.<br />If there isn't, the label of an option element is the textContent of the element. 
-*<code>value</code> = string<br />Provides a value for element.<br />If there isn't, the value of an option element is the textContent of the element. 
-*<code>selected</code> = boolean<br />Represents the default selectedness of the element. [[#Example_A|[Example A]]]
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''OPTION''' element to create individual items in a drop-down list box.
-|Code=<nowiki><!DOCTYPE html>
+---
+title: option
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.'
+summary: 'Denotes one choice in a select element.'
+uri: html/elements/option
+
+---
+# option
+
+## Summary
+
+Denotes one choice in a select element.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLOptionElement](/dom/HTMLOptionElement)
+
+## Attributes
+
+-   `disabled` = boolean
+    if present, disable a option.
+-   `label` = string
+    Provides a label for element.
+    If there isn't, the label of an option element is the textContent of the element.
+-   `value` = string
+    Provides a value for element.
+    If there isn't, the value of an option element is the textContent of the element.
+-   `selected` = boolean
+    Represents the default selectedness of the element. [[Example A]](#Example_A)
+
+## Examples
+
+This example uses the **OPTION** element to create individual items in a drop-down list box.
+
+``` {.html}
+<!DOCTYPE html>
 <html>
  <head>
   <title>Example</title>
@@ -36,19 +54,23 @@
   </select>
   <textarea id="text-area"></textarea>
  </body>
-</html></nowiki>
-}}{{Single Example
-|Language=JavaScript
-|Description=Using the markup of the previous example, this JavaScript example uses the [[dom/HTMLElement/options|'''options''']] collection to append the selected item of the list box in a text area.
-|Code=function appendCar() {
+</html>
+```
+
+Using the markup of the previous example, this JavaScript example uses the [**options**](/dom/HTMLElement/options) collection to append the selected item of the list box in a text area.
+
+``` {.js}
+function appendCar() {
   var carListElement = document.getElementById("car-list");
-   document.getElementById("text-area").value +{{=}}carListElement.options[carListElement.selectedIndex].text + "\n";
+   document.getElementById("text-area").value +=carListElement.options[carListElement.selectedIndex].text + "\n";
 }
 document.addEventListener("DOMContentLoaded", appendCar, false);
-}}{{Single Example
-|Language=HTML
-|Description=As a child of an optgroup element
-|Code=<nowiki><form action="courseselector.dll" method="get">
+```
+
+As a child of an optgroup element
+
+``` {.html}
+<form action="courseselector.dll" method="get">
   <p>Which course would you like to watch today?
   <p><label>Course:
     <select name="c">
@@ -70,51 +92,141 @@ document.addEventListener("DOMContentLoaded", appendCar, false);
     </select>
   </label>
   <p><input type=submit value="▶ Play">
-</form></optgroup></nowiki>
-}}
-}}
-{{Notes_Section
-|Notes=You can create new '''OPTION''' elements dynamically with the [[dom/Document/createElement|'''document.createElement''']] method, but you cannot change properties until the new element is added to a '''SELECT''' object. Or, you can create fully formed elements by using the [[dom/Option|'''Option''']] object, as follows:
- <code> var opt {{=}} new Option( 'Text', 'Value', fDefaultSelected ); </code>
-You can add '''OPTION''' elements only to a '''SELECT''' element that is located in the same window where the '''OPTION''' elements are created.
-Except for [[css/properties/background-color|'''background-color''']] and [[css/properties/color|'''color''']], style settings applied through the [[css/cssom/style|'''style''']] object for the '''option''' element are ignored. In addition, style settings applied directly to individual [[dom/HTMLElement/options|'''options''']] override those applied to the containing '''SELECT''' element as a whole.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/forms.html#the-option-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/forms.html#the-option-element
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/interact/forms.html#edef-OPTION
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=WebKit, Blink (Chrome, Safari and more)
-|Version=Any
-|Note=No support for event handlers.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=Earlier than 5
-|Note=[[dom/HTMLAllCollection|'''document.all''']] excludes '''option''' elements. Instead, you can use the [[dom/HTMLElement/options|options]] collection property of the [[dom/HTMLSelectElement|select]] element to get them.
-}}
-}}
+</form></optgroup>
+```
+
+## Notes
+
+You can create new **OPTION** elements dynamically with the [**document.createElement**](/dom/Document/createElement) method, but you cannot change properties until the new element is added to a **SELECT** object. Or, you can create fully formed elements by using the [**Option**](/dom/Option) object, as follows:
+
+     var opt = new Option( 'Text', 'Value', fDefaultSelected );
+
+You can add **OPTION** elements only to a **SELECT** element that is located in the same window where the **OPTION** elements are created. Except for [**background-color**](/css/properties/background-color) and [**color**](/css/properties/color), style settings applied through the [**style**](/css/cssom/style) object for the **option** element are ignored. In addition, style settings applied directly to individual [**options**](/dom/HTMLElement/options) override those applied to the containing **SELECT** element as a whole.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-option-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/forms.html#the-option-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-OPTION)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   [caption](/html/elements/caption)
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

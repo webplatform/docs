@@ -1,26 +1,38 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Add Category, Parent, Children and Compatibility information.
-|Checked_Out=No
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The '''caption''' (&lt;caption&gt;) element represents the title of the table that is its parent.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLTableCaptionElement
-|Tag_omissions=Closing tag required
-|CSS_display=inline
-|Content=The '''caption''' element (&lt;caption&gt;) specifies a brief description for a table.
-The &lt;caption&gt; element must be inserted immediately after the &lt;table&gt; element.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example uses the '''caption''' element to provide a brief description for a table.
-|Code=<nowiki>
+---
+title: caption
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+summary: 'The caption (<caption>) element represents the title of the table that is its parent.'
+code_samples:
+  - 'http://gist.github.com/7282268'
+uri: html/elements/caption
+
+---
+# caption
+
+## Summary
+
+The caption (\<caption\>) element represents the title of the table that is its parent.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLTableCaptionElement](/dom/HTMLTableCaptionElement)
+
+The **caption** element (\<caption\>) specifies a brief description for a table. The \<caption\> element must be inserted immediately after the \<table\> element.
+
+## Examples
+
+This example uses the **caption** element to provide a brief description for a table.
+
+``` {.html}
+
 <table>
  <caption>Characteristics with positive and negative sides</caption>
  <thead>
@@ -43,55 +55,242 @@ The &lt;caption&gt; element must be inserted immediately after the &lt;table&gt;
   </tr>
  </tbody>
 </table>
-</nowiki>
-|LiveURL=http://code.webplatform.org/gist/7282268
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes====Remarks===
-The '''caption''' element should be a child of the <nowiki><table> element.</nowiki>
+```
+
+[View live example](http://code.webplatform.org/gist/7282268)
+
+## Notes
+
+### Remarks
+
+The **caption** element should be a child of the \<table\> element.
 
 A caption can introduce context for a table, making it significantly easier to understand.
 
-When a table element is the only content in a figure element other than the '''figcaption''', the caption element should be omitted in favor of the [[html/elements/figcaption|figcaption]].
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/tabular-data.html#the-caption-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/tabular-data.html#the-caption-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/tables.html#edef-CAPTION
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=HTML, Text
-|Manual_links=
-|External_links=http://www.w3.org/wiki/HTML/Elements/caption
-|Manual_sections=
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+When a table element is the only content in a figure element other than the **figcaption**, the caption element should be omitted in favor of the [figcaption](/html/elements/figcaption).
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-caption-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-caption-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-CAPTION)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### HTML
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [HTMLAudioElement](/dom/HTMLAudioElement)
+
+-   [textLength](/dom/HTMLTextAreaElement/textLength)
+
+-   [value](/dom/HTMLTextAreaElement/value)
+
+-   [accept](/html/attributes/accept)
+
+-   [action](/html/attributes/action)
+
+-   [alt](/html/attributes/alt)
+
+-   [autocomplete](/html/attributes/autocomplete)
+
+-   [autofocus](/html/attributes/autofocus)
+
+-   [checked](/html/attributes/checked)
+
+-   [crossorigin](/html/attributes/crossorigin)
+
+-   [form](/html/attributes/form)
+
+-   [formEnctype](/html/attributes/formEnctype)
+
+-   [height](/html/attributes/height)
+
+-   [list](/html/attributes/list)
+
+-   [max (HTMLInputElement)](/html/attributes/max_(HTMLInputElement))
+
+-   [maxLength](/html/attributes/maxLength)
+
+-   [min](/html/attributes/min)
+
+-   [multiple](/html/attributes/multiple)
+
+-   [readonly](/html/attributes/readonly)
+
+-   [size](/html/attributes/size)
+
+-   [standby](/html/attributes/standby)
+
+-   [step](/html/attributes/step)
+
+-   [HTML Elements](/html/elements)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE)
+
+-   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
+
+-   [acronym](/html/elements/acronym)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   [button](/html/elements/button)
+
+-   [button](/html/elements/button/ja)
+
+-   **caption**
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [col](/html/elements/col)
+
+-   [colgroup](/html/elements/colgroup)
+
+-   [datalist](/html/elements/datalist)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [div](/html/elements/div)
+
+-   [em](/html/elements/em)
+
+-   [EMBED](/html/elements/embed)
+
+-   [fieldset](/html/elements/fieldset)
+
+-   [font](/html/elements/font)
+
+-   [footer](/html/elements/footer)
+
+-   [head](/html/elements/head)
+
+-   [hn](/html/elements/hn)
+
+-   [hr](/html/elements/hr)
+
+<!-- -->
+
+    … further results
+
+#### Text
+
+-   [block-progression](/css/properties/block-progression)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [hanging-punctuation](/css/properties/hanging-punctuation)
+
+-   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
+
+-   [hyphenate-limit-lines](/css/properties/hyphenate-limit-lines)
+
+-   [hyphenate-limit-zone](/css/properties/hyphenate-limit-zone)
+
+-   [hyphens](/css/properties/hyphens)
+
+-   [ime-mode](/css/properties/ime-mode)
+
+-   [layout-flow](/css/properties/layout-flow)
+
+-   [layout-grid](/css/properties/layout-grid)
+
+-   [layout-grid-char](/css/properties/layout-grid-char)
+
+-   [layout-grid-line](/css/properties/layout-grid-line)
+
+-   [layout-grid-mode](/css/properties/layout-grid-mode)
+
+-   [layout-grid-type](/css/properties/layout-grid-type)
+
+-   [letter-spacing](/css/properties/letter-spacing)
+
+-   [line-break](/css/properties/line-break)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
+
+-   [text-overflow-mode](/css/properties/text-overflow-mode)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline-position](/css/properties/text-underline-position)
+
+-   [text-underline-style](/css/properties/text-underline-style)
+
+-   [text-underline-width](/css/properties/text-underline-width)
+
+-   [user-input](/css/properties/user-input)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [Text](/css/text)
+
+-   [size](/html/attributes/size)
+
+-   [b](/html/elements/b)
+
+-   [b](/html/elements/b/ja)
+
+-   [br](/html/elements/br)
+
+-   [br](/html/elements/br/ja)
+
+-   **caption**
+
+-   [cite](/html/elements/cite)
+
+-   [code](/html/elements/code)
+
+-   [del](/html/elements/del)
+
+-   [dfn](/html/elements/dfn)
+
+-   [em](/html/elements/em)
+
+-   [font](/html/elements/font)
+
+-   [hr](/html/elements/hr)
+
+-   [i](/html/elements/i)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [mark](/html/elements/mark)
+
+-   [samp](/html/elements/samp)
+
+-   [strong](/html/elements/strong)
+
+-   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
+
+### External resources
+
+[http://www.w3.org/wiki/HTML/Elements/caption](http://www.w3.org/wiki/HTML/Elements/caption)
+

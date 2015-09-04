@@ -1,37 +1,41 @@
-{{Page_Title|AnimationTimeline}}
-{{Flags
-|State=In Progress
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Representation of a timeline, including the document timeline.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: AnimationTimeline
+tags:
+  0: API
+  1: Objects
+  3: Web
+  4: Animations
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Representation of a timeline, including the document timeline.'
+uri: 'apis/web animations/AnimationTimeline'
+
+---
+# AnimationTimeline
+
+## Summary
+
+Representation of a timeline, including the document timeline.
+
+## Properties
+
+API Name
+:   Summary
+[currentTime](/apis/web_animations/AnimationTimeline/currentTime)
+:   Returns the time value for this timeline or null if this timeline is inactive.
+
+## Methods
+
+API Name
+:   Summary
+[getAnimationPlayers](/apis/web_animations/AnimationTimeline/getAnimationPlayers)
+:   Returns the set of [**Animation Player**](/apis/web_animations/AnimationPlayer) objects associated with this timeline that have associated source content which is current or in effect.
+[play](/apis/web_animations/AnimationTimeline/play)
+:   Creates a new [**AnimationPlayer**](/apis/web_animations/AnimationPlayer) object associated with this timeline that begins playback as soon as it is ready.
+
+## Events
+
+*No events.*
+
+**Needs Examples**: This section should include examples.
+

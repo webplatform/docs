@@ -1,42 +1,38 @@
-{{Page_Title}}
-{{Flags
-|State=
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Returns the current finished promise for this object.}}
-{{API_Object_Property
-|Property_applies_to=apis/web_animations/AnimationPlayer
-|Read_only=Yes
-|Example_object_name=finishedPromise
-|Return_value_name=myAnimationPlayer
-|Javascript_data_type=
-|Return_value_description=Returns a Promise object.
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: finished
+tags:
+  - API
+  - Object
+  - Properties
+  - Web
+  - Animations
+readiness: readiness-state
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the current finished promise for this object.'
+uri: 'apis/web animations/AnimationPlayer/finished'
+
+---
+# finished
+
+## Summary
+
+Returns the current finished promise for this object.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var myAnimationPlayer = finishedPromise.finished;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+
+Returns a Promise object.
+
+**Needs Examples**: This section should include examples.
+

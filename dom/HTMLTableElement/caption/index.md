@@ -1,55 +1,61 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=compatibility
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets or sets the caption element of a table.}}
-{{API_Object_Property
-|Property_applies_to=dom/HTMLTableElement
-|Read_only=No
-|Example_object_name=table
-|Return_value_name=captionElement
-|Javascript_data_type=DOM Node
-|Return_value_description=The caption element, or null.
-|Example_value_name=newCaption
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=This example sets the inline style for the '''caption''' property.
-|Code=document.getElementById("mytable").caption.style.color = "blue";
-}}
-}}
-{{Notes_Section
-|Notes=If a table contains multiple captions, this property returns the first one.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 1
-|URL=http://www.w3.org/TR/REC-DOM-Level-1/
-|Status=Recommendation
-|Relevant_changes=Section 2.5.5
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: caption
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - compatibility
+summary: 'Gets or sets the caption element of a table.'
+uri: dom/HTMLTableElement/caption
+
+---
+# caption
+
+## Summary
+
+Gets or sets the caption element of a table.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLTableElement](/dom/HTMLTableElement)</span></span>
+
+## Syntax
+
+``` {.js}
+var captionElement = table.caption;
+table.caption = newCaption;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+
+The caption element, or null.
+
+## Examples
+
+This example sets the inline style for the **caption** property.
+
+``` {.js}
+document.getElementById("mytable").caption.style.color = "blue";
+```
+
+## Notes
+
+If a table contains multiple captions, this property returns the first one.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

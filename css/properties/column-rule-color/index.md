@@ -1,82 +1,113 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add description, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Specifies the color of the rule between columns.}}
-{{CSS Property
-|Initial value=currentColor (same as for ‘color’ property)
-|Applies to=multi-column elements
-|Inherited=No
-|Media=visual
-|Computed value=as specified
-|Animatable=Yes
-|CSS object model property=columnRuleColor
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=color
-|Description=One of the color names, RGB, RGBA, HSL, or HSLA values in the [[css/color/color table|Color Table]].
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Uses the column-rule-color property to set the color of the rule between columns.
-|Code=/*
+---
+title: column-rule-color
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Add description, compatibility.'
+summary: 'Specifies the color of the rule between columns.'
+code_samples:
+  - 'http://gist.github.com/6288958'
+uri: css/properties/column-rule-color
+
+---
+# column-rule-color
+
+## Summary
+
+Specifies the color of the rule between columns.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `currentColor (same as for ‘color’ property)`
+Applies to
+:   multi-column elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `columnRuleColor`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `column-rule-color: color`
+
+## Values
+
+color
+:   One of the color names, RGB, RGBA, HSL, or HSLA values in the [Color Table](/css/color/color_table).
+
+## Examples
+
+Uses the column-rule-color property to set the color of the rule between columns.
+
+``` {.css}
+/*
 Makes 3 columns with 4px dashed green column-rule
 */
 
 #columns {
   columns: 3;
-  
+
   /* Prefix free example below, use vendor prefixes where needed */
   column-rule-style: dashed;
   column-rule-color: green;
   column-rule-width: 5px;
 }
-|LiveURL=http://code.webplatform.org/gist/6288958
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Multi-column Layout Module
-|URL=http://www.w3.org/TR/css3-multicol/
-|Status=W3C Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Chrome
-|Note=Requires -webkit- prefix
-}}{{Compatibility Notes Row
-|Browser=Safari
-|Note=Requires -webkit- prefix
-}}{{Compatibility Notes Row
-|Browser=Opera
-|Version=14–Current
-|Note=Requires -webkit-prefix
-}}{{Compatibility Notes Row
-|Browser=Firefox
-|Note=Requires -moz- prefix
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Multi-Column
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/6288958)
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
+:   W3C Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Multi-Column
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [column-count](/css/properties/column-count)
+
+-   [column-gap](/css/properties/column-gap)
+
+-   [column-rule](/css/properties/column-rule)
+
+-   **column-rule-color**
+
+-   [column-rule-style](/css/properties/column-rule-style)
+
+-   [column-rule-width](/css/properties/column-rule-width)
+
+-   [column-span](/css/properties/column-span)
+
+-   [column-width](/css/properties/column-width)
+
+-   [content](/css/properties/content)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

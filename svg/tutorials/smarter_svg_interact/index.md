@@ -1,30 +1,20 @@
-{{Page_Title|SVG interaction}}
-{{Flags
-|State=Not Ready
-|Editorial notes=No content; deletion candidate
-|Checked_Out=No
-|High-level issues=Deletion Candidate
-}}
-{{Byline}}
-{{Summary_Section|This guide contains nothing, and should be deleted.}}
-{{Tutorial
-|Content===Links==
+---
+title: smarter svg interact
+tags:
+  - Tutorials
+  - SVG
+readiness: 'Not Ready'
+notes:
+  - 'No content; deletion candidate'
+summary: 'This guide contains nothing, and should be deleted.'
+uri: 'svg/tutorials/smarter svg interact'
 
-<!-- CROAK THIS PAGE -->
-}}
-{{Notes_Section}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+# SVG interaction
+
+## Summary
+
+This guide contains nothing, and should be deleted.
+
+==Links==
+

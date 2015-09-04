@@ -1,71 +1,103 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Empty "Main Content" section, see @import for notes for improvement suggestion. I haven't come across @namespaces often in single-site implementations; perhaps we can provide elaboration on when @namespaces provide utility. 
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Declares the default namespace and binds a namespace to a namespace prefix.}}
-{{CSS_At_Rule}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=The default namespace is applied to names that do not have an explicit namespace component. The following rule declares a default namespace.
-|Code=@namespace "http://www.w3.org/1999/xhtml";
-}}{{Single Example
-|Description=If  you declare an '''@namespace''' rule  with a prefix,  you can use the prefix  in namespace-qualified names. For example,  consider  the following namespace declaration for a namespace <code>prfx</code>.
-|Code=@namespace prfx "http://prfx.contoso.com";
-}}{{Single Example
-|Description=Based on the previous declaration, the following selector matches <code>E</code> elements in the namespace  that  the <code>prfx</code> prefix refers to.
-|Code=prfx{{!}}E
-}}{{Single Example
-|Description=The following code  example creates  two namespace prefixes. First, <code>p</code> elements in any namespace are colored red. Any <code>p</code> elements in the  <code>prfx</code>  namespace are then recolored blue, and <code>p</code> elements in the  <code>msft</code>  namespace are recolored green.
-|Code=@namespace prfx "http://prfx.contoso.com";
-@namespace msft "http://msft.example.com";
- p {background-color:red;}
-prfx{{!}}p {background-color:blue;}
-msft{{!}}p {background-color:green;}
-}}{{Single Example
-|Description=The following code  example styles a SVG element.  By using the namespace and declaration from this example, all circles  that are created with SVG  are  given a red fill.
-|Code=@namespace svg "http://www.w3.org/2000/svg";
-svg{{!}}circle {fill:red;}
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The '''@namespace''' rule  was  introduced in Windows Internet Explorer 9.
-The scope of an '''@namespace''' rule is the style sheet  that  it is declared in.  You must declare an '''@namespace''' rule  after any [[css/atrules/@charset|'''@charset''']] or [[css/atrules/@import|'''@import''']] rules.
-|Import_Notes====Syntax===
-<code>'''@namespace '''''prfx'''''?''' ''sUrl''</code>
-===Parameters===
-;''prfx'':Optional. A '''String'''  value that specifies a namespace prefix.
-;''sUrl'':A URL '''String'''value that specifies a namespace name.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Namespaces Module
-|URL=http://www.w3.org/TR/css3-namespace/#declaration
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Syntax
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: @namespace
+tags:
+  - CSS
+  - At
+  - Rules
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Empty "Main Content" section, see @import for notes for improvement suggestion. I haven''t come across @namespaces often in single-site implementations; perhaps we can provide elaboration on when @namespaces provide utility.'
+summary: 'Declares the default namespace and binds a namespace to a namespace prefix.'
+uri: css/atrules/@namespace
+
+---
+# @namespace
+
+## Summary
+
+Declares the default namespace and binds a namespace to a namespace prefix.
+
+## Examples
+
+The default namespace is applied to names that do not have an explicit namespace component. The following rule declares a default namespace.
+
+    @namespace "http://www.w3.org/1999/xhtml";
+
+If you declare an **@namespace** rule with a prefix, you can use the prefix in namespace-qualified names. For example, consider the following namespace declaration for a namespace `prfx`.
+
+    @namespace prfx "http://prfx.contoso.com";
+
+Based on the previous declaration, the following selector matches `E` elements in the namespace that the `prfx` prefix refers to.
+
+    prfx|E
+
+The following code example creates two namespace prefixes. First, `p` elements in any namespace are colored red. Any `p` elements in the `prfx` namespace are then recolored blue, and `p` elements in the `msft` namespace are recolored green.
+
+    @namespace prfx "http://prfx.contoso.com";
+    @namespace msft "http://msft.example.com";
+     p {background-color:red;}
+    prfx|p {background-color:blue;}
+    msft|p {background-color:green;}
+
+The following code example styles a SVG element. By using the namespace and declaration from this example, all circles that are created with SVG are given a red fill.
+
+    @namespace svg "http://www.w3.org/2000/svg";
+    svg|circle {fill:red;}
+
+## Notes
+
+### Remarks
+
+The **@namespace** rule was introduced in Windows Internet Explorer 9. The scope of an **@namespace** rule is the style sheet that it is declared in. You must declare an **@namespace** rule after any [**@charset**](/css/atrules/@charset) or [**@import**](/css/atrules/@import) rules.
+
+### Syntax
+
+`@namespace prfx? sUrl`
+
+### Parameters
+
+*prfx*
+:   Optional. A **String** value that specifies a namespace prefix.
+*sUrl*
+:   A URL **String**value that specifies a namespace name.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Namespaces Module](http://www.w3.org/TR/css3-namespace/#declaration)
+:   W3C Recommendation
+
+## See also
+
+### Related articles
+
+#### Syntax
+
+-   [@charset](/css/atrules/@charset)
+
+-   [@font-face](/css/atrules/@font-face)
+
+-   [@import](/css/atrules/@import)
+
+-   [@keyframes](/css/atrules/@keyframes)
+
+-   **@namespace**
+
+-   [@page](/css/atrules/@page)
+
+-   [@supports](/css/atrules/@supports)
+
+-   [CSS reference](/css/reference)
+
+-   [Alphabetical list of CSS reference](/css/reference/alphabetical)
+
+-   [!important](/css/syntax/!important)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

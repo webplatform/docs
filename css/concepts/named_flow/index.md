@@ -1,56 +1,93 @@
-{{Page_Title|named flows}}
-{{Flags
-|State=In Progress
-|Editorial notes="Region" and "Regions" link to content almost identical to this page. Consider merging this page with the others.
-|Checked_Out=No
-}}
-{{API_Name}}
-{{Summary_Section|An object that contains content diverted from one set of elements, which can then be threaded through another series of [[css/concepts/region|''regions'']] that display the content.}}
-{{Concept_Page
-|Content=The ''CSS Regions'' feature allows content to flow
-dynamically through a series of presentational block elements, known
-as [[css/concepts/region|''regions'']], allowing for complex
-magazine-style layouts.
+---
+title: named flow
+tags:
+  - Concept
+  - Pages
+  - CSS-Regions
+readiness: 'In Progress'
+notes:
+  - '"Region" and "Regions" link to content almost identical to this page. Consider merging this page with the others.'
+summary: 'An object that contains content diverted from one set of elements, which can then be threaded through another series of regions that display the content.'
+uri: 'css/concepts/named flow'
 
-Two CSS properties make this feature work. The
-[[css/properties/flow-into|'''flow-into''']] property diverts content
-into a [[css/concepts/named_flow|''named flow'']]. The
-[[css/properties/flow-from|'''flow-from''']] property threads that
-flow's content through a dynamic series of
-[[css/concepts/region|''region'']] elements, collectively known as a
-[[css/concepts/region_chain|''region chain'']].
+---
+# named flows
 
-The following shows a complex layout featuring a series of regions,
-with a named flow's content threading through regions '''1''' through
-'''4''', which form a chain. A separate named flow is assigned to the
-single-element region chain labeled '''A''':
+## Summary
 
-[[Image:regions.png|400px]]
+An object that contains content diverted from one set of elements, which can then be threaded through another series of regions that display the content.
 
-There can be more than one [[css/concepts/named_flow|named flow]] in a
-document. Each named flow can accumulate content from more than one
-element via the [[css/properties/flow-into|'''flow-into''']] property,
-but they do so according to the order in which they appear in the
-document.  Use the [[apis/css-regions/NamedFlow|'''NamedFlow''']]
-interface to programatically access the named flow's content.
+ The *CSS Regions* feature allows content to flow dynamically through a series of presentational block elements, known as [*regions*](/css/concepts/region), allowing for complex magazine-style layouts.
 
-For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-}}
-{{Topics|CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+Two CSS properties make this feature work. The [**flow-into**](/css/properties/flow-into) property diverts content into a ***named flow***. The [**flow-from**](/css/properties/flow-from) property threads that flow's content through a dynamic series of [*region*](/css/concepts/region) elements, collectively known as a [*region chain*](/css/concepts/region_chain).
+
+The following shows a complex layout featuring a series of regions, with a named flow's content threading through regions **1** through **4**, which form a chain. A separate named flow is assigned to the single-element region chain labeled **A**:
+
+![regions.png](/assets/thumb/3/38/regions.png/400px-regions.png)
+
+There can be more than one **named flow** in a document. Each named flow can accumulate content from more than one element via the [**flow-into**](/css/properties/flow-into) property, but they do so according to the order in which they appear in the document. Use the [**NamedFlow**](/apis/css-regions/NamedFlow) interface to programatically access the named flow's content.
+
+For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
+
+## See also
+
+### Related articles
+
+#### Regions
+
+-   [CSS Regions API](/apis/css-regions)
+
+-   [CSSRegionStyleRule](/apis/css-regions/CSSRegionStyleRule)
+
+-   [NamedFlow](/apis/css-regions/NamedFlow)
+
+-   [firstEmptyRegionIndex](/apis/css-regions/NamedFlow/firstEmptyRegionIndex)
+
+-   [getContent()](/apis/css-regions/NamedFlow/getContent)
+
+-   [getRegions()](/apis/css-regions/NamedFlow/getRegions)
+
+-   [getRegionsByContent()](/apis/css-regions/NamedFlow/getRegionsByContent)
+
+-   [name](/apis/css-regions/NamedFlow/name)
+
+-   [overset](/apis/css-regions/NamedFlow/overset)
+
+-   [regionfragmentchange](/apis/css-regions/NamedFlow/regionfragmentchange)
+
+-   [regionoversetchange](/apis/css-regions/NamedFlow/regionoversetchange)
+
+-   [NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
+
+-   [namedItem()](/apis/css-regions/NamedFlowCollection/namedItem)
+
+-   [Region](/apis/css-regions/Region)
+
+-   [getComputedRegionStyle()](/apis/css-regions/Region/getComputedRegionStyle)
+
+-   [getRegionFlowRanges()](/apis/css-regions/Region/getRegionFlowRanges)
+
+-   [regionOverset](/apis/css-regions/Region/regionOverset)
+
+-   [@region](/css/atrules/@region)
+
+-   [content fragments](/css/concepts/fragment)
+
+-   **named flows**
+
+-   [overset content](/css/concepts/overset)
+
+-   [regions](/css/concepts/region)
+
+-   [region chains](/css/concepts/region_chain)
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   [flow-from](/css/properties/flow-from)
+
+-   [flow-into](/css/properties/flow-into)
+

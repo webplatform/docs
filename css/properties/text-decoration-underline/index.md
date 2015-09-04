@@ -1,117 +1,76 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs summary, spec reference, standardization status, fix table coding in Notes, fix broken link
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{CSS Property
-|Initial value=
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=
-|Animatable=No
-|CSS object model property=
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=VARIANT_TRUE
-|Description=Apply the underline.
-}}{{CSS Property Value
-|Data Type=VARIANT_FALSE
-|Description=Prevent the underline.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=
-|Description=This example uses the '''textDecorationUnderline''' property to underline the text when the user clicks the text with the mouse.
-|Code=&lt;P onclick{{=}}"this.style.textDecorationUnderline{{=}}true;"&gt;
-Click this if you think it's important.
-&lt;/P&gt;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes====Syntax===
-<code>'''textDecorationUnderline: '''VARIANT_TRUE '''{{!}}''' VARIANT_FALSE</code>
-===Requirements===
-{| class="wikitable"
-|-
-!Minimum supported client
-|Windows XP
-|-
-!Minimum supported server
-|Windows Server 2003
-|-
-!Header
-|<dl>
-<dt>Mshtml.h</dt>
-</dl>
-|-
-!IDL
-|<dl>
-<dt>Mshtml.idl</dt>
-</dl>
-|-
-!DLL
-|<dl>
-<dt>Mshtml.dll</dt>
-</dl>
-|}
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/HTMLOptionElement/defaultSelected|defaultSelected]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>[[css/properties/text-decoration|textDecoration]]</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=3.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=3.5
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: text-decoration-underline
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+notes:
+  - 'Needs summary, spec reference, standardization status, fix table coding in Notes, fix broken link'
+uri: css/properties/text-decoration-underline
+
+---
+# text-decoration-underline
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   ``
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `text-decoration-underline: VARIANT_FALSE`
+-   `text-decoration-underline: VARIANT_TRUE`
+
+## Values
+
+VARIANT\_TRUE
+:   Apply the underline.
+
+VARIANT\_FALSE
+:   Prevent the underline.
+
+## Examples
+
+This example uses the **textDecorationUnderline** property to underline the text when the user clicks the text with the mouse.
+
+    <P onclick="this.style.textDecorationUnderline=true;">
+    Click this if you think it's important.
+    </P>
+
+### Syntax
+
+`textDecorationUnderline: VARIANT_TRUE | VARIANT_FALSE`
+
+### Requirements
+
+{
+
+## See also
+
+### Related pages (MSDN)
+
+-   `defaultSelected`
+-   `runtimeStyle`
+-   `style`
+-   `textDecoration`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

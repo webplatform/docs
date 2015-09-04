@@ -1,23 +1,21 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Stub
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Summary_Section}}
-{{Basic Page}}
-==Domain names and DNS==
+---
+title: domain names
+tags:
+  - Basic
+  - Pages
+  - Web
+  - Services
+readiness: 'Not Ready'
+notes:
+  - Stub
+uri: 'concepts/domain names'
+
+---
+# domain names
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Domain names and DNS
+
 Stub.
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Topics|Web Services}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+

@@ -1,43 +1,40 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: valueInSpecifiedUnits
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/properties/valueInSpecifiedUnits
 
-===Remarks===
+---
+# valueInSpecifiedUnits
 
-If you set  the  '''valueInSpecifiedUnits'''   property, the  [[svg/properties/value|'''value''']] and [[svg/properties/valueAsString|'''valueAsString''']]  properties  are  updated automatically to reflect this setting.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-HRESULT value {{=}} object.put_valueInSpecifiedUnits(float v);HRESULT value {{=}} object.get_valueInSpecifiedUnits(float* p);
+If you set the **valueInSpecifiedUnits** property, the [**value**](/svg/properties/value) and [**valueAsString**](/svg/properties/valueAsString) properties are updated automatically to reflect this setting.
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.11
+HRESULT value = object.put\_valueInSpecifiedUnits(float v);HRESULT value = object.get\_valueInSpecifiedUnits(float\* p);
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.11
 
-*[[svg/objects/SVGAngle|'''SVGAngle''']]
-*[[svg/objects/SVGLength|'''SVGLength''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGAngle**](/svg/objects/SVGAngle)
+-   [**SVGLength**](/svg/objects/SVGLength)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

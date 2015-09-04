@@ -1,94 +1,137 @@
-{{Page Title|歡迎進入 <b>Web Platform</b> 文庫}}
-{{Flags|State=Unreviewed}}
+---
+title: zh-hant
+uri: 'Main Page/zh-hant'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'Main Page/af'
+    - 'Main Page/ar'
+    - 'Main Page/ast'
+    - 'Main Page/az'
+    - 'Main Page/bcc'
+    - 'Main Page/bg'
+    - 'Main Page/br'
+    - 'Main Page/ca'
+    - 'Main Page/cs'
+    - 'Main Page/da'
+    - 'Main Page/diq'
+    - 'Main Page/el'
+    - 'Main Page/eo'
+    - 'Main Page/fa'
+    - 'Main Page/fi'
+    - 'Main Page/gl'
+    - 'Main Page/gu'
+    - 'Main Page/he'
+    - 'Main Page/hu'
+    - 'Main Page/hy'
+    - 'Main Page/id'
+    - 'Main Page/it'
+    - 'Main Page/ka'
+    - 'Main Page/kk'
+    - 'Main Page/km'
+    - 'Main Page/ksh'
+    - 'Main Page/kw'
+    - 'Main Page/mk'
+    - 'Main Page/ml'
+    - 'Main Page/mr'
+    - 'Main Page/ms'
+    - 'Main Page/no'
+    - 'Main Page/oc'
+    - 'Main Page/pl'
+    - 'Main Page/pt'
+    - 'Main Page/ro'
+    - 'Main Page/ru'
+    - 'Main Page/si'
+    - 'Main Page/sk'
+    - 'Main Page/sl'
+    - 'Main Page/sq'
+    - 'Main Page/sr'
+    - 'Main Page/sv'
+    - 'Main Page/ta'
+    - 'Main Page/th'
+    - 'Main Page/uk'
+    - 'Main Page/vi'
+    - 'Main Page/yue'
+    - 'Main Page/zh-tw'
+    - beginners/chs
+    - concepts/chs
+    - html/chs
+    - css/chs
+    - javascript/chs
 
-==總結==
-<b>Web platform</b> 文庫是一個交互式網站，旨在成為Web開發人員的一個綜合性和權威性文庫。
+---
+# 歡迎進入 Web Platform 文庫
 
-{{Languages}}
+## 總結
 
-==探索我們的網站開發文檔==
-<div class="topic-container">
-  <div class="long-topic">
-      <div class="image icon-beginners"></div>
-        <div class="inner">
-    <h3>[[beginners/chs|初學者指南]]</h3>
-        <p>針對Web開發的入門教材。 </p>
-    </div>
-    </div>
-    <div class="long-topic">
-      <div class="image icon-concept"></div>
-        <div class="inner">
-    <h3>[[concepts/chs|一般網絡概念]]</h3>
-        <p>概念和教程文章主題，如網絡工程，信息架構，排版和網頁設計。 </p>
-    </div>
-    </div>
-   <div class="long-topic">
-      <div class="image icon-html"></div>
-        <div class="inner">
-    <h3>[[html/chs|HTML]]</h3>
-        <p>概念，教程和網頁的主要標記語言的參考材料。 </p>
-    </div>
-    </div>
-    <div class="long-topic">
-      <div class="image icon-css"></div>
-        <div class="inner">
-    <h3>[[css/chs|CSS]]</h3>
-        <p>概念，教程和參考材料層疊樣式表(<abbr>CSS</abbr>).</p>
-    </div>
-    </div>
-    <div class="long-topic">
-      <div class="image icon-accessibility"></div>
-        <div class="inner">
-    <h3>[[concepts/accessibility|無障礙]]</h3>
-        <p>模式，做法和網絡工作的人與不同的能力範圍的商業案例。 </p>
-    </div>
-    </div>
-    <div class="long-topic">
-      <div class="image icon-js"></div>
-        <div class="inner">
-    <h3>[[javascript/chs|JavaScript]]</h3>
-        <p>教程和參考材料為JavaScript網頁的客戶端腳本語言;包括第三方JavaScript庫的參考材料。 </p>
-    </div>
-    </div>
-    <div class="long-topic">
-      <div class="image icon-dom"></div>
-        <div class="inner">
-    <h3>[[dom|DOM]]</h3>
-        <p>文檔對像模型（DOM）事件和方法教程和參考材料。 (<abbr>DOM</abbr>).</p>
-    </div>
-    </div>
-  <div class="long-topic">
-      <div class="image icon-svg"></div>
-        <div class="inner">
-    <h3>[[svg|SVG]]</h3>
-        <p>可伸縮矢量圖形(<abbr>SVG</abbr>)，用於描述二維矢量圖形的<abbr>XML</abbr>標記語言的教程和參考材料。 </p>
-    </div>
-    </div>
-  <div class="long-topic">
-      <div class="image icon-api"></div>
-        <div class="inner">
-    <h3>[[apis|APIs]]</h3>
-        <p>從AppCache到XHR的JavaScript <abbr>API</abbr> 參考材料。 </p>
-    </div>
-    </div></div><div class="clearfixboth"></div>
-==Web Platform 文庫用途及發展==
-<b>Web Platform</b> 文庫現階段仍然是不成熟的，但你已經​​可以在網站上找到很多有價值的內容，包括：
-* 如何使用開放式網絡的特點，語法和示例* 什麼樣的平台和設備，你可以使用各種技術
-* 目前每個技術規範的標準化，穩定性和執行情況
-未來，<b>Web Platform</b> 文庫將為你開拓豐富更多內容：最新實例代碼、教育資源和更多。為加快發展腳步，我們誠意邀請你加入我們的行列，貢獻你的知識。
-==完善 <b>Web Plaftorm</b> 文庫==
-我們很樂意對您有幫助改善<b>Web Platform</b> 文庫。哪怕是一丁點的努力，可以在網站上有顯著的影響，提醒有關錯誤修復這些錯誤，移植現有的物品，甚至貢獻完全新的內容在我們的文檔，同開發商。要了解更多信息，請仔細閱讀我們的[[WPD:Getting_Started|編輯入門指南]]。
-* 要向<b>Web Platform</b> 提交錯誤信息 (<abbr>Bugs</abbr>), 請使用[https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform .org W3C“項目管理”頁面]。有關更多信息，請閱讀我們的[http://docs.webplatform.org/wiki/WPD:Filing_Bugs 申報錯誤頁面]。
-* 如果你在​​<b>Web Platform</b> 文庫有任何疑問，請先參照[[WPD:FAQ|常見問題]]裡的提示。
+**Web platform** 文庫是一個交互式網站，旨在成為Web開發人員的一個綜合性和權威性文庫。
 
-==保持聯繫==
+**語言:**
+:   **[English](/Main_Page)**  • <span lang="de">[Deutsch](/Main_Page/de)</span> • <span lang="es">[español](/Main_Page/es)</span> • <span lang="fr">[français](/Main_Page/fr)</span> • <span lang="ja">[日本語](/Main_Page/ja)</span> • <span lang="ko">[한국어](/Main_Page/ko)</span> • <span lang="nl">[Nederlands](/Main_Page/nl)</span> • <span lang="pt-br">[português do Brasil](/Main_Page/pt-br)</span> • <span lang="tr">[Türkçe](/Main_Page/tr)</span> • <span lang="zh">[中文](/Main_Page/zh)</span> • <span lang="zh-hans">[中文（简体）‎](/Main_Page/zh-hans)</span> • <span lang="zh-hant">**中文（繁體）‎**</span>
 
-* 加入我們的[http://talk.webplatform.org/forums/ 問答論壇]
-* 在<abbr>IRC</abbr>與眾多編輯們聊天: 我們在[irc://chat.freenode.net#webplatform FREENODE]
-* 閱讀我們的[http://blog.webplatform.org/ 博客]
-* 在Twitter關注我們[https://twitter.com/webplatform @WebPlatform]
-* 分享並鏈接我們網站[http://webplatform.org/logo logo]
-* 參加我們的交流活動[[WPD:Community/Community_Events|Eventos]]
+## 探索我們的網站開發文檔
 
-==網站政策==
-<b>Web Platform</b> 文庫維基上的內容根據[[Template:CC-by-3.0| 知識共享署名（CC-BY）牌照]]建立，其他情況會有標註說明。關於政策的詳細信息，請參閱我們的[[WPD:Copyright|版權]]和[[WPD:Privacy|隱私]]，以及我們的[[WPD:Policy|基本政策]]。
+### 初學者指南
+
+針對Web開發的入門教材。
+
+### 一般網絡概念
+
+概念和教程文章主題，如網絡工程，信息架構，排版和網頁設計。
+
+### HTML
+
+概念，教程和網頁的主要標記語言的參考材料。
+
+### CSS
+
+概念，教程和參考材料層疊樣式表(<abbr>CSS</abbr>).
+
+### 無障礙
+
+模式，做法和網絡工作的人與不同的能力範圍的商業案例。
+
+### JavaScript
+
+教程和參考材料為JavaScript網頁的客戶端腳本語言;包括第三方JavaScript庫的參考材料。
+
+### DOM
+
+文檔對像模型（DOM）事件和方法教程和參考材料。 (<abbr>DOM</abbr>).
+
+### SVG
+
+可伸縮矢量圖形(<abbr>SVG</abbr>)，用於描述二維矢量圖形的<abbr>XML</abbr>標記語言的教程和參考材料。
+
+### APIs
+
+從AppCache到XHR的JavaScript <abbr>API</abbr> 參考材料。
+
+## Web Platform 文庫用途及發展
+
+**Web Platform** 文庫現階段仍然是不成熟的，但你已經​​可以在網站上找到很多有價值的內容，包括：
+
+-   如何使用開放式網絡的特點，語法和示例\* 什麼樣的平台和設備，你可以使用各種技術
+-   目前每個技術規範的標準化，穩定性和執行情況
+
+未來，**Web Platform** 文庫將為你開拓豐富更多內容：最新實例代碼、教育資源和更多。為加快發展腳步，我們誠意邀請你加入我們的行列，貢獻你的知識。
+
+## 完善 Web Plaftorm 文庫
+
+我們很樂意對您有幫助改善**Web Platform** 文庫。哪怕是一丁點的努力，可以在網站上有顯著的影響，提醒有關錯誤修復這些錯誤，移植現有的物品，甚至貢獻完全新的內容在我們的文檔，同開發商。要了解更多信息，請仔細閱讀我們的[編輯入門指南](/WPD:Getting_Started)。
+
+-   要向**Web Platform** 提交錯誤信息 (<abbr>Bugs</abbr>), 請使用[.org W3C“項目管理”頁面](https://www.w3.org/Bugs/Public/enter_bug.cgi?product=webplatform)。有關更多信息，請閱讀我們的[申報錯誤頁面](http://docs.webplatform.org/wiki/WPD:Filing_Bugs)。
+-   如果你在​​**Web Platform** 文庫有任何疑問，請先參照[常見問題](/WPD:FAQ)裡的提示。
+
+## 保持聯繫
+
+-   加入我們的[問答論壇](http://talk.webplatform.org/forums/)
+-   在<abbr>IRC</abbr>與眾多編輯們聊天: 我們在[FREENODE](irc://chat.freenode.net#webplatform)
+-   閱讀我們的[博客](http://blog.webplatform.org/)
+-   在Twitter關注我們[@WebPlatform](https://twitter.com/webplatform)
+-   分享並鏈接我們網站[logo](http://webplatform.org/logo)
+-   參加我們的交流活動[Eventos](/WPD:Community/Community_Events)
+
+## 網站政策
+
+**Web Platform** 文庫維基上的內容根據[知識共享署名（CC-BY）牌照](/Template:CC-by-3.0)建立，其他情況會有標註說明。關於政策的詳細信息，請參閱我們的[版權](/WPD:Copyright)和[隱私](/WPD:Privacy)，以及我們的[基本政策](/WPD:Policy)。

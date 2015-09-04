@@ -1,54 +1,50 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: result
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/result
 
-===Remarks===
+---
+# result
 
-If supplied, the output of the current  filter primitive can be referenced by an [[svg/properties/in1|'''in1''']] attribute on a subsequent filter primitive within the same element. If no value is provided, the output will only be available for re-use as the implicit input into the next filter primitive if that filter primitive provides no value for its '''in1''' attribute.
+## Notes
 
-If an output reference occurs in several filter primitives in the same filter, only the closest filter primitive will be used.
-Note that this is not an XML ID. The scope of this value is local to the filter.
-|Import_Notes=
+### Remarks
 
-===Syntax===
+If supplied, the output of the current filter primitive can be referenced by an [**in1**](/svg/properties/in1) attribute on a subsequent filter primitive within the same element. If no value is provided, the output will only be available for re-use as the implicit input into the next filter primitive if that filter primitive provides no value for its **in1** attribute.
 
-}}
-{{See_Also_Section
-|Manual_sections=
+If an output reference occurs in several filter primitives in the same filter, only the closest filter primitive will be used. Note that this is not an XML ID. The scope of this value is local to the filter.
 
-===Related pages (MSDN)===
+### Syntax
 
-*[[svg/elements/feTile|'''SVGFETileElement''']]
-*[[svg/elements/feBlend|'''SVGFEBlendElement''']]
-*[[svg/elements/feMorphology|'''SVGFEMorphologyElement''']]
-*[[svg/elements/feTurbulence|'''SVGFETurbulenceElement''']]
-*[[svg/elements/feColorMatrix|'''SVGFEColorMatrixElement''']]
-*[[svg/elements/feComposite|'''SVGFECompositeElement''']]
-*[[svg/elements/feDiffuseLighting|'''SVGFEDiffuseLightingElement''']]
-*[[svg/elements/feComponentTransfer|'''SVGFEComponentTransferElement''']]
-*[[svg/elements/feFlood|'''SVGFEFloodElement''']]
-*[[svg/elements/feMerge|'''SVGFEMergeElement''']]
-*[[svg/elements/feSpecularLighting|'''SVGFESpecularLightingElement''']]
-*[[svg/elements/feConvolveMatrix|'''SVGFEConvolveMatrixElement''']]
-*[[svg/elements/feImage|'''SVGFEImageElement''']]
-*[[svg/elements/feGaussianBlur|'''SVGFEGaussianBlurElement''']]
-*[[svg/elements/feDisplacementMap|'''SVGFEDisplacementMapElement''']]
-*[[svg/elements/feOffset|'''SVGFEOffsetElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGFETileElement**](/svg/elements/feTile)
+-   [**SVGFEBlendElement**](/svg/elements/feBlend)
+-   [**SVGFEMorphologyElement**](/svg/elements/feMorphology)
+-   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)
+-   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)
+-   [**SVGFECompositeElement**](/svg/elements/feComposite)
+-   [**SVGFEDiffuseLightingElement**](/svg/elements/feDiffuseLighting)
+-   [**SVGFEComponentTransferElement**](/svg/elements/feComponentTransfer)
+-   [**SVGFEFloodElement**](/svg/elements/feFlood)
+-   [**SVGFEMergeElement**](/svg/elements/feMerge)
+-   [**SVGFESpecularLightingElement**](/svg/elements/feSpecularLighting)
+-   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)
+-   [**SVGFEImageElement**](/svg/elements/feImage)
+-   [**SVGFEGaussianBlurElement**](/svg/elements/feGaussianBlur)
+-   [**SVGFEDisplacementMapElement**](/svg/elements/feDisplacementMap)
+-   [**SVGFEOffsetElement**](/svg/elements/feOffset)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

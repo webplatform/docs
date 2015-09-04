@@ -1,158 +1,132 @@
-=ようこそWeb Platform Docsへ=
+---
+title: ja
+uri: 'Main Page/ja'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'Main Page/af'
+    - 'Main Page/ar'
+    - 'Main Page/ast'
+    - 'Main Page/az'
+    - 'Main Page/bcc'
+    - 'Main Page/bg'
+    - 'Main Page/br'
+    - 'Main Page/ca'
+    - 'Main Page/cs'
+    - 'Main Page/da'
+    - 'Main Page/diq'
+    - 'Main Page/el'
+    - 'Main Page/eo'
+    - 'Main Page/fa'
+    - 'Main Page/fi'
+    - 'Main Page/gl'
+    - 'Main Page/gu'
+    - 'Main Page/he'
+    - 'Main Page/hu'
+    - 'Main Page/hy'
+    - 'Main Page/id'
+    - 'Main Page/it'
+    - 'Main Page/ka'
+    - 'Main Page/kk'
+    - 'Main Page/km'
+    - 'Main Page/ksh'
+    - 'Main Page/kw'
+    - 'Main Page/mk'
+    - 'Main Page/ml'
+    - 'Main Page/mr'
+    - 'Main Page/ms'
+    - 'Main Page/no'
+    - 'Main Page/oc'
+    - 'Main Page/pl'
+    - 'Main Page/pt'
+    - 'Main Page/ro'
+    - 'Main Page/ru'
+    - 'Main Page/si'
+    - 'Main Page/sk'
+    - 'Main Page/sl'
+    - 'Main Page/sq'
+    - 'Main Page/sr'
+    - 'Main Page/sv'
+    - 'Main Page/ta'
+    - 'Main Page/th'
+    - 'Main Page/uk'
+    - 'Main Page/vi'
+    - 'Main Page/yue'
+    - 'Main Page/zh-tw'
 
-==Summary==
+---
+# ようこそWeb Platform Docsへ
+
+## Summary
 
 Web Platform Docsはコミュニティベースのサイトです。目標は、信頼できるwebの開発者向けのドキュメントを網羅することです。
 
-{{Languages}}
+**言語:**
+:   **[English](/Main_Page)**  • <span lang="de">[Deutsch](/Main_Page/de)</span> • <span lang="es">[español](/Main_Page/es)</span> • <span lang="fr">[français](/Main_Page/fr)</span> • <span lang="ja">**日本語**</span> • <span lang="ko">[한국어](/Main_Page/ko)</span> • <span lang="nl">[Nederlands](/Main_Page/nl)</span> • <span lang="pt-br">[português do Brasil](/Main_Page/pt-br)</span> • <span lang="tr">[Türkçe](/Main_Page/tr)</span> • <span lang="zh">[中文](/Main_Page/zh)</span> • <span lang="zh-hans">[中文（简体）‎](/Main_Page/zh-hans)</span> • <span lang="zh-hant">[中文（繁體）‎](/Main_Page/zh-hant)</span>
 
-== web development docsの構成 ==
+## web development docsの構成
 
-<div class="topic-container">
+### 初心者向けガイド
 
-<div class="long-topic">
+初めてwebを開発する方向けの初心者用資料
 
-<div class="image icon-beginners"></div>
+### webについての基本概念
 
-<div class="inner">
-<h3>[[beginners/ja | 初心者向けガイド]]</h3>
+webの動作や情報アーキテクチャ、タイポグラフィー、デザインといったトピックについての考え方とチュートリアル
 
-<p>初めてwebを開発する方向けの初心者用資料</p>
-</div>
+### HTML
 
-</div>
+webのマークアップ言語についての考え方やリファレンス、チュートリアル
 
-<div class="long-topic">
+### CSS
 
-<div class="image icon-concept"></div>
+カスケーディング・スタイル・シート(CSS)についての考え方やリファレンス、チュートリアル
 
-<div class="inner">
-<h3>[[concepts | webについての基本概念]]</h3>
+### アクセシビリティ
 
-<p>webの動作や情報アーキテクチャ、タイポグラフィー、デザインといったトピックについての考え方とチュートリアル</p>
-</div>
+人は様々でできることは異なるが、そんな人々でもwebを使えるようにするパターンやプラクティス、ビジネス・ケース
 
-</div>
+### JavaScript
 
-<div class="long-topic">
+webのクライアント用スクリプト言語であるJavaScriptのチュートリアルとリファレンス。サードパーティのライブラリも含む
 
-<div class="image icon-html"></div>
+### DOM
 
-<div class="inner">
-<h3>[[html/ja|HTML]]</h3>
+ドキュメント・オブジェクト・モデル(DOM)のチュートリアルとリファレンス
 
-<p>webのマークアップ言語についての考え方やリファレンス、チュートリアル</p>
-</div>
+### SVG
 
-</div>
+、2次元ベクター画像のためのXMLマークアップ言語であるスケーラブル・ベクター・グラフィックス(SVG)のチュートリアルとリファレンス
 
+### API
 
-<div class="long-topic">
+appcacheからxhrまで記述してあるJavaScript APIのリファレンス
 
-<div class="image icon-css"></div>
-
-<div class="inner">
-<h3>[[css|CSS]]</h3>
-
-<p>カスケーディング・スタイル・シート(CSS)についての考え方やリファレンス、チュートリアル</p>
-</div>
-
-</div>
-
-
-<div class="long-topic">
-
-<div class="image icon-accessibility"></div>
-
-<div class="inner">
-<h3>[[concepts/accessibility|アクセシビリティ]]</h3>
-
-<p>人は様々でできることは異なるが、そんな人々でもwebを使えるようにするパターンやプラクティス、ビジネス・ケース</p>
-</div>
-
-</div>
-
-
-<div class="long-topic">
-
-<div class="image icon-js"></div>
-
-<div class="inner">
-<h3>[[javascript/ja|JavaScript]]</h3>
-
-<p>webのクライアント用スクリプト言語であるJavaScriptのチュートリアルとリファレンス。サードパーティのライブラリも含む</p>
-</div>
-
-</div>
-
-
-<div class="long-topic">
-
-<div class="image icon-dom"></div>
-
-<div class="inner">
-<h3>[[dom|DOM]]</h3>
-
-<p>ドキュメント・オブジェクト・モデル(DOM)のチュートリアルとリファレンス</p>
-</div>
-
-</div>
-
-
-<div class="long-topic">
-
-<div class="image icon-svg"></div>
-
-<div class="inner">
-<h3>[[svg|SVG]]</h3>
-
-<p>、2次元ベクター画像のためのXMLマークアップ言語であるスケーラブル・ベクター・グラフィックス(SVG)のチュートリアルとリファレンス</p>
-</div>
-
-</div>
-
-<div class="long-topic">
-
-<div class="image icon-api"></div>
-
-<div class="inner">
-<h3>[[apis|API]]</h3>
-
-<p>appcacheからxhrまで記述してあるJavaScript APIのリファレンス</p>
-</div>
-
-</div>
-
-</div>
-<div class="clearfixboth"></div>
-
-
-
-== Web Platform Docsの特徴 ==
+## Web Platform Docsの特徴
 
 Web Platform Docsはまだアルファリリース段階ですが、それでも役に立つコンテンツがたくさんあります。
 
-* open webの機能の使い方。シンタックスと例
-* どのプラットフォームやデバイスで、どんなテクノロジーが利用できるか
-* 標準化や安定具合、技術仕様の実装状況
+-   open webの機能の使い方。シンタックスと例
+-   どのプラットフォームやデバイスで、どんなテクノロジーが利用できるか
+-   標準化や安定具合、技術仕様の実装状況
 
 将来的には、Web Platform Docsはさらに多くのコンテンツを提供する予定です。例えば、ライブ・コードの例や教育者用の資料等々です。早く実現するために、皆さんに参加していただき、英知を分けていただきたいと思います。
 
+## Web Platform Docsにご協力を
 
-== Web Platform Docsにご協力を ==
+Web Platform Docsは皆さんの助けを切に希望します。ほんのわずか協力していただくだけで、このサイトにとっては大きな意味があります。例えば、ドキュメントにある間違いを開発者に教えてあげたり、間違いを訂正したり、既存の文書を流用したり、まったく新しいコンテンツを提供したりです。詳しく知りたければ、 [Contributor’s Guide](/WPD:Contributors_Guide)をご覧ください。
 
-Web Platform Docsは皆さんの助けを切に希望します。ほんのわずか協力していただくだけで、このサイトにとっては大きな意味があります。例えば、ドキュメントにある間違いを開発者に教えてあげたり、間違いを訂正したり、既存の文書を流用したり、まったく新しいコンテンツを提供したりです。詳しく知りたければ、 [[WPD:Contributors_Guide|Contributor’s Guide]]をご覧ください。
+-   WebPlatform上の間違いを報告するには、[Project Management page](https://project.webplatform.org)を使ってください。詳しいことは、[filing bugs page](https://docs.webplatform.org/wiki/WPD:Filing_Bugs)をご覧ください。
+-   webplatform.org自体について質問があるなら、[look for an answer in the FAQ first](/WPD:FAQ)をまずご覧ください。
 
-* WebPlatform上の間違いを報告するには、[https://project.webplatform.org Project Management page]を使ってください。詳しいことは、[https://docs.webplatform.org/wiki/WPD:Filing_Bugs filing bugs page]をご覧ください。
-* webplatform.org自体について質問があるなら、[[WPD:FAQ|look for an answer in the FAQ first]]をまずご覧ください。
+## 連絡方法
 
-== 連絡方法 ==
+-   IRCで他の著者と連絡を取るなら、irc.freenode.org, the *\#webplatform*チャンネルでお願いします
+-   [blog](https://blog.webplatform.org/)を読んでください
+-   Twitterで[@WebPlatform](https://twitter.com/webplatform)をフォローしてください
+-   [logo](https://www.webplatform.org/logo)を使って、このサイトにリンクを張ってください
+-   Doc Sprintsのような[Events](/WPD:Community/Community_Events) イベントにお越しください
 
-* IRCで他の著者と連絡を取るなら、irc.freenode.org, the ''#webplatform''チャンネルでお願いします
-* [https://blog.webplatform.org/ blog]を読んでください
-* Twitterで[https://twitter.com/webplatform @WebPlatform]をフォローしてください
-* [https://www.webplatform.org/logo logo]を使って、このサイトにリンクを張ってください
-* Doc Sprintsのような[[WPD:Community/Community_Events|Events]] イベントにお越しください
+## サイト・ポリシー
 
-== サイト・ポリシー==
-Web Platform Docs wikiのコンテンツは、特に断りがない限り、[[Template:CC-by-3.0|Creative Commons Attribution (CC-BY) license]]にもとづき利用可能です。詳しいことは、[[WPD:Copyright|copyright]] and [[WPD:Privacy|privacy]]ポリシーをご覧ください。[[WPD:Policy|policy page]]も同様にご覧ください。
+Web Platform Docs wikiのコンテンツは、特に断りがない限り、[Creative Commons Attribution (CC-BY) license](/Template:CC-by-3.0)にもとづき利用可能です。詳しいことは、[copyright](/WPD:Copyright) and [privacy](/WPD:Privacy)ポリシーをご覧ください。[policy page](/WPD:Policy)も同様にご覧ください。

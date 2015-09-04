@@ -1,68 +1,61 @@
-{{Page_Title|window.location.assign}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Navigate to a new page.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=url
-|Data type=String
-|Description=The new URL to navigate to.
-|Optional=No
-}}
-|Method_applies_to=apis/location
-|Example_object_name=window.location
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Navigate to example.org.
-|Code=window.location.assign("http://example.org/");
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=The <code>assign</code> method is synonymous with replacing the <code>window.location</code> object with a string.
-|Code=window.location = "http://example.org/";
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Window Object 1.0
-|URL=http://www.w3.org/TR/Window/
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: assign
+tags:
+  - API
+  - Object
+  - Methods
+  - JavaScript
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Navigate to a new page.'
+uri: apis/location/assign
+
+---
+# window.location.assign
+
+## Summary
+
+Navigate to a new page.
+
+*Method of [apis/location](/apis/location)*
+
+## Syntax
+
+``` {.js}
+var  = window.location.assign(url);
+```
+
+## Parameters
+
+### url
+
+ Data-typeÂ
+:   String
+
+ The new URL to navigate to.
+
+## Return Value
+
+Returns an object of type .
+
+## Examples
+
+Navigate to example.org.
+
+``` {.js}
+window.location.assign("http://example.org/");
+```
+
+The `assign` method is synonymous with replacing the `window.location` object with a string.
+
+``` {.js}
+window.location = "http://example.org/";
+```
+
+## Related specifications
+
+Specification
+:   Status
+[Window Object 1.0](http://www.w3.org/TR/Window/)
+:   W3C Working Draft
+

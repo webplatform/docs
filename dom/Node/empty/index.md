@@ -1,50 +1,51 @@
-{{Page_Title}}
-{{Flags
-|State=Out of Date
-|Editorial notes=I think the empty method only applies to the selection object, not a node collection.
-this is legacy MSIE method of document.selection(); and does not apply to document Nodes.
-MSDN doco ref: http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx
-|Checked_Out=Yes
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|Non-Standard}}
-{{API_Name}}
-{{Summary_Section|Cancels the current selection, sets the selection type to none, and sets the item property to null. }}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=dom/Node
-|Example_object_name=selection
-|Return_value_name=result
-|Javascript_data_type=Number
-|Return_value_description=Type: '''HRESULT'''
+---
+title: empty
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Out of Date'
+standardization_status: Non-Standard
+notes:
+  - "I think the empty method only applies to the selection object, not a node collection.\nthis is legacy MSIE method of document.selection(); and does not apply to document Nodes.\n\nMSDN doco ref: http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx"
+summary: 'Cancels the current selection, sets the selection type to none, and sets the item property to null. '
+uri: dom/Node/empty
 
-If this method succeeds, it returns '''S_OK'''. Otherwise, it returns an '''HRESULT''' error code.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/Selection|Selection]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx empty() Method]
-|HTML5Rocks_link=
-}}
+---
+# empty
+
+## Summary
+
+Cancels the current selection, sets the selection type to none, and sets the item property to null.
+
+*Method of [dom/Node](/dom/Node)*
+
+## Syntax
+
+``` {.js}
+var result = selection.empty();
+```
+
+## Return Value
+
+Returns an object of type Number.
+
+Type: **HRESULT**
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+**Needs Examples**: This section should include examples.
+
+## See also
+
+### Related pages (MSDN)
+
+-   `Selection`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[empty() Method](http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx) Article]
+

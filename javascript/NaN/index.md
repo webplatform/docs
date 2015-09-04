@@ -1,51 +1,56 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|A special constant that specifies a value that is Not-A-Number}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=NaN
-}}
-|Values=
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description='''NaN''' mainly occurs when parsing goes wrong
-|Code=parseInt(123); // 123
+---
+title: NaN
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'A special constant that specifies a value that is Not-A-Number'
+uri: javascript/NaN
+
+---
+# NaN
+
+## Summary
+
+A special constant that specifies a value that is Not-A-Number
+
+## Syntax
+
+    NaN
+
+## Examples
+
+**NaN** mainly occurs when parsing goes wrong
+
+``` {.js}
+parseInt(123); // 123
 parseInt("123"); // 123
 parseInt('foo'); // NaN
-}}{{Single Example
-|Language=JavaScript
-|Description='''NaN''' does not equal '''NaN''', use the [[javascript/isNaN{{!}}isNaN Function]] instead to test if a value is not a number
-|Code=NaN === NaN; // false
-isNaN(NaN); //true
-}}
-}}
-{{Remarks_Section
-|Remarks=The '''NaN''' constant is a member of the '''Global''' object, and is made available when the scripting engine is initialized.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
+```
 
-{{See_Also_Section
-|Manual_links=* [[javascript/isNaN{{!}}isNaN Function]]
-* [[javascript/Number{{!}}Number]]
-* [[javascript/Number/constants{{!}}Number Constants]]
-* [[javascript/parseInt{{!}}parseInt Function]]
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/z2bz9h52(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+**NaN** does not equal **NaN**, use the [isNaN Function](/javascript/isNaN) instead to test if a value is not a number
+
+``` {.js}
+NaN === NaN; // false
+isNaN(NaN); //true
+```
+
+## Remarks
+
+The **NaN** constant is a member of the **Global** object, and is made available when the scripting engine is initialized.
+
+## See also
+
+### Other articles
+
+-   [isNaN Function](/javascript/isNaN)
+-   [Number](/javascript/Number)
+-   [Number Constants](/javascript/Number/constants)
+-   [parseInt Function](/javascript/parseInt)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/z2bz9h52(v=vs.94).aspx)
+

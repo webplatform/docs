@@ -1,37 +1,66 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add description and compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The '''flex-wrap''' property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction in which new lines are stacked.}}
-{{CSS Property
-|Initial value=nowrap
-|Applies to=flex containers
-|Inherited=No
-|Media=visual
-|Computed value=specified value
-|Animatable=No
-|CSS object model property=flexWrap
-|Values={{CSS Property Value
-|Data Type=nowrap
-|Description=The flex container is single-line. The cross-start direction is equivalent to either the start or before/head direction of the current [[css/properties/writing-mode|writing mode]], whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
-}}{{CSS Property Value
-|Data Type=wrap
-|Description=The flex container is multi-line. The cross-start direction is equivalent to either the start or before/head direction of the current [[css/properties/writing-mode|writing mode]], whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
-}}{{CSS Property Value
-|Data Type=wrap-reverse
-|Description=Same as '''wrap''', except the cross-start and cross-end directions are swapped.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Displaying children in a non-wrapping row
-|Code=.list {
+---
+title: flex-wrap
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Add description and compatibility.'
+summary: 'The flex-wrap property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction in which new lines are stacked.'
+code_samples:
+  - 'http://gist.github.com/4740662'
+  - 'http://gist.github.com/4740667'
+  - 'http://gist.github.com/4740670'
+uri: css/properties/flex-wrap
+
+---
+# flex-wrap
+
+## Summary
+
+The flex-wrap property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction in which new lines are stacked.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `nowrap`
+Applies to
+:   flex containers
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   specified value
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `flexWrap`
+
+## Syntax
+
+-   `flex-wrap: nowrap`
+-   `flex-wrap: wrap`
+-   `flex-wrap: wrap-reverse`
+
+## Values
+
+nowrap
+:   The flex container is single-line. The cross-start direction is equivalent to either the start or before/head direction of the current [writing mode](/css/properties/writing-mode), whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
+
+wrap
+:   The flex container is multi-line. The cross-start direction is equivalent to either the start or before/head direction of the current [writing mode](/css/properties/writing-mode), whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
+
+wrap-reverse
+:   Same as **wrap**, except the cross-start and cross-end directions are swapped.
+
+## Examples
+
+Displaying children in a non-wrapping row
+
+``` {.css}
+.list {
   display: flex;
   flex-wrap: nowrap;
 }
@@ -39,11 +68,14 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://code.webplatform.org/gist/4740662
-}}{{Single Example
-|Language=CSS
-|Description=Displaying children in a row wrapping to the next line
-|Code=.list {
+```
+
+[View live example](http://code.webplatform.org/gist/4740662)
+
+Displaying children in a row wrapping to the next line
+
+``` {.css}
+.list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -51,11 +83,14 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://code.webplatform.org/gist/4740667
-}}{{Single Example
-|Language=CSS
-|Description=Displaying children in a row wrapping to the previous line
-|Code=.list {
+```
+
+[View live example](http://code.webplatform.org/gist/4740667)
+
+Displaying children in a row wrapping to the previous line
+
+``` {.css}
+.list {
   display: flex;
   flex-wrap: wrap-reverse;
 }
@@ -63,33 +98,44 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://code.webplatform.org/gist/4740670
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Flexible Box Layout Module
-|URL=http://www.w3.org/TR/css3-flexbox/#flex-wrap-property
-|Status=Candidate Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=http://caniuse.com/#flexbox
-}}
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Flexbox
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/4740670)
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#flex-wrap-property)
+:   Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Flexbox
+
+-   [align-content](/css/properties/align-content)
+
+-   [align-items](/css/properties/align-items)
+
+-   [align-self](/css/properties/align-self)
+
+-   [break-before](/css/properties/break-before)
+
+-   [flex](/css/properties/flex)
+
+-   [flex-basis](/css/properties/flex-basis)
+
+-   [flex-direction](/css/properties/flex-direction)
+
+-   [flex-flow](/css/properties/flex-flow)
+
+-   [flex-grow](/css/properties/flex-grow)
+
+-   [flex-shrink](/css/properties/flex-shrink)
+
+-   **flex-wrap**
+
+-   [justify-content](/css/properties/justify-content)
+

@@ -1,41 +1,70 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The '''flex-direction''' CSS property describes how flex items are placed in the flex container, by setting the direction of the flex container's main axis.}}
-{{CSS Property
-|Initial value=row
-|Applies to=flex containers
-|Inherited=No
-|Media=visual
-|Computed value=specified value
-|Animatable=No
-|CSS object model property=flexDirection
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=row
-|Description=The flex container's main axis has the same orientation as the inline axis of the current [[css/properties/writing-mode|writing mode]]. The main-start and main-end directions are equivalent to the start and end directions, respectively, of the current [[css/properties/writing-mode|writing mode]].
-}}{{CSS Property Value
-|Data Type=row-reverse
-|Description=Same as 'row', except the main-start and main-end directions are swapped.
-}}{{CSS Property Value
-|Data Type=column
-|Description=The flex container's main axis has the same orientation as the block axis of the current [[css/properties/writing-mode|writing mode]]. The main-start and main-end directions are equivalent to the before/head and after/foot directions, respectively, of the current [[css/properties/writing-mode|writing mode]].
-}}{{CSS Property Value
-|Data Type=column-reverse
-|Description=Same as 'column', except the main-start and main-end directions are swapped.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=Displaying children in a row
-|Code=.list {
+---
+title: flex-direction
+tags:
+  0: CSS
+  1: Properties
+  3: Flexbox
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The flex-direction CSS property describes how flex items are placed in the flex container, by setting the direction of the flex container''s main axis.'
+code_samples:
+  - 'http://gist.github.com/4740224'
+  - 'http://gist.github.com/4740260'
+  - 'http://gist.github.com/4740271'
+  - 'http://gist.github.com/4740277'
+uri: css/properties/flex-direction
+
+---
+# flex-direction
+
+## Summary
+
+The flex-direction CSS property describes how flex items are placed in the flex container, by setting the direction of the flex container's main axis.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `row`
+Applies to
+:   flex containers
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   specified value
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `flexDirection`
+
+## Syntax
+
+-   `flex-direction: column`
+-   `flex-direction: column-reverse`
+-   `flex-direction: row`
+-   `flex-direction: row-reverse`
+
+## Values
+
+row
+:   The flex container's main axis has the same orientation as the inline axis of the current [writing mode](/css/properties/writing-mode). The main-start and main-end directions are equivalent to the start and end directions, respectively, of the current [writing mode](/css/properties/writing-mode).
+
+row-reverse
+:   Same as 'row', except the main-start and main-end directions are swapped.
+
+column
+:   The flex container's main axis has the same orientation as the block axis of the current [writing mode](/css/properties/writing-mode). The main-start and main-end directions are equivalent to the before/head and after/foot directions, respectively, of the current [writing mode](/css/properties/writing-mode).
+
+column-reverse
+:   Same as 'column', except the main-start and main-end directions are swapped.
+
+## Examples
+
+Displaying children in a row
+
+``` {.css}
+.list {
   display: flex;
   flex-direction: row;
 }
@@ -43,11 +72,14 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://code.webplatform.org/gist/4740224
-}}{{Single Example
-|Language=CSS
-|Description=Displaying children in a row in reversed order
-|Code=.list {
+```
+
+[View live example](http://code.webplatform.org/gist/4740224)
+
+Displaying children in a row in reversed order
+
+``` {.css}
+.list {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -55,11 +87,14 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://code.webplatform.org/gist/4740260
-}}{{Single Example
-|Language=CSS
-|Description=Displaying children in a column
-|Code=.list {
+```
+
+[View live example](http://code.webplatform.org/gist/4740260)
+
+Displaying children in a column
+
+``` {.css}
+.list {
   display: flex;
   flex-direction: column;
 }
@@ -67,11 +102,14 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://code.webplatform.org/gist/4740271
-}}{{Single Example
-|Language=CSS
-|Description=Displaying children in a column in reversed order
-|Code=.list {
+```
+
+[View live example](http://code.webplatform.org/gist/4740271)
+
+Displaying children in a column in reversed order
+
+``` {.css}
+.list {
   display: flex;
   flex-direction: column-reverse;
 }
@@ -79,41 +117,48 @@
 .list div {
   flex: 1;
 }
-|LiveURL=http://code.webplatform.org/gist/4740277
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=The reverse values do not reverse box ordering; like ‘writing-mode’ and ‘direction’, they only change the direction of flow. Painting order, speech order, and sequential navigation orders are not affected.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Flexible Box Layout Module
-|URL=http://www.w3.org/TR/css3-flexbox/#flex-direction-property
-|Status=Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Flexbox
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS, Flexbox}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=http://caniuse.com/#flexbox
-}}
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/4740277)
+
+## Notes
+
+The reverse values do not reverse box ordering; like ‘writing-mode’ and ‘direction’, they only change the direction of flow. Painting order, speech order, and sequential navigation orders are not affected.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#flex-direction-property)
+:   Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Flexbox
+
+-   [align-content](/css/properties/align-content)
+
+-   [align-items](/css/properties/align-items)
+
+-   [align-self](/css/properties/align-self)
+
+-   [break-before](/css/properties/break-before)
+
+-   [flex](/css/properties/flex)
+
+-   [flex-basis](/css/properties/flex-basis)
+
+-   **flex-direction**
+
+-   [flex-flow](/css/properties/flex-flow)
+
+-   [flex-grow](/css/properties/flex-grow)
+
+-   [flex-shrink](/css/properties/flex-shrink)
+
+-   [flex-wrap](/css/properties/flex-wrap)
+
+-   [justify-content](/css/properties/justify-content)
+

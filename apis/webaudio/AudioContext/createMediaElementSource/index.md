@@ -1,60 +1,47 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Creates a MediaElementAudioSourceNode, given an [[dom/HTMLMediaElement|HTMLMediaElement]]. As a consequence of calling this method, audio playback from the [[dom/HTMLMediaElement|HTMLMediaElement]] will be re-routed into the processing graph of the [[apis/webaudio/AudioContext|AudioContext]].}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=apis/webaudio/AudioContext
-|Example_object_name=AudioContext
-|Return_value_name=
-|Javascript_data_type=
-|Return_value_description=MediaElementAudioSourceNode
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=var audioCtx = new AudioContext();
+---
+title: createMediaElementSource
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: WebAudio
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Creates a MediaElementAudioSourceNode, given an HTMLMediaElement. As a consequence of calling this method, audio playback from the HTMLMediaElement will be re-routed into the processing graph of the AudioContext.'
+uri: apis/webaudio/AudioContext/createMediaElementSource
+
+---
+# createMediaElementSource
+
+## Summary
+
+Creates a MediaElementAudioSourceNode, given an HTMLMediaElement. As a consequence of calling this method, audio playback from the HTMLMediaElement will be re-routed into the processing graph of the AudioContext.
+
+*Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)*
+
+## Syntax
+
+``` {.js}
+var  = AudioContext.createMediaElementSource();
+```
+
+## Return Value
+
+Returns an object of type .
+
+MediaElementAudioSourceNode
+
+## Examples
+
+``` {.js}
+var audioCtx = new AudioContext();
 var source = audioCtx.createMediaElementSource(myMediaElement);
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

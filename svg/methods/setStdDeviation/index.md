@@ -1,46 +1,43 @@
-{{Page Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: setStdDeviation
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/setStdDeviation
 
-===Remarks===
+---
+# setStdDeviation
 
-If two values are provided, the first value represents a standard deviation value along the x-axis of the coordinate system established by the [[svg/properties/primitiveUnits|'''primitiveUnits''']] attribute on the [[svg/elements/filter|'''filter''']] element. The second value represents a standard deviation along the y-axis.
+## Notes
 
-If one number is provided, then that value is used for both ''stdDeviationX'' and ''stdDeviationY''.
-Negative values are not allowed.
+### Remarks
 
-A value of zero disables the effect of the given filter primitive (that is, the result is the filter input image). If the '''stdDeviation''' method is zero in only one of ''stdDeviationX'' or ''stdDeviationY'', then the effect is that the blur is applied only in the direction that has a non-zero value.
+If two values are provided, the first value represents a standard deviation value along the x-axis of the coordinate system established by the [**primitiveUnits**](/svg/properties/primitiveUnits) attribute on the [**filter**](/svg/elements/filter) element. The second value represents a standard deviation along the y-axis.
 
-If the '''stdDeviation''' method is not specified, then the effect is as if a value of zero were specified.
-|Import_Notes=
+If one number is provided, then that value is used for both *stdDeviationX* and *stdDeviationY*. Negative values are not allowed.
 
-===Syntax===
+A value of zero disables the effect of the given filter primitive (that is, the result is the filter input image). If the **stdDeviation** method is zero in only one of *stdDeviationX* or *stdDeviationY*, then the effect is that the blur is applied only in the direction that has a non-zero value.
 
-===Standards information===
+If the **stdDeviation** method is not specified, then the effect is as if a value of zero were specified.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.19
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.19
 
-*[[svg/elements/feGaussianBlur|'''SVGFEGaussianBlurElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGFEGaussianBlurElement**](/svg/elements/feGaussianBlur)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

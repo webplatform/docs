@@ -1,35 +1,28 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes={{Editorial/Merge_Candidate
-|Other=http://docs.webplatform.org/wiki/css/mediaqueries
-}}
-Add values, syntax, example, description, specifications, compatibility.
-|Checked_Out=No
-|High-level issues=Stub, Merge Candidate
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|A media query consists of a media type and at least one expression that limits the style sheets' scope by using media features, such as width, height, and color. Added in CSS3, media queries let the presentation of content be tailored to a specific range of output devices without having to change the content itself.}}
-{{API_Listing|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Concept_Listing
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section}}
-{{See_Also_Section
-|External_links=* [http://www.xpertdeveloper.com/2012/08/media-queries-for-responsive-design/ Media Queries for Responsive Design]
+---
+title: media queries
+tags:
+  - API
+  - Listings
+readiness: 'Not Ready'
+notes:
+  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[1]] \n\n\n\nAdd values, syntax, example, description, specifications, compatibility."
+summary: 'A media query consists of a media type and at least one expression that limits the style sheets'' scope by using media features, such as width, height, and color. Added in CSS3, media queries let the presentation of content be tailored to a specific range of output devices without having to change the content itself.'
+uri: 'css/media queries'
 
-* [http://mediaqueri.es/ A collection of websites using Media Queries]
+---
+# media queries
 
-* [http://bradfrost.github.com/this-is-responsive/resources.html#media-queries A collection of media-query related resources on This Is Responsive]
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+## Summary
+
+A media query consists of a media type and at least one expression that limits the style sheets' scope by using media features, such as width, height, and color. Added in CSS3, media queries let the presentation of content be tailored to a specific range of output devices without having to change the content itself.
+
+## See also
+
+### External resources
+
+-   [Media Queries for Responsive Design](http://www.xpertdeveloper.com/2012/08/media-queries-for-responsive-design/)
+
+-   [A collection of websites using Media Queries](http://mediaqueri.es/)
+
+-   [A collection of media-query related resources on This Is Responsive](http://bradfrost.github.com/this-is-responsive/resources.html#media-queries)
+

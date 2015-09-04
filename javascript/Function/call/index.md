@@ -1,80 +1,81 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Summary_Section|Calls a method of an object, substituting another object for the current object.}}
-{{JS_Syntax
-|Formats={{JS Syntax Format
-|Format=call([ thisObj [, arg1 [ , arg2 [ ,   [ , argN ]]]]])
-}}
-|Values={{JS Syntax Parameter
-|Name=thisObj
-|Required=Optional
-|Description=The object to be used as the current object.
-}}{{JS Syntax Parameter
-|Name=arg1, arg2, , argN
-|Required=Optional
-|Description=A list of arguments to be passed to the method.
-}}
-}}
-{{JS_Return_Value}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=The following code shows how to use the '''call''' method.
-|Code=function callMe(arg1, arg2){
+---
+title: call
+tags:
+  - JS
+  - Basic
+readiness: 'Ready to Use'
+summary: 'Calls a method of an object, substituting another object for the current object.'
+uri: javascript/Function/call
+
+---
+# call
+
+## Summary
+
+Calls a method of an object, substituting another object for the current object.
+
+## Syntax
+
+    call([ thisObj [, arg1 [ , arg2 [ ,   [ , argN ]]]]])
+
+**thisObj**
+:   Optional. The object to be used as the current object.
+
+**arg1, arg2, , argN**
+:   Optional. A list of arguments to be passed to the method.
+
+## Examples
+
+The following code shows how to use the **call** method.
+
+``` {.js}
+function callMe(arg1, arg2){
      var s = "";
- 
+
      s += "this value: " + this;
-     s += "&lt;br /&gt;";
+     s += "<br />";
      for (i in callMe.arguments) {
          s += "arguments: " + callMe.arguments[i];
-         s += "&lt;br /&gt;";
+         s += "<br />";
      }
      return s;
  }
- 
- document.write("Original function: &lt;br/&gt;");
+
+ document.write("Original function: <br/>");
  document.write(callMe(1, 2));
- document.write("&lt;br/&gt;");
- 
- document.write("Function called with call: &lt;br/&gt;");
+ document.write("<br/>");
+
+ document.write("Function called with call: <br/>");
  document.write(callMe.call(3, 4, 5));
- 
- // Output: 
- // Original function: 
+
+ // Output:
+ // Original function:
  // this value: [object Window]
  // arguments: 1
  // arguments: 2
- 
- // Function called with call: 
+
+ // Function called with call:
  // this value: 3
  // arguments: 4
  // arguments: 5
-}}
-}}
-{{Remarks_Section
-|Remarks=The '''call''' method is used to call a method on behalf of another object. It allows you to change the this object of a function from the original context to the new object specified by thisObj.
+```
+
+## Remarks
+
+The **call** method is used to call a method on behalf of another object. It allows you to change the this object of a function from the original context to the new object specified by thisObj.
 
 If thisObj is not supplied, the global object is used as thisObj.
-}}
-{{Notes_Section}}
-{{JS Object Listing}}
-{{Topics | JS Basic}}
-{{See_Also_Section
-|Manual_links=* [[javascript/Function{{!}}Function Object]]
-* [[javascript/Function/apply{{!}}apply Method (Function)]]
-}}
-{{JS Topics
-|JS Page Type=JS Basic
-|Applies to=
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/h2ak8h2y(v=vs.94).aspx
-|HTML5Rocks_link=
-}}
+
+## See also
+
+### Other articles
+
+-   [Function Object](/javascript/Function)
+-   [apply Method (Function)](/javascript/Function/apply)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/h2ak8h2y(v=vs.94).aspx)
+

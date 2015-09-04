@@ -1,141 +1,162 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Needs examples and compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|Initializes a new drag event.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=eventType
-|Data type=String
-|Description=The name of the event. Sets the value for the [[dom/Event/type|'''type''']] property.
-|Optional=No
-}}{{Method Parameter
-|Index=1
-|Name=canBubble
-|Data type=Boolean
-|Description=Whether the event propagates upward. Sets the value for the [[dom/Event/bubbles|bubbles]] property.
-|Optional=No
-}}{{Method Parameter
-|Index=2
-|Name=cancelable
-|Data type=String
-|Description=Whether the event is cancelable and so [[dom/Event/preventDefault|preventDefault]] can be called. Sets the value for the [[dom/Event/cancelable|cancelable]] property.
-|Optional=No
-}}{{Method Parameter
-|Index=3
-|Name=view
-|Data type=DOM Node
-|Description=The window on which this event is occurring.  Sets the value for the [[dom/UIEvent/view|view]] property.
-|Optional=No
-}}{{Method Parameter
-|Index=4
-|Name=detail
-|Data type=Number
-|Description=Specifies additional information. This value is returned in the [[dom/UIEvent/detail|'''detail''']] property  of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=5
-|Name=screenX
-|Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/MouseEvent/screenX|'''screenX''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=6
-|Name=screenY
-|Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the screen. This value is returned in the [[dom/MouseEvent/screenY|'''screenY''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Name=clientX
-|Data type=Number
-|Description=The x-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/MouseEvent/clientX|'''clientX''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=7
-|Name=clientY
-|Data type=Number
-|Description=The y-coordinate of the mouse pointer, relative to the  upper-left corner of the browser's client area. This value is returned in the [[dom/MouseEvent/clientY|'''clientY''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=8
-|Name=ctrlKey
-|Data type=Boolean
-|Description=The value that is returned in the [[dom/KeyboardEvent/ctrlKey|'''ctrlKey''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=9
-|Name=altKey
-|Data type=Boolean
-|Description=The value that is returned in the [[dom/KeyboardEvent/altKey|'''altKey''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=10
-|Name=shiftKey
-|Data type=Boolean
-|Description=The value that is returned in the [[dom/KeyboardEvent/shiftKey|'''shiftKey''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=11
-|Name=metaKey
-|Data type=Boolean
-|Description=The value that is returned in the [[dom/KeyboardEvent/metaKey|'''metaKey''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=12
-|Name=button
-|Data type=Number
-|Description=The mouse button that caused the event. This value is returned in the [[dom/MouseEvent/button|'''button''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=13
-|Name=relatedTarget
-|Data type=DOM Node
-|Description=A secondary element that is involved in the event. This value is returned in the [[dom/MouseEvent/relatedTarget|'''relatedTarget''']] property of the event.
-|Optional=No
-}}{{Method Parameter
-|Index=14
-|Name=dataTransfer
-|Data type=String
-|Description=A [[dom/DataTransfer|DataTransfer]] object.
-|Optional=No
-}}
-|Method_applies_to=dom/DragEvent
-|Example_object_name=event
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 7.9.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: initDragEvent
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+notes:
+  - 'Needs examples and compat'
+summary: 'Initializes a new drag event.'
+uri: dom/DragEvent/initDragEvent
+
+---
+# initDragEvent
+
+## Summary
+
+Initializes a new drag event.
+
+*Method of [dom/DragEvent](/dom/DragEvent)*
+
+## Syntax
+
+``` {.js}
+ event.initDragEvent(eventType, canBubble, cancelable, view, detail, screenX, screenY, clientY, ctrlKey, altKey, shiftKey, metaKey, button, relatedTarget, dataTransfer);
+```
+
+## Parameters
+
+### eventType
+
+ Data-typeÂ
+:   String
+
+ The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
+
+### canBubble
+
+ Data-typeÂ
+:   Boolean
+
+ Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
+
+### cancelable
+
+ Data-typeÂ
+:   String
+
+ Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
+
+### view
+
+ Data-typeÂ
+:   DOM Node
+
+ The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
+
+### detail
+
+ Data-typeÂ
+:   Number
+
+ Specifies additional information. This value is returned in the [**detail**](/dom/UIEvent/detail) property of the event.
+
+### screenX
+
+ Data-typeÂ
+:   Number
+
+ The x-coordinate of the mouse pointer, relative to the upper-left corner of the screen. This value is returned in the [**screenX**](/dom/MouseEvent/screenX) property of the event.
+
+### screenY
+
+ Data-typeÂ
+:   Number
+
+ The y-coordinate of the mouse pointer, relative to the upper-left corner of the screen. This value is returned in the [**screenY**](/dom/MouseEvent/screenY) property of the event.
+
+### clientX
+
+ Data-typeÂ
+:   Number
+
+ The x-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. This value is returned in the [**clientX**](/dom/MouseEvent/clientX) property of the event.
+
+### clientY
+
+ Data-typeÂ
+:   Number
+
+ The y-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. This value is returned in the [**clientY**](/dom/MouseEvent/clientY) property of the event.
+
+### ctrlKey
+
+ Data-typeÂ
+:   Boolean
+
+ The value that is returned in the [**ctrlKey**](/dom/KeyboardEvent/ctrlKey) property of the event.
+
+### altKey
+
+ Data-typeÂ
+:   Boolean
+
+ The value that is returned in the [**altKey**](/dom/KeyboardEvent/altKey) property of the event.
+
+### shiftKey
+
+ Data-typeÂ
+:   Boolean
+
+ The value that is returned in the [**shiftKey**](/dom/KeyboardEvent/shiftKey) property of the event.
+
+### metaKey
+
+ Data-typeÂ
+:   Boolean
+
+ The value that is returned in the [**metaKey**](/dom/KeyboardEvent/metaKey) property of the event.
+
+### button
+
+ Data-typeÂ
+:   Number
+
+ The mouse button that caused the event. This value is returned in the [**button**](/dom/MouseEvent/button) property of the event.
+
+### relatedTarget
+
+ Data-typeÂ
+:   DOM Node
+
+ A secondary element that is involved in the event. This value is returned in the [**relatedTarget**](/dom/MouseEvent/relatedTarget) property of the event.
+
+### dataTransfer
+
+ Data-typeÂ
+:   String
+
+ A [DataTransfer](/dom/DataTransfer) object.
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML5](http://www.w3.org/TR/html5/)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

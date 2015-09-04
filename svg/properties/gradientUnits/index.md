@@ -1,42 +1,39 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: gradientUnits
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/gradientUnits
 
-===Remarks===
+---
+# gradientUnits
 
-When ''p'' is '''objectBoundingBox'''  and the [[svg/properties/gradientTransform|'''gradientTransform''']] property is the identity matrix, the normal of the linear gradient is perpendicular to the gradient vector in object bounding box space. When the object's bounding box is not square, the gradient normal (which is initially perpendicular to the gradient vector within object bounding box space) might render non-perpendicular relative to the gradient vector in user space. If the gradient vector is parallel to one of the axes of the bounding box, the gradient normal remains perpendicular. This transformation occurs because of the non-uniform scaling transformation from bounding box space to user space.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+When *p* is **objectBoundingBox** and the [**gradientTransform**](/svg/properties/gradientTransform) property is the identity matrix, the normal of the linear gradient is perpendicular to the gradient vector in object bounding box space. When the object's bounding box is not square, the gradient normal (which is initially perpendicular to the gradient vector within object bounding box space) might render non-perpendicular relative to the gradient vector in user space. If the gradient vector is parallel to one of the axes of the bounding box, the gradient normal remains perpendicular. This transformation occurs because of the non-uniform scaling transformation from bounding box space to user space.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199811 Scalable Vector Graphics: Gradients and Patterns], Section 13.4.1
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.1
 
-*[[svg/elements/gradient|'''SVGGradientElement''']]
-*[[svg/elements/linearGradient|'''SVGLinearGradientElement''']]
-*[[svg/elements/radialGradient|'''SVGRadialGradientElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGGradientElement**](/svg/elements/gradient)
+-   [**SVGLinearGradientElement**](/svg/elements/linearGradient)
+-   [**SVGRadialGradientElement**](/svg/elements/radialGradient)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

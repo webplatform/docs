@@ -1,52 +1,79 @@
-{{Page_Title|font-family}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The <code>font-family</code> property allows one or more font family names and/or generic family names to be specified for usage on the selected element(s)' text. The browser then goes through the list; for each character in the selection it applies the first font family that has an available glyph for that character.}}
-{{CSS Property
-|Initial value=depends on user agent
-|Applies to=All elements
-|Inherited=Yes
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=fontFamily
-|CSS percentages=
-|Values={{CSS Property Value
-|Data Type=family-name
-|Description=The name of a font family, such as <code>courier</code> or <code>arial</code>. You can reference fonts available on the user's system, or external fonts imported using [[css/atrules/%40font-face|@font-face]]. When the family name contains more than one word, it should be enclosed in quotes, for example <code>'Comic Sans'</code>.
-}}{{CSS Property Value
-|Data Type=generic-family
-|Description=generic families are not specific fonts, but a reference to fallback fonts of a general type that can be used when specific fonts are not available. The actual fonts used for each fallback type may differ between operating systems. The following generic family keywords are defined: <code>serif</code>, <code>sans-serif</code>, <code>cursive</code>, <code>fantasy</code> and <code>monospace</code>.
-}}{{CSS Property Value
-|Data Type=family-name, family-name, generic-family
-|Description=You can specify a comma-separated list of multiple font family names and/or generic family names, although it rarely makes sense to specify more than one generic family. This list is called a '''font-stack'''. The browser goes down the list and uses the first available font that it can find available on the system. Generic font families are used as a fallback when none of the fonts specified in the stack are available. It is always the last alternative in the list of font family names.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=It is simple to define built-in fonts to use in your CSS content.
-|Code=h1 { font-family: Helvetica, Arial, sans-serif; }
+---
+title: font-family
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The font-family property allows one or more font family names and/or generic family names to be specified for usage on the selected element(s)'' text. The browser then goes through the list; for each character in the selection it applies the first font family that has an available glyph for that character.'
+code_samples:
+  - 'http://gist.github.com/5496591'
+uri: css/properties/font-family
+
+---
+# font-family
+
+## Summary
+
+The font-family property allows one or more font family names and/or generic family names to be specified for usage on the selected element(s)' text. The browser then goes through the list; for each character in the selection it applies the first font family that has an available glyph for that character.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `depends on user agent`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   Yes
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `fontFamily`
+
+## Syntax
+
+-   `font-family: family-name`
+-   `font-family: family-name, family-name, generic-family`
+-   `font-family: generic-family`
+
+## Values
+
+family-name
+:   The name of a font family, such as `courier` or `arial`. You can reference fonts available on the user's system, or external fonts imported using [@font-face](/css/atrules/@font-face). When the family name contains more than one word, it should be enclosed in quotes, for example `'Comic Sans'`.
+
+generic-family
+:   generic families are not specific fonts, but a reference to fallback fonts of a general type that can be used when specific fonts are not available. The actual fonts used for each fallback type may differ between operating systems. The following generic family keywords are defined: `serif`, `sans-serif`, `cursive`, `fantasy` and `monospace`.
+
+family-name, family-name, generic-family
+:   You can specify a comma-separated list of multiple font family names and/or generic family names, although it rarely makes sense to specify more than one generic family. This list is called a **font-stack**. The browser goes down the list and uses the first available font that it can find available on the system. Generic font families are used as a fallback when none of the fonts specified in the stack are available. It is always the last alternative in the list of font family names.
+
+## Examples
+
+It is simple to define built-in fonts to use in your CSS content.
+
+``` {.css}
+h1 { font-family: Helvetica, Arial, sans-serif; }
 p { font-family: "Times New Roman", serif; }
-|LiveURL=http://code.webplatform.org/gist/5496591
-}}{{Single Example
-|Language=CSS
-|Description=The following example imports a web font into your CSS using <code>@font-face</code> and then assigns it to an element using font-family
-|Code=/*
+```
+
+[View live example](http://code.webplatform.org/gist/5496591)
+
+The following example imports a web font into your CSS using `@font-face` and then assigns it to an element using font-family
+
+``` {.css}
+/*
 Defines the font and its location. font-family in this case assigns a name to the font
 */
 @font-face {
   font-family: 'VeraSe';
   src: url("../_fonts/VeraSe.eot");
-  src: local("☺"), 
-  url("../_fonts/VeraSe.woff") format("woff"), 
-  url("../_fonts/VeraSe.ttf") format("truetype"), 
+  src: local("☺"),
+  url("../_fonts/VeraSe.woff") format("woff"),
+  url("../_fonts/VeraSe.ttf") format("truetype"),
   url("../_fonts/VeraSe.svg") format("svg");
   font-weight: normal;
   font-style: normal;
@@ -61,83 +88,106 @@ h1 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=* If a font family name contains whitespace, digits or punctuation characters (other than hyphens), you should place quotes around the font family name to avoid mistakes in escaping those characters
-* Generic font family names are values (keywords) and cannot appear in quotation marks
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS 2.1, section 15.3
-|URL=http://www.w3.org/TR/CSS21/fonts.html#font-family-prop
-|Status=W3C Recommendation 07 June 2011
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS Fonts Module Level 3
-|URL=http://www.w3.org/TR/css3-fonts/
-|Status=W3C Working Draft 12 February 2013
-|Relevant_changes=
-}}{{Related Specification
-|Name=CSS3 module: Web Fonts
-|URL=http://www.w3.org/TR/2002/WD-css3-webfonts-20020802/
-|Status=W3C Working Draft 2 August 2002
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=CSS Font, Fonts
-|Manual_links=
-|External_links=* [http://mathiasbynens.be/notes/unquoted-font-family Unquoted font family names in CSS]
-* [http://dev.w3.org/csswg/css3-fonts/#font-family-prop Basic Font Properties]
-* [https://developer.mozilla.org/en-US/docs/Web/CSS/font-family font-family @ MDN]
-|Manual_sections=
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=3.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=3.5
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=IE
-|Version=8
-|Note=IE8 requires a !DOCTYPE
-}}{{Compatibility Notes Row
-|Browser=IE
-|Version=7
-|Note=The value "inherit" is not supported in IE7 and earlier.
-}}
-}}
+```
+
+## Usage
+
+     * If a font family name contains whitespace, digits or punctuation characters (other than hyphens), you should place quotes around the font family name to avoid mistakes in escaping those characters
+
+-   Generic font family names are values (keywords) and cannot appear in quotation marks
+
+## Related specifications
+
+Specification
+:   Status
+[CSS 2.1, section 15.3](http://www.w3.org/TR/CSS21/fonts.html#font-family-prop)
+:   W3C Recommendation 07 June 2011
+[CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/)
+:   W3C Working Draft 12 February 2013
+[CSS3 module: Web Fonts](http://www.w3.org/TR/2002/WD-css3-webfonts-20020802/)
+:   W3C Working Draft 2 August 2002
+
+## See also
+
+### Related articles
+
+#### CSS Font
+
+-   **font-family**
+
+-   [font-kerning](/css/properties/font-kerning)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-size-adjust](/css/properties/font-size-adjust)
+
+-   [font-style](/css/properties/font-style)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [font-variant](/css/properties/font-variant)
+
+-   [kerning-mode](/css/properties/kerning-mode)
+
+-   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
+
+-   [text-rendering](/css/properties/text-rendering)
+
+-   [text-underline](/css/properties/text-underline)
+
+-   [user-modify](/css/properties/user-modify)
+
+#### Fonts
+
+-   [@font-face](/css/atrules/@font-face)
+
+-   [Font related properties](/css/fonts)
+
+-   [font-variant](/css/fonts/font-variant)
+
+-   [font](/css/properties/font)
+
+-   **font-family**
+
+-   [font-feature-settings](/css/properties/font-feature-settings)
+
+-   [font-kerning](/css/properties/font-kerning)
+
+-   [font-language-override](/css/properties/font-language-override)
+
+-   [font-size](/css/properties/font-size)
+
+-   [font-size-adjust](/css/properties/font-size-adjust)
+
+-   [font-stretch](/css/properties/font-stretch)
+
+-   [font-style](/css/properties/font-style)
+
+-   [font-synthesis](/css/properties/font-synthesis)
+
+-   [font-variant](/css/properties/font-variant)
+
+-   [max-font-size](/css/properties/max-font-size)
+
+-   [min-font-size](/css/properties/min-font-size)
+
+-   [user-modify](/css/properties/user-modify)
+
+-   [size](/html/attributes/size)
+
+-   [font](/html/elements/font)
+
+### External resources
+
+-   [Unquoted font family names in CSS](http://mathiasbynens.be/notes/unquoted-font-family)
+-   [Basic Font Properties](http://dev.w3.org/csswg/css3-fonts/#font-family-prop)
+-   [font-family @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

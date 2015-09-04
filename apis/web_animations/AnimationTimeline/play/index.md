@@ -1,48 +1,103 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=
-|Checked_Out=Yes
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Creates a new [[apis/web_animations/AnimationPlayer|'''AnimationPlayer''']] object associated with this timeline that begins playback as soon as it is ready.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=source
-|Data type=String
-|Description=If source is specified, it will be used as the newly-created AnimationPlayer’s source content.
-|Optional=Yes
-}}
-|Method_applies_to=apis/web_animations/AnimationTimeline
-|Example_object_name=element
-|Return_value_name=result
-|Javascript_data_type=
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=Animation
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: play
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: Web
+  5: Animations
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Creates a new AnimationPlayer object associated with this timeline that begins playback as soon as it is ready.'
+uri: 'apis/web animations/AnimationTimeline/play'
+
+---
+# play
+
+## Summary
+
+Creates a new AnimationPlayer object associated with this timeline that begins playback as soon as it is ready.
+
+*Method of [apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)*
+
+## Syntax
+
+``` {.js}
+var result = element.play(source);
+```
+
+## Parameters
+
+### source
+
+ Data-type�
+:   String
+
+*(Optional)*
+
+If source is specified, it will be used as the newly-created AnimationPlayer’s source content.
+
+## Return Value
+
+Returns an object of type .
+
+**Needs Examples**: This section should include examples.
+
+## See also
+
+### Related articles
+
+#### Animation
+
+-   [Web Animations API](/apis/web_animations)
+
+-   [clone](/apis/web_animations/AnimationEffect/clone)
+
+-   [AnimationNode](/apis/web_animations/AnimationNode)
+
+-   [timing](/apis/web_animations/AnimationNode/timing)
+
+-   [currentTime](/apis/web_animations/AnimationPlayer/currentTime)
+
+-   [reverse](/apis/web_animations/AnimationPlayer/reverse)
+
+-   [source](/apis/web_animations/AnimationPlayer/source)
+
+-   [AnimationPlayerEvent](/apis/web_animations/AnimationPlayerEvent)
+
+-   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
+
+-   **play**
+
+-   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
+
+-   [@keyframes](/css/atrules/@keyframes)
+
+-   [CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
+
+-   [keyText](/css/cssom/CSSKeyframeRule/keyText)
+
+-   [style](/css/cssom/CSSKeyframeRule/style)
+
+-   [CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
+
+-   [cssRules](/css/cssom/CSSKeyframesRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSKeyframesRule/deleteRule)
+
+-   [findRule](/css/cssom/CSSKeyframesRule/findRule)
+
+-   [insertRule](/css/cssom/CSSKeyframesRule/insertRule)
+
+-   [name](/css/cssom/CSSKeyframesRule/name)
+
+-   [cubic-bezier](/css/functions/cubic-bezier)
+
+-   [Animations](/css/properties/animations)
+
+-   [transition](/css/properties/transition)
+
+-   [SVG animation](/svg/tutorials/smarter_svg_animation)
+
+-   [JavaScript animation](/tutorials/animation_in_javascript_2)
+

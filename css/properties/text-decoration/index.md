@@ -1,216 +1,141 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The '''text-decoration''' CSS property is used to set the text formatting to '''underline''', '''overline''', '''line-through''' or '''blink'''. <br />
-'''underline''' and '''overline''' decorations are positioned under the text, '''line-through''' over it.
-}}
-{{CSS Property
-|Initial value=none
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Computed value=As specified
-|Animatable=No
-|CSS object model property=textDecoration
-|CSS percentages=???
-|Values={{CSS Property Value
-|Data Type=none
-|Description=Produces no text decoration.
-}}{{CSS Property Value
-|Data Type=underline
-|Description=Each line of text is underlined.
-}}{{CSS Property Value
-|Data Type=overline
-|Description=Each line of text has a line above it.
-}}{{CSS Property Value
-|Data Type=line-through
-|Description=Each line of text has a line through the middle.
-}}{{CSS Property Value
-|Data Type=blink
-|Description=Text blinks.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=<pre>
+---
+title: text-decoration
+tags:
+  - CSS
+  - Properties
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: "The text-decoration CSS property is used to set the text formatting to underline, overline, line-through or blink. underline and overline decorations are positioned under the text, line-through over it.\n"
+code_samples:
+  - 'http://gist.github.com/7283381'
+uri: css/properties/text-decoration
+
+---
+# text-decoration
+
+## Summary
+
+The text-decoration CSS property is used to set the text formatting to underline, overline, line-through or blink. underline and overline decorations are positioned under the text, line-through over it.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   As specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `textDecoration`
+Percentages
+:    ???
+
+## Syntax
+
+-   `text-decoration: blink`
+-   `text-decoration: line-through`
+-   `text-decoration: none`
+-   `text-decoration: overline`
+-   `text-decoration: underline`
+
+## Values
+
+none
+:   Produces no text decoration.
+
+underline
+:   Each line of text is underlined.
+
+overline
+:   Each line of text has a line above it.
+
+line-through
+:   Each line of text has a line through the middle.
+
+blink
+:   Text blinks.
+
+## Examples
+
+``` {.html}
+
 <p class="under">Underlined text</p>
 <p class="over">Overlined text</p>
 <p class="through">Line through text</p>
 <p class="blink">Blinking text</p>
 <p class="mixed">Mixed decoration text</p>
+```
+
 </pre>
-|LiveURL=http://code.webplatform.org/gist/7283381
-}}{{Single Example
-|Language=CSS
-|Code=.under   { text-decoration: underline; }
+[View live example](http://code.webplatform.org/gist/7283381)
+
+``` {.css}
+.under   { text-decoration: underline; }
 .over    { text-decoration: overline; }
 .through { text-decoration: line-through; }
 .blink   { text-decoration: blink; }
 .mixed   { text-decoration: underline overline line-through; }
-}}
-}}
-{{Notes_Section
-|Usage=CSS Text Decoration Level 3 transformed this property as a shorthand for the three new '''text-decoration-color''', '''text-decoration-line''', and '''text-decoration-style''' CSS properties. Like for any other shorthand property, it means that it resets their value to their default if not explicitely set in the shorthand.
+```
 
-Browsers may ignore the '''blink''' value (without making the declaration invalid), as Internet Explorer and Safari does. Supported by Firefox (Gecko) and Opera. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG.
+## Usage
+
+     CSS Text Decoration Level 3 transformed this property as a shorthand for the three new text-decoration-color, text-decoration-line, and text-decoration-style CSS properties. Like for any other shorthand property, it means that it resets their value to their default if not explicitely set in the shorthand.
+
+Browsers may ignore the **blink** value (without making the declaration invalid), as Internet Explorer and Safari does. Supported by Firefox (Gecko) and Opera. Note that not blinking the text is one technique to satisfy checkpoint 3.3 of WAI-UAAG.
 
 Text decorations draw across descendant elements. This means that it is not possible to disable on a descendant a text decoration that is specified on one of its ancestors.
 
 For example, in the markup:
-<pre><p>This text has <em>some emphasized words</em> in it.</p></pre>
+
+    <p>This text has <em>some emphasized words</em> in it.</p>
+
 the style rule:
-<pre>p { text-decoration: underline }</pre>
+
+    p { text-decoration: underline }
+
 would cause the entire paragraph to be underlined. However, the style rule:
-<pre>em { text-decoration: none }</pre>
-would not cause any change; the entire paragraph would still be underlined.
-(However, the rule em { text-decoration: overline } would cause a second decoration to appear on "some emphasized words".)
+
+    em { text-decoration: none }
+
+would not cause any change; the entire paragraph would still be underlined. (However, the rule em { text-decoration: overline } would cause a second decoration to appear on "some emphasized words".)
 
 The default value is different for the following tags.
 
-* Default value is underline for a when used with '''href''', '''u''', and '''ins'''.
-* Default value is '''line-through''' for '''strike''', '''s''', and '''del'''.
+-   Default value is underline for a when used with **href**, **u**, and **ins**.
+-   Default value is **line-through** for **strike**, **s**, and **del**.
 
-If the value '''none''' is placed at the end of the values, all values are cleared. For example, setting {text-decoration: underline overline blink none} causes none of the decorations to render. If the object has no text (for example, the img object in HTML) or is an empty object (for example, <nowiki><em></em></nowiki>), this property has no effect. If you set the '''text-decoration''' attribute to '''none''' on the '''body''' object, the a objects are still underlined. To remove the underline from the a objects, either set the style inline or use '''a''' as a selector in the global style sheet. Specifying the '''text-decoration''' property for block elements affects all inline children. If it is specified for, or affects, an inline element, it affects all boxes generated by the element.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Fonts Module Level 3
-|URL=http://dev.w3.org/csswg/css-text-decor-3/#text-decoration
-|Status=Working Draft
-|Relevant_changes=Transformed in a shorthand property. Added support for the value of '''text-decoration-style'''.
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1)
-|URL=http://www.w3.org/TR/CSS2/text.html#lining-striking-props
-|Status=Recommendation
-|Relevant_changes=No significant changes.
-}}{{Related Specification
-|Name=CSS Level 1
-|URL=http://www.w3.org/TR/CSS1/#text-decoration
-|Status=Recommendation
-|Relevant_changes=Initial specification.
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0 (1.7 or earlier)
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=3.0
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=3.5
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.0
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature='''blink''' value
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=1.0 (1.7 or earlier)
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=4.0
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}{{Compatibility Table Desktop Row
-|Feature=Shorthand property
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=6.0 (6.0)
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Unknown
-|Android_version=
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Unknown
-|Blackberry_version=
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Unknown
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Unknown
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section
-|External_links=* Mozilla: [http://mxr.mozilla.org/mozilla/source/layout/style/html.css default style sheet]
-* WebKit: [http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css default style sheet]
-* IECSS: [http://www.iecss.com/ Internet Explorer User Agent Style Sheets]
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/CSS/text-decoration text-decoration]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+If the value **none** is placed at the end of the values, all values are cleared. For example, setting {text-decoration: underline overline blink none} causes none of the decorations to render. If the object has no text (for example, the img object in HTML) or is an empty object (for example, \<em\>\</em\>), this property has no effect. If you set the **text-decoration** attribute to **none** on the **body** object, the a objects are still underlined. To remove the underline from the a objects, either set the style inline or use **a** as a selector in the global style sheet. Specifying the **text-decoration** property for block elements affects all inline children. If it is specified for, or affects, an inline element, it affects all boxes generated by the element.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Fonts Module Level 3](http://dev.w3.org/csswg/css-text-decor-3/#text-decoration)
+:   Working Draft
+[CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/text.html#lining-striking-props)
+:   Recommendation
+[CSS Level 1](http://www.w3.org/TR/CSS1/#text-decoration)
+:   Recommendation
+
+## See also
+
+### External resources
+
+-   Mozilla: [default style sheet](http://mxr.mozilla.org/mozilla/source/layout/style/html.css)
+-   WebKit: [default style sheet](http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css)
+-   IECSS: [Internet Explorer User Agent Style Sheets](http://www.iecss.com/)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[text-decoration](https://developer.mozilla.org/en-US/docs/CSS/text-decoration) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

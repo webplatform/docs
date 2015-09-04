@@ -1,51 +1,76 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{API_Object
-|Subclass_of=svg/objects/SVGElement
-}}
-{{Topics|DOM}}
-{{Notes_Section
-|Notes=
+---
+title: SVGTransform
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/objects/SVGTransform
 
-===Remarks===
+---
+# SVGTransform
 
-'''Note:'''  In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
 
-|Import_Notes=
+## Properties
 
-===Standards information===
+*No properties.*
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204735 Scalable Vector Graphics: Coordinate Systems, Transformations and Units], Section 7.14.4
+## Methods
 
-===Members===
+*No methods.*
 
-The '''SVGTransform''' object has these methods:
+## Events
 
-*[[svg/methods/setMatrix|'''setMatrix''']]: Sets the transform type to SVG_TRANSFORM_MATRIX  by using  the specified  new transformation.
-*[[svg/methods/setRotate|'''setRotate''']]: Sets the transform type to SVG_TRANSFORM_ROTATE by using  the  specified  rotation angle and   center of rotation.
-*[[svg/methods/setScale|'''setScale''']]: Sets the transform type to SVG_TRANSFORM_SCALE by using the  specified scale amounts.
-*[[svg/methods/setSkewX|'''setSkewX''']]: Sets the transform type to SVG_TRANSFORM_SKEWX, with the given angle defining the amount of skew.
-*[[svg/methods/setSkewY|'''setSkewY''']]: Sets the transform type to SVG_TRANSFORM_SKEWY, with the given angle defining the amount of skew.
-*[[svg/methods/setTranslate|'''setTranslate''']]: Sets the transform type  to SVG_TRANSFORM_TRANSLATE  by using the specified components.
+*No events.*
 
-The '''SVGTransform''' object has these properties:
+## Inherited from SVGElement
 
-*[[svg/properties/angle|'''angle''']]: Gets or sets  a value that indicates an angle unit.
-*[[svg/properties/matrix|'''matrix''']]: Gets  the matrix that represents this transformation.
-*[[svg/properties/type (SVGTransform)|'''type''']]: Gets or sets the '''transform''' attribute type.
+### Properties
 
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+*No properties.*
+
+### Methods
+
+*No methods.*
+
+### Events
+
+*No events.*
+
+## Notes
+
+### Remarks
+
+**Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
+
+### Standards information
+
+-   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.4
+
+### Members
+
+The **SVGTransform** object has these methods:
+
+-   [**setMatrix**](/svg/methods/setMatrix): Sets the transform type to SVG\_TRANSFORM\_MATRIX by using the specified new transformation.
+-   [**setRotate**](/svg/methods/setRotate): Sets the transform type to SVG\_TRANSFORM\_ROTATE by using the specified rotation angle and center of rotation.
+-   [**setScale**](/svg/methods/setScale): Sets the transform type to SVG\_TRANSFORM\_SCALE by using the specified scale amounts.
+-   [**setSkewX**](/svg/methods/setSkewX): Sets the transform type to SVG\_TRANSFORM\_SKEWX, with the given angle defining the amount of skew.
+-   [**setSkewY**](/svg/methods/setSkewY): Sets the transform type to SVG\_TRANSFORM\_SKEWY, with the given angle defining the amount of skew.
+-   [**setTranslate**](/svg/methods/setTranslate): Sets the transform type to SVG\_TRANSFORM\_TRANSLATE by using the specified components.
+
+The **SVGTransform** object has these properties:
+
+-   [**angle**](/svg/properties/angle): Gets or sets a value that indicates an angle unit.
+-   [**matrix**](/svg/properties/matrix): Gets the matrix that represents this transformation.
+-   [**type**](/svg/properties/type_(SVGTransform)): Gets or sets the **transform** attribute type.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

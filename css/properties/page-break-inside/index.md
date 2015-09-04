@@ -1,94 +1,86 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Deprecated; deletion candidate
-|Checked_Out=No
-}}
-{{Standardization_Status|Deprecated}}
-{{API_Name}}
-{{Summary_Section|Sets the page-breaking behavior inside an element. With CSS3, page-break-* properties are only aliases of the break-* properties. The [http://www.w3.org/TR/css3-break/#page-break CSS3 Fragmentation spec] defines breaks for all CSS box fragmentation.}}
-{{CSS Property
-|Applies to=All elements
-|Inherited=No
-|Media=visual
-|Animatable=No
-|Values={{CSS Property Value
-|Data Type=auto
-|Description=Default. 
+---
+title: page-break-inside
+tags:
+  - CSS
+  - Properties
+readiness: 'Not Ready'
+standardization_status: Deprecated
+notes:
+  - 'Deprecated; deletion candidate'
+summary: 'Sets the page-breaking behavior inside an element. With CSS3, page-break-* properties are only aliases of the break-* properties. The CSS3 Fragmentation spec defines breaks for all CSS box fragmentation.'
+uri: css/properties/page-break-inside
+
+---
+# page-break-inside
+
+## Summary
+
+Sets the page-breaking behavior inside an element. With CSS3, page-break-\* properties are only aliases of the break-\* properties. The CSS3 Fragmentation spec defines breaks for all CSS box fragmentation.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   ``
+Applies to
+:   All elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+
+## Syntax
+
+-   `page-break-inside: auto`
+-   `page-break-inside: avoid`
+-   `page-break-inside: empty string`
+-   `page-break-inside: inherit`
+
+## Values
+
+auto
+:   Default.
+
 Neither force nor forbid a page break inside the object.
-}}{{CSS Property Value
-|Data Type=avoid
-|Description=Forbid a page break inside the object, if possible.
-}}{{CSS Property Value
-|Data Type=empty string
-|Description=Behaves the same as '''auto'''.
-}}{{CSS Property Value
-|Data Type=inherit
-|Description=Inherit the value of the same property for the object's parent.
-}}
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Fragmentation Module Level 3, 3.3. Page Break Aliases: the ‘page-break-before’, ‘page-break-after’, and ‘page-break-inside’ properties
-|URL=http://www.w3.org/TR/css3-break/#page-break
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=CSS Paged Media Module Level 3, 9. Page Breaks
-|URL=http://www.w3.org/TR/css3-page/#page-breaks
-|Status=W3C Working Draft
-|Relevant_changes=The CSS Fragmentation Module module defines CSS box fragmentation, including across page breaks.
-}}{{Related Specification
-|Name=CSS Level 2 (Revision 1), 13.3.1 Page break properties: 'page-break-before', 'page-break-after', 'page-break-inside'
-|URL=http://www.w3.org/TR/CSS2/page.html#page-break-props
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=1.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=19
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=8.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=7.0
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=1.3
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|CSSStyleDeclaration]]</code>
-*<code>[[css/cssom/currentStyle|currentStyle]]</code>
-*<code>[[css/cssom/runtimeStyle|runtimeStyle]]</code>
-*<code>[[css/cssom/style|style]]</code>
-*<code>CSS How-to - Optimize Pages for Printing Using CSS</code>
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+avoid
+:   Forbid a page break inside the object, if possible.
+
+empty string
+:   Behaves the same as **auto**.
+
+inherit
+:   Inherit the value of the same property for the object's parent.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Fragmentation Module Level 3, 3.3. Page Break Aliases: the ‘page-break-before’, ‘page-break-after’, and ‘page-break-inside’ properties](http://www.w3.org/TR/css3-break/#page-break)
+:   W3C Working Draft
+[CSS Paged Media Module Level 3, 9. Page Breaks](http://www.w3.org/TR/css3-page/#page-breaks)
+:   W3C Working Draft
+[CSS Level 2 (Revision 1), 13.3.1 Page break properties: 'page-break-before', 'page-break-after', 'page-break-inside'](http://www.w3.org/TR/CSS2/page.html#page-break-props)
+:   W3C Recommendation
+
+## See also
+
+### Related pages (MSDN)
+
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `runtimeStyle`
+-   `style`
+-   `CSS How-to - Optimize Pages for Printing Using CSS`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

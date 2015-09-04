@@ -1,73 +1,76 @@
-{{Page_Title|window.location}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The location object provides access to the address related properties of the current document.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Redirect the current page to example.org.
-|Code=window.location = "http://example.org";
-|LiveURL=
-}}{{Single Example
-|Language=
-|Description=Show an alert if the current page is example.org.
-|Code=if(window.location == "http://example.org/"){
-    alert("Welcome to example.org!");
-}
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=The location object can be used as an object or a string.
+---
+title: location
+tags:
+  - API
+  - Objects
+  - JavaScript
+readiness: 'Ready to Use'
+summary: 'The location object provides access to the address related properties of the current document.'
+uri: apis/location
+
+---
+# window.location
+
+## Summary
+
+The location object provides access to the address related properties of the current document.
+
+## Properties
+
+API Name
+:   Summary
+[hash](/apis/location/hash)
+:   The hash property contains the fragment identifier (including hash character) for the current page.
+[host](/apis/location/host)
+:   The host property contains the host part of the the current document URL, (hostname:port).
+[hostname](/apis/location/hostname)
+:   The hostname property contains the hostname the current document was served from, excluding protocol, port, and other information.
+[href](/apis/location/href)
+:   The full url for this resource. Synonymous with `String(window.location)`.
+[pathname](/apis/location/pathname)
+:   The path to the current document, relative to the root of the current host.
+[port](/apis/location/port)
+:   The port number the document was accessed via.
+[protocol](/apis/location/protocol)
+:   Sets or retrieves the protocol portion of a URL.
+
+    The protocol the current document was accessed via (everything preceding the "//").
+
+[search](/apis/location/search)
+:   The search property contains the query string portion of the current url.
+
+## Methods
+
+API Name
+:   Summary
+[assign](/apis/location/assign)
+:   Navigate to a new page.
+[reload](/apis/location/reload)
+:   Refresh/reload the current page, optionally forcing a re-download of the content.
+[replace](/apis/location/replace)
+:   Similar to `window.location.assign`, except that it "replaces" the current document, removing the previous one from the back button history.
+
+## Events
+
+*No events.*
+
+## Examples
+
+Redirect the current page to example.org.
+
+``` {.js}
+window.location = "http://example.org";
+```
+
+Show an alert if the current page is example.org.
+
+    if(window.location == "http://example.org/"){
+        alert("Welcome to example.org!");
+    }
+
+## Usage
+
+     The location object can be used as an object or a string.
 
 Regular string comparisons such as in the examples section can be used, but there are several other properties of the location such as the hash or the hostname that can be compared individually.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|JavaScript}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_prefixed_supported=No
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_prefixed_supported=No
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
+

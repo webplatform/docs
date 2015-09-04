@@ -1,52 +1,79 @@
-=New Elements in HTML5=
+---
+title: new elements
+uri: 'html/html5/new elements'
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - 'html/elements/command type=checkbox'
+    - 'html/elements/command type=command'
+    - 'html/elements/command type=radio'
+    - html/elements/command
+    - 'html/elements/input type=color'
+    - 'html/elements/input type=datetime-local'
+    - 'html/elements/input type=datetime'
+    - 'html/elements/input type=date'
+    - 'html/elements/input type=email'
+    - 'html/elements/input type=month'
+    - 'html/elements/input type=number'
+    - 'html/elements/input type=range'
+    - 'html/elements/input type=search'
+    - 'html/elements/input type=tel'
+    - 'html/elements/input type=time'
+    - 'html/elements/input type=url'
+    - 'html/elements/input type=week'
+    - 'html/elements/meta charset'
+    - html/elements/summary
+
+---
+# New Elements in HTML5
 
 There are 47 new elements in HTML5:
 
-* '''[[html/elements/article|article]]:''' article
-* '''[[html/elements/aside|aside]]:''' tangential content
-* '''[[html/elements/audio|audio]]:''' audio stream
-* '''[[html/elements/bdi|bdi]]:''' BiDi isolate
-* '''[[html/elements/canvas|canvas]]:''' canvas for dynamic graphics
-* '''[[html/elements/command type=checkbox|command type=checkbox]]:''' state or option that can be toggled
-* '''[[html/elements/command type=command|command type=command]]:''' command with an associated action
-* '''[[html/elements/command type=radio|command type=radio]]:''' selection of one item from a list of items
-* '''[[html/elements/command|command]]:''' command
-* '''[[html/elements/datalist|datalist]]:''' predefined options for other controls
-* '''[[html/elements/details|details]]:''' control for additional on-demand information
-* '''[[html/elements/embed|embed]]:''' integration point for plugins
-* '''[[html/elements/figcaption|figcaption]]:''' figure caption
-* '''[[html/elements/figure|figure]]:''' figure with optional caption
-* '''[[html/elements/footer|footer]]:''' footer
-* '''[[html/elements/header|header]]:''' header
-* '''[[html/elements/hgroup|hgroup]]:''' heading group
-* '''[[html/elements/input type=color|input type=color]]:''' color-well control
-* '''[[html/elements/input type=datetime-local|input type=datetime-local]]:''' local date-and-time input control
-* '''[[html/elements/input type=datetime|input type=datetime]]:''' global date-and-time input control
-* '''[[html/elements/input type=date|input type=date]]:''' date input control
-* '''[[html/elements/input type=email|input type=email]]:''' e-mail address input control
-* '''[[html/elements/input type=month|input type=month]]:''' year-and-month input control
-* '''[[html/elements/input type=number|input type=number]]:''' number input control
-* '''[[html/elements/input type=range|input type=range]]:''' imprecise number-input control
-* '''[[html/elements/input type=search|input type=search]]:''' search field
-* '''[[html/elements/input type=tel|input type=tel]]:''' telephone-number-input field
-* '''[[html/elements/input type=time|input type=time]]:''' time input control
-* '''[[html/elements/input type=url|input type=url]]:''' URL input control
-* '''[[html/elements/input type=week|input type=week]]:''' year-and-week input control
-* '''[[html/elements/keygen|keygen]]:''' key-pair generator/input control
-* '''[[html/elements/main|main]]:''' main element
-* '''[[html/elements/mark|mark]]:''' marked (highlighted) text
-* '''[[html/elements/meta charset|meta charset]]:''' document character-encoding declaration
-* '''[[html/elements/meter|meter]]:''' scalar gauge
-* '''[[html/elements/nav|nav]]:''' group of navigational links
-* '''[[html/elements/output|output]]:''' result of a calculation in a form
-* '''[[html/elements/progress|progress]]:''' progress indicator
-* '''[[html/elements/rp|rp]]:''' ruby parenthesis
-* '''[[html/elements/rt|rt]]:''' ruby text
-* '''[[html/elements/ruby|ruby]]:''' ruby annotation
-* '''[[html/elements/section|section]]:''' section
-* '''[[html/elements/source|source]]:''' media source
-* '''[[html/elements/summary|summary]]:''' summary, caption, or legend for a details control
-* '''[[html/elements/time|time]]:''' date and/or time
-* '''[[html/elements/track|track]]:''' supplementary media track
-* '''[[html/elements/video|video]]:''' video
-* '''[[html/elements/wbr|wbr]]:''' line-break opportunity
+-   **[article](/html/elements/article):** article
+-   **[aside](/html/elements/aside):** tangential content
+-   **[audio](/html/elements/audio):** audio stream
+-   **[bdi](/html/elements/bdi):** BiDi isolate
+-   **[canvas](/html/elements/canvas):** canvas for dynamic graphics
+-   **[command type=checkbox](/w/index.php?title=html/elements/command_type%3Dcheckbox&action=edit&redlink=1):** state or option that can be toggled
+-   **[command type=command](/w/index.php?title=html/elements/command_type%3Dcommand&action=edit&redlink=1):** command with an associated action
+-   **[command type=radio](/w/index.php?title=html/elements/command_type%3Dradio&action=edit&redlink=1):** selection of one item from a list of items
+-   **[command](/w/index.php?title=html/elements/command&action=edit&redlink=1):** command
+-   **[datalist](/html/elements/datalist):** predefined options for other controls
+-   **[details](/html/elements/details):** control for additional on-demand information
+-   **[embed](/html/elements/embed):** integration point for plugins
+-   **[figcaption](/html/elements/figcaption):** figure caption
+-   **[figure](/html/elements/figure):** figure with optional caption
+-   **[footer](/html/elements/footer):** footer
+-   **[header](/html/elements/header):** header
+-   **[hgroup](/html/elements/hgroup):** heading group
+-   **[input type=color](/w/index.php?title=html/elements/input_type%3Dcolor&action=edit&redlink=1):** color-well control
+-   **[input type=datetime-local](/w/index.php?title=html/elements/input_type%3Ddatetime-local&action=edit&redlink=1):** local date-and-time input control
+-   **[input type=datetime](/w/index.php?title=html/elements/input_type%3Ddatetime&action=edit&redlink=1):** global date-and-time input control
+-   **[input type=date](/w/index.php?title=html/elements/input_type%3Ddate&action=edit&redlink=1):** date input control
+-   **[input type=email](/w/index.php?title=html/elements/input_type%3Demail&action=edit&redlink=1):** e-mail address input control
+-   **[input type=month](/w/index.php?title=html/elements/input_type%3Dmonth&action=edit&redlink=1):** year-and-month input control
+-   **[input type=number](/w/index.php?title=html/elements/input_type%3Dnumber&action=edit&redlink=1):** number input control
+-   **[input type=range](/w/index.php?title=html/elements/input_type%3Drange&action=edit&redlink=1):** imprecise number-input control
+-   **[input type=search](/w/index.php?title=html/elements/input_type%3Dsearch&action=edit&redlink=1):** search field
+-   **[input type=tel](/w/index.php?title=html/elements/input_type%3Dtel&action=edit&redlink=1):** telephone-number-input field
+-   **[input type=time](/w/index.php?title=html/elements/input_type%3Dtime&action=edit&redlink=1):** time input control
+-   **[input type=url](/w/index.php?title=html/elements/input_type%3Durl&action=edit&redlink=1):** URL input control
+-   **[input type=week](/w/index.php?title=html/elements/input_type%3Dweek&action=edit&redlink=1):** year-and-week input control
+-   **[keygen](/html/elements/keygen):** key-pair generator/input control
+-   **[main](/html/elements/main):** main element
+-   **[mark](/html/elements/mark):** marked (highlighted) text
+-   **[meta charset](/w/index.php?title=html/elements/meta_charset&action=edit&redlink=1):** document character-encoding declaration
+-   **[meter](/html/elements/meter):** scalar gauge
+-   **[nav](/html/elements/nav):** group of navigational links
+-   **[output](/html/elements/output):** result of a calculation in a form
+-   **[progress](/html/elements/progress):** progress indicator
+-   **[rp](/html/elements/rp):** ruby parenthesis
+-   **[rt](/html/elements/rt):** ruby text
+-   **[ruby](/html/elements/ruby):** ruby annotation
+-   **[section](/html/elements/section):** section
+-   **[source](/html/elements/source):** media source
+-   **[summary](/w/index.php?title=html/elements/summary&action=edit&redlink=1):** summary, caption, or legend for a details control
+-   **[time](/html/elements/time):** date and/or time
+-   **[track](/html/elements/track):** supplementary media track
+-   **[video](/html/elements/video):** video
+-   **[wbr](/html/elements/wbr):** line-break opportunity

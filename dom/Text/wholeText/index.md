@@ -1,77 +1,62 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Retrieves the immediate text child nodes of the parent node, that are adjacent to the text node.}}
-{{API_Object_Property
-|Property_applies_to=dom/Text
-|Read_only=Yes
-|Example_object_name=textNode
-|Return_value_name=text
-|Javascript_data_type=String
-|Return_value_description=The text of the node and its adjacent text nodes.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Code=&lt;body&gt;
-&lt;p id="p"&gt;this is a text node that also has &lt;strong id="s"&gt;strong&lt;/strong&gt; elements.&lt;/p&gt;
-&lt;script type{{=}}"text/javascript"&gt;
+---
+title: wholeText
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves the immediate text child nodes of the parent node, that are adjacent to the text node.'
+uri: dom/Text/wholeText
+
+---
+# wholeText
+
+## Summary
+
+Retrieves the immediate text child nodes of the parent node, that are adjacent to the text node.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Text](/dom/Text)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var text = textNode.wholeText;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The text of the node and its adjacent text nodes.
+
+## Examples
+
+``` {.html}
+<body>
+<p id="p">this is a text node that also has <strong id="s">strong</strong> elements.</p>
+<script type="text/javascript">
 alert(document.getElementById('p').firstChild.wholeText);
 // displays 'this is a text node that also has' in an alert box.
-&lt;/script&gt;
-&lt;/body&gt;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Text.wholeText Text.wholeText]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974769(v=vs.85).aspx wholeText Property]
-|HTML5Rocks_link=
-}}
+</script>
+</body>
+```
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Text.wholeText](https://developer.mozilla.org/en-US/docs/Web/API/Text.wholeText) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[wholeText Property](http://msdn.microsoft.com/en-us/library/ie/ff974769(v=vs.85).aspx) Article]
+

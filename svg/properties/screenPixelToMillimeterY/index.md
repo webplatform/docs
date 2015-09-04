@@ -1,40 +1,37 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: screenPixelToMillimeterY
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/screenPixelToMillimeterY
 
-===Remarks===
+---
+# screenPixelToMillimeterY
 
-User interface (UI) events in [http://go.microsoft.com/fwlink/p/?linkid{{=}}203739 Document Object Model (DOM) Level 2 Events Specification] indicate the screen positions  where  the given event occurred. When Windows Internet Explorer knows the physical size of a "screen unit", the '''screenPixelToMillimeterY'''  attribute expresses that information.  Otherwise, Internet Explorer provides a suitable default value.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
-===Standards information===
+User interface (UI) events in [Document Object Model (DOM) Level 2 Events Specification](http://go.microsoft.com/fwlink/p/?linkid=203739) indicate the screen positions where the given event occurred. When Windows Internet Explorer knows the physical size of a "screen unit", the **screenPixelToMillimeterY** attribute expresses that information. Otherwise, Internet Explorer provides a suitable default value.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-*[[svg/elements/svg|'''SVGSVGElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGSVGElement**](/svg/elements/svg)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

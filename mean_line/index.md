@@ -1,19 +1,17 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Glossary term; move candidate
-|Checked_Out=No
-}}
-{{Glossary_Item
-|Term=mean line
-|Definition=Of a font, a point exactly half the distance from the baseline to the cap line. This is often, but not necessarily, the height of the lowercase letters (the x-height). Also called midline.
-}}
-{{Notes_Section}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: ean line
+tags:
+  - Glossary
+  - Items
+readiness: 'Not Ready'
+notes:
+  - 'Glossary term; move candidate'
+uri: 'mean line'
+
+---
+# mean line
+
+## mean line
+
+Of a font, a point exactly half the distance from the baseline to the cap line. This is often, but not necessarily, the height of the lowercase letters (the x-height). Also called midline.
+

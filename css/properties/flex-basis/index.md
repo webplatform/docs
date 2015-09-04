@@ -1,74 +1,103 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Candidate Recommendation}}
-{{API_Name}}
-{{Summary_Section|The '''flex-basis''' CSS property describes the initial main size of the flex item before any free space is distributed according to the flex factors described in the [[css/properties/flex|flex]] property ([[css/properties/flex-grow|flex-grow]] and [[css/properties/flex-shrink|flex-shrink]]).}}
-{{CSS Property
-|Initial value=auto
-|Applies to=flex items
-|Inherited=No
-|Media=visual
-|Computed value=as specified
-|Animatable=Yes
-|CSS object model property=flexBasis
-|CSS percentages=relative to the main size of the flex container
-|Values={{CSS Property Value
-|Data Type=auto
-|Description=The flex item's initial main size is determined by either the [[css/properties/width|width]] or [[css/properties/height|height]] property, whichever is in the main dimension, as determined by the [[css/properties/flex-flow|flex-direction]] property. Note that the value of the [[css/properties/width|width]] or [[css/properties/height|height]] property itself may be '''auto''', in which case the size is determined by the flex item's contents.
-}}{{CSS Property Value
-|Data Type=width
-|Description=In a horizontal writing mode; percentage values of '''flex-basis''' are resolved against the flex item's flex container, and if that containing block's size is indefinite, the result is undefined.
-}}{{CSS Property Value
-|Data Type=height
-|Description=In a vertical writing mode; percentage values of '''flex-basis''' are resolved against the flex item's flex container, and if that containing block's size is indefinite, the result is undefined.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=See [[css/properties/flex#Examples|flex examples]] for the use of this property in an example.
-|Code=flex-basis: 60%;
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=The best practice is to use (instead of this property) the [[css/properties/flex|flex]] shorthand property, as it correctly resets any unspecified flex components to accomodate common uses.
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Flexible Box Layout Model
-|URL=http://dev.w3.org/csswg/css-flexbox/#flex-basis
-|Status=Candidate Recommendation
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Flexbox
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Flexbox}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables={{Imported Compatibility Table
-|Page=css/properties/flex
-}}
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: flex-basis
+tags:
+  - CSS
+  - Properties
+  - Flexbox
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The flex-basis CSS property describes the initial main size of the flex item before any free space is distributed according to the flex factors described in the flex property (flex-grow and flex-shrink).'
+uri: css/properties/flex-basis
+
+---
+# flex-basis
+
+## Summary
+
+The flex-basis CSS property describes the initial main size of the flex item before any free space is distributed according to the flex factors described in the flex property (flex-grow and flex-shrink).
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `auto`
+Applies to
+:   flex items
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   Yes
+[CSS Object Model Property](/css/concepts/cssom)
+:   `flexBasis`
+Percentages
+:   relative to the main size of the flex container
+
+## Syntax
+
+-   `flex-basis: auto`
+-   `flex-basis: height`
+-   `flex-basis: width`
+
+## Values
+
+auto
+:   The flex item's initial main size is determined by either the [width](/css/properties/width) or [height](/css/properties/height) property, whichever is in the main dimension, as determined by the [flex-direction](/css/properties/flex-flow) property. Note that the value of the [width](/css/properties/width) or [height](/css/properties/height) property itself may be **auto**, in which case the size is determined by the flex item's contents.
+
+width
+:   In a horizontal writing mode; percentage values of **flex-basis** are resolved against the flex item's flex container, and if that containing block's size is indefinite, the result is undefined.
+
+height
+:   In a vertical writing mode; percentage values of **flex-basis** are resolved against the flex item's flex container, and if that containing block's size is indefinite, the result is undefined.
+
+## Examples
+
+See [flex examples](/css/properties/flex#Examples) for the use of this property in an example.
+
+``` {.css}
+flex-basis: 60%;
+```
+
+## Usage
+
+     The best practice is to use (instead of this property) the flex shorthand property, as it correctly resets any unspecified flex components to accomodate common uses.
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Flexible Box Layout Model](http://dev.w3.org/csswg/css-flexbox/#flex-basis)
+:   Candidate Recommendation
+
+## See also
+
+### Related articles
+
+#### Flexbox
+
+-   [align-content](/css/properties/align-content)
+
+-   [align-items](/css/properties/align-items)
+
+-   [align-self](/css/properties/align-self)
+
+-   [break-before](/css/properties/break-before)
+
+-   [flex](/css/properties/flex)
+
+-   **flex-basis**
+
+-   [flex-direction](/css/properties/flex-direction)
+
+-   [flex-flow](/css/properties/flex-flow)
+
+-   [flex-grow](/css/properties/flex-grow)
+
+-   [flex-shrink](/css/properties/flex-shrink)
+
+-   [flex-wrap](/css/properties/flex-wrap)
+
+-   [justify-content](/css/properties/justify-content)
+

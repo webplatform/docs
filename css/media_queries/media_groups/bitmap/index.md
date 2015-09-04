@@ -1,30 +1,33 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add values, syntax, example, description, specifications, compatibility.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{Summary_Section|The '''bitmap''' media group consists of all media types able to display images or diverse fonts by creating a pattern of fine dots on the screen or paper.}}
-{{CSS Media Group
-|Description=The opposite of bitmap (for visual media) is the [[css/media_queries/media_groups/grid| grid media group]].
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: bitmap
+tags:
+  - CSS
+  - Media
+  - Groups
+readiness: 'Not Ready'
+notes:
+  - 'Add values, syntax, example, description, specifications, compatibility.'
+summary: 'The bitmap media group consists of all media types able to display images or diverse fonts by creating a pattern of fine dots on the screen or paper.'
+uri: 'css/media queries/media groups/bitmap'
+
+---
+# bitmap
+
+## Summary
+
+The bitmap media group consists of all media types able to display images or diverse fonts by creating a pattern of fine dots on the screen or paper.
+
+The opposite of bitmap (for visual media) is the [grid media group](/css/media_queries/media_groups/grid).
+
+## Applicable Media Types
+
+(none in the database)
+
+## Applicable Media Features
+
+(none in the database)
+
+## Applicable CSS properties
+
+(none in the database)
+

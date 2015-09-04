@@ -1,67 +1,106 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Can't find this method in the spec: https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Outdated, Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Requests a new quota for the requesting application.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=newQuotaInBytes
-|Data type=unsigned long
-|Description=The requested new quota, expressed in bytes.
-|Optional=No
-}}{{Method Parameter
-|Name=successCallback
-|Data type=String
-|Description=This callback is used to return new quota information granted by a User Agent. Quota is provided by the ''grantedQuotaInBytes'' parameter.
+---
+title: requestQuota
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: Quota
+  5: Management
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Can''t find this method in the spec: https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html'
+summary: 'Requests a new quota for the requesting application.'
+uri: 'apis/quota management/requestQuota'
 
-'''void (unsigned long grantedQuotaInBytes)'''
-|Optional=Yes
-}}{{Method Parameter
-|Name=errorCallback
-|Data type=String
-|Description=This callback is used to return information when an error has occured. Details are provided by the ''error'' parameter.
+---
+# requestQuota
 
-'''void (DOMError error)'''
-|Optional=Yes
-}}
-|Method_applies_to=apis/quota management/StorageQuota
-|Example_object_name=object
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes=It is not guaranteed that the requested amount of space is granted just by calling this API. Calling this API may trigger user prompting to request explicit user permission to proceed. The successCallback callback may return a smaller amount of quota than requested.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Quota Management API
-|URL=http://www.w3.org/TR/quota-api/
-|Status=W3C Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Off-line Storage
-}}
-{{Topics|API, Quota Management}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+## Summary
+
+Requests a new quota for the requesting application.
+
+*Method of [apis/quota management/StorageQuota](/apis/quota_management/StorageQuota)*
+
+## Syntax
+
+``` {.js}
+ object.requestQuota(/* see parameter list */);
+```
+
+## Parameters
+
+### newQuotaInBytes
+
+ Data-typeÂ
+:   unsigned long
+
+ The requested new quota, expressed in bytes.
+
+### successCallback
+
+ Data-typeÂ
+:   String
+
+*(Optional)*
+
+This callback is used to return new quota information granted by a User Agent. Quota is provided by the *grantedQuotaInBytes* parameter.
+
+**void (unsigned long grantedQuotaInBytes)**
+
+### errorCallback
+
+ Data-typeÂ
+:   String
+
+*(Optional)*
+
+This callback is used to return information when an error has occured. Details are provided by the *error* parameter.
+
+**void (DOMError error)**
+
+## Return Value
+
+No return value
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+It is not guaranteed that the requested amount of space is granted just by calling this API. Calling this API may trigger user prompting to request explicit user permission to proceed. The successCallback callback may return a smaller amount of quota than requested.
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Quota Management API](http://www.w3.org/TR/quota-api/)
+:   W3C Working Draft
+
+## See also
+
+### Related articles
+
+#### Off-line Storage
+
+-   [appcache](/apis/appcache)
+
+-   [status](/apis/appcache/ApplicationCache/status)
+
+-   [file](/apis/file)
+
+-   [File System API](/apis/filesystem)
+
+-   [quota management](/apis/quota_management)
+
+-   [StorageQuota](/apis/quota_management/StorageQuota)
+
+-   [queryUsageAndQuota](/apis/quota_management/queryUsageAndQuota)
+
+-   **requestQuota**
+
+-   [localStorage](/apis/web-storage/Storage/localStorage)
+
+-   [Introduction to using the application cache](/tutorials/appcache_beginner)
+
+-   [Overview of client-side storage](/tutorials/offline_storage)
+

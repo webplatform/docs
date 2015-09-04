@@ -1,72 +1,100 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat tables
-|Checked_Out=No
-|High-level issues=Deletion Candidate, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Set the visibility state of an element}}
-{{API_Object_Property
-|Property_applies_to=dom/Document
-|Read_only=No
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=var timer = 0;
+---
+title: visibilitychange
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+  - Performance
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs compat tables'
+summary: 'Set the visibility state of an element'
+uri: dom/Document/visibilitychange
+
+---
+# visibilitychange
+
+## Summary
+
+Set the visibility state of an element
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.visibilitychange;
+element.visibilitychange = value;
+```
+
+## Examples
+
+``` {.js}
+var timer = 0;
 var PERIOD_VISIBLE = 1000;
 var PERIOD_NOT_VISIBLE = 60000;
 
 function onLoad() {
-   timer = setInterval(checkEmail, (document.hidden) ? PERIOD_NOT_VISIBLE : PERIOD_VISIBLE);
+   timer = setInterval(checkEmail, (document.hidden) ? PERIOD_NOT_VISIBLE : PERIOD_VISIBLE);
    if(document.addEventListener) document.addEventListener("visibilitychange", visibilityChanged);
 }
 
 function visibilityChanged() {
    clearTimeout(timer);
-   timer = setInterval(checkEmail, (document.hidden) ? PERIOD_NOT_VISIBLE : PERIOD_VISIBLE);
+   timer = setInterval(checkEmail, (document.hidden) ? PERIOD_NOT_VISIBLE : PERIOD_VISIBLE);
 }
 
-function checkEmail() { 
+function checkEmail() {
    // Check server for new messages
 }
 
 window.onload = onLoad;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
+```
+
+## Notes
+
+### Remarks
+
 This event is not triggered when it is registered.
-|Import_Notes====Syntax===
-===Event handler parameters===
+
+### Syntax
+
+### Event handler parameters
+
 This method has no parameters.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Page Visibility
-|URL=http://www.w3.org/TR/page-visibility/
-|Status=Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Performance
-}}
-{{Topics|DOM, Performance}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+
+## Related specifications
+
+Specification
+:   Status
+[Page Visibility](http://www.w3.org/TR/page-visibility/)
+:   Recommendation
+
+## See also
+
+### Related articles
+
+#### Performance
+
+-   [navigation timing](/apis/navigation_timing)
+
+-   [resource timing](/apis/resource_timing)
+
+-   [user timing](/apis/user_timing)
+
+-   [hidden](/dom/Document/hidden)
+
+-   [visibilityState](/dom/Document/visibilityState)
+
+-   **visibilitychange**
+
+-   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

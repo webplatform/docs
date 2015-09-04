@@ -1,37 +1,39 @@
-{{Page_Title|workers API}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Workers (also commonly referred to as Web Workers) are scripts that run in the background independently of any user interface scripts. This allows for long-running scripts that are not interrupted by scripts that respond to clicks or other user interactions, and allows long tasks to be executed without yielding to keep the page responsive.}}
-{{API_Listing|Use_page_title=No
-|List_all_subpages=Yes
-}}
-{{Concept_Listing
-|Query=[[Category:Webworkers]][[Category:API_Objects]]
-|Use_page_title=No
-|List_all_subpages=No
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Webworkers}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=https://developer.mozilla.org/en-US/docs/DOM/Worker
-|MSDN_link=http://msdn.microsoft.com/en-us/hh549259.aspx
-|HTML5Rocks_link=
-}}
-[[Category:API_Listings]]
+---
+title: workers
+tags:
+  0: API
+  1: Listings
+  3: Webworkers
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Workers (also commonly referred to as Web Workers) are scripts that run in the background independently of any user interface scripts. This allows for long-running scripts that are not interrupted by scripts that respond to clicks or other user interactions, and allows long tasks to be executed without yielding to keep the page responsive.'
+uri: apis/workers
+
+---
+# workers API
+
+## Summary
+
+Workers (also commonly referred to as Web Workers) are scripts that run in the background independently of any user interface scripts. This allows for long-running scripts that are not interrupted by scripts that respond to clicks or other user interactions, and allows long tasks to be executed without yielding to keep the page responsive.
+
+API Name
+:   Summary
+[Worker](/apis/workers/Worker)
+:   An object representing a worker, that is used to communicate with the worker.
+[WorkerGlobalScope](/apis/workers/WorkerGlobalScope)
+:   An object representing the "inside" of a worker.
+[WorkerLocation](/apis/workers/WorkerLocation)
+:   An object representing an absolute URL, set at the worker's creation.
+[WorkerNavigator](/apis/workers/WorkerNavigator)
+:   An object representing the identity and state of the user agent (the client).
+[FormData](/dom/FormData)
+:   FormData is an interface that helps to create a set of key-value pairs representing form fields and their values intended to be sent using XMLHttpRequest.
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/DOM/Worker)
+
+Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/hh549259.aspx)
+

@@ -1,44 +1,28 @@
-{{Page_Title|Bringing Accessibility Into Your Organization}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Stub/outline
-|Checked_Out=No
-|High-level issues=Stub
-}}
-{{API_Name}}
-{{Summary_Section}}
-{{Concept_Page
-|Content==== Plan ===
+---
+title: bringing accessibility into your organization
+tags:
+  - Concept
+  - Pages
+  - Accessibility
+readiness: 'Not Ready'
+notes:
+  - Stub/outline
+uri: 'concepts/accessibility/bringing accessibility into your organization'
 
-=== Design ===
+---
+# Bringing Accessibility Into Your Organization
 
-=== Develop ===
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-=== Author ===
+### Plan
 
-=== Test ===
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Accessibility}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+### Design
+
+### Develop
+
+### Author
+
+### Test
+
+**Needs Examples**: This section should include examples.
+

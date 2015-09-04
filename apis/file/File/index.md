@@ -1,23 +1,44 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The '''File''' object provides information about files stored on the user's computer, and access to their contents. These are generally retrieved from a [[apis/file/FileList|FileList]] object returned when a user selects files using the '''input''' element, or from a drag-and-drop operation's '''DataTransfer''' object.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=Using form input for selecting files
-|Code=function handleFileSelect(evt) {
+---
+title: File
+tags:
+  0: API
+  1: Objects
+  3: FileAPI
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The File object provides information about files stored on the user''s computer, and access to their contents. These are generally retrieved from a FileList object returned when a user selects files using the input element, or from a drag-and-drop operation''s DataTransfer object.'
+uri: apis/file/File
+
+---
+# File
+
+## Summary
+
+The File object provides information about files stored on the user's computer, and access to their contents. These are generally retrieved from a FileList object returned when a user selects files using the input element, or from a drag-and-drop operation's DataTransfer object.
+
+## Properties
+
+API Name
+:   Summary
+[lastModifiedDate](/apis/file/File/lastModifiedDate)
+:   The last modified date of the file. On getting, if user agents can make this information available, this must return a new Date object initialized to the last modified date of the file. If the last modification date and time are not known, the attribute must return the current date and time as a Date object.
+[name](/apis/file/File/name)
+:   The name of the file; on getting, this must return the name of the file as a string. There are numerous file name variations on different systems; this is merely the name of the file, without path information. On getting, if user agents cannot make this information available, they must return the empty string.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Examples
+
+Using form input for selecting files
+
+``` {.js}
+function handleFileSelect(evt) {
     var files = evt.target.files; // FileList object
 
     // files is a FileList of File objects. List some properties.
@@ -25,101 +46,28 @@
     for (var i = 0, f; f = files[i]; i++) {
       output.push(escape(f.name),
                   f.size, ' bytes, last modified: ',
-                  f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a');
+                  f.lastModifiedDate ? f.lastModifiedDate.toLocaleDateString() : 'n/a');
     }
-    document.getElementById('list').innerHTML = output.join('');
+    document.getElementById('list').innerHTML = output.join();
   }
 
   document.getElementById('files').addEventListener('change', handleFileSelect, false);
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C File API Specification
-|URL=http://www.w3.org/TR/FileAPI
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN, HTML5Rocks
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/File File]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772305(v=vs.85).aspx file Object]
-|HTML5Rocks_link=http://www.html5rocks.com/en/tutorials/file/dndfiles/
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome_supported=Yes
-|Chrome_version=22.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=15.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=6.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Basic Support
-|Android_supported=Yes
-|Android_version=3.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=10.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=6.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C File API Specification](http://www.w3.org/TR/FileAPI)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[File](https://developer.mozilla.org/en-US/docs/Web/API/File) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[file Object](http://msdn.microsoft.com/en-us/library/ie/hh772305(v=vs.85).aspx) Article]
+
+Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/file/dndfiles/)
+

@@ -1,37 +1,49 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|This interface represents a memory-resident audio asset, primarily for one-shot sounds and other short audio clips. Its format is non-interleaved IEEE 32-bit linear PCM with a nominal range of -1 -> +1. It can contain one or more channels.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
-|Status=W3C Editor's Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: AudioBuffer
+tags:
+  0: API
+  1: Objects
+  3: WebAudio
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'This interface represents a memory-resident audio asset, primarily for one-shot sounds and other short audio clips. Its format is non-interleaved IEEE 32-bit linear PCM with a nominal range of -1 -> +1. It can contain one or more channels.'
+uri: apis/webaudio/AudioBuffer
+
+---
+# AudioBuffer
+
+## Summary
+
+This interface represents a memory-resident audio asset, primarily for one-shot sounds and other short audio clips. Its format is non-interleaved IEEE 32-bit linear PCM with a nominal range of -1 -\> +1. It can contain one or more channels.
+
+## Properties
+
+API Name
+:   Summary
+[duration](/apis/webaudio/AudioBuffer/duration)
+:   Duration, in seconds, of the PCM audio data in the buffer.
+[length](/apis/webaudio/AudioBuffer/length)
+:   Length, in sample-frames, of the PCM audio data.
+[numberOfChannels](/apis/webaudio/AudioBuffer/numberOfChannels)
+:   The number of discrete audio channels described by the PCM audio data.
+[sampleRate](/apis/webaudio/AudioBuffer/sampleRate)
+:   The sample rate, in samples per second, for the PCM audio data.
+
+## Methods
+
+API Name
+:   Summary
+[getChannelData](/apis/webaudio/AudioBuffer/getChannelData)
+:   Returns the **Float32Array** representing the PCM audio data for the specific channel.
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
+:   W3C Editor's Draft
+

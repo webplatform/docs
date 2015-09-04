@@ -1,49 +1,53 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Returns the name of an error that occurred during a DOM operation.}}
-{{API_Object_Property
-|Property_applies_to=dom/DOMError
-|Read_only=Yes
-|Example_object_name=error
-|Return_value_name=errorName
-|Javascript_data_type=String
-|Return_value_description=The name associated with an error.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=function getErrorName(e) {
+---
+title: name
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs spec reference'
+summary: 'Returns the name of an error that occurred during a DOM operation.'
+uri: dom/DOMError/name
+
+---
+# name
+
+## Summary
+
+Returns the name of an error that occurred during a DOM operation.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DOMError](/dom/DOMError)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var errorName = error.name;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The name associated with an error.
+
+## Examples
+
+``` {.js}
+function getErrorName(e) {
 //retrieve name text for DOMError
 var errorName = e.name;
 return errorName;
 }
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

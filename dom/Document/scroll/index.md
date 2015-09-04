@@ -1,90 +1,89 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs summary, examples, spec, compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Event
-|Event_applies_to=dom/Document
-|Synchronous=No
-|Bubbles=No
-|Target=dom/Element
-|Cancelable=No
-|Interface=dom/Document
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
-Use the [[dom/HTMLElement/componentFromPoint|'''componentFromPoint''']] and [[dom/HTMLElement/doScroll|'''doScroll''']] methods to control the scroll bar components.
-Cascading style sheets (CSS) enable scrolling on all objects through the [[css/properties/overflow|'''overflow''']] property. These objects are not listed in the Applies To list for this event.
-Scrolls the contents of an object until new portions of the object become visible.
-To invoke this event, do one of the following:
-*Click and drag the scroll box with the mouse.
-*Click the scroll arrow.
-*Click the scroll bar.
-*Invoke the [[dom/HTMLElement/doScroll|'''doScroll''']] method.
-*Press the HOME or END key
-*Press the SPACEBAR key.
-*Press the PAGE UP or PAGE DOWN key.
-*Press the ARROW UP or ARROW DOWN key until scrolling occurs.
+---
+title: scroll
+tags:
+  - Events
+readiness: 'Not Ready'
+notes:
+  - 'Needs summary, examples, spec, compat'
+uri: dom/Document/scroll
 
-The ''pEvtObj'' parameter is required for the following interfaces:
-*'''HTMLAnchorEvents2'''
-*'''HTMLAreaEvents2'''
-*'''HTMLButtonElementEvents2'''
-*'''HTMLControlElementEvents2'''
-*'''HTMLDocumentEvents2'''
-*'''HTMLElementEvents2'''
-*'''HTMLFormElementEvents2'''
-*'''HTMLImgEvents2'''
-*'''HTMLFrameSiteEvents2'''
-*'''HTMLInputFileElementEvents2'''
-*'''HTMLInputImageEvents2'''
-*'''HTMLInputTextElementEvents2'''
-*'''HTMLLabelEvents2'''
-*'''HTMLLinkElementEvents2'''
-*'''HTMLMapEvents2'''
-*'''HTMLMarqueeElementEvents2'''
-*'''HTMLObjectElementEvents2'''
-*'''HTMLOptionButtonElementEvents2'''
-*'''HTMLScriptEvents2'''
-*'''HTMLSelectElementEvents2'''
-*'''HTMLStyleElementEvents2'''
-*'''HTMLTableEvents2'''
-*'''HTMLTextContainerEvents2'''
-*'''HTMLWindowEvents2'''
-*'''HTMLDocumentEvents4'''
-|Import_Notes====Syntax===
-===Standards information===
+---
+# scroll
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+## Overview Table
+
+Synchronous
+:   No
+Bubbles
+:   No
+Target
+:   dom/Element
+Cancelable
+:   No
+Default action
+:    ?
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
+Use the [**componentFromPoint**](/dom/HTMLElement/componentFromPoint) and [**doScroll**](/dom/HTMLElement/doScroll) methods to control the scroll bar components. Cascading style sheets (CSS) enable scrolling on all objects through the [**overflow**](/css/properties/overflow) property. These objects are not listed in the Applies To list for this event. Scrolls the contents of an object until new portions of the object become visible. To invoke this event, do one of the following:
+
+-   Click and drag the scroll box with the mouse.
+-   Click the scroll arrow.
+-   Click the scroll bar.
+-   Invoke the [**doScroll**](/dom/HTMLElement/doScroll) method.
+-   Press the HOME or END key
+-   Press the SPACEBAR key.
+-   Press the PAGE UP or PAGE DOWN key.
+-   Press the ARROW UP or ARROW DOWN key until scrolling occurs.
+
+The *pEvtObj* parameter is required for the following interfaces:
+
+-   **HTMLAnchorEvents2**
+-   **HTMLAreaEvents2**
+-   **HTMLButtonElementEvents2**
+-   **HTMLControlElementEvents2**
+-   **HTMLDocumentEvents2**
+-   **HTMLElementEvents2**
+-   **HTMLFormElementEvents2**
+-   **HTMLImgEvents2**
+-   **HTMLFrameSiteEvents2**
+-   **HTMLInputFileElementEvents2**
+-   **HTMLInputImageEvents2**
+-   **HTMLInputTextElementEvents2**
+-   **HTMLLabelEvents2**
+-   **HTMLLinkElementEvents2**
+-   **HTMLMapEvents2**
+-   **HTMLMarqueeElementEvents2**
+-   **HTMLObjectElementEvents2**
+-   **HTMLOptionButtonElementEvents2**
+-   **HTMLScriptEvents2**
+-   **HTMLSelectElementEvents2**
+-   **HTMLStyleElementEvents2**
+-   **HTMLTableEvents2**
+-   **HTMLTextContainerEvents2**
+-   **HTMLWindowEvents2**
+-   **HTMLDocumentEvents4**
+
+### Syntax
+
+### Standards information
+
 There are no standards that apply here.
 
-===Event handler parameters===
-;''pEvtObj'' [in]:Type: '''<b>IHTMLEventObj'''</b>
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+### Event handler parameters
+
+*pEvtObj* [in]
+:   Type: ****IHTMLEventObj****
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,134 +1,79 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|The '''Blob''' object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data.}}
-{{API_Object
-|Subclass_of=
-|Overview='''Blob''' provides an attribute representing the size of the chunk of data. The [[apis/file/File|'''File''']] object inherits from the '''Blob''' object.
-'''Blob''' objects can be read asynchronously only on the main thread via [[apis/file/FileReader|'''FileReader''']] 
-objects, but metadata access via attributes such as '''size''' and '''type''' return 
-synchronously (this trade-off is based on the underlying assumption that metadata access will not significantly block or disrupt the browser's main thread, whereas 
-reading '''Blob''' data will).
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=// Example for creating a URL to a typed array using a blob
-|Code=var typedArray = GetTheTypedArraySomehow();
+---
+title: Blob
+tags:
+  0: API
+  1: Objects
+  3: FileAPI
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The Blob object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data.'
+uri: apis/file/Blob
+
+---
+# Blob
+
+## Summary
+
+The Blob object represents immutable raw data. It provides a method to slice data objects between ranges of bytes into further chunks of raw data.
+
+## Overview
+
+**Blob** provides an attribute representing the size of the chunk of data. The [**File**](/apis/file/File) object inherits from the **Blob** object. **Blob** objects can be read asynchronously only on the main thread via [**FileReader**](/apis/file/FileReader) objects, but metadata access via attributes such as **size** and **type** return synchronously (this trade-off is based on the underlying assumption that metadata access will not significantly block or disrupt the browser's main thread, whereas reading **Blob** data will).
+
+## Properties
+
+*No properties.*
+
+## Methods
+
+API Name
+:   Summary
+[close](/apis/file/Blob/close)
+:   Releases the file lock for the associated file resource or frees the memory for the Blob object. After calling this method, performing addition operations on the Blob object fails and throws an exception.
+[slice](/apis/file/Blob/slice)
+:   Returns a new Blob object with bytes ranging from its optional start parameter up to but not including its optional end parameter.
+
+## Events
+
+*No events.*
+
+## Examples
+
+// Example for creating a URL to a typed array using a blob
+
+``` {.js}
+var typedArray = GetTheTypedArraySomehow();
 var blob = new Blob([typedArray], {type: "application/octet-binary"}); // pass a useful mime type here
 var url = URL.createObjectURL(blob);
 // url will be something like: blob:d3958f5c-0777-0845-9dcf-2cb28783acaf
 // now you can use the url in any context that regular URLs can be used in, for example img.src, etc.
-|LiveURL=
-}}{{Single Example
-|Language=JavaScript
-|Description=// Blob constructor example usage
-|Code=var aFileParts = ['<a id="a"><b id="b">hey!</b></a>'];
-var oMyBlob = new Blob(aFileParts, { "type" : "text/xml" }); // the blob
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C File API Specification
-|URL=http://www.w3.org/TR/FileAPI
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=[http://msdn.microsoft.com/en-us/library/ie/hh779016(v=vs.85).aspx Saving files locally using Blob and msSaveBlob]
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/DOM/Blob Blob]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh673542(v=vs.85).aspx#blobbuilder blob constructor]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome_supported=Yes
-|Chrome_version=22.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=15.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=6.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Basic Support
-|Android_supported=Yes
-|Android_version=3.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=10.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_version=18
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=6.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Chrome on Android
-|Version=18
-|Note=while window.Blob is defined, it can't be used as a constructor; you should fallback on BlobBuilder
-}}{{Compatibility Notes Row
-|Browser=Safari
-|Version=6
-|Note=Blob constructor does not work correctly with ArrayViews. You always have to pass concrete ArrayBuffer to the constructor.
-}}
-}}
+```
+
+// Blob constructor example usage
+
+``` {.js}
+var aFileParts = ['<a id="a">hey!</a>'];
+var oMyBlob = new Blob(aFileParts, { "type" : "text/xml" }); // the blob
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C File API Specification](http://www.w3.org/TR/FileAPI)
+:   W3C Working Draft
+
+## See also
+
+### Other articles
+
+[Saving files locally using Blob and msSaveBlob](http://msdn.microsoft.com/en-us/library/ie/hh779016(v=vs.85).aspx)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Blob](https://developer.mozilla.org/en-US/docs/DOM/Blob) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[blob constructor](http://msdn.microsoft.com/en-us/library/ie/hh673542(v=vs.85).aspx#blobbuilder) Article]
+

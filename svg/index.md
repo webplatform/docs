@@ -1,110 +1,130 @@
-=SVG=
+---
+title: vg
+standardization_status: Unknown
+uri: svg
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - svg/af
+    - svg/ar
+    - svg/ast
+    - svg/az
+    - svg/bcc
+    - svg/bg
+    - svg/br
+    - svg/ca
+    - svg/cs
+    - svg/da
+    - svg/de
+    - svg/diq
+    - svg/el
+    - svg/eo
+    - svg/fa
+    - svg/fi
+    - svg/fr
+    - svg/gl
+    - svg/gu
+    - svg/he
+    - svg/hu
+    - svg/hy
+    - svg/id
+    - svg/it
+    - svg/ja
+    - svg/ka
+    - svg/kk
+    - svg/km
+    - svg/ko
+    - svg/ksh
+    - svg/kw
+    - svg/mk
+    - svg/ml
+    - svg/mr
+    - svg/ms
+    - svg/nl
+    - svg/no
+    - svg/oc
+    - svg/pl
+    - svg/pt
+    - svg/pt-br
+    - svg/ro
+    - svg/ru
+    - svg/si
+    - svg/sk
+    - svg/sl
+    - svg/sq
+    - svg/sr
+    - svg/sv
+    - svg/ta
+    - svg/th
+    - svg/tr
+    - svg/uk
+    - svg/vi
+    - svg/yue
+    - svg/zh
+    - svg/zh-hans
+    - svg/zh-hant
+    - svg/zh-tw
 
-==Summary==
+---
+# SVG
 
-Scalable Vector Graphics (SVG) is an XML markup language for structurally describing two-dimensional vector graphics. In essence, SVG is to graphics what [[html|HTML]] is to text. SVG is a [http://www.w3.org/Graphics/SVG/ W3C recommendation] and is explicitly designed to work with other W3C standards such as [[html|HTML]], [[css|CSS]] or [[dom|DOM]].
+## Summary
 
-{{Languages}}
+Scalable Vector Graphics (SVG) is an XML markup language for structurally describing two-dimensional vector graphics. In essence, SVG is to graphics what [HTML](/html) is to text. SVG is a [W3C recommendation](http://www.w3.org/Graphics/SVG/) and is explicitly designed to work with other W3C standards such as [HTML](/html), [CSS](/css) or [DOM](/dom).
 
-==Explore our SVG docs==
+**Language:**
+:   ****English****  • <span lang="es">[español](/svg/es)</span>
 
-<div class="topic-container">
+## Explore our SVG docs
 
-  <div class="short-topic">
-  
-    <div class="image icon-svg"></div>
-    
-    <div class="inner">
-    <h3>[[svg/tutorials|SVG learning material]]</h3>
-    
-    <p>Tutorials and concept articles to teach you SVG from the ground up. </p>
-    </div>
-  
-  </div>
-  
-  <div class="short-topic">
-  
-    <div class="image icon-svg"></div>
-    
-    <div class="inner">
-    <h3>[[svg/elements|Elements]]</h3>
-    
-    <p>A reference guide to SVG and related elements.</p>
-    </div>
-  
-  </div>
+### SVG learning material
 
-  
-    <div class="short-topic">
-  
-    <div class="image icon-svg"></div>
-    
-    <div class="inner">
-    <h3>[[svg/attributes|Attributes]]</h3>
-    
-    <p>A reference guide to all the available SVG attributes.</p>
-    </div>
-  
-  </div>
-  
-  <div class="short-topic">
-  
-    <div class="image icon-svg"></div>
-    
-    <div class="inner">
-    <h3>[[svg/objects|Objects]]</h3>
-    
-    <p>A reference guide to all the available SVG objects.</p>
-    </div>
-  
-  </div>
-  
-  <div class="short-topic">
-  
-    <div class="image icon-svg"></div>
-    
-    <div class="inner">
-    <h3>[[svg/methods|Methods]]</h3>
-    
-    <p>A reference guide to all the available SVG methods.</p>
-    </div>
-  
-  </div>
-  
-  <div class="short-topic">
-  
-    <div class="image icon-svg"></div>
-    
-    <div class="inner">
-    <h3>[[svg/properties|Properties]]</h3>
-    
-    <p>A reference guide to all the available SVG properties.</p>
-    </div>
-  
-  </div>
+Tutorials and concept articles to teach you SVG from the ground up.
 
-</div>
-<div class="clearfixboth"></div>
+### Elements
 
+A reference guide to SVG and related elements.
 
-Note: If you are completely new to web development, you may want to review [[beginners|Web development for beginners]].
+### Attributes
 
-== Background ==
+A reference guide to all the available SVG attributes.
+
+### Objects
+
+A reference guide to all the available SVG objects.
+
+### Methods
+
+A reference guide to all the available SVG methods.
+
+### Properties
+
+A reference guide to all the available SVG properties.
+
+ Note: If you are completely new to web development, you may want to review [Web development for beginners](/beginners).
+
+## Background
 
 SVG was first worked on in 1998, in an attempt to create a standardised vector graphics markup language for browsers to follow (proprietary technologies at the time included Microsoft's VML and Sun/Adobe's PGML.)
 
-* First version: The first version to be standardised was SVG 1.0. The [http://www.w3.org/TR/SVG10/ SVG 1.0 recommendation] was published in 2001.
-* Current stable version: [http://www.w3.org/TR/SVG11/ SVG 1.1] is the current stable implementation supported across modern browsers, first published in 2003. There are also some SVG offshoots with different purposes, such as [http://www.w3.org/TR/SVGTiny12/ SVG Tiny 1.2], but for reference you should stick to SVG 1.1. 
-* Current and future work: SVG 1.2 development has been dropped in favour of the upcoming [http://www.w3.org/TR/SVG2/ SVG 2.0] specification.
+-   First version: The first version to be standardised was SVG 1.0. The [SVG 1.0 recommendation](http://www.w3.org/TR/SVG10/) was published in 2001.
+-   Current stable version: [SVG 1.1](http://www.w3.org/TR/SVG11/) is the current stable implementation supported across modern browsers, first published in 2003. There are also some SVG offshoots with different purposes, such as [SVG Tiny 1.2](http://www.w3.org/TR/SVGTiny12/), but for reference you should stick to SVG 1.1.
+-   Current and future work: SVG 1.2 development has been dropped in favour of the upcoming [SVG 2.0](http://www.w3.org/TR/SVG2/) specification.
 
-==Contributing to SVG development==
+## Contributing to SVG development
 
-SVG is worked on by the SVG working group — see the [http://www.w3.org/Graphics/SVG/ SVG WG homepage] for more details, including mailing list details for feedback and contributing.
+SVG is worked on by the SVG working group — see the [SVG WG homepage](http://www.w3.org/Graphics/SVG/) for more details, including mailing list details for feedback and contributing.
 
+## Index of all SVG topics
 
-== Index of all SVG topics ==
+-   [Browser Support](/svg/browser_support)
+-   [SVG DOM methods](/svg/methods)
+-   [SVG DOM objects](/svg/objects)
+-   [SVG DOM properties](/svg/properties)
+-   [SVG Elements](/svg/elements)
 
-{{Page_Index_Listing}}
+-   [SVG attributes](/svg/attributes)
+-   [SVG data types](/svg/data_types)
+-   [SVG events](/svg/events)
+-   [SVG tutorials](/svg/tutorials)
 
-{{Standardization_Status|}}
-{{API_Name}}

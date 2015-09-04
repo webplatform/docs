@@ -1,50 +1,93 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Add summery, example, description, specifications, compatibility.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=css/media_queries
-|Example_object_name=ptr
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199793 CSSOM View Module], Section 4.1
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Media Queries
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/media queries/apis/MediaQueryList|MediaQueryList]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: media
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Not Ready'
+notes:
+  - 'Add summery, example, description, specifications, compatibility.'
+uri: 'css/media queries/apis/media'
+
+---
+# media
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [css/media\_queries](/css/media_queries)*
+
+## Syntax
+
+``` {.js}
+var object = ptr.media();
+```
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+**Needs Examples**: This section should include examples.
+
+### Syntax
+
+### Standards information
+
+-   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), Section 4.1
+
+## See also
+
+### Related articles
+
+#### Media Queries
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [\<resolution\>](/css/data_types/resolution)
+
+-   [accelerator](/css/media_queries/accelerator)
+
+-   [MediaQueryList](/css/media_queries/apis/MediaQueryList)
+
+-   [MediaQueryListListener](/css/media_queries/apis/MediaQueryListListener)
+
+-   [StyleMedia](/css/media_queries/apis/StyleMedia)
+
+-   [addListener](/css/media_queries/apis/addListener)
+
+-   [handleChange](/css/media_queries/apis/handleChange)
+
+-   [matchMedia](/css/media_queries/apis/matchMedia)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [matches](/css/media_queries/apis/matches)
+
+-   **media**
+
+-   [type](/css/media_queries/apis/properties/type)
+
+-   [removeListener](/css/media_queries/apis/removeListener)
+
+-   [Colors by](/css/media_queries/colors_by)
+
+-   [device-height](/css/media_queries/device-height)
+
+-   [filter](/css/media_queries/filter)
+
+-   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
+
+-   [behavior](/css/properties/behavior)
+
+-   [Targeting styles with media queries](/tutorials/media_queries)
+
+### Related pages (MSDN)
+
+-   `MediaQueryList`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

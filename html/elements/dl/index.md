@@ -1,123 +1,133 @@
-{{Page_Title|dl – description list}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category and Compatibility information.
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name|dl}}
-{{Summary_Section|The '''dl''' element is used to define a '''description list'''. The element encloses one or more '''description terms''', enclosed in [[html/elements/dt|'''dt''']] elements, and '''description definitions''' (definitions of the terms), enclosed within [[html/elements/dd|'''dd''']] elements.}}
-{{Markup_Element
-|DOM_interface=dom/HTMLDListElement
-|Content=<table class{{=}}"wikitable">
-<tr>
-<th style{{=}}"vertical-align: top" id="permitted-contents">Permitted&#160;contents</th>
-<td style{{=}}"vertical-align: top; padding-top: 10px">One of the following:
-* Either: Zero or more groups each consisting of one or more [[html/elements/dt|'''dt''']] elements followed by one or more [[html/elements/dt|'''dd''']] elements.
-* Or: A [[html/elements/template|'''template''']] element.
-* Or: A [[html/elements/template|'''template''']] element or a [[html/elements/dt|'''dt''']] element, followed by zero or more [[html/elements/template|'''template''']], [[html/elements/dt|'''dt''']], and [[html/elements/dd|'''dd''']] elements, followed by a [[html/elements/template|'''template''']] element or a [[html/elements/dd|'''dd''']] element.</td>
-</tr>
-<tr>
-<th id="permitted-parents">Permitted&#160;parents</th>
-<td>Any element that can contain [[html/concepts/flowContent|flow content]].</td>
-</tr>
-<tr>
-<th id="tag-omission">Tag&#160;omission</th>
-<td>A '''dl''' element must have both a start tag and an end tag.</td>
-</tr>
-</table>
+---
+title: dl
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Add Category and Compatibility information.'
+summary: 'The dl element is used to define a description list. The element encloses one or more description terms, enclosed in dt elements, and description definitions (definitions of the terms), enclosed within dd elements.'
+code_samples:
+  - 'http://gist.github.com/5821157'
+uri: html/elements/dl
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/concepts/flowContent
 
-The '''dl''' element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. '''Description lists''' allow you to do this easily inside HTML.
+---
+# dl – description list
 
-A description list is always wrapped by a single '''dl''' element. Inside that element you can place any number of child [[html/elements/dt|'''description topics''']], inside '''dt''' elements, and [[html/elements/dd|'''description definitions''']] — the description or definition of the specified terms or topics — inside '''dd''' elements.
+## dl
+
+For technical reasons, the title of this article is not the text used to call this API. Instead, use `dl`
+
+## Summary
+
+The dl element is used to define a description list. The element encloses one or more description terms, enclosed in dt elements, and description definitions (definitions of the terms), enclosed within dd elements.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLDListElement](/dom/HTMLDListElement)
+
+Permitted contents
+:   One of the following:
+    -   Either: Zero or more groups each consisting of one or more [**dt**](/html/elements/dt) elements followed by one or more [**dd**](/html/elements/dt) elements.
+    -   Or: A [**template**](/html/elements/template) element.
+    -   Or: A [**template**](/html/elements/template) element or a [**dt**](/html/elements/dt) element, followed by zero or more [**template**](/html/elements/template), [**dt**](/html/elements/dt), and [**dd**](/html/elements/dd) elements, followed by a [**template**](/html/elements/template) element or a [**dd**](/html/elements/dd) element.
+
+Permitted parents
+:   Any element that can contain [flow content](/w/index.php?title=html/concepts/flowContent&action=edit&redlink=1).
+Tag omission
+:   A **dl** element must have both a start tag and an end tag.
+
+The **dl** element is often useful to create a semantic list of terms and their definitions, whether these are name value pairs, glossary terms and definitions, or anything other items that fit this pattern. **Description lists** allow you to do this easily inside HTML.
+
+A description list is always wrapped by a single **dl** element. Inside that element you can place any number of child [**description topics**](/html/elements/dt), inside **dt** elements, and [**description definitions**](/html/elements/dd) — the description or definition of the specified terms or topics — inside **dd** elements.
 
 It doesn't make sense to have an item without a description, or the other way round, but note that it is acceptable to have a single item with multiple descriptions, or a description with multiple items (see code examples section.)
 
 The topics should always be placed before the descriptions.
 
-A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation  where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=This example shows a simple definition list with two item/description pairs.
-|Code=&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
-  &lt;dt&gt;Coca Cola&lt;/dt&gt;
-  &lt;dd&gt;One of the leading brands of a popular cold fizzy drink.&lt;/dd&gt;
-&lt;/dl&gt;
-|LiveURL=http://code.webplatform.org/gist/5821157
-}}{{Single Example
-|Language=HTML
-|Description=This example shows a definition list with a single item but multiple descriptions for that item.
-|Code=&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
-  &lt;dd&gt;A mid brown colour&lt;/dd&gt;
-  &lt;dd&gt;A common social invitation&lt;/dd&gt;
-&lt;/dl&gt;
-|LiveURL=http://code.webplatform.org/gist/5821157
-}}{{Single Example
-|Language=HTML
-|Description=This example shows a definition list with a single description and multiple items fitting that description.
-|Code=&lt;dl&gt;
-  &lt;dt&gt;Coffee&lt;/dt&gt;
-  &lt;dt&gt;Tea&lt;/dt&gt;
-  &lt;dt&gt;Vimto (in the North of England)&lt;/dt&gt;
-  &lt;dd&gt;A popular hot drink.&lt;/dd&gt;
-&lt;/dl&gt;
-|LiveURL=http://code.webplatform.org/gist/5821157
-}}{{Single Example
-|Language=CSS
-|Description=Typical browser default CSS properties for the '''dl''' element.
-|Code=display: block;
+A description list is not used as commonly as other types of list, except in journals, research papers, and other documentation where item/value pairs need to be displayed. For other uses, they are often not used as they are considered more difficult to style than other list types.
+
+## Examples
+
+This example shows a simple definition list with two item/description pairs.
+
+``` {.html}
+<dl>
+  <dt>Coffee</dt>
+  <dd>A popular hot drink.</dd>
+  <dt>Coca Cola</dt>
+  <dd>One of the leading brands of a popular cold fizzy drink.</dd>
+</dl>
+```
+
+[View live example](http://code.webplatform.org/gist/5821157)
+
+This example shows a definition list with a single item but multiple descriptions for that item.
+
+``` {.html}
+<dl>
+  <dt>Coffee</dt>
+  <dd>A popular hot drink.</dd>
+  <dd>A mid brown colour</dd>
+  <dd>A common social invitation</dd>
+</dl>
+```
+
+[View live example](http://code.webplatform.org/gist/5821157)
+
+This example shows a definition list with a single description and multiple items fitting that description.
+
+``` {.html}
+<dl>
+  <dt>Coffee</dt>
+  <dt>Tea</dt>
+  <dt>Vimto (in the North of England)</dt>
+  <dd>A popular hot drink.</dd>
+</dl>
+```
+
+[View live example](http://code.webplatform.org/gist/5821157)
+
+Typical browser default CSS properties for the **dl** element.
+
+``` {.css}
+display: block;
 margin-top: 16px;
 margin-bottom: 16px;
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related_Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/grouping-content.html#the-dl-element
-|Status=W3C Working Draft
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/grouping-content.html#the-dl-element
-|Status=W3C Recommendation
-|Relevant_changes=
-}}{{Related_Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/lists.html#edef-DL
-|Status=W3C Recommendation
-|Relevant_changes=
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_links=* [[html/elements/dir|<code>dir</code>]]
-* [[html/elements/menu|<code>menu</code>]]
-* [[html/elements/ol|<code>ol</code>]]
-* [[html/elements/ul|<code>ul</code>]]
-* [[html/elements/li|<code>li</code>]]
-* [[html/elements/dt|<code>dt</code>]]
-* [[html/elements/dd|<code>dd</code>]]
-|External_links=* [https://developer.mozilla.org/en-US/docs/HTML/Element/dl Mozilla Developer Network]
-* [http://msdn.microsoft.com/en-us/library/ie/ms535241%28v=vs.85%29.aspx Microsoft Developer Network]
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-dl-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-dl-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/lists.html#edef-DL)
+:   W3C Recommendation
+
+## See also
+
+### Other articles
+
+-   [`dir`](/html/elements/dir)
+-   [`menu`](/html/elements/menu)
+-   [`ol`](/html/elements/ol)
+-   [`ul`](/html/elements/ul)
+-   [`li`](/html/elements/li)
+-   [`dt`](/html/elements/dt)
+-   [`dd`](/html/elements/dd)
+
+### External resources
+
+-   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/dl)
+-   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535241%28v=vs.85%29.aspx)
+

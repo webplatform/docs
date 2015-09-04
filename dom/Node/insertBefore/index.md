@@ -1,93 +1,104 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Inserts a child into the node, immediately before the specified reference child node.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Name=newNode
-|Data type=DOM Node
-|Description=The new node to be inserted.
-|Optional=No
-}}{{Method Parameter
-|Name=refChild
-|Data type=DOM Node
-|Description=Supplies the placement of the new node. If this parameter is specified, the new element will be inserted immediately before this existing child node. If not, it will be added after the last child node.
-|Optional=Yes
-}}
-|Method_applies_to=dom/Node
-|Example_object_name=node
-|Return_value_name=insertedNode
-|Javascript_data_type=DOM Node
-|Return_value_description=The inserted node.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=The following example shows how to use the '''insertBefore''' method to insert a new item into an existing list.
-|Code=&lt;!doctype html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;script type{{=}}"application/javascript"&gt;
+---
+title: insertBefore
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Inserts a child into the node, immediately before the specified reference child node.'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/insertBefore.htm'
+uri: dom/Node/insertBefore
+
+---
+# insertBefore
+
+## Summary
+
+Inserts a child into the node, immediately before the specified reference child node.
+
+*Method of [dom/Node](/dom/Node)*
+
+## Syntax
+
+``` {.js}
+var insertedNode = node.insertBefore(/* see parameter list */);
+```
+
+## Parameters
+
+### newNode
+
+ Data-typeÂ
+:   DOM Node
+
+ The new node to be inserted.
+
+### refChild
+
+ Data-typeÂ
+:   DOM Node
+
+*(Optional)*
+
+Supplies the placement of the new node. If this parameter is specified, the new element will be inserted immediately before this existing child node. If not, it will be added after the last child node.
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+The inserted node.
+
+## Examples
+
+The following example shows how to use the **insertBefore** method to insert a new item into an existing list.
+
+``` {.html}
+<!doctype html>
+<html>
+<head>
+<script type="application/javascript">
     function insertElement()
     {
-        var nod{{=}}document.createElement("li");
+        var nod=document.createElement("li");
         document.getElementById("oUL1").insertBefore(nod, document.getElementById("oLIYellow"));
-        nod.textContet{{=}}"Orange";
+        nod.textContet="Orange";
     }
-&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;p onclick{{=}}"insertElement()"&gt;Click &lt;strong&gt;HERE&lt;/strong&gt; to add an item to the following list.&lt;/p&gt;
-    &lt;ul id{{=}}"oUL1"&gt;
-        &lt;li id{{=}}"oLIRed"&gt;Red&lt;/li&gt;
-        &lt;li id{{=}}"oLIYellow"&gt;Yellow&lt;/li&gt;
-        &lt;li id{{=}}"oLIBlue"&gt;Blue&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/insertBefore.htm
-}}
-}}
-{{Notes_Section
-|Notes=Do not specify the ''refChild'' parameter when inserting the first child node. If children already exist and you do not specify the ''refChild'' parameter, the ''newChild'' becomes the last child of the parent object.
-This method is accessible at run time. If elements are removed at run time, before the closing tag has been parsed, areas of the document might not render.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-952280727
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}{{Related Specification
-|Name=DOM4
-|URL=http://www.w3.org/TR/dom/#dom-node-insertbefore
-|Status=Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9
-|Note=Exceptions are supported.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.insertBefore Node.insertBefore]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536454(v=vs.85).aspx insertBefore Method]
-|HTML5Rocks_link=
-}}
+</script>
+</head>
+<body>
+    <p onclick="insertElement()">Click <strong>HERE</strong> to add an item to the following list.</p>
+    <ul id="oUL1">
+        <li id="oLIRed">Red</li>
+        <li id="oLIYellow">Yellow</li>
+        <li id="oLIBlue">Blue</li>
+    </ul>
+</body>
+</html>
+```
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/insertBefore.htm)
+
+## Notes
+
+Do not specify the *refChild* parameter when inserting the first child node. If children already exist and you do not specify the *refChild* parameter, the *newChild* becomes the last child of the parent object. This method is accessible at run time. If elements are removed at run time, before the closing tag has been parsed, areas of the document might not render.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-952280727)
+:   Recommendation
+[DOM4](http://www.w3.org/TR/dom/#dom-node-insertbefore)
+:   Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.insertBefore](https://developer.mozilla.org/en-US/docs/Web/API/Node.insertBefore) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[insertBefore Method](http://msdn.microsoft.com/en-us/library/ie/ms536454(v=vs.85).aspx) Article]
+

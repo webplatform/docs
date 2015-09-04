@@ -1,75 +1,81 @@
-{{Page_Title|bdo}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|'''bdo'''要素によって、ページ上のテキスト表記の方向を指定できます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）}}
-{{Markup_Element
-|DOM_interface=dom/HTMLElement
-|Tag_omissions=Closing tag required
-|CSS_display=inline
-|Content=<code>bdo</code>に関連する国際化トピック:
-* [http://www.w3.org/International/techniques/authoring-html#bdo Overriding the Unicode bidirectional algorithm]
-* [http://www.w3.org/International/techniques/authoring-html#inline Mixing text direction inline]
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=この例では、'''bdo'''要素を使って、テキストを読む向きを変更しています。
+---
+title: ja
+tags:
+  - Markup
+  - Elements
+  - HTML
+readiness: 'In Progress'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.'
+summary: 'bdo要素はページ上のテキスト表記の方向を定義することができます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）'
+uri: html/elements/bdo/ja
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - html/attributes/dir/ja
 
-以下のテキストには、日本語のように左から右に書く文字列と、ヘブライ語のように右から左に書く文字列が含まれています。例：この文は日本語です、すで語イラブヘは文のこ。
+---
+# bdo
 
-「すで語イラブヘは文のこ」はいま逆順に入力されていますが、ヘブライ語として正しい向きの表示を模擬していると仮定してください。この文章に対して、Unicodeの双方向アルゴリズムを適用すると、テキストはもう一度ひっくり返されて、右から左に進むべきところが左から右に、誤った方向で表示されてしまいます。
-|Code=&lt;BDO DIR{{=}}"ltr"&gt;この文は日本語です、
-    すで語イラブヘは文のこ。&lt;/BDO&gt;
-}}
-}}
-{{Notes_Section
-|Notes====備考===
-'''bdo'''要素によって、テキストの表示方向を制御できます。Unicodeの双方向アルゴリズムは自動的に、文字列にもともと埋め込まれている方向を見て処理します。例えば、日本語の基本の方向は左から右(ltr)です。
-その中に、右から左(rtl)に書かれる言語を含む文節がある場合、双方向アルゴリズムが用いられて方向が変換されます。
-通常は、双方向アルゴリズムおよび[[html/attributes/dir|'''dir''']]属性だけあれば、埋め込まれた方向の変更を解釈するのに十分です。
-しかし、フォーマットされたテキストに双方向アルゴリズムがかけられて表示されるときは、正しく表示されない場合があります。
-例えば、日本語とヘブライ語を含むメールのフォーマットで、誤った方向にされてしまう場合などです。
-これは、メールのフォーマットが双方向アルゴリズムに一度通されていて、もう一度双方向アルゴリズムにかけるとヘブライ語の単語の進行方向がもう一度逆にされるためです。
+## Summary
 
-bdo要素は双方向アルゴリズムを無効化し、表示順を強制します。
-bdo要素を使う場合、[[html/attributes/dir|'''dir''']]属性が必須です。
-bdo要素はInternet Explorer 5以上で利用可能です。
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML 5.1
-|URL=http://www.w3.org/TR/html51/text-level-semantics.html#the-bdo-element
-|Status=W3C Working Draft
-}}{{Related Specification
-|Name=HTML 5
-|URL=http://www.w3.org/TR/html5/text-level-semantics.html#the-bdo-element
-|Status=W3C Recommendation
-}}{{Related Specification
-|Name=HTML 4.01
-|URL=http://www.w3.org/TR/html401/struct/dirlang.html#edef-BDO
-|Status=W3C Recommendation
-}}
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[css/properties/direction|direction]]</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+bdo要素はページ上のテキスト表記の方向を定義することができます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [HTMLElement](/dom/HTMLElement)
+
+`bdo`に関連する国際化トピック:
+
+-   [Overriding the Unicode bidirectional algorithm](http://www.w3.org/International/techniques/authoring-html#bdo)
+-   [Mixing text direction inline](http://www.w3.org/International/techniques/authoring-html#inline)
+
+## Examples
+
+ここではテキストを正しく読める向きに表示するために**bdo**要素を使います。
+
+以下のテキストには英語のように左から右に書いた文字列とヘブライ語のように右から左に書いた文字列が含まれています。
+
+この文は英語です、すで語イラブヘは文のこ。 （「すで語イラブヘは文のこ」はひっくり返っていますが、ヘブライ語として正しい向きで表示されていると考えてください。）
+
+この文章に対してUnicodeの双方向アルゴリズムを適用しようとする場合、テキストは2回ひっくり返されて右から左ではなく左から右に、正しくないない表示になってしまいます。ここで正しく読める順番で書いたテキストを[**dir**](/w/index.php?title=html/attributes/dir/ja&action=edit&redlink=1)属性に**ltr**を指定した**bdo**タグの間に記述することで双方向アルゴリズムを無効化することができます。
+
+``` {.html}
+<BDO DIR="ltr">この文は英語です、
+    すで語イラブヘは文のこ。</BDO>
+```
+
+## Notes
+
+### 備考
+
+Unicodeの双方向アルゴリズムでは文字列はもともと埋め込まれていた方向に自動的に変換されますが、**bdo**要素ではテキストの表示方向を制御することができます。
+
+例えば、英語文書は基本的に左から右(ltr)に書かれます。 しかし、右から左(rtl)に書かれる言語を含む文節がドキュメント内にある場合、双方向アルゴリズムを用いて方向を変換しなければいけません。 通常埋め込まれた方向を変えるのには双方向アルゴリズムと[**dir**](/html/attributes/dir)属性で十分です。 しかし双方向アルゴリズムで、フォーマットされたテキストを表示しようとしても、正しく表示されない場合があります。 例えば、英語とヘブライ語を含む段落で正しく逆方向にされていないメールアドレスなどがある場合などです。 これはメールアドレスが双方向アルゴリズムによってヘブライ語の方向で2回逆にされるためです。
+
+bdo要素は双方向アルゴリズムを無効化し、表示順を制御します。 bdo要素を使う上で[**dir**](/html/attributes/dir)属性は必須です。 bdo要素はInternet Explorer 5以上で利用可能です。
+
+## Related specifications
+
+Specification
+:   Status
+[HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-bdo-element)
+:   W3C Working Draft
+[HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-bdo-element)
+:   W3C Recommendation
+[HTML 4.01](http://www.w3.org/TR/html401/struct/dirlang.html#edef-BDO)
+:   W3C Recommendation
+
+## See also
+
+### Related pages (MSDN)
+
+-   `direction`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

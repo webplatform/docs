@@ -1,57 +1,83 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add example, description, specifications, compatibility.
-|Checked_Out=Yes
-|Content=Examples Needed
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Specifies the column position to place a grid item  based upon integer location, string value, or column size.}}
-{{CSS Property
-|Initial value=auto
-|Applies to=Grid Item elements
-|Inherited=No
-|Media=visual
-|Computed value=see text
-|Animatable=No
-|CSS percentages=n/a
-|Values={{CSS Property Value
-|Data Type=<integer>
-|Description=A value that specifies a grid line in the grid.
-}}{{CSS Property Value
-|Data Type=<string>
-|Description=A name value that specifies a named grid line.
-}}{{CSS Property Value
-|Data Type=<identifier>
-|Description=Refers to a named Grid area and computes to a Grid line with the starting edge of the Grid area.
-}}{{CSS Property Value
-|Data Type=auto
-|Description=Places a Grid item based on an automatic placement algorithm.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Grid Layout
-}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: grid-column-position
+tags:
+  - CSS
+  - Properties
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Add example, description, specifications, compatibility.'
+summary: 'Specifies the column position to place a grid item  based upon integer location, string value, or column size.'
+uri: css/properties/grid-column-position
+
+---
+# grid-column-position
+
+## Summary
+
+Specifies the column position to place a grid item based upon integer location, string value, or column size.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `auto`
+Applies to
+:   Grid Item elements
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   see text
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   ``
+Percentages
+:   n/a
+
+## Syntax
+
+-   `grid-column-position: <identifier>`
+-   `grid-column-position: <integer>`
+-   `grid-column-position: <string>`
+-   `grid-column-position: auto`
+
+## Values
+
+\<integer\>
+:   A value that specifies a grid line in the grid.
+
+\<string\>
+:   A name value that specifies a named grid line.
+
+\<identifier\>
+:   Refers to a named Grid area and computes to a Grid line with the starting edge of the Grid area.
+
+auto
+:   Places a Grid item based on an automatic placement algorithm.
+
+**Needs Examples**: This section should include examples.
+
+## See also
+
+### Related articles
+
+#### Grid Layout
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [grid-auto-rows](/css/properties/grid-auto-rows)
+
+-   **grid-column-position**
+
+-   [grid-column-span](/css/properties/grid-column-span)
+
+-   [grid-definition-columns](/css/properties/grid-definition-columns)
+
+-   [grid-definition-rows](/css/properties/grid-definition-rows)
+
+-   [grid-row-position](/css/properties/grid-row-position)
+
+-   [height](/css/properties/height)
+

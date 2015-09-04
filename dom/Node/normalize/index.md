@@ -1,100 +1,87 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Merges adjacent DOM objects to produce a normalized document object model.}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=dom/Node
-|Example_object_name=node
-|Javascript_data_type=void
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Code=&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta http-equiv{{=}}"Content-Type" content{{=}}"text/html; charset=utf-8"/&gt;
-&lt;title&gt;Node.normalize() example&lt;/title&gt;
-&lt;/head&gt;
+---
+title: normalize
+tags:
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Merges adjacent DOM objects to produce a normalized document object model.'
+uri: dom/Node/normalize
 
-&lt;body&gt;
+---
+# normalize
+
+## Summary
+
+Merges adjacent DOM objects to produce a normalized document object model.
+
+*Method of [dom/Node](/dom/Node)*
+
+## Syntax
+
+``` {.js}
+ node.normalize();
+```
+
+## Return Value
+
+No return value
+
+## Examples
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Node.normalize() example</title>
+    </head>
+
+    <body>
 
 
-&lt;script type{{=}}"text/javascript"&gt;
-var wrapper {{=}} document.createElement("div");
+    <script type="text/javascript">
+    var wrapper = document.createElement("div");
 
-wrapper.appendChild( document.createTextNode("Part 1 ") );
-wrapper.appendChild( document.createTextNode("Part 2 ") );
+    wrapper.appendChild( document.createTextNode("Part 1 ") );
+    wrapper.appendChild( document.createTextNode("Part 2 ") );
 
-// At this point, wrapper.childNodes.length === 2
-// wrapper.childNodes[0].textContent === "Part 1 "
-// wrapper.childNodes[1].textContent === "Part 2 "
-alert('wrapper.childNodes.length==='+wrapper.childNodes.length);
-wrapper.normalize();
-document.body.appendChild(wrapper);
-// Now, wrapper.childNodes.length === 1
-// wrapper.childNodes[0].textContent === "Part 1 Part 2 "
-alert('wrapper.normalize();wrapper.childNodes.length==='+wrapper.childNodes.length);
+    // At this point, wrapper.childNodes.length === 2
+    // wrapper.childNodes[0].textContent === "Part 1 "
+    // wrapper.childNodes[1].textContent === "Part 2 "
+    alert('wrapper.childNodes.length==='+wrapper.childNodes.length);
+    wrapper.normalize();
+    document.body.appendChild(wrapper);
+    // Now, wrapper.childNodes.length === 1
+    // wrapper.childNodes[0].textContent === "Part 1 Part 2 "
+    alert('wrapper.normalize();wrapper.childNodes.length==='+wrapper.childNodes.length);
 
-&lt;/script&gt;
+    </script>
 
-&lt;/body&gt;
-&lt;/html&gt;
-}}
-}}
-{{Notes_Section
-|Usage=By calling ''object.'''''normalize''' before the subelements of an object are manipulated, you ensure that the document object model has a consistent structure.  The normal form is useful for operations that require a consistent document tree structure, and it ensures that the document object model view is identical when it is saved and reloaded.
-|Notes=The '''normalize''' method does not merge adjacent '''CDATA''' sections, allowing for an inconsistent object model when '''CDATA''' sections are present.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/DOM-Level-3-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Unknown
-|Chrome_version=
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=6
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/Node.normalize Node.normalize]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ms536646(v=vs.85).aspx normalize Method]
-|HTML5Rocks_link=
-}}
+    </body>
+    </html>
+
+## Usage
+
+     By calling object.normalize before the subelements of an object are manipulated, you ensure that the document object model has a consistent structure.  The normal form is useful for operations that require a consistent document tree structure, and it ensures that the document object model view is identical when it is saved and reloaded.
+
+## Notes
+
+The **normalize** method does not merge adjacent **CDATA** sections, allowing for an inconsistent object model when **CDATA** sections are present.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.normalize](https://developer.mozilla.org/en-US/docs/Web/API/Node.normalize) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[normalize Method](http://msdn.microsoft.com/en-us/library/ie/ms536646(v=vs.85).aspx) Article]
+

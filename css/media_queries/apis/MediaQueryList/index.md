@@ -1,87 +1,113 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Add summery, example, description, specifications, compatibility.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{API_Object_Method
-|Parameters=
-|Method_applies_to=css/media_queries
-|Example_object_name=object
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: MediaQueryList
+tags:
+  - Pages
+  - using
+  - duplicate
+  - arguments
+  - in
+  - template
+  - calls
+  - API
+  - Object
+  - Methods
+  - DOM
+readiness: 'In Progress'
+notes:
+  - 'Add summery, example, description, specifications, compatibility.'
+uri: 'css/media queries/apis/MediaQueryList'
+
+---
+# MediaQueryList
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+*Method of [css/media\_queries](/css/media_queries)*
+
+## Syntax
+
+``` {.js}
+var object = object.MediaQueryList();
+```
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+**Needs Examples**: This section should include examples.
+
+## Notes
+
+### Remarks
+
 The following example displays a message as when the windows size is less or greater than 250 pixels.
-|Import_Notes====Syntax===
-===Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199793 CSSOM View Module], Section 4.1
 
+### Syntax
 
-===Members===
-The '''MediaQueryList''' object has these types of members:
-*[#methods Methods]
-*[#properties Properties]
+### Standards information
 
+-   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), Section 4.1
 
-====Methods====
-The '''MediaQueryList''' object has these methods.
-{| class="wikitable"
-|-
-!Method
-!Description
-|-
-|[[css/media queries/apis/addListener|'''addListener''']]
-|Adds the callback function to the list of listeners for the '''MediaQueryList''' object. The function is called whenever the evaluation of the media query changes.
-|-
-|[[css/media queries/apis/removeListener|'''removeListener''']]
-|Removes the given callback function from the list of listeners for this '''MediaQueryList''' object.
-|}
- 
+### Members
 
-====Properties====
-The '''MediaQueryList''' object has these properties.
-{| class="wikitable"
-|-
-!Property
-!Description
-|-
-|[[css/media queries/apis/matches|'''matches''']]
-|Returns '''TRUE''' if the list of media queries matches the state of the current window, or '''FALSE''' otherwise.
-|-
-|[[css/media queries/apis/media|'''media''']]
-|Returns the serialized version of the media query list that was used to create the '''MediaQueryList''' (MQL) object.
-|}
- 
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Topic_clusters=Media Queries
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+The **MediaQueryList** object has these types of members:
+
+-   [\#methods Methods]
+-   [\#properties Properties]
+
+#### Methods
+
+The **MediaQueryList** object has these methods. {
+
+## See also
+
+### Related articles
+
+#### Media Queries
+
+-   [Responsive Web Design](/concepts/mobile_web/responsive_design)
+
+-   [\<resolution\>](/css/data_types/resolution)
+
+-   [accelerator](/css/media_queries/accelerator)
+
+-   **MediaQueryList**
+
+-   [MediaQueryListListener](/css/media_queries/apis/MediaQueryListListener)
+
+-   [StyleMedia](/css/media_queries/apis/StyleMedia)
+
+-   [addListener](/css/media_queries/apis/addListener)
+
+-   [handleChange](/css/media_queries/apis/handleChange)
+
+-   [matchMedia](/css/media_queries/apis/matchMedia)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [matches](/css/media_queries/apis/matches)
+
+-   [media](/css/media_queries/apis/media)
+
+-   [type](/css/media_queries/apis/properties/type)
+
+-   [removeListener](/css/media_queries/apis/removeListener)
+
+-   [Colors by](/css/media_queries/colors_by)
+
+-   [device-height](/css/media_queries/device-height)
+
+-   [filter](/css/media_queries/filter)
+
+-   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
+
+-   [behavior](/css/properties/behavior)
+
+-   [Targeting styles with media queries](/tutorials/media_queries)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

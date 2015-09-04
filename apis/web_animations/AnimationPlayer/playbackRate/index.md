@@ -1,42 +1,34 @@
-{{Page_Title}}
-{{Flags
-|State=
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section|The playback rate of this player. Setting this attribute follows the procedure to update the player playback rate of this object to the new value.}}
-{{API_Object_Property
-|Property_applies_to=apis/web_animations/AnimationPlayer
-|Read_only=No
-|Example_object_name=element
-|Return_value_name=result
-|Javascript_data_type=double
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|Web Animations}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+---
+title: playbackRate
+tags:
+  - API
+  - Object
+  - Properties
+  - Web
+  - Animations
+readiness: readiness-state
+summary: 'The playback rate of this player. Setting this attribute follows the procedure to update the player playback rate of this object to the new value.'
+uri: 'apis/web animations/AnimationPlayer/playbackRate'
+
+---
+# playbackRate
+
+## Summary
+
+The playback rate of this player. Setting this attribute follows the procedure to update the player playback rate of this object to the new value.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)</span></span>
+
+## Syntax
+
+``` {.js}
+var result = element.playbackRate;
+element.playbackRate = value;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">double</span></span>
+
+**Needs Examples**: This section should include examples.
+

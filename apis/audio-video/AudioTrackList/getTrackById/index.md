@@ -1,34 +1,48 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|Returns the AudioTrack object with the given identifier, or null if no track has that identifier.}}
-{{API_Object_Method
-|Parameters={{Method Parameter
-|Index=0
-|Name=id
-|Data type=any
-|Description=
-|Optional=No
-}}
-|Method_applies_to=apis/audio-video/AudioTrackList
-|Example_object_name=AudioTrackList
-|Return_value_name=object
-|Javascript_data_type=DOM Node
-|Return_value_description=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=
-|Code=(function () {
+---
+title: getTrackById
+tags:
+  0: API
+  1: Object
+  2: Methods
+  4: Audio
+  5: Video
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the AudioTrack object with the given identifier, or null if no track has that identifier.'
+code_samples:
+  - 'http://gist.github.com/459f1a0ea9f70009b6fe'
+uri: apis/audio-video/AudioTrackList/getTrackById
+
+---
+# getTrackById
+
+## Summary
+
+Returns the AudioTrack object with the given identifier, or null if no track has that identifier.
+
+*Method of [apis/audio-video/AudioTrackList](/apis/audio-video/AudioTrackList)*
+
+## Syntax
+
+``` {.js}
+var object = AudioTrackList.getTrackById(id);
+```
+
+## Parameters
+
+### id
+
+ Data-typeÂ
+:   any
+
+## Return Value
+
+Returns an object of type DOM Node.
+
+## Examples
+
+``` {.js}
+(function () {
     // grab the video element
     var video = document.getElementById("video");
 
@@ -41,7 +55,7 @@
 
         // loop through the audio tracks
         for (var i = 0; i < audioTracks.length; i++) {
-                    
+
             // create options for the dropdownlist with the id's
             // and languages of the tracks
             var opt = document.createElement('option');
@@ -67,39 +81,20 @@
         track.enabled = true;
     });
 })();
-|LiveURL=http://code.webplatform.org/gist/459f1a0ea9f70009b6fe
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C HTML5 Specification
-|URL=http://dev.w3.org/html5/spec/single-page.html
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, Audio, Video}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+[View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
+
+## Related specifications
+
+Specification
+:   Status
+[W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
+:   W3C Editor's Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+

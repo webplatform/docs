@@ -1,130 +1,75 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|FileList is an object which represents an array of individually selected files from the underlying system.|FileList is an object which represents an array of individually selected files from the underlying system_ The user interface for selection can be invoked via <code><input type="file"></code>.
-|An object of this type is returned by the files property of the HTML input element; this lets you access the list of files selected with the <input type="file"> element. It's also used for a list of files dropped into web content when using the drag and drop API; see the DataTransfer object for details on this usage.
-}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Description=iterates over all the files selected by the user using an input element
-|Code=// fileInput is an HTML input element: input type="file" id="myfileinput" multiple
+---
+title: FileList
+tags:
+  0: API
+  1: Objects
+  3: FileAPI
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'FileList is an object which represents an array of individually selected files from the underlying system.'
+uri: apis/file/FileList
+
+---
+# FileList
+
+## Summary
+
+FileList is an object which represents an array of individually selected files from the underlying system.
+
+## Properties
+
+API Name
+:   Summary
+[length](/apis/file/FileList/length)
+:   **length** returns the number of files in the FileList object. If there are no files, this attribute must return 0.
+
+## Methods
+
+API Name
+:   Summary
+[item](/apis/file/FileList/item)
+:   **item** returns the *index*th File object in the FileList. If there is no *index*th File object in the FileList, then this method must return null.
+
+## Events
+
+*No events.*
+
+## Examples
+
+iterates over all the files selected by the user using an input element
+
+``` {.js}
+// fileInput is an HTML input element: input type="file" id="myfileinput" multiple
 var fileInput = document.getElementById("myfileinput");
- 
+
 // files is a FileList object (similar to NodeList)
 var files = fileInput.files;
 var file;
- 
+
 // loop trough files
 for (var i = 0; i < files.length; i++) {
- 
+
     // get item
     file = files.item(i);
     //or
     file = files[i];
- 
+
     alert(file.name);
 }
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C File API Specification
-|URL=http://www.w3.org/TR/FileAPI
-|Status=W3C Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, FileAPI}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/DOM/FileList FileList]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh772307(v=vs.85).aspx fileList Object]
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Feature=Basic Support
-|Chrome_supported=Yes
-|Chrome_version=22.0
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_version=15.0
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=10.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_version=12.1
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=6.0
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Feature=Basic Support
-|Android_supported=Yes
-|Android_version=3.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=10.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Unknown
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Unknown
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Unknown
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Unknown
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_version=6.0
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C File API Specification](http://www.w3.org/TR/FileAPI)
+:   W3C Working Draft
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[FileList](https://developer.mozilla.org/en-US/docs/DOM/FileList) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[fileList Object](http://msdn.microsoft.com/en-us/library/ie/hh772307(v=vs.85).aspx) Article]
+

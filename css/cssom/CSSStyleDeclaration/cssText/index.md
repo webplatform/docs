@@ -1,67 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Stub, Needs Flags, Missing Relevant Sections
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets or sets the textual representation of a CSS style declaration.}}
-{{API_Object_Property
-|Property_applies_to=css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
-|Read_only=No
-|Example_object_name=declaration
-|Return_value_name=declarationText
-|Javascript_data_type=String
-|Return_value_description=The textual representation of the CSS style declaration.
-|Example_value_name=declarationText
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=
-|Code=<style>
+---
+title: cssText
+tags:
+  - API
+  - Object
+  - Properties
+  - CSS
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Gets or sets the textual representation of a CSS style declaration.'
+uri: css/cssom/CSSStyleDeclaration/cssText
+
+---
+# cssText
+
+## Summary
+
+Gets or sets the textual representation of a CSS style declaration.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)</span></span>
+
+## Syntax
+
+``` {.js}
+var declarationText = declaration.cssText;
+declaration.cssText = declarationText;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The textual representation of the CSS style declaration.
+
+## Examples
+
+``` {.css}
+<style>
 body { background-color: darkblue; }
 </style>
 <script>
   var stylesheet = document.styleSheets[0];
-  alert(stylesheet.cssRules[0].cssText); 
+  alert(stylesheet.cssRules[0].cssText);
   // returns "body { background-color: darkblue; }"
 </script>
-|LiveURL=
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=This property reflects the current state of the declaration and not its initial value.
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 2 Style
-|URL=http://www.w3.org/TR/DOM-Level-2-Style/css.html
-|Status=Recommendation
-|Relevant_changes=Section 2.2
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|CSS, DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+```
+
+## Notes
+
+This property reflects the current state of the declaration and not its initial value.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 2 Style](http://www.w3.org/TR/DOM-Level-2-Style/css.html)
+:   Recommendation
+

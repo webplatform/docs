@@ -1,74 +1,68 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Needs all content
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Notes====Remarks===
+---
+title: mask
+tags:
+  - Markup
+  - Attributes
+  - SVG
+readiness: 'Not Ready'
+notes:
+  - 'Needs all content'
+uri: svg/attributes/mask
 
-The '''mask''' is used to reference a [[svg/elements/mask|'''mask''']] element in SVG.
-|Import_Notes====Syntax===
+---
+# mask
 
- '''mask: ''' ''funciri'' '''{{!}}''' none '''{{!}}''' inherit
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-===Standards information===
+Applies to
+:    ?
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}199810 Scalable Vector Graphics: Clipping, Masking and Compositing], Section 14.3
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
+**Needs Examples**: This section should include examples.
 
-*[[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration|'''CSSStyleDeclaration''']]
-*[[css/cssom/currentStyle|'''currentStyle''']]
-*[[css/cssom/style|'''style''']]
-*[[svg/properties/a|'''a''']]
-*[[svg/elements/defs|'''SVGDefsElement''']]
-*[[svg/elements/g|'''SVGGElement''']]
-*[[svg/elements/marker|'''SVGMarkerElement''']]
-*[[svg/elements/patterrn|'''SVGPatternElement''']]
-*[[svg/elements/svg|'''SVGSVGElement''']]
-*[[svg/elements/switch|'''SVGSwitchElement''']]
-*[[svg/elements/symbol|'''SVGSymbolElement''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/elements/image|'''SVGImageElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/use|'''SVGUseElement''']]
-*[[svg/elements/mask|'''mask''']]
-}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+## Notes
+
+### Remarks
+
+The **mask** is used to reference a [**mask**](/svg/elements/mask) element in SVG.
+
+### Syntax
+
+    mask:  funciri | none | inherit
+
+### Standards information
+
+-   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.3
+
+## See also
+
+### Related pages (MSDN)
+
+-   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+-   [**currentStyle**](/css/cssom/currentStyle)
+-   [**style**](/css/cssom/style)
+-   [**a**](/svg/properties/a)
+-   [**SVGDefsElement**](/svg/elements/defs)
+-   [**SVGGElement**](/svg/elements/g)
+-   [**SVGMarkerElement**](/svg/elements/marker)
+-   [**SVGPatternElement**](/svg/elements/patterrn)
+-   [**SVGSVGElement**](/svg/elements/svg)
+-   [**SVGSwitchElement**](/svg/elements/switch)
+-   [**SVGSymbolElement**](/svg/elements/symbol)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   [**SVGImageElement**](/svg/elements/image)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGUseElement**](/svg/elements/use)
+-   [**mask**](/svg/elements/mask)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

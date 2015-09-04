@@ -1,50 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Editorial notes=
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|[[apis/webaudio/OscillatorNode|'''OscillatorNode''']] represents an audio source generating a periodic waveform. It can be set to a few commonly used waveforms. Additionally, it can be set to an arbitrary periodic waveform through the use of a [[apis/webaudio/WaveTable|'''WaveTable''']] object. Oscillators are common foundational building blocks in audio synthesis.}}
-{{API_Object
-|Subclass_of=
-|Overview=
-}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=http://webaudio.github.io/web-audio-api/
-|Status=W3C Editor's Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+---
+title: OscillatorNode
+tags:
+  0: API
+  1: Objects
+  3: WebAudio
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'OscillatorNode represents an audio source generating a periodic waveform. It can be set to a few commonly used waveforms. Additionally, it can be set to an arbitrary periodic waveform through the use of a WaveTable object. Oscillators are common foundational building blocks in audio synthesis.'
+uri: apis/webaudio/OscillatorNode
+
+---
+# OscillatorNode
+
+## Summary
+
+OscillatorNode represents an audio source generating a periodic waveform. It can be set to a few commonly used waveforms. Additionally, it can be set to an arbitrary periodic waveform through the use of a WaveTable object. Oscillators are common foundational building blocks in audio synthesis.
+
+## Properties
+
+API Name
+:   Summary
+[detune](/apis/webaudio/OscillatorNode/detune)
+:   A detuning value (in cents) which will offset the frequency by the given amount. This parameter is a-rate.
+[frequency](/apis/webaudio/OscillatorNode/frequency)
+:   The frequency (in Hertz) of the periodic waveform. This parameter is a-rate.
+[playbackState](/apis/webaudio/OscillatorNode/playbackState)
+:   The playback state, initialized to UNSCHEDULED\_STATE, progressing through SCHEDULED\_STATE, PLAYING\_STATE, and FINISHED\_STATE.
+
+    **Not in spec; deletion candidate. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+
+[type](/apis/webaudio/OscillatorNode/type)
+:   The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The [**setWaveTable()**](/apis/webaudio/OscillatorNode/setWaveTable) method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.
+
+## Methods
+
+API Name
+:   Summary
+[setWaveTable](/apis/webaudio/OscillatorNode/setWaveTable)
+:   Sets an arbitrary custom periodic waveform given a [**WaveTable**](/apis/webaudio/WaveTable).
+
+    **Not in spec; deletion candidate. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+
+[start](/apis/webaudio/OscillatorNode/start)
+:   Schedules a sound to playback at an exact time.
+[stop](/apis/webaudio/OscillatorNode/stop)
+:   Schedules a sound to stop playback at an exact time.
+
+## Events
+
+*No events.*
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
+:   W3C Editor's Draft
+

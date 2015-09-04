@@ -1,72 +1,54 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Deprecated; deletion candidate. See
-https://groups.google.com/forum/#!topic/polymer-dev/wmcncSDx_Jo
+---
+title: reset-style-inheritance
+tags:
+  - Markup
+  - Attributes
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - "Deprecated; deletion candidate. See\nhttps://groups.google.com/forum/#!topic/polymer-dev/wmcncSDx_Jo"
+summary: "Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.\n"
+uri: html/attributes/reset-style-inheritance
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - dom/apis/ShadowRoot/resetStyleInheritance
 
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.
+---
+# reset-style-inheritance
 
-'''Deprecated -- do not use'''
-}}
-{{Markup_Attribute
-|Applies_to=dom/HTMLContentElement
-|Property_applies_to=html/elements/content
-|Content=Read only. Indicates the state of the [[dom/apis/ShadowRoot/resetStyleInheritance|resetStyleInheritance]] flag for this insertion point. If present, the value of the flag must be set to true. Otherwise, the value must be set to false. If true, the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples=
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{See_Also_Section
-|Topic_clusters=Web Components
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_version=25
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Unknown
-|Firefox_version=
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Unknown
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Unknown
-|Opera_version=
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Unknown
-|Safari_version=
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows=
-|Notes_rows=
-}}
+## Summary
+
+Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.
+
+**Deprecated -- do not use**
+
+Applies to
+:   dom/HTMLContentElement
+
+Read only. Indicates the state of the [resetStyleInheritance](/w/index.php?title=dom/apis/ShadowRoot/resetStyleInheritance&action=edit&redlink=1) flag for this insertion point. If present, the value of the flag must be set to true. Otherwise, the value must be set to false. If true, the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit.
+
+**Needs Examples**: This section should include examples.
+
+## See also
+
+### Related articles
+
+#### Web Components
+
+-   [register](/dom/Document/register)
+
+-   [shadowdom](/dom/shadowdom)
+
+-   [ShadowRoot](/dom/shadowdom/ShadowRoot)
+
+-   [is](/html/attributes/is)
+
+-   **reset-style-inheritance**
+
+-   [content](/html/elements/content)
+
+-   [element](/html/elements/element)
+
+-   [template](/html/elements/template)
+

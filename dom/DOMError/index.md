@@ -1,41 +1,54 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs spec reference
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Represents a DOM operation error object.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=Yes
-|Examples=
-}}
-{{Notes_Section
-|Notes=While similar to [[dom/DOMException|'''DOMException''']] objects, '''DOMError''' objects represent errors that are generated through other means, such as return values.  ('''DOMException''' objects are thrown as exceptions.)  Both objects return similar values, so it is possible to create general handlers to respond to either type of error.
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/DOMException|DOMException]]</code>
-*<code>[[dom/constants/DOM exception error codes|DOM Error Codes]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: DOMError
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+notes:
+  - 'Needs spec reference'
+summary: 'Represents a DOM operation error object.'
+uri: dom/DOMError
+
+---
+# DOMError
+
+## Summary
+
+Represents a DOM operation error object.
+
+## Properties
+
+API Name
+:   Summary
+[message](/dom/DOMError/message)
+:   Returns the message associated with an error that occurred during a DOM operation.
+[name](/dom/DOMError/name)
+:   Returns the name of an error that occurred during a DOM operation.
+
+## Methods
+
+*No methods.*
+
+## Events
+
+*No events.*
+
+## Notes
+
+While similar to [**DOMException**](/dom/DOMException) objects, **DOMError** objects represent errors that are generated through other means, such as return values. (**DOMException** objects are thrown as exceptions.) Both objects return similar values, so it is possible to create general handlers to respond to either type of error.
+
+## See also
+
+### Related pages (MSDN)
+
+-   `DOMException`
+-   `DOM Error Codes`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,57 +1,52 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Import_Notes=
+---
+title: hasExtension
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/hasExtension
 
-===Syntax===
+---
+# hasExtension
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204732 Scalable Vector Graphics: Basic Data Types and Interfaces], Section 4.5.25
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.25
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/elements/clipPath|'''SVGClipPathElement''']]
-*[[svg/elements/patterrn|'''SVGPatternElement''']]
-*[[svg/elements/svg|'''SVGSVGElement''']]
-*[[svg/elements/use|'''SVGUseElement''']]
-*[[svg/elements/circle|'''SVGCircleElement''']]
-*[[svg/elements/ellipse|'''SVGEllipseElement''']]
-*[[svg/elements/line|'''SVGLineElement''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/polygon|'''SVGPolygonElement''']]
-*[[svg/elements/polyline|'''SVGPolylineElement''']]
-*[[svg/elements/g|'''SVGGElement''']]
-*[[svg/elements/defs|'''SVGDefsElement''']]
-*[[svg/elements/path|'''SVGPathElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/image|'''SVGImageElement''']]
-*[[svg/elements/mask|'''SVGMaskElement''']]
-*[[svg/elements/a|'''SVGAElement''']]
-*[[svg/elements/switch|'''SVGSwitchElement''']]
-*[[svg/elements/etextContent|'''SVGTextContentElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/textPath|'''SVGTextPathElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+### Related pages (MSDN)
 
-[[Category:SVG]]
+-   [**SVGClipPathElement**](/svg/elements/clipPath)
+-   [**SVGPatternElement**](/svg/elements/patterrn)
+-   [**SVGSVGElement**](/svg/elements/svg)
+-   [**SVGUseElement**](/svg/elements/use)
+-   [**SVGCircleElement**](/svg/elements/circle)
+-   [**SVGEllipseElement**](/svg/elements/ellipse)
+-   [**SVGLineElement**](/svg/elements/line)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGPolygonElement**](/svg/elements/polygon)
+-   [**SVGPolylineElement**](/svg/elements/polyline)
+-   [**SVGGElement**](/svg/elements/g)
+-   [**SVGDefsElement**](/svg/elements/defs)
+-   [**SVGPathElement**](/svg/elements/path)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGImageElement**](/svg/elements/image)
+-   [**SVGMaskElement**](/svg/elements/mask)
+-   [**SVGAElement**](/svg/elements/a)
+-   [**SVGSwitchElement**](/svg/elements/switch)
+-   [**SVGTextContentElement**](/svg/elements/etextContent)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGTextPathElement**](/svg/elements/textPath)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

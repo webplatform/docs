@@ -1,83 +1,71 @@
-{{Page_Title|length}}
-{{Flags
-|State=Not Ready
-|Editorial notes=
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The number of nodes in the list.}}
-{{API_Object_Property
-|Property_applies_to=dom/NodeList
-|Read_only=Yes
-|Example_object_name=list
-|Return_value_name=
-|Javascript_data_type=unsigned long
-|Return_value_description=
-|Example_value_name=
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=HTML
-|Description=
-|Code=&lt;!-- Three divs -->
-&lt;ul>
-	&lt;li class="fruit">Apple&lt;/li>
-	&li;class="fruit">Banana&lt;/li>
-	&lt;li class="fruit">Cherry&lt;/li>
-&lt;/ul>
-&lt;div id="fruit">&lt;/div>
+---
+title: length
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The number of nodes in the list.'
+code_samples:
+  - 'http://result.webplatformstaging.org/gist/66472399f3509d96204a/37c44f44eee101bcc19487fd1cf470e8a5c998d8'
+uri: apis/NodeList/length
 
-&lt;script>
-	// Query the DOM for the nodes with the class 'fruit'
-	var fruitNodes = document.querySelectorAll('.fruit');
-	
-	// Get the number of nodes found by using 'length'
-	var fruitNodeCount = fruitNodes.length;
-	
-	// Displaying the value in the DOM
-	document.getElementById('fruit').innerHTML = 'Number of fruit nodes: ' + fruitNodeCount;
+---
+# length
+
+## Summary
+
+The number of nodes in the list.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/NodeList](/dom/NodeList)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = list.length;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+
+## Examples
+
+``` {.html}
+<!-- Three divs -->
+<ul>
+    <li class="fruit">Apple</li>
+    &li;class="fruit">Banana</li>
+    <li class="fruit">Cherry</li>
+</ul>
+<div id="fruit"></div>
+
+<script>
+    // Query the DOM for the nodes with the class 'fruit'
+    var fruitNodes = document.querySelectorAll('.fruit');
+
+    // Get the number of nodes found by using 'length'
+    var fruitNodeCount = fruitNodes.length;
+
+    // Displaying the value in the DOM
+    document.getElementById('fruit').innerHTML = 'Number of fruit nodes: ' + fruitNodeCount;
 
 // Number of fruit nodes: 3
-&lt;/script>
-|LiveURL=http://result.webplatformstaging.org/gist/66472399f3509d96204a/37c44f44eee101bcc19487fd1cf470e8a5c998d8
-}}
-}}
-{{Notes_Section
-|Usage=
-|Notes=
-|Import_Notes=
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 1
-|URL=http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177
-|Status=Recommendation
-|Relevant_changes=
-}}{{Related Specification
-|Name=DOM
-|URL=http://www.w3.org/TR/dom/#nodelist
-|Status=Working Draft
-|Relevant_changes=
-}}
-}}
-{{See_Also_Section
-|Manual_links=
-|External_links=
-|Manual_sections=
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
+</script>
+```
+
+[View live example](http://result.webplatformstaging.org/gist/66472399f3509d96204a/37c44f44eee101bcc19487fd1cf470e8a5c998d8)
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177)
+:   Recommendation
+[DOM](http://www.w3.org/TR/dom/#nodelist)
+:   Working Draft
+

@@ -1,114 +1,189 @@
-{{Page_Title|CSSOM View}}
-{{Flags
-|High-level issues=Missing Relevant Sections, Needs Topics, Move Candidate, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|Editorial notes={{Editorial/Move_Candidate
-| Doesn't seem to be in the proper place.  Also not quite sure where to put it.
-}}
-}}
-{{Summary_Section}}
-{{Basic Page}}
-{{Standardization_Status|}}
-{{API_Name}}
+---
+title: CSSOM view
+tags:
+  - Basic
+  - Pages
+  - CSS
+standardization_status: Unknown
+notes:
+  - "\nMove Candidate:   Doesn't seem to be in the proper place.  Also not quite sure where to put it.\n\n"
+uri: 'css/cssom/CSSOM view'
 
-{{{!}} class="wikitable"
-{{!}}-
-!Property
-!Description
-{{!}}-
-{{!}}[[css/cssom/properties/height|'''height''']]
-{{!}}Gets the height of the rectangle that surrounds the object content.
-{{!}}-
-{{!}}'''innerHeight'''
-{{!}}Gets the height of the window, excluding user interface elements, such as the window frame, toolbars,  and so on.
-{{!}}-
-{{!}}'''innerWidth'''
-{{!}}Gets the width of the window, excluding user interface elements, such as the window frame.
-{{!}}-
-{{!}}[[css/cssom/properties/offsetX|'''offsetX''']]
-{{!}}Gets the x-coordinate of the mouse pointer, relative to the target node.
-{{!}}-
-{{!}}[[css/cssom/properties/offsetY|'''offsetY''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the target node.
-{{!}}-
-{{!}}'''outerHeight'''
-{{!}}Gets the height of the window, including user interface elements, such as the window frame, toolbars, and so on.
-{{!}}-
-{{!}}'''outerWidth'''
-{{!}}Gets the width of the window, including user interface elements, such as the window frame.
-{{!}}-
-{{!}}[[css/cssom/properties/pageX|'''pageX''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
-{{!}}-
-{{!}}[[css/cssom/properties/pageY|'''pageY''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
-{{!}}-
-{{!}}'''pageXOffset'''
-{{!}}Gets the distance, in pixels, that a document has scrolled horizontally.
-{{!}}-
-{{!}}'''pageYOffset'''
-{{!}}Gets the distance, in pixels, that a document has scrolled vertically.
-{{!}}-
-{{!}}[[css/cssom/properties/pixelBottom|'''pixelBottom''']]
-{{!}}Sets or retrieves the bottom position of the object.
-{{!}}-
-{{!}}[[css/cssom/properties/pixelHeight|'''pixelHeight''']]
-{{!}}Sets or retrieves the height of the object.
-{{!}}-
-{{!}}[[css/cssom/properties/pixelLeft|'''pixelLeft''']]
-{{!}}Sets or retrieves the left position of the object.
-{{!}}-
-{{!}}[[css/cssom/properties/pixelRight|'''pixelRight''']]
-{{!}}Sets or retrieves the right position of the object.
-{{!}}-
-{{!}}[[css/cssom/properties/pixelTop|'''pixelTop''']]
-{{!}}Sets or retrieves the top position of the object.
-{{!}}-
-{{!}}[[css/cssom/properties/pixelWidth|'''pixelWidth''']]
-{{!}}Sets or retrieves the width of the object.
-{{!}}-
-{{!}}[[css/cssom/properties/posBottom|'''posBottom''']]
-{{!}}Sets or retrieves the bottom position of the object in the units specified by the [[css/properties/bottom|'''bottom''']] attribute.
-{{!}}-
-{{!}}[[css/cssom/properties/posHeight|'''posHeight''']]
-{{!}}Sets or retrieves the height of the object in the units specified by the [[css/properties/height|'''height''']] attribute.
-{{!}}-
-{{!}}[[css/cssom/properties/posLeft|'''posLeft''']]
-{{!}}Sets or retrieves the left position of the object in the units specified by the [[css/properties/left|'''left''']] attribute.
-{{!}}-
-{{!}}[[css/cssom/properties/posRight|'''posRight''']]
-{{!}}Sets or retrieves the right position of the object in the units specified by the [[css/properties/right|'''right''']] attribute.
-{{!}}-
-{{!}}[[css/cssom/properties/posTop|'''posTop''']]
-{{!}}Sets or retrieves the top position of the object in the units specified by the [[css/properties/top|'''top''']] attribute.
-{{!}}-
-{{!}}[[css/cssom/properties/posWidth|'''posWidth''']]
-{{!}}Sets or retrieves the width of the object in the units specified by the [[css/properties/width|'''width''']] attribute.
-{{!}}-
-{{!}}[[css/cssom/properties/width|'''width''']]
-{{!}}Gets the width of the rectangle that surrounds the object content.
-{{!}}-
-{{!}}'''x'''
-{{!}}Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
-{{!}}-
-{{!}}[[css/cssom/properties/y|'''y''']]
-{{!}}Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
-{{!}}-
-{{!}}Media Query Listeners
-{{!}}Media Query Listeners allow developers to register listeners that monitor and call back when a specific change happens to the media environment
-{{!}}}
+---
+# CSSOM View
 
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+Property
+:   Description
+[**height**](/css/cssom/properties/height)
+:   Gets the height of the rectangle that surrounds the object content.
+**innerHeight**
+:   Gets the height of the window, excluding user interface elements, such as the window frame, toolbars, and so on.
+**innerWidth**
+:   Gets the width of the window, excluding user interface elements, such as the window frame.
+[**offsetX**](/css/cssom/properties/offsetX)
+:   Gets the x-coordinate of the mouse pointer, relative to the target node.
+[**offsetY**](/css/cssom/properties/offsetY)
+:   Gets the y-coordinate of the mouse pointer, relative to the target node.
+**outerHeight**
+:   Gets the height of the window, including user interface elements, such as the window frame, toolbars, and so on.
+**outerWidth**
+:   Gets the width of the window, including user interface elements, such as the window frame.
+[**pageX**](/css/cssom/properties/pageX)
+:   Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
+[**pageY**](/css/cssom/properties/pageY)
+:   Gets the y-coordinate of the mouse pointer, relative to the upper-left corner of the page.
+**pageXOffset**
+:   Gets the distance, in pixels, that a document has scrolled horizontally.
+**pageYOffset**
+:   Gets the distance, in pixels, that a document has scrolled vertically.
+[**pixelBottom**](/css/cssom/properties/pixelBottom)
+:   Sets or retrieves the bottom position of the object.
+[**pixelHeight**](/css/cssom/properties/pixelHeight)
+:   Sets or retrieves the height of the object.
+[**pixelLeft**](/css/cssom/properties/pixelLeft)
+:   Sets or retrieves the left position of the object.
+[**pixelRight**](/css/cssom/properties/pixelRight)
+:   Sets or retrieves the right position of the object.
+[**pixelTop**](/css/cssom/properties/pixelTop)
+:   Sets or retrieves the top position of the object.
+[**pixelWidth**](/css/cssom/properties/pixelWidth)
+:   Sets or retrieves the width of the object.
+[**posBottom**](/css/cssom/properties/posBottom)
+:   Sets or retrieves the bottom position of the object in the units specified by the [**bottom**](/css/properties/bottom) attribute.
+[**posHeight**](/css/cssom/properties/posHeight)
+:   Sets or retrieves the height of the object in the units specified by the [**height**](/css/properties/height) attribute.
+[**posLeft**](/css/cssom/properties/posLeft)
+:   Sets or retrieves the left position of the object in the units specified by the [**left**](/css/properties/left) attribute.
+[**posRight**](/css/cssom/properties/posRight)
+:   Sets or retrieves the right position of the object in the units specified by the [**right**](/css/properties/right) attribute.
+[**posTop**](/css/cssom/properties/posTop)
+:   Sets or retrieves the top position of the object in the units specified by the [**top**](/css/properties/top) attribute.
+[**posWidth**](/css/cssom/properties/posWidth)
+:   Sets or retrieves the width of the object in the units specified by the [**width**](/css/properties/width) attribute.
+[**width**](/css/cssom/properties/width)
+:   Gets the width of the rectangle that surrounds the object content.
+**x**
+:   Gets the x-coordinate of the mouse pointer, relative to the last positioned ancestor element.
+[**y**](/css/cssom/properties/y)
+:   Gets the y-coordinate of the mouse pointer, relative to the last positioned ancestor element.
+Media Query Listeners
+:   Media Query Listeners allow developers to register listeners that monitor and call back when a specific change happens to the media environment
 
-{{See_Also_Section
-|Topic_clusters=CSSOM
-}}
-{{Notes_Section}}
-{{Topics|CSS}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+## See also
+
+### Related articles
+
+#### CSSOM
+
+-   [href](/css/cssom/CSSImportRule/href)
+
+-   [media](/css/cssom/CSSImportRule/media)
+
+-   [CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
+
+-   [keyText](/css/cssom/CSSKeyframeRule/keyText)
+
+-   [style](/css/cssom/CSSKeyframeRule/style)
+
+-   [CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
+
+-   [cssRules](/css/cssom/CSSKeyframesRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSKeyframesRule/deleteRule)
+
+-   [findRule](/css/cssom/CSSKeyframesRule/findRule)
+
+-   [insertRule](/css/cssom/CSSKeyframesRule/insertRule)
+
+-   [name](/css/cssom/CSSKeyframesRule/name)
+
+-   [CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)
+
+-   [appendMedium](/css/cssom/CSSMediaList/appendMedium)
+
+-   [deleteMedium](/css/cssom/CSSMediaList/deleteMedium)
+
+-   [item](/css/cssom/CSSMediaList/item)
+
+-   [mediaText](/css/cssom/CSSMediaList/mediaText)
+
+-   [CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
+
+-   [cssRules](/css/cssom/CSSMediaRule/cssRules)
+
+-   [deleteRule](/css/cssom/CSSMediaRule/deleteRule)
+
+-   [insertRule](/css/cssom/CSSMediaRule/insertRule)
+
+-   [media](/css/cssom/CSSMediaRule/media)
+
+-   [CSSNamespaceRule](/css/cssom/CSSNamespaceRule/CSSNamespaceRule)
+
+-   [namespaceURI](/css/cssom/CSSNamespaceRule/namespaceURI)
+
+-   [prefix](/css/cssom/CSSNamespaceRule/prefix)
+
+-   **CSSOM View**
+
+-   [CSSRule](/css/cssom/CSSRule)
+
+-   [cssText](/css/cssom/CSSRule/cssText)
+
+-   [parentRule](/css/cssom/CSSRule/parentRule)
+
+-   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
+
+-   [type](/css/cssom/CSSRule/type)
+
+-   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
+
+-   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
+
+-   [clipLeft](/css/cssom/properties/clipLeft)
+
+-   [clipRight](/css/cssom/properties/clipRight)
+
+-   [clipTop](/css/cssom/properties/clipTop)
+
+-   [cssFloat](/css/cssom/properties/cssFloat)
+
+-   [fontWeight](/css/cssom/properties/fontWeight)
+
+-   [hasLayout](/css/cssom/properties/hasLayout)
+
+-   [height](/css/cssom/properties/height)
+
+-   [href](/css/cssom/properties/href)
+
+-   [imports](/css/cssom/properties/imports)
+
+-   [innerWidth](/css/cssom/properties/innerWidth)
+
+-   [isAlternate](/css/cssom/properties/isAlternate)
+
+-   [isPrefAlternate](/css/cssom/properties/isPrefAlternate)
+
+-   [item](/css/cssom/properties/item)
+
+-   [length](/css/cssom/properties/length)
+
+-   [media](/css/cssom/properties/media)
+
+-   [offsetX](/css/cssom/properties/offsetX)
+
+-   [offsetY](/css/cssom/properties/offsetY)
+
+-   [outerHeight](/css/cssom/properties/outerHeight)
+
+<!-- -->
+
+    … further results
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

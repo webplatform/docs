@@ -1,174 +1,144 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=Fix multiple broken links
-|Checked_Out=No
-|Content=Compatibility Incomplete
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|The line element creates a line segment interconnecting two points.}}
-{{Markup_Element
-|DOM_interface=dom/SVGLineElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=Other
-|Description=In the following code example, the line element is used to draw a salmon-colored line.
-|Code=<syntaxhighlight lang="xml">
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" 	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
+---
+title: line
+tags:
+  - Markup
+  - Elements
+  - SVG
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Fix multiple broken links'
+summary: 'The line element creates a line segment interconnecting two points.'
+code_samples:
+  - 'http://gist.github.com/9e2c858dc34a018a483d'
+uri: svg/elements/line
+todo_broken_links:
+  note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
+  links:
+    - svg/attributes/style
+    - svg/attributes/class
+    - svg/attributes/externalResourcesRequired
+    - svg/attributes/transform
+    - svg/attributes/x1
+    - svg/attributes/x2
+    - svg/attributes/y1
+    - svg/attributes/y2
+
+---
+# line
+
+## Summary
+
+The line element creates a line segment interconnecting two points.
+
+## Overview Table
+
+[DOM Interface](/dom/interface)
+:   [SVGLineElement](/dom/SVGLineElement)
+
+## Examples
+
+In the following code example, the line element is used to draw a salmon-colored line.
+
+``` {.other}
+
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN"     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
 <svg width="400" height="400">
   <line x1="50" y1="50" x2="150" y2="150" stroke="salmon" stroke-width="10" />
 </svg>
-</syntaxhighlight>
-|LiveURL=http://code.webplatform.org/gist/9e2c858dc34a018a483d
-}}
-}}
-{{Notes_Section
-|Import_Notes====Attributes===
+```
 
-====Global attributes====
-*[[svg/attributes#Conditional_Processing_Attributes|'''Conditional processing attributes''']]
-*[[svg/attributes#Core_Attributes|'''Core attributes''']]
-*[[svg/attributes#Graphical_Event_Attributes|'''Graphical events attributes''']]
-*[[svg/attributes#Presentation_Attributes|'''Presentation attributes''']]
+</pre>
+[View live example](http://code.webplatform.org/gist/9e2c858dc34a018a483d)
 
-*[[svg/attributes/style|'''style''']]
-*[[svg/attributes/class|'''class''']]
-*[[svg/attributes/externalResourcesRequired|'''externalResourcesRequired''']]
-*[[svg/attributes/transform|'''transform''']]
+### Attributes
 
-====Specific attributes====
+#### Global attributes
 
-*[[svg/attributes/x1|'''x1''']]
-*[[svg/attributes/x2|'''x2''']]
-*[[svg/attributes/y1|'''y1''']]
-*[[svg/attributes/y2|'''y2''']]
+-   [**Conditional processing attributes**](/svg/attributes#Conditional_Processing_Attributes)
+-   [**Core attributes**](/svg/attributes#Core_Attributes)
+-   [**Graphical events attributes**](/svg/attributes#Graphical_Event_Attributes)
+-   [**Presentation attributes**](/svg/attributes#Presentation_Attributes)
 
-===DOM Interface===
+-   [**style**](/w/index.php?title=svg/attributes/style&action=edit&redlink=1)
+-   [**class**](/w/index.php?title=svg/attributes/class&action=edit&redlink=1)
+-   [**externalResourcesRequired**](/w/index.php?title=svg/attributes/externalResourcesRequired&action=edit&redlink=1)
+-   [**transform**](/w/index.php?title=svg/attributes/transform&action=edit&redlink=1)
 
-'''The following DOM interface properties & methods should be moved to a proper SVG DOM documentation (i.e. SVGLineElement et. al, see above). However, at the present time, the WebPlatform MediaWiki doesn't allow the necessary changes.'''
+#### Specific attributes
 
-The '''SVGLineElement''' object has these events:
+-   [**x1**](/w/index.php?title=svg/attributes/x1&action=edit&redlink=1)
+-   [**x2**](/w/index.php?title=svg/attributes/x2&action=edit&redlink=1)
+-   [**y1**](/w/index.php?title=svg/attributes/y1&action=edit&redlink=1)
+-   [**y2**](/w/index.php?title=svg/attributes/y2&action=edit&redlink=1)
 
-*[[svg/events/load|'''onload''']]: Occurs  when the browser has fully parsed the element and all of its descendants.
+### DOM Interface
 
-The '''SVGLineElement''' object has these methods:
+**The following DOM interface properties & methods should be moved to a proper SVG DOM documentation (i.e. SVGLineElement et. al, see above). However, at the present time, the WebPlatform MediaWiki doesn't allow the necessary changes.**
 
-*[[svg/methods/getBBox|'''getBBox''']]: Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
-*[[svg/methods/getCTM|'''getCTM''']]: Gets  the transformation matrix  that transforms from  the current user units to the viewport coordinate system for the [[svg/properties/nearestViewportElement|'''nearestViewportElement''']] object.
-*[[svg/methods/getScreenCTM|'''getScreenCTM''']]: Gets  the transformation matrix from the current user units to the screen coordinate system.
-*[[svg/methods/getTransformToElement|'''getTransformToElement''']]: Gets  the transformation matrix  that transforms from the user coordinate system on the current element to the user coordinate system on the  specified  target element.
-*[[svg/methods/hasExtension|'''hasExtension''']]: Determines if the specified extension  is supported.
+The **SVGLineElement** object has these events:
 
-The '''SVGLineElement''' object has these properties:
+-   [**onload**](/svg/events/load): Occurs when the browser has fully parsed the element and all of its descendants.
 
-*[[svg/properties/className|'''className''']]: Gets  the names of the classes  that are assigned to this object.
-*[[svg/properties/clipPath|'''clipPath''']]: Sets or retrieves a reference to the SVG graphical object that will be used as the clipping path.
-*[[svg/properties/externalResourcesRequired|'''externalResourcesRequired''']]: Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
-*[[svg/properties/farthestViewportElement|'''farthestViewportElement''']]: Gets  a value that represents the farthest ancestor [[svg/elements/svg|'''svg''']] element.
-*[[svg/attributes/fill|'''fill''']]: Sets or retrieves a value that indicates the color to paint the interior of the given graphical element.
-*[[svg/attributes/fill-opacity|'''fillOpacity''']]: Sets or retrieves a value that specifies the opacity of the painting operation that is used to paint the interior of the current object.
-*[[svg/attributes/fill-rule|'''fillRule''']]: Sets or retrieves a value that indicates the algorithm that is to be used to determine what parts of the canvas are included inside the shape.
-*[[svg/properties/focusable|'''focusable''']]: Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when  a user presses  the Tab key).
-*[[svg/attributes/marker|'''marker''']]: Sets or retrieves a value that specifies the marker symbol that is used for all vertices on the given [[svg/elements/path|'''path''']] element or basic shape.
-*[[svg/attributes/marker-end|'''markerEnd''']]: Sets or retrieves a value that defines the arrowhead or polymarker that is drawn at the final vertex of a given [[svg/elements/path|'''path''']] element or basic shape.
-*[[svg/attributes/marker-mid|'''markerMid''']]: Sets or retrieves a value that defines the arrowhead or polymarker that is drawn at every other vertex (that is, every vertex except the first and last) of a given [[svg/elements/path|'''path''']] element or basic shape.
-*[[svg/attributes/marker-start|'''markerStart''']]: Sets or retrieves a value that defines the arrowhead or polymarker that is drawn at the first vertex of a given [[svg/elements/path|'''path''']] element or basic shape.
-*[[svg/attributes/mask|'''mask''']]: Sets or retrieves a value that indicates a SVG mask.
-*[[svg/properties/nearestViewportElement|'''nearestViewportElement''']]: Gets  a value that indicates which element established the current viewport.
-*[[svg/properties/ownerSVGElement|'''ownerSVGElement''']]: Gets the nearest ancestor [[svg/objects/SVGElement|'''svg''']] element.
-*[[svg/attributes/pointers|'''pointerEvents''']]: Sets or retrieves a value that specifies under what circumstances a given graphics element can be the target element for a pointer event in SVG.
-*[[svg/properties/requiredExtensions|'''requiredExtensions''']]: Gets a white space-delimited list of required language extensions.
-*[[svg/properties/requiredFeatures|'''requiredFeatures''']]: Gets or sets a white space-delimited list of feature strings.
-*[[svg/attributes/stroke|'''stroke''']]: Sets or retrieves a value that indicates the color to paint along the outline of a given graphical element.
-*[[svg/attributes/stroke-dasharray|'''strokeDasharray''']]: Sets or retrieves one or more values that indicate the pattern of dashes and gaps used to stroke paths.
-*[[svg/attributes/stroke-dashoffset|'''strokeDashoffset''']]: Sets or retrieves a value that specifies the distance into the dash pattern to start the dash.
-*[[svg/attributes/stroke-linecap|'''strokeLinecap''']]: Sets or retrieves a value that specifies the shape to be used at the end of open subpaths when they are stroked.
-*[[svg/attributes/stroke-linejoin|'''strokeLinejoin''']]: Sets or retrieves a value that specifies the shape to be used at the corners of paths or basic shapes when they are stroked.
-*[[svg/attributes/stroke-miterlimit|'''strokeMiterlimit''']]: Sets or retrieves a value that indicates the limit on the ratio of the length of miter joins (as specified in the [[svg/attributes/stroke-linejoin|'''strokeLinejoin''']] property).
-*[[svg/attributes/stroke-opacity|'''strokeOpacity''']]: Sets or retrieves a value that specifies the opacity of the painting operation that is used to stroke the current object.
-*[[svg/attributes/stroke-width|'''strokeWidth''']]: Sets or retrieves a value that specifies the width of the stroke on the current object.
-*[[svg/properties/style|'''style''']]: Gets a [[css/cssom/style|'''style''']] object.
-*[[svg/properties/systemLanguage|'''systemLanguage''']]: Gets or sets a comma-separated list of language names.
-*[[svg/properties/transform|'''transform''']]: Gets the value of a [[svg/properties/transform|'''transform''']] attribute.
-*[[svg/properties/viewportElement|'''viewportElement''']]: Gets the element that established the current viewport.
-*[[svg/properties/x1 (SVGLineElement)|'''x1''']]: Gets or sets the x-coordinate for the start of a line.
-*[[svg/properties/x2 (SVGLineElement)|'''x2''']]: Gets or sets the x-coordinate for the end of a line.
-*[[svg/properties/xmlbase|'''xmlbase''']]: Gets or sets the '''base''' attribute on the element.
-*[[svg/properties/xmllang|'''xmllang''']]: Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
-*[[svg/properties/xmlspace|'''xmlspace''']]: Gets or sets a value that indicates whether white space is preserved in character data.
-*[[svg/properties/y1 (SVGLineElement)|'''y1''']]: Gets or sets the y-coordinate for the start of a line.
-*[[svg/properties/y2 (SVGLineElement)|'''y2''']]: Gets or sets the y-coordinate for the end of a line.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=Scalable Vector Graphics: Basic Shapes
-|URL=http://www.w3.org/TR/SVG11/shapes.html#LineElement
-|Status=W3C Recommendation
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=Yes
-|Chrome_prefixed_supported=Unknown
-|Chrome_prefixed_version=
-|Firefox_supported=Yes
-|Firefox_prefixed_supported=Unknown
-|Firefox_prefixed_version=
-|Internet_explorer_supported=Yes
-|Internet_explorer_version=9.0
-|Internet_explorer_prefixed_supported=Unknown
-|Internet_explorer_prefixed_version=
-|Opera_supported=Yes
-|Opera_prefixed_supported=Unknown
-|Opera_prefixed_version=
-|Safari_supported=Yes
-|Safari_version=3.2
-|Safari_prefixed_supported=Unknown
-|Safari_prefixed_version=
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=Yes
-|Android_version=3.0
-|Android_prefixed_supported=Unknown
-|Android_prefixed_version=
-|Blackberry_supported=Yes
-|Blackberry_version=7.0
-|Blackberry_prefixed_supported=Unknown
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=Yes
-|Chrome_mobile_prefixed_supported=Unknown
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=Yes
-|Firefox_mobile_prefixed_supported=Unknown
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=Yes
-|IE_mobile_version=10
-|IE_mobile_prefixed_supported=Unknown
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=Yes
-|Opera_mobile_prefixed_supported=Unknown
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=Yes
-|Opera_mini_version=5.0
-|Opera_mini_prefixed_supported=Unknown
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=Yes
-|Safari_mobile_prefixed_supported=Unknown
-|Safari_mobile_prefixed_version=
-}}
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|SVG}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+The **SVGLineElement** object has these methods:
+
+-   [**getBBox**](/svg/methods/getBBox): Gets the bounding box, in current user space, of the geometry of all contained graphics elements.
+-   [**getCTM**](/svg/methods/getCTM): Gets the transformation matrix that transforms from the current user units to the viewport coordinate system for the [**nearestViewportElement**](/svg/properties/nearestViewportElement) object.
+-   [**getScreenCTM**](/svg/methods/getScreenCTM): Gets the transformation matrix from the current user units to the screen coordinate system.
+-   [**getTransformToElement**](/svg/methods/getTransformToElement): Gets the transformation matrix that transforms from the user coordinate system on the current element to the user coordinate system on the specified target element.
+-   [**hasExtension**](/svg/methods/hasExtension): Determines if the specified extension is supported.
+
+The **SVGLineElement** object has these properties:
+
+-   [**className**](/svg/properties/className): Gets the names of the classes that are assigned to this object.
+-   [**clipPath**](/svg/properties/clipPath): Sets or retrieves a reference to the SVG graphical object that will be used as the clipping path.
+-   [**externalResourcesRequired**](/svg/properties/externalResourcesRequired): Gets a value that indicates whether referenced resources that are not in the current document are required to correctly render a given element.
+-   [**farthestViewportElement**](/svg/properties/farthestViewportElement): Gets a value that represents the farthest ancestor [**svg**](/svg/elements/svg) element.
+-   [**fill**](/svg/attributes/fill): Sets or retrieves a value that indicates the color to paint the interior of the given graphical element.
+-   [**fillOpacity**](/svg/attributes/fill-opacity): Sets or retrieves a value that specifies the opacity of the painting operation that is used to paint the interior of the current object.
+-   [**fillRule**](/svg/attributes/fill-rule): Sets or retrieves a value that indicates the algorithm that is to be used to determine what parts of the canvas are included inside the shape.
+-   [**focusable**](/svg/properties/focusable): Determines if an element can acquire keyboard focus (that is, receive keyboard events) and be a target for field-to-field navigation actions (such as when a user presses the Tab key).
+-   [**marker**](/svg/attributes/marker): Sets or retrieves a value that specifies the marker symbol that is used for all vertices on the given [**path**](/svg/elements/path) element or basic shape.
+-   [**markerEnd**](/svg/attributes/marker-end): Sets or retrieves a value that defines the arrowhead or polymarker that is drawn at the final vertex of a given [**path**](/svg/elements/path) element or basic shape.
+-   [**markerMid**](/svg/attributes/marker-mid): Sets or retrieves a value that defines the arrowhead or polymarker that is drawn at every other vertex (that is, every vertex except the first and last) of a given [**path**](/svg/elements/path) element or basic shape.
+-   [**markerStart**](/svg/attributes/marker-start): Sets or retrieves a value that defines the arrowhead or polymarker that is drawn at the first vertex of a given [**path**](/svg/elements/path) element or basic shape.
+-   [**mask**](/svg/attributes/mask): Sets or retrieves a value that indicates a SVG mask.
+-   [**nearestViewportElement**](/svg/properties/nearestViewportElement): Gets a value that indicates which element established the current viewport.
+-   [**ownerSVGElement**](/svg/properties/ownerSVGElement): Gets the nearest ancestor [**svg**](/svg/objects/SVGElement) element.
+-   [**pointerEvents**](/svg/attributes/pointers): Sets or retrieves a value that specifies under what circumstances a given graphics element can be the target element for a pointer event in SVG.
+-   [**requiredExtensions**](/svg/properties/requiredExtensions): Gets a white space-delimited list of required language extensions.
+-   [**requiredFeatures**](/svg/properties/requiredFeatures): Gets or sets a white space-delimited list of feature strings.
+-   [**stroke**](/svg/attributes/stroke): Sets or retrieves a value that indicates the color to paint along the outline of a given graphical element.
+-   [**strokeDasharray**](/svg/attributes/stroke-dasharray): Sets or retrieves one or more values that indicate the pattern of dashes and gaps used to stroke paths.
+-   [**strokeDashoffset**](/svg/attributes/stroke-dashoffset): Sets or retrieves a value that specifies the distance into the dash pattern to start the dash.
+-   [**strokeLinecap**](/svg/attributes/stroke-linecap): Sets or retrieves a value that specifies the shape to be used at the end of open subpaths when they are stroked.
+-   [**strokeLinejoin**](/svg/attributes/stroke-linejoin): Sets or retrieves a value that specifies the shape to be used at the corners of paths or basic shapes when they are stroked.
+-   [**strokeMiterlimit**](/svg/attributes/stroke-miterlimit): Sets or retrieves a value that indicates the limit on the ratio of the length of miter joins (as specified in the [**strokeLinejoin**](/svg/attributes/stroke-linejoin) property).
+-   [**strokeOpacity**](/svg/attributes/stroke-opacity): Sets or retrieves a value that specifies the opacity of the painting operation that is used to stroke the current object.
+-   [**strokeWidth**](/svg/attributes/stroke-width): Sets or retrieves a value that specifies the width of the stroke on the current object.
+-   [**style**](/svg/properties/style): Gets a [**style**](/css/cssom/style) object.
+-   [**systemLanguage**](/svg/properties/systemLanguage): Gets or sets a comma-separated list of language names.
+-   [**transform**](/svg/properties/transform): Gets the value of a [**transform**](/svg/properties/transform) attribute.
+-   [**viewportElement**](/svg/properties/viewportElement): Gets the element that established the current viewport.
+-   [**x1**](/svg/properties/x1_(SVGLineElement)): Gets or sets the x-coordinate for the start of a line.
+-   [**x2**](/svg/properties/x2_(SVGLineElement)): Gets or sets the x-coordinate for the end of a line.
+-   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
+-   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
+-   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
+-   [**y1**](/svg/properties/y1_(SVGLineElement)): Gets or sets the y-coordinate for the start of a line.
+-   [**y2**](/svg/properties/y2_(SVGLineElement)): Gets or sets the y-coordinate for the end of a line.
+
+## Related specifications
+
+Specification
+:   Status
+[Scalable Vector Graphics: Basic Shapes](http://www.w3.org/TR/SVG11/shapes.html#LineElement)
+:   W3C Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,71 +1,71 @@
-{{Page_Title}}
-{{Flags
-|State=In Progress
-|Editorial notes=waiting for property and method descriptions to fill description fields... Not sure if all properties and methods have been listed.
-Missing document.createTreeWalker method.
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Provides an object that can be used to traverse filtered lists of nodes or elements in a document.}}
-{{API_Object}}
-{{Examples_Section
-|Not_required=Yes
-|Examples={{Single Example
-|Language=JavaScript
-|Code=&lt;div id{{=}}"contentarea"&gt;
-&lt;p&gt;Some &lt;span&gt;text&lt;/span&gt;&lt;/p&gt;
-&lt;b&gt;Bold text&lt;/b&gt;
-&lt;/div&gt;
+---
+title: TreeWalker
+tags:
+  - API
+  - Objects
+  - DOM
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+notes:
+  - "waiting for property and method descriptions to fill description fields... Not sure if all properties and methods have been listed.\nMissing document.createTreeWalker method."
+summary: 'Provides an object that can be used to traverse filtered lists of nodes or elements in a document.'
+uri: dom/TreeWalker
 
-&lt;script type{{=}}"text/javascript"&gt;
+---
+# TreeWalker
 
-var rootnode{{=}}document.getElementById('contentarea');
-var walker{{=}}document.createTreeWalker(rootnode, NodeFilter.SHOW_ELEMENT, null, false);
+## Summary
 
-//Alert the starting node Tree Walker currently points to (root node)
-alert(walker.currentNode.tagName); //alerts DIV (with id{{=}}contentarea)
+Provides an object that can be used to traverse filtered lists of nodes or elements in a document.
 
-//Step through and alert all child nodes
-while (walker.nextNode())
-alert(walker.currentNode.tagName) //alerts P, SPAN, and B.
+## Properties
 
-//Go back to the first child node of the collection and alert it
-walker.currentNode{{=}}rootnode; //reset TreeWalker pointer to point to root node
-alert(walker.firstChild().tagName); //alerts P
+API Name
+:   Summary
+[currentNode](/dom/TreeWalker/currentNode)
+:   Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.
 
-&lt;/script&gt;
-}}
-}}
-{{Notes_Section
-|Notes====Remarks===
-The '''TreeWalker''' is dynamic, reflecting the state of the document as it is edited or changed.
-|Import_Notes====Standards information===
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}182712 Document Object Model (DOM) Level 2 Traversal and Range Specification], Section 1.2
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM
-|URL=http://dom.spec.whatwg.org/#treeWalker
-|Status=Living Standard
-|Relevant_changes=Removed the expandEntityReferences proptery
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MDN, MSDN
-|MDN_link=[https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker TreeWalker]
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/ff974360(v=vs.85).aspx TreeWalker Object]
-|HTML5Rocks_link=
-}}
+## Methods
+
+API Name
+:   Summary
+[firstChild](/dom/TreeWalker/firstChild)
+:   Retrieves a reference to the first child of the current node of the filtered TreeWalker hierarchy and updates currentNode.
+[lastChild](/dom/TreeWalker/lastChild)
+:   Retrieves a reference to the last child of the current node of the filtered TreeWalker hierarchy and updates currentNode.
+[nextSibling](/dom/TreeWalker/nextSibling)
+:   Retrieves the next sibling of the current node in the filtered TreeWalker hierarchy and updates currentNode.
+[parentNode](/dom/TreeWalker/parentNode)
+:   Retrieves the parent object in the document hierarchy relative to the current node and updates currentNode.
+[previousSibling](/dom/TreeWalker/previousSibling)
+:   Retrieves the previous sibling of the current node in the filtered TreeWalker hierarchy and updates currentNode.
+
+## Events
+
+*No events.*
+
+## Notes
+
+### Remarks
+
+The **TreeWalker** is dynamic, reflecting the state of the document as it is edited or changed.
+
+### Standards information
+
+-   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
+
+## Related specifications
+
+Specification
+:   Status
+[DOM](http://dom.spec.whatwg.org/#treeWalker)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[TreeWalker](https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker) Article]
+
+Portions of this content come from the Microsoft Developer Network: [[TreeWalker Object](http://msdn.microsoft.com/en-us/library/ie/ff974360(v=vs.85).aspx) Article]
+

@@ -1,58 +1,66 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Retrieves a string describing the exception that occurred.}}
-{{API_Object_Property
-|Property_applies_to=dom/DOMException
-|Read_only=Yes
-|Example_object_name=exception
-|Return_value_name=exceptionMessage
-|Javascript_data_type=String
-|Return_value_description=A short description of the exception.
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=function getExceptionMsg(e) {
+---
+title: message
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves a string describing the exception that occurred.'
+uri: dom/DOMException/message
+
+---
+# message
+
+## Summary
+
+Retrieves a string describing the exception that occurred.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DOMException](/dom/DOMException)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var exceptionMessage = exception.message;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+A short description of the exception.
+
+## Examples
+
+``` {.js}
+function getExceptionMsg(e) {
 //retrieve text for DOMException
 var exceptionMsg = e.message;
 return exceptionMsg;
 }
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 2 Core
-|URL=http://www.w3.org/TR/DOM-Level-2-Core/
-|Status=Recommendation
-|Relevant_changes=Section 1.2
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[dom/RangeException|RangeException]]</code>
-*<code>[[dom/EventException|EventException]]</code>
-*<code>[[dom/Element/code|code]]</code>
-}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
+:   Recommendation
+
+## See also
+
+### Related pages (MSDN)
+
+-   `RangeException`
+-   `EventException`
+-   `code`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

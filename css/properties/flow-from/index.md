@@ -1,44 +1,71 @@
-{{Page_Title|flow-from}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Flows content from a [[css/concepts/named_flow|named flow]] (specified by a corresponding [[css/properties/flow-into|'''flow-into''']]) through selected elements to form a dynamic [[css/concepts/region_chain|chain]] of layout [[css/concepts/region|''regions'']].}}
-{{CSS Property
-|Initial value=none
-|Applies to=Non-replaced block containers. (May expand in the future to include other containers.)
-|Inherited=No
-|Media=visual
-|Computed value=as specified
-|Animatable=No
-|CSS object model property=flowFrom
-|CSS percentages=N/A
-|Values={{CSS Property Value
-|Data Type=<ident>
-|Description=Identifier that replaces content from specified named flow, flowing it from one [[css/concepts/region|''region'']] element to another.
-}}{{CSS Property Value
-|Data Type=none
-|Description=This container is not a region. Keeps element as is, and does not transform it into a region and replace its content.
-}}
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=CSS
-|Description=The following CSS...
-|Code=article.content {
+---
+title: flow-from
+tags:
+  0: CSS
+  1: Properties
+  3: CSS-Regions
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Flows content from a named flow (specified by a corresponding flow-into) through selected elements to form a dynamic chain of layout regions.'
+uri: css/properties/flow-from
+
+---
+# flow-from
+
+## Summary
+
+Flows content from a named flow (specified by a corresponding flow-into) through selected elements to form a dynamic chain of layout regions.
+
+## Overview table
+
+[Initial value](/css/concepts/initial_value)
+:   `none`
+Applies to
+:   Non-replaced block containers. (May expand in the future to include other containers.)
+[Inherited](/css/concepts/inherited)
+:   No
+Media
+:   visual
+[Computed value](/css/concepts/computed_value)
+:   as specified
+Animatable
+:   No
+[CSS Object Model Property](/css/concepts/cssom)
+:   `flowFrom`
+Percentages
+:   N/A
+
+## Syntax
+
+-   `flow-from: <ident>`
+-   `flow-from: none`
+
+## Values
+
+\<ident\>
+:   Identifier that replaces content from specified named flow, flowing it from one [*region*](/css/concepts/region) element to another.
+
+none
+:   This container is not a region. Keeps element as is, and does not transform it into a region and replace its content.
+
+## Examples
+
+The following CSS...
+
+``` {.css}
+article.content {
     flow-into: main;
 }
 
 section.layout > div {
     flow-from: main;
 }
-}}{{Single Example
-|Language=HTML
-|Description=...flows the article through the series of '''div''' elements, transforming them into [[css/concepts/region|''regions'']] and replacing the placeholder text:
-|Code=<syntaxhighlight language="html">
+```
+
+...flows the article through the series of **div** elements, transforming them into [*regions*](/css/concepts/region) and replacing the placeholder text:
+
+``` {.html}
+
 
 <!-- CONTENT -->
 
@@ -55,105 +82,92 @@ section.layout > div {
   <div>Region #4</div>
   <div>Region #5</div>
 </section>
+```
 
-</syntaxhighlight>
-}}
-}}
-{{Notes_Section
-|Usage=While [[css/concepts/region|regions]] can be positioned arbitrarily on the screen, their order in the document determines the order in which content flows. Regions otherwise do not have to appear as a continuous series within the DOM.
+</pre>
 
-Descendants of any element whose [[css/properties/flow-from|'''flow-from''']] specifies a named flow are suppressed from display, making their own [[css/properties/flow-from|'''flow-from''']] values irrelevant.
+## Usage
 
-For an overview of CSS Regions, see [[tutorials/css-regions|Using CSS Regions to flow content through a layout]].
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=CSS Regions Module Level 1
-|URL=http://www.w3.org/TR/css3-regions/
-|Status=W3C Working Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows={{Compatibility Table Desktop Row
-|Chrome_supported=No
-|Chrome_version=
-|Chrome_prefixed_supported=No
-|Chrome_prefixed_version=
-|Firefox_supported=No
-|Firefox_version=
-|Firefox_prefixed_supported=No
-|Firefox_prefixed_version=
-|Internet_explorer_supported=No
-|Internet_explorer_version=
-|Internet_explorer_prefixed_supported=Yes
-|Internet_explorer_prefixed_version=8
-|Opera_supported=No
-|Opera_version=
-|Opera_prefixed_supported=No
-|Opera_prefixed_version=
-|Safari_supported=No
-|Safari_version=
-|Safari_prefixed_supported=Yes
-|Safari_prefixed_version=534
-}}
-|Mobile_rows={{Compatibility Table Mobile Row
-|Android_supported=No
-|Android_version=
-|Android_prefixed_supported=No
-|Android_prefixed_version=
-|Blackberry_supported=No
-|Blackberry_version=
-|Blackberry_prefixed_supported=No
-|Blackberry_prefixed_version=
-|Chrome_mobile_supported=No
-|Chrome_mobile_version=
-|Chrome_mobile_prefixed_supported=No
-|Chrome_mobile_prefixed_version=
-|Firefox_mobile_supported=No
-|Firefox_mobile_version=
-|Firefox_mobile_prefixed_supported=No
-|Firefox_mobile_prefixed_version=
-|IE_mobile_supported=No
-|IE_mobile_version=
-|IE_mobile_prefixed_supported=No
-|IE_mobile_prefixed_version=
-|Opera_mobile_supported=No
-|Opera_mobile_version=
-|Opera_mobile_prefixed_supported=No
-|Opera_mobile_prefixed_version=
-|Opera_mini_supported=No
-|Opera_mini_version=
-|Opera_mini_prefixed_supported=No
-|Opera_mini_prefixed_version=
-|Safari_mobile_supported=No
-|Safari_mobile_version=
-|Safari_mobile_prefixed_supported=Yes
-|Safari_mobile_prefixed_version=537
-}}
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=8
-|Note=Supports only [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 5.
-}}{{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=10
-|Note=Supports only [[css/properties/flow-into|'''flow-into''']] and [[css/properties/flow-from|'''flow-from''']] properties in Compatibility Mode 9.
-}}
-}}
-{{See_Also_Section
-|Topic_clusters=Regions
-|External_links=* W3C editor's draft: [http://dev.w3.org/csswg/css3-regions/ CSS Regions Module Level 3]
-* Adobe Web Standards: [http://html.adobe.com/webstandards/cssregions CSS Regions]
-* Adobe Developer's Network: [http://www.adobe.com/devnet/html5/articles/css3-regions.html CSS3 Regions: Rich page layout with HTML and CSS3]
-* [http://adobe.github.com/web-platform/samples/css-regions Sample pages]
-* [http://codepen.io/collection/jabto Additional examples on codpen.io]. This experimental feature is in WebKit (Chrome and Safari) and Trident (Internet Explorer). Enable experimental features to see how CSS Regions works.
-}}
-{{Topics|CSS, CSS-Regions}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+     While regions can be positioned arbitrarily on the screen, their order in the document determines the order in which content flows. Regions otherwise do not have to appear as a continuous series within the DOM.
+
+Descendants of any element whose ****flow-from**** specifies a named flow are suppressed from display, making their own ****flow-from**** values irrelevant.
+
+For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
+
+## Related specifications
+
+Specification
+:   Status
+[CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
+:   W3C Working Draft
+
+## See also
+
+### Related articles
+
+#### Regions
+
+-   [CSS Regions API](/apis/css-regions)
+
+-   [CSSRegionStyleRule](/apis/css-regions/CSSRegionStyleRule)
+
+-   [NamedFlow](/apis/css-regions/NamedFlow)
+
+-   [firstEmptyRegionIndex](/apis/css-regions/NamedFlow/firstEmptyRegionIndex)
+
+-   [getContent()](/apis/css-regions/NamedFlow/getContent)
+
+-   [getRegions()](/apis/css-regions/NamedFlow/getRegions)
+
+-   [getRegionsByContent()](/apis/css-regions/NamedFlow/getRegionsByContent)
+
+-   [name](/apis/css-regions/NamedFlow/name)
+
+-   [overset](/apis/css-regions/NamedFlow/overset)
+
+-   [regionfragmentchange](/apis/css-regions/NamedFlow/regionfragmentchange)
+
+-   [regionoversetchange](/apis/css-regions/NamedFlow/regionoversetchange)
+
+-   [NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
+
+-   [namedItem()](/apis/css-regions/NamedFlowCollection/namedItem)
+
+-   [Region](/apis/css-regions/Region)
+
+-   [getComputedRegionStyle()](/apis/css-regions/Region/getComputedRegionStyle)
+
+-   [getRegionFlowRanges()](/apis/css-regions/Region/getRegionFlowRanges)
+
+-   [regionOverset](/apis/css-regions/Region/regionOverset)
+
+-   [@region](/css/atrules/@region)
+
+-   [content fragments](/css/concepts/fragment)
+
+-   [named flows](/css/concepts/named_flow)
+
+-   [overset content](/css/concepts/overset)
+
+-   [regions](/css/concepts/region)
+
+-   [region chains](/css/concepts/region_chain)
+
+-   [break-after](/css/properties/break-after)
+
+-   [break-before](/css/properties/break-before)
+
+-   [break-inside](/css/properties/break-inside)
+
+-   **flow-from**
+
+-   [flow-into](/css/properties/flow-into)
+
+### External resources
+
+-   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
+-   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
+-   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
+-   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
+-   [Additional examples on codpen.io](http://codepen.io/collection/jabto). This experimental feature is in WebKit (Chrome and Safari) and Trident (Internet Explorer). Enable experimental features to see how CSS Regions works.
+

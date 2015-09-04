@@ -1,48 +1,45 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Unreviewed MSDN import
-|Checked_Out=No
-|High-level issues=Needs Flags, Stub
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: kernelUnitLengthY
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'Unreviewed MSDN import'
+uri: svg/properties/kernelUnitLengthY
 
-===Remarks===
+---
+# kernelUnitLengthY
 
-For JavaScript, the '''kernelUnitLengthY''' property represents ''dy''. For HTML, the '''kernelUnitLength''' attribute is used to set both ''dx'' and ''dy'', as described next.
+## Notes
 
-For the attribute '''kernelUnitLength {{=}} "&lt;''' ''number optional-number'' '''&gt;"''', the first number is the ''dx'' value. The second number is the ''dy'' value. If the ''dy'' value is not specified, it defaults to the same value as ''dx''.
+### Remarks
 
-'''kernelUnitLength''' indicates the intended distance in current filter units (as determined by the value of the [[svg/properties/primitiveUnits|'''primitiveUnits''']] attribute) for ''dx'' and ''dy'', respectively, in the surface normal calculation formulas. By specifying value(s) for '''kernelUnitLength''', the kernel becomes defined in a scalable, abstract coordinate system. If '''kernelUnitLength''' is not specified, the ''dx'' and ''dy'' values should represent very small deltas relative to a given (''x'', ''y'') position.
+For JavaScript, the **kernelUnitLengthY** property represents *dy*. For HTML, the **kernelUnitLength** attribute is used to set both *dx* and *dy*, as described next.
 
-For some level of consistency across display media and browsers, it is necessary that a value be provided for at least one of [[svg/methods/setFilterRes|'''filterRes''']] and '''kernelUnitLength'''.
-|Import_Notes=
+For the attribute **kernelUnitLength = "\<** *number optional-number* **\>"**, the first number is the *dx* value. The second number is the *dy* value. If the *dy* value is not specified, it defaults to the same value as *dx*.
 
-===Syntax===
+**kernelUnitLength** indicates the intended distance in current filter units (as determined by the value of the [**primitiveUnits**](/svg/properties/primitiveUnits) attribute) for *dx* and *dy*, respectively, in the surface normal calculation formulas. By specifying value(s) for **kernelUnitLength**, the kernel becomes defined in a scalable, abstract coordinate system. If **kernelUnitLength** is not specified, the *dx* and *dy* values should represent very small deltas relative to a given (*x*, *y*) position.
 
-===Standards information===
+For some level of consistency across display media and browsers, it is necessary that a value be provided for at least one of [**filterRes**](/svg/methods/setFilterRes) and **kernelUnitLength**.
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}226062 Scalable Vector Graphics: Filter Effects], Section 15.25.12
+### Syntax
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.12
 
-*[[svg/elements/feConvolveMatrix|'''SVGFEConvolveMatrixElement''']]
-*[[svg/elements/feDiffuseLighting|'''SVGFEDiffuseLightingElement''']]
-*[[svg/elements/feSpecularLighting|'''SVGFESpecularLightingElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+## See also
+
+### Related pages (MSDN)
+
+-   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)
+-   [**SVGFEDiffuseLightingElement**](/svg/elements/feDiffuseLighting)
+-   [**SVGFESpecularLightingElement**](/svg/elements/feSpecularLighting)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

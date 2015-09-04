@@ -1,41 +1,39 @@
-{{Page Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Notes=
+---
+title: setCurrentTime
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/methods/setCurrentTime
 
-===Remarks===
+---
+# setCurrentTime
 
-If you call the '''setCurrentTime''' method before the document timeline has begun (for example, by a script that is running in a [[svg/elements/script|'''script''']] element before the [[svg/events/load|'''SVGLoad''']] event for the document is dispatched), the value of ''seconds'' during the last call to '''setCurrentTime''' is  the current time.
-|Import_Notes=
+## Notes
 
-===Syntax===
+### Remarks
 
- var retval = SVGSVGElement.setCurrentTime(seconds);
+If you call the **setCurrentTime** method before the document timeline has begun (for example, by a script that is running in a [**script**](/svg/elements/script) element before the [**SVGLoad**](/svg/events/load) event for the document is dispatched), the value of *seconds* during the last call to **setCurrentTime** is the current time.
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}204733 Scalable Vector Graphics: Document Structure], Section 5.11.2
+    var retval = SVGSVGElement.setCurrentTime(seconds);
 
-}}
-{{See_Also_Section
-|Manual_sections=
+### Standards information
 
-===Related pages (MSDN)===
+-   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.2
 
-*[[svg/elements/svg|'''SVGSVGElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
+## See also
 
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGSVGElement**](/svg/elements/svg)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

@@ -1,80 +1,76 @@
-{{Page Title}}
-{{Flags
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-|State=Not Ready
-|Editorial notes=No editing form
-}}
-{{Standardization_Status|}}
-{{API_Name}}
-{{Topics|SVG}}
-{{Notes_Section
-|Import_Notes=
+---
+title: y
+tags:
+  - SVG
+readiness: 'Not Ready'
+standardization_status: Unknown
+notes:
+  - 'No editing form'
+uri: svg/properties/y
 
-===Syntax===
+---
+# y
 
-===Standards information===
+### Syntax
 
-*[http://go.microsoft.com/fwlink/p/?linkid{{=}}190918 Scalable Vector Graphics (SVG) 1.1], Appendix M
+### Standards information
 
-}}
-{{See_Also_Section
-|Manual_sections=
+-   [Scalable Vector Graphics (SVG) 1.1](http://go.microsoft.com/fwlink/p/?linkid=190918), Appendix M
 
-===Related pages (MSDN)===
+## See also
 
-*[[svg/elements/feBlend|'''SVGFEBlendElement''']]
-*[[svg/elements/feColorMatrix|'''SVGFEColorMatrixElement''']]
-*[[svg/elements/feComponentTransfer|'''SVGFEComponentTransferElement''']]
-*[[svg/elements/feComposite|'''SVGFECompositeElement''']]
-*[[svg/elements/feConvolveMatrix|'''SVGFEConvolveMatrixElement''']]
-*[[svg/elements/feDiffuseLighting|'''SVGFEDiffuseLightingElement''']]
-*[[svg/elements/feDisplacementMap|'''SVGFEDisplacementMapElement''']]
-*[[svg/elements/feFlood|'''SVGFEFloodElement''']]
-*[[svg/elements/feGaussianBlur|'''SVGFEGaussianBlurElement''']]
-*[[svg/elements/feImage|'''SVGFEImageElement''']]
-*[[svg/elements/feMerge|'''SVGFEMergeElement''']]
-*[[svg/elements/feMorphology|'''SVGFEMorphologyElement''']]
-*[[svg/elements/feOffset|'''SVGFEOffsetElement''']]
-*[[svg/elements/fePointLight|'''SVGFEPointLightElement''']]
-*[[svg/elements/feSpecularLighting|'''SVGFESpecularLightingElement''']]
-*[[svg/elements/feSpotlight|'''SVGFESpotLightElement''']]
-*[[svg/elements/feTile|'''SVGFETileElement''']]
-*[[svg/elements/feTurbulence|'''SVGFETurbulenceElement''']]
-*[[svg/elements/filter|'''SVGFilterElement''']]
-*[[svg/elements/image|'''SVGImageElement''']]
-*[[svg/elements/mask|'''SVGMaskElement''']]
-*[[svg/objects/SVGPathSegArcAbs|'''SVGPathSegArcAbs''']]
-*[[svg/objects/SVGPathSegArcRel|'''SVGPathSegArcRel''']]
-*[[svg/objects/SVGPathSegCurvetoCubicAbs|'''SVGPathSegCurvetoCubicAbs''']]
-*[[svg/objects/SVGPathSegCurvetoCubicRel|'''SVGPathSegCurvetoCubicRel''']]
-*[[svg/objects/SVGPathSegCurvetoCubicSmoothAbs|'''SVGPathSegCurvetoCubicSmoothAbs''']]
-*[[svg/objects/SVGPathSegCurvetoCubicSmoothRel|'''SVGPathSegCurvetoCubicSmoothRel''']]
-*[[svg/objects/SVGPathSegCurvetoQuadraticAbs|'''SVGPathSegCurvetoQuadraticAbs''']]
-*[[svg/objects/SVGPathSegCurvetoQuadraticRel|'''SVGPathSegCurvetoQuadraticRel''']]
-*[[svg/objects/SVGPathSegCurvetoQuadraticSmoothAbs|'''SVGPathSegCurvetoQuadraticSmoothAbs''']]
-*[[svg/objects/SVGPathSegCurvetoQuadraticSmoothRel|'''SVGPathSegCurvetoQuadraticSmoothRel''']]
-*[[svg/objects/SVGPathSegLinetoAbs|'''SVGPathSegLinetoAbs''']]
-*[[svg/objects/SVGPathSegLinetoRel|'''SVGPathSegLinetoRel''']]
-*[[svg/objects/SVGPathSegLinetoVerticalAbs|'''SVGPathSegLinetoVerticalAbs''']]
-*[[svg/objects/SVGPathSegLinetoVerticalRel|'''SVGPathSegLinetoVerticalRel''']]
-*[[svg/objects/SVGPathSegMovetoAbs|'''SVGPathSegMovetoAbs''']]
-*[[svg/objects/SVGPathSegMovetoRel|'''SVGPathSegMovetoRel''']]
-*[[svg/elements/patterrn|'''SVGPatternElement''']]
-*[[svg/objects/SVGPoint|'''SVGPoint''']]
-*[[svg/objects/SVGRect|'''SVGRect''']]
-*[[svg/elements/rect|'''SVGRectElement''']]
-*[[svg/elements/svg|'''SVGSVGElement''']]
-*[[svg/elements/text|'''SVGTextElement''']]
-*[[svg/elements/textPositioning|'''SVGTextPositioningElement''']]
-*[[svg/elements/tspan|'''SVGTSpanElement''']]
-*[[svg/elements/use|'''SVGUseElement''']]
-}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|MDN_link=
-|HTML5Rocks_link=
-}}
-[[Category:SVG]]
+### Related pages (MSDN)
+
+-   [**SVGFEBlendElement**](/svg/elements/feBlend)
+-   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)
+-   [**SVGFEComponentTransferElement**](/svg/elements/feComponentTransfer)
+-   [**SVGFECompositeElement**](/svg/elements/feComposite)
+-   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)
+-   [**SVGFEDiffuseLightingElement**](/svg/elements/feDiffuseLighting)
+-   [**SVGFEDisplacementMapElement**](/svg/elements/feDisplacementMap)
+-   [**SVGFEFloodElement**](/svg/elements/feFlood)
+-   [**SVGFEGaussianBlurElement**](/svg/elements/feGaussianBlur)
+-   [**SVGFEImageElement**](/svg/elements/feImage)
+-   [**SVGFEMergeElement**](/svg/elements/feMerge)
+-   [**SVGFEMorphologyElement**](/svg/elements/feMorphology)
+-   [**SVGFEOffsetElement**](/svg/elements/feOffset)
+-   [**SVGFEPointLightElement**](/svg/elements/fePointLight)
+-   [**SVGFESpecularLightingElement**](/svg/elements/feSpecularLighting)
+-   [**SVGFESpotLightElement**](/svg/elements/feSpotlight)
+-   [**SVGFETileElement**](/svg/elements/feTile)
+-   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)
+-   [**SVGFilterElement**](/svg/elements/filter)
+-   [**SVGImageElement**](/svg/elements/image)
+-   [**SVGMaskElement**](/svg/elements/mask)
+-   [**SVGPathSegArcAbs**](/svg/objects/SVGPathSegArcAbs)
+-   [**SVGPathSegArcRel**](/svg/objects/SVGPathSegArcRel)
+-   [**SVGPathSegCurvetoCubicAbs**](/svg/objects/SVGPathSegCurvetoCubicAbs)
+-   [**SVGPathSegCurvetoCubicRel**](/svg/objects/SVGPathSegCurvetoCubicRel)
+-   [**SVGPathSegCurvetoCubicSmoothAbs**](/svg/objects/SVGPathSegCurvetoCubicSmoothAbs)
+-   [**SVGPathSegCurvetoCubicSmoothRel**](/svg/objects/SVGPathSegCurvetoCubicSmoothRel)
+-   [**SVGPathSegCurvetoQuadraticAbs**](/svg/objects/SVGPathSegCurvetoQuadraticAbs)
+-   [**SVGPathSegCurvetoQuadraticRel**](/svg/objects/SVGPathSegCurvetoQuadraticRel)
+-   [**SVGPathSegCurvetoQuadraticSmoothAbs**](/svg/objects/SVGPathSegCurvetoQuadraticSmoothAbs)
+-   [**SVGPathSegCurvetoQuadraticSmoothRel**](/svg/objects/SVGPathSegCurvetoQuadraticSmoothRel)
+-   [**SVGPathSegLinetoAbs**](/svg/objects/SVGPathSegLinetoAbs)
+-   [**SVGPathSegLinetoRel**](/svg/objects/SVGPathSegLinetoRel)
+-   [**SVGPathSegLinetoVerticalAbs**](/svg/objects/SVGPathSegLinetoVerticalAbs)
+-   [**SVGPathSegLinetoVerticalRel**](/svg/objects/SVGPathSegLinetoVerticalRel)
+-   [**SVGPathSegMovetoAbs**](/svg/objects/SVGPathSegMovetoAbs)
+-   [**SVGPathSegMovetoRel**](/svg/objects/SVGPathSegMovetoRel)
+-   [**SVGPatternElement**](/svg/elements/patterrn)
+-   [**SVGPoint**](/svg/objects/SVGPoint)
+-   [**SVGRect**](/svg/objects/SVGRect)
+-   [**SVGRectElement**](/svg/elements/rect)
+-   [**SVGSVGElement**](/svg/elements/svg)
+-   [**SVGTextElement**](/svg/elements/text)
+-   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
+-   [**SVGTSpanElement**](/svg/elements/tspan)
+-   [**SVGUseElement**](/svg/elements/use)
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

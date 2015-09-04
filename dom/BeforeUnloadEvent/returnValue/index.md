@@ -1,65 +1,62 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-|Content=Examples Needed
-}}
-{{Standardization_Status|W3C Working Draft}}
-{{API_Name}}
-{{Summary_Section|Gets or sets a value that indicates whether to warn the user prior to navigating away from a page.}}
-{{API_Object_Property
-|Property_applies_to=dom/BeforeUnloadEvent
-|Read_only=No
-|Example_object_name=event
-|Return_value_name=returnValue
-|Javascript_data_type=String
-|Return_value_description=The text that will be shown to the user.
-|Example_value_name=preventNavigationReason
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=//set returnValue to custom string
+---
+title: returnValue
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Gets or sets a value that indicates whether to warn the user prior to navigating away from a page.'
+uri: dom/BeforeUnloadEvent/returnValue
+
+---
+# returnValue
+
+## Summary
+
+Gets or sets a value that indicates whether to warn the user prior to navigating away from a page.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/BeforeUnloadEvent](/dom/BeforeUnloadEvent)</span></span>
+
+## Syntax
+
+``` {.js}
+var returnValue = event.returnValue;
+event.returnValue = preventNavigationReason;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+
+The text that will be shown to the user.
+
+## Examples
+
+``` {.js}
+//set returnValue to custom string
 window.onbeforeunload = function (e) {
     e.returnValue = "About to navigate away from this page";
 };
-}}
-}}
-{{Notes_Section
-|Usage=The [[dom/BeforeUnloadEvent|'''BeforeUnloadEvent''']] allows you to warn a user who is navigating away from a page or closing the browser. Set the return value to false or a string value to cancel the document unload event. You can also return a string or '''Boolean''' value from the event handler to display a message to the user, who is asked to confirm that they want to unload the document.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=HTML5
-|URL=http://www.w3.org/TR/html5/
-|Status=Working Draft
-|Relevant_changes=Section 5.10.10
-}}{{Related Specification
-|Name=WHATWG HTML
-|URL=http://www.whatwg.org/specs/web-apps/current-work/multipage
-|Status=Living Standard
-|Relevant_changes=Section 5.10.10
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows={{Compatibility Notes Row
-|Browser=Internet Explorer
-|Version=9 and later
-|Note=The warning dialog box is easier to read  than in earlier versions.  In the improved dialog box, it is easier to distinguish the default text from text provided by the website, and large buttons clearly indicate how to stay on the page or navigate away.
-}}
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+```
+
+## Usage
+
+     The BeforeUnloadEvent allows you to warn a user who is navigating away from a page or closing the browser. Set the return value to false or a string value to cancel the document unload event. You can also return a string or Boolean value from the event handler to display a message to the user, who is asked to confirm that they want to unload the document.
+
+## Related specifications
+
+Specification
+:   Status
+[HTML5](http://www.w3.org/TR/html5/)
+:   Working Draft
+[WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
+:   Living Standard
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

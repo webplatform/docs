@@ -1,24 +1,42 @@
-{{Page_Title}}
-{{Flags
-|State=Ready to Use
-|Checked_Out=No
-|High-level issues=Needs Review
-}}
-{{Standardization_Status|W3C Editor's Draft}}
-{{API_Name}}
-{{Summary_Section|The playback state, initialized to UNSCHEDULED_STATE, progressing through SCHEDULED_STATE, PLAYING_STATE, and FINISHED_STATE.}}
-{{API_Object_Property
-|Property_applies_to=apis/webaudio/AudioBufferSourceNode
-|Read_only=Yes
-|Example_object_name=AudioBufferSourceNode
-|Javascript_data_type=unsigned short
-|Return_value_description=Returns one of the following constant values: UNSCHEDULED_STATE (0), SCHEDULED_STATE (1), PLAYING_STATE (2), or FINISHED_STATE (3).
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=JavaScript
-|Code=// 1. Create an AudioBufferSourceNode and load data into it
+---
+title: playbackState
+tags:
+  0: API
+  1: Object
+  2: Properties
+  4: WebAudio
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The playback state, initialized to UNSCHEDULED_STATE, progressing through SCHEDULED_STATE, PLAYING_STATE, and FINISHED_STATE.'
+uri: apis/webaudio/AudioBufferSourceNode/playbackState
+
+---
+# playbackState
+
+## Summary
+
+The playback state, initialized to UNSCHEDULED\_STATE, progressing through SCHEDULED\_STATE, PLAYING\_STATE, and FINISHED\_STATE.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)</span></span>
+
+## Syntax
+
+***Note**: This property is read-only.*
+
+``` {.js}
+var result = AudioBufferSourceNode.playbackState;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+
+Returns one of the following constant values: UNSCHEDULED\_STATE (0), SCHEDULED\_STATE (1), PLAYING\_STATE (2), or FINISHED\_STATE (3).
+
+## Examples
+
+``` {.js}
+// 1. Create an AudioBufferSourceNode and load data into it
 var soundSource = …
 
 // 2. Check to see if the sound has finished playing, once per second
@@ -31,28 +49,12 @@ var timer = setInterval(function() {
 
 // 3. Play the sound
 soundSource.start(…);
-}}
-}}
-{{Notes_Section}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=W3C Web Audio API
-|URL=https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
-|Status=W3C Editor's Draft
-}}
-}}
-{{Compatibility_Section
-|Not_required=Yes
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|API, WebAudio}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|MDN_link=
-|MSDN_link=
-|HTML5Rocks_link=
-}}
+```
+
+## Related specifications
+
+Specification
+:   Status
+[W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
+:   W3C Editor's Draft
+

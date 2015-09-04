@@ -1,52 +1,47 @@
-{{Page_Title}}
-{{Flags
-|State=Not Ready
-|Editorial notes=Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info
+---
+title: frame
+tags:
+  - Markup
+  - Attributes
+  - HTML
+readiness: 'Not Ready'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/frame.htm'
+uri: html/attributes/frame
 
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Compatibility Incomplete, Examples Best Practices, Cleanup
-}}
-{{Standardization_Status}}
-{{API_Name}}
-{{Summary_Section}}
-{{Markup_Attribute
-|Property_applies_to=dom/HTMLElement
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Description=This example uses the '''FRAME''' attribute to render different border frames.
-|Code=&lt;TABLE FRAME{{=}}"above"&gt;
-&lt;TR&gt;&lt;TD&gt;A table with&lt;/TD&gt;&lt;TD&gt;the value of frame set to "above"&lt;/TD&gt;&lt;/TR&gt;
-&lt;TR&gt;&lt;TD&gt;cell&lt;/TD&gt;&lt;TD&gt;cell&lt;/TD&gt;&lt;/TR&gt;
-&lt;/TABLE&gt;
-|LiveURL=http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/frame.htm
-}}
-}}
-{{Notes_Section
-|Import_Notes====Syntax===
-}}
-{{Related_Specifications_Section
-|Specifications=
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section
-|Manual_sections====Related pages (MSDN)===
-*<code>[[html/elements/table|table]]</code>
-*<code>[[html/attributes/rules|rules]]</code>
-}}
-{{Topics|HTML}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+# frame
+
+**Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
+
+Applies to
+:    ?
+
+## Examples
+
+This example uses the **FRAME** attribute to render different border frames.
+
+    <TABLE FRAME="above">
+    <TR><TD>A table with</TD><TD>the value of frame set to "above"</TD></TR>
+    <TR><TD>cell</TD><TD>cell</TD></TR>
+    </TABLE>
+
+[View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/frame.htm)
+
+### Syntax
+
+## See also
+
+### Related pages (MSDN)
+
+-   `table`
+-   `rules`
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+

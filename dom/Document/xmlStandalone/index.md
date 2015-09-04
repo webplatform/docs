@@ -1,54 +1,59 @@
-{{Page_Title}}
-{{Flags
-|State=Almost Ready
-|Editorial notes=Needs compat
-|Checked_Out=No
-|High-level issues=Needs Topics, Missing Relevant Sections, Data Not Semantic, Unreviewed Import
-|Content=Incomplete, Not Neutral, Cleanup, Compatibility Incomplete, Examples Best Practices
-}}
-{{Standardization_Status|W3C Recommendation}}
-{{API_Name}}
-{{Summary_Section|Gets or sets the value of the '''standalone''' attribute in the declaration of an XML document.}}
-{{API_Object_Property
-|Property_applies_to=dom/Document
-|Read_only=No
-|Example_object_name=document
-|Return_value_name=isStandalone
-|Javascript_data_type=Boolean
-|Example_value_name=isStandalone
-}}
-{{Examples_Section
-|Not_required=No
-|Examples={{Single Example
-|Language=Other
-|Description=The following example shows an XML declaration that specifies a value for the '''standalone''' attribute.
-|Code=&lt;?xml standalone{{=}}"yes"?&gt;
-}}
-}}
-{{Notes_Section
-|Notes=Setting the value of the '''xmlStandalone''' property does not cause an XML document to validate.  Use the [[dom/Node/normalize|'''normalize''']] method instead.
-}}
-{{Related_Specifications_Section
-|Specifications={{Related Specification
-|Name=DOM Level 3 Core
-|URL=http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407
-|Status=Recommendation
-|Relevant_changes=Section 1.4
-}}
-}}
-{{Compatibility_Section
-|Not_required=No
-|Imported_tables=
-|Desktop_rows=
-|Mobile_rows=
-|Notes_rows=
-}}
-{{See_Also_Section}}
-{{Topics|DOM}}
-{{External_Attribution
-|Is_CC-BY-SA=No
-|Sources=MSDN
-|MDN_link=
-|MSDN_link=[http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx Windows Internet Explorer API reference]
-|HTML5Rocks_link=
-}}
+---
+title: xmlStandalone
+tags:
+  - API
+  - Object
+  - Properties
+  - DOM
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+notes:
+  - 'Needs compat'
+summary: 'Gets or sets the value of the standalone attribute in the declaration of an XML document.'
+uri: dom/Document/xmlStandalone
+
+---
+# xmlStandalone
+
+## Summary
+
+Gets or sets the value of the standalone attribute in the declaration of an XML document.
+
+<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+
+## Syntax
+
+``` {.js}
+var isStandalone = document.xmlStandalone;
+document.xmlStandalone = isStandalone;
+```
+
+## Return Value
+
+<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+
+## Examples
+
+The following example shows an XML declaration that specifies a value for the **standalone** attribute.
+
+``` {.other}
+<?xml standalone="yes"?>
+```
+
+## Notes
+
+Setting the value of the **xmlStandalone** property does not cause an XML document to validate. Use the [**normalize**](/dom/Node/normalize) method instead.
+
+## Related specifications
+
+Specification
+:   Status
+[DOM Level 3 Core](http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407)
+:   Recommendation
+
+## Attribution
+
+*This article contains content originally from external sources.*
+
+Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+
