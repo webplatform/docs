@@ -1,0 +1,6 @@
+[submodule "Meta"]
+	path = Meta
+	url = https://github.com/webplatform/docs-meta.git
+[submodule "WPD"]
+	path = WPD
+	url = https://github.com/webplatform/docs-wpd.git
