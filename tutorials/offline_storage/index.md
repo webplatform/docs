@@ -1,172 +1,184 @@
 ---
-title: offline storage
+title: Overview of client-side storage
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/offline/storage/)'
+readiness: 'Ready to Use'
+summary: 'A high-level overview of modern client-side storage techniques.'
 tags:
   - Tutorials
   - IndexedDB
   - Webstorage
-readiness: 'Ready to Use'
-summary: 'A high-level overview of modern client-side storage techniques.'
 uri: 'tutorials/offline storage'
 
 ---
-# Overview of client-side storage
-
 **By Michael Mahemoff**
 Originally published Oct. 1, 2010
 
-## Summary
+## <span>Summary</span>
 
 A high-level overview of modern client-side storage techniques.
 
-## Introduction
+## <span>Introduction</span>
 
 This is an overview of client-side storage, a general term for several separate but related APIs: Web Storage, Web SQL Database, Indexed Database, and File Access. Each of these techniques provides a distinct way to store data on the user's hard drive, instead of the server, where data usually resides. There are two main reasons to do this: (a) to make the web app available offline; (b) to improve performance. For a detailed explanation of the use cases for client-side storage, see the article, ["Offline": What does it mean and why should I care?](http://docs.webplatform.org/wiki/tutorials/about_offline).
 
 The APIs share a similar scope and similar principles. So let's first understand what they have in common before launching to the specifics of each.
 
-## Common Features
+## <span>Common Features</span>
 
-### Storage on the Client Device
+### <span>Storage on the Client Device</span>
 
 In practice, "client-side storage" means data is passed to the browser's storage API, which saves it on the local device in the same area as it stores other user-specific information, e.g. preferences and cache. Beyond saving data, the APIs let you retrieve data, and in some cases, perform searches and batch manipulations.
 
-### Sandboxed
+### <span>Sandboxed</span>
 
-All four storage APIs tie data to a single "origin". e.g. if [http://abc.example.com](http://abc.example.com) saves some data, then the browser will only permit [http://abc.example.com](http://abc.example.com) to access that data in the future. When it comes to "origins", the domain must be exactly the same, so [http://example.com](http://example.com) and [http://def.example.com](http://def.example.com) are both disqualified. The port must match too, so [http://abc.example.com:123](http://abc.example.com:123) also cannot see [http://abc.example.com](http://abc.example.com) (which defaults to port 80), and so must the protocol (http versus https, etc.).
+All four storage APIs tie data to a single "origin". e.g. if <http://abc.example.com> saves some data, then the browser will only permit <http://abc.example.com> to access that data in the future. When it comes to "origins", the domain must be exactly the same, so <http://example.com> and <http://def.example.com> are both disqualified. The port must match too, so <http://abc.example.com:123> also cannot see <http://abc.example.com> (which defaults to port 80), and so must the protocol (http versus https, etc.).
 
-### Quotas
+### <span>Quotas</span>
 
-You can imagine the chaos if any website was allowed to populate unsuspecting hard drives with gigabytes of data! Thus, browsers impose limits on storage capacity. When your app attempts to exceed that limit, the browser will typically show a dialog to let the user confirm the increase. You might expect the browser to enforce a single limit for all storage an origin can use, but the major browsers are actually enforcing limits separately for each storage mechanism. This may change in the future, but for now, you should think of the browser as maintaining a 2-D matrix, with "origin" in one dimension and "storage" in the other. For example, "[http://abc.example.com](http://abc.example.com)" is allowed to store up to 5MB of Web Storage, 25MB of Web SQL Database Storage, and forbidden to use Indexed Database. Another welcome enhancement in this area would be user interfaces to let users view and control how much space they have allocated for each origin.
+You can imagine the chaos if any website was allowed to populate unsuspecting hard drives with gigabytes of data! Thus, browsers impose limits on storage capacity. When your app attempts to exceed that limit, the browser will typically show a dialog to let the user confirm the increase. You might expect the browser to enforce a single limit for all storage an origin can use, but the major browsers are actually enforcing limits separately for each storage mechanism. This may change in the future, but for now, you should think of the browser as maintaining a 2-D matrix, with "origin" in one dimension and "storage" in the other. For example, "<http://abc.example.com>" is allowed to store up to 5MB of Web Storage, 25MB of Web SQL Database Storage, and forbidden to use Indexed Database. Another welcome enhancement in this area would be user interfaces to let users view and control how much space they have allocated for each origin.
 
 There are also environments where the user can see upfront how much storage will be used, e.g. in the case of the Chrome Web Store, when a user installs an app, they will be prompted upfront to accept its permissions, which include storage limits. One possible value is "unlimited\_storage".
 
-### Transactions
+### <span>Transactions</span>
 
 The two "database" storage formats support transactions. The aim is the same reason regular relational databases use transactions: To ensure the integrity of the database. Transactions prevent "race conditions", a phenomenon where two sequences of operations are applied to the database at the same time, leading to results that are both unpredictable and a database whose state is of dubious accuracy.
 
-### Synchronous and Asynchronous Modes
+### <span>Synchronous and Asynchronous Modes</span>
 
 Most of the storage formats all support synchronous and asynchronous modes. Synchronous mode is blocking, meaning that the storage operation will be executed to completion before the next line of Javascript is executed. Asynchronous mode will cause the next line of Javascript to be executed immediately, with a new thread implicitly created to perform the storage operation. The application will be notified when the operation is finished by way of a callback function being called, a function which must be specified when the call is made.
 
 Synchronous mode is okay for low-impact situations, e.g. maintaining a set of preferences; it's a much simpler programming model, and such operations only take a few milliseconds. But in many production situations, data crunching will block the main thread, which includes the user interface. The display won't update during that time, and the user won't know if their mouse and keyboard actions have been received. So with larger data and complex operations, you should really choose asynchronous mode to keep your app running smoothly. Or alternatively, you can run synchronous operations in a spearate thread using Web Workers. Indeed, aside from Web Storage, you're forced to do it this way; all the other APIs only make their synchronous versions available from inside a Web Worker.
 
-## Overview and Comparison of APIs
+## <span>Overview and Comparison of APIs</span>
 
-### Web Storage
+### <span>Web Storage</span>
 
 [Web Storage](http://dev.w3.org/html5/webstorage/) is basically a single persistent object called `localStorage`. You can set values using `localStorage.foo = "bar"` and retrieve them later on — even when the browser has been closed and re-opened — as `localStorage.foo`. There's also a second object called `sessionStorage` available, which works the same way, but clears when the window is closed.
 
 Web Storage is an example of a [NoSQL key-value store](http://en.wikipedia.org/wiki/NoSQL#Key-value_store).
 
-<dl>
-<dt>
-Strengths of Web Storage
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Strengths of Web Storage</th>
+<th align="left">Weakness of Web Storage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><ol>
+<li>Supported on all modern browsers, as well as on iOS and Android, for several years (IE since version 8).</li>
+<li>Simple API signature.</li>
+<li>Simple call flow, being a synchronous API.</li>
+<li>Semantic events available to keep other tabs/windows in sync.</li>
+</ol></td>
+<td align="left"><ol>
+<li>Poor performance for large/complex data, when using the synchronous API (which is the most widely supported mode).</li>
+<li>Poor performance when searching large/complex data, due to lack of indexing. (Search operations have to manually iterate through all items.)</li>
+<li>Poor performance when storing and retrieving large/complex data structures, because it's necessary to manually serialize and de-serialize to/from string values. The major browser implementations only support string values (even though the spec says otherwise).</li>
+<li>Need to ensure data consistency and integrity, since data is effectively unstructured.</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Weakness of Web Storage
-
-</dd>
-<dt>
-1.  Supported on all modern browsers, as well as on iOS and Android, for several years (IE since version 8).
-2.  Simple API signature.
-3.  Simple call flow, being a synchronous API.
-4.  Semantic events available to keep other tabs/windows in sync.
-
-</dt>
-<dd>
-1.  Poor performance for large/complex data, when using the synchronous API (which is the most widely supported mode).
-2.  Poor performance when searching large/complex data, due to lack of indexing. (Search operations have to manually iterate through all items.)
-3.  Poor performance when storing and retrieving large/complex data structures, because it's necessary to manually serialize and de-serialize to/from string values. The major browser implementations only support string values (even though the spec says otherwise).
-4.  Need to ensure data consistency and integrity, since data is effectively unstructured.
-
-</dd>
-</dl>
-### Web SQL Database
+### <span>Web SQL Database</span>
 
 [Web SQL Database](http://www.w3.org/TR/webdatabase/) is a structured database with all the functionality - and complexity - of a typical [SQL-powered relational database](http://en.wikipedia.org/wiki/Structured_Query_Language). Indexed Database sits somewhere between the two. It has free-form key-value pairs, like Web Storage, but also the capability to index fields from those values, so searching is much faster.
 
-<dl>
-<dt>
-Strengths of Web SQL Database
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Strengths of Web SQL Database</th>
+<th align="left">Weakness of Web SQL Database</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><ol>
+<li>Supported on major mobile browsers (Android Browser, Mobile Safari, Opera Mobile) as well as several desktop browsers (Chrome, Firefox, Opera).</li>
+<li>Good performance generally, being an asynchronous API. Database interaction won't lock up the user interface. (Synchronous API is also available for WebWorkers.)</li>
+<li>Good search performance, since data can be indexed according to search keys.</li>
+<li>Robust, since it supports a <a href="http://en.wikipedia.org/wiki/Database_transaction">transactional database model</a>.</li>
+<li>Easier to maintain integrity of data, due to rigid data structure.</li>
+</ol></td>
+<td align="left"><ol>
+<li>Deprecated. Will not be supported on IE or Firefox, and will probably be phased out from the other browsers at some stage.</li>
+<li>Steep learning curve, requiring knowledge of relational databases and SQL.</li>
+<li>Suffers from <a href="http://en.wikipedia.org/wiki/Object-relational_impedance_mismatch">object-relational impedence mismatch</a>.</li>
+<li>Diminishes agility, as database schema must be defined upfront, with all records in a table matching the same structure.</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Weakness of Web SQL Database
-
-</dd>
-<dt>
-1.  Supported on major mobile browsers (Android Browser, Mobile Safari, Opera Mobile) as well as several desktop browsers (Chrome, Firefox, Opera).
-2.  Good performance generally, being an asynchronous API. Database interaction won't lock up the user interface. (Synchronous API is also available for WebWorkers.)
-3.  Good search performance, since data can be indexed according to search keys.
-4.  Robust, since it supports a [transactional database model](http://en.wikipedia.org/wiki/Database_transaction).
-5.  Easier to maintain integrity of data, due to rigid data structure.
-
-</dt>
-<dd>
-1.  Deprecated. Will not be supported on IE or Firefox, and will probably be phased out from the other browsers at some stage.
-2.  Steep learning curve, requiring knowledge of relational databases and SQL.
-3.  Suffers from [object-relational impedence mismatch](http://en.wikipedia.org/wiki/Object-relational_impedance_mismatch).
-4.  Diminishes agility, as database schema must be defined upfront, with all records in a table matching the same structure.
-
-</dd>
-</dl>
-### Indexed Database (IndexedDB)
+### <span>Indexed Database (IndexedDB)</span>
 
 So far, we have seen that Web Storage and Web SQL Database both have major strengths as well as major weaknesses. [Indexed Database](http://www.w3.org/TR/IndexedDB/) has arisen from experiences with both of those earlier APIs, and can be seen as an attempt to combine their strengths without incurring their weaknesses.
 
 An Indexed Database is a collection of "object stores" which you can just drop objects into. The stores are something like SQL tables, but in this case, there's no constraints on the object structure and so no need to define anything upfront. So this is similar to Web Storage, with the advantage that you can have as many databases as you like, and as many stores within each database. But unlike Web Storage, there are important performance benefits: An asynchronous API, and you can create indexes on stores to improve search speed.
 
-<dl>
-<dt>
-Strengths of IndexedDB
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Strengths of IndexedDB</th>
+<th align="left">Weakness of IndexedDB</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><ol>
+<li>Good performance generally, being an asynchronous API. Database interaction won't lock up the user interface. (Synchronous API is also available for WebWorkers.)</li>
+<li>Good search performance, since data can be indexed according to search keys.</li>
+<li>Supports agile development, with no need to flexible data structures.</li>
+<li>Robust, since it supports a <a href="http://en.wikipedia.org/wiki/Database_transaction">transactional database model</a>.</li>
+<li>Fairly easy learning curve, due to a simple data model.</li>
+<li>Decent browser support: Chrome, Firefox, mobile FF, IE10.</li>
+</ol></td>
+<td align="left"><ol>
+<li>Somewhat complex API.</li>
+<li>Need to ensure data consistency and integrity, since data is effectively unstructured. (This is the standard flipside weakness to the typical strengths of NOSQL structures.)</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Weakness of IndexedDB
-
-</dd>
-<dt>
-1.  Good performance generally, being an asynchronous API. Database interaction won't lock up the user interface. (Synchronous API is also available for WebWorkers.)
-2.  Good search performance, since data can be indexed according to search keys.
-3.  Supports agile development, with no need to flexible data structures.
-4.  Robust, since it supports a [transactional database model](http://en.wikipedia.org/wiki/Database_transaction).
-5.  Fairly easy learning curve, due to a simple data model.
-6.  Decent browser support: Chrome, Firefox, mobile FF, IE10.
-
-</dt>
-<dd>
-1.  Somewhat complex API.
-2.  Need to ensure data consistency and integrity, since data is effectively unstructured. (This is the standard flipside weakness to the typical strengths of NOSQL structures.)
-
-</dd>
-</dl>
-### FileSystem
+### <span>FileSystem</span>
 
 The previous formats are all suitable for text and structured data, but when it comes to large files and binary content, we need something else. Fortunately, we now have a [FileSystem API standard](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/). It gives each domain a full hierarchical filesystem, and in Chrome at least, these are real files sitting on the user's hard drive. For reading and writing of individual files, the API builds on the existing [File API](http://www.w3.org/TR/FileAPI/).
 
-<dl>
-<dt>
-Strengths of FileSystem API
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Strengths of FileSystem API</th>
+<th align="left">Weakness of FileSystem API</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><ol>
+<li>Can store large content and binary files, so it's suitable for images, audio, video, PDFs, etc.</li>
+<li>Good performance, being an asynchronous API.</li>
+</ol></td>
+<td align="left"><ol>
+<li>Very early standard. Only available in Chrome.</li>
+<li>No transaction support.</li>
+<li>No built-in search/indexing support.</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Weakness of FileSystem API
-
-</dd>
-<dt>
-1.  Can store large content and binary files, so it's suitable for images, audio, video, PDFs, etc.
-2.  Good performance, being an asynchronous API.
-
-</dt>
-<dd>
-1.  Very early standard. Only available in Chrome.
-2.  No transaction support.
-3.  No built-in search/indexing support.
-
-</dd>
-</dl>
-## Show Me the Code
+## <span>Show Me the Code</span>
 
 This section compares how the various APIs tackle the same problem. The example is a "geo-mood" checkin system, where you can track your mood across time and place. The interface lets you switch between database types. Of course, this is slightly contrived as in real world situations, one database type will always make more sense than the rest, and FileSystem API is not suited to this kind of application at all! But for demonstration purposes, it's helpful indeed if we can see the different means we can use to achieve the same end. Note too that some of the code snippets have been refactored for readability.
 
@@ -178,7 +190,7 @@ To keep the API consistent, the methods are asynchronous, i.e. they pass results
 
 In the walkthroughs below, we'll skip the UI and geolocation logic to focus on the storage techniques.
 
-### Setting up the Store
+### <span>Setting up the Store</span>
 
 For **localStorage**, we do a simple check to see if the store exists. If not, we'll create a new array and store it against the localStorage "checkins" key. We use JSON to convert the structure to a string first, since, in most browsers, localStorage only stores strings.
 
@@ -283,7 +295,7 @@ The setup gets a handle on the overall FileSystem, using it to check for the "ch
       );
     }
 
-### Saving a Checkin
+### <span>Saving a Checkin</span>
 
 With localStorage, we simply pull the checkins array out, add a new one to the end, and save it again. We also have to do the JSON dance to store it in string form.
 
@@ -321,7 +333,7 @@ With FileStore, once we create a file and get a handle on it, we can use [the Fi
       }, fileStore.onError);
     }, fileStore.onError);
 
-### Searching for Matching Checkins
+### <span>Searching for Matching Checkins</span>
 
 The next function fishes out all checkins matching a particular mood, so the user can see where and when they were happy recently, for example. With localStorage, we have to manually walk through each checkin and compare it to the mood, building up a list of matches. It's good practice to return clones of the data that's stored, rather than the actual objects, since searching should be a read-only operation; hence we pass each matching checkin object through a generic `clone()` operation.
 
@@ -383,7 +395,7 @@ As with many traditional filesystems, there's no indexing, so a search algorithm
       readNextFile();
     });
 
-### Counting All Checkins
+### <span>Counting All Checkins</span>
 
 Finally, we need to count all checkins.
 
@@ -419,15 +431,15 @@ For FileSystem, a directory reader's `readEntries()` method provides a list of f
       handler(files.length);
     });
 
-## Summary
+## <span>Summary</span>
 
 This has been a high-level overview of modern client-side storage techniques. You should also check out the [overview on offline apps](http://docs.webplatform.org/wiki/tutorials/about_offline).
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Off-line Storage
+#### <span>Off-line Storage</span>
 
 -   [appcache](/apis/appcache)
 
@@ -439,8 +451,6 @@ This has been a high-level overview of modern client-side storage techniques. Yo
 
 -   [quota management](/apis/quota_management)
 
--   [StorageQuota](/apis/quota_management/StorageQuota)
-
 -   [queryUsageAndQuota](/apis/quota_management/queryUsageAndQuota)
 
 -   [requestQuota](/apis/quota_management/requestQuota)
@@ -448,12 +458,3 @@ This has been a high-level overview of modern client-side storage techniques. Yo
 -   [localStorage](/apis/web-storage/Storage/localStorage)
 
 -   [Introduction to using the application cache](/tutorials/appcache_beginner)
-
--   **Overview of client-side storage**
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/offline/storage/)
-

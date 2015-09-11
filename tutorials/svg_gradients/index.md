@@ -1,23 +1,24 @@
 ---
-title: svg gradients
+title: SVG gradients
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Gradients)'
+notes:
+  - 'Fix a couple of broken links'
+readiness: 'Almost Ready'
+summary: 'This article looks at filling SVG shapes with linear and radial gradients.'
 tags:
   - Tutorials
   - SVG
-readiness: 'Almost Ready'
-notes:
-  - 'Fix a couple of broken links'
-summary: 'This article looks at filling SVG shapes with linear and radial gradients.'
-uri: 'tutorials/svg gradients'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'talk about images'
     - 'introduced transforms'
+uri: 'tutorials/svg gradients'
 
 ---
-# SVG gradients
-
-## Summary
+## <span>Summary</span>
 
 This article looks at filling SVG shapes with linear and radial gradients.
 
@@ -156,10 +157,3 @@ As a bit of another aside here, both gradients also have an attribute named `gra
 You can also then apply another transformation to the gradient by using the `gradientTransform` attribute, but since we haven't [introduced transforms](/w/index.php?title=introduced_transforms&action=edit&redlink=1) yet, I'll leave that for later.
 
 There are some other caveats for dealing with `gradientUnits="objectBoundingBox"` when the object bounding box isn't square, but they're fairly complex and will have to wait for someone more in-the-know to explain them.
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Gradients)
-

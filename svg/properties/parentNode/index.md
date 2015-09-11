@@ -1,37 +1,30 @@
 ---
 title: parentNode
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/parentNode
 
 ---
-# parentNode
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 Every [**SVGElementInstance**](/svg/objects/SVGElementInstance) object has a parent, except for the object that corresponds to the element that the [**use**](/svg/elements/use) element directly references.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.9
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGElementInstance**](/svg/objects/SVGElementInstance)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

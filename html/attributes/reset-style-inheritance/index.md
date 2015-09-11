@@ -1,46 +1,51 @@
 ---
 title: reset-style-inheritance
+notes:
+  - "Deprecated; deletion candidate. See\nhttps://groups.google.com/forum/#!topic/polymer-dev/wmcncSDx_Jo"
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+summary: "Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.\n"
 tags:
   - Markup
   - Attributes
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - "Deprecated; deletion candidate. See\nhttps://groups.google.com/forum/#!topic/polymer-dev/wmcncSDx_Jo"
-summary: "Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.\n"
-uri: html/attributes/reset-style-inheritance
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/apis/ShadowRoot/resetStyleInheritance
+uri: html/attributes/reset-style-inheritance
 
 ---
-# reset-style-inheritance
-
-## Summary
+## <span>Summary</span>
 
 Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.
 
 **Deprecated -- do not use**
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   dom/HTMLContentElement
 
+</th>
+<td>
+dom/HTMLContentElement
+
+</td>
+</tr>
+</table>
 Read only. Indicates the state of the [resetStyleInheritance](/w/index.php?title=dom/apis/ShadowRoot/resetStyleInheritance&action=edit&redlink=1) flag for this insertion point. If present, the value of the flag must be set to true. Otherwise, the value must be set to false. If true, the inheritable CSS properties are set to the initial value at the shadow boundary. If false (default value), the properties continue to inherit.
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Web Components
+#### <span>Web Components</span>
 
 -   [register](/dom/Document/register)
 
 -   [shadowdom](/dom/shadowdom)
-
--   [ShadowRoot](/dom/shadowdom/ShadowRoot)
 
 -   [is](/html/attributes/is)
 

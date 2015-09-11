@@ -1,36 +1,34 @@
 ---
-title: How does a computer work
+title: How does a computer work?
+readiness: 'Ready to Use'
+summary: 'So, you think your computer is smart? It can do math faster than most people, even complex physics and accounting algorithms. How does it do that?'
 tags:
   - Basic
   - Pages
-readiness: 'Ready to Use'
-summary: 'So, you think your computer is smart? It can do math faster than most people, even complex physics and accounting algorithms. How does it do that?'
 uri: 'concepts/general programming/How does a computer work'
 
 ---
-# How does a computer work?
-
-## Summary
+## <span>Summary</span>
 
 So, you think your computer is smart? It can do math faster than most people, even complex physics and accounting algorithms. How does it do that?
 
-## Computers are Stupid
+## <span>Computers are Stupid</span>
 
 Computers are actually pretty stupid. They are very good at following directions, but we still have not built the computer that can truly think for itself. The computers that look like they think for themselves are still following the directions given them by the developer. Even when a computer seems to be misbehaving, it is still following the directions (poor as they may be) the developer gave it.
 
-## Do computers really think in ones and zeros?
+## <span>Do computers really think in ones and zeros?</span>
 
 At the very core, yes, most computers are dealing with a binary system. Colloquially, this tends to be translated as zero and one, but it can also be translated as off and on, open and closed, false and true, even 0 volts and 5 volts. While there have been computers that work in ternary, using zero, one, and two at the core, computers are predominantly binary and the rest of this article will assume a binary system. When you get down the most basic parts of the computer, you tend to be dealing with binary, one and zero.
 
-### What is the difference between digital and analog?
+### <span>What is the difference between digital and analog?</span>
 
 The definition of this difference is that digital media uses discrete values within a specific range and analog media uses any value within that range. As an example, digital would be like saying, "Pick a number from one to ten, but it has to be an integer," and analog would be like saying, "Pick a number from one to ten." Where you have a specific number of digital choices (1, 2, 3,... 10), you have an infinite number of analog choices (1-3/5, 3.14159..., 2.71828..., 1.41421...). While analog offers more flexibility, it is also harder to reproduce correctly. When television was first broadcast, it was an analog broadcast; your television could pick up part of the signal and the rest was static. When television is broadcast in digital and your television receives the signal, it tends either to be perfectly clear or unavailable entirely.
 
-### What is a transistor?
+### <span>What is a transistor?</span>
 
 Modern computers can quickly handle large amounts of discrete numbers because, at the very core of the computer, there are some very tiny, very basic components ready to handle discrete values. Computer processors are still measured by the number of transistors embedded in the integrated circuits. The transistor is the building block for nearly every computer in existence today. A very common use for a transistor today is as a switch, where the transistor simply represents either a one or a zero. The transistor does this by either connecting a circuit, allowing the signal through, or grounding the circuit, stopping the signal. Theoretically, the computer is providing 5 volts to the transistor and, when the transistor signals a one, the circuit is closed and the 5 volts go through the transistor to the other side; when the transistor signals a zero, the circuit is grounded (open) and 0 volts go through the transistor to the other side.
 
-### How does the computer use ones and zeros?
+### <span>How does the computer use ones and zeros?</span>
 
 In the late 19th century, George Boole defined a system of logical algebra. Essentially, Boole made it possible to represent logic problems in terms of mathematics, defining algebraic ways to represent "and", "or", and "exclusive-or" (or "disjoint union"). With regard to his contributions, these mathematical functions are known as Boolean logic functions (or operations).
 
@@ -400,7 +398,7 @@ B ↓ A →
 </table>
 Do you see how these truth tables are exactly the opposite of the respective truth tables above? We simply negated the results, turning `0` to `1` and `1` to `0`. Believe me, just as algebra can get pretty complex, so Boolean algebra can get pretty complex, but we will not delve into more of the complexity here.
 
-## How does my computer use logic operations?
+## <span>How does my computer use logic operations?</span>
 
 Computers use transistors to store information and perform various operations. The logic operations above are implemented physically with transistors that make up logic "gates", so you can find logic gates for all of the logic operations listed above, including the inverted operations. Processors use logic gates to perform many tasks, including mathematics and memory access. The internal workings of a process are incredibly complex and the result of decades of innovation.
 
@@ -408,11 +406,11 @@ Also internal to a processor is a clock. While you and I can look at a logic cha
 
 Compare it to this situation. You work in one office and your supervisor works across the street in another office. Two messengers are always walking back and forth between you and your supervisor, picking up what is in your outbox and taking it to your supervisor. The messengers take exactly five minutes to travel between the two desks, regardless of direction, and time each other so one is picking up what is in your outbox when the other is delivering the previous batch to your supervisor. Due to the impeccable timing and performance of the messengers, your supervisor knows (within a five minute window) when you did the work. The computer uses a similar system in conjunction with the clock to time its operations with the results.
 
-## Do programmers really think in ones and zeros?
+## <span>Do programmers really think in ones and zeros?</span>
 
 Perhaps a few programmers think in ones and zeros, but most programmers do not. Binary is a reasonably efficient number system (after ternary, base 3, and quaternary, base 4), but most people find it cumbersome. Today, most people use a decimal number system, but decimal is not very compatible with binary. As a compromise, programmers have worked with octal (base 8) in the past, but hexadecimal (base 16) is more common today.
 
-### How do you write in octal and hexadecimal?
+### <span>How do you write in octal and hexadecimal?</span>
 
 Ready for some math? We are going to look at exponents and bases for a moment. Why are octal (base 8) and hexadecimal (base 16) reasonable compromises for working with binary compared to decimal (base 10)? Octal works because 8 is equal to 2<sup>3</sup>, so each octal digit represents three (and exactly three) binary digits. Hexadecimal works because 16 is equal to 2<sup>4</sup>, so each hexadecimal digit represents four (and exactly four) binary digits.
 
@@ -445,11 +443,11 @@ Do you remember how I said that octal and hexadecimal are used because they have
 
 If you compare the binary and the octal, you will notice that the right-most octal digit cycles four times from 0 to 7 and each matches perfectly with the same three right-most digits in the binary column. Because of the 1:3 ratio between octal and binary and the 1:4 ratio between hexadecimal and binary, you can use a lookup table like this to switch between the three. If I write BD<sub>16</sub> (189<sub>10</sub>), we can use the table to translate that to 1011 1101<sub>2</sub>, move the spaces around (10 111 101<sub>2</sub>), and translate that to 275<sub>8</sub>. Do you see how that works? Try this exercise with some other numbers.
 
-## How is data measured?
+## <span>How is data measured?</span>
 
 Data and memory are measured in bits, nibbles, bytes, and pseudo-metric extensions of bits and bytes. A bit is stored with a single switch and its value can be represented by exactly one binary digit. A nibble is four bits and its value can be represented by exactly one hexadecimal digit. A byte is eight bits (two nibbles) and its value can be represented by two hexadecimal digits.
 
-### Measuring bytes
+### <span>Measuring bytes</span>
 
 What do I mean by pseudo-metric extensions of bits and bytes? A kilometer is 1,000 meters, right? When first measuring large amounts of memory, metric prefixes were used to represent powers of two approximately equal to the corresponding metric prefix. Thus, a kilobyte was 1,024 (2<sup>10</sup>) bytes, not 1,000 bytes. A megabyte was 1,024 kilobytes, not 1,000 kilobytes. Even though the <abbr title="International Electrotechnical Commission">IEC</abbr> has recommended the use of modified prefixes (kibi-, mebi-, gibi-, etc.), many people still use the standard metric prefixes.
 
@@ -462,13 +460,13 @@ What do I mean by pseudo-metric extensions of bits and bytes? A kilometer is 1,0
 |pebibyte, PiB|2<sup>50</sup>|1 125 899 906 842 624|
 |exbibyte, EiB|2<sup>60</sup>|1 152 921 504 606 846 976|
 
-### Measuring bits
+### <span>Measuring bits</span>
 
 To add to the confusion even more, metric prefixes will sometimes be applied to bit as well, particularly in reference to network speeds. Network speeds have always been measured in bits per second because that was the equivalent for computers to the baud rate (named for Émile Baudot), a standard measure for telegraph and telephone transmission. Computers still transmit information over telephone wires (credit card machines, dial-up internet connections) and coaxial cable (broadband cable internet) as they did when connecting at 300 bps (bits per second), but technology has advanced to the point that many dial-up connections are capable of at least 33.6 Kbps and broadband connections are capable of several Mbps.
 
 Network speeds do tend to use the decimal version of the metric prefixes, but notice that they are multiplied by bits. Most memory is measured in bytes, but data speeds are measured in bits. So, when you see that your computer has a 100 mega<u>bit</u> network connection, remember that it is only transmitting about 12 mega<u>bytes</u> per second.
 
-## How does it help to know about memory sizes and hexadecimal?
+## <span>How does it help to know about memory sizes and hexadecimal?</span>
 
 So, a bit is actually an abbreviation for a "binary digit", meaning that it is either a zero or a one. A byte is eight bits, eight binary digits. Since byte and bite are homophones, half a byte is a nibble (four bits). Remember how a hexadecimal digit exactly represents four binary digits? A nibble equates to a hexadecimal digit, so it is often represented that way. A byte, being two nibbles, is often represented by two hexadecimal digits.
 

@@ -1,30 +1,28 @@
 ---
-title: drawing images onto canvas
+title: Drawing an Image onto a Canvas
+readiness: 'Not Ready'
+summary: "In this article we will explore how to draw Images onto a Canvas. \n"
 tags:
   - Concept
   - Pages
-readiness: 'Not Ready'
-summary: "In this article we will explore how to draw Images onto a Canvas. \n"
-uri: 'concepts/programming/drawing images onto canvas'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - DOM
+uri: 'concepts/programming/drawing images onto canvas'
 
 ---
-# Drawing an Image onto a Canvas
-
-## Summary
+## <span>Summary</span>
 
 In this article we will explore how to draw Images onto a Canvas.
 
 We will start with a simple example and then explore some issues you might encounter. We'll look at how to load the image from various sources, how to display the image on "retina" displays without bluriness, and at some compatibility and performance problems.
 
-## A simple example
+## <span>A simple example</span>
 
 A simple html layout with both the image and the canvas already loaded as DOM elements in our page.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
     <head>
@@ -39,7 +37,7 @@ A simple html layout with both the image and the canvas already loaded as DOM el
 
  Here is the javascript that will draw the image on to the canvas.
 
-``` {.js}
+``` js
 /** draw.js **/
 
 window.addEventListener("DOMContentLoaded", function()
@@ -57,54 +55,45 @@ window.addEventListener("DOMContentLoaded", function()
 });
 ```
 
-## The drawImage function
+## <span>The drawImage function</span>
 
 The function we use for drawing an image onto a canvas is the *drawImage()* function. This function draws an image, canvas, or video onto the canvas. It can also draw parts of an image, and/or increase/reduce the image size.
 
 Position the image on the canvas:
 
-``` {.js}
+``` js
 context.drawImage(img,x,y);
 ```
 
  Position the image on the canvas, and specify width and height of the image:
 
-``` {.js}
+``` js
 context.drawImage(img,x,y,width,height);
 ```
 
  Clip the image and position the clipped part on the canvas:
 
-``` {.js}
+``` js
 context.drawImage(img,sx,sy,swidth,sheight,x,y,width,height);
 ```
 
-Parameter
-:   Required
-img
-:   \*
-sx
-:   Â
-sy
-:   Â
-swidth
-:   Â
-sheight
-:   Â
-x
-:   \*
-y
-:   \*
-width
-:   Â
-height
-:   Â
+|Parameter|Required|Description|
+|:--------|:-------|:----------|
+|img|\*|Specifies the image, canvas, or video element to use|
+|sx|Â |The x coordinate where to start clipping|
+|sy|Â |The y coordinate where to start clipping|
+|swidth|Â |The width of the clipped image|
+|sheight|Â |The height of the clipped image|
+|x|\*|The x coordinate where to place the image on the canvas|
+|y|\*|The y coordinate where to place the image on the canvas|
+|width|Â |The width of the image to use (stretch or reduce the image)|
+|height|Â |The height of the image to use (stretch or reduce the image)|
 
-## Loading the image programmatically
+## <span>Loading the image programmatically</span>
 
 If the image we want to draw is not in the [DOM](/w/index.php?title=DOM&action=edit&redlink=1) already (we might not even want to add it), we can load an image directly from a URL with a few lines of javascript.
 
-``` {.js}
+``` js
 function loadAndDrawImage(url)
 {
     // Create an image object. This is not attached to the DOM and is not part of the page.
@@ -122,7 +111,7 @@ function loadAndDrawImage(url)
 loadAndDrawImage("http://www.w3.org/html/logo/img/mark-word-icon.png");
 ```
 
-## Reading the Image from the File System
+## <span>Reading the Image from the File System</span>
 
 In order to read an arbitrary file from the user's file system we have to let the user choose the file. We do this using a file select input. Let's add one to our HTML.
 
@@ -169,23 +158,23 @@ Now letâ€™s turn this fileâ€™s content into a data URL that we can use as the so
 
 **TODO:**
 
--   draw scaled on Canvas (mention mobile Safari 2MB limit/issue - [https://github.com/SunboX/ios-imagefile-megapixel](https://github.com/SunboX/ios-imagefile-megapixel))
+-   draw scaled on Canvas (mention mobile Safari 2MB limit/issue - <https://github.com/SunboX/ios-imagefile-megapixel>)
 
-## "Retina" Canvas
+## <span>"Retina" Canvas</span>
 
 As mentioned in the introduction, "Retina"-Displays will show blurry images by default. This is because of ...
 
--   Explain "retina" Canvas drawing ([http://html5-mobile.de/blog/retina-display-html-canvas-optimieren](http://html5-mobile.de/blog/retina-display-html-canvas-optimieren))
+-   Explain "retina" Canvas drawing (<http://html5-mobile.de/blog/retina-display-html-canvas-optimieren>)
 -   Two types of retina Canvas, retina Canvas on iOS and on new MacBook Pro
 -   window.devicePixelRatio
 -   context.webkitBackingStorePixelRatio
 -   context.scale(2, 2)
 
-## Alternatives
+## <span>Alternatives</span>
 
 -   FileReader.readAsDataURL(file) instead of window.URL.createObject(file) - pros/cons
 
-## Using WebWorker for Drawing?
+## <span>Using WebWorker for Drawing?</span>
 
 -   Draw inside a Worker so the drawing doesnÂ´t block User interactions
 
@@ -193,14 +182,14 @@ As mentioned in the introduction, "Retina"-Displays will show blurry images by d
 
 **Comment:** *You are right. We cant draw onto a canvas using a worker. But we should mention, that workers can be used to manipulate the pixel data of a canvas. We can pass the pixel data to a worker, do some work with it and pass it back*
 
-## Using WebGL for Drawing?
+## <span>Using WebGL for Drawing?</span>
 
 -   WebGL is a 2D API!
 -   How does it work? (context webgl, shader)
 -   pros/cons (contra: no easy way to modify image pixels)
 -   Link to WebGL Convolution Matrix, Extended ColorTransform Matrix "best practices"
 
-## Browser Compatibility
+## <span>Browser Compatibility</span>
 
-## Links to used Object, Function Docs
+## <span>Links to used Object, Function Docs</span>
 

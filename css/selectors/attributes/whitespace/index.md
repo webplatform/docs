@@ -1,58 +1,56 @@
 ---
 title: whitespace
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example, remove topic cluster flags'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
 tags:
   - CSS
   - Selectors
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs summary, example, remove topic cluster flags'
-uri: css/selectors/attributes/whitespace
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: css/selectors/attributes/whitespace
 
 ---
-# whitespace
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note**  Requires Windows Internet Explorer 7 or later. **Note**  Attribute selectors are not supported in webpages that are displayed in the Microsoft Internet Explorer 5 document mode (also known as "Quirks" mode). To use attribute selectors, add a [!DOCTYPE](/html/elements/!DOCTYPE) directive that specifies a standards-based document. For more information, see [Defining Document Compatibility](http://go.microsoft.com/fwlink/p/?LinkID=125785). Attributes are case-sensitive. Matches any E element whose "att" attribute value is a list of space-separated values, one of which is exactly equal to "val". If the target *val* contains whitespace, the rule will not match anything.
 
-### Syntax
+### <span>Syntax</span>
 
 ` E[att~=val] {...}`
 
-### Parameters
+### <span>Parameters</span>
 
 *att*
 :   Must be either an Identifier or a String.
 *val*
 :   Must be either an Identifier or a String.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Attribute selectors](http://www.w3.org/TR/CSS2/selector.html#attribute-selectors)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Combinators
+#### <span>Combinators</span>
 
 -   **whitespace**
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -127,10 +125,3 @@ Specification
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   [type](/css/selectors/type)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

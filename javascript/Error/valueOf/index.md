@@ -1,32 +1,34 @@
 ---
 title: valueOf
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155293(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the string value of an error.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the string value of an error.'
 uri: javascript/Error/valueOf
 
 ---
-# valueOf
-
-## Summary
+## <span>Summary</span>
 
 Returns the string value of an error.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     error.valueOf()
 
-## Return Value
+## <span>Return Value</span>
 
 The string "Error: " plus the error message.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **valueOF** method with a date.
 
-``` {.js}
+``` js
 var myError = new Error();
  myError.message = "This is an error.";
  var value = myError.valueOf();
@@ -35,13 +37,7 @@ var myError = new Error();
  // Output: Error: This is an error.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The error object is any instance of an Error.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155293(v=vs.94).aspx)
 

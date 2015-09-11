@@ -1,46 +1,63 @@
 ---
 title: background-size
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/background-size)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://jsbin.com/ejulex/2/edit'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'for \<length\> the absolute value, otherwise a percentage'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`backgroundSize`'
+  Percentages: 'see text'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the size of the background images.'
-code_samples:
-  - 'http://jsbin.com/ejulex/2/edit'
-uri: css/properties/background-size
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/background-size
 
 ---
-# background-size
-
-## Summary
+## <span>Summary</span>
 
 Specifies the size of the background images.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   for \<length\> the absolute value, otherwise a percentage
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `backgroundSize`
+
 Percentages
 :   see text
 
-## Syntax
+## <span>Syntax</span>
 
 -   `background-size: auto`
 -   `background-size: contain`
@@ -48,7 +65,7 @@ Percentages
 -   `background-size: length`
 -   `background-size: percentage`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. See Remarks.
@@ -67,11 +84,11 @@ For more information about the supported length units, see the CSS Values and Un
 percentage
 :   An integer, followed by a percent (%). A percentage value is relative to the background positioning area.
 
-## Examples
+## <span>Examples</span>
 
 Basic list of syntax examples for background-size.
 
-``` {.css}
+``` css
 /* Keywords syntax */
 background-size: cover
 background-size: contain
@@ -98,7 +115,7 @@ background-size: inherit
 
 HTML structure of a series of `<div>`s that are identical except that they have different `background-size` values applied to the background image.
 
-``` {.html}
+``` html
 <p>Original image is 273 x 286 px, and has a transparent area around the outside of roughly 45px.</p>
 
 <div class="one"><code>background-size: auto auto;</code></div>
@@ -112,7 +129,7 @@ HTML structure of a series of `<div>`s that are identical except that they have 
 
 CSS applied to the HTML example seen above.
 
-``` {.css}
+``` css
 div {
    width: 17%;
    height: 200px;
@@ -163,24 +180,22 @@ div {
 
 [View live example](http://jsbin.com/ejulex/2/edit)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 An `auto` value for one dimension is resolved by using the image's intrinsic ratio and the size of the other dimension. If either of these values is not available, the image's intrinsic size is used. If the image's intrinsic size is not available, it is assigned the value of 100%. If both values are `auto`, use the intrinsic width, height, or both, of the image. If the image has neither an intrinsic width nor an intrinsic height, its size is determined as for `contain`. Negative values are not allowed. In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [**background-image**](/css/properties/background-image) property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([**background-attachment**](/css/properties/background-attachment), [**background-clip**](/css/properties/background-clip), [**background-origin**](/css/properties/background-origin), [**background-position**](/css/properties/background-position), [**background-repeat**](/css/properties/background-repeat), and **background-size**). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/#the-background-size)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Background
+#### <span>Background</span>
 
 -   [background](/css/cssom/properties/background)
 
@@ -210,7 +225,7 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -228,12 +243,3 @@ Specification
 -   `background-clip`
 -   `background-origin`
 -   `background`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/background-size)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

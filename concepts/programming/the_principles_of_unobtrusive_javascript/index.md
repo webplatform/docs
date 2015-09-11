@@ -1,24 +1,22 @@
 ---
-title: the principles of unobtrusive javascript
+title: The principles of unobtrusive JavaScript
+readiness: 'Almost Ready'
+summary: 'In this article, we discuss an important concept of JavaScript — unobtrusiveness, or how to write JavaScript so that it enhances a website experience, but is not vital for it to run.'
 tags:
   - Tutorials
   - JavaScript
-readiness: 'Almost Ready'
-summary: 'In this article, we discuss an important concept of JavaScript — unobtrusiveness, or how to write JavaScript so that it enhances a website experience, but is not vital for it to run.'
-uri: 'concepts/programming/the principles of unobtrusive javascript'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - QuirksMode.org
+uri: 'concepts/programming/the principles of unobtrusive javascript'
 
 ---
-# The principles of unobtrusive JavaScript
-
-## Summary
+## <span>Summary</span>
 
 In this article, we discuss an important concept of JavaScript — unobtrusiveness, or how to write JavaScript so that it enhances a website experience, but is not vital for it to run.
 
-## Introduction
+## <span>Introduction</span>
 
 In the preceding articles we’ve talked a lot about HTML and CSS and how to properly implement them, and we’ve also been through the basics of JavaScript—what it is, what it can do for you, and why you should know about it. Before we go on to look at practical JavaScript usage in detail, we need to stop and think about how to use JavaScript sensibly so that it doesn’t exclude anyone from your web site. This is the core idea behind **unobtrusive JavaScript**. To better understand what this is and why we need it, at this point in the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) let’s consider the many uncertainties involved in JavaScript programming:
 
@@ -33,7 +31,7 @@ That’s a rather long list of problems, most of which are not technical in natu
 
 In short, unobtrusive JavaScript is a way of writing JavaScript so that your site visitors are not shut out of your site for one of these reasons—even if your JavaScript is not working correctly for them, they should still be able to use your site, albeit at a more basic level. This article will discuss the principles and practice of unobtrusive JavaScript, and set you up nicely for the rest of the course.
 
-## Unobtrusive JavaScript defined
+## <span>Unobtrusive JavaScript defined</span>
 
 In order to effectively work around the problem listed above it’s of prime importance to understand what you're doing and why. What we need is a theory of proper JavaScript development.
 
@@ -49,7 +47,7 @@ This article will treat the first two assumptions in some detail. The third cate
 
 In addition to avoiding these assumptions, unobtrusive JavaScript requires you to properly separate your JavaScript code from your HTML. Since that's by far the most technical aspect of this programming philosophy, we’ll cover it first and return to our assumptions later on.
 
-## Separation of structure and behaviour
+## <span>Separation of structure and behaviour</span>
 
 Just as we should separate our structure and presentation by putting all CSS in a separate file and eschewing the use of `style` attributes or other such presentational markup, we should also separate our HTML structure and JavaScript behaviour. The reasons are the same: it separates your concerns, keeps your code clean, and allows you to work on the JavaScript without touching either HTML or CSS.
 
@@ -95,13 +93,13 @@ Now let’s think about what we’d have to do if we used inline event handlers.
 
 Therefore, just as it is wise to separate your HTML and CSS, it’s an equally good idea to separate your HTML and JavaScript. Removing embedded scripts and inline event handlers is quite easy, and it immediately improves the quality and maintainability of your code.
 
-## Adding a usability layer
+## <span>Adding a usability layer</span>
 
 Now that we’ve treated the most technical part of unobtrusive JavaScript, it’s time to return to the assumptions we discussed before. The most important one is never to assume that everybody supports JavaScript, and this ties in directly with the overall purpose of adding scripts to a web site.
 
 The purpose of JavaScript is to add a layer of usability to your site. Note the "adding" bit: if the script *is* the entire usability layer (in other words, if the site is unusable without JavaScript), you've made a serious mistake and your script is not unobtrusive.
 
-### Example—form validation
+### <span>Example—form validation</span>
 
 An example will clarify this, so let’s discuss form validation. User input in a form should *always* be checked on the server before it’s added to the database. Trusting data that any random (possibly malicious) user fills in to your forms is one of the quicker and surer ways to get your site hacked—we should always check data submissions before accepting them.
 
@@ -115,7 +113,7 @@ So using a JavaScript form validation script is a good idea. However—and this 
 
 As of early 2009 (this may well change in the near future) Opera has an advantage over other browsers in that it supports the HTML 5 [Web Forms 2.0 specification](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#forms), which is basically an advanced way of doing forms in HTML, including some baked in client-side form validation features that don’t require JavaScript, and therefore can’t be worked around by turning it off. To learn more about Web Forms 2.0, check out our [Improve your forms using HTML 5](http://dev.opera.com/articles/view/improve-your-forms-using-html5/) article.
 
-### Principles
+### <span>Principles</span>
 
 This example highlights a few important principles:
 
@@ -129,7 +127,7 @@ The important part is that it’s *not* necessary to offer noscript users **the 
 
 In fact, this is a general rule. When JavaScript is disabled, usability suffers, and your job as a web developer becomes making sure that people can use the basics of your site: content and navigation. All other features become optional.
 
-### Example—popups
+### <span>Example—popups</span>
 
 As another example, consider popup windows. Sometimes they’re genuinely useful to have, and creating them is quite easy—if a browser supports JavaScript. However, if it doesn’t, its users will not see the popup. How do you keep your site accessible while still giving JavaScript-enabled browsers a smoother interface?
 
@@ -151,7 +149,7 @@ When JavaScript is enabled you add an extra layer of usability: the popup. You f
 
 Different example, same principles. First make sure that any user can access the information; then add a bit of JavaScript on top of it to make the interface work more smoothly.
 
-### Example—Ajax
+### <span>Example—Ajax</span>
 
 This theory is sometimes hard to apply in practice, especially when you’re relatively new to web development and want to create, say, an Ajax site. A useful trick to get the hang of this technique is thinking in layers. What’s the basic functionality of the site? This functionality should be placed in the bottom-most layer, the one that’s accessible with or without JavaScript. On top of that, you can apply any number of JavaScript-driven usability layers that make the site easier to use. These layers do not interfere with basic site functionality; they just offer some nice extras.
 
@@ -181,7 +179,7 @@ Thus, all users see the same sort links, but their exact behaviour depends on wh
 
 Overruling default behaviour of HTML element is a prime example of unobtrusive JavaScript. If the user’s browser supports your scripts, fine, execute them. If it doesn’t, fall back to the default behaviour of the HTML element. As long as you adhere to this principle your script will be unobtrusive.
 
-## Clean, semantic HTML
+## <span>Clean, semantic HTML</span>
 
 Scripts run in the context of web pages. What kind of web pages? In theory, any page will do, as long as there are some HTML elements that you can manipulate. In practice however you’ll quickly find that standard-compliant web pages that use semantic, structured HTML and properly separate their HTML and CSS are much easier to work with than WYSIWYG-generated, table-based monstrosities.
 
@@ -204,7 +202,7 @@ Now even *that* problem can be solved, but that’s not the point. The point is 
 
 Therefore scripts that work with clean, semantic pages are usually easier to write and always *far* easier to maintain that scripts that work with tag soup.
 
-## Browser compatibility
+## <span>Browser compatibility</span>
 
 Unobtrusive JavaScript also calls for scripts being unobtrusive to browsers. In practice this means that the script should work in as many browsers as possible, and if it doesn’t work it should’t give error messages; it should instead degrade gracefully, leaving the site visitor with a page that will still offer functionality that works. This sounds great, but it’s one of the hardest aspects of JavaScript development to master.
 
@@ -228,7 +226,7 @@ Nonetheless, a word of caution. As a beginning JavaScripter, you should seriousl
 
 So yes, use libraries to work around problems, but resist the urge to start using them right away. Try to work without them in order to get an idea of what you’re up against.
 
-## Summary
+## <span>Summary</span>
 
 Unobtrusive JavaScript is more of a programming philosophy than a technique. By far its most important component is a clear sense of which functionality belongs in which layer. All absolutely crucial site functions should be coded in plain HTML, but once you’ve created that base you can add a JavaScript layer on top of the basics in order to give browsers that support it a nicer, cleaner, faster-seeming interface.
 
@@ -241,4 +239,3 @@ Further, unobtrusive JavaScript
 Unobtrusive JavaScript is not that hard. It’s mostly a trick of the mind; once you’ve spent a few hours in planning one unobtrusive JavaScript, you’ll find that making the right decisions becomes easier and easier.
 
 Once you’ve grown used to unobtrusive JavaScript, you won’t want to go back to the old obtrusive model.
-

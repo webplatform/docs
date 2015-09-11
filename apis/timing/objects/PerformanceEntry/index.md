@@ -1,51 +1,45 @@
 ---
 title: PerformanceEntry
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, fix table coding in Notes'
+readiness: 'In Progress'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, fix table coding in Notes'
 uri: apis/timing/objects/PerformanceEntry
 
 ---
-# PerformanceEntry
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [performance](/apis/timing/properties/performance)
 :
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Performance Timeline](http://go.microsoft.com/fwlink/p/?linkid=257685)
 
-### Members
+### <span>Members</span>
 
 The **PerformanceEntry** object has these types of members:
 
 -   [\#properties Properties]
 
-#### Properties
+#### <span>Properties</span>
 
 The **PerformanceEntry** object has these properties. {
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

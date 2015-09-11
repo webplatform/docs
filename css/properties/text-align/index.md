@@ -1,40 +1,55 @@
 ---
 title: text-align
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/text-align)'
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ms531162(v=vs.85).aspx)'
+code_samples:
+  - 'http://gist.github.com/5664679'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`start, or a nameless value that acts as left if direction is ltr, right if direction is rtl, if start is not supported by the browser.`'
+  'Applies to': 'block containers'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified, except for the match-parent value which is calculated against its parent''s direction value and results in a computed value of either left or right'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`textAlign`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content.'
-code_samples:
-  - 'http://gist.github.com/5664679'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-align
 
 ---
-# text-align
-
-## Summary
+## <span>Summary</span>
 
 The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `start, or a nameless value that acts as left if direction is ltr, right if direction is rtl, if start is not supported by the browser.`
+
 Applies to
 :   block containers
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified, except for the match-parent value which is calculated against its parent's direction value and results in a computed value of either left or right
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textAlign`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-align: <string>`
 -   `text-align: center`
@@ -46,7 +61,7 @@ Animatable
 -   `text-align: start`
 -   `text-align: start end`
 
-## Values
+## <span>Values</span>
 
 start
 :   The same as *`left`* if direction is left-to-right and *`right`* if direction is right-to-left.
@@ -75,11 +90,11 @@ match-parent
 start end
 :   Specifies *`start`* alignment of the first line and any line immediately after a forced line break; and *`end`* alignment of any remaining lines not affected by [**text-align-last**](/css/properties/text-align-last).
 
-## Examples
+## <span>Examples</span>
 
 This just shows the four possible types of text-alignment.
 
-``` {.html}
+``` html
 <p class="left"> This paragraph is aligned to the left. </p>
 
 <p class="centered"> This paragraph is centered. </p>
@@ -91,38 +106,27 @@ This just shows the four possible types of text-alignment.
 
 [View live example](http://code.webplatform.org/gist/5664679)
 
-``` {.css}
+``` css
 .left { text-align: left;}
 .cenetered{ text-align: center;}
 .right { text-align: right;}
 .justified { width: 200px; text-align: justify;}
 ```
 
-## Notes
+## <span>Notes</span>
 
 The standard-compatible way to center a block itself without centering its inline content is setting the left and right `margin` to auto, e.g.: `margin:auto;` or `margin:0 auto;` or `margin-left:auto; margin-right:auto;`
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Level 3](http://dev.w3.org/csswg/css3-text/#text-align)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/text-align)
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ms531162(v=vs.85).aspx)
-

@@ -1,30 +1,30 @@
 ---
-title: mobile opt and perf
+title: HTML5 Techniques for Optimizing Mobile Performance
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/mobile/optimization-and-performance/)'
+readiness: 'Ready to Use'
+summary: 'Learn the fundamentals of an HTML5 mobile framework. From network detection to sliding, flipping, and more.'
 tags:
   - Tutorials
   - Mobile
   - Performance
-readiness: 'Ready to Use'
-summary: 'Learn the fundamentals of an HTML5 mobile framework. From network detection to sliding, flipping, and more.'
 uri: 'tutorials/mobile opt and perf'
 
 ---
-# HTML5 Techniques for Optimizing Mobile Performance
-
 **By [Wesley Hales](http://www.html5rocks.com/profiles/#wesleyhales)**
 Originally published Sept. 19, 2011
 
-## Summary
+## <span>Summary</span>
 
 Learn the fundamentals of an HTML5 mobile framework. From network detection to sliding, flipping, and more.
 
-## Introduction
+## <span>Introduction</span>
 
 Spinning refreshes, choppy page transitions, and periodic delays in tap events are just a few of the headaches in today’s mobile web environments. Developers are trying to get as close to native as they possibly can, but are often derailed by hacks, resets, and rigid frameworks.
 
 In this article, we will discuss the bare minimum of what it takes to create a mobile HTML5 web app. The main point is to unmask the hidden complexities which today’s mobile frameworks try to hide. You will see a minimalistic approach (using core HTML5 APIs) and basic fundamentals that will empower you to write your own framework or contribute to the one you currently use.
 
-## Hardware acceleration
+## <span>Hardware acceleration</span>
 
 Normally, GPUs handle detailed 3D modeling or CAD diagrams, but in this case, we want our primitive drawings (divs, backgrounds, text with drop shadows, images, etc...) to appear smooth and animate smoothly via the GPU. The unfortunate thing is that most front-end developers are dishing this animation process off to a third-party party framework without being concerned about the semantics, but should these core CSS3 features masked? Let me give you a few reasons why caring about this stuff is important:
 
@@ -34,15 +34,15 @@ Normally, GPUs handle detailed 3D modeling or CAD diagrams, but in this case, we
 
 To make user interaction smooth and as close to native as possible, we must make the browser work for us. Ideally, we want the mobile device CPU to set up the initial animation, then have the GPU responsible for only compositing different layers during the animation process. This is what translate3d, scale3d and translateZ do — they give the animated elements their own layer, thus allowing the device to render everything together smoothly. To find out more about accelerated compositing and how WebKit works, Ariya Hidayat has [a lot of good info](http://ariya.blogspot.com/2011/07/fluid-animation-with-accelerated.html) on [his blog](http://ariya.blogspot.com/).
 
-## Page transitions
+## <span>Page transitions</span>
 
 Let’s take a look at three of the most common user-interaction approaches when developing a mobile web app: slide, flip, and rotation effects.
 
-You can view this code in action here [http://slidfast.appspot.com/slide-flip-rotate.html](http://slidfast.appspot.com/slide-flip-rotate.html) (Note: This demo is built for a mobile device, so fire up an emulator, use your phone or tablet, or reduce the size of your browser window to \~1024px or less).
+You can view this code in action here <http://slidfast.appspot.com/slide-flip-rotate.html> (Note: This demo is built for a mobile device, so fire up an emulator, use your phone or tablet, or reduce the size of your browser window to \~1024px or less).
 
 First, we’ll dissect the slide, flip, and rotation transitions and how they’re accelerated. Notice how each animation only takes three or four lines of CSS and JavaScript.
 
-### Sliding
+### <span>Sliding</span>
 
 The most common of the three transition approaches, sliding page transitions mimics the native feel of mobile applications. The slide transition is invoked to bring a new content area into the view port.
 
@@ -143,11 +143,11 @@ Next, let’s take a look at the CSS which handles mobile device detection and o
       }
     }
 
-### Flipping
+### <span>Flipping</span>
 
 On mobile devices, flipping is known as actually swiping the page away. Here we use some simple JavaScript to handle this event on iOS and Android (WebKit-based) devices.
 
-View it in action [http://slidfast.appspot.com/slide-flip-rotate.html](http://slidfast.appspot.com/slide-flip-rotate.html).
+View it in action <http://slidfast.appspot.com/slide-flip-rotate.html>.
 
 When dealing with touch events and transitions, the first thing you’ll want is to get a handle on the current position of the element. See this doc for more information on WebKitCSSMatrix.
 
@@ -208,7 +208,7 @@ Finally, to make the navigation happen, we must call our previously defined `sli
       }
     }
 
-### Rotating
+### <span>Rotating</span>
 
 Next, let’s take a look at the rotate animation being used in this demo. At any time, you can rotate the page you’re currently viewing 180 degrees to reveal the reverse side by tapping on the “Contact” menu option. Again, this only takes a few lines of CSS and some JavaScript to assign a transition class `onclick`. NOTE: The rotate transition isn't rendered correctly on most versions of Android because it lacks 3D CSS transform capabilities. Unfortunately, instead of ignoring the flip, Android makes the page "cartwheel" away by rotating instead of flipping. We recommend using this transition sparingly until support improves.
 
@@ -269,7 +269,7 @@ The CSS:
       -webkit-transform: rotateY(180deg);
     }
 
-## Debugging hardware acceleration
+## <span>Debugging hardware acceleration</span>
 
 Now that we have our basic transitions covered, let’s take a look at the mechanics of how they work and are composited.
 
@@ -315,7 +315,7 @@ When we simply resize or maximize the browser window, we see the memory expand a
 
 This gives you an idea of how memory is being consumed on your mobile device only if you resize the browser to the correct dimensions. If you were debugging or testing for iPhone environments resize to 480px by 320px. We now understand exactly how hardware acceleration works and what it takes to debug. It’s one thing to read about it, but to actually see the GPU memory buffers working visually really brings things into perspective.
 
-## Behind the Scenes: Fetching and Caching
+## <span>Behind the Scenes: Fetching and Caching</span>
 
 Now it’s time to take our page and resource caching to the next level. Much like the approach that JQuery Mobile and similar frameworks use, we are going to pre-fetch and cache our pages with concurrent AJAX calls.
 
@@ -429,7 +429,7 @@ Safari correctly refuses to implicitly move a node from one document to another.
 
 So why iframe? Why not just use innerHTML? Even though innerHTML is now part of the HTML5 spec, it is a dangerous practice to insert the response from a server (evil or good) into an unchecked area. During the writing of this article, I couldn’t find \*anyone\* using anything but innerHTML. I know JQuery uses it at it’s core with an append fallback on exception only. And JQuery Mobile uses it as well. However I haven’t done any heavy testing in regards to innerHTML "[stops working randomly](http://martinkou.blogspot.com/2011/05/alternative-workaround-for-mobile.html)", but it would be very interesting to see all the platforms this affects. It would also be interesting to see which approach is more performant... I’ve heard claims from both sides on this as well.
 
-## Network type detection, handling, and profiling
+## <span>Network type detection, handling, and profiling</span>
 
 Now that we have the ability to buffer (or predictive cache) our web app, we must provide the proper connection detection features that makes our app smarter. This is where mobile app development gets extremely sensitive to online/offline modes and connection speed. Enter [The Network Information API](http://dev.w3.org/2009/dap/netinfo/). Every time I show this feature in a presentation, someone in the audience raises their hand and asks “What would I use that for?”. So here is a possible way to setup an extremely smart mobile web app.
 
@@ -547,15 +547,15 @@ WIFI (Asynchronous) Request Timeline
 
 This allows for at least some method of user experience adjustment based on slow or fast connections. This is by no means is an end-all-be-all solution. Another todo would be to throw up a loading modal when a link is clicked (on slow connections) while the app still may be fetching that link’s page in the background. The big point here is to cut down on latencies while leveraging the full capabilities of the user’s connection with the latest and greatest HTML5 has to offer. [View the network detection demo here](http://slidfast.appspot.com/network-detection.html).
 
-## Conclusion
+## <span>Conclusion</span>
 
 The journey down the road of mobile HTML5 apps is just beginning. Now you see the very simple and basic underpinnings of a mobile “framework” built solely around HTML5 and it’s supporting technologies. I think it’s important for developers to work with and address these features at their core and not masked by a wrapper.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Performance
+#### <span>Performance</span>
 
 -   [navigation timing](/apis/navigation_timing)
 
@@ -570,10 +570,3 @@ The journey down the road of mobile HTML5 apps is just beginning. Now you see th
 -   [visibilitychange](/dom/Document/visibilitychange)
 
 -   **HTML5 Techniques for Optimizing Mobile Performance**
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/mobile/optimization-and-performance/)
-

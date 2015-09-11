@@ -1,55 +1,64 @@
 ---
 title: substringData
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/CharacterData
+    href: /dom/CharacterData
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /dom/CharacterData
+standardization_status: 'W3C Recommendation'
+summary: 'Extracts a range of characters from the node.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Extracts a range of characters from the node.'
 uri: dom/CharacterData/substringData
 
 ---
-# substringData
-
-## Summary
+## <span>Summary</span>
 
 Extracts a range of characters from the node.
 
-*Method of [dom/CharacterData](/dom/CharacterData)*
+Method of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var substring = textualNode.substringData(offset, count);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### offset
+### <span>offset</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The zero-based offset from which to start.
 
-### count
+### <span>count</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The number of characters to extract.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 The requested substring.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //create text node
 var phrase = document.createTextNode ("A flawed plan today is way better than a perfect plan tomorrow.");
 //retrieve substring "way"
@@ -58,26 +67,17 @@ var subst = phrase.substringData(23, 3);
 alert(subst);
 ```
 
-## Notes
+## <span>Notes</span>
 
 If the sum of the *offset* and *count* parameters exceeds the number of characters in the object, then an error is returned.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

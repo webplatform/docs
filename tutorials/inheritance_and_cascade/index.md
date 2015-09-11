@@ -1,20 +1,18 @@
 ---
-title: inheritance and cascade
+title: Inheritance and cascade
+readiness: 'Ready to Use'
+summary: 'This guide explains inheritance and the cascade, two fundamental concepts in CSS.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This guide explains inheritance and the cascade, two fundamental concepts in CSS.'
 uri: 'tutorials/inheritance and cascade'
 
 ---
-# Inheritance and cascade
-
-## Summary
+## <span>Summary</span>
 
 This guide explains inheritance and the cascade, two fundamental concepts in CSS.
 
-## Introduction
+## <span>Introduction</span>
 
 Inheritance and the cascade are two fundamental concepts in CSS, that are important to understand. The two concepts are closely related, yet different:
 
@@ -23,7 +21,7 @@ Inheritance and the cascade are two fundamental concepts in CSS, that are import
 
 This article provides an overview of both concepts.
 
-## Inheritance
+## <span>Inheritance</span>
 
 Inheritance is the mechanism by which certain properties are passed on from a parent element down to its children, in the same fashion as genetics: if parents have blue eyes, their children will probably also have blue eyes.
 
@@ -31,7 +29,7 @@ Not all CSS properties are inherited, because it does not make sense for some of
 
 In most cases, common sense indicates which properties are inherited and which are not: if you are not sure, look up all of the properties present in CSS2 in the [CSS 2.1 specification property summary table](http://www.w3.org/TR/CSS21/propidx.html). For CSS3 properties, consult the individual CSS3 module specifications, available in the [CSS current work page](http://www.w3.org/Style/CSS/current-work).
 
-### Why inheritance is useful
+### <span>Why inheritance is useful</span>
 
 CSS has an inheritance mechanism because otherwise CSS rules would be redundant. Without inheritance, it would be necessary to specify styles like font family, font size, and text color individually — for every single element type. The code would become bloated and repetitive.
 
@@ -39,17 +37,17 @@ Using inheritance, you can specify the font properties for the `html` or `body` 
 
 Note: Consider what would happen if background *images* were inherited. Every child would display the same background image as its parent. The result would look like a jigsaw puzzle put together by someone with a serious drug problem, since the background would be redrawn inside each subsequent child element.
 
-### How inheritance works
+### <span>How inheritance works</span>
 
 Every element in an HTML document inherits all inheritable properties from its parent *except* the root element (`<html>`), which does not have a parent.
 
 Whether or not the inherited properties will have any effect depends on other things, as described later in the section about the cascade. Just as a blue-eyed mother can have a brown-eyed child if the father has brown eyes, inherited properties in CSS can be overridden.
 
-### An example of inheritance
+### <span>An example of inheritance</span>
 
 1.  Copy the following HTML document into a new file in your favorite text editor and save it as inherit.html.
 
-    ``` {.html}
+    ``` html
     <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -67,7 +65,7 @@ Whether or not the inherited properties will have any effect depends on other th
 
 2.  Create a new empty file in your text editor, copy the following CSS rule into it, and save the file as style.css in the same location as the HTML file.
 
-    ``` {.css}
+    ``` css
     html {
       font: 75% Verdana, sans-serif;
     }
@@ -75,7 +73,7 @@ Whether or not the inherited properties will have any effect depends on other th
 
 3.  Link the style sheet to your HTML document by inserting the following line before the `</head>` tag:
 
-    ``` {.html}
+    ``` html
     <link rel="stylesheet" type="text/css" href="style.css">
     ```
 
@@ -87,7 +85,7 @@ If you do not have Verdana installed on your computer, the text displays in the 
 
 The CSS rule only specified two properties — the font size and the font family — but that rule is equivalent to the following:
 
-``` {.css}
+``` css
 html {
   font-style: normal;
   font-variant: normal;
@@ -110,7 +108,7 @@ Consider this example:
 
 1.  Add two more declarations to the rule in your CSS style sheet:
 
-    ``` {.css}
+    ``` css
     html {
       font: 75% Verdana,sans-serif;
 
@@ -124,7 +122,7 @@ Consider this example:
 
 3.  Add another new rule to the style sheet:
 
-    ``` {.css}
+    ``` css
     h1 {
       font-size: 300%;
     }
@@ -132,13 +130,13 @@ Consider this example:
 
 4.  Save and reload the document: this rule sets the font size of the heading. The percentage is applied to the inherited font size — 12px, as we discussed above — so the heading size will be 300% of 12px, or 36px.
 
-### Forcing inheritance
+### <span>Forcing inheritance</span>
 
 You can force inheritance — even for properties that are not inherited by default — by using the `inherit` keyword. Use this strategy with care, however, since Microsoft Internet Explorer versions up to and including version 7 do not support this keyword.
 
 The following rule will make all paragraphs inherit all background properties from their parents:
 
-``` {.css}
+``` css
 p {
   background: inherit;
 }
@@ -146,7 +144,7 @@ p {
 
  Forcing inheritance is not a common practice. It can be useful for “undoing” a declaration in a conflicting rule, or to avoid hard coding certain values. As an example, consider a typical navigation menu:
 
-``` {.html}
+``` html
 <ul id="nav">
   <li><a href="/">Home</a></li>
   <li><a href="/news/">News</a></li>
@@ -158,7 +156,7 @@ p {
 
  To display this list of links as a horizontal menu, you could use the following CSS rules:
 
-``` {.css}
+``` css
 #nav {
   background: blue;
   color: white;
@@ -183,7 +181,7 @@ p {
 
 Of course, you can specify the border color as white and the link text color as white, but the beauty of letting inheritance do the job is that it is only necessary to update one place to change the colors if you decide to update the color scheme later.
 
-## The cascade
+## <span>The cascade</span>
 
 CSS an acronym of Cascading Style Sheets, so it is not a surprise that the cascade is an important concept. It is the mechanism that controls the end result when multiple, conflicting CSS declarations apply to the same element. There are three main concepts that control the order in which CSS declarations are applied:
 
@@ -195,7 +193,7 @@ These concepts are described below.
 
 Importance is the most … er … important. If two declarations have the same importance, the specificity of the rules decide which one will apply. If the rules have the same specificity, then source order controls the outcome.
 
-### Importance
+### <span>Importance</span>
 
 The importance of a CSS declaration depends on *where* it is specified. The conflicting declarations will be applied in the following order, with later declarations overriding earlier ones:
 
@@ -205,7 +203,7 @@ The importance of a CSS declaration depends on *where* it is specified. The conf
 4.  Important declarations in author style sheets
 5.  Important declarations in user style sheets
 
-#### User agent style sheets
+#### <span>User agent style sheets</span>
 
 A user agent style sheet is the built-in style sheet of the browser. Every browser has its default rules for how to display various HTML elements if no style is specified by the user or designer of the page. For instance, unvisited links are usually blue and underlined.
 
@@ -213,13 +211,13 @@ A user style sheet is a style sheet that the *user* has specified. Not all brows
 
 An author style sheet is what we normally refer to when we say “style sheet”. It is the style sheet that the author of the document (or, more likely, the website’s designer) has written and linked (or included).
 
-#### Normal and important declarations
+#### <span>Normal and important declarations</span>
 
 Normal declarations are just that: normal declarations.
 
 The opposite is important declarations, which are declarations followed by an `!important` directive. A dyslexic user might, for instance, want all text to be displayed in Comic Sans MS if he finds that font easier to read. He could then have a user style sheet containing the following rule:
 
-``` {.css}
+``` css
 * {
   font-family: "Comic Sans MS" !important;
 }
@@ -229,7 +227,7 @@ The opposite is important declarations, which are declarations followed by an `!
 
 To be honest, most designers don’t have to think too much about importance, since there’s nothing we can do about it. There is no way we could know if a user has a user style sheet defined that will override our CSS. If they do, they probably have a very good reason for doing so, anyway. Still, it’s good to know what importance is and how it may affect the presentation of our documents.
 
-### Specificity
+### <span>Specificity</span>
 
 Specificity is something every CSS author needs to understand and to think about. It can be thought of as a measure of how specific a rule’s selector is. A selector with low specificity may match many elements (like `*`, which matches every element in the document), while a selector with high specificity might only match a single element on a page (like `#nav`, which only matches the element with an `id` of `nav`).
 
@@ -246,16 +244,12 @@ After a bit of counting, we can thus string those four components together to ge
 
 Let’s look at a few examples — after this it should be quite clear how this works.
 
-Selector
-:   a
-`h1`
-:
-`.foo`
-:
-`#bar`
-:
-`html>head+body ul#nav *.home a:link`
-:
+|Selector|a|b|c|d|Specificity|
+|:-------|:--|:--|:--|:--|:----------|
+|`h1`||||1|0,0,0,1|
+|`.foo`|||1||0,0,1,0|
+|`#bar`||1|||0,1,0,0|
+|`html>head+body ul#nav *.home a:link`||1|2|5|0,1,2,5|
 
 Let’s look at the last example in some more detail. a = 0 since it’s a selector, not a declaration in a `style` attribute. There is one ID selector (`#nav`), so b = 1. There is one attribute selector (`.home`) and one pseudo-class (`:link ` ), so c = 2. There are five element types (`<html>`, `<head>`, `<body>`, `<ul>` and `<a>`), so d = 5.
 
@@ -269,7 +263,7 @@ Let’s look at how this works in practice.
 
 1.  First of all, start by adding another paragraph to your HTML document.
 
-    ``` {.html}
+    ``` html
     <body>
       <h1>Heading</h1>
       <p>A paragraph of text.</p>
@@ -281,7 +275,7 @@ Let’s look at how this works in practice.
 
 2.  Next, add a rule to your stylesheet to make the paragraph text have a different color:
 
-    ``` {.css}
+    ``` css
     p {
       color: cyan;
     }
@@ -291,7 +285,7 @@ Let’s look at how this works in practice.
 
 4.  Set an `id` on the first paragraph so you can target it easily with a CSS selector.
 
-    ``` {.css}
+    ``` css
     <body>
       <h1>Heading</h1>
       <!-- Add the id of "special" to this paragraph -->
@@ -302,7 +296,7 @@ Let’s look at how this works in practice.
 
 5.  Carry on by adding a rule for the special paragraph in your style sheet:
 
-    ``` {.css}
+    ``` css
     #special {
       background-color: red;
       color: yellow;
@@ -319,7 +313,7 @@ The red background isn’t a problem, because it’s only specified for `#specia
 
 The selector of the first rule is `<p>`, which has a specificity of 0,0,0,1 according to the rules above since it contains a single element type. The selector of the second rule is `#special`, which has a specificity of 0,1,0,0 since it consists of an `id` selector. 0,1,0,0 is much more specific than 0,0,0,1 so the `color: yellow;` declaration wins and you get yellow text on a red background.
 
-### Source order
+### <span>Source order</span>
 
 If two declarations affect the same element, have the same importance and the same specificity, the final distinguishing mark is the source order. The declaration that appears later in the style sheets will “win” over those that come before it.
 
@@ -329,7 +323,7 @@ In that case, the order in which the style sheets are linked, included or import
 
 1.  Add a new rule to your style sheet at the very end of the file, like so:
 
-    ``` {.css}
+    ``` css
     p {
       background-color: yellow;
       color: black;
@@ -342,7 +336,7 @@ Note how the first paragraph isn’t affected at all by this new rule.
 
 Although the new rule appears last, its selector has lower specificity than the one for `#special`. This shows clearly how specificity trumps source order.
 
-## Summary
+## <span>Summary</span>
 
 Inheritance and the cascade are fundamental concepts that every web designer should understand.
 
@@ -352,12 +346,11 @@ The cascade sorts out all conflicts when multiple declarations would affect a gi
 
 All else being equal, the source order makes the final distinction.
 
-## See also
+## <span>See also</span>
 
-### Exercise Questions
+### <span>Exercise Questions</span>
 
 -   Is the `border` property inherited? Think about it first—would it make sense?—then look up the correct answer in the [CSS specification](http://www.w3.org/TR/CSS21/).
 -   If we add `!important` to the `color:black` declaration in the last rule in our example style sheet, will this have any effect on the text color in the first, “special” paragraph?
 -   Which selector is more specific, “`#special`” or “`html>head+body>h1+p`”?
 -   What should a user style sheet look like to make our test document display in black Comic Sans MS on a white background, regardless of the author style sheet?
-

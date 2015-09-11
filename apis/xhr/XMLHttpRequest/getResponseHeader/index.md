@@ -1,51 +1,54 @@
 ---
 title: getResponseHeader
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/xhr/XMLHttpRequest
+    href: /apis/xhr/XMLHttpRequest
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/xhr/XMLHttpRequest
+summary: 'Returns the string containing the text of the specified header, or null if the response has not been received or the header does not exist.'
 tags:
   0: API
   1: Object
   2: Methods
   4: XHR
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns the string containing the text of the specified header, or null if the response has not been received or the header does not exist.'
 uri: apis/xhr/XMLHttpRequest/getResponseHeader
 
 ---
-# getResponseHeader
-
-## Summary
+## <span>Summary</span>
 
 Returns the string containing the text of the specified header, or null if the response has not been received or the header does not exist.
 
-*Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)*
+Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = object.getResponseHeader(header);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### header
+### <span>header</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  String that specifies the response header name.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 ByteString
 
 **Needs Examples**: This section should include examples.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
 

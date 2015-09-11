@@ -1,25 +1,27 @@
 ---
 title: linearGradient
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
 uri: svg/elements/linearGradient
 
 ---
-# linearGradient
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, a linear gradient fills a rectangle. The gradient is defined in a definition and fills the rectangle by referencing the gradient. The gradient runs from magenta to cyan.
 
@@ -27,42 +29,44 @@ Copy this sample to a text file and save it with the *.html* file extension. Run
 
 The gradient-filled rectangle will look like this:
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <!-- Inline SVG -->
-        <svg width="400" height="400">
-          <defs>
-            <!-- Define linear gradient for magenta to cyan. -->
-            <linearGradient id="magenta2cyan" >
-            <!-- First color is magenta. -->
-            <stop offset="0%" style="stop-color:magenta"/>
-            <!-- Second color is cyan. -->
-            <stop offset="100%" style="stop-color:cyan"/>
-            </linearGradient>
-          </defs>
-          <!-- Rectangle fill is defined by linear gradient in defs. -->
-          <rect width="100" height="50" x="50" y="50" style="fill:url(#magenta2cyan)"/>
-        </svg>
-      </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <!-- Inline SVG -->
+    <svg width="400" height="400">
+      <defs>
+        <!-- Define linear gradient for magenta to cyan. -->
+        <linearGradient id="magenta2cyan" >
+        <!-- First color is magenta. -->
+        <stop offset="0%" style="stop-color:magenta"/>
+        <!-- Second color is cyan. -->
+        <stop offset="100%" style="stop-color:cyan"/>
+        </linearGradient>
+      </defs>
+      <!-- Rectangle fill is defined by linear gradient in defs. -->
+      <rect width="100" height="50" x="50" y="50" style="fill:url(#magenta2cyan)"/>
+    </svg>
+  </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.2
 
-### Members
+### <span>Members</span>
 
 The **SVGLinearGradientElement** object has these properties:
 
@@ -81,10 +85,3 @@ The **SVGLinearGradientElement** object has these properties:
 -   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
 -   [**y1**](/svg/properties/y1_(SVGLinearGradientElement)): Gets or sets the y-coordinate for the begining of a gradient vector.
 -   [**y2**](/svg/properties/y2_(SVGLinearGradientElement)): Gets or sets the y-coordinate for the end of a gradient vector.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,48 +1,55 @@
 ---
-title: stringify
+title: JSON.stringify
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/json
+    href: /apis/json
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /apis/json
+standardization_status: 'W3C Recommendation'
+summary: 'Export a JavaScript object to a JSON string.'
 tags:
   - API
   - Object
   - Methods
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Export a JavaScript object to a JSON string.'
 uri: apis/json/stringify
 
 ---
-# JSON.stringify
-
-## Summary
+## <span>Summary</span>
 
 Export a JavaScript object to a JSON string.
 
-*Method of [apis/json](/apis/json)*
+Method of [apis/json](/apis/json)[apis/json](/apis/json)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = JSON.stringify(JavaScript object);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### JavaScript object
+### <span>JavaScript object</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The JavaScript object to convert to a string.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 A string representation of the JavaScript object.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // Returns string '{"type":"Mage","stats":[10,3,5]}'
 JSON.stringify({
   type: 'Mage',
@@ -50,10 +57,7 @@ JSON.stringify({
 });
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [JSON-LD 1.0](http://www.w3.org/TR/json-ld/)
 :   W3C Recommendation
-

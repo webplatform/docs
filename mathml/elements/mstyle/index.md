@@ -1,15 +1,18 @@
 ---
 title: mstyle
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mstyle)'
+notes:
+  - 'Fix broken links'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[mathml](/mathml)'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The MathML mstyle element is used change the style of its children. It accepts all attributes of all MathML presentation elements with some exceptions and additional attributes listed below.'
 tags:
   - Markup
   - Elements
   - MathML
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Fix broken links'
-summary: 'The MathML mstyle element is used change the style of its children. It accepts all attributes of all MathML presentation elements with some exceptions and additional attributes listed below.'
-uri: mathml/elements/mstyle
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -19,24 +22,23 @@ todo_broken_links:
     - mathml/elements/mlabeledtr
     - mathml/elements/mtd
     - mathml/elements/maligngroup
+uri: mathml/elements/mstyle
 
 ---
-# mstyle
-
-## Summary
+## <span>Summary</span>
 
 The MathML mstyle element is used change the style of its children. It accepts all attributes of all MathML presentation elements with some exceptions and additional attributes listed below.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## Examples
+## <span>Examples</span>
 
 This example demonstrates a simple usage of the mstyle element:
 
-``` {.html}
+``` html
 
 
 <math>
@@ -45,7 +47,7 @@ This example demonstrates a simple usage of the mstyle element:
     <mrow>
 
       <munderover>
-        <mo stretchy="true" form="prefix">&sum;</mo>
+        <mo stretchy="true" form="prefix">∑</mo>
         <mrow>
           <mi>i</mi>
           <mo form="infix">=</mo>
@@ -69,20 +71,12 @@ This example demonstrates a simple usage of the mstyle element:
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mstyle)
 :   W3C Recommendation
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mstyle)
-
-## Attributes
+## <span>Attributes</span>
 
  decimalpoint
 :   This attribute is specifying the character for the alignment point within [mstack](/w/index.php?title=mathml/elements/mstack&action=edit&redlink=1) and [mtable](/w/index.php?title=mathml/elements/mtable&action=edit&redlink=1) columns, if the `decimalpoint` value is used to specify the alignment.

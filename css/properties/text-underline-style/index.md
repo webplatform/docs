@@ -1,55 +1,60 @@
 ---
 title: text-underline-style
+notes:
+  - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All textual elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value - except for initial and inherit'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+summary: "After review this should be replaced by text-decoration should it not?\n"
 tags:
   - CSS
   - Properties
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
-summary: "After review this should be replaced by text-decoration should it not?\n"
 uri: css/properties/text-underline-style
 
 ---
-# text-underline-style
-
-## Summary
+## <span>Summary</span>
 
 After review this should be replaced by text-decoration should it not?
 
 This property will set the underline style for text with a line value for underline, overline, and line-through.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All textual elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value - except for initial and inherit
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
--   `text-underline-style: dashed`
--   `text-underline-style: dot-dash`
--   `text-underline-style: dot-dot-dash`
--   `text-underline-style: dotted`
--   `text-underline-style: double`
--   `text-underline-style: none`
--   `text-underline-style: solid`
--   `text-underline-style: wave`
-
-## Values
+## <span>Values</span>
 
 none
 :   This will produce no line.
@@ -75,21 +80,17 @@ dot-dot-dash
 wave
 :   This will produce a wavy line.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -100,8 +101,6 @@ wave
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -115,25 +114,11 @@ wave
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   **text-underline-style**
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -178,4 +163,3 @@ wave
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-

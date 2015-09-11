@@ -1,45 +1,57 @@
 ---
 title: border-bottom-right-radius
+notes:
+  - 'Add example, description, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'two absolute \<length\> or percentages'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderBottomRightRadius`'
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Defines the shape of the border of the bottom-right corner.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add example, description, specifications, compatibility.'
-summary: 'Defines the shape of the border of the bottom-right corner.'
 uri: css/properties/border-bottom-right-radius
 
 ---
-# border-bottom-right-radius
-
-## Summary
+## <span>Summary</span>
 
 Defines the shape of the border of the bottom-right corner.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   two absolute \<length\> or percentages
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderBottomRightRadius`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-bottom-right-radius: length`
 -   `border-bottom-right-radius: percentage`
 
-## Values
+## <span>Values</span>
 
 length
 :   Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the [CSS \<length\> data types](/css/data_types/length). Negative values are invalid.

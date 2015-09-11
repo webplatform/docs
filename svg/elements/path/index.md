@@ -1,42 +1,46 @@
 ---
 title: path
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec reference, standardization status, fix table code in Notes'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
+summary: 'The path element is the generic element to define a shape.'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs spec reference, standardization status, fix table code in Notes'
-summary: 'The path element is the generic element to define a shape.'
 uri: svg/elements/path
 
 ---
-# path
-
-## Summary
+## <span>Summary</span>
 
 The path element is the generic element to define a shape.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the path element is used to create a red curved path.
 
+``` html
 
 
-    <svg width="400" height="400">
-      <path d="M 50,100 Q 150,50 250,100" stroke="red" stroke-width="10" fill="white"/>
-    </svg>
+<svg width="400" height="400">
+  <path d="M 50,100 Q 150,50 250,100" stroke="red" stroke-width="10" fill="white"/>
+</svg>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -63,11 +67,11 @@ For the relative versions of the commands, all coordinate values are relative to
 
 {
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Paths](http://www.w3.org/TR/SVG11/paths.html), Section 8.5.23
 
-### Members
+### <span>Members</span>
 
 The **SVGPathElement** object has these events:
 
@@ -127,16 +131,7 @@ the [**d**](/svg/properties/d) attribute.
 -   [**normalizedPathSegList**](/svg/properties/normalizedPathSegList): Gets or sets the normalized static contents of the [**d**](/svg/properties/d) attribute.
 -   [**ownerSVGElement**](/svg/properties/ownerSVGElement): Gets the nearest ancestor [**svg**](/svg/objects/SVGElement) element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [SVG 1.1](http://www.w3.org/TR/SVG11/paths.html)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

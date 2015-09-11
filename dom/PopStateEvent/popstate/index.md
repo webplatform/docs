@@ -1,36 +1,78 @@
 ---
 title: popstate
-tags:
-  - Events
-  - DOM
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[popstate](https://developer.mozilla.org/en-US/docs/Web/Events/popstate) Article]'
+  - 'Microsoft Developer Network: [[popstate Event](http://msdn.microsoft.com/en-us/library/ie/hh771875(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'An event handler that is fired when changes are made to the active history. Calls to pushState or replaceState can trigger this event.'
+tags:
+  - Events
+  - DOM
 uri: dom/PopStateEvent/popstate
 
 ---
-# popstate
-
-## Summary
+## <span>Summary</span>
 
 An event handler that is fired when changes are made to the active history. Calls to pushState or replaceState can trigger this event.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
 Bubbles
-:   Yes
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
 Target
-:   dom/Element
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
 Cancelable
-:   No
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
 Default action
-:   None
 
-## Examples
+</th>
+<td>
+None
 
-``` {.js}
+</td>
+</tr>
+</table>
+## <span>Examples</span>
+
+``` js
 window.onpopstate = function(event) {
   alert("location: " + document.location + ", state: " + JSON.stringify(event.state));
 };
@@ -42,18 +84,9 @@ history.back(); // alerts "location: http://example.com/example.html, state: nul
 history.go(2);  // alerts "location: http://example.com/example.html?page=3, state: {"page":3}
 ```
 
-### Syntax
+### <span>Syntax</span>
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *val* [in]
 :   Type: **Function** A script function to do something when the event is fired.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[popstate](https://developer.mozilla.org/en-US/docs/Web/Events/popstate) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[popstate Event](http://msdn.microsoft.com/en-us/library/ie/hh771875(v=vs.85).aspx) Article]
-

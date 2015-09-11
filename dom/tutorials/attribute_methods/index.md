@@ -3,26 +3,23 @@ title: attribute methods
 uri: 'dom/tutorials/attribute methods'
 
 ---
-## Modifying Attributes Methods
+## <span>Modifying Attributes Methods</span>
 
-Method Name
-:   Description
-getAttribute()
-:   Used to retrieve an attribute value
-setAttribute()
-:   Used to assign an attribute to an element
-removeAttribute()
-:   Used to remove an attribute from an element
+|Method Name|Description|
+|:----------|:----------|
+|getAttribute()|Used to retrieve an attribute value|
+|setAttribute()|Used to assign an attribute to an element|
+|removeAttribute()|Used to remove an attribute from an element|
 
 -   **getAttribute()**
 
 Syntax for this method is as follows:
 
-``` {.js}
+``` js
 Variable = element.node.getAttribute("attribute name", "attribute value");
 ```
 
-``` {.js}
+``` js
 var x = document.getElementsByTagName("p")[0].getAttribute("align");
 ```
 
@@ -30,11 +27,11 @@ var x = document.getElementsByTagName("p")[0].getAttribute("align");
 
 Syntax for this method is as follows:
 
-``` {.js}
+``` js
 element.node.setAttribute("attribute name", "attribute value");
 ```
 
-``` {.js}
+``` js
 document.getElementsByTagName("p")[0].setAttribute("align","right");
 ```
 
@@ -44,17 +41,17 @@ document.getElementsByTagName("p")[0].setAttribute("align","right");
 
 Syntax for this method is as follows:
 
-``` {.js}
+``` js
 element.node.removeAttribute("attribute name");
 ```
 
-``` {.js}
+``` js
 document.getElementsByTagName("p")[0].removeAttribute("align");
 ```
 
  Let's look at a quick example of these attributes in action:
 
-``` {.html}
+``` html
 <html>
 <head>
   <title>Setting and removing attributes</title>

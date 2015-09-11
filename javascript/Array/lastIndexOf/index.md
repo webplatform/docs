@@ -1,21 +1,23 @@
 ---
 title: lastIndexOf
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679972(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the index of the last occurrence of a specified value in an array.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Returns the index of the last occurrence of a specified value in an array.'
 uri: javascript/Array/lastIndexOf
 
 ---
-# lastIndexOf
-
-## Summary
+## <span>Summary</span>
 
 Returns the index of the last occurrence of a specified value in an array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     lastIndexOf( searchElement [, fromIndex ])
 
@@ -25,15 +27,15 @@ Returns the index of the last occurrence of a specified value in an array.
 **fromIndex**
 :   Optional. The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.
 
-## Return Value
+## <span>Return Value</span>
 
 The index of the last occurrence of searchElement in the array, or -1 if searchElement is not found.
 
-## Examples
+## <span>Examples</span>
 
 The following examples illustrate the use of the **lastIndexOf** method.
 
-``` {.js}
+``` js
 // Create an array.
  var ar = ["ab", "cd", "ef", "ab", "cd"];
 
@@ -59,7 +61,7 @@ The following examples illustrate the use of the **lastIndexOf** method.
  // Output: 0
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **lastIndexOf** method searches an array for a specified value. The method returns the index of the last occurrence, or -1 if the specified value is not found.
 
@@ -69,15 +71,9 @@ The array elements are compared to the searchElement value by strict equality, s
 
 The optional fromIndex argument specifies the array index at which to begin the search. If fromIndex is greater than or equal to the array length, the whole array is searched. If fromIndex is negative, the search starts at the array length plus fromIndex. If the computed index is less than 0, -1 is returned.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.15 Array.prototype.lastIndexOf ( searchElement [ , fromIndex](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.15) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679972(v=vs.94).aspx)
 

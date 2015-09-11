@@ -1,33 +1,32 @@
 ---
 title: rtc
-tags:
-  - Markup
-  - Elements
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
 readiness: readiness-state
 standardization_status: 'W3C Recommendation'
 summary: 'Marks a ruby text container'
+tags:
+  - Markup
+  - Elements
 uri: html/elements/rtc
 
 ---
-# rtc
-
-## Summary
+## <span>Summary</span>
 
 Marks a ruby text container
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-rtc-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-rtc-element)
 :   W3C Recommendation
 

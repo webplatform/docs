@@ -1,48 +1,46 @@
 ---
 title: pages
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/styleSheet
+    href: /css/cssom/styleSheet
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
 uri: css/cssom/styleSheet/pages
 
 ---
-# pages
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/styleSheet](/css/cssom/styleSheet)</span></span>
+Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.pages;
 element.pages = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Although this collection is represented in the Cascading Style Sheets (CSS) object model, **@page** rules are not represented in the default print template for Windows Internet Explorer. The rules can be used by print templates developed for applications that host MSHTML.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `styleSheet`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

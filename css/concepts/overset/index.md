@@ -1,17 +1,15 @@
 ---
-title: overset
+title: overset content
+readiness: 'Ready to Use'
+summary: 'Refers to a situation in which the final region of a region chain is unable to fully display remaining content of a named flow.'
 tags:
   - Concept
   - Pages
   - CSS-Regions
-readiness: 'Ready to Use'
-summary: 'Refers to a situation in which the final region of a region chain is unable to fully display remaining content of a named flow.'
 uri: css/concepts/overset
 
 ---
-# overset content
-
-## Summary
+## <span>Summary</span>
 
 Refers to a situation in which the final region of a region chain is unable to fully display remaining content of a named flow.
 
@@ -27,11 +25,11 @@ There are two ways to programatically detect overset state:
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## Examples
+## <span>Examples</span>
 
 The following example defines a set of content and a region chain into which to present it. Resulting layout scenarios are illustrated in subsequent examples:
 
-``` {.html}
+``` html
 
 
 <style>
@@ -63,7 +61,7 @@ section.layout > div { flow-from: main; }
 
 *Scenario \#1:* If the region provides enough area, the final content element appears within the final region. The final **div** element's [**regionOverset**](/apis/css-regions/Region/regionOverset) property returns **fit**. Note that this is *not* valid DOM structure, and simply illustrates how content [*fragments*](/css/concepts/fragment) flow dynamically within the region chain.
 
-``` {.html}
+``` html
 
 
 <section class="layout">
@@ -90,7 +88,7 @@ section.layout > div { flow-from: main; }
 
 *Scenario \#2:* This shows the same situation, but with not enough area in the region chain to display *overset* content. The final **div** element's [**regionOverset**](/apis/css-regions/Region/regionOverset) property returns **overset**. The named flow's [**overset**](/apis/css-regions/NamedFlow/overset) property likewise returns **true**.
 
-``` {.html}
+``` html
 
 
 <section class="layout">
@@ -120,7 +118,7 @@ section.layout > div { flow-from: main; }
 
 *Scenario \#3:* In this example, there is *not enough* content to fill the region chain. The final **div** element's [**regionOverset**](/apis/css-regions/Region/regionOverset) property returns **empty**.
 
-``` {.html}
+``` html
 
 
 <section class="layout">
@@ -146,18 +144,16 @@ section.layout > div { flow-from: main; }
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -215,10 +211,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

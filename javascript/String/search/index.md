@@ -1,20 +1,22 @@
 ---
 title: search
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tbc7a78k(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Finds the first substring match in a regular expression search.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Finds the first substring match in a regular expression search.'
 uri: javascript/String/search
 
 ---
-# search
-
-## Summary
+## <span>Summary</span>
 
 Finds the first substring match in a regular expression search.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     stringObj.search( rgExp )
 
@@ -24,15 +26,15 @@ Finds the first substring match in a regular expression search.
 **rgExp**
 :   Required. An instance of a **Regular Expression** object containing the regular expression pattern and applicable flags.
 
-## Return Value
+## <span>Return Value</span>
 
 If a match is found, the **search** method returns an integer value that indicates the offset from the beginning of the string where the first match occurred. If no match is found, it returns -1.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **search** method.
 
-``` {.js}
+``` js
 var src = "is but a Dream within a dream";
  var re = /dream/;
  var pos = src.search(re);
@@ -48,23 +50,17 @@ var src = "is but a Dream within a dream";
  // 9
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 You can also set the **i** flag that causes the search to be case-insensitive.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [exec Method (Regular Expression)](/javascript/regular_expression/exec)
 -   [match Method (String)](/javascript/String/match)
 -   [Regular Expression Object](/javascript/regular_expression)
 -   [replace Method (String)](/javascript/String/replace)
 -   [test Method (Regular Expression)](/javascript/regular_expression/test)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tbc7a78k(v=vs.94).aspx)
 

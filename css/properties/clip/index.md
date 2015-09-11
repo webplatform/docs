@@ -1,53 +1,67 @@
 ---
 title: clip
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6338197'
+notes:
+  - "Add specifications, compatibility.\nDeprecated; replaced by clip-path."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': ''
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: "Deprecated; see clip-path.\n"
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - "Add specifications, compatibility.\nDeprecated; replaced by clip-path."
-summary: "Deprecated; see clip-path.\n"
-code_samples:
-  - 'http://gist.github.com/6338197'
-uri: css/properties/clip
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/clip
 
 ---
-# clip
-
-## Summary
+## <span>Summary</span>
 
 Deprecated; see clip-path.
 
 Lets you specify the dimensions of an absolutely positioned element that should be visible, and the element is clipped into this shape, and displayed.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
-:   ``
+:
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `clip: auto`
 -   `clip: rect(top, right, bottom, left)`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. Clip to expose entire object.
@@ -55,11 +69,11 @@ auto
 rect(top, right, bottom, left)
 :   Top, right, bottom, and left specify length values, any of which can be replaced by **auto**, leaving that side not clipped. The value of top specifies that everything above this value on the Y axis (with 0 at the top) is clipped. The value of right specifies that everything above this value on the X axis (with 0 at the left) is clipped. The value of bottom specifies that everything below this value on the Y axis (with 0 at the top) is clipped. The value of left specifies that everything to the left of this value on the X axis (with 0 at the left) is clipped.
 
-## Examples
+## <span>Examples</span>
 
 This example takes the Web Platform Docs logo and clips it in two ways: one shows the icon and the other shows the text.
 
-``` {.css}
+``` css
 img.clippable {
   /**
    * The `clip` property applies only to absolutely positioned elements only.
@@ -92,7 +106,7 @@ img.clipped-text {
 
 The HTML for the above example.
 
-``` {.html}
+``` html
 
 
   <img class="clippable original" src="http://www.webplatform.org/logo/wplogo_pillow_wide_tan.png" alt="Web Platform Docs logo" />
@@ -102,21 +116,21 @@ The HTML for the above example.
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 As of Windows Internet Explorer 8, the required syntax of the **clip** attribute is identical to that specified in the Cascading Style Sheets, Level 2 Revision 1 (CSS2.1) specification; that is, commas are now required between the parameters of the `rect()` value. This behavior requires Windows Internet Explorer to be in IE8 Standards mode (or EmulateIE8 mode with an Internet Explorer 8 [!DOCTYPE](/html/elements/!DOCTYPE) directive). For more information on document compatibility modes, see Defining Document Compatibility. In Windows Internet Explorer 7 and earlier (and in Internet Explorer 8 or later in IE7 Standards mode, EmulateIE7 mode, or IE5 (Quirks) mode), the commas should be omitted. For example: **clip**:`rect(0 50 50 0)` The required syntax of the **clip** attribute is identical to that specified in the CSS2.1 specification; that is, commas are now required between the parameters of the `rect()` value. This property defines the shape and size of the positioned object that is visible. The [**position**](/css/properties/position) must be set to **absolute**. Any part of the object that is outside the clipping region is transparent. Any coordinate can be replaced by the value **auto**, which exposes the respective side (that is, the side is not clipped). The order of the values **clip**:`rect(0, 0, 50, 50)` renders the object invisible because it sets the top and right positions of the clipping region to 0. To achieve a 50-by-50 view port, use **clip**:`rect(0, 50, 50, 0)`. The **clip** attribute and the **clip** property are available on the Macintosh platform, as of Microsoft Internet Explorer 5.
 
-### Syntax
+### <span>Syntax</span>
 
 `clip: auto | rect(top, right, bottom, left)`
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Visual Effects
+#### <span>Visual Effects</span>
 
 -   [color](/css/color)
 
@@ -152,7 +166,7 @@ As of Windows Internet Explorer 8, the required syntax of the **clip** attribut
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -164,10 +178,3 @@ As of Windows Internet Explorer 8, the required syntax of the **clip** attribut
 -   `clipLeft`
 -   `clipRight`
 -   `clipTop`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

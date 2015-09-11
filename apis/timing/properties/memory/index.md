@@ -1,48 +1,57 @@
 ---
-title: memory
+title: performance.memory
+attributions:
+  - 'Microsoft Developer Network.'
+notes:
+  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces. Experimental; deletion candidate'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/timing
+    href: '/w/index.php?title=apis/timing&action=edit&redlink=1'
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: '/w/index.php?title=apis/timing&action=edit&redlink=1'
+standardization_status: Non-Standard
+summary: 'Do not use. Proprietary. Chrome only. Gets quantized scripting memory usage numbers.'
 tags:
   - API
   - Object
   - Properties
   - DOM
   - Performance
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces. Experimental; deletion candidate'
-summary: 'Do not use. Proprietary. Chrome only. Gets quantized scripting memory usage numbers.'
-uri: apis/timing/properties/memory
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - apis/timing
+uri: apis/timing/properties/memory
 
 ---
-# performance.memory
-
-## Summary
+## <span>Summary</span>
 
 Do not use. Proprietary. Chrome only. Gets quantized scripting memory usage numbers.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/timing](/w/index.php?title=apis/timing&action=edit&redlink=1)</span></span>
+Property of [apis/timing](/w/index.php?title=apis/timing&action=edit&redlink=1)[apis/timing](/w/index.php?title=apis/timing&action=edit&redlink=1)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var memoryInfo = window.performance.memory;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 An object created with *MemoryInfo* constructor, containing *jsHeapSizeLimit*, *totalJSHeapSize* and *usedJSHeapSize* properties with numerical values.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 console.log(performance.memory)
 
 // Would show, for example
@@ -53,7 +62,7 @@ console.log(performance.memory)
 //}
 ```
 
-## Notes
+## <span>Notes</span>
 
 *usedJsHeapSize* is the total amount of memory being used by JS objects including V8 internal objects, *totalJsHeapSize* is current size of the JS heap including free space not occupied by any JS objects. This means that *usedJsHeapSize* can not be greater than *totalJsHeapSize*. Note that it is not necessarily that there has ever been *totalJsHeapSize* of alive JS objects.
 
@@ -62,10 +71,3 @@ The values are quantized as to not expose private information to attackers. If C
  See the [WebKit Patch](https://bugs.webkit.org/attachment.cgi?id=154876&action=prettypatch) for how the quantized values are exposed. The tests in particular help explain how it works.
 
 -   [WebKit bug](https://bugs.webkit.org/show_bug.cgi?id=86636)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network.
-

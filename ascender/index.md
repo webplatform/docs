@@ -1,17 +1,15 @@
 ---
-title: scender
+title: ascender
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: ascender
 
 ---
-# ascender
-
-## ascender
+## <span>ascender</span>
 
 The upward-pointing stem of a letter, such as "d" or "h", that extends toward the cap line.
 

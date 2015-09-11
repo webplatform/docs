@@ -1,48 +1,53 @@
 ---
 title: href
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, syntax, and examples needed.'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/properties
+    href: /css/cssom/properties
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'summary, syntax, and examples needed.'
 uri: css/cssom/properties/href
 
 ---
-# href
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/properties](/css/cssom/properties)</span></span>
+Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.href;
 element.href = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The property returns the URL if the style sheet is a **link**. If the style sheet is a **style**, the property returns `null`.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -98,13 +103,9 @@ The property returns the URL if the style sheet is a **link**. If the style shee
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -144,17 +145,54 @@ The property returns the URL if the style sheet is a **link**. If the style shee
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `styleSheet`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

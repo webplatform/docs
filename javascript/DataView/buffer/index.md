@@ -1,28 +1,30 @@
 ---
 title: buffer
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br230733(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Read-only. Gets the ArrayBuffer that is referenced by this view.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Read-only. Gets the ArrayBuffer that is referenced by this view.'
 uri: javascript/DataView/buffer
 
 ---
-# buffer
-
-## Summary
+## <span>Summary</span>
 
 Read-only. Gets the ArrayBuffer that is referenced by this view.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     var arrayBuffer = dataView.buffer;
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to get the length of the ArrayBuffer underlying the DataView.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -36,10 +38,4 @@ var req = new XMLHttpRequest();
          }
      }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br230733(v=vs.94).aspx)
 

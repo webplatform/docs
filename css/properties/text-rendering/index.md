@@ -1,49 +1,63 @@
 ---
 title: text-rendering
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'text elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': auto
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`text-rendering`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.'
 tags:
   0: CSS
   1: Properties
   3: Graphics
   4: SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Last Call Working Draft'
-summary: 'The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.'
 uri: css/properties/text-rendering
 
 ---
-# text-rendering
-
-## Summary
+## <span>Summary</span>
 
 The text-rendering CSS property provides information to the browser about how to optimize when rendering text. Options are: legibility, speed or geometric precision.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   text elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   auto
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `text-rendering`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-rendering: auto`
 -   `text-rendering: geometricPrecision`
 -   `text-rendering: optimizeLegibility`
 -   `text-rendering: optimizeSpeed`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Indicates that the browser should choose the most appropriate method between speed, legibility and geometric precision, but favors legibility over speed and geometric precision.
@@ -59,9 +73,9 @@ geometricPrecision
 
 This setting can be helpful when using kerning, which does often not scale linearly and can make text using such fonts look good.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* The user agent will decide how to optimize text for speed, legibility and geometric precision. */
 body {
     text-rendering: auto;
@@ -83,28 +97,26 @@ body {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      Gecko note:
 
 In Gecko browsers there is a way to set the threshold value for the auto keyword by changing the preference in browser.display.auto\_quality\_min\_font\_size. By default it is set to 20px. On Gecko 2.0 (Firefox 4 / Thunderbird 3.3 / SeaMonkey 2.1) the optimizeSpeed option has no effect because there is no faster way of rendering text than the standard code already does. See bug [bug 595688](https://bugzilla.mozilla.org/show_bug.cgi?id=595688) for more details on that.
 
-## Notes
+## <span>Notes</span>
 
 The property is a SVG property not specified in any CSS standard yet. However, user agents including Gecko and WebKit browsers let you apply this property to HTML and XML content on Windows, Mac OS X and Linux via CSS.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   W3C Last Call Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -118,13 +130,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [kerning-mode](/css/properties/kerning-mode)
-
--   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
 
 -   **text-rendering**
 
@@ -132,7 +138,7 @@ Specification
 
 -   [user-modify](/css/properties/user-modify)
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -170,17 +176,13 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -191,8 +193,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -206,25 +206,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   **text-rendering**
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -269,4 +255,3 @@ Specification
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-

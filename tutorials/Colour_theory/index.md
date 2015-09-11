@@ -1,5 +1,9 @@
 ---
 title: Colour theory
+notes:
+  - 'Fix a couple of broken image links'
+readiness: 'Almost Ready'
+summary: 'This article discusses the basics of colour theory as it applies to Web design.'
 tags:
   - Pages
   - with
@@ -8,26 +12,20 @@ tags:
   - links
   - Tutorials
   - WSC
-readiness: 'Almost Ready'
-notes:
-  - 'Fix a couple of broken image links'
-summary: 'This article discusses the basics of colour theory as it applies to Web design.'
 uri: 'tutorials/Colour theory'
 
 ---
-# Colour theory
-
-## Summary
+## <span>Summary</span>
 
 This article discusses the basics of colour theory as it applies to Web design.
 
-## Introduction
+## <span>Introduction</span>
 
 Without much colour or graphics, every site would become [Jakob Nielsen](http://www.useit.com/)’s dream site. Although Nielsen’s philosophy of bare-bones Web architecture has accessibility and usability merits, most Web designers want to add a signature touch to their sites with many design elements. Fortunately, a designer can add colour to a site without losing accessibility and usability if the site is designed with those capabilities in mind. While many designers feel comfortable designing a site for many users, those same designers might feel inadequate when it comes to choosing colours and graphics.
 
 In this article, I’ll cover colour basics and three simple colour schemes so that you can feel confident about choosing colours for your site. I’ll follow up this article with another piece on how to simplify these colour choices. After all, it’s more fun to enjoy the compliments on your Web site design than it is to sweat over the colour choices.
 
-## Colours, tints, and shades
+## <span>Colours, tints, and shades</span>
 
 Colours, or hues, have historically been divided into primary, secondary, and tertiary colours. The primary colours consist of red, yellow and blue, and they’re called primary colours because you don’t need to mix colours to make these three hues. If you want to translate these colours into web colours, you can recreate them using their hex (hexadecimal) equivalents of \#ff0000, \#ffff00, and
 
@@ -62,7 +60,7 @@ The arrows in Figure 2 indicate different things as follows:
 
 As you can see from the colour wheel shown above, the amount of white, gray and black added to a colour are minor—just enough to alter the original colour and to create what is known as a **monochromatic** colour scheme**.**
 
-### Monochromatic colour schemes
+### <span>Monochromatic colour schemes</span>
 
 Colour schemes have been around for centuries, so there’s no need to reinvent the colour wheel. Although web colour differs from print colour, the concepts are the same. You just exchange hex numbers for colour names, and match then as closely as possible. One online tool I suggest using to help out with this is the [Color Scheme Designer](http://colorschemedesigner.com/), as seen in Figure 3, which allows you to determine colour schemes quickly and easily, and even determine whether the colours you’ve chosen provide enough contrast for low-vision or colour-blind users.
 
@@ -84,7 +82,7 @@ Figure 4: A monochromatic colour scheme.
 
 **A monochromatic colour scheme** equates to one colour and all its tints, tones and shades. While this scheme is the easiest to use, it doesn’t provide much excitement in a Web design for many designers. Instead, you may want to explore other schemes to add pizzaz to your links, images, and banners.
 
-### Complementary Colour Schemes
+### <span>Complementary Colour Schemes</span>
 
 The next colour scheme family to explore is the complementary scheme, where you match up colours that lie directly opposite each other on the colour wheel, as seen in Figure 5.
 
@@ -108,7 +106,7 @@ Figure 7: The Greenpeace site—a good example of a complementary colour scheme.
 
 [Greenpeace USA](http://www.greenpeace.org/usa/) (see Figure 7) is one of many sites that uses a contrasting colour scheme. Yes, you see yellows and oranges, but the predominant colours are green and red—two colours that are directly opposite each other on the colour wheel. You almost can’t go wrong with this complementary colour method. In fact, the use of a “warm” and “cool” colour combination makes a site zing with colour contrast.
 
-### Warm vs. cool colours
+### <span>Warm vs. cool colours</span>
 
 Complementary colour schemes are great to use in web sites, as they also contain both warm and cool colours. The use of these colours provides contrast, and it’s easy to remember which colours are "warm" and which colours are "cool" as you can see in Figure 8 (and on the colour generator site):
 
@@ -128,7 +126,7 @@ Ecolution usually uses red as an accent colour on their home page in contrast to
 
 You never realized that colour theory was so easy, did you? Well, then…let’s complicate the issue a bit…
 
-### Triadic colour schemes
+### <span>Triadic colour schemes</span>
 
 A triadic colour scheme (see Figure 10) is created when you pick one colour and then pick two other colours that lie equidistant from each other around the circle, like so:
 
@@ -154,7 +152,7 @@ Figure 12: Puzzle Pirates—A good triadic colour scheme.
 
 [Puzzle Pirates](http://www.puzzlepirates.com/), shown in Figure 12, uses a triadic scheme on their home page. They use the primary red-blue-yellow scheme, and this primary scheme is perfect for a kid’s game site. Note that the blue is predominant and that the reds and yellows are used as accents and to lead the eye around the page.
 
-### Tetradic colour schemes
+### <span>Tetradic colour schemes</span>
 
 The more colours you choose, the more complicated the colour scheme. However, one trick is to find a tint, tone or shade and stick to those regions across the board rather than mix pure colours and their tints, tones and shades. This method works well with a colour scheme such as the four-colour tetradic scheme. This scheme (see Figure 13) is just like the complementary scheme, only you use two complementaries that are equidistant.
 
@@ -192,7 +190,7 @@ The Jane Goodall Institute site (Figure 17) is one of the few sites that really 
 
 Now, when you surf around the Web searching for colour and design ideas, keep your colour wheel close at hand to learn more about how designers use colour schemes on your favorite Web sites!
 
-## Summary
+## <span>Summary</span>
 
 Although colour combinations may seem complicated, all colour schemes carry certain "rules." These guidelines make it easy to understand which colours work together to add interest and contrast to a Web site.
 
@@ -200,7 +198,7 @@ The reason colour wheels exist are for people to use them. Colour wheels and too
 
 The four colour schemes covered in this article are monochromatic, complementary, triadic, and tetradic. Although other colour schemes exist, these four colour schemes are the easiest to understand and implement.
 
-## Exercise Questions
+## <span>Exercise Questions</span>
 
 Note: the last two questions do not have "right" or "wrong" answers.
 

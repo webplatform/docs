@@ -1,48 +1,57 @@
 ---
 title: border
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'Specifies the width of the border around an element. Deprecated in HTML4, not supported in HTML5. Use CSS.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Specifies the width of the border around an element. Deprecated in HTML4, not supported in HTML5. Use CSS.'
 uri: html/attributes/border
 
 ---
-# border
-
-## Summary
+## <span>Summary</span>
 
 Specifies the width of the border around an element. Deprecated in HTML4, not supported in HTML5. Use CSS.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-## Examples
+</th>
+<td>
+ ?
 
-``` {.html}
+</td>
+</tr>
+</table>
+## <span>Examples</span>
+
+``` html
 <img src="smiley.gif" alt="Smiley face" border="5">
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Setting a border to `0` or omitting the attribute causes no border to be displayed. Supplying the **BORDER** attribute without a value defaults to a single border. In Microsoft Internet Explorer 6, This property now applies to the **object** object.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 13.7.3 (Deprecated)
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `object`
 -   `img`
@@ -54,10 +63,3 @@ Setting a border to `0` or omitting the attribute causes no border to be display
 -   `borderColorLight`
 -   `hspace`
 -   `vspace`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

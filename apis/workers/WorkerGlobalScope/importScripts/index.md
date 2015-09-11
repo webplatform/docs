@@ -1,59 +1,55 @@
 ---
 title: importScripts
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/workers/WorkerGlobalScope
+    href: /apis/workers/WorkerGlobalScope
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Fetches one or more script resources, identified by absolute URLs.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Webworkers
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs example'
-summary: 'Fetches one or more script resources, identified by absolute URLs.'
 uri: apis/workers/WorkerGlobalScope/importScripts
 
 ---
-# importScripts
-
-## Summary
+## <span>Summary</span>
 
 Fetches one or more script resources, identified by absolute URLs.
 
-*Method of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)*
+Method of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  object.importScripts(urls);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### urls
+### <span>urls</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 A URL that is loaded must resolve according to the **WorkerLocation** of the worker. More than one script can be loaded in a sequence of URLs. The loading and executing of scripts is synchronous. If any script throws an exception, subsequent scripts will not load.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

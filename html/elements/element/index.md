@@ -1,28 +1,28 @@
 ---
 title: element
+notes:
+  - 'Deletion Candidate'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElementElement](/w/index.php?title=dom/HTMLElementElement&action=edit&redlink=1)'
+readiness: 'Not Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: "The element element defines a custom element.\nNote: This element has been deprecated, and is not supported by any browser. See document.register for the standard custom element definition.\n"
 tags:
   - Markup
   - Elements
-readiness: 'Not Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Deletion Candidate'
-summary: "The element element defines a custom element.\nNote: This element has been deprecated, and is not supported by any browser. See document.register for the standard custom element definition.\n"
-uri: html/elements/element
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/apis/document/register
     - dom/HTMLElementElement
+uri: html/elements/element
 
 ---
-# element
-
-## Summary
+## <span>Summary</span>
 
 The element element defines a custom element. Note: This element has been deprecated, and is not supported by any browser. See document.register for the standard custom element definition.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElementElement](/w/index.php?title=dom/HTMLElementElement&action=edit&redlink=1)
@@ -33,17 +33,15 @@ Custom elements can define presentation aspects like decorators. Unlike a decora
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Web Components
+#### <span>Web Components</span>
 
 -   [register](/dom/Document/register)
 
 -   [shadowdom](/dom/shadowdom)
-
--   [ShadowRoot](/dom/shadowdom/ShadowRoot)
 
 -   [is](/html/attributes/is)
 
@@ -55,7 +53,6 @@ Custom elements can define presentation aspects like decorators. Unlike a decora
 
 -   [template](/html/elements/template)
 
-### External resources
+### <span>External resources</span>
 
-[https://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html\#custom-element-section](https://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html#custom-element-section)
-
+<https://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html#custom-element-section>

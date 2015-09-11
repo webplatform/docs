@@ -1,23 +1,25 @@
 ---
 title: header
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add Category, Parent and Children information. Complete Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'In Progress'
+summary: 'The header element (&lt;header&gt;) represents the header of a section: a group of introductory or navigational aids.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-notes:
-  - 'Add Category, Parent and Children information. Complete Compatibility information.'
-summary: 'The header element (<header>) represents the header of a section: a group of introductory or navigational aids.'
 uri: html/elements/header
 
 ---
-# header
+## <span>Summary</span>
 
-## Summary
+The header element (&lt;header&gt;) represents the header of a section: a group of introductory or navigational aids.
 
-The header element (\<header\>) represents the header of a section: a group of introductory or navigational aids.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -26,11 +28,11 @@ The **header** element represents introductory content for its nearest ancestor 
 
 A header element is intended to usually contain the section's heading (an h1–h6 element or an hgroup element), but this is not required. The header element can also be used to wrap a section's table of contents, a search form, or any relevant logos.
 
-## Examples
+## <span>Examples</span>
 
 The following snippet shows how the element can be used to mark up a specification's header
 
-``` {.html}
+``` html
 
 <header>
  <hgroup>
@@ -53,11 +55,12 @@ The following snippet shows how the element can be used to mark up a specificati
  </dl>
  <p class="copyright"><a href="http://www.w3.org/Consortium/Legal/ipr-notic ...
 </header>
+
 ```
 
 In this example, the page has a page heading given by the h1 element, and two subsections whose headings are given by h2 elements. The content after the header element is still part of the last subsection started in the header element, because the header element doesn't take part in the outline algorithm
 
-``` {.html}
+``` html
 
 <body>
  <header>
@@ -77,39 +80,31 @@ In this example, the page has a page heading given by the h1 element, and two su
  <p>You have three active games:</p>
  <!-- this is still part of the subsection entitled "Games" -->
  ...
+
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Windows Internet Explorer 9. The **header** element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility. A **header** element can contain the section's heading (an **h1-h6** element or an **hgroup** element) but this is not required. The **header** element can also be used to wrap a section's table of contents, a search form, or any relevant logos. The **header** element is not sectioning content; it does not introduce a new section.
 
-### HTML information
+### <span>HTML information</span>
 
-Closing Tag
-:   required
-CSS Display
-:   block
+||
+|Closing Tag|required|
+|CSS Display|block|
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-header-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-header-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
-[http://www.w3.org/TR/html-markup/header.html](http://www.w3.org/TR/html-markup/header.html)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+<http://www.w3.org/TR/html-markup/header.html>

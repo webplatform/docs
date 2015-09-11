@@ -1,47 +1,61 @@
 ---
 title: border-image-source
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/5621011'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'all elements, except table elements where `border-collapse: collapse` is applied'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': '‘none’ or the image with its URI made absolute'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderImageSource`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The property border-image-source is used to set the image to be used instead of the border style. If this is set to none the border-style is used instead.'
-code_samples:
-  - 'http://gist.github.com/5621011'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-image-source
 
 ---
-# border-image-source
-
-## Summary
+## <span>Summary</span>
 
 The property border-image-source is used to set the image to be used instead of the border style. If this is set to none the border-style is used instead.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   all elements, except table elements where `border-collapse: collapse` is applied
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   ‘none’ or the image with its URI made absolute
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderImageSource`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-image-source: none`
 -   `border-image-source: url(path/to/image.png)`
 
-## Values
+## <span>Values</span>
 
 none
 :   Default. `border-style` is used instead.
@@ -49,17 +63,17 @@ none
 url(path/to/image.png)
 :   This value contains a path to an image that you want to apply to the element in question as a background image, using the CSS images syntax, as described at ["CSS images: url()"](/css/functions/url()).
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing a \<div\> that has border-image-source property and other border-image properties.
 
-``` {.html}
+``` html
 <div class="pattern">border-image</div>
 ```
 
 [View live example](http://code.webplatform.org/gist/5621011)
 
-``` {.css}
+``` css
 /* General setup of the containers */
 div {
     height: 100px;
@@ -81,18 +95,16 @@ div {
 
 [View live example](http://code.webplatform.org/gist/5621011)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-image-source)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -152,7 +164,6 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)
-

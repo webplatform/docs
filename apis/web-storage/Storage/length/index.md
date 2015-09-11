@@ -1,56 +1,56 @@
 ---
 title: length
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web-storage/Storage
+    href: /apis/web-storage/Storage
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/web-storage/Storage
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the number of key/value pairs currently present in the list associated with the object.'
 tags:
   - API
   - Object
   - Properties
   - Webstorage
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the number of key/value pairs currently present in the list associated with the object.'
 uri: apis/web-storage/Storage/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 Returns the number of key/value pairs currently present in the list associated with the object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web-storage/Storage](/apis/web-storage/Storage)</span></span>
+Property of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = object.length;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
 This example creates two new localStorage items (a timestamp and a user name), then reports the number of key/value pairs (2).
 
-``` {.js}
+``` js
 window.localStorage.setItem('timestamp', (new Date()).getTime());
 window.localStorage.setItem('user', 'Bob');
 alert("There are " + window.localStorage.length + " localStorage item(s)");
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

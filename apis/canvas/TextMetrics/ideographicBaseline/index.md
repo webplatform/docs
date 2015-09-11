@@ -1,41 +1,50 @@
 ---
 title: ideographicBaseline
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/canvas/TextMetrics
+    href: /apis/canvas/TextMetrics
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/canvas/TextMetrics
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The distance from the horizontal line indicated by the textBaseline attribute to the ideographic baseline of the line box, in CSS pixels; positive numbers indicating that the given baseline is below the ideographic baseline. (Zero if the given baseline is the ideographic baseline.)'
 tags:
   0: API
   1: Object
   2: Properties
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The distance from the horizontal line indicated by the textBaseline attribute to the ideographic baseline of the line box, in CSS pixels; positive numbers indicating that the given baseline is below the ideographic baseline. (Zero if the given baseline is the ideographic baseline.)'
 uri: apis/canvas/TextMetrics/ideographicBaseline
 
 ---
-# ideographicBaseline
-
-## Summary
+## <span>Summary</span>
 
 The distance from the horizontal line indicated by the textBaseline attribute to the ideographic baseline of the line box, in CSS pixels; positive numbers indicating that the given baseline is below the ideographic baseline. (Zero if the given baseline is the ideographic baseline.)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/canvas/TextMetrics](/apis/canvas/TextMetrics)</span></span>
+Property of [apis/canvas/TextMetrics](/apis/canvas/TextMetrics)[apis/canvas/TextMetrics](/apis/canvas/TextMetrics)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = TextMetrics.ideographicBaseline;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
-. . .
+<p>. . .</p>
 <script>
 var can = document.getElementById("myCanvas");
 var ctxt = can.getContext("2d");
@@ -48,16 +57,7 @@ alert("ideographicBaseline: " + mets.ideographicBaseline);
 </script>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

@@ -1,31 +1,33 @@
 ---
 title: eval
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/12k71sw7(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Evaluates JavaScript code and executes it.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Evaluates JavaScript code and executes it.'
 uri: javascript/eval
 
 ---
-# eval
-
-## Summary
+## <span>Summary</span>
 
 Evaluates JavaScript code and executes it.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     eval( codeString )
 
 **codeString**
 :   Required. A **String** value that contains valid JavaScript code.
 
-## Examples
+## <span>Examples</span>
 
 The following code initializes the variable `myDate` to a test date.
 
-``` {.js}
+``` js
 var dateFn = "Date(1971,3,8)";
  var myDate;
  eval("myDate = new " + dateFn + ";");
@@ -35,7 +37,7 @@ var dateFn = "Date(1971,3,8)";
  // Output: Thu Apr 8 00:00:00 PDT 1971
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **eval** function enables dynamic execution of JavaScript source code.
 
@@ -45,15 +47,9 @@ The code passed to the **eval** function is executed in the same context as the 
 
 Whenever possible, use the [JSON.parse function](/javascript/JSON/parse) to de-serialize JavaScript Object Notation (JSON) text. The **JSON.parse** function is more secure and executes faster than the **eval** function.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [String Object](/javascript/String)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/12k71sw7(v=vs.94).aspx)
 

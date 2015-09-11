@@ -1,13 +1,16 @@
 ---
-title: sv
+title: Kontur (outline)
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+lang: sv
+notes:
+  - 'Not in English'
+standardization_status: 'W3C Recommendation'
+summary: 'Enheten outline i CSS är en regel för att ställa in en eller fler individuella konturregler outline-style, outline-width och outline-color i en enda regel. I de flesta fall är det föredraget och mer passande att använda denna enhet.'
 tags:
   - CSS
   - Selectors
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Not in English'
-summary: 'Enheten outline i CSS är en regel för att ställa in en eller fler individuella konturregler outline-style, outline-width och outline-color i en enda regel. I de flesta fall är det föredraget och mer passande att använda denna enhet.'
-uri: css/properties/outline/sv
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -70,11 +73,10 @@ todo_broken_links:
     - css/properties/outline/zh-hans
     - css/properties/outline/zh-hant
     - css/properties/outline/zh-tw
+uri: css/properties/outline/sv
 
 ---
-# Kontur (outline)
-
-## Summary
+## <span>Summary</span>
 
 Enheten outline i CSS är en regel för att ställa in en eller fler individuella konturregler outline-style, outline-width och outline-color i en enda regel. I de flesta fall är det föredraget och mer passande att använda denna enhet.
 
@@ -85,17 +87,17 @@ Enheten outline i CSS är en regel för att ställa in en eller fler individuell
 
 **Web<span style="font-size: xx-large;">Platform</span>Docs**
 
-## Examples
+## <span>Examples</span>
 
 Ta bort kontur när man för musen över en länk
 
-``` {.css}
+``` css
 a:hover { outline: 0; }
 ```
 
 Vanligt användade av outline regeln
 
-``` {.css}
+``` css
 :focus { outline: solid; } /* outline-width och outline-color har sin standardiserade stil när outline-style inte är angiven */
 
 :focus { outline: dashed red; } /* outline-style och outline-color */
@@ -105,27 +107,29 @@ Vanligt användade av outline regeln
 :focus { outline: ridge thick violet; } /* outline-style, outline-width och outline-color */
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Tänk på att...
+### <span>Tänk på att...</span>
 
 En kontur ändrar inte flödet på sidan på något sätt, oavsett hur stor den är. Konturen ritas på elementet, och ändrar inte storleken och positionen av elementet, eller andra element. Denna enhet kräver att Windows Internet Explorer är i IE8 Standards-läge.
 
-### Syntax
+### <span>Syntax</span>
 
 `outline:  [ <outline-width> || <outline-style> || <outline-color> ] | inherit`
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS 2.1](http://www.w3.org/TR/CSS2/ui.html#dynamic-outlines), Section 18.4
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **Språk:**
-:   **[English](/css/properties/outline)**  • <span lang="sv">**svenska**</span>
+
+</th>
+<td class="mbox-text">
+**[English](/css/properties/outline)**  • <span lang="sv">**svenska**</span>
+
+</td>
+</tr>
+</table>

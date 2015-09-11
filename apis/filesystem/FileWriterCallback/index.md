@@ -1,46 +1,42 @@
 ---
 title: FileWriterCallback
+notes:
+  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
+readiness: 'Out of Date'
+standardization_status: 'W3C Working Draft'
+summary: "This interface is the callback used to create a FileWriter.\n"
 tags:
   0: API
   1: Objects
   3: FileSystemAPI
-readiness: 'Out of Date'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
-summary: "This interface is the callback used to create a FileWriter.\n"
 uri: apis/filesystem/FileWriterCallback
 
 ---
-# FileWriterCallback
-
-## Summary
+## <span>Summary</span>
 
 This interface is the callback used to create a FileWriter.
 
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [handleEvent](/apis/filesystem/FileWriterCallback/handleEvent)
 :   Used to supply a FileWriter as a response to a user query.
 
     **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft
-

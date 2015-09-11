@@ -1,33 +1,33 @@
 ---
 title: main
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Represents the main content of the body of a document or application.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information.'
-summary: 'Represents the main content of the body of a document or application.'
 uri: html/elements/main
 
 ---
-# main
-
-## Summary
+## <span>Summary</span>
 
 Represents the main content of the body of a document or application.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## Examples
+## <span>Examples</span>
 
 The following example shows a basic usage of the `<main>` element
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,26 +54,25 @@ The following example shows a basic usage of the `<main>` element
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
 -   It is advised to use ARIA `role="main"` attribute on the main element until browsers have implemented the element.
 
 -   There must not be more than one `<main>` element in a document, and it must not be a descendent of an `<article>`, `<aside>`, `<footer>`, `<header>`, or `<nav>` element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-main-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-main-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Document Structure
+#### <span>Document Structure</span>
 
 -   [button](/html/elements/button)
 
@@ -90,4 +89,3 @@ Specification
 -   [p](/html/elements/p)
 
 -   [section](/html/elements/section)
-

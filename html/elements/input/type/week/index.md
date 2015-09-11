@@ -1,31 +1,31 @@
 ---
 title: week
+notes:
+  - 'Merge Candidate: html/attributes/type. Add description, note section.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLInputElement](/dom/HTMLInputElement)'
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+summary: 'An input field for entering a value that represents a specific week.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Merge Candidate: html/attributes/type. Add description, note section.'
-summary: 'An input field for entering a value that represents a specific week.'
 uri: html/elements/input/type/week
 
 ---
-# week
-
-## Summary
+## <span>Summary</span>
 
 An input field for entering a value that represents a specific week.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <input type="week" value="2012-W52">
 ```
 

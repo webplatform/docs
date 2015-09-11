@@ -1,40 +1,49 @@
 ---
 title: msToBlob
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "\nMove Candidate:   Probably should be under HTML5 canvas element (as toBlob). See HTML5 specification.\n\n"
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/HTMLCanvasElement
+    href: /dom/HTMLCanvasElement
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/HTMLCanvasElement
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-notes:
-  - "\nMove Candidate:   Probably should be under HTML5 canvas element (as toBlob). See HTML5 specification.\n\n"
 uri: canvas/methods/msToBlob
 
 ---
-# msToBlob
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [dom/HTMLCanvasElement](/dom/HTMLCanvasElement)*
+Method of [dom/HTMLCanvasElement](/dom/HTMLCanvasElement)[dom/HTMLCanvasElement](/dom/HTMLCanvasElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.msToBlob(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### retVal
+### <span>retVal</span>
 
- Data-typeÂ
+ Data-type
 :   Blob
 
  A blob object.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -44,17 +53,10 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLCanvasElement`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

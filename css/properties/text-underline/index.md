@@ -1,53 +1,67 @@
 ---
 title: text-underline
+code_samples:
+  - 'http://gist.github.com/5779274'
+notes:
+  - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`not defined for shorthand properties`'
+  'Applies to': 'all elements with textual content, including generated content'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value (except for initial and inherit)'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`N/A`'
+  Percentages: N/A
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+summary: "Unsupported.\n"
 tags:
   - CSS
   - Properties
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - "\nDeletion Candidate:   This page is a candidate for deletion because the property was never implemented. To underline text, see http://docs.webplatform.org/wiki/css/properties/text-decoration.\n\n"
-summary: "Unsupported.\n"
-code_samples:
-  - 'http://gist.github.com/5779274'
 uri: css/properties/text-underline
 
 ---
-# text-underline
-
-## Summary
+## <span>Summary</span>
 
 Unsupported.
 
 The 'text-underline' property is the shorthand for 'text-underline-style', 'text-underline-width', 'text-underline-color', 'text-underline-mode' and 'text-underline-position'.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `not defined for shorthand properties`
+
 Applies to
 :   all elements with textual content, including generated content
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value (except for initial and inherit)
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `N/A`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-underline: text-underline-color`
 -   `text-underline: text-underline-mode`
 -   `text-underline: text-underline-position`
 -   `text-underline: text-underline-style`
 
-## Values
+## <span>Values</span>
 
 text-underline-style
 :   This property specify the line style for underline.
@@ -67,30 +81,31 @@ text-underline-position
 
 Possible values: auto/before-edge/alphabetic/after-edge
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
+
 ```
 
 [View live example](http://code.webplatform.org/gist/5779274)
 
-## Usage
+## <span>Usage</span>
 
      The property text-underline is not supported by any of listed new browsers (Chrome/FF/Opera/IE10).
 
 Instead use **text-decoration: underline**.
 
-The possible exception is **text-underline-position**: [http://docs.webplatform.org/wiki/css/properties/text-underline-position](http://docs.webplatform.org/wiki/css/properties/text-underline-position).
+The possible exception is **text-underline-position**: <http://docs.webplatform.org/wiki/css/properties/text-underline-position>.
 
-## Notes
+## <span>Notes</span>
 
 The 'text-decoration' property has limitations stemming from its syntax, precluding fine control over each of those formatting effects. Specifically, it offers no way to control the color or line style of the underline, overline or line-through. CSS3 extends the model by introducing new properties allowing additional controls over those formatting effects. CSS3 also makes turning these formatting effects on or off possible without affecting any other 'text-decoration' settings.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -104,17 +119,10 @@ The 'text-decoration' property has limitations stemming from its syntax, preclud
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [kerning-mode](/css/properties/kerning-mode)
-
--   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
 
 -   [text-rendering](/css/properties/text-rendering)
 
 -   **text-underline**
 
 -   [user-modify](/css/properties/user-modify)
-

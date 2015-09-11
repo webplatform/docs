@@ -1,16 +1,14 @@
 ---
 title: AnimationPlayState
+readiness: readiness-state
+summary: 'An enumeration of the various AnimationPlayer states. '
 tags:
   - Data
   - Type
-readiness: readiness-state
-summary: 'An enumeration of the various AnimationPlayer states. '
 uri: 'apis/web animations/AnimationPlayer/AnimationPlayState'
 
 ---
-# AnimationPlayState
-
-## Summary
+## <span>Summary</span>
 
 An enumeration of the various AnimationPlayer states.
 

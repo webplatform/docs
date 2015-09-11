@@ -1,37 +1,44 @@
 ---
 title: ended
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/MediaStream
+    href: /apis/webrtc/MediaStream
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /apis/webrtc/MediaStream
+standardization_status: 'W3C Working Draft'
+summary: 'True if the ended event has fired on the MediaStream object.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'True if the ended event has fired on the MediaStream object.'
 uri: apis/webrtc/MediaStream/ended
 
 ---
-# ended
-
-## Summary
+## <span>Summary</span>
 
 True if the ended event has fired on the MediaStream object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)</span></span>
+Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = stream.ended;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 **Needs Examples**: This section should include examples.
 

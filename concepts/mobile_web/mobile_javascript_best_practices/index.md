@@ -1,17 +1,15 @@
 ---
-title: mobile javascript best practices
+title: Mobile JavaScript best practices
+readiness: 'Ready to Use'
+summary: 'What to know, what to watch out for to make your apps perform at their best.'
 tags:
   - Concept
   - Pages
   - Mobile
-readiness: 'Ready to Use'
-summary: 'What to know, what to watch out for to make your apps perform at their best.'
 uri: 'concepts/mobile web/mobile javascript best practices'
 
 ---
-# Mobile JavaScript best practices
-
-## Summary
+## <span>Summary</span>
 
 What to know, what to watch out for to make your apps perform at their best.
 
@@ -33,4 +31,3 @@ Here are some common reasons for slow JavaScript performance that can easily be 
 -   **`for-in` loops**: Unfortunately, most JavaScript environments have a slow implementation of `for-in` loops. Opt to traverse arrays instead, using the `for (var i=0; i < array.length; i++)` instead of for-in loops.
 
  Note: This material was originally published as part of the Nokia Developer Web Development Library, available as [Mobile JavaScript best practices](http://www.developer.nokia.com/Resources/Library/Web/#!nokia-browsers/common-elements-of-nokia-browsers/mobile-javascript-best-practices.html)
-

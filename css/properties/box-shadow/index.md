@@ -1,14 +1,5 @@
 ---
 title: box-shadow
-tags:
-  0: CSS
-  1: Properties
-  3: Design
-  4: UI
-  5: Usability
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The box-shadow property programmatically creates one or more shadows on the inside or outside of a block level element.'
 code_samples:
   - 'http://gist.github.com/5259244'
   - 'http://gist.github.com/5259299'
@@ -17,35 +8,58 @@ code_samples:
   - 'http://gist.github.com/5259501'
   - 'http://gist.github.com/5259470'
   - 'http://gist.github.com/5259531'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'any length made absolute; any specified color computed; otherwise as specified'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`boxShadow`'
+  Percentages: n/a
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The box-shadow property programmatically creates one or more shadows on the inside or outside of a block level element.'
+tags:
+  0: CSS
+  1: Properties
+  3: Design
+  4: UI
+  5: Usability
 uri: css/properties/box-shadow
 
 ---
-# box-shadow
-
-## Summary
+## <span>Summary</span>
 
 The box-shadow property programmatically creates one or more shadows on the inside or outside of a block level element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   any length made absolute; any specified color computed; otherwise as specified
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `boxShadow`
+
 Percentages
 :   n/a
 
-## Syntax
+## <span>Syntax</span>
 
 -   `box-shadow: blur-radius (optional)`
 -   `box-shadow: inset (optional)`
@@ -54,7 +68,7 @@ Percentages
 -   `box-shadow: offset-y (optional)`
 -   `box-shadow: spread-distance (optional)`
 
-## Values
+## <span>Values</span>
 
 inset (optional)
 :   If not specified (default), the shadow is assumed to be a drop shadow (as if the box were raised above the content). The presence of the `inset` keyword changes the shadow to one inside the frame (as if the content was depressed inside the box). Inset shadows are drawn inside the border (even transparent ones), above the background, but below content.
@@ -74,11 +88,11 @@ spread-distance (optional)
 offset-x offset-y blur-radius color, offset-x offset-y blur-radius color
 :   To apply multiple shadows to one element, write the `box-shadow` values out one after another, separated by commas.
 
-## Examples
+## <span>Examples</span>
 
 An example of a basic drop shadow. An outer box-shadow casts a shadow as if the border-box of the element were opaque. The shadow is drawn outside the border edge only: it is clipped inside the border-box of the element.
 
-``` {.css}
+``` css
 article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -89,7 +103,7 @@ article {
 
 An example of inner drop shadows. An inner box-shadow casts a shadow as if everything outside the padding edge were opaque. The inner shadow is drawn inside the padding edge only: it is clipped outside the padding box of the element.
 
-``` {.css}
+``` css
 article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) inset;
@@ -100,7 +114,7 @@ article {
 
 An example of how a positive spread distance length value affects the drop shadow. If a spread distance is defined, the shadow is expanded outward or contracted inward.
 
-``` {.css}
+``` css
 article {
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.5);
@@ -111,7 +125,7 @@ article {
 
 Negative values cause the shadow shape to contract.
 
-``` {.css}
+``` css
 article {
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 20px 5px -10px rgba(0, 0, 0, 0.5);
@@ -122,7 +136,7 @@ article {
 
 If the blur value is zero, the shadow's edge is sharp. (A non-zero blur value indicates the resulting shadow should be blurred, such as by a Gaussian filter.)
 
-``` {.css}
+``` css
 article {
 /* box-shadow: left-offset top-offset blur spread color; */
    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
@@ -133,7 +147,7 @@ article {
 
 If the box has a nonzero ‘border-radius’, the shadow shape is rounded in the same way. (The ‘border-image’ does not affect the shape of the box-shadow.)
 
-``` {.css}
+``` css
 article {
 /* box-shadow: left-offset top-offset blur color; */
    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
@@ -145,7 +159,7 @@ article {
 
 An example of a multiple box-shadows. The inner shadow appears on all four sides by creating two box-shadows.
 
-``` {.html}
+``` html
 <style>
     .shadow-style {
         width: 100px;
@@ -163,7 +177,7 @@ An example of a multiple box-shadows. The inner shadow appears on all four sides
 
 [View live example](http://code.webplatform.org/gist/5259531)
 
-## Usage
+## <span>Usage</span>
 
      ===Remarks===
 
@@ -172,18 +186,16 @@ See also:
 -   [css/data\_types/length](/css/data_types/length)
 -   [css/color](/css/color)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#box-shadow)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -198,8 +210,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -229,7 +239,7 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   [border](/css/properties/border)
 
@@ -270,4 +280,3 @@ Specification
 -   [min-height](/css/properties/min-height)
 
 -   [min-width](/css/properties/min-width)
-

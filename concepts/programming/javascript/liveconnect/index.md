@@ -1,31 +1,32 @@
 ---
-title: liveconnect
+title: About LiveConnect
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/LiveConnect_Overview)'
+readiness: 'Out of Date'
+summary: 'This chapter describes using LiveConnect technology to let Java and JavaScript code communicate with each other. The chapter assumes you are familiar with Java programming.'
 tags:
   - Tutorials
   - JavaScript
-readiness: 'Out of Date'
-summary: 'This chapter describes using LiveConnect technology to let Java and JavaScript code communicate with each other. The chapter assumes you are familiar with Java programming.'
-uri: concepts/programming/javascript/liveconnect
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - concepts/programming/javascript/liveconnect/guides/JavaScript/Statements
     - concepts/programming/javascript/liveconnect/guides/JavaScript/closures
+uri: concepts/programming/javascript/liveconnect
 
 ---
-# About LiveConnect
-
-## Summary
+## <span>Summary</span>
 
 This chapter describes using LiveConnect technology to let Java and JavaScript code communicate with each other. The chapter assumes you are familiar with Java programming.
 
-## Working with Wrappers
+## <span>Working with Wrappers</span>
 
 In JavaScript, a *wrapper* is an object of the target language data type that encloses an object of the source language. When programming in JavaScript, you can use a wrapper object to access methods and fields of the Java object; calling a method or accessing a property on the wrapper results in a call on the Java object. On the Java side, JavaScript objects are wrapped in an instance of the class `netscape.javascript.JSObject` and passed to Java.
 
 When a JavaScript object is sent to Java, the runtime engine creates a Java wrapper of type `JSObject`; when a `JSObject` is sent from Java to JavaScript, the runtime engine unwraps it to its original JavaScript object type. The `JSObject` class provides an interface for invoking JavaScript methods and examining JavaScript properties.
 
-## JavaScript to Java Communication
+## <span>JavaScript to Java Communication</span>
 
 When you refer to a Java package or class, or work with a Java object or array, you use one of the special LiveConnect objects. All JavaScript access to Java takes place with these objects, which are summarized in the following table.
 
@@ -50,7 +51,7 @@ Static members can be called directly on the JavaClass object.
 
     alert(java.lang.Integer.MAX_VALUE); //alerts 2147483647
 
-### The Packages Object
+### <span>The Packages Object</span>
 
 If a Java class is not part of the `java`, `sun`, or `netscape` packages, you access it with the `Packages` object. For example, suppose the Redwood corporation uses a Java package called `redwood` to contain various Java classes that it implements. To create an instance of the `HelloWorld` class in `redwood`, you access the constructor of the class as follows:
 
@@ -68,7 +69,7 @@ instead of the longer version:
 
     var myString = new Packages.java.lang.String("Hello world");
 
-### Working with Java Arrays
+### <span>Working with Java Arrays</span>
 
 When any Java method creates an array and you reference that array in JavaScript, you are working with a `JavaArray`. For example, the following code creates the `JavaArray x` with ten elements of type int:
 
@@ -76,7 +77,7 @@ When any Java method creates an array and you reference that array in JavaScript
 
 Like the JavaScript `Array` object, `JavaArray` has a `length` property which returns the number of elements in the array. Unlike `Array.length`, `JavaArray.length` is a read-only property, because the number of elements in a Java array are fixed at the time of creation.
 
-### Package and Class References
+### <span>Package and Class References</span>
 
 Simple references to Java packages and classes from JavaScript create the `JavaPackage` and `JavaClass` objects. In the earlier example about the Redwood corporation, for example, the reference Packages.redwood is a JavaPackage object. Similarly, a reference such as `java.lang.String` is a `JavaClass` object.
 
@@ -95,7 +96,7 @@ In JavaScript 1.4 and later, you can pass a `JavaClass` object directly to a met
     // JavaScript 1.4
     var theArray = java.lang.reflect.Array.newInstance(java.lang.String, 5);
 
-### Arguments of Type char
+### <span>Arguments of Type char</span>
 
 In JavaScript 1.4 and later, you can pass a one-character string to a Java method which requires an argument of type `char`. For example, you can pass the string "H" to the `Character` constructor as follows:
 
@@ -105,7 +106,7 @@ In JavaScript 1.3 and earlier, you must pass such methods an integer which corre
 
     var c = new java.lang.Character(72);
 
-### Handling Java Exceptions in JavaScript
+### <span>Handling Java Exceptions in JavaScript</span>
 
 When Java code fails at run time, it throws an exception. If your JavaScript code accesses a Java data member or method and fails, the Java exception is passed on to JavaScript for you to handle. Beginning with JavaScript 1.4, you can catch this exception in a `try...catch` statement. (Although this functionality (along with some others) had been broken in Gecko 1.9 (see [bug 391642](https://bugzilla.mozilla.org/show_bug.cgi?id=391642)) as the Mozilla-specific LiveConnect code had not been maintained inside Mozilla, with Java 6 update 11 and 12 building support for reliance on Mozilla's implementation of the generic (and cross-browser) [NPAPI](http://developer.mozilla.org/en-US/docs/Plugins) plugin code, this has again been fixed.)
 
@@ -138,20 +139,20 @@ For specialized handling based on the exception type, use the `instanceof` opera
 
 See [Exception Handling Statements](http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Statements#Exception_Handling_Statements) for more information about JavaScript exceptions.
 
-## Java to JavaScript Communication
+## <span>Java to JavaScript Communication</span>
 
 If you want to use JavaScript objects in Java, you must import the `netscape.javascript` package into your Java file. This package defines the following classes:
 
 -   `netscape.javascript.JSObject` allows Java code to access JavaScript methods and properties.
 -   `netscape.javascript.JSException` allows Java code to handle JavaScript errors.
 
-### Locating the LiveConnect classes
+### <span>Locating the LiveConnect classes</span>
 
 In older versions of the Netscape browser, these classes were distributed along with the browser. Starting with JavaScript 1.2, these classes are delivered in a .jar file; in previous versions of JavaScript, these classes are delivered in a .zip file. For example, with Netscape Navigator 4 for Windows NT, the classes are delivered in the `java40.jar` file in the `Program\Java\Classes` directory beneath the Navigator directory.
 
 More recently, the classes have been distributed with Oracle's Java Runtime; initially in the file "jaws.jar" in the "jre/lib" directory of the runtime distribution (for JRE 1.3), then in "plugin.jar" in the same location (JRE 1.4 and up).
 
-### Using the LiveConnect classes with the JDK
+### <span>Using the LiveConnect classes with the JDK</span>
 
 To access the LiveConnect classes, place the .jar or .zip file in the `CLASSPATH` of the JDK compiler in either of the following ways:
 
@@ -166,13 +167,13 @@ See the Sun JDK documentation for more information about `CLASSPATH`.
 
 **Note**: Because Java is a strongly typed language and JavaScript is weakly typed, the JavaScript runtime engine converts argument values into the appropriate data types for the other language when you use LiveConnect. See [Data Type Conversions](#Data_Type_Conversions) for complete information.
 
-### Using the LiveConnect Classes
+### <span>Using the LiveConnect Classes</span>
 
 All JavaScript objects appear within Java code as instances of `netscape.javascript.JSObject`. When you call a method in your Java code, you can pass it a JavaScript object as one of its argument. To do so, you must define the corresponding formal parameter of the method to be of type `JSObject`.
 
 Also, any time you use JavaScript objects in your Java code, you should put the call to the JavaScript object inside a `try...catch` statement which handles exceptions of type `netscape.javascript.JSException`. This allows your Java code to handle errors in JavaScript code execution which appear in Java as exceptions of type `JSException`.
 
-#### Accessing JavaScript with JSObject
+#### <span>Accessing JavaScript with JSObject</span>
 
 For example, suppose you are working with the Java class called `JavaDog`. As shown in the following code, the `JavaDog` constructor takes the JavaScript object `jsDog`, which is defined as type `JSObject`, as an argument:
 
@@ -214,7 +215,7 @@ If you evaluate `gabby.color`, you can see that it has the value "chocolate". No
 
 If you evaluate `javaDog.dogColor`, you can see that it also has the value "chocolate", because the `getMember` method in the Java constructor assigns `dogColor` the value of `gabby.color`.
 
-#### Handling JavaScript Exceptions in Java
+#### <span>Handling JavaScript Exceptions in Java</span>
 
 When JavaScript code called from Java fails at run time, it throws an exception. If you are calling the JavaScript code from Java, you can catch this exception in a `try...catch` statement. The JavaScript exception is available to your Java code as an instance of `netscape.javascript.JSException`.
 
@@ -269,7 +270,7 @@ If `theCondition` is false, the function throws an exception. The exception is c
 
 See [Exception Handling Statements](/w/index.php?title=concepts/programming/javascript/liveconnect/guides/JavaScript/Statements&action=edit&redlink=1) for complete information about JavaScript exceptions.
 
-#### Backward Compatibility
+#### <span>Backward Compatibility</span>
 
 In JavaScript 1.3 and earlier versions, the `JSException` class had three public constructors which optionally took a string argument, specifying the detail message or other information for the exception. The `getWrappedException` method was not available.
 
@@ -287,14 +288,14 @@ Use a `try...catch` statement such as the following to handle LiveConnect except
 
 In this example, the `eval` statement fails if `foo` is not defined. The `catch` block executes the `jsCodeFailed` method if the `eval` statement in the `try` block throws a `JSException`; the `otherCodeFailed` method executes if the `try` block throws any other error.
 
-## Data Type Conversions
+## <span>Data Type Conversions</span>
 
 Because Java is a strongly typed language and JavaScript is weakly typed, the JavaScript runtime engine converts argument values into the appropriate data types for the other language when you use LiveConnect. These conversions are described in the following sections:
 
 -   [JavaScript to Java Conversions](#JavaScript_to_Java_Conversions)
 -   [Java to JavaScript Conversions](#Java_to_JavaScript_Conversions)
 
-### JavaScript to Java Conversions
+### <span>JavaScript to Java Conversions</span>
 
 When you call a Java method and pass it parameters from JavaScript, the data types of the parameters you pass in are converted according to the rules described in the following sections:
 
@@ -311,462 +312,360 @@ The return values of methods of `netscape.javascript.JSObject` are always conver
 
 For example, if `JSObject.eval` returns a JavaScript number, you can find the rules for converting this number to an instance of `java.lang.Object` in [Number Values](#Number_Values).
 
-#### Number Values
+#### <span>Number Values</span>
 
 When you pass JavaScript number types as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
-<dl data-table="standard-table">
-<dt>
-Java parameter type
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Java parameter type</th>
+<th align="left">Conversion rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">double</td>
+<td align="left"><ul>
+<li>The exact value is transferred to Java without rounding and without a loss of magnitude or sign.</li>
+<li><code>NaN</code> is converted to NaN.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td align="left">java.lang.Double<br /> java.lang.Object</td>
+<td align="left">A new instance of <code>java.lang.Double</code> is created, and the exact value is transferred to Java without rounding and without a loss of magnitude or sign.</td>
+</tr>
+<tr class="odd">
+<td align="left">float</td>
+<td align="left"><ul>
+<li>Values are rounded to float precision.</li>
+<li>Values which are too large or small to be represented are rounded to +infinity or -infinity.</li>
+<li><code>NaN</code> is converted to <code>NaN</code>.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td align="left"><p>byte<br /> char<br /> int<br /> long<br /> short</p></td>
+<td align="left"><ul>
+<li>Values are rounded using round-to-negative-infinity mode.</li>
+<li>Values which are too large or small to be represented result in a run-time error.</li>
+<li><code>NaN</code> can not be converted and results in a run-time error.</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td align="left"><code>java.lang.String</code></td>
+<td align="left"><p>Values are converted to strings. For example:</p>
+<ul>
+<li>237 becomes &quot;237&quot;</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td align="left">boolean</td>
+<td align="left"><ul>
+<li>0 and <code>NaN</code> values are converted to false.</li>
+<li>Other values are converted to true.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Conversion rules
-
-</dd>
-<dt>
-double
-
-</dt>
-<dd>
--   The exact value is transferred to Java without rounding and without a loss of magnitude or sign.
--   `NaN` is converted to NaN.
-
-</dd>
-<dt>
-java.lang.Double
- java.lang.Object
-
-</dt>
-<dd>
-A new instance of `java.lang.Double` is created, and the exact value is transferred to Java without rounding and without a loss of magnitude or sign.
-
-</dd>
-<dt>
-float
-
-</dt>
-<dd>
--   Values are rounded to float precision.
--   Values which are too large or small to be represented are rounded to +infinity or -infinity.
--   `NaN` is converted to `NaN`.
-
-</dd>
-<dt>
-byte
- char
- int
- long
- short
-
-</dt>
-<dd>
--   Values are rounded using round-to-negative-infinity mode.
--   Values which are too large or small to be represented result in a run-time error.
--   `NaN` can not be converted and results in a run-time error.
-
-</dd>
-<dt>
-`java.lang.String`
-
-</dt>
-<dd>
-Values are converted to strings. For example:
-
--   237 becomes "237"
-
-</dd>
-<dt>
-boolean
-
-</dt>
-<dd>
--   0 and `NaN` values are converted to false.
--   Other values are converted to true.
-
-</dd>
-</dl>
 When a JavaScript number is passed as a parameter to a Java method which expects an instance of `java.lang.String`, the number is converted to a string. Use the `equals()` method to compare the result of this conversion with other string values.
 
-#### Boolean Values
+#### <span>Boolean Values</span>
 
 When you pass JavaScript Boolean types as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
-<dl data-table="standard-table">
-<dt>
-Java parameter type
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Java parameter type</th>
+<th align="left">Conversion rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">boolean</td>
+<td align="left">All values are converted directly to the Java equivalents.</td>
+</tr>
+<tr class="even">
+<td align="left"><code>java.lang.Boolean</code><br /><code>java.lang.Object</code></td>
+<td align="left">A new instance of <code>java.lang.Boolean</code> is created. Each parameter creates a new instance, not one instance with the same primitive value.</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>java.lang.String</code></td>
+<td align="left"><p>Values are converted to strings. For example:</p>
+<ul>
+<li>true becomes &quot;true&quot;</li>
+<li>false becomes &quot;false&quot;</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td align="left"><p>byte<br /> char<br /> double<br /> float<br /> int<br /> long<br /> short</p></td>
+<td align="left"><ul>
+<li>true becomes 1</li>
+<li>false becomes 0</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Conversion rules
-
-</dd>
-<dt>
-boolean
-
-</dt>
-<dd>
-All values are converted directly to the Java equivalents.
-
-</dd>
-<dt>
-`java.lang.Boolean`
-`java.lang.Object`
-
-</dt>
-<dd>
-A new instance of `java.lang.Boolean` is created. Each parameter creates a new instance, not one instance with the same primitive value.
-
-</dd>
-<dt>
-`java.lang.String`
-
-</dt>
-<dd>
-Values are converted to strings. For example:
-
--   true becomes "true"
--   false becomes "false"
-
-</dd>
-<dt>
-byte
- char
- double
- float
- int
- long
- short
-
-</dt>
-<dd>
--   true becomes 1
--   false becomes 0
-
-</dd>
-</dl>
 When a JavaScript Boolean is passed as a parameter to a Java method which expects an instance of `java.lang.String`, the Boolean is converted to a string. Use the == operator to compare the result of this conversion with other string values.
 
-#### String Values
+#### <span>String Values</span>
 
 When you pass JavaScript string types as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
-<dl data-table="standard-table">
-<dt>
-Java parameter type
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Java parameter type</th>
+<th align="left">Conversion rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>java.lang.String</code><br /><code>java.lang.Object</code></td>
+<td align="left"><p>JavaScript 1.4:</p>
+<ul>
+<li>A JavaScript string is converted to an instance of <code>java.lang.String</code> with a Unicode value.</li>
+</ul>
+<p>JavaScript 1.3 and earlier:</p>
+<ul>
+<li>A JavaScript string is converted to an instance of <code>java.lang.String</code> with an ASCII value.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td align="left"><p>byte<br /> double<br /> float<br /> int<br /> long<br /> short<br /></p></td>
+<td align="left">All values are converted to numbers as described in ECMA-262. The JavaScript string value is converted to a number according to the rules described in ECMA-262.</td>
+</tr>
+<tr class="odd">
+<td align="left">char</td>
+<td align="left"><p>JavaScript 1.4:</p>
+<ul>
+<li>One-character strings are converted to Unicode characters.</li>
+<li>All other values are converted to numbers.</li>
+</ul>
+<p>JavaScript 1.3 and earlier:</p>
+<ul>
+<li>All values are converted to numbers.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td align="left">boolean</td>
+<td align="left"><ul>
+<li>The empty string becomes false.</li>
+<li>All other values become true.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Conversion rules
-
-</dd>
-<dt>
-`java.lang.String`
-`java.lang.Object`
-
-</dt>
-<dd>
-JavaScript 1.4:
-
--   A JavaScript string is converted to an instance of `java.lang.String` with a Unicode value.
-
-JavaScript 1.3 and earlier:
-
--   A JavaScript string is converted to an instance of `java.lang.String` with an ASCII value.
-
-</dd>
-<dt>
-byte
- double
- float
- int
- long
- short
-
-</dt>
-<dd>
-All values are converted to numbers as described in ECMA-262. The JavaScript string value is converted to a number according to the rules described in ECMA-262.
-
-</dd>
-<dt>
-char
-
-</dt>
-<dd>
-JavaScript 1.4:
-
--   One-character strings are converted to Unicode characters.
--   All other values are converted to numbers.
-
-JavaScript 1.3 and earlier:
-
--   All values are converted to numbers.
-
-</dd>
-<dt>
-boolean
-
-</dt>
-<dd>
--   The empty string becomes false.
--   All other values become true.
-
-</dd>
-</dl>
-#### Undefined Values
+#### <span>Undefined Values</span>
 
 When you pass undefined JavaScript values as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
-<dl data-table="standard-table">
-<dt>
-Java parameter type
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Java parameter type</th>
+<th align="left">Conversion rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>java.lang.String</code><br /><code>java.lang.Object</code></td>
+<td align="left">The value is converted to an instance of java.lang.String whose value is the string &quot;undefined&quot;.</td>
+</tr>
+<tr class="even">
+<td align="left">boolean</td>
+<td align="left">The value becomes false.</td>
+</tr>
+<tr class="odd">
+<td align="left">double<br /> float</td>
+<td align="left">The value becomes <code>NaN</code>.</td>
+</tr>
+<tr class="even">
+<td align="left"><p>byte<br /> char<br /> int<br /> long<br /> short</p></td>
+<td align="left">The value becomes 0.</td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Conversion rules
-
-</dd>
-<dt>
-`java.lang.String`
-`java.lang.Object`
-
-</dt>
-<dd>
-The value is converted to an instance of java.lang.String whose value is the string "undefined".
-
-</dd>
-<dt>
-boolean
-
-</dt>
-<dd>
-The value becomes false.
-
-</dd>
-<dt>
-double
- float
-
-</dt>
-<dd>
-The value becomes `NaN`.
-
-</dd>
-<dt>
-byte
- char
- int
- long
- short
-
-</dt>
-<dd>
-The value becomes 0.
-
-</dd>
-</dl>
 The undefined value conversion is possible in JavaScript 1.3 and later versions only. Earlier versions of JavaScript do not support undefined values.
 
 When a JavaScript undefined value is passed as a parameter to a Java method which expects an instance of `java.lang.String`, the undefined value is converted to a string. Use the == operator to compare the result of this conversion with other string values.
 
-#### Null Values
+#### <span>Null Values</span>
 
 When you pass null JavaScript values as parameters to Java methods, Java converts the values according to the rules described in the following table:
 
-<dl data-table="standard-table">
-<dt>
-Java parameter type
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Java parameter type</th>
+<th align="left">Conversion rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Any class<br /> Any interface type</td>
+<td align="left">The value becomes null.</td>
+</tr>
+<tr class="even">
+<td align="left"><p>byte<br /> char<br /> double<br /> float<br /> int<br /> long<br /> short</p></td>
+<td align="left">The value becomes 0.</td>
+</tr>
+<tr class="odd">
+<td align="left">boolean</td>
+<td align="left">The value becomes false.</td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Conversion rules
-
-</dd>
-<dt>
-Any class
- Any interface type
-
-</dt>
-<dd>
-The value becomes null.
-
-</dd>
-<dt>
-byte
- char
- double
- float
- int
- long
- short
-
-</dt>
-<dd>
-The value becomes 0.
-
-</dd>
-<dt>
-boolean
-
-</dt>
-<dd>
-The value becomes false.
-
-</dd>
-</dl>
-#### JavaArray and JavaObject objects
+#### <span>JavaArray and JavaObject objects</span>
 
 In most situations, when you pass a JavaScript `JavaArray` or `JavaObject` as a parameter to a Java method, Java simply unwraps the object; in a few situations, the object is coerced into another data type according to the rules described in the following table:
 
-<dl data-table="standard-table">
-<dt>
-Java parameter type
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Java parameter type</th>
+<th align="left">Conversion rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Any interface or class that is assignment-compatible with the unwrapped object.</td>
+<td align="left">The object is unwrapped.</td>
+</tr>
+<tr class="even">
+<td align="left"><code>java.lang.String</code></td>
+<td align="left">The object is unwrapped, the <code>toString</code> method of the unwrapped Java object is called, and the result is returned as a new instance of <code>java.lang.String</code>.</td>
+</tr>
+<tr class="odd">
+<td align="left"><p>byte<br /> char<br /> double<br /> float<br /> int<br /> long<br /> short</p></td>
+<td align="left"><p>The object is unwrapped, and either of the following situations occur:</p>
+<ul>
+<li>If the unwrapped Java object has a <code>doubleValue</code> method, the <code>JavaArray</code> or <code>JavaObject</code> is converted to the value returned by this method.</li>
+<li>If the unwrapped Java object does not have a <code>doubleValue</code> method, an error occurs.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td align="left">boolean</td>
+<td align="left"><p>In JavaScript 1.3 and later versions, the object is unwrapped and either of the following situations occur:</p>
+<ul>
+<li>If the object is null, it is converted to false.</li>
+<li>If the object has any other value, it is converted to true.</li>
+</ul>
+<p>In JavaScript 1.2 and earlier versions, the object is unwrapped and either of the following situations occur:</p>
+<ul>
+<li>If the unwrapped object has a booleanValue method, the source object is converted to the return value.</li>
+<li>If the object does not have a booleanValue method, the conversion fails.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Conversion rules
-
-</dd>
-<dt>
-Any interface or class that is assignment-compatible with the unwrapped object.
-
-</dt>
-<dd>
-The object is unwrapped.
-
-</dd>
-<dt>
-`java.lang.String`
-
-</dt>
-<dd>
-The object is unwrapped, the `toString` method of the unwrapped Java object is called, and the result is returned as a new instance of `java.lang.String`.
-
-</dd>
-<dt>
-byte
- char
- double
- float
- int
- long
- short
-
-</dt>
-<dd>
-The object is unwrapped, and either of the following situations occur:
-
--   If the unwrapped Java object has a `doubleValue` method, the `JavaArray` or `JavaObject` is converted to the value returned by this method.
--   If the unwrapped Java object does not have a `doubleValue` method, an error occurs.
-
-</dd>
-<dt>
-boolean
-
-</dt>
-<dd>
-In JavaScript 1.3 and later versions, the object is unwrapped and either of the following situations occur:
-
--   If the object is null, it is converted to false.
--   If the object has any other value, it is converted to true.
-
-In JavaScript 1.2 and earlier versions, the object is unwrapped and either of the following situations occur:
-
--   If the unwrapped object has a booleanValue method, the source object is converted to the return value.
--   If the object does not have a booleanValue method, the conversion fails.
-
-</dd>
-</dl>
 An interface or class is assignment-compatible with an unwrapped object if the unwrapped object is an instance of the Java parameter type. That is, the following statement must return true:
 
     unwrappedObject instanceof parameterType;
 
-#### JavaClass objects
+#### <span>JavaClass objects</span>
 
 When you pass a JavaScript `JavaClass` object as a parameter to a Java method, Java converts the object according to the rules described in the following table:
 
-Java parameter type
-:   Conversion rules
-`java.lang.Class`
-:   The object is unwrapped.
-`netscape.javascript.JSObject`
-`java.lang.Object`
-:   The `JavaClass` object is wrapped in a new instance of `netscape.javascript.JSObject`.
-`java.lang.String`
-:   The object is unwrapped, the `toString` method of the unwrapped Java object is called, and the result is returned as a new instance of `java.lang.String`.
-boolean
-:   In JavaScript 1.3 and later versions, the object is unwrapped and either of the following situations occur:
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Java parameter type</th>
+<th align="left">Conversion rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>java.lang.Class</code></td>
+<td align="left">The object is unwrapped.</td>
+</tr>
+<tr class="even">
+<td align="left"><code>netscape.javascript.JSObject</code><br /><code>java.lang.Object</code></td>
+<td align="left">The <code>JavaClass</code> object is wrapped in a new instance of <code>netscape.javascript.JSObject</code>.</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>java.lang.String</code></td>
+<td align="left">The object is unwrapped, the <code>toString</code> method of the unwrapped Java object is called, and the result is returned as a new instance of <code>java.lang.String</code>.</td>
+</tr>
+<tr class="even">
+<td align="left">boolean</td>
+<td align="left"><p>In JavaScript 1.3 and later versions, the object is unwrapped and either of the following situations occur:</p>
+<ul>
+<li>If the object is null, it is converted to false.</li>
+<li>If the object has any other value, it is converted to true.</li>
+</ul>
+<p>In JavaScript 1.2 and earlier versions, the object is unwrapped and either of the following situations occur:</p>
+<ul>
+<li>If the unwrapped object has a booleanValue method, the source object is converted to the return value.</li>
+<li>If the object does not have a booleanValue method, the conversion fails.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-    -   If the object is null, it is converted to false.
-    -   If the object has any other value, it is converted to true.
-
-    In JavaScript 1.2 and earlier versions, the object is unwrapped and either of the following situations occur:
-
-    -   If the unwrapped object has a booleanValue method, the source object is converted to the return value.
-    -   If the object does not have a booleanValue method, the conversion fails.
-
-#### Other JavaScript objects
+#### <span>Other JavaScript objects</span>
 
 When you pass any other JavaScript object as a parameter to a Java method, Java converts the object according to the rules described in the following table:
 
-<dl data-table="standard-table">
-<dt>
-Java parameter type
+<table>
+<col width="50%" />
+<col width="50%" />
+<thead>
+<tr class="header">
+<th align="left">Java parameter type</th>
+<th align="left">Conversion rules</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>netscape.javascript.JSObject</code><br /><code>java.lang.Object</code></td>
+<td align="left">The object is wrapped in a new instance of <code>netscape.javascript.JSObject</code>.</td>
+</tr>
+<tr class="even">
+<td align="left"><code>java.lang.String</code></td>
+<td align="left">The object is unwrapped, the <code>toString</code> method of the unwrapped object is called, and the result is returned as a new instance of <code>java.lang.String</code>.</td>
+</tr>
+<tr class="odd">
+<td align="left"><p>byte<br /> char<br /> double<br /> float<br /> int<br /> long<br /> short</p></td>
+<td align="left">The object is converted to a value using the logic of the <code>ToPrimitive</code> operator described in ECMA-262. The <em>PreferredType</em> hint used with this operator is Number.</td>
+</tr>
+<tr class="even">
+<td align="left">boolean</td>
+<td align="left"><p>In JavaScript 1.3 and later versions, the object is unwrapped and either of the following situations occur:</p>
+<ul>
+<li>If the object is null, it is converted to false.</li>
+<li>If the object has any other value, it is converted to true.</li>
+</ul>
+<p>In JavaScript 1.2 and earlier versions, the object is unwrapped and either of the following situations occur:</p>
+<ul>
+<li>If the unwrapped object has a booleanValue method, the source object is converted to the return value.</li>
+<li>If the object does not have a booleanValue method, the conversion fails.</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-Conversion rules
-
-</dd>
-<dt>
-`netscape.javascript.JSObject`
-`java.lang.Object`
-
-</dt>
-<dd>
-The object is wrapped in a new instance of `netscape.javascript.JSObject`.
-
-</dd>
-<dt>
-`java.lang.String`
-
-</dt>
-<dd>
-The object is unwrapped, the `toString` method of the unwrapped object is called, and the result is returned as a new instance of `java.lang.String`.
-
-</dd>
-<dt>
-byte
- char
- double
- float
- int
- long
- short
-
-</dt>
-<dd>
-The object is converted to a value using the logic of the `ToPrimitive` operator described in ECMA-262. The *PreferredType* hint used with this operator is Number.
-
-</dd>
-<dt>
-boolean
-
-</dt>
-<dd>
-In JavaScript 1.3 and later versions, the object is unwrapped and either of the following situations occur:
-
--   If the object is null, it is converted to false.
--   If the object has any other value, it is converted to true.
-
-In JavaScript 1.2 and earlier versions, the object is unwrapped and either of the following situations occur:
-
--   If the unwrapped object has a booleanValue method, the source object is converted to the return value.
--   If the object does not have a booleanValue method, the conversion fails.
-
-</dd>
-</dl>
-### Java to JavaScript Conversions
+### <span>Java to JavaScript Conversions</span>
 
 Values passed from Java to JavaScript are converted as follows:
 
@@ -788,10 +687,3 @@ Java `String` objects also correspond to JavaScript wrappers. If you call a Java
     var JavaScriptString = JavaString + "";
 
 <span style="float: left">[« Previous](/w/index.php?title=concepts/programming/javascript/liveconnect/guides/JavaScript/closures&action=edit&redlink=1)</span>
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/LiveConnect_Overview)
-

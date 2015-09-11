@@ -1,43 +1,45 @@
 ---
 title: isMap
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+summary: 'Indicates that an image is part of a server-side image-map.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Indicates that an image is part of a server-side image-map.'
 uri: html/attributes/isMap
 
 ---
-# isMap
-
-## Summary
+## <span>Summary</span>
 
 Indicates that an image is part of a server-side image-map.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 13.6.2
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `img`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

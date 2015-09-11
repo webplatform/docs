@@ -1,13 +1,12 @@
 ---
-title: smarter svg filters
+title: SVG filters
+notes:
+  - 'Fix multiple broken links'
+readiness: 'In Progress'
+summary: 'This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the filter CSS property.'
 tags:
   - Tutorials
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Fix multiple broken links'
-summary: 'This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the filter CSS property.'
-uri: 'svg/tutorials/smarter svg filters'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -51,19 +50,18 @@ todo_broken_links:
     - svg/attributes/pointsAtY
     - svg/attributes/pointsAtZ
     - svg/attributes/limitingConeAngle
+uri: 'svg/tutorials/smarter svg filters'
 
 ---
-# SVG filters
-
 **By Mike Sierra**
 
-## Summary
+## <span>Summary</span>
 
 This guide shows you how to build SVG image processing filters to create interesting visual effects. It shows how to apply these effects within an SVG graphic, and how to apply them to HTML content using the filter CSS property.
 
 The power of SVG filters is matched by the depth and complexity of available options. It takes a good deal of practice to master the many filter effects and understand how to combine them. This guide covers a wide range of examples. It starts by showing how to modify color values in ways that often correspond to built-in CSS filter functions. Then it shows you how to split and merge independent channels to take advantage of some of SVG's more unusual filter effects. Finally, it shows you how to apply three-dimensional lighting effects.
 
-## What are filters?
+## <span>What are filters?</span>
 
 A filter is a little machine that takes graphic input, changes it in some way, and causes the output to render differently. Filters comprise *filter effect* elements, some of which do intuitively obvious things (such as blur the graphic), and some of which only make sense when combined with other effects. Filter effects are often chained together so that one effect's output becomes another effect's input. Filter effects may also operate on different inputs that are modified independently of each other, then combined.
 
@@ -75,11 +73,11 @@ The idea of applying filters to web content originated in SVG, but it has recent
 
 This guide does not discuss these more recent CSS custom filters, but does show you how to customize your own SVG filters for use in HTML.
 
-## Applying a simple filter (feGaussianBlur)
+## <span>Applying a simple filter (feGaussianBlur)</span>
 
 Start by placing some text within an SVG graphic:
 
-``` {.xml}
+``` xml
 <text class="blurred" x="30" y="100">An SVG Filter</text>
 ```
 
@@ -87,7 +85,7 @@ Start by placing some text within an SVG graphic:
 
 Place a [**filter**](/svg/elements/filter) element within the SVG's [**defs**](/svg/elements/defs) region. Filters contain series of filter effect elements, all prefixed *fe*. In this example, a [**feGaussianBlur**](/svg/elements/feGaussianBlur) element produces a blurring effect, which matches the effect of the [**blur()**](/css/functions/blur()) CSS filter function:
 
-``` {.xml}
+``` xml
 <filter id="css_blur">
   <feGaussianBlur stdDeviation="10"/>
 </filter>
@@ -95,7 +93,7 @@ Place a [**filter**](/svg/elements/filter) element within the SVG's [**defs**](/
 
  To apply the filter, reference it with the [**filter**](/svg/properties/filter) property, expressed either as an attribute or via CSS:
 
-``` {.xml}
+``` xml
 <text
   class  = "blurred"
   filter = "url(#css_blur)"
@@ -104,7 +102,7 @@ Place a [**filter**](/svg/elements/filter) element within the SVG's [**defs**](/
 >An SVG Filter</text>
 ```
 
-``` {.css}
+``` css
 .blurred {
     filter      : url(#css_blur);
     font-family : sans-serif;
@@ -117,7 +115,7 @@ Place a [**filter**](/svg/elements/filter) element within the SVG's [**defs**](/
 
 The effect takes each pixel and moves it around randomly from its original location within a radius specified by the **stdDeviation** value. Unlike the built-in CSS function, in SVG you can specify separate *x* and *y* values to produce a sideways motion effect that in this case is a bit more legible:
 
-``` {.xml}
+``` xml
 <filter id="sideways_blur">
   <feGaussianBlur stdDeviation="10 1"/>
 </filter>
@@ -125,11 +123,11 @@ The effect takes each pixel and moves it around randomly from its original locat
 
  ![svgf blur.png](/assets/public/a/a9/svgf_blur.png)
 
-### Applying SVG filters to HTML
+### <span>Applying SVG filters to HTML</span>
 
 If you want to apply this customized SVG filter to HTML content, place it in an SVG file and use the corresponding [**filter**](/css/properties/filter) CSS property to reference it using the same [**url()**](/css/functions/url()) function:
 
-``` {.css}
+``` css
 .sidewaysBlur {
     -webkit-filter : url(filters.svg#sideways_blur);
     filter         : url(filters.svg#sideways_blur); /* standard in Mozilla */
@@ -138,13 +136,13 @@ If you want to apply this customized SVG filter to HTML content, place it in an 
 
  As of this writing, not all browsers allow you to apply SVG filters to HTML content. Mozilla Firefox fully supports the feature, even allowing filtered elements [to animate](/svg/tutorials/smarter_svg_animation). WebKit Safari's support is limited to filters that use the blur described above, and basic image processing effects described in the first half of this guide: **feComponentTransfer**, **feColorMatrix**, and **feConvolveMatrix**.
 
-## Modifying colors with feComponentTransfer
+## <span>Modifying colors with feComponentTransfer</span>
 
 The [**feComponentTransfer**](/svg/elements/feComponentTransfer) element allows you to modify each RGBA *component* represented in each pixel. Within the element, nest any combination of [**feFuncR**](/svg/elements/feFuncR), [**feFuncG**](/svg/elements/feFuncG), [**feFuncB**](/svg/elements/feFuncB), and [**feFuncA**](/svg/elements/feFuncA) elements to run different types of function over each pixel component value.
 
 Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) of function to **identity** is equivalent to leaving out the function element altogether, keeping the image on the left unchanged. Setting it to **discrete** allows you to posterize an image, clustering gradual color shifts into solid bands based on the step values specified in [**tableValues**](/w/index.php?title=svg/attributes/tableValues&action=edit&redlink=1):
 
-``` {.xml}
+``` xml
 <filter id="no_op">
 <feComponentTransfer>
   <feFuncR type="identity"/>
@@ -157,7 +155,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
  ![svgf CTnoop.png](/assets/thumb/7/7e/svgf_CTnoop.png/400px-svgf_CTnoop.png)
 
-``` {.xml}
+``` xml
 <filter id="posterize">
   <feComponentTransfer>
     <feFuncR type="discrete"
@@ -174,7 +172,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
 Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) to **linear** multiplies the [**slope**](/w/index.php?title=svg/attributes/slope&action=edit&redlink=1) value (relative to the default **1**), then adds an [**intercept**](/w/index.php?title=svg/attributes/intercept&action=edit&redlink=1) value if present. The first example below reproduces the effect of the CSS [**brightness()**](/css/functions/brightness()) function, flattening the slope to darken the image. The second increases the slope to brighten the image, but then drops all values by a fixed amount, zeroing out many of them:
 
-``` {.xml}
+``` xml
 <filter id="css_brightness">
 <feComponentTransfer>
  <feFuncR type="linear" slope="0.5"/>
@@ -186,7 +184,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
  ![svgf CTlinear.png](/assets/thumb/8/88/svgf_CTlinear.png/400px-svgf_CTlinear.png)
 
-``` {.xml}
+``` xml
 <filter id="brightness_threshold">
 <feComponentTransfer>
  <feFuncR type="linear" slope="1.5" intercept="-0.3"/>
@@ -200,7 +198,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
 Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) to **table** lets you specify your own linear slope based on two [**tableValues**](/w/index.php?title=svg/attributes/tableValues&action=edit&redlink=1). The first example behaves like the CSS [**opacity()**](/css/functions/opacity()) function. The second, specifying a negative slope from 1 to 0, behaves like the CSS [**invert()**](/css/functions/invert()) function:
 
-``` {.xml}
+``` xml
 <filter id="css_opacity">
 <feComponentTransfer>
 <feFuncA type="table" tableValues="0 0.5"/>
@@ -210,7 +208,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
  ![svgf CTopacity.png](/assets/thumb/b/bd/svgf_CTopacity.png/400px-svgf_CTopacity.png)
 
-``` {.xml}
+``` xml
 <filter id="css_invert">
 <feComponentTransfer>
   <feFuncR type="table" tableValues="1 0"/>
@@ -224,7 +222,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
 Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) to **gamma** allows you to perform *gamma correction*, a useful way to increase dark values. The function applies the following formula to produce a curve: ((*amplitude* × *value*<sup>*exponent*</sup>) + *offset*). The first example heightens the darker greens, and the second uses [**offset**](/w/index.php?title=svg/attributes/offset&action=edit&redlink=1) to reduce the overall green level (the same way that [**intercept**](/w/index.php?title=svg/attributes/intercept&action=edit&redlink=1) does for the **linear** type):
 
-``` {.xml}
+``` xml
 <filter id="gamma_correct">
 <feComponentTransfer>
  <feFuncG type="gamma" amplitude="1" exponent="0.5"/>
@@ -234,7 +232,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
  ![svgf CTgammaOffset0.png](/assets/thumb/4/44/svgf_CTgammaOffset0.png/400px-svgf_CTgammaOffset0.png)
 
-``` {.xml}
+``` xml
 <filter id="gamma_correct2">
 <feComponentTransfer>
  <feFuncG type="gamma" amplitude="1" exponent="0.5"
@@ -245,11 +243,11 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
  ![svgf CTgamma.png](/assets/thumb/0/04/svgf_CTgamma.png/400px-svgf_CTgamma.png)
 
-## Transforming colors with feColorMatrix
+## <span>Transforming colors with feColorMatrix</span>
 
 The [**feColorMatrix**](/svg/elements/feColorMatrix) element provides other useful ways to modify an image's color. With its [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) set to **saturate**, reducing the [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1) from 1 produces a grayscale, while increasing it makes the image more vivid, just like the [**grayscale()**](/css/functions/grayscale()) and [**saturate()**](/css/functions/saturate()) CSS functions:
 
-``` {.xml}
+``` xml
 <filter id="css_grayscale">
   <feColorMatrix type="saturate" values="0"/>
 </filter>
@@ -257,7 +255,7 @@ The [**feColorMatrix**](/svg/elements/feColorMatrix) element provides other usef
 
  ![svgf CMXsaturate0.png](/assets/thumb/8/80/svgf_CMXsaturate0.png/400px-svgf_CMXsaturate0.png)
 
-``` {.xml}
+``` xml
 <filter id="css_saturate">
   <feColorMatrix type="saturate" values="10"/>
 </filter>
@@ -267,7 +265,7 @@ The [**feColorMatrix**](/svg/elements/feColorMatrix) element provides other usef
 
 Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) to **hueRotate** alters the angle along the color wheel, just like the [**hue-rotate()**](/css/functions/hue-rotate()) CSS function. Setting **luminanceToAlpha** (no **values** necessary) produces an alpha channel from bright pixels, useful to produce image masks as described below.
 
-``` {.xml}
+``` xml
 <filter id="css_hue_rotate">
   <feColorMatrix type="hueRotate" values="180"/>
 </filter>
@@ -275,7 +273,7 @@ Setting the [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlin
 
  ![svgf CMXhurRotate180.png](/assets/thumb/6/6d/svgf_CMXhurRotate180.png/400px-svgf_CMXhurRotate180.png)
 
-``` {.xml}
+``` xml
 <filter id="luminance_mask">
   <feColorMatrix type="luminanceToAlpha"/>
 </filter>
@@ -292,7 +290,7 @@ As the name of the [**feColorMatrix**](/svg/elements/feColorMatrix) suggests, se
 
 The first example below reproduces the effect of the CSS [**sepia()**](/css/functions/sepia()) function, while the second simply reduces green and blue tones. (In these examples, the [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1) appear stacked into a table only in the interest of clarity.)
 
-``` {.xml}
+``` xml
 <filter id="css_sepia">
   <feColorMatrix
     type="matrix"
@@ -305,7 +303,7 @@ The first example below reproduces the effect of the CSS [**sepia()**](/css/func
 
  ![svgf CMXsepia.png](/assets/thumb/0/02/svgf_CMXsepia.png/400px-svgf_CMXsepia.png)
 
-``` {.xml}
+``` xml
 <filter id="dusk">
   <feColorMatrix
     type="matrix"
@@ -318,11 +316,11 @@ The first example below reproduces the effect of the CSS [**sepia()**](/css/func
 
  ![svgf CMXsunset.png](/assets/thumb/7/76/svgf_CMXsunset.png/400px-svgf_CMXsunset.png)
 
-## Sharpening images with feConvolveMatrix
+## <span>Sharpening images with feConvolveMatrix</span>
 
 The [**feConvolveMatrix**](/svg/elements/feConvolveMatrix) effect allows you to modify pixels based on the values of their neighbors, useful in sharpening details. In its simplest form, the [**order**](/w/index.php?title=svg/attributes/order&action=edit&redlink=1) attribute declares a 3×3 box, which defines a matrix of 9 table values that must be reflected in the [**kernelMatrix**](/w/index.php?title=svg/attributes/kernelMatrix&action=edit&redlink=1) attribute:
 
-``` {.xml}
+``` xml
 <filter id="no_op">
   <feConvolveMatrix order="3" kernelMatrix="0 0 0 0 1 0 0 0 0"/>
 </filter>
@@ -378,18 +376,18 @@ Convolution filters can also highlight moats around high-contrast edges. The mor
 
 As shown below, the example on the right is also converted to a grayscale using the **luminanceToAlpha** [**feColorMatrix**](/svg/elements/feColorMatrix) effect described above, and the effect-chaining technique described in the following section.
 
-``` {.xml}
+``` xml
 <filter id="extremeEffect">
   <feConvolveMatrix order="5" kernelMatrix="1 1 1 1 1 1 -2 -2 -2 1 1  -2 .01 -2 1 1 -2 -2 -2 1 1 1 1 1 1"/>
   <feColorMatrix type="luminanceToAlpha"/>
 </filter>
 ```
 
-## Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, and feMerge
+## <span>Chaining, splitting and merging effects: building a drop shadow with feOffset, feFlood, and feMerge</span>
 
 Much of the power of SVG filters comes from their ability to accept various graphic inputs, modify them independently of each other, then recombine them. This example reproduces the effect produced by the CSS [**drop-shadow()**](/css/functions/drop-shadow()) function. Stepping through each line and seeing the results as you go helps you to build far more interesting filters:
 
-``` {.xml}
+``` xml
 <filter id="css_drop_shadow">
   <feGaussianBlur stdDeviation="2"  in="SourceAlpha" />
   <feOffset dx="4" dy="6"           result="offsetblur"/>
@@ -422,11 +420,11 @@ Finally, the [**feMerge**](/svg/elements/feMerge) effect combines the modified v
 
 ![svgf dropMerge.png](/assets/thumb/6/6e/svgf_dropMerge.png/192px-svgf_dropMerge.png)
 
-## Other input and merging options: feBlend, feComposite, feImage, feTile
+## <span>Other input and merging options: feBlend, feComposite, feImage, feTile</span>
 
 The [**feMerge**](/svg/elements/feMerge) element shown above simply places one graphic over another to produce a new filter channel. As an alternative, you can use [**feBlend**](/svg/elements/feBlend) with its [**mode**](/w/index.php?title=svg/attributes/mode&action=edit&redlink=1) set to **normal**, which combines the [**in**](/w/index.php?title=svg/attributes/in&action=edit&redlink=1) and [**in2**](/w/index.php?title=svg/attributes/in2&action=edit&redlink=1) channels:
 
-``` {.xml}
+``` xml
 <feBlend in="SourceGraphic" in2="offsetBlur" mode="normal" />
 ```
 
@@ -454,7 +452,7 @@ The [**feMerge**](/svg/elements/feMerge) element shown above simply places one g
 
 Setting the [**feComposite**](/svg/elements/feComposite) element's [**operator**](/w/index.php?title=svg/attributes/operator&action=edit&redlink=1) to **over** produces the same default overlay as [**feMerge**](/svg/elements/feMerge):
 
-``` {.xml}
+``` xml
 <feComposite in="SourceGraphic" in2="offsetBlur" operator="over" />
 ```
 
@@ -482,7 +480,7 @@ Setting the [**feComposite**](/svg/elements/feComposite) element's [**operator**
 
 Setting the [**operator**](/w/index.php?title=svg/attributes/operator&action=edit&redlink=1) to **arithmetic** allows you to supply your own **k1**-**k4** table values to produce composite blends. For example, set [**k1**](/w/index.php?title=svg/attributes/k1&action=edit&redlink=1) and [**k4**](/w/index.php?title=svg/attributes/k4&action=edit&redlink=1) to 0, then decrease [**k2**](/w/index.php?title=svg/attributes/k2&action=edit&redlink=1) from 1 while increasing [**k3**](/w/index.php?title=svg/attributes/k3&action=edit&redlink=1) from 0 for a cross-fade effect. This example makes the [**in2**](/w/index.php?title=svg/attributes/in2&action=edit&redlink=1) graphic more visible:
 
-``` {.xml}
+``` xml
 <feComposite in="graphicA" in2="graphicB" operator="arithmetic" k1="0" k2="0.3" k3="0.7" k4="0"/>
 ```
 
@@ -490,7 +488,7 @@ Setting the [**operator**](/w/index.php?title=svg/attributes/operator&action=edi
 
 Use the [**feImage**](/svg/elements/feImage) element to import graphics into filter effects as in the examples above and below. It allows you to import not only raster images as with the [**image**](/svg/elements/image) element, but any other SVG graphic as well. By default, graphics are placed in the center of the filter region. Otherwise, use [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1), [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1), [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1), and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) attributes to reposition and resize them:
 
-``` {.xml}
+``` xml
 <feImage xlink:href="img/icon.png" x="100" y="50" width="20%" height="20%" result="icon"/>
 <feImage xlink:href="#gradient" result="gradient"/>
 <feTile/>
@@ -498,11 +496,11 @@ Use the [**feImage**](/svg/elements/feImage) element to import graphics into fil
 
  The [**feTile**](/svg/elements/feTile) element simply allows you to repeat imported graphics as a pattern.
 
-## Warping effects (feMorphology, feTurbulence, feDisplacementMap)
+## <span>Warping effects (feMorphology, feTurbulence, feDisplacementMap)</span>
 
 The next example shows how to combine several filter effects to warp text:
 
-``` {.xml}
+``` xml
 <filter id="warp" >
   <feMorphology radius="3" operator="dilate"/>
   <feComponentTransfer>
@@ -543,11 +541,11 @@ The [**feDisplacementMap**](/svg/elements/feDisplacementMap) produces the final 
 
 The displacement effect moves the pixels of the text (specified by [**in**](/w/index.php?title=svg/attributes/in&action=edit&redlink=1)) based on the pixel values of the noise pattern (specified by [**in2**](/w/index.php?title=svg/attributes/in2&action=edit&redlink=1)). The [**xChannelSelector**](/w/index.php?title=svg/attributes/xChannelSelector&action=edit&redlink=1) and [**yChannelSelector**](/w/index.php?title=svg/attributes/yChannelSelector&action=edit&redlink=1) specify, for each axis, which color component's value (**R**, **G**, **B**, or **A**) to use to push the pixels, and the [**scale**](/w/index.php?title=svg/attributes/scale&action=edit&redlink=1) sets the overall range of movement.
 
-## Creating textures (feTurbulence)
+## <span>Creating textures (feTurbulence)</span>
 
 Turbulence is indispensable for grain and weave textures, useful for background patterns. Step through the following example:
 
-``` {.xml}
+``` xml
 <filter id="weave" x="0" y="0" width="100%" height="100%">
  <feTurbulence baseFrequency=".25,.03" numOctaves="3" seed="1"/>
  <feComponentTransfer result="grain">
@@ -579,7 +577,7 @@ The final [**feMerge**](/svg/elements/feMerge) overlays the pattern:
 
 Note the [**filter**](/svg/elements/filter) element in the example above uses [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1), [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1), [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1), and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) attributes to specify dimensions. By default, filters operate on a *region* that's somewhat wider than elements they are applied to, to account for offset effects such as the shadow shown above, which extends past the graphic's original dimensions. In this example, the weave pattern only appears within the graphic's original dimensions.
 
-## Lighting effects
+## <span>Lighting effects</span>
 
 Shining a light on a graphic provides additional depth and texture. To create a lighting effect, you need to specify three things:
 
@@ -596,7 +594,7 @@ Shining a light on a graphic provides additional depth and texture. To create a 
 
 A graphic's alpha channel forms a *bump map* that responds to light. Transparent values remain flat, while opaque values rise to form peaks that are illuminated more prominently. To illustrate how lighting works, this example generates a hilly terrain:
 
-``` {.xml}
+``` xml
 <filter id="terrain" x="0" y="0" width="100%" height="100%">
 <feTurbulence baseFrequency=".01" numOctaves="2" seed="10" type="turbulence"/>
 <feColorMatrix type="luminanceToAlpha"/>
@@ -620,7 +618,7 @@ The [**feComponentTransfer**](/svg/elements/feComponentTransfer) inverts the alp
 
 To specify the lighting effect, nest the light source element ([**feDistantLight**](/svg/elements/feDistantLight), [**fePointLight**](/svg/elements/fePointLight), [**feSpotLight**](/w/index.php?title=svg/elements/feSpotLight&action=edit&redlink=1)) within the lighting type ([**feDiffuseLighting**](/svg/elements/feDiffuseLighting), [**feSpecularLighting**](/svg/elements/feSpecularLighting)). This example specifies a distant light:
 
-``` {.xml}
+``` xml
 <feDiffuseLighting lighting-color="brown" surfaceScale="100" diffuseConstant="1">
   <feDistantLight azimuth="0" elevation="20"/>
 </feDiffuseLighting>
@@ -634,7 +632,7 @@ The diffuse lighting effect's [**surfaceScale**](/w/index.php?title=svg/attribut
 
 The corresponding specular lighting effect only produces highlights, which can be overlaid on the original scene:
 
-``` {.xml}
+``` xml
 <feSpecularLighting lighting-color="brown" surfaceScale="100" specularConstant="1">
   <feDistantLight azimuth="0" elevation="20" />
 </feSpecularLighting>
@@ -644,14 +642,14 @@ The corresponding specular lighting effect only produces highlights, which can b
 
 This shows the two effects used in combination, with the [**lighting-color**](/w/index.php?title=svg/properties/lighting-color&action=edit&redlink=1) property specified separately in a style sheet. The two lighting effects take the same *terrain* input, then later composite the *scene* and its *highlights*:
 
-``` {.css}
+``` css
 .feDiffuseLighting,
 .feSpecularLighting {
     lighting-color: brown;
 }
 ```
 
-``` {.xml}
+``` xml
 <filter x="0" y="0" width="100%" height="100%" id="shadow_terrain" primitiveUnits="objectBoundingBox">
 <feTurbulence baseFrequency=".01" numOctaves="2" seed="1" type="turbulence"/>
 <feColorMatrix type="luminanceToAlpha"/>
@@ -674,13 +672,13 @@ Setting the filter's [**primitiveUnits**](/w/index.php?title=svg/attributes/prim
 
 A point light allows you to place light sources closer to the scene. Specify a set of 3D coordinates to position the light source:
 
-``` {.xml}
+``` xml
 <fePointLight x="50%" y="50%" z="200">
 ```
 
  A spot light can direct a beam from the light source to a different target defined by the [**pointsAtX**](/w/index.php?title=svg/attributes/pointsAtX&action=edit&redlink=1), [**pointsAtY**](/w/index.php?title=svg/attributes/pointsAtY&action=edit&redlink=1), and [**pointsAtZ**](/w/index.php?title=svg/attributes/pointsAtZ&action=edit&redlink=1) coordinates. The [**limitingConeAngle**](/w/index.php?title=svg/attributes/limitingConeAngle&action=edit&redlink=1) attribute allows you to tightly focus the beam:
 
-``` {.xml}
+``` xml
 <feSpotLight x="0" y="100" z="150" pointsAtX="200" pointsAtY="100" pointsAtZ="0" limitingConeAngle="30"/>
 ```
 
@@ -688,11 +686,11 @@ A point light allows you to place light sources closer to the scene. Specify a s
 
 See this [animated SVG](http://letmespellitoutforyou.com/samples/svg/filter_terrain.svg) that repositions the light sources in these examples.
 
-## Beveling (feSpecularLighting)
+## <span>Beveling (feSpecularLighting)</span>
 
 Using lighting effects to bevel graphics adds a greater sense of depth to the drop-shadow effect seen above. Step through this example to build the effect:
 
-``` {.xml}
+``` xml
 <filter id="bevel" filterUnits="userSpaceOnUse">
   <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
   <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
@@ -737,7 +735,7 @@ Finally, the *offsetBlur* buffer is merged in to provide a drop shadow for addit
 
 Use the same technique to add depth to surfaces, such as this example that defines a radial gradient that fades to transparent values:
 
-``` {.xml}
+``` xml
 <circle id="cornea" cx="100" cy="100" r="50" fill="url(#corneaSurface)"/>
 <radialGradient id="corneaSurface">
   <stop offset="0%"   stop-color="black" stop-opacity="1"/>
@@ -749,7 +747,7 @@ Use the same technique to add depth to surfaces, such as this example that defin
 
 The filter uses [**feImage**](/svg/elements/feImage) to import an graphic filled with the gradient, then shines a narrow spot light on the surface, which results in a subtle rounded highlight:
 
-``` {.xml}
+``` xml
 <filter id="corneaShine" primitiveUnits="objectBoundingBox" >
   <feImage xlink:href="#cornea"/>
   <feSpecularLighting lighting-color="white" surfaceScale="170" specularConstant="2" result="shine">
@@ -761,11 +759,11 @@ The filter uses [**feImage**](/svg/elements/feImage) to import an graphic filled
 
  ![svgf eyeShine.png](/assets/public/b/ba/svgf_eyeShine.png)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -849,10 +847,9 @@ The filter uses [**feImage**](/svg/elements/feImage) to import an graphic filled
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### External resources
+### <span>External resources</span>
 
 -   [SVG Essentials: Filters](http://commons.oreilly.com/wiki/index.php/SVG_Essentials/Filters), by J. David Eisenberg
 -   [An SVG Primer for Today's Browsers](http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html#filters), by David Dailey
 -   [Scalable Vector Graphics 1.1, Second Edition](http://www.w3.org/TR/SVG/filters.html)
 -   [Hands On: SVG Filter Effects](http://ie.microsoft.com/testdrive/graphics/hands-on-css3/hands-on_svg-filter-effects.htm)
-

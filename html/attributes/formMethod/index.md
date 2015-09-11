@@ -1,31 +1,40 @@
 ---
 title: formMethod
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The formmethod attribute defines the HTTP method for sending form-data to the action URL.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'The formmethod attribute defines the HTTP method for sending form-data to the action URL.'
 uri: html/attributes/formMethod
 
 ---
-# formMethod
-
-## Summary
+## <span>Summary</span>
 
 The formmethod attribute defines the HTTP method for sending form-data to the action URL.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
+
+</td>
+</tr>
+</table>
 The formmethod attribute overrides the method attribute of the \<form\> element.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <form action="submit_post.php" method="post">
   Input field: <input type="text" name="inputfield">
   <input type="submit" value="Submit">
@@ -33,15 +42,15 @@ The formmethod attribute overrides the method attribute of the \<form\> element.
 </form>
 ```
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`
@@ -49,10 +58,3 @@ The formmethod attribute overrides the method attribute of the \<form\> element.
 -   `formEnctype`
 -   `formAction`
 -   `formNoValidate`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

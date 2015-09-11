@@ -1,175 +1,180 @@
 ---
 title: initPointerEvent
+attributions:
+  - 'Microsoft Developer Network: [[initPointerEvent Method](http://msdn.microsoft.com/en-us/library/ie/hh772109(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/PointerEvent
+    href: /dom/PointerEvent
+standardization_status: 'W3C Working Draft'
+summary: 'Initializes a new PointerEvent created by the createEvent method.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Initializes a new PointerEvent created by the createEvent method.'
 uri: dom/PointerEvent/initPointerEvent
 
 ---
-# initPointerEvent
-
-## Summary
+## <span>Summary</span>
 
 Initializes a new PointerEvent created by the createEvent method.
 
-*Method of [dom/PointerEvent](/dom/PointerEvent)*
+Method of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.initPointerEvent(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### type
+### <span>type</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The type of the event being created, such as: pointerdown, pointerup, pointercancel, pointermove, pointerover, pointerout, pointerenter, pointerleave, gotpointercapture, lostpointercapture.
 
-### canBubble
+### <span>canBubble</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Indicates whether the event can bubble. When true, the event should propagate upward. When false, the event does not propagate upward.
 
-### cancelable
+### <span>cancelable</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Indicates whether the eventâ€™s default action can be prevented. When true, the default action can be canceled. When false, the default action cannot be canceled.
 
-### view
+### <span>view</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The view in which the event is taking place.
 
-### detail
+### <span>detail</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  Specifies some detailed information depending upon the event.
 
-### screenX
+### <span>screenX</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate of the event in screen coordinates relative to the upper left corner of the screen.
 
-### screenY
+### <span>screenY</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate of the event in screen coordinates relative to the upper left corner of the screen.
 
-### clientX
+### <span>clientX</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate of the event in client coordinates relative to the upper-left corner of the document's client area.
 
-### clientY
+### <span>clientY</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate of the event in client coordinates relative to the upper-left corner of the document's client area.
 
-### ctrlKey
+### <span>ctrlKey</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Indicates the state of the Ctrl key. When true, the left or right Ctrl key is pressed. If false, neither Ctrl key is pressed.
 
-### altKey
+### <span>altKey</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Indicates the state of the Alt key. When true, the left or right Alt key is pressed. If false, neither Alt key is pressed.
 
-### shiftKey
+### <span>shiftKey</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Indicates the state of the Shift key. When true, the left or right Shift key is pressed. If false, neither Shift key is pressed.
 
-### metaKey
+### <span>metaKey</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Indicates the state of the Meta/Command key. If true, the left or right Meta/Command key is pressed. If false neither Meta/Command key is pressed.
 
-### button
+### <span>button</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  If the event is caused by a mouse event, this indicates the mouse button that caused the event.
 
-### relatedTarget
+### <span>relatedTarget</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  A reference to the related element.
 
-### offsetX
+### <span>offsetX</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate of the event in the element.
 
-### offsetY
+### <span>offsetY</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate of the event in the element.
 
-### width
+### <span>width</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The contact width of the pointer point specified by pointerId. Default: 0
 
-### height
+### <span>height</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The contact height of the pointer point specified by pointerId. Default: 0
 
-### pressure
+### <span>pressure</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  Pen pressure normalized in a range of 0 to 255. Default: 0
 
-### tiltX
+### <span>tiltX</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The plane angle between the Y-Z plane and the plane containing the transducer axis and the Y axis. A positive X Tilt is to the right.
@@ -178,9 +183,9 @@ This quantity is used in conjunction with Y Tilt to represent the tilt away from
 
 Range: -90 to +90 Default: 0
 
-### tiltY
+### <span>tiltY</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  Represents the angle between the X-Z and transducer-X planes.
@@ -189,56 +194,47 @@ A positive Y Tilt is toward the user.
 
 Range: -90 to +90 Default: 0
 
-### pointerId
+### <span>pointerId</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  Specifies the unique ID of the contact. Default: 0
 
-### pointerType
+### <span>pointerType</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  Indicates whether the source is touch, pen or mouse. Default: ""
 
-### isPrimary
+### <span>isPrimary</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Indicates whether this is the primary pointer that is used to control the mouse position in a multi-touch scenario. Default: false
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var retval = PointerEvent.initPointerEvent(typeArg, canBubbleArg, cancelableArg, viewArg, detailArg, screenXArg, screenYArg, clientXArg, clientYArg, ctrlKeyArg, altKeyArg, shiftKeyArg, metaKeyArg, buttonArg, relatedTargetArg, offsetXArg, offsetYArg, widthArg, heightArg, pressure, rotation, tiltX, tiltY, pointerIdArg, pointerType, hwTimestampArg, isPrimary);
 ```
 
-### Syntax
+### <span>Syntax</span>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [Pointer Events, Section 3.1.3: PointerEvent Constructor](http://www.w3.org/TR/pointerevents/#pointerevent-constructor)
 -   [Pointer Events, Section 9: Dispatching an untrusted pointer event example](http://www.w3.org/TR/pointerevents/#examples)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[initPointerEvent Method](http://msdn.microsoft.com/en-us/library/ie/hh772109(v=vs.85).aspx) Article]
-

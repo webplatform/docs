@@ -1,33 +1,31 @@
 ---
-title: ml
+title: xml
+notes:
+  - 'See Notes: "draft; sections to be added"'
+readiness: 'In Progress'
+summary: 'The Extensible Markup Language (XML) is a subset of SGML Its goal is to enable generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML. XML has been designed for ease of implementation and for interoperability with both SGML and HTML.'
 tags:
   - Basic
   - Pages
   - XML
-readiness: 'In Progress'
-notes:
-  - 'See Notes: "draft; sections to be added"'
-summary: 'The Extensible Markup Language (XML) is a subset of SGML Its goal is to enable generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML. XML has been designed for ease of implementation and for interoperability with both SGML and HTML.'
 uri: xml
 
 ---
-# xml
-
-## Summary
+## <span>Summary</span>
 
 The Extensible Markup Language (XML) is a subset of SGML Its goal is to enable generic SGML to be served, received, and processed on the Web in the way that is now possible with HTML. XML has been designed for ease of implementation and for interoperability with both SGML and HTML.
 
-## Introduction
+## <span>Introduction</span>
 
 Extensible Markup Language, abbreviated XML, describes a class of data objects called XML documents and partially describes the behavior of computer programs which process them. The World Wide Web Consortium maintains the XML standard.
 
-## XML specifications
+## <span>XML specifications</span>
 
 The first draft of XML was released in November 1996, the current specification (1.0 fifth edition) is consultable at the following address:
 
-[http://www.w3.org/TR/2008/REC-xml-20081126/](http://www.w3.org/TR/2008/REC-xml-20081126/)
+<http://www.w3.org/TR/2008/REC-xml-20081126/>
 
-## The goals of XML
+## <span>The goals of XML</span>
 
 The goals of XML, as specified by W3C, are:
 
@@ -42,11 +40,11 @@ The goals of XML, as specified by W3C, are:
 9.  XML documents shall be easy to create
 10. Terseness in XML markup is of minimal importance
 
-## Markup, Extensibility
+## <span>Markup, Extensibility</span>
 
 Markup is all that has a special meaning, that must be well characterised: bold text, underlined text are examples of markup. An XML document is composed of markups and text: markups represent the logical structure of the document, text is the content of the document, the data. In XML all that is included between angled brackets (“\<” and “\>”), is considered markup, and is called tag, for example: \<name\> is a tag. XML is a metalanguage: Unlike HTML, which is a predefined language, it does not have predefined tags but allows the definition of new tags and new languages (there is an HTML version in XML). It is extensible. HTML is also a markup language, it was initially defined in SGML. The set of HTML rules are contained in a document (generally included in the browser) called DTD HTML (Document Type Definition). While the predefined tags of HTML are used to specify the visual aspects of the document, in XML they are used to structure the document, to define the content and to describe the data.
 
-## The components of XML
+## <span>The components of XML</span>
 
 One of the most common problems today is the exchange of documents: each program stores its data in one or more proprietary formats difficult to exchange with other programs. XML has been studied to allow and facilitate data exchange between different kinds of applications, for example databases and word processors. The interest aroused by the new language is such that many software producers now intend to adopt the XML format or are already using it in theirs programmes. For a document to be easy to interpret there must be three distinct parts:
 
@@ -66,7 +64,7 @@ With this distinction effort can be shared: the author, who has no need to know 
 
 If the language is modified and we want others know this or we want to use it as an exchange format, we need an open solution not a proprietary one. This means that the meaning of the extensions made must be declared, with a public DTD.
 
-## An example of an XML document
+## <span>An example of an XML document</span>
 
 According to the design goals of XML, it should be human legible. It must be readable by any text reader, such as Unix vi or Windows Notepad and should be reasonably clear. The following example, library.xml, shows how an XML document can be written:
 
@@ -94,7 +92,7 @@ Elements are used to declare the associated content and are written in the form:
 
 The content of an element can be of the following types: character data, parsed character data (character data that can be evaluated by parsers, programs capable of reading and interpreting XML documents), processing instructions (information to give to programs) or other nested elements. An element can have attributes, used to better specify the content. Each open tag must have a corresponding final tag; when the element is empty, like the case of BR in HTML, instead of \<BR\>\</BR\> the use of the concise form \<BR/\> is permissible. XML is case sensitive, so a \<name\> tag is different from \<Name\> and from \<NAME\>. Some characters and sequences of characters are reserved and cannot be used in the names of the tags (%, xml, ...). XML supports Unicode (Unicode WorldWide Character Standard), a standard code system that supports characters of the diverse languages of the world, both modern and also historical languages. With Unicode, browsers should automatically render the right character even if a document contains words written in several code sets.
 
-## DTD - Document Type Definition
+## <span>DTD - Document Type Definition</span>
 
 The DTD contains the definition rules of tags; it denotes the elements and their order inside the XML document. Unlike SGML, its use is not compulsory, but is suggested in order to verify the validity and congruence of the document. Other than defining the elements, it defines the syntax and the relations among elements. The structure of an XML document is seen as a tree in which elements represent the nodes. The following figure (Fig. 3), represents the structure of a hypothetical library: library
 
@@ -204,7 +202,7 @@ In order for a document to be considered “well formed”:
 
 A document is said “valid” when it is associated with a DTD and respects the rules defined in the DTD.
 
-## Namespaces
+## <span>Namespaces</span>
 
 An XML document may have content relative to more than one argument or discipline, or collect data from different documents or resources; this can be a source of problems because there could be several elements or attributes in the same document with the same names but relative to different contexts.
 
@@ -228,7 +226,7 @@ the body and h1 elements are mapped to the space defined by the HTML 4.0 specifi
 
 Some other examples: *to be added*
 
-## The schema
+## <span>The schema</span>
 
 We have described the namespaces and you will have probably noticed that they are not supported by DTDs. DTDs have other great limitations:
 
@@ -247,9 +245,8 @@ Specifying datatypes makes it possible to constrain rules, such as applying rang
 
 *to be continued*
 
-## Notes
+## <span>Notes</span>
 
 draft
 
 sections to be added
-

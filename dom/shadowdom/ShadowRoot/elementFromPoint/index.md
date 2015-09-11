@@ -1,52 +1,59 @@
 ---
 title: elementFromPoint
+notes:
+  - 'Needs spec reference, example'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/shadowdom/ShadowRoot
+    href: /dom/shadowdom/ShadowRoot
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Element
+    href: /dom/shadowdom/ShadowRoot
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns an element at specified coordinates.'
 tags:
   0: API
   1: Object
   2: Methods
   4: DOM
   5: Shadow
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs spec reference, example'
-summary: 'Returns an element at specified coordinates.'
 uri: dom/shadowdom/ShadowRoot/elementFromPoint
 
 ---
-# elementFromPoint
-
-## Summary
+## <span>Summary</span>
 
 Returns an element at specified coordinates.
 
-*Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)*
+Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.elementFromPoint(x, y);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The horizontal position of the element. May not be negative.
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The vertical position of the element. May not be negative.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Element.
+Returns an object of type ElementElement
 
 If x is greater than the viewport width or if y is greater than the viewport height, excluding the size of any rendered scrollbars, returns null.
 

@@ -1,19 +1,29 @@
 ---
 title: border-color
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-color)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5546053'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`color: The value of the ''color'' property for each of the border sides border-top-color, border-right-color, border-bottom-color, and border-left-color.`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'See individual properties'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderColor`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "The CSS border-color property sets the color of an element's four borders. This property can have from one to four values, made up of the elementary properties: \n"
-code_samples:
-  - 'http://gist.github.com/5546053'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-color
 
 ---
-# border-color
-
-## Summary
+## <span>Summary</span>
 
 The CSS border-color property sets the color of an element's four borders. This property can have from one to four values, made up of the elementary properties:
 
@@ -26,33 +36,40 @@ The default color is the currentColor of each of these values.
 
 If you provide one value, it sets the color for the element. Two values set the horizontal and vertical values, respectively. Providing three values sets the top, vertical, and bottom values, in that order. Four values set all for sides: top, right, bottom, and left, in that order.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `color: The value of the 'color' property for each of the border sides border-top-color, border-right-color, border-bottom-color, and border-left-color.`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   See individual properties
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderColor`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-color: <color>`
 -   `border-color: currentColor`
 -   `border-color: inherit`
 -   `border-color: transparent`
 
-## Values
+## <span>Values</span>
 
 \<color\>
 :   Specify the color to use on all borders. This can be anywhere from one to four values representing the top, right, bottom, and left border respectively.
@@ -66,11 +83,11 @@ transparent
 currentColor
 :   The same as ‘color: inherit’, the color value inherited from parent object.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing how to use the border-color property on HTML div elements.
 
-``` {.css}
+``` css
 .one {
           color: #6CC644;
           border: medium solid;
@@ -99,7 +116,7 @@ A simple example showing how to use the border-color property on HTML div elemen
 
 [View live example](http://code.webplatform.org/gist/5546053)
 
-## Usage
+## <span>Usage</span>
 
      The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
 
@@ -114,22 +131,22 @@ The color value can also be a numerical value, such as one of the following:
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [CSS Color Module Level 3 spec](http://www.w3.org/TR/css3-color/#svg-color), which is the consolidation of various specifications.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-color)
 :   W3C Candidate Recommendation
+
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/box.html#border-color-properties)
 :   W3C Recommendation
+
 [CSS Level 3 - Color Module](http://www.w3.org/TR/css3-color)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -189,7 +206,7 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -197,12 +214,3 @@ Specification
 -   `runtimeStyle`
 -   `style`
 -   `border`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-color)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,52 +1,68 @@
 ---
 title: background-position-y
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "Add example, description, compatibility.\nSupported by IE, Safari, and Chrome. But not appear in the Spec."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0%`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'Width or height of the element'
+readiness: 'In Progress'
+standardization_status: Non-Standard
+summary: 'Sets vertical starting position of a background image.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - "Add example, description, compatibility.\nSupported by IE, Safari, and Chrome. But not appear in the Spec."
-summary: 'Sets vertical starting position of a background image.'
-uri: css/properties/background-position-y
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/background-position-y
 
 ---
-# background-position-y
-
-## Summary
+## <span>Summary</span>
 
 Sets vertical starting position of a background image.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0%`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   Width or height of the element
 
-## Syntax
+## <span>Syntax</span>
 
 -   `background-position-y: length`
 -   `background-position-y: percentage`
 -   `background-position-y: vAlignment`
 
-## Values
+## <span>Values</span>
 
 length
 :   Floating-point number, followed by an absolute units designator (`cm`, `mm`, `in`, `pt`, or `pc`) or a relative units designator (`em`, `ex`, or `px`). For more information about the supported length units, see CSS Values and Units Reference.
@@ -59,25 +75,25 @@ vAlignment
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Windows Internet Explorer 8. The **-ms-background-position-y** attribute is an extension to CSS, and can be used as a synonym for **background-position-y** in IE8 Standards mode.
 
-### Syntax
+### <span>Syntax</span>
 
 `-ms-background-position-y: length | percentage | vAlignment`
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Background
+#### <span>Background</span>
 
 -   [background](/css/cssom/properties/background)
 
@@ -107,7 +123,7 @@ There are no standards that apply here.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -115,10 +131,3 @@ There are no standards that apply here.
 -   `runtimeStyle`
 -   `style`
 -   `-ms-background-position-x`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

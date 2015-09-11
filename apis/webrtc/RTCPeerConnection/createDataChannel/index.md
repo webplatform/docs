@@ -1,51 +1,57 @@
 ---
 title: createDataChannel
+notes:
+  - 'Needs example, spec reference, return value'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: Experimental
+summary: 'Creates an RTCDataChannel object with the given label.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: Experimental
-notes:
-  - 'Needs example, spec reference, return value'
-summary: 'Creates an RTCDataChannel object with the given label.'
 uri: apis/webrtc/RTCPeerConnection/createDataChannel
 
 ---
-# createDataChannel
-
-## Summary
+## <span>Summary</span>
 
 Creates an RTCDataChannel object with the given label.
 
-*Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)*
+Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = peerConnection.createDataChannel(label, options);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### label
+### <span>label</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The label of the data channel.
 
-### options
+### <span>options</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
-*(Optional)*
+(Optional)
 
 Currently the only available option is a Boolean property named "reliable" (e.g. {reliable: false})
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
-
+Returns an object of type<span></span>

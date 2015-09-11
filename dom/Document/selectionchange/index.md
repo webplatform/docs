@@ -1,35 +1,76 @@
 ---
 title: selectionchange
-tags:
-  - Events
-readiness: 'Not Ready'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Needs summary, examples, specs, compat'
+readiness: 'Not Ready'
+tags:
+  - Events
 uri: dom/Document/selectionchange
 
 ---
-# selectionchange
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 To invoke this event, do one of the following:
 
@@ -70,26 +111,19 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Modifying Documents in Edit Mode`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

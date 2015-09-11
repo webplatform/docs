@@ -3,23 +3,23 @@ title: toLowerCase
 uri: 'concepts/programming/javascript/core objects/js/objects/String/toLowerCase'
 
 ---
-### Summary
+### <span>Summary</span>
 
 Returns value of a string converted to lowercase while keeping the original string intact.
 
-### Syntax
+### <span>Syntax</span>
 
-``` {.js}
+``` js
 "string".toLowerCase
 ```
 
-### Parameters
+### <span>Parameters</span>
 
 None
 
-### Example
+### <span>Example</span>
 
-``` {.js}
+``` js
 var userInput="MixEDString";
 document.write(userInput.toLowerCase());
 ```

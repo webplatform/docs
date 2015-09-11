@@ -1,39 +1,48 @@
 ---
 title: heading
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/geolocation/Coordinates
+    href: /apis/geolocation/Coordinates
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/geolocation/Coordinates
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Denotes the direction of travel of the hosting device specified in degrees, where 0° ≤ heading &lt; 360°, counting clockwise relative to the true north. If the implementation cannot provide heading information, the value of this attribute must be null. If the hosting device is stationary (i.e., the value of the speed attribute is 0), then the value of this attribute must be NaN.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Geolocation
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Denotes the direction of travel of the hosting device specified in degrees, where 0° ≤ heading < 360°, counting clockwise relative to the true north. If the implementation cannot provide heading information, the value of this attribute must be null. If the hosting device is stationary (i.e., the value of the speed attribute is 0), then the value of this attribute must be NaN.'
 uri: apis/geolocation/Coordinates/heading
 
 ---
-# heading
+## <span>Summary</span>
 
-## Summary
+Denotes the direction of travel of the hosting device specified in degrees, where 0° ≤ heading &lt; 360°, counting clockwise relative to the true north. If the implementation cannot provide heading information, the value of this attribute must be null. If the hosting device is stationary (i.e., the value of the speed attribute is 0), then the value of this attribute must be NaN.
 
-Denotes the direction of travel of the hosting device specified in degrees, where 0° ≤ heading \< 360°, counting clockwise relative to the true north. If the implementation cannot provide heading information, the value of this attribute must be null. If the hosting device is stationary (i.e., the value of the speed attribute is 0), then the value of this attribute must be NaN.
+Property of [apis/geolocation/Coordinates](/apis/geolocation/Coordinates)[apis/geolocation/Coordinates](/apis/geolocation/Coordinates)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/geolocation/Coordinates](/apis/geolocation/Coordinates)</span></span>
+## <span>Syntax</span>
 
-## Syntax
+**Note**: This property is read-only.
 
-***Note**: This property is read-only.*
-
-``` {.js}
+``` js
 var result = Coordinates.heading;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 if (position.coords.heading > 87 && position.coords.heading < 93) {
    // moving within 5 degrees of due east
    } else {
@@ -41,16 +50,7 @@ if (position.coords.heading > 87 && position.coords.heading < 93) {
    }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

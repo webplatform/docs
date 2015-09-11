@@ -1,46 +1,60 @@
 ---
 title: border-image
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/5622521'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`based on individual properties`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'based on individual properties'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderImage`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for ''border'' property. It can be used to set border-image-source, border-image-slice, border-image-width, border-image-outset and border-image-repeat, or a subset of these.'
-code_samples:
-  - 'http://gist.github.com/5622521'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-image
 
 ---
-# border-image
-
-## Summary
+## <span>Summary</span>
 
 Shorthand property that defines an image to be displayed and its positioning, instead of a solid color, for 'border' property. It can be used to set border-image-source, border-image-slice, border-image-width, border-image-outset and border-image-repeat, or a subset of these.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `based on individual properties`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   based on individual properties
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderImage`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-image: border-image-source border-image-slice border-image-width border-image-outset border-image-repeat`
 
-## Values
+## <span>Values</span>
 
 border-image-source border-image-slice border-image-width border-image-outset border-image-repeat
 :   The `border-image` property can contain up to five components:
@@ -51,17 +65,17 @@ border-image-source border-image-slice border-image-width border-image-outset bo
 -   `border-image-outset`: This takes a numeric value with any of the standard length units.
 -   `border-image-repeat`: This takes any of the type of values available to the [**border-image-repeat**](/css/properties/border-image-repeat) property, which includes `stretch`, `repeat`, `round` and `space`. For more details about each, see the [**border-image-repeat**](/css/properties/border-image-repeat) page.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing a \<div\>.
 
-``` {.css}
+``` css
 <div class="pattern">one</div>
 ```
 
 [View live example](http://code.webplatform.org/gist/5622521)
 
-``` {.css}
+``` css
 /* General setup of the containers */
 div {
     height: 100px;
@@ -80,26 +94,24 @@ div {
 
 [View live example](http://code.webplatform.org/gist/5622521)
 
-## Notes
+## <span>Notes</span>
 
 [**border-image-slice: fill**](/css/properties/border-image-slice) was introduced in latest recommendation and breaks backwards compatibility. If you want border-image to fill an inner area of your block you have to use this property.
 
-### Compatibility with other properties
+### <span>Compatibility with other properties</span>
 
 [**border-radius**](/css/properties/border-radius) has no effect on border-image.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -159,7 +171,6 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)
-

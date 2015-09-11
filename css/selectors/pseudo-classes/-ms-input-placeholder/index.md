@@ -1,16 +1,18 @@
 ---
 title: :-ms-input-placeholder
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs title, summary, spec reference, remove topic cluster flags; browser-specific'
+readiness: 'Not Ready'
 tags:
   - CSS
   - Selectors
-readiness: 'Not Ready'
-notes:
-  - 'Needs title, summary, spec reference, remove topic cluster flags; browser-specific'
-uri: 'css/selectors/pseudo-classes/:-ms-input-placeholder'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: 'css/selectors/pseudo-classes/:-ms-input-placeholder'
 
 ---
 =
@@ -24,49 +26,51 @@ todo_broken_links:
 
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Examples
+## <span>Examples</span>
 
 The following example highlights the street and ZIP code fields with a custom style.
 
 The placeholder text is displayed with the specified style until the field has focus, meaning that the field can be typed into. When the field has focus, it returns to the normal style of the input field and the placeholder text disappears.
 
-    <!DOCTYPE html >
-    <html>
-    <head>
-      <title>Placeholder style example</title>
-      <style type="text/css">
-      input  /* normal style */
-      {
-        background-color:LightGray;
-        color:Purple;
-      }
-      input.address:-ms-input-placeholder /* placeholder only style */
-      {
-        font-style:italic;
-        background-color:yellow;
-        color:Red;
-      }
+``` html
+<!DOCTYPE html >
+<html>
+<head>
+  <title>Placeholder style example</title>
+  <style type="text/css">
+  input  /* normal style */
+  {
+    background-color:LightGray;
+    color:Purple;
+  }
+  input.address:-ms-input-placeholder /* placeholder only style */
+  {
+    font-style:italic;
+    background-color:yellow;
+    color:Red;
+  }
 
-      </style></head>
-    <body>
-      <form id="test">
-        <p><label>Enter Name: <input id="name" placeholder="Your Name"/></label></p>
-        <p><label>Enter Street: <input id="street" class="address"
-    placeholder="Your address" /></label></p>
-        <p><label>Enter a zip code: <input type="num" pattern="(0-9){5}"
-    id="zip" class="address" placeholder="5 digit zip" /></label></p>
-        <input type="submit" />
-      </form>
-    </body>
-    </html>
+  </style></head>
+<body>
+  <form id="test">
+    <p><label>Enter Name: <input id="name" placeholder="Your Name"/></label></p>
+    <p><label>Enter Street: <input id="street" class="address"
+placeholder="Your address" /></label></p>
+    <p><label>Enter a zip code: <input type="num" pattern="(0-9){5}"
+id="zip" class="address" placeholder="5 digit zip" /></label></p>
+    <input type="submit" />
+  </form>
+</body>
+</html>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 By default, placeholder text in input fields is light gray, but the **:-ms-input-placeholder** pseudo-class selector enables you to style it however you want.
 
-### Syntax
+### <span>Syntax</span>
 
 selector
 
@@ -76,16 +80,16 @@ selector
 
 </dd>
 </dl>
-### Parameters
+### <span>Parameters</span>
 
 *selector*
 :   A CSS simple selector.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pseudo-Classes
+#### <span>Pseudo-Classes</span>
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -137,7 +141,7 @@ selector
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -213,14 +217,7 @@ selector
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTML5 Forms (Internet Explorer 10 Guide for Developers)`
 -   `placeholder attribute`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

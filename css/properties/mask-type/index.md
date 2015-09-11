@@ -1,47 +1,61 @@
 ---
 title: mask-type
+notes:
+  - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`luminance`'
+  'Applies to': '\<mask\> elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'the unique non-ambiguous order defined by the formal grammar'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'Defines whether the content of the &lt;mask&gt; element is treated as as luminance mask or an alpha mask.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Last Call Working Draft'
-notes:
-  - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
-summary: 'Defines whether the content of the <mask> element is treated as as luminance mask or an alpha mask.'
 uri: css/properties/mask-type
 
 ---
-# mask-type
+## <span>Summary</span>
 
-## Summary
+Defines whether the content of the &lt;mask&gt; element is treated as as luminance mask or an alpha mask.
 
-Defines whether the content of the \<mask\> element is treated as as luminance mask or an alpha mask.
-
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `luminance`
+
 Applies to
 :   \<mask\> elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   the unique non-ambiguous order defined by the formal grammar
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `mask-type: alpha`
 -   `mask-type: luminance`
 
-## Values
+## <span>Values</span>
 
 luminance
 :   Indicates that the luminance values of the mask should be used.
@@ -49,11 +63,11 @@ luminance
 alpha
 :   Indicates that the alpha values of the mask should be used.
 
-## Examples
+## <span>Examples</span>
 
 Alpha mask type
 
-``` {.html}
+``` html
 <mask style="mask-type: alpha">
         <circle cx="50%" cy="50%" r="50%"/>
 </mask>
@@ -61,18 +75,16 @@ Alpha mask type
 
 Luminance mask type
 
-``` {.css}
+``` css
 <mask style="mask-type: luminance">
         <circle cx="50%" cy="50%" r="50%" fill="white"/>
 </mask>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking-1/)
 :   W3C Last Call Working Draft
+
 [CSS Masking Level 1](http://dev.w3.org/fxtf/css-masking-1/)
 :   W3C Editor’s Draft
-

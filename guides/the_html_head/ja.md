@@ -1,9 +1,9 @@
 ---
-title: ja
+title: HTML の <head> 要素
+lang: ja
+summary: 'この記事では、&lt;head&gt;要素に含めることができる一般的な項目を解説してきます。'
 tags:
   - Guides
-summary: 'この記事では、<head>要素に含めることができる一般的な項目を解説してきます。'
-uri: 'guides/the html head/ja'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -66,28 +66,37 @@ todo_broken_links:
     - 'guides/the html head/zh-hans'
     - 'guides/the html head/zh-hant'
     - 'guides/the html head/zh-tw'
+uri: 'guides/the html head/ja'
 
 ---
-# HTML の \<head\> 要�
-
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/guides/the_html_head)**  • <span lang="ja">**日本語**</span>
 
-## Summary
+</th>
+<td class="mbox-text">
+**[English](/guides/the_html_head)**  • <span lang="ja">**日本語**</span>
 
-この記事では、\<head\>要素に含めることができる一般的な項目を解説してきます。
+</td>
+</tr>
+</table>
 
-## はじめに
+## <span>Summary</span>
+
+この記事では、&lt;head&gt;要素に含めることができる一般的な項目を解説してきます。
+
+## <span>はじめに</span>
 
 この記事は HTML 文書中であまり注目を集めない head 要素とその内容について説明します。このチュートリアルでは、DOCTYPE 宣言、title 要素、キーワードや説明 (meta 要素に記述します) など、head 要素の中身や関連する情報について説明します。また、JavaScript や CSS (内部で記述する方法と外部のものを参照する方法) についても説明します。
 
 この記事ではサンプルをもとに解説するので、[サンプルをダウンロード](http://dev.opera.com/articles/view/13-the-html-head-element/headtutorial.zip) して実際に試してみてください。私が説明するのは head 要素に関するベストプラクティスなので、ぜひチュートリアルを最初から最後まで進めてください。各パートはそれぞれ妥当なものではありますが、最後にいくつかそれまで教えたことを考え直させるような事も書いています。
 
-## いったい \<head\> ってなに？
+## <span>いったい \<head\> ってなに？</span>
 
 `body` 要素は、文書のすべてのコンテンツを指定するための場所で、Webデザイナーやディベロッパーが多くの時間を費やす場所です。それに対して `head` 要素はあまり意味をなさないように見えます。なぜならこの要素の内容で、ページの利用者に直接現れるのは `title` 要素の情報だけだからです。これがどういう事かというと、`head` 要素は、ブラウザーに対する指定と、文書に関するメタ情報 (`meta`) など、付加的な情報を指定するための場所なのです。
 
-## 文書の言語情報を指定する
+## <span>文書の言語情報を指定する</span>
 
 文書に関する情報のうち、ひとつだけ head 要素の親、すなわち html 要素に指定するものがあります。文書の書かれている自然言語です。自然言語とはフランス語やタイ語、英語など人間が日常的に利用する言語を指します。自然言語情報を指定することで、スクリーンリーダーの手助けができるでしょう。たとえば、「six」という単語は英語とフランス語で発音が大きく異なります。こういった場合に自然言語情報はとても役立つのです。またスクリーンリーダー以外にも、検索エンジンなどがこの恩恵を受けられるのではないかと思います。
 
@@ -95,7 +104,7 @@ todo_broken_links:
 
 言語情報は次のように指定します。
 
-``` {.html}
+``` html
 <html lang="en-GB">
   ...
 </html>
@@ -107,7 +116,7 @@ todo_broken_links:
 
 言語情報を指定する属性は、文書に指定した DOCTYPE によって変わります。 HTML のときは `lang` のみを、XHTML 1.0 を `text/html` で送出するときは `lang` と `xml:lang` を、XHTML を XML として扱うときは `xml:lang` のみを使います。
 
-## タイトルが文書を評価する
+## <span>タイトルが文書を評価する</span>
 
 `head` 内でもっとも重要なのが `title` 要素です。`title` 要素中に書かれたテキストは、すべてのブラウザーのタイトルバー (ウインドウ上部にある箇所) に表示されるからです。タイトルはあなたのサイトに訪れた人が最初に得る情報のひとつですから、とても重要なのです。
 
@@ -115,7 +124,7 @@ todo_broken_links:
 
 では、次のサンプル ([headexample.html](http://dev.opera.com/articles/view/13-the-html-head-element/headexample.html)) を開いてみてください。
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -135,16 +144,16 @@ todo_broken_links:
 
 良いタイトルのつけ方について Web には多くのチュートリアルがありますが、それらの殆どが SEO (検索エンジン最適化) に関連するものです。ですから、検索にたくさん引っかかるようなタイトルをつけるといった、検索エンジンへの対策に溺れないでください。文書が何について書かれているのかを、短く簡潔に表現しましょう。たとえば、「犬、ジャーマンシェパード、飼い方、ペット」と「犬の飼い方 ― ジャーマンシェパード」いうふたつのタイトルがあるとしします。いったいどちらが、訪問者にとってわかりやすいタイトルでしょうか。
 
-## キーワードと説明を追加する
+## <span>キーワードと説明を追加する</span>
 
 次に説明することは、あまり意味がないのではと思う人がいるかもしれません。指定する情報が、訪問者に対して直接表示されるわけではないからです。何のことかというと、ページの説明やキーワードです。これらの情報は head 内の meta 要素に与えます。では、Yahoo! Eurosport のサイト ([headwithmeta.html](http://dev.opera.com/articles/view/13-the-html-head-element/headwithmeta.html)) を例にとって説明します。コードは次のように書かれています。
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <title>Yahoo! UK &amp; Ireland Eurosport—Sports News
+  <title>Yahoo! UK & Ireland Eurosport—Sports News
 |Sport</title>
   <meta name="description" content="Latest sports news and live scores from Yahoo! Eurosport UK. Complete sport coverage with Football results, Cricket scores, F1, Golf, Rugby, Tennis and more.">
   <meta name="keywords" content="eurosport,sports,sport,sports news,live scores,football,cricket,f1,golf,rugby,tennis,uk,yahoo">
@@ -170,11 +179,11 @@ todo_broken_links:
 
 長年の spam 業者によるキーワードの不正利用によって、検索エンジンはキーワードを重要な情報として扱わなくなりました。それでも、キーワードはとてもよいツールになります。たとえば、多くの文書をすぐにインデックスしたい場合、キーワードがあればすべての文書をスキャンし内容を解析する必要がありません。meta キーワードをインデックスするスクリプトを用意し CMS の検索エンジンに利用すれば、検索が高速に行えるでしょう。内容を解析する必要なしに、文書を探し出す機能を手間なく導入できるのです。今はそういった機能を考えていなくても将来的に導入するチャンスが与えられると考えて、meta 要素にキーワードを与えることもよいのではないでしょうか。キーワードを分厚い本にはさむ小さなしおりとして考えてみましょう。しおりがあることで、長い章を読み返すことなく特定の節から読むことができるでしょう。
 
-## 見た目は? スタイルを与えよう
+## <span>見た目は? スタイルを与えよう</span>
 
 `head` に与えられる情報はまだあります。CSS (Cascading Style Sheets) で定義されるスタイル規則です。スタイル規則は `style` 要素を使って `head` 要素内に直接埋め込めます。サンプル ([headinlinestyles.html](http://dev.opera.com/articles/view/13-the-html-head-element/headinlinestyles.html)) は次のようになっています。
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -205,7 +214,7 @@ todo_broken_links:
 
 たとえば、ディスプレイでは別の色を使って、印刷物ではフォントを大きくしたいといったとき、次のように `media` 属性に値 `print` を指定した新しいスタイルブロックを追加することで実現できます。(サンプルは [headinlinestylesmedia.html](http://dev.opera.com/articles/view/13-the-html-head-element/headinlinestylesmedia.html) にあります)
 
-``` {.html}
+``` html
 <style type="text/css" media="print">
   body{
     background:#fff;
@@ -222,13 +231,13 @@ todo_broken_links:
 
 図4: スクリーン用スタイルシートと印刷用スタイルシート
 
-## JavaScript で動的な機能を与えよう
+## <span>JavaScript で動的な機能を与えよう</span>
 
 head には他にも「クライアントサイドスクリプト」と呼ばれる、JavaScript で書かれたブラウザーによって実行されるスクリプトを追加することが出来ます。[Web 標準のモデル](http://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript/ja) で解説した通り、JavaScript は静的な HTML 文書に動的な挙動を与えるものです。たとえば、アニメーションやフォーム内容の検証など、ユーザーの行動に応じた反応が行えます。
 
 JavaScript は script 要素を使って埋め込むことができます。ブラウザーがこの要素を見つけるとまず要素内のコードを実行し、その処理が終了するまで構文解析などの処理を中断します。つまり、ページの本文が表示される前に JavaScript を実行したい場合、その処理は head 内に記述する必要があります。たとえば、あなたのページに外部のサーバーへのリンクがいくつかあることをユーザーに伝えたい場合、次のようなコードを head 内に追加します。([headscript.html](http://dev.opera.com/articles/view/13-the-html-head-element/headscript.html)):
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -267,13 +276,13 @@ Test!
 
  ブラウザーでこのサンプルを開き、リンクをクリックすると、外部サーバーに移動してよいかと訪ねてくるはずです。これはとても単純なスクリプトのサンプルとして用意しただけなので、ベストプラクティスではまったくありません。JavaScript のベストプラクティスや JavaScript の詳細なテクニックについては、後の記事で解説します。でも、いまは焦らずにいきましょう。
 
-## インラインな CSS や JavaScript は良くない
+## <span>インラインな CSS や JavaScript は良くない</span>
 
 強い言葉を書きましたが、Web サイトを構築する時に覚えておいてほしいことがひとつあります。コードを可能な限り再利用できるようにすると最もよいです。サイト全体で利用されるスタイルシートやスクリプトを各ページに埋め込むのは意義のあることではありません。それどころか、サイト全体を管理することが大変になりますし、文書のサイズも不必要に大きくなってしまいます。
 
 スタイルシートやスクリプトは外部ファイルに格納し、必要に応じて HTML ファイルから読み込む方がずっとよいやり方です。こうすることで、変更が必要な場合でも、その外部ファイルを編集するだけで済むからです。JavaScript の場合、`script` 要素内には何も書かず、`src` 属性から外部ファイルにリンクします。コードは次のようになります。([externaljs.html](http://dev.opera.com/articles/view/13-the-html-head-element/externaljs.html))
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -308,7 +317,7 @@ Test!
 
  CSS の場合はすこし難しくなります。`style` は `src` 属性を持たないため、代わりに `link` 要素を利用することになります。`link` 要素は `href` 属性から外部 CSS を読み込むことができます。また、画面用か印刷用かを指定したい場合には `media` 属性が用意されています。CSS と JavaScript を固有のファイルに格納することにより、`head` 要素の長さをとても短くすることができます。([externalall.html](http://dev.opera.com/articles/view/13-the-html-head-element/externalall.html))
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -332,13 +341,12 @@ Test!
 1.  ページを速く表示させることができ、訪問者にやさしいつくにりなります。ダウンロードするファイルはすこしですが、共通に利用するスタイルシートやスクリプトを毎回読み込む必要はありません (外部スクリプト/スタイルシートは一度のダウンロードで済みます)。加えて、リンクした CSS ファイルと JavaScript ファイルはキャッシュされます (コンピューターに一時的に保存されます)。次にサイトにアクセスしたとき、その CSS ファイルと JavaScript ファイルはあなたのコンピューターに既に存在しているため、再びダウンロードする必要がありません。
 2.  メンテナンスが容易になります。数千ページからなるサイトでも、スタイルシートとスクリプトが一箇所にあれば、なにか変更したい場合でもひとつひとつのファイルを編集する必要はありません。
 
-## See also
+## <span>See also</span>
 
-## 課題
+## <span>課題</span>
 
 -   スクリーンに表示されないのに、meta 要素にサイトの説明を加える意義はなんでしょうか。
 -   JavaScript を body ではなく head 内に追加することの利点はなんでしょうか。
 -   ブラウザーのキャッシュ機能の利点はなんでしょうか。そして、その恩恵を得るためには何をすればいいでしょうか。
 -   検索エンジンが文書のタイトルを重要視しているなら、関連するキーワードをすべて記述した方がよいのでしょうか。なにかこのやり方に問題はありますか？
 -   タイトルの表示が少しつまらないので、b 要素でいくつかを太字にさせたいと思うのですが、これは可能ですか？
-

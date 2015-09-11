@@ -1,40 +1,45 @@
 ---
 title: clearData
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clearDataEX.htm'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/DataTransfer
+    href: /dom/DataTransfer
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Removes one or more data formats (or all data) from the clipboard through the DataTransfer object or the ClipboardData object.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Removes one or more data formats (or all data) from the clipboard through the DataTransfer object or the ClipboardData object.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clearDataEX.htm'
 uri: dom/DataTransfer/clearData
 
 ---
-# clearData
-
-## Summary
+## <span>Summary</span>
 
 Removes one or more data formats (or all data) from the clipboard through the DataTransfer object or the ClipboardData object.
 
-*Method of [dom/DataTransfer](/dom/DataTransfer)*
+Method of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.dataTransfer.clearData(format);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### format
+### <span>format</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-*(Optional)*
+(Optional)
 
 The format of the data to be cleared, using one of the following values (case insensitve):
 
@@ -43,15 +48,15 @@ The format of the data to be cleared, using one of the following values (case in
 
 If *format* is omitted, all data is removed.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **clearData**, [setData](/dom/DataTransfer/setData), and [getData](/dom/DataTransfer/getData) methods with the [DataTransfer](/dom/DataTransfer) object.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -87,22 +92,13 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clearDataEX.htm)
 
-## Notes
+## <span>Notes</span>
 
 -   If no *format* parameter is passed, all of the data formats are cleared.
 -   For drag-and-drop operations, the **clearData** method of the [DataTransfer](/dom/DataTransfer) object is used generally in source events, such as [dragstart](/dom/DragEvent/dragstart). When you override the default behavior of the target, use **clearData** in the [drop](/dom/DragEvent/drop) event. It is particularly useful for selectively removing data formats when multiple formats are specified.
 -   The clearData() method does not affect whether any files were included in the drag, so the types attribute's list might still not be empty after calling clearData() (it would still contain the "Files" string if any files were included in the drag).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

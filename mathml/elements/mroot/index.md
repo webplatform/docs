@@ -1,31 +1,33 @@
 ---
 title: mroot
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mroot)'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[mathml](/mathml)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The MathML mroot element is used to display roots with an explicit index. Two arguments are accepted, which leads to the syntax: &lt;mroot&gt; base index &lt;/mroot&gt;.'
 tags:
   - Markup
   - Elements
   - MathML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The MathML mroot element is used to display roots with an explicit index. Two arguments are accepted, which leads to the syntax: <mroot> base index </mroot>.'
 uri: mathml/elements/mroot
 
 ---
-# mroot
+## <span>Summary</span>
 
-## Summary
+The MathML mroot element is used to display roots with an explicit index. Two arguments are accepted, which leads to the syntax: &lt;mroot&gt; base index &lt;/mroot&gt;.
 
-The MathML mroot element is used to display roots with an explicit index. Two arguments are accepted, which leads to the syntax: \<mroot\> base index \</mroot\>.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## Examples
+## <span>Examples</span>
 
 This example demonstrates a simple usage of the mroot element:
 
-``` {.html}
+``` html
 
 
 <math>
@@ -40,16 +42,7 @@ This example demonstrates a simple usage of the mroot element:
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mroot)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mroot)
-

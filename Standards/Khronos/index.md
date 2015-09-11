@@ -5,14 +5,14 @@ uri: Standards/Khronos
 ---
 The Khronos Group is a hardware manufacturer consortium that focuses on media and hardware-sensitive APIs. Their Web standards include WebGL.
 
-**Website:** [http://www.khronos.org/](http://www.khronos.org/)
+**Website:** <http://www.khronos.org/>
 
-## Organizational Structure
+## <span>Organizational Structure</span>
 
-### Funding
+### <span>Funding</span>
 
-## Communications
+## <span>Communications</span>
 
-## Process
+## <span>Process</span>
 
-## Patent Policy
+## <span>Patent Policy</span>

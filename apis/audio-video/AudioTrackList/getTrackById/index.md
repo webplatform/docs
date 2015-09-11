@@ -1,47 +1,56 @@
 ---
 title: getTrackById
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://gist.github.com/459f1a0ea9f70009b6fe'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/audio-video/AudioTrackList
+    href: /apis/audio-video/AudioTrackList
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/audio-video/AudioTrackList
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the AudioTrack object with the given identifier, or null if no track has that identifier.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the AudioTrack object with the given identifier, or null if no track has that identifier.'
-code_samples:
-  - 'http://gist.github.com/459f1a0ea9f70009b6fe'
 uri: apis/audio-video/AudioTrackList/getTrackById
 
 ---
-# getTrackById
-
-## Summary
+## <span>Summary</span>
 
 Returns the AudioTrack object with the given identifier, or null if no track has that identifier.
 
-*Method of [apis/audio-video/AudioTrackList](/apis/audio-video/AudioTrackList)*
+Method of [apis/audio-video/AudioTrackList](/apis/audio-video/AudioTrackList)[apis/audio-video/AudioTrackList](/apis/audio-video/AudioTrackList)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = AudioTrackList.getTrackById(id);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### id
+### <span>id</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 (function () {
     // grab the video element
     var video = document.getElementById("video");
@@ -85,16 +94,7 @@ Returns an object of type DOM Node.
 
 [View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

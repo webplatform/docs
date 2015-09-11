@@ -1,46 +1,50 @@
 ---
 title: computedValue
+notes:
+  - 'Not in spec; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioParam
+    href: /apis/webaudio/AudioParam
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/webaudio/AudioParam
+standardization_status: 'W3C Editor''s Draft'
+summary: "The final value controlling the audio DSP, calculated at each time, which is either the value set directly to the value attribute or, if there are any scheduled parameter changes (automation events), the value as calculated from these events.\n"
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Not Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Not in spec; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
-summary: "The final value controlling the audio DSP, calculated at each time, which is either the value set directly to the value attribute or, if there are any scheduled parameter changes (automation events), the value as calculated from these events.\n"
 uri: apis/webaudio/AudioParam/computedValue
 
 ---
-# computedValue
-
-## Summary
+## <span>Summary</span>
 
 The final value controlling the audio DSP, calculated at each time, which is either the value set directly to the value attribute or, if there are any scheduled parameter changes (automation events), the value as calculated from these events.
 
-**Not in spec; deletion candidate. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+**Not in spec; deletion candidate. See <http://webaudio.github.io/web-audio-api/>.**
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)</span></span>
+Property of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioParam.computedValue;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

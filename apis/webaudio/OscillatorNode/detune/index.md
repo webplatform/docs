@@ -1,43 +1,43 @@
 ---
 title: detune
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/OscillatorNode
+    href: /apis/webaudio/OscillatorNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'A detuning value (in cents) which will offset the frequency by the given amount. This parameter is a-rate.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'A detuning value (in cents) which will offset the frequency by the given amount. This parameter is a-rate.'
 uri: apis/webaudio/OscillatorNode/detune
 
 ---
-# detune
-
-## Summary
+## <span>Summary</span>
 
 A detuning value (in cents) which will offset the frequency by the given amount. This parameter is a-rate.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)</span></span>
+Property of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = OscillatorNode.detune;
 ```
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var oscillator = audioCtx.createOscillator();
 oscillator.detune.value = 100; // value in cents
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

@@ -1,31 +1,66 @@
 ---
 title: statechange
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+readiness: 'Not Ready'
 tags:
   - Events
   - API
   - WebRTC
-readiness: 'Not Ready'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
 uri: apis/webrtc/RTCPeerConnection/statechange
 
 ---
-# statechange
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:
-Cancelable
-:   No
-Default action
-:
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 

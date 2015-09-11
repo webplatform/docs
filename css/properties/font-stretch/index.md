@@ -1,45 +1,59 @@
 ---
 title: font-stretch
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5842671'
+notes:
+  - 'Add description and compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+summary: 'Allows you to expand or condense the widths for a normal, condensed, or expanded font face.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Add description and compatibility.'
-summary: 'Allows you to expand or condense the widths for a normal, condensed, or expanded font face.'
-code_samples:
-  - 'http://gist.github.com/5842671'
-uri: css/properties/font-stretch
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/font-stretch
 
 ---
-# font-stretch
-
-## Summary
+## <span>Summary</span>
 
 Allows you to expand or condense the widths for a normal, condensed, or expanded font face.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `font-stretch: condensed`
 -   `font-stretch: expanded`
@@ -53,7 +67,7 @@ Animatable
 -   `font-stretch: ultra-expanded`
 -   `font-stretch: wider (Internet Explorer only)`
 
-## Values
+## <span>Values</span>
 
 ultra-condensed
 :   This is the most condensed setting.
@@ -88,9 +102,9 @@ wider (Internet Explorer only)
 narrower (Internet Explorer only)
 :   This condenses the font face in Internet Explorer only.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 .ultra-condensed{
     font-stretch:ultra-condensed;
     }
@@ -110,19 +124,19 @@ narrower (Internet Explorer only)
 
 [View live example](http://code.webplatform.org/gist/5842671)
 
-### Syntax
+### <span>Syntax</span>
 
 `font-stretch: normal | wider | narrower | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded `
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.10
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -148,13 +162,7 @@ narrower (Internet Explorer only)
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -162,7 +170,7 @@ narrower (Internet Explorer only)
 
 -   [font](/html/elements/font)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -172,10 +180,3 @@ narrower (Internet Explorer only)
 -   `style`
 -   `style`
 -   `font-size-adjust`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,42 +1,47 @@
 ---
 title: name
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'remove duplicated syntax header. can also benefit from elaboration of the term "name" in context to csskeyframes'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/CSSKeyframeRule
+    href: /css/cssom/CSSKeyframeRule
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'remove duplicated syntax header. can also benefit from elaboration of the term "name" in context to csskeyframes'
 uri: css/cssom/CSSKeyframesRule/name
 
 ---
-# name
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/CSSKeyframeRule](/css/cssom/CSSKeyframeRule)</span></span>
+Property of [css/cssom/CSSKeyframeRule](/css/cssom/CSSKeyframeRule)[css/cssom/CSSKeyframeRule](/css/cssom/CSSKeyframeRule)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.name;
 element.name = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Animations Module Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223144), Section 5
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -57,8 +62,6 @@ element.name = value;
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -86,11 +89,9 @@ element.name = value;
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -146,13 +147,9 @@ element.name = value;
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -192,17 +189,54 @@ element.name = value;
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSKeyframesRule`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

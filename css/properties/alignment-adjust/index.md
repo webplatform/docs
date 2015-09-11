@@ -1,42 +1,56 @@
 ---
 title: alignment-adjust
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/6363838'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'Inline-level elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'Refers to the line-height of the element'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'This property allows precise alignment of elements, such as graphics, that do not have a baseline-table or lack the desired baseline in their baseline-table. With the alignment-adjust property, the position of the baseline identified by the alignment-baseline can be explicitly determined. It also determines precisely the alignment point for each glyph within a textual element.'
-code_samples:
-  - 'http://gist.github.com/6363838'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/alignment-adjust
 
 ---
-# alignment-adjust
-
-## Summary
+## <span>Summary</span>
 
 This property allows precise alignment of elements, such as graphics, that do not have a baseline-table or lack the desired baseline in their baseline-table. With the alignment-adjust property, the position of the baseline identified by the alignment-baseline can be explicitly determined. It also determines precisely the alignment point for each glyph within a textual element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   Inline-level elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   Refers to the line-height of the element
 
-## Syntax
+## <span>Syntax</span>
 
 -   `alignment-adjust: <length>`
 -   `alignment-adjust: <percentage>`
@@ -53,7 +67,7 @@ Percentages
 -   `alignment-adjust: text-after-edge`
 -   `alignment-adjust: text-before-edge`
 
-## Values
+## <span>Values</span>
 
 auto
 :   For each glyph corresponding to textual information within the element, the alignment-point is the intersection of the start-edge of the glyph box and the block-progression-direction position of the alignment point from the font. Padding, border or margin do not affect that alignment point. The alignment point of the inline-level element itself is at the intersection of the start-edge of the first inline box and the baseline identified by the ‘alignment-baseline’ property, if this baseline exists in the baseline-table for the element dominant-baseline. If that specific baseline does not exist, the user agent may use heuristics to determine where the missing baseline would be.
@@ -97,31 +111,31 @@ mathematical
 \<length\>
 :   The alignment-point is on the start-edge of the inline box. Its position along the start-edge relative to the intersection of the dominant-baseline and the start-edge is offset by the length value. The offset is opposite to the shift-direction (positive value) or in the shift-direction (negative value). A value of "0cm" makes the dominant-baseline the alignment point.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <p>
     alignment-adjust CSS property:
-    <img src="http://placehold.it/40x40%22 alt="Image 1" class="image1">
-    <img src="http://placehold.it/40x40%22 alt="Image 2" class="image2">
-    <img src="http://placehold.it/40x40%22 alt="Image 3" class="image3">
-    <img src="http://placehold.it/40x40%22 alt="Image 4" class="image4">
-    <img src="http://placehold.it/40x40%22 alt="Image 5" class="image5">
-    <img src="http://placehold.it/40x40%22 alt="Image 6" class="image6">
-    <img src="http://placehold.it/40x40%22 alt="Image 7" class="image7">
-    <img src="http://placehold.it/40x40%22 alt="Image 8" class="image8">
-    <img src="http://placehold.it/40x40%22 alt="Image 9" class="image9">
-    <img src="http://placehold.it/40x40%22 alt="Image 10" class="image10">
-    <img src="http://placehold.it/40x40%22 alt="Image 11" class="image11">
-    <img src="http://placehold.it/40x40%22 alt="Image 12" class="image12">
-    <img src="http://placehold.it/40x40%22 alt="Image 13" class="image13">
-    <img src="http://placehold.it/40x40%22 alt="Image 14" class="image14">
+    <img src="http://placehold.it/40x40" alt="Image 1" class="image1">
+    <img src="http://placehold.it/40x40" alt="Image 2" class="image2">
+    <img src="http://placehold.it/40x40" alt="Image 3" class="image3">
+    <img src="http://placehold.it/40x40" alt="Image 4" class="image4">
+    <img src="http://placehold.it/40x40" alt="Image 5" class="image5">
+    <img src="http://placehold.it/40x40" alt="Image 6" class="image6">
+    <img src="http://placehold.it/40x40" alt="Image 7" class="image7">
+    <img src="http://placehold.it/40x40" alt="Image 8" class="image8">
+    <img src="http://placehold.it/40x40" alt="Image 9" class="image9">
+    <img src="http://placehold.it/40x40" alt="Image 10" class="image10">
+    <img src="http://placehold.it/40x40" alt="Image 11" class="image11">
+    <img src="http://placehold.it/40x40" alt="Image 12" class="image12">
+    <img src="http://placehold.it/40x40" alt="Image 13" class="image13">
+    <img src="http://placehold.it/40x40" alt="Image 14" class="image14">
 </p>
 ```
 
 [View live example](http://code.webplatform.org/gist/6363838)
 
-``` {.css}
+``` css
 /**
  * alignment-adjust
  * CSS3 property
@@ -159,16 +173,13 @@ p img:first-child {
 .image14 { alignment-adjust: -20px; }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Line Layout Module](http://dev.w3.org/csswg/css-inline/)
 :   W3C Editor's Draft
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [alignment-adjust by Eric Meyer](http://meyerweb.com/eric/css/tests/css3/show.php?p=alignment-adjust)
-

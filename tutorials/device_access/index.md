@@ -1,21 +1,19 @@
 ---
-title: device access
-tags:
-  - Tutorials
-readiness: 'Almost Ready'
+title: Device access tutorials
 notes:
   - 'Fix broken link'
+readiness: 'Almost Ready'
 summary: 'This page lists tutorials related to device access.'
-uri: 'tutorials/device access'
+tags:
+  - Tutorials
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'tutorials/notifications api'
+uri: 'tutorials/device access'
 
 ---
-# Device access tutorials
-
-## Summary
+## <span>Summary</span>
 
 This page lists tutorials related to device access.
 

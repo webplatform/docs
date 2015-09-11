@@ -1,62 +1,60 @@
 ---
 title: go
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples, clean-up'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/History
+    href: /dom/History
+summary: 'Navigates to a relatively positioned history record.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'examples, clean-up'
-summary: 'Navigates to a relatively positioned history record.'
 uri: dom/History/go
 
 ---
-# go
-
-## Summary
+## <span>Summary</span>
 
 Navigates to a relatively positioned history record.
 
-*Method of [dom/History](/dom/History)*
+Method of [dom/History](/dom/History)[dom/History](/dom/History)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  history.go(relativePosition);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### relativePosition
+### <span>relativePosition</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The relative position of a URL in the history list. Out of bounds position (-1 when the current document is the first history record) does nothing.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 An error does not occur if the user tries to go beyond the beginning or end of the history. Instead, the user remains at the current page.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `history`
 -   `Reference`
 -   `back`
 -   `forward`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

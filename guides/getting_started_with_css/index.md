@@ -1,20 +1,18 @@
 ---
-title: getting started with css
+title: Getting started with CSS
+readiness: 'Ready to Use'
+summary: 'This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, and comments, and shows how to apply CSS rules to HTML content.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, and comments, and shows how to apply CSS rules to HTML content.'
 uri: 'guides/getting started with css'
 
 ---
-# Getting started with CSS
-
-## Summary
+## <span>Summary</span>
 
 This guide covers the basic fundamentals of CSS, including CSS anatomy, selectors, and comments, and shows how to apply CSS rules to HTML content.
 
-## Introduction
+## <span>Introduction</span>
 
 This article covers the basics of CSS to help you get started with this powerful styling language. You will learn how to apply CSS to HTML documents, either as inline styles using `style` attributes, embedded styles in a `<style>` element in the document `<head>`, or as external files in their own documents.
 
@@ -22,7 +20,7 @@ You will also learn that the latter method — linking an external style sheet u
 
 Additionally, an overview of the basic syntax of CSS is provided, including details about adding comments, selector types, and grouping selectors.
 
-## Review: What is CSS?
+## <span>Review: What is CSS?</span>
 
 While HTML structures the document and tells browsers the function of page elements, CSS provides rules that instruct the browser how to display the elements — styling, spacing, coloring, etc. If HTML is the foundation and bricks that make up the structure of a house, CSS is the plaster and paint that decorate it.
 
@@ -42,11 +40,11 @@ or
 
 CSS is not a markup language like HTML, nor is it a procedural programming language like JavaScript. It is a declarative language that uses its own logic to identify and locate the page elements to which its style rules should be applied. Older technologies that defined interfaces before modern web development came along always mixed presentation and structure. As we've discussed in other tutorials, this is not a wise choice in an environment that changes as often as the web, which is why CSS was invented.
 
-## Defining style rules
+## <span>Defining style rules</span>
 
 Style rules can operate on different sets of items, selected in different ways. For example, they can be directly applied to HTML elements (body, article, nav, list, p, em, strong, etc.), or they can be applied to any elements with custom classes or IDs. This is the basic form:
 
-``` {.css}
+``` css
 selector {
   property1: value;
   property2: value;
@@ -63,7 +61,7 @@ selector {
 
 Review this example:
 
-``` {.css}
+``` css
 p {
   margin: 5px;
   font-family: arial;
@@ -75,11 +73,11 @@ p {
 
 A group of CSS rules can be added to a CSS document to form a style sheet. This is the most basic syntax when writing CSS rules. Some rules are more complex, but not much — one of the best things about CSS is its simplicity.
 
-### Whitespace in CSS
+### <span>Whitespace in CSS</span>
 
 Whitespace in CSS works in exactly the same way as it does in HTML. Excess whitespace is completely ignored by the browser that renders the CSS, so in most cases you can add as much whitespace as you like to make the code easier to read. So this rule:
 
-``` {.css}
+``` css
 p {
   margin: 5px;
   font-family: arial;
@@ -89,17 +87,17 @@ p {
 
  is functionally identical to this rule:
 
-``` {.css}
+``` css
 p {margin: 5px;font-family: arial;color: blue;}
 ```
 
  There are a few exceptions where whitespace matters, for example, inside CSS function syntax. The property value `url(background-image.png)` would not work properly if you put a space between url and the opening parenthesis, as in `url (background-image.png)`. But in general, as long as you include the necessary braces, colons, and semi-colons to separate the different parts, the browser understands the values you apply to properties.
 
-### CSS comments
+### <span>CSS comments</span>
 
 One thing to know early on is how to add comments in CSS. As in any language, comments can help clarify the intent of the code. You add comments by enclosing them in `/*` and `*/` delimiters. Comments can span several lines. Browsers will ignore commented lines of text:
 
-``` {.css}
+``` css
 /* This is basic CSS rule syntax */
 selector{
   property1: value;
@@ -110,7 +108,7 @@ selector{
 
  You can add comments either between rules or inside the property block. For example, in the following CSS the second and third properties are enclosed inside comment delimiters, so they will be ignored by the browser. This is useful when you are testing the effect certain CSS rules have on your web page; just comment them out, save your CSS file, and reload the HTML page in a browser.
 
-``` {.css}
+``` css
 selector{
   property1: value;
   /*
@@ -120,11 +118,11 @@ selector{
 }
 ```
 
-### Grouping selectors
+### <span>Grouping selectors</span>
 
 You can also group selectors. If you want to apply the same style to `h1` and `p`, you can use the following CSS:
 
-``` {.css}
+``` css
 h1 {
   color: red;
 }
@@ -136,41 +134,41 @@ p {
 
  This, however, is not ideal coding practice, as you are repeating the same information. To remedy this, you can shorten the CSS by grouping the selectors together with a comma — the rules within the braces are then applied to both selectors:
 
-``` {.css}
+``` css
 h1, p {
   color: red;
 }
 ```
 
-### Basic types of selectors
+### <span>Basic types of selectors</span>
 
 There are several different types of selectors, each matching a different part of the markup. The three types of selectors that you will encounter most often are:
 
-#### Element selector
+#### <span>Element selector</span>
 
-``` {.css}
+``` css
 p {}
 ```
 
  An element selector matches all the elements of that name on the page (`<p>` elements, in the case above). By specifying an HTML element (tag) as a selector, you can affect all page content that is marked up with that tag.
 
-#### Class selector
+#### <span>Class selector</span>
 
-``` {.css}
+``` css
 .example {}
 ```
 
  A class selector matches all elements that have a `class` attribute with the value specified, so the above would match `<p class="example">`, `<li class="example">`, or `<div class="example">`, or any other element with a `class` of `example`. Note that this type of class selector does not test for any specific element name.
 
-#### ID selector
+#### <span>ID selector</span>
 
-``` {.css}
+``` css
 #example {}
 ```
 
  An ID selector matches all elements that have an `id` attribute with the value specified, so the above would match `<p id="example">`, `<li id="example">`, `<div id="example">`, or any other element with an `id` of `example`. Note that ID selectors do not test for any element name, but IDs must be unique within each HTML page.
 
-#### Combining selectors
+#### <span>Combining selectors</span>
 
 You can join selectors together to define even more specific rules:
 
@@ -180,29 +178,29 @@ You can join selectors together to define even more specific rules:
 
 Note that this does not mean you can use a shorthand for the definition of your elements in HTML. For example, your HTML paragraph will still have to be in the form `<p class="classname">`, but you can style it in your CSS with `p.classname {}`.
 
-## CSS shorthand
+## <span>CSS shorthand</span>
 
 Another thing you will come across regularly in CSS is shorthand. It is possible to combine several related CSS properties together into one property to save time and effort. In this section we will look at the available types of shorthand. For more information, also see the [CSS shorthand guide](/guides/css_shorthand) tutorial.
 
 For example, this `border` property is shorthand:
 
-``` {.css}
+``` css
 border: 2px solid black;
 ```
 
  It is equivalent to:
 
-``` {.css}
+``` css
 border-width: 2px;
 border-style: solid;
 border-color: black;
 ```
 
-### Comparing individual and shorthand values
+### <span>Comparing individual and shorthand values</span>
 
 Consider the following margin rule:
 
-``` {.css}
+``` css
 div.foo {
   margin-top: 1em;
   margin-right: 1.5em;
@@ -213,7 +211,7 @@ div.foo {
 
  Such a rule could also be written as:
 
-``` {.css}
+``` css
 div.foo {
   margin: 1em 1.5em 2em 2.5em;
 }
@@ -227,7 +225,7 @@ div.foo {
 
 There are a number of properties that work like this, including `padding`, `margin` and `outline`.
 
-### Making the choice to use a single property or a shorthand value
+### <span>Making the choice to use a single property or a shorthand value</span>
 
 Shorthand `margin` and `padding` properties tend to get the greatest share of use, though there are situations in which shorthand properties are best avoided, or at least considered carefully, such as in the following situations:
 
@@ -236,17 +234,17 @@ Shorthand `margin` and `padding` properties tend to get the greatest share of us
 -   **The style sheet you're writing will be maintained by people with limited CSS skills.** If you can get them to read this article you may not need to worry about this scenario, but it is best not to make any assumptions.
 -   **You need to supplant a value, to account for an edge case.** This requirement is often a signal of a poorly designed document or style sheet, but those are hardly rare.
 
-## Applying CSS to HTML
+## <span>Applying CSS to HTML</span>
 
 The "C" in CSS stands for *Cascading*, which refers to the method by which style rules flow downward, or cascade. The order in which CSS rules are defined is important, and the methods you use to apply the rules defines their cascade sequence.
 
 There are three ways to apply CSS to an HTML document: inline styles, embedded styles, and external style sheets. Unless you have a very good reason to use one of the first two, always go for the third option. The reason for this will become obvious soon, but here is an overview of the different options.
 
-### Inline styles
+### <span>Inline styles</span>
 
 You can apply styles to a specific element using a `style` attribute, like this:
 
-``` {.html}
+``` html
 <p style="background:blue; color:white; padding:5px;">Paragraph</p>
 ```
 
@@ -260,11 +258,11 @@ The benefit of inline styles is that the browser will be forced to use these set
 
 The big problem with inline styles is that they make maintenance a lot harder than it should be. Using CSS is all about separating the presentation of the document from the structure, but inline styles are doing just the opposite — scattering presentation rules throughout the document. In addition to the maintenance issue, inline styles forfeit the advantage of the most powerful part of CSS: the cascade.
 
-### Embedded styles
+### <span>Embedded styles</span>
 
 Embedded styles are placed in the `<head>` of the document inside a `<style>` element, as in this example:
 
-``` {.css}
+``` css
 <style type="text/css" media="screen">
   p {
     color: white;
@@ -282,11 +280,11 @@ Embedded styles are placed in the `<head>` of the document inside a `<style>` el
 
 The benefit with embedded styles is that you don't need to add a `style` attribute to each paragraph — you can style them all with a single definition. This also means that if you need to change the look and feel of all paragraphs, you can do it in one location. However, this is still limited to one document — what if you want to define the look of paragraphs for a whole site in one place? It is for this reason we use external style sheets.
 
-### External style sheets
+### <span>External style sheets</span>
 
 External style sheets means putting all your CSS definitions in their own file, saving it with a file extension of `.css`, and then applying it to your HTML documents using a `<link>` element inside the document `<head>`. Let's have a closer look at that `<link>` element:
 
-``` {.html}
+``` html
 <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
 ```
 
@@ -298,11 +296,11 @@ External style sheets means putting all your CSS definitions in their own file, 
 
 This is the best of all worlds: you keep your look and feel definitions in one place, which means that you can make site-wide changes by changing one file, and the browser can load that once and then cache it for all other documents that reference it, meaning less to download.
 
-### Importing stylesheets
+### <span>Importing stylesheets</span>
 
 There is actually one more way to import external style sheets into HTML files: the `@import` property. This is inserted into an embedded style sheet, in the same way as the embedded CSS shown above. The syntax looks like this:
 
-``` {.html}
+``` html
 <style type="text/css" media="screen">
   @import url("styles.css");
 
@@ -313,7 +311,7 @@ There is actually one more way to import external style sheets into HTML files: 
 
  If you use `@import`, it should always come first in an embedded style sheet. Also, you can specify that the imported style sheet be applied only to certain types of media by including the media type at the end of the import statement (this works in every browser except IE6 and below). The following does the same thing as the previous code example:
 
-``` {.html}
+``` html
 <style type="text/css">
   @import url("styles.css") screen;
 
@@ -329,13 +327,13 @@ A couple of notes about @import:
 -   IE6 doesn't support putting the media type at the end of the `@import` line, so this is not a good way to go if you want to insert multiple stylesheets for different media.
 -   You could argue that the code for multiple `@import` statements is smaller than the code for multiple `<link>` elements, but this is negligible.
 
-## Conclusion
+## <span>Conclusion</span>
 
 You should now have a basic grasp of CSS rules, selectors, properties, and values. For more information on CSS, see the other tutorials in this section.
 
-## See also
+## <span>See also</span>
 
-### Exercise Questions
+### <span>Exercise Questions</span>
 
 -   What are the benefits and problems of inline styles and how do you apply them to an element?
 -   What is a style rule? Describe the different components and syntax.
@@ -343,4 +341,3 @@ You should now have a basic grasp of CSS rules, selectors, properties, and value
 -   What does the following CSS selector match: `ul#nav{}`?
 -   What is the benefit of grouping selectors?
 -   How can you define a print style sheet?
-

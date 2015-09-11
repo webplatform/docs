@@ -1,19 +1,19 @@
 ---
 title: filter
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/filter
 
 ---
-# filter
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 [**Filter**](/svg/elements/filter) elements are never rendered directly; their only usage is as something that can be referenced using the **filter** property. Be aware that **filter** elements are available for referencing even when the [**display**](/css/properties/display) property on the **filter** element or any of its ancestors is set to **none**.
 
@@ -22,18 +22,11 @@ In the following example, a previously defined Gaussian\_Blur filter (that is, *
      <ellipse cx="200" cy="150" rx="70" ry="40" style="fill:#ff0000; stroke:#000000;
               stroke-width:2; filter:url(#Gaussian_Blur)"/>
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**Filter**](/svg/elements/filter)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

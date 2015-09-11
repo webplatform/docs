@@ -1,23 +1,21 @@
 ---
-title: using css multiple background
+title: Using Multiple Backgrounds
+readiness: 'Ready to Use'
+summary: 'This article focuses on an interesting CSS feature — how to use multiple backgrounds with CSS3.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This article focuses on an interesting CSS feature — how to use multiple backgrounds with CSS3.'
 uri: 'tutorials/using css multiple background'
 
 ---
-# Using Multiple Backgrounds
-
 **By [Konstantin Kichinsky](http://html5insight.com/)**
 Originally published 27 February 2012
 
-## Summary
+## <span>Summary</span>
 
 This article focuses on an interesting CSS feature — how to use multiple backgrounds with CSS3.
 
-## Backgrounds composition
+## <span>Backgrounds composition</span>
 
 There are many reasons why you may need to create a composition of multiple images to build you background. These are some of the most important:
 
@@ -26,13 +24,13 @@ There are many reasons why you may need to create a composition of multiple imag
 
 There are other reasonable cases that call for background composition.
 
-### Classic approach
+### <span>Classic approach</span>
 
 So we need to build a multi-layered background by placing some images on top of others. How this problem is usually solved? It is really easy: just create a container (like a div element) for each of the images you have and add a background for it using a CSS rule. Next you insert one container into another or place them in a row and apply corresponding positioning CSS rules.
 
 Here is a simple sample:
 
-``` {.html}
+``` html
 <div class="sample1">
     <div class="sea">
         <div class="mermaid"><div class="fishing"></div></div>
@@ -45,7 +43,7 @@ Here is a simple sample:
 
 And here we have some CSS styles:
 
-``` {.html}
+``` html
 .sample1 .sea, .sample1 .mermaid, .sample1 .fishing {
     height:300px;
     width:480px;
@@ -84,11 +82,11 @@ Note, for the “fishing” class we used the new background positioning syntax,
 
 Let’s continue. Is it possible to simplify this composition? This is when the multiple backgrounds come to the scene.
 
-### Multiple backgrounds
+### <span>Multiple backgrounds</span>
 
 This feature allows you to add more than one background at once and to the same element. Here is how it looks like:
 
-``` {.html}
+``` html
 <div class="sample2">
     <div class="sea">
         <div class="fish"></div>
@@ -98,7 +96,7 @@ This feature allows you to add more than one background at once and to the same 
 
  And styles:
 
-``` {.html}
+``` html
 .sample2 .sea {
     height:300px;
     width:480px;
@@ -124,11 +122,11 @@ The result is 100% identical:
 
 ![Example 2](/assets/public/9/9e/CSSMB_Pic2.png)
 
-### In one rule
+### <span>In one rule</span>
 
 If you don’t need your fish to swim in an independent block, the whole background can be written in one simple rule:
 
-``` {.html}
+``` html
 <div class="sample3">
     <div class="sea"></div>
 </div>
@@ -136,7 +134,7 @@ If you don’t need your fish to swim in an independent block, the whole backgro
 
  Styles:
 
-``` {.html}
+``` html
 .sample3 .sea {
     height:300px;
     width:480px;
@@ -153,15 +151,15 @@ Let's look at the styles one more time, especially on the background-repeat rule
 
 In our case it equal to the following definition:
 
-``` {.html}
+``` html
 background-repeat: no-repeat, repeat-x, no-repeat, repeat-x;
 ```
 
-### Shorter version
+### <span>Shorter version</span>
 
 If you remember the [CSS 2.1](http://www.w3.org/TR/CSS21/) it is possible to describe a background image in a one short “background”-rule. What about multiple backgrounds? Actually you also can use the “background”-rule for multiple backgrounds:
 
-``` {.html}
+``` html
 .sample4 .sea {
     height:300px;
     width:480px;
@@ -175,7 +173,7 @@ If you remember the [CSS 2.1](http://www.w3.org/TR/CSS21/) it is possible to des
 
  But note that you can’t easily omit arguments unless the values are equal to the default ones. Also if you would like to define the color of background you should do it in the latest layer.
 
-### Dynamic images
+### <span>Dynamic images</span>
 
 Here is what we already know: if you background is mostly static — it may depend on the container size (i.e. if you are using % length so that some layers will shift on resizing window) — than the magic of multiple backgrounds seems to be useful as it really simplifies the page structure. But what if you need to animate some of the layers using javascript (move, rotate and so on)?
 
@@ -183,7 +181,7 @@ How can we make our multiple backgrounds more dynamic? Internally the browser pa
 
 To animate our sea background we can use the following js-code:
 
-``` {.html}
+``` html
 $(document).ready(function() {
     var sea = $(".sample5 .sea")[0];
     var fishesX = 30;
@@ -211,7 +209,7 @@ $(document).ready(function() {
 
  where
 
-``` {.html}
+``` html
 window.requestAnimFrame = (function() {
     return
         window.requestAnimationFrame ||
@@ -229,7 +227,7 @@ window.requestAnimFrame = (function() {
 
 You may also use CSS3 Transitions or Animations but it is a good topic for separate discussion.
 
-### Parallax and interactivity
+### <span>Parallax and interactivity</span>
 
 Finally using similar technics you can easily add some parallax effects or other interaction effects for you background:
 
@@ -237,17 +235,17 @@ Finally using similar technics you can easily add some parallax effects or other
 
 Multiple backgrounds are useful in such scenarios and while we are talking only about backgrounds, not the content, using them is definitely a good way to not pollute the html-code with complex unnecessary elements. But as I said there are some penalties if you need to build a complex and dynamic background: you cannot access a separate layer by id, class or any other parameter. You should remember the order of layers in your code and to change an attribute for just one layer you will need to build a string describing this attribute for all the layers you have. To update one layer you need to update the whole composition:
 
-``` {.html}
+``` html
 sea.style.backgroundPosition = "top " + fishY + "px right " + fishX + "px, " + mermaidX + "px bottom," + fishesX + "px " + fishesY + "px, top left";
 ```
 
  I’m sure it is possible to build a nice and useful js-library which will virtualize all these layers and provide easy way to change attributes for a separate layer keeping clean your html-code and the DOM.
 
-### Compatibility
+### <span>Compatibility</span>
 
 All modern browsers including [IE10 and 9](http://msdn.microsoft.com/en-us/ie) support multiple backgrounds. You may also use some tools like [Modernizr](http://modernizr.com/) to provide some level of compatibility for older browsers, i.e. by providing alternate background. As Chris Coyier wrote in his [article on the stacking order of multiple backgrounds](http://css-tricks.com/stacking-order-of-multiple-backgrounds/) you can use the following approach:
 
-``` {.html}
+``` html
 .multiplebgs body {
    /* Awesome multiple BG declarations that transcend reality and impress chicks */
 }
@@ -258,7 +256,7 @@ All modern browsers including [IE10 and 9](http://msdn.microsoft.com/en-us/ie) s
 
 If you are confused with using javascript to provide backward compatibility for the new CSS3 rules you can just define background property twice (but this approach may result unnecessary downloads in modern browsers depending on how they process such rules):
 
-``` {.html}
+``` html
 /* multiple bg fallback */
 background: #000 url(...) ...;
 /* Awesome multiple BG declarations that transcend reality and impress chicks */
@@ -270,4 +268,3 @@ And finally if you wish to know it: yes you can use multiple backgrounds in you 
 Note CSS properties discussed in this article are defined in the [CSS3 Backgrounds and Borders module](http://www.w3.org/TR/css3-background/).
 
 About the Author Konstantin Kichinsky is a developer evangelist focusing on HTML5 and CSS3 web development at Microsoft. Tweet him @kichinsky or read his [blog](http://html5insight.com/).
-

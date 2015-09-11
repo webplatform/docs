@@ -1,21 +1,23 @@
 ---
 title: map
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679976(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Calls a defined callback function on each element of an array, and returns an array that contains the results.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Calls a defined callback function on each element of an array, and returns an array that contains the results.'
 uri: javascript/Array/map
 
 ---
-# map
-
-## Summary
+## <span>Summary</span>
 
 Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     map( callbackfn [, thisArg ])
 
@@ -25,15 +27,15 @@ Calls a defined callback function on each element of an array, and returns an ar
 **thisArg**
 :   Optional. An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
-## Return Value
+## <span>Return Value</span>
 
 A new array in which each element is the callback function return value for the associated original array element.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **map** method.
 
-``` {.js}
+``` js
 // Define the callback function.
  function AreaOfCircle(radius) {
      var area = Math.PI * (radius * radius);
@@ -54,7 +56,7 @@ The following example illustrates the use of the **map** method.
 
 The following example illustrates the use of the thisArg argument, which specifies an object to which the this keyword can refer.
 
-``` {.js}
+``` js
 // Define an object that contains a divisor property and
  // a remainder function.
  var obj = {
@@ -78,7 +80,7 @@ The following example illustrates the use of the thisArg argument, which specifi
 
 In the following example, a built-inJavaScript method is used as the callback function.
 
-``` {.js}
+``` js
 // Apply Math.sqrt(value) to each element in an array.
  var numbers = [9, 16];
  var result = numbers.map(Math.sqrt);
@@ -89,7 +91,7 @@ In the following example, a built-inJavaScript method is used as the callback fu
 
 The **map** method can be applied to a string. The following example illustrates this.
 
-``` {.js}
+``` js
 // Define the callback function.
  function threeChars(value, index, str) {
      // Create a string that contains the previous, current,
@@ -113,7 +115,7 @@ The **map** method can be applied to a string. The following example illustrates
  // Th,Thu,hur,urs,rsd,sda,day,ay
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **map** method calls the callbackfn function one time for each element in the array, in ascending index order. The callback function is not called for missing elements of the array.
 
@@ -127,43 +129,30 @@ You can declare the callback function by using up to three parameters.
 
 The following table lists the callback function parameters.
 
-Callback argument
-:   Definition
-value
-:   The value of the array element.
-index
-:   The numeric index of the array element.
-array1
-:   The array object that contains the element.
+|Callback argument|Definition|
+|:----------------|:---------|
+|value|The value of the array element.|
+|index|The numeric index of the array element.|
+|array1|The array object that contains the element.|
 
 The array object can be modified by the callback function.
 
 The following table describes the results of modifying the array object after the **map** method starts.
 
-Condition after the **map** method starts
-:   Element passed to callback function?
-Element is added beyond the original length of the array.
-:   No.
-Element is added to fill in a missing element of the array.
-:   Yes, if that index has not yet been passed to the callback function.
-Element is changed.
-:   Yes, if that element has not yet been passed to the callback function.
-Element is deleted from the array.
-:   No, unless that element has already been passed to the callback function.
+|Condition after the **map** method starts|Element passed to callback function?|
+|:----------------------------------------|:-----------------------------------|
+|Element is added beyond the original length of the array.|No.|
+|Element is added to fill in a missing element of the array.|Yes, if that index has not yet been passed to the callback function.|
+|Element is changed.|Yes, if that element has not yet been passed to the callback function.|
+|Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the callbackfn argument is not a function object, a **TypeError** exception is thrown.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.19 Array.prototype.map ( callbackfn [ , thisArg](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.19) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679976(v=vs.94).aspx)
 

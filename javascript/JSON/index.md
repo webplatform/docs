@@ -1,27 +1,29 @@
 ---
 title: JSON
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc836458(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'An intrinsic object that provides functions to convert JavaScript values to and from the JavaScript Object Notation (JSON) format. The JSON.stringify function serializes a JavaScript value to JSON text. The JSON.parse function deserializes JSON text to produce a JavaScript value.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'An intrinsic object that provides functions to convert JavaScript values to and from the JavaScript Object Notation (JSON) format. The JSON.stringify function serializes a JavaScript value to JSON text. The JSON.parse function deserializes JSON text to produce a JavaScript value.'
 uri: javascript/JSON
 
 ---
-# JSON
-
-## Summary
+## <span>Summary</span>
 
 An intrinsic object that provides functions to convert JavaScript values to and from the JavaScript Object Notation (JSON) format. The JSON.stringify function serializes a JavaScript value to JSON text. The JSON.parse function deserializes JSON text to produce a JavaScript value.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     JSON.[method]
 
 **Method**
 :   Required. Name of one of the methods of the JSON object.
 
-## Remarks
+## <span>Remarks</span>
 
 You cannot create a JSON object by using the new operator. An error occurs if you try to do this. However, you can override or modify the JSON object.
 
@@ -35,22 +37,16 @@ To use the intrinsic JSON object, make sure that you do not override it with ano
 
 In the previous example, `!this.JSON` evaluates to false in Internet Explorer 8 standards mode, Internet Explorer 9 standards mode, Internet Explorer 10 standards mode, and win8\_appname\_long apps. Therefore, the code inside the if statement does not execute.
 
-## Functions
+## <span>Functions</span>
 
 [JSON.parse Function](/javascript/JSON/parse)
 
 [JSON.stringify Function](/javascript/JSON/stringify)
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [toJSON Method (Date)](/javascript/Date/toJSON)
 -   [JavaScript Objects](/javascript/objects)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc836458(v=vs.94).aspx)
 

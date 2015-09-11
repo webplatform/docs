@@ -1,18 +1,16 @@
 ---
-title: media queries
+title: Targeting styles with media queries
+readiness: 'Ready to Use'
+summary: 'Media queries offer an easy way for the client browser to assign different mobile, tablet, and desktop interfaces.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'Media queries offer an easy way for the client browser to assign different mobile, tablet, and desktop interfaces.'
 uri: 'tutorials/media queries'
 
 ---
-# Targeting styles with media queries
-
 **By Mike Sierra**
 
-## Summary
+## <span>Summary</span>
 
 Media queries offer an easy way for the client browser to assign different mobile, tablet, and desktop interfaces.
 
@@ -20,7 +18,7 @@ CSS *media queries* offers an easy way to target custom interfaces to more than 
 
 The media query feature provides a way for a client browser to respond based on inherent characteristics of the device on which it runs. This avoids the need for server-side *device detection*, which responds to the *User-Agent* header the browser transmits with each HTTP request, but which itself only hints at the handset's size or capabilities.
 
-## Assigning alternative interfaces
+## <span>Assigning alternative interfaces</span>
 
 Media *queries* extend an older CSS specification known as *media* types*, which assigned browsers to high-level categories such as* **screen** and **handheld**, or **print** to re-style a web page's printed output. The original set of mobile browsers were assigned with the **handheld** type. Their much lower capabilities meant they could safely be presented with far more simplified content than **screen** content. However, the introduction of higher-capability touch-based browsers led to a problem: their larger screens and flexible zoom controls allowed them to display complex page layouts intended for desktop browsers. To allow access to richer content, these browsers had to be categorized, somewhat confusingly, as the **screen** media type.
 
@@ -68,7 +66,7 @@ The first two approaches allow you to conditionally load entire CSS files, while
 
     not all and (orientation)
 
-## Example: Adaptive screen layout
+## <span>Example: Adaptive screen layout</span>
 
 The best thing you can do with media queries is design alternate screen layouts. This skeletal layout relies on a single set of HTML tags:
 
@@ -169,7 +167,7 @@ The mobile interface is encapsulated within a @media rule, which only applies wh
 
 Within each layout, you can apply more CSS to re-style elements for each interface. If re-styling them in place becomes too complex, you can instead toggle the display of alternative interface items. However, note that maintaining separate sets of markup may increase the footprint of the HTML served to mobile browsers, potentially over relatively slow or expensive data networks.
 
-## Example: High-resolution images
+## <span>Example: High-resolution images</span>
 
 Along with screen size, knowing screen resolution can help improve the appearance of a mobile site. Mobile browsers operate on handsets with increasingly high-resolution *retina* screens. By default, these screens would render content far too small than in desktop browsers, and there is significant variation among handsets as their resolutions increase. To standardize sizing, browsers rely on an abstract grid of *CSS pixels* to calculate measurements. This lower-resolution grid undergoes a translation to each handset's set of higher-resolution device screen pixels. The typical ratio of device pixels to CSS pixels ranges from 1.5 to 2 along either axis. So if your CSS specifies the same dimensions to match the image, the handset may use up to 4 pixels to represent each of the image's pixels.
 
@@ -191,7 +189,7 @@ The icon on the left below shows the distortion that occurs when viewed at the s
 
 ![mq resolution.png](/assets/public/7/72/mq_resolution.png)
 
-## Media Queries from JavaScript
+## <span>Media Queries from JavaScript</span>
 
 If media queries only allowed you to assign style sheets, there would be no way to align your JavaScript with your CSS. The **matchMedia** interface solves that problem.
 
@@ -237,7 +235,7 @@ In that case, it would be inefficient to load a great deal of markup from the se
 
 Alternately, if you want to deploy a site's various interfaces via separate access points (such as *m.website.com*, *touch.website.com*, or *website.mobi*), you can use such tests to prompt mobile users who land on a desktop page if they would rather view the corresponding mobile page instead.
 
-## Media Query Listeners
+## <span>Media Query Listeners</span>
 
 Unlike the conditional tests shown above, media query *listeners* allow an application to dynamically respond whenever there is a change in a media query expression's matching state.
 
@@ -267,7 +265,7 @@ The handler is passed a **MediaQueryList** object, whose **matches** property ef
 
 For an example of a custom landscape layout using the **orientation** media query, see [The Mobile Viewport and Orientation](/tutorials/mobile_viewport).
 
-## What can you find out about a browser?
+## <span>What can you find out about a browser?</span>
 
 You can use media queries to test for any of the following device properties:
 
@@ -295,7 +293,7 @@ Most important remaining browser features can be tested using JavaScript-based *
     var supportsVideo    = !!document.createElement("video").canPlayType;
     var supportsStorage  = !!window.localStorage;
 
-## When should you use media queries?
+## <span>When should you use media queries?</span>
 
 Media queries and other client-side tests enable *responsive web* design*, allowing a single site to adapt its design to each kind of* device. It's a simple yet powerful technique that is especially appropriate for the vast number of desktop-facing websites that are not adapted for mobile, and that can benefit from a marginally better viewport-based layout. It avoids the need for separate mobile websites or compiled mobile applications. Media queries make sense in the following scenarios:
 
@@ -305,11 +303,11 @@ Media queries and other client-side tests enable *responsive web* design*, allow
 
 -   If the basic mechanism to deploy each interface matches. For example, if a desktop interface relies on conventional hyperlinks to a shifting set of web pages, while a cached mobile web application loads data dynamically via Ajax from a fixed set of files, the difference between the two approaches is more substantial than the content's appearance on the screen.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -348,6 +346,3 @@ Media queries and other client-side tests enable *responsive web* design*, allow
 -   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
 
 -   [behavior](/css/properties/behavior)
-
--   **Targeting styles with media queries**
-

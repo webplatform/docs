@@ -1,23 +1,25 @@
 ---
 title: setYear
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0f0shhbs(v=vs.94).aspx)'
+notes:
+  - 'Obsolete; deletion candidate'
+readiness: 'Not Ready'
+summary: 'Sets the year value in the Date object. Deprecated in favor of the setFullYear method.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Not Ready'
-notes:
-  - 'Obsolete; deletion candidate'
-summary: 'Sets the year value in the Date object. Deprecated in favor of the setFullYear method.'
 uri: javascript/Date/setYear
 
 ---
-# setYear
-
-## Summary
+## <span>Summary</span>
 
 Sets the year value in the Date object. Deprecated in favor of the setFullYear method.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.setYear( numYear )
 
@@ -29,7 +31,7 @@ Sets the year value in the Date object. Deprecated in favor of the setFullYear m
 
 **Needs Examples**: This section should include examples.
 
-## Remarks
+## <span>Remarks</span>
 
 This method is obsolete, and is maintained for backwards compatibility only. Use the **setFullYear** method instead.
 
@@ -37,19 +39,13 @@ To set the year of a Date object to 1997, call **setYear(97)**. To set the year 
 
 **Note** -- For JavaScript version 1.0, **setYear** uses a value that is the result of the addition of 1900 to the year value provided by numYear , regardless of the value of the year. For example, to set the year to 1899 numYear is -1 and to set the year 2000 numYear is 100.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getFullYear Method (Date)](/javascript/Date/getFullYear)
 -   [getUTCFullYear Method (Date)](/javascript/Date/getUTCFullYear)
 -   [getYear Method (Date)](/javascript/Date/getYear)
 -   [setFullYear Method (Date)](/javascript/Date/setFullYear)
 -   [setUTCFullYear Method (Date)](/javascript/Date/setUTCFullYear)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0f0shhbs(v=vs.94).aspx)
 

@@ -1,62 +1,71 @@
 ---
 title: open
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#db'
+  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#dbVersion&'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBFactory
+    href: /apis/indexeddb/IDBFactory
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBFactory
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'The open method is used to open an IndexedDB database.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'Ready to Use'
-standardization_status: 'W3C Proposed Recommendation'
-summary: 'The open method is used to open an IndexedDB database.'
-code_samples:
-  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#db'
-  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#dbVersion&'
 uri: apis/indexeddb/IDBFactory/open
 
 ---
-# open
-
-## Summary
+## <span>Summary</span>
 
 The open method is used to open an IndexedDB database.
 
-*Method of [apis/indexeddb/IDBFactory](/apis/indexeddb/IDBFactory)*
+Method of [apis/indexeddb/IDBFactory](/apis/indexeddb/IDBFactory)[apis/indexeddb/IDBFactory](/apis/indexeddb/IDBFactory)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var dbOpenRequest = indexeddb.open(name, version);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the database to be opened.
 
-### version
+### <span>version</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-*(Optional)*
+(Optional)
 
 The version (unsigned long long) for the database
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 An **IDBOpenRequest** request object that fires events to indicate the result of the request.
 
-## Examples
+## <span>Examples</span>
 
 Open a database without a version number
 
-``` {.js}
+``` js
 var dbOpenRequest = window.indexedDB.open("DatabaseName");
   dbOpenRequest.onsuccess = function(event){
 var db = dbOpenRequest.result; // This is the database object
@@ -75,7 +84,7 @@ dbOpenRequest.onerror = function(e){
 
 Open a database with a version number that is higher than the existing version number
 
-``` {.js}
+``` js
 // The database is already opened with version 1.
 var dbOpenRequest = window.indexedDB.open("DatabaseName", 2);
   dbOpenRequest.onsuccess = function(event){
@@ -95,24 +104,15 @@ dbOpenRequest.onerror = function(e){
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#dbVersion&)
 
-## Usage
+## <span>Usage</span>
 
      var openRequest = window.indexedDB.open("databaseName", 1);
 
-## Notes
+## <span>Notes</span>
 
 The open method either creates a database if it does not exist, or opens one, with the specified version number. If no version number is specified, the database is opened with the current version number. If a database is to be created and a version number is not specified, the database is opened with a version 1.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

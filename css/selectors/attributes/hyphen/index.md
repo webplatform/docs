@@ -1,50 +1,50 @@
 ---
 title: hyphen
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example. spec reference, standardization status, remove topic cluster flags'
+readiness: 'In Progress'
 tags:
   - CSS
   - Selectors
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, example. spec reference, standardization status, remove topic cluster flags'
-uri: css/selectors/attributes/hyphen
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: css/selectors/attributes/hyphen
 
 ---
-# hyphen
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note**  Requires Windows Internet Explorer 7 or later. **Note**  Attribute selectors are not supported in webpages that are displayed in the Microsoft Internet Explorer 5 document mode (also known as "Quirks" mode). To use attribute selectors, add a [!DOCTYPE](/html/elements/!DOCTYPE) directive that specifies a standard-based document. For more information, see [Defining Document Compatibility](http://go.microsoft.com/fwlink/?LinkID=125785). The hyphen is used primarily as a delimiter for language codes. Attributes are case-sensitive.
 
-### Syntax
+### <span>Syntax</span>
 
 `<strong/> [att|=val] {...}`
 
-### Parameters
+### <span>Parameters</span>
 
 *att*
 :   Must be either an Identifier or a String.
 *val*
 :   Must be either an Identifier or a String.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.8.1
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -82,7 +82,7 @@ todo_broken_links:
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -157,10 +157,3 @@ todo_broken_links:
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   [type](/css/selectors/type)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

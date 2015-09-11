@@ -1,42 +1,51 @@
 ---
 title: language
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://gist.github.com/459f1a0ea9f70009b6fe'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/audio-video/AudioTrack
+    href: /apis/audio-video/AudioTrack
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/audio-video/AudioTrack
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the language of the given track, if known, or the empty string otherwise.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the language of the given track, if known, or the empty string otherwise.'
-code_samples:
-  - 'http://gist.github.com/459f1a0ea9f70009b6fe'
 uri: apis/audio-video/AudioTrack/language
 
 ---
-# language
-
-## Summary
+## <span>Summary</span>
 
 Returns the language of the given track, if known, or the empty string otherwise.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)</span></span>
+Property of [apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)[apis/audio-video/AudioTrack](/apis/audio-video/AudioTrack)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioTrack.language;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 (function () {
     // grab the video element
     var video = document.getElementById("video");
@@ -80,18 +89,16 @@ var result = AudioTrack.language;
 
 [View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Audio
+#### <span>Audio</span>
 
 -   [audio-video](/apis/audio-video)
 
@@ -105,8 +112,6 @@ Specification
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
--   [user-input](/css/properties/user-input)
-
 -   [bgSound](/html/elements/bgSound)
 
 -   [bgsound](/html/elements/bgSound/ja)
@@ -115,7 +120,7 @@ Specification
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### Video
+#### <span>Video</span>
 
 -   [audio-video](/apis/audio-video)
 
@@ -136,10 +141,3 @@ Specification
 -   [HTML5 Video and Other Recommendations](/tutorials/video_others)
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

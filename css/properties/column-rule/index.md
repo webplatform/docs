@@ -1,50 +1,66 @@
 ---
 title: column-rule
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6288958'
+notes:
+  - 'Add description, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`see individual properties`'
+  'Applies to': 'multi-column elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`columnRule`'
+  Percentages: N/A
+readiness: 'In Progress'
+summary: 'Sets the width, style, and color of the rule between columns.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Add description, specifications, compatibility.'
-summary: 'Sets the width, style, and color of the rule between columns.'
-code_samples:
-  - 'http://gist.github.com/6288958'
 uri: css/properties/column-rule
 
 ---
-# column-rule
-
-## Summary
+## <span>Summary</span>
 
 Sets the width, style, and color of the rule between columns.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `see individual properties`
+
 Applies to
 :   multi-column elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `columnRule`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `column-rule: column-rule-color`
 -   `column-rule: column-rule-style`
 -   `column-rule: column-rule-width`
 -   `column-rule: transparent`
 
-## Values
+## <span>Values</span>
 
 column-rule-width
 :   Value of the [**column-rule-width**](/css/properties/column-rule-width) property.
@@ -58,11 +74,11 @@ column-rule-color
 transparent
 :   Indicates rule is transparent.
 
-## Examples
+## <span>Examples</span>
 
 Makes 3 columns with 4px dashed green column-rule.
 
-``` {.css}
+``` css
 #columns {
   column-count: 3;
   column-rule: 4px dashed green;
@@ -71,15 +87,15 @@ Makes 3 columns with 4px dashed green column-rule.
 
 [View live example](http://code.webplatform.org/gist/6288958)
 
-### Syntax
+### <span>Syntax</span>
 
 `column-rule: column-rule-width || column-rule-style || [ column-rule-color | transparent ]`
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -105,7 +121,7 @@ Makes 3 columns with 4px dashed green column-rule.
 
 -   [content](/css/properties/content)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -138,10 +154,3 @@ Makes 3 columns with 4px dashed green column-rule.
 -   `map`
 -   `object`
 -   `script`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

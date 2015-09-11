@@ -1,31 +1,40 @@
 ---
 title: formEnctype
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The formenctype attribute specifies how the form-data should be encoded when submitting it to the server.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'The formenctype attribute specifies how the form-data should be encoded when submitting it to the server.'
 uri: html/attributes/formEnctype
 
 ---
-# formEnctype
-
-## Summary
+## <span>Summary</span>
 
 The formenctype attribute specifies how the form-data should be encoded when submitting it to the server.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
+
+</td>
+</tr>
+</table>
 The formenctype attribute overrides the enctype attribute of the \<form\> element with method="post".
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <form action="submit.php" method="post">
   Input field: <input type="text" name="inputfield">
   <input type="submit" value="Submit">
@@ -33,21 +42,19 @@ The formenctype attribute overrides the enctype attribute of the \<form\> elemen
 </form>
 ```
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -145,11 +152,47 @@ The formenctype attribute overrides the enctype attribute of the \<form\> elemen
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Related pages (MSDN)
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`
@@ -157,10 +200,3 @@ The formenctype attribute overrides the enctype attribute of the \<form\> elemen
 -   `formMethod`
 -   `formAction`
 -   `formNoValidate`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

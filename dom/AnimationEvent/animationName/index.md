@@ -1,45 +1,44 @@
 ---
 title: animationName
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/AnimationEvent
+    href: /dom/AnimationEvent
+summary: 'The value of the animation-name property of the animation that fired the animation event.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'The value of the animation-name property of the animation that fired the animation event.'
 uri: dom/AnimationEvent/animationName
 
 ---
-# animationName
-
-## Summary
+## <span>Summary</span>
 
 The value of the animation-name property of the animation that fired the animation event.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/AnimationEvent](/dom/AnimationEvent)</span></span>
+Property of [dom/AnimationEvent](/dom/AnimationEvent)[dom/AnimationEvent](/dom/AnimationEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.animationName;
 ```
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //define animation event
 var myAnimEvent = new AnimationEvent();
 //retrieve name
 var myAnimName = myAnimEvent.animationName;
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

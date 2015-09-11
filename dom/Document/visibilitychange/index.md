@@ -1,37 +1,42 @@
 ---
 title: visibilitychange
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat tables'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Document
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Set the visibility state of an element'
 tags:
   - API
   - Object
   - Properties
   - DOM
   - Performance
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat tables'
-summary: 'Set the visibility state of an element'
 uri: dom/Document/visibilitychange
 
 ---
-# visibilitychange
-
-## Summary
+## <span>Summary</span>
 
 Set the visibility state of an element
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.visibilitychange;
 element.visibilitychange = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var timer = 0;
 var PERIOD_VISIBLE = 1000;
 var PERIOD_NOT_VISIBLE = 60000;
@@ -53,30 +58,28 @@ function checkEmail() {
 window.onload = onLoad;
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This event is not triggered when it is registered.
 
-### Syntax
+### <span>Syntax</span>
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 This method has no parameters.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Page Visibility](http://www.w3.org/TR/page-visibility/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Performance
+#### <span>Performance</span>
 
 -   [navigation timing](/apis/navigation_timing)
 
@@ -91,10 +94,3 @@ Specification
 -   **visibilitychange**
 
 -   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

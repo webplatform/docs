@@ -3,8 +3,8 @@ title: how do computers work
 uri: 'concepts/programming/how do computers work'
 
 ---
-## What is Binary?
+## <span>What is Binary?</span>
 
-## Compilers
+## <span>Compilers</span>
 
-## Compiled Languages vs. Interpreted Languages
+## <span>Compiled Languages vs. Interpreted Languages</span>

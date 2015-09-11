@@ -1,36 +1,43 @@
 ---
 title: regionOverset
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/css-regions/Region
+    href: /apis/css-regions/Region
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/css-regions/Region
+standardization_status: 'W3C Working Draft'
+summary: 'A region''s display state within a region chain.'
 tags:
   0: API
   1: Object
   2: Properties
   4: CSS
   5: CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'A region''s display state within a region chain.'
 uri: apis/css-regions/Region/regionOverset
 
 ---
-# regionOverset
-
-## Summary
+## <span>Summary</span>
 
 A region's display state within a region chain.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/css-regions/Region](/apis/css-regions/Region)</span></span>
+Property of [apis/css-regions/Region](/apis/css-regions/Region)[apis/css-regions/Region](/apis/css-regions/Region)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var regionState = region.regionOverset;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 A [region's](/css/concepts/region) display state within a [region chain](/css/concepts/region_chain):
 
@@ -48,11 +55,11 @@ A [region's](/css/concepts/region) display state within a [region chain](/css/co
 
 -   -   For elements that no longer behave as a region, which occurs when their [**flow-from**](/css/properties/flow-from) property reverts to **none**
 
-## Examples
+## <span>Examples</span>
 
 Check if region needs to be deleted or appended:
 
-``` {.js}
+``` js
 if (region.regionOverset == 'empty') {
     // delete region?
 } else if (region.regionOverset == 'overset') {
@@ -60,22 +67,20 @@ if (region.regionOverset == 'empty') {
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 Not to be confused with [**overset**](/apis/css-regions/NamedFlow/overset), which indicates whether the overall [named flow](/css/concepts/named_flow) features too few display regions.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -133,10 +138,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

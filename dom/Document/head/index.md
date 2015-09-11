@@ -1,45 +1,54 @@
 ---
 title: head
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Document
+    href: /dom/Document
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/Document
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Gets the head element of the document.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs compat'
-summary: 'Gets the head element of the document.'
 uri: dom/Document/head
 
 ---
-# head
-
-## Summary
+## <span>Summary</span>
 
 Gets the head element of the document.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var headElement = document.head;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 The [head](/html/elements/head) element of the document.
 
-## Examples
+## <span>Examples</span>
 
 This example displays the text (innerHTML) of the document's `head` element.
 
-``` {.html}
+``` html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -58,18 +67,10 @@ This example displays the text (innerHTML) of the document's `head` element.
 </html>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/dom.html#dom-document-head)
 :   Candidate Recommendation
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,47 +1,56 @@
 ---
 title: removeCue
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/audio-video/TextTrack
+    href: /apis/audio-video/TextTrack
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/audio-video/TextTrack
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Removes the given cue from textTrack''s text track list of cues.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Removes the given cue from textTrack''s text track list of cues.'
 uri: apis/audio-video/TextTrack/removeCue
 
 ---
-# removeCue
-
-## Summary
+## <span>Summary</span>
 
 Removes the given cue from textTrack's text track list of cues.
 
-*Method of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)*
+Method of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)[apis/audio-video/TextTrack](/apis/audio-video/TextTrack)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = TextTrack.removeCue(cue);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### cue
+### <span>cue</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  "cue" is of type TextTrackCue.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!DOCTYPE html >
 <html >
   <head>
@@ -81,16 +90,7 @@ Returns an object of type .
 </html>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

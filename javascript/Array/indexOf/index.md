@@ -1,21 +1,23 @@
 ---
 title: indexOf
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679977(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the index of the first occurrence of a value in an array.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Returns the index of the first occurrence of a value in an array.'
 uri: javascript/Array/indexOf
 
 ---
-# indexOf
-
-## Summary
+## <span>Summary</span>
 
 Returns the index of the first occurrence of a value in an array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     indexOf( searchElement [, fromIndex ])
 
@@ -25,15 +27,15 @@ Returns the index of the first occurrence of a value in an array.
 **fromIndex**
 :   Optional. The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.
 
-## Return Value
+## <span>Return Value</span>
 
 The index of the first occurrence of searchElement in the array, or -1 if searchElement is not found.
 
-## Examples
+## <span>Examples</span>
 
 The following examples illustrate the use of the **indexOf** method.
 
-``` {.js}
+``` js
 // Create an array. (The elements start at index 0.)
  var ar = ["ab", "cd", "ef", "ab", "cd"];
 
@@ -58,7 +60,7 @@ The following examples illustrate the use of the **indexOf** method.
  // Output: 3
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **indexOf** method searches an array for a specified value. The method returns the index of the first occurrence, or -1 if the specified value is not found.
 
@@ -68,20 +70,14 @@ The array elements are compared to the searchElement value by strict equality, s
 
 The optional fromIndex argument specifies the array index at which to begin the search. If fromIndex is greater than or equal to the array length, -1 is returned. If fromIndex is negative, the search starts at the array length plus fromIndex.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [JavaScript Methods](/javascript/methods)
 -   [Array Object](/javascript/Array)
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.14 Array.prototype.indexOf ( searchElement [ , fromIndex](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.14) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679977(v=vs.94).aspx)
 

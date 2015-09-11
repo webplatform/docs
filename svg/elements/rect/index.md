@@ -1,18 +1,21 @@
 ---
 title: rect
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/44786e14924371effbe4'
+  - 'http://gist.github.com/9697f0fe090f4ad2e6e9'
+notes:
+  - 'Fix multiple broken links'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGRectElement](/dom/SVGRectElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The rect element is a SVG basic shape to create a rectangle starting with a given with and height beginning at a x- and y-point.'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Fix multiple broken links'
-summary: 'The rect element is a SVG basic shape to create a rectangle starting with a given with and height beginning at a x- and y-point.'
-code_samples:
-  - 'http://gist.github.com/44786e14924371effbe4'
-  - 'http://gist.github.com/9697f0fe090f4ad2e6e9'
-uri: svg/elements/rect
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -26,46 +29,49 @@ todo_broken_links:
     - svg/attributes/height
     - svg/attributes/rx
     - svg/attributes/ry
+uri: svg/elements/rect
 
 ---
-# rect
-
-## Summary
+## <span>Summary</span>
 
 The rect element is a SVG basic shape to create a rectangle starting with a given with and height beginning at a x- and y-point.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGRectElement](/dom/SVGRectElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the rect element is used to draw a purple rectangle.
 
+``` html
 
 
-    <svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <rect x="10" y="5" width="100" height="80" fill="purple" />
-    </svg>
+<svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="5" width="100" height="80" fill="purple" />
+</svg>
+```
 
 </pre>
 [View live example](http://code.webplatform.org/gist/44786e14924371effbe4)
 
 In the following code example, the rect element is used to create a orange rectangle with rounded corners.
 
+``` html
 
 
-    <svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <rect x="10" y="5" width="100" height="80" fill="orange" rx="10" ry="10" />
-    </svg>
+<svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="5" width="100" height="80" fill="orange" rx="10" ry="10" />
+</svg>
+```
 
 </pre>
 [View live example](http://code.webplatform.org/gist/9697f0fe090f4ad2e6e9)
 
-### Attributes
+### <span>Attributes</span>
 
-#### Global attributes
+#### <span>Global attributes</span>
 
 -   [**Conditional processing attributes**](/svg/attributes#Conditional_Processing_Attributes)
 -   [**Core attributes**](/svg/attributes#Core_Attributes)
@@ -77,7 +83,7 @@ In the following code example, the rect element is used to create a orange recta
 -   [**externalResourcesRequired**](/w/index.php?title=svg/attributes/externalResourcesRequired&action=edit&redlink=1)
 -   [**transform**](/w/index.php?title=svg/attributes/transform&action=edit&redlink=1)
 
-#### Specific attributes
+#### <span>Specific attributes</span>
 
 -   [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1)
 -   [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1)
@@ -86,11 +92,11 @@ In the following code example, the rect element is used to create a orange recta
 -   [**rx**](/w/index.php?title=svg/attributes/rx&action=edit&redlink=1)
 -   [**ry**](/w/index.php?title=svg/attributes/ry&action=edit&redlink=1)
 
-### DOM Interface
+### <span>DOM Interface</span>
 
 This element implements the [**SVGRectElement**](/dom/SVGRectElement) interface.
 
-### Members
+### <span>Members</span>
 
 The **SVGRectElement** object has these events:
 
@@ -142,16 +148,7 @@ The **SVGRectElement** object has these properties:
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [The ‘rect’ element](http://www.w3.org/TR/SVG11/shapes.html#RectElement)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

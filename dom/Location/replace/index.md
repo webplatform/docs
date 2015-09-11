@@ -1,53 +1,51 @@
 ---
 title: replace
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples, compatibility, standards'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Location
+    href: /dom/Location
+summary: 'Replaces the current document by loading another document at the specified URL.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'examples, compatibility, standards'
-summary: 'Replaces the current document by loading another document at the specified URL.'
 uri: dom/Location/replace
 
 ---
-# replace
-
-## Summary
+## <span>Summary</span>
 
 Replaces the current document by loading another document at the specified URL.
 
-*Method of [dom/Location](/dom/Location)*
+Method of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  location.replace(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### url
+### <span>url</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The URL to insert into the session history.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 When a document is replaced, it is also removed from the **history** object. Moreover, the user interface navigation methods, such as the Back and Forward buttons, will no longer access the URL.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

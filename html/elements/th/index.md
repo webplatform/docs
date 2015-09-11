@@ -1,28 +1,30 @@
 ---
 title: th
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add description/notes, compatibility.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLTableHeaderCellElement](/dom/HTMLTableHeaderCellElement)'
+readiness: 'Not Ready'
+summary: 'The th tag defines a header cell in an HTML table.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Add description/notes, compatibility.'
-summary: 'The th tag defines a header cell in an HTML table.'
 uri: html/elements/th
 
 ---
-# th
-
-## Summary
+## <span>Summary</span>
 
 The th tag defines a header cell in an HTML table.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableHeaderCellElement](/dom/HTMLTableHeaderCellElement)
 
-## Attributes
+## <span>Attributes</span>
 
 -   `colspan` = valid non-negative integer
     This attribute gives the number of columns respectively that the cell is to span.
@@ -41,11 +43,11 @@ The th tag defines a header cell in an HTML table.
     -   colgroup
         The header cell applies to all the remaining cells in the column group. A th element's scope attribute must not be in the column group state if the element is not anchored in a column group.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the [**table**](/html/elements/table), [**td**](/html/elements/td), [**th**](/html/elements/thead), and [**tr**](/html/elements/tr).
 
-``` {.html}
+``` html
 <table>
     <tr>
       <th>
@@ -62,7 +64,7 @@ This example uses the [**table**](/html/elements/table), [**td**](/html/elements
 
 A table cell referring to the table header
 
-``` {.html}
+``` html
 <table>
   <caption>
     <p>table 1. List of HTML elements</p>
@@ -86,7 +88,7 @@ A table cell referring to the table header
 </table>
 ```
 
-``` {.html}
+``` html
 <table>
   <caption>
     <p>table 1. List of HTML elements</p>
@@ -110,26 +112,24 @@ A table cell referring to the table header
 </table>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-th-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-th-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TH)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -227,11 +227,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Tables
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   **th**
+
+-   [time](/html/elements/time)
+
+#### <span>Tables</span>
 
 -   [border-collapse](/css/properties/border-collapse)
 
@@ -256,10 +292,3 @@ Specification
 -   [tfoot](/html/elements/tfoot)
 
 -   **th**
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

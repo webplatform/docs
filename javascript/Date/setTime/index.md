@@ -1,21 +1,23 @@
 ---
 title: setTime
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/767045xx(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the date and time value in the Date object.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sets the date and time value in the Date object.'
 uri: javascript/Date/setTime
 
 ---
-# setTime
-
-## Summary
+## <span>Summary</span>
 
 Sets the date and time value in the Date object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.setTime( milliseconds )
 
@@ -25,11 +27,11 @@ Sets the date and time value in the Date object.
 **milliseconds**
 :   Required. A numeric value representing the number of elapsed milliseconds since midnight, January 1, 1970 GMT.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **setTime** method.
 
-``` {.js}
+``` js
 function SetTimeTest(newtime){
     var d, s;                  //Declare variables.
     d = new Date();            //Create Date object.d.setTime( newtime ) ;        //Set time.
@@ -39,21 +41,15 @@ function SetTimeTest(newtime){
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 If milliseconds is negative, it indicates a date before 1970. The range of available dates is approximately 285,616 years from either side of 1970.
 
 Setting the date and time with the **setTime** method is independent of the time zone.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getTime Method (Date)](/javascript/Date/getTime)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/767045xx(v=vs.94).aspx)
 

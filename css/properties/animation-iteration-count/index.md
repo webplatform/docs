@@ -1,47 +1,63 @@
 ---
 title: animation-iteration-count
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://gist.github.com/7010365'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`1`'
+  'Applies to': 'All elements, ::before and ::after pseudo-elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies how many times an animation cycle should play.'
-code_samples:
-  - 'http://gist.github.com/7010365'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/animation-iteration-count
 
 ---
-# animation-iteration-count
-
-## Summary
+## <span>Summary</span>
 
 Specifies how many times an animation cycle should play.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `1`
+
 Applies to
 :   All elements, ::before and ::after pseudo-elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `animation-iteration-count: <single-animation-iteration-count>`
 -   `animation-iteration-count: infinite`
 
-## Values
+## <span>Values</span>
 
 \<single-animation-iteration-count\>
 :   The animation plays the specified number of times. Can also be a comma-separated list of counts, e.g., **5, 2, 10**, where each duration is applied to the corresponding ordinal position value of the [animation-name](/css/properties/animation-name) property. Negative values are not allowed. You may specify non-integer values to play part of an animation cycle (for example 0.5 will play half of the animation cycle).
@@ -49,11 +65,11 @@ Percentages
 infinite
 :   Loop the animation indefinitely.
 
-## Examples
+## <span>Examples</span>
 
 A repeating pulse animation that shrinks and dims an element, then restores it. Change the **animation-iteration-count** from *infinite* to a number to see the effect.
 
-``` {.css}
+``` css
 div.selected {
     animation-name: pulse;
     animation-duration: 1s;
@@ -78,22 +94,20 @@ div.selected {
 
 [View live example](http://code.webplatform.org/gist/7010365)
 
-## Usage
+## <span>Usage</span>
 
      This property accepts non-integer values, such as 1.5 or 2.75. If a non-integer value is specified, the animation terminates mid-cycle. Negative numbers are not valid.
 
 This property is often used in conjunction an [animation-direction](/css/properties/animation-direction) value of **alternate**, which will cause the animation to play in reverse on alternate cycles.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Animations](http://www.w3.org/TR/css3-animations/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)
@@ -106,13 +120,6 @@ Specification
 -   [animation-play-state](/css/properties/animation-play-state)
 -   [animation-timing-function](/css/properties/animation-timing-function)
 
-### External resources
+### <span>External resources</span>
 
 -   [Robert Nyman's examples](http://robertnyman.com/2010/05/06/css3-animations)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

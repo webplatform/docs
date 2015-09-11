@@ -1,29 +1,27 @@
 ---
-title: general programming
+title: General Programming Concepts
+notes:
+  - "This article may need to be a topic all its own. However it started, it seems now to be an attempt to provide the reader a compressed version of a four-year software development degree. I have tried to provide a syllabus, but there may be plenty more to add.\nTo explain, I have tried to break down the subjects by level of required background knowledge and essentially develop a syllabus. The first level of the bulleted list is intended to be the link to the concept page and the second level outlines the intended content of the associated concept page.\n\nAs the first-level pages are written to cover the second-level topics, remove the second level topics that have been covered."
+readiness: 'In Progress'
+summary: 'These articles introduce you to computers, computer programming, computer networking, and programming for the Web specifically.'
 tags:
   - Basic
   - Pages
   - CSS
   - HTML
   - JavaScript
-readiness: 'In Progress'
-notes:
-  - "This article may need to be a topic all its own. However it started, it seems now to be an attempt to provide the reader a compressed version of a four-year software development degree. I have tried to provide a syllabus, but there may be plenty more to add.\nTo explain, I have tried to break down the subjects by level of required background knowledge and essentially develop a syllabus. The first level of the bulleted list is intended to be the link to the concept page and the second level outlines the intended content of the associated concept page.\n\nAs the first-level pages are written to cover the second-level topics, remove the second level topics that have been covered."
-summary: 'These articles introduce you to computers, computer programming, computer networking, and programming for the Web specifically.'
-uri: 'concepts/general programming'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'concepts/general programming/How does a computer run applications'
+uri: 'concepts/general programming'
 
 ---
-# General Programming Concepts
-
-## Summary
+## <span>Summary</span>
 
 These articles introduce you to computers, computer programming, computer networking, and programming for the Web specifically.
 
-## Computer Organization and Architecture
+## <span>Computer Organization and Architecture</span>
 
 -   [What is in a computer?](/concepts/general_programming/What_is_in_a_Computer)
 -   [How does a computer work?](/concepts/general_programming/How_does_a_computer_work)
@@ -32,7 +30,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Registers, instruction address, heap, stack
     -   Introduce assembler language
 
-## Programming Languages
+## <span>Programming Languages</span>
 
 -   What is the purpose of a programming language?
     -   Easier to read and use than Assembler
@@ -43,7 +41,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Different languages for different purposes
     -   Different languages for different people
 
-## Networking and the Internet
+## <span>Networking and the Internet</span>
 
 -   What is the Internet?
 -   What is a protocol?
@@ -52,7 +50,7 @@ These articles introduce you to computers, computer programming, computer networ
 -   What is Http?
 -   [What is NAT?](/concepts/general_programming/NAT)
 
-## Basic Programming Concepts
+## <span>Basic Programming Concepts</span>
 
 -   How do I store information?
     -   Introduce scalar variables
@@ -70,7 +68,7 @@ These articles introduce you to computers, computer programming, computer networ
 -   How do I group instructions?
     -   Introduce functions
 
-## Basic Development Concepts
+## <span>Basic Development Concepts</span>
 
 -   Where should I start?
     -   Design
@@ -83,7 +81,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Bottom-up design
     -   Top-down design
 
-## Basic Web Development Concepts
+## <span>Basic Web Development Concepts</span>
 
 -   What do I need to write a website?
     -   Minimum: simple text editor, FTP client (Windows Explorer, ftp command-line)
@@ -100,7 +98,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   What is JavaScript and what is a simple example?
     -   Keep examples simple: Hello world, simple arithmetic and string operations
 
-## Intermediate Programming Concepts
+## <span>Intermediate Programming Concepts</span>
 
 -   Do I really need to understand math and physics?
     -   How does algebra help? Finding different ways to do the same math.
@@ -120,7 +118,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Why should I use getters and setters? (Value validation and access.)
 -   What is different between server-side and client-side programming?
 
-## Intermediate Development Concepts
+## <span>Intermediate Development Concepts</span>
 
 -   How do I reduce my workload?
     -   Design tools: flow charts, pseudo-code, prototypes.
@@ -133,7 +131,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Coding conventions.
     -   Documentation and documentation conventions. (Introduce JavaDoc?)
 
-## Intermediate Web Development Concepts
+## <span>Intermediate Web Development Concepts</span>
 
 -   How do I progress with HTML?
     -   More tags: table (caption, thead, tbody, tfoot, tr, th, td), div, dl/dt/dd, form (fieldset, input, button, etc.), abbr, acronym.
@@ -159,7 +157,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Introduction to SOAP and AJAX (and other similar technologies or protocols).
     -   How are they used?
 
-## Media, Multimedia and Plugins
+## <span>Media, Multimedia and Plugins</span>
 
 -   How do I go beyond text on my website?
     -   Add images to your website.
@@ -173,7 +171,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Accessibility requirements.
     -   When to use them and when to avoid them.
 
-## Introduction to Databases
+## <span>Introduction to Databases</span>
 
 -   What is a database?
     -   Introduction to databases, tables, fields, and relationships.
@@ -187,7 +185,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Define tables as they relate to O.O.P.
     -   Introduce views and stored procedures.
 
-## Advanced Programming Concepts
+## <span>Advanced Programming Concepts</span>
 
 -   What are design patterns and how do I use them?
     -   Introduce some common design patterns (singleton, factory, template, etc.).
@@ -202,7 +200,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Define application integration.
     -   Examples of importing, exporting, and non-proprietary file formats.
 
-## Advanced Development Concepts
+## <span>Advanced Development Concepts</span>
 
 -   What is requirement gathering?
 -   What is quality assurance and how to I make it easier?
@@ -211,7 +209,7 @@ These articles introduce you to computers, computer programming, computer networ
     -   Best practices.
     -   Include links to reference pages or useful books.
 
-## Advanced Web Development Concepts
+## <span>Advanced Web Development Concepts</span>
 
 -   How do I progress with SQL?
     -   Introduce JOIN, UNION, triggers, constraints.
@@ -239,9 +237,8 @@ These articles introduce you to computers, computer programming, computer networ
     -   Introduce RWD and mobile-first design.
     -   Include links to reference pages.
 
-### Original Links
+### <span>Original Links</span>
 
 -   [Variables in JavaScript](/concepts/programming/variables_in_javascript)
 -   [Style Guides](/concepts/programming/style_guides)
 -   [How do computers work?](/concepts/programming/how_do_computers_work)
-

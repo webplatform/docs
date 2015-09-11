@@ -1,16 +1,17 @@
 ---
-title: svg pattern fills
+title: SVG pattern fills
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Patterns)'
+readiness: 'Ready to Use'
+summary: 'This article covers SVG pattern fills.'
 tags:
   - Tutorials
   - SVG
-readiness: 'Ready to Use'
-summary: 'This article covers SVG pattern fills.'
 uri: 'tutorials/svg pattern fills'
 
 ---
-# SVG pattern fills
-
-## Summary
+## <span>Summary</span>
 
 This article covers SVG pattern fills.
 
@@ -72,10 +73,3 @@ Neither of these uses is what one would normally think of when you think of a pa
 ![SVG Pattern Comparison of Units.png](/assets/public/6/6d/SVG_Pattern_Comparison_of_Units.png)
 
 Of course, this means that the pattern won't scale if you change your object size later. All three of the above examples are shown below on a rectangle that has been slightly elongated to a height of 300px, but I should note its not an exhaustive picture, and there are other options available depending on your application.
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Patterns)
-

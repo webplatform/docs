@@ -1,17 +1,15 @@
 ---
-title: lowout
+title: blowout
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: blowout
 
 ---
-# blowout
-
-## blowout
+## <span>blowout</span>
 
 An event where a layout renders in an unexpected and generally undesirable way. Blowouts typically inform future test cases of the layout.
 

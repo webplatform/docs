@@ -1,20 +1,18 @@
 ---
-title: using css background images
+title: Using CSS background images
+readiness: 'Ready to Use'
+summary: 'This article covers CSS backgrounds in detail: background color, image, repeat, attachment, and position. Near the end, it also looks at advanced techniques such as CSS sprites.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This article covers CSS backgrounds in detail: background color, image, repeat, attachment, and position. Near the end, it also looks at advanced techniques such as CSS sprites.'
 uri: 'tutorials/using css background images'
 
 ---
-# Using CSS background images
-
-## Summary
+## <span>Summary</span>
 
 This article covers CSS backgrounds in detail: background color, image, repeat, attachment, and position. Near the end, it also looks at advanced techniques such as CSS sprites.
 
-## Introduction
+## <span>Introduction</span>
 
 Admit it! Since the first article in the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum), you’ve been excited to learn how to make your site look fierce and fabulous. Maybe you even skipped ahead to this section?
 
@@ -26,34 +24,84 @@ CSS and in particular the `background` property keep your HTML free from present
 
 In this article, you will learn the basics of how CSS background images work. You will see how to apply a background image via CSS, adjust its placement, tile it vertically or horizontally and combine background images using [CSS Sprites](http://www.alistapart.com/articles/sprites/) to improve [site performance](http://developer.yahoo.com/performance/index.html).
 
-## How does it work?
+## <span>How does it work?</span>
 
 The CSS for backgrounds is split into several different properties. Using these properties, such as `position` and `color`, you can begin to control the look and feel of your page. In this article, you will go through CSS background images in detail, building an alert message as an example, step by step.
 
 First, review the different properties you can use.
 
-### Background Properties
+### <span>Background Properties</span>
 
-Property
-:   Definition
-`background-color`
-:   Sets the background color of the HTML element.
-`image`
-:   Indicates the path*or URL* of the background image.
-`repeat`
-:   Indicates in which direction the background image should be tiled.
-`attachment`
-:   Sets the behavior of the background image when the user scrolls.
-`position`
-:   Tells the browser where to position the background image.
-`background`
-:   The shorthand property that can be used to describe all the other properties in one line.
+<table>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+<thead>
+<tr class="header">
+<th align="left">Property</th>
+<th align="left">Definition</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>background-color</code></td>
+<td align="left">Sets the background color of the HTML element.</td>
+<td align="left"><p>There are several ways to indicate <code>background-color</code>, including RGB values and keywords. Most people use hexadecimal notation, a pound/hash symbol (#) followed by six characters. The first pair indicates the red levels, and the second and third indicate the green and blue levels respectively—<code>#RRGGBB</code>.</p>
+<p>Many color picker tools will help you find the hexadecimal notation of a given color. Pure red, for example would be #FF0000.</p>
+<p><img src="/assets/public/f/fb/color_pi.jpg" alt="Photoshop color picker displays the hex value of your color" /></p>
+<p>Valid values include a <code>colour</code> value, <code>transparent</code>, or <code>inherit</code>.</p></td>
+</tr>
+<tr class="even">
+<td align="left"><code>image</code></td>
+<td align="left">Indicates the path<em>or URL</em> of the background image.</td>
+<td align="left"><p>Set the <code>background-image</code> by showing the browser where to find the image, using the URL. For example; <code>url(alert.png)</code>. Note that the path is prefaced with they keyword <code>url</code> and wrapped in parenthesis. This syntax is important to the browser understanding that you mean to indicate a location. If your url contains special characters or white space, you may have to use apostrophes or quotations around the url inside of the parentheses.</p>
+<p>Valid values include a <code>URL</code>, <code>none</code>, or <code>inherit</code>.</p></td>
+</tr>
+<tr class="odd">
+<td align="left"><code>repeat</code></td>
+<td align="left">Indicates in which direction the background image should be tiled.</td>
+<td align="left"><p><br /> Images can be tiled vertically, horizontally, or both, to fill the entire width or height of an HTML element. Use <code>background-repeat</code> to instruct the browser to repeat a background image.</p>
+<p>Valid values include <code>repeat</code>, <code>repeat-x</code>, <code>repeat-y</code>, and <code>no-repeat</code>.</p>
+<p><br /></p></td>
+</tr>
+<tr class="even">
+<td align="left"><code>attachment</code></td>
+<td align="left">Sets the behavior of the background image when the user scrolls.</td>
+<td align="left"><p>Images can either scroll with their content, or stay fixed in place in the view screen. Valid values include <code>scroll</code>, <code>fixed</code>, and <code>inherit</code>.</p></td>
+</tr>
+<tr class="odd">
+<td align="left"><code>position</code></td>
+<td align="left">Tells the browser where to position the background image.</td>
+<td align="left"><p>Images can be displayed anywhere within the borders of the HTML element on which they are applied. Use <code>background-position</code> to precisely place your images for visual effect and layering.</p>
+<p>There are many useful ways to indicate background position, keywords, and numeric values. Keywords (such as <code>top</code> and <code>bottom</code>) are very useful and easy to read. Pixel values are very precise, but they do not adapt to changing heights and widths. Negative pixel values are useful when using CSS sprites, as you will see later.</p>
+<p>When percentages and pixels are used, the starting point is always the top left corner of the HTML element, although the way image positioning works with pixels and percentages is rather different. Pixels always move the image a set number of pixels towards the bottom and right of the containing box (or towards the top and left if they are negative values), regardless of the size of the image and the containing box. Percentages, on the other hand, move the image a percentage of the difference between the containing box size, and the image size. If the image and the containing box are the same size, percentages will not move the image at all.</p>
+<p>Valid values include <code>length</code> (generally in pixels), <code>percentage</code> (of the width of the element), and the keywords <code>top</code>, <code>right</code>, <code>bottom</code>, <code>left</code>, and <code>center</code>. Note that center can be used to indicate both vertical and horizontal center. Note also that you can mix percentages and pixels in rules, but not keywords and pixels or keywords and percentages.</p></td>
+</tr>
+<tr class="even">
+<td align="left"><code>background</code></td>
+<td align="left">The shorthand property that can be used to describe all the other properties in one line.</td>
+<td align="left"><p>Shorthand properties are very nifty indeed. Most developers use them to keep the CSS as lean as possible and group related properties. You can write a general rule using shorthand, and then override it as needed with specific properties.</p>
+<p>The properties should always be indicated in the same order, to allow browsers to easily interpret the intended styles:</p>
+<ol>
+<li><code>color</code></li>
+<li><code>url</code></li>
+<li><code>repeat</code></li>
+<li><code>attachment (very rarely used; may be omitted)</code></li>
+<li><code>horizontal-position</code></li>
+<li><code>vertical-position</code></li>
+</ol>
+<p>An example of this shorthand with all the properties used (except <code>attachment</code>) is as follows:</p>
+<p><code>background: green url(logo.gif) no-repeat left top;</code></p></td>
+</tr>
+</tbody>
+</table>
 
-## Building an alert message
+## <span>Building an alert message</span>
 
 Now that you understand the basic syntax involved, you can walk through the process of building up a complete alert box example, which demonstrates all the aspects of working with background images.
 
-### The design
+### <span>The design</span>
 
 Imagine a graphic designer has provided a visual mock-up of the alert message you want to create for your website. The alert has a light orange background color, to make it stand out from the surrounding paragraphs. It also has an alert icon ten pixels from the top left corner.
 
@@ -69,25 +117,25 @@ The designer has also provided the icon we are meant to use, as shown in Figure 
 
 Figure 2: The alert icon.
 
-### The code
+### <span>The code</span>
 
 Based on what you have learned about CSS backgrounds in the first part of this article, you may already be envisioning how to build this alert message. I encourage you to try building it now, and then compare your work against the example below.
 
 After building your alert box, follow the step by step instructions below. Each screenshot links to code examples, so you can check out the source file at each stage. Experiment with the code, by increasing or decreasing values, and try out alternatives. You may also want to follow along, writing each new line of code in a tool such as Opera Dragonfly or Firefox Firebug, so you can immediately see the results of each step.
 
-#### Creating the CSS hook, or selector.
+#### <span>Creating the CSS hook, or selector.</span>
 
 First you need to create a class `alert`, that enable you to hook up the CSS code. Create new CSS and HTML skeleton files, link the CSS style sheet to the HTML file, and add the following code to each:
 
 Copy the following CSS and paste it into the style sheet:
 
-``` {.css}
+``` css
 .alert { ... }
 ```
 
  Copy the following HTML and paste it into the HTML document:
 
-``` {.html}
+``` html
 <p class="alert">
   <strong>Alert!</strong> The text of our alert message goes here.
 </p>
@@ -99,13 +147,13 @@ At this point, you have a solid foundation in place, but the alert still looks l
 
 Note: I have intentionally chosen *not* to limit the class `alert` to paragraphs; alert boxes could easily contain other elements as well. You should leave as much flexibility as you can within your CSS.
 
-#### Adding the background color
+#### <span>Adding the background color</span>
 
 You already learned about using background color in text treatments in [*Text styling with CSS*](http://www.w3.org/wiki/Text_styling_with_CSS). The same principles apply to any HTML element and can be combined with background images to create visual effects. If the background color has neither been set nor inherited, it is, by default, transparent.
 
 As shown below, you can add the light orange background color to the alert box to make it stand out from the text around it. It is important not to make the background color too dark, because you need to keep a reasonable level of [contrast between the text and the background color](http://www.w3.org/TR/2006/WD-WCAG20-20060427/guidelines.html#visual-audio-contrast). Add the following property inside the CSS rule:
 
-``` {.css}
+``` css
 .alert{
   background-color: #FFFFCC;
 }
@@ -117,11 +165,11 @@ As shown below, you can add the light orange background color to the alert box t
 
 Figure 3: An alert box with background color added.
 
-#### Applying the background image
+#### <span>Applying the background image</span>
 
 Next, you can add the background image to the alert. The path to the background image needs to be wrapped in `url()`, as shown in the code below. Add the highlighted line to the CSS rule:
 
-``` {.css}
+``` css
 .alert{
   background-color: #FFFFCC;
 
@@ -138,7 +186,7 @@ Figure 4: The background image has been added, but the tiling looks wrong.
 
 Remember that each background property has a default value—if you have not specified a value, the default will be applied. Notice that the image is tiling over the entire alert, much like mosaic tiles on a kitchen floor. What is the takeaway? Background images are set to repeat both horizontally and vertically by default. Repeating backgrounds are particularly useful for gradients and patterns that fill the screen or a particular HTML element, but that effect is *not* desired in this case.
 
-#### Controlling background repeat
+#### <span>Controlling background repeat</span>
 
 ![Repeat horizontally and vertically](/assets/public/d/d6/repeat00.jpg)
 
@@ -148,7 +196,7 @@ Reading specifications can certainly be intimidating, but the specification is a
 
 Note that there is a section for each background property including [background-repeat](http://www.w3.org/TR/CSS21/colors.html#propdef-background-repeat). Under **Value**, all of the possible choices are displayed, including; `repeat`, `repeat-x`, `repeat-y`, `no-repeat`, and `inherit`. By default (**initial**) background images are set to repeat. No direction is specified, which means that that the image will tile both horizontally and vertically. You have likely guessed that **`no-repeat`** is the value to set to prevent the image from tiling in either direction. Add the following highlighted line below to the CSS rule:
 
-``` {.css}
+``` css
 .alert{
   background-color: #FFFFCC;
   background-image: url(alert.png);
@@ -178,14 +226,14 @@ Figure 8: A repeating example from my website.
 
 The CSS I used to add this decorative effect is relatively simple. I made the background repeat horizontally using `repeat-x`:
 
-``` {.css}
+``` css
   body {
     /* set to repeat-x */
     background-repeat: repeat-x;
   }
 ```
 
-#### Attachment
+#### <span>Attachment</span>
 
 The `attachment` attribute allows you to specify how the background behaves when the user scrolls down the page. The default behavior is `scroll`, which causes the background image to scroll along with the content.
 
@@ -193,7 +241,7 @@ On the other hand, setting `background-attachment` to `fixed` causes the element
 
 This step will have no effect on our display, because browsers set background images to scroll by default, but add it to the code anyway, to learn how the property is used. Add the highlighted line to the CSS rule:
 
-``` {.css}
+``` css
 .alert{
   background-color: #FFFFCC;
   background-image: url(alert.png);
@@ -210,7 +258,7 @@ This step will have no effect on our display, because browsers set background im
 
 Figure 9: The display has not changed.
 
-#### Positioning the image
+#### <span>Positioning the image</span>
 
 Positioning is the fine tuning that enables you to place background images exactly where desired, both horizontally and vertically, within the HTML element. This property takes keyword and number values such as` top`, `center`, `right`, `100%`, `-10%`, `50px` and `-30em`.
 
@@ -222,7 +270,7 @@ Figure 10: Various examples of background position using keywords, percentages, 
 
 The code below positions the background image. The goal is to position it in the top left corner, but not touching the sides, so you need to offset it by 10 pixels from both the top and left. This is accomplished by adding the following highlighted line to the CSS rule:
 
-``` {.css}
+``` css
 .alert{
   background-color: #FFFFCC;
   background-image: url(alert.png);
@@ -242,11 +290,11 @@ Figure 11: Using CSS positioning to set the location of the background image.
 
 Tip: Choose either keywords or number values, but do not combine them. Older browsers may ignore your declaration if you use both at once. Using `right` and `bottom` will achieve the same effect as using `100%` horizontally or vertically, respectively.
 
-#### Using shorthand to pull the whole thing together like a pro
+#### <span>Using shorthand to pull the whole thing together like a pro</span>
 
 As you have learned, certain CSS properties can be grouped together. Background and all of its sub-properties can be grouped in CSS rules. The CSS code described so far can be rewritten in a shortened form, as follows:
 
-``` {.css}
+``` css
   .alert{
     /* change to the shorthand form */
     background: #FFFFCC url(alert.png) no-repeat scroll 10px 10px;
@@ -268,11 +316,11 @@ Try replacing the old CSS code in your document with the shorthand shown above. 
 
 Figure 12: The shorthand works like a charm!
 
-### Experimenting with the code
+### <span>Experimenting with the code</span>
 
 The best way to remember all the nuances of CSS is to test the options yourself. Try changing some of the properties in the example, and see how different values affects the display. Set the `background-position` to `100% 100%`, and notice that it provides the same result as using the `right` and `bottom` keywords. What about if you change it to `-5px 0`? Why do you think part of the image is hidden?
 
-### Testing for quality
+### <span>Testing for quality</span>
 
 Testing is extremely important to providing a good user experience. Just because the site looks good on your machine with your specific configuration does not mean that it will look good in every browser. Follow these basic minimum steps when testing your alert box:
 
@@ -284,7 +332,7 @@ Testing is extremely important to providing a good user experience. Just because
 
 Rigorous testing is part of learning to write CSS. The more careful you are while learning, the faster you will be able to code.
 
-## Sprites
+## <span>Sprites</span>
 
 Users want it all. They want your site to be glamorous, interactive, and also fast. However, including large quantities of CSS background images can slow your site down considerably. The more HTTP requests you make, the slower your site will be (an HTTP request occurs whenever your computer is accessing a website and needs to ask the server to send it another asset in the site design, such as a CSS file or image... each additional request means a longer loading time for the site).
 
@@ -298,7 +346,7 @@ Figure 13: Use CSS Sprites to reduce HTTP requests.
 
 Note: If you set negative background positions, Safari will repeat your image, even if you’ve specified `no-repeat`. This is a consideration as you start working with background images to create more complicated layouts.
 
-### A complex sprite and background image example
+### <span>A complex sprite and background image example</span>
 
 Next, take a look at how you can leverage CSS sprites. Suppose a friendly designer sent us an new mockup. This one illustrates a list of links on the landing page of a blog. It points to the bloggers’ LinkedIn profile, RSS feed, Flickr photos, and bookmarks. As you evaluate each link, notice that there is a gradient starting in the center as white and transitioning to gray at the top and bottom of the link. And to further complicate things, the designer asked if we could make each link plain white with no curve when visitors hover over the link, as shown in Figure 14.
 
@@ -308,7 +356,7 @@ Figure 14: The new design mockup.
 
 The logos could be included using `img` elements in the markup. However, using CSS sprites is a much better solution. The sprites load faster because only one image must load (not four), and it declutters your HTML, by reducing the amount of markup needed.
 
-#### Creating the sprite
+#### <span>Creating the sprite</span>
 
 The first step involves cutting out the four logos and creating the sprite set, as shown in Figure 15.
 
@@ -324,7 +372,7 @@ Figure 16: The slice used for the gradient background.
 
 The HTML that creates the list is an unordered list containing links. Note the empty `span` elements inside the links. It is very important not to have fixed `height` and `width` on elements that contain text. After all, you have no idea how large the text will be. What happens if the site is translated to German? You can use these extra spans to display the logos. As an alternative, you may decide that you do not want to have extraneous non-semantic markup cluttering up your HTML. In this case, you will need to use a larger sprite and leave white space between the icons. Keep in mind that this strategy is slower for users on slow connections, especially those using mobile phones to view the site. The code for the list is shown below. Copy it and then paste it into an HTML document:
 
-``` {.html}
+``` html
   <ul class="navigation">
     <li id="resume">
       <a href="#"><span></span>Resume</a>
@@ -343,7 +391,7 @@ The HTML that creates the list is an unordered list containing links. Note the e
 
  Add the following CSS to a new CSS file, and link it to the HTML document:
 
-``` {.css}
+``` css
 .navigation, .navigation li {
   margin:0;
   padding:0;
@@ -381,7 +429,7 @@ The last line means that the element should not display a background color or im
 
 Next you can create the CSS for the little logos. As usual, you can start by defining the most general case for all `span` elements within your navigation module. It is here that you define the image to be used by all spans, the repeat setting, and the background position (each is different, so you can use the first one). You can use shorthand for this rule. Note that CSS comments divide the sections of our code into manageable chunks. Add the following code to the bottom of the CSS file:
 
-``` {.css}
+``` css
 /* general case */
 
 .navigation span {
@@ -397,7 +445,7 @@ Next you can create the CSS for the little logos. As usual, you can start by def
 
  With the basic formatting completed, you can now define the exceptions, or *what is different* about each specific logo. In this case, the only CSS that changes is the `background-position`. Each respective list item needs to have the image moved 15 pixels more to the left, because each of the logo images are 15 pixels wide. Add the following to the bottom of the CSS file:
 
-``` {.css}
+``` css
 /* exceptions */
 
 #rss span {
@@ -417,27 +465,27 @@ Next you can create the CSS for the little logos. As usual, you can start by def
 
 Experiment with the background position values in the [finished example](http://dev.opera.com/articles/view/31-css-background-images/sprite.html), to better understand how to adjust sprite positioning.
 
-## Usage
+## <span>Usage</span>
 
      on 02/10/2014 arond 1500 central std time:
 
 hoffmant99 made minor changes to make sprite example work, though the student(reader of this page) needs to be aware that the file names don't match. This can be fixed locally, change the name from "sprite\_logo" to "sprite\_l" and" sprite\_gradient\_bkg.jpg" to sprite\_g.jpg".
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [Performance and HTTP requests on YDN](http://developer.yahoo.com/performance/rules.html#num_http)
 -   [CSS2 Specification—Colors and Backgrounds](http://www.w3.org/TR/REC-CSS2/colors.html)
 -   [CSS Sprites—Image Slicing’s Kiss of Death](http://www.alistapart.com/articles/sprites)
 -   [Bulletproof Web Design](http://www.simplebits.com/publications/bulletproof/)—My favourite book
 
-### Image credits
+### <span>Image credits</span>
 
 -   [The Tiles](http://www.flickr.com/photos/dimsumdarren/1342305614/), by DimsumDarren
 -   [little glass tiles](http://www.flickr.com/photos/emdot/6099842/), by emdot
 
-### Exercise Questions
+### <span>Exercise Questions</span>
 
 -   A paragraph is 40px by 180px and your background image is 60px by 200px. Will you see the entire image or only part of it? Why?
 -   You want an image to be positioned in the bottom left corner of the `blockquote` element—please fill in the correct values.
@@ -451,4 +499,3 @@ hoffmant99 made minor changes to make sprite example work, though the student(re
 -   What would be the background position of the example in question number 3? How could you creatively use a background colour to be sure the background could expand to any height? Why is this important?
 -   What shorthand can you use to remove all background properties?
 -   What is the purpose of CSS sprites?
-

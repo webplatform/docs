@@ -1,30 +1,37 @@
 ---
 title: scrollIntoViewIfNeeded
+notes:
+  - 'Needs summary, examples, notes, spec, compat'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /dom/Element
 tags:
   - API
   - Object
   - Methods
-readiness: 'Not Ready'
-notes:
-  - 'Needs summary, examples, notes, spec, compat'
 uri: dom/Element/scrollIntoViewIfNeeded
 
 ---
-# scrollIntoViewIfNeeded
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.scrollIntoViewIfNeeded();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 

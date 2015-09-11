@@ -1,52 +1,61 @@
 ---
 title: queryCommandValue
+attributions:
+  - 'Microsoft Developer Network: [[queryCommandValue Method](http://msdn.microsoft.com/en-us/library/ie/ms536683(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/TextRange
+    href: /dom/TextRange
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/TextRange
+standardization_status: Non-Standard
+summary: 'Returns the current value of the document, range, or current selection for the given command.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: Non-Standard
-summary: 'Returns the current value of the document, range, or current selection for the given command.'
 uri: dom/TextRange/queryCommandValue
 
 ---
-# queryCommandValue
-
-## Summary
+## <span>Summary</span>
 
 Returns the current value of the document, range, or current selection for the given command.
 
-*Method of [dom/TextRange](/dom/TextRange)*
+Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = document.queryCommandValue(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### cmdID
+### <span>cmdID</span>
 
- Data-typeÂ
+ Data-type
 :   BSTR
 
 **String**Â that specifies a command identifier.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Variant
 
 **Variant** that returns the command value for the document, range, or current selection, if supported. Possible values depend on *cmdID*. If not supported, this method returns a **Variant** of type **Boolean** set to false.
 
-## Examples
+## <span>Examples</span>
 
 The following example when using legacy document.selection will display an alert message of 'false' if the current selection is not 'bold', or true if it is already 'bold'
 
-``` {.js}
+``` js
 function makeBold(el){
 if(window.getSelection){
     var sel=document.getSelection();
@@ -70,19 +79,12 @@ if(window.getSelection){
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      Used for changing the HTML markup of web pages.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This method is a wrapper function for the command constants. You can obtain an **IHTMLDocument2** interface using IID\_IHTMLDocument2 for the IID. This method is a wrapper function for the command constants. You can obtain an **IHTMLControlRange** interface using IID\_IHTMLControlRange for the IID. This method is a wrapper function for the command constants. You can obtain an **IHTMLTxtRange** interface using IID\_IHTMLTxtRange for the IID.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[queryCommandValue Method](http://msdn.microsoft.com/en-us/library/ie/ms536683(v=vs.85).aspx) Article]
-

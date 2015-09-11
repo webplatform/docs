@@ -1,28 +1,35 @@
 ---
 title: formtarget
-tags:
-  - Markup
-  - Attributes
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies a name or a keyword that indicates where to display the response that is received after submitting the form.'
+tags:
+  - Markup
+  - Attributes
 uri: html/attributes/formtarget
 
 ---
-# formtarget
-
-## Summary
+## <span>Summary</span>
 
 Specifies a name or a keyword that indicates where to display the response that is received after submitting the form.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
+
+</td>
+</tr>
+</table>
 The formtarget attribute overrides the target attribute of the \<form\> element.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <form action="submit.php">
   Input field: <input type="text" name="inputfield">
   <input type="submit" value="Submit">
@@ -30,10 +37,8 @@ The formtarget attribute overrides the target attribute of the \<form\> element.
 </form>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5 Forms](http://www.w3.org/TR/html5/forms.html)
 :   W3C Recommendation
 

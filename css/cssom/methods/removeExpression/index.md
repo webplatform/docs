@@ -1,50 +1,59 @@
 ---
 title: removeExpression
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeExpression.htm'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/methods
+    href: /css/cssom/methods
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /css/cssom/methods
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeExpression.htm'
 uri: css/cssom/methods/removeExpression
 
 ---
-# removeExpression
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [css/cssom/methods](/css/cssom/methods)*
+Method of [css/cssom/methods](/css/cssom/methods)[css/cssom/methods](/css/cssom/methods)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.removeExpression(PropertyName);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### PropertyName
+### <span>PropertyName</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
 **String** that specifies the name of the property from which to remove an expression.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
 Returns **true** if the expression was successfully removed, **false** otherwise.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **removeExpression** method to remove an expression from the [**width**](/css/properties/width) property of a blue box.
 
-``` {.html}
+``` html
 <INPUT TYPE=text ID=oBox1 value=40>The sum of the values in these two text boxes determines the width <BR><INPUT TYPE=text ID=oBox2 value=40>of the blue text box below.
 <BR><INPUT TYPE=text ID=oBox3 STYLE="background-color:blue">
 <BR><BR><INPUT TYPE=button ID=Button1
@@ -79,9 +88,9 @@ function remexp()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeExpression.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 After the expression is removed from the specified property, the value of the property equals the last computed value of the expression. To remove expressions set by the [**setExpression**](/css/cssom/methods/setExpression) method, use **removeExpression**. The following syntax sections show how to remove an expression from supported Cascading Style Sheets (CSS) attributes and DHTML Properties.
 
@@ -93,9 +102,9 @@ After the expression is removed from the specified property, the value of the pr
 
 `object.style.removeExpression(sPropertyName)`
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `IHTMLElement2`
 -   `IHTMLStyle2`
@@ -105,10 +114,3 @@ After the expression is removed from the specified property, the value of the pr
 -   `getExpression`
 -   `Conceptual`
 -   `About Dynamic Properties`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,21 +1,23 @@
 ---
 title: setMilliseconds
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/a92fx7ha(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the milliseconds value in the Date object using local time.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sets the milliseconds value in the Date object using local time.'
 uri: javascript/Date/setMilliseconds
 
 ---
-# setMilliseconds
-
-## Summary
+## <span>Summary</span>
 
 Sets the milliseconds value in the Date object using local time.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.setMilliseconds( numMilli )
 
@@ -25,11 +27,11 @@ Sets the milliseconds value in the Date object using local time.
 **numMilli**
 :   Required. A numeric value equal to the millisecond value.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **setMilliseconds** method.
 
-``` {.js}
+``` js
 function SetMSecDemo(nmsec){
     var d, s;                    // Declare variables.
     d = new Date();              // Create Date object.d.setMilliseconds( nmsec ) ;    // Set milliseconds.
@@ -41,23 +43,17 @@ function SetMSecDemo(nmsec){
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 To set the milliseconds value using Universal Coordinated Time (UTC), use the **setUTCMilliseconds** method.
 
 If the value of numMilli is greater than 999 or is a negative number, the stored number of seconds (and minutes, hours, and so forth if necessary) is incremented an appropriate amount.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getMilliseconds Method (Date)](/javascript/Date/getMilliseconds)
 -   [getUTCMilliseconds Method (Date)](/javascript/Date/getUTCMilliseconds)
 -   [setUTCMilliseconds Method (Date)](/javascript/Date/setUTCMilliseconds)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/a92fx7ha(v=vs.94).aspx)
 

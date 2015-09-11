@@ -5,14 +5,14 @@ uri: Standards/Unicode
 ---
 The Unicode Consortium is a non-profit organization that focuses on defining an single unified character encoding scheme, for use in internationalization and localization.
 
-**Website:** [http://www.unicode.org/](http://www.unicode.org/)
+**Website:** <http://www.unicode.org/>
 
-## Organizational Structure
+## <span>Organizational Structure</span>
 
-### Funding
+### <span>Funding</span>
 
-## Communications
+## <span>Communications</span>
 
-## Process
+## <span>Process</span>
 
-## Patent Policy
+## <span>Patent Policy</span>

@@ -1,23 +1,25 @@
 ---
 title: compile
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/x9cswe0z(v=vs.94).aspx)'
+notes:
+  - 'Moved under javascript/RegExp'
+readiness: 'Ready to Use'
+summary: 'Compiles a regular expression into an internal format for faster execution.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-notes:
-  - 'Moved under javascript/RegExp'
-summary: 'Compiles a regular expression into an internal format for faster execution.'
 uri: javascript/RegExp/compile
 
 ---
-# compile
-
-## Summary
+## <span>Summary</span>
 
 Compiles a regular expression into an internal format for faster execution.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     rgExp.compile( pattern , [ flags ] )
 
@@ -30,11 +32,11 @@ Compiles a regular expression into an internal format for faster execution.
 **flags**
 :   Optional. Available flags, which may be combined, are: `g` (global search for all occurrences of the pattern), `i` (ignore case), `m` (multiline search), `u` (Unicode), `y` (sticky matching),
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **compile** method:
 
-``` {.js}
+``` js
 function CompileDemo(){
     var rs;
     var s = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPp"
@@ -48,13 +50,7 @@ function CompileDemo(){
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **compile** method converts pattern into an internal format for faster execution. This allows for more efficient use of regular expressions in loops, for example. A compiled regular expression speeds things up when reusing the same expression repeatedly. No advantage is gained, however, if the regular expression changes.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/x9cswe0z(v=vs.94).aspx)
 

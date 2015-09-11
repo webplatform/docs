@@ -1,66 +1,109 @@
 ---
 title: beforeunload
-tags:
-  - Events
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec, and compat'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeunload.htm'
+notes:
+  - 'Needs summary, spec, and compat'
+readiness: 'In Progress'
+tags:
+  - Events
 uri: dom/Event/beforeunload
 
 ---
-# beforeunload
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **onbeforeunload** event to ask users whether they want to remain on the current document or navigate to a new URL. When the user clicks on the hyperlink or attempts to close the window, the **onbeforeunload** event fires on the **body** and a dialog box displays. If the user chooses **OK**, the document navigates to the new URL (www.microsoft.com) or closes the window; if the user chooses **Cancel**, the document remains the same.
 
-    <HTML>
-    <head>
-    <script>
-    function closeIt()
-    {
-      return "Any string value here forces a dialog box to \n" +
-             "appear before closing the window.";
-    }
-    window.onbeforeunload = closeIt;
-    </script>
-    </head>
-    <body>
-      <a href="http://www.microsoft.com">Click here to navigate to
-          www.microsoft.com</a>
-    </body>
-    </html>
+``` html
+<HTML>
+<head>
+<script>
+function closeIt()
+{
+  return "Any string value here forces a dialog box to \n" +
+         "appear before closing the window.";
+}
+window.onbeforeunload = closeIt;
+</script>
+</head>
+<body>
+  <a href="http://www.microsoft.com">Click here to navigate to
+      www.microsoft.com</a>
+</body>
+</html>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeunload.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 When a string is assigned to the **returnValue** property of **window**.**event**, a dialog box appears that gives users the option to stay on the current document and retain the string that was assigned to it. The default statement that appears in the dialog box, "`Are you sure you want to navigate away from this page? ... Press OK to continue, or Cancel to stay on the current page.`", cannot be removed or altered.
 
-#### onbeforeunload in Metro style apps using JavaScript
+#### <span>onbeforeunload in Metro style apps using JavaScript</span>
 
 In Metro style apps using JavaScript, the **returnValue** property of **window**.**event** is always ignored and **onunload** will fire immediately. No dialog is shown to the user and the navigation can't be cancelled. Note that, in most cases, the app should never navigate its top-level document. Metro style apps using JavaScript should use **oncheckpoint** event to determine when they need to save state information.
 
-#### General info
+#### <span>General info</span>
 
 This event signals that the document is about to be unloaded. To invoke this event, do one of the following:
 
@@ -106,20 +149,14 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

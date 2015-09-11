@@ -1,44 +1,46 @@
 ---
 title: background (Table, table cell, td, th elements)
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+summary: 'Specifies up to five separate background properties of an object.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Specifies up to five separate background properties of an object.'
 uri: 'html/attributes/background (Table, table cell, td, th elements)'
 
 ---
-# background (Table, table cell, td, th elements)
-
-## Summary
+## <span>Summary</span>
 
 Specifies up to five separate background properties of an object.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `table`
 -   `td`
 -   `th`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

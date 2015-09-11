@@ -1,9 +1,9 @@
 ---
-title: ja
+title: CSSの基礎
+lang: ja
+summary: 'このガイドでは，CSSの基礎（CSSの構造，セレクタ，コメント，HTMLへの適用方法を含む）をカバーしています．'
 tags:
   - Guides
-summary: 'このガイドでは，CSSの基礎（CSSの構造，セレクタ，コメント，HTMLへの適用方法を含む）をカバーしています．'
-uri: 'guides/getting started with css/ja'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -66,15 +66,14 @@ todo_broken_links:
     - 'guides/getting started with css/zh-hans'
     - 'guides/getting started with css/zh-hant'
     - 'guides/getting started with css/zh-tw'
+uri: 'guides/getting started with css/ja'
 
 ---
-# CSSの基礎
-
-## Summary
+## <span>Summary</span>
 
 このガイドでは，CSSの基礎（CSSの構造，セレクタ，コメント，HTMLへの適用方法を含む）をカバーしています．
 
-## はじめに
+## <span>はじめに</span>
 
 この記事では，パワフルなスタイリング言語であるCSSを使い始めるにあたって助けとなる基本的な部分をカバーしています．HTML文書にCSSを適用する方法（`style`属性を使いインラインでスタイルを適用する方法，文書の`<head>`内で`<style>`要素でスタイルを埋め込む方法，当該文書の外部ファイルとして適用する方法）を学びます．
 
@@ -82,7 +81,7 @@ todo_broken_links:
 
 加えて，CSSの基本シンタックスの概要（コメントの付与，セレクタのタイプ，セレクタのグルーピングに関する詳細を含む）を提供します．
 
-## CSSとは?
+## <span>CSSとは?</span>
 
 HTMLは文書を組み立てたり，ブラウザにページ要素（マークアップは例えば他のページへのリンクをさしたり，ページの見出しであることを示したりする）の機能を伝えたりする一方で， CSSはある要素を表示する方法（スタイリング，空白，色付けなど）をブラウザに指示するためのルールを提供します．
 
@@ -104,11 +103,11 @@ CSSのスタイルはルール（もしくはルールの集合）の系統に�
 
 CSSはJavaScriptのようなプログラミング言語ではないですし，HTMLのようなマークアップ言語でもありません－実際に，比較できるものがありません． Webが開発以前に定義されてきたインターフェースでは常に表現と構造（を示すインタフェース）が混ざっていました． 我々がコースの最初の方で話してきたように，Webと同じくらいしばしば変更される環境においてこれは賢くないのです．そこでCSSが開発されたわけです．
 
-## スタイルのルールに関する定義
+## <span>スタイルのルールに関する定義</span>
 
 つべこべ言う前に，CSSのルールの例をレビューし，解明していこうと思います：
 
-``` {.css}
+``` css
 selector {
   property1:value;
   property2:value;
@@ -125,7 +124,7 @@ selector {
 
 以下の具体的な例を見てみましょう：
 
-``` {.css}
+``` css
 p {
   margin: 5px;
   font-family: arial;
@@ -139,11 +138,11 @@ p {
 
 CSSルールのセット全体はスタイルシートを形成するためにCSS文書に付与されます．これはCSSルールを書く際に最も基本的なシンタックスです．いくつかのルールはもっと複雑ですが，そんなに多くはありません．おそらくCSSについて最もクールな方法は"簡単"にすることです．
 
-### CSSにおける空白文字の扱い
+### <span>CSSにおける空白文字の扱い</span>
 
 CSSにおける空白文字はまさにHTMLの場合と同様な動作となることを注意してください． 余分な空白文字はCSSをレンダリングするブラウザによって完全に無視されますので，みなさんはコードを読みやすくするために好きなだけ多くの空白文字を入れることができます． そこで，このルール：
 
-``` {.css}
+``` css
 p {
   margin: 5px;
   font-family: arial;
@@ -153,17 +152,17 @@ p {
 
  はこのルール：
 
-``` {.css}
+``` css
 p {margin: 5px;font-family: arial;color: blue;}
 ```
 
  と機能的に等価です．異なる部分を分離するために必要な波括弧，コロン，セミコロンが含まれている限り，ブラウザはプロパティに適用する値を認識します．
 
-### CSSにおけるコメント
+### <span>CSSにおけるコメント</span>
 
 早く知りたいことの一つにCSSでコメントを付与する方法があります． `/*` と `*/`で囲むことによりコメントを付与することができます． コメントは数行に渡ることもできます． ブラウザはテキストのコメント行を無視します．
 
-``` {.css}
+``` css
 /* These are basic element selectors */
 selector{
   property1:value;
@@ -174,7 +173,7 @@ selector{
 
  あなたは，複数のルール間，もしくはプロパティブロックの中に，コメントを付与することができます． 例えば，次のCSSにおいて，２つ目ないし３つ目のプロパティをコメント用区切り文字で囲んだとしましょう．すると，それらはブラウザによって無視されます． これはあなたのWebページ上であるCSSのルールによる影響をテストする際に便利なのです． ただそれらをコメントアウトして，CSSファイルを保存し，ブラウザでHTMLページをリロードしてみましょう．
 
-``` {.css}
+``` css
 selector{
   property1:value;
   /*
@@ -184,11 +183,11 @@ selector{
 }
 ```
 
-### セレクタのグルーピング
+### <span>セレクタのグルーピング</span>
 
 異なるセレクタのグルーピングも行えます．もし `h1` と `p`に同じスタイルを適用したいのであれば，次のようにCSSを書きます：
 
-``` {.css}
+``` css
 h1 {color:red;}
 
 p {color:red;}
@@ -196,33 +195,33 @@ p {color:red;}
 
  ただ，同じ情報を繰り返していることから，この書き方は理想的ではありません．これを改善するために，コンマを使いセレクタをグルーピングすることでCSSを短くすることができます－これにより，波括弧内のルールが両方のセレクタに適用されます：
 
-``` {.css}
+``` css
 h1, p {color:red;}
 ```
 
-### セレクタの基本型
+### <span>セレクタの基本型</span>
 
 いくつかの異なるセレクタが存在しており，それぞれがマークアップの異なる部分にマッチします．あなたが最もよく直面するであろう３つのタイプのセレクタは次のとおりです：
 
-#### 要素型セレクタ
+#### <span>要素型セレクタ</span>
 
-``` {.css}
+``` css
 p {}
 ```
 
  要素型セレクタはページ上のすべての要素にマッチします（上述のケースでは`<p>`要素）．HTMLタグを特定することにより，そのタグにより囲まれたページ内の全要素に影響を及ぼします． \</p\>
 
-#### class セレクタ
+#### <span>class セレクタ</span>
 
-``` {.css}
+``` css
 .example {}
 ```
 
  classセレクタは，指定された値が付与された`class`属性を持つすべての要素にマッチするため，上記は`<p class="example">`, `<li class="example">`，`<div class="example">`, および，`example`の`class`が付与された全要素にマッチします．classセレクタはあらゆる要素名をtestしないことに注意してください．
 
-#### ID セレクタ
+#### <span>ID セレクタ</span>
 
-``` {.css}
+``` css
 #example {}
 ```
 
@@ -233,7 +232,7 @@ p {}
 -   [example-selectors.html](http://dev.opera.com/articles/view/27-css-basics/example-selectors.html)
 -   [selectors.css](http://dev.opera.com/articles/view/27-css-basics/selectors.css)
 
-#### セレクタの結合
+#### <span>セレクタの結合</span>
 
 特定のルールを定義するためにセレクタを結合することができます：
 
@@ -246,29 +245,29 @@ p {}
 -   [example-specificselectors.html](http://dev.opera.com/articles/view/27-css-basics/example-specificselectors.html)
 -   [specificselectors.css](http://dev.opera.com/articles/view/27-css-basics/specificselectors.css)
 
-## CSSでの省略記法
+## <span>CSSでの省略記法</span>
 
 このコースにおいて，もう一つ定期的に出くわすと思われるのがCSSでの省略記法です． いくつかの関連するCSSプロパティを，時間や努力をセーブするために１つのプロパティに結合してしまうことが可能です． この節では，利用可能な省略記法のタイプについて見ていきましょう．
 
 例えば，下記の`border`プロパティは省略記法で書かれたものです．
 
-``` {.css}
+``` css
 border: 2px solid black;
 ```
 
  これは以下と等価です．
 
-``` {.css}
+``` css
 border-width: 2px;
 border-style: solid;
 border-color: black;
 ```
 
-### 個別の値と省略記法の場合の値との比較
+### <span>個別の値と省略記法の場合の値との比較</span>
 
 marginに関する以下のルールを考えます:
 
-``` {.css}
+``` css
 div.foo {
   margin-top: 1em;
   margin-right: 1.5em;
@@ -279,7 +278,7 @@ div.foo {
 
  このルールは次のようにも書けます：
 
-``` {.css}
+``` css
 div.foo {
   margin: 1em 1.5em 2em 2.5em;
 }
@@ -293,7 +292,7 @@ div.foo {
 
 このように動作するプロパティがいくつかあります（`padding`, `margin`, `outline`を含め）．それについては後ほど明らかにします．
 
-### 単一のプロパティを使うか省略記法の値を使うか
+### <span>単一のプロパティを使うか省略記法の値を使うか</span>
 
 省略記法の`margin`，`padding`プロパティは非常によく利用される傾向にありますが， 省略記法のプロパティは避けたほうが良い，もしくは，少なくとも注意深く検討したほうがよいシチュエーションがあります． 例えば次のようなシチュエーションです：
 
@@ -310,15 +309,15 @@ div.foo {
 
 いい加減に設計された文書やスタイルシートでしばしば必要となりますが，それはほとんど聞きません．
 
-## HTMLへのCSSの適用
+## <span>HTMLへのCSSの適用</span>
 
 CSSをHTML文書に適用する方法は３つあります：インラインスタイル，埋込みスタイル，そして外部スタイルシートです． もし，最初の２つのオプションを使う理由がないのであれば，常に３つ目のオプションを選択してください． その理由はすぐに明らかになるでしょう．しかし，ここでは種々のオプションの概要を示します．
 
-### インラインスタイル
+### <span>インラインスタイル</span>
 
 `style`属性を使って，次のように特定の要素にスタイルを適用することができます：
 
-``` {.html}
+``` html
 <p style="background:blue; color:white; padding:5px;">Paragraph</p>
 ```
 
@@ -336,11 +335,11 @@ CSSをHTML文書に適用する方法は３つあります：インラインス�
 
 メンテナンスの問題に加えて，CSSにおける最もパワフルな点：カスケードを利用することができません．カスケードの概念は詳しくは後で述べますが， 今あなたが知っておくべきことは，カスケードを利用するというのは，あなたが一箇所でルック＆フィールを定義することで，それをブラウザがあるルールにマッチするすべての要素に適用してくれることを意味しています．
 
-### 埋込みスタイル
+### <span>埋込みスタイル</span>
 
 埋込みスタイルでは [この例のように](http://dev.opera.com/articles/view/27-css-basics/example-embedded.html) 文書の`<head>`に `<style>`要素が置かれます：
 
-``` {.css}
+``` css
 <style type="text/css" media="screen">
   p {
     color:white;
@@ -358,11 +357,11 @@ CSSをHTML文書に適用する方法は３つあります：インラインス�
 
 埋込みスタイルの利点は，それぞれの段落に`style`属性を付与する必要がない点です－単一の定義だけでそれらすべてをスタイリングすることができます． これはもし全段落のルック＆フィールを変更する必要がある場合，１箇所だけ直せばよいことを意味します．ところが，これ（の及ぶ範囲）は１つの文書に限られます． では，もしサイト全体の段落の見栄えを１度で定義したいのならどうすればよいのか？ そのためには外部スタイルシートを使えばよいのです．
 
-### 外部スタイルシート
+### <span>外部スタイルシート</span>
 
 外部スタイルシートは自身のファイルにおけるCSSの定義すべてを置くことを意味します． 拡張子`.css`を持ったファイルを保存しておくことで． それから，文書の`<head>`の中に`<link>`要素を使ってそれをHTML文書に適用します． [ソース例のページ](http://dev.opera.com/articles/view/27-css-basics/example-external.html) をご覧下さい． `<head>`が，この [外部CSSファイル](http://dev.opera.com/articles/view/27-css-basics/styles.css) を参照する `<link>`要素を含んでいることに注意してください． 外部CSSファイルで定義されたスタイルがHTMLに適用されていることが検証できます．
 
-``` {.html}
+``` html
 <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
 ```
 
@@ -374,11 +373,11 @@ CSSをHTML文書に適用する方法は３つあります：インラインス�
 
 これは想定内のすべてのケースにおいてベストなのです： ルック＆フィールの定義を単一のファイルで保持するためです． これは１つのファイルの変更がサイト全体を変えることを意味します， また，ブラウザはそれを一旦ロードすると，それを参照する他のすべて文書に対しキャッシュします．ダウンロードすることは意味がありません．
 
-### @importによるスタイルシートのインポート
+### <span>@importによるスタイルシートのインポート</span>
 
 外部スタイルシートをHTMLファイルにインポートする方法がもうひとつあります－`@import`プロパティを利用する方法です． これは上述した埋め込まれたCSSと同じように埋込スタイルシートに挿入されます． シンタックスは次のような感じです：
 
-``` {.html}
+``` html
 <style type="text/css" media="screen">
   @import url("styles.css");
 
@@ -389,7 +388,7 @@ CSSをHTML文書に適用する方法は３つあります：インラインス�
 
  インポート文はときどき括弧なしで書かれますが，同じ目的を達成できます． 他に気づくこととしては，`@import`が常に埋込スタイルシートの最初にある点です． また，インポートされたスタイルシートは，インポート文の最後にmedia typeを含むことによって，あるタイプのmediaにだけ適用されます (これはすべてのブラウザ（IE6以前を除く）で動作します). 次の文は前のコード例と同じになります：
 
-``` {.html}
+``` html
 <style type="text/css">
   @import url("styles.css") screen;
 
@@ -407,11 +406,11 @@ CSSをHTML文書に適用する方法は３つあります：インラインス�
 -   前述したとおり，IE6は`@import`行の後部にmedia typeを置く方法をサポートしていないので，異なるmediaに対し複数のスタイルシートを挿入したい場合，それらは良い方法ではありません．
 -   複数の`@import`文に対するコードが複数の`<link>`要素に対するコードより小さいと主張するかもしれませんが，それは取るに足らないことです．
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
-### 練習問題
+### <span>練習問題</span>
 
 -   インラインスタイルの利点と問題点は何でしょうか？また，要素にどのように適用すればよいでしょうか？
 -   スタイルルールとは何でしょうか？様々なコンポーネントやシンタックスを述べてください．
@@ -420,5 +419,15 @@ CSSをHTML文書に適用する方法は３つあります：インラインス�
 -   セレクタのグルーピングの利点は何でしょうか？
 -   プリント用スタイルシートはどのように定義されていますか？
 
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/guides/getting_started_with_css)**  • <span lang="ja">**日本語**</span>
+
+</th>
+<td class="mbox-text">
+**[English](/guides/getting_started_with_css)**  • <span lang="ja">**日本語**</span>
+
+</td>
+</tr>
+</table>

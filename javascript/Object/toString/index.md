@@ -1,20 +1,22 @@
 ---
 title: toString
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k6xhc6yc(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a string representation of an object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a string representation of an object.'
 uri: javascript/Object/toString
 
 ---
-# toString
-
-## Summary
+## <span>Summary</span>
 
 Returns a string representation of an object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     objectname.toString([ radix ])
 
@@ -24,11 +26,11 @@ Returns a string representation of an object.
 **radix**
 :   Optional. Specifies a radix for converting numeric values to strings. This value is only used for numbers.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **toString** method with a radix argument. The return value of function shown below is a Radix conversion table.
 
-``` {.js}
+``` js
 function CreateRadixTable (){
     var s = "";
 
@@ -57,38 +59,24 @@ function CreateRadixTable (){
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **toString** method is a member of all built-in JavaScript objects. How it behaves depends on the object type:
 
-Object
-:   Behavior
-Array
-:   Elements of an **Array** are converted to strings. The resulting strings are concatenated, separated by commas.
-Boolean
-:   If the Boolean value is **true** , returns " `true` ". Otherwise, returns " `false` ".
-Date
-:   Returns the textual representation of the date.
-Error
-:   Returns a string containing the associated error message.
-Function
-:   Returns a string of the following form, where functionname is the name of the function whose **toString** method was called:Copy Code function functionname( ) { [native code] }
-Number
-:   Returns the textual representation of the number.
-String
-:   Returns the value of the String object.
-Default
-:   Returns `"[object objectname]"` , where `objectname` is the name of the object type.
+|Object|Behavior|
+|:-----|:-------|
+|Array|Elements of an **Array** are converted to strings. The resulting strings are concatenated, separated by commas.|
+|Boolean|If the Boolean value is **true** , returns " `true` ". Otherwise, returns " `false` ".|
+|Date|Returns the textual representation of the date.|
+|Error|Returns a string containing the associated error message.|
+|Function|Returns a string of the following form, where functionname is the name of the function whose **toString** method was called:Copy Code function functionname( ) { [native code] }|
+|Number|Returns the textual representation of the number.|
+|String|Returns the value of the String object.|
+|Default|Returns `"[object objectname]"` , where `objectname` is the name of the object type.|
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [function Statement](/javascript/statements/function)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k6xhc6yc(v=vs.94).aspx)
 

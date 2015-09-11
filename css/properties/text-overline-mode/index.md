@@ -1,45 +1,57 @@
 ---
 title: text-overline-mode
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/7283851'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`continuous`'
+  'Applies to': 'all elements with and generated content with textual content'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value (except for initial and inherit)'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the mode for the overline text decoration, determining whether the text decoration affects the space characters or not.'
-code_samples:
-  - 'http://gist.github.com/7283851'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-overline-mode
 
 ---
-# text-overline-mode
-
-## Summary
+## <span>Summary</span>
 
 Sets the mode for the overline text decoration, determining whether the text decoration affects the space characters or not.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `continuous`
+
 Applies to
 :   all elements with and generated content with textual content
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value (except for initial and inherit)
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `text-overline-mode: continuous`
 -   `text-overline-mode: skip-white-space`
 
-## Values
+## <span>Values</span>
 
 continuous
 :   This value means that the line is continuous.
@@ -47,11 +59,11 @@ continuous
 skip-white-space
 :   This means that space characters will not be lined.
 
-## Examples
+## <span>Examples</span>
 
 Currently not implemented in any browser, so example is incomplete.
 
-``` {.css}
+``` css
 p {
   text-overline-mode: skip-white-space;
 }
@@ -59,14 +71,11 @@ p {
 
 [View live example](http://code.webplatform.org/gist/7283851)
 
-## Notes
+## <span>Notes</span>
 
 Not implemented in any browser, but Chrome has a placeholder property for it (which may fool any feature detectors into thinking it works).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-mode)
 :   Candidate Recommendation
-

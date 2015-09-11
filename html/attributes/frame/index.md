@@ -1,47 +1,51 @@
 ---
 title: frame
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/frame.htm'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/frame.htm'
 uri: html/attributes/frame
 
 ---
-# frame
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-## Examples
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **FRAME** attribute to render different border frames.
 
-    <TABLE FRAME="above">
-    <TR><TD>A table with</TD><TD>the value of frame set to "above"</TD></TR>
-    <TR><TD>cell</TD><TD>cell</TD></TR>
-    </TABLE>
+``` html
+<TABLE FRAME="above">
+<TR><TD>A table with</TD><TD>the value of frame set to "above"</TD></TR>
+<TR><TD>cell</TD><TD>cell</TD></TR>
+</TABLE>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/frame.htm)
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `table`
 -   `rules`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

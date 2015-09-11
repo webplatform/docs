@@ -1,44 +1,51 @@
 ---
 title: currentTime
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationTimeline
+    href: /apis/web_animations/AnimationTimeline
+  return:
+    predicate: 'Returns an object of type '
+    value: double
+    href: /apis/web_animations/AnimationTimeline
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the time value for this timeline or null if this timeline is inactive.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Web
   5: Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the time value for this timeline or null if this timeline is inactive.'
 uri: 'apis/web animations/AnimationTimeline/currentTime'
 
 ---
-# currentTime
-
-## Summary
+## <span>Summary</span>
 
 Returns the time value for this timeline or null if this timeline is inactive.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)</span></span>
+Property of [apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)[apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.currentTime;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">double</span></span>
+Returns an object of type doubledouble
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -59,8 +66,6 @@ var result = element.currentTime;
 -   **currentTime**
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -88,7 +93,4 @@ var result = element.currentTime;
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

@@ -1,50 +1,46 @@
 ---
 title: Intl
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The Intl object serves as a namespace for the i18n API. It is a standard built-in object that is the initial value of the Intl property of the global object. It is not possible to use the Intl object as a constructor with the new operator. It is not possible to invoke the Intl object as a function.'
 tags:
   - API
   - Objects
   - Internationalization
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The Intl object serves as a namespace for the i18n API. It is a standard built-in object that is the initial value of the Intl property of the global object. It is not possible to use the Intl object as a constructor with the new operator. It is not possible to invoke the Intl object as a function.'
 uri: apis/internationalization/Intl
 
 ---
-# Intl
-
-## Summary
+## <span>Summary</span>
 
 The Intl object serves as a namespace for the i18n API. It is a standard built-in object that is the initial value of the Intl property of the global object. It is not possible to use the Intl object as a constructor with the new operator. It is not possible to invoke the Intl object as a function.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 Checking if i18n API is supported.
 
-``` {.js}
+``` js
 if (Intl !== undefined) {
   use Intl methods
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Internationalization Overview](http://www.w3.org/standards/webdesign/i18n)
 :   W3C Standard
+
 [Internationalization Tag Sets](http://www.w3.org/TR/its20/)
 :   W3C Recommendation
-

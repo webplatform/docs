@@ -1,47 +1,63 @@
 ---
 title: animation-play-state
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://gist.github.com/7044978'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`running`'
+  'Applies to': 'All elements, ::before and ::after pseudo-elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Defines whether an animation is running or paused.'
-code_samples:
-  - 'http://gist.github.com/7044978'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/animation-play-state
 
 ---
-# animation-play-state
-
-## Summary
+## <span>Summary</span>
 
 Defines whether an animation is running or paused.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `running`
+
 Applies to
 :   All elements, ::before and ::after pseudo-elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `animation-play-state: paused`
 -   `animation-play-state: running`
 
-## Values
+## <span>Values</span>
 
 running
 :   Plays the animation. If restarting a paused animation, the animation resumes from the current (paused) state.
@@ -49,13 +65,13 @@ running
 paused
 :   Pauses the animation. A paused animation continues to display the current state of the animation.
 
-## Examples
+## <span>Examples</span>
 
 The CSS uses the animation property and the @keyframes property as well as the animation-play-state property and more.
 
 The example show how to create a counter like function. By using the ":checked" selector for radio buttons we toggle the animation states for the counter
 
-``` {.css}
+``` css
 /* position the handles */
 #stopwatch_handles {
     margin-top: 0px;
@@ -112,7 +128,7 @@ The height is 30 and the there are 10 digits so to move up we use -300px (30x10)
 
 A mobile-like interface featuring a keyframe-animated pulsing icon. When the application enters an interruption mode, the icon is paused and the page presents another panel to indicate that the animation is inactive.
 
-``` {.css}
+``` css
 div.selected {
     animation: pulse 0.5s infinite alternate running;
 }
@@ -135,20 +151,18 @@ body.interrupt div.selected {
 
 [View live example](http://code.webplatform.org/gist/7044978)
 
-## Usage
+## <span>Usage</span>
 
      Can also be a comma-separated list of play states, e.g., running, paused, running, where each play state is applied to the corresponding ordinal position value of the animation-name property.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Animation](http://www.w3.org/TR/css3-animations/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)
@@ -160,10 +174,3 @@ Specification
 -   [animation-iteration-count](/css/properties/animation-iteration-count)
 -   [animation-name](/css/properties/animation-name)
 -   [animation-timing-function](/css/properties/animation-timing-function)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

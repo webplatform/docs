@@ -1,35 +1,45 @@
 ---
 title: nodeType
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.nodeType](https://developer.mozilla.org/en-US/docs/Web/API/Node.nodeType) Article]'
+  - 'Microsoft Developer Network: [[nodeType Property](http://msdn.microsoft.com/en-us/library/ie/ms534191(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Node
+    href: /dom/Node
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/Node
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves the type of the requested node.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Retrieves the type of the requested node.'
 uri: dom/Node/nodeType
 
 ---
-# nodeType
-
-## Summary
+## <span>Summary</span>
 
 Retrieves the type of the requested node.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Node](/dom/Node)</span></span>
+Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var nodeType = node.nodeType;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 One of the node type constants defined on [Node](/dom/Node), or null.
 
@@ -57,17 +67,17 @@ Node.DOCUMENT\_FRAGMENT\_NODE = 11
 
 Node.NOTATION\_NODE = 12
 
-## Examples
+## <span>Examples</span>
 
 This example assigns the **nodeType** property of the **body** object to a variable.
 
-``` {.js}
+``` js
 var iType = document.body.nodeType;
 ```
 
 This example assigns the **nodeType** property of a node created with the [**createElement**](/dom/Document/createElement) method to a variable.
 
-``` {.js}
+``` js
 var oNode = document.createElement("B");
 document.body.insertBefore(oNode);
 var iType = oNode.nodeType;
@@ -75,7 +85,7 @@ var iType = oNode.nodeType;
 
 This example users the node constants to return the nodeType description.
 
-``` {.js}
+``` js
 function getNodeTypeName(nType){
    switch (nType){
         case Node.ELEMENT_NODE:
@@ -108,7 +118,7 @@ function getNodeTypeName(nType){
    }
 ```
 
-## Notes
+## <span>Notes</span>
 
 If the node represents an attribute retrieved from the [**attributes**](/dom/Node/attributes) collection, the **nodeType** returns `null`.
 
@@ -120,18 +130,7 @@ Use the HTML comment block instead.
 
 \<comment\> this is a legacy IE comment tag and will display on your web page... do not use or remove from your legacy pages\</comment\>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.nodeType](https://developer.mozilla.org/en-US/docs/Web/API/Node.nodeType) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[nodeType Property](http://msdn.microsoft.com/en-us/library/ie/ms534191(v=vs.85).aspx) Article]
-

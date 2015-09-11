@@ -1,43 +1,50 @@
 ---
 title: fullscreenElement
+notes:
+  - 'Needs mobile compat'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Document
+    href: /dom/Document
+  return:
+    predicate: 'Returns an object of type '
+    value: Element
+    href: /dom/Document
+standardization_status: 'W3C Working Draft'
+summary: 'Exposes the current fullscreen state, returning the element that is displayed fullscreen, or null if there is no such element.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs mobile compat'
-summary: 'Exposes the current fullscreen state, returning the element that is displayed fullscreen, or null if there is no such element.'
 uri: dom/Document/fullscreenElement
 
 ---
-# fullscreenElement
-
-## Summary
+## <span>Summary</span>
 
 Exposes the current fullscreen state, returning the element that is displayed fullscreen, or null if there is no such element.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var element = document.fullscreenElement;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Element</span></span>
+Returns an object of type ElementElement
 
 Returns the element that is displayed fullscreen, or `null` if there is no such element.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function inFullScreen() {
   if (document.fullscreenElement == null) {
     // no element is in full-screen mode
@@ -50,17 +57,15 @@ function inFullScreen() {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Fullscreen](http://www.w3.org/TR/fullscreen/#api)
 :   Working Draft
 
-## Related specifications
+## <span>Related specifications</span>
 
 [W3C fullscreen working draft](http://www.w3.org/TR/fullscreen/)
 
-## See also
+## <span>See also</span>
 
 Tutorial: [Using the full-screen API](http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api)

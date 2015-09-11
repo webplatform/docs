@@ -1,20 +1,22 @@
 ---
 title: bitwise xor assignment
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/06f6ta51(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Performs a bitwise exclusive OR on a variable and an expression and assigns the result to the variable.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Performs a bitwise exclusive OR on a variable and an expression and assigns the result to the variable.'
 uri: 'javascript/operators/bitwise xor assignment'
 
 ---
-# bitwise xor assignment
-
-## Summary
+## <span>Summary</span>
 
 Performs a bitwise exclusive OR on a variable and an expression and assigns the result to the variable.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result ^= expression
 
@@ -24,17 +26,17 @@ Performs a bitwise exclusive OR on a variable and an expression and assigns the 
 **expression**
 :   Any expression.
 
-## Examples
+## <span>Examples</span>
 
 See Remarks.
 
-``` {.js}
+``` js
 var x = 5;
 x ^= 12;
 // result: x = 9
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Using the **\^=** operator is exactly the same as specifying:
 
@@ -49,15 +51,9 @@ The **\^=** operator looks at the binary representation of the values of two exp
 
 When one, and only one, of the expressions has a 1 in a digit, the result has a 1 in that digit. Otherwise, the result has a 0 in that digit.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Bitwise XOR Operator (\^)](/javascript/operators/bitwise_xor)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/06f6ta51(v=vs.94).aspx)
 

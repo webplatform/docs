@@ -1,28 +1,30 @@
 ---
 title: constructor
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155297(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Specifies the function that creates a string.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Specifies the function that creates a string.'
 uri: javascript/String/constructor
 
 ---
-# constructor
-
-## Summary
+## <span>Summary</span>
 
 Specifies the function that creates a string.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     string.constructor
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the constructor property.
 
-``` {.js}
+``` js
 var x = new String();
 
  if (x.constructor == String)
@@ -34,15 +36,9 @@ var x = new String();
  // Object is a String.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required string is the name of a string.
 
 The **constructor** property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the **Global** and **Math** objects. The **constructor** property contains a reference to the function that constructs instances of that particular object.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155297(v=vs.94).aspx)
 

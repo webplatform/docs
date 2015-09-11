@@ -1,48 +1,45 @@
 ---
 title: noFrames
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Deletion Candidate: It''s deprecated'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Not Ready'
+standardization_status: Deprecated
+summary: 'Recognized as a deprecated element. Intended to provide content for browsers that cannot, or are configured not to, display frames.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: Deprecated
-notes:
-  - 'Deletion Candidate: It''s deprecated'
-summary: 'Recognized as a deprecated element. Intended to provide content for browsers that cannot, or are configured not to, display frames.'
 uri: html/elements/noFrames
 
 ---
-# noFrames
-
-## Summary
+## <span>Summary</span>
 
 Recognized as a deprecated element. Intended to provide content for browsers that cannot, or are configured not to, display frames.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 Deprecated, see [[1]](http://www.w3.org/TR/html5/obsolete.html#non-conforming-features)
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **NOFRAMES** element to specify HTML that is rendered by browsers incapable of displaying frames.
 
-    <FRAMESET>
-    <NOFRAMES>You need Internet Explorer version 3.0 or later to view
-    frames!</NOFRAMES>
-    </FRAMESET>
+``` html
+<FRAMESET>
+<NOFRAMES>You need Internet Explorer version 3.0 or later to view
+frames!</NOFRAMES>
+</FRAMESET>
+```
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `frame`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

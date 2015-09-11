@@ -1,11 +1,12 @@
 ---
 title: beforeactivate
-tags:
-  - Events
-readiness: 'Not Ready'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Needs summary, examples, spec, and compat'
-uri: dom/Event/beforeactivate
+readiness: 'Not Ready'
+tags:
+  - Events
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -18,30 +19,70 @@ todo_broken_links:
     - dom/events/deactivate
     - dom/events/focusin
     - dom/events/focusout
+uri: dom/Event/beforeactivate
 
 ---
-# beforeactivate
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Each document may have up to one active element. Set the active element with the [**setActive**](/w/index.php?title=dom/methods/setActive&action=edit&redlink=1) or [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) methods. Using the **setActive** method has no effect on document focus. Using the **focus** method on an individual element causes the element to gain focus and become the active element. Using the [**focus**](/w/index.php?title=dom/methods/focus&action=edit&redlink=1) method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus. For a given display, only one element has focus at any given time. Striking a key directly affects only the element with focus. Events fired by that keystroke may be scripted to affect other documents and child elements. With Microsoft Internet Explorer 5.5 and later, focus on a [**Document**](/dom/Document), and the [**active element**](/w/index.php?title=dom/properties/activeElement&action=edit&redlink=1) of a **document** can be managed separately. With Microsoft Internet Explorer 6 and later, use the **onbeforeactivate** event to cancel setting an element as active. Canceling an element's **onbeforeactivate** event has three different behaviors, depending on the action which fired the event.
 
@@ -100,20 +141,20 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLInputImageEvents2**
 -   **HTMLDocumentEvents**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `a`
 -   `address`
@@ -199,10 +240,3 @@ There are no standards that apply here.
 -   `ondeactivate`
 -   `onfocusin`
 -   `onfocusout`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

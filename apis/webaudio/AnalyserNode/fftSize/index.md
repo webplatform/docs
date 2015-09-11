@@ -1,48 +1,52 @@
 ---
 title: fftSize
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AnalyserNode
+    href: /apis/webaudio/AnalyserNode
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/webaudio/AnalyserNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The size of the FFT (Fast Fourier Transform) used for frequency-domain analysis. Must be a power of two in the range 32-2048; defaults to 2048.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The size of the FFT (Fast Fourier Transform) used for frequency-domain analysis. Must be a power of two in the range 32-2048; defaults to 2048.'
 uri: apis/webaudio/AnalyserNode/fftSize
 
 ---
-# fftSize
-
-## Summary
+## <span>Summary</span>
 
 The size of the FFT (Fast Fourier Transform) used for frequency-domain analysis. Must be a power of two in the range 32-2048; defaults to 2048.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)</span></span>
+Property of [apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)[apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AnalyserNode.fftSize;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var analyser = audioCtx.createAnalyser();
 analyser.fftSize = 2048;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

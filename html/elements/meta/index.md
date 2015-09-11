@@ -1,33 +1,35 @@
 ---
 title: meta
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "Format HTML attributes list\nUser agent support per property"
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLMetaElement](/dom/HTMLMetaElement)'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The &lt;meta&gt; element embeds various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - "Format HTML attributes list\nUser agent support per property"
-summary: 'The <meta> element embeds various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.'
-uri: html/elements/meta
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/methods/setAttribute
+uri: html/elements/meta
 
 ---
-# meta
+## <span>Summary</span>
 
-## Summary
+The &lt;meta&gt; element embeds various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.
 
-The \<meta\> element embeds various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLMetaElement](/dom/HTMLMetaElement)
 
-## Attributes
+## <span>Attributes</span>
 
 -   `name` = string
     Sets document metadata.
@@ -61,59 +63,54 @@ Other metadata names may be registered in the WHATWG Wiki MetaExtensions page.
 -   `charset` = character encoding name
     Specifies the character encoding used by the document. [[Example A]](#Example_A)
 
-## Internationalization
+## <span>Internationalization</span>
 
 -   [Declaring the character encoding for HTML](http://www.w3.org/International/techniques/authoring-html#indoc)
 -   [Choosing and applying a character encoding](http://www.w3.org/International/techniques/authoring-html#choosing)
 -   [Changing to UTF-8](http://www.w3.org/International/techniques/authoring-html#changing)
 
-## Examples
+## <span>Examples</span>
 
 A minimal HTML document with meta information.
 
-    <html>
-    <head>
-      <title>World Wide Web Consortium (W3C)</title>
-      <meta charset=utf-8" />
-      <meta name="description"
-            content="The World Wide Web Consortium (W3C) is an international community
-            where Member organizations, a full-time staff,
-            and the public work together to develop Web standards." />
-      <meta name="keyword" content="W3C, HTML, CSS, SVG, Web standards" />
-    </head>
-    <body></body>
-    </html>
+``` html
+<html>
+<head>
+  <title>World Wide Web Consortium (W3C)</title>
+  <meta charset=utf-8" />
+  <meta name="description"
+        content="The World Wide Web Consortium (W3C) is an international community
+        where Member organizations, a full-time staff,
+        and the public work together to develop Web standards." />
+  <meta name="keyword" content="W3C, HTML, CSS, SVG, Web standards" />
+</head>
+<body></body>
+</html>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **META** element also embeds document information that some search engines use to index and categorize documents on the World Wide Web. This element can be used only within the **HEAD** element. Windows Internet Explorer 8 or later. The behavior of the [**setAttribute**](/w/index.php?title=dom/methods/setAttribute&action=edit&redlink=1) method depends on the current document compatibility mode. For more information, see Attribute Differences in Internet Explorer 8
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/document-metadata.html#the-meta-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/document-metadata.html#the-meta-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-META)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `content`
 -   `httpEquiv`
 -   `Conceptual`
 -   `Defining Document Compatibility`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

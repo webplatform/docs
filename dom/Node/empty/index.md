@@ -1,35 +1,44 @@
 ---
 title: empty
+attributions:
+  - 'Microsoft Developer Network: [[empty() Method](http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx) Article]'
+notes:
+  - "I think the empty method only applies to the selection object, not a node collection.\nthis is legacy MSIE method of document.selection(); and does not apply to document Nodes.\n\nMSDN doco ref: http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx"
+readiness: 'Out of Date'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Node
+    href: /dom/Node
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Number
+    href: /dom/Node
+standardization_status: Non-Standard
+summary: 'Cancels the current selection, sets the selection type to none, and sets the item property to null. '
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Out of Date'
-standardization_status: Non-Standard
-notes:
-  - "I think the empty method only applies to the selection object, not a node collection.\nthis is legacy MSIE method of document.selection(); and does not apply to document Nodes.\n\nMSDN doco ref: http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx"
-summary: 'Cancels the current selection, sets the selection type to none, and sets the item property to null. '
 uri: dom/Node/empty
 
 ---
-# empty
-
-## Summary
+## <span>Summary</span>
 
 Cancels the current selection, sets the selection type to none, and sets the item property to null.
 
-*Method of [dom/Node](/dom/Node)*
+Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = selection.empty();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Number.
+Returns an object of type NumberNumber
 
 Type: **HRESULT**
 
@@ -37,15 +46,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Selection`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[empty() Method](http://msdn.microsoft.com/en-us/library/ie/ms536418(v=vs.85).aspx) Article]
-

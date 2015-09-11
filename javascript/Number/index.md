@@ -1,29 +1,31 @@
 ---
 title: Number
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dwab3ed2(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'An object that represents a number of any kind. All JavaScript numbers are 64-bit floating-point numbers.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'An object that represents a number of any kind. All JavaScript numbers are 64-bit floating-point numbers.'
 uri: javascript/Number
 
 ---
-# Number
-
-## Summary
+## <span>Summary</span>
 
 An object that represents a number of any kind. All JavaScript numbers are 64-bit floating-point numbers.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     new Number( value )
 
 **value**
 :   Required. The numeric value.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // Returns an Object
 var thousand = new Number(1000);
 console.log(thousand.valueOf() === 1000);
@@ -34,19 +36,19 @@ console.log(thousand !== 1000);
 console.log(thousand == 1000);
 ```
 
-``` {.js}
+``` js
 // Returns an Object
 var googol = new Number(1e+100);
 console.log(googol.valueOf() === 1e+100);
 ```
 
-``` {.js}
+``` js
 // Alfred B. Taylor octal notation for the decimal number 10
 var untydu = new Number(012);
 console.log(untydu.valueOf() === 10);
 ```
 
-``` {.js}
+``` js
 // Converting decimal variables to hexadecimal notation
 // by http://stackoverflow.com/users/444910/mystifeid
 function decimalToHex(d) {
@@ -59,13 +61,13 @@ console.log(decimalToHex(127) === "00007f");
 console.log(parseInt("00007f", 16) === 127);
 ```
 
-``` {.js}
+``` js
 // Infinity JavaScript Number constant
 var andBeyond = 3 / 0;
 console.log(andBeyond === Infinity);
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 JavaScript creates **Number** objects when a variable is set to a number value, for example `var num = 255.336;`. It is seldom necessary to create **Number** objects explicitly.
 
@@ -77,7 +79,7 @@ For a value that can not be converted to a number, the `Number()` function retur
 
 Only basic types such as strings and boolean values can be converted to numbers. Note, however, that a string can be converted to a number only if it is a numeric string:
 
-``` {.js}
+``` js
 Number("123"); // 123
 Number("foo"); // NaN
 Number("123foo"); // NaN
@@ -88,7 +90,7 @@ Number("123foo"); // NaN
 Biggest int possible is 9007199254740992.
  Smallest int possible is -9007199254740992.
 
-``` {.js}
+``` js
 var biggestInt = Math.pow(2, 53); // 9007199254740992
 console.log(biggestInt  + 1 === 9007199254740992) ;
 console.log(biggestInt  + 2 === 9007199254740994) ;
@@ -100,41 +102,33 @@ Octal (base-8) and hexadecimal (base-16) numbers can be used in JavaScript.
  Octal numbers must begin with 0 (zero) followed by one or more octal digits.
  Hexadecimal numbers must begin with 0x.
 
-## Properties
+## <span>Properties</span>
 
 The following table lists the properties of the **Number** object.
 
-Property
-:   Description
-[constants](/javascript/Number/constants)
-:   Lists the constants of the Number object.
-[constructor](/javascript/Number/constructor)
-:   Specifies the function that creates an object.
-[prototype](/javascript/Number/prototype)
-:   Returns a reference to the prototype for a class of number.
+|Property|Description|
+|:-------|:----------|
+|[constants](/javascript/Number/constants)|Lists the constants of the Number object.|
+|[constructor](/javascript/Number/constructor)|Specifies the function that creates an object.|
+|[prototype](/javascript/Number/prototype)|Returns a reference to the prototype for a class of number.|
 
-## Methods
+## <span>Methods</span>
 
 The following table lists the methods of the **Number** object.
 
-Method
-:   Description
-[toExponential](/javascript/Number/toExponential)
-:   Returns a string that contains a number represented in exponential notation.
-[toFixed](/javascript/Number/toFixed)
-:   Returns a string that represents a number in fixed-point notation.
-[toPrecision](/javascript/Number/toPrecision)
-:   Returns a string that contains a number that is represented in either exponential or fixed-point notation and that has a specified number of digits.
-[toString](/javascript/Number/toString)
-:   Returns a string representation of an object.
-[valueOf](/javascript/Number/valueOf)
-:   Returns the primitive value of the specified object.
+|Method|Description|
+|:-----|:----------|
+|[toExponential](/javascript/Number/toExponential)|Returns a string that contains a number represented in exponential notation.|
+|[toFixed](/javascript/Number/toFixed)|Returns a string that represents a number in fixed-point notation.|
+|[toPrecision](/javascript/Number/toPrecision)|Returns a string that contains a number that is represented in either exponential or fixed-point notation and that has a specified number of digits.|
+|[toString](/javascript/Number/toString)|Returns a string representation of an object.|
+|[valueOf](/javascript/Number/valueOf)|Returns the primitive value of the specified object.|
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Javascript
+#### <span>Javascript</span>
 
 -   [propertyName](/dom/TransitionEvent/propertyName)
 
@@ -144,7 +138,7 @@ Method
 
 -   [future reserved words](/javascript/future_reserved_words)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [JavaScript Objects](/javascript/objects)
 -   [Math Object](/javascript/Math)
@@ -152,21 +146,15 @@ Method
 -   [JavaScript NaN constant](/javascript/NaN)
 -   [JavaScript Infinity constant](/javascript/Infinity)
 
-### External resources
+### <span>External resources</span>
 
--   [http://en.wikipedia.org/wiki/Octal](http://en.wikipedia.org/wiki/Octal)
--   [http://en.wikipedia.org/wiki/Hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal)
--   [http://www.2ality.com/2012/04/number-encoding.html](http://www.2ality.com/2012/04/number-encoding.html)
+-   <http://en.wikipedia.org/wiki/Octal>
+-   <http://en.wikipedia.org/wiki/Hexadecimal>
+-   <http://www.2ality.com/2012/04/number-encoding.html>
 
-### Specification
+### <span>Specification</span>
 
 [8.5 The Number Type](http://www.ecma-international.org/ecma-262/5.1/#sec-8.5)
 
 ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dwab3ed2(v=vs.94).aspx)
 

@@ -1,32 +1,34 @@
 ---
 title: parseFloat
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d5hbbd4z(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Converts a string to a floating-point number.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Converts a string to a floating-point number.'
 uri: javascript/parseFloat
 
 ---
-# parseFloat
-
-## Summary
+## <span>Summary</span>
 
 Converts a string to a floating-point number.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     parseFloat( numString )
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 parseFloat("123.45")  // returns 123.45
 parseFloat("abc")  // returns NaN
 parseFloat("1.2abc")  // returns 1.2
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required numString argument is a string that contains a floating-point number.
 
@@ -34,17 +36,11 @@ The **parseFloat** function returns a numerical value equal to the number contai
 
 You can test for **NaN** using the **isNaN** function.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [isNaN Function](/javascript/isNaN)
 -   [parseInt Function](/javascript/parseInt)
 -   [String Object](/javascript/String)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d5hbbd4z(v=vs.94).aspx)
 

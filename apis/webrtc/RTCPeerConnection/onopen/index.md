@@ -1,31 +1,34 @@
 ---
 title: onopen
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: 'W3C Working Draft'
+summary: "Handles the open event.\n"
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: "Handles the open event.\n"
 uri: apis/webrtc/RTCPeerConnection/onopen
 
 ---
-# onopen
-
-## Summary
+## <span>Summary</span>
 
 Handles the open event.
 
 Testing.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)</span></span>
+Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.onopen;
 element.onopen = value;
 ```

@@ -1,123 +1,113 @@
 ---
 title: openKeyCursor
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBIndex
+    href: /apis/indexeddb/IDBIndex
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBIndex
+summary: 'Creates a cursor.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Creates a cursor.'
 uri: apis/indexeddb/IDBIndex/openKeyCursor
 
 ---
-# openKeyCursor
-
-## Summary
+## <span>Summary</span>
 
 Creates a cursor.
 
-*Method of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)*
+Method of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.openKeyCursor(range, direction);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### range
+### <span>range</span>
 
- Data-type�
+ Data-type
 :   Blob
 
  A key range limiting the cursor to a specific set of values.
 
-### direction
+### <span>direction</span>
 
- Data-type�
+ Data-type
 :   Blob
 
  Indicates the direction of traversal and whether duplicate values are included.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
-<dl data-table="wikitable">
+<table>
+<col width="50%" />
+<col width="50%" />
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Exception properties</strong></td>
+<td align="left"><strong>Description</strong></td>
+</tr>
+<tr class="even">
+<td align="left"><dl>
+<p></p>
 <dt>
-**Exception properties**
-
+<strong>name</strong>: DataError
 </dt>
-<dd>
-**Description**
-
-</dd>
+</dl></td>
+<td align="left">The values specified in the <strong>range</strong> parameter are not valid for the data source.</td>
+</tr>
+<tr class="odd">
+<td align="left"><dl>
+<p></p>
 <dt>
-<dl>
-
-<dt>
-**name**: DataError
-
-</dt>
-</dl>
-</dt>
-<dd>
-The values specified in the **range** parameter are not valid for the data source.
-
-</dd>
-<dt>
-<dl>
-
-<dt>
-**name**: InvalidStateError
-
+<strong>name</strong>: InvalidStateError
 </dt>
 <dt>
-**code**: DOMException.INVALID\_STATE\_ERR (11)
-
+<strong>code</strong>: DOMException.INVALID_STATE_ERR (11)
 </dt>
-</dl>
-</dt>
-<dd>
-The object store has been deleted or is otherwise unavailable.
-
-</dd>
+</dl></td>
+<td align="left">The object store has been deleted or is otherwise unavailable.</td>
+</tr>
+<tr class="even">
+<td align="left"><dl>
+<p></p>
 <dt>
-<dl>
-
-<dt>
-**name**: TransactionInactiveError
-
+<strong>name</strong>: TransactionInactiveError
 </dt>
-</dl>
-</dt>
-<dd>
-The associated transaction is not active.
+</dl></td>
+<td align="left">The associated transaction is not active.</td>
+</tr>
+</tbody>
+</table>
 
-</dd>
-</dl>
   **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

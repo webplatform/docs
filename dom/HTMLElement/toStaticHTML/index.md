@@ -1,47 +1,56 @@
 ---
 title: toStaticHTML
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, clean-up MSDN import'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/HTMLElement
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'summary, clean-up MSDN import'
 uri: dom/HTMLElement/toStaticHTML
 
 ---
-# toStaticHTML
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [dom/HTMLElement](/dom/HTMLElement)*
+Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.toStaticHTML(bstrHTML, pbstrStaticHTML);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### bstrHTML
+### <span>bstrHTML</span>
 
- Data-typeÂ
+ Data-type
 :   BSTR
 
  An HTML fragment.
 
-### pbstrStaticHTML
+### <span>pbstrStaticHTML</span>
 
- Data-typeÂ
+ Data-type
 :   BSTR
 
  An HTML fragment consisting of static elements only.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -51,51 +60,46 @@ String
 
 An HTML fragment consisting of static elements only.
 
-## Examples
+## <span>Examples</span>
 
 The following script demonstrates how **toStaticHTML** sanitizes script and dynamic HTML attributes. The result of the operation is: `<span>Click Me</span>`.
 
-    <script type="text/javascript">
-    function sanitize()
-    {
-        var szInput = myDiv.innerHTML;
-        var szStaticHTML = toStaticHTML(szInput);
-        ResultComment = "\ntoStaticHTML sanitized the HTML fragment as follows:\n"
-            + "Original Content:\n" + szInput + "\n"
-            + "Static Content:\n" + szStaticHTML + "\n";
-        myDiv.innerText = ResultComment;
-    }
-    </script>
-    </head>
-    <body onload="sanitize()">
-        <div id="myDiv">
-        <script>function test() { alert("Testing, Testing, 123..."); }</script>
-        <span onclick="test()">Click Me</span>
-        </div>
-    </body>
+``` html
+<script type="text/javascript">
+function sanitize()
+{
+    var szInput = myDiv.innerHTML;
+    var szStaticHTML = toStaticHTML(szInput);
+    ResultComment = "\ntoStaticHTML sanitized the HTML fragment as follows:\n"
+        + "Original Content:\n" + szInput + "\n"
+        + "Static Content:\n" + szStaticHTML + "\n";
+    myDiv.innerText = ResultComment;
+}
+</script>
+</head>
+<body onload="sanitize()">
+    <div id="myDiv">
+    <script>function test() { alert("Testing, Testing, 123..."); }</script>
+    <span onclick="test()">Click Me</span>
+    </div>
+</body>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **toStaticHTML** method can be used to remove event attributes and script from user input before it is displayed as HTML. Malicious HTML can be passed on a URL, in form parameters, or across domains by **XDomainRequest** or [**postMessage**](/dom/Window/postMessage). Always validate user input before adding it as an HTML fragment to a webpage or storing it in a database. **Note**Â Â Â This method does not filter the attributes of the **base** element. This can cause potentially unwanted redirect requests for **link** and [**anchor**](/html/elements/a) elements injected into a webpage. For best results, only use **toStaticHTML** to modify elements in the body of a webpage.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `window`
 -   `innerHTML`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

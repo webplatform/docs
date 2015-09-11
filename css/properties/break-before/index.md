@@ -1,46 +1,62 @@
 ---
 title: break-before
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6158525'
+  - 'http://gist.github.com/6167152'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'block-level elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`breakBefore`'
+  Percentages: n/a
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Control page/column/region breaks that fall above a block of content'
 tags:
   0: CSS
   1: Properties
   3: CSS-Regions
   4: Flexbox
   5: UI
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Control page/column/region breaks that fall above a block of content'
-code_samples:
-  - 'http://gist.github.com/6158525'
-  - 'http://gist.github.com/6167152'
 uri: css/properties/break-before
 
 ---
-# break-before
-
-## Summary
+## <span>Summary</span>
 
 Control page/column/region breaks that fall above a block of content
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   block-level elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `breakBefore`
+
 Percentages
 :   n/a
 
-## Syntax
+## <span>Syntax</span>
 
 -   `break-before: always`
 -   `break-before: auto`
@@ -54,7 +70,7 @@ Percentages
 -   `break-before: region`
 -   `break-before: right`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. A page break or column break is determined by the flow of content.
@@ -89,9 +105,9 @@ region
 avoid-region
 :   A [region](/css/concepts/region) break is not allowed before the content block.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* forces top-level headings onto a new page, column, or region */
 h1 {
     break-before: always;
@@ -107,7 +123,7 @@ h2, h3 {
 
 Forces h3s onto a new column.
 
-``` {.css}
+``` css
 h3 {
     break-before: always;
 }
@@ -119,7 +135,7 @@ Currently, must use WebKit Nightly or Chrome Canary with experimental features e
 
 Assuming the main content is at div class="main" and contains h3s, and 6 div class="region", the content will flow into these 6 regions.
 
-``` {.css}
+``` css
 .region {
     flow-from: main;
 }
@@ -136,28 +152,28 @@ h3 {
 
 [View live example](http://code.webplatform.org/gist/6167152)
 
-## Usage
+## <span>Usage</span>
 
      This property replaces separate column-break-before, page-break-before, and region-break-before properties, which may still be present in some browser implementations.
 
 Frequent use case is in a print stylesheet.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://dev.w3.org/csswg/css3-regions/)
 :   W3C Working Draft
+
 [CSS Fragmentation Module Level 3](http://www.w3.org/TR/css3-break/#break-properties)
 :   W3C Working Draft
+
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/#column-breaks)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -172,8 +188,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -203,7 +217,7 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   [border](/css/properties/border)
 
@@ -245,7 +259,7 @@ Specification
 
 -   [min-width](/css/properties/min-width)
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -283,7 +297,7 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Flexbox
+#### <span>Flexbox</span>
 
 -   [align-content](/css/properties/align-content)
 
@@ -309,7 +323,7 @@ Specification
 
 -   [justify-content](/css/properties/justify-content)
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -335,7 +349,7 @@ Specification
 
 -   [content](/css/properties/content)
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -393,7 +407,7 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-#### Responsive Web Design
+#### <span>Responsive Web Design</span>
 
 -   **break-before**
 
@@ -401,19 +415,12 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Shapes
+#### <span>Shapes</span>
 
 -   **break-before**
 
-### External resources
+### <span>External resources</span>
 
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

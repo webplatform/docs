@@ -1,47 +1,63 @@
 ---
 title: quotes
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5841933'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`depends on user agent/element`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the type of quotation marks for embedded quotations.'
-code_samples:
-  - 'http://gist.github.com/5841933'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/quotes
 
 ---
-# quotes
-
-## Summary
+## <span>Summary</span>
 
 Sets the type of quotation marks for embedded quotations.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `depends on user agent/element`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `quotes: [<string>  <string>]+`
 -   `quotes: none`
 
-## Values
+## <span>Values</span>
 
 [\<string\> \<string\>]+
 :   The "open-quote" and "close-quote" values are taken from the specified list of pairs of quotation marks. The first (leftmost) pair represents the outermost level of quotation, the second pair the first level of embedding, etc.
@@ -49,11 +65,11 @@ Percentages
 none
 :   The "open-quote" and "close-quote" values produce no quotation marks.
 
-## Examples
+## <span>Examples</span>
 
 Here we demonstrate nested quotes. Notice the syntax used to declare the quotes. Any character can be used for a quote, but this example uses `'` and `"`. If we wanted to declare `quotes: "«" "»" "!" "@"`, that would work, too. You can also escape the characters (e.g. `quotes: "\""`), if that is your preference.
 
-``` {.css}
+``` css
 q { quotes: '"' '"' "'" "'" }
 q:before { content: open-quote }
 q:after  { content: close-quote }
@@ -63,36 +79,27 @@ q:after  { content: close-quote }
 
 The HTML for the example above.
 
-``` {.html}
+``` html
 <p>
   <q>When I die, I'm donating my <q>body</q> to science fiction.</q>
   <em> ~ Stephen Wright</em>
 </p>
 ```
 
-## Notes
+## <span>Notes</span>
 
 Pairs of strings are required if the value is not `none`.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1](http://www.w3.org/TR/CSS21/generate.html#quotes)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

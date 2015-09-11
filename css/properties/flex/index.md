@@ -1,41 +1,55 @@
 ---
 title: flex
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_flexible_boxes)'
+code_samples:
+  - 'http://gist.github.com/5506026'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0 1 auto`'
+  'Applies to': 'flex items'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'See individual properties'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`flex`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The flex CSS property specifies the ability of a flex item to alter its dimensions to fill the available space. flex is a shorthand property comprised of the flex-grow, flex-shrink, and flex-basis properties. A flex item can be stretched to use available space proportional to its flex grow factor, or reduced proportional to its flex shrink factor to prevent overflow.'
 tags:
   - CSS
   - Properties
   - Flexbox
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The flex CSS property specifies the ability of a flex item to alter its dimensions to fill the available space. flex is a shorthand property comprised of the flex-grow, flex-shrink, and flex-basis properties. A flex item can be stretched to use available space proportional to its flex grow factor, or reduced proportional to its flex shrink factor to prevent overflow.'
-code_samples:
-  - 'http://gist.github.com/5506026'
 uri: css/properties/flex
 
 ---
-# flex
-
-## Summary
+## <span>Summary</span>
 
 The flex CSS property specifies the ability of a flex item to alter its dimensions to fill the available space. flex is a shorthand property comprised of the flex-grow, flex-shrink, and flex-basis properties. A flex item can be stretched to use available space proportional to its flex grow factor, or reduced proportional to its flex shrink factor to prevent overflow.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0 1 auto`
+
 Applies to
 :   flex items
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   See individual properties
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `flex`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `flex: 3 1 60%`
 -   `flex: <flex-grow> <flex-shrink> <flex-basis>`
@@ -43,7 +57,7 @@ Animatable
 -   `flex: initial`
 -   `flex: none`
 
-## Values
+## <span>Values</span>
 
 \<[flex-grow](/css/properties/flex-grow)\> \<[flex-shrink](/css/properties/flex-shrink)\> \<[flex-basis](/css/properties/flex-basis)\>
 :   The shorthand value of this property includes the following values:
@@ -79,11 +93,11 @@ initial
 -   The flex item shrinks proportional to the other flex items to fit a smaller container.
 -   The flex item's initial main size is determined by either the [width](/css/properties/width) or [height](/css/properties/height) property, whichever is in the main dimension, as determined by the [flex-direction](/css/properties/flex-flow) property.
 
-## Examples
+## <span>Examples</span>
 
 The Holy Grail layout CSS: how to set up one layout that covers both desktop and mobile use cases.
 
-``` {.css}
+``` css
 body {
    font: 24px Helvetica;
    background: #999999;
@@ -160,7 +174,7 @@ body {
 
 The Holy Grail layout HTML.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -169,28 +183,25 @@ The Holy Grail layout HTML.
   </head>
   <body>
  <header>header</header>
-
-   <article>article</article>
-   <nav>nav</nav>
-   <aside>aside</aside>
+ <div id='main'>
+    <article>article</article>
+    <nav>nav</nav>
+    <aside>aside</aside>
+ </div>
+ <footer>footer</footer>
+  </body>
+</html>
 ```
 
-    <footer>footer</footer>
-     </body>
-
-\</html\>
-
-</pre>
 [View live example](http://code.webplatform.org/gist/5506026)
 
-</div>
-## Usage
+## <span>Usage</span>
 
      * Best practice is to always specify a unit for the flex-basis value, i.e. 30em or 60%.
 
 -   The flex shrink factor is multiplied by the flex basis when distributing negative space.
 
-## Notes
+## <span>Notes</span>
 
 -   Negative values are invalid.
 -   The initial values of [flex-grow](/css/properties/flex-grow) and [flex-basis](/css/properties/flex-basis) are different from their values when omitted in the **flex** shorthand.
@@ -198,18 +209,16 @@ The Holy Grail layout HTML.
     -   **flex-basis** value when omitted: **0**
 -   When specifying only the flex-basis, a unitless zero not preceded by two flex factor values, for example, **  0** will be interpreted as a flex factor (probably flex-grow). If you wish to specify only the flex-basis, you must include a unit, for example, a percentage, as in **0%**.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Flexible Box Layout Module](http://dev.w3.org/csswg/css-flexbox/#flex)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Flexbox
+#### <span>Flexbox</span>
 
 -   [align-content](/css/properties/align-content)
 
@@ -235,17 +244,10 @@ Specification
 
 -   [justify-content](/css/properties/justify-content)
 
-### External resources
+### <span>External resources</span>
 
 Also, check out the following live demo sites and article about flexbox:
 
 -   [Flexbox Playground](http://demo.agektmr.com/flexbox/)
 -   [Flexy Boxes](http://the-echoplex.net/flexyboxes)
--   [http://tympanus.net/codrops/css\_reference/flexbox/](http://tympanus.net/codrops/css_reference/flexbox/)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](//static.webplatformstaging.org/w/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_flexible_boxes)
-
+-   <http://tympanus.net/codrops/css_reference/flexbox/>

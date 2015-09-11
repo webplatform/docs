@@ -1,52 +1,62 @@
 ---
 title: pause-after
+notes:
+  - 'Needs values, usage, example'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': ''
+  '[Inherited](/css/concepts/inherited)': ''
+  Media: speech
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: ''
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The pause-after property determines how long a speech media agent should pause after presenting an element.  It may be replaced by the shorthand property pause, which sets pause time before and after.'
 tags:
   - CSS
   - Properties
   - Accessibility
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs values, usage, example'
-summary: 'The pause-after property determines how long a speech media agent should pause after presenting an element.  It may be replaced by the shorthand property pause, which sets pause time before and after.'
 uri: css/properties/pause-after
 
 ---
-# pause-after
-
-## Summary
+## <span>Summary</span>
 
 The pause-after property determines how long a speech media agent should pause after presenting an element. It may be replaced by the shorthand property pause, which sets pause time before and after.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :
+
 [Inherited](/css/concepts/inherited)
 :
+
 Media
 :   speech
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
 
-## Syntax
+## <span>Syntax</span>
 
-## Values
+## <span>Values</span>
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#pause-after)
 :   W3C Candidate Recommendation
+
 [CSS 2.1, Appendix A. (Aural style sheets)](http://www.w3.org/TR/CSS21/aural.html)
 :   Deprecated
-

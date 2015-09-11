@@ -1,43 +1,43 @@
 ---
 title: details
+code_samples:
+  - 'http://gist.github.com/37f1ab4ad9cfb23eaa3d'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLDetailsElement](/w/index.php?title=dom/HTMLDetailsElement&action=edit&redlink=1)'
+standardization_status: 'W3C Working Draft'
+summary: 'The details element represents a disclosure widget from which the user can obtain additional information or controls.'
 tags:
   - Markup
   - Elements
-standardization_status: 'W3C Working Draft'
-summary: 'The details element represents a disclosure widget from which the user can obtain additional information or controls.'
-code_samples:
-  - 'http://gist.github.com/37f1ab4ad9cfb23eaa3d'
-uri: html/elements/details
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/HTMLDetailsElement
+uri: html/elements/details
 
 ---
-# details
-
-## Summary
+## <span>Summary</span>
 
 The details element represents a disclosure widget from which the user can obtain additional information or controls.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLDetailsElement](/w/index.php?title=dom/HTMLDetailsElement&action=edit&redlink=1)
 
-## Attributes
+## <span>Attributes</span>
 
-### open
+### <span>open</span>
 
 If the `open` attribute is set on the `details` tag, it will be open when it's rendered.
 
-## Browser support
+## <span>Browser support</span>
 
 The \<details\> tag is currently only supported in Chrome and in Safari on Mac.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <details open="open">
     <p>Foo</p>
     <p>Bar</p>
@@ -47,10 +47,8 @@ The \<details\> tag is currently only supported in Chrome and in Safari on Mac.
 
 [View live example](http://code.webplatform.org/gist/37f1ab4ad9cfb23eaa3d)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/interactive-elements.html#the-details-element)
 :   W3C Working Draft
 

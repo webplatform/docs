@@ -1,54 +1,60 @@
 ---
 title: name (frames)
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 uri: 'html/attributes/name (frames)'
 
 ---
-# name (frames)
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-## Examples
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses scripting to set the **name** property of a frame.
 
-    parent.frames[0].name="Left";
+``` html
+parent.frames[0].name="Left";
+```
 
 This example shows how the **NAME** attribute for a window can be persisted in HTML, but only when defined in a frame within a frameset.
 
-    <FRAMESET>
-        <FRAME NAME="Left" SRC="blank.htm">
-        <FRAME NAME="Right" SRC="contents.htm">
-    </FRAMESET>
+``` html
+<FRAMESET>
+    <FRAME NAME="Left" SRC="blank.htm">
+    <FRAME NAME="Right" SRC="contents.htm">
+</FRAMESET>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **name** property identifies which frame displays the content of a linked document.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `frame`
 -   `frameSet`
 -   `iframe`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

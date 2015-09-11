@@ -1,36 +1,43 @@
 ---
 title: applyAuthorStyles
+notes:
+  - 'Needs spec reference, standardization status, example'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/shadowdom/ShadowRoot
+    href: /dom/shadowdom/ShadowRoot
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/shadowdom/ShadowRoot
+summary: 'Indicates whether the rules in author styles associated with the element''s document apply to the shadow tree. If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.'
 tags:
   0: API
   1: Object
   2: Properties
   4: DOM
   5: Shadow
-readiness: 'In Progress'
-notes:
-  - 'Needs spec reference, standardization status, example'
-summary: 'Indicates whether the rules in author styles associated with the element''s document apply to the shadow tree. If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.'
 uri: dom/shadowdom/ShadowRoot/applyAuthorStyles
 
 ---
-# applyAuthorStyles
-
-## Summary
+## <span>Summary</span>
 
 Indicates whether the rules in author styles associated with the element's document apply to the shadow tree. If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)</span></span>
+Property of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.applyAuthorStyles;
 element.applyAuthorStyles = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 If false (default value), the author styles are not applied to the shadow tree. If true, the author styles are applied.
 

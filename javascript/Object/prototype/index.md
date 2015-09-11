@@ -1,24 +1,26 @@
 ---
 title: prototype
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/f5s9ycex(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a reference to the prototype for a class of objects.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a reference to the prototype for a class of objects.'
 uri: javascript/Object/prototype
 
 ---
-# prototype
-
-## Summary
+## <span>Summary</span>
 
 Returns a reference to the prototype for a class of objects.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     objectName.prototype
 
-## Examples
+## <span>Examples</span>
 
 The objectName argument is the name of an object.
 
@@ -26,7 +28,7 @@ Use the **prototype** property to provide a base set of functionality to a class
 
 For example, to add a method to the **Array** object that returns the value of the largest element of the array, declare the function, add it to **Array.prototype** , and then use it.
 
-``` {.js}
+``` js
 function array_max( ){
      var i, max = this[0];
      for (i = 1; i < this.length; i++)
@@ -45,21 +47,15 @@ function array_max( ){
  // 25
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 All intrinsic JavaScript objects have a **prototype** property that is read-only. Properties and methods may be added to the prototype, but the object may not be assigned a different prototype. However, user-defined objects may be assigned a new prototype.
 
 The method and property lists for each intrinsic object in this language reference indicate which ones are part of the object's prototype, and which are not.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [constructor Property (Object)](/javascript/Object/constructor)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/f5s9ycex(v=vs.94).aspx)
 

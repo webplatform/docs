@@ -1,71 +1,73 @@
 ---
 title: objectStore
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBTransaction
+    href: /apis/indexeddb/IDBTransaction
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBTransaction
+summary: 'Returns an object store that has already been added to the scope of this transaction.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns an object store that has already been added to the scope of this transaction.'
-uri: apis/indexeddb/IDBTransaction/objectStore
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - apis/indexedDB/IDBTransaction
+uri: apis/indexeddb/IDBTransaction/objectStore
 
 ---
-# objectStore
-
-## Summary
+## <span>Summary</span>
 
 Returns an object store that has already been added to the scope of this transaction.
 
-*Method of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)*
+Method of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.objectStore(name);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  Name of the object store to return.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions: {
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `IDBTransaction`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

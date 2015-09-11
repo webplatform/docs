@@ -1,51 +1,52 @@
 ---
 title: lengthComputable
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[ProgressEvent.lengthComputable](https://developer.mozilla.org/en-US/docs/Web/API/ProgressEvent.lengthComputable) Article]'
+  - 'Microsoft Developer Network: [[lengthComputable Property](http://msdn.microsoft.com/en-us/library/ie/hh772354(v=vs.85).aspx) Article]'
+notes:
+  - 'needs example'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/ProgressEvent
+    href: /dom/ProgressEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/ProgressEvent
+standardization_status: 'W3C Recommendation'
+summary: 'Specifies whether the total size of the operation is known.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'needs example'
-summary: 'Specifies whether the total size of the operation is known.'
 uri: dom/ProgressEvent/lengthComputable
 
 ---
-# lengthComputable
-
-## Summary
+## <span>Summary</span>
 
 Specifies whether the total size of the operation is known.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/ProgressEvent](/dom/ProgressEvent)</span></span>
+Property of [dom/ProgressEvent](/dom/ProgressEvent)[dom/ProgressEvent](/dom/ProgressEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = ProgressEvent.lengthComputable;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 The ProgressEvent.lengthComputable read-only property is a Boolean flag indicating if the resource concerned by the ProgressEvent has a length that can be calculated. If not, the ProgressEvent.total property has no significant value.
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
 flag = ProgressEvent.lengthComputable
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[ProgressEvent.lengthComputable](https://developer.mozilla.org/en-US/docs/Web/API/ProgressEvent.lengthComputable) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[lengthComputable Property](http://msdn.microsoft.com/en-us/library/ie/hh772354(v=vs.85).aspx) Article]
-

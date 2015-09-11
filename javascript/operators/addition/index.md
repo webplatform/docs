@@ -1,20 +1,22 @@
 ---
 title: addition
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wwfws59w(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Adds the value of one numeric expression to another, or concatenates two strings.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Adds the value of one numeric expression to another, or concatenates two strings.'
 uri: javascript/operators/addition
 
 ---
-# addition
-
-## Summary
+## <span>Summary</span>
 
 Adds the value of one numeric expression to another, or concatenates two strings.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result = expression1 + expression2;
 
@@ -27,37 +29,28 @@ Adds the value of one numeric expression to another, or concatenates two strings
 **expression2**
 :   Any expression.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 console.log(1 + 1); // 2
 console.log('hello' + ' world'); // 'hello world'
 console.log(1 + '1'); // '11'
 console.log('1' + 1); // '11'
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The types of the two expressions determine the behavior of the `+` operator.
 
-If
-:   Then
-Both expressions are numeric or Boolean
-:   Add
-Both expressions are strings
-:   Concatenate
-One expression is numeric and the other is a string
-:   Concatenate
+|If|Then|
+|:--|:---|
+|Both expressions are numeric or Boolean|Add|
+|Both expressions are strings|Concatenate|
+|One expression is numeric and the other is a string|Concatenate|
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Addition Assignment Operator (`+=`)](/javascript/operators/addition_assignment)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wwfws59w(v=vs.94).aspx)
 

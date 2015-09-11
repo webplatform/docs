@@ -1,68 +1,68 @@
 ---
 title: adoptNode
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Deprecated; deletion candidate'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Document
+standardization_status: Deprecated
+summary: 'Tries to move a node from one document to the document that the document object displays. It is preferable to use importNode instead.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-standardization_status: Deprecated
-notes:
-  - 'Deprecated; deletion candidate'
-summary: 'Tries to move a node from one document to the document that the document object displays. It is preferable to use importNode instead.'
 uri: dom/Document/adoptNode
 
 ---
-# adoptNode
-
-## Summary
+## <span>Summary</span>
 
 Tries to move a node from one document to the document that the document object displays. It is preferable to use importNode instead.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var element = document.adoptNode(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### element
+### <span>element</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The element to move.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The node that has been moved, or a null value if the node cannot be moved.
 
-## Examples
+## <span>Examples</span>
 
 The following code example illustrates the **adoptNode** method and shows one way to handle cases where the method fails.
 
-``` {.js}
+``` js
 var oNode = document.adoptNode( oXHTMLNode );
 if ( oNode == null )
    oNode = document.importNode( oXHTMLNode );
 parent.appendChild( oNode );
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

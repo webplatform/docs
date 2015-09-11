@@ -1,54 +1,47 @@
 ---
 title: styleSheets
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'In Progress'
+summary: 'A collection of the document''s stylesheets.'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'A collection of the document''s stylesheets.'
 uri: css/cssom/styleSheets
 
 ---
-# styleSheets
-
-## Summary
+## <span>Summary</span>
 
 A collection of the document's stylesheets.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 This example shows how to display the titles of the style sheets in the document.
 
-``` {.js}
+``` js
 for ( i = 0; i < document.styleSheets.length; i++ )
 {
     alert("Style sheet " + i + " is titled " + document.styleSheets(i).title);
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Style sheets that are imported using the [**@import**](/css/atrules/@import) rule and are contained within the **style** object are available through the [**imports**](/css/cssom/imports) collection.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

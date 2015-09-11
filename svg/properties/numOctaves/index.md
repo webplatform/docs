@@ -1,40 +1,31 @@
 ---
 title: numOctaves
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/numOctaves
 
 ---
-# numOctaves
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 The more octaves that are used in the calculation, the more fine-grained the texture. The default value is one.
 
-### Syntax
+### <span>Syntax</span>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Scalable Vector Graphics 1.1: Filter Effects, section 15.25.27](http://www.w3.org/TR/SVG11/filters.html#feTurbulenceNumOctavesAttribute)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGFETurbulenceElement**](/svg/elements/feTurbulence)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

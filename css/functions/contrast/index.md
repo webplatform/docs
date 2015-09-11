@@ -1,21 +1,19 @@
 ---
-title: contrast
+title: contrast()
+code_samples:
+  - 'http://codepen.io/pverbeek/pen/xzBlg'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: "Adjusts the difference between light and dark\nvalues, for use by the filter\nproperty.  A value of 100% or a decimal value of 1 leaves the image as\nis, while 0 results in black. Increasing the value past 1 or 100%\nproduces more dramatically stratified areas of light and dark.\n"
 tags:
   0: CSS
   1: Functions
   3: Graphics
   4: SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: "Adjusts the difference between light and dark\nvalues, for use by the filter\nproperty.  A value of 100% or a decimal value of 1 leaves the image as\nis, while 0 results in black. Increasing the value past 1 or 100%\nproduces more dramatically stratified areas of light and dark.\n"
-code_samples:
-  - 'http://codepen.io/pverbeek/pen/xzBlg'
 uri: css/functions/contrast
 
 ---
-# contrast()
-
-## Summary
+## <span>Summary</span>
 
 Adjusts the difference between light and dark values, for use by the filter property. A value of 100% or a decimal value of 1 leaves the image as is, while 0 results in black. Increasing the value past 1 or 100% produces more dramatically stratified areas of light and dark.
 
@@ -26,13 +24,13 @@ Adjusts the difference between light and dark values, for use by the filter prop
 
   ![f19-jellybeans.jpg](/assets/public/b/b5/f19-jellybeans.jpg)![f20-jellybeancontrast.jpg](/assets/public/a/a5/f20-jellybeancontrast.jpg)
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the difference between three images, the first has the default contrast, the second one a lower contrast and the third a higher:
 
 ![filter contrast.png](/assets/thumb/5/56/filter_contrast.png/400px-filter_contrast.png)
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -52,20 +50,20 @@ The following example shows the difference between three images, the first has t
     </style>
   </head>
   <body>
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo" />
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo bar" />
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo baz" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo bar" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo baz" />
   </body>
 </html>
 ```
 
 [View live example](http://codepen.io/pverbeek/pen/xzBlg)
 
-## Notes
+## <span>Notes</span>
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
-``` {.xml}
+``` xml
 <filter id="contrast">
   <feComponentTransfer>
     <feFuncR type="linear" slope="[amount]" intercept="-(0.5 * [amount] + 0.5)"/>
@@ -75,20 +73,19 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 </filter>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
+
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -172,8 +169,7 @@ Specification
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### External resources
+### <span>External resources</span>
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)
-

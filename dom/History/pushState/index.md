@@ -1,73 +1,69 @@
 ---
 title: pushState
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Examples, compatibility, clean-up of MSDN import'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/History
+    href: /dom/History
+standardization_status: 'W3C Recommendation'
+summary: 'Programmatically push a document state (including URI and document title) onto the user agent''s history.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Examples, compatibility, clean-up of MSDN import'
-summary: 'Programmatically push a document state (including URI and document title) onto the user agent''s history.'
 uri: dom/History/pushState
 
 ---
-# pushState
-
-## Summary
+## <span>Summary</span>
 
 Programmatically push a document state (including URI and document title) onto the user agent's history.
 
-*Method of [dom/History](/dom/History)*
+Method of [dom/History](/dom/History)[dom/History](/dom/History)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  history.pushState(statedata, title, url);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### statedata
+### <span>statedata</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The data to push onto the session history.
 
-### title
+### <span>title</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The desired title for the data.
 
-### url
+### <span>url</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
-*(Optional)*
+(Optional)
 
 An optional URL to associate with the data.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5](http://www.w3.org/TR/html5/browsers.html#dom-history-pushstate)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

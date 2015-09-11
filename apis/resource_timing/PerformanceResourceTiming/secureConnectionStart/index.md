@@ -1,58 +1,58 @@
 ---
 title: secureConnectionStart
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: 'apis/resource timing/PerformanceResourceTiming'
+    href: /apis/resource_timing/PerformanceResourceTiming
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/resource_timing/PerformanceResourceTiming
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the time immediately before the user agent starts the handshake process to secure the current connection.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Resource
   5: Timing
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns the time immediately before the user agent starts the handshake process to secure the current connection.'
 uri: 'apis/resource timing/PerformanceResourceTiming/secureConnectionStart'
 
 ---
-# secureConnectionStart
-
-## Summary
+## <span>Summary</span>
 
 Returns the time immediately before the user agent starts the handshake process to secure the current connection.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)</span></span>
+Property of [apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)[apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.secureConnectionStart;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 DOMHighResTimeStamp
 
-## Examples
+## <span>Examples</span>
 
-This example assumes an HTML page containing a resource such as \<img src="[https://www.webplatform.org/logo/logo-with-text.png](https://www.webplatform.org/logo/logo-with-text.png)" /\>
+This example assumes an HTML page containing a resource such as \<img src="<https://www.webplatform.org/logo/logo-with-text.png>" /\>
 
-``` {.js}
+``` js
 var resources = window.performance.getEntriesByType('resource');
 alert("secureConnectionStart: " + resources[0].secureConnectionStart);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

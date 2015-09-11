@@ -1,42 +1,58 @@
 ---
 title: touch-action
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/library/ie/hh772044.aspx)'
+code_samples:
+  - 'http://www.love2dev.com/'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements except non-replaced inline elements, table rows, row groups, table columns, and column groups'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'Same as specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Determines whether touch input may trigger default behavior supplied by the user agent, such as panning or zooming.'
-code_samples:
-  - 'http://www.love2dev.com/'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/touch-action
 
 ---
-# touch-action
-
-## Summary
+## <span>Summary</span>
 
 Determines whether touch input may trigger default behavior supplied by the user agent, such as panning or zooming.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements except non-replaced inline elements, table rows, row groups, table columns, and column groups
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   Same as specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `touch-action: auto`
 -   `touch-action: manipulation`
@@ -44,7 +60,7 @@ Percentages
 -   `touch-action: pan-x`
 -   `touch-action: pan-y`
 
-## Values
+## <span>Values</span>
 
 auto
 :   The user agent MAY determine any permitted touch behaviors, such as panning and zooming manipulations of the viewport, for touches that begin on the element.
@@ -61,11 +77,11 @@ pan-y
 manipulation
 :   The user agent MAY consider touches that begin on the element only for the purposes of scrolling and continuous zooming.
 
-## Examples
+## <span>Examples</span>
 
 You might find the following example within a fingerpainting application to ensure that its canvas doesn't move when a user touches and manipulates it. When a user touches this canvas and moves his or her finger, no manipulation will occur. DOM events will be sent instead.
 
-``` {.css}
+``` css
 canvas#fingerpainter {
   touch-action: none;
 }
@@ -73,7 +89,7 @@ canvas#fingerpainter {
 
 The application has content that extends horizontally beyond the viewport and the desired behavior is to allow the user to scroll content left and right as desired without the browser moving the entire page.
 
-``` {.html}
+``` html
 <div style="touch-action: pan-x;">
     This element receives pointer events when not panning in the horizontal direction.
 </div>
@@ -81,16 +97,8 @@ The application has content that extends horizontally beyond the viewport and th
 
 [View live example](http://www.love2dev.com/)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Pointer Events](https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html#the-touch-action-css-property)
 :   Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/library/ie/hh772044.aspx)
 

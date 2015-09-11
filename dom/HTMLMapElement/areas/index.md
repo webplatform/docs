@@ -1,56 +1,56 @@
 ---
 title: areas
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples, compatibility'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLMapElement
+    href: /dom/HTMLMapElement
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /dom/HTMLMapElement
+standardization_status: 'W3C Recommendation'
+summary: 'Returns an HTMLCollection of area elements included within the element.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'examples, compatibility'
-summary: 'Returns an HTMLCollection of area elements included within the element.'
 uri: dom/HTMLMapElement/areas
 
 ---
-# areas
-
-## Summary
+## <span>Summary</span>
 
 Returns an HTMLCollection of area elements included within the element.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLMapElement](/dom/HTMLMapElement)</span></span>
+Property of [dom/HTMLMapElement](/dom/HTMLMapElement)[dom/HTMLMapElement](/dom/HTMLMapElement)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var areaElements = mapElement.areas;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 An HTMLCollection of [area](/dom/HTMLAreaElement) elements.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 Areas can be added to or removed from the collection. If duplicate identifiers are found, a collection of those items is returned. Collections of duplicates must be referenced subsequently by ordinal position. To add elements to the collection, use the [**createElement**](/dom/Document/createElement) and [**add**](/dom/HTMLSelectElement/add) methods. Alternatively, use the [**insertAdjacentHTML**](/dom/Element/insertAdjacentHTML) method.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

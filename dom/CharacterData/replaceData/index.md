@@ -1,80 +1,78 @@
 ---
 title: replaceData
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/CharacterData
+    href: /dom/CharacterData
+standardization_status: 'W3C Recommendation'
+summary: 'Replaces a specified range of characters in the node with a new character string.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Replaces a specified range of characters in the node with a new character string.'
 uri: dom/CharacterData/replaceData
 
 ---
-# replaceData
-
-## Summary
+## <span>Summary</span>
 
 Replaces a specified range of characters in the node with a new character string.
 
-*Method of [dom/CharacterData](/dom/CharacterData)*
+Method of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  textualNode.replaceData(offset, count, text);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### offset
+### <span>offset</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The zero-based offset from which to start.
 
-### count
+### <span>count</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The number of characters to replace.
 
-### text
+### <span>text</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The new character string.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-    //create text node
-    var phrase = document.createTextNode ("A flawed plan today is much better than a perfect plan tomorrow.");
-    //replace "much" with "way"
-    phrase.replaceData(23, 4, "way");
-    //report result
-    alert(phrase.data);
+``` html
+//create text node
+var phrase = document.createTextNode ("A flawed plan today is much better than a perfect plan tomorrow.");
+//replace "much" with "way"
+phrase.replaceData(23, 4, "way");
+//report result
+alert(phrase.data);
+```
 
-## Notes
+## <span>Notes</span>
 
 If the sum of the *offset* and *count* parameters exceeds the number of characters in the object, then all the characters from the offset to the end of the data are replaced.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

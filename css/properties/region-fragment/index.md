@@ -1,45 +1,59 @@
 ---
 title: region-fragment
-tags:
-  - CSS
-  - Properties
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'CSS Regions'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`regionFragment`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: "Controls whether the last region in a chain displays additional 'overset' content according its default overflow property, or\tif it displays a fragment of content as if it were flowing into a subsequent region."
+tags:
+  - CSS
+  - Properties
 uri: css/properties/region-fragment
 
 ---
-# region-fragment
-
-## Summary
+## <span>Summary</span>
 
 Controls whether the last region in a chain displays additional 'overset' content according its default overflow property, or if it displays a fragment of content as if it were flowing into a subsequent region.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   CSS Regions
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `regionFragment`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `region-fragment: auto`
 -   `region-fragment: break`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Region element displays [overset](/css/concepts/overset) content according to its [**overflow**](/css/properties/overflow) property.
@@ -47,9 +61,9 @@ auto
 break
 :   Region element overrides [**overflow**](/css/properties/overflow) property, displaying whatever fragment of [overset](/css/concepts/overset) content can fit within the region.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 <style>
   article {
     flow-into: article-flow;
@@ -63,12 +77,12 @@ break
 
 <body>
   <article>...</article>
-
-
+  <div id="region-1"></div>
+  <div id="region-2"></div>
 </body>
 ```
 
-## Usage
+## <span>Usage</span>
 
      In the following example, 'region_1' can accommodate the article's gray text, 'region_2' can  accommodate the blue text, and the red  'overset' text does not fit within the region chain:
 
@@ -80,23 +94,20 @@ The property only applies to the final element in a [*region chain*](/css/concep
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## Notes
+## <span>Notes</span>
 
 This property was formerly named **region-overflow**.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

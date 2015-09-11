@@ -1,31 +1,31 @@
 ---
 title: keygen
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLKeygenElement](/w/index.php?title=dom/HTMLKeygenElement&action=edit&redlink=1)'
+standardization_status: 'W3C Recommendation'
+summary: 'Represents a key pair generator control'
 tags:
   - Markup
   - Elements
-standardization_status: 'W3C Recommendation'
-summary: 'Represents a key pair generator control'
-uri: html/elements/keygen
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/HTMLKeygenElement
+uri: html/elements/keygen
 
 ---
-# keygen
-
-## Summary
+## <span>Summary</span>
 
 Represents a key pair generator control
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLKeygenElement](/w/index.php?title=dom/HTMLKeygenElement&action=edit&redlink=1)
 
 When the control's form is submitted, the private key is stored in the local keystore, and the public key is packaged and sent to the server.
 
-## HTML Attributes
+## <span>HTML Attributes</span>
 
 -   `autofocus` = boolean
     Allows the author to indicate that a control is to be focused as soon as the page is loaded
@@ -41,19 +41,19 @@ When the control's form is submitted, the private key is stored in the local key
 -   `name` = unique name
     Represents the element's name.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 
 <keygen name="key" challenge="235ldahlae983dadfar"/>
+
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-keygen-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/forms.html#the-keygen-element)
 :   W3C Recommendation
 

@@ -1,42 +1,47 @@
 ---
 title: parentRule
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Syntax has duplicated headers, needs elaboration, summary, and examples.'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/CSSRule
+    href: /css/cssom/CSSRule
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Syntax has duplicated headers, needs elaboration, summary, and examples.'
 uri: css/cssom/CSSRule/parentRule
 
 ---
-# parentRule
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/CSSRule](/css/cssom/CSSRule)</span></span>
+Property of [css/cssom/CSSRule](/css/cssom/CSSRule)[css/cssom/CSSRule](/css/cssom/CSSRule)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
-var result = element.parentRule;
-element.parentRule = value;
+``` js
+var result = element.;
+element. = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 2.2
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -92,13 +97,9 @@ element.parentRule = value;
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   **parentRule**
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -138,11 +139,55 @@ element.parentRule = value;
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSFontFaceRule`
 -   `CSSImportRule`
@@ -154,10 +199,3 @@ element.parentRule = value;
 -   `page`
 -   `rule`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,22 +1,20 @@
 ---
-title: css
+title: Part 5: Styling our content with CSS
+notes:
+  - "No content. Only editorial notes but nothing usable.\nSuggested topics to cover: \n\n reviewing basic CSS anatomy\n look at box model in detail \n setting global styles - look at fonts, resets (normalize.css), sizing headers and other components\n basic layout - float the main and sidebar, to show how floating works, add in clearfix\n Add padding and margins, show how they work\n style the navigation menu\n typography\n look at adding some CSS3 bling, like gradients, rounded corners, etc."
+readiness: 'Not Ready'
+summary: 'Now we have a solid base of content to build upon, let''s learn about Cascading Style Sheets (CSS), and use them to apply some style and layout to our HTML.'
 tags:
   - Basic
   - Pages
-readiness: 'Not Ready'
-notes:
-  - "No content. Only editorial notes but nothing usable.\nSuggested topics to cover: \n\n reviewing basic CSS anatomy\n look at box model in detail \n setting global styles - look at fonts, resets (normalize.css), sizing headers and other components\n basic layout - float the main and sidebar, to show how floating works, add in clearfix\n Add padding and margins, show how they work\n style the navigation menu\n typography\n look at adding some CSS3 bling, like gradients, rounded corners, etc."
-summary: 'Now we have a solid base of content to build upon, let''s learn about Cascading Style Sheets (CSS), and use them to apply some style and layout to our HTML.'
 uri: Beginners/css
 
 ---
-# Part 5: Styling our content with CSS
-
-## Summary
+## <span>Summary</span>
 
 Now we have a solid base of content to build upon, let's learn about Cascading Style Sheets (CSS), and use them to apply some style and layout to our HTML.
 
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 

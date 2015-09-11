@@ -3,7 +3,7 @@ title: svg
 uri: tutorials/svg
 
 ---
-## Future topics
+## <span>Future topics</span>
 
 -   How to make an SVG clock (basic shapes, dashes, simple script, transforms)
 -   How to reference an external SVG in HTML

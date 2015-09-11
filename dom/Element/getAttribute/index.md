@@ -1,54 +1,63 @@
 ---
 title: getAttribute
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getAttribute8.htm'
+notes:
+  - 'Needs compat table'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /dom/Element
+standardization_status: 'W3C Recommendation'
+summary: 'Returns the value of the content attribute.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat table'
-summary: 'Returns the value of the content attribute.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getAttribute8.htm'
 uri: dom/Element/getAttribute
 
 ---
-# getAttribute
-
-## Summary
+## <span>Summary</span>
 
 Returns the value of the content attribute.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var attributeValue = element.getAttribute(name);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the attribute.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 The value of the attribute, or null if it does not exist.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the difference between a URL attribute which is using a content attribute (value from **getAttribute**) and a DOM attribute (property).
 
-``` {.html}
+``` html
 <!doctype html>
 <head>
   <title>Content/DOM Attribute Example</title>
@@ -74,33 +83,27 @@ The following example shows the difference between a URL attribute which is usin
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getAttribute8.htm)
 
-## Usage
+## <span>Usage</span>
 
      Use this method to get the value of a content attribute of an element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
+
 [Document Object Model (DOM) Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
 :   Recommendation
+
 [Document Object Model (DOM) Level 1](http://www.w3.org/TR/REC-DOM-Level-1)
 :   Recommendation
+
 [DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `removeAttribute`
 -   `setAttribute`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

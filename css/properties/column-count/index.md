@@ -1,47 +1,63 @@
 ---
 title: column-count
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh772195(v=vs.85).aspx)'
+code_samples:
+  - 'http://gist.github.com/6288917'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'non-replaced block-level elements (except table elements), table cells, and inline-block elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`columnCount`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the number of columns an element should be divided into.'
-code_samples:
-  - 'http://gist.github.com/6288917'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/column-count
 
 ---
-# column-count
-
-## Summary
+## <span>Summary</span>
 
 Specifies the number of columns an element should be divided into.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   non-replaced block-level elements (except table elements), table cells, and inline-block elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `columnCount`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `column-count: auto`
 -   `column-count: count`
 
-## Values
+## <span>Values</span>
 
 count
 :   An integer value that specifies the number of columns in the multi-column element. Values must be greater than 0. When [**column-width**](/css/properties/column-width) is specified with ****column-count**** and both have non-auto values, the integer value defines the maximum number of columns.
@@ -49,11 +65,11 @@ count
 auto
 :   The number of columns is determined by the values of other property values of the multi-column element, such as [**column-width**](/css/properties/column-width).
 
-## Examples
+## <span>Examples</span>
 
 This example shows how to render text within the section.newspaper element in three columns.
 
-``` {.css}
+``` css
 #columns {
   -moz-column-count: 3; /* Firefox */
   -webkit-column-count: 3; /* Safari and Chrome */
@@ -65,7 +81,7 @@ This example shows how to render text within the section.newspaper element in th
 
 Using auto for column-count will allow as many columns as are necessary or able to be generated.
 
-``` {.css}
+``` css
 /* auto column-count allows n-columns of column-width */
 div {
 column-count: auto;
@@ -73,28 +89,26 @@ column-width: 100px;
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The actual column count may vary from the value specified due to available space. To ensure the specified value is used, all length property values of the multi-column element must be specified.
 
-### Syntax
+### <span>Syntax</span>
 
 `column-count: count | auto`
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -120,7 +134,7 @@ Specification
 
 -   [content](/css/properties/content)
 
-#### Responsive Web Design
+#### <span>Responsive Web Design</span>
 
 -   [break-before](/css/properties/break-before)
 
@@ -128,16 +142,9 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `style`
 -   `table`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh772195(v=vs.85).aspx)
-

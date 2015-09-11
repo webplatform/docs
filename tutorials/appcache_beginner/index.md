@@ -1,24 +1,24 @@
 ---
-title: appcache beginner
+title: Introduction to using the application cache
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/appcache/beginner/)'
+readiness: 'Ready to Use'
+summary: 'An introduction to using the appcache interface for offline application functionality.'
 tags:
   - Tutorials
   - Appcache
   - Mobile
-readiness: 'Ready to Use'
-summary: 'An introduction to using the appcache interface for offline application functionality.'
 uri: 'tutorials/appcache beginner'
 
 ---
-# Introduction to using the application cache
-
 **By [Eric Bidelman](http://www.html5rocks.com/profiles/#ericbidelman)**
 Originally published May 27, 2011
 
-## Summary
+## <span>Summary</span>
 
 An introduction to using the appcache interface for offline application functionality.
 
-## Introduction
+## <span>Introduction</span>
 
 It's becoming increasingly important for web-based applications to be accessible offline. Yes, all browsers have caching mechanisms, but they're unreliable and don't always work as you might expect. HTML5 addresses some of the annoyances of being offline with the [ApplicationCache](http://www.whatwg.org/specs/web-apps/current-work/#applicationcache) interface.
 
@@ -30,11 +30,11 @@ Using the cache interface gives your application three advantages:
 
 The Application Cache (or AppCache) allows a developer to specify which files the browser should cache and make available to offline users. Your app will load and work correctly, even if the user presses the refresh button while they're offline.
 
-## The cache manifest file
+## <span>The cache manifest file</span>
 
 The cache manifest file is a simple text file that lists the resources the browser should cache for offline access.
 
-### Referencing a manifest file
+### <span>Referencing a manifest file</span>
 
 To enable the application cache for an app, include the manifest attribute on the document's `html` tag:
 
@@ -63,7 +63,7 @@ Or, in your app.yaml file in Google App Engine:
       mime_type: text/cache-manifest
       upload: mystaticdir/(.*\.appcache)
 
-### Structure of a manifest file
+### <span>Structure of a manifest file</span>
 
 A simple manifest may look something like this:
 
@@ -150,7 +150,7 @@ The following manifest defines a "catch-all" page (offline.html) that will be di
 
 **Note**: HTTP cache headers and the caching restrictions imposed on pages served over SSL are overridden by cache manifests. Thus, pages served over https can be made to work offline.
 
-## Updating the cache
+## <span>Updating the cache</span>
 
 Once an application is offline it remains cached until one of the following happens:
 
@@ -158,7 +158,7 @@ Once an application is offline it remains cached until one of the following happ
 2.  The manifest file is modified. Note: updating a file listed in the manifest doesn't mean the browser will re-cache that resource. The manifest file itself must be altered.
 3.  The app cache is programatically updated.
 
-### Cache status
+### <span>Cache status</span>
 
 The `window.applicationCache` object is your programmatic access the browser's app cache. Its `status` property is useful for checking the current state of the cache:
 
@@ -222,7 +222,7 @@ The good news: you can avoid this double reload headache. To update users to the
 
     }, false);
 
-### AppCache events
+### <span>AppCache events</span>
 
 As you may expect, additional events are exposed to monitor the cache's state. The browser fires events for things like download progress, updating the app cache, and error conditions. The following snippet sets up event listeners for each type of cache event:
 
@@ -262,15 +262,15 @@ As you may expect, additional events are exposed to monitor the cache's state. T
 
 If the manifest file or a resource specified in it fails to download, the entire update fails. The browser will continue to use the old application cache in the event of such a failure.
 
-## References
+## <span>References</span>
 
 -   [ApplicationCache](http://www.whatwg.org/specs/web-apps/current-work/#applicationcache) API specification
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Off-line Storage
+#### <span>Off-line Storage</span>
 
 -   [appcache](/apis/appcache)
 
@@ -282,8 +282,6 @@ If the manifest file or a resource specified in it fails to download, the entire
 
 -   [quota management](/apis/quota_management)
 
--   [StorageQuota](/apis/quota_management/StorageQuota)
-
 -   [queryUsageAndQuota](/apis/quota_management/queryUsageAndQuota)
 
 -   [requestQuota](/apis/quota_management/requestQuota)
@@ -291,12 +289,3 @@ If the manifest file or a resource specified in it fails to download, the entire
 -   [localStorage](/apis/web-storage/Storage/localStorage)
 
 -   **Introduction to using the application cache**
-
--   [Overview of client-side storage](/tutorials/offline_storage)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/appcache/beginner/)
-

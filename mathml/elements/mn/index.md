@@ -1,31 +1,33 @@
 ---
 title: mn
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mn)'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[mathml](/mathml)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The MathML mn element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However,  it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example &quot;eleven&quot;.'
 tags:
   - Markup
   - Elements
   - MathML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The MathML mn element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However,  it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example "eleven".'
 uri: mathml/elements/mn
 
 ---
-# mn
+## <span>Summary</span>
 
-## Summary
+The MathML mn element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However, it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example &quot;eleven&quot;.
 
-The MathML mn element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However, it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example "eleven".
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## Examples
+## <span>Examples</span>
 
 This example demonstrates a simple usage of the mn element:
 
-``` {.html}
+``` html
 
 
 <math>
@@ -45,20 +47,12 @@ This example demonstrates a simple usage of the mn element:
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mn)
 :   W3C Recommendation
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mn)
-
-## Attributes
+## <span>Attributes</span>
 
  mathsize
 :   The size of the content. Possible values are:

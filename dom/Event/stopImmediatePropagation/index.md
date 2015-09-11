@@ -1,56 +1,59 @@
 ---
 title: stopImmediatePropagation
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Event
+    href: /dom/Event
+standardization_status: 'W3C Working Draft'
+summary: 'Prevents any further propagation of an event.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example'
-summary: 'Prevents any further propagation of an event.'
 uri: dom/Event/stopImmediatePropagation
 
 ---
-# stopImmediatePropagation
-
-## Summary
+## <span>Summary</span>
 
 Prevents any further propagation of an event.
 
-*Method of [dom/Event](/dom/Event)*
+Method of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.stopImmediatePropagation();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Use this method to prevent any further dispatch of the event, even if additional event handlers remain on the target element.
 
-## Notes
+## <span>Notes</span>
 
 To allow the remaining handlers to run, use the [**stopPropagation**](/dom/Event/stopPropagation) method instead.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`
@@ -67,10 +70,3 @@ Specification
 -   `StorageEvent`
 -   `TextEvent`
 -   `UIEvent`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

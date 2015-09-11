@@ -1,24 +1,22 @@
 ---
 title: width
+notes:
+  - 'Add values, syntax, description,, compatibility.'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The ‘width’ media feature describes the width of the targeted display area of the output device. For continuous media, this is the width of the viewport (as described by CSS2, section 9.1.1 [CSS2.1]) including the size of a rendered scroll bar (if any). For paged media, this is the width of the page box (as described by CSS2, section 13.2 [CSS2.1]).'
 tags:
   - CSS
   - Media
   - Feature
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add values, syntax, description,, compatibility.'
-summary: 'The ‘width’ media feature describes the width of the targeted display area of the output device. For continuous media, this is the width of the viewport (as described by CSS2, section 9.1.1 [CSS2.1]) including the size of a rendered scroll bar (if any). For paged media, this is the width of the page box (as described by CSS2, section 13.2 [CSS2.1]).'
 uri: 'css/media queries/width'
 
 ---
-# width
-
-## Summary
+## <span>Summary</span>
 
 The ‘width’ media feature describes the width of the targeted display area of the output device. For continuous media, this is the width of the viewport (as described by CSS2, section 9.1.1 [CSS2.1]) including the size of a rendered scroll bar (if any). For paged media, this is the width of the page box (as described by CSS2, section 13.2 [CSS2.1]).
 
-## Description
+## <span>Description</span>
 
 The width media query returns the width of the layout viewport, also called the initial containing block. This is equal to the default width of the html element. Thus, it tells you how much space the browser allows your CSS layout to take.
 
@@ -26,9 +24,9 @@ The width media query is one of the two vital ingredients of responsive web desi
 
 The width media query is always, in all browsers, equal to document.documentElement.clientWidth.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 @media (width:400px){
    /*This code will only be run if the width of the viewport is exactly 400px*/
 }
@@ -43,12 +41,11 @@ The width media query is always, in all browsers, equal to document.documentElem
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Media Queries Level 4](http://www.w3.org/TR/mediaqueries-4/)
 :   Working Draft
+
 [Media Queries](http://www.w3.org/TR/css3-mediaqueries/)
 :   Recommendation
 

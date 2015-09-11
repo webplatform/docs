@@ -1,20 +1,18 @@
 ---
-title: html validation
+title: HTML validation
+readiness: 'Ready to Use'
+summary: 'This article introduces the concept of validation, and shows how to use the online W3C validator to validate your HTML.'
 tags:
   - Guides
   - HTML
-readiness: 'Ready to Use'
-summary: 'This article introduces the concept of validation, and shows how to use the online W3C validator to validate your HTML.'
 uri: 'guides/html validation'
 
 ---
-# HTML validation
-
-## Summary
+## <span>Summary</span>
 
 This article introduces the concept of validation, and shows how to use the online W3C validator to validate your HTML.
 
-## Introduction
+## <span>Introduction</span>
 
 So you've written a few HTML pages, and they seem to display okay, but there are a few things not quite right with them. What is the best way to start finding out what is wrong, and to ensure that these pages (and any future pages you write) will be displayed properly across browsers, with no errors?
 
@@ -27,7 +25,7 @@ Validation is the answer! There are many tools available, from the W3C and other
 
 In this article, we will cover how to use the second of these, demonstrating how to validate markup and interpret the typical kinds of results the validator gives you.
 
-## Errors
+## <span>Errors</span>
 
 In computer programming — which includes markup languages — there are generally two types of errors with code:
 
@@ -40,13 +38,13 @@ Although HTML is a declarative markup language rather than a procedural programm
 
 The first web browser, [WorldWideWeb](http://www.w3.org/People/Berners-Lee/WorldWideWeb.html) (written by Tim Berners-Lee), was also an editor, allowing authors to create web pages without learning HTML. Although this editor created invalid HTML, it established an important precedent that exists in all web browsers to this day — that allowing users to access content is more important than complaining about errors to people who won't understand them — or be in a position to fix them.
 
-## What is validation?
+## <span>What is validation?</span>
 
 Although web browsers will accept invalid code in web pages and do their best to render the code by making a best guess of the author's intention, it is still possible to check whether the HTML has been written correctly, and indeed it is a good idea to do so, as you'll see below. We call this "validating" the HTML.
 
 A validation program compares the HTML code in the web page with the rules of the accompanying [doctype](/guides/doctypes_and_markup_styles) and tells you if and where those rules have been broken.
 
-## Why validate?
+## <span>Why validate?</span>
 
 There is a common feeling among some web developers that if a web page looks fine in browsers, it doesn't matter if it doesn't validate (often stated as, "In function there is beauty"). They describe validation as an ideal goal, but not something that is a black-and-white issue.
 
@@ -59,7 +57,7 @@ There are two very powerful reasons to validate your HTML as you author it:
 
 Validation is your early-warning system about bugs in your markup that can manifest in "interesting" and hard-to-fix ways. When a browser encounters invalid HTML, it has to take an educated guess as to what you meant to do — and different browsers can come up with different answers.
 
-## Different browsers interpret invalid HTML differently
+## <span>Different browsers interpret invalid HTML differently</span>
 
 Valid HTML is the only contract you have with the browser manufacturers. The HTML specification says how you should write documents, and how they should interpret them. In recent times, standards compliance of browsers has reached the point where, as long as you write valid code, all the major browsers should interpret your code the same way. This is almost always the case for HTML at least, with other standards having a few more differences in support here and there.
 
@@ -67,7 +65,7 @@ But what happens when you do pass a browser invalid code? The answer is that the
 
 It sounds great, doesn't it? If you leave a few errors in your page, the browser will fill in the gaps for you! Not so, as each browser does things differently. Consider the following code:
 
-``` {.html}
+``` html
 <p><strong>This text should be bold</p>
 <p>Should this text be bold? How does the HTML look when rendered?</p>
 
@@ -87,13 +85,13 @@ None of the different browsers' behaviors is incorrect; they're all trying to fi
 
 Note that HTML5 fixes this to some degree; for the first time in the history of HTML, it defines how browsers should handle badly-formed markup. At the time of this writing, however, support for this HTML5 error handling is not widespread across browsers, so you can't yet rely on it.
 
-## How to validate your pages
+## <span>How to validate your pages</span>
 
 Now that we've explored the theory behind validating your HTML, let's talk about the easy part — the actual validation. Okay, that's not completely accurate. Putting a URL into a validator to see whether the page is valid is easy; working out what is wrong and fixing the errors is sometimes not so easy, as the error messages can sometimes be a bit cryptic. Let's look at some examples.
 
 The example we'll be looking at in this section is below; feel free to copy and paste it into a new page in your favorite editor.
 
-``` {.html}
+``` html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
@@ -121,7 +119,7 @@ The example we'll be looking at in this section is below; feel free to copy and 
 
  This simple page consists of three headings, three paragraphs, one hyperlink, and one unordered list. It uses the XHTML 1.0 strict doctype as its rule set to validate against. (We used XHTML 1.0 strict because it is more likely to throw errors than the HTML5 doctype.) There are a few errors in the document, which we'll discover below using the W3C HTML validator.
 
-### The W3C HTML validator
+### <span>The W3C HTML validator</span>
 
 Open the [W3C online validator](http://validator.w3.org/) in a new tab or window, so that you can switch between the validator and this article as you go through the example. (You can also validate pages in the W3C validator directly from the Opera browser by right/Ctrl-clicking and selecting the "Validate" option.)
 
@@ -154,7 +152,7 @@ With these four errors fixed, the remaining seven disappear and the validator no
 
 Below is the corrected version of the code; feel free to copy and paste it into a new page in your favorite editor.
 
-``` {.html}
+``` html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
@@ -181,13 +179,13 @@ Below is the corrected version of the code; feel free to copy and paste it into 
 </html>
 ```
 
-## Conclusion
+## <span>Conclusion</span>
 
 That's about all there is to it, really. You just need to keep your wits about you, code carefully, and remember what doctype your page is being validated against.
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [Opera Dragonfly](http://www.opera.com/dragonfly/) (built into Opera)
 -   [General validation bookmarklet](https://www.squarefree.com/bookmarklets/validation.html)
@@ -196,9 +194,8 @@ That's about all there is to it, really. You just need to keep your wits about y
 -   [Safari tidy](http://zappatic.net/safaritidy/)
 -   [HTML tidy](http://tidy.sourceforge.net/)
 
-### Exercise questions
+### <span>Exercise questions</span>
 
 -   What happens when a browser parses invalid HTML?
 -   What is the problem with this?
 -   Will using a frameset in a document validated against the HTML 4 Strict doctype generate an error?
-

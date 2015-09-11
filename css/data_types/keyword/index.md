@@ -1,26 +1,24 @@
 ---
-title: keyword
+title: CSS keywords
+code_samples:
+  - 'http://gist.github.com/10615256'
+readiness: 'Ready to Use'
+standardization_status: Mixed
+summary: 'Many CSS properties have specific keywords which may be used as values; in addition, the keywords initial and inherit may be used as the value of any CSS property.'
 tags:
   - Data
   - Type
   - CSS
-readiness: 'Ready to Use'
-standardization_status: Mixed
-summary: 'Many CSS properties have specific keywords which may be used as values; in addition, the keywords initial and inherit may be used as the value of any CSS property.'
-code_samples:
-  - 'http://gist.github.com/10615256'
 uri: 'css/data types/keyword'
 
 ---
-# CSS keywords
-
-## Summary
+## <span>Summary</span>
 
 Many CSS properties have specific keywords which may be used as values; in addition, the keywords initial and inherit may be used as the value of any CSS property.
 
  The keywords relevant to a specific CSS property are defined in its [property page](/css/properties). All keywords meet the requirements of [CSS identifiers](/css/data_types/custom_ident), and are case sensitive. Keywords should never be quoted.
 
-### CSS-wide keywords
+### <span>CSS-wide keywords</span>
 
 Certain keywords can be used for any CSS property value:
 
@@ -30,9 +28,9 @@ Certain keywords can be used for any CSS property value:
 
 -   **unset** is equivalent to **inherit** if the property is normally inherited, or **initial** otherwise; it is not currently supported in most browsers (although Firefox implements it).
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 body{
     height:100%;
     background-image:radial-gradient(ellipse , yellow, orange 30%);
@@ -63,14 +61,13 @@ a {
 
 [View live example](http://code.webplatform.org/gist/10615256)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Cascading and Inheritance Level 3](http://www.w3.org/TR/css3-cascade/#inherit-initial)
 :   W3C Candidate Recommendation
+
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/#keywords)
 :   W3C Candidate Recommendation
+
 [CSS 2.1](http://www.w3.org/TR/CSS21/cascade.html#value-def-inherit)
 :   W3C Recommendation
-

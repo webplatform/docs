@@ -1,51 +1,56 @@
 ---
 title: ownerNode
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/styleSheet
+    href: /css/cssom/styleSheet
+summary: 'Returns an element''s corresponding link or style node. See Notes.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns an element''s corresponding link or style node. See Notes.'
 uri: css/cssom/styleSheet/ownerNode
 
 ---
-# ownerNode
-
-## Summary
+## <span>Summary</span>
 
 Returns an element's corresponding link or style node. See Notes.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/styleSheet](/css/cssom/styleSheet)</span></span>
+Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.ownerNode;
 element.ownerNode = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 For HTML, the node returned is the corresponding **link** or **style** element. For XML, it is the linking processing instruction. For style sheets that are included by other style sheets, the value of this attribute is `null`.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 1.2
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -101,13 +106,9 @@ For HTML, the node returned is the corresponding **link** or **style** element. 
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -147,17 +148,54 @@ For HTML, the node returned is the corresponding **link** or **style** element. 
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   **ownerNode**
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `styleSheet`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

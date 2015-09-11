@@ -3,7 +3,7 @@ title: specifications
 uri: PointerEvents/specifications
 
 ---
-## Specifications
+## <span>Specifications</span>
 
 Checkout the Pointer Events specifications at the W3C, learn more about the standardization process, and join the discussion.
 

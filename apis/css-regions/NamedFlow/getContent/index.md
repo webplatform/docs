@@ -1,42 +1,49 @@
 ---
-title: getContent
+title: getContent()
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/css-regions/NamedFlow
+    href: /apis/css-regions/NamedFlow
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: function
+    href: /apis/css-regions/NamedFlow
+standardization_status: 'W3C Working Draft'
+summary: 'Returns a static collection of nodes representing the flow''s source content.'
 tags:
   0: API
   1: Object
   2: Methods
   4: CSS
   5: CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns a static collection of nodes representing the flow''s source content.'
 uri: apis/css-regions/NamedFlow/getContent
 
 ---
-# getContent()
-
-## Summary
+## <span>Summary</span>
 
 Returns a static collection of nodes representing the flow's source content.
 
-*Method of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)*
+Method of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var elements = flow.getContent();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type function.
+Returns an object of type functionfunction
 
 Returns a static collection of nodes representing the flow's source content.
 
-## Examples
+## <span>Examples</span>
 
 Get the last source element whose [**flow-into**](/css/properties/flow-into) adds it to the flow:
 
-``` {.js}
+``` js
 // get flow:
 var flow = document.getNamedFlows().namedItem('main');
 // get all flow-into elements:
@@ -45,18 +52,16 @@ var elements = flow.getContent();
 var lastElement = elements[elements.length-1];
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -114,10 +119,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

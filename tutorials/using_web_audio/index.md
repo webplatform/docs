@@ -1,12 +1,11 @@
 ---
 title: using web audio
+notes:
+  - 'Deletion candidate; is basically the same tutorial as http://docs.webplatform.org/wiki/tutorials/implementing_html5_audio'
+readiness: 'Not Ready'
 tags:
   - Tutorials
   - Audio
-readiness: 'Not Ready'
-notes:
-  - 'Deletion candidate; is basically the same tutorial as http://docs.webplatform.org/wiki/tutorials/implementing_html5_audio'
-uri: 'tutorials/using web audio'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -22,19 +21,18 @@ todo_broken_links:
     - 'neolao production'
     - Rushus
     - 'Creative Commons Attribution License'
+uri: 'tutorials/using web audio'
 
 ---
-# using web audio
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-# Implementing the HTML5 Audio Tag
+# <span>Implementing the HTML5 Audio Tag</span>
 
-## By Ernest Delgado
+## <span>By Ernest Delgado</span>
 
       Published Feb. 5, 2010    [[]]
 
-### Table of Contents
+### <span>Table of Contents</span>
 
 -   [Step 1: Wrap your Flash object with the audio tag](/w/index.php?title=Step_1:_Wrap_your_Flash_object_with_the_audio_tag&action=edit&redlink=1)
 -   [Step 2: Add the source reference](/w/index.php?title=Step_2:_Add_the_source_reference&action=edit&redlink=1)
@@ -42,7 +40,7 @@ todo_broken_links:
 -   [Step 4: Add the default controls to show the player](/w/index.php?title=Step_4:_Add_the_default_controls_to_show_the_player&action=edit&redlink=1)
 -   [Examples](/w/index.php?title=Examples&action=edit&redlink=1)
 
-## Step 1: Wrap your Flash object with the audio tag
+## <span>Step 1: Wrap your Flash object with the audio tag</span>
 
 Those browsers that don't recognize the audio tag will load the Flash content instead.
 
@@ -61,7 +59,7 @@ Those browsers that don't recognize the audio tag will load the Flash content in
 
     </audio>
 
-## Step 2: Add the source reference
+## <span>Step 2: Add the source reference</span>
 
 We can add as many "source" lines and formats as we want. If the browser doesn't support one specific format it will fallback to the next one and so forth.
 
@@ -81,7 +79,7 @@ We can add as many "source" lines and formats as we want. If the browser doesn't
 
     </audio>
 
-## Step 3: Add fallback to Flash
+## <span>Step 3: Add fallback to Flash</span>
 
 To be safe, we need to add the fallback to a Flash audio player, in case the browser doesn't support any of the formats we specified. For instance, Firefox 3.5 only supports the audio tag with *Ogg* format, but we might only have the *mp3* file available.
 
@@ -124,7 +122,7 @@ To make it easier, we are using the [SWFObject](/w/index.php?title=SWFObject&act
     <script src="http://www.google.com/jsapi"></script>
     <script>google.load("swfobject", "2.2");</script>
 
-## Step 4: Add the default controls to show the player
+## <span>Step 4: Add the default controls to show the player</span>
 
 These controls are not customizable (see examples at the end). Since these default controls will show up regardless of the supported format we will need to handle its visibility with the conditional we previously created.
 
@@ -186,7 +184,7 @@ Alternatively, you can create your own player using JavaScript and CSS.
       }
     </script>
 
-## Examples
+## <span>Examples</span>
 
 The following two examples will fallback to the Flash player in those browsers that don't support the audio tag nor can play mp3 in it.
 
@@ -260,4 +258,3 @@ If you don't want to start your customized player from the scratch you can take 
  You are all set!
 
  Flash MP3 player is from [neolao production](/w/index.php?title=neolao_production&action=edit&redlink=1). MP3 sample is **Modal Blues** by [Rushus](/w/index.php?title=Rushus&action=edit&redlink=1) and is licensed under a [Creative Commons Attribution License](/w/index.php?title=Creative_Commons_Attribution_License&action=edit&redlink=1).
-

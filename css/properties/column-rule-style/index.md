@@ -1,44 +1,60 @@
 ---
 title: column-rule-style
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6288958'
+notes:
+  - 'Add description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'multi-column elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`columnRuleStyle`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Specifies the style of the rule between columns. The column-rule-style values are the same as for border-style.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add description, compatibility.'
-summary: 'Specifies the style of the rule between columns. The column-rule-style values are the same as for border-style.'
-code_samples:
-  - 'http://gist.github.com/6288958'
 uri: css/properties/column-rule-style
 
 ---
-# column-rule-style
-
-## Summary
+## <span>Summary</span>
 
 Specifies the style of the rule between columns. The column-rule-style values are the same as for border-style.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   multi-column elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `columnRuleStyle`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `column-rule-style: dashed`
 -   `column-rule-style: dotted`
@@ -51,7 +67,7 @@ Percentages
 -   `column-rule-style: ridge`
 -   `column-rule-style: solid`
 
-## Values
+## <span>Values</span>
 
 none
 :   Default. No column rule is drawn, regardless of any specified `column-rule-width`. The computed value is set to 0.
@@ -83,11 +99,11 @@ outset
 hidden
 :   Same as `none`.
 
-## Examples
+## <span>Examples</span>
 
 Makes 3 columns with 4px dashed green column-rule.
 
-``` {.css}
+``` css
 /*
 Makes 3 columns with 4px dashed green column-rule
 */
@@ -104,18 +120,16 @@ Makes 3 columns with 4px dashed green column-rule
 
 [View live example](http://code.webplatform.org/gist/6288958)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -140,10 +154,3 @@ Specification
 -   [column-width](/css/properties/column-width)
 
 -   [content](/css/properties/content)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

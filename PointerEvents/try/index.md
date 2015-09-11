@@ -3,7 +3,7 @@ title: try
 uri: PointerEvents/try
 
 ---
-## Try
+## <span>Try</span>
 
 Try out Pointer Events for yourself in these demos of Pointer Events working in different application scenarios.
 

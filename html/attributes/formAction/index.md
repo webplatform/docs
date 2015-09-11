@@ -1,49 +1,58 @@
 ---
 title: formAction
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The formaction attribute specifies the URL of a file that will process the input control when the form is submitted.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'The formaction attribute specifies the URL of a file that will process the input control when the form is submitted.'
 uri: html/attributes/formAction
 
 ---
-# formAction
-
-## Summary
+## <span>Summary</span>
 
 The formaction attribute specifies the URL of a file that will process the input control when the form is submitted.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
+
+</td>
+</tr>
+</table>
 The formaction attribute overrides the action attribute of the \<form\> element.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <form action="login.php">
-  First name: <input type="text" name="name">
-  Last name: <input type="text" name="surname">
-  <input type="submit" value="Login">
+  First name: <input type="text" name="name"><br>
+  Last name: <input type="text" name="surname"><br>
+  <input type="submit" value="Login"><br>
   <input type="submit" formaction="admin_login.php"
   value="Login as admin">
 </form>
 ```
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`
@@ -51,10 +60,3 @@ The formaction attribute overrides the action attribute of the \<form\> element.
 -   `formMethod`
 -   `formEnctype`
 -   `formNoValidate`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

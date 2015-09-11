@@ -1,36 +1,77 @@
 ---
 title: submit
-tags:
-  - Events
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Needs summary, examples, and compat, also better spec link'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+tags:
+  - Events
 uri: dom/Element/submit
 
 ---
-# submit
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 You can override this event by returning `false` in the event handler. Use this capability to validate data on the client side to prevent invalid data from being submitted to the server. If the event handler is called by the **onsubmit** attribute of the **form** object, the code must explicitly request the return value using the return function, and the event handler must provide an explicit return value for each possible code path in the event handler function. The **submit** method does not invoke the **onsubmit** event handler. Causes a **form** to be sent to whatever location is stipulated in the [**ACTION**](/html/attributes/action) attribute of the **form** object. To invoke this event, do one of the following:
 
@@ -63,29 +104,22 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `form`
 -   `Reference`
 -   `action`
 -   `method`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,47 +1,51 @@
 ---
 title: currentTime
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioContext
+    href: /apis/webaudio/AudioContext
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/webaudio/AudioContext
+standardization_status: 'W3C Editor''s Draft'
+summary: 'This is a time in seconds which starts at zero when the context is created and increases in real-time. All scheduled times are relative to it. This is not a transport time which can be started, paused, and re-positioned. It is always moving forward. A GarageBand-like timeline transport system can be very easily built on top of this (in JavaScript). This time corresponds to an ever-increasing hardware timestamp.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'This is a time in seconds which starts at zero when the context is created and increases in real-time. All scheduled times are relative to it. This is not a transport time which can be started, paused, and re-positioned. It is always moving forward. A GarageBand-like timeline transport system can be very easily built on top of this (in JavaScript). This time corresponds to an ever-increasing hardware timestamp.'
 uri: apis/webaudio/AudioContext/currentTime
 
 ---
-# currentTime
-
-## Summary
+## <span>Summary</span>
 
 This is a time in seconds which starts at zero when the context is created and increases in real-time. All scheduled times are relative to it. This is not a transport time which can be started, paused, and re-positioned. It is always moving forward. A GarageBand-like timeline transport system can be very easily built on top of this (in JavaScript). This time corresponds to an ever-increasing hardware timestamp.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)</span></span>
+Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioContext.currentTime;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var ct = audioCtx.currentTime;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

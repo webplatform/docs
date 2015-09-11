@@ -1,61 +1,61 @@
 ---
 title: caption
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - compatibility
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLTableElement
+    href: /dom/HTMLTableElement
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/HTMLTableElement
+standardization_status: 'W3C Recommendation'
+summary: 'Gets or sets the caption element of a table.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - compatibility
-summary: 'Gets or sets the caption element of a table.'
 uri: dom/HTMLTableElement/caption
 
 ---
-# caption
-
-## Summary
+## <span>Summary</span>
 
 Gets or sets the caption element of a table.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLTableElement](/dom/HTMLTableElement)</span></span>
+Property of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var captionElement = table.caption;
 table.caption = newCaption;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 The caption element, or null.
 
-## Examples
+## <span>Examples</span>
 
 This example sets the inline style for the **caption** property.
 
-``` {.js}
+``` js
 document.getElementById("mytable").caption.style.color = "blue";
 ```
 
-## Notes
+## <span>Notes</span>
 
 If a table contains multiple captions, this property returns the first one.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,34 +1,41 @@
 ---
 title: get
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBIndex
+    href: /apis/indexeddb/IDBIndex
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/indexeddb/IDBIndex
+summary: 'Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.'
 uri: apis/indexeddb/IDBIndex/get
 
 ---
-# get
-
-## Summary
+## <span>Summary</span>
 
 Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.
 
-*Method of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)*
+Method of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = .get();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 

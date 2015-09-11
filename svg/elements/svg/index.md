@@ -1,49 +1,52 @@
 ---
 title: svg
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The &lt;svg&gt; element represents the root of a Scalable Vector Graphics (SVG) fragment.'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
-summary: 'The <svg> element represents the root of a Scalable Vector Graphics (SVG) fragment.'
-uri: svg/elements/svg
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'HTML/Canvas and SVG'
+uri: svg/elements/svg
 
 ---
-# svg
+## <span>Summary</span>
 
-## Summary
+The &lt;svg&gt; element represents the root of a Scalable Vector Graphics (SVG) fragment.
 
-The \<svg\> element represents the root of a Scalable Vector Graphics (SVG) fragment.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
   <circle cx="50" cy="50" r="40"
       fill="red" stroke="blue" stroke-width="5" />
 </svg>
+
 ```
 
-## Usage
+## <span>Usage</span>
 
      Scalable Vector Graphics (SVG) is a modularized language for describing two-dimensional vector and mixed vector/raster graphics in XML. Only a correct HTML5 parser, using the syntax defined in 8 The HTML syntax, will be able to properly interpret SVG elements when using text/html. When using application/xhtml+xml, one must use proper namespaces to ensure that SVG elements are interpreted correctly.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -55,20 +58,13 @@ In all cases, you must declare an SVG namespace so that all SVG elements are ide
 
     <svg xmlns="http://www.w3.org/2000/svg" ... >
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [List of SVG Elements](/svg/elements)
 -   [A comparison of canvas and SVG](/w/index.php?title=HTML/Canvas_and_SVG&action=edit&redlink=1)
 
-### External resources
+### <span>External resources</span>
 
 -   [Scalable Vector Graphics (SVG) 1.1](http://www.w3.org/TR/SVG11/)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,36 +1,43 @@
 ---
 title: keyPath
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBIndex
+    href: /apis/indexeddb/IDBIndex
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/indexeddb/IDBIndex
+summary: 'The key path of this index. If null, this index is not auto-populated.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'The key path of this index. If null, this index is not auto-populated.'
 uri: apis/indexeddb/IDBIndex/keyPath
 
 ---
-# keyPath
-
-## Summary
+## <span>Summary</span>
 
 The key path of this index. If null, this index is not auto-populated.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)</span></span>
+Property of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.keyPath;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 

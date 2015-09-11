@@ -1,20 +1,22 @@
 ---
 title: try catch finally
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4yahc5d8(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets up blocks of code in which errors that are thrown in one block are handled in another. Errors that are thrown inside the try block are caught in the catch block. JavaScript.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Sets up blocks of code in which errors that are thrown in one block are handled in another. Errors that are thrown inside the try block are caught in the catch block. JavaScript.'
 uri: 'javascript/statements/try catch finally'
 
 ---
-# try catch finally
-
-## Summary
+## <span>Summary</span>
 
 Sets up blocks of code in which errors that are thrown in one block are handled in another. Errors that are thrown inside the try block are caught in the catch block. JavaScript.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     try {
       tryStatements
@@ -36,9 +38,9 @@ Sets up blocks of code in which errors that are thrown in one block are handled 
 **finallyStatements**
 :   Optional. Statements that are unconditionally executed after all other error processing has occurred.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 try {
   functionDoesNotExist();
 }
@@ -51,7 +53,7 @@ console.log("This code runs!");
 // This runs because the error was successfully caught
 ```
 
-## Usage
+## <span>Usage</span>
 
      The try...catch...finally statement provides a way to handle some or all of the errors that may occur in a given block of code, while still running code. If errors occur that are not handled, JavaScript provides the normal error message.
 
@@ -61,19 +63,13 @@ You can pass the error up to the next level by using the throw statement to re-t
 
 After all the statements in the try block have been executed and error handling has been done in the catch block, the statements in the finally block are executed, whether or not an error was handled. The code in the finally block is guaranteed to run unless an unhandled error occurs (for example, a run-time error inside the **catch** block).
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [throw Statement](/javascript/statements/throw)
 
-### Specification
+### <span>Specification</span>
 
 -   [ECMAScript 5.1 (ECMA-262) - The try statement](http://www.ecma-international.org/ecma-262/5.1/#sec-12.14)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4yahc5d8(v=vs.94).aspx)
 

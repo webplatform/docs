@@ -1,48 +1,53 @@
 ---
 title: pageYOffset
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, examples, and more detailed content needed.'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/properties
+    href: /css/cssom/properties
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'summary, examples, and more detailed content needed.'
 uri: css/cssom/properties/pageYOffset
 
 ---
-# pageYOffset
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/properties](/css/cssom/properties)</span></span>
+Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.pageYOffset;
 element.pageYOffset = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 When you scroll a document vertically, some content is moved outside the view of the display area. The **pageYOffset** property returns the difference between the first pixel in the content and the first pixel currently in view.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -98,13 +103,9 @@ When you scroll a document vertically, some content is moved outside the view of
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -144,18 +145,55 @@ When you scroll a document vertically, some content is moved outside the view of
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   **pageYOffset**
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `window`
 -   `pageXOffset`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

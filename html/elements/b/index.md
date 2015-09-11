@@ -1,28 +1,28 @@
 ---
 title: b
+code_samples:
+  - 'http://gist.github.com/7281844'
+  - 'http://gist.github.com/321e5149c1e661e1de14'
+notes:
+  - 'Add compatibility.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The b element represents a span of text to be stylistically offset from the normal prose without conveying any extra importance.'
 tags:
   - Markup
   - Elements
   - HTML
   - XHTML
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add compatibility.'
-summary: 'The b element represents a span of text to be stylistically offset from the normal prose without conveying any extra importance.'
-code_samples:
-  - 'http://gist.github.com/7281844'
-  - 'http://gist.github.com/321e5149c1e661e1de14'
 uri: html/elements/b
 
 ---
-# b
-
-## Summary
+## <span>Summary</span>
 
 The b element represents a span of text to be stylistically offset from the normal prose without conveying any extra importance.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -31,11 +31,11 @@ It was originally used to tell the browser to make the enclosed text bold. While
 
 The **b** element should be used as a last resort when no other element is more appropriate, as it has no semantic value other than indicating that the contained text should be stylistically offset in some way (i.e. it’s like a shorter [**span** element](/html/elements/span)). For visually similar elements that do provide semantic meaning, consider [strong](/html/elements/strong), [dfn](/html/elements/dfn), [h1-h6](/html/elements/hn), or [abbr](/html/elements/abbr).
 
-## Examples
+## <span>Examples</span>
 
 In the following example, objects in a text adventure are highlighted as being special by use of the **b** element.
 
-``` {.html}
+``` html
 <p>You enter a small room. Your <b>sword</b> glows
 brighter. A <b>rat</b> scurries past the corner wall.</p>
 ```
@@ -44,7 +44,7 @@ brighter. A <b>rat</b> scurries past the corner wall.</p>
 
 In this example, the **b** element is used to indicate both a company and a product name. Disambiguation via CSS is accomplished using the **class** attribute.
 
-``` {.html}
+``` html
 <p><b class="org">Acme <abbr title="Corporation">Corp</abbr></b>
 is pleased to introduce the
 <b class="product">Widget Blast 3000</b>.
@@ -55,7 +55,7 @@ your kids to bed.</p>
 
 [View live example](http://code.webplatform.org/gist/321e5149c1e661e1de14)
 
-## Usage
+## <span>Usage</span>
 
      The b element makes a lot of sense for use as a wrapper for proper names (e.g. people, companies, products, locations) as they may be offset from the surrounding text in some way, but are not semantically meaningful.
 
@@ -63,30 +63,28 @@ Internationalization topics related to the **b** element:
 
 -   [[b and i tags](http://www.w3.org/International/techniques/authoring-html#bandi%7CUsing)]
 
-## Notes
+## <span>Notes</span>
 
 As the **b** element has no inherent meaning, you should not use it to convey meaning; there is probably a more appropriate element for that. Headings should use the **h1** to **h6** elements, stress emphasis should use the **em** element, importance should be denoted with the **strong** element, and contextually-important/highlighted text should use the **mark** element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-b-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-b-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/present/graphics.html#edef-B)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -184,21 +182,53 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Text
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -209,8 +239,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -224,25 +252,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -287,4 +301,3 @@ Specification
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-

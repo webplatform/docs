@@ -1,26 +1,25 @@
 ---
 title: AnimationTimingProperties
+readiness: 'Almost Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The AnimationTimingProperties dictionary is encapsulates the timing properties of an AnimationNode so that they can be set in bulk (as in the constructor for Animation) or returned as a readonly snapshot (as in computedTiming).'
 tags:
   - API
   - Objects
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The AnimationTimingProperties dictionary is encapsulates the timing properties of an AnimationNode so that they can be set in bulk (as in the constructor for Animation) or returned as a readonly snapshot (as in computedTiming).'
 uri: 'apis/web animations/AnimationTimingProperties'
 
 ---
-# AnimationTimingProperties
-
-## Summary
+## <span>Summary</span>
 
 The AnimationTimingProperties dictionary is encapsulates the timing properties of an AnimationNode so that they can be set in bulk (as in the constructor for Animation) or returned as a readonly snapshot (as in computedTiming).
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [delay](/apis/web_animations/AnimationTimingProperties/delay)
 :   The specified start delay.
 
@@ -28,6 +27,7 @@ API Name
 
 [direction](/apis/web_animations/AnimationTimingProperties/direction)
 :   See the direction member of the AnimationTimingReadOnly interface.
+
 [duration](/apis/web_animations/AnimationTimingProperties/duration)
 :   See the duration member of the AnimationTimingReadOnly interface.
 
@@ -45,6 +45,7 @@ API Name
 
 [fill](/apis/web_animations/AnimationTimingProperties/fill)
 :   See the fill member of the AnimationTimingReadOnly interface.
+
 [interations](/apis/web_animations/AnimationTimingProperties/interations)
 :   See the iterations member of the AnimationTimingReadOnly interface.
 
@@ -60,11 +61,11 @@ API Name
 [playbackRate](/apis/web_animations/AnimationTimingProperties/playbackRate)
 :   See the playbackRate member of the AnimationTimingReadOnly interface.
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 

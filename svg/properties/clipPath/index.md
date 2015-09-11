@@ -1,31 +1,31 @@
 ---
 title: clipPath
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/clipPath
 
 ---
-# clipPath
+## <span>Notes</span>
 
-## Notes
+### <span>Remarks</span>
 
-### Remarks
+An IRI is similar to a URL. For example, an SVG file called **myDrawing.svg** located at **<http://contoso.com>** might have the following IRI: **<http://contoso.com/myDrawing.svg>**.
 
-An IRI is similar to a URL. For example, an SVG file called **myDrawing.svg** located at **[http://contoso.com](http://contoso.com)** might have the following IRI: **[http://contoso.com/myDrawing.svg](http://contoso.com/myDrawing.svg)**.
+### <span>Syntax</span>
 
-### Syntax
-
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.3.6
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -50,10 +50,3 @@ An IRI is similar to a URL. For example, an SVG file called **myDrawing.svg** lo
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGUseElement**](/svg/elements/use)
 -   [clip-rule](/svg/attributes/clip-rule)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

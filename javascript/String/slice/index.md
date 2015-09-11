@@ -1,20 +1,22 @@
 ---
 title: slice
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6w1bzf9f(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a section of a string.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a section of a string.'
 uri: javascript/String/slice
 
 ---
-# slice
-
-## Summary
+## <span>Summary</span>
 
 Returns a section of a string.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     stringObj.slice( start , [ end ])
 
@@ -27,11 +29,11 @@ Returns a section of a string.
 **end**
 :   Optional. The index to the end of the specified portion of stringObj. The substring includes the characters up to, but not including, the character indicated by end. If this value is not specified, the substring continues to the end of stringObj.
 
-## Examples
+## <span>Examples</span>
 
 In the first example, the slice method returns the entire string. In the second example, the slice method returns the entire string, except for the last character.
 
-``` {.js}
+``` js
 var str1 = "all good boys do fine";
 
  var slice1 = str1.slice(0);
@@ -51,7 +53,7 @@ var str1 = "all good boys do fine";
  // good
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **slice** method returns a String object containing the specified portion of stringObj.
 
@@ -59,15 +61,9 @@ The **slice** method copies up to, but not including, the character indicated by
 
 If start is negative, it is treated as length + start where length is the length of the string. If end is negative, it is treated as length + end. If end is omitted, copying continues to the end of stringObj. If end occurs before start , no characters are copied to the new string.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [slice Method (Array)](/javascript/Array/slice)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6w1bzf9f(v=vs.94).aspx)
 

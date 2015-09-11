@@ -1,48 +1,57 @@
 ---
 title: isTrusted
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Event
+    href: /dom/Event
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/Event
+summary: 'Gets a value that indicates whether a trusted event source created an event.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Gets a value that indicates whether a trusted event source created an event.'
 uri: dom/Event/isTrusted
 
 ---
-# isTrusted
-
-## Summary
+## <span>Summary</span>
 
 Gets a value that indicates whether a trusted event source created an event.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Event](/dom/Event)</span></span>
+Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var isTrusted = event.isTrusted;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 Whether the event was created by a trusted source.
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Use this property to determine whether a script created the event, rather than a trusted source (such as a user agent).
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`
@@ -59,10 +68,3 @@ Whether the event was created by a trusted source.
 -   `StorageEvent`
 -   `TextEvent`
 -   `UIEvent`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

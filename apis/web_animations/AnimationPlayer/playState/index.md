@@ -1,36 +1,43 @@
 ---
 title: playState
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationPlayer
+    href: /apis/web_animations/AnimationPlayer
+  return:
+    predicate: 'Returns an object of type '
+    value: enum
+    href: /apis/web_animations/AnimationPlayer
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The play state of this player.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The play state of this player.'
 uri: 'apis/web animations/AnimationPlayer/playState'
 
 ---
-# playState
-
-## Summary
+## <span>Summary</span>
 
 The play state of this player.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)</span></span>
+Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var currentState = myPlayer.playState;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">enum</span></span>
+Returns an object of type enumenum
 
 Returns a value from the AnimationPlayState enumeration.
 

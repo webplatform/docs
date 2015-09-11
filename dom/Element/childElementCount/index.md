@@ -1,81 +1,81 @@
 ---
 title: childElementCount
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat table'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Element
+    href: /dom/Element
+standardization_status: 'W3C Recommendation'
+summary: 'Returns the number of direct children of this node that are elements.  Read-only.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat table'
-summary: 'Returns the number of direct children of this node that are elements.  Read-only.'
 uri: dom/Element/childElementCount
 
 ---
-# childElementCount
-
-## Summary
+## <span>Summary</span>
 
 Returns the number of direct children of this node that are elements. Read-only.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Element](/dom/Element)</span></span>
+Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.childElementCount;
 ```
 
-## Examples
+## <span>Examples</span>
 
 This example shows how to use **childElementCount** to get the number of *immediate* children of a div tag. Descendent children of the the div tag "divWithChildren" are ignored.
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-            <title>childElementCount example</title>
-        <script>
-            function GetCount () {
-                var testArea = document.getElementById ("testArea");
-                var childCount = 0;
-                    childCount = testArea.childElementCount;
-                alert ("The number of child elements is " + childCount);
-            }
-        </script>
-    </head>
-    <body>
-        <div id="testArea" >
-        <p>This is the test area, which contains several children.</p>
-            <div id="divWithChildren">
-                <div>a descendant child of a div</div>
-                <div>also a descendent child of a div</div>
-            </div>
-            <p>A paragraph tag to consider.</p>
-            <input type="text" size="80" value="And a text box as well"/>
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+        <title>childElementCount example</title>
+    <script>
+        function GetCount () {
+            var testArea = document.getElementById ("testArea");
+            var childCount = 0;
+                childCount = testArea.childElementCount;
+            alert ("The number of child elements is " + childCount);
+        }
+    </script>
+</head>
+<body>
+    <div id="testArea" >
+    <p>This is the test area, which contains several children.</p>
+        <div id="divWithChildren">
+            <div>a descendant child of a div</div>
+            <div>also a descendent child of a div</div>
         </div>
-        <p><input type="button" value="Get the number child elements in our test" name="abutton"  onclick="GetCount ();" /> </p>
+        <p>A paragraph tag to consider.</p>
+        <input type="text" size="80" value="And a text box as well"/>
+    </div>
+    <p><input type="button" value="Get the number child elements in our test" name="abutton"  onclick="GetCount ();" /> </p>
 
-    </body>
-    </html>
+</body>
+</html>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **childElementCount** property only returns immediate children of the current node. It does not count descendent children of the immediate children.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Element Traversal Specification](http://go.microsoft.com/fwlink/p/?linkid=182722), Section 2.5
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

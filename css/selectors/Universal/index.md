@@ -1,33 +1,35 @@
 ---
 title: Universal
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: css/selectors/universal_selector \n\n"
+readiness: 'In Progress'
 tags:
   - CSS
   - Selectors
-readiness: 'In Progress'
-notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: css/selectors/universal_selector \n\n"
-uri: css/selectors/Universal
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: css/selectors/Universal
 
 ---
-# Universal
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Examples
+## <span>Examples</span>
 
 The following style rule draws a thin orange border around every element on the page.
 
-    <style>
-        * { border: 1px solid orange; }
-    </style>
+``` html
+<style>
+    * { border: 1px solid orange; }
+</style>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The universal selector matches every element in the document tree. If the universal selector is not the only component of a simple selector, the "\*" may be omitted. For example:
 
@@ -35,23 +37,23 @@ The universal selector matches every element in the document tree. If the univer
 -   \*\#myid and \#myid are equivalent.
 -   \*:hover and :hover are equivalent.
 
-### Syntax
+### <span>Syntax</span>
 
 `* {...}`
 
-### Parameters
+### <span>Parameters</span>
 
 This (\*) selector has no parameters.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.3
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -126,10 +128,3 @@ This (\*) selector has no parameters.
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   [type](/css/selectors/type)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,51 +1,49 @@
 ---
 title: item
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Wrong template; should be a method, not a property(?)'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+    href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'Wrong template; should be a method, not a property(?)'
 uri: css/cssom/CSSStyleDeclaration/item
 
 ---
-# item
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)</span></span>
+Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.item;
 element.item = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **item** method can be used to iterate over all properties in this declaration block.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 1.2
 
-### Parameters
+### <span>Parameters</span>
 
 *index* [in]
 :   Type: **Integer** \<b/\>The index of the property name to retrieve.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

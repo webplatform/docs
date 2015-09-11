@@ -1,26 +1,35 @@
 ---
 title: accept
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Address minor bugs; Could be part of security considerations articles; General cleanup of links; Need to cross-link to other relevant content'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'This attribute supplies browsers with a hint about what filetypes its element will accept.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Address minor bugs; Could be part of security considerations articles; General cleanup of links; Need to cross-link to other relevant content'
-summary: 'This attribute supplies browsers with a hint about what filetypes its element will accept.'
 uri: html/attributes/accept
 
 ---
-# accept
-
-## Summary
+## <span>Summary</span>
 
 This attribute supplies browsers with a hint about what filetypes its element will accept.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/dom/HTMLInputElement)
 
+</th>
+<td>
+[HTMLInputElement](/dom/HTMLInputElement)
+
+</td>
+</tr>
+</table>
 Accepts a comma separated list of file types. Valid file types can be any of the following.
 
 -   The string `audio/*` indicates any audio file is allowed.
@@ -31,42 +40,38 @@ Accepts a comma separated list of file types. Valid file types can be any of the
 
 Duplicates are not allowed (case insensitive).
 
-## Examples
+## <span>Examples</span>
 
 Indicates that audio files are accepted.
 
-``` {.html}
+``` html
 <input type="file" accept="audio/*" />
 ```
 
 Indicates that both PNG and GIF file formats are accepted.
 
-``` {.html}
+``` html
 <input type="file" accept="image/png, image/gif" />
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The information from the list can be used to filter out nonconforming files when prompting a user to select files to be sent to the server using the **\<INPUT\> element with type="file"**. Examples of content types include "text/html", "image/png", "image/gif", "video/mpeg", "audio/basic", "text/tcl", "text/javascript", and "text/vbscript". For the current list of registered MIME types, see [MIME Media Types](http://go.microsoft.com/fwlink/p/?linkid=203647). There is no functionality implemented for this property unless defined by the author. **accept** was introduced in Microsoft Internet Explorer 6
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-input-accept)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -164,21 +169,50 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### External resources
+-   [img](/html/elements/img)
 
--   [http://www.w3.org/TR/html5/forms.html\#attr-input-accept](http://www.w3.org/TR/html5/forms.html#attr-input-accept)
+-   [input](/html/elements/input)
 
-### Related pages (MSDN)
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>External resources</span>
+
+-   <http://www.w3.org/TR/html5/forms.html#attr-input-accept>
+
+### <span>Related pages (MSDN)</span>
 
 -   `input`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

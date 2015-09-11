@@ -1,53 +1,69 @@
 ---
 title: border-bottom-color
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5535432'
+notes:
+  - 'This article could be shortened. The various ways of color encoding needn''t be included in the example, as they are not specific to border-bottom-color. The link to the color article is sufficient.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`color - The value of the ''color'' property`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'when taken from the ''color'' property, the computed value of ''color''; otherwise, as specified'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderTopColor`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: "Sets the color of the bottom border. This page explains the border-bottom-color value, but often you will find it more convenient to fix the border's bottom color as part of a shorthand set, either border-bottom or border-color.\n"
 tags:
   - CSS
   - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'This article could be shortened. The various ways of color encoding needn''t be included in the example, as they are not specific to border-bottom-color. The link to the color article is sufficient.'
-summary: "Sets the color of the bottom border. This page explains the border-bottom-color value, but often you will find it more convenient to fix the border's bottom color as part of a shorthand set, either border-bottom or border-color.\n"
-code_samples:
-  - 'http://gist.github.com/5535432'
 uri: css/properties/border-bottom-color
 
 ---
-# border-bottom-color
-
-## Summary
+## <span>Summary</span>
 
 Sets the color of the bottom border. This page explains the border-bottom-color value, but often you will find it more convenient to fix the border's bottom color as part of a shorthand set, either border-bottom or border-color.
 
 [Colors](/css/data_types/color) can be defined several ways. For more information, see [Usage](/css/properties/border-bottom-color#Usage).
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `color - The value of the 'color' property`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   when taken from the 'color' property, the computed value of 'color'; otherwise, as specified
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderTopColor`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-bottom-color: <color>`
 -   `border-bottom-color: currentColor`
 -   `border-bottom-color: inherit`
 -   `border-bottom-color: transparent`
 
-## Values
+## <span>Values</span>
 
 \<color\>
 :   The computed value of the ‘color’ property. This value can be a basic color keyword, such as red or lavenderblush, a numerical value, an RGB or RGBA value, or an HSL or HSLA value. For more information, see [Usage](/css/properties/border-bottom-color#Usage).
@@ -61,11 +77,11 @@ currentColor
 transparent
 :   Fully transparent. This keyword can be considered a shorthand for transparent black, rgba(0,0,0,0), which is its computed value.
 
-## Examples
+## <span>Examples</span>
 
 The following example demonstrates the use of `border-bottom-color` by creating a set of 7 boxes with the rainbow colors, each box using a different way of color code representation. (Some style rules omitted for brevity.)
 
-``` {.css}
+``` css
 .box {
   border: 5px solid #efefef;
 }
@@ -101,7 +117,7 @@ The following example demonstrates the use of `border-bottom-color` by creating 
 
 [View live example](http://code.webplatform.org/gist/5535432)
 
-``` {.html}
+``` html
 <div class="box named-value">
   <h1>Named color</h1>
   <p><code>red</code></p>
@@ -138,7 +154,7 @@ The following example demonstrates the use of `border-bottom-color` by creating 
 </div>
 ```
 
-## Usage
+## <span>Usage</span>
 
      The color value can be a property keyword, an extended keyword, or a numerical value. The two property keywords are currentColor and transparent. currentColor is the ‘color’ property value from the parent object. transparent is shorthand for transparent black, rgba(0,0,0,0).
 
@@ -153,22 +169,22 @@ The color value can also be a numerical value, such as one of the following:
 
 The color value can also be an extended keyword, such as aliceblue or lavenderblush. For a full list of extended keywords, see the [CSS Color Module Level 3 spec](http://www.w3.org/TR/css3-color/#svg-color), which is the consolidation of various specifications.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-color)
 :   W3C Candidate Recommendation
+
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/box.html#border-color-properties)
 :   W3C Recommendation
+
 [CSS Level 3 - Color Module](http://www.w3.org/TR/css3-color)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -228,7 +244,7 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -236,10 +252,3 @@ Specification
 -   `runtimeStyle`
 -   `style`
 -   `border`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

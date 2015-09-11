@@ -1,35 +1,37 @@
 ---
 title: toString
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155283(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a string representation of an error.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a string representation of an error.'
 uri: javascript/Error/toString
 
 ---
-# toString
-
-## Summary
+## <span>Summary</span>
 
 Returns a string representation of an error.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     error.toString()
 
 **date**
 :   Required. The error to represent as a string.
 
-## Return Value
+## <span>Return Value</span>
 
 Returns "Error: " plus the error message.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **toString** method with an error.
 
-``` {.js}
+``` js
 var myError = new Error();
  myError.message = "My Error";
  var errorString = myError.toString();
@@ -37,10 +39,4 @@ var myError = new Error();
 
  // Output: Error: My Error
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155283(v=vs.94).aspx)
 

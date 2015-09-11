@@ -1,28 +1,30 @@
 ---
 title: length
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4cz6db7d(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Gets the number of arguments defined for a function.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Gets the number of arguments defined for a function.'
 uri: javascript/Function/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 Gets the number of arguments defined for a function.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     functionName.length
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **length** property:
 
-``` {.js}
+``` js
 function ArgTest(a, b){
      var s = "";
 
@@ -40,7 +42,7 @@ function ArgTest(a, b){
  // Passed Arguments: 2
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required functionName is the name of the function.
 
@@ -48,17 +50,11 @@ The **length** property of a function is initialized by the scripting engine to 
 
 What happens when a function is called with a number of arguments different from the value of its **length** property depends on the function.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [arguments Property (Function)](/javascript/Function/arguments)
 -   [length Property (Array)](/javascript/Array/length)
 -   [length Property (String)](/javascript/String/length)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4cz6db7d(v=vs.94).aspx)
 

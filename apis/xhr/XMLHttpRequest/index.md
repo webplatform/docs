@@ -1,22 +1,23 @@
 ---
 title: XMLHttpRequest
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/cors/)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.'
 tags:
   - API
   - Objects
   - XHR
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.'
 uri: apis/xhr/XMLHttpRequest
 
 ---
-# XMLHttpRequest
-
-## Summary
+## <span>Summary</span>
 
 XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.
 
-## Overview
+## <span>Overview</span>
 
 The **XMLHttpRequest** property is available on the **window** object.
 
@@ -24,76 +25,101 @@ The **XMLHttpRequest** property is available on the **window** object.
 
 With the **XMLHttpRequest** object, clients can make HTTP requests to a URL without reloading the entire page. Despite the term "XML" in the name, this object can be used to retrieve any type of data.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [readyState](/apis/xhr/XMLHttpRequest/readyState)
 :   Returns the current state of the XMLHttpRequest.
+
 [response](/apis/xhr/XMLHttpRequest/response)
 :   Returns the response entity body, which is the fragment of the entity body of the response received so far (if LOADING) or the complete entity body of the response (if DONE).
+
 [responseText](/apis/xhr/XMLHttpRequest/responseText)
 :   Returns the text response entity body, a string representing the response entity body, which is the fragment of the entity body of the response received so far (if LOADING) or the complete entity body of the response (if DONE).
+
 [responseType](/apis/xhr/XMLHttpRequest/responseType)
 :   Returns or sets the format the response will be returned in.
+
 [responseXML](/apis/xhr/XMLHttpRequest/responseXML)
 :   Returns the response to the request as a DOM Document object, or null if the request was unsuccessful, has not yet been sent, or cannot be parsed as XML or HTML.
+
 [status](/apis/xhr/XMLHttpRequest/status)
 :   Returns the HTTP result code (status) of the response to the request.
+
 [statusText](/apis/xhr/XMLHttpRequest/statusText)
 :   Returns the HTTP status text.
+
 [timeout](/apis/xhr/XMLHttpRequest/timeout)
 :   Returns or sets the number of milliseconds a request can take before automatically being terminated.
+
 [upload](/apis/xhr/XMLHttpRequest/upload)
 :   Returns the associated XMLHttpRequestUpload object. It can be used to gather transmission information when data is transferred to a server.
+
 [withCredentials](/apis/xhr/XMLHttpRequest/withCredentials)
 :   Returns or sets whether cross-site Access-Control requests should be made using credentials such as cookies or authorization headers.
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [abort](/apis/xhr/XMLHttpRequest/abort)
 :   Stops an asynchronous XMLHttpRequest in progress.
+
 [getAllResponseHeaders](/apis/xhr/XMLHttpRequest/getAllResponseHeaders)
 :   Returns all the response headers as a string, or null if no response has been received.
+
 [getResponseHeader](/apis/xhr/XMLHttpRequest/getResponseHeader)
 :   Returns the string containing the text of the specified header, or null if the response has not been received or the header does not exist.
+
 [open](/apis/xhr/XMLHttpRequest/open)
 :   Initializes an XMLHttpRequest.
+
 [overrideMimeType](/apis/xhr/XMLHttpRequest/overrideMimeType)
 :   Overrides the MIME type returned by the server.
+
 [send](/apis/xhr/XMLHttpRequest/send)
 :   Initiates the request defined by the XMLHttpRequest.
+
 [setRequestHeader](/apis/xhr/XMLHttpRequest/setRequestHeader)
 :   Sets the value of an XMLHttpRequest header.
 
-## Events
+## <span>Events</span>
 
 API Name
 :   Summary
+
 [abort](/apis/xhr/XMLHttpRequest/abort-event)
 :   When the request has been aborted. For instance, by invoking the abort() method.
+
 [error](/apis/xhr/XMLHttpRequest/error)
 :   When the request has failed.
+
 [load](/apis/xhr/XMLHttpRequest/load)
 :   When the request has successfully completed.
+
 [loadend](/apis/xhr/XMLHttpRequest/loadend)
 :   When the request has completed (either in success or failure).
+
 [loadstart](/apis/xhr/XMLHttpRequest/loadstart)
 :   When the request starts.
+
 [progress](/apis/xhr/XMLHttpRequest/progress)
 :   While sending and loading data.
+
 [readystatechange](/apis/xhr/XMLHttpRequest/readystatechange)
 :   Fires whenever the readyState of the request changes. Mostly used to determine whether the body of the response is available for handling.
+
 [timeout](/apis/xhr/XMLHttpRequest/timeout-event)
 :   When the author specified timeout has passed before the request could complete.
 
-## Examples
+## <span>Examples</span>
 
 The following script demonstrates how to create and use the **XMLHttpRequest** object. For best client-side performance, the request is asynchronous and uses an **onreadystatechange** event handler to process the data returned by the call.
 
-``` {.js}
+``` js
 function handler() {
   if (xhr.readyState === 4 /* complete */) {
     if (xhr.status === 200) {
@@ -109,7 +135,7 @@ xhr.send();
 
 This script demonstrates how to access resources that sits on a different domain. Example: siteA.com gets resource from siteB.com
 
-``` {.js}
+``` js
 // Create the XHR object.
 function createCORSRequest(method, url) {
   var xhr = new XMLHttpRequest();
@@ -158,28 +184,27 @@ function makeCorsRequest() {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      The XMLHttpRequest object can be used to make either same-origin or cross-origin requests.
 
-Same-origin requests are subject to the browser's same-origin policy: [http://en.wikipedia.org/wiki/Same\_origin\_policy](http://en.wikipedia.org/wiki/Same_origin_policy) This basically says that an XMLHttpRequest instance can make a request to a resource that lives on the same origin as the calling page.
+Same-origin requests are subject to the browser's same-origin policy: <http://en.wikipedia.org/wiki/Same_origin_policy> This basically says that an XMLHttpRequest instance can make a request to a resource that lives on the same origin as the calling page.
 
-Requests that go across origins (for example, a request from originA.com to originB.com) can also be made. But in order for them to work, the destination server must support Cross-Origin Resource Sharing (CORS, [http://www.w3.org/TR/cors/](http://www.w3.org/TR/cors/)). These are a set of headers included in the response that indicate how a resource can be accessed across domains.
+Requests that go across origins (for example, a request from originA.com to originB.com) can also be made. But in order for them to work, the destination server must support Cross-Origin Resource Sharing (CORS, <http://www.w3.org/TR/cors/>). These are a set of headers included in the response that indicate how a resource can be accessed across domains.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft
+
 [Cross-Origin Resource Sharing](http://www.w3.org/TR/cors/)
 :   W3C Candidate Recommendation 29 January 2013
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### XHR
+#### <span>XHR</span>
 
 -   [XMLHttpRequest (XHR) API](/apis/xhr)
 
@@ -190,12 +215,3 @@ Specification
 -   [MSEPrimer](/tutorials/MSEPrimer)
 
 -   [file xhr](/tutorials/file_xhr)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/cors/)
-

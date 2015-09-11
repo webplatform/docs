@@ -5,7 +5,7 @@ uri: Beginners/Submenu
 ---
 This template is a submenu for the [Beginners](/Beginners) section.
 
-## Usage
+## <span>Usage</span>
 
 {{:Beginners/Submenu}}
 

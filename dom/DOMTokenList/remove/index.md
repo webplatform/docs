@@ -1,46 +1,53 @@
 ---
 title: remove
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/DOMTokenList
+    href: /dom/DOMTokenList
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /dom/DOMTokenList
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Removes one or more tokens from a DOMTokenList.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Removes one or more tokens from a DOMTokenList.'
 uri: dom/DOMTokenList/remove
 
 ---
-# remove
-
-## Summary
+## <span>Summary</span>
 
 Removes one or more tokens from a DOMTokenList.
 
-*Method of [dom/DOMTokenList](/dom/DOMTokenList)*
+Method of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.remove(token);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### token
+### <span>token</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The token to remove from the DOMTokenList.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //removes an item from an element's classList (a DOMTokenList)
 function elRemItem(elid,itemrem) {
   var classes = document.getElementById(elid).classList;
@@ -48,10 +55,7 @@ function elRemItem(elid,itemrem) {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation
-

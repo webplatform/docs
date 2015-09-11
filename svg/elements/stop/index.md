@@ -1,39 +1,41 @@
 ---
 title: stop
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
 uri: svg/elements/stop
 
 ---
-# stop
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 You must define two **stop** elements to create a gradient effect. If no **stop** elements, painting occurs as if you specify **none** as the paint style. If you define one **stop** element, the paint occurs by using a solid-color fill with the color that is defined for that gradient **stop** element.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.4
 
-### Members
+### <span>Members</span>
 
 The **SVGStopElement** object has these events:
 
@@ -51,18 +53,11 @@ The **SVGStopElement** object has these properties:
 -   [**viewportElement**](/svg/properties/viewportElement): Gets the element that established the current viewport.
 -   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
-### Reference
+### <span>Reference</span>
 
 -   [**SVGLinearGradientElement**](/svg/elements/linearGradient)
 -   [**SVGRadialGradientElement**](/svg/elements/radialGradient)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

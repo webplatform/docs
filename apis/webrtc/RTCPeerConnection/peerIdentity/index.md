@@ -1,55 +1,61 @@
 ---
 title: peerIdentity
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+  return:
+    predicate: 'Returns an object of type '
+    value: RTCIdentityAssertion
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: 'W3C Working Draft'
+summary: 'Contains the peer identity assertion information if an identity assertion was provided and verified.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'Contains the peer identity assertion information if an identity assertion was provided and verified.'
 uri: apis/webrtc/RTCPeerConnection/peerIdentity
 
 ---
-# peerIdentity
-
-## Summary
+## <span>Summary</span>
 
 Contains the peer identity assertion information if an identity assertion was provided and verified.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)</span></span>
+Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.peerIdentity;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">RTCIdentityAssertion</span></span>
+Returns an object of type RTCIdentityAssertionRTCIdentityAssertion
 
 The RTCIdentityAssertion object has two string members:
 
 -   idp - the domain name representing the identity provider
 -   name - the name of the verified peer identity
 
-## Examples
+## <span>Examples</span>
 
 This example shows how to consume identity assertions.
 
-``` {.js}
+``` js
 pc.onidentityresult = function(result) {
   console.log("IdP= " + pc.peerIdentity.idp +
               " identity=" + pc.peerIdentity.name);
 };
 ```
 
-## Notes
+## <span>Notes</span>
 
 The identity system is designed so that applications need not take any special action in order for users to generate and verify identity assertions; if a user has configured an IdP into their browser, then the browser will automatically request/generate assertions and the other side will automatically verify them and display the results.
-

@@ -1,50 +1,49 @@
 ---
 title: Digest
+overview_table:
+  Direction: Response
+  Features: ''
+summary: 'Indicates the hash/digest of the full resource, before partial content or encodings.'
 tags:
   - HTTP
   - Headers
-summary: 'Indicates the hash/digest of the full resource, before partial content or encodings.'
-uri: http/headers/Digest
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - http/headers/Want-Digest
+uri: http/headers/Digest
 
 ---
-# Digest
-
-## Summary
+## <span>Summary</span>
 
 Indicates the hash/digest of the full resource, before partial content or encodings.
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Response
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     Digest = "Digest" ":" #(instance-digest)
     instance-digest = digest-algorithm "=" <encoded digest output>
 
-## Examples
+## <span>Examples</span>
 
-``` {.other}
+```
 Digest: SHA=thvDyvhfIqlvFe+A9MYgxAfm1q5=,unixsum=30637
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [RFC 3230: Instance Digests in HTTP](http://tools.ietf.org/html/rfc3230)
 :
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Want-Digest](/w/index.php?title=http/headers/Want-Digest&action=edit&redlink=1)
-

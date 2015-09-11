@@ -1,25 +1,23 @@
 ---
-title: smarter svg text
-tags:
-  - Tutorials
-  - SVG
+title: Smarter SVG: text
 notes:
   - '[new content edited offline by Sierra (Sierra (talk)); please do not edit]'
 summary: 'This guide shows how to embed text in your SVG content.'
-uri: 'svg/tutorials/smarter svg text'
+tags:
+  - Tutorials
+  - SVG
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'User talk:Sierra'
+uri: 'svg/tutorials/smarter svg text'
 
 ---
-# Smarter SVG: text
-
-## Summary
+## <span>Summary</span>
 
 This guide shows how to embed text in your SVG content.
 
-## Basic Text
+## <span>Basic Text</span>
 
 -   x
 -   y
@@ -29,16 +27,16 @@ This guide shows how to embed text in your SVG content.
 -   lengthAdjust
 -   tspan
 
-## Referencing Text
+## <span>Referencing Text</span>
 
 -   tref
 
-## Advanced Effects
+## <span>Advanced Effects</span>
 
 -   rotate
 -   textPath
 
-## Font Glyphs
+## <span>Font Glyphs</span>
 
 CSS2 Font:
 
@@ -75,4 +73,3 @@ Text properties:
 ![stop color.svg](/assets/thumb/8/82/stop_color.svg/792px-stop_color.svg.png)
 
  ([Overview](/svg/tutorials/smarter_svg_overview) / [Shapes](/svg/tutorials/smarter_svg_shapes) / **Text** / [Graphics](/svg/tutorials/smarter_svg_graphics) / [Filters](/svg/tutorials/smarter_svg_filters) / [Animation](/svg/tutorials/smarter_svg_animation) / [Interaction](/svg/tutorials/smarter_svg_interaction))
-

@@ -1,51 +1,68 @@
 ---
 title: transition
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/transition)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5842511'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`see individual properties`'
+  'Applies to': "all elements,\_:before and\_:after pseudo elements"
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: interactive
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`transition`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay. It allows to define the transition between two states of an element.'
 tags:
   0: CSS
   1: Properties
   3: Vendor
   4: Prefix
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay. It allows to define the transition between two states of an element.'
-code_samples:
-  - 'http://gist.github.com/5842511'
 uri: css/properties/transition
 
 ---
-# transition
-
-## Summary
+## <span>Summary</span>
 
 The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay. It allows to define the transition between two states of an element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `see individual properties`
+
 Applies to
 :   all elements, :before and :after pseudo elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   interactive
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `transition`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `transition: transition-delay`
 -   `transition: transition-duration`
 -   `transition: transition-property`
 -   `transition: transition-timing-function`
 
-## Values
+## <span>Values</span>
 
 transition-property
 :   Value of the [**transition-property**](/css/properties/transition-property) property.
@@ -59,11 +76,11 @@ transition-timing-function
 transition-delay
 :   Value of the [**transition-delay**](/css/properties/animation-delay) property.
 
-## Examples
+## <span>Examples</span>
 
 When you hover over the div, the height property will gradually change from 100 to 500.
 
-``` {.css}
+``` css
 /*
  * This example usage of the transition shorthand
  *
@@ -83,20 +100,18 @@ div:hover {
 
 [View live example](http://code.webplatform.org/gist/5842511)
 
-A list of translatable properties exists here: [http://www.w3.org/TR/2009/WD-css3-transitions-20091201/\#animatable-properties-](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties-)
+A list of translatable properties exists here: <http://www.w3.org/TR/2009/WD-css3-transitions-20091201/#animatable-properties->
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -117,8 +132,6 @@ Specification
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -146,11 +159,9 @@ Specification
 
 -   **transition**
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Transitions
+#### <span>Transitions</span>
 
 -   [cubic-bezier](/css/functions/cubic-bezier)
 
@@ -163,12 +174,3 @@ Specification
 -   [transition-property](/css/properties/transition-property)
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/transition)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,42 +1,51 @@
 ---
 title: top
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/ClientRect
+    href: /css/cssom/ClientRect
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /css/cssom/ClientRect
+summary: 'Returns the top value for a ClienRect object.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'Returns the top value for a ClienRect object.'
 uri: css/cssom/ClientRect/top
 
 ---
-# top
-
-## Summary
+## <span>Summary</span>
 
 Returns the top value for a ClienRect object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/ClientRect](/css/cssom/ClientRect)</span></span>
+Property of [css/cssom/ClientRect](/css/cssom/ClientRect)[css/cssom/ClientRect](/css/cssom/ClientRect)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var pixelsFromTop = clientRect.top;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
 This example uses the [**getBoundingClientRect**](/dom/HTMLElement/getBoundingClientRect) method to retrieve the coordinates of the bounds of the text rectangles within the element.
 
-``` {.html}
+``` html
 <SCRIPT>
 function getCoords(oObject) {
     oBndRct=oObject.getBoundingClientRect();
@@ -51,7 +60,7 @@ function getCoords(oObject) {
 <P ID=oPara onclick="getCoords(this)">
 ```
 
-## Notes
+## <span>Notes</span>
 
 Use this syntax to access the top coordinate of the second text rectangle of a [**TextRange**](/dom/TextRange) object:
 
@@ -62,10 +71,3 @@ Note that the collection index starts at 0, so the second item index is 1. To ac
 
     oBndRct = oElement.getBoundingClientRect();
     oBndRct.top;
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

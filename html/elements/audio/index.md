@@ -1,33 +1,36 @@
 ---
 title: audio
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/audio)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/7282145'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLAudioElement](/dom/HTMLAudioElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The audio element (&lt;audio&gt;) is used for playing audio files and may display a minimal media player user interface.'
 tags:
   - Markup
   - Elements
   - Audio
   - HTML
   - Media
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The audio element (<audio>) is used for playing audio files and may display a minimal media player user interface.'
-code_samples:
-  - 'http://gist.github.com/7282145'
 uri: html/elements/audio
 
 ---
-# audio
+## <span>Summary</span>
 
-## Summary
+The audio element (&lt;audio&gt;) is used for playing audio files and may display a minimal media player user interface.
 
-The audio element (\<audio\>) is used for playing audio files and may display a minimal media player user interface.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 Extensive documentation on manipulating the element may be found on the [HTMLAudioElement](/dom/HTMLAudioElement) page.
 
-## HTML Attributes
+## <span>HTML Attributes</span>
 
 -   `autoplay` = "autoplay" or "" (empty string) or empty
     Instructs the UA to automatically begin playback of the audio stream as soon as it can do so without stopping.
@@ -46,45 +49,35 @@ Extensive documentation on manipulating the element may be found on the [HTMLAud
 -   `src` = URL potentially surrounded by spaces
     The URL for the audio stream.
 
-## Accessibility
+## <span>Accessibility</span>
 
 Authors should ensure that the information and user interface components must be presentable to users in ways they can perceive ([WCAG 2.0 - Principle 1: Perceivable](http://www.w3.org/TR/WCAG20/#perceivable)). This includes providing alternatives for time-based media [Guideline 1.2](http://www.w3.org/TR/WCAG20/#media-equiv).
 
-## Formats and Codecs
+## <span>Formats and Codecs</span>
 
 The specification does not require a specific audio codec to be supported by all user agents. Using both Ogg/Vorbis and MP4/AAC seems to cover most user-agents, however. See the [Audio format support on Wikipedia](http://en.wikipedia.org/wiki/Html5_audio#Audio_format_support).
 
-## Examples
+## <span>Examples</span>
 
 play a mp3 on webpage
 
-``` {.html}
+``` html
 <audio controls src="http://freedownloads.last.fm/download/533190714/she%2Bso%2Bfly.mp3" type="audio/mp3">
 </audio>
 ```
 
 [View live example](http://code.webplatform.org/gist/7282145)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-audio-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [HTML5 and Xiph codecs](http://wiki.xiph.org/Html5)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/audio)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

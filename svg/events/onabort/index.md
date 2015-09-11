@@ -1,94 +1,130 @@
 ---
 title: onabort
-tags:
-  - Events
-readiness: 'In Progress'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Needs summary, spec reference, standardization status'
-uri: svg/events/onabort
+readiness: 'In Progress'
+tags:
+  - Events
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/objects/Event
     - dom/events/abort
+uri: svg/events/onabort
 
 ---
-# onabort
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 The following code example shows how to handle the **onabort** event.
 
+``` html
 
 
-    <?xml version="1.0" standalone="no"?>
-    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-    <svg id="outerSvgElement" width="600px" height="210px" version="1.1" xmlns="http://www.w3.org/2000/svg"
-         xmlns:xlink="http://www.w3.org/1999/xlink"> <!-- Required for xlink usage. -->
-      <script type="application/ecmascript">
-        function handleAbortEvent(evt) {
-          // Handle the abort event here.
-        }
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg id="outerSvgElement" width="600px" height="210px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"> <!-- Required for xlink usage. -->
+  <script type="application/ecmascript">
+    function handleAbortEvent(evt) {
+      // Handle the abort event here.
+    }
 
-        window.onload = function() {
-          var e = document.documentElement; // Root element is svg
+    window.onload = function() {
+      var e = document.documentElement; // Root element is svg
 
-          /*
-            For the svg element, add an event listener for the onabort event.
-            addEventListener parameters: event type, event listener pointer, 'false' = bubbling.
-          */
-          e.addEventListener('SVGAbort', handleAbortEvent, false);
-        }
-      </script>
-    </svg>
+      /*
+        For the svg element, add an event listener for the onabort event.
+        addEventListener parameters: event type, event listener pointer, 'false' = bubbling.
+      */
+      e.addEventListener('SVGAbort', handleAbortEvent, false);
+    }
+  </script>
+</svg>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **onabort** event occurs when page loading is stopped before an element is loaded completely. The target of the event is the [**svg**](/svg/elements/svg) element. The designated element stops loading. To invoke this event, do one of the following:
 
 -   The user presses the browser's stop button before the element is loaded completely.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.4.3
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvt* [in]
 :   Type: **IDOMUIEvent**The [**IDOMEvent**](/w/index.php?title=dom/objects/Event&action=edit&redlink=1) object.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGSVGElement**](/svg/elements/svg)
 -   [**onabort**](/w/index.php?title=dom/events/abort&action=edit&redlink=1)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

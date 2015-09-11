@@ -1,25 +1,27 @@
 ---
 title: image
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
 uri: svg/elements/image
 
 ---
-# image
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, two images are displayed on the screen. They are the same image but the size and position are determined by the attributes of the image element.
 
@@ -27,36 +29,38 @@ Copy this sample to a text file and save it with the *.html* file extension. Run
 
 The images will look like this:
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <!-- Create an SVG object. -->
-        <svg width="400" height="400">
-          <!-- Load an image. -->
-          <image x="50" y="50" width="100" height="100"
-                    xlink:href="svg.png"/>
-          <image x="150" y="150" width="50" height="50"
-                    xlink:href="svg.png"/>
-        </svg>
-      </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <!-- Create an SVG object. -->
+    <svg width="400" height="400">
+      <!-- Load an image. -->
+      <image x="50" y="50" width="100" height="100"
+                xlink:href="svg.png"/>
+      <image x="150" y="150" width="50" height="50"
+                xlink:href="svg.png"/>
+    </svg>
+  </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.11
 
-### Members
+### <span>Members</span>
 
 The **SVGImageElement** object has these events:
 
@@ -97,10 +101,3 @@ The **SVGImageElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

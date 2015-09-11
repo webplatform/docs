@@ -1,49 +1,63 @@
 ---
 title: grid-column-position
+notes:
+  - 'Add example, description, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'Grid Item elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'see text'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: n/a
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: 'Specifies the column position to place a grid item  based upon integer location, string value, or column size.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Add example, description, specifications, compatibility.'
-summary: 'Specifies the column position to place a grid item  based upon integer location, string value, or column size.'
 uri: css/properties/grid-column-position
 
 ---
-# grid-column-position
-
-## Summary
+## <span>Summary</span>
 
 Specifies the column position to place a grid item based upon integer location, string value, or column size.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   Grid Item elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   see text
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   n/a
 
-## Syntax
+## <span>Syntax</span>
 
 -   `grid-column-position: <identifier>`
 -   `grid-column-position: <integer>`
 -   `grid-column-position: <string>`
 -   `grid-column-position: auto`
 
-## Values
+## <span>Values</span>
 
 \<integer\>
 :   A value that specifies a grid line in the grid.
@@ -59,11 +73,11 @@ auto
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Grid Layout
+#### <span>Grid Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -80,4 +94,3 @@ auto
 -   [grid-row-position](/css/properties/grid-row-position)
 
 -   [height](/css/properties/height)
-

@@ -1,37 +1,46 @@
 ---
 title: getAllResponseHeaders
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/xhr/XMLHttpRequest
+    href: /apis/xhr/XMLHttpRequest
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /apis/xhr/XMLHttpRequest
+standardization_status: 'W3C Working Draft'
+summary: 'Returns all the response headers as a string, or null if no response has been received.'
 tags:
   0: API
   1: Object
   2: Methods
   4: XHR
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns all the response headers as a string, or null if no response has been received.'
 uri: apis/xhr/XMLHttpRequest/getAllResponseHeaders
 
 ---
-# getAllResponseHeaders
-
-## Summary
+## <span>Summary</span>
 
 Returns all the response headers as a string, or null if no response has been received.
 
-*Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)*
+Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = object.getAllResponseHeaders();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "http://localhost/test.xml", true);
 xhr.send();
@@ -40,20 +49,11 @@ var headers = xhr.getAllResponseHeaders().toLowerCase();
 alert(headers);
 ```
 
-## Notes
+## <span>Notes</span>
 
 Each name/value pair in the returned string is delimited by a carriage return/line feed (CR/LF) sequence.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

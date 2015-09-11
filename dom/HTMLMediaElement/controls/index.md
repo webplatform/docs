@@ -1,5 +1,16 @@
 ---
 title: controls
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, examples, clean-up of MSDN import'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLMediaElement
+    href: /dom/HTMLMediaElement
+summary: 'Controls attribute used within a Audio element or Video element displays the default media controls defined by the web browser being used to open HTML document or view of a Web Application.'
 tags:
   0: API
   1: Object
@@ -7,55 +18,42 @@ tags:
   4: Audio
   5: DOM
   6: Video
-readiness: 'Not Ready'
-notes:
-  - 'summary, examples, clean-up of MSDN import'
-summary: 'Controls attribute used within a Audio element or Video element displays the default media controls defined by the web browser being used to open HTML document or view of a Web Application.'
 uri: dom/HTMLMediaElement/controls
 
 ---
-# controls
-
-## Summary
+## <span>Summary</span>
 
 Controls attribute used within a Audio element or Video element displays the default media controls defined by the web browser being used to open HTML document or view of a Web Application.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLMediaElement](/dom/HTMLMediaElement)</span></span>
+Property of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.controls;
 element.controls = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The presence of the controls attribute, regardless of assigned value, in either the **audio** or **video** element equals true (for example, \<audio controls=""\> is true).
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.10
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `media`
 -   `audio`
 -   `audio`
 -   `video element`
 -   `video object`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

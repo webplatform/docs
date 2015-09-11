@@ -1,49 +1,51 @@
 ---
 title: noValidate
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'When present, it specifies that the form-data (input) should not be validated when submitted.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'When present, it specifies that the form-data (input) should not be validated when submitted.'
 uri: html/attributes/noValidate
 
 ---
-# noValidate
-
-## Summary
+## <span>Summary</span>
 
 When present, it specifies that the form-data (input) should not be validated when submitted.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [http://docs.webplatform.org/wiki/html/elements/input](http://docs.webplatform.org/wiki/html/elements/input)
 
+</th>
+<td>
+<http://docs.webplatform.org/wiki/html/elements/input>
+
+</td>
+</tr>
+</table>
 The novalidate attribute is a boolean attribute.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The following example shows a form that has required fields but won't be validated when submitted.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLFormElement`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

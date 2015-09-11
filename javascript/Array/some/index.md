@@ -1,21 +1,23 @@
 ---
 title: some
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679978(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Determines whether the specified callback function returns true for any element of an array.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Determines whether the specified callback function returns true for any element of an array.'
 uri: javascript/Array/some
 
 ---
-# some
-
-## Summary
+## <span>Summary</span>
 
 Determines whether the specified callback function returns true for any element of an array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     some( callbackfn [, thisArg ])
 
@@ -25,15 +27,15 @@ Determines whether the specified callback function returns true for any element 
 **thisArg**
 :   Optional. An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
-## Return Value
+## <span>Return Value</span>
 
 true if the callbackfn function returns true for any array element; otherwise, false.
 
-## Examples
+## <span>Examples</span>
 
 The following example uses the **some** method to find out if any elements in an array are even.
 
-``` {.js}
+``` js
 // The callback function.
 function CheckIfEven(value, index, ar) {
     if (value % 2 == 0) {
@@ -52,7 +54,7 @@ document.write(evens);
 
 The following example shows how to use the thisArg parameter, which specifies an object to which the this keyword can refer. It checks whether any of the numbers in an array are outside the range provided by an object passed
 
-``` {.js}
+``` js
 // Create a function that returns true if the value is
 // outside the range.
 var isOutsideRange = function (value) {
@@ -70,7 +72,7 @@ document.write(numbers.some(isOutsideRange, range));
 // Output: true
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **some** method calls the callbackfn function on each array element, in ascending index order, until the callbackfn function returns true. If an element that causes callbackfn to return true is found, the some method immediately returns true. If the callback does not return true on any element, the some method returns false.
 
@@ -88,43 +90,30 @@ You can declare the callback function with up to three parameters.
 
 The following table lists the callback function parameters.
 
-Callback parameter
-:   Definition
-value
-:   The value of the array element.
-index
-:   The numeric index of the array element.
-array1
-:   The array object that contains the element.
+|Callback parameter|Definition|
+|:-----------------|:---------|
+|value|The value of the array element.|
+|index|The numeric index of the array element.|
+|array1|The array object that contains the element.|
 
 The array object can be modified by the callback function.
 
 The following table describes the results of modifying the array object after the **some** method starts.
 
-Condition after the **some** method starts
-:   Element passed to callback function?
-Element is added beyond the original length of the array.
-:   No.
-Element is added to fill in a missing element of the array.
-:   Yes, if that index has not yet been passed to the callback function.
-Element is changed.
-:   Yes, if that element has not yet been passed to the callback function.
-Element is deleted from the array.
-:   No, unless that element has already been passed to the callback function.
+|Condition after the **some** method starts|Element passed to callback function?|
+|:-----------------------------------------|:-----------------------------------|
+|Element is added beyond the original length of the array.|No.|
+|Element is added to fill in a missing element of the array.|Yes, if that index has not yet been passed to the callback function.|
+|Element is changed.|Yes, if that element has not yet been passed to the callback function.|
+|Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the callbackfn argument is not a function object, a **TypeError** exception is thrown.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.17 Array.prototype.some ( callbackfn [ , thisArg](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.17) )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679978(v=vs.94).aspx)
 

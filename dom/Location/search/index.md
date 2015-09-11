@@ -1,55 +1,57 @@
 ---
 title: search
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'compatibility, standards'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Location
+    href: /dom/Location
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/Location
+summary: 'Sets or retrieves the substring of the href property that follows the question mark.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'compatibility, standards'
-summary: 'Sets or retrieves the substring of the href property that follows the question mark.'
 uri: dom/Location/search
 
 ---
-# search
-
-## Summary
+## <span>Summary</span>
 
 Sets or retrieves the substring of the href property that follows the question mark.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Location](/dom/Location)</span></span>
+Property of [dom/Location](/dom/Location)[dom/Location](/dom/Location)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var queryString = location.search;
 location.search = queryString;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The query string component of the URL.
 
-## Examples
+## <span>Examples</span>
 
 This example function returns the **search** property of the current page location.
 
-``` {.js}
+``` js
 function getSearch() {
     return document.location.search;
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 The substring that follows the question mark is the query string or form data.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

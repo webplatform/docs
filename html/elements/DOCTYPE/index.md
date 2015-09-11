@@ -1,13 +1,14 @@
 ---
 title: !DOCTYPE
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'In Progress'
+summary: 'A Document Type Declaration, or DOCTYPE, is an instruction that associates a particular SGML or XML document (for example, a webpage) with a Document Type Definition (DTD) (for example, the formal definition of a particular version of HTML). In the serialized form of the document, it manifests as a short string of markup that conforms to a particular syntax. Not including &lt;!DOCTYPE&gt; may trigger Quirks mode.'
 tags:
   - Markup
   - Elements
   - DOCTYPE
   - HTML
-readiness: 'In Progress'
-summary: 'A Document Type Declaration, or DOCTYPE, is an instruction that associates a particular SGML or XML document (for example, a webpage) with a Document Type Definition (DTD) (for example, the formal definition of a particular version of HTML). In the serialized form of the document, it manifests as a short string of markup that conforms to a particular syntax. Not including <!DOCTYPE> may trigger Quirks mode.'
-uri: html/elements/!DOCTYPE
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -20,50 +21,49 @@ todo_broken_links:
     - 'Markup language'
     - 'html/Quirks mode'
     - HTML5
+uri: html/elements/!DOCTYPE
 
 ---
-# !DOCTYPE
+## <span>Summary</span>
 
-## Summary
+A Document Type Declaration, or DOCTYPE, is an instruction that associates a particular SGML or XML document (for example, a webpage) with a Document Type Definition (DTD) (for example, the formal definition of a particular version of HTML). In the serialized form of the document, it manifests as a short string of markup that conforms to a particular syntax. Not including &lt;!DOCTYPE&gt; may trigger Quirks mode.
 
-A Document Type Declaration, or DOCTYPE, is an instruction that associates a particular SGML or XML document (for example, a webpage) with a Document Type Definition (DTD) (for example, the formal definition of a particular version of HTML). In the serialized form of the document, it manifests as a short string of markup that conforms to a particular syntax. Not including \<!DOCTYPE\> may trigger Quirks mode.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## Examples
+## <span>Examples</span>
 
 HTML5 has one doctype declaration
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 ```
 
 HTML 4.01 Strict
 
-``` {.html}
+``` html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
 HTML 4.01 Transitional
 
-``` {.html}
+``` html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
-## Usage
+## <span>Usage</span>
 
      Add
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 ```
 
     to the start of your document.
 
-## Notes
+## <span>Notes</span>
 
 The \<!DOCTYPE\> declaration must be the very first thing in an HTML document, before the \<html\> tag.
 
@@ -73,11 +73,11 @@ In HTML 4.01, the \<!DOCTYPE\> declaration refers to a DTD, because HTML 4.01 wa
 
 [HTML5](/w/index.php?title=HTML5&action=edit&redlink=1) is not based on SGML, and therefore does not require a reference to a DTD.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Deprecated
+#### <span>Deprecated</span>
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -109,11 +109,9 @@ In HTML 4.01, the \<!DOCTYPE\> declaration refers to a DTD, because HTML 4.01 wa
 
 -   [unescape](/javascript/unescape)
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -211,11 +209,46 @@ In HTML 4.01, the \<!DOCTYPE\> declaration refers to a DTD, because HTML 4.01 wa
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 html/quirksmode
-

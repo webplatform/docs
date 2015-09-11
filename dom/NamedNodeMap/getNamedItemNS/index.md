@@ -1,77 +1,76 @@
 ---
 title: getNamedItemNS
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap) Article]'
+  - 'Microsoft Developer Network: [[getNamedItemNS Method](http://msdn.microsoft.com/en-us/library/ie/ff975126(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/NamedNodeMap
+    href: /dom/NamedNodeMap
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/NamedNodeMap
+summary: 'Gets an attribute with a given name and a given namespace.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-summary: 'Gets an attribute with a given name and a given namespace.'
 uri: dom/NamedNodeMap/getNamedItemNS
 
 ---
-# getNamedItemNS
-
-## Summary
+## <span>Summary</span>
 
 Gets an attribute with a given name and a given namespace.
 
-*Method of [dom/NamedNodeMap](/dom/NamedNodeMap)*
+Method of [dom/NamedNodeMap](/dom/NamedNodeMap)[dom/NamedNodeMap](/dom/NamedNodeMap)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var attribute = attributes.getNamedItemNS(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### namespace
+### <span>namespace</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The namespace name of the attribute to get.
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The local name of the desired attribute within the specified namespace.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The attribute with the name and namespace.
 
-## Examples
+## <span>Examples</span>
 
 Create a SVG circle element.
 
-``` {.js}
+``` js
 var nsSVG='http://www.w3.org/2000/svg';
 var osvgCircleTag=document.createElementNS(nsSVG,'circle');
 alert(osvgCircleTag.getNamedItemNS(nsSVG,'r');
 ```
 
-## Usage
+## <span>Usage</span>
 
      Used to create and manipulate XML and SVG documents.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[getNamedItemNS Method](http://msdn.microsoft.com/en-us/library/ie/ff975126(v=vs.85).aspx) Article]
-

@@ -1,24 +1,26 @@
 ---
 title: body
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://test.w3.org/html/examples/elements/body/body01.html'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLBodyElement](/dom/HTMLBodyElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The body element (&lt;body&gt;) represents the main content of the document.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The body element (<body>) represents the main content of the document.'
-code_samples:
-  - 'http://test.w3.org/html/examples/elements/body/body01.html'
 uri: html/elements/body
 
 ---
-# body
+## <span>Summary</span>
 
-## Summary
+The body element (&lt;body&gt;) represents the main content of the document.
 
-The body element (\<body\>) represents the main content of the document.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLBodyElement](/dom/HTMLBodyElement)
@@ -27,52 +29,35 @@ You can access the `<body>` element from script through the document object.
 
 The window object for the `<body>` element can host event handlers for the `onblur`, `onfocus`, `onload`, or `onunload` events.
 
-### HTML Event Handler Content Attributes
+### <span>HTML Event Handler Content Attributes</span>
 
-Event
-:   Description
-`onafterprint`
-:   User printed current document.
-`onbeforeprint`
-:   User requested printing of current document.
-`onbeforeunload`
-:   Document is about to be unloaded.
-`onblur`
-:   Document lost focus.
-`onerror`
-:   Document failed to load properly.
-`onfocus`
-:   Document received focus.
-`onhashchange`
-:   Fragment identifier part of the document’s current address changed.
-`onload`
-:   Document finished loading.
-`onmessage`
-:   Document received a message.
-`onoffline`
-:   Network connections failed.
-`ononline`
-:   Network connections returned.
-`onpopstate`
-:   User navigated session history.
-`onredo`
-:   User went forward in undo transaction history.
-`onresize`
-:   Document view was resized.
-`onstorage`
-:   Storage area changed.
-`onundo`
-:   User went backward in undo transaction history.
-`onunload`
-:   Document is going away.
+|Event|Description|
+|:----|:----------|
+|`onafterprint`|User printed current document.|
+|`onbeforeprint`|User requested printing of current document.|
+|`onbeforeunload`|Document is about to be unloaded.|
+|`onblur`|Document lost focus.|
+|`onerror`|Document failed to load properly.|
+|`onfocus`|Document received focus.|
+|`onhashchange`|Fragment identifier part of the document’s current address changed.|
+|`onload`|Document finished loading.|
+|`onmessage`|Document received a message.|
+|`onoffline`|Network connections failed.|
+|`ononline`|Network connections returned.|
+|`onpopstate`|User navigated session history.|
+|`onredo`|User went forward in undo transaction history.|
+|`onresize`|Document view was resized.|
+|`onstorage`|Storage area changed.|
+|`onundo`|User went backward in undo transaction history.|
+|`onunload`|Document is going away.|
 
 The following attributes are obsolete, and should not be used by authors: `alink`, `bgcolor`, `link`, `marginbottom`, `marginheight`, `marginleft`, `marginright`, `margintop`, `marginwidth`, `text`, `vlink`.
 
-## Examples
+## <span>Examples</span>
 
 The `<body>` element follows the `<head>` element and is contained by the `<html>` element.
 
-``` {.html}
+``` html
 
 
 <!doctype html>
@@ -92,7 +77,7 @@ The `<body>` element follows the `<head>` element and is contained by the `<html
 
 This example exposes the `<body>` element in javascript.
 
-``` {.js}
+``` js
 
 
 var oBody = document.body;
@@ -100,20 +85,13 @@ var oBody = document.body;
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-body-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-body-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-BODY)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

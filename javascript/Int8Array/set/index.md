@@ -1,22 +1,26 @@
 ---
 title: set
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212917(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets a value or an array of values.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Sets a value or an array of values.'
 uri: javascript/Int8Array/set
 
 ---
-# set
-
-## Summary
+## <span>Summary</span>
 
 Sets a value or an array of values.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     int8Array.set(index, value);
+
+<span class="language">JavaScript</span>
 
     int8Array.set(array, offset);
 
@@ -32,11 +36,11 @@ Sets a value or an array of values.
 **offset**
 :   The index in the current array at which the values are to be written.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to set the first element of the array.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -52,15 +56,9 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 If the input array is a TypedArray, the two arrays may use the same underlying ArrayBuffer. In this situation, setting the values takes place as if all the data is first copied into a temporary buffer that does not overlap either of the arrays, and then the data from the temporary buffer is copied into the current array.
 
 If the offset plus the length of the given array is out of range for the current TypedArray, an exception is raised.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212917(v=vs.94).aspx)
 

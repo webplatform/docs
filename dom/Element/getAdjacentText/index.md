@@ -1,37 +1,46 @@
 ---
 title: getAdjacentText
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec and compat table'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /dom/Element
+standardization_status: Non-Standard
+summary: 'Non standard. Gets a text from a given location around the edges of the element.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Needs spec and compat table'
-summary: 'Non standard. Gets a text from a given location around the edges of the element.'
 uri: dom/Element/getAdjacentText
 
 ---
-# getAdjacentText
-
-## Summary
+## <span>Summary</span>
 
 Non standard. Gets a text from a given location around the edges of the element.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var text = element.getAdjacentText(where);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### where
+### <span>where</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  Where the text is located by using one of the following values.
@@ -52,17 +61,17 @@ Text is returned immediately before the end of the element but after all other c
 
 Text is returned immediately after the end of the element.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 The first adjacent text.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **getAdjacentText** method to find specific text.
 
-``` {.html}
+``` html
 <script>
 function findText(){
         var select = document.getElementById("sel");
@@ -85,10 +94,4 @@ This is the text after (afterEnd).
 </select>
 <input type="button" value="Find text" onclick="findText()">
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

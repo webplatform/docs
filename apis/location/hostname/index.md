@@ -1,45 +1,52 @@
 ---
-title: hostname
+title: window.location.hostname
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/location
+    href: /apis/location
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/location
+standardization_status: 'W3C Working Draft'
+summary: 'The hostname property contains the hostname the current document was served from, excluding protocol, port, and other information.'
 tags:
   - API
   - Object
   - Properties
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The hostname property contains the hostname the current document was served from, excluding protocol, port, and other information.'
 uri: apis/location/hostname
 
 ---
-# window.location.hostname
-
-## Summary
+## <span>Summary</span>
 
 The hostname property contains the hostname the current document was served from, excluding protocol, port, and other information.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/location](/apis/location)</span></span>
+Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = window.location.hostname;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The hostname the current document was served from.
 
 For example, `http://example.org/` would return the hostname `example.org`.
 
-## Examples
+## <span>Examples</span>
 
 The following example assumes your document has a div element with id 'hostDiv', like this.
 
-``` {.js}
+``` js
 // Get the hostname from window.location
 var hostnm = window.location.hostname;
 
@@ -50,10 +57,7 @@ var container = document.getElementById('hostDiv');
 container.innerHTML = hostnm;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft
-

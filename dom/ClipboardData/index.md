@@ -1,40 +1,40 @@
 ---
 title: ClipboardData
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipboardDataEX.htm'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Retrieves the information from the clipboard as part of clipboard operation events.'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Retrieves the information from the clipboard as part of clipboard operation events.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipboardDataEX.htm'
 uri: dom/ClipboardData
 
 ---
-# ClipboardData
-
-## Summary
+## <span>Summary</span>
 
 Retrieves the information from the clipboard as part of clipboard operation events.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 This example uses the [**setData**](/dom/DataTransfer/setData) and [**getData**](/dom/DataTransfer/getData) methods with the **clipboardData** object to perform a cut-and-paste operation through the shortcut menu.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -107,20 +107,11 @@ function fnPaste(event) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipboardDataEX.htm)
 
-## Notes
+## <span>Notes</span>
 
 The **clipboardData** object is reserved for copy/cut/paste operations. It transfers information using the system clipboard, and retains it until data from the next editing operation replaces it. This form of data transfer is particularly suited to multiple pastes of the same data.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Clipboard API and Events](http://www.w3.org/TR/clipboard-apis/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

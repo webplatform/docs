@@ -1,31 +1,34 @@
 ---
 title: remoteStreams
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: 'W3C Working Draft'
+summary: 'Returns an array of MediaStream objects added to the connection by the remote peer. This array is updated when the addstream and removestream events are fired.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns an array of MediaStream objects added to the connection by the remote peer. This array is updated when the addstream and removestream events are fired.'
 uri: apis/webrtc/RTCPeerConnection/remoteStreams
 
 ---
-# remoteStreams
-
-## Summary
+## <span>Summary</span>
 
 Returns an array of MediaStream objects added to the connection by the remote peer. This array is updated when the addstream and removestream events are fired.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)</span></span>
+Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.remoteStreams;
 ```
 

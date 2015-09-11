@@ -1,41 +1,50 @@
 ---
 title: data
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/CompositionEvent
+    href: /dom/CompositionEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/CompositionEvent
+standardization_status: 'W3C Working Draft'
+summary: 'Gets the text affected by the composition event.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Gets the text affected by the composition event.'
 uri: dom/CompositionEvent/data
 
 ---
-# data
-
-## Summary
+## <span>Summary</span>
 
 Gets the text affected by the composition event.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/CompositionEvent](/dom/CompositionEvent)</span></span>
+Property of [dom/CompositionEvent](/dom/CompositionEvent)[dom/CompositionEvent](/dom/CompositionEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
-var compositionData = event.data;
+``` js
+var compositionData = event.html/elements/data;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The text affected by the event. See the notes for event specific values.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function getCompEventText(e) {
 //retrieve text for composition event
 var compEventText = e.data;
@@ -43,7 +52,7 @@ return compEventText;
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 The value varies by the event type:
 
@@ -53,24 +62,16 @@ The value varies by the event type:
 
 If a user cancels a composition event, the **data** attribute is set to null on the final **compositionupdate** event.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `TextEvent`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,20 +1,18 @@
 ---
-title: touch
+title: Touch Input Considerations
+readiness: 'In Progress'
+summary: 'Today''s mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces.  When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.'
 tags:
   - Concept
   - Pages
-readiness: 'In Progress'
-summary: 'Today''s mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces.  When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.'
 uri: 'concepts/mobile web/touch'
 
 ---
-# Touch Input Considerations
-
-## Summary
+## <span>Summary</span>
 
 Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces. When the web was being developed, the vast majority of computers had a keyboard and mouse attached. Thus, the web provided (and continues to provide) a rich API for handling these sorts of input events.
 
-## Conceptual differences between mouse and touch
+## <span>Conceptual differences between mouse and touch</span>
 
 Today's mobile devices are exploding in popularity, and most of them have capacitive touch screens, which provide input affordances that are very different from keyboard-and-mouse interfaces:
 
@@ -26,7 +24,7 @@ When the web was being developed, the vast majority of computers had a keyboard 
 
 With the advent of touch screens, the web had to adapt, and eventually the touch events were developed and implemented in mobile web browsers.
 
-## Touch events on the web
+## <span>Touch events on the web</span>
 
 The basic touch events of the web are:
 
@@ -38,13 +36,13 @@ The basic touch events of the web are:
 
 Each of these events contains a list of touches, with a numeric identifier associated with each touch. The [basic touch events](http://www.google.com) article describes this model in greater detail.
 
-## Demystifying the click event
+## <span>Demystifying the click event</span>
 
 When the click event was conceived (before touch screens became popular), it was intended as a high level event to describe a mouse press followed by a mouse release in roughly the same area of the screen.
 
 On touch screens, click behaves more like a tap. The main difference here stems from the fact that fingers are far less precise than mouse pointers. As a result, some browsers like Chrome for Android do touch adjustments which scores all nodes underneath the finger (using radius information if available from the hardware) and picks the best one. This is very different from just using the `touchdown` event, which taps on the first element only using the center of the touch point.
 
-## Building sites for both mouse and touch input
+## <span>Building sites for both mouse and touch input</span>
 
 Though the mouse is still a very common input modality, increasingly, the web is being viewed on touch screens. This means that we need to build sites that work well for both mouse and touch. Furthermore, some devices (eg. Windows 8 Surface) let you use both kinds of input by providing a touch screen and a physical keyboard. It is not safe to assume that just because a device has touch support, it doesn't have mouse input, and vice versa.
 
@@ -56,17 +54,17 @@ Scrolling is another tricky area for performance. Mobile devices often feature i
 
 Finally, handling large amounts of multi-touch input can be very taxing because of the high frequency of `touchmove` events that results from many fingers being on the screen simultaneously. It's important to decouple drawing and input handling in this cases.
 
-## Higher level gestures
+## <span>Higher level gestures</span>
 
 Touch screens unlock the possibility of interesting multi-touch gestures, the best known of which is pinch-zoom, often used for zooming content. Unfortunately, this area is heavily laden with patents, leading to an uneven landscape of support across the different browsers. iOS devices provide [Safari high level gesture events](http://www.google.com), and there are [a number of JavaScript libraries](http://www.google.com) that implement gestures on top of the raw touch events.
 
-## Touching developer tools
+## <span>Touching developer tools</span>
 
 Debugging input on mobile devices can be challenging because of the overhead of dealing with multiple devices. Though nothing can really replace testing on the actual device you are targeting, it can make sense to start by using tools to simulate a touch environment on the desktop. The Chrome DevTools provide a way to emulate touch events, essentially pre-translating every mouse event into the equivalent touch one (eg. `mousedown` becomes `touchstart`). This is useful for debugging single-touch applications. For more complex interactions, multi-touch can also be simulated (with projects like [MagicTouch](http://www.google.com)), given the appropriate setup.
 
 With remote debugging in the Chrome DevTools, you can also set up event listener breakpoints that will break whenever a user performs touch-based interactions with the desired element. For more information on these techniques, see the [mobile developer tools](http://www.google.com) article.
 
-## A consolidated model
+## <span>A consolidated model</span>
 
 Despite the many differences between the two input modes, mouse and touch input is fundamentally similar in one way: both fingers and mouse pointers can be viewed as abstract points with screen coordinates. This similarity makes it tempting to consolidate the two disparate models into one, which just deals with lists of pointers. This model was first proposed by Microsoft in the [pointer events specification](http://www.google.com). Though not implemented in the web platform yet, several [pointer event polyfills](http://www.google.com) exist in the wild.
 
@@ -74,15 +72,13 @@ A consolidated pointer-based model makes it easier to build sites that work well
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Touch
+#### <span>Touch</span>
 
 -   **Touch Input Considerations**
-
--   [user-input](/css/properties/user-input)
 
 -   [touch](/css/touch)
 

@@ -1,47 +1,48 @@
 ---
 title: total
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[ProgressEvent.total](https://developer.mozilla.org/en-US/docs/Web/API/ProgressEvent.total) Article]'
+  - 'Microsoft Developer Network: [[total Property ProgressEvent](http://msdn.microsoft.com/en-us/library/ie/hh772356(v=vs.85).aspx) Article]'
+notes:
+  - 'example needed'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/ProgressEvent
+    href: /dom/ProgressEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /dom/ProgressEvent
+standardization_status: 'W3C Recommendation'
+summary: 'Specifies the total number of bytes to be transferred during the operation, if known.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'example needed'
-summary: 'Specifies the total number of bytes to be transferred during the operation, if known.'
 uri: dom/ProgressEvent/total
 
 ---
-# total
-
-## Summary
+## <span>Summary</span>
 
 Specifies the total number of bytes to be transferred during the operation, if known.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/ProgressEvent](/dom/ProgressEvent)</span></span>
+Property of [dom/ProgressEvent](/dom/ProgressEvent)[dom/ProgressEvent](/dom/ProgressEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = ProgressEvent.total;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[ProgressEvent.total](https://developer.mozilla.org/en-US/docs/Web/API/ProgressEvent.total) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[total Property ProgressEvent](http://msdn.microsoft.com/en-us/library/ie/hh772356(v=vs.85).aspx) Article]
-
+### <span>Syntax</span>

@@ -1,26 +1,27 @@
 ---
 title: What is CSS?
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/What_is_CSS)'
+readiness: 'Ready to Use'
+summary: 'This tutorial answers the question &quot;what is CSS?&quot;.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This tutorial answers the question "what is CSS?".'
-uri: 'tutorials/What is CSS?'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - HTML
     - XML
     - XUL
+uri: 'tutorials/What is CSS?'
 
 ---
-# What is CSS?
+## <span>Summary</span>
 
-## Summary
+This tutorial answers the question &quot;what is CSS?&quot;.
 
-This tutorial answers the question "what is CSS?".
-
-## Information: What is CSS
+## <span>Information: What is CSS</span>
 
 Cascading Style Sheets (CSS) is a language for specifying how documents are presented to users.
 
@@ -31,7 +32,7 @@ A *document* is a collection of information that is structured using a *markup l
 
 In this tutorial, boxes captioned **More details** like the one below contain optional information. If you are in a hurry to progress with the tutorial then you could skip these boxes, perhaps returning to read them later. Otherwise read them when you come to them, and perhaps follow the links to learn more.
 
-### More details
+### <span>More details</span>
 
 A document is not the same as a file. It might or might not be stored in a file.
 
@@ -39,14 +40,11 @@ For example, the document that you are reading now is not stored in a file. When
 
 For more information about documents and markup languages, see other parts of this web site—for example:
 
-[HTML](/w/index.php?title=HTML&action=edit&redlink=1)
-:   for web pages
-[XML](/w/index.php?title=XML&action=edit&redlink=1)
-:   for structured documents in general
-[SVG](/svg)
-:   for graphics
-[XUL](/w/index.php?title=XUL&action=edit&redlink=1)
-:   for user interfaces in Mozilla
+||
+|[HTML](/w/index.php?title=HTML&action=edit&redlink=1)|for web pages|
+|[XML](/w/index.php?title=XML&action=edit&redlink=1)|for structured documents in general|
+|[SVG](/svg)|for graphics|
+|[XUL](/w/index.php?title=XUL&action=edit&redlink=1)|for user interfaces in Mozilla|
 
 In Part II of this tutorial you will see examples of these markup languages.
 
@@ -56,7 +54,7 @@ CSS is not just for browsers, and not just for visual presentation. In formal CS
 
 For some formal definitions of terminology relating to CSS, see the [CSS Specification](http://www.w3.org/TR/CSS2/).
 
-## Action: Creating a document
+## <span>Action: Creating a document</span>
 
 1.  Use your computer to create a new directory and a new text file there. The file will contain your document.
 
@@ -84,13 +82,6 @@ For some formal definitions of terminology relating to CSS, see the [CSS Specifi
 
     What you see in your browser might not look exactly the same as this, because of settings in your browser and in this wiki. If there are some differences in the font, spacing and colors that you see, they are not important.
 
-## What next?
+## <span>What next?</span>
 
 Your document does not yet use CSS. In the next article you will use CSS to specify its style.
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/What_is_CSS)
-

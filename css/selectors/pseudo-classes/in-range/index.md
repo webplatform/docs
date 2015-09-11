@@ -1,32 +1,30 @@
 ---
 title: :in-range
-tags:
-  - CSS
-  - Selectors
+code_samples:
+  - 'http://gist.github.com/73a791bbe2cd884f6b2e'
 readiness: 'Not Ready'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The :in-range pseudo selector selects input elements when their value is within a specified range.'
-code_samples:
-  - 'http://gist.github.com/73a791bbe2cd884f6b2e'
-uri: 'css/selectors/pseudo-classes/:in-range'
+tags:
+  - CSS
+  - Selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: 'css/selectors/pseudo-classes/:in-range'
 
 ---
-# :in-range
-
-## Summary
+## <span>Summary</span>
 
 The :in-range pseudo selector selects input elements when their value is within a specified range.
 
  The `:in-range` CSS pseudo-class matches when an element has its value attribute inside the specified range limitations for this element. It allows the page to give a feedback that the value currently defined using the element is inside the range limits.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
-
+``` css
+<code>
 li {
     list-style: none;
     margin-bottom: 1em;
@@ -47,22 +45,21 @@ input:in-range + label::after {
 input:out-of-range + label::after {
     content:'out of range!';
 }
+</code>
 ```
 
 [View live example](http://code.webplatform.org/gist/73a791bbe2cd884f6b2e)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Selectors Level 4](http://dev.w3.org/csswg/selectors-4/#range-pseudos)
 :   W3C Editor's Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pseudo-Classes
+#### <span>Pseudo-Classes</span>
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -114,7 +111,7 @@ Specification
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -189,4 +186,3 @@ Specification
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   [type](/css/selectors/type)
-

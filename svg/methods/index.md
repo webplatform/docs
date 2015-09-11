@@ -1,23 +1,21 @@
 ---
-title: methods
+title: SVG DOM methods
+notes:
+  - 'Some content needed.  Alternately, all methods could be moved to be sub-pages of the appropriate object, as is done in the DOM/API sections, and this page deleted.'
+readiness: 'In Progress'
+summary: 'List of all pages in svg/methods/'
 tags:
   - API
   - Listings
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Some content needed.  Alternately, all methods could be moved to be sub-pages of the appropriate object, as is done in the DOM/API sections, and this page deleted.'
-summary: 'List of all pages in svg/methods/'
 uri: svg/methods
 
 ---
-# SVG DOM methods
-
-## Summary
+## <span>Summary</span>
 
 List of all pages in svg/methods/
 
-## All Pages
+## <span>All Pages</span>
 
 -   [addListener](/svg/methods/addListener)
 -   [animationsPaused](/svg/methods/animationsPaused)

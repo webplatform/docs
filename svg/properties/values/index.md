@@ -1,21 +1,21 @@
 ---
 title: values
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'No editing form'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/values
 
 ---
-# values
-
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The contents of **values** depends on the value of attribute [**type**](/svg/properties/type_(SVGFEColorMatrixElement)), as indicated in the following:
 
@@ -25,21 +25,14 @@ For **type="saturate"**, **values** is a single real number value (0 to 1). A sa
 
 If the **values** attribute is not specified, then the default behavior depends on the value of attribute [**type**](/svg/properties/type_(SVGFEColorMatrixElement)). If **type="matrix"**, then this attribute defaults to the identity matrix. If **type="saturate"**, then this attribute defaults to the value 1, which results in the identity matrix. If **type="hueRotate"**, then this attribute defaults to the value 0, which results in the identity matrix.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.4
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

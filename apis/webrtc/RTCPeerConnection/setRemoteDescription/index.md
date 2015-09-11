@@ -1,33 +1,36 @@
 ---
 title: setRemoteDescription
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: 'W3C Working Draft'
+summary: 'Applies the supplied RTCSessionDescription to the remote description.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Applies the supplied RTCSessionDescription to the remote description.'
 uri: apis/webrtc/RTCPeerConnection/setRemoteDescription
 
 ---
-# setRemoteDescription
-
-## Summary
+## <span>Summary</span>
 
 Applies the supplied RTCSessionDescription to the remote description.
 
-*Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)*
+Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  .setRemoteDescription();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 

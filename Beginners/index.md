@@ -1,11 +1,10 @@
 ---
-title: eginners
+title: Web Development for Beginners
+readiness: 'Ready to Use'
+summary: 'So you want to learn to make websites? This page has a list of articles that are perfect to help you understand the basics. It describes the tools of the trade and provides links to articles explaining the basics.'
 tags:
   - Basic
   - Pages
-readiness: 'Ready to Use'
-summary: 'So you want to learn to make websites? This page has a list of articles that are perfect to help you understand the basics. It describes the tools of the trade and provides links to articles explaining the basics.'
-uri: Beginners
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -63,18 +62,33 @@ todo_broken_links:
     - Beginners/zh-hans
     - Beginners/zh-hant
     - Beginners/zh-tw
+translations:
+  es:
+    text: español
+    href: /Beginners/es
+  ja:
+    text: 日本語
+    href: /Beginners/ja
+  ko:
+    text: 한국어
+    href: /Beginners/ko
+  pt-br:
+    text: 'português do Brasil'
+    href: /Beginners/pt-br
+  tr:
+    text: Türkçe
+    href: /Beginners/tr
+  zh:
+    text: 中文
+    href: /Beginners/zh
+uri: Beginners
 
 ---
-# Web Development for Beginners
-
-## Summary
+## <span>Summary</span>
 
 So you want to learn to make websites? This page has a list of articles that are perfect to help you understand the basics. It describes the tools of the trade and provides links to articles explaining the basics.
 
-**Language:**
-:   ****English****  • <span lang="es">[español](/Beginners/es)</span> • <span lang="ja">[日本語](/Beginners/ja)</span> • <span lang="ko">[한국어](/Beginners/ko)</span> • <span lang="pt-br">[português do Brasil](/Beginners/pt-br)</span> • <span lang="tr">[Türkçe](/Beginners/tr)</span> • <span lang="zh">[中文](/Beginners/zh)</span>
-
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The ****Beginners**** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -89,7 +103,7 @@ The ****Beginners**** section covers the various aspects of web development sepa
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-## Before you start
+## <span>Before you start</span>
 
 In this section, you will be writing a lot of code, and testing it out in web browsers. Before you start, you should at least have the following installed:
 
@@ -126,9 +140,9 @@ In this section, you will be writing a lot of code, and testing it out in web br
 
 Now roll your sleeves up and get ready to learn. [Browse our full list of learning articles](/tutorials) if you exhaust the list of articles here and want to learn more!
 
-## Other useful articles for beginners
+## <span>Other useful articles for beginners</span>
 
-### Web fundamentals
+### <span>Web fundamentals</span>
 
 -   [The history of the Web](/concepts/internet_and_web/the_history_of_the_web)
 -   [How does the Internet work](/concepts/internet_and_web/how_does_the_internet_work)
@@ -136,7 +150,7 @@ Now roll your sleeves up and get ready to learn. [Browse our full list of learni
 -   [Getting your content online](/tutorials/getting_your_content_online)
 -   [Accessibility](/concepts/accessibility)
 
-### HTML — structuring your web content
+### <span>HTML — structuring your web content</span>
 
 -   [The basics of HTML](/guides/the_basics_of_html)
 -   [DOCTYPES and markup styles](/guides/doctypes_and_markup_styles)
@@ -152,7 +166,7 @@ Now roll your sleeves up and get ready to learn. [Browse our full list of learni
 -   [HTML5 form features](/guides/html5_form_features)
 -   [Lesser-known semantic elements](/guides/lesser-known_semantic_elements)
 
-### CSS — styling your web content
+### <span>CSS — styling your web content</span>
 
 -   [Getting started with CSS](/guides/getting_started_with_css)
 -   [Using selectors](/tutorials/using_selectors)
@@ -163,7 +177,7 @@ Now roll your sleeves up and get ready to learn. [Browse our full list of learni
 -   [Making CSS easier to read](/tutorials/making_css_easier_to_read)
 -   [Targetting styles with media queries](/tutorials/media_queries)
 
-### JavaScript — adding dynamic behavior to websites
+### <span>JavaScript — adding dynamic behavior to websites</span>
 
 -   [Programming basics](/concepts/programming/programming_basics)
 -   [Your first look at JavaScript](/tutorials/your_first_look_at_javascript)
@@ -176,7 +190,7 @@ Now roll your sleeves up and get ready to learn. [Browse our full list of learni
 -   [Events in JavaScript](/tutorials/events_in_javascript)
 -   [Pointer Events for mouse, touch, and pen input](/PointerEvents)
 
-### Applied techniques
+### <span>Applied techniques</span>
 
 -   [Creating navigation menus](/tutorials/creating_basic_navigation_menus)
 

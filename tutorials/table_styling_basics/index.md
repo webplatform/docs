@@ -1,36 +1,37 @@
 ---
-title: table styling basics
+title: Table styling basics
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Tables)'
+readiness: 'Ready to Use'
+summary: 'This article describes more advanced selectors, and some specific ways that you can style tables.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This article describes more advanced selectors, and some specific ways that you can style tables.'
 uri: 'tutorials/table styling basics'
 
 ---
-# Table styling basics
-
-## Summary
+## <span>Summary</span>
 
 This article describes more advanced selectors, and some specific ways that you can style tables.
 
-## Information: Tables
+## <span>Information: Tables</span>
 
 A table is an arrangement of information in a rectangular grid. Some tables can be complex, and for complex tables different browsers can give different results. When you design your document, use a table to express the relationships among the pieces of information. Then it does not matter if different browsers present the information in slightly different ways, because the meaning is still clear.
 
 Do not use tables in unusual ways to produce particular visual layouts.
 
-### Table structure
+### <span>Table structure</span>
 
 In a table, each piece of information is displayed in a *cell*. The cells in a line across the page make up a *row*.
 
 In some tables, the rows might be grouped. A special group of rows at the start of the table is the *header*. A special group of rows at the end of the table is the *footer*. The main rows in the table are the *body*, and they might also be in groups. The cells in a line down the page make up a *column*, but columns have limited use in CSS tables.
 
-#### Table example
+#### <span>Table example</span>
 
 This tutorial only covers simple tables, where the results are fairly predictable. In a simple table, every cell occupies only one row and column. You can use CSS for complex tables where cells *span* (extend across) more than one row or column, but tables like that are beyond the scope of this basic tutorial.
 
-### Borders
+### <span>Borders</span>
 
 Cells have no margins.
 
@@ -42,21 +43,53 @@ Here are three tables.
 
 The table on the left has 0.5 em border spacing. The table in the center has zero border spacing. The table on the right has collapsed borders:
 
-<dl>
-<dt>
-||
-|Clubs|Hearts|
-|Diamonds|Spades|
+<table>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+<tbody>
+<tr class="odd">
+<td align="left"><table>
+<tbody>
+<tr class="odd">
+<td align="left">Clubs</td>
+<td align="left">Hearts</td>
+</tr>
+<tr class="even">
+<td align="left">Diamonds</td>
+<td align="left">Spades</td>
+</tr>
+</tbody>
+</table></td>
+<td align="left"><table>
+<tbody>
+<tr class="odd">
+<td align="left">Clubs</td>
+<td align="left">Hearts</td>
+</tr>
+<tr class="even">
+<td align="left">Diamonds</td>
+<td align="left">Spades</td>
+</tr>
+</tbody>
+</table></td>
+<td align="left"><table>
+<tbody>
+<tr class="odd">
+<td align="left">Clubs</td>
+<td align="left">Hearts</td>
+</tr>
+<tr class="even">
+<td align="left">Diamonds</td>
+<td align="left">Spades</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-||
-|Clubs|Hearts|
-|Diamonds|Spades|
-
-</dd>
-</dl>
-### Captions
+### <span>Captions</span>
 
 A `<caption>` element is a label that applies to the entire table. By default, it is displayed at the top of the table.
 
@@ -64,7 +97,7 @@ To move it to the bottom, set its `caption-side` property to `bottom`. The prope
 
 To style the text of the caption, use any of the usual properties for text.
 
-#### Caption example
+#### <span>Caption example</span>
 
 This table has a caption at the bottom
 
@@ -79,18 +112,22 @@ This table has a caption at the bottom
 <tbody>
 <tr class="odd">
 <td align="left"><table>
-<caption> Suits </caption>
+<caption> Suits</caption>
 <col width="100%" />
 <tbody>
 <tr class="odd">
-<td align="left"><dl>
-<dt>Clubs</dt>
-<dd>Hearts
-</dd>
-<dt>Diamonds</dt>
-<dd>Spades
-</dd>
-</dl></td>
+<td align="left"><table>
+<tbody>
+<tr class="odd">
+<td align="left">Clubs</td>
+<td align="left">Hearts</td>
+</tr>
+<tr class="even">
+<td align="left">Diamonds</td>
+<td align="left">Spades</td>
+</tr>
+</tbody>
+</table></td>
 </tr>
 </tbody>
 </table></td>
@@ -98,7 +135,7 @@ This table has a caption at the bottom
 </tbody>
 </table>
 
-### Empty cells
+### <span>Empty cells</span>
 
 You can display empty cells (that is, their borders and backgrounds) by specifying `empty-cells`: show; for the table element. You can hide them by specifying `empty-cells: hide;`. Then, if a cell's parent element has a background, it shows through the empty cell.
 
@@ -106,21 +143,40 @@ Empty cells example
 
 These tables have a pale green background. Their cells have a pale gray background and dark gray borders. In the table on the left, the empty cell is shown. On the right, it is hidden:
 
-<dl>
-<dt>
-||
-||Hearts|
-|Diamonds|Spades|
+<table>
+<col width="50%" />
+<col width="50%" />
+<tbody>
+<tr class="odd">
+<td align="left"><table>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">Hearts</td>
+</tr>
+<tr class="even">
+<td align="left">Diamonds</td>
+<td align="left">Spades</td>
+</tr>
+</tbody>
+</table></td>
+<td align="left"><table>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">Hearts</td>
+</tr>
+<tr class="even">
+<td align="left">Diamonds</td>
+<td align="left">Spades</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
 
-</dt>
-<dd>
-||
-||Hearts|
-|Diamonds|Spades|
-
-</dd>
-</dl>
-## Action: Styling a table
+## <span>Action: Styling a table</span>
 
 1.  Make a new HTML document, `doc3.html`. Copy and paste the content from here, making sure that you scroll to get all of it:
 
@@ -270,44 +326,136 @@ These tables have a pale green background. Their cells have a pale gray backgrou
 
 3.  Open the document in your browser. It should look very similar to this:
 
-    <table>
-    <col width="100%" />
-    <tbody>
-    <tr class="odd">
-    <td align="left">Oceans
-    <dl>
+    <table border="1">
+    <tr>
+    <td>
+    Oceans
 
-    <dd>Area
-    </dd>
+    <table border="1">
+    <tr>
+    <th>
+    </th>
+    <th>
+    Area
 
-    <dd>million km<sup>2</sup>
-    </dd>
-    <dt>Arctic:</dt>
-    <dd>13,000
-    </dd>
-    <dt>Atlantic:</dt>
-    <dd>87,000
-    </dd>
-    <dt>Pacific:</dt>
-    <dd>180,000
-    </dd>
-    <dt>Indian:</dt>
-    <dd>75,000
-    </dd>
-    <dt>Southern:</dt>
-    <dd>20,000
-    </dd>
-    <dt>Total:</dt>
-    <dd>361,000
-    </dd>
-    <dt>Mean:</dt>
-    <dd>72,000
-    </dd>
-    </dl></td>
+    </th>
+    <th>
+    Mean depth
+
+    </th>
     </tr>
-    </tbody>
-    </table>
+    <tr>
+    <th>
+    </th>
+    <th>
+    million km<sup>2</sup>
 
+    </th>
+    <th>
+    m
+
+    </th>
+    </tr>
+    <tr>
+    <th>
+    Arctic:
+
+    </th>
+    <td>
+    13,000
+
+    </td>
+    <td>
+    1,200
+
+    </td>
+    </tr>
+    <tr>
+    <th>
+    Atlantic:
+
+    </th>
+    <td>
+    87,000
+
+    </td>
+    <td>
+    3,900
+
+    </td>
+    </tr>
+    <tr>
+    <th>
+    Pacific:
+
+    </th>
+    <td>
+    180,000
+
+    </td>
+    <td>
+    4,000
+
+    </td>
+    </tr>
+    <tr>
+    <th>
+    Indian:
+
+    </th>
+    <td>
+    75,000
+
+    </td>
+    <td>
+    3,900
+
+    </td>
+    </tr>
+    <tr>
+    <th>
+    Southern:
+
+    </th>
+    <td>
+    20,000
+
+    </td>
+    <td>
+    4,500
+
+    </td>
+    </tr>
+    <tr>
+    <th>
+    Total:
+
+    </th>
+    <td>
+    361,000
+
+    </td>
+    <td>
+    </td>
+    </tr>
+    <tr>
+    <th>
+    Mean:
+
+    </th>
+    <td>
+    72,000
+
+    </td>
+    <td>
+    3,800
+
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
 4.  Compare the rules in the stylesheet with the displayed table, to ensure that you understand the effect of each rule. If you find a rule that you are not sure about, comment it out and refresh your browser to see what happens. Here are some notes about this table:
 
     -   The caption lies outside the table border.
@@ -318,58 +466,143 @@ These tables have a pale green background. Their cells have a pale gray backgrou
 
     -   The colons are added by the stylesheet.
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 For detailed information about tables, see [Tables in the CSS Specification](http://www.w3.org/TR/CSS21/tables.html). The information there goes further than this tutorial, but it does not cover differences between browsers that can affect complex tables.
 
-### Exercise question
+### <span>Exercise question</span>
 
 Change the stylesheet to make the table look like this:
 
-<table>
-<col width="100%" />
-<tbody>
-<tr class="odd">
-<td align="left"><dl>
+<table border="1">
+<tr>
+<td>
+<table border="1">
+<tr>
+<th>
+</th>
+<th>
+Area
 
-<dd>Area
-</dd>
+</th>
+<th>
+Mean depth
 
-<dd>million km<sup>2</sup>
-</dd>
-<dt>Arctic:</dt>
-<dd>13,000
-</dd>
-<dt>Atlantic:</dt>
-<dd>87,000
-</dd>
-<dt>Pacific:</dt>
-<dd>180,000
-</dd>
-<dt>Indian:</dt>
-<dd>75,000
-</dd>
-<dt>Southern:</dt>
-<dd>20,000
-</dd>
-<dt>Total:</dt>
-<dd>361,000
-</dd>
-<dt>Mean:</dt>
-<dd>72,000
-</dd>
-</dl>
-<p>Oceans</p>
-<p><br /></p></td>
+</th>
 </tr>
-</tbody>
+<tr>
+<th>
+</th>
+<th>
+million km<sup>2</sup>
+
+</th>
+<th>
+m
+
+</th>
+</tr>
+<tr>
+<th>
+Arctic:
+
+</th>
+<td>
+13,000
+
+</td>
+<td>
+1,200
+
+</td>
+</tr>
+<tr>
+<th>
+Atlantic:
+
+</th>
+<td>
+87,000
+
+</td>
+<td>
+3,900
+
+</td>
+</tr>
+<tr>
+<th>
+Pacific:
+
+</th>
+<td>
+180,000
+
+</td>
+<td>
+4,000
+
+</td>
+</tr>
+<tr>
+<th>
+Indian:
+
+</th>
+<td>
+75,000
+
+</td>
+<td>
+3,900
+
+</td>
+</tr>
+<tr>
+<th>
+Southern:
+
+</th>
+<td>
+20,000
+
+</td>
+<td>
+4,500
+
+</td>
+</tr>
+<tr>
+<th>
+Total:
+
+</th>
+<td>
+361,000
+
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<th>
+Mean:
+
+</th>
+<td>
+72,000
+
+</td>
+<td>
+3,800
+
+</td>
+</tr>
 </table>
+Oceans
 
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Tables)
-
+</td>
+</tr>
+</table>

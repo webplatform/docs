@@ -1,28 +1,30 @@
 ---
 title: encodeURI
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/xh9be5xc(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Encodes a text string as a valid Uniform Resource Identifier (URI)'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Encodes a text string as a valid Uniform Resource Identifier (URI)'
 uri: javascript/encodeURI
 
 ---
-# encodeURI
-
-## Summary
+## <span>Summary</span>
 
 Encodes a text string as a valid Uniform Resource Identifier (URI)
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     encodeURI( URIString )
 
-## Examples
+## <span>Examples</span>
 
 The following code first encodes and then decodes a URI.
 
-``` {.js}
+``` js
 var uriEncode = encodeURI ("http://www.Not a URL.com");
  var uriDecode = decodeURIComponent(uriEncode);
 
@@ -35,22 +37,16 @@ var uriEncode = encodeURI ("http://www.Not a URL.com");
  // http://www.Not a URL.com
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required URIString argument is a value representing an encoded URI.
 
 The **encodeURI** function returns an encoded URI. If you pass the result to **decodeURI** , the original string is returned. The **encodeURI** function does not encode the following characters: ":", "/", ";", and "?". Use **encodeURIComponent** to encode these characters.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [decodeURI Function](/javascript/decodeURI)
 -   [decodeURIComponent Function](/javascript/decodeURIComponent)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/xh9be5xc(v=vs.94).aspx)
 

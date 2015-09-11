@@ -1,6 +1,6 @@
 ---
-title: tr
-uri: 'Main Page/tr'
+title: Web Platform Belgelerine Hoşgeldiniz
+lang: tr
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -53,56 +53,83 @@ todo_broken_links:
     - 'Main Page/vi'
     - 'Main Page/yue'
     - 'Main Page/zh-tw'
+translations:
+  de:
+    text: Deutsch
+    href: /Main_Page/de
+  es:
+    text: español
+    href: /Main_Page/es
+  fr:
+    text: français
+    href: /Main_Page/fr
+  ja:
+    text: 日本語
+    href: /Main_Page/ja
+  ko:
+    text: 한국어
+    href: /Main_Page/ko
+  nl:
+    text: Nederlands
+    href: /Main_Page/nl
+  pt-br:
+    text: 'português do Brasil'
+    href: /Main_Page/pt-br
+  zh:
+    text: 中文
+    href: /Main_Page/zh
+  zh-hans:
+    text: 中文（简体）‎
+    href: /Main_Page/zh-hans
+  zh-hant:
+    text: 中文（繁體）‎
+    href: /Main_Page/zh-hant
+uri: 'Main Page/tr'
 
 ---
-# Web Platform Belgelerine Hoşgeldiniz
-
-## Özet
+## <span>Özet</span>
 
 Web Platform Belgeleri, web geliştiricilerinin yararlanabileceği kapsamlı ve yetkin bir belge kaynağı olmak amacıyla topluluk tarafından yönetilen bir sitedir.
 
-**Dil:**
-:   **[English](/Main_Page)**  • <span lang="de">[Deutsch](/Main_Page/de)</span> • <span lang="es">[español](/Main_Page/es)</span> • <span lang="fr">[français](/Main_Page/fr)</span> • <span lang="ja">[日本語](/Main_Page/ja)</span> • <span lang="ko">[한국어](/Main_Page/ko)</span> • <span lang="nl">[Nederlands](/Main_Page/nl)</span> • <span lang="pt-br">[português do Brasil](/Main_Page/pt-br)</span> • <span lang="tr">**Türkçe**</span> • <span lang="zh">[中文](/Main_Page/zh)</span> • <span lang="zh-hans">[中文（简体）‎](/Main_Page/zh-hans)</span> • <span lang="zh-hant">[中文（繁體）‎](/Main_Page/zh-hant)</span>
+## <span>Web geliştirme belgelerine gözatın</span>
 
-## Web geliştirme belgelerine gözatın
-
-### Yeni Başlayanlara
+### <span>[Yeni Başlayanlara](/beginners)</span>
 
 Web geliştirmede yeni olanlar için giriş materyalleri.
 
-### Genel Web Kavramı
+### <span>[Genel Web Kavramı](/concepts)</span>
 
 Conceptual and tutorial articles on topics such as how the web works, information architecture, typography, and web design.
 
-### HTML
+### <span>[HTML](/html)</span>
 
 Conceptual, tutorial, and reference materials for the main markup language of the web.
 
-### CSS
+### <span>[CSS](/css)</span>
 
 Conceptual, tutorial, and reference materials for Cascading style sheets (CSS).
 
-### Erişilebilirlik
+### <span>[Erişilebilirlik](/concepts/accessibility)</span>
 
 Patterns, practices and business cases for making the web work for people with a diverse range of abilities.
 
-### JavaScript
+### <span>[JavaScript](/javascript)</span>
 
 Tutorial and reference materials for JavaScript, the web's client-side scripting language; Includes reference materials for 3rd party JavaScript libraries.
 
-### DOM
+### <span>[DOM](/dom)</span>
 
 Tutorial and reference materials for the Document Object Model (DOM) events and methods.
 
-### SVG
+### <span>[SVG](/svg)</span>
 
 Tutorial and reference materials for Scalable Vector Graphics (SVG), an XML markup language for describing two-dimensional vector graphics.
 
-### APIs
+### <span>[APIs](/apis)</span>
 
 Reference materials for JavaScript APIs from appcache to xhr.
 
-## Web Platform Docs Features
+## <span>Web Platform Docs Features</span>
 
 Web Platform Docs is still in alpha, but you can already find lots of valuable content on the site, including:
 
@@ -112,14 +139,14 @@ Web Platform Docs is still in alpha, but you can already find lots of valuable c
 
 In the future, Web Platform Docs will include even more content for you to explore: live code examples, educators' resources and much more. To get there faster, we’d like to invite you to join us, and contribute your knowledge.
 
-## Web Platform Belgelerine Katkıda Bulunun
+## <span>Web Platform Belgelerine Katkıda Bulunun</span>
 
 Wir würden über Ihre Hilfe bei der Verbesserung der Web Platform Docs freuen! Selbst die geringste Unterstützung kann erhebliche Auswirkungen auf die Seite haben; von der Alarmierung über Fehler anderen Entwickler in unserer Dokumentation, über die Beseitigung dieser Fehler, die Portierung von bestehenden Artikeln oder sogar der Erstellung eines komplett neuen Artikels. Um mehr zu erfahren, lesen Sie bitte unser [Editor-Handbuch.](/WPD:Editors_Guide)
 
 -   Für Datei-Fehler auf webplatform, nutzen Sie unsere [Projekt Management Seite](http://project.webplatform.org). Lesen sie unsere [Bug-Annahme Seite](http://docs.webplatform.org/wiki/WPD:Filing_Bugs) für mehr Informationen.
 -   Falls sie Fragen zu webplatform.org haben, lesen sie bitte zunächst unsere [FAQ](/WPD:FAQ).
 
-## Temasta Kalın
+## <span>Temasta Kalın</span>
 
 -   Werden Sie Mitglied unserer [Q&A](http://talk.webplatform.org/forums/)
 -   Chaten Sie mit unseren Entwicklern im IRC: Wir sind auf irc.freenode.org, im \#webplatform Channel.
@@ -128,6 +155,6 @@ Wir würden über Ihre Hilfe bei der Verbesserung der Web Platform Docs freuen! 
 -   Nutzen Sie unser [Logo](http://webplatform.org/logo) und verlinken Sie zurück auf unsere Seite
 -   Kommen Sie zu unseren [Events](/WPD:Community/Community_Events), wie Doc Sprints.
 
-## Site Politikası
+## <span>Site Politikası</span>
 
 Der Inhalt des Web Platform Docs Wiki ist verfügbar unter einer [Creative Commons Attribution (CC-BY) Lizenz](/Template:CC-by-3.0), sofern nicht anders vermerkt. Weitere Informationen über unsere Website-Richtlinien finden Sie unter [Copyright](/WPD:Copyright) und [Datenschutz](/WPD:Privacy), sowie unsere allgemeinen [Richtlinien-Seite](/WPD:Policy).

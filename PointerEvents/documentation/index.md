@@ -3,7 +3,7 @@ title: documentation
 uri: PointerEvents/documentation
 
 ---
-## Documentation
+## <span>Documentation</span>
 
 Additional Pointer Events documentation and resources.
 

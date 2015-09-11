@@ -1,48 +1,64 @@
 ---
 title: word-spacing
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5671391'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'an optimum, minimum, and maximum value, each consisting of either an absolute length, a percentage, or the keyword ‘normal’'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`wordSpacing`'
+  Percentages: 'refers to width of the affected glyph'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The word-spacing CSS property specifies the spacing behavior between &quot;words&quot;.'
 tags:
   - CSS
   - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The word-spacing CSS property specifies the spacing behavior between "words".'
-code_samples:
-  - 'http://gist.github.com/5671391'
 uri: css/properties/word-spacing
 
 ---
-# word-spacing
+## <span>Summary</span>
 
-## Summary
+The word-spacing CSS property specifies the spacing behavior between &quot;words&quot;.
 
-The word-spacing CSS property specifies the spacing behavior between "words".
-
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   an optimum, minimum, and maximum value, each consisting of either an absolute length, a percentage, or the keyword ‘normal’
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `wordSpacing`
+
 Percentages
 :   refers to width of the affected glyph
 
-## Syntax
+## <span>Syntax</span>
 
 -   `word-spacing: length`
 -   `word-spacing: normal`
 -   `word-spacing: percentage`
 
-## Values
+## <span>Values</span>
 
 normal
 :   The spacing is the normal spacing for the current font.
@@ -53,11 +69,11 @@ length
 percentage
 :   Specifies the additional spacing as a percentage of the affected word's advance measure.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use the **word-spacing** attribute and the **word-spacing** property to increase the amount of space between words in a `p` element.
 
-``` {.html}
+``` html
 <p>This is a simple paragraph with the default value for word-spacing.</p>
 
 <p class="pos">This is a simple paragraph with a altered word-spacing value by 0.3em.</p>
@@ -67,7 +83,7 @@ The following example shows how to use the **word-spacing** attribute and the **
 
 [View live example](http://code.webplatform.org/gist/5671391)
 
-``` {.css}
+``` css
 p {
     word-spacing: normal;
 }
@@ -81,36 +97,27 @@ p.neg {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      * Up to three different values can be specified, in the following order: optimum, minimum, maximum
 
 -   If one value is specified, it is used for all spacing. If two values are specified, the first is used for the optimum and minimum spacings, and the second is used for maximum.
 
-## Notes
+## <span>Notes</span>
 
 When specified as a positive `length` value, the `word-spacing` attribute adds the specified value to the default spacing between words within an element. A negative `length` value decreases the space between words. Word spacing can be influenced by justification.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#word-spacing)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
 -   `CSS Enhancements in Internet Explorer 6`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

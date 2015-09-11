@@ -1,20 +1,17 @@
 ---
-title: smarter svg interact
+title: SVG interaction
+notes:
+  - 'No content; deletion candidate'
+readiness: 'Not Ready'
+summary: 'This guide contains nothing, and should be deleted.'
 tags:
   - Tutorials
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'No content; deletion candidate'
-summary: 'This guide contains nothing, and should be deleted.'
 uri: 'svg/tutorials/smarter svg interact'
 
 ---
-# SVG interaction
-
-## Summary
+## <span>Summary</span>
 
 This guide contains nothing, and should be deleted.
 
 ==Links==
-

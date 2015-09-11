@@ -1,35 +1,44 @@
 ---
 title: readyState
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/xhr/XMLHttpRequest
+    href: /apis/xhr/XMLHttpRequest
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned short'
+    href: /apis/xhr/XMLHttpRequest
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the current state of the XMLHttpRequest.'
 tags:
   0: API
   1: Object
   2: Properties
   4: XHR
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns the current state of the XMLHttpRequest.'
 uri: apis/xhr/XMLHttpRequest/readyState
 
 ---
-# readyState
-
-## Summary
+## <span>Summary</span>
 
 Returns the current state of the XMLHttpRequest.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)</span></span>
+Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var state = xhr.readyState;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+Returns an object of type unsigned shortunsigned short
 
 Returns one of the following values:
 
@@ -39,11 +48,11 @@ Returns one of the following values:
 -   LOADING (3): Downloading; [**responseText**](/apis/xhr/XMLHttpRequest/responseText) holds partial data.
 -   DONE (4): The operation is complete.
 
-## Examples
+## <span>Examples</span>
 
 Prints a message to the console log during each state of the request.
 
-``` {.js}
+``` js
 function handler() {
   if (xhr.readyState === xhr.UNSENT) {
     console.log('XHR Unsent');
@@ -64,20 +73,11 @@ xhr.onreadystatechange = handler;
 xhr.send();
 ```
 
-## Notes
+## <span>Notes</span>
 
 You cannot call the **responseText** property to obtain partial results (**readyState** = 3). Doing so will return an error, because the response is not fully received. You must wait until all data has been received. See [**onreadystatechange**](/apis/xhr/XMLHttpRequest/readystatechange).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

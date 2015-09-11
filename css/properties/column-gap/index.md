@@ -1,49 +1,65 @@
 ---
 title: column-gap
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5305647'
+notes:
+  - 'Add description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'multi-column elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'absolute length or ‘normal’'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`columnGap`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The column-gap property controls the width of the gap between columns in multi-column elements.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add description, compatibility.'
-summary: 'The column-gap property controls the width of the gap between columns in multi-column elements.'
-code_samples:
-  - 'http://gist.github.com/5305647'
 uri: css/properties/column-gap
 
 ---
-# column-gap
-
-## Summary
+## <span>Summary</span>
 
 The column-gap property controls the width of the gap between columns in multi-column elements.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   multi-column elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   absolute length or ‘normal’
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `columnGap`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `column-gap: length`
 -   `column-gap: normal`
 
-## Values
+## <span>Values</span>
 
 normal
 :   Default. The width of the `normal` value is user-agent specific, but `1em` is suggested.
@@ -55,11 +71,11 @@ length
 
  Negative values are not valid.
 
-## Examples
+## <span>Examples</span>
 
 Makes as many 15em columns with a column-gap of 4em
 
-``` {.css}
+``` css
 /*
 Makes as many 15em columns with a column-gap of 4em
 */
@@ -74,18 +90,16 @@ Makes as many 15em columns with a column-gap of 4em
 
 [View live example](http://code.webplatform.org/gist/5305647)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -110,10 +124,3 @@ Specification
 -   [column-width](/css/properties/column-width)
 
 -   [content](/css/properties/content)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

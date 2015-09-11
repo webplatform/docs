@@ -1,43 +1,57 @@
 ---
 title: layout-grid
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`both loose none none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Add summery, specifications, compatibility.'
 uri: css/properties/layout-grid
 
 ---
-# layout-grid
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `both loose none none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `layout-grid: char`
 -   `layout-grid: line`
 -   `layout-grid: mode`
 -   `layout-grid: type`
 
-## Values
+## <span>Values</span>
 
 mode
 :   Any of the range of mode values available to the [**-ms-layout-grid-mode**](/css/properties/layout-grid-mode) property.
@@ -51,46 +65,44 @@ line
 char
 :   Any of the range of character values available to the [**-ms-layout-grid-char**](/css/properties/layout-grid-char) property.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **-ms-layout-grid** attribute to specify character layout for a block of text.
 
-    <STYLE>
-    DIV.layout { layout-grid: both fixed 12px 12px }
-    </STYLE>
-    <DIV CLASS = "layout">
-    This is a block element containing a sentence of sample text.
-    </DIV>
+``` html
+<STYLE>
+DIV.layout { layout-grid: both fixed 12px 12px }
+</STYLE>
+<DIV CLASS = "layout">
+This is a block element containing a sentence of sample text.
+</DIV>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Windows Internet Explorer 8. The **-ms-layout-grid** attribute is an extension to CSS, and can be used as a synonym for **layout-grid** in IE8 Standards mode. Though you don't have to specify all four values for the **-ms-layout-grid** attribute, they must be listed in the order given in Possible Values. Web documents in Asian languages, such as Chinese or Japanese, usually create a page layout for characters using a one-dimensional or two-dimensional grid. You can use the **-ms-layout-grid** attribute to incorporate this layout into Web documents.
 
-### Syntax
+### <span>Syntax</span>
 
 `-ms-layout-grid: mode type line char`
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -101,8 +113,6 @@ There are no standards that apply here.
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   **layout-grid**
 
@@ -116,25 +126,11 @@ There are no standards that apply here.
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -180,17 +176,10 @@ There are no standards that apply here.
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `defaultSelected`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

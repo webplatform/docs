@@ -1,13 +1,12 @@
 ---
-title: smarter svg graphics
+title: SVG graphic effects
+notes:
+  - 'Fix multiple broken links'
+readiness: 'In Progress'
+summary: 'This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping paths, and masks.'
 tags:
   - Tutorials
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Fix multiple broken links'
-summary: 'This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping paths, and masks.'
-uri: 'svg/tutorials/smarter svg graphics'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -29,27 +28,26 @@ todo_broken_links:
     - svg/properties/clip-path
     - svg/attributes/preserveAspectRatio
     - svg/attributes/viewBox
+uri: 'svg/tutorials/smarter svg graphics'
 
 ---
-# SVG graphic effects
-
 **By Mike Sierra**
 
-## Summary
+## <span>Summary</span>
 
 This guide shows you how to embed images within SVG and apply various graphics effects such as gradients, patterns, clipping paths, and masks.
 
-## Gradients
+## <span>Gradients</span>
 
 SVG's support for gradients is similar to CSS's. Two kinds of gradient are available: the [**linearGradient**](/svg/elements/linearGradient) and [**radialGradient**](/svg/elements/radialGradient) elements. The [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) property uses **url()** syntax to reference either kind:
 
-``` {.xml}
+``` xml
 <path id="tvScreen" fill="url(#tvScreenOff)" d="M159.957 184.103c-21.826 13.892-102.52 17.859-122.361 0c-19.843-17.857-22.486-83.999 0-99.873c22.489-15.874 104.504-17.858 122.361 0C177.814 102.088 181.783 170.214 159.957 184.103z"/>
 ```
 
  This example transitions from a light to a dark gray from the top to the bottom of the shape:
 
-``` {.xml}
+``` xml
 <linearGradient id="tvScreenOff" x1="0" y1="0" x2="0" y2="1" >
     <stop offset="0" stop-color="#dddddd" />
     <stop offset="1" stop-color="#444444" />
@@ -62,7 +60,7 @@ In their simplest form, gradients require at least two nested [**stop**](/svg/el
 
 This example defines many more colors, progressing from bottom to top. Setting [**gradientUnits**](/w/index.php?title=svg/attributes/gradientUnits&action=edit&redlink=1) to **userSpaceOnUse** makes the *x*/*y* coordinates correspond to specific points within the graphic:
 
-``` {.xml}
+``` xml
 <linearGradient
    id            = "tvOn"
    x1            = "0"
@@ -85,7 +83,7 @@ This example defines many more colors, progressing from bottom to top. Setting [
 
 Radial gradients emanate outwards from the center point by default, filling rectangular shapes elliptically. In this example, which generates an obscure cultural reference to an Iggy Pop song, the black color defined at the 30% mark is extrapolated towards the center at 0%:
 
-``` {.xml}
+``` xml
 <radialGradient id="tvEye">
   <stop offset="30%"  stop-color="black"     />
   <stop offset="32%"  stop-color="lightblue" />
@@ -100,7 +98,7 @@ Radial gradients emanate outwards from the center point by default, filling rect
 
 The [**fx**](/w/index.php?title=svg/attributes/fx&action=edit&redlink=1) and [**fy**](/w/index.php?title=svg/attributes/fy&action=edit&redlink=1) attributes specify coordinates for the *focus* of the gradient, while [**cx**](/w/index.php?title=svg/attributes/cx&action=edit&redlink=1) and [**cy**](/w/index.php?title=svg/attributes/cy&action=edit&redlink=1) set the center of the outermost circle. Modifying the [**r**](/w/index.php?title=svg/attributes/r&action=edit&redlink=1) (radius) effectively resizes the gradient, in this case magnifying it relative to the default 0.5 value:
 
-``` {.xml}
+``` xml
 <radialGradient id="tvRadial" cx="0.5" cy="0.5" fx="0.8" fy="0.5" r="0.6">
 ```
 
@@ -108,11 +106,11 @@ The [**fx**](/w/index.php?title=svg/attributes/fx&action=edit&redlink=1) and [**
 
 [View the SVG file here](http://letmespellitoutforyou.com/samples/svg/tv_gradient.svg).
 
-## Patterns
+## <span>Patterns</span>
 
 SVG's patterns are similar to CSS's repeating background images, but allow you more control over padding and reorienting patterns. To implement a pattern, you must first design a graphic. In this case, a rectangle fits within a 5×10 area along with a margin of 1 unit:
 
-``` {.xml}
+``` xml
 <rect id="tileRect" x="0.5" y="0.5" width="9.0" height="4.0" fill="#E1BC9B" />
 ```
 
@@ -120,7 +118,7 @@ SVG's patterns are similar to CSS's repeating background images, but allow you m
 
 The graphic is wrapped within a [**pattern**](/svg/elements/pattern) element. Its [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) correspond to the intended size of tile. The [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1) and [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1) simply specify the pattern's offset starting point.
 
-``` {.xml}
+``` xml
 <pattern
    id                    = "tilePattern"
    x                     = "0"
@@ -138,7 +136,7 @@ The graphic is wrapped within a [**pattern**](/svg/elements/pattern) element. It
 
 Use the [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) property to apply the pattern, in this case to a complex [**path**](/svg/elements/path) shape:
 
-``` {.xml}
+``` xml
 <path id="headShape" d="M468.054,306.428c0.118,0.623,0.557,0.974,1.042,1.325 ... "/>
 
 <g id="graphic">
@@ -153,11 +151,11 @@ Increasing the pattern's [**width**](/w/index.php?title=svg/attributes/width&act
 
 ![svg gfx pattern rect wh.png](/assets/thumb/8/86/svg_gfx_pattern_rect_wh.png/300px-svg_gfx_pattern_rect_wh.png)
 
-## More complex tile patterns
+## <span>More complex tile patterns</span>
 
 This pattern consists of a very simple shape. You can make the pattern's nested set of graphics as complex and varied as you want, or build larger patterns from smaller components. This example shows how to build series of alternating rotated tiles. First, modify the basic shape to include black around the margin:
 
-``` {.xml}
+``` xml
 <g id="tileRect">
   <rect id="tileRectWhite" x="0"   y="0"   width="10"  height="5"   fill="#000000" />
   <rect id="tileRectBlack" x="0.5" y="0.5" width="9.0" height="4.0" fill="#E1BC9B" />
@@ -168,7 +166,7 @@ This pattern consists of a very simple shape. You can make the pattern's nested 
 
 A *tileSquare* object duplicates the underlying graphic and uses a [**transform**](/w/index.php?title=svg/attributes/transform&action=edit&redlink=1) to move it below the original to form a 10×10 square:
 
-``` {.xml}
+``` xml
 <g id="tileSquare">
   <use xlink:href="#tileRect" />
   <use xlink:href="#tileRect" transform="translate(0,5)"/>
@@ -179,7 +177,7 @@ A *tileSquare* object duplicates the underlying graphic and uses a [**transform*
 
 The square is then repeated four times within a larger 20×20 square:
 
-``` {.xml}
+``` xml
 <g id="tilePatternUnit">
   <use xlink:href="#tileSquare" />
   <g id="shiftDown" transform="translate(10,10) rotate(90)">
@@ -202,7 +200,7 @@ All the tiles except for the first one have transforms that move them to the bot
 
 To apply the modified fill, reference the more complex object, and increase the pattern's tiling area to accomodate it:
 
-``` {.xml}
+``` xml
 <pattern
    id                    = "tilePattern"
    x                     = "0"
@@ -229,13 +227,13 @@ Other transforms allow you to reorient and reshape the pattern. In this example,
 
 [View the SVG file here](http://letmespellitoutforyou.com/samples/svg/pattern_fill.svg).
 
-## Clipping paths
+## <span>Clipping paths</span>
 
 Patterns are not necessarily for tiny images. By applying generous [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) pattern dimensions, you can also use them to display a single large graphic behind an irregular shape. Another way to do this is to apply a *clipping path*, which renders a graphic only inside the contours of another graphic.
 
 Place a [**clipPath**](/svg/elements/clipPath) element around the shape you want to clip the graphic with, in this case the [**path**](/svg/elements/path) we saw earlier that defines the television screen:
 
-``` {.xml}
+``` xml
 <clipPath id="screenClip">
     <use xlink:href="#tvScreen"/>
 </clipPath>
@@ -243,7 +241,7 @@ Place a [**clipPath**](/svg/elements/clipPath) element around the shape you want
 
  When rendering the graphic to clip, use the [**clip-path**](/w/index.php?title=svg/properties/clip-path&action=edit&redlink=1) property to reference the [**clipPath**](/svg/elements/clipPath) element:
 
-``` {.xml}
+``` xml
 <use xlink:href="#yeller" clip-path="url(#screenClip)" />
 <g id="yeller">
   <use xlink:href="#headShape" fill="url(#tilePattern)" />
@@ -255,11 +253,11 @@ Place a [**clipPath**](/svg/elements/clipPath) element around the shape you want
 
 [View the SVG file here](http://letmespellitoutforyou.com/samples/svg/tv_clip.svg).
 
-## Adding images
+## <span>Adding images</span>
 
 While SVG is designed for vector graphics, it can freely incorporate raster graphics via the [**image**](/svg/elements/image) element. Use [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1) and [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1) attributes to position an image. Unlike HTML, you need to specify a [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) for an image to appear:
 
-``` {.xml}
+``` xml
 <image x="10" y="10" xlink:href="giraffe.png" width="270" height="297"
        preserveAspectRatio="xMidYMid meet"/>
 ```
@@ -294,7 +292,7 @@ Images scale depending on the current [**viewBox**](/w/index.php?title=svg/attri
 
 You can also use the [**image**](/svg/elements/image) element to import SVG graphics:
 
-``` {.xml}
+``` xml
 <image xlink:href="face_components.svg#eyes" x="10" y="10" width="300" height="100"/>
 ```
 
@@ -302,11 +300,11 @@ You can also use the [**image**](/svg/elements/image) element to import SVG grap
 
 These externally referenced SVG components may animate, but they do not preserve any interactive features.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -389,4 +387,3 @@ These externally referenced SVG components may animate, but they do not preserve
 -   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
 
 -   [SVG filters](/tutorials/svg_filters)
-

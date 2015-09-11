@@ -1,33 +1,35 @@
 ---
 title: reverse
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3333858x(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Reverses the elements in an Array.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Reverses the elements in an Array.'
 uri: javascript/Array/reverse
 
 ---
-# reverse
-
-## Summary
+## <span>Summary</span>
 
 Reverses the elements in an Array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     reverse()
 
-## Return Value
+## <span>Return Value</span>
 
 The reversed array.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **reverse** method.
 
-``` {.js}
+``` js
 var arr = new Array(0,1,2,3,4);
  var reverseArr = arr.reverse();
  document.write(reverseArr);
@@ -36,7 +38,7 @@ var arr = new Array(0,1,2,3,4);
  // 4,3,2,1,0
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required arrayObj reference is an **Array** object.
 
@@ -44,15 +46,9 @@ The **reverse** method reverses the elements of an **Array** object in place. It
 
 If the array is not contiguous, the **reverse** method creates elements in the array that fill the gaps in the array. Each of these created elements has the value undefined.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.8 Array.prototype.reverse ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.8) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3333858x(v=vs.94).aspx)
 

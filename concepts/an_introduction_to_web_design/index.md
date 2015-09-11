@@ -1,22 +1,20 @@
 ---
 title: an introduction to web design
+notes:
+  - 'Basically a stub, needs content'
+readiness: 'Not Ready'
+summary: 'Does designing for the web differ from designing a chair? No, it doesn''t. Both need to make usability, aesthetic and technic work together to serve the product pupose and its users.'
 tags:
   - Concept
   - Pages
-readiness: 'Not Ready'
-notes:
-  - 'Basically a stub, needs content'
-summary: 'Does designing for the web differ from designing a chair? No, it doesn''t. Both need to make usability, aesthetic and technic work together to serve the product pupose and its users.'
 uri: 'concepts/an introduction to web design'
 
 ---
-# an introduction to web design
-
-## Summary
+## <span>Summary</span>
 
 Does designing for the web differ from designing a chair? No, it doesn't. Both need to make usability, aesthetic and technic work together to serve the product pupose and its users.
 
-## The design process
+## <span>The design process</span>
 
 When a designer conceives a chair, the designer needs to think about the technical requirements, the products aesthetic appearance and the ease of use for the user:
 

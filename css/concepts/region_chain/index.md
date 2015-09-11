@@ -1,19 +1,17 @@
 ---
-title: region chain
+title: region chains
+notes:
+  - 'Almost identical content to "Region", "Regions" and "Named Flow". Consider merging.'
+readiness: 'In Progress'
+summary: 'A series of regions that display the contents of a named flow.'
 tags:
   - Concept
   - Pages
   - CSS-Regions
-readiness: 'In Progress'
-notes:
-  - 'Almost identical content to "Region", "Regions" and "Named Flow". Consider merging.'
-summary: 'A series of regions that display the contents of a named flow.'
 uri: 'css/concepts/region chain'
 
 ---
-# region chains
-
-## Summary
+## <span>Summary</span>
 
 A series of regions that display the contents of a named flow.
 
@@ -27,18 +25,16 @@ A **region chain** may have either not enough or too many elements to neatly dis
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -96,10 +92,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

@@ -1,26 +1,28 @@
 ---
 title: textarea
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Should have automatic child links generated.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLTextAreaElement](/dom/HTMLTextAreaElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: "The textarea tag defines a multi-line text input control.\n"
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Should have automatic child links generated.'
-summary: "The textarea tag defines a multi-line text input control.\n"
 uri: html/elements/textarea
 
 ---
-# textarea
-
-## Summary
+## <span>Summary</span>
 
 The textarea tag defines a multi-line text input control.
 
 A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLTextAreaElement](/dom/HTMLTextAreaElement)
@@ -30,22 +32,22 @@ Internationalization topics related to the `a` element:
 -   [Setting direction on block elements](http://localhost/International/techniques/authoring-html#blocks)
 -   [Managing text direction in form controls](http://localhost/International/techniques/authoring-html#formdir)
 
-## Examples
+## <span>Examples</span>
 
 This example uses the `textarea` element to set the cascading style sheets (CSS) [**overflow**](/css/properties/overflow) attribute to `hidden` to remove the scroll bars from the `textarea`.
 
-``` {.html}
+``` html
 <textarea style="overflow:hidden" id="txtComments">
    The patient is in stable condition after suffering an attack of
    the insatiable munchies.
 </textarea>
 ```
 
-## Usage
+## <span>Usage</span>
 
      To cater for international users see: Managing text direction in form controls
 
-## HTML Attributes
+## <span>HTML Attributes</span>
 
  Global attributes: accesskey, class, contenteditable, dir, hidden, id, lang, spellcheck, style, tabindex, title, translate
 :   See [global attributes](/html/global_attributes).
@@ -86,9 +88,9 @@ This example uses the `textarea` element to set the cascading style sheets (CSS)
     :   The Hard state indicates that the text in the textarea is to have newlines added by the user agent so that the text is wrapped when it is submitted.
         If the element's wrap attribute is in the Hard state, the cols attribute must be specified.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The default font is fixed pitch.
 
@@ -98,25 +100,18 @@ Safari Mobile for iOS applies a default style of [`opacity`](/css/properties/opa
 
 **Security Warning:  **Using this object incorrectly can compromise the security of your application. When submitting text through `textarea` over an intranet or the Internet, validating the text string is recommended. For instance, you might validate the string for a restricted set of known, good values (such as letters and numbers) and ignore the rest.
 
-### Default CSS
+### <span>Default CSS</span>
 
     white-space: pre-wrap;
     text-indent: initial;
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-textarea-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/forms.html#the-textarea-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-TEXTAREA)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

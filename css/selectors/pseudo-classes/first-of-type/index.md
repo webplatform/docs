@@ -1,16 +1,18 @@
 ---
 title: :first-of-type
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs title, summary, example, spec reference, standardization status, remove topic cluster flags'
+readiness: 'Not Ready'
 tags:
   - CSS
   - Selectors
-readiness: 'Not Ready'
-notes:
-  - 'Needs title, summary, example, spec reference, standardization status, remove topic cluster flags'
-uri: 'css/selectors/pseudo-classes/:first-of-type'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: 'css/selectors/pseudo-classes/:first-of-type'
 
 ---
 =
@@ -26,13 +28,13 @@ first-of-type=
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **:first-of-type** pseudo-class is a structural pseudo-class. Structural pseudo-classes enable selection based on extra information in the document tree that can't be selected using simple selectors or combinators.
 
-### Syntax
+### <span>Syntax</span>
 
 selector
 
@@ -42,20 +44,20 @@ first-of-type
 
 </dd>
 </dl>
-### Parameters
+### <span>Parameters</span>
 
 *selector*
 :   A CSS simple selector
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.6.5.8
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pseudo-Classes
+#### <span>Pseudo-Classes</span>
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -107,7 +109,7 @@ first-of-type
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -183,7 +185,7 @@ first-of-type
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `:root`
@@ -196,10 +198,3 @@ first-of-type
 -   `:only-child`
 -   `:only-of-type`
 -   `:empty`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

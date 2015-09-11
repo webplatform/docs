@@ -1,5 +1,13 @@
 ---
 title: track
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add example, compatibility.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLTrackElement](/dom/HTMLTrackElement)'
+readiness: 'Not Ready'
+summary: "The track tag specifies text tracks for media elements (audio and video).\n"
 tags:
   - Pages
   - using
@@ -11,16 +19,10 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Add example, compatibility.'
-summary: "The track tag specifies text tracks for media elements (audio and video).\n"
 uri: html/elements/track
 
 ---
-# track
-
-## Summary
+## <span>Summary</span>
 
 The track tag specifies text tracks for media elements (audio and video).
 
@@ -28,44 +30,36 @@ This element is used to specify subtitles, caption files or other files containi
 
 `Track` is new to HTML5 and is not yet supported in any major browser.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLTrackElement](/dom/HTMLTrackElement)
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Members
+### <span>Members</span>
 
 The **track** object has these types of members:
 
 -   [\#events Events]
 -   [\#properties Properties]
 
-#### Events
+#### <span>Events</span>
 
 The **track** object has these events. {
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-track-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-track-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `track object`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,20 +1,18 @@
 ---
-title: javascript best practices
+title: JavaScript best practices
+readiness: 'Ready to Use'
+summary: 'This article discusses some best practices to follow for writing efficient, understandable JavaScript.'
 tags:
   - Tutorials
   - JavaScript
-readiness: 'Ready to Use'
-summary: 'This article discusses some best practices to follow for writing efficient, understandable JavaScript.'
 uri: 'tutorials/javascript best practices'
 
 ---
-# JavaScript best practices
-
-## Summary
+## <span>Summary</span>
 
 This article discusses some best practices to follow for writing efficient, understandable JavaScript.
 
-## Introduction
+## <span>Introduction</span>
 
 Writing a best practice article is quite a tricky business. To a number of you, what you are about to read will appear to be very obvious and just the sensible thing to do.
 
@@ -22,7 +20,7 @@ However, looking around the web and getting code handed over to me from other de
 
 This article is a compilation of best practices and good advice amassed over the years, much of it learnt the hard way (experimentation and suchlike). Take the advice below to heart and keep it in a part of your brain that has a quick access route so you can apply it without thinking about it. I am sure you will find things to disagree with, and that is a good thing - you should question what you read, and strive to find better solutions. However, I have found that following these principles has made me a more effective developer and allowed other developers to build upon my work more easily.
 
-## Call things by their name — easy, short and readable variable and function names
+## <span>Call things by their name — easy, short and readable variable and function names</span>
 
 This is a no-brainer but it is scary how often you will come across variables like `x1`, `fe2` or `xbqne` in JavaScript, or — on the other end of the spectrum — variable names like `incrementorForMainLoopWhichSpansFromTenToTwenty` or `createNewMemberIfAgeOverTwentyOneAndMoonIsFull`.
 
@@ -36,7 +34,7 @@ Keeping to English is a good idea, too. Programming languages are in English, so
 
 See your code as a narrative. If you can read line by line and understand what is going on, well done. If you need to use a sketchpad to keep up with the flow of logic, then your code needs some work. Try reading Dostoyevsky if you want a comparison to the real world — I got lost on a page with 14 Russian names, 4 of which were pseudonyms. Do not write code like that — it might make it more art than product, but this is rarely a good thing.
 
-## Avoid globals
+## <span>Avoid globals</span>
 
 Global variables and function names are an incredibly bad idea. The reason is that every JavaScript file included in the page runs in the same scope. If you have global variables or functions in your code, scripts included after yours that contain the same variable and function names will overwrite your variables/functions.
 
@@ -119,7 +117,7 @@ If you do not need any of your variables or functions to be available to the out
 
 This keeps everything in a tidy little package that is inaccessible to the outside world, but very easy to share variables and functions inside of.
 
-## Stick to a strict coding style
+## <span>Stick to a strict coding style</span>
 
 Browsers are very forgiving when it comes to JavaScript syntax. This should not however be a reason for you to write sloppy code that relies on browsers to make it work.
 
@@ -131,7 +129,7 @@ Clean and valid code means less confusing bugs to fix, easier handover to other 
 
 Valid code also means that it can be converted by scripts to other formats — hacky code will need a human to do that.
 
-## Comment as much as needed but not more
+## <span>Comment as much as needed but not more</span>
 
 Comments are your messages to other developers (and yourself, if you come back to your code after several months working on something else). There have been numerous battles raging over the years about whether to use comments at all, the main argument being that good code should explain itself.
 
@@ -179,7 +177,7 @@ With the code set up as shown in the above block, adding a slash before the open
 
 For larger applications comment documentation in [JavaDoc style](http://java.sun.com/j2se/javadoc/writingdoccomments/) makes a lot of sense — you are seeding the overall documentation of your product by writing code. The Yahoo User Interface library's success is partly attributable to this, and there is even [a tool you can use to build the same documentation for your products](http://yuiblog.com/blog/2008/12/08/yuidoc/). Don’t worry too much about this until you become more experienced with JavaScripting — JavaDoc is mentioned here for completeness.
 
-## Avoid mixing with other technologies
+## <span>Avoid mixing with other technologies</span>
 
 Whilst it is possible to create everything you need in a document using JavaScript and the DOM it is not necessarily the most effective way of doing so. The following code puts a red border around every input field when its class is “mandatory” and there is nothing in it.
 
@@ -207,7 +205,7 @@ This works, however it means that if you later need to make a change to these st
 
 This is much more efficient as CSS was meant to cascade through the document. Say for example you want to hide all DIVs with a certain class in a document. You could loop through all the DIVs, check their classes and then change their style collection. In newer browsers you could use a CSS selector engine and then alter the style collection. The easiest way however is to use JavaScript to set a class on a parent element and use syntax along the lines of `element.triggerclass div.selectorclass{}` in the CSS. Keep the job of actually hiding the DIVs to the CSS designer, as he’ll know the best way of doing that.
 
-## Use shortcut notation when it makes sense
+## <span>Use shortcut notation when it makes sense</span>
 
 Shortcut notation is a tricky subject: on the one hand it keeps your code small but on the other you might make it hard for developers that take over from you as they might not be aware of the shortcuts. Well, here’s a small list of what can (and should) be done.
 
@@ -289,11 +287,11 @@ The best, safe, and short way to handle the situation of providing a preset valu
 
     var x = v != null ? v : 10
 
-The `?` operator is a short hand for a `if ... else ... ` condition that is tested, here against `null` , which guards against v having the value `undefined` as well. It should be noted that if `v` operator has the empty chain character `` operator assigned, then it will be assigned to `x` as well.
+The `?` operator is a short hand for a `if ... else ... ` condition that is tested, here against `null` , which guards against v having the value `undefined` as well. It should be noted that if `v` operator has the empty chain character operator assigned, then it will be assigned to `x` as well.
 
 This will automatically give `x` a value of `10` if `v` is not defined — simple as that.
 
-## Modularize — one function per task
+## <span>Modularize — one function per task</span>
 
 This is a general programming best practice — making sure that you create functions that fulfill one job at a time makes it easy for other developers to debug and change your code without having to scan through all the code to work out what code block performs what function.
 
@@ -348,7 +346,7 @@ This makes the function more specific and harder to apply to different situation
 
 By having all your functions only perform one task you can have a main `init()` function for your application that contains all the application structure. That way you can easily change the application and remove functionality without having to scan the rest of the document for dependencies.
 
-## Enhance progressively
+## <span>Enhance progressively</span>
 
 Progressive Enhancement as a development practice is discussed in detail in the [Graceful degredation versus progressive enhancement](http://dev.opera.com/articles/view/graceful-degradation-progressive-enhancement/). In essence what you should do is write code that works regardless of available technology. In the case of JavaScript, this means that when scripting is not available (say on a BlackBerry, or because of an over-zealous security policy) your web products should still allow users to reach a certain goal, not block them because of the lack of JavaScript which they can’t turn on, or don’t want to.
 
@@ -360,7 +358,7 @@ The problem was that if JavaScript was turned off the links would still show up 
 
 This not only made the search work correctly for everybody, it also made it easy to track how many users chose which option. By using the correct HTML construct we managed to get rid of both the JavaScript to switch the form action and the click tracking scripts and made it work for every user out there — regardless of environment.
 
-## Allow for configuration and translation
+## <span>Allow for configuration and translation</span>
 
 One of the most successful tips to keep your code maintainable and clean is to create a configuration object that contains all the things that are likely to change over time. These include any text used in elements you create (including button values and alternative text for images), CSS class and ID names and general parameters of the interface you build.
 
@@ -465,7 +463,7 @@ If you have this as a part of a module pattern and make it public you even allow
 
 It is of utmost importance to keep code maintenance simple, avoiding the need for future maintainers having to read all your code and find where they need to change things. If it isn’t obvious, your solution will be either completely ditched or hacked. Hacked solutions can’t be patched once you need to upgrade them and that kills re-use of code.
 
-## Avoid heavy nesting
+## <span>Avoid heavy nesting</span>
 
 Nesting code explains its logic and makes it much easier to read, however nesting it too far can also make it hard to follow what you are trying to do. Readers of your code shouldn’t have to scroll horizontally, or suffer confusion when their code editors wrap long lines (this makes your indentation efforts moot anyway).
 
@@ -520,7 +518,7 @@ As I am using the generic — really throw-away — variable names `ul` and `li`
       return ul;
     }
 
-## Optimize loops
+## <span>Optimize loops</span>
 
 Loops can become very slow if you don’t do them right. One of the most common mistake is to read the length attribute of an array at every iteration:
 
@@ -546,13 +544,13 @@ An even shorter way of achieving this is to create a second variable in the pre-
 
 Another thing to ensure is that you keep computation-heavy code outside loops. This includes regular expressions and — more importantly — DOM manipulation. You can create the DOM nodes in the loop but avoid inserting them into the document. You’ll find more on DOM best practices in the next section.
 
-## Keep DOM access to a minimum
+## <span>Keep DOM access to a minimum</span>
 
 Accessing the DOM in browsers is an expensive thing to do. The DOM is a very complex API and rendering in browsers can take up a lot of time. You can see this when running complex web applications when your computer is already maxed out with other work — changes take longer or get shown half way through and so on.
 
 To make sure that your code is fast and doesn’t slow down the browser to a halt try to keep DOM access to a bare minimum. Instead of constantly creating and applying elements, have a tool function that turns a string into DOM elements and call this function at the end of your generation process to disturb the browser rendering once rather than continually.
 
-## Don’t yield to browser whims
+## <span>Don’t yield to browser whims</span>
 
 Writing code specific to a certain browser is a sure-fire way to keep your code hard to maintain and make it get dated really quickly. If you look around the web you’ll find a lot of scripts that expect a certain browser and stop working as soon as a new version or another browser comes around.
 
@@ -560,7 +558,7 @@ This is wasted time and effort — we should build code based on agreed standard
 
 If something amazing works in one browser only and you really have to use it, put that code in its own script document and name it with browser and version. This means that you can find and remove this functionality more easily, should this browser become obsolete.
 
-## Don’t trust any data
+## <span>Don’t trust any data</span>
 
 One of the main points to bear in mind when talking about code and data security is not to trust any data. This is not only about evil people wanting to hack your systems; it starts with plain usability. Users will enter incorrect data, all the time. Not because they are stupid, but because they are busy, distracted or the wording on your instructions is confusing them. For example, I just booked a hotel room for a month rather than six days as I entered a wrong number … I consider myself fairly smart.
 
@@ -601,7 +599,7 @@ The same applies to forms that validate only on the client side. I once signed u
 
 For DOM access, check that the element you try to reach and alter is really available and what you expect it to be — otherwise your code may fail or cause strange rendering bugs.
 
-## Add functionality with JavaScript, don’t create too much content
+## <span>Add functionality with JavaScript, don’t create too much content</span>
 
 As you can see in some of the other examples here, building a lot of HTML in JavaScript can be pretty daunting and flaky. Especially on Internet Explorer you can run into all kinds of trouble by altering the document while it is still loading and manipulating the content (look up “operation aborted error” on [Google](http://www.google.com/) for a tale of woe and misery) with `innerHTML`.
 
@@ -647,7 +645,7 @@ In the script I load the template when the correct HTML container is available a
 
 This way I enable people to translate and change the player any way they want to without having to alter the JavaScript code.
 
-## Build on the shoulders of giants
+## <span>Build on the shoulders of giants</span>
 
 There is no denying that over the last few years JavaScript libraries and frameworks have taken over the web development market. And that is not a bad thing — if they are used correctly. All good JavaScript libraries want to do one thing and one thing only: make your life as a developer easier by working around cross-browser inconsistencies and patching browser support holes. JavaScript libraries provide you with a predictable, functioning base line to build upon.
 
@@ -657,7 +655,7 @@ My personal favourite is [the Yahoo User Interface library (YUI)](http://develop
 
 Whilst all libraries do work well together, it is not a good idea to use several libraries in the same project. This brings in another superfluous level of complexity and maintenance.
 
-## Development code is not live code
+## <span>Development code is not live code</span>
 
 The last point I want to make is not about JavaScript itself but about how it fits into the rest of your development strategy. As any change in JavaScript has an immediate effect on the performance and functionality of your web applications it is very tempting to optimize your code as much as possible regardless of the consequences for maintenance.
 
@@ -667,9 +665,8 @@ In order to write secure, working JavaScript we need to break this cycle and sto
 
 If we concentrate more on making the initial code easy to understand and extend by other developers we can create the perfect build script. If we keep optimizing prematurely we’ll never get there. Do not build for yourself or the browser — build for the next developer who takes over from you.
 
-## Summary
+## <span>Summary</span>
 
 The main trick with JavaScript is to avoid taking the easy path. JavaScript is a wonderfully versatile language and as the environment it is executed in is very forgiving it is easy to write sloppy code that seemingly does the job. This same code however will come back to bite you a few months down the line.
 
 JavaScript development has mutated from a fringe knowledge area to an absolute necessity if you want to have a job as a web developer. If you are starting right now you are lucky, as myself and many others have already made most of the mistakes and done all the trial and error self-teaching; we can now pass that knowledge along.
-

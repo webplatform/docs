@@ -1,32 +1,34 @@
 ---
 title: random
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a pseudorandom number between 0 and 1.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a pseudorandom number between 0 and 1.'
 uri: javascript/Math/random
 
 ---
-# random
-
-## Summary
+## <span>Summary</span>
 
 Returns a pseudorandom number between 0 and 1.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Math.random( )
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 Math.random(); // 0.6236026335973293
 Math.random(); // 0.10149288410320878
 Math.random(); // 0.6313296002335846
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The pseudo-random number generated is from 0 (inclusive) to 1 (exclusive), that is, the returned number can be zero, but it will always be less than one. The random number generator is seeded automatically when JavaScript is first loaded.
 
@@ -34,15 +36,9 @@ Due to the nature of the generation methods, these pseudo-random numbers are not
 
 Note that this method is unsuitable for cryptography. The [WebCrypto API](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html) addresses this.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Math.pow Function](/javascript/Math/pow)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)
 

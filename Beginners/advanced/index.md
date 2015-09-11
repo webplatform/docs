@@ -1,22 +1,20 @@
 ---
-title: advanced
+title: Part 8: Advanced topics
+notes:
+  - "Either rename the page because its currently about exercises proposals that are somehow advanced.\nProposal: Keep the exercises (in another page?), add advanced contents links like the parent page is doing."
+readiness: 'Not Ready'
+summary: 'Now you''ve worked your way through the basics, let''s look at some more advanced exercises to do to test your new found skills.'
 tags:
   - Basic
   - Pages
-readiness: 'Not Ready'
-notes:
-  - "Either rename the page because its currently about exercises proposals that are somehow advanced.\nProposal: Keep the exercises (in another page?), add advanced contents links like the parent page is doing."
-summary: 'Now you''ve worked your way through the basics, let''s look at some more advanced exercises to do to test your new found skills.'
 uri: Beginners/advanced
 
 ---
-# Part 8: Advanced topics
-
-## Summary
+## <span>Summary</span>
 
 Now you've worked your way through the basics, let's look at some more advanced exercises to do to test your new found skills.
 
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -31,11 +29,11 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-### Practice
+### <span>Practice</span>
 
 If you want to get some practice, here is a set of tasks you can do. Those steps are common things to do to make a website, and can be a good practice to any level of experience.
 
-#### Practice project requirements
+#### <span>Practice project requirements</span>
 
 Make a small form in which you can edit a few fields. Then try to achieve one or many of the following.
 

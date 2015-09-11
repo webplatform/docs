@@ -1,35 +1,37 @@
 ---
 title: iframe
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "Add Category, Parent, Children and Compatibility information.\nNotes section is from MSDN and very IE-specific."
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLIFrameElement](/dom/HTMLIFrameElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The iframe element (&lt;iframe&gt;) introduces a new nested browsing context.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - "Add Category, Parent, Children and Compatibility information.\nNotes section is from MSDN and very IE-specific."
-summary: 'The iframe element (<iframe>) introduces a new nested browsing context.'
-uri: html/elements/iframe
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/properties/frames
+uri: html/elements/iframe
 
 ---
-# iframe
+## <span>Summary</span>
 
-## Summary
+The iframe element (&lt;iframe&gt;) introduces a new nested browsing context.
 
-The iframe element (\<iframe\>) introduces a new nested browsing context.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLIFrameElement](/dom/HTMLIFrameElement)
 
 Iframes are one the best ways to build up a complex, detailed webpage from smaller, more manageable chunks. By using iframe tags, a developer can include webpages as part of a larger, enompassing parent page. Unlike frames, iframes can be styled through CSS and easily molded to fit seamlessly within the parent page. One neat use of an iframe is to display a custom Google map within the page. This can be done by setting the 'src' attribute of the iframe tag to Google Map URL.
 
-## HTML Attributes
+## <span>HTML Attributes</span>
 
 -   `src` = URL potentially surrounded by spaces
     Gives the address of a page that the nested browsing context is to contain.
@@ -60,27 +62,27 @@ Iframes are one the best ways to build up a complex, detailed webpage from small
 -   `height` = non-negative integer
     Give the height of the visual content of the element, in CSS pixels.
 
-## Examples
+## <span>Examples</span>
 
 This example embeds `http://example.com/` via an IFrame element.
 
-``` {.html}
+``` html
 <iframe id="theFrame" src="http://example.com/"></iframe>
 ```
 
 This example shows how to grab the Document contained within an IFrame element (note that you may only reach down into an IFrame if the page it has loaded is same-origin).
 
-``` {.js}
+``` js
 var frameDoc = document.getElementById("theFrame").contentDocument;
 ```
 
-## Usage
+## <span>Usage</span>
 
      The developer should be careful not to overuse iframes, because they dramatically slow down the rendering of a page. For each extra iframe, the browser has to make an extra request to the server.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **iframe** element functions as a document within a document, or like a floating **frame**. The [**frames**](/w/index.php?title=dom/properties/frames&action=edit&redlink=1) collection provides access to the contents of an **iframe**. Use the **frames** collection to read or write to elements contained in an **iframe**. For example, the syntax for accessing the [**backgroundColor**](/css/properties/background-color) style of the **body** object in an **iframe** is:
 
@@ -99,30 +101,23 @@ You can access the **iframe** object's properties, but not its contents, through
 
 Using Transparency with Inline Floating Frames
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-iframe-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-iframe-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/present/frames.html#edef-IFRAME)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
-[http://www.w3.org/TR/html-markup/iframe.html\#iframe](http://www.w3.org/TR/html-markup/iframe.html#iframe)
+<http://www.w3.org/TR/html-markup/iframe.html#iframe>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Using IFRAME Elements`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

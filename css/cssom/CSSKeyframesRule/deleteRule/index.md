@@ -1,5 +1,19 @@
 ---
 title: deleteRule
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs cleanup and elaboration. Usage is unclear and stray extra open bracket being printed by code someplace.'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/CSSKeyframesRule
+    href: /css/cssom/CSSKeyframesRule
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /css/cssom/CSSKeyframesRule
 tags:
   - Pages
   - using
@@ -12,27 +26,22 @@ tags:
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs cleanup and elaboration. Usage is unclear and stray extra open bracket being printed by code someplace.'
 uri: css/cssom/CSSKeyframesRule/deleteRule
 
 ---
-# deleteRule
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [css/cssom/CSSKeyframesRule](/css/cssom/CSSKeyframesRule)*
+Method of [css/cssom/CSSKeyframesRule](/css/cssom/CSSKeyframesRule)[css/cssom/CSSKeyframesRule](/css/cssom/CSSKeyframesRule)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.deleteRule();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -42,28 +51,28 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 If a rule with the given key does not exist, the **deleteRule** method does nothing.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Animations Module Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223144), Section 5
 
-### Parameters
+### <span>Parameters</span>
 
 *key* [in]
 :   Type: **DOMString**The key that describes the [**CSSKeyframeRule**](/css/cssom/CSSKeyframeRule) object to be deleted. The key must resolve to a number between 0 and 1, or the rule is ignored.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -84,8 +93,6 @@ If a rule with the given key does not exist, the **deleteRule** method does noth
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -113,11 +120,9 @@ If a rule with the given key does not exist, the **deleteRule** method does noth
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -173,13 +178,9 @@ If a rule with the given key does not exist, the **deleteRule** method does noth
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -219,17 +220,54 @@ If a rule with the given key does not exist, the **deleteRule** method does noth
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSKeyframesRule`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,36 +1,36 @@
 ---
 title: legend
+code_samples:
+  - 'http://gist.github.com/8e4305d9f7fb613410a5'
+notes:
+  - 'Add Compatibility.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLLegendElement](/dom/HTMLLegendElement)'
+readiness: 'In Progress'
+summary: 'The legend element represents a title or explanatory caption for the contents of its parent fieldset element.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-notes:
-  - 'Add Compatibility.'
-summary: 'The legend element represents a title or explanatory caption for the contents of its parent fieldset element.'
-code_samples:
-  - 'http://gist.github.com/8e4305d9f7fb613410a5'
 uri: html/elements/legend
 
 ---
-# legend
-
-## Summary
+## <span>Summary</span>
 
 The legend element represents a title or explanatory caption for the contents of its parent fieldset element.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLLegendElement](/dom/HTMLLegendElement)
 
 The **legend** element represents a caption for the the contents of the legend element's parent fieldset element, if any.
 
-## Examples
+## <span>Examples</span>
 
 Simple form with fieldset, legend, and label elements.
 
-``` {.html}
+``` html
 <form action="" method="post">
   <fieldset>
     <legend>User credentials</legend>
@@ -44,11 +44,11 @@ Simple form with fieldset, legend, and label elements.
 
 [View live example](http://code.webplatform.org/gist/8e4305d9f7fb613410a5)
 
-## Usage
+## <span>Usage</span>
 
      Generally, the legend element can be used in combination with a fieldset element when a group of form elements needs a caption. Pretty similar to a headline element but the legend element is the most semantic element in that case.
 
-## Notes
+## <span>Notes</span>
 
 The first **legend** element in a **fieldset** is used as the caption of the **fieldset**. Additional **legend** elements are ignored.
 
@@ -56,32 +56,30 @@ The **legend** element will be placed within the border of the **fieldset** elem
 
 The »problem« with the **fieldset** and **legend** elements is that they don’t behave like normal block/inline elements. A general workaround with any styling and position issues (especially in old IEs) is to wrap your legends content with another element.
 
-``` {.html}
+``` html
 <fieldset>
   <legend><span>Legend link</span></legend>
 </fieldset>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-legend-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/forms.html#the-legend-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-LEGEND)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -179,19 +177,54 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   **legend**
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 -   [**form**](/html/elements/form) element
 -   [**fieldset**](/html/elements/fieldset) element
 
-### External resources
+### <span>External resources</span>
 
--   [http://www.w3.org/TR/html-markup/legend.html\#legend](http://www.w3.org/TR/html-markup/legend.html#legend)
--   [http://www.w3.org/TR/html5/forms.html\#the-legend-element](http://www.w3.org/TR/html5/forms.html#the-legend-element)
--   [http://www.w3.org/TR/html5/rendering.html\#the-fieldset-and-legend-elements](http://www.w3.org/TR/html5/rendering.html#the-fieldset-and-legend-elements)
--   [http://morten.dk/blog/fieldset-legend-behave](http://morten.dk/blog/fieldset-legend-behave)
-
+-   <http://www.w3.org/TR/html-markup/legend.html#legend>
+-   <http://www.w3.org/TR/html5/forms.html#the-legend-element>
+-   <http://www.w3.org/TR/html5/rendering.html#the-fieldset-and-legend-elements>
+-   <http://morten.dk/blog/fieldset-legend-behave>

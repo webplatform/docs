@@ -1,58 +1,101 @@
 ---
 title: keydown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onkeydown.htm'
+notes:
+  - 'Summary, compatibility, standards, clean-up of MSDN import'
+readiness: 'In Progress'
 tags:
   - Events
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Summary, compatibility, standards, clean-up of MSDN import'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onkeydown.htm'
 uri: dom/KeyboardEvent/keydown
 
 ---
-# keydown
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **onkeydown** event to cancel input from the keyboard.
 
-    <script type="text/javascript">
-    function fnTrapKD(){
-       if(oTrap.checked){
-          oOutput.innerText+="[trap = " + event.keyCode + "]";
-          event.returnValue=false;
-       }
-       else{
-          oOutput.innerText+=String.fromCharCode(event.keyCode);
-       }
-    }
-    </script>
-    <input type="checkbox" id="oTrap">
-    <input id="oExample" type="text" onkeydown="fnTrapKD()">
-    <textarea id="oOutput" rows="10" cols="50">
-    </textarea>
+``` html
+<script type="text/javascript">
+function fnTrapKD(){
+   if(oTrap.checked){
+      oOutput.innerText+="[trap = " + event.keyCode + "]";
+      event.returnValue=false;
+   }
+   else{
+      oOutput.innerText+=String.fromCharCode(event.keyCode);
+   }
+}
+</script>
+<input type="checkbox" id="oTrap">
+<input id="oExample" type="text" onkeydown="fnTrapKD()">
+<textarea id="oOutput" rows="10" cols="50">
+</textarea>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onkeydown.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 You can cancel all keys that fire the **onkeydown** event in HTML Applications, including most accelerator keys, such as ALT+F4. As of Microsoft Internet Explorer 5, the event also fires for the following keys:
 
@@ -83,20 +126,13 @@ In Internet Explorer 4.0, you cannot cancel the **onkeydown** event, but you ca
 
 -   Press any keyboard key.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

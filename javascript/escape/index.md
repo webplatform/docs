@@ -1,55 +1,57 @@
 ---
 title: escape
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9yzah1fh(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: "Deprecated\n"
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: "Deprecated\n"
 uri: javascript/escape
 
 ---
-# escape
-
-## Summary
+## <span>Summary</span>
 
 Deprecated
 
 The deprecated **escape()** function encodes a string so it can be read on all computers.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     escape(str)
 
 **str**
 :   Required. A String to be encoded
 
-## Return Value
+## <span>Return Value</span>
 
 Returns a string value in Unicode format that contains the encoded contents of the str parameter.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 unescape("webplatform"); // "webplatform"
 unescape("ümlaut"); // "%FCmlaut"
 unescape("日本語"); // "%u65E5%u672C%u8A9E"
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 All spaces, punctuation, accented characters, and any other non-ASCII characters are replaced with % xx encoding, where xx is equivalent to the hexadecimal number representing the character. For example, a space is returned as "%20."
 
 Characters with a value greater than 255 are stored using the **%u** xxxx format.
 
-## Notes
+## <span>Notes</span>
 
 The **escape** function should not be used to encode URIs. Use [encodeURI](/javascript/encodeURI) and [encodeURIComponent](/javascript/encodeURIComponent) functions instead
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Deprecated
+#### <span>Deprecated</span>
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -81,16 +83,10 @@ The **escape** function should not be used to encode URIs. Use [encodeURI](/java
 
 -   [unescape](/javascript/unescape)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [encodeURI Function](/javascript/encodeURI)
 -   [encodeURIComponent Function](/javascript/encodeURIComponent)
 -   [String Object](/javascript/String)
 -   [unescape Function](/javascript/unescape)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9yzah1fh(v=vs.94).aspx)
 

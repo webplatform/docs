@@ -1,32 +1,34 @@
 ---
 title: floor
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/sw6w4wz7(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the greatest integer less than or equal to its numeric argument.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the greatest integer less than or equal to its numeric argument.'
 uri: javascript/Math/floor
 
 ---
-# floor
-
-## Summary
+## <span>Summary</span>
 
 Returns the greatest integer less than or equal to its numeric argument.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Math.floor( number )
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 Math.floor(1.1);  // 1
 Math.floor(1.6);  // 1
 Math.floor(-1.4); // -2
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required number argument is a numeric expression.
 
@@ -34,15 +36,9 @@ The return value is an integer value equal to the greatest integer less than or 
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Math.ceil Function](/javascript/Math/ceil)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/sw6w4wz7(v=vs.94).aspx)
 

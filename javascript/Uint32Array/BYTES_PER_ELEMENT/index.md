@@ -1,28 +1,30 @@
 ---
 title: BYTES PER ELEMENT
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+readiness: 'Ready to Use'
+summary: 'The size in bytes of each element in the array.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'The size in bytes of each element in the array.'
 uri: 'javascript/Uint32Array/BYTES PER ELEMENT'
 
 ---
-# BYTES PER ELEMENT
-
-## Summary
+## <span>Summary</span>
 
 The size in bytes of each element in the array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     var arraySize = int8Array.BYTES_PER_ELEMENT;
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to get the size of the array elements.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -37,10 +39,4 @@ var req = new XMLHttpRequest();
          }
      }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)
 

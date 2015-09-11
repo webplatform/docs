@@ -1,20 +1,22 @@
 ---
 title: for in
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/55wb2d34(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Executes one or more statements for each property of an object, or each element of an array.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Executes one or more statements for each property of an object, or each element of an array.'
 uri: 'javascript/statements/for in'
 
 ---
-# for in
-
-## Summary
+## <span>Summary</span>
 
 Executes one or more statements for each property of an object, or each element of an array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     for ( variable in [ object | array ]) {
         statements
@@ -29,11 +31,11 @@ Executes one or more statements for each property of an object, or each element 
 **statements**
 :   Optional. One or more statements to be executed for each property of object or each element of array. Can be a compound statement.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the for...in statement with an object used as an associative array.
 
-``` {.js}
+``` js
 // Initialize object.
  a = {"a" : "Athens" , "b" : "Belgrade", "c" : "Cairo"}
 
@@ -53,7 +55,7 @@ The following example illustrates the use of the for...in statement with an obje
 
 This example illustrates the use of the for ... in statement to iterate though an **Array** object that has expando properties.
 
-``` {.js}
+``` js
 // Initialize the array.
  var arr = new Array("zero","one","two");
 
@@ -78,7 +80,7 @@ This example illustrates the use of the for ... in statement to iterate though a
  //   carrot: vegetable
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 At the beginning of each iteration of a loop, the value of variable is the next property name of object or the next element index of array. You can then use variable in any of the statements inside the loop to reference the property of object or the element of array.
 
@@ -86,20 +88,14 @@ The properties of an object are not assigned in a determinate manner. You cannot
 
 Iterating through an array is performed in element order, that is, 0, 1, 2.
 
-## Notes
+## <span>Notes</span>
 
 Use the **Enumerator** object to iterate over the members of a collection.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [for Statement](/javascript/statements/for)
 -   [while Statement](/javascript/statements/while)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/55wb2d34(v=vs.94).aspx)
 

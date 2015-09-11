@@ -1,25 +1,22 @@
 ---
-title: device orientation
+title: Device Orientation API
+notes:
+  - Stub
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+summary: 'The Device Orientation API defines several new DOM events which provide information about the physical orientation and motion of a hosting device.'
 tags:
   - API
   - Listings
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - Stub
-summary: 'The Device Orientation API defines several new DOM events which provide information about the physical orientation and motion of a hosting device.'
 uri: 'apis/device orientation'
 
 ---
-# Device Orientation API
-
-## Summary
+## <span>Summary</span>
 
 The Device Orientation API defines several new DOM events which provide information about the physical orientation and motion of a hosting device.
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
-[http://www.w3.org/TR/orientation-event/](http://www.w3.org/TR/orientation-event/)
-
+<http://www.w3.org/TR/orientation-event/>

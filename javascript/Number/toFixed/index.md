@@ -1,38 +1,40 @@
 ---
 title: toFixed
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/sstyff0z(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'The toFixed() method formats a number to fixed-point notation (decimal).'
 tags:
   0: JS
   1: Basic
   3: Function
-readiness: 'Ready to Use'
-summary: 'The toFixed() method formats a number to fixed-point notation (decimal).'
 uri: javascript/Number/toFixed
 
 ---
-# toFixed
-
-## Summary
+## <span>Summary</span>
 
 The toFixed() method formats a number to fixed-point notation (decimal).
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     toFixed([ fractionDigits ])
 
 **fractionDigits**
 :   Optional. The number of digits after the decimal point. Must be in the range 0 - 20, inclusive. Defaults to 0.
 
-## Return Value
+## <span>Return Value</span>
 
 Returns a string representation of a number in fixed-point notation, containing fractionDigits digits after the decimal point.
 
 If fractionDigits is not supplied or **undefined** , the default value is 0.
 
-## Examples
+## <span>Examples</span>
 
 Using `toFixed` to format the decimal presentation of a number.
 
-``` {.js}
+``` js
 var pie = 3.14159;
 
 // output a number without decimal digits
@@ -60,38 +62,32 @@ pie.toFixed(10);
 // Returns: "-3.14"
 ```
 
-## Remarks
+## <span>Remarks</span>
 
-### Throws
+### <span>Throws</span>
 
 [`RangeError`](/javascript/Error) when a *fractionDigits* outside the bounds of 0 - 20 (inclusive) was given.
 
-## Notes
+## <span>Notes</span>
 
 -   `toFixed(3.9)` will be treated as `toFixed(3)`.
 -   If number is greater than `1e+21`, `toFixed()` calls [`toString()`](/javascript/Number/toString) internally and returns a string in exponential notation.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [toExponential Method (Number)](/javascript/Number/toExponential)
 -   [toPrecision Method (Number)](/javascript/Number/toPrecision)
 -   [toString Method (Number)](/javascript/Number/toString)
 
-### External resources
+### <span>External resources</span>
 
 -   [toFixed(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
 
-### Specification
+### <span>Specification</span>
 
 [15.7.4.5 Number.prototype.toFixed(fractionDigits)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.5)
 
 ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/sstyff0z(v=vs.94).aspx)
 

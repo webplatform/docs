@@ -1,20 +1,22 @@
 ---
 title: division
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w8z179xh(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Divides the values of two expressions.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Divides the values of two expressions.'
 uri: javascript/operators/division
 
 ---
-# division
-
-## Summary
+## <span>Summary</span>
 
 Divides the values of two expressions.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result = number1 / number2
 
@@ -27,22 +29,16 @@ Divides the values of two expressions.
 **number2**
 :   Any numeric expression.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var x = 9 / 3;
 // result: x = 3
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Division Assignment Operator (/=)](/javascript/operators/division_assignment)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w8z179xh(v=vs.94).aspx)
 

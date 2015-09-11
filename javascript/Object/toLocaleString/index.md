@@ -1,29 +1,31 @@
 ---
 title: toLocaleString
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wb66sb9s(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a date converted to a string using the current locale.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Returns a date converted to a string using the current locale.'
 uri: javascript/Object/toLocaleString
 
 ---
-# toLocaleString
-
-## Summary
+## <span>Summary</span>
 
 Returns a date converted to a string using the current locale.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.toLocaleString()
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **toLocaleString** method.
 
-``` {.js}
+``` js
 function toLocaleStrDemo(){
     var d, s;                      //Declare variables.
     d = new Date();                //Create Date object.
@@ -33,7 +35,7 @@ function toLocaleStrDemo(){
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required dateObj is any Date object.
 
@@ -46,15 +48,9 @@ For example, in the United States, **toLocaleString** returns "01/05/96 00:00:00
 
 **Note** -- **toLocaleString** should only be used to display results to a user; it should never be used as the basis for computation within a script as the returned result is machine-specific.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.3 Array.prototype.toLocaleString ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.3) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wb66sb9s(v=vs.94).aspx)
 

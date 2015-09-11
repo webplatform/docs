@@ -1,49 +1,43 @@
 ---
 title: pages
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Browser bias. Needs spec reference, standardization status'
+readiness: 'Almost Ready'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Browser bias. Needs spec reference, standardization status'
 uri: css/cssom/pages
 
 ---
-# pages
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [item](/css/cssom/pages/item)
 :
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Although this collection is represented in the Cascading Style Sheets (CSS) object model in Microsoft Internet Explorer 5.5 and later, **@page** rules are not represented in the default print template for Windows Internet Explorer. The rules can be used by print templates developed for applications that host MSHTML.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Print Template Reference`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

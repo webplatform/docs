@@ -1,44 +1,45 @@
 ---
 title: rules
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rules_1.htm'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+summary: 'The collection of rules in a stylesheet.'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'The collection of rules in a stylesheet.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rules_1.htm'
 uri: css/cssom/rules
 
 ---
-# rules
-
-## Summary
+## <span>Summary</span>
 
 The collection of rules in a stylesheet.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [item](/css/cssom/rules/item)
 :
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 This example shows how to use the **rules** collection to identify the color specified in style sheet rules.
 
-``` {.js}
+``` js
 <HTML>
 <HEAD>
 <SCRIPT>
@@ -67,15 +68,8 @@ function ruleColor(ruleIndex) {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rules_1.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This collection is always accessible, even if the style sheet is not enabled. Rules are added to the **rules** collection with the [**addRule**](/css/cssom/methods/addRule) method on the individual style sheet. A rule that is added to a [**disabled**](/html/attributes/disabled) style sheet does not apply to the document unless the style sheet is enabled. Rules are deleted with the [**removeRule**](/css/cssom/methods/removeRule) method. The rules in this collection are in the source order of the document. As rules are added or deleted through the Cascading Style Sheets (CSS) Object Model, a rule's absolute position in the **rules** collection might change, but its position relative to other rules remains the same. When you add rules without specifying an index, the rule gets added to the document last. If you specify an index, however, the rule is inserted before the rule currently in that ordinal position in the collection. If the specified index is greater than the number of rules in the collection, the rule is added to the end.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

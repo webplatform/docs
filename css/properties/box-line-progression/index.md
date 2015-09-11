@@ -1,52 +1,66 @@
 ---
 title: box-line-progression
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add example, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`single`'
+  'Applies to': 'box elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+standardization_status: Non-Standard
+summary: "Do not use. This property has been replaced by the flex-wrap property. \n"
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Add example, specifications, compatibility.'
-summary: "Do not use. This property has been replaced by the flex-wrap property. \n"
-uri: css/properties/box-line-progression
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - flex-wrap
     - box-lines
+uri: css/properties/box-line-progression
 
 ---
-# box-line-progression
-
-## Summary
+## <span>Summary</span>
 
 Do not use. This property has been replaced by the flex-wrap property.
 
 Gets or sets a value that specifies the direction to add successive rows or columns when the value of [box-lines](/w/index.php?title=box-lines&action=edit&redlink=1) is set to multiple.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `single`
+
 Applies to
 :   box elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `box-line-progression: normal`
 -   `box-line-progression: reverse`
 
-## Values
+## <span>Values</span>
 
 normal
 :   Default.
@@ -58,23 +72,16 @@ reverse
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Do not use. This property has been replaced by the flex-wrap property.
 
 Gets or sets a value that specifies the direction to add successive rows or columns when the value of [box-lines](/w/index.php?title=box-lines&action=edit&redlink=1) is set to multiple.
 
-## See also
+## <span>See also</span>
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,31 +1,33 @@
 ---
 title: toTimeString
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/y3xxxf8e(v=vs.94).aspx)'
+readiness: 'Almost Ready'
+summary: 'Returns the time component of a date as a human readable string.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Almost Ready'
-summary: 'Returns the time component of a date as a human readable string.'
 uri: javascript/Date/toTimeString
 
 ---
-# toTimeString
-
-## Summary
+## <span>Summary</span>
 
 Returns the time component of a date as a human readable string.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     toTimeString()
 
-## Return Value
+## <span>Return Value</span>
 
 String value containing the time, in the current time zone, in a convenient, human readable format, e.g. `15:20:46 GMT+0200 (CEST)`
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var date = new Date();
 console.log(date.toTimeString());
 // outputs: "15:20:46 GMT+0200 (CEST)"
@@ -33,15 +35,15 @@ console.log(now.toString());
 // outputs: "Wed Oct 08 2014 15:20:46 GMT+0200 (CEST)"
 ```
 
-## Notes
+## <span>Notes</span>
 
 According to the specification the contents of the String are implementation-dependent. That means that you cannot rely on the returned format being consistent across browsers. That said, all major browsers seem to agree on the format `15:20:46 GMT+0200 (CEST)`
 
 *toTimeString()* adds the code of the current timezone to the output. Because the output format is not specified, some browsers might replace `(CEST)` (Central European Summer Time) with a fully localized text, e.g. the German `(Mitteleuropäische Sommerzeit)`.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [toString Method (Date)](/javascript/Date/toString)
 -   [toDateString Method (Date)](/javascript/Date/toDateString)
@@ -52,20 +54,14 @@ According to the specification the contents of the String are implementation-dep
 -   [toLocaleTimeString Method (Date)](/javascript/Date/toLocaleTimeString)
 -   [toUTCString Method (Date)](/javascript/Date/toUTCString)
 
-### External resources
+### <span>External resources</span>
 
 -   [toTimeString(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toTimeString)
 -   [toTimeString(), by Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/y3xxxf8e%28v=vs.94%29.aspx)
 
-### Specification
+### <span>Specification</span>
 
 [Date.prototype.toTimeString()](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.4)
 
 ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/y3xxxf8e(v=vs.94).aspx)
 

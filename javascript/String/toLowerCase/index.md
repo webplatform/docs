@@ -1,30 +1,34 @@
 ---
 title: toLowerCase
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/es5c2d38(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Converts all the alphabetic characters in a string to lowercase.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Converts all the alphabetic characters in a string to lowercase.'
 uri: javascript/String/toLowerCase
 
 ---
-# toLowerCase
-
-## Summary
+## <span>Summary</span>
 
 Converts all the alphabetic characters in a string to lowercase.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     strVariable.toLowerCase()
 
+<span class="language">JavaScript</span>
+
     "String Literal".toLowerCase()
 
-## Examples
+## <span>Examples</span>
 
 The following example demonstrates the effects of the **toLowerCase** method.
 
-``` {.js}
+``` js
 var str1 = "This is a STRING.";
 var str2 = str1. toLowerCase();
 document.write(str2);
@@ -32,20 +36,14 @@ document.write(str2);
 // Output: this is a string.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **toLowerCase** method has no effect on non-alphabetic characters.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [toLocaleLowerCase Method (String)](/javascript/String/toLocaleLowerCase)
 -   [toUpperCase Method (String)](/javascript/String/toUpperCase)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/es5c2d38(v=vs.94).aspx)
 

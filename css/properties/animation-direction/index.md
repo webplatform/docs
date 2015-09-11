@@ -1,49 +1,65 @@
 ---
 title: animation-direction
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://gist.github.com/7010365'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'All elements, ::before and ::after pseudo-elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Defines whether an animation should run in reverse on some or all cycles.'
-code_samples:
-  - 'http://gist.github.com/7010365'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/animation-direction
 
 ---
-# animation-direction
-
-## Summary
+## <span>Summary</span>
 
 Defines whether an animation should run in reverse on some or all cycles.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   All elements, ::before and ::after pseudo-elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `animation-direction: alternate`
 -   `animation-direction: alternate-reverse`
 -   `animation-direction: normal`
 -   `animation-direction: reverse`
 
-## Values
+## <span>Values</span>
 
 normal
 :   All iterations of the animation are played as specified.
@@ -57,11 +73,11 @@ alternate
 alternate-reverse
 :   The animation cycle iterations that are odd counts are played in the reverse direction, and the animation cycle iterations that are even counts are played in a normal direction, again reversing direction each cycle. The count to determine if an iteration is even or odd starts at one (odd).
 
-## Examples
+## <span>Examples</span>
 
 A repeating pulse animation that shrinks and dims an element, then restores it. Change the **animation-direction** from *normal* to a different keyword value to see the effect.
 
-``` {.css}
+``` css
 div.selected {
     animation-name: pulse;
     animation-duration: 0.5s;
@@ -83,20 +99,18 @@ div.selected {
 
 [View live example](http://code.webplatform.org/gist/7010365)
 
-## Usage
+## <span>Usage</span>
 
      Can also be a comma-separated list of directions, e.g., reverse, normal, alternate, where each direction is applied to the corresponding ordinal position value of the animation-name property.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Animations](http://www.w3.org/TR/css3-animations/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)
@@ -108,10 +122,3 @@ Specification
 -   [animation-name](/css/properties/animation-name)
 -   [animation-play-state](/css/properties/animation-play-state)
 -   [animation-timing-function](/css/properties/animation-timing-function)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

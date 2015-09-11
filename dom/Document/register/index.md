@@ -1,66 +1,75 @@
 ---
 title: register
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/)'
+notes:
+  - 'Needs compat tables and better spec links'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Object
+    href: /dom/Document
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Registers a new, custom element and returns the element''s constructor.'
 tags:
   0: API
   1: Object
   2: Methods
   4: DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs compat tables and better spec links'
-summary: 'Registers a new, custom element and returns the element''s constructor.'
 uri: dom/Document/register
 
 ---
-# register
-
-## Summary
+## <span>Summary</span>
 
 Registers a new, custom element and returns the element's constructor.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var XFoo = document.register(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### type
+### <span>type</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The custom element's tag name. The name must contain a dash (-). So for example, \<x-foo\>, \<foo-element\>, and \<my-foo-element\> are valid names, while \<tabs\> and \<foo\_bar\> are not.
 
-### options
+### <span>options</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
-*(Optional)*
+(Optional)
 
 The object describing the element's prototype, public properties and methods.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Object.
+Returns an object of type ObjectObject
 
-## Examples
+## <span>Examples</span>
 
 Register's the custom element and adds it to the DOM.
 
-``` {.js}
+``` js
 var XFoo = document.register('x-foo');
 document.body.appendChild(new XFoo());
 ```
 
 Registers the custom element and defines the element's prototype.
 
-``` {.js}
+``` js
 var XFoo = document.register('x-foo', {
   prototype: Object.create(HTMLElement.prototype, {
     bar: {
@@ -75,7 +84,7 @@ var XFoo = document.register('x-foo', {
 });
 ```
 
-## Notes
+## <span>Notes</span>
 
 The custom element name must not be one of the following existing hyphen-containing element names:
 
@@ -88,24 +97,20 @@ The custom element name must not be one of the following existing hyphen-contain
 -   font-face-name
 -   missing-glyph
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Custom Elements](https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/custom/index.html)
 :
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Web Components
+#### <span>Web Components</span>
 
 -   **register**
 
 -   [shadowdom](/dom/shadowdom)
-
--   [ShadowRoot](/dom/shadowdom/ShadowRoot)
 
 -   [is](/html/attributes/is)
 
@@ -117,13 +122,6 @@ Specification
 
 -   [template](/html/elements/template)
 
-### External resources
+### <span>External resources</span>
 
 -   [Custom Elements](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/) on [HTML5Rocks!](http://www.html5rocks.com)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/customelements/)
-

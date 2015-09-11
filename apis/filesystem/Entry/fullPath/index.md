@@ -1,39 +1,46 @@
 ---
 title: fullPath
+notes:
+  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
+readiness: 'Out of Date'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/filesystem/Entry
+    href: /apis/filesystem/Entry
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/filesystem/Entry
+standardization_status: 'W3C Working Draft'
+summary: "The full absolute path from the root to the Entry.\n"
 tags:
   0: API
   1: Object
   2: Properties
   4: FileSystemAPI
-readiness: 'Out of Date'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
-summary: "The full absolute path from the root to the Entry.\n"
 uri: apis/filesystem/Entry/fullPath
 
 ---
-# fullPath
-
-## Summary
+## <span>Summary</span>
 
 The full absolute path from the root to the Entry.
 
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/filesystem/Entry](/apis/filesystem/Entry)</span></span>
+Property of [apis/filesystem/Entry](/apis/filesystem/Entry)[apis/filesystem/Entry](/apis/filesystem/Entry)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = Entry.fullPath;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 DOMString
 

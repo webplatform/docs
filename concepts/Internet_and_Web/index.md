@@ -1,10 +1,8 @@
 ---
-title: Internet and Web
+title: Internet and the Web
 uri: 'concepts/Internet and Web'
 
 ---
-# Internet and the Web
-
 Here you can find a couple for articles and links concerning the broader scope of web development.
 
 You might also want to take a look at the [Beginners section](/beginners) to find more general web related topics.

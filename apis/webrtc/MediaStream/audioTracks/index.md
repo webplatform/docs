@@ -1,36 +1,43 @@
 ---
 title: audioTracks
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/MediaStream
+    href: /apis/webrtc/MediaStream
+  return:
+    predicate: 'Returns an object of type '
+    value: MediaStreamTrackList
+    href: /apis/webrtc/MediaStream
+summary: 'The MediaStreamTrackList object representing the audio tracks.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference'
-summary: 'The MediaStreamTrackList object representing the audio tracks.'
 uri: apis/webrtc/MediaStream/audioTracks
 
 ---
-# audioTracks
-
-## Summary
+## <span>Summary</span>
 
 The MediaStreamTrackList object representing the audio tracks.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)</span></span>
+Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var trackList = stream.audioTracks;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">MediaStreamTrackList</span></span>
+Returns an object of type MediaStreamTrackListMediaStreamTrackList
 
 **Needs Examples**: This section should include examples.
 

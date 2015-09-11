@@ -1,46 +1,52 @@
 ---
 title: clearTimeout
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[clearTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window.clearTimeout) Article]'
+  - 'Microsoft Developer Network: [[clearTimeout Method](http://msdn.microsoft.com/en-us/library/ie/ms536357(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+standardization_status: Non-Standard
+summary: 'Cancels a time-out that was set with the setTimeout method. '
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: Non-Standard
-summary: 'Cancels a time-out that was set with the setTimeout method. '
 uri: dom/Window/clearTimeout
 
 ---
-# clearTimeout
-
-## Summary
+## <span>Summary</span>
 
 Cancels a time-out that was set with the setTimeout method.
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  window.clearTimeout(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### timerID
+### <span>timerID</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
 **Integer**Â that specifies the time-out setting returned by a previous call to the [**setTimeout**](/dom/Window/setTimeout) method.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var alarm = {
   remind: function(aMessage) {
     alert(aMessage);
@@ -62,12 +68,4 @@ var alarm = {
 };
 window.onclick = function() { alarm.setup() };
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[clearTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window.clearTimeout) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[clearTimeout Method](http://msdn.microsoft.com/en-us/library/ie/ms536357(v=vs.85).aspx) Article]
 

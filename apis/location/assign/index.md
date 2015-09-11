@@ -1,61 +1,65 @@
 ---
-title: assign
+title: window.location.assign
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/location
+    href: /apis/location
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/location
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Navigate to a new page.'
 tags:
   - API
   - Object
   - Methods
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Navigate to a new page.'
 uri: apis/location/assign
 
 ---
-# window.location.assign
-
-## Summary
+## <span>Summary</span>
 
 Navigate to a new page.
 
-*Method of [apis/location](/apis/location)*
+Method of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = window.location.assign(url);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### url
+### <span>url</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The new URL to navigate to.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
-## Examples
+## <span>Examples</span>
 
 Navigate to example.org.
 
-``` {.js}
+``` js
 window.location.assign("http://example.org/");
 ```
 
 The `assign` method is synonymous with replacing the `window.location` object with a string.
 
-``` {.js}
+``` js
 window.location = "http://example.org/";
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft
-

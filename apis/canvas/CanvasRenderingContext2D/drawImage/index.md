@@ -1,124 +1,128 @@
 ---
 title: drawImage
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Draws the specified image onto the canvas. Can be called in three ways; see Notes.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Draws the specified image onto the canvas. Can be called in three ways; see Notes.'
 uri: apis/canvas/CanvasRenderingContext2D/drawImage
 
 ---
-# drawImage
-
-## Summary
+## <span>Summary</span>
 
 Draws the specified image onto the canvas. Can be called in three ways; see Notes.
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### image
+### <span>image</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  An image, canvas, or video element of the pattern to use.
 
-### sx
+### <span>sx</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The horizontal starting value (x), in CSS pixels, relative to the source image.
 
-### sy
+### <span>sy</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The vertical starting value (y), in CSS pixels, relative to the source image.
 
-### sw
+### <span>sw</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The width of the source image, in CSS pixels, to draw onto the canvas.
 
-### sh
+### <span>sh</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The height of the source image, in CSS pixels, to draw onto the canvas.
 
-### dx
+### <span>dx</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The horizontal (x) value, in CSS pixels, where to place the image on the canvas.
 
-### dy
+### <span>dy</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The vertical (y) value, in CSS pixels, where to place the image on the canvas.
 
-### dw
+### <span>dw</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The destination width value, in CSS pixels, to use when drawing the image to the canvas.
 
-### dh
+### <span>dh</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The destination height value, in CSS pixels, to use when drawing the image to the canvas.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
 This method can return one of these values.
 
-Return code
-:   Description
-S\_OK
-:   The operation completed successfully.
-TypeMismatchError
-:   The *image* parameter is not an img object, canvas element, or video element.
-InvalidStateError \_ERR
-:   The *image* parameter does not contain image data.
-IndexSizeError
-:   The numeric arguments are not valid (for example, the destination is a 0x0 rectangle).
-SecurityError
-:   The img or video element is not of the same origin or domain as the document that owns the canvas element.
+|Return code|Description|
+|:----------|:----------|
+|S\_OK|The operation completed successfully.|
+|TypeMismatchError|The *image* parameter is not an img object, canvas element, or video element.|
+|InvalidStateError \_ERR|The *image* parameter does not contain image data.|
+|IndexSizeError|The numeric arguments are not valid (for example, the destination is a 0x0 rectangle).|
+|SecurityError|The img or video element is not of the same origin or domain as the document that owns the canvas element.|
 
-## Examples
+## <span>Examples</span>
 
 This example uses the most straightforward syntax, simply drawing an existing page image onto the canvas.
 
-``` {.html}
+``` html
 <img id="clock" src="clock.jpg" width="200" height="100" style="visibility:hidden"/>
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
-. . .
+<p>. . .</p>
 <script>
 var can = document.getElementById("myCanvas");
 var ctxt = can.getContext("2d");
@@ -127,7 +131,7 @@ ctxt.drawImage(image, 10, 10);
 </script>
 ```
 
-## Notes
+## <span>Notes</span>
 
 The **drawImage** method provides three ways to draw an image onto a canvas, depending on how you use the optional parameters:
 
@@ -137,16 +141,7 @@ The **drawImage** method provides three ways to draw an image onto a canvas, dep
 
 If you do not specify the *dw* and *dh* parameters, they equal the values of *sw* and *sh*. One CSS pixel in the image is treated as one unit in the canvas coordinate space.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

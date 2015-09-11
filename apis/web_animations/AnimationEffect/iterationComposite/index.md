@@ -1,35 +1,42 @@
 ---
 title: iterationComposite
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationEffect
+    href: /apis/web_animations/AnimationEffect
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /apis/web_animations/AnimationEffect
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The iteration composite operation property of this animation effect as specified by one of the IterationCompositeOperation enumeration values.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The iteration composite operation property of this animation effect as specified by one of the IterationCompositeOperation enumeration values.'
 uri: 'apis/web animations/AnimationEffect/iterationComposite'
 
 ---
-# iterationComposite
-
-## Summary
+## <span>Summary</span>
 
 The iteration composite operation property of this animation effect as specified by one of the IterationCompositeOperation enumeration values.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)</span></span>
+Property of [apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.iterationComposite;
 element.iterationComposite = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 Returns an IterationCompositeOperation enumerations object.
 

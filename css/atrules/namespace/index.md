@@ -1,79 +1,87 @@
 ---
 title: @namespace
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Empty "Main Content" section, see @import for notes for improvement suggestion. I haven''t come across @namespaces often in single-site implementations; perhaps we can provide elaboration on when @namespaces provide utility.'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'Declares the default namespace and binds a namespace to a namespace prefix.'
 tags:
   - CSS
   - At
   - Rules
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Empty "Main Content" section, see @import for notes for improvement suggestion. I haven''t come across @namespaces often in single-site implementations; perhaps we can provide elaboration on when @namespaces provide utility.'
-summary: 'Declares the default namespace and binds a namespace to a namespace prefix.'
 uri: css/atrules/@namespace
 
 ---
-# @namespace
-
-## Summary
+## <span>Summary</span>
 
 Declares the default namespace and binds a namespace to a namespace prefix.
 
-## Examples
+## <span>Examples</span>
 
 The default namespace is applied to names that do not have an explicit namespace component. The following rule declares a default namespace.
 
-    @namespace "http://www.w3.org/1999/xhtml";
+``` html
+@namespace "http://www.w3.org/1999/xhtml";
+```
 
 If you declare an **@namespace** rule with a prefix, you can use the prefix in namespace-qualified names. For example, consider the following namespace declaration for a namespace `prfx`.
 
-    @namespace prfx "http://prfx.contoso.com";
+``` html
+@namespace prfx "http://prfx.contoso.com";
+```
 
 Based on the previous declaration, the following selector matches `E` elements in the namespace that the `prfx` prefix refers to.
 
-    prfx|E
+``` html
+prfx|E
+```
 
 The following code example creates two namespace prefixes. First, `p` elements in any namespace are colored red. Any `p` elements in the `prfx` namespace are then recolored blue, and `p` elements in the `msft` namespace are recolored green.
 
-    @namespace prfx "http://prfx.contoso.com";
-    @namespace msft "http://msft.example.com";
-     p {background-color:red;}
-    prfx|p {background-color:blue;}
-    msft|p {background-color:green;}
+``` html
+@namespace prfx "http://prfx.contoso.com";
+@namespace msft "http://msft.example.com";
+ p {background-color:red;}
+prfx|p {background-color:blue;}
+msft|p {background-color:green;}
+```
 
 The following code example styles a SVG element. By using the namespace and declaration from this example, all circles that are created with SVG are given a red fill.
 
-    @namespace svg "http://www.w3.org/2000/svg";
-    svg|circle {fill:red;}
+``` html
+@namespace svg "http://www.w3.org/2000/svg";
+svg|circle {fill:red;}
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **@namespace** rule was introduced in Windows Internet Explorer 9. The scope of an **@namespace** rule is the style sheet that it is declared in. You must declare an **@namespace** rule after any [**@charset**](/css/atrules/@charset) or [**@import**](/css/atrules/@import) rules.
 
-### Syntax
+### <span>Syntax</span>
 
 `@namespace prfx? sUrl`
 
-### Parameters
+### <span>Parameters</span>
 
 *prfx*
 :   Optional. A **String** value that specifies a namespace prefix.
 *sUrl*
 :   A URL **String**value that specifies a namespace name.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Namespaces Module](http://www.w3.org/TR/css3-namespace/#declaration)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Syntax
+#### <span>Syntax</span>
 
 -   [@charset](/css/atrules/@charset)
 
@@ -94,10 +102,3 @@ Specification
 -   [Alphabetical list of CSS reference](/css/reference/alphabetical)
 
 -   [!important](/css/syntax/!important)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

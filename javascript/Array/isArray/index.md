@@ -1,38 +1,40 @@
 ---
 title: isArray
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff848265(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Determines whether an object is an array.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Determines whether an object is an array.'
 uri: javascript/Array/isArray
 
 ---
-# isArray
-
-## Summary
+## <span>Summary</span>
 
 Determines whether an object is an array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Array.isArray( object )
 
 **object**
 :   Required. The object to test.
 
-## Return Value
+## <span>Return Value</span>
 
 Boolean value. Either true if object is an array; otherwise, false.
 
 If the object argument is not an object, false or undefined is returned.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **Array.isArray** function.
 
-``` {.js}
+``` js
 // Using Array string litteral
 var ar = [];
  var result = Array.isArray(ar);
@@ -58,20 +60,14 @@ var ar = [];
  // Output: false
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Array Object](/javascript/Array)
 -   [typeof Operator](/javascript/operators/typeof)
 
-### Specification
+### <span>Specification</span>
 
 [15.4.3.2 Array.isArray ( arg )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.3.2) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff848265(v=vs.94).aspx)
 

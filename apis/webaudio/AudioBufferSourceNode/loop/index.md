@@ -1,46 +1,50 @@
 ---
 title: loop
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioBufferSourceNode
+    href: /apis/webaudio/AudioBufferSourceNode
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /apis/webaudio/AudioBufferSourceNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Indicates if the audio data should play in a loop. The default value is false.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Indicates if the audio data should play in a loop. The default value is false.'
 uri: apis/webaudio/AudioBufferSourceNode/loop
 
 ---
-# loop
-
-## Summary
+## <span>Summary</span>
 
 Indicates if the audio data should play in a loop. The default value is false.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)</span></span>
+Property of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = AudioBufferSourceNode.loop;
 AudioBufferSourceNode.loop = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var source = audioCtx.createBufferSource();
 source.loop = true;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

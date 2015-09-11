@@ -1,72 +1,79 @@
 ---
 title: insertRule
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples of appropriate rules'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/CSSMediaRule/CSSMediaRule
+    href: /css/cssom/CSSMediaRule/CSSMediaRule
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Number
+    href: /css/cssom/CSSMediaRule/CSSMediaRule
+standardization_status: 'W3C Recommendation'
+summary: 'Inserts a new rule to a media block.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'examples of appropriate rules'
-summary: 'Inserts a new rule to a media block.'
 uri: css/cssom/CSSMediaRule/insertRule
 
 ---
-# insertRule
-
-## Summary
+## <span>Summary</span>
 
 Inserts a new rule to a media block.
 
-*Method of [css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)*
+Method of [css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)[css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var ruleIndex = mediaRule.insertRule(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### ruleText
+### <span>ruleText</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The parsable text that represents the rule. For rule sets, this contains both the selector and the style declaration. For at-rules, this specifies both the at-identifier and the rule content.
 
-### index
+### <span>index</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The index within the media block's rule collection. The rule is inserted immediately before this index. If the specified index is equal to the length of the media block's rule collection, the rule is added to the end of the media block.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Number.
+Returns an object of type NumberNumber
 
 The index of the newly inserted rule within the media block's rule collection.
 
 **Needs Examples**: This section should include examples.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741),
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html#CSS-CSSMediaRule)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -122,13 +129,9 @@ Specification
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -168,21 +171,58 @@ Specification
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    â€¦ further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSMediaRule`
 -   `Reference`
 -   `cssRules`
 -   `deleteRule`
 -   `media`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

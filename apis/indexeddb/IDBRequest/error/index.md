@@ -1,40 +1,50 @@
 ---
 title: error
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/IndexedDB/IDBRequest)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBRequest
+    href: /apis/indexeddb/IDBRequest
+  return:
+    predicate: 'Returns an object of type '
+    value: DOMError
+    href: /apis/indexeddb/IDBRequest
+summary: 'The error codes returned under certain conditions.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'The error codes returned under certain conditions.'
 uri: apis/indexeddb/IDBRequest/error
 
 ---
-# error
-
-## Summary
+## <span>Summary</span>
 
 The error codes returned under certain conditions.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)</span></span>
+Property of [apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)[apis/indexeddb/IDBRequest](/apis/indexeddb/IDBRequest)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.error;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOMError</span></span>
+Returns an object of type DOMErrorDOMError
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      The following error codes are returned under certain conditions:
 
@@ -47,23 +57,14 @@ var result = element.error;
 
 In addition to the error codes sent to the IDBRequest object, asynchronous operations can also raise exceptions. The list describes problems that could occur when the request is being executed, but you might also encounter other problems when the request is being made. For example, if the the request failed and the result is not available, the InvalidStateError exception is thrown.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The cause of the error depends on the operation that triggered the error; use the **name** to determine the underlying problem.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/IndexedDB/IDBRequest)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

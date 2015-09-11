@@ -1,28 +1,30 @@
 ---
 title: lastParen
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/x4bh3xk2(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the last parenthesized submatch from any regular expression search, if any. Read-only.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the last parenthesized submatch from any regular expression search, if any. Read-only.'
 uri: javascript/RegExp/lastParen
 
 ---
-# lastParen
-
-## Summary
+## <span>Summary</span>
 
 Returns the last parenthesized submatch from any regular expression search, if any. Read-only.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     RegExp.lastParen
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **lastParen** property:
 
-``` {.js}
+``` js
 // Create the regular expression pattern.
     var re = new RegExp("d(b+)(d)","ig");
     var str = "cdbBdbsbdbdz";
@@ -44,15 +46,15 @@ The following example illustrates the use of the **lastParen** property:
     document.write(s);
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The object associated with this property is always the global **RegExp** object.
 
 The initial value of the **lastParen** property is an empty string. The value of the **lastParen** property changes whenever a successful match is made.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [\$1...\$9 Properties (RegExp)](/javascript/RegExp/1_9_Properties)
 -   [index Property (RegExp)](/javascript/RegExp/index)
@@ -61,10 +63,4 @@ The initial value of the **lastParen** property is an empty string. The value of
 -   [lastMatch Property (\$&) (RegExp)](/javascript/RegExp/lastMatch)
 -   [leftContext Property (\$\`) (RegExp)](/javascript/RegExp/leftContext)
 -   [rightContext Property (\$') (RegExp)](/javascript/RegExp/rightContext)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/x4bh3xk2(v=vs.94).aspx)
 

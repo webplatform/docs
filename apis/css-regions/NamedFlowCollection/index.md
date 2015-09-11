@@ -1,51 +1,50 @@
 ---
 title: NamedFlowCollection
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Obsolete. Replaced by NamedFlowMap. Represents a static snapshot array of a document''s available named flows'
 tags:
   - API
   - Objects
   - CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Obsolete. Replaced by NamedFlowMap. Represents a static snapshot array of a document''s available named flows'
-uri: apis/css-regions/NamedFlowCollection
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - apis/css-regions/NamedFlowMap
+uri: apis/css-regions/NamedFlowCollection
 
 ---
-# NamedFlowCollection
-
-## Summary
+## <span>Summary</span>
 
 Obsolete. Replaced by NamedFlowMap. Represents a static snapshot array of a document's available named flows
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [namedItem](/apis/css-regions/NamedFlowCollection/namedItem)
 :   Retrieve a [named flow](/css/concepts/named_flow) by its name
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 Retrieve the *main* flow from the document, in one method-chained line:
 
-``` {.js}
+``` js
 var flow = document.getNamedFlows().namedItem('main');
 ```
 
 Same as above, but iterates over the **NamedFlowCollection** object represented in a *flows* variable:
 
-``` {.js}
+``` js
 var flow;
 var flows = document.getNamedFlows();
 for (var i = 0; i < flows.length; i++) {
@@ -56,22 +55,20 @@ for (var i = 0; i < flows.length; i++) {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      For any flows in the collection that  disappear when they are no longer assigned to any content, item() and namedItem() yield null.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/2013/WD-css3-regions-20130528/)
 :   W3C Working Draft 28 May 2013
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -128,4 +125,3 @@ Specification
 -   [flow-from](/css/properties/flow-from)
 
 -   [flow-into](/css/properties/flow-into)
-

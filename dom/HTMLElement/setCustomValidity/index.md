@@ -1,40 +1,49 @@
 ---
 title: setCustomValidity
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, clean-up of MSDN import'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/HTMLElement
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'summary, clean-up of MSDN import'
 uri: dom/HTMLElement/setCustomValidity
 
 ---
-# setCustomValidity
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [dom/HTMLElement](/dom/HTMLElement)*
+Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.setCustomValidity(error);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### error
+### <span>error</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  String containing a custom message.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -44,21 +53,21 @@ S\_OK
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The following example sets a custom message if you type "fun" into the input field.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.21.3
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLObjectElement`
 -   `HTMLButtonElement`
@@ -66,10 +75,3 @@ The following example sets a custom message if you type "fun" into the input fie
 -   `HTMLInputElement`
 -   `HTMLSelectElement`
 -   `HTMLTextAreaElement`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

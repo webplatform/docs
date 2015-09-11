@@ -1,98 +1,106 @@
 ---
 title: arc
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://result.dabblet.com/gist/5024626/e8999ad1cd338a601a3d75c139e92d8ee68b2ca3'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Draws the specified arc.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Draws the specified arc.'
-code_samples:
-  - 'http://result.dabblet.com/gist/5024626/e8999ad1cd338a601a3d75c139e92d8ee68b2ca3'
 uri: apis/canvas/CanvasRenderingContext2D/arc
 
 ---
-# arc
-
-## Summary
+## <span>Summary</span>
 
 Draws the specified arc.
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = context.arc(x, y, radius, startAngle, endAngle, anticlockwise);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 
-### radius
+### <span>radius</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The radius or distance from the point (x,y) that the arc's path follows.
 
-### startAngle
+### <span>startAngle</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The starting angle, in radians, where 0 is at the 3 o'clock position of the arc's circle.
 
-### endAngle
+### <span>endAngle</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The ending angle, in radians.
 
-### anticlockwise
+### <span>anticlockwise</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-*(Optional)*
+(Optional)
 
 *true*: The arc is drawn in a counterclockwise direction from start to end.
 
 *false*: The arc is drawn in a clockwise direction from start to end.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 Type: **string**
 
 This method can return the following value.
 
-Return code
-:   Description
-IndexSizeError
-:   The specified radius value is negative.
+|Return code|Description|
+|:----------|:----------|
+|IndexSizeError|The specified radius value is negative.|
 
-## Examples
+## <span>Examples</span>
 
 The following code example shows several different arcs.
 
-``` {.html}
+``` html
 <html>
 <head>
       <title>Arc example</title>
@@ -128,22 +136,13 @@ The following code example shows several different arcs.
 
 [View live example](http://result.dabblet.com/gist/5024626/e8999ad1cd338a601a3d75c139e92d8ee68b2ca3)
 
-## Notes
+## <span>Notes</span>
 
 If the *startAngle* and *endAngle* angles are equal, the **arc** method creates a circle. To convert degrees to radians use:
 
     var radians = degrees * Math.PI/180
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

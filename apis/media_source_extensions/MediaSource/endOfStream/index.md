@@ -1,38 +1,41 @@
 ---
 title: endOfStream
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/media_source_extensions/MediaSource
+    href: /apis/media_source_extensions/MediaSource
+summary: 'Used to indicate that the end of the stream has been reached.'
 tags:
   - API
   - Object
   - Methods
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Used to indicate that the end of the stream has been reached.'
 uri: 'apis/media source extensions/MediaSource/endOfStream'
 
 ---
-# endOfStream
-
-## Summary
+## <span>Summary</span>
 
 Used to indicate that the end of the stream has been reached.
 
-*Method of [apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)*
+Method of [apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)[apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  MediaSource.endOfStream(error);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### error
+### <span>error</span>
 
- Data-typeÂ
+ Data-type
 :   enum
 
-*(Optional)*
+(Optional)
 
 Type: EndOfStreamError
 
@@ -45,13 +48,13 @@ network
 decode
 :   A decode error occurred.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      This method throws an INVALID_STATE_ERR exception under the following conditions:
 

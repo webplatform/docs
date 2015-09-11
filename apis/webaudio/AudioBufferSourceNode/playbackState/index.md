@@ -1,41 +1,48 @@
 ---
 title: playbackState
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioBufferSourceNode
+    href: /apis/webaudio/AudioBufferSourceNode
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned short'
+    href: /apis/webaudio/AudioBufferSourceNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The playback state, initialized to UNSCHEDULED_STATE, progressing through SCHEDULED_STATE, PLAYING_STATE, and FINISHED_STATE.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The playback state, initialized to UNSCHEDULED_STATE, progressing through SCHEDULED_STATE, PLAYING_STATE, and FINISHED_STATE.'
 uri: apis/webaudio/AudioBufferSourceNode/playbackState
 
 ---
-# playbackState
-
-## Summary
+## <span>Summary</span>
 
 The playback state, initialized to UNSCHEDULED\_STATE, progressing through SCHEDULED\_STATE, PLAYING\_STATE, and FINISHED\_STATE.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)</span></span>
+Property of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioBufferSourceNode.playbackState;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+Returns an object of type unsigned shortunsigned short
 
 Returns one of the following constant values: UNSCHEDULED\_STATE (0), SCHEDULED\_STATE (1), PLAYING\_STATE (2), or FINISHED\_STATE (3).
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // 1. Create an AudioBufferSourceNode and load data into it
 var soundSource = …
 
@@ -51,10 +58,7 @@ var timer = setInterval(function() {
 soundSource.start(…);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 :   W3C Editor's Draft
-

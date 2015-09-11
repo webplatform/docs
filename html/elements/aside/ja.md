@@ -1,13 +1,17 @@
 ---
-title: ja
+title: aside
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+lang: ja
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: '&lt;aside&gt;はコンテンツの中のただの補足情報・余談であることを示します。'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: '<aside>はコンテンツの中のただの補足情報・余談であることを示します。'
-uri: html/elements/aside/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -70,15 +74,14 @@ todo_broken_links:
     - html/elements/aside/zh-hans
     - html/elements/aside/zh-hant
     - html/elements/aside/zh-tw
+uri: html/elements/aside/ja
 
 ---
-# aside
+## <span>Summary</span>
 
-## Summary
+&lt;aside&gt;はコンテンツの中のただの補足情報・余談であることを示します。
 
-\<aside\>はコンテンツの中のただの補足情報・余談であることを示します。
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -92,31 +95,34 @@ todo_broken_links:
 
 その他にも、ページの主なコンテンツとは異なると思われるコンテンツに使われます。
 
-## Examples
+## <span>Examples</span>
 
 以下の例では長いヨーロッパのニュース記事の中でスイスの背景事情を\<aside\>要素を使って表したものです。
 
-``` {.html}
+``` html
 <aside>
  <h1>スイス連邦</h1>
  <p>ヨーロッパ中部に位置する内陸国・スイスは、欧州連合基本条約の一部に署名したにも関わらず、EUに所属していない。</p>
 </aside>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-aside-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-aside-element)
 :   W3C Recommendation
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/html/elements/aside)**  • <span lang="ja">**日本語**</span>
+
+</th>
+<td class="mbox-text">
+**[English](/html/elements/aside)**  • <span lang="ja">**日本語**</span>
+
+</td>
+</tr>
+</table>

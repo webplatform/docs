@@ -1,48 +1,54 @@
 ---
 title: clearImmediate
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[clearImmediate](https://developer.mozilla.org/en-US/docs/Web/API/Window.clearImmediate) Article]'
+  - 'Microsoft Developer Network: [[clearImmediate Method](http://msdn.microsoft.com/en-us/library/windows/apps/hh965354.aspx) Article]'
+notes:
+  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces.'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+standardization_status: Non-Standard
+summary: 'Cancels a function request created with setImmediate.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: Non-Standard
-notes:
-  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces.'
-summary: 'Cancels a function request created with setImmediate.'
 uri: dom/Window/clearImmediate
 
 ---
-# clearImmediate
-
-## Summary
+## <span>Summary</span>
 
 Cancels a function request created with setImmediate.
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  window.clearImmediate(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### handle
+### <span>handle</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  A handle to an immediate callback request, which is the value returned by [**setImmediate**](/dom/Window/setImmediate).
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var immediateID = setImmediate(function () {
   // Run some code
 }
@@ -52,21 +58,12 @@ document.getElementById("button").addEventListener('click',function () {
 }, false);
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Efficient Script Yielding](http://go.microsoft.com/fwlink/p/?linkid=247522)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[clearImmediate](https://developer.mozilla.org/en-US/docs/Web/API/Window.clearImmediate) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[clearImmediate Method](http://msdn.microsoft.com/en-us/library/windows/apps/hh965354.aspx) Article]
-

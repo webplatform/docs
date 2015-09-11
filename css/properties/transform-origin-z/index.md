@@ -1,40 +1,52 @@
 ---
 title: transform-origin-z
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0`'
+  'Applies to': 'transformable elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'The relative position is calculated from screen depth. As the value increases, the origin is more distant from the user; as the value decreases, the origin moves out toward or behind the user.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+summary: 'This property allows you to define the relative position of the origin of the transformation grid along the z-axis.'
 tags:
   - CSS
   - Properties
-summary: 'This property allows you to define the relative position of the origin of the transformation grid along the z-axis.'
 uri: css/properties/transform-origin-z
 
 ---
-# transform-origin-z
-
-## Summary
+## <span>Summary</span>
 
 This property allows you to define the relative position of the origin of the transformation grid along the z-axis.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
+
 Applies to
 :   transformable elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   The relative position is calculated from screen depth. As the value increases, the origin is more distant from the user; as the value decreases, the origin moves out toward or behind the user.
+
 Animatable
 :   Yes
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `transform-origin-z: length`
 
-## Values
+## <span>Values</span>
 
 length
 :   A floating-point number, followed by a unit of measurement.
@@ -43,15 +55,15 @@ Units of measurement may be absolute (`cm`, `mm`, `in`, `pt`, or `pc`) or relati
 
 **Needs Examples**: This section should include examples.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 8
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -85,10 +97,9 @@ Units of measurement may be absolute (`cm`, `mm`, `in`, `pt`, or `pc`) or relati
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `style`
 -   `transform`
-

@@ -1,21 +1,23 @@
 ---
 title: filter
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679973(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the elements of an array that meet the condition specified in a callback function.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Returns the elements of an array that meet the condition specified in a callback function.'
 uri: javascript/Array/filter
 
 ---
-# filter
-
-## Summary
+## <span>Summary</span>
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     filter( callbackfn [, thisArg ])
 
@@ -25,15 +27,15 @@ Returns the elements of an array that meet the condition specified in a callback
 **thisArg**
 :   Optional. An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
-## Return Value
+## <span>Return Value</span>
 
 A new array that contains all the values for which the callback function returns true. If the callback function returns false for all elements of array1 , the length of the new array is 0.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use the **filter** method.
 
-``` {.js}
+``` js
 // Define a callback function.
  function CheckIfPrime(value, index, ar) {
      high = Math.floor(Math.sqrt(value)) + 1;
@@ -58,7 +60,7 @@ The following example shows how to use the **filter** method.
 
 In the following example, the callbackfn argument includes the code of the callback function.
 
-``` {.js}
+``` js
 // Create the original array.
  var arr = [5, "element", 10, "the", true];
 
@@ -76,7 +78,7 @@ In the following example, the callbackfn argument includes the code of the callb
 
 The following example displays the names of properties that start with the letter "css" in the `window` DOM object.
 
-``` {.js}
+``` js
 var filteredNames = Object.getOwnPropertyNames(window).filter(IsC);
 
      for (i in filteredNames)
@@ -106,7 +108,7 @@ var filteredNames = Object.getOwnPropertyNames(window).filter(IsC);
 
 The following example illustrates the use of the thisArg argument, which specifies an object to which the this keyword can refer.
 
-``` {.js}
+``` js
 var checkNumericRange = function(value) {
      if (typeof value !== 'number')
          return false;
@@ -128,7 +130,7 @@ var checkNumericRange = function(value) {
 
 The **filter** method can be applied to a string instead of an array. The following example shows how to do this.
 
-``` {.js}
+``` js
 // Define a callback function that returns true
  // if the current array element follows a space
  // or is the first character.
@@ -152,7 +154,7 @@ The **filter** method can be applied to a string instead of an array. The follow
  // Output: T,q,b,f,j,o,t,l,d
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **filter** method calls the callbackfn function one time for each element in the array, in ascending index order. The callback function is not called for missing elements of the array.
 
@@ -166,49 +168,36 @@ You can declare the callback function by using up to three parameters.
 
 The following table lists the callback function parameters.
 
-Callback argument
-:   Definition
-value
-:   The value of the array element.
-index
-:   The numeric index of the array element.
-array1
-:   The array object that contains the element.
+|Callback argument|Definition|
+|:----------------|:---------|
+|value|The value of the array element.|
+|index|The numeric index of the array element.|
+|array1|The array object that contains the element.|
 
 The **filter** method does not directly modify the original array, but the callback function might modify it. The following table describes the results of modifying the array object after the **filter** method starts.
 
-Condition after the **filter** method starts
-:   Element passed to callback function?
-Element is added beyond the original length of the array.
-:   No.
-Element is added to fill in a missing element of the array.
-:   Yes, if that index has not yet been passed to the callback function.
-Element is changed.
-:   Yes, if that element has not yet been passed to the callback function.
-Element is deleted from the array.
-:   No, unless that element has already been passed to the callback function.
+|Condition after the **filter** method starts|Element passed to callback function?|
+|:-------------------------------------------|:-----------------------------------|
+|Element is added beyond the original length of the array.|No.|
+|Element is added to fill in a missing element of the array.|Yes, if that index has not yet been passed to the callback function.|
+|Element is changed.|Yes, if that element has not yet been passed to the callback function.|
+|Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the callbackfn argument is not a function object, a **TypeError** exception is thrown.
 
-### Requirements
+### <span>Requirements</span>
 
 Supported in the following document modes: Internet Explorer 9 standards, Internet Explorer 10 standards, and Internet Explorer 11 standards. Also supported in Windows Store apps. Not supported in the following document modes: Quirks, Internet Explorer 6 standards, Internet Explorer 7 standards, Internet Explorer 8 standards.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.20 Array.prototype.filter ( callbackfn [ , thisArg](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.20) )]
 
 ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
 
  Array.prototype.filter ( callbackfn [ , thisArg ] )
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679973(v=vs.94).aspx)
 

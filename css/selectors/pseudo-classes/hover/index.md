@@ -1,17 +1,17 @@
 ---
 title: :hover
-tags:
-  - CSS
-  - Selectors
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The\_:hover pseudo-class applies while the user designates an element with a pointing device, but does not necessarily activate it"
+tags:
+  - CSS
+  - Selectors
 uri: 'css/selectors/pseudo-classes/:hover'
 
 ---
-# :hover
-
-## Summary
+## <span>Summary</span>
 
 The :hover pseudo-class applies while the user designates an element with a pointing device, but does not necessarily activate it
 
@@ -19,40 +19,33 @@ The :hover pseudo-class applies while the user designates an element with a poi
 
 Note that not all pointing devices let the user designating without activating an element (e.g. pen or touch-interactions)
 
-## Examples
+## <span>Examples</span>
 
 The following example sets the hover style of an anchor. When the user hovers the mouse pointer over a link, the text appears in bold red, over a beige background.
 
-``` {.css}
+``` css
 a:hover { color:red; background-color:beige; font-weight:bolder; }
 ```
 
-## Usage
+## <span>Usage</span>
 
      The :hover pseudo-class is often used with :active, :link, and :visited; which are the pseudo-classes that affect the other states of a link.
 
 Indiscriminate use of the **:hover** pseudo-class can negatively impact page performance.
 
-## Notes
+## <span>Notes</span>
 
 The order of pseudo-classes is important. For example, the style rule for **:hover** must occur after any [**:link**](/css/selectors/pseudo-classes/:link) rule or any [**:visited**](/css/selectors/pseudo-classes/:visited) rule to prevent the pseudo-classes from hiding each other.
 
 [IE8-11 suffer from a bug](https://connect.microsoft.com/IE/feedbackdetail/view/926665/ie-11-hovering-over-an-element-and-then-scrolling-without-moving-the-mouse-pointer-leaves-the-element-in-hover-state) where hovering over an element and then scrolling without moving the mouse/pointer leaves said element in **:hover** state.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#dynamic-pseudo-classes)
 :   W3C Recommendation
+
 [Selectors Level 3](http://www.w3.org/TR/css3-selectors/#the-user-action-pseudo-classes-hover-act)
 :   W3C Recommendation
+
 [Selectors Level 4](http://dev.w3.org/csswg/selectors4/#hover-pseudo)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

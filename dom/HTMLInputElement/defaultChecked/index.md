@@ -1,63 +1,63 @@
 ---
 title: defaultChecked
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples, compatibility'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLInputElement
+    href: /dom/HTMLInputElement
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/HTMLInputElement
+standardization_status: 'W3C Recommendation'
+summary: 'Gets whether the checked HTML attribute is present on the element.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'examples, compatibility'
-summary: 'Gets whether the checked HTML attribute is present on the element.'
 uri: dom/HTMLInputElement/defaultChecked
 
 ---
-# defaultChecked
-
-## Summary
+## <span>Summary</span>
 
 Gets whether the checked HTML attribute is present on the element.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLInputElement](/dom/HTMLInputElement)</span></span>
+Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var initiallyChecked = checkboxElement.defaultChecked;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 Whether the **checked** HTML attribute is present on the element.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 -   This property reflects the value of the **checked** HTML attribute.
 -   This property can be changed programmatically, however, doing so has no effect on the appearance of the check box or radio button or on how forms are submitted - if the [**checked**](/dom/HTMLInputElement/checked) property has been changed by a user or by a script.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `checked`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

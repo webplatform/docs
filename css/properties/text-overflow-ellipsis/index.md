@@ -1,55 +1,69 @@
 ---
 title: text-overflow-ellipsis
+code_samples:
+  - 'http://dabblet.com/gist/4744982'
+notes:
+  - 'Non-standard; deletion candidate'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`U+2026`'
+  'Applies to': 'block-level and inline-block elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value (except for initial and inherit)'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`text-overflow-ellipsis`'
+  Percentages: N/A
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+summary: 'The text-overflow-ellipsis CSS property controls how the hint on overflowed content that is not displayed is signaled to the users. The presence of the hint is controlled with CSS property text-overflow-mode. Shorthand property is text-overflow.'
 tags:
   - CSS
   - Properties
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - 'Non-standard; deletion candidate'
-summary: 'The text-overflow-ellipsis CSS property controls how the hint on overflowed content that is not displayed is signaled to the users. The presence of the hint is controlled with CSS property text-overflow-mode. Shorthand property is text-overflow.'
-code_samples:
-  - 'http://dabblet.com/gist/4744982'
 uri: css/properties/text-overflow-ellipsis
 
 ---
-# text-overflow-ellipsis
-
-## Summary
+## <span>Summary</span>
 
 The text-overflow-ellipsis CSS property controls how the hint on overflowed content that is not displayed is signaled to the users. The presence of the hint is controlled with CSS property text-overflow-mode. Shorthand property is text-overflow.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `U+2026`
+
 Applies to
 :   block-level and inline-block elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value (except for initial and inherit)
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `text-overflow-ellipsis`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-overflow-ellipsis: string`
 
-## Values
+## <span>Values</span>
 
 string
 :   The value is defined either as a string like the default UTF-8 character 'U+2026' or a URI and represents the ellipsis of text-overflow-mode property. If the value is defined as a URI it displays the image behind the URL. You can also set both values which then means they determine the overflow visual hint at the end and the hint after the element box. The latter visual hint is only displayed if there is clipped content because of the dimension limitation on the element block.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!-- example showing text-overflow-ellipsis property -->
 
 <div class="overflowed overflowed-ellipsis">
@@ -62,7 +76,7 @@ string
 
 [View live example](http://dabblet.com/gist/4744982)
 
-``` {.css}
+``` css
 .overflowed > p {
     width: 10em;
     height: 5em;
@@ -83,19 +97,19 @@ string
 
 [View live example](http://dabblet.com/gist/4744982)
 
-## Usage
+## <span>Usage</span>
 
      Currently it is not widely supported in any major browsers.
 
-## Notes
+## <span>Notes</span>
 
 Because the initial value (U+2026) of the overflow visual hint after the element box may not be easily rendered in some situations, the user agent may replace it by a sequence of 3 FULL STOP characters (U+002E).
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -133,17 +147,13 @@ Because the initial value (U+2026) of the overflow visual hint after the element
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -154,8 +164,6 @@ Because the initial value (U+2026) of the overflow visual hint after the element
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -169,25 +177,11 @@ Because the initial value (U+2026) of the overflow visual hint after the element
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   **text-overflow-ellipsis**
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -232,4 +226,3 @@ Because the initial value (U+2026) of the overflow visual hint after the element
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-

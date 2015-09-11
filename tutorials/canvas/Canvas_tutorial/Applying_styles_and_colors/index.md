@@ -1,26 +1,27 @@
 ---
 title: Applying styles and colors
-readiness: 'Not Ready'
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en/Canvas_tutorial:Applying_styles_and_colors)'
 notes:
   - 'No editing form'
+readiness: 'Not Ready'
 summary: 'This part of the canvas tutorial explains how to color and style canvas shapes. It provides examples for simple coloring and line styles but also for more complex styles likes gradients.'
-uri: 'tutorials/canvas/Canvas tutorial/Applying styles and colors'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'CSS3 color values'
     - 'compositing operations'
+uri: 'tutorials/canvas/Canvas tutorial/Applying styles and colors'
 
 ---
-# Applying styles and colors
-
-## Summary
+## <span>Summary</span>
 
 This part of the canvas tutorial explains how to color and style canvas shapes. It provides examples for simple coloring and line styles but also for more complex styles likes gradients.
 
 In the chapter about [drawing shapes](/tutorials/canvas/Canvas_tutorial/Drawing_shapes) only the default line and fill styles were used. In this chapter we will explore *all* the canvas options we have at our disposal to make our drawings a little more attractive.
 
-## Colors
+## <span>Colors</span>
 
 Up until now we've only seen methods of the drawing context. If we want to apply colors to a shape, there are two important properties we can use: `fillStyle` and `strokeStyle`.
 
@@ -38,7 +39,7 @@ The valid strings these color properties accept are expressed by [CSS3 color val
 
 **Note**: Currently not all CSS 3 color values are supported in the Gecko engine. For instance the color values `hsl(100%,25%,0)` or `rgb(0,100%,0)` are not allowed. If you stick to the ones above, you won't run into any problems.
 
-#### A fillStyle example
+#### <span>A fillStyle example</span>
 
 ![A canvas filled with different colored squares](/assets/public/c/cf/Canvas_fillstyle.png)
 
@@ -64,7 +65,7 @@ In this example, two `for` loops are used to draw a grid of rectangles, each in 
       }
     }
 
-#### A strokeStyle example
+#### <span>A strokeStyle example</span>
 
 ![Canvas filled with empty circles with different colored lines](/assets/public/b/bd/Canvas_strokestyle.png)
 
@@ -83,7 +84,7 @@ This example is similar to the one above but now using the `strokeStyle` propert
         }
       }
 
-## Transparency
+## <span>Transparency</span>
 
 Semi-transparent shapes can also be drawn to the canvas. This can be accomplished in one of two ways, by setting the `globalAlpha` property, or assigning an alpha value to the stroke/fill style.
 
@@ -99,7 +100,7 @@ If you would like to assign transparency on a per shape basis, you can use the `
 
 The `rgba()` function is similar to the `rgb()` function but it has one extra parameter. The last parameter sets the alpha value of color defined by the r, g, and b parameters. The valid range is between 0.0 (fully transparent) and 1.0 (fully opaque).
 
-#### A globalAlpha example
+#### <span>A globalAlpha example</span>
 
 ![A background of four different colored squares, on top of which is drawn a set of semi-transparent circles.](/assets/public/b/b0/Canvas_globalalpha.png)
 
@@ -129,7 +130,7 @@ In this example, a set of semi-transparent concentric circles are drawn on top o
       }
     }
 
-#### An example using rgba()
+#### <span>An example using rgba()</span>
 
 ![Small rectangles with increasing opacity, on a canvas.](/assets/public/c/cf/Canvas_rgba.png)
 
@@ -157,7 +158,7 @@ Here, instead of drawing circles on top of each other, small rectangles are draw
       }
     }
 
-## Line styles
+## <span>Line styles</span>
 
 There are several properties which allow us to style lines.
 
@@ -168,7 +169,7 @@ There are several properties which allow us to style lines.
 
  I could describe these in detail, but it will probably be made clearer by just looking at the examples below.
 
-#### A lineWidth example
+#### <span>A lineWidth example</span>
 
 ![A canvas with vertical lines of varied thickness, thinner at left and thicker at right.](/assets/public/e/ef/Canvas_linewidth.png)
 
@@ -205,7 +206,7 @@ Note also that only start and final endpoints of a path are affected: if a path 
 
 While slightly painful when initially working with scalable 2D graphics, paying attention to the pixel grid and the position of paths ensures that your drawings will look correct regardless of scaling or any other transformations involved. A 1.0-width vertical line drawn at the correct position will become a crisp 2-pixel line when scaled up by 2, and will appear at the correct position.
 
-#### A lineCap example
+#### <span>A lineCap example</span>
 
 ![Different line caps on vertical lines on a canvas](/assets/public/5/57/Canvas_linecap.png)
 
@@ -240,7 +241,7 @@ The line on the left uses the default `butt` option. You'll notice that it's dra
       }
     }
 
-#### A lineJoin example
+#### <span>A lineJoin example</span>
 
 ![Zigzag pattern of lines that are joined segments](/assets/public/1/16/Canvas_linejoin.png)
 
@@ -272,7 +273,7 @@ Again I've drawn three different paths, each with a different `lineJoin` propert
       }
     }
 
-#### A demo of the miterLimit property
+#### <span>A demo of the miterLimit property</span>
 
 ![Lines joined with the miterLimit property](/assets/public/c/cf/Canvas_miterlimit.png)
 
@@ -320,7 +321,7 @@ If you specify a `miterLimit` value below 4.2 in this demo, none of the visible 
       ctx.stroke();
     }
 
-## Gradients
+## <span>Gradients</span>
 
 Just like any normal drawing program, we can fill and stroke shapes using linear and radial gradients. We create a `canvasGradient` object by using one of the following methods. We use this object to assign it to the `fillStyle` or `strokeStyle` properties.
 
@@ -345,7 +346,7 @@ You can add as many color stops to a gradient as you need. Below is a very simpl
     lineargradient.addColorStop(0,'white');
     lineargradient.addColorStop(1,'black');
 
-#### A createLinearGradient example
+#### <span>A createLinearGradient example</span>
 
 ![Canvas with two linear gradients](/assets/public/f/f5/Canvas_lineargradient.png)
 
@@ -379,7 +380,7 @@ As you can see here, both the `strokeStyle` and `fillStyle` properties can accep
 
     }
 
-#### A createRadialGradient example
+#### <span>A createRadialGradient example</span>
 
 ![Canvas with four different radial gradients](/assets/public/6/64/Canvas_radialgradient.png)
 
@@ -424,7 +425,7 @@ The last color stop in each of the four gradients uses a fully transparent color
       ctx.fillRect(0,0,150,150);
     }
 
-## Patterns
+## <span>Patterns</span>
 
 In one of the examples on the previous page, I used a series of loops to create a pattern of images. There is, however, a much simpler method: the `createPattern` method.
 
@@ -444,7 +445,7 @@ This method takes two arguments. Image is either a reference to an `Image` objec
 
 **Note**: Firefox currently only supports the `repeat` property. If you assign anything else, you won't see any changes.
 
-#### A createPattern example
+#### <span>A createPattern example</span>
 
 ![Wallpaper image used on a canvas](/assets/public/5/53/Canvas_createpattern.png)
 
@@ -466,14 +467,14 @@ In this last example, I created a pattern which I assigned to the `fillStyle` pr
       }
     }
 
-## Shadows
+## <span>Shadows</span>
 
 Using shadows involves just four properties:
 
 `shadowOffsetX = float`
-`shadowOffsetY = ``float`
-`shadowBlur = ``float`
-`shadowColor = ``color`
+`shadowOffsetY = float`
+`shadowBlur = float`
+`shadowColor = color`
 
 `shadowOffsetX` and `shadowOffsetY` indicate how far the shadow should extend from the object in the X and Y directions; these values aren't affected by the current transformation matrix. Use negative values to cause the shadow to extend up or to the left, and positive values to cause the shadow to extend down or to the right. These are both 0 by default.
 
@@ -483,7 +484,7 @@ Using shadows involves just four properties:
 
 **Note**: Starting in Gecko 7.0 (Firefox 7.0 / Thunderbird 7.0 / SeaMonkey 2.4), shadows are only drawn for `source-over` [compositing operations](/w/index.php?title=compositing_operations&action=edit&redlink=1). This is per proposed changes to the specification.
 
-### A shadowed text example
+### <span>A shadowed text example</span>
 
 This example draws a text string with a shadowing effect.
 
@@ -503,10 +504,4 @@ This example draws a text string with a shadowing effect.
     }
 
 [\<\<Previous ||](/tutorials/canvas/Canvas_tutorial/Using_images)[Next\>\>](/tutorials/canvas/Canvas_tutorial/Transformations) }}
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en/Canvas_tutorial:Applying_styles_and_colors)
 

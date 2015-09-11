@@ -1,37 +1,72 @@
 ---
 title: levelchange
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Fired when the battery level is updated.'
 tags:
   - Events
   - API
   - Battery
   - Status
   - Mobile
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Fired when the battery level is updated.'
 uri: 'apis/battery status/BatteryManager/levelchange'
 
 ---
-# levelchange
-
-## Summary
+## <span>Summary</span>
 
 Fired when the battery level is updated.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:
-Cancelable
-:   No
-Default action
-:
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 

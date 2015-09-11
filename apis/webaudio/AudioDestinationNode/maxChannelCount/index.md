@@ -1,48 +1,52 @@
 ---
 title: maxChannelCount
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioDestinationNode
+    href: /apis/webaudio/AudioDestinationNode
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/webaudio/AudioDestinationNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The maximum number of channels that the physical hardware is capable of supporting. The AudioNode channelCount property can be set between 0 and this value, inclusive. A value of 0 indicates that the channel count may not be changed. Default is 2.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The maximum number of channels that the physical hardware is capable of supporting. The AudioNode channelCount property can be set between 0 and this value, inclusive. A value of 0 indicates that the channel count may not be changed. Default is 2.'
 uri: apis/webaudio/AudioDestinationNode/maxChannelCount
 
 ---
-# maxChannelCount
-
-## Summary
+## <span>Summary</span>
 
 The maximum number of channels that the physical hardware is capable of supporting. The AudioNode channelCount property can be set between 0 and this value, inclusive. A value of 0 indicates that the channel count may not be changed. Default is 2.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioDestinationNode](/apis/webaudio/AudioDestinationNode)</span></span>
+Property of [apis/webaudio/AudioDestinationNode](/apis/webaudio/AudioDestinationNode)[apis/webaudio/AudioDestinationNode](/apis/webaudio/AudioDestinationNode)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioDestinationNode.maxChannelCount;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var myDestination = audioCtx.destination;
 mcc = myDestination.maxChannelCount;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

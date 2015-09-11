@@ -1,10 +1,12 @@
 ---
-title: values
-tags:
-  - JavaScript
+title: JavaScript Values
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals$)'
 readiness: 'Not Ready'
 summary: 'This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.'
-uri: concepts/programming/javascript/values
+tags:
+  - JavaScript
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -24,15 +26,14 @@ todo_broken_links:
     - 'concepts/programming/javascript/values/js/guide/About objects'
     - 'concepts/programming/javascript/values/js/guide/About predefined core objects'
     - 'concepts/programming/javascript/values/js/guide/About predefined Core Objects'
+uri: concepts/programming/javascript/values
 
 ---
-# JavaScript Values
-
-## Summary
+## <span>Summary</span>
 
 This chapter discusses values that JavaScript recognizes and describes the fundamental building blocks of JavaScript expressions: variables, constants, and literals.
 
-## Values
+## <span>Values</span>
 
 JavaScript recognizes the following **primitive** types of values:
 
@@ -46,17 +47,17 @@ This relatively small set of types of values, or *data types*, enables you to pe
 
 [Objects](/w/index.php?title=concepts/programming/javascript/values/js/objects/Object&action=edit&redlink=1) and [functions](/w/index.php?title=concepts/programming/javascript/values/js/objects/Function&action=edit&redlink=1) are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
 
-### Data type conversion
+### <span>Data type conversion</span>
 
 JavaScript is a dynamically typed language. That means you do not have to specify the data type of a variable when you declare it, and data types are converted automatically as needed during script execution. So, for example, you could define a variable as follows:
 
-``` {.js}
+``` js
 var answer = 42;
 ```
 
 And later, you could assign the same variable a string value, for example:
 
-``` {.js}
+``` js
 answer = "Thanks for all the fish...";
 ```
 
@@ -64,40 +65,40 @@ Because JavaScript is dynamically typed, this assignment does not cause an error
 
 In expressions involving numeric and string values with the + operator, JavaScript converts numeric values to strings. For example, consider the following expressions:
 
-``` {.js}
+``` js
 "The answer is " + 42; //is "The answer is 42"
 42 + " is the answer"; //is "42 is the answer"
 ```
 
 In statements involving other operators, JavaScript does not convert numeric values to strings. For example:
 
-``` {.js}
+``` js
 "37" - 7; //is 30
 "37" + 7; //is "377"
 ```
 
-### Converting strings to numbers
+### <span>Converting strings to numbers</span>
 
 In the case that a value representing a number is in memory as a string, there are methods for conversion.
 
-#### parseInt() and parseFloat()
+#### <span>`parseInt()` and `parseFloat()`</span>
 
 See: `parseInt()` and `parseFloat()` pages.
 
 `parseInt` will only return whole numbers, so its use is diminished for decimals. Additionally, a best practice for `parseInt` is to always include the radix parameter. That's because of strings with leading zeroes (like `parseInt('016')`) which may, by some interpreters, be treated as octal numbers by default.
 
-#### Plus operator
+#### <span>Plus operator</span>
 
 An alternative method of retrieving a number from a string is with the `+` operator.
 
-``` {.js}
+``` js
 "1.1" + "1.1"; //is "1.11.1"
 (+"1.1") + (+"1.1"); //is 2.2 -- Note: the parentheses are added for clarity, not required.
 ```
 
 The pitfall here is when trying to convert a string `'1 some'` to a number using plus operator result in a `NaN` while `parseInt` is working correctly.
 
-## Variables
+## <span>Variables</span>
 
 You use variables as symbolic names for values in your application. The names of variables, called *identifiers*, conform to certain rules.
 
@@ -107,20 +108,20 @@ Starting with JavaScript 1.5, you can use ISO 8859-1 or Unicode letters such as 
 
 Some examples of legal names are `Number_hits`, `temp99`, and `_name`.
 
-### Declaring variables
+### <span>Declaring variables</span>
 
 You can declare a variable in two ways:
 
 -   With the keyword [var](/w/index.php?title=concepts/programming/javascript/values/js/statements/var&action=edit&redlink=1). For example, `var x = 42`. This syntax can be used to declare both [local and global](#Variable_Scope) variables.
 -   By simply assigning it a value. For example, `x = 42`. This always declares a [global variable](#Global_Variables) and generates a strict JavaScript warning. You shouldn't use this variant.
 
-### Evaluating variables
+### <span>Evaluating variables</span>
 
 A variable declared using the `var` statement with no initial value specified has the value `undefined`.
 
 An attempt to access an undeclared variable will result in a `ReferenceError` exception being thrown:
 
-``` {.js}
+``` js
 var a;
 "The value of a is " + a; //is "The value of a is undefined"
 "The value of b is " + b; //ReferenceError: b is not defined
@@ -128,7 +129,7 @@ var a;
 
 You can use `undefined` to determine whether a variable has a value. In the following code, the variable `input` is not assigned a value, and the `if` statement evaluates to `true`.
 
-``` {.js}
+``` js
 var input;
 if(input === undefined){
   doThis();
@@ -141,32 +142,32 @@ if(input === undefined){
 
 The `undefined` value behaves as `false` when used in a boolean context. For example, the following code executes the function `myFunction` because the `myArray` element is not defined:
 
-``` {.js}
+``` js
 var myArray = new Array();
 if (!myArray[0]) myFunction();
 ```
 
 The `undefined` value converts to `NaN` when used in numeric context.
 
-``` {.js}
+``` js
 var a;
 a + 2; //is NaN
 ```
 
 When you evaluate a null variable, the null value behaves as 0 in numeric contexts and as false in boolean contexts. For example:
 
-``` {.js}
+``` js
 var n = null;
 n * 32; //is 0
 ```
 
-### Variable scope
+### <span>Variable scope</span>
 
 When you declare a variable outside of any function, it is called a *global* variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a *local* variable, because it is available only within that function.
 
 JavaScript does not have [block statement](/w/index.php?title=concepts/programming/javascript/values/js/guide/Statements&action=edit&redlink=1) scope; rather, it will be local to the code that the block resides within. For example the following code will log `5`, because the scope of `x` is the function (or global context) within which `x` is declared, not the block, which in this case is an `if` statement.
 
-``` {.js}
+``` js
 if (true) {
   var x = 5;
 }
@@ -175,7 +176,7 @@ x; //is 5
 
 Another unusual thing about variables in JavaScript is that you can refer to a variable declared later, without getting an exception. This concept is known as hoisting; variables in JavaScript are in a sense "hoisted" or lifted to the top of their containing function (a/k/a the current lexical scope). However, variables that aren't assigned yet will have a value of `undefined`.
 
-``` {.js}
+``` js
 /**
  * Example 1
  */
@@ -197,7 +198,7 @@ myvar; //is "my value"
 
 Example 2, above, will be interpreted similarly to:
 
-``` {.js}
+``` js
 var myvar = "my value";
 
 (function() {
@@ -209,13 +210,13 @@ var myvar = "my value";
 
 Because of hoisting, all `var` statements in a function should be placed as near to the top of the function as possible. This best practice increases the clarity of the code.
 
-### Global variables
+### <span>Global variables</span>
 
 <span class="comment">Need links to pages discussing scope chains and the global object</span> Global variables are in fact properties of the *global object*. In web pages the global object is `window`, so you can set and access global variables using the `window.variable` syntax.
 
 Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called `phoneNumber` is declared in a `FRAMESET` document, you can refer to this variable from a child frame as `parent.phoneNumber`.
 
-## Literals
+## <span>Literals</span>
 
 You use literals to represent values in JavaScript. These are fixed values, not variables, that you *literally* provide in your script. This section describes the following types of literals:
 
@@ -226,13 +227,13 @@ You use literals to represent values in JavaScript. These are fixed values, not 
 -   [Object literals](#Object_literals)
 -   [String literals](#String_literals)
 
-### Array literals
+### <span>Array literals</span>
 
 An array literal is a list of zero or more expressions, each of which represents an array element, enclosed in square brackets ([]). When you create an array using an array literal, it is initialized with the specified values as its elements, and its length is set to the number of arguments specified.
 
 The following example creates the `coffees` array with three elements and a length of three:
 
-``` {.js}
+``` js
 var coffees = ["French Roast", "Colombian", "Kona"];
 ```
 
@@ -242,11 +243,11 @@ If an array is created using a literal in a top-level script, JavaScript interpr
 
 Array literals are also `Array` objects. See [Array Object](/w/index.php?title=concepts/programming/javascript/values/js/guide/About_predefined_core_objects&action=edit&redlink=1) for details on `Array` objects.
 
-#### Extra commas in array literals
+#### <span>Extra commas in array literals</span>
 
 You do not have to specify all elements in an array literal. If you put two commas in a row, the array is created with `undefined` for the unspecified elements. The following example creates the `fish` array:
 
-``` {.js}
+``` js
 var fish = ["Lion", , "Angel"];
 ```
 
@@ -254,31 +255,31 @@ This array has two elements with values and one empty element (`fish[0]` is "Lio
 
 If you include a trailing comma at the end of the list of elements, the comma is ignored. In the following example, the length of the array is three. There is no `myList[3]`. All other commas in the list indicate a new element. (**Note** trailing commas can create errors in older browser versions and it is a best practice to remove them)
 
-``` {.js}
+``` js
 var myList = ['home', , 'school', ]; //same as ['home', undefined, 'school'] -- Avoid trailing commas.
 ```
 
 In the following example, the length of the array is four, and `myList[0]` and `myList[2]` are missing.
 
-``` {.js}
+``` js
 var myList = [ , 'home', , 'school']; //same as [undefined, 'home', undefined, 'school']
 ```
 
 In the following example, the length of the array is four, and `myList[1]` and `myList[3]` are missing. Only the last comma is ignored.
 
-``` {.js}
+``` js
 var myList = ['home', , 'school', , ]; //same as ['home', undefined, 'school', undefined]
 ```
 
 Understanding the behavior of extra commas is important to understanding JavaScript as a language; however, when writing your own code: explicitly declaring the missing elements as `undefined` will increase your code's clarity and maintainability.
 
-### Boolean literals
+### <span>Boolean literals</span>
 
 The Boolean type has two literal values: `true` and `false`.
 
 Do not confuse the primitive Boolean values `true` and `false` with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. See [Boolean Object](/w/index.php?title=concepts/programming/javascript/values/js/guide/About_predefined_Core_Objects&action=edit&redlink=1) for more information.
 
-### Integers
+### <span>Integers</span>
 
 Integers can be expressed in decimal (base 10), hexadecimal (base 16), and octal (base 8).
 
@@ -290,13 +291,13 @@ Octal integer literals are deprecated and have been removed from the ECMA-262, E
 
 Some examples of integer literals are:
 
-``` {.js}
+``` js
 var a = 0, b = 117, c = -345; //decimal, base 10
 var d = 015, e = 0001, f = -077 //octal, base 8 -- deprecated!
 var g = 0x1123, h = 0x00111, i = -0xF1A7 //hexadecimal, "hex" or base 16
 ```
 
-### Floating-point literals
+### <span>Floating-point literals</span>
 
 A floating-point literal can have the following parts:
 
@@ -315,20 +316,20 @@ More succinctly, the syntax is:
 
 For example:
 
-``` {.js}
+``` js
 var a = 3.14,
     b = 2345.789,
     c = .3333333333333333333,
     d = -1.23e2;
 ```
 
-### Object literals
+### <span>Object literals</span>
 
 An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}). You should not use an object literal at the beginning of a statement. This will lead to an error or not behave as you expect, because the { will be interpreted as the beginning of a block.
 
 The following is an example of an object literal. The first element of the `car` object defines a property, `myCar`; the second element, the `getCar` property, invokes a function `(CarTypes("Honda"));` the third element, the `special` property, uses an existing variable (`Sales`).
 
-``` {.js}
+``` js
 var Sales = "Toyota";
 
 function CarTypes(name) {
@@ -348,7 +349,7 @@ console.log(car.special); // Toyota
 
 Additionally, you can use a numeric or string literal for the name of a property or nest an object inside another. The following example uses these options.
 
-``` {.js}
+``` js
 var car = { manyCars: {a: "Saab", "b": "Jeep"}, 7: "Mazda" };
 
 console.log(car.manyCars.b); // Jeep
@@ -357,7 +358,7 @@ console.log(car[7]); // Mazda
 
 Please note:
 
-``` {.js}
+``` js
 var foo = {a: "alpha", 2: "two"};
 foo.a; //is "alpha"
 foo[2]; //is "two"
@@ -367,7 +368,7 @@ foo["a"]); //is "alpha"
 foo["2"]; //is two
 ```
 
-### String literals
+### <span>String literals</span>
 
 A string literal is zero or more characters enclosed in double (`"`) or single (`'`) quotation marks. A string must be delimited by quotation marks of the same type; that is, either both single quotation marks or both double quotation marks. The following are examples of string literals:
 
@@ -379,17 +380,17 @@ A string literal is zero or more characters enclosed in double (`"`) or single (
 
 You can call any of the methods of the String object on a string literal value—JavaScript automatically converts the string literal to a temporary String object, calls the method, then discards the temporary String object. You can also use the `String.length` property with a string literal:
 
-``` {.js}
+``` js
 ("John's cat").length
 ```
 
 You should use string literals unless you specifically need to use a String object. See [String Object](/w/index.php?title=concepts/programming/javascript/values/js/guide/About_predefined_Core_Objects&action=edit&redlink=1) for details on `String` objects.
 
-#### Using special characters in strings
+#### <span>Using special characters in strings</span>
 
 In addition to ordinary characters, you can also include special characters in strings, as shown in the following example.
 
-``` {.js}
+``` js
 "one line \n another line";
 ```
 
@@ -537,13 +538,13 @@ The Unicode character specified by the four hexadecimal digits *XXXX*. For examp
 \</tbody\>
 
 </table>
-#### Escaping characters
+#### <span>Escaping characters</span>
 
 For characters not listed in Table 2.1, a preceding backslash is ignored, but this usage is deprecated and should be avoided.
 
 You can insert a quotation mark inside a string by preceding it with a backslash. This is known as *escaping* the quotation mark. For example:
 
-``` {.js}
+``` js
 var quote = "He read \"The Cremation of Sam McGee\" by R.W. Service.";
 document.write(quote);
 ```
@@ -554,13 +555,13 @@ The result of this would be:
 
 To include a literal backslash inside a string, you must escape the backslash character. For example, to assign the file path `c:\temp` to a string, use the following:
 
-``` {.js}
+``` js
 var home = "c:\\temp";
 ```
 
 You can also escape line breaks by preceding them with backslash. The backslash and line break are both removed from the value of the string.
 
-``` {.js}
+``` js
 var str = "this string \
 is broken \
 across multiple\
@@ -570,7 +571,7 @@ str; //is "this string is broken across multiplelines."
 
 Care should be used with multi-line strings because a trailing space will cause them to fail. For instance:
 
-``` {.js}
+``` js
 /**
 Even though it appears no different than the previous example, the following
 will throw an error because there is a space character after the \ after "mutiple"
@@ -583,7 +584,7 @@ lines.";
 
 Although JavaScript does not have "heredoc" syntax, you can get close by adding a linebreak escape and an escaped linebreak at the end of each line:
 
-``` {.js}
+``` js
 var poem =
 "Roses are red,\n\
 Violets are blue.\n\
@@ -591,7 +592,7 @@ Comments are green,\n\
 Numeric literals are also red."
 ```
 
-## Unicode
+## <span>Unicode</span>
 
 Unicode is a universal character-coding standard for the interchange and display of principal written languages. It covers the languages of the Americas, Europe, Middle East, Africa, India, Asia, and Pacifica, as well as historic scripts and technical symbols. Unicode allows for the exchange, processing, and display of multilingual texts, as well as the use of common technical and mathematical symbols. It hopes to resolve internationalization problems of multilingual computing, such as different national character standards. Not all modern or archaic scripts, however, are currently supported.
 
@@ -599,7 +600,7 @@ The Unicode character set can be used for all known encoding. Unicode is modeled
 
 **Unicode is not supported in versions of JavaScript prior to 1.3.**
 
-### Unicode compatibility with ASCII and ISO
+### <span>Unicode compatibility with ASCII and ISO</span>
 
 Unicode is fully compatible with the International Standard ISO/IEC 10646-1; 1993, which is a subset of ISO 10646.
 
@@ -609,13 +610,13 @@ The UTF-8 encoding of Unicode is compatible with ASCII characters and is support
 
 JavaScript and Navigator support for UTF-8/Unicode means you can use non-Latin, international, and localized characters, plus special technical symbols in JavaScript programs. Unicode provides a standard way to encode multilingual text. Since the UTF-8 encoding of Unicode is compatible with ASCII, programs can use ASCII characters. You can use non-ASCII Unicode characters in the comments, string literals, identifiers, and regular expressions of JavaScript.
 
-### Unicode escape sequences
+### <span>Unicode escape sequences</span>
 
 You can use the Unicode escape sequence in string literals, regular expressions, and identifiers. The escape sequence consists of six ASCII characters: \\u and a four-digit hexadecimal number. For example, \\u00A9 represents the copyright symbol. Every Unicode escape sequence in JavaScript is interpreted as one character.
 
 The following code returns the copyright symbol and the string "Netscape Communications".
 
-``` {.js}
+``` js
 var x = "\u00A9 Netscape Communications";
 ```
 
@@ -819,11 +820,11 @@ Backslash
 </table>
 The JavaScript use of the Unicode escape sequence is different from Java. In JavaScript, the escape sequence is never interpreted as a special character first. For example, a line terminator escape sequence inside a string does not terminate the string before it is interpreted by the function. JavaScript ignores any escape sequence if it is used in comments. In Java, if an escape sequence is used in a single comment line, it is interpreted as an Unicode character. For a string literal, the Java compiler interprets the escape sequences first. For example, if a line terminator escape character (e.g., \\u000A) is used in Java, it terminates the string literal. In Java, this leads to an error, because line terminators are not allowed in string literals. You must use \\n for a line feed in a string literal. In JavaScript, the escape sequence works the same way as \\n.
 
-### Unicode characters in JavaScript files
+### <span>Unicode characters in JavaScript files</span>
 
 Earlier versions of Gecko assumed the Latin-1 character encoding for JavaScript files loaded from XUL. Starting with Gecko 1.8, the character encoding is inferred from the XUL file's encoding. Please see [https:/developer.mozilla.org/en-US/docs/International\_characters\_in\_XUL\_JavaScript International characters in XUL JavaScript] for more information.
 
-### Displaying characters with Unicode
+### <span>Displaying characters with Unicode</span>
 
 You can use Unicode to display the characters in different languages or technical symbols. For characters to be displayed properly, a client such as Mozilla Firefox or Netscape needs to support Unicode. Moreover, an appropriate Unicode font must be available to the client, and the client platform must support Unicode. Often, Unicode fonts do not display all the Unicode characters. Some platforms, such as Windows 95, provide partial support for Unicode.
 
@@ -831,13 +832,6 @@ To receive non-ASCII character input, the client needs to send the input as Unic
 
 For more information on Unicode, see the [Unicode Home Page](http://www.unicode.org/) and The Unicode Standard, Version 2.0, published by Addison-Wesley, 1996.
 
-## Resources
+## <span>Resources</span>
 
 -   [Text Escaping and Unescaping in JavaScript](http://0xcc.net/jsescape/) – an utility to convert characters in JavaScript unicode values
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Values,_variables,_and_literals$)
-

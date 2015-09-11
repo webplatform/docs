@@ -1,41 +1,47 @@
 ---
 title: If-Match
+overview_table:
+  Direction: Request
+  Features: ''
+summary: 'Makes the request conditional on the server''s resource being a certain ETag (revision and representation).'
 tags:
   - HTTP
   - Headers
-summary: 'Makes the request conditional on the server''s resource being a certain ETag (revision and representation).'
 uri: http/headers/If-Match
 
 ---
-# If-Match
-
-## Summary
+## <span>Summary</span>
 
 Makes the request conditional on the server's resource being a certain ETag (revision and representation).
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Request
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     If-Match = "*" / 1#entity-tag
 
-## Examples
+## <span>Examples</span>
 
-    If-Match: "xyzzy"
+``` html
+If-Match: "xyzzy"
+```
 
-    If-Match: "xyzzy", "r2d2xxxx", "c3piozzzz"
+``` html
+If-Match: "xyzzy", "r2d2xxxx", "c3piozzzz"
+```
 
-    If-Match: *
+``` html
+If-Match: *
+```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [RFC7232: HTTP/1.1 Conditional Requests](http://tools.ietf.org/html/rfc7232#section-3.1)
 :
 

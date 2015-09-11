@@ -1,17 +1,15 @@
 ---
-title: concepts
-tags:
-  - Basic
-  - Pages
+title: CSS concepts
 notes:
   - "\nTODO: Need to allow authors to link to existing CSS concepts\n\n"
 summary: 'List of all articles within the CSS concepts topic.'
+tags:
+  - Basic
+  - Pages
 uri: css/concepts
 
 ---
-# CSS concepts
-
-## Summary
+## <span>Summary</span>
 
 List of all articles within the CSS concepts topic.
 

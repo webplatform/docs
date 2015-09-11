@@ -1,38 +1,41 @@
 ---
 title: addStream
+notes:
+  - 'Needs spec reference'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+summary: 'Adds a new stream to the RTCPeerConnection.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebRTC
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference'
-summary: 'Adds a new stream to the RTCPeerConnection.'
 uri: apis/webrtc/RTCPeerConnection/addStream
 
 ---
-# addStream
-
-## Summary
+## <span>Summary</span>
 
 Adds a new stream to the RTCPeerConnection.
 
-*Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)*
+Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  element.addStream();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 /*
  * This examples assumes that the browser supports WebRTC API and
  * attaches to the peerconnection the stream that gets from the
@@ -59,9 +62,8 @@ error = function(err){
 navigator.getUserMedia({audio: true, video: true}, success, error);
 ```
 
-## Usage
+## <span>Usage</span>
 
      If the RTCPeerConnection object's readyState is closed, throws an INVALID_STATE exception.
 
 Otherwise, destroys the ICE agent, abruptly ending any active ICE processing, any active streaming, and releasing any relevant resources (e.g. TURN permissions); then sets the [readyState](/apis/webrtc/RTCPeerConnection/readyState) to `closed`.
-

@@ -1,44 +1,51 @@
 ---
 title: clone
+notes:
+  - 'TODO: We either need a more rigorous definition here or (probably better) a sets of steps on a per-subclass basis.'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/web_animations/AnimationEffect
+    href: /apis/web_animations/AnimationEffect
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/web_animations/AnimationEffect
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Creates and returns a new object of the same type as this object''s most-derived interface such that it will produce the same output as this object.'
 tags:
   - API
   - Object
   - Methods
   - Web
   - Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'TODO: We either need a more rigorous definition here or (probably better) a sets of steps on a per-subclass basis.'
-summary: 'Creates and returns a new object of the same type as this object''s most-derived interface such that it will produce the same output as this object.'
 uri: 'apis/web animations/AnimationEffect/clone'
 
 ---
-# clone
-
-## Summary
+## <span>Summary</span>
 
 Creates and returns a new object of the same type as this object's most-derived interface such that it will produce the same output as this object.
 
-*Method of [apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)*
+Method of [apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = .clone();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -59,8 +66,6 @@ Returns an object of type .
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -88,7 +93,4 @@ Returns an object of type .
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

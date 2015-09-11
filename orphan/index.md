@@ -1,17 +1,15 @@
 ---
-title: rphan
+title: orphan
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: orphan
 
 ---
-# orphan
-
-## orphan
+## <span>orphan</span>
 
 A word or short line at the beginning of a paragraph that is left dangling at the bottom of a column or page, separated from the rest of the paragraph by the subsequent break. The Chicago Manual of Style offers these definitions:
 

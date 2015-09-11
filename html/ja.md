@@ -1,6 +1,6 @@
 ---
-title: ja
-uri: html/ja
+title: HTML
+lang: ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -62,46 +62,46 @@ todo_broken_links:
     - html/zh-hans
     - html/zh-hant
     - html/zh-tw
+translations:
+  es:
+    text: español
+    href: /html/es
+uri: html/ja
 
 ---
-# HTML
-
-## Summary
+## <span>Summary</span>
 
 Hypertext Markup Language (HTML)はwebページの作成のために開発されたマークアップ言語です。[World Wide Web Consortium（W3C）](http://www.w3.org)が[HTMLの標準](http://www.w3.org/standards/techs/html)を策定しています。
 
-**言語:**
-:   **[English](/html)**  • <span lang="es">[español](/html/es)</span> • <span lang="ja">**日本語**</span>
+## <span>HTMLドキュメント一覧</span>
 
-## HTMLドキュメント一覧
-
-### HTML学習教材
+### <span>[HTML学習教材](/html/tutorials)</span>
 
 チュートリアルと概要を読み、HTMLの基礎から学習しましょう。
 
-### 要�
+### <span>[要素](/html/elements/ja)</span>
 
 HTMLで利用可能な要素(element)についてのリファレンスガイドです。
 
-### 属性
+### <span>[属性](/html/attributes)</span>
 
 HTMLで利用可能な属性(attribute)についてのリファレンスガイドです。
 
-### API
+### <span>[API](/html/apis)</span>
 
 HTMLに関連するAPIについてのリファレンスガイドです。
 
-### データ型
+### <span>[データ型](/html/data_types)</span>
 
 HTMLのデータ型についてのリファレンスガイドです。
 
-### エンティティ
+### <span>[エンティティ](/html/entities)</span>
 
 HTMLエンティティについてのリファレンスです。
 
 注: もしあなたがWeb開発について全くの初心者であるなら、先に「[Webを開発し始める皆さんへ](/beginners)」を読むことをお勧めします。
 
-## 背景
+## <span>背景</span>
 
 HTMLは私たちがWorld Wide Web（WWW）にコンテンツを構築するための言語であり、[Open Web Platform](http://www.w3.org/wiki/Open_Web_Platform)の主要な要素の一つでもあります。
 
@@ -109,36 +109,36 @@ HTMLは私たちがWorld Wide Web（WWW）にコンテンツを構築するた�
 -   現在の安定バージョン: 1999年12月、[HTML4.01(勧告)](http://www.w3.org/TR/html4)が公開
 -   これからの策定: W3Cは最も安定した草案として[HTML5(勧告候補)](http://www.w3.org/TR/html5)を発表し、WHATWGでは最新の実験的なアイディアと特徴を盛り込んだ[HTML living standard](http://developers.whatwg.org/)を発表しています。
 
-## HTML技術に貢献するには
+## <span>HTML技術に貢献するには</span>
 
 HTMLはこれまでCERNやIETF、W3Cなどの複数の組織が主導して開発してきました。開発の場として主に[HTML Working Group Mailing Lists](http://www.w3.org/html/wg/lists/)が用いられています。新しい機能の提案やフィードバックをしたいのなら、手始めにここが良いでしょう。ニュースやより一般的な情報については[W3C HTMLのホームページ](http://www.w3.org/html/)で調べてください。
 
 W3Cは現在[Media Accessibility Checklist](http://www.w3.org/wiki/HTML/MediaAccessibilityChecklist)でレビューコメントを求めています。
 
-## 目次
+## <span>目次</span>
 
 下記の要素・属性リストはW3Cの勧告あるいは勧告候補・勧告案に含まれているもののみ記載しています。[Special:PrefixIndex/html/](/Special:PrefixIndex/html/)や[HTML category page](/Category:HTML)を使用することでこのページの下部にある要素と属性や、当wiki内のHTMLに関連するページを検索することができます。
 
-### 要�
+### <span>要素</span>
 
 -   [a](/html/elements/a)
 -   [a](/html/elements/a/ja)
 -   [article](/html/elements/article)
 -   [article](/html/elements/article/ja)
--   [audio](/html/elements/audio)
 -   [audio](/html/elements/audio/ja)
--   [b](/html/elements/b/ja)
+-   [audio](/html/elements/audio)
 -   [b](/html/elements/b)
+-   [b](/html/elements/b/ja)
 -   [base](/html/elements/base/ja)
 -   [base](/html/elements/base)
 -   [blockquote](/html/elements/blockquote)
 -   [blockquote](/html/elements/blockquote/ja)
 -   [body](/html/elements/body/ja)
 -   [body](/html/elements/body)
--   [br](/html/elements/br)
 -   [br](/html/elements/br/ja)
--   [button](/html/elements/button)
+-   [br](/html/elements/br)
 -   [button](/html/elements/button/ja)
+-   [button](/html/elements/button)
 -   [caption](/html/elements/caption)
 -   [colgroup](/html/elements/colgroup)
 -   [dd – description list data](/html/elements/dd)
@@ -149,6 +149,7 @@ W3Cは現在[Media Accessibility Checklist](http://www.w3.org/wiki/HTML/MediaAcc
 -   [fieldset](/html/elements/fieldset)
 -   [figcaption](/html/elements/figcaption)
 -   [figure](/html/elements/figure)
+-   [file](/html/elements/input/type/file)
 -   [footer](/html/elements/footer)
 -   [form](/html/elements/form)
 -   [hr](/html/elements/hr)
@@ -156,8 +157,8 @@ W3Cは現在[Media Accessibility Checklist](http://www.w3.org/wiki/HTML/MediaAcc
 -   [iframe](/html/elements/iframe)
 -   [img](/html/elements/img)
 -   [input](/html/elements/input)
--   [ins](/html/elements/ins)
 
+-   [ins](/html/elements/ins)
 -   [label](/html/elements/label)
 -   [link](/html/elements/link)
 -   [map](/html/elements/map)
@@ -194,7 +195,7 @@ W3Cは現在[Media Accessibility Checklist](http://www.w3.org/wiki/HTML/MediaAcc
 -   [video](/html/elements/video)
 -   [wbr](/html/elements/wbr)
 
-### 属性
+### <span>属性</span>
 
 -   [accept](/html/attributes/accept)
 -   [action](/html/attributes/action)

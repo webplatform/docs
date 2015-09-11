@@ -1,57 +1,62 @@
 ---
 title: SVGTransform
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: SVGElement
+    href: /svg/objects/SVGElement
+standardization_status: Unknown
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Not Ready'
-standardization_status: Unknown
-notes:
-  - 'Unreviewed MSDN import'
 uri: svg/objects/SVGTransform
 
 ---
-# SVGTransform
+Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
-
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGElement
+## <span>Inherited from SVGElement</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.4
 
-### Members
+### <span>Members</span>
 
 The **SVGTransform** object has these methods:
 
@@ -67,10 +72,3 @@ The **SVGTransform** object has these properties:
 -   [**angle**](/svg/properties/angle): Gets or sets a value that indicates an angle unit.
 -   [**matrix**](/svg/properties/matrix): Gets the matrix that represents this transformation.
 -   [**type**](/svg/properties/type_(SVGTransform)): Gets or sets the **transform** attribute type.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

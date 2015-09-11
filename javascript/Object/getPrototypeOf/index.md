@@ -1,35 +1,37 @@
 ---
 title: getPrototypeOf
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff877835(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the prototype of an object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the prototype of an object.'
 uri: javascript/Object/getPrototypeOf
 
 ---
-# getPrototypeOf
-
-## Summary
+## <span>Summary</span>
 
 Returns the prototype of an object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Object.getPrototypeOf( object )
 
 **object**
 :   Required. The object that references the prototype.
 
-## Return Value
+## <span>Return Value</span>
 
 The prototype of the object argument. The prototype is also an object.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **Object.getPrototypeOf** function.
 
-``` {.js}
+``` js
 // Create a constructor function.
  function Pasta(grain, width) {
      this.grain = grain;
@@ -61,7 +63,7 @@ The following example illustrates the use of the **Object.getPrototypeOf** funct
 
 The following example uses the **Object.getPrototypeOf** function to validate data types.
 
-``` {.js}
+``` js
 var reg = /a/;
  var result = (Object.getPrototypeOf(reg) === RegExp.prototype);
  document.write(result + " ");
@@ -73,20 +75,14 @@ var reg = /a/;
  // Output: true true
 ```
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the object argument is not an object, a TypeError exception is thrown.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [prototype Property (Object)](/javascript/Object/prototype)
 -   [isPrototypeOf Method (Object)](/javascript/Object/isPrototypeOf)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff877835(v=vs.94).aspx)
 

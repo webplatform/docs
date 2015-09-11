@@ -1,58 +1,75 @@
 ---
 title: animation-delay
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Defines a length of time to elapse before an animation starts, allowing an animation to begin execution some time after it is applied.'
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/animation-delay)'
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
   - 'http://gist.github.com/7011569'
   - 'http://gist.github.com/7012307'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0s`'
+  'Applies to': 'All elements, ::before and ::after pseudo-elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`animationDelay`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Defines a length of time to elapse before an animation starts, allowing an animation to begin execution some time after it is applied.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/animation-delay
 
 ---
-# animation-delay
-
-## Summary
+## <span>Summary</span>
 
 Defines a length of time to elapse before an animation starts, allowing an animation to begin execution some time after it is applied.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0s`
+
 Applies to
 :   All elements, ::before and ::after pseudo-elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `animationDelay`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `animation-delay: <time>`
 
-## Values
+## <span>Values</span>
 
 \<time\>
 :   Can be specified in seconds or milliseconds, e.g., **2s** or **150ms**. Can also be a comma-separated list of delays, e.g., **.25s, .5s, 1s**, where each delay is applied to the corresponding ordinal position value of the [animation-name](/css/properties/animation-name) property.
 
 *If the value is negative the animation will execute the moment it is applied, but will begin execution at the specified offset. That is, the animation appears to begin part-way through its cycle.*
 
-## Examples
+## <span>Examples</span>
 
 A delay of 5 seconds.
 
-``` {.css}
+``` css
 div.animationDelay {
     animation-delay: 5s;
 }
@@ -62,7 +79,7 @@ div.animationDelay {
 
 An example of a mobile-like interface in which concurrent *moveContent* and *insertBanner* animations introduce a colored banner header after a 4-second delay. A subsequent *scrollBanner* animation uses a similar delay to start 5 seconds after the page loads.
 
-``` {.css}
+``` css
 article {
     animation-name : moveContent;
     animation-duration : 1s;
@@ -107,22 +124,20 @@ header {
 
 [View live example](http://code.webplatform.org/gist/7012307)
 
-## Usage
+## <span>Usage</span>
 
      *If animation-delay specifies more delays than there are values in animation-name, the excess delays are ignored.
 
 -   If `animation-delay` specifies fewer delays than there are values in `animation-name`, the list of delays is repeated as many times as needed to map each animation to a delay.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Animations](http://www.w3.org/TR/css3-animations/#animation-delay-property)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)
@@ -134,12 +149,3 @@ Specification
 -   [animation-name](/css/properties/animation-name)
 -   [animation-play-state](/css/properties/animation-play-state)
 -   [animation-timing-function](/css/properties/animation-timing-function)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/animation-delay)
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

@@ -1,22 +1,20 @@
 ---
-title: custom ident
+title: <custom-ident>
+code_samples:
+  - 'http://gist.github.com/10605942'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The &lt;custom-ident&gt; CSS data type represents an identifier token created by the stylesheet author to reference content in a different part of the stylesheet.  It is used for counters and for animation.'
 tags:
   - Data
   - Type
   - CSS
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The <custom-ident> CSS data type represents an identifier token created by the stylesheet author to reference content in a different part of the stylesheet.  It is used for counters and for animation.'
-code_samples:
-  - 'http://gist.github.com/10605942'
 uri: 'css/data types/custom ident'
 
 ---
-# \<custom-ident\>
+## <span>Summary</span>
 
-## Summary
-
-The \<custom-ident\> CSS data type represents an identifier token created by the stylesheet author to reference content in a different part of the stylesheet. It is used for counters and for animation.
+The &lt;custom-ident&gt; CSS data type represents an identifier token created by the stylesheet author to reference content in a different part of the stylesheet. It is used for counters and for animation.
 
  Identifiers are case-sensitive. Valid custom identifier values:
 
@@ -28,11 +26,11 @@ The \<custom-ident\> CSS data type represents an identifier token created by the
 
 Identifiers are not quoted.
 
-## Examples
+## <span>Examples</span>
 
 The example uses three custom identifiers: `h1-counter`, `subSectionCounter`, and `colorChange`.
 
-``` {.css}
+``` css
 h1 {
     counter-increment: h1-counter;
     counter-reset: subSectionCounter;
@@ -62,12 +60,10 @@ h2::before {
 
 [View live example](http://code.webplatform.org/gist/10605942)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
-[http://www.w3.org/TR/css3-values/\#custom-idents](http://www.w3.org/TR/css3-values/#custom-idents)
+<http://www.w3.org/TR/css3-values/#custom-idents>
 :   W3C Candidate Recommendation
+
 [CSS 2.1](http://www.w3.org/TR/CSS21/syndata.html#counter)
 :   W3C Recommendation
-

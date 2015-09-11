@@ -3,16 +3,16 @@ title: python
 uri: 'server-side languages/python'
 
 ---
-## Summary
+## <span>Summary</span>
 
 [Python](http://python.org/) is a dynamic programming language which emphasizes code readability. It is widely used in a variety of areas, most notably scientific computing and system administration, though it has recently gained much wider usage in web development.
 
-### Similarity with Javascript
+### <span>Similarity with Javascript</span>
 
 -   Functional programming features
 -   Dynamic typing
 
-### Features
+### <span>Features</span>
 
 -   "Batteries-included" - numerous useful standard libraries included by default
 -   Object-Oriented
@@ -21,25 +21,25 @@ uri: 'server-side languages/python'
 -   Many system utility tools and years of traction as server-side scripting language (if you need to do more advanced server-side tasks in the future)
 -   Strong community
 
-## Resources
+## <span>Resources</span>
 
 -   [Official Python Documentation](http://python.org/doc/)
 -   [Python.org's Beginner Guide](http://wiki.python.org/moin/BeginnersGuide)
 
-## Support
+## <span>Support</span>
 
 Python also has a fairly vibrant community:
 
 -   [IRC Channel](http://www.python.org/community/irc/)
 -   [Mailing Lists](http://mail.python.org/mailman/listinfo)
 
-## Tutorials
+## <span>Tutorials</span>
 
 -   [Official Python Tutorial](http://docs.python.org/2/tutorial/)
 -   [Google's Python Class](https://code.google.com/edu/languages/google-python-class/)
 -   [HOWTO Use Python in the Web](http://docs.python.org/2/howto/webservers.html)
 
-## Frameworks
+## <span>Frameworks</span>
 
 Some of the more widely used Python web frameworks are:
 

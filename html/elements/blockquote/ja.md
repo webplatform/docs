@@ -1,35 +1,39 @@
 ---
-title: ja
+title: blockquote
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote)'
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+lang: ja
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLQuoteElement](/dom/HTMLQuoteElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'blockquote要素は拡張された引用を表します。'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information.'
-summary: 'blockquote要素は拡張された引用を表します。'
-uri: html/elements/blockquote/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - html/elements/footer/ja
     - html/elements/cite/ja
     - html/attributes/cite/ja
+uri: html/elements/blockquote/ja
 
 ---
-# blockquote
-
-## Summary
+## <span>Summary</span>
 
 blockquote要素は拡張された引用を表します。
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLQuoteElement](/dom/HTMLQuoteElement)
 
-### 導入
+### <span>導入</span>
 
 **blockquote**要素は別のソースから引用したコンテンツであることを示します。追加で[**footer**](/w/index.php?title=html/elements/footer/ja&action=edit&redlink=1)や[**cite**](/w/index.php?title=html/elements/cite/ja&action=edit&redlink=1)要素で引用元を記載したり、注釈や省略のような変更なども一緒に示すことがあります。
 
@@ -45,14 +49,14 @@ cite属性を記載する際は正しいURLを設定しなければいけませ�
 
 cite属性は要素の引用コンテンツの帰属を反映しなければいけません。
 
-## HTML属性
+## <span>HTML属性</span>
 
 -   `cite` = 有効なURL（前後にスペースがある場合、取り除かれて扱われます。）
     引用元のアドレスを指定します。
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!-- この例は引用をインデントさせて目立たせるためにblockquote要素を使用しています。: -->
 <p>彼は
 <blockquote cite="http://www.example.com">"やあ、皆さん!"</blockquote>と言いました。
@@ -60,7 +64,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 
 **blockquote**要素は別のソースから引用したコンテンツであることを示します。追加で**footer**や**cite**要素で引用元を記載したり、注釈や省略のような変更なども一緒に示すことがあります。例えば、英語では慣例的に省略を示す場合、角括弧を使用します。"フレッドはクラッカーを食べた。そして彼はリンゴと魚が好きだと言った。"という文章を考えましょう。これは以下のように引用されます。
 
-``` {.html}
+``` html
 <blockquote>
  <p>[フレッド]は[...]魚が好きだといった。</p>
 </blockquote>
@@ -68,12 +72,12 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 
 **blockquote**の中で、引用されたテキストと注釈とを明確に区別するために引用符が使われます。
 
-``` {.html}
+``` html
 <!-- 例えば、著者が文中で注釈を入れた場合です。 -->
 <figure>
  <blockquote>
  "かの怪物、習慣というものは、感覚を食い尽くし、
-  悪魔のように振舞うが、"などなど（ここはFirst Folioの文章ではありません）
+  悪魔のように振舞うが、"<abbr title="et cetera">などなど</abbr>（ここはFirst Folioの文章ではありません）
  "なんという堕落だろう！
   結婚のとき手に手をとって、
   高潔な愛をもって誓ったこのわしを無みし、
@@ -89,7 +93,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 
 引用の帰属は**blockquote**要素に記述しても良いですが、**cite**要素か**footer**要素に記述すべきです
 
-``` {.html}
+``` html
 <!-- 例えば、ここでは引用したテキストのあとのfooterに帰属を記載し、帰属と引用物の関係を明確にしています。 -->
 <blockquote>
  <p>我々は無神論者である、ということを私は強く主張する。 私の信ずる神は
@@ -99,7 +103,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
  </blockquote>
 ```
 
-``` {.html}
+``` html
 <!--  ここでは引用したテキストの最終行の<cite>要素に帰属を記述しています。著者のリンクも含まれていることに注意してください。 -->
 <blockquote>
  人々は、その産物から自分自身を認識する。
@@ -108,7 +112,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
  </blockquote>
 ```
 
-``` {.html}
+``` html
 <!-- ここでは引用文のあとのフッターで帰属と参照元のメタデータをMicrodata構文で記述しています。（※RDFA Liteでマークアップするのと同義です。） -->
 <blockquote>
   <p>... 彼女は”口説く”の代わりに"恋する"という言葉が使われている供述書には一切署名をしなかった。その違いは彼女にとって極めて重要な意味があった。それは彼女の元夫がいつも口説文句をささやいているのに、本心では恋をしたことなど一度もなかった、という離婚理由にある。</p>
@@ -118,10 +122,10 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
     <span itemprop="datePublished">1974年1月1日</span>
   </footer>
 </blockquote>
-<!-- 注: 引用元から引用してきた要素をマークアップする方法として正しい方法というものはありません。引用元について記述するためにblockquoteの中にフッターやcite要素が含まれる場合、例えばclass属性を使って仕組みを拡張し、メタデータと共に引用元の起源を注釈するという -->
+<!-- 注: 引用元から引用してきた要素をマークアップする方法として正しい方法というものはありません。引用元について記述するために'''blockquote'''の中にフッターやcite要素が含まれる場合、例えばclass属性を使って仕組みを拡張し、メタデータと共に引用元の起源を注釈するという -->
 ```
 
-``` {.html}
+``` html
 <!-- この例では、引用元をcite要素に記述し、class属性を使って注釈しています。 -->
 <blockquote>
   <p>私のお気に入りの本は<cite class="from-source">スウィム・トゥ・バーズ亭にて</cite>です。</p>
@@ -131,7 +135,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 
 以下の例は上記と異なる方法で帰属を記しています。
 
-``` {.html}
+``` html
 <!-- ここではfigure要素とキャプションをつなぐためにblockquote要素を使用しています。 -->
 <figure>
  <blockquote>
@@ -141,7 +145,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 </figure>
 ```
 
-``` {.html}
+``` html
 <!-- 次の例は引用文と一緒に引用元を記しています。-->
 <p>次の作品はふさわしく<cite>ソネット130</cite>と名付けられました。:</p>
 <blockquote cite="http://quotes.example.org/s/sonnet130.html">
@@ -150,7 +154,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
   ...
 ```
 
-``` {.html}
+``` html
 <!-- この例ではあるユーザがフォーラムの投稿に返信する際の例です。article要素は投稿ごとに使われ、スレッドをマークアップしています。 -->
 <article>
  <h1><a href="http://bacon.example.com/?blog=109431">Bacon on a crowbar</a></h1>
@@ -191,7 +195,7 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 </article>
 ```
 
-``` {.html}
+``` html
 <!-- この例ではp要素をblockquote要素に入れずにごく短い引用文を記述しています。 -->
 <p>彼は以下のように”レッスン”を始めた。</p>
 <blockquote>メリットを得られるように譲歩することはもちろん、
@@ -202,35 +206,26 @@ cite属性は要素の引用コンテンツの帰属を反映しなければい�
 <p>今回はこれらの点について議論していこう...
 ```
 
-## Notes
+## <span>Notes</span>
 
-### 備考
+### <span>備考</span>
 
 -   後のセクションで、会話の表し方の例が示されるかもしれませんが、**cite**と**blockquote**はそのような目的にはふさわしくありません。
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-blockquote-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-blockquote-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-BLOCKQUOTE)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (internal)
+### <span>Related pages (internal)</span>
 
 -   `q`
 -   `cite`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote)
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

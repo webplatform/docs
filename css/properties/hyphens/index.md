@@ -1,48 +1,65 @@
 ---
 title: hyphens
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/hyphens)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6948199'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`manual`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Last Call Working Draft'
 summary: 'Specifies whether or not words in a sentence can be split by the use of a manual or automatic hyphenation mechanism.'
-code_samples:
-  - 'http://gist.github.com/6948199'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/hyphens
 
 ---
-# hyphens
-
-## Summary
+## <span>Summary</span>
 
 Specifies whether or not words in a sentence can be split by the use of a manual or automatic hyphenation mechanism.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `manual`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `hyphens: auto`
 -   `hyphens: manual`
 -   `hyphens: none`
 
-## Values
+## <span>Values</span>
 
 none
 :   Indicates that all word breaking is suppressed, even when explicitly specified with soft hyphens.
@@ -53,11 +70,11 @@ manual
 auto
 :   Indicates that, in addition to suggested word breaking opportunities, word breaking opportunities are allowed where determined by a hyphenation resource (dictionary). Soft hyphens take priority over other hyphenation opportunities, but are still subject to the hyphenation controlled properties. By providing a language for the text (via the HTML `lang` attribute for example), a User Agent can determine the correct place to break a word.
 
-## Examples
+## <span>Examples</span>
 
 Sets the hyphens property different on each of the paragraph elements.
 
-``` {.css}
+``` css
 p:nth-child(1) {
   hyphens: none;
 }
@@ -73,42 +90,36 @@ p:nth-child(3) {
 
 [View live example](http://code.webplatform.org/gist/6948199)
 
-## Usage
+## <span>Usage</span>
 
      When hyphenation is not pre-set in a document, the default value for the hyphens property might not suit all cases. In cases where the language is properly set in the document, the hyphenation dictionaries provided in user agents can be able to break up words on the best possible place for each line.
 
 The overall effect is that sentences run along almost the complete width of the box, and therefor can be slightly less high as end result.
 
-## Notes
+## <span>Notes</span>
 
 Note that not all languages are supported by browsers which support the value `auto` for this property.
 
-### Syntax
+### <span>Syntax</span>
 
 `hyphens: none | manual | auto`
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#hyphens-property)
 :   W3C Last Call Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -119,8 +130,6 @@ Specification
 -   **hyphens**
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -134,25 +143,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -198,15 +193,6 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/hyphens)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

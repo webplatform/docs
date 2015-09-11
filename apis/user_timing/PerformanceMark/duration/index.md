@@ -1,41 +1,50 @@
 ---
 title: duration
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/user_timing/PerformanceMark
+    href: /apis/user_timing/PerformanceMark
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/user_timing/PerformanceMark
+standardization_status: 'W3C Recommendation'
+summary: 'Returns a DOMHighResTimeStamp value. For marks, the value is always 0 (zero).'
 tags:
   0: API
   1: Object
   2: Properties
   4: User
   5: Timing
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Returns a DOMHighResTimeStamp value. For marks, the value is always 0 (zero).'
 uri: 'apis/user timing/PerformanceMark/duration'
 
 ---
-# duration
-
-## Summary
+## <span>Summary</span>
 
 Returns a DOMHighResTimeStamp value. For marks, the value is always 0 (zero).
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)</span></span>
+Property of [apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)[apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.duration;
 element.duration = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 DOMHighResTimeStamp
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // set begin mark
 performance.mark("startMark");
 // execute a function to be measured
@@ -58,16 +67,7 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

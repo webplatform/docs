@@ -1,20 +1,22 @@
 ---
 title: bitwise left shift
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t7f48wx9(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Left shifts the bits of an expression.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Left shifts the bits of an expression.'
 uri: 'javascript/operators/bitwise left shift'
 
 ---
-# bitwise left shift
-
-## Summary
+## <span>Summary</span>
 
 Left shifts the bits of an expression.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result = expression1 << expression2
 
@@ -27,26 +29,20 @@ Left shifts the bits of an expression.
 **expression2**
 :   Any expression.
 
-## Examples
+## <span>Examples</span>
 
 The **\<\<** operator shifts the bits of expression1 left by the number of bits specified in expression2. For example, the variable *temp* has a value of 56 because 14 (00001110 in binary) shifted left two bits equals 56 (00111000 in binary).
 
-``` {.js}
+``` js
 var temp
 temp = 14 << 2
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Left Shift Assignment Operator (\<\<=)](/javascript/operators/left_shift_assignment)
 -   [Bitwise Right Shift Operator (\>\>)](/javascript/operators/bitwise_right_shift)
 -   [Unsigned Right Shift Operator (\>\>\>)](/javascript/operators/unsigned_right_shift)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t7f48wx9(v=vs.94).aspx)
 

@@ -1,67 +1,71 @@
 ---
 title: CSSKeyframeRule
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Either remove headers that are unnecessary, redirect as a mention or footnote on a non-depreciated cssom property, or direct to a list of depreciated properties.'
+readiness: 'In Progress'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Either remove headers that are unnecessary, redirect as a mention or footnote on a non-depreciated cssom property, or direct to a list of depreciated properties.'
 uri: css/cssom/CSSKeyframeRule
 
 ---
-# CSSKeyframeRule
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [keyText](/css/cssom/CSSKeyframeRule/keyText)
 :
+
 [style](/css/cssom/CSSKeyframeRule/style)
 :
+
 [cssRules](/css/cssom/CSSKeyframesRule/cssRules)
 :
+
 [name](/css/cssom/CSSKeyframesRule/name)
 :
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
-The version of this object using a vendor prefix, **MSCSSKeyframeRule**, has been deprecated. To ensure compatibility in the future, applications using this object with a vendor prefix should be updated accordingly.     [[ie\_css\\ie](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback):%20CSSKeyframeRule object%20 RELEASE:%20(7/24/2012)&body=%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see [http://privacy.microsoft.com/en-us/default.aspx](http://privacy.microsoft.com/en-us/default.aspx). Send comments about this topic to Microsoft] Build date: 7/24/2012
+The version of this object using a vendor prefix, **MSCSSKeyframeRule**, has been deprecated. To ensure compatibility in the future, applications using this object with a vendor prefix should be updated accordingly.     [[ie\_css\\ie](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback):%20CSSKeyframeRule object%20 RELEASE:%20(7/24/2012)&body=%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see <http://privacy.microsoft.com/en-us/default.aspx>. Send comments about this topic to Microsoft] Build date: 7/24/2012
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Animations Module Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223144), Section 5
 
-### Members
+### <span>Members</span>
 
 The **CSSKeyframeRule** object has these types of members:
 
 -   [\#properties Properties]
 
-#### Properties
+#### <span>Properties</span>
 
 The **CSSKeyframeRule** object has these properties. {
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -82,8 +86,6 @@ The **CSSKeyframeRule** object has these properties. {
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -111,11 +113,9 @@ The **CSSKeyframeRule** object has these properties. {
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -171,13 +171,9 @@ The **CSSKeyframeRule** object has these properties. {
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -217,13 +213,50 @@ The **CSSKeyframeRule** object has these properties. {
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-## Attribution
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
 
-*This article contains content originally from external sources.*
+-   [pageY](/css/cssom/properties/pageY)
 
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
 
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)

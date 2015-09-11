@@ -1,31 +1,33 @@
 ---
 title: toJSON
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc907896(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Used by the JSON.stringify method to enable the transformation of an object''s data for JavaScript Object Notation (JSON) serialization.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Used by the JSON.stringify method to enable the transformation of an object''s data for JavaScript Object Notation (JSON) serialization.'
 uri: javascript/Date/toJSON
 
 ---
-# toJSON
-
-## Summary
+## <span>Summary</span>
 
 Used by the JSON.stringify method to enable the transformation of an object's data for JavaScript Object Notation (JSON) serialization.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     objectname.toJSON()
 
 **objectname**
 :   Required. An object for which JSON serialization is wanted.
 
-## Examples
+## <span>Examples</span>
 
 The following example uses the toJSON method to serialize string member values in uppercase. The toJSON method is called when JSON.stringify is called.
 
-``` {.js}
+``` js
 var contact = new Object();
  contact.firstname = "Jesper";
  contact.surname = "Aaberg";
@@ -53,7 +55,7 @@ var contact = new Object();
 
 The following example illustrates how to use the toJSON method that is a built-in member of the [Date](/javascript/Date) object.
 
-``` {.js}
+``` js
 var dt = new Date('8/24/2009');
  dt.setUTCHours(7, 30, 0);
  var jsonText = JSON.stringify(dt);
@@ -63,7 +65,7 @@ var dt = new Date('8/24/2009');
  */
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The toJSON method is used by the JSON.stringify function.JSON.stringify serializes a JavaScript value into JSON text. If a toJSON method is provided to JSON.stringify , the toJSON method is called when JSON.stringify is called.
 
@@ -71,18 +73,12 @@ The toJSON method is a built-in member of the [Date](/javascript/Date) JavaScrip
 
 You can override the toJSON method for the Date type, or define a toJSON method for other object types to achieve transformation of data for the specific object type before JSON serialization.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [JSON Object](/javascript/JSON)
 -   [JSON.parse Function](/javascript/JSON/parse)
 -   [JSON.stringify Function](/javascript/JSON/stringify)
 -   [JavaScript Methods](/javascript/methods)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc907896(v=vs.94).aspx)
 

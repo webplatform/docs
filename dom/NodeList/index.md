@@ -1,59 +1,57 @@
 ---
 title: NodeList
+notes:
+  - 'Review for currentness, current DOM Working Draft says this is "old-style"'
+standardization_status: 'W3C Recommendation'
+summary: 'Represents a list of DOM Nodes'
 tags:
   - API
   - Objects
   - DOM
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Review for currentness, current DOM Working Draft says this is "old-style"'
-summary: 'Represents a list of DOM Nodes'
 uri: dom/NodeList
 
 ---
-# NodeList
-
-## Summary
+## <span>Summary</span>
 
 Represents a list of DOM Nodes
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [length](/apis/NodeList/length)
 :   The number of nodes in the list.
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [item](/dom/NodeList/item)
 :   Gets the *n*th item in the collection
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var list = document.getElementsByClassName('highlighted');
 for(var i=0; i<list.length; i++){
     var item = list[i];
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 The NodeList represents the content as it is currently in the document, and will change as the document changes.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177)
 :   W3C Recommendation
+
 [DOM](http://www.w3.org/TR/dom/#nodelist)
 :   W3C Working Draft
-

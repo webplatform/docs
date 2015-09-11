@@ -1,46 +1,63 @@
 ---
 title: background-origin
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/background-origin)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`padding-box`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`backgroundOrigin`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies what the background-position property is relative to.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/background-origin
 
 ---
-# background-origin
-
-## Summary
+## <span>Summary</span>
 
 Specifies what the background-position property is relative to.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `padding-box`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `backgroundOrigin`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `background-origin: border-box`
 -   `background-origin: content-box`
 -   `background-origin: padding-box`
 
-## Values
+## <span>Values</span>
 
 padding-box
 :   Default. The position is relative to the padding box.
@@ -51,9 +68,9 @@ border-box
 content-box
 :   The position is relative to the content box. Useful for having background images automatically follow the padding.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <style>
 /**
  * Background-origin Example
@@ -88,28 +105,26 @@ div {
 
 [[live example](http://code.webplatform.org/gist/5842945) View live example]
 
-## Usage
+## <span>Usage</span>
 
      You should understand the CSS Box Model before using this property.  Use this in conjunction with background-image and optionally background-position.   See background position for information about the coordinate system and positioning.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 For elements rendered as a single box, the **background-origin** property specifies the background positioning area. For elements rendered as multiple boxes (for instance, inline boxes on several lines or boxes on several pages), this property specifies which boxes determine the background positioning areas. If the [**background-attachment**](/css/properties/background-attachment) value for this image is **fixed**, then the **background-origin** property has no effect. In this case, the background positioning area is the initial containing block. In Windows Internet Explorer 9, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [**background-image**](/css/properties/background-image) property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties ([**background-attachment**](/css/properties/background-attachment), [**background-clip**](/css/properties/background-clip), **background-origin**, [**background-position**](/css/properties/background-position), [**background-repeat**](/css/properties/background-repeat), and [**background-size**](/css/properties/background-size)). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Backgrounds & Borders Level 3](http://www.w3.org/TR/css3-background/#the-background-origin)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Background
+#### <span>Background</span>
 
 -   [background](/css/cssom/properties/background)
 
@@ -138,12 +153,3 @@ Specification
 -   [background-size](/css/properties/background-size)
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/background-origin)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

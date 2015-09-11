@@ -1,42 +1,56 @@
 ---
 title: layout-grid-type
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': ''
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Add summery, specifications, compatibility.'
 uri: css/properties/layout-grid-type
 
 ---
-# layout-grid-type
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
-:   ``
+:
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `layout-grid-type: fixed`
 -   `layout-grid-type: loose`
 -   `layout-grid-type: strict`
 
-## Values
+## <span>Values</span>
 
 loose
 :   Default. Grid used for Japanese and Korean characters. In this mode, a constant width increment is applied to characters as follows: Wide characters and narrow kana characters are incremented to obtain an exact grid fit, as specified by the [**-ms-layout-grid-char**](/css/properties/layout-grid-char) property. Other narrow characters, except connected and cursive characters, are incremented by half of the increment amount applied to wide characters. Other characters, including connected and cursive characters, are not incremented, and behave as if no character grid is set.
@@ -47,46 +61,44 @@ strict
 fixed
 :   Grid used for monospaced layout. The layout rules are as follows: All noncursive characters are treated as equal; every character is centered within a single grid space by default. Runs of cursive characters are treated as strips the same as in a **strict** grid. Justification or any other character-width changing behaviors are disabled.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **-ms-layout-grid-type** attribute to specify character layout for a block of text.
 
-    <STYLE>
-    DIV.layout { layout-grid-type: strict }
-    </STYLE>
-    <DIV CLASS = "layout">
-    This is a block element containing a sentence of sample text.
-    </DIV>
+``` html
+<STYLE>
+DIV.layout { layout-grid-type: strict }
+</STYLE>
+<DIV CLASS = "layout">
+This is a block element containing a sentence of sample text.
+</DIV>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Windows Internet Explorer 8. The **-ms-layout-grid-type** attribute is an extension to CSS, and can be used as a synonym for **layout-grid-type** in IE8 Standards mode. Web documents in Asian languages, such as Chinese or Japanese, usually create a page layout for characters using a one- or two-dimensional grid. You can use the [**-ms-layout-grid**](/css/properties/layout-grid) attribute to incorporate this layout into Web documents. The **-ms-layout-grid-type** attribute applies only to block-level elements.
 
-### Syntax
+### <span>Syntax</span>
 
 `-ms-layout-grid-type: loose | strict | fixed`
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -97,8 +109,6 @@ There are no standards that apply here.
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -112,25 +122,11 @@ There are no standards that apply here.
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -176,16 +172,9 @@ There are no standards that apply here.
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

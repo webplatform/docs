@@ -1,62 +1,66 @@
 ---
 title: textPath
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
 uri: svg/elements/textPath
 
 ---
-# textPath
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the **textPath** element is used to define a path for text rendering. The same path is used in the [**path**](/svg/elements/path) example. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the text on a path.
 
 It should look like this:
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <svg width="400" height="400">
-          <defs>
-            <path id="myTextPath" d="M 50,100 Q 150,50 250,100" />
-          </defs>
-          <text fill="steelblue" font-size="20">
-            <textPath xlink:href="#myTextPath">Internet Explorer Forever!</textPath>
-          </text>
-        </svg>
-      </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <svg width="400" height="400">
+      <defs>
+        <path id="myTextPath" d="M 50,100 Q 150,50 250,100" />
+      </defs>
+      <text fill="steelblue" font-size="20">
+        <textPath xlink:href="#myTextPath">Internet Explorer Forever!</textPath>
+      </text>
+    </svg>
+  </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 In addition to text that is drawn in a straight line, you can also place text along the shape of a [**path**](/svg/elements/path) element in SVG. To render a block of text along the shape of a **path** element, include the given text within a **textPath** element that includes an **xlink:href** attribute with an Internationalized Resource Identifier (IRI) reference to the **path** element.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.6
 
-### Members
+### <span>Members</span>
 
 The **SVGTextPathElement** object has these events:
 
@@ -93,10 +97,3 @@ The **SVGTextPathElement** object has these properties:
 Gets or sets a value that indicates whether Metro style app using JavaScript should adjust inter-glyph spacing based on kerning tables that are included in the relevant font (that is, enable auto-kerning) or instead disable auto-kerning and set inter-character spacing to a specific length (typically zero).
 
 -   [**lengthAdjust**](/svg/properties/lengthAdjust): Gets or sets the [**lengthAdjust**](/svg/properties/lengthAdjust) attribute on the given element.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,38 +1,73 @@
 ---
-title: timeout-event
+title: timeout
+notes:
+  - 'Needs example, usage, spec reference, standardization status'
+readiness: 'Not Ready'
+summary: 'When the author specified timeout has passed before the request could complete.'
 tags:
   - Events
   - API
   - XHR
-readiness: 'Not Ready'
-notes:
-  - 'Needs example, usage, spec reference, standardization status'
-summary: 'When the author specified timeout has passed before the request could complete.'
 uri: apis/xhr/XMLHttpRequest/timeout-event
 
 ---
-# timeout
-
-## timeout
+## <span>timeout</span>
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `timeout`
 
-## Summary
+## <span>Summary</span>
 
 When the author specified timeout has passed before the request could complete.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:
-Cancelable
-:   No
-Default action
-:
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 

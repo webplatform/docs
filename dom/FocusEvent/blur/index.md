@@ -1,38 +1,79 @@
 ---
 title: blur
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onblurEX.htm'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+readiness: 'In Progress'
 tags:
   - Events
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onblurEX.htm'
 uri: dom/FocusEvent/blur
 
 ---
-# blur
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example shows how to display the name of the object that has lost focus, that is, the object that fires the **onblur** event.
 
-``` {.js}
+``` js
 <html>
 <body>
 <input type="text"
@@ -53,9 +94,9 @@ This example shows how to display the name of the object that has lost focus, th
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onblurEX.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **onblur** event fires on the original object before the [**onfocus**](/dom/FocusEvent/focus) or [**onclick**](/dom/HTMLElement/click) event fires on the object that is receiving focus. Where applicable, the **onblur** event fires after the [**onchange**](/dom/Element/change) event. Use the focus events to determine when to prepare an object to receive or validate input from the user. As of Microsoft Internet Explorer 5, you must set the [**tabIndex**](/html/attributes/tabIndex) attribute of elements that expose the **onblur** event. For Internet Explorer 5 and later, the **onblur** event is asynchronous. Switches focus away from the object on which the event is fired. To invoke this event, do one of the following:
 
@@ -92,20 +133,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLWindowEvents2**
 -   **HTMLDocumentEvents4**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

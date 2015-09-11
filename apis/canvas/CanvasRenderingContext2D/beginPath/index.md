@@ -1,41 +1,46 @@
 ---
 title: beginPath
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://gist.github.com/5022033/58ee0dfab60f4ee6d22c14881d9708708f45e2b2'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Empties the list of subpaths in the context''s current default path so that it once again has zero subpaths.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Empties the list of subpaths in the context''s current default path so that it once again has zero subpaths.'
-code_samples:
-  - 'http://gist.github.com/5022033/58ee0dfab60f4ee6d22c14881d9708708f45e2b2'
 uri: apis/canvas/CanvasRenderingContext2D/beginPath
 
 ---
-# beginPath
-
-## Summary
+## <span>Summary</span>
 
 Empties the list of subpaths in the context's current default path so that it once again has zero subpaths.
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  context.beginPath();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 This is a full example that uses beginPath to create two stroked lines.
 
-``` {.js}
+``` js
 <html>
 <head>
     <title>Canvas beginPath example</title>
@@ -70,25 +75,16 @@ This is a full example that uses beginPath to create two stroked lines.
 
 This snippet shows the basis syntax for beginPath() using the canvas context.
 
-``` {.js}
+``` js
 var ctx = canvas.getContext('2d');
                 ctx.beginPath();
 ```
 
-## Notes
+## <span>Notes</span>
 
 A path consists of a list of zero or more subpaths. Each subpath is a list of one or more points that are connected by straight or curved lines. Each subpath also contains a flag that indicates whether the subpath is closed. If a subpath is closed, the last point of the subpath is connected to the first point by a straight line. Subpaths that have fewer than two points are ignored when the path is painted.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

@@ -1,24 +1,25 @@
 ---
-title: using selectors
+title: Using selectors
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Selectors)'
+readiness: 'Ready to Use'
+summary: 'This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selectors available, and how different kinds of selectors have different priorities.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selectors available, and how different kinds of selectors have different priorities.'
 uri: 'tutorials/using selectors'
 
 ---
-# Using selectors
-
-## Summary
+## <span>Summary</span>
 
 This guide looks at CSS selectors — the mechanism you use to select which element receives styles — in detail, the different types of selectors available, and how different kinds of selectors have different priorities.
 
-## Information: Selectors
+## <span>Information: Selectors</span>
 
 CSS has its own terminology to describe the CSS language. In a previous tutorial, you created a line in your stylesheet like this:
 
-``` {.css}
+``` css
 strong {
   color: red;
 }
@@ -34,23 +35,23 @@ This guide refers to a selector like `strong` as a *tag* selector; you will also
 
 In addition to tag names, you can use attribute values in selectors. This allows your rules to be more specific. Two attributes, [class](/html/attributes/class) and [id](/html/attributes/id), have special status for CSS.
 
-### Class selectors
+### <span>Class selectors</span>
 
 Use the `class` attribute in an element to assign the element to a named class. It is up to you what name you choose for the class. Multiple elements in a document can have the same class value.
 
 In your style sheet, type a dot (period) before the class name when you use it in a selector.
 
-### ID selectors
+### <span>ID selectors</span>
 
 Use the `id` attribute in an element to assign an ID to the element. It is up to you what name you choose for the ID. The ID name must be unique in the document.
 
 In your stylesheet, type a number sign (hash) before the ID when you use it in a selector.
 
-### Class and ID selector example
+### <span>Class and ID selector example</span>
 
 This HTML tag has both a `class` attribute and an `id` attribute:
 
-``` {.html}
+``` html
 <p class="key" id="principal">
 ```
 
@@ -58,7 +59,7 @@ This HTML tag has both a `class` attribute and an `id` attribute:
 
 In a CSS style sheet, this rule makes all the elements with class `key` green. (They might not all be `<p>` elements.)
 
-``` {.css}
+``` css
 .key {
   color: green;
 }
@@ -66,7 +67,7 @@ In a CSS style sheet, this rule makes all the elements with class `key` green. (
 
  This rule makes the one element with the **id** `principal` bold:
 
-``` {.css}
+``` css
 #principal {
   font-weight: bold;
 }
@@ -74,7 +75,7 @@ In a CSS style sheet, this rule makes all the elements with class `key` green. (
 
  If more than one rule applies to an element and specifies the same property, then CSS gives priority to the rule that has the more specific selector. An ID selector is more specific than a class selector, which in turn is more specific than a tag selector.
 
-### Combining selectors
+### <span>Combining selectors</span>
 
 You can also combine selectors, making a more specific selector.
 
@@ -86,19 +87,19 @@ If the style sheet has conflicting rules and they are equally specific, then CSS
 
 When you have a problem with conflicting rules, try to resolve it by making one of the rules more specific, so that it has priority. If you cannot do that, try moving one of the rules nearer to the end of the style sheet so that it has priority.
 
-### Pseudo-class selectors
+### <span>Pseudo-class selectors</span>
 
 A CSS [pseudo-class](/css/selectors/pseudo-classes) is a keyword added to selectors that specifies a special state of the element to be selected. For example, [:hover](/css/selectors/pseudo-classes/:hover) will apply a style when the user hovers over the element specified by the selector.
 
 Pseudo-classes, together with pseudo-elements, let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator ([visited](/css/selectors/pseudo-classes/:visited), for example), the status of its content (like [:checked](/css/selectors/pseudo-classes/:checked) on some form elements), or the position of the mouse (like [:hover](/css/selectors/pseudo-classes/:hover), which lets you know if the mouse is over an element or not). For a complete list of selectors, see [css/selectors](/css/selectors).
 
-``` {.css}
+``` css
 selector:pseudo-class {
   property: value;
 }
 ```
 
-## Information: Selectors based on relationships
+## <span>Information: Selectors based on relationships</span>
 
 CSS has some ways to select elements based on the relationships between elements. You can use these to make selectors that are more specific.
 
@@ -111,11 +112,11 @@ CSS has some ways to select elements based on the relationships between elements
 
 You can combine these to express complex relationships. You can also use the symbol `*` (asterisk) to mean "any element".
 
-#### Example of selectors based on relationships
+#### <span>Example of selectors based on relationships</span>
 
 This HTML table has an `id` attribute, but its rows and cells do not have individual identifiers:
 
-``` {.html}
+``` html
 <table id="data-table-1">
 …
 <tr>
@@ -128,7 +129,7 @@ This HTML table has an `id` attribute, but its rows and cells do not have indivi
 
  The following rules make the first cell in each row bold, and the second cell in each row monospaced. They only affect one specific table in the document, the one with the id `<data-table-1>`:
 
-``` {.css}
+``` css
 #data-table-1 td:first-child {font-weight: bold;}
 #data-table-1 td:first-child + td {font-family: monospace;}
 ```
@@ -139,16 +140,20 @@ This HTML table has an `id` attribute, but its rows and cells do not have indivi
 <col width="100%" />
 <tbody>
 <tr class="odd">
-<td align="left"><dl>
-<dt><strong>Prefix</strong></dt>
-<dd><code>0001</code>
-</dd>
-</dl></td>
+<td align="left"><table>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Prefix</strong></td>
+<td align="left"><code>0001</code></td>
+<td align="left">default</td>
+</tr>
+</tbody>
+</table></td>
 </tr>
 </tbody>
 </table>
 
-### Increasing specificity
+### <span>Increasing specificity</span>
 
 In the usual way, if you make a selector more specific, then you increase its priority.
 
@@ -156,11 +161,11 @@ If you use these techniques, you avoid the need to specify `class` or `id` attri
 
 In large designs where speed is important, you can make your style sheets more efficient by avoiding complex rules that depend on relationships between elements.
 
-## Action: Using class and ID selectors
+## <span>Action: Using class and ID selectors</span>
 
 1.  Create an HTML page with the following code:
 
-    ``` {.html}
+    ``` html
     <!doctype html>
      <html>
        <head>
@@ -185,7 +190,7 @@ In large designs where speed is important, you can make your style sheets more e
 
 2.  Now edit your CSS file. Replace the entire contents with:
 
-    ``` {.css}
+    ``` css
     strong { color: red; }
      .carrot { color: orange; }
      .spinach { color: green; }
@@ -198,16 +203,16 @@ In large designs where speed is important, you can make your style sheets more e
 
 You can try rearranging the lines in your CSS file to show that the order has no effect. The class selectors `.carrot` and `.spinach` have priority over the tag selector `strong`. The ID selector `#first` has priority over the class and tag selectors.
 
-### Exercise questions
+### <span>Exercise questions</span>
 
 -   Without changing the HTML file, add a single rule to your CSS file that leaves the initial letters the same color as they are now, but changes all the other text in the second paragraph to blue.
 -   Change the rule you just added (without changing anything else), to set the first paragraph to blue.
 
-## Action: Using pseudo-classes selectors
+## <span>Action: Using pseudo-classes selectors</span>
 
 1.  Create an HTML page with the following code:
 
-    ``` {.html}
+    ``` html
     <!doctype html>
      <html>
        <head>
@@ -223,7 +228,7 @@ You can try rearranging the lines in your CSS file to show that the order has no
 
 2.  Now edit your CSS file. Replace the entire contents with:
 
-    ``` {.css}
+    ``` css
     a.homepage:link, a.homepage:visited {
        padding: 1px 10px 1px 10px;
        color: #fff;
@@ -247,11 +252,11 @@ You can try rearranging the lines in your CSS file to show that the order has no
 
     The link turns to dark grey.
 
-## Action: Using selectors based on relationships and pseudo-classes
+## <span>Action: Using selectors based on relationships and pseudo-classes</span>
 
 With selectors based on relationships and pseudo-classes you can create complex cascade algorithms. This is a common technique used, for example, in order to create **pure CSS drop down menus** (that is only CSS, without using JavaScript). The essence of this technique involves creating a rule like this:
 
-``` {.css}
+``` css
 div.menu-bar ul ul {
   display: none;
 }
@@ -263,7 +268,7 @@ div.menu-bar li:hover > ul {
 
  to be applied to an HTML structure like the following:
 
-``` {.html}
+``` html
 <div class="menu-bar">
   <ul>
     <li>
@@ -295,13 +300,6 @@ div.menu-bar li:hover > ul {
 
  In this way, CSS selectors can be used to create visual effects previously possible only with procedural languages like JavaScript.
 
-## Conclusion
+## <span>Conclusion</span>
 
 In this tutorial we examined various types of CSS selectors, how to use them to achieve different styling effects, and explored ways to affect the cascading order (priority) of CSS rules. For more information, see the other CSS tutorials in this section.
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Selectors)
-

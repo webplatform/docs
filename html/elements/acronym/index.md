@@ -1,26 +1,28 @@
 ---
 title: acronym
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Not Ready'
+standardization_status: Deprecated
+summary: "This element is deprecated in HTML5, in favor of the abbr element. It should no longer be used.\n"
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: Deprecated
-notes:
-  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
-summary: "This element is deprecated in HTML5, in favor of the abbr element. It should no longer be used.\n"
 uri: html/elements/acronym
 
 ---
-# acronym
-
-## Summary
+## <span>Summary</span>
 
 This element is deprecated in HTML5, in favor of the abbr element. It should no longer be used.
 
 The `acronym` element indicated an abbreviation or a word formed by the initial letter or letters (or major parts) of a compound term, like NATO, radar or Interpol.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -29,18 +31,16 @@ The `acronym` element was a type of phrasing content that existed at the sub-par
 
 An equivalent to this element in HTML5 is the **`abbr`** element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 4.01 Specification](http://www.w3.org/TR/html401/struct/text.html#h-9.2.1)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Deprecated
+#### <span>Deprecated</span>
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -72,11 +72,9 @@ Specification
 
 -   [unescape](/javascript/unescape)
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -174,13 +172,42 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-## Attribution
+-   [img](/html/elements/img)
 
-*This article contains content originally from external sources.*
+-   [input](/html/elements/input)
 
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+-   [ins](/html/elements/ins)
 
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

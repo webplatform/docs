@@ -1,17 +1,15 @@
 ---
-title: text
+title: Text values in CSS properties
+readiness: 'Ready to Use'
+summary: 'Various CSS data types are expressed using character text, however the meaning and syntax of each type differs.'
 tags:
   - Concept
   - Pages
   - CSS
-readiness: 'Ready to Use'
-summary: 'Various CSS data types are expressed using character text, however the meaning and syntax of each type differs.'
 uri: 'css/data types/text'
 
 ---
-# Text values in CSS properties
-
-## Summary
+## <span>Summary</span>
 
 Various CSS data types are expressed using character text, however the meaning and syntax of each type differs.
 
@@ -25,16 +23,16 @@ Various CSS data types are expressed using character text, however the meaning a
 
 In addition, various [CSS functions](/css/functions) can be used to generate values of these or other data types.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 a[href$=".pdf"]::after {
     /* literal string marks links to PDF files */
     content: " (PDF)";
 }
 ```
 
-``` {.css}
+``` css
 .pulse {
     /* identifier for keyframe animation defined below */
     animation-name: pulse
@@ -53,10 +51,7 @@ a[href$=".pdf"]::after {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation
-

@@ -1,51 +1,65 @@
 ---
 title: left
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6181854'
+notes:
+  - 'Add description, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, ''auto''.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`left`'
+readiness: 'In Progress'
+summary: 'Sets the left edge of an element'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Add description, specifications, compatibility.'
-summary: 'Sets the left edge of an element'
-code_samples:
-  - 'http://gist.github.com/6181854'
-uri: css/properties/left
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/left
 
 ---
-# left
-
-## Summary
+## <span>Summary</span>
 
 Sets the left edge of an element
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `left`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `left: auto`
 -   `left: length`
 -   `left: percentage`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. Default position, according to the regular HTML layout of the page.
@@ -56,11 +70,11 @@ length
 percentage
 :   Integer, followed by a percent sign (%). The value is a percentage of the width of the parent object.
 
-## Examples
+## <span>Examples</span>
 
 We demonstrate the \`left\` property by positioning the elements.
 
-``` {.css}
+``` css
 .container {
   /**
    * Object is positioned according to the normal flow, and then offset.
@@ -115,7 +129,7 @@ We demonstrate the \`left\` property by positioning the elements.
 
 The HTML for the above example.
 
-``` {.html}
+``` html
 
 
 <article>
@@ -130,11 +144,11 @@ The HTML for the above example.
 
 </pre>
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   [border](/css/properties/border)
 
@@ -176,17 +190,10 @@ The HTML for the above example.
 
 -   [min-width](/css/properties/min-width)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `defaults`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

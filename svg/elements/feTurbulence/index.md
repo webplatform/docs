@@ -1,55 +1,59 @@
 ---
 title: feTurbulence
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
 uri: svg/elements/feTurbulence
 
 ---
-# feTurbulence
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 This example shows a simple turbulence filter with a **baseFrequency** value of 0.1 and a [**numOctaves**](/svg/properties/numOctaves) value of 2.
 
 The image will look like this.
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-        <head></head>
-        <body>
-            <svg width="400" height="400">
-                <defs>
-                   <filter id="MyFilter" filterUnits="userSpaceOnUse" x="50" y="50"  width="300" height="300">
-                      <feTurbulence baseFrequency="0.1"
-                        numOctaves="2" />
-                   </filter>
-                </defs>
-                <use filter="url(#MyFilter)" x='0' y='0'/>
-                </svg>
-        </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+    <head></head>
+    <body>
+        <svg width="400" height="400">
+            <defs>
+               <filter id="MyFilter" filterUnits="userSpaceOnUse" x="50" y="50"  width="300" height="300">
+                  <feTurbulence baseFrequency="0.1"
+                    numOctaves="2" />
+               </filter>
+            </defs>
+            <use filter="url(#MyFilter)" x='0' y='0'/>
+            </svg>
+    </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
-Ken Perlin is the author of a set of formulas that provide a way to display turbulence noise. At the time of this writing, an excellent summary is available at [http://freespace.virgin.net/hugo.elias/models/m\_perlin.htm](http://freespace.virgin.net/hugo.elias/models/m_perlin.htm).
+Ken Perlin is the author of a set of formulas that provide a way to display turbulence noise. At the time of this writing, an excellent summary is available at <http://freespace.virgin.net/hugo.elias/models/m_perlin.htm>.
 
 The **SVGFETurbulenceElement** provides the following properties:
 
@@ -60,13 +64,13 @@ The **SVGFETurbulenceElement** provides the following properties:
 -   [**stitchTiles**](/svg/properties/stitchTiles)
 -   [**type**](/svg/properties/type_(SVGFETurbulenceElement))
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.27
 
-### Members
+### <span>Members</span>
 
 The **SVGFETurbulenceElement** object has these properties:
 
@@ -82,11 +86,11 @@ The **SVGFETurbulenceElement** object has these properties:
 -   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -169,10 +173,3 @@ The **SVGFETurbulenceElement** object has these properties:
 -   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
 
 -   [SVG filters](/tutorials/svg_filters)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

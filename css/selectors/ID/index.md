@@ -1,59 +1,61 @@
 ---
 title: ID
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: css/selectors/id_selector \n\n"
+readiness: 'In Progress'
+summary: 'The #id selector styles the element with the specified id.'
 tags:
   - CSS
   - Selectors
-readiness: 'In Progress'
-notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: css/selectors/id_selector \n\n"
-summary: 'The #id selector styles the element with the specified id.'
-uri: css/selectors/ID
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: css/selectors/ID
 
 ---
-# ID
-
-## Summary
+## <span>Summary</span>
 
 The \#id selector styles the element with the specified id.
 
-## Examples
+## <span>Examples</span>
 
 The following style rule applies to the element with id="navigation" and its descendants.
 
-    <style>
-        #navigation { line-height: 0px; font-size: x-small; }
-    </style>
+``` html
+<style>
+    #navigation { line-height: 0px; font-size: x-small; }
+</style>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The id attribute allows authors to uniquely identify an element instance in the document tree. ID selectors match an element instance based on its identifier. The id attribute value must immediately follow the "pound" (\#) notation. **Note**  Windows Internet Explorer allows multiple elements to share a single ID value. If more than one element exists, the style rule will apply to all elements with the given ID. Only one id attribute may be present on any given element. In the event that a style declaration conflicts with another declaration, the rule with a higher level of specificity is used. (See Understanding CSS Selectors.) If a Class Selector and ID Selector are in conflict, the id is chosen.
 
-### Syntax
+### <span>Syntax</span>
 
 `<strong/>sel#value {...}`
 
-### Parameters
+### <span>Parameters</span>
 
 *sel*
 :   Selector
 *value*
 :   String that specifies the value of the "id" attribute.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 1.5
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -128,10 +130,3 @@ The id attribute allows authors to uniquely identify an element instance in the 
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   [type](/css/selectors/type)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

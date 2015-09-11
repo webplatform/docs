@@ -1,48 +1,91 @@
 ---
 title: start
-tags:
-  - Events
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - "\nDeletion Candidate:   Content has no standard and is only for a deprecated element (marquee.) No real use being documented now or in the future since it isn't on any track to be a standard.\n\n\n\nNeeds summary and compat"
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onstartEX.htm'
+notes:
+  - "\nDeletion Candidate:   Content has no standard and is only for a deprecated element (marquee.) No real use being documented now or in the future since it isn't on any track to be a standard.\n\n\n\nNeeds summary and compat"
+readiness: 'In Progress'
+standardization_status: Non-Standard
+tags:
+  - Events
 uri: dom/Document/start
 
 ---
-# start
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example shows how to use the **onstart** event on a **marquee**.
 
-    <BODY>
-    <P>An alert dialog box displays each time the onstart event fires.
-    <MARQUEE onstart="alert('onstart fired')"
-             BEHAVIOR=alernate LOOP=2>Marquee Text</MARQUEE>
-    </BODY>
+``` html
+<BODY>
+<P>An alert dialog box displays each time the onstart event fires.
+<MARQUEE onstart="alert('onstart fired')"
+         BEHAVIOR=alernate LOOP=2>Marquee Text</MARQUEE>
+</BODY>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onstartEX.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **start** method does not cause the **onstart** event to fire. Initiates the next loop of the **marquee** contents. To invoke this event, do one of the following:
 
@@ -76,30 +119,23 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `marquee`
 -   `Reference`
 -   `behavior`
 -   `loop`
 -   `finish`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

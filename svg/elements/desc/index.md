@@ -1,27 +1,29 @@
 ---
 title: desc
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The desc element (&lt;desc&gt;) provides a human readable description for container elements and graphics elements.'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-summary: 'The desc element (<desc>) provides a human readable description for container elements and graphics elements.'
 uri: svg/elements/desc
 
 ---
-# desc
+## <span>Summary</span>
 
-## Summary
+The desc element (&lt;desc&gt;) provides a human readable description for container elements and graphics elements.
 
-The desc element (\<desc\>) provides a human readable description for container elements and graphics elements.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the **desc** element is used to define a description of an element. This element can be read programatically to analyze SVG structure.
 
@@ -29,33 +31,35 @@ Copy this sample to a text file and save it with the *.html* file extension. Run
 
 The element will look like this:
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <svg width="400" height="400">
-          <ellipse cx="150" cy="100" rx="100" ry="75" fill="greenyellow">
-            <desc>This is the description of an ellipse.</desc>
-          </ellipse>
-        </svg>
-      </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <svg width="400" height="400">
+      <ellipse cx="150" cy="100" rx="100" ry="75" fill="greenyellow">
+        <desc>This is the description of an ellipse.</desc>
+      </ellipse>
+    </svg>
+  </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.5
 
-### Members
+### <span>Members</span>
 
 The **SVGDescElement** object has these events:
 
@@ -72,18 +76,10 @@ The **SVGDescElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [SVG 1.1](http://www.w3.org/TR/SVG/struct.html#DescriptionAndTitleElements)
 :   W3C Recommendation
+
 [SVG Tiny 1.2](http://www.w3.org/TR/SVGTiny12/struct.html#TitleAndDescriptionElements)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

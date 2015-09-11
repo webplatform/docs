@@ -1,47 +1,63 @@
 ---
 title: hyphenate-limit-lines
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`no-limit`'
+  'Applies to': 'block containers'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`hyphenateLimitLines`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Indicates the maximum number of successive hyphenated lines in an element. The ‘no-limit’ value means that there is no limit.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Add description, compatibility.'
-summary: 'Indicates the maximum number of successive hyphenated lines in an element. The ‘no-limit’ value means that there is no limit.'
 uri: css/properties/hyphenate-limit-lines
 
 ---
-# hyphenate-limit-lines
-
-## Summary
+## <span>Summary</span>
 
 Indicates the maximum number of successive hyphenated lines in an element. The ‘no-limit’ value means that there is no limit.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `no-limit`
+
 Applies to
 :   block containers
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `hyphenateLimitLines`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `hyphenate-limit-lines: integer`
 -   `hyphenate-limit-lines: no-limit`
 
-## Values
+## <span>Values</span>
 
 no-limit
 :   Indicates that hyphenation is not limited based on the number of consecutive hyphenated lines. In the flow above the consecutive hyphenated lines limit would be an infinitely large positive number.
@@ -53,35 +69,29 @@ For instance, if `2`, then no more than 2 successive lines may end with a hyphen
 
 Negative values are not allowed.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* Do not allow more than 2 successive hyphenated lines */
 hyphenate-limit-lines: 2;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Level 4](http://dev.w3.org/csswg/css-text-4/#hyphenate-line-limits)
 :   W3C Editor’s Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -92,8 +102,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -107,25 +115,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -171,13 +165,6 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

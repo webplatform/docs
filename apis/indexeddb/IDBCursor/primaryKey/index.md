@@ -1,43 +1,41 @@
 ---
 title: primaryKey
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBCursor
+    href: /apis/indexeddb/IDBCursor
+summary: 'Returns the cursor''s current effective key.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns the cursor''s current effective key.'
 uri: apis/indexeddb/IDBCursor/primaryKey
 
 ---
-# primaryKey
-
-## Summary
+## <span>Summary</span>
 
 Returns the cursor's current effective key.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)</span></span>
+Property of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.primaryKey;
 element.primaryKey = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

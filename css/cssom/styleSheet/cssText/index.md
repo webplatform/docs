@@ -1,44 +1,53 @@
 ---
 title: cssText
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cssText.htm'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/styleSheet
+    href: /css/cssom/styleSheet
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /css/cssom/styleSheet
+standardization_status: 'W3C Recommendation'
+summary: 'Gets or sets the textual representation of a style sheet.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Gets or sets the textual representation of a style sheet.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cssText.htm'
 uri: css/cssom/styleSheet/cssText
 
 ---
-# cssText
-
-## Summary
+## <span>Summary</span>
 
 Gets or sets the textual representation of a style sheet.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/styleSheet](/css/cssom/styleSheet)</span></span>
+Property of [css/cssom/styleSheet](/css/cssom/styleSheet)[css/cssom/styleSheet](/css/cssom/styleSheet)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var cssText = stylesheet.cssText;
 stylesheet.cssText = cssText;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The textual representation of the style sheet.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **cssText** property to retrieve the CSS style set on an object.
 
-``` {.html}
+``` html
 <p id="oPara" style="color: green; font-weight: bold;">
 This is the test paragraph.</p>:
 <button onclick="console.log(document.getElementById('oPara').style.cssText)">Get CSS attributes</BUTTON>
@@ -46,22 +55,20 @@ This is the test paragraph.</p>:
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/cssText.htm)
 
-## Notes
+## <span>Notes</span>
 
 This property reflects the current state of the style sheet and not its initial value.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Style](http://www.w3.org/TR/DOM-Level-2-Style/css.html)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -117,13 +124,9 @@ Specification
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -163,11 +166,55 @@ Specification
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   **cssText**
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -181,10 +228,3 @@ Specification
 -   `CSSRule`
 -   `page`
 -   `rule`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,35 +1,70 @@
 ---
 title: progress
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+summary: 'While sending and loading data.'
 tags:
   - Events
   - API
   - XHR
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
-summary: 'While sending and loading data.'
 uri: apis/xhr/XMLHttpRequest/progress
 
 ---
-# progress
-
-## Summary
+## <span>Summary</span>
 
 While sending and loading data.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:
-Cancelable
-:   No
-Default action
-:
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 

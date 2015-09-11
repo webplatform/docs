@@ -1,27 +1,27 @@
 ---
 title: skew()
-tags:
-  - CSS
-  - Functions
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5305245'
 readiness: 'Ready to Use'
 standardization_status: Non-Standard
 summary: 'Defines a two-dimensional transformation consisting of simultaneous skew transformations of the X and Y axes.  Not recommended and supported only for backwards compatibility; use a combination of skewX(angle), skewY(angle) and/or rotate(angle) instead.'
-code_samples:
-  - 'http://gist.github.com/5305245'
+tags:
+  - CSS
+  - Functions
 uri: css/functions/skew()
 
 ---
-# skew()
-
-## Summary
+## <span>Summary</span>
 
 Defines a two-dimensional transformation consisting of simultaneous skew transformations of the X and Y axes. Not recommended and supported only for backwards compatibility; use a combination of skewX(angle), skewY(angle) and/or rotate(angle) instead.
 
-## Examples
+## <span>Examples</span>
 
 The following code snippet is an example of the **skew** function in use. When applied to a square blue [**div**](/html/elements/div) element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
 
-``` {.css}
+``` css
 div {
   transform: skew(42deg, -12deg);
 }
@@ -29,22 +29,22 @@ div {
 
 [View live example](http://code.webplatform.org/gist/5305245)
 
-### Syntax
+### <span>Syntax</span>
 
 **skew** `( <angle-x>  ,  <angle-y> )`
 
-### Parameters
+### <span>Parameters</span>
 
 *angle-x*
 :   The angle by which the element is skewed along the *x*-axis. This value is expressed as a number followed by a supported angle unit.
 *angle-y*
 :   The angle by which the element is skewed along the *y*-axis. This value is expressed as a number followed by a supported angle unit.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -78,15 +78,8 @@ div {
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`
 -   `Hands On: 2D Transforms`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

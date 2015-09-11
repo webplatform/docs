@@ -1,15 +1,16 @@
 ---
 title: Basic animations
-tags:
-  - Tutorials
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/Canvas_tutorial/Basic_animations)'
 readiness: 'Ready to Use'
 summary: 'Timing and movement of shapes are explained in this part of the canvas tutorial. There''s a list of useful external examples at the end of the document.'
+tags:
+  - Tutorials
 uri: 'tutorials/canvas/Canvas tutorial/Basic animations'
 
 ---
-# Basic animations
-
-## Summary
+## <span>Summary</span>
 
 Timing and movement of shapes are explained in this part of the canvas tutorial. There's a list of useful external examples at the end of the document.
 
@@ -17,7 +18,7 @@ Since we're using script to control `canvas` elements it's also very easy to mak
 
 Probably the biggest limitation is that once a shape gets drawn it stays that way. If we need to move it we have to redraw it and everything that was drawn before it. It takes a lot of time to redraw complex frames and the performance depends highly on the speed of the computer it's running on.
 
-## Basic animation steps
+## <span>Basic animation steps</span>
 
 These are the steps you need to take to draw a frame:
 
@@ -30,7 +31,7 @@ These are the steps you need to take to draw a frame:
 4.  **Restore the canvas state**
      If you've saved the state, restore it before drawing a new frame.
 
-## Controlling an animation
+## <span>Controlling an animation</span>
 
 Shapes are drawn to the canvas by using the canvas methods directly or calling custom functions. In normal circumstances we only see these results appear on the canvas when the script finishes execution. For instance it isn't possible to do an animation from within a `for` loop.
 
@@ -45,7 +46,7 @@ The second method we can use to control an animation is user input. If we wanted
 
 In the examples below I'm using the first method to control the animation. At the bottom of this page are some links to examples which use the second.
 
-#### An animation example 1
+#### <span>An animation example 1</span>
 
 In this example I'm going to animate a mini simulation of our solar system.
 
@@ -95,7 +96,7 @@ In this example I'm going to animate a mini simulation of our solar system.
       ctx.drawImage(sun,0,0,300,300);
     }
 
-#### An animation example 2
+#### <span>An animation example 2</span>
 
 ![An analog clock with hour, minute, and second hands](/assets/public/a/a3/Canvas_animation2.png)
 
@@ -198,11 +199,11 @@ In this example I'm going to animate a mini simulation of our solar system.
       ctx.restore();
     }
 
-#### An animation example 3
+#### <span>An animation example 3</span>
 
 This is the code for a left-to-right looping panoramic image scroller. Make sure the image is larger than the canvas.
  Using this file for this example
-[http://commons.wikimedia.org/wiki/File:Capitan\_Meadows,\_Yosemite\_National\_Park.jpg](http://commons.wikimedia.org/wiki/File:Capitan_Meadows,_Yosemite_National_Park.jpg)
+<http://commons.wikimedia.org/wiki/File:Capitan_Meadows,_Yosemite_National_Park.jpg>
 
     var img = new Image();
 
@@ -263,7 +264,7 @@ html code. Canvas width and height should match the CanvasXSize, CanvasYSize.
     <body onload="init();">
     <canvas id="canvas" width="800" height="200"></canvas>
 
-## Other examples
+## <span>Other examples</span>
 
 -   [Gartic](http://www.gartic.net/)
      Multi-player drawing game
@@ -271,7 +272,7 @@ html code. Canvas width and height should match the CanvasXSize, CanvasYSize.
     ](http://www.abrahamjoffe.com.au/ben/canvascape/)A 3D adventure game (first-person shooter).
 -   [Freeciv.net](http://www.freeciv.net/)
      A multiplayer strategy game with isometric graphics, created using HTML5 canvas.
--   [https://developer.mozilla.org/en/A\_Basic\_RayCaster](https://developer.mozilla.org/en/A_Basic_RayCaster) A Basic RavCaster]
+-   <https://developer.mozilla.org/en/A_Basic_RayCaster> A Basic RavCaster]
      A good example of how to do animations using keyboard controls.
 -   [canvas adventure](http://andrewwooldridge.com/canvas/canvasgame001/canvasgame002.html)
      Also a nice example that uses keyboard controls.
@@ -283,10 +284,4 @@ html code. Canvas width and height should match the CanvasXSize, CanvasYSize.
      An example of charting stock market data.
 
 [\<\<Previous](/tutorials/canvas/Canvas_tutorial/Compositing)
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/Canvas_tutorial/Basic_animations)
 

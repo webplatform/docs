@@ -1,20 +1,22 @@
 ---
 title: UTC
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wz6stk2z(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the specified date.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the specified date.'
 uri: javascript/Date/UTC
 
 ---
-# UTC
-
-## Summary
+## <span>Summary</span>
 
 Returns the number of milliseconds between midnight, January 1, 1970 Universal Coordinated Time (UTC) (or GMT) and the specified date.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Date.UTC( year , month , day [ , hours [, minutes [, seconds [, ms ]]]])
 
@@ -39,11 +41,11 @@ Returns the number of milliseconds between midnight, January 1, 1970 Universal C
 **ms**
 :   Optional. An integer from 0 to 999 that specifies the milliseconds.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **Date.UTC** function.
 
-``` {.js}
+``` js
 // Determine the milliseconds per day.
   var MinMilli = 1000 * 60;
  var HrMilli = MinMilli * 60;
@@ -70,21 +72,15 @@ The following example illustrates the use of the **Date.UTC** function.
  // Output: 10848
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **Date.UTC** function returns the number of milliseconds between midnight, January 1, 1970 UTC and the supplied date. This return value can be used in the **setTime** method and in the Date object constructor. If the value of an argument is greater than its range, or is a negative number, other stored values are modified accordingly. For example, if you specify 150 seconds, JavaScript redefines that number as two minutes and 30 seconds.
 
 The difference between the **Date.UTC** function and the Date object constructor that accepts a date is that the **Date.UTC** function assumes UTC, and the Date object constructor assumes local time.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [setTime Method (Date)](/javascript/Date/setTime)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wz6stk2z(v=vs.94).aspx)
 

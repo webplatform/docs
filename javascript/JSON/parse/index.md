@@ -1,20 +1,22 @@
 ---
 title: parse
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc836466(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Converts a JavaScript Object Notation (JSON) string into an object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Converts a JavaScript Object Notation (JSON) string into an object.'
 uri: javascript/JSON/parse
 
 ---
-# parse
-
-## Summary
+## <span>Summary</span>
 
 Converts a JavaScript Object Notation (JSON) string into an object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     JSON.parse( text [ , reviver] )
 
@@ -24,15 +26,15 @@ Converts a JavaScript Object Notation (JSON) string into an object.
 **reviver**
 :   Optional. A function that transforms the results. This function is called for each member of the object. If a member contains nested objects, the nested objects are transformed before the parent object is. For each member, the following occurs: If reviver returns a valid value, the member value is replaced with the transformed value.If reviver returns the same value it received, the member value is not modified.If reviver returns null or undefined , the member is deleted.
 
-## Return Value
+## <span>Return Value</span>
 
 An object or array.
 
-## Examples
+## <span>Examples</span>
 
 The following example uses **JSON.parse** to convert a JSON string to an object.
 
-``` {.js}
+``` js
 var jsontext = '{"firstname":"Jesper","surname":"Aaberg","phone":["555-0100","555-0120"]}';
  var contact = JSON.parse(jsontext);
  document.write(contact.surname + ", " + contact.firstname);
@@ -42,7 +44,7 @@ var jsontext = '{"firstname":"Jesper","surname":"Aaberg","phone":["555-0100","55
 
 The following example shows how to convert an array to a JSON string by using **JSON.stringify** , and then convert the string back to an array by using **JSON.parse**.
 
-``` {.js}
+``` js
 var arr = ["a", "b", "c"];
  var str = JSON.stringify(arr);
  document.write(str);
@@ -77,7 +79,7 @@ The reviver function is often used to transform JSON representation of Internati
 
 This example uses JSON.parse to deserialize an ISO-formatted date string. The `dateReviver` function returns `Date` objects for members that are formatted like ISO date strings.
 
-``` {.js}
+``` js
 var jsontext = '{ "hiredate": "2008-01-01T12:00:00Z", "birthdate": "2008-12-25T12:00:00Z" }';
  var dates = JSON.parse(jsontext, dateReviver);
  document.write(dates.birthdate.toUTCString());
@@ -98,23 +100,17 @@ var jsontext = '{ "hiredate": "2008-01-01T12:00:00Z", "birthdate": "2008-12-25T1
  // Thu, 25 Dec 2008 12:00:00 UTC
 ```
 
-## Exceptions
+## <span>Exceptions</span>
 
 If this function provokes a JavaScript parser error (such as "SCRIPT1014: Invalid character", the input text does not comply with JSON syntax. To correct the error, do one of the following:
 
 -   Modify the text argument to comply with JSON syntax. For more information, see the [BNF syntax notation](http://go.microsoft.com/fwlink/?LinkId=125203) of JSON objects.
 -   Make sure that the text argument was serialized by a JSON-compliant implementation, such as **JSON.stringify**.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [JSON.stringify Function](/javascript/JSON/stringify)
 -   [toJSON Method (Date)](/javascript/Date/toJSON)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc836466(v=vs.94).aspx)
 

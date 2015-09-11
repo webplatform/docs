@@ -1,35 +1,37 @@
 ---
 title: strong
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add compatibility.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Almost Ready'
+summary: 'The strong element indicates text that is of great importance, seriousness, or urgency.'
 tags:
   - Markup
   - Elements
   - HTML
   - XHTML
-readiness: 'Almost Ready'
-notes:
-  - 'Add compatibility.'
-summary: 'The strong element indicates text that is of great importance, seriousness, or urgency.'
 uri: html/elements/strong
 
 ---
-# strong
-
-## Summary
+## <span>Summary</span>
 
 The strong element indicates text that is of great importance, seriousness, or urgency.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 The relative level of importance of a piece of content is given by its number of ancestor strong elements.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **strong** element to indicate important information.
 
-``` {.html}
+``` html
 <p>Please fill in the form below.
 <strong>Note: all fields are required.</strong></p>
 }}{{Single Example
@@ -38,11 +40,11 @@ This example uses the **strong** element to indicate important information.
 |Code=<nowiki><p><strong><strong>Warning.</strong> This dungeon is dangerous.</strong></p>
 ```
 
-## Usage
+## <span>Usage</span>
 
      The strong element is a phrasing-level element. It must not contain block-level elements, but it can contain other phrasing-level elements.
 
-## Notes
+## <span>Notes</span>
 
 By default, most browsers render the **strong** element with bold text, but you can change that in CSS.
 
@@ -50,26 +52,24 @@ If you are looking to emphasize a word or phrase, the [**em** element](/html/ele
 
 If you want to bold text, but the text is not important, you should use the CSS rule [**font-weight: bold**](/css/properties/font-weight) on the appropriate element enclosing the text.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-strong-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-strong-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-STRONG)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -167,21 +167,53 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Text
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   **strong**
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -192,8 +224,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -207,25 +237,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -271,17 +287,10 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `acronym`
 -   `address`
 -   `b`
 -   `cite`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

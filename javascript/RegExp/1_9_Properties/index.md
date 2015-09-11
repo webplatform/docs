@@ -1,20 +1,22 @@
 ---
-title: 1 9 Properties
+title: 1...9 Properties
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/24th3sah(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Return the nine most-recently memorized portions found during pattern matching. Read-only.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Return the nine most-recently memorized portions found during pattern matching. Read-only.'
 uri: 'javascript/RegExp/1 9 Properties'
 
 ---
-# 1...9 Properties
-
-## Summary
+## <span>Summary</span>
 
 Return the nine most-recently memorized portions found during pattern matching. Read-only.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     RegExp.$ n
 
@@ -24,11 +26,11 @@ Return the nine most-recently memorized portions found during pattern matching. 
 **n**
 :   Any integer from 1 through 9.
 
-## Examples
+## <span>Examples</span>
 
 The following example performs a regular expression search. It displays matches and submatches from the global **RegExp** object. The submatches are successful parenthesized matches that are contained in the **...** properties. The example also displays matches and submatches from the array that is returned by the **exec** method.
 
-``` {.js}
+``` js
 var newLine = "<br />";
 
  var re = /(\w+)@(\w+)\.(\w+)/g
@@ -83,13 +85,7 @@ var newLine = "<br />";
  //  3: com
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The values of the **\$1...\$9** properties are modified whenever a successful parenthesized match is made. Any number of parenthesized substrings may be specified in a regular expression pattern, but only the nine most recent can be stored.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/24th3sah(v=vs.94).aspx)
 

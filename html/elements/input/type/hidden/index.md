@@ -1,5 +1,13 @@
 ---
 title: hidden
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Merge Candidate: html/attributes/type'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLInputElement](/dom/HTMLInputElement)'
+readiness: 'Not Ready'
+summary: 'The hidden type of the &lt;input&gt; element represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.'
 tags:
   - Pages
   - using
@@ -11,51 +19,38 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Merge Candidate: html/attributes/type'
-summary: 'The hidden type of the <input> element represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.'
 uri: html/elements/input/type/hidden
 
 ---
-# hidden
+## <span>Summary</span>
 
-## Summary
+The hidden type of the &lt;input&gt; element represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.
 
-The hidden type of the \<input\> element represents a value that is hidden from the user, but which is sent with the form data; the value can be set programatically.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This input type presents no control to the user, but sends the value of the [**value**](/html/attributes/value_(select,_option_element)) property with the submitted form.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 
-### HTML information
+### <span>HTML information</span>
 
 {
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `input`
 -   `input type=submit`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

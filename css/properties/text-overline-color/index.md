@@ -1,60 +1,71 @@
 ---
 title: text-overline-color
-tags:
-  - CSS
-  - Properties
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`currentColor`'
+  'Applies to': 'all elements with and generated content with textual content'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': \<color\>
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the line color for the overline text decoration.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-overline-color
 
 ---
-# text-overline-color
-
-## Summary
+## <span>Summary</span>
 
 Specifies the line color for the overline text decoration.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `currentColor`
+
 Applies to
 :   all elements with and generated content with textual content
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   \<color\>
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-overline-color: <color>`
 
-## Values
+## <span>Values</span>
 
 \<color\>
 :   Specifies a color value
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 p {
    text-overline-color: green;
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-color)
 :   Candidate Recommendation
-

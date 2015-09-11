@@ -1,28 +1,30 @@
 ---
 title: lastIndex
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9ec1ex6t(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the character position where the next match begins in a searched string.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the character position where the next match begins in a searched string.'
 uri: javascript/RegExp/lastIndex
 
 ---
-# lastIndex
-
-## Summary
+## <span>Summary</span>
 
 Returns the character position where the next match begins in a searched string.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     RegExp.lastIndex
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **lastIndex** property. This function iterates a search string and prints out the **index** and **lastIndex** values for each word in the string.
 
-``` {.js}
+``` js
 function RegExpTest()
  {
     var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())
@@ -49,7 +51,7 @@ function RegExpTest()
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The object associated with this property is always the global **RegExp** object.
 
@@ -63,10 +65,4 @@ The following rules apply to values of **lastIndex** :
 -   If **lastIndex** is greater than the length of the string, **test** and **exec** fail and **lastIndex** is set to -1.
 -   If **lastIndex** is equal to the length of the string, the regular expression matches if the pattern matches the empty string. Otherwise, the match fails and **lastIndex** is reset to -1.
 -   Otherwise, **lastIndex** is set to the next position following the most recent match.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9ec1ex6t(v=vs.94).aspx)
 

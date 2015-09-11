@@ -1,20 +1,22 @@
 ---
 title: match
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7df7sf4x(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Matches a string with a regular expression, and returns an array containing the results of that search.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Matches a string with a regular expression, and returns an array containing the results of that search.'
 uri: javascript/String/match
 
 ---
-# match
-
-## Summary
+## <span>Summary</span>
 
 Matches a string with a regular expression, and returns an array containing the results of that search.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     stringObj.match( rgExp )
 
@@ -24,11 +26,11 @@ Matches a string with a regular expression, and returns an array containing the 
 **rgExp**
 :   Required. A regular expression object that contains the regular expression pattern and applicable flags. This can also be a variable name or string literal containing the regular expression pattern and flags.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the match method.
 
-``` {.js}
+``` js
 var src = "azcafAJAC";
 
  var re = /[a-c]/;
@@ -51,7 +53,7 @@ var src = "azcafAJAC";
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 If the **match** method does not find a match, it returns null. If it finds a match, **match** returns an array, and the properties of the global **RegExp** object are updated to reflect the results of the match.
 
@@ -61,9 +63,9 @@ If the global flag ( **g** ) is not set, Element zero of the array contains the 
 
 If the flag **i** is set, the search is not case-sensitive.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [exec Method (Regular Expression)](/javascript/regular_expression/exec)
 -   [RegExp Object](/javascript/RegExp)
@@ -71,10 +73,4 @@ If the flag **i** is set, the search is not case-sensitive.
 -   [replace Method (String)](/javascript/String/replace)
 -   [search Method (String)](/javascript/String/search)
 -   [test Method (Regular Expression)](/javascript/regular_expression/test)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7df7sf4x(v=vs.94).aspx)
 

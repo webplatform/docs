@@ -1,44 +1,58 @@
 ---
 title: text-line-through-style
+notes:
+  - 'Obsolete; deletion candidate'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'all elements with and generated content with textual content'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value (except for initial and inherit)'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`N/A`'
+  Percentages: N/A
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+summary: "Specifies the line style for line-through text decoration.\n"
 tags:
   - CSS
   - Properties
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Obsolete; deletion candidate'
-summary: "Specifies the line style for line-through text decoration.\n"
 uri: css/properties/text-line-through-style
 
 ---
-# text-line-through-style
-
-## Summary
+## <span>Summary</span>
 
 Specifies the line style for line-through text decoration.
 
 (Considered obsolete; use [text-decoration-style](/css/properties/text-decoration-style) instead.)
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   all elements with and generated content with textual content
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value (except for initial and inherit)
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `N/A`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-line-through-style: dashed`
 -   `text-line-through-style: dot-dash`
@@ -49,7 +63,7 @@ Percentages
 -   `text-line-through-style: solid`
 -   `text-line-through-style: wave`
 
-## Values
+## <span>Values</span>
 
 none
 :   Produces no line
@@ -75,18 +89,16 @@ dot-dot-dash
 wave
 :   Produces a wavy line.
 
-## Notes
+## <span>Notes</span>
 
 This property is obsolete and has been replaced by the [text-decoration-style](/css/properties/text-decoration-style) property.
 
 Originally defined in an earlier draft of the [CSS3 Text Module specification](http://www.w3.org/TR/2003/CR-css3-text-20030514/), the functionality controlled by this property is now defined in the [CSS Text Decoration Level 3](http://www.w3.org/TR/css-text-decor-3) module. Sites (and apps) relying on the earlier behavior should be updated accordingly.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
 :   Candidate Recommendation
+
 [CSS Text Module Level 3](http://dev.w3.org/csswg/css-text/)
 :   Editor's Draft
-

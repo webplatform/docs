@@ -1,39 +1,41 @@
 ---
 title: type (select element)
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[html/attributes/type]] \n\n"
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: [[html/attributes/type]] \n\n"
 uri: 'html/attributes/type (select element)'
 
 ---
-# type (select element)
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `select`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

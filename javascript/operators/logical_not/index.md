@@ -1,20 +1,22 @@
 ---
 title: logical not
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/zz722703(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Performs logical negation on an expression.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Performs logical negation on an expression.'
 uri: 'javascript/operators/logical not'
 
 ---
-# logical not
-
-## Summary
+## <span>Summary</span>
 
 Performs logical negation on an expression.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result = ! expression
 
@@ -24,9 +26,9 @@ Performs logical negation on an expression.
 **expression**
 :   Any expression.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var x = 5;
 var y = 7;
 var z;
@@ -34,16 +36,14 @@ z = ! (x = y); // result: z = true
 z = ! (y > x); // result: z = false
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The following table illustrates how result is determined.
 
-If `expression` is
-:   Then `result` is
-True
-:   False
-False
-:   True
+|If `expression` is|Then `result` is|
+|:-----------------|:---------------|
+|True|False|
+|False|True|
 
 All unary operators, such as the **!** operator, evaluate expressions as follows:
 
@@ -55,10 +55,4 @@ All unary operators, such as the **!** operator, evaluate expressions as follows
 The operator is applied to the resulting number.
 
 For the **!** operator, if expression is nonzero, result is zero. If expression is zero, result is 1.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/zz722703(v=vs.94).aspx)
 

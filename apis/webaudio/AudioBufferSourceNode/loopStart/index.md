@@ -1,46 +1,50 @@
 ---
 title: loopStart
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioBufferSourceNode
+    href: /apis/webaudio/AudioBufferSourceNode
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/webaudio/AudioBufferSourceNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'An optional value in seconds where looping should begin if the loop attribute is true. Its default value is 0, and it may usefully be set to any value between 0 and the duration of the buffer.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'An optional value in seconds where looping should begin if the loop attribute is true. Its default value is 0, and it may usefully be set to any value between 0 and the duration of the buffer.'
 uri: apis/webaudio/AudioBufferSourceNode/loopStart
 
 ---
-# loopStart
-
-## Summary
+## <span>Summary</span>
 
 An optional value in seconds where looping should begin if the loop attribute is true. Its default value is 0, and it may usefully be set to any value between 0 and the duration of the buffer.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)</span></span>
+Property of [apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)[apis/webaudio/AudioBufferSourceNode](/apis/webaudio/AudioBufferSourceNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = AudioBufferSourceNode.loopStart;
 AudioBufferSourceNode.loopStart = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var source = audioCtx.createBufferSource();
 source.loopStart = 2;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

@@ -1,18 +1,16 @@
 ---
-title: tutorials
+title: Document Object Model tutorials
+notes:
+  - 'No content; deletion candidate'
+readiness: 'In Progress'
+summary: 'This page lists tutorials designed to teach you all the concepts and practical techniques you''ll need to know to do DOM manipulation.'
 tags:
   - Basic
   - Pages
-readiness: 'In Progress'
-notes:
-  - 'No content; deletion candidate'
-summary: 'This page lists tutorials designed to teach you all the concepts and practical techniques you''ll need to know to do DOM manipulation.'
 uri: dom/tutorials
 
 ---
-# Document Object Model tutorials
-
-## Summary
+## <span>Summary</span>
 
 This page lists tutorials designed to teach you all the concepts and practical techniques you'll need to know to do DOM manipulation.
 

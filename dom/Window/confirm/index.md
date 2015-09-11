@@ -1,47 +1,57 @@
 ---
 title: confirm
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[confirm](https://developer.mozilla.org/en-US/docs/Web/API/window.confirm) Article]'
+  - 'Microsoft Developer Network: [[confirm Method](http://msdn.microsoft.com/en-us/library/ie/ms536376(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /dom/Window
+summary: 'Displays a synchronized confirmation dialog box showing the given text and possibly localized OK and Cancel buttons.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-summary: 'Displays a synchronized confirmation dialog box showing the given text and possibly localized OK and Cancel buttons.'
 uri: dom/Window/confirm
 
 ---
-# confirm
-
-## Summary
+## <span>Summary</span>
 
 Displays a synchronized confirmation dialog box showing the given text and possibly localized OK and Cancel buttons.
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var confirmed = window.confirm(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### message
+### <span>message</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The message to display in the confirmation dialog box. If no value is provided, the dialog box does not contain a message.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
 Whether the user confirmed (clicked on OK).
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 if(window.confirm('Do you want to contine?')){
 // Next action
 }else{
@@ -49,13 +59,13 @@ if(window.confirm('Do you want to contine?')){
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      Not recommended for general use. See the notes for details.
 
 Use this method to let the user confirm some action.
 
-## Notes
+## <span>Notes</span>
 
 -   The title bar of the confirmation dialog box cannot be changed.
 -   Not recommended due to the following issues -
@@ -64,12 +74,3 @@ Use this method to let the user confirm some action.
     -   Intrusive dialog boxes are generally annoying for the user.
 
 Alternatively, create a dialog using other web platform means.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[confirm](https://developer.mozilla.org/en-US/docs/Web/API/window.confirm) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[confirm Method](http://msdn.microsoft.com/en-us/library/ie/ms536376(v=vs.85).aspx) Article]
-

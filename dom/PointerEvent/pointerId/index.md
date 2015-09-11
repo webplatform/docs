@@ -1,40 +1,49 @@
 ---
 title: pointerId
+attributions:
+  - 'Microsoft Developer Network: [[pointerId Property](http://msdn.microsoft.com/en-us/library/ie/hh772358(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/PointerEvent
+    href: /dom/PointerEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /dom/PointerEvent
+standardization_status: 'W3C Working Draft'
+summary: 'A unique identifier for the pointer causing the event'
 tags:
   - API
   - Object
   - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'A unique identifier for the pointer causing the event'
 uri: dom/PointerEvent/pointerId
 
 ---
-# pointerId
-
-## Summary
+## <span>Summary</span>
 
 A unique identifier for the pointer causing the event
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/PointerEvent](/dom/PointerEvent)</span></span>
+Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = event.pointerId;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
 The unique identifier of the contact for a touch, mouse or pen.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //  Adds a pointer to the MSGesture object for the red square
 function redListener(evt)
 {
@@ -47,15 +56,9 @@ function redListener(evt)
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      This identifier must be unique from all other active pointers at the time. A user agent may recycle previously retired values for pointerId from previous active pointers, if necessary.
 
 If the device producing the event is a mouse, then the pointerId must be 1. Device types other than mouse must not have a pointerId of 1.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[pointerId Property](http://msdn.microsoft.com/en-us/library/ie/hh772358(v=vs.85).aspx) Article]
 

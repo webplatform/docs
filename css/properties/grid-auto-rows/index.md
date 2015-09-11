@@ -1,53 +1,67 @@
 ---
 title: grid-auto-rows
+notes:
+  - 'Add description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'Grid containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'As specified'
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: 'Changes default size of grid rows.  Creates implicit grid tracks when a grid item is placed into a row that is not explicitly sized (by grid-template-rows ) or when the auto-placement algorithm has generated additional rows. This property (with grid-auto-columns) specifies the size of such implicitly-created tracks.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Add description, compatibility.'
-summary: 'Changes default size of grid rows.  Creates implicit grid tracks when a grid item is placed into a row that is not explicitly sized (by grid-template-rows ) or when the auto-placement algorithm has generated additional rows. This property (with grid-auto-columns) specifies the size of such implicitly-created tracks.'
 uri: css/properties/grid-auto-rows
 
 ---
-# grid-auto-rows
-
-## Summary
+## <span>Summary</span>
 
 Changes default size of grid rows. Creates implicit grid tracks when a grid item is placed into a row that is not explicitly sized (by grid-template-rows ) or when the auto-placement algorithm has generated additional rows. This property (with grid-auto-columns) specifies the size of such implicitly-created tracks.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   Grid containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   As specified
 
-## Syntax
+## <span>Syntax</span>
 
 -   `grid-auto-rows: <track-size>`
 
-## Values
+## <span>Values</span>
 
 \<track-size\>
 :   A space-separated track list specifying the line names and track sizing functions of the grid.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /*
 In this example, grid item B is positioned in column 5,
 which creates four implicit columns (1-4) and one implicit row (2).
@@ -65,18 +79,16 @@ grid-auto-rows: 20px }
 </style>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -91,8 +103,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -122,7 +132,7 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Grid Layout
+#### <span>Grid Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -139,4 +149,3 @@ Specification
 -   [grid-row-position](/css/properties/grid-row-position)
 
 -   [height](/css/properties/height)
-

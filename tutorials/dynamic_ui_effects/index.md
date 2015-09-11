@@ -1,20 +1,17 @@
 ---
-title: dynamic ui effects
+title: Dynamic UI effects
+readiness: 'Ready to Use'
+summary: 'This page lists tutorials concerned with using JavaScript to create dynamic effects such as animations, graphic manipulation, and other interesting techniques.'
 tags:
   - Tutorials
   - JavaScript
-readiness: 'Ready to Use'
-summary: 'This page lists tutorials concerned with using JavaScript to create dynamic effects such as animations, graphic manipulation, and other interesting techniques.'
 uri: 'tutorials/dynamic ui effects'
 
 ---
-# Dynamic UI effects
-
-## Summary
+## <span>Summary</span>
 
 This page lists tutorials concerned with using JavaScript to create dynamic effects such as animations, graphic manipulation, and other interesting techniques.
 
-## Animation
+## <span>Animation</span>
 
 -   [Animation in JavaScript](/tutorials/animation_in_javascript)
-

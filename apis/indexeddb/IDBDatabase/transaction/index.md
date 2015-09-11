@@ -1,43 +1,52 @@
 ---
 title: transaction
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBDatabase
+    href: /apis/indexeddb/IDBDatabase
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBDatabase
+summary: 'Execute the steps for creating a transaction in a sychronous fashion.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Execute the steps for creating a transaction in a sychronous fashion.'
 uri: apis/indexeddb/IDBDatabase/transaction
 
 ---
-# transaction
-
-## Summary
+## <span>Summary</span>
 
 Execute the steps for creating a transaction in a sychronous fashion.
 
-*Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)*
+Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.transaction(storeNames, mode);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### storeNames
+### <span>storeNames</span>
 
- Data-type�
+ Data-type
 :   Blob
 
  If specified, defines the names of the object stores included in the transaction. Use a **DOMString** to specify a single object store or an array of **DOMString** values to specify multiple object stores.
 
-### mode
+### <span>mode</span>
 
- Data-type�
+ Data-type
 :   Blob
 
  Value Meaning
@@ -54,103 +63,78 @@ Changes are allowed in this transaction.
 
 Objects in the database can be create
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
-<dl data-table="wikitable">
+<table>
+<col width="50%" />
+<col width="50%" />
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Exception properties</strong></td>
+<td align="left"><strong>Description</strong></td>
+</tr>
+<tr class="even">
+<td align="left"><dl>
+<p></p>
 <dt>
-**Exception properties**
-
-</dt>
-<dd>
-**Description**
-
-</dd>
-<dt>
-<dl>
-
-<dt>
-**name**: InvalidAccessError
-
+<strong>name</strong>: InvalidAccessError
 </dt>
 <dt>
-**code**: DOMException.INVALID\_ACCESS\_ERR (15)
-
+<strong>code</strong>: DOMException.INVALID_ACCESS_ERR (15)
 </dt>
-</dl>
-</dt>
-<dd>
-The value of the **storeNames** parameter is blank or otherwise invalid.
-
-</dd>
+</dl></td>
+<td align="left">The value of the <strong>storeNames</strong> parameter is blank or otherwise invalid.</td>
+</tr>
+<tr class="odd">
+<td align="left"><dl>
+<p></p>
 <dt>
-<dl>
-
-<dt>
-**name**: InvalidStateError
-
+<strong>name</strong>: InvalidStateError
 </dt>
 <dt>
-**code**: DOMException.INVALID\_STATE\_ERR (11)
-
+<strong>code</strong>: DOMException.INVALID_STATE_ERR (11)
 </dt>
-</dl>
-</dt>
-<dd>
-The database has been closed or a transaction has been requested for an object that has been deleted or is otherwise unavailable.
-
-</dd>
+</dl></td>
+<td align="left">The database has been closed or a transaction has been requested for an object that has been deleted or is otherwise unavailable.</td>
+</tr>
+<tr class="even">
+<td align="left"><dl>
+<p></p>
 <dt>
-<dl>
-
-<dt>
-**name**: NotFoundError
-
+<strong>name</strong>: NotFoundError
 </dt>
 <dt>
-**code**: DOMException.NOT\_FOUND\_ERR (8)
-
+<strong>code</strong>: DOMException.NOT_FOUND_ERR (8)
 </dt>
-</dl>
-</dt>
-<dd>
-A specified object store could not be found in the current database (case-sensitive).
-
-</dd>
+</dl></td>
+<td align="left">A specified object store could not be found in the current database (case-sensitive).</td>
+</tr>
+<tr class="odd">
+<td align="left"><dl>
+<p></p>
 <dt>
-<dl>
-
-<dt>
-**name**: TypeError
-
+<strong>name</strong>: TypeError
 </dt>
-</dl>
-</dt>
-<dd>
-The value of the **mode** parameter is not supported.
+</dl></td>
+<td align="left">The value of the <strong>mode</strong> parameter is not supported.</td>
+</tr>
+</tbody>
+</table>
 
-</dd>
-</dl>
   **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

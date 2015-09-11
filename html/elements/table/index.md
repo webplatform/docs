@@ -1,24 +1,24 @@
 ---
 title: table
+notes:
+  - 'Add description, notes, compatibility.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLTableElement](/dom/HTMLTableElement)'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The &lt;table&gt; element is a wrapper for an HTML table. It defines the start and end of a table, and can contain other table elements, such as &lt;tr&gt;.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add description, notes, compatibility.'
-summary: 'The <table> element is a wrapper for an HTML table. It defines the start and end of a table, and can contain other table elements, such as <tr>.'
 uri: html/elements/table
 
 ---
-# table
+## <span>Summary</span>
 
-## Summary
+The &lt;table&gt; element is a wrapper for an HTML table. It defines the start and end of a table, and can contain other table elements, such as &lt;tr&gt;.
 
-The \<table\> element is a wrapper for an HTML table. It defines the start and end of a table, and can contain other table elements, such as \<tr\>.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableElement](/dom/HTMLTableElement)
@@ -29,11 +29,11 @@ Tables were often used for laying out web pages because tables helped fix the po
 
 You might find working with an HTML table editor easier than coding tables by hand, unless you are especially adept at visualizing table row and columns using the appropriate HTML tags. It is easy to miss or drop a tag when coding tables manually, which will cause your table to be malformed.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the [**tbody**](/html/elements/tbody) element with the ****table****, [**td**](/html/elements/td), [**thead**](/html/elements/thead), and [**tr**](/html/elements/tr) elements to create a table with the first row in the table head and the second row in the table body.
 
-``` {.html}
+``` html
 <table>
   <thead>
     <tr>
@@ -52,7 +52,7 @@ This example uses the [**tbody**](/html/elements/tbody) element with the ****tab
 </table>
 ```
 
-## Usage
+## <span>Usage</span>
 
      At the most simple level you need to use the following three groups of tags to create a basic table.
 
@@ -83,27 +83,26 @@ tags. The term "td" stands for table data, but as a representation, you can view
 
 The three pairs of tags can create a simple two row, two column table using the code below.
 
-row 1 col 1
-:   row 1 col 2
-row 1 col 2
-:   row 2 col 2
+||
+|row 1 col 1|row 1 col 2|
+|row 1 col 2|row 2 col 2|
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-table-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-table-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TABLE)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -205,11 +204,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Tables
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   **table**
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Tables</span>
 
 -   [border-collapse](/css/properties/border-collapse)
 

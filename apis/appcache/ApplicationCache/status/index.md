@@ -1,34 +1,44 @@
 ---
 title: status
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/appcache/beginner/)'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/appcache/ApplicationCache
+    href: /apis/appcache/ApplicationCache
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned short'
+    href: /apis/appcache/ApplicationCache
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the current status of the application cache, as given by the constants defined below.'
 tags:
   - API
   - Object
   - Properties
   - Appcache
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the current status of the application cache, as given by the constants defined below.'
 uri: apis/appcache/ApplicationCache/status
 
 ---
-# status
-
-## Summary
+## <span>Summary</span>
 
 Returns the current status of the application cache, as given by the constants defined below.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)</span></span>
+Property of [apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)[apis/appcache/ApplicationCache](/apis/appcache/ApplicationCache)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = ApplicationCache.status;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+Returns an object of type unsigned shortunsigned short
 
 **UNCACHED** (numeric value 0)
 :   The current webpage doesn't use an application cache at this time.
@@ -48,9 +58,9 @@ var result = ApplicationCache.status;
 **OBSOLETE** (numeric value 5)
 :   The current webpage's application cache is marked as obsolete.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var appCache = window.applicationCache;
 
 switch (appCache.status) {
@@ -78,18 +88,16 @@ switch (appCache.status) {
 };
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C ApplicationCache Specification](http://dev.w3.org/html5/spec/single-page.html#dom-appcache-status)
 :   W3C Editor's Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Off-line Storage
+#### <span>Off-line Storage</span>
 
 -   [appcache](/apis/appcache)
 
@@ -110,14 +118,3 @@ Specification
 -   [localStorage](/apis/web-storage/Storage/localStorage)
 
 -   [Introduction to using the application cache](/tutorials/appcache_beginner)
-
--   [Overview of client-side storage](/tutorials/offline_storage)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/appcache/beginner/)
-

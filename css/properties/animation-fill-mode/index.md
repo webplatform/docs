@@ -1,51 +1,68 @@
 ---
 title: animation-fill-mode
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)'
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://gist.github.com/7012307'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements, ::before and ::after pseudo-elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: "Defines what values are applied by the animation outside the time it is executing (before and after the animation). \n"
-code_samples:
-  - 'http://gist.github.com/7012307'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/animation-fill-mode
 
 ---
-# animation-fill-mode
-
-## Summary
+## <span>Summary</span>
 
 Defines what values are applied by the animation outside the time it is executing (before and after the animation).
 
 By default, an animation does not affect property values between the time it is applied (when the [animation-name](/css/properties/animation-name) property is set on an element) and the time it begins execution (determined by the [animation-delay](/css/properties/animation-delay) property). Also, by default an animation does not affect property values after the animation ends (determined by the [animation-duration](/css/properties/animation-duration) property). The **animation-fill-mode** property can override this behavior.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements, ::before and ::after pseudo-elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `animation-fill-mode: backwards`
 -   `animation-fill-mode: both`
 -   `animation-fill-mode: forwards`
 -   `animation-fill-mode: none`
 
-## Values
+## <span>Values</span>
 
 none
 :   Property values do not change before the animation starts, and they return to their original state when the animation ends. This is the default behavior.
@@ -55,20 +72,14 @@ forwards
 
 <dl>
 <dd>
-[animation-direction](/css/properties/animation-direction)
-:   [animation-iteration-count](/css/properties/animation-iteration-count)
-`normal`
-:   `even` or `odd`
-`reverse`
-:   `even` or `odd`
-`alternate`
-:   `even`
-`alternate`
-:   `odd`
-`alternate-reverse`
-:   `even`
-`alternate-reverse`
-:   `odd`
+|[animation-direction](/css/properties/animation-direction)|[animation-iteration-count](/css/properties/animation-iteration-count)|last keyframe encountered|
+|:---------------------------------------------------------|:---------------------------------------------------------------------|:------------------------|
+|`normal`|`even` or `odd`|100% or `to`|
+|`reverse`|`even` or `odd`|0% or `from`|
+|`alternate`|`even`|0% or `from`|
+|`alternate`|`odd`|100% or `to`|
+|`alternate-reverse`|`even`|100% or `to`|
+|`alternate-reverse`|`odd`|0% or `from`|
 
 </dd>
 </dl>
@@ -78,12 +89,10 @@ backwards
 
 <dl>
 <dd>
-[animation-direction](/css/properties/animation-direction)
-:   first relevant keyframe
-`normal` or `alternate`
-:   0% or `from`
-`reverse` or `alternate-reverse`
-:   100% or `to`
+|[animation-direction](/css/properties/animation-direction)|first relevant keyframe|
+|:---------------------------------------------------------|:----------------------|
+|`normal` or `alternate`|0% or `from`|
+|`reverse` or `alternate-reverse`|100% or `to`|
 
 </dd>
 </dl>
@@ -91,11 +100,11 @@ backwards
 both
 :   Values set by the first and last keyframes are applied before and after the animation.
 
-## Examples
+## <span>Examples</span>
 
 An example of a mobile-like interface in which two concurrent animations displace content with a banner header. Without any animations, both elements would overlay the same screen area. In the *moveContent* animation, the fill mode of **forwards** means its end state (moved downward) persists after it finishes executing. In the *insertBanner* animation, the fill mode of **backwards** means its start state (off-screen) takes precedence over the element's CSS during the delay before the animation executes. (In the subsequent *scrollBanner* animation, the fill-mode is explicitly set to **none** to keep its initial state from overriding that of the previous animation.)
 
-``` {.css}
+``` css
 article {
     animation-name : moveContent;
     animation-duration : 1s;
@@ -139,24 +148,22 @@ header {
 
 [View live example](http://code.webplatform.org/gist/7012307)
 
-## Usage
+## <span>Usage</span>
 
      Can also be a comma-separated list of fill modes, e.g., forwards, none, backwards, where each fill mode is applied to the corresponding ordinal position value of the animation-name property.
 
-## Notes
+## <span>Notes</span>
 
 This is an experimental specification, and therefore not completely finalized. Syntax and behavior are still subject to change in future versions.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Animation](http://www.w3.org/TR/css3-animations/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)
@@ -169,15 +176,6 @@ Specification
 -   [animation-play-state](/css/properties/animation-play-state)
 -   [animation-timing-function](/css/properties/animation-timing-function)
 
-### External resources
+### <span>External resources</span>
 
 -   See also [Val Head's examples with tutorial video](http://www.valhead.com/2013/01/04/tutorial-css-animation-fill-mode/).
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

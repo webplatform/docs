@@ -1,29 +1,26 @@
 ---
-title: pointerevents
+title: Pointer Events
+notes:
+  - 'This is a portal page but doesn''t link to the rest of the API'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'Pointer Events represent events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen.'
 tags:
   - API
   - Listings
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'This is a portal page but doesn''t link to the rest of the API'
-summary: 'Pointer Events represent events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen.'
 uri: apis/pointerevents
 
 ---
-# Pointer Events
-
-## Summary
+## <span>Summary</span>
 
 Pointer Events represent events and related interfaces for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Pointer Events Primer](/concepts/PointerEvents)
 
-### External resources
+### <span>External resources</span>
 
 -   [Pointer Events Spec](http://www.w3.org/TR/PointerEvents/)
-

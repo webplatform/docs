@@ -1,47 +1,64 @@
 ---
 title: text-transform
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Last Call Working Draft'
-summary: 'This property transforms text for styling purposes. (It has no effect on the underlying content.)'
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5651013'
   - 'http://gist.github.com/5651033'
-uri: css/properties/text-transform
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'no'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'This property transforms text for styling purposes. (It has no effect on the underlying content.)'
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/text-transform
 
 ---
-# text-transform
-
-## Summary
+## <span>Summary</span>
 
 This property transforms text for styling purposes. (It has no effect on the underlying content.)
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   no
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-transform: capitalize`
 -   `text-transform: full-width`
@@ -49,7 +66,7 @@ Percentages
 -   `text-transform: none`
 -   `text-transform: uppercase`
 
-## Values
+## <span>Values</span>
 
 none
 :   Default. Text is not transformed.
@@ -66,11 +83,11 @@ lowercase
 full-width
 :   Puts all characters in fullwidth form. If the character does not have a corresponding fullwidth form, it is left as is. This value is typically used to typeset Latin characters and digits like ideographic characters.
 
-## Examples
+## <span>Examples</span>
 
 Examples using different values for text-transform
 
-``` {.css}
+``` css
 /*
     - text-transform property examples
     - explanations inline
@@ -102,7 +119,7 @@ body {
 
 Using text-transform also works on greek or german letters
 
-``` {.css}
+``` css
 /*
     - text-transform property examples
     - explanations inline
@@ -120,38 +137,27 @@ body {
 
 [View live example](http://code.webplatform.org/gist/5651033)
 
-## Notes
+## <span>Notes</span>
 
 When using text-transform: capitalize; authors should not expect capitalize to follow language-specific titlecasing conventions (such as skipping articles in English).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   W3C Last Call Working Draft
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
-[http://www.w3.org/TR/CSS2/text.html\#caps-prop](http://www.w3.org/TR/CSS2/text.html#caps-prop)
+<http://www.w3.org/TR/CSS2/text.html#caps-prop>
 
-[http://www.w3.org/wiki/CSS/Properties/text-transform](http://www.w3.org/wiki/CSS/Properties/text-transform)
+<http://www.w3.org/wiki/CSS/Properties/text-transform>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `defaults`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

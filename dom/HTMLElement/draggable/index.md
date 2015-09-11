@@ -1,54 +1,60 @@
 ---
 title: draggable
+notes:
+  - 'examples, compatibility'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/HTMLElement
+standardization_status: 'W3C Working Draft'
+summary: 'Gets or sets whether an element can be dragged and dropped.'
 tags:
   - API
   - Object
   - Properties
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'examples, compatibility'
-summary: 'Gets or sets whether an element can be dragged and dropped.'
 uri: dom/HTMLElement/draggable
 
 ---
-# draggable
-
-## Summary
+## <span>Summary</span>
 
 Gets or sets whether an element can be dragged and dropped.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var draggable = element.draggable;
 element.draggable = draggable;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 Whether the element is draggable.
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Use this property to allow or disallow an element to be dragged and dropped.
 
-## Notes
+## <span>Notes</span>
 
 The default value for most elements is **false**. [a](/html/elements/a) and [img](/html/elements/img) elements are draggable by default.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
+
 [HTML5](http://www.w3.org/TR/html5)
 :   Working Draft
 

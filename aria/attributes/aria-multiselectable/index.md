@@ -1,34 +1,42 @@
 ---
 title: aria-multiselectable
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - ARIA
-readiness: 'Not Ready'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
 uri: aria/attributes/aria-multiselectable
 
 ---
-# aria-multiselectable
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:
 
+</th>
+<td>
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
-<dl data-table="wikitable">
-<dt>
+<table class="wikitable">
+<tr>
+<th>
 Used in Roles
 
-</dt>
-<dd>
+</th>
+<td>
 <dl>
 
 <dt>
@@ -44,26 +52,20 @@ tree
 
 </dt>
 </dl>
-</dd>
-</dl>
+</td>
+</tr>
+</table>
   This property indicates whether a user may select more then one item from the current list. Lists, trees, and grids may allow users to select more than one item. **Note**  For cross-browser compatibility, always use the WAI-ARIA attribute syntax to access and modify ARIA properties, for example `object.setAttribute("aria-valuenow", newValue)`.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://go.microsoft.com/fwlink/p/?linkid=203793), Section 6.6
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Accessible Rich Internet Applications (ARIA)`
 -   `W3C ARIA-Multiselect`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,43 +1,52 @@
 ---
 title: getAttributeNode
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Element
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves an attribute node by name.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat'
-summary: 'Retrieves an attribute node by name.'
 uri: dom/Element/getAttributeNode
 
 ---
-# getAttributeNode
-
-## Summary
+## <span>Summary</span>
 
 Retrieves an attribute node by name.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var attributeNode = element.getAttributeNode();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 An attribute node.
 
-## Examples
+## <span>Examples</span>
 
 The following example uses **getAttributeNode** to create an attribute and populate its **div** element. Note how the call to [**setAttribute**](/dom/Element/setAttribute) changes the [**href**](/html/attributes/href) value for the content attribute but not for the DOM attribute.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -65,16 +74,7 @@ function GetAttrNode() {
 </html>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

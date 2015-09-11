@@ -1,49 +1,49 @@
 ---
 title: requestFullscreen
+notes:
+  - 'Needs examples, and better compat.'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+standardization_status: 'W3C Working Draft'
+summary: 'The requestFullscreen method provides a way for presenting web content using the user’s entire screen. The API lets you easily direct the browser to make an element — and its children, if any — occupy the full available screen space, without borders or other chrome elements.'
 tags:
   - API
   - Object
   - Methods
   - DOM
   - JavaScript
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs examples, and better compat.'
-summary: 'The requestFullscreen method provides a way for presenting web content using the user’s entire screen. The API lets you easily direct the browser to make an element — and its children, if any — occupy the full available screen space, without borders or other chrome elements.'
 uri: dom/Element/requestFullscreen
 
 ---
-# requestFullscreen
-
-## Summary
+## <span>Summary</span>
 
 The requestFullscreen method provides a way for presenting web content using the user’s entire screen. The API lets you easily direct the browser to make an element — and its children, if any — occupy the full available screen space, without borders or other chrome elements.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  element.requestFullscreen();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Fullscreen](http://www.w3.org/TR/fullscreen/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [tutorials/using\_the\_full-screen\_api](/tutorials/using_the_full-screen_api)
-

@@ -7,7 +7,7 @@ tags:
 uri: 'tutorials/Handling events with JavaScript'
 
 ---
-## Introduction
+## <span>Introduction</span>
 
 Now you are comfortable with using CSS for styling and layout, and have taken your first stumbling steps with understanding variables, functions, methods, etc. in JavaScript, it is time to start using that knowledge to provide your site visitors with interactivity and dynamic behavior (such as dragging and dropping, animation, etc). Controlling events with JavaScript allows you to step into the role as Doctor Frankenstein and really give life to your creations!
 
@@ -15,13 +15,13 @@ But enough about the joys of JavaScript—this [Web Standards Curriculum](http:/
 
 Bear in mind that you can [download the code example for this article](http://dev.opera.com/articles/view/handling-events-with-javascript/code-example.zip) and try it out for yourself.
 
-## What are events?
+## <span>What are events?</span>
 
 Events occur when some sort of interaction takes place in a web page. This can be the end user clicking on something, moving the mouse over a certain element or pressing down certain keys on the keyboard. An event can also be something that happens in the web browser, such as the web page completing the loading of a page, or the user scrolling or resizing the window.
 
 Through the use of JavaScript, you can detect when certain events happen, and cause things to occur in response to those events.
 
-## How events work
+## <span>How events work</span>
 
 When events happen to an HTML element in a web page, it checks to see if any event handlers are attached to it. If the answer is yes, it calls them in respective order, while sending along references and further information for each event that occurred. The event handlers then act upon the event.
 
@@ -31,7 +31,7 @@ Event capturing starts with the outer most element in the DOM and works inwards 
 
 Event bubbling works in exactly the opposite manner: it begins by checking the target of the event for any attached event handlers, then bubbles up through each respective parent element until it reaches the HTML element.
 
-## The evolution of events
+## <span>The evolution of events</span>
 
 In the early days of JavaScripting, we used event handlers directly within the HTML element, like this:
 
@@ -52,7 +52,7 @@ The next step in event evolution was to apply events from within a JavaScript bl
 
 Note the clean HTML in the last example. This is generally what’s referred to as unobtrusive JavaScript. The benefit of this, besides JavaScript caching and code control, is code separation: you have all your content in one location and your interaction code in another. This also allows for a more accessible approach where the link will work perfectly fine with JavaScript disabled; it is also something that will please search engines.
 
-### DOM Level 2 Events
+### <span>DOM Level 2 Events</span>
 
 Back in November in 2000, the Document Object Model (DOM) Level 2 Events Specification was released by the W3C, offering a more detailed and granular way to control events in a web page. The new way to apply events to HTML elements looked like this:
 
@@ -62,7 +62,7 @@ The first parameter of the `addEventListener method` is the name of the event, a
 
 The counterpart of `addEventListener` is `removeEventListener`, which removes any applied event from an HTML element.
 
-### Internet Explorer event model exception
+### <span>Internet Explorer event model exception</span>
 
 Unfortunately, Internet Explorer has so far not implemented the DOM Level 2 event model, and instead has its own proprietary `attachEvent` method. It looks like this in action:
 
@@ -72,13 +72,13 @@ Note that the `attachEvent` still uses the "on" prefix before the name of the ac
 
 The counterpart of `attachEvent` is `detachEvent`, to remove any applied event from an HTML element.
 
-### Applying events cross-browser
+### <span>Applying events cross-browser</span>
 
 With the inconsistencies between web browsers in event handling implementations, there have been numerous attempts from web developers to offer a good solution for applying events sucessfully across all major browsers. These solutions have different pros and cons, and are usually referred to as `addEvent` functions.
 
 Most major JavaScript libraries have these built in, and there are also a number of stand-alone solutions available online. One suggestion is to use [addEvent by Dean Edwards](http://dean.edwards.name/weblog/2005/10/add-event/); you should also consider looking at something like [event handling options with the jQuery JavaScript library](http://docs.jquery.com/Events).
 
-## Events and accessibility
+## <span>Events and accessibility</span>
 
 Before we delve deeper into explaining how to control and call events, I just want to emphasize accessibility. While it’s normally a broad term for most people, I use it here to convey that what you want to do through the usage of events really should work when JavaScript is disabled or for other reasons blocked in the web browser.
 
@@ -86,7 +86,7 @@ Some people do turn off JavaScript in their web browsers, but more commonly prox
 
 In general, never apply events to HTML elements that don’t already have a built-in behavior for that certain event. You should only apply `onclick` events to elements like `a`, which already have a fallback behavior for click events (eg browsing to the location specified in the link, or submitting a form).
 
-## Controlling events
+## <span>Controlling events</span>
 
 Let’s start out with a simple example of an event, and how you can react to it. For the sake of simplicity, I will be using the `addEvent` solution referred to above, to avoid delving into the intricacies of cross-browser workarounds in each example.
 
@@ -105,7 +105,7 @@ That wasn’t too bad, right? If you want to, you can use so-called anonymous fu
       alert("Hello there, stranger!");
     });
 
-### Applying events to certain elements
+### <span>Applying events to certain elements</span>
 
 To take this further, we should start by looking into adding events to some other elements on the page. For the sake of argument, let’s suppose you want to have an event happen every time a link is clicked. Combining this with what we learned above, this would be the way to go about it:
 
@@ -125,7 +125,7 @@ Ok, what just happened? First we used the `onload` event to check when the web p
 
 But what about the cheeky “won’t take you there” part? After the `alert` has been shown, the line below reads `return false`. This means that within that context, returning false prevents the default action. We’ll get into other ways to dictate how events behave in the last section of this article.
 
-## Event object references
+## <span>Event object references</span>
 
 To add more detail to your event handling, you can take different actions depending on certain properties of the event that took place. For instance, if you are dealing with an `onkeypress`, you might want the event to occur only if the user presses the enter key, but no other keys.
 
@@ -143,7 +143,7 @@ The second line looks for a `target` property on the established event reference
 
 Note: this control and behavior is also addressed with the above referenced [addEvent](http://dean.edwards.name/weblog/2005/10/add-event/) function, where the event object has been normalized to work the same in all web browsers. The above code is written out as if this is not the case, though, to give you an insight into web browser differences.
 
-### Checking an event-specific property
+### <span>Checking an event-specific property</span>
 
 Let’s put this into action. The following example executes a different code block depending on what key was pressed:
 
@@ -163,11 +163,11 @@ Let’s put this into action. The following example executes a different code bl
 
 The code inside the `whatKey` function checks a property on the event that took place, namely `keyCode`, to see which key was actually pressed on the keyboard. The number 13 means the Enter key and the number 9 means the Tab key.
 
-## Event defaults and event bubbling
+## <span>Event defaults and event bubbling</span>
 
 There are a number of cases where you would be interested in stopping the default behavior of an event. For instance, you might want to prevent the user from submitting a form if certain fields aren’t filled out. The same goes for event bubbling, and this part will explain how you can take control of such situations.
 
-### Preventing the default behavior of events
+### <span>Preventing the default behavior of events</span>
 
 Just as with event model and event object differences, there are two ways to go about this to support IE, and all other browsers. Building on the previous code for getting an event object reference, the next listing includes code to stop the default link behaviour occuring when links are clicked:
 
@@ -186,7 +186,7 @@ This approach uses something called object detection, to confirm that a method i
 
 If that method isn’t supported, it falls back to setting the `returnValue` of the global event object to `false`, thus stopping the default behaviour in Internet Explorer.
 
-### Stopping event bubbling
+### <span>Stopping event bubbling</span>
 
 Consider the following HTML hierarchy:
 
@@ -220,7 +220,7 @@ Here’s how to write code to stop the bubbling of an event:
       }
     }
 
-## Complete event handling example
+## <span>Complete event handling example</span>
 
 I have put together [an example page](http://dev.opera.com/articles/view/handling-events-with-javascript/javascript-event-handling-example.html) showcasing adding an event handler and preventing that event’s default action, depending on certain criteria. The event handler checks whether a form is allowed to be submitted or not depending on if the user has filled out all fields. The JavaScript code is as follows:
 
@@ -240,13 +240,13 @@ I have put together [an example page](http://dev.opera.com/articles/view/handlin
       }
     });
 
-## Summary
+## <span>Summary</span>
 
 I have merely scratched the surface of event handling in this article, but I hope you have gained a good understanding of how events work. I might have been a little hard on you with web browser inconsistencies, but my belief is that it’s very important to know these issues from the start.
 
 Once you have accepted these issues and learned to master the solutions above, there’s no end to the possibilities you can achieve with JavaScript and event handling!
 
-## Exercise questions
+## <span>Exercise questions</span>
 
 -   What is an event?
 -   What’s the difference between event capture and event bubbling?

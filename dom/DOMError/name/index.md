@@ -1,53 +1,56 @@
 ---
 title: name
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec reference'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/DOMError
+    href: /dom/DOMError
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/DOMError
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the name of an error that occurred during a DOM operation.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs spec reference'
-summary: 'Returns the name of an error that occurred during a DOM operation.'
 uri: dom/DOMError/name
 
 ---
-# name
-
-## Summary
+## <span>Summary</span>
 
 Returns the name of an error that occurred during a DOM operation.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DOMError](/dom/DOMError)</span></span>
+Property of [dom/DOMError](/dom/DOMError)[dom/DOMError](/dom/DOMError)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var errorName = error.name;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The name associated with an error.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function getErrorName(e) {
 //retrieve name text for DOMError
 var errorName = e.name;
 return errorName;
 }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

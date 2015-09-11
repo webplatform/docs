@@ -1,24 +1,24 @@
 ---
-title: audio tag
+title: Implementing the HTML5 audio tag
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/audio/quick/)'
+readiness: 'Ready to Use'
+summary: 'A quick guide to implementing the audio tag in HTML.'
 tags:
   - Tutorials
   - Audio
   - HTML
-readiness: 'Ready to Use'
-summary: 'A quick guide to implementing the audio tag in HTML.'
 uri: 'tutorials/audio tag'
 
 ---
-# Implementing the HTML5 audio tag
-
 **By [Ernest Delgado](http://www.html5rocks.com/profiles/#ernestd)**
 Originally published Feb. 5, 2010
 
-## Summary
+## <span>Summary</span>
 
 A quick guide to implementing the audio tag in HTML.
 
-## Step 1: Wrap your Flash object with the audio tag
+## <span>Step 1: Wrap your Flash object with the audio tag</span>
 
 Those browsers that don't recognize the audio tag will load the Flash content instead.
 
@@ -37,7 +37,7 @@ Those browsers that don't recognize the audio tag will load the Flash content in
 
     </audio>
 
-## Step 2: Add the source reference
+## <span>Step 2: Add the source reference</span>
 
 We can add as many "source" lines and formats as we want. If the browser doesn't support one specific format it will fallback to the next one and so forth.
 
@@ -57,7 +57,7 @@ We can add as many "source" lines and formats as we want. If the browser doesn't
 
     </audio>
 
-## Step 3: Add fallback to Flash
+## <span>Step 3: Add fallback to Flash</span>
 
 To be safe, we need to add the fallback to a Flash audio player, in case the browser doesn't support any of the formats we specified. For instance, Firefox 3.5 only supports the audio tag with *Ogg* format, but we might only have the *mp3* file available.
 
@@ -100,7 +100,7 @@ To make it easier, we are using the [SWFObject](http://code.google.com/p/swfobje
     <script src="http://www.google.com/jsapi" type="application/javascript"></script>
     <script type="application/javascript">google.load("swfobject", "2.2");</script>
 
-## Step 4: Add the default controls to show the player
+## <span>Step 4: Add the default controls to show the player</span>
 
 These controls are not customizable (see examples at the end). Since these default controls will show up regardless of the supported format we will need to handle its visibility with the conditional we previously created.
 
@@ -162,7 +162,7 @@ Alternatively, you can create your own player using JavaScript and CSS.
       }
     </script>
 
-## Example
+## <span>Example</span>
 
 The following example will fallback to the Flash player in those browsers that don't support the audio tag nor can play mp3 in it.
 
@@ -238,10 +238,3 @@ If you don't want to start your customized player from the scratch you can take 
 You are all set!
 
 Flash MP3 player is from [neolao productions](http://flash-mp3-player.net/). MP3 sample is **Modal Blues** by [Rushus](http://freemusicarchive.org/music/Rushus/) and is licensed under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/).
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/audio/quick/)
-

@@ -1,35 +1,37 @@
 ---
-title: xhr
+title: XMLHttpRequest (XHR) API
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Needs correct listing of child pages.'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Working Draft'
+summary: 'XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.'
 tags:
   0: API
   1: Listings
   3: XHR
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs correct listing of child pages.'
-summary: 'XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.'
 uri: apis/xhr
 
 ---
-# XMLHttpRequest (XHR) API
-
-## Summary
+## <span>Summary</span>
 
 XMLHttpRequest (XHR) is a Javascript object that is used to send HTTP or HTTPS requests directly to a web server and load the server response data directly back into the script.
 
 API Name
 :   Summary
+
 [XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 :   XMLHttpRequest allows JavaScript to make HTTP requests, and is the most basic part of AJAX. It allows a website to dynamically request more content, without reloading the entire page.
+
 [DOMParser](/apis/xhr/objects/DOMParser)
 :
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### XHR
+#### <span>XHR</span>
 
 -   **XMLHttpRequest (XHR) API**
 
@@ -41,13 +43,6 @@ API Name
 
 -   [file xhr](/tutorials/file_xhr)
 
-### External resources
+### <span>External resources</span>
 
 -   [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

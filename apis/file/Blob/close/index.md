@@ -1,42 +1,47 @@
 ---
 title: close
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/file/Blob
+    href: /apis/file/Blob
+standardization_status: 'W3C Working Draft'
+summary: 'Releases the file lock for the associated file resource or frees the memory for the Blob object. After calling this method, performing addition operations on the Blob object fails and throws an exception.'
 tags:
   0: API
   1: Object
   2: Methods
   4: FileAPI
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Releases the file lock for the associated file resource or frees the memory for the Blob object. After calling this method, performing addition operations on the Blob object fails and throws an exception.'
 uri: apis/file/Blob/close
 
 ---
-# close
-
-## Summary
+## <span>Summary</span>
 
 Releases the file lock for the associated file resource or frees the memory for the Blob object. After calling this method, performing addition operations on the Blob object fails and throws an exception.
 
-*Method of [apis/file/Blob](/apis/file/Blob)*
+Method of [apis/file/Blob](/apis/file/Blob)[apis/file/Blob](/apis/file/Blob)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  Blob.close();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 This example creates a text blob object, reports its size, splits the blob object in half, reports that size, then closes the blob object.
 
-``` {.js}
+``` js
 <script>
 //create blob
-var blobj = new Blob(["I scream, you scream, we all scream for ice cream!"], { "type" : "text/xml" });
+var blobj = new Blob(["I scream, you scream, we <b>all</b> scream for ice cream!"], { "type" : "text/xml" });
 alert("Blob size: " + blobj.size);
 //slice blob in half, starting at beginning
 var blobjfirsthalf = blobj.slice(0, Math.round(blobj.size/2));
@@ -46,16 +51,7 @@ blobj.close();
 </script>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

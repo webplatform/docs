@@ -1,23 +1,21 @@
 ---
-title: css-regions
+title: Using CSS Regions to flow content through a layout
+readiness: 'Ready to Use'
+summary: "The CSS Regions feature provides a way to implement complex\nmagazine-style designs in which content flows through freely\npositioned layout elements. It allows you to dynamically flow content\nfrom one layout element to another, but does not specify how those\nelements are presented. For that, use whatever CSS technique is most\nappropriate: flexible boxes, multi-column layout, grid layout, floats,\nor even absolute positioning. This guide shows you how to flow text, but\ndoes not discuss these various layout techniques. See\nthis page\nfor the results, using one of the supporting browsers listed at the\nend of the article.\n"
 tags:
   - Tutorials
   - CSS
   - CSS-Regions
-readiness: 'Ready to Use'
-summary: "The CSS Regions feature provides a way to implement complex\nmagazine-style designs in which content flows through freely\npositioned layout elements. It allows you to dynamically flow content\nfrom one layout element to another, but does not specify how those\nelements are presented. For that, use whatever CSS technique is most\nappropriate: flexible boxes, multi-column layout, grid layout, floats,\nor even absolute positioning. This guide shows you how to flow text, but\ndoes not discuss these various layout techniques. See\nthis page\nfor the results, using one of the supporting browsers listed at the\nend of the article.\n"
 uri: tutorials/css-regions
 
 ---
-# Using CSS Regions to flow content through a layout
-
 **By Mike Sierra**
 
-## Summary
+## <span>Summary</span>
 
 The CSS Regions feature provides a way to implement complex magazine-style designs in which content flows through freely positioned layout elements. It allows you to dynamically flow content from one layout element to another, but does not specify how those elements are presented. For that, use whatever CSS technique is most appropriate: flexible boxes, multi-column layout, grid layout, floats, or even absolute positioning. This guide shows you how to flow text, but does not discuss these various layout techniques. See this page for the results, using one of the supporting browsers listed at the end of the article.
 
-## Arranging a layout
+## <span>Arranging a layout</span>
 
 Before you flow text through a layout, you need to set up a layout. Here's one that demonstrates various features of CSS regions:
 
@@ -25,7 +23,7 @@ Before you flow text through a layout, you need to set up a layout. Here's one t
 
 The HTML markup looks like this, and contains placeholder text indicating how the content is supposed to flow:
 
-``` {.xml}
+``` xml
  <section class="page">
    <div id="title"> <h1>Region #1</h1>         </div>
    <div id="intro"> <h1>Region #2</h1>         </div>
@@ -52,7 +50,7 @@ The HTML markup looks like this, and contains placeholder text indicating how th
 
 At this point, these layout elements are standard boxes that may contain their own independent content, but that will soon change.
 
-## Enabling a named flow
+## <span>Enabling a named flow</span>
 
 To flow text through a document, you need a set of layout elements as you see above, an element that contains content, and a pair of CSS properties to flow the content into the layout. In this example, the **article** tag contains the content, and the main set of numbered boxes provides the layout:
 
@@ -69,7 +67,7 @@ The [**flow-into**](/css/properties/flow-into) and [**flow-from**](/css/properti
 
 Notice the shaded box that interrupts the text, and the remaining short layout box that interrupts the subheading. As you will see below, these problems can be fixed.
 
-## How flows work
+## <span>How flows work</span>
 
 Flowing content into regions encourages you to keep *semantic* content elements separate from the *presentational* elements in which they appear. Even without a corresponding region chain in which to flow, applying [**flow-into**](/css/properties/flow-into) makes the content element disappear from view, just as if you had assigned [**display:none**](/css/properties/display). It reappears only when a corresponding [**flow-from**](/css/properties/flow-from) is applied to presentational elements.
 
@@ -79,7 +77,7 @@ Regions may be positioned arbitrarily around the screen, but content flows throu
 
 You may also specify more than one source of content, in which case again their order within the document determines the order in which they flow. The example below flows content sources \#1-3 into the same chain of regions. Rearranging the *article* nodes within the document shuffles their order within the output region:
 
-``` {.xml}
+``` xml
  <style>
    article { flow-into: articles }
    div.region { flow-from: articles }
@@ -90,7 +88,7 @@ You may also specify more than one source of content, in which case again their 
  <div class="region"> </div>
 ```
 
-## Controlling region breaks
+## <span>Controlling region breaks</span>
 
 With content flowing through complex layouts, web developers need to confront design problems traditionally reserved for desktop publishing applications. While most of an article's text can be allowed to flow from one region to another, some elements such as headings should not be allowed to *break* so freely:
 
@@ -115,11 +113,11 @@ Note that this sample layout mimics the appearance of print-style pages, but doe
 
 Check your target browsers' support for CSS3's [**widows**](/css/properties/widows) and [**orphans**](/css/properties/orphans) properties. They offer finer control over how many *lines* of text are allowed to break into another region. By default, individual lines may break into separate regions.
 
-## Diverting content from a flow
+## <span>Diverting content from a flow</span>
 
 The various *break* properties shown above do not address a common layout problem. Sometimes content needs to be diverted from a flow and moved somewhere else so that other content can flow in to take its place. In this example, **aside** tags represent *pull-quote* content that needs to be diverted from the main flow:
 
-``` {.xml}
+``` xml
  <article>
    <h1>    Sample CSS Regions Layout                                      </h1>
    <p>     Riverrun, past Eve and Adam's...                               </p>
@@ -160,7 +158,7 @@ In this case, the region's **height** is specified as **auto**, which makes it e
 
 In this example, the parent **article** element is assigned to the *main* flow, while its child **aside** elements are assigned to a different flow named *pullquote*. You can use the same technique to assign descendant elements to the *same* flow, effectively un-nesting them from within content. In this example, endnotes are extracted from wherever they happen to appear within the main flow of content, and appear instead appended to the content, with no need to modify the content's semantic structure:
 
-``` {.xml}
+``` xml
  <style>
    article, aside.endnote { flow-into: main }
  </style>
@@ -178,7 +176,7 @@ In this example, the parent **article** element is assigned to the *main* flow, 
 
  However, descendant elements that are defined as the default **flow-into:none** cannot be prevented from flowing along with an ancestor that is assigned to a named flow.
 
-## Styling region fragments
+## <span>Styling region fragments</span>
 
 Portions of content that break across regions are referred to as [*fragments*](/css/concepts/fragment). Using the [**@region**](/css/atrules/@region) rule, fragments of content that flow into specified regions can receive custom CSS styles.
 
@@ -206,7 +204,7 @@ While it is possible to style the region as a block element, CSS that is ordinar
 
 Not all CSS properties can be manipulated in content that flows within a region. See [**@region**](/css/atrules/@region) for details.
 
-## Trimming overset content
+## <span>Trimming overset content</span>
 
 When flowing content through a layout, there may not be enough space available in the region chain to display all of it. In that case, the flow is in an [*overset*](/css/concepts/overset) state. By default, the last available region in the chain displays overset content according to its [**overflow**](/css/properties/overflow) setting. Still, even using **overflow:hidden** can lead to unfortunate visual artifacts along the bottom edge:
 
@@ -226,7 +224,7 @@ This presents a much cleaner bottom edge on the overset region, and should be ap
 
 Note: The CSS Regions feature offers [API interfaces](/apis/css-regions) that can help detect when a flow's content exceeds available layout regions, or falls short and leaves some of them empty. See the [**NamedFlow**](/apis/css-regions/NamedFlow) API's [**overset**](/apis/css-regions/NamedFlow/overset) and [**firstEmptyRegionIndex**](/apis/css-regions/NamedFlow/firstEmptyRegionIndex) properties, as well as its [**regionoversetchange**](/apis/css-regions/NamedFlow/regionoversetchange) event.
 
-## Adaptive layouts with media queries
+## <span>Adaptive layouts with media queries</span>
 
 CSS [media queries](/tutorials/media_queries) allow you to target different designs to browsers on differently sized devices. Such *responsive* web pages should target complex CSS region-based layouts only on larger-screen tablet or desktop browser interfaces. Mobile devices should rely on a much simpler one-column layout.
 
@@ -283,16 +281,15 @@ This produces an alternate mobile interface:
 
  See [this page](http://letmespellitoutforyou.com/samples/region_mq_sample.html) for the results, using one of the supporting browsers listed below.
 
-## Where to go from here
+## <span>Where to go from here</span>
 
 Once you become accustomed to using regions, you can rely on a wide variety of techniques to customize layouts for your content. However, the more you want to set up rules to automate layout from various content sources, the more you should familiarize yourself with CSS3's [flexible box properties](/tutorials/flexbox), which allow you to position layout elements fairly independently of how they are ordered within the DOM. Support for CSS Exclusions allows control over how content within some layout elements flows around others. Also familiarize yourself with the [API interfaces](/apis/css-regions) that allow JavaScript applications to control how content flows.
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

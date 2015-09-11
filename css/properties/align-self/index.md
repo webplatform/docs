@@ -1,41 +1,53 @@
 ---
 title: align-self
+code_samples:
+  - 'http://gist.github.com/4745364'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'flex items'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': '**auto** computes to parent''s **align-items**, or **stretch** if the element has no parent; otherwise as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`alignSelf`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Allows the default alignment to be overridden for individual flex items.'
 tags:
   - CSS
   - Properties
   - Flexbox
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Allows the default alignment to be overridden for individual flex items.'
-code_samples:
-  - 'http://gist.github.com/4745364'
 uri: css/properties/align-self
 
 ---
-# align-self
-
-## Summary
+## <span>Summary</span>
 
 Allows the default alignment to be overridden for individual flex items.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   flex items
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   **auto** computes to parent's **align-items**, or **stretch** if the element has no parent; otherwise as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `alignSelf`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `align-self: auto`
 -   `align-self: baseline`
@@ -50,7 +62,7 @@ Animatable
 -   `flex-item-align: start`
 -   `flex-item-align: stretch`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Computes to the value of [align-items](/css/properties/align-items) on the element's parent, or **stretch** if the element has no parent.
@@ -72,11 +84,11 @@ Otherwise, it participates in baseline alignment: all participating flex items o
 stretch
 :   If the cross size property of the flex item is **auto**, its used value is the length necessary to make the cross size of the item's margin box as close to the same size as the line as possible, while still respecting the constraints imposed by [min-height](/css/properties/min-height)/[min-width](/css/properties/min-width)/[max-height](/css/properties/max-height)/[max-width](/css/properties/max-width). Note: that if the flex container's height is constrained the stretch value may cause the contents of the flex item to overflow the item.
 
-## Examples
+## <span>Examples</span>
 
 Displaying children with custom alignment.
 
-``` {.css}
+``` css
 .list {
   display: flex;
   flex-direction: column;
@@ -94,23 +106,21 @@ Displaying children with custom alignment.
 
 [View live example](http://code.webplatform.org/gist/4745364)
 
-## Notes
+## <span>Notes</span>
 
 -   This property will have no effect if the flex-item's cross axis margins are set to auto.
 -   This property was named **flex-item-align** in older drafts.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#align-self-property)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -125,8 +135,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -156,7 +164,7 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Flexbox
+#### <span>Flexbox</span>
 
 -   [align-content](/css/properties/align-content)
 
@@ -182,10 +190,9 @@ Specification
 
 -   [justify-content](/css/properties/justify-content)
 
-### External resources
+### <span>External resources</span>
 
 Also, check out the following live demo sites:
 
 -   [Flexbox Playground](http://demo.agektmr.com/flexbox/)
 -   [Flexy Boxes](http://the-echoplex.net/flexyboxes)
-

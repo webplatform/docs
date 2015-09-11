@@ -1,47 +1,64 @@
 ---
 title: background-repeat
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Background-repeat defines if and how background images will be repeated after they have been sized and positioned'
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-repeat.htm'
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundRepeat.htm'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`repeat`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'A list, each item consisting of two keywords, one per dimension'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`backgroundRepeat`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Background-repeat defines if and how background images will be repeated after they have been sized and positioned'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/background-repeat
 
 ---
-# background-repeat
-
-## Summary
+## <span>Summary</span>
 
 Background-repeat defines if and how background images will be repeated after they have been sized and positioned
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `repeat`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   A list, each item consisting of two keywords, one per dimension
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `backgroundRepeat`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `background-repeat: <repeat-style>`
 
-## Values
+## <span>Values</span>
 
 \<repeat-style\>
 :   Keyword(s) indicating the repeat pattern.
@@ -59,13 +76,13 @@ Percentages
 `space`
 :   The image is repeated as often as will fit into the background area a whole number of times, and is spaced out so that the first and last ones touch the edges. **(CSS3)**
 
-## Examples
+## <span>Examples</span>
 
 The following examples use the **background-repeat** attribute and the **background-repeat** property to specify whether the background image is tiled.
 
 This example uses a call to an embedded (global) style sheet to tile the image.
 
-``` {.css}
+``` css
 <STYLE>
     .style1 { background-image:url(sphere.jpg);
         background-repeat:repeat }
@@ -75,7 +92,7 @@ This example uses a call to an embedded (global) style sheet to tile the image.
 </HEAD>
 <BODY>
 <SPAN onmouseover="this.className='style1'"
-onmouseout="this.className='style2'" onclick="this.className=">
+onmouseout="this.className='style2'" onclick="this.className=''">
 . . . </SPAN>
 ```
 
@@ -83,7 +100,7 @@ onmouseout="this.className='style2'" onclick="this.className=">
 
 This example shows how to use inline scripting to tile the image.
 
-``` {.css}
+``` css
 <SPAN onmouseover="this.style.backgroundImage='url(sphere.jpeg)';
 this.style.backgroundRepeat='repeat'">
 :
@@ -92,7 +109,7 @@ this.style.backgroundRepeat='repeat'">
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/backgroundRepeat.htm)
 
-## Usage
+## <span>Usage</span>
 
      In CSS2.1, only one keyword is permitted, affecting both the horizontal and vertical axes.
 
@@ -100,22 +117,22 @@ In CSS3, one or two keywords are permitted. One keyword affects both axes in the
 
 If an element has multiple background images, the repeat pattern for each image can be set by assigning a comma-separated list of individual values. The values are applied to the background images in the same order as they are listed in the `background-image` property.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3](http://www.w3.org/TR/css3-background/)
 :   Candidate Recommendation
+
 [CSS Level 2 (revision 1)](http://www.w3.org/TR/CSS21/colors.html#propdef-background)
 :   Recommendation
+
 [CSS Level 1](http://www.w3.org/TR/REC-CSS1/#color-and-background-properties)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Background
+#### <span>Background</span>
 
 -   [background](/css/cssom/properties/background)
 
@@ -144,12 +161,3 @@ Specification
 -   [background-size](/css/properties/background-size)
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

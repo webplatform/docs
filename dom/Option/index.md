@@ -1,5 +1,12 @@
 ---
 title: Option
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: HTMLOptionElement
+    href: /dom/HTMLOptionElement
 tags:
   - API
   - Objects
@@ -7,46 +14,45 @@ tags:
 uri: dom/Option
 
 ---
-# Option
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[HTMLOptionElement](/dom/HTMLOptionElement)</span></span>
+Inherits from [HTMLOptionElement](/dom/HTMLOptionElement)[HTMLOptionElement](/dom/HTMLOptionElement)
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from HTMLOptionElement
+## <span>Inherited from HTMLOptionElement</span>
 
-### Properties
+### <span>Properties</span>
 
 API Name
 :   Summary
+
 [defaultSelected](/dom/HTMLOptionElement/defaultSelected)
 :   Gets or sets the value of the [selected](/html/attributes/selected) HTML attribute.
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 The following script creates three new **option** objects and adds them to a **select** element. Because of the optional arguments, option "Two" is originally selected but option "Three" gains focus when the reset button is pressed.
 
-``` {.html}
+``` html
 <form action="#">
 <select id="oSelect"></select>
 <button type="reset">Reset to Defaults</button>
@@ -59,33 +65,22 @@ sel.options.add( new Option("Three",3,1,0) );
 </script>
 ```
 
-## Notes
+## <span>Notes</span>
 
 Use this object to instantiate new **option** elements before adding them to a **select** element. You can specify up to four optional arguments:
 
-sText
-:   **String** that specifies the option text.
-sValue
-:   **String** that specifies the option value.
-bDefaultSelected
-:   **Boolean** that indicates whether the option is the default selection.
-bSelected
-:   **Boolean** that indicates whether this option is selected when it is added to the collection.
+||
+|sText|**String** that specifies the option text.|
+|sValue|**String** that specifies the option value.|
+|bDefaultSelected|**Boolean** that indicates whether the option is the default selection.|
+|bSelected|**Boolean** that indicates whether this option is selected when it is added to the collection.|
 
   Numeric values are coerced into string and Boolean equivalents if possible.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [WHATG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#the-option-element)
 :   Living Standard
+
 [HTML5](http://www.w3.org/TR/html5/forms.html#the-option-element)
 :   Last Call Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

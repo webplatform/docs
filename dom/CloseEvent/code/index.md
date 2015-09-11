@@ -1,52 +1,55 @@
 ---
 title: code
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/CloseEvent
+    href: /dom/CloseEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/CloseEvent
+summary: 'The connection close code provided by the server.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'The connection close code provided by the server.'
 uri: dom/CloseEvent/code
 
 ---
-# code
-
-## Summary
+## <span>Summary</span>
 
 The connection close code provided by the server.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/CloseEvent](/dom/CloseEvent)</span></span>
+Property of [dom/CloseEvent](/dom/CloseEvent)[dom/CloseEvent](/dom/CloseEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var closeCode = event.code;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 The close code provided by the server.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function getCloseCode(e) {
 //retrieve close code for closeEvent
 var closeCode = e.code;
 return closeCode;
 }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

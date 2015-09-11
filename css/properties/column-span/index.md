@@ -1,47 +1,64 @@
 ---
 title: column-span
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/column-span)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5306158'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'block-level elements, except floating and absolutely positioned elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`columnSpan`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The column-span CSS property makes it possible for an element to span across all columns when its value is set to all. An element that spans more than one column is called a spanning element.'
-code_samples:
-  - 'http://gist.github.com/5306158'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/column-span
 
 ---
-# column-span
-
-## Summary
+## <span>Summary</span>
 
 The column-span CSS property makes it possible for an element to span across all columns when its value is set to all. An element that spans more than one column is called a spanning element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   block-level elements, except floating and absolutely positioned elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `columnSpan`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `column-span: all`
 -   `column-span: none`
 
-## Values
+## <span>Values</span>
 
 none
 :   Default. The content block does not span multiple columns.
@@ -49,11 +66,11 @@ none
 all
 :   The content block spans all columns on a page. All content that is declared before the content block is shown before the content block.
 
-## Examples
+## <span>Examples</span>
 
 Makes 4 columns and creates a span that crosses through columns
 
-``` {.css}
+``` css
 /*
 Makes 4 columns and creates a span that crosses through columns
 */
@@ -72,22 +89,20 @@ Makes 4 columns and creates a span that crosses through columns
 
 [View live example](http://code.webplatform.org/gist/5306158)
 
-## Notes
+## <span>Notes</span>
 
 An element that spans more than one column is called a spanning element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -112,12 +127,3 @@ Specification
 -   [column-width](/css/properties/column-width)
 
 -   [content](/css/properties/content)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/column-span)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

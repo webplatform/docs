@@ -1,15 +1,14 @@
 ---
-title: ja
+title: HTML要素
+notes:
+  - 'Make sure that all child element pages are ready before setting a status'
+standardization_status: 'W3C Working Draft'
+summary: 'HTML要素一覧'
 tags:
   - API
   - Listings
   - DOM
   - HTML
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Make sure that all child element pages are ready before setting a status'
-summary: 'HTML要素一覧'
-uri: html/elements/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -130,20 +129,22 @@ todo_broken_links:
     - html/elements/isindex/ja
     - html/training
     - 'html/new html5 elements'
+uri: html/elements/ja
 
 ---
-# HTML要�
-
-## Summary
+## <span>Summary</span>
 
 HTML要素一覧
 
 API Name
 :   Summary
+
 [!DOCTYPE](/html/elements/!DOCTYPE/ja)
 :   **文書型宣言（DOCTYPE宣言）**とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。\<!DOCTYPE\>を書かないとQuirksモード(互換モード)で表示されます。
+
 [a](/html/elements/a/ja)
 :   \<a\>タグはハイパーリンクやリンク先を定義します。
+
 [acronym](/html/elements/acronym/ja)
 :   HTML5では[abbr](/w/index.php?title=html/elements/abbr/ja&action=edit&redlink=1)が追加されており、この要素は**非推奨**となっています。今後はもう使うべきではありません。
 
@@ -151,20 +152,28 @@ API Name
 
 [address](/html/elements/address/ja)
 :   **\<address\>**は文書や記事の所有者・著者とコンタクトをとるための情報を囲む要素です。
+
 [applet – obsolete](/html/elements/applet/ja)
 :   **\<applet\>**はJavaアプレットをウェブページに埋め込む際に使用します。
+
 [area](/html/elements/area/ja)
 :   イメージマップ上でハイパーリンクとして設定されるテキストとエリア、またはハイパーリンクとして設定しないエリアを表します。
+
 [article](/html/elements/article/ja)
 :   **\<article\>**はページ内で単独で完結する構成要素を定義します。
+
 [aside](/html/elements/aside/ja)
 :   **\<aside\>**はコンテンツの中のただの補足情報・余談であることを示します。
+
 [audio](/html/elements/audio/ja)
 :   **\<audio\>**は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。
+
 [b](/html/elements/b/ja)
 :   **\<b\>**要素は特に重要であることを伝えるのに使うものではなく、あくまで通常の文章において文体的にテキストを強調する際に使用します。
+
 [base](/html/elements/base/ja)
 :   **\<base\>**は文書の基準となるURLを明示し、文書内の相対URLを解決するために使用します。.
+
 [basefont](/html/elements/basefont/ja)
 :   `basefont`要素はページ全体のテキストのデフォルトとなる`color`や`font-size`を明記するためのものです。
 
@@ -172,6 +181,7 @@ API Name
 
 [bdo](/html/elements/bdo/ja)
 :   **bdo**要素はページ上のテキスト表記の方向を定義することができます。（”BDO”とはBi-Directional Override（双方向オーバーライド）の略です。）
+
 [bgsound](/html/elements/bgSound/ja)
 :   **bgsound**はユーザがそのページにいる間、音楽ファイルを再生させるための要素です。
 
@@ -184,14 +194,17 @@ API Name
 
 [blockquote](/html/elements/blockquote/ja)
 :   **blockquote**要素は拡張された引用を表します。
+
 [body](/html/elements/body/ja)
 :   **body**要素はドキュメントの主要コンテンツを表します。
+
 [br](/html/elements/br/ja)
 :   文章をbreakする**br**要素はテキストを強制的に終わらせ、brに続くテキストを新たしい行に改めます。
+
 [button](/html/elements/button/ja)
 :   **button**要素はクリック可能なボタンを表示します。
 
-## See also
+## <span>See also</span>
 
 -   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
 
@@ -203,11 +216,11 @@ API Name
 
 これらは過去から現在までのHTMLに関連する要素です。
 
-## ルート要�
+## <span>ルート要素</span>
 
 -   [html](/w/index.php?title=html/elements/html/ja&action=edit&redlink=1)
 
-## 文書メタデータ
+## <span>文書メタデータ</span>
 
 -   [head](/w/index.php?title=html/elements/head/ja&action=edit&redlink=1)
 -   [title](/w/index.php?title=html/elements/title/ja&action=edit&redlink=1)
@@ -217,12 +230,12 @@ API Name
 -   [meta](/w/index.php?title=html/elements/meta/ja&action=edit&redlink=1)
 -   [style](/w/index.php?title=html/elements/style/ja&action=edit&redlink=1)
 
-## スクリプト
+## <span>スクリプト</span>
 
 -   [script](/w/index.php?title=html/elements/script/ja&action=edit&redlink=1)
 -   [noscript](/w/index.php?title=html/elements/noScript/ja&action=edit&redlink=1)
 
-## セクション
+## <span>セクション</span>
 
 -   [body](/html/elements/body/ja)
 -   [section](/w/index.php?title=html/elements/section/ja&action=edit&redlink=1)
@@ -235,7 +248,7 @@ API Name
 -   [footer](/w/index.php?title=html/elements/footer/ja&action=edit&redlink=1)
 -   [address](/html/elements/address/ja)
 
-## グルーピングコンテンツ
+## <span>グルーピングコンテンツ</span>
 
 -   [p](/w/index.php?title=html/elements/p/ja&action=edit&redlink=1)
 -   [hr](/w/index.php?title=html/elements/hr/ja&action=edit&redlink=1)
@@ -253,7 +266,7 @@ API Name
 -   [main](/w/index.php?title=html/elements/main/ja&action=edit&redlink=1)
 -   [center](/w/index.php?title=html/elements/center/ja&action=edit&redlink=1)
 
-## テキストレベル・セマンティック
+## <span>テキストレベル・セマンティック</span>
 
 -   [a](/html/elements/a/ja)
 -   [abbr](/w/index.php?title=html/elements/abbr/ja&action=edit&redlink=1)
@@ -295,12 +308,12 @@ API Name
 -   [wbr](/w/index.php?title=html/elements/wbr/ja&action=edit&redlink=1)
 -   [xmp](/w/index.php?title=html/elements/xmp/ja&action=edit&redlink=1)
 
-## 編集
+## <span>編集</span>
 
 -   [ins](/w/index.php?title=html/elements/ins/ja&action=edit&redlink=1)
 -   [del](/w/index.php?title=html/elements/del/ja&action=edit&redlink=1)
 
-## 埋め込みコンテンツ
+## <span>埋め込みコンテンツ</span>
 
 -   [applet](/html/elements/applet/ja)
 -   [area](/html/elements/area/ja)
@@ -325,7 +338,7 @@ API Name
 -   [track](/w/index.php?title=html/elements/track/ja&action=edit&redlink=1)
 -   [video](/w/index.php?title=html/elements/video/ja&action=edit&redlink=1)
 
-## テーブル
+## <span>テーブル</span>
 
 -   [table](/w/index.php?title=html/elements/table/ja&action=edit&redlink=1)
 -   [caption](/w/index.php?title=html/elements/caption/ja&action=edit&redlink=1)
@@ -338,7 +351,7 @@ API Name
 -   [td](/w/index.php?title=html/elements/td/ja&action=edit&redlink=1)
 -   [th](/w/index.php?title=html/elements/th/ja&action=edit&redlink=1)
 
-## フォー�
+## <span>フォーム</span>
 
 -   [form](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)
 -   [fieldset](/w/index.php?title=html/elements/fieldset/ja&action=edit&redlink=1)
@@ -356,14 +369,14 @@ API Name
 -   [progress](/w/index.php?title=html/elements/progress/ja&action=edit&redlink=1)
 -   [meter](/w/index.php?title=html/elements/meter/ja&action=edit&redlink=1)
 
-## インタラクティブ要�
+## <span>インタラクティブ要素</span>
 
 -   [details](/w/index.php?title=html/elements/details/ja&action=edit&redlink=1)
 -   [summary](/w/index.php?title=html/elements/summary/ja&action=edit&redlink=1)
 -   [command](/w/index.php?title=html/elements/command/ja&action=edit&redlink=1)
 -   [menu](/w/index.php?title=html/elements/menu/ja&action=edit&redlink=1)
 
-## 過去バージョンの要�
+## <span>過去バージョンの要素</span>
 
 -   [acronym](/html/elements/acronym/ja)
 -   [applet](/html/elements/applet/ja) ([HTML 4.01](http://www.w3.org/TR/html401/)で非推奨, [HTML5](http://www.w3.org/TR/html5)で廃止)
@@ -390,7 +403,7 @@ API Name
 -   [u](/w/index.php?title=html/elements/u/ja&action=edit&redlink=1) ([HTML 4.01](http://www.w3.org/TR/html401/)で非推奨, [HTML5](http://www.w3.org/TR/html5)で廃止)
 -   [xmp](/w/index.php?title=html/elements/xmp/ja&action=edit&redlink=1)
 
-## See also
+## <span>See also</span>
 
 -   [HTML: The Markup Language Reference](http://www.w3.org/TR/html-markup/)
 -   [HTML Educational material for beginners](/w/index.php?title=html/training&action=edit&redlink=1)

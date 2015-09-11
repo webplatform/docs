@@ -1,48 +1,55 @@
 ---
 title: maxLength
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/7284097'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+summary: 'The maxLength attribute sets an upper limit on the number of characters that can be entered in an input element.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'The maxLength attribute sets an upper limit on the number of characters that can be entered in an input element.'
-code_samples:
-  - 'http://gist.github.com/7284097'
 uri: html/attributes/maxLength
 
 ---
-# maxLength
-
-## Summary
+## <span>Summary</span>
 
 The maxLength attribute sets an upper limit on the number of characters that can be entered in an input element.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [html/elements/input](/html/elements/input)
 
+</th>
+<td>
+[html/elements/input](/html/elements/input)
+
+</td>
+</tr>
+</table>
 This attribute can be applied to inputs with the type [text](/html/elements/input/type/text), [search](/html/elements/input/type/search), [url](/html/elements/input/type/url), [email](/html/elements/input/type/email), [telephone](/html/elements/input/type/telephone), and [password](/html/elements/input/type/password).
 
-## Examples
+## <span>Examples</span>
 
 The example text box has a max length of 12 characters.
 
-``` {.html}
+``` html
 <input maxLength="12">
 ```
 
 [View live example](http://code.webplatform.org/gist/7284097)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -140,13 +147,42 @@ The example text box has a max length of 12 characters.
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-## Attribution
+-   [img](/html/elements/img)
 
-*This article contains content originally from external sources.*
+-   [input](/html/elements/input)
 
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+-   [ins](/html/elements/ins)
 
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

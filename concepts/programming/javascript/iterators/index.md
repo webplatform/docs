@@ -1,12 +1,13 @@
 ---
-title: iterators
-tags:
-  - JavaScript
-readiness: 'Not Ready'
+title: Iterators and generators
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Iterators_and_Generators)'
 notes:
   - 'Remove XUL-specific info.'
+readiness: 'Not Ready'
 summary: 'Processing each of the items in a collection is a very common operation. JavaScript provides a number of ways of iterating over a collection, from simple for and for each loops to map(), filter() and array comprehensions. Iterators and Generators, introduced in JavaScript 1.7, bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of for...in and for each loops.'
-uri: concepts/programming/javascript/iterators
+tags:
+  - JavaScript
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -19,15 +20,14 @@ todo_broken_links:
     - concepts/programming/javascript/iterators/guides/js/objects
     - concepts/programming/javascript/iterators/guides/js/inheritance
     - concepts/programming/javascript/iterators/guides/JavaScript/Closures
+uri: concepts/programming/javascript/iterators
 
 ---
-# Iterators and generators
-
-## Summary
+## <span>Summary</span>
 
 Processing each of the items in a collection is a very common operation. JavaScript provides a number of ways of iterating over a collection, from simple for and for each loops to map(), filter() and array comprehensions. Iterators and Generators, introduced in JavaScript 1.7, bring the concept of iteration directly into the core language and provide a mechanism for customizing the behavior of for...in and for each loops.
 
-## Iterators
+## <span>Iterators</span>
 
 An Iterator is an object that knows how to access items from a collection one at a time, while keeping track of its current position within that sequence. In JavaScript an iterator is an object that provides a `next()` method which returns the next item in the sequence. This method can optionally raise a `StopIteration` exception when the sequence is exhausted.
 
@@ -84,7 +84,7 @@ It is also possible to assign block scoped variables to both index and value wit
      print(i + ': ' + lang); // prints "0: JavaScript" etc.
     }
 
-## Defining custom iterators
+## <span>Defining custom iterators</span>
 
 Some objects represent collections of items that should be iterated over in a specific way.
 
@@ -131,7 +131,7 @@ Having hooked in our custom iterator, we can iterate over a range instance with 
       print(i); // prints 3, then 4, then 5 in sequence
     }
 
-## Generators: a better way to build Iterators
+## <span>Generators: a better way to build Iterators</span>
 
 While custom iterators are a useful tool, their creation requires careful programming due to the need to explicitly maintain their internal state. Generators provide a powerful alternative: they allow you to define an iterative algorithm by writing a single function which can maintain its own state.
 
@@ -211,7 +211,7 @@ Generator functions can take arguments, which are bound the first time the funct
       }
     }
 
-## Advanced generators
+## <span>Advanced generators</span>
 
 Generators compute their yielded values on demand, which allows them to efficiently represent sequences that are expensive to compute, or even infinite sequences as demonstrated above.
 
@@ -259,7 +259,7 @@ Generators have a `close()` method that forces the generator to close itself. Th
 2.  If a `finally` clause throws any exception other than `StopIteration`, the exception is propagated to the caller of the `close()` method.
 3.  The generator terminates.
 
-## Generator expressions
+## <span>Generator expressions</span>
 
 **Note**: Introduced in JavaScript 1.8
 
@@ -282,10 +282,3 @@ When a generator expression is used as the argument to a function, the parenthes
     var result = doSomething(i * 2 for (i in it));
 
 <span style="float: left">[« Previous](/w/index.php?title=concepts/programming/javascript/iterators/guides/js/inheritance&action=edit&redlink=1)</span>[Next &raquo](/w/index.php?title=concepts/programming/javascript/iterators/guides/JavaScript/Closures&action=edit&redlink=1)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Iterators_and_Generators)
-

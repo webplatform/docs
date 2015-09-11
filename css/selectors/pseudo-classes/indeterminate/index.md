@@ -1,16 +1,18 @@
 ---
 title: :indeterminate
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs title, summary, example, spec reference, standardization status, remove topic cluster flags'
+readiness: 'Not Ready'
 tags:
   - CSS
   - Selectors
-readiness: 'Not Ready'
-notes:
-  - 'Needs title, summary, example, spec reference, standardization status, remove topic cluster flags'
-uri: 'css/selectors/pseudo-classes/:indeterminate'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: 'css/selectors/pseudo-classes/:indeterminate'
 
 ---
 =
@@ -26,13 +28,13 @@ indeterminate=
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **:indeterminate** pseudo-class is a UI element states pseudo-class. UI element states pseudo-classes select UI elements (form controls such as radio buttons or check boxes) that are in a certain state—enabled, disabled, or selected (checked).
 
-### Syntax
+### <span>Syntax</span>
 
 selector
 
@@ -42,20 +44,20 @@ indeterminate
 
 </dd>
 </dl>
-### Parameters
+### <span>Parameters</span>
 
 *selector*
 :   A CSS simple selector
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.6.4.3
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pseudo-Classes
+#### <span>Pseudo-Classes</span>
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -107,7 +109,7 @@ indeterminate
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -183,16 +185,9 @@ indeterminate
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `:enabled`
 -   `:disabled`
 -   `:indeterminate`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,20 +1,22 @@
 ---
 title: bitwise not
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/zf9s465t(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Performs a bitwise NOT (negation) on an expression.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Performs a bitwise NOT (negation) on an expression.'
 uri: 'javascript/operators/bitwise not'
 
 ---
-# bitwise not
-
-## Summary
+## <span>Summary</span>
 
 Performs a bitwise NOT (negation) on an expression.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result = ~ expression
 
@@ -24,16 +26,16 @@ Performs a bitwise NOT (negation) on an expression.
 **expression**
 :   Any expression.
 
-## Examples
+## <span>Examples</span>
 
 See Remarks for explanation
 
-``` {.js}
+``` js
 var temp = ~5;
 //result is -6
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 All unary operators, such as the \~ operator, evaluate expressions as follows:
 
@@ -54,22 +56,14 @@ The following example illustrates use of the bitwise NOT (\~) operator.
 
 The resulting value is -6, as shown in the following table.
 
-Expression
-:   Binary value (two's complement)
-5
-:   00000000 00000000 00000000 00000101
-\~5
-:   11111111 11111111 11111111 11111010
+|Expression|Binary value (two's complement)|Decimal value|
+|:---------|:------------------------------|:------------|
+|5|00000000 00000000 00000000 00000101|5|
+|\~5|11111111 11111111 11111111 11111010|-6|
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Logical NOT Operator (!)](/javascript/operators/logical_not)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/zf9s465t(v=vs.94).aspx)
 

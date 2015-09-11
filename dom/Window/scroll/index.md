@@ -1,68 +1,65 @@
 ---
 title: scroll
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[scroll](https://developer.mozilla.org/en-US/docs/Web/API/Window.scroll) Article]'
+  - 'Microsoft Developer Network: [[scroll Method](http://msdn.microsoft.com/en-us/library/ie/ms536726(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+summary: 'Causes the window to scroll to the specified x- and y-offset at the upper-left corner of the window.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-summary: 'Causes the window to scroll to the specified x- and y-offset at the upper-left corner of the window.'
 uri: dom/Window/scroll
 
 ---
-# scroll
-
-## Summary
+## <span>Summary</span>
 
 Causes the window to scroll to the specified x- and y-offset at the upper-left corner of the window.
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  window.scroll(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
 **Integer**Â that specifies the horizontal scroll offset, in pixels.
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
 **Integer**Â that specifies the vertical scroll offset, in pixels.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!-- put the 100th vertical pixel at the top of the window -->
 
 <button onClick="scroll(0, 100);">click to scroll down 100 pixels</button>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This method is provided for backward compatibility only. The recommended way to scroll a window is to use the [**scrollTo**](/dom/Window/scrollTo) method.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[scroll](https://developer.mozilla.org/en-US/docs/Web/API/Window.scroll) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[scroll Method](http://msdn.microsoft.com/en-us/library/ie/ms536726(v=vs.85).aspx) Article]
-

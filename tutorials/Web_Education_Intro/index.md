@@ -1,9 +1,8 @@
 ---
-title: Web Education Intro
+title: Introduction to the Web Standards Curriculum
+summary: "\nWhat follows is a list of all the articles within the web standards curriculum, which will give you an essential grounding in Hypertext Markup Language (HTML), Cascading Stylesheets (CSS), JavaScript, accessibility, and the other topics you need to be a modern web developer/designer. Reading them in order makes the most sense, but they are written to work individually, so you can dip in and out as it suits you, if you need to hone individual skills.\n"
 tags:
   - Tutorials
-summary: "\nWhat follows is a list of all the articles within the web standards curriculum, which will give you an essential grounding in Hypertext Markup Language (HTML), Cascading Stylesheets (CSS), JavaScript, accessibility, and the other topics you need to be a modern web developer/designer. Reading them in order makes the most sense, but they are written to work individually, so you can dip in and out as it suits you, if you need to hone individual skills.\n"
-uri: 'tutorials/Web Education Intro'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -93,28 +92,28 @@ todo_broken_links:
     - 'Common HTML entities used for typography'
     - 'The web standards curriculum glossary'
     - 'Optimizing content for different browsers: the RIGHT way'
+translations:
+  tr:
+    text: Türkçe
+    href: /tutorials/Web_Education_Intro/tr
+uri: 'tutorials/Web Education Intro'
 
 ---
-# Introduction to the Web Standards Curriculum
-
-**Language:**
-:   ****English****  • <span lang="tr">[Türkçe](/tutorials/Web_Education_Intro/tr)</span>
-
-## Summary
+## <span>Summary</span>
 
 What follows is a list of all the articles within the web standards curriculum, which will give you an essential grounding in Hypertext Markup Language (HTML), Cascading Stylesheets (CSS), JavaScript, accessibility, and the other topics you need to be a modern web developer/designer. Reading them in order makes the most sense, but they are written to work individually, so you can dip in and out as it suits you, if you need to hone individual skills.
 
-## Please note
+## <span>Please note</span>
 
 This material was originally published as part of the Opera Web Standards Curriculum, available as [Introductory material](http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur/#toc), written by Chris Mills. Like the original, it is published under the [Creative Commons Attribution, Non Commercial - Share Alike 2.5](http://creativecommons.org/licenses/by-nc-sa/2.5/) license.
 
 Many of the links below currently point to the [dev.opera](http://dev.opera.com) versions, but we'll change these over to the W3C versions as we add more to the site. We are very happy to add these to the W3C pages, for a wider readership and more maintenance help.
 
-## The beginning
+## <span>The beginning</span>
 
 -   [Hebrew translation](http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-he/) | [Hungarian translation](http://dev.opera.com/articles/view/1-bevezeto-a-webes-szabvanyokba/) | [Italian translation](http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-it/) | [Japanese translation](http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur-ja/) | [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/) | [Spanish translation](http://www.w3.org/community/webed/wiki/Es/Introducción_al_currículo_de_estándares_web)
 
-## Introduction to the world of web standards
+## <span>Introduction to the world of web standards</span>
 
 1.  [The history of the Internet and the web, and the evolution of web standards](/concepts/Internet_and_Web/The_History_of_the_Web)
     -   [Hebrew translation](http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-he/) | [Hungarian translation](http://dev.opera.com/articles/view/2-az-internet-es-a-web-tortenete/) | [Italian translation](http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-it/) | [Japanese translation](http://dev.opera.com/articles/view/2-the-history-of-the-internet-and-the-w-ja/) | [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m1/ud1/index.html) | [Spanish translation](http://mosaic.uoc.edu/ac/le/es/m1/ud1/index.html)
@@ -125,7 +124,7 @@ Many of the links below currently point to the [dev.opera](http://dev.opera.com)
 3.  [concepts/Internet\_and\_Web/The\_Web\_Standards\_Model](/concepts/Internet_and_Web/The_Web_Standards_Model)
     -   [Hungarian translation](http://dev.opera.com/articles/view/4-a-webes-szabvanyok-modellje/) | [Japanese translation](http://dev.opera.com/articles/view/4-the-web-standards-model-html-css-a-ja/)| [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m1/ud3/index.html) | [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m1/ud3/index.html) | [Spanish translation](http://mosaic.uoc.edu/ac/le/es/m1/ud3/index.html)
 
-## Web Design Concepts
+## <span>Web Design Concepts</span>
 
 This section won't go into any code or markup details, and will act as an introduction to the design process before you start to create any graphics or code, as well as concepts of web design such as IA, navigation, usability etc.
 
@@ -147,7 +146,7 @@ This section won't go into any code or markup details, and will act as an introd
 6.  [Typography on the Web](/tutorials/Typography_on_the_Web)
     -   [Hungarian translation](http://dev.opera.com/articles/view/11-tipografia-a-weben/) | [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m2/ud6/index.html) | [Spanish translation](http://mosaic.uoc.edu/ac/le/es/m2/ud6/index.html)
 
-## HTML beginnings
+## <span>HTML beginnings</span>
 
 1.  [The basics of HTML](/guides/the_basics_of_html)
     -   [Hungarian translation](http://dev.opera.com/articles/view/12-a-html-alapjai/) | [Japanese translation](http://dev.opera.com/articles/view/12-the-basics-of-html-ja/)
@@ -158,7 +157,7 @@ This section won't go into any code or markup details, and will act as an introd
 
 4.  [More about the document \<head\>](/tutorials/More_about_the_document_head)
 
-## The HTML body
+## <span>The HTML body</span>
 
 1.  [up textual content in HTML](/html/tutorials/Marking_up_textual_content_in_HTML)
     -   [Hungarian translation](http://dev.opera.com/articles/view/15-szoveges-reszek-megjelolese/) | [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m4/ud1/index.html) | [Spanish translation](http://mosaic.uoc.edu/ac/le/es/m4/ud1/index.html)
@@ -189,7 +188,7 @@ This section won't go into any code or markup details, and will act as an introd
 11. [Validating your HTML](/w/index.php?title=Validating_your_HTML&action=edit&redlink=1)
     -   [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m4/ud10/index.html) | [Spanish translation](http://mosaic.uoc.edu/ac/le/es/m4/ud10/index.html)
 
-## Accessibility
+## <span>Accessibility</span>
 
 1.  [Accessibility basics](/Accessibility_basics)
     -   [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m5/ud1/index.html) | [Spanish translation](http://mosaic.uoc.edu/ac/le/es/m5/ud1/index.html)
@@ -197,7 +196,7 @@ This section won't go into any code or markup details, and will act as an introd
 2.  [Accessibility testing](/Accessibility_testing)
     -   [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m5/ud2/index.html) | [Spanish translation](http://mosaic.uoc.edu/ac/le/es/m5/ud2/index.html)
 
-## CSS
+## <span>CSS</span>
 
 1.  [CSS basics](/w/index.php?title=CSS_basics&action=edit&redlink=1)
     -   [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m6/ud1/index.html) | [Spanish translation](http://mosaic.uoc.edu/ac/le/es/m6/ud1/index.html)
@@ -234,12 +233,12 @@ This section won't go into any code or markup details, and will act as an introd
 13. [Debugging CSS](/w/index.php?title=Debugging_CSS&action=edit&redlink=1)
 14. [CSS shorthand reference](/guides/css_shorthand)
 
-## Advanced CSS study
+## <span>Advanced CSS study</span>
 
 1.  [Headers, footers, columns, and templates](/w/index.php?title=Headers_footers_columns_and_templates&action=edit&redlink=1)
     -   [Catalan translation](http://mosaic.uoc.edu/ac/le/ca/m7/ud1/index.html) | [Spanish translation](http://mosaic.uoc.edu/ac/le/es/m7/ud1/index.html)
 
-## JavaScript core skills
+## <span>JavaScript core skills</span>
 
 1.  [A Short History of JavaScript](/w/index.php?title=A_Short_History_of_JavaScript&action=edit&redlink=1)
 2.  [Programming - the real basics!](/concepts/programming/programming_basics)
@@ -256,29 +255,29 @@ This section won't go into any code or markup details, and will act as an introd
 13. [JavaScript animation](/JavaScript_animation)
 14. [Graceful degredation versus progressive enhancement](/w/index.php?title=Graceful_degredation_versus_progressive_enhancement&action=edit&redlink=1)
 
-## SVG
+## <span>SVG</span>
 
-## Mobile web development
+## <span>Mobile web development</span>
 
 1.  [Mobile 1: Introduction to mobile web](/w/index.php?title=Introduction_to_mobile_web&action=edit&redlink=1)
 
-## Supplementary articles
+## <span>Supplementary articles</span>
 
 -   [Getting your content online](/w/index.php?title=Getting_your_content_online&action=edit&redlink=1)
 -   [Common HTML entities used for typography](/w/index.php?title=Common_HTML_entities_used_for_typography&action=edit&redlink=1)
 -   [The web standards curriculum glossary](/w/index.php?title=The_web_standards_curriculum_glossary&action=edit&redlink=1)
 -   [Optimizing content for different browsers: the RIGHT way](/w/index.php?title=Optimizing_content_for_different_browsers:_the_RIGHT_way&action=edit&redlink=1)
 
-# References
+# <span>References</span>
 
 -   [HTML](/html)
 -   [CSS](/css)
 
-# Curriculum structures
+# <span>Curriculum structures</span>
 
 -   [Overview of InterACT curriculum articles](http://www.w3.org/community/webed/wiki/Interact_Curriculum)
 
-## Basics and "soft" skills
+## <span>Basics and "soft" skills</span>
 
 -   [Internet Fundamentals](http://www.w3.org/community/webed/wiki/Interact/Internet_Fundamentals)
 -   [Digital Design Production](http://www.w3.org/community/webed/wiki/Interact/Digital_Design_Production)
@@ -288,7 +287,7 @@ This section won't go into any code or markup details, and will act as an introd
 -   [Independent Study](http://www.w3.org/community/webed/wiki/Interact/Independent_Study)
 -   [Internship](http://www.w3.org/community/webed/wiki/Interact/Internship)
 
-## Web design
+## <span>Web design</span>
 
 -   [Web Design 1](http://www.w3.org/community/webed/wiki/Interact/Web_Design_1)
 -   [Web Design 2](http://www.w3.org/community/webed/wiki/Interact/Web_Design_2)
@@ -298,12 +297,12 @@ This section won't go into any code or markup details, and will act as an introd
 -   [Interaction Design 1](http://www.w3.org/community/webed/wiki/Interact/Interaction_Design_1)
 -   [Prototyping](http://www.w3.org/community/webed/wiki/Interact/Prototyping)
 
-## Web development
+## <span>Web development</span>
 
 -   [DOM Scripting 1](http://www.w3.org/community/webed/wiki/Interact/DOM_Scripting_1)
 -   [Server-side Scripting 1](http://www.w3.org/community/webed/wiki/Interact/Server-Side_Scripting_1)
 
-# Teaching materials
+# <span>Teaching materials</span>
 
 Each page in this section includes teaching notes, examples, slidedecks and other materials for teachers to use for hands-on teaching of the curriculum structures outlined in the [Curriculum structures](#Curriculum_structures) section.
 

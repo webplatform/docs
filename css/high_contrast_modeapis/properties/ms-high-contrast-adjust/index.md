@@ -1,46 +1,51 @@
 ---
 title: ms-high-contrast-adjust
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, example, description, specifications, compatibility.'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/media_queries/media_groups/bitmap
+    href: /css/media_queries/media_groups/bitmap
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'Add summery, example, description, specifications, compatibility.'
 uri: 'css/high contrast modeapis/properties/ms-high-contrast-adjust'
 
 ---
-# ms-high-contrast-adjust
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/media\_queries/media\_groups/bitmap](/css/media_queries/media_groups/bitmap)</span></span>
+Property of [css/media\_queries/media\_groups/bitmap](/css/media_queries/media_groups/bitmap)[css/media\_queries/media\_groups/bitmap](/css/media_queries/media_groups/bitmap)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.ms-high-contrast-adjust;
 element.ms-high-contrast-adjust = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **-ms-high-contrast-adjust** property works with the [-ms-high-contrast](/css/high_contrast_mode/properties/-ms-high-contrast) media feature.
 
-### Syntax
+### <span>Syntax</span>
 
 `-ms-high-contrast-adjust: auto | none`
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Visual Effects
+#### <span>Visual Effects</span>
 
 -   [color](/css/color)
 
@@ -76,14 +81,7 @@ The **-ms-high-contrast-adjust** property works with the [-ms-high-contrast](/cs
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `-ms-high-contrast media feature`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

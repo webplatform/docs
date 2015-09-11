@@ -1,44 +1,58 @@
 ---
 title: box-orient
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add example, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`inline-axis`'
+  'Applies to': 'box elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+standardization_status: Non-Standard
+summary: Deprecated
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Add example, compatibility.'
-summary: Deprecated
-uri: css/properties/box-orient
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - '-ms-flex-direction'
+uri: css/properties/box-orient
 
 ---
-# box-orient
-
-## Summary
+## <span>Summary</span>
 
 Deprecated
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `inline-axis`
+
 Applies to
 :   box elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `box-orient: block-axis`
 -   `box-orient: horizontal`
@@ -46,7 +60,7 @@ Animatable
 -   `box-orient: inline-axis`
 -   `box-orient: vertical`
 
-## Values
+## <span>Values</span>
 
 horizontal
 :   Child elements are displayed in a horizontal line from left to right.
@@ -67,24 +81,22 @@ inherit
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Do not use. This property has been replaced by -ms-flex-direction
 
 Specifies the orientation in the layout of all child elements of the object.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Flexible Box Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/)
 :   W3C Working Draft (Obsolete)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -99,8 +111,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   **box-orient**
 
@@ -130,15 +140,8 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

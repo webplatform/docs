@@ -1,45 +1,54 @@
 ---
 title: max-font-size
+notes:
+  - 'Add example and compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'all elements and generated content'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': font-size
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`maxFontSize`'
+readiness: 'In Progress'
+standardization_status: Non-Standard
+summary: 'This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser. It is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Add example and compatibility.'
-summary: 'This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser. It is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.'
 uri: css/properties/max-font-size
 
 ---
-# max-font-size
-
-## Summary
+## <span>Summary</span>
 
 This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser. It is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   all elements and generated content
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   font-size
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `maxFontSize`
 
-## Syntax
+## <span>Syntax</span>
 
--   `max-font-size: auto`
--   `max-font-size: font-size`
-
-## Values
+## <span>Values</span>
 
 font-size
 :   The font size of the last line of an element is restricted to being less than either the computed font-size or this number, whichever is larger.
@@ -47,22 +56,20 @@ font-size
 auto
 :   The rendering agent determines the minium font size.
 
-## Usage
+## <span>Usage</span>
 
      This property must not be used. It is no longer included in any standard or standard track specification, nor is it implemented in any browser. The feature can be mimicked using JavaScript or similar. This property is only used when the text-align-last property is set to size.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
 :   Obsolete (previously Candidate Recommendation)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -88,13 +95,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   **max-font-size**
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -102,17 +103,13 @@ Specification
 
 -   [font](/html/elements/font)
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -123,8 +120,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -138,25 +133,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   **max-font-size**
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -201,4 +182,3 @@ Specification
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-

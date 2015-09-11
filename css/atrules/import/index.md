@@ -1,68 +1,71 @@
 ---
 title: @import
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - '"Main Content" section is empty. We may want to either want to modify programmatically if subsections like @rules -> @import only are decided to only need examples and references to support the parent categories.'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'Imports an external style sheet.'
 tags:
   - CSS
   - At
   - Rules
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - '"Main Content" section is empty. We may want to either want to modify programmatically if subsections like @rules -> @import only are decided to only need examples and references to support the parent categories.'
-summary: 'Imports an external style sheet.'
 uri: css/atrules/@import
 
 ---
-# @import
-
-## Summary
+## <span>Summary</span>
 
 Imports an external style sheet.
 
-## Examples
+## <span>Examples</span>
 
 The following example uses the **@import** rule to import a style sheet. For the example to work, you must replace `URL` in the example code with the address of a style sheet.
 
-    <STYLE TYPE="text/css">
-        @import url("URL");
-        P {color:blue}
-    </STYLE>
+``` html
+<STYLE TYPE="text/css">
+    @import url("URL");
+    P {color:blue}
+</STYLE>
+```
 
 The following example, without `url()`, has the same effect as the previous example.
 
-    <STYLE type="text/css">
-        @import "URL";
-        P {color:blue}
-    </STYLE>
+``` html
+<STYLE type="text/css">
+    @import "URL";
+    P {color:blue}
+</STYLE>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The rule has no default value. The semicolon in the syntax is required; if omitted, the style sheet is not imported properly and an error message is generated. "url()" is optional because there is always a URL following "@import." The **@import** rule, like the **link** element, links an external style sheet to a document. This helps the Web author establish a consistent "look" across multiple HTML pages. Whereas the **link** element specifies the name of the style sheet to import using its [**href**](/html/attributes/href) attribute, the **@import** rule specifies the style sheet definition inside a **link** element or a **style** element. In the scripting model, this means the [**owningElement**](/css/cssom/styleSheet/owningElement) property of the style sheet defined through the **@import** rule is either a **style** or a **link** object. The **@import** rule should occur at the start of a style sheet, before any declarations. You can place **@import** rule statements anywhere within the style sheet definition, but the rules contained within the **@import** rule style sheet are applied to the document before any other rules defined for the containing style sheet. This rule order affects expected rendering. Rules in the style sheet override rules in the imported style sheet.
 
-### Syntax
+### <span>Syntax</span>
 
 @import
 
-### Parameters
+### <span>Parameters</span>
 
 *sUrl*
 :   String that specifies the URL that references a cascading style sheet.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Cascading and Inheritance Level 3](http://www.w3.org/TR/css3-cascade/)
 :   W3C Working Draft
+
 [CSS 2.1, section 6.3](http://www.w3.org/TR/CSS2/cascade.html#at-import)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -77,8 +80,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -108,7 +109,7 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Syntax
+#### <span>Syntax</span>
 
 -   [@charset](/css/atrules/@charset)
 
@@ -130,16 +131,9 @@ Specification
 
 -   [!important](/css/syntax/!important)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `imports`
 -   `:link`
 -   `style`
 -   `styleSheet`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

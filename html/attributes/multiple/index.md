@@ -1,39 +1,46 @@
 ---
 title: multiple
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The multiple attribute indicates that the user is allowed to enter more than one value in an &lt;input&gt; element.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'The multiple attribute indicates that the user is allowed to enter more than one value in an <input> element.'
 uri: html/attributes/multiple
 
 ---
-# multiple
+## <span>Summary</span>
 
-## Summary
+The multiple attribute indicates that the user is allowed to enter more than one value in an &lt;input&gt; element.
 
-The multiple attribute indicates that the user is allowed to enter more than one value in an \<input\> element.
-
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
+
+</td>
+</tr>
+</table>
 This attribute can be `true` or `false`. It's valid for inputs with the type [email](/html/elements/input/type/email) and [file](/html/elements/input/type/file).
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -131,13 +138,42 @@ This attribute can be `true` or `false`. It's valid for inputs with the type [em
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-## Attribution
+-   [img](/html/elements/img)
 
-*This article contains content originally from external sources.*
+-   [input](/html/elements/input)
 
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+-   [ins](/html/elements/ins)
 
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

@@ -1,50 +1,74 @@
 ---
 title: -ms-progress-appearance
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, values, description, specifications, compatibility.'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/properties
+    href: /css/properties
+standardization_status: Non-Standard
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - 'Add summery, values, description, specifications, compatibility.'
 uri: css/properties/-ms-progress-appearance
 
 ---
-# -ms-progress-appearance
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/properties](/css/properties)</span></span>
+Property of [css/properties](/css/properties)[css/properties](/css/properties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.-ms-progress-appearance;
 element.-ms-progress-appearance = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
-    <progress style="-ms-progress-appearance: bar" />
+``` html
+<progress style="-ms-progress-appearance: bar" />
+```
 
-### Syntax
+### <span>Syntax</span>
 
 `msProgressAppearance: bar | ring`
 
-### Requirements
+### <span>Requirements</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Minimum supported client
-:   Windows 8
+
+</th>
+<td>
+Windows 8
+
+</td>
+</tr>
+<tr>
+<th>
 Minimum supported server
-:   Windows Server 2012
 
-## See also
+</th>
+<td>
+Windows Server 2012
 
-### Related articles
+</td>
+</tr>
+</table>
+## <span>See also</span>
 
-#### Visual Effects
+### <span>Related articles</span>
+
+#### <span>Visual Effects</span>
 
 -   [color](/css/color)
 
@@ -80,7 +104,7 @@ Minimum supported server
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `progress`
 -   `CSSStyleDeclaration`
@@ -88,10 +112,3 @@ Minimum supported server
 -   `defaultSelected`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

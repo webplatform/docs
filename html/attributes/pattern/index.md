@@ -1,54 +1,56 @@
 ---
 title: pattern
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The pattern attribute specifies a regular expression that the &lt;input&gt; element''s value is checked against.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'The pattern attribute specifies a regular expression that the <input> element''s value is checked against.'
 uri: html/attributes/pattern
 
 ---
-# pattern
+## <span>Summary</span>
 
-## Summary
+The pattern attribute specifies a regular expression that the &lt;input&gt; element's value is checked against.
 
-The pattern attribute specifies a regular expression that the \<input\> element's value is checked against.
-
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
-## Examples
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
 
-``` {.html}
+</td>
+</tr>
+</table>
+## <span>Examples</span>
+
+``` html
 Numeric field: <input type="text" name="numericField" pattern="[0-9]*" />
 Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Several generic messages are displayed for a variety of validation errors. If you use a title attribute on an input element, it will both be shown as alt text for the field, as well as be appended to the generic error message. The following example shows a ZIP code number format.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.3.9
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLInputElement`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

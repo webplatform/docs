@@ -1,52 +1,61 @@
 ---
 title: readAsText
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Non-standard; deletion candidate'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/file/MSStreamReader
+    href: /apis/file/MSStreamReader
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/file/MSStreamReader
+standardization_status: Non-Standard
+summary: 'Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.'
 tags:
   0: API
   1: Object
   2: Methods
   4: FileAPI
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - 'Non-standard; deletion candidate'
-summary: 'Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.'
 uri: apis/file/MSStreamReader/readAsText
 
 ---
-# readAsText
-
-## Summary
+## <span>Summary</span>
 
 Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.
 
-*Method of [apis/file/MSStreamReader](/apis/file/MSStreamReader)*
+Method of [apis/file/MSStreamReader](/apis/file/MSStreamReader)[apis/file/MSStreamReader](/apis/file/MSStreamReader)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = MSStreamReader.readAsText(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### stream
+### <span>stream</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
-### encoding
+### <span>encoding</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
-### size
+### <span>size</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -55,10 +64,4 @@ This method can return one of these values.
 S\_OK
 
 **Needs Examples**: This section should include examples.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
 

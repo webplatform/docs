@@ -1,22 +1,20 @@
 ---
-title: objects
+title: SVG DOM objects
+notes:
+  - 'Add introduction to SVG DOM objects'
+readiness: 'Not Ready'
+summary: 'List of all pages in svg/objects/'
 tags:
   - API
   - Listings
-readiness: 'Not Ready'
-notes:
-  - 'Add introduction to SVG DOM objects'
-summary: 'List of all pages in svg/objects/'
 uri: svg/objects
 
 ---
-# SVG DOM objects
-
-## Summary
+## <span>Summary</span>
 
 List of all pages in svg/objects/
 
-## All Pages
+## <span>All Pages</span>
 
 -   [SVGAngle](/svg/objects/SVGAngle)
 -   [SVGAnimatedAngle](/svg/objects/SVGAnimatedAngle)

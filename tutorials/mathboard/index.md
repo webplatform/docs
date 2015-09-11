@@ -1,24 +1,24 @@
 ---
-title: mathboard
+title: Building the HTML5 MathBoard app
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/casestudies/mathboard/)'
+readiness: 'Ready to Use'
+summary: 'This article discusses development of the HTML5 MathBoard app.'
 tags:
   - Tutorials
   - CSS
   - Webstorage
-readiness: 'Ready to Use'
-summary: 'This article discusses development of the HTML5 MathBoard app.'
 uri: tutorials/mathboard
 
 ---
-# Building the HTML5 MathBoard app
-
 **By [Jeremy Chone](http://www.html5rocks.com/profiles/#jeremychone)**
 Originally published January 28, 2011
 
-## Summary
+## <span>Summary</span>
 
 This article discusses development of the HTML5 MathBoard app.
 
-## Introduction
+## <span>Introduction</span>
 
 ![MathBoard application](/assets/public/0/07/MathBoard-CaseStudy-01-iPad-Screenshot.png)
 
@@ -30,7 +30,7 @@ N2N-Apps is a Software Development company focusing on building next generation 
 
 [Download MathBoard for the Chrome Web Store](https://chrome.google.com/webstore/detail/ocjpbdojdmdmnoijibadlmpiamcmmmcj) (free version)
 
-## Requirements
+## <span>Requirements</span>
 
 The key requirements for this HTML5 porting project were the following:
 
@@ -41,7 +41,7 @@ The key requirements for this HTML5 porting project were the following:
 5.  Make the application "server-less" so that the application runs entirely on the client and could be hosted on a static server or Google Chrome packaged application.
 6.  Make a 1.0 version with all the features but the problem solver in less than a month.
 
-## Architecture
+## <span>Architecture</span>
 
 ![Architecture](/assets/public/c/cf/MathBoard-CaseStudy-02-Architecture.png)
 
@@ -51,15 +51,15 @@ Given the requirements, we decided to go with the following architecture:
 2.  jQuery: While HTML5 has many of the advanced selectors that make jQuery so great, we decided to stick with jQuery anyway as it gave us a very robust and mature way to manipulate the DOM and related events. jQuery also has the benefit of being more DOM centric, which tends to make the design and implementation of an application closer to HTML.
 3.  [SnowUI](https://github.com/jeremychone/snowUI): jQuery provides a great API and best practice to work with the DOM, however, for the HTML5 MathBoard application we needed an MVC or MVP style framework to orchestrate all of the different views. SnowUI is a simple yet powerful MVC framework on top of jQuery. It provides a DOM centric MVC mechanism and a flexible way to build custom components while leaving the opportunity for the application developer to use any widget/controls library or custom code he or she deems optimal.
 
-## iPad to PC considerations
+## <span>iPad to PC considerations</span>
 
 When porting the application to HTML5 for PC usage, we had to make several modifications to the design and user-interaction of the application.
 
-### Screen orientation
+### <span>Screen orientation</span>
 
 The iPad MathBoard is exclusively vertically oriented, which was not optimal for PC displays as they are generally used in a horizontal fashion. Consequently, we reorganized the UI design and moved the settings panel to the right side, on a sliding view (animated by CSS3 transitions).
 
-### Input: keyboard/mouse vs. touch
+### <span>Input: keyboard/mouse vs. touch</span>
 
 Another key difference between the iPad and Web version is the input interface. On the iPad you have only the touch interface, on the PC you need take into consideration both mouse and keyboard.
 
@@ -73,11 +73,11 @@ TAB support was added to move from one input field to another and the ‚Üê and ‚Ü
 
 One feature in the iPad version that didn't make much sense for the PC interface was the drawing board. While it could have been fancy to implement it, drawing numbers with a mouse is not very practical. Instead, we decided to spend more time polishing the keyboard interface than implementing the drawing board.
 
-## HTML5 features
+## <span>HTML5 features</span>
 
 In the Web version of MathBoard, we use many HTML5 features:
 
-### Local storage
+### <span>Local storage</span>
 
 MathBoard allow users to save their quiz to later replay them. HTML5 MathBoard implements this feature using HTML5 `localStorage` using the SnowUI DAO interface.
 
@@ -146,7 +146,7 @@ Once this DAO is registered for the `settingValue`, the UI can make the followin
     addition.value = true; // to check the addition checkbox
     snow.dm.save('settingValue', addition);
 
-### CSS3 fonts
+### <span>CSS3 fonts</span>
 
 MathBoard uses custom fonts. Thanks to CSS3 font support, it was trivial to include the 'Chalkduster' true type font into our application:
 
@@ -163,19 +163,19 @@ And, since this font was the default for almost all the text in the application,
       color: #ffffff;
     }
 
-### CSS3 gradient, shadow, rounded corners
+### <span>CSS3 gradient, shadow, rounded corners</span>
 
 All gradient, shadow, transparency, and rounded corners are done with CSS3. This was a real game saver compared to the traditional .png way of doing user interfaces.
 
-We also used advanced CSS3 properties to customize the look and feel of the scrollbar to make it more subtle (see [http://webkit.org/blog/363/styling-scrollbars/](http://webkit.org/blog/363/styling-scrollbars/) for styling scroll bars on WebKit browsers).
+We also used advanced CSS3 properties to customize the look and feel of the scrollbar to make it more subtle (see <http://webkit.org/blog/363/styling-scrollbars/> for styling scroll bars on WebKit browsers).
 
-### CSS3 transitions
+### <span>CSS3 transitions</span>
 
 For HTML5 MathBoard, we replicated all of the iPad's animations and even added a new one for the sliding right panel. Thanks to CSS3 transitions, adding animations was trivial and allowed for the best performance.
 
 We had three main animations in the applications.
 
-#### 1.) The sliding right pane
+#### <span>1.) The sliding right pane</span>
 
 The first animation is on the right pane (`#rightPane`), which slides closed when the user starts a new quiz and slides open when the user ends a quiz. To create this effect, we used the following CSS transition and triggered it via JavaScript. The default style of the rightPane is open:
 
@@ -204,13 +204,13 @@ A few notes on this implementation:
 2.  We could also have used CSS 'translate', which would have been more performant than animating the pane's 'left' property. This is especially true for mobile devices (such as iOS) where 3D transforms are hardware accelerated.
 3.  The `setTimeout` is not strictly necessary in this case since the original position was set prior to the modification. However, it allows the browser to make the animation smoother by displaying the quiz just before sliding the rightPane in.
 
-#### 2.) Settings dialog box animation
+#### <span>2.) Settings dialog box animation</span>
 
 When the user clicks on a setting in the right, the settings dialog appears from the bottom of the screen and scrolls down to the appropriate section.
 
 To accomplish this, we had a similar transition to the right pane. The only thing that took some time was to resolve the jerkiness on first appearance of the dialog. To instruct the browser to cache the dialog UI, we ended up displaying it once and scrolling to it. At first, we tried with `display: none`. This approach was wrong because the browser assumed the dialog does not need to be shown. The solution was to display the settings with a `z-index: -1` at initialization, making it invisible to the user but visible to the browser.
 
-#### 3.) Quiz success or incorrect message animation
+#### <span>3.) Quiz success or incorrect message animation</span>
 
 The third animation is actually two in one. When the 'success' or 'incorrect' message appears, first scale to a point, wait for a little, and finally scale even bigger and disappear. For this, we have two CSS3 animation styles, and orchestrate it via JavaScript on a `webkitTransitionEnd` event.
 
@@ -239,20 +239,13 @@ The third animation is actually two in one. When the 'success' or 'incorrect' me
       });
     }, 0);
 
-### Audio tag
+### <span>Audio tag</span>
 
 When users answer a quiz, the application makes a success or fail sound. The simple choice was to use the audio tag and call `play()` on them. These audio bits are added to the main page of the application:
 
     <audio id="audioCorrect" src="correct.mp3" preload="auto" autobuffer></audio>
     <audio id="audioWrong" src="wrong.mp3" preload="auto" autobuffer></audio>
 
-## Conclusion
+## <span>Conclusion</span>
 
 HTML5 is truly enabling a new breed of Web, desktop, and mobile applications. CSS3 was instrumental in customizing the look and feel of the application to closely match the high sophistication of MathBoard for iPad, HTML5 storage was a perfect fit for our data persistence, and the simplicity of HTML5 audio allowed us to closely replicate the iPad app.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/casestudies/mathboard/)
-

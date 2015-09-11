@@ -1,48 +1,62 @@
 ---
 title: background-color
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://chrisdavidmills.github.com/simple-background-color/'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`transparent`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'the computed color'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`backgroundColor`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets a color to fill up the background of an element it is applied to and accepts any valid CSS color.'
-code_samples:
-  - 'http://chrisdavidmills.github.com/simple-background-color/'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/background-color
 
 ---
-# background-color
-
-## Summary
+## <span>Summary</span>
 
 Sets a color to fill up the background of an element it is applied to and accepts any valid CSS color.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `transparent`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   the computed color
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `backgroundColor`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `background-color: color`
 -   `background-color: inherit`
 -   `background-color: transparent`
 
-## Values
+## <span>Values</span>
 
 transparent
 :   The default value; you will be able to see the elements behind the element in question showing through it.
@@ -53,11 +67,11 @@ color
 inherit
 :   The element's background-color is inherited from its parent element.
 
-## Examples
+## <span>Examples</span>
 
 The HTML for this example is a series of simple div elements. Each one has the color information applied to it written inside it for ease of reference.
 
-``` {.html}
+``` html
 <h2>Keywords</h2>
 
 <div id="c1">
@@ -91,7 +105,7 @@ The HTML for this example is a series of simple div elements. Each one has the c
 
 The CSS then floats the divs next to one another and gives them the same basic look. After that, each block is given a different color value, to demonstrate how keywords, hex, RGB(a), HSL(a) and opacity affect them.
 
-``` {.css}
+``` css
 html {
   background: url(bg.png);
   font-family: sans-serif;
@@ -152,18 +166,18 @@ etc
 
 [View live example](http://chrisdavidmills.github.com/simple-background-color/)
 
-## Usage
+## <span>Usage</span>
 
      * A strongly contrasting combination of foreground and background color should be used to make sure your textual content is as readable as possible. To check whether your color contrast passes accessibility conformance criteria, you can use an online checker such as Lea Verou’s Contrast Ratio which accepts any valid CSS color.
 
 -   When using a newer color value type such as RGBa, HSL or HSLa, be aware that older browsers such as IE6-8 don't support these, so you should provide a fallback colour value so that foreground text will still be readable, either in the same stylesheet, or hidden away behind a [conditional comment](http://dev.opera.com/articles/view/supporting-ie-with-conditional-comments/). So for example:
 
-``` {.lang-css}
+```
 background-color: #ff0000;
 background-color: rgba(255,0,0,0.6);
 ```
 
-## Notes
+## <span>Notes</span>
 
 Internet Explorer 8 & 9 suffer from a bug where elements with a computed **background-color** of `transparent` that are overlaid on top of other element(s) won't receive `click` events. Any `click` events will be fired at the underlying element(s) instead. See [this live example](http://jsfiddle.net/YUKma/show/) for a demonstration.
 
@@ -175,20 +189,19 @@ Known workarounds for this bug:
 -   For IE8 and IE9
     -   Set [`filter`](http://msdn.microsoft.com/en-us/library/ms532847(v=vs.85).aspx)`: alpha(opacity=0);` and an explicit **background-color** other than `transparent`
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Backgrounds & Borders Level 3](http://www.w3.org/TR/css3-background/#the-background-color)
 :   W3C Candidate Recommendation
+
 [CSS 2.1 Colors and backgrounds](http://www.w3.org/TR/CSS21/colors.html)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Background
+#### <span>Background</span>
 
 -   [background](/css/cssom/properties/background)
 
@@ -218,7 +231,6 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### External resources
+### <span>External resources</span>
 
--   [http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/](http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/)
-
+-   <http://dev.opera.com/articles/view/color-in-opera-10-hsl-rgb-and-alpha-transparency/>

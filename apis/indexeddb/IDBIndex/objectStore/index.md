@@ -1,43 +1,41 @@
 ---
 title: objectStore
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBIndex
+    href: /apis/indexeddb/IDBIndex
+summary: 'Returns a reference to the IDBObjectStore instance for the referenced object store in this IDBIndex''s transaction.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns a reference to the IDBObjectStore instance for the referenced object store in this IDBIndex''s transaction.'
 uri: apis/indexeddb/IDBIndex/objectStore
 
 ---
-# objectStore
-
-## Summary
+## <span>Summary</span>
 
 Returns a reference to the IDBObjectStore instance for the referenced object store in this IDBIndex's transaction.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)</span></span>
+Property of [apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)[apis/indexeddb/IDBIndex](/apis/indexeddb/IDBIndex)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.objectStore;
 element.objectStore = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

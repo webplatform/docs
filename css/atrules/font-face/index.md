@@ -1,28 +1,29 @@
 ---
 title: @font-face
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/@font-face)'
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ms530757(v=vs.85).aspx)'
+code_samples:
+  - 'http://gist.github.com/5481068'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The @font-face CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, @font-face eliminates the need to depend on the limited number of fonts users have installed on their computers.'
 tags:
   - CSS
   - At
   - Rules
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The @font-face CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, @font-face eliminates the need to depend on the limited number of fonts users have installed on their computers.'
-code_samples:
-  - 'http://gist.github.com/5481068'
 uri: css/atrules/@font-face
 
 ---
-# @font-face
-
-## Summary
+## <span>Summary</span>
 
 The @font-face CSS at-rule allows authors to specify online fonts to display text on their web pages. By allowing authors to provide their own fonts, @font-face eliminates the need to depend on the limited number of fonts users have installed on their computers.
 
  The `@font-face` at-rule may be used not only at the top level of a CSS, but also inside any CSS conditional-group at-rule.
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.css}
+``` css
 @font-face {
   [font-family: <family-name>;]?
   [src: [ <uri> [format(<string>#)]? | <font-face-name> ]#;]?
@@ -35,7 +36,7 @@ The @font-face CSS at-rule allows authors to specify online fonts to display tex
 }
 ```
 
-### Values
+### <span>Values</span>
 
 **\<family-name\>**
 :   *Specifies a [**font-family**](/css/properties/font-family) name that will be used as font face value for font properties.*
@@ -88,11 +89,11 @@ The @font-face CSS at-rule allows authors to specify online fonts to display tex
 
 </dd>
 </dl>
-## Examples
+## <span>Examples</span>
 
 The following example uses the Open Sans font to style the paragraph element.
 
-``` {.css}
+``` css
 /* Declare the font using @font-face. */
 @font-face {
   font-family: "Open Sans";
@@ -119,11 +120,11 @@ p {
 
 [View live example](http://code.webplatform.org/gist/5481068)
 
-## Usage
+## <span>Usage</span>
 
      Use this at-rule in order to use specific fonts that might not be available on your local system.
 
-## Notes
+## <span>Notes</span>
 
 The rule has no default value. The `unicode-range` descriptor defines the range of Unicode characters that are supported by a given font. The values of *urange* are expressed by hexadecimal numbers prefixed by "`U+`", that correspond\> to Unicode character code points. The `unicode-range` descriptor serves as a hint for the browser when it decides whether to download a font resource. Unicode range values are written by using hexadecimal values and are case insensitive. Each is prefixed by "`U+`" and multiple, discontinuous ranges are separated by commas. Whitespace before or after commas is ignored. Valid character code values vary between `0` and `10FFFF` inclusive. A single range has three basic forms:
 
@@ -131,18 +132,16 @@ The rule has no default value. The `unicode-range` descriptor defines the range 
 -   An interval value range (for instance, `U+400-4ff`)
 -   A range where trailing ‘`?`’ characters imply ‘any digit value’ (for instance, `U+4??`)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   **@font-face**
 
@@ -168,13 +167,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -182,7 +175,7 @@ Specification
 
 -   [font](/html/elements/font)
 
-#### Syntax
+#### <span>Syntax</span>
 
 -   [@charset](/css/atrules/@charset)
 
@@ -203,12 +196,3 @@ Specification
 -   [Alphabetical list of CSS reference](/css/reference/alphabetical)
 
 -   [!important](/css/syntax/!important)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/@font-face)
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ms530757(v=vs.85).aspx)
-

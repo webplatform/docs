@@ -1,44 +1,44 @@
 ---
 title: handleEvent
+notes:
+  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
+readiness: 'Out of Date'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/filesystem/VoidCallback
+    href: /apis/filesystem/VoidCallback
+standardization_status: 'W3C Working Draft'
+summary: "Indicates success of an asynchronous method.\n"
 tags:
   0: API
   1: Object
   2: Methods
   4: FileSystemAPI
-readiness: 'Out of Date'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
-summary: "Indicates success of an asynchronous method.\n"
 uri: apis/filesystem/VoidCallback/handleEvent
 
 ---
-# handleEvent
-
-## Summary
+## <span>Summary</span>
 
 Indicates success of an asynchronous method.
 
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-*Method of [apis/filesystem/VoidCallback](/apis/filesystem/VoidCallback)*
+Method of [apis/filesystem/VoidCallback](/apis/filesystem/VoidCallback)[apis/filesystem/VoidCallback](/apis/filesystem/VoidCallback)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  VoidCallback.handleEvent();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft
-

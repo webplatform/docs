@@ -1,46 +1,51 @@
 ---
 title: crossorigin
+notes:
+  - 'Needs good content'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Specifies the whether the script should expose error info. This may be used only when loading a cross-origin script.'
 tags:
   - Markup
   - Attributes
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs good content'
-summary: 'Specifies the whether the script should expose error info. This may be used only when loading a cross-origin script.'
 uri: html/attributes/crossorigin
 
 ---
-# crossorigin
-
-## Summary
+## <span>Summary</span>
 
 Specifies the whether the script should expose error info. This may be used only when loading a cross-origin script.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   dom/HTMLScriptElement
 
-### Standards Information
+</th>
+<td>
+dom/HTMLScriptElement
+
+</td>
+</tr>
+</table>
+### <span>Standards Information</span>
 
 [HTML 5 Specification](http://www.w3.org/TR/html5/scripting-1.html#attr-script-crossorigin), Section 4.3 Content Attributes, crossorigin.
 
-## Usage
+## <span>Usage</span>
 
      Currently unsuitable for usage.
 
-## Notes
+## <span>Notes</span>
 
 This property is currently unstandardised.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -138,11 +143,46 @@ This property is currently unstandardised.
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 [[\<script\> tag| html/Elements/script]]
-

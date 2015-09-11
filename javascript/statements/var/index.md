@@ -1,20 +1,22 @@
 ---
 title: var
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/z16cackw(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Declares a variable.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Declares a variable.'
 uri: javascript/statements/var
 
 ---
-# var
-
-## Summary
+## <span>Summary</span>
 
 Declares a variable.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     var variable = value;
 
@@ -24,11 +26,11 @@ Declares a variable.
 **value**
 :   The initial value assigned to the variable.
 
-## Examples
+## <span>Examples</span>
 
 The following examples illustrate the use of the var statement.
 
-``` {.js}
+``` js
 var index;
 var name = 'Thomas Jefferson';
 var answer = 42,
@@ -37,7 +39,7 @@ var answer = 42,
 var array = [];
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Use the `var` statement to declare variables. You can assign values to the variables when you declare them or later in your script.
 
@@ -47,17 +49,11 @@ You can declare a variable without using the `var` keyword and assign a value to
 
 If you do not initialize your variable in the `var` statement, it is automatically assigned [the JavaScript value `undefined`](/javascript/undefined).
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [function Statement](/javascript/statements/function)
 -   [new Operator](/javascript/operators/new)
 -   [Array Object](/javascript/Array)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/z16cackw(v=vs.94).aspx)
 

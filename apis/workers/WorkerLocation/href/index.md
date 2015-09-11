@@ -1,54 +1,54 @@
 ---
 title: href
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/workers/WorkerLocation
+    href: /apis/workers/WorkerLocation
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/workers/WorkerLocation
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the absolute URL that the object represents.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Webworkers
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs example'
-summary: 'Returns the absolute URL that the object represents.'
 uri: apis/workers/WorkerLocation/href
 
 ---
-# href
-
-## Summary
+## <span>Summary</span>
 
 Returns the absolute URL that the object represents.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/workers/WorkerLocation](/apis/workers/WorkerLocation)</span></span>
+Property of [apis/workers/WorkerLocation](/apis/workers/WorkerLocation)[apis/workers/WorkerLocation](/apis/workers/WorkerLocation)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = object.href;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 The **href** is the entire string of the URL.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

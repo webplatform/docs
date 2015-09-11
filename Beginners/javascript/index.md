@@ -1,22 +1,20 @@
 ---
-title: javascript
+title: Part 7: Applying some whoosh with JavaScript
+notes:
+  - "* What kinds of things can we do with JavaScript?\n Creating a dynamic image gallery where you can click on a thumbnail and have the larger image appear\n Loading in different recipe details as new images are clicked on, from a JSON file"
+readiness: 'Not Ready'
+summary: 'At this point our site is functional, but what about things that go whoosh? Now we''ll give you a brief introduction to JavaScript, using it to apply some dynamic behaviour to your web page.'
 tags:
   - Basic
   - Pages
-readiness: 'Not Ready'
-notes:
-  - "* What kinds of things can we do with JavaScript?\n Creating a dynamic image gallery where you can click on a thumbnail and have the larger image appear\n Loading in different recipe details as new images are clicked on, from a JSON file"
-summary: 'At this point our site is functional, but what about things that go whoosh? Now we''ll give you a brief introduction to JavaScript, using it to apply some dynamic behaviour to your web page.'
 uri: Beginners/javascript
 
 ---
-# Part 7: Applying some whoosh with JavaScript
-
-## Summary
+## <span>Summary</span>
 
 At this point our site is functional, but what about things that go whoosh? Now we'll give you a brief introduction to JavaScript, using it to apply some dynamic behaviour to your web page.
 
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 

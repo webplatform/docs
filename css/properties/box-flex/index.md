@@ -1,48 +1,62 @@
 ---
 title: box-flex
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add example, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0.0`'
+  'Applies to': 'in-flow children of box elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+standardization_status: Non-Standard
+summary: 'Do not use. This property has been replaced by the flex property.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Add example, compatibility.'
-summary: 'Do not use. This property has been replaced by the flex property.'
-uri: css/properties/box-flex
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - flex
+uri: css/properties/box-flex
 
 ---
-# box-flex
-
-## Summary
+## <span>Summary</span>
 
 Do not use. This property has been replaced by the flex property.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0.0`
+
 Applies to
 :   in-flow children of box elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `box-flex: integer`
 
-## Values
+## <span>Values</span>
 
 integer
 :   A floating point value that indicates the relative flexibility of a child element.
@@ -53,24 +67,22 @@ A negative value is not valid.
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Do not use. This property has been replaced by the flex property. To ensure compatibility in the future, applications using this property should be updated accordingly.
 
 Gets or sets a value that specifies whether the width or height of a child element is flexible based on the space available in the object. This value also indicates the proportion of space available that is allocated to the child element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Flexible Box Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/)
 :   W3C Working Draft (Obsolete)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -85,8 +97,6 @@ Specification
 -   **box-flex**
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -116,15 +126,8 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,84 +1,86 @@
 ---
 title: offsetHeight
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/offsetHeight.htm'
+notes:
+  - 'summary, clean-up of MSDN import'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'summary, clean-up of MSDN import'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/offsetHeight.htm'
 uri: dom/HTMLElement/offsetHeight
 
 ---
-# offsetHeight
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.offsetHeight;
 element.offsetHeight = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
 This example adjusts the size of a clock's readout to fit the current width and height of the document body.
 
-    <HTML>
-    <HEAD>
-    <TITLE>A Simple Clock</TITLE>
-    <SCRIPT LANGUAGE="JScript">
-    function startClock()
-    {
-        window.setInterval("Clock_Tick()", 1000);
-        Clock_Tick();
-    }
+``` html
+<HTML>
+<HEAD>
+<TITLE>A Simple Clock</TITLE>
+<SCRIPT LANGUAGE="JScript">
+function startClock()
+{
+    window.setInterval("Clock_Tick()", 1000);
+    Clock_Tick();
+}
 
-    var iRatio = 4;
-    function Clock_Tick()
-    {
-        var dToday = Date();
-        var sTime = dToday.substring(11,19);
-        var iDocHeight = document.body.offsetHeight;
-        var iDocWidth = document.body.offsetWidth;
+var iRatio = 4;
+function Clock_Tick()
+{
+    var dToday = Date();
+    var sTime = dToday.substring(11,19);
+    var iDocHeight = document.body.offsetHeight;
+    var iDocWidth = document.body.offsetWidth;
 
-        if ((iDocHeight*iRatio)>iDocWidth)
-            iDocHeight = iDocWidth / iRatio;
-        document.all.MyTime.innerText = sTime;
-        document.all.MyTime.style.fontSize = iDocHeight;
-    }
-    </SCRIPT>
-    </HEAD>
-    <BODY onload="startClock()">
-    <P ID="MyTime">&nbsp;</P>
-    </BODY>
-    </HTML>
+    if ((iDocHeight*iRatio)>iDocWidth)
+        iDocHeight = iDocWidth / iRatio;
+    document.all.MyTime.innerText = sTime;
+    document.all.MyTime.style.fontSize = iDocHeight;
+}
+</SCRIPT>
+</HEAD>
+<BODY onload="startClock()">
+<P ID="MyTime">&nbsp;</P>
+</BODY>
+</HTML>
+```
 
 This example uses the **offsetHeight** property and the [**clientHeight**](/dom/HTMLElement/clientHeight) property to show different ways of measuring the object size.
 
-    <DIV ID=oDiv STYLE="overflow:scroll; width:200; height:100"> . . . </DIV>
-    <BUTTON onclick="alert(oDiv.clientHeight)">client height</BUTTON>
-    <BUTTON onclick="alert(oDiv.offsetHeight)">offset height</BUTTON>
+``` html
+<DIV ID=oDiv STYLE="overflow:scroll; width:200; height:100"> . . . </DIV>
+<BUTTON onclick="alert(oDiv.clientHeight)">client height</BUTTON>
+<BUTTON onclick="alert(oDiv.offsetHeight)">offset height</BUTTON>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/offsetHeight.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 You can determine the location, width, and height of an object by using a combination of the [**offsetLeft**](/dom/HTMLElement/offsetLeft), [**offsetTop**](/dom/HTMLElement/offsetTop), **offsetHeight**, and [**offsetWidth**](/dom/HTMLElement/offsetWidth) properties. These numeric properties specify the physical coordinates and dimensions of the object relative to the object's offset parent. For more information about how to access the dimension and location of elements on the page through the Dynamic HTML (DHTML) Document Object Model (DOM), see Measuring Element Dimension and Location with CSSOM in Internet Explorer 9. To comply with the [Cascading Style Sheets, Level 1 (CSS1)](http://go.microsoft.com/fwlink/p/?linkid=203774) box model, Microsoft Internet Explorer 6 and later calculate the height of objects differently when you use the [!DOCTYPE](/html/elements/!DOCTYPE) declaration in your document to switch on standards-compliant mode. This difference may affect the value of the **offsetHeight** property. When standards-compliant mode is switched on, the [**height**](/css/properties/height) property specifies the distance between the top and bottom edges of the bounding box that surrounds the object's content. When standards-compliant mode is not switched on, and with earlier versions of Windows Internet Explorer, the **height** property also includes the [**border**](/css/properties/border) and [**padding**](/css/properties/padding) belts that surround the object's bounding box. For more information, see CSS Enhancements in Internet Explorer 6.
 
-### Syntax
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+### <span>Syntax</span>

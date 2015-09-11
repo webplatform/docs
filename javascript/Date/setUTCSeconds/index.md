@@ -1,21 +1,23 @@
 ---
 title: setUTCSeconds
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k0aw4t5d(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the seconds value in the Date object using Universal Coordinated Time (UTC).'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sets the seconds value in the Date object using Universal Coordinated Time (UTC).'
 uri: javascript/Date/setUTCSeconds
 
 ---
-# setUTCSeconds
-
-## Summary
+## <span>Summary</span>
 
 Sets the seconds value in the Date object using Universal Coordinated Time (UTC).
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.setUTCSeconds( numSeconds [ , numMilli ] )
 
@@ -28,11 +30,11 @@ Sets the seconds value in the Date object using Universal Coordinated Time (UTC)
 **numMilli**
 :   Optional. A numeric value equal to the milliseconds value.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **setUTCSeconds** method.
 
-``` {.js}
+``` js
 function SetUTCSecondsDemo(nsec){
  // Create Date object.
      var d = new Date();
@@ -45,7 +47,7 @@ function SetUTCSecondsDemo(nsec){
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 All **set** methods taking optional arguments use the value returned from corresponding **get** methods, if you do not specify an optional argument. For example, if the numMilli argument is not specified, JavaScript uses the value returned from the **getUTCMilliseconds** method.
 
@@ -55,17 +57,11 @@ If the value of an argument is greater than its range or is a negative number, o
 
 The **setUTCHours** method can be used to set the hours, minutes, seconds, and milliseconds.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getSeconds Method (Date)](/javascript/Date/getSeconds)
 -   [getUTCSeconds Method (Date)](/javascript/Date/getUTCSeconds)
 -   [setSeconds Method (Date)](/javascript/Date/setSeconds)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k0aw4t5d(v=vs.94).aspx)
 

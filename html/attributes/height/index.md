@@ -1,54 +1,61 @@
 ---
 title: height
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/7283238'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Specifies the height of the certain content elements in pixels.'
 tags:
   - Markup
   - Attributes
   - HTML
   - UI
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Specifies the height of the certain content elements in pixels.'
-code_samples:
-  - 'http://gist.github.com/7283238'
 uri: html/attributes/height
 
 ---
-# height
-
-## Summary
+## <span>Summary</span>
 
 Specifies the height of the certain content elements in pixels.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/img)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/img)
+
+</td>
+</tr>
+</table>
 The **height** attribute specifies the visual height of [img](/html/elements/img), [iframe](/html/elements/iframe), [embed](/html/elements/embed), [object](/html/elements/object), [video](/html/elements/video), and [input[type="image"]](/html/elements/input/type/image) in pixels.
 
 If a height attribute is set, but no width, the image will scale to preserve its original aspect ratio.
 
 Height values must be non-negative integers.
 
-## Examples
+## <span>Examples</span>
 
 An image with an explicit height and width set.
 
-``` {.html}
+``` html
 <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" height="100" width="150">
 ```
 
 [View live example](http://code.webplatform.org/gist/7283238)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -146,19 +153,53 @@ An image with an explicit height and width set.
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Multimedia
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Multimedia</span>
 
 -   [Track ended](/apis/MediaStream/ended)
 
 -   [MediaSource](/apis/media_source_extensions/MediaSource)
 
 -   [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
-
--   [VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
@@ -174,7 +215,7 @@ An image with an explicit height and width set.
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### Visual Effects
+#### <span>Visual Effects</span>
 
 -   [color](/css/color)
 
@@ -209,10 +250,3 @@ An image with an explicit height and width set.
 -   [filter](/svg/elements/filter)
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

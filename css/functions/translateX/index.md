@@ -1,32 +1,32 @@
 ---
 title: translateX()
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://codepen.io/Fischaela/pen/dHgbL'
+readiness: 'Ready to Use'
+summary: 'Transform function for a 2d translation which moves an element on the x-axis by the given value.'
 tags:
   - CSS
   - Functions
-readiness: 'Ready to Use'
-summary: 'Transform function for a 2d translation which moves an element on the x-axis by the given value.'
-code_samples:
-  - 'http://codepen.io/Fischaela/pen/dHgbL'
 uri: css/functions/translateX()
 
 ---
-# translateX()
-
-## Summary
+## <span>Summary</span>
 
 Transform function for a 2d translation which moves an element on the x-axis by the given value.
 
-## Syntax
+## <span>Syntax</span>
 
 **translateX ( \<translation-value\> )**
 
-## Parameters
+## <span>Parameters</span>
 
 **translation-value**
 
 *Value for the translation across the x-axis. Can be a [length](/css/data_types/length) or a [percentage](/css/data_types/percentage) value.*
 
-## Examples
+## <span>Examples</span>
 
 The example shows three div elements, that are transformed individually with the translateX() function.
 
@@ -34,7 +34,7 @@ The example shows three div elements, that are transformed individually with the
 2.  You can also provide a negative value. In this case, element-2 is moved 20 pixels to the left, in the negative direction on the x-axis.
 3.  Using a percentage value of 50 percent moves element-3 in x-direction by a value which matches 50 percent of the element-3's width. In this case element-3 has a 100 pixel width, so it is moved 50 pixels to the right.
 
-``` {.css}
+``` css
 .element-1 {
     transform: translateX(10px);
 }
@@ -50,11 +50,11 @@ The example shows three div elements, that are transformed individually with the
 
 [View live example](http://codepen.io/Fischaela/pen/dHgbL)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -88,15 +88,8 @@ The example shows three div elements, that are transformed individually with the
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### External resources
+### <span>External resources</span>
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.1
 -   [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
 -   [Hands On: 2D Transforms](http://go.microsoft.com/fwlink/?LinkID=240163)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

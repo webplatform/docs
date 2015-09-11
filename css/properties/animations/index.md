@@ -1,15 +1,15 @@
 ---
-title: animations
-tags:
-  - CSS
+title: Animations
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Not Ready'
 standardization_status: Unknown
+tags:
+  - CSS
 uri: css/properties/animations
 
 ---
-# Animations
-
-### In this section
+### <span>In this section</span>
 
 -   [**@keyframes**](/css/atrules/@keyframes): Sets a list of property animation keyframes for an object in the HTML document.
 -   [**animation**](/css/properties/animation/animation): Gets or sets one or more shorthand values that specify all animation properties (except [**animation-play-state**](/css/properties/animation-play-state)) for a set of corresponding object properties identified in the CSS [**@keyframes**](/css/atrules/@keyframes) at-rule specified by the [**animation-name**](/css/properties/animation-name) property.
@@ -26,11 +26,11 @@ uri: css/properties/animations
 
 {
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -51,8 +51,6 @@ uri: css/properties/animations
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -80,13 +78,4 @@ uri: css/properties/animations
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

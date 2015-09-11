@@ -1,40 +1,52 @@
 ---
 title: text-overline-width
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/7284054'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'all elements with and generated content with textual content'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'see prose'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the line width for the overline text decoration.'
-code_samples:
-  - 'http://gist.github.com/7284054'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-overline-width
 
 ---
-# text-overline-width
-
-## Summary
+## <span>Summary</span>
 
 Specifies the line width for the overline text decoration.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   all elements with and generated content with textual content
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   see prose
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `text-overline-width: <length>`
 -   `text-overline-width: <number>`
@@ -45,7 +57,7 @@ Animatable
 -   `text-overline-width: thick`
 -   `text-overline-width: thin`
 
-## Values
+## <span>Values</span>
 
 auto
 :   The user agent may use any algorithm to determine the text decoration width. The computed value is 'auto'.
@@ -71,11 +83,11 @@ medium
 thick
 :   Generates a thick line. The computed value is 'thick'.
 
-## Examples
+## <span>Examples</span>
 
 Example incomplete because no browser implementation exists.
 
-``` {.css}
+``` css
 p {
   text-overline-width: thick;
 }
@@ -83,10 +95,7 @@ p {
 
 [View live example](http://code.webplatform.org/gist/7284054)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-style)
 :   Candidate Recommendation
-

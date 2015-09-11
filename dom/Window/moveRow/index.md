@@ -1,55 +1,60 @@
 ---
 title: moveRow
+attributions:
+  - 'Microsoft Developer Network: [[moveRow Method](http://msdn.microsoft.com/en-us/library/ie/ms536622(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+standardization_status: Non-Standard
+summary: 'Moves a table row to a new position.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: Non-Standard
-summary: 'Moves a table row to a new position.'
 uri: dom/Window/moveRow
 
 ---
-# moveRow
-
-## Summary
+## <span>Summary</span>
 
 Moves a table row to a new position.
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  oTable.moveRow(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### indexFrom
+### <span>indexFrom</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
 **Integer**Â that specifies the index in the [**rows**](/dom/HTMLElement/rows) collection of the table row that is moved. -1 Default.
 
-### indexTo
+### <span>indexTo</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
 **Integer**Â that specifies where the row is moved within the [**rows**](/dom/HTMLElement/rows) collection. -1 Default.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **moveRow** method to exchange the first and second rows in a table when the user clicks a button.
 
-``` {.js}
+``` js
 <script type="text/javascript>
 function fnMove(){
    oTable.moveRow(0,1);
@@ -62,19 +67,12 @@ function fnMove(){
 </table>
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use to re-order rows of tabula data.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Rows between the *indexFrom* and *indexTo* positions in the [**rows**](/dom/HTMLElement/rows) collection are shifted based on the direction the row moves.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[moveRow Method](http://msdn.microsoft.com/en-us/library/ie/ms536622(v=vs.85).aspx) Article]
-

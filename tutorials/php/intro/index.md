@@ -1,28 +1,26 @@
 ---
-title: intro
-tags:
-  - Tutorials
-readiness: 'Not Ready'
+title: Introduction
 notes:
   - 'Deletion candidate; we are not covering server-side technologies.'
+readiness: 'Not Ready'
+tags:
+  - Tutorials
 uri: tutorials/php/intro
 
 ---
-# Introduction
-
 **By Lewis Youldon**
 
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## About php
+## <span>About php</span>
 
 Placeholder
 
-## Why php?
+## <span>Why php?</span>
 
 Placeholder
 
-## What you will learn
+## <span>What you will learn</span>
 
 -   The basics of PHP
 -   When to use PHP

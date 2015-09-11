@@ -1,31 +1,33 @@
 ---
 title: math
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/math)'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[mathml](/mathml)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The top-level element in MathML is &lt;math&gt;. Every valid MathML instance must be wrapped in &lt;math&gt; tags. In addition you must not nest a second &lt;math&gt; element in another, but you can have an arbitrary number of other child elements in it.'
 tags:
   - Markup
   - Elements
   - MathML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The top-level element in MathML is <math>. Every valid MathML instance must be wrapped in <math> tags. In addition you must not nest a second <math> element in another, but you can have an arbitrary number of other child elements in it.'
 uri: mathml/elements/math
 
 ---
-# math
+## <span>Summary</span>
 
-## Summary
+The top-level element in MathML is &lt;math&gt;. Every valid MathML instance must be wrapped in &lt;math&gt; tags. In addition you must not nest a second &lt;math&gt; element in another, but you can have an arbitrary number of other child elements in it.
 
-The top-level element in MathML is \<math\>. Every valid MathML instance must be wrapped in \<math\> tags. In addition you must not nest a second \<math\> element in another, but you can have an arbitrary number of other child elements in it.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## Examples
+## <span>Examples</span>
 
 This example shows a simple formula written in MathML:
 
-``` {.html}
+``` html
 
 
 <!DOCTYPE html>
@@ -62,20 +64,12 @@ This example shows a simple formula written in MathML:
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter2.html#interf.toplevel)
 :   W3C Recommendation
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/math)
-
-## Attributes
+## <span>Attributes</span>
 
 In addition to the following attributes, the **math** element accepts any attributes of the [mstyle](/mathml/elements/mstyle) element.
 

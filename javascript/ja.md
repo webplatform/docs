@@ -1,10 +1,12 @@
 ---
-title: ja
+title: JavaScript
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+lang: ja
+summary: "JavaScriptは、Webで使われているスクリプト言語で、動きのある仕組みを思う存分に実装できます。\n"
 tags:
   - Basic
   - Pages
-summary: "JavaScriptは、Webで使われているスクリプト言語で、動きのある仕組みを思う存分に実装できます。\n"
-uri: javascript/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -67,11 +69,10 @@ todo_broken_links:
     - javascript/zh-hans
     - javascript/zh-hant
     - javascript/zh-tw
+uri: javascript/ja
 
 ---
-# JavaScript
-
-## Summary
+## <span>Summary</span>
 
 JavaScriptは、Webで使われているスクリプト言語で、動きのある仕組みを思う存分に実装できます。
 
@@ -79,10 +80,19 @@ JavaScriptはブラウザで使うだけに留まりません。[Node.js](http:/
 
 注意: webの開発を全くしたことがないのなら、[Beginners](/Beginners)セクションを見直した方が良いかもしれません。
 
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/javascript)**  • <span lang="ja">**日本語**</span>
 
-## このセクションの内容
+</th>
+<td class="mbox-text">
+**[English](/javascript)**  • <span lang="ja">**日本語**</span>
+
+</td>
+</tr>
+</table>
+## <span>このセクションの内容</span>
 
  [オブジェクト](/javascript/objects)
 :   オブジェクトについてのリンクの一覧
@@ -105,7 +115,7 @@ JavaScriptはブラウザで使うだけに留まりません。[Node.js](http:/
  [JavaScriptの予約語となるかもしれない単語](/javascript/future_reserved_words)
 :   JavaScriptの予約語となるかもしれない単語の一覧。識別子として使用されないかもしれない
 
-## 背景
+## <span>背景</span>
 
 JavaScriptは、Webで使われているスクリプト言語で、動きのある仕組みを思う存分に実装できます。元々はDOMを操作したり、スタイルを変えたり、アニメーション効果を実現するためだけに使われていました。しかし最近になって、より多くのことができるようになりました。それは、HTML5によるパワフルなAPIや[jQuery](http://jquery.com/)、[Node.js](http://nodejs.org/)、[Backbone.js](http://backbonejs.org/)をはじめとするサードパーティによるライブラリやアプリケーションのおかげです。
 
@@ -113,15 +123,9 @@ JavaScriptは、Webで使われているスクリプト言語で、動きのあ�
 -   現在の安定バージョン: JavaScriptは、Ecma InternationalによるECMAScript規格にもとづいています。[ECMAScript version 5.1](http://www.ecma-international.org/ecma-262/5.1/)は現在の安定バージョンとされています。
 -   これからの策定: 現在ECMAScript version 6が策定中ですが、JavaScriptは絶えず開発され続けています。[W3C HTML working group](http://www.w3.org/html/wg/)のようなところで、常に新しいJavaScriptのAPIが開発されています。加えて、[GitHub](https://github.com/)のようなところで、常に新しいJavaScriptライブラリが開発されています。
 
-## JavaScriptテクノロジーに貢献するには
+## <span>JavaScriptテクノロジーに貢献するには</span>
 
 ECMAScript言語の標準化は、ECMAのTC39グループが行っています。[TC39 latest work](http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts)を参照してください。さらに知りたければ、[ECMAScript development homepage](http://www.ecmascript.org/dev.php)を見てください。オフィシャルなECMAScriptの適合テストスイートは、[test262](https://github.com/tc39/test262)です。ご協力お待ちしてます!
 
 HTML5や[jQuery](http://jquery.com/)等のサードパーティのライブラリ・フレームワークといったその他のJavaScript関連テクノロジーに協力したいのなら、ワーキンググループやコアチーム、開発者を探してみてください。
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)
 

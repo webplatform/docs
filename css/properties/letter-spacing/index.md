@@ -1,49 +1,63 @@
 ---
 title: letter-spacing
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5671141'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'normal or absolute length'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`letterSpacing`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The letter-spacing CSS property specifies the spacing behavior between text characters.'
-code_samples:
-  - 'http://gist.github.com/5671141'
-uri: css/properties/letter-spacing
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/letter-spacing
 
 ---
-# letter-spacing
-
-## Summary
+## <span>Summary</span>
 
 The letter-spacing CSS property specifies the spacing behavior between text characters.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   normal or absolute length
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `letterSpacing`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `letter-spacing: length`
 -   `letter-spacing: normal`
 
-## Values
+## <span>Values</span>
 
 normal
 :   The spacing is the normal spacing for the current font.
@@ -51,11 +65,11 @@ normal
 length
 :   Indicates inter-character space in addition to the default space between characters, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). Values may be negative, but there may be implementation-specific limits.
 
-## Examples
+## <span>Examples</span>
 
 A selection of examples showing some typical uses of the letter-spacing property.
 
-``` {.html}
+``` html
 <p>This is a simple paragraph with the default value for letter-spacing.</p>
 
 <p class="pos">This is a simple paragraph with a altered letter-spacing value by 0.3em.</p>
@@ -65,7 +79,7 @@ A selection of examples showing some typical uses of the letter-spacing property
 
 [View live example](http://code.webplatform.org/gist/5671141)
 
-``` {.css}
+``` css
 p {
     letter-spacing: normal;
 }
@@ -79,38 +93,32 @@ p.neg {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      * Up to three different values can be specified, in the following order: optimum, minimum, maximum
 
 -   If one value is specified, it is used for all spacing. If two values are specified, the first is used for the optimum and minimum spacings, and the second is used for maximum.
 
-## Notes
+## <span>Notes</span>
 
 When specified as a positive **length** value, the **letter-spacing** attribute adds the specified value to the default spacing between characters within an element. A negative **length** value decreases the space between characters. Letter spacing can be influenced by justification.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#letter-spacing)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -121,8 +129,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -136,25 +142,11 @@ Specification
 
 -   **letter-spacing**
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -200,17 +192,10 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Other articles
+### <span>Other articles</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `defaults`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,5 +1,19 @@
 ---
 title: metered
+notes:
+  - 'See remark in topic. This API is not defined anywhere outside of the Network Information API W3C Note [1]. Also, this form lacks the specifications template.'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/network_information/Connection
+    href: /apis/network_information/Connection
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /apis/network_information/Connection
+standardization_status: Non-Standard
+summary: 'A connection is metered when the user''s connection is subject to a limitation from his Internet Service Provider strong enough to request web applications to be careful with the bandwidth usage.'
 tags:
   0: API
   1: Object
@@ -7,47 +21,37 @@ tags:
   4: Mobile
   5: Network
   6: Information
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - 'See remark in topic. This API is not defined anywhere outside of the Network Information API W3C Note [1]. Also, this form lacks the specifications template.'
-summary: 'A connection is metered when the user''s connection is subject to a limitation from his Internet Service Provider strong enough to request web applications to be careful with the bandwidth usage.'
 uri: 'apis/network information/Connection/metered'
 
 ---
-# metered
-
-## Summary
+## <span>Summary</span>
 
 A connection is metered when the user's connection is subject to a limitation from his Internet Service Provider strong enough to request web applications to be careful with the bandwidth usage.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/network\_information/Connection](/apis/network_information/Connection)</span></span>
+Property of [apis/network\_information/Connection](/apis/network_information/Connection)[apis/network\_information/Connection](/apis/network_information/Connection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = connection.metered;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 As of 25 June 2014:
 
 -   Formal work on the [Network Information](http://www.w3.org/TR/netinfo-api/) spec has been stopped. The specification is now a W3C Note.
 -   Both Chrome and Firefox have shipped Network Information under an experimental feedback channel.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [The Network Information API](http://www.w3.org/TR/netinfo-api/)
 :   W3C Note
-

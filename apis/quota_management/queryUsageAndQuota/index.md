@@ -1,71 +1,72 @@
 ---
 title: queryUsageAndQuota
+notes:
+  - 'Can''t find this method in the spec: https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/quota_management/StorageQuota
+    href: /apis/quota_management/StorageQuota
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Queries the current usage (how much data is stored) and quota available for the requesting application.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Quota
   5: Management
-readiness: 'Not Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Can''t find this method in the spec: https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html'
-summary: 'Queries the current usage (how much data is stored) and quota available for the requesting application.'
 uri: 'apis/quota management/queryUsageAndQuota'
 
 ---
-# queryUsageAndQuota
-
-## Summary
+## <span>Summary</span>
 
 Queries the current usage (how much data is stored) and quota available for the requesting application.
 
-*Method of [apis/quota\_management/StorageQuota](/apis/quota_management/StorageQuota)*
+Method of [apis/quota\_management/StorageQuota](/apis/quota_management/StorageQuota)[apis/quota\_management/StorageQuota](/apis/quota_management/StorageQuota)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  object.queryUsageAndQuota(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### successCallback
+### <span>successCallback</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  This callback is used to return new quota information granted by a User Agent. Quota is provided by the *grantedQuotaInBytes* parameter.
 
 **void (unsigned long grantedQuotaInBytes)**
 
-### errorCallback
+### <span>errorCallback</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  This callback is used to return information when an error has occured. Details are provided by the *error* parameter.
 
 **void (DOMError error)**
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Quota Management Specification](https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html)
 :   W3C Editor's Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Off-line Storage
+#### <span>Off-line Storage</span>
 
 -   [appcache](/apis/appcache)
 
@@ -77,8 +78,6 @@ Specification
 
 -   [quota management](/apis/quota_management)
 
--   [StorageQuota](/apis/quota_management/StorageQuota)
-
 -   **queryUsageAndQuota**
 
 -   [requestQuota](/apis/quota_management/requestQuota)
@@ -86,6 +85,3 @@ Specification
 -   [localStorage](/apis/web-storage/Storage/localStorage)
 
 -   [Introduction to using the application cache](/tutorials/appcache_beginner)
-
--   [Overview of client-side storage](/tutorials/offline_storage)
-

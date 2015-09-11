@@ -1,22 +1,24 @@
 ---
 title: ArrayBuffer
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212474(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: "Represents a raw buffer of binary data, which is used to store data for the different typed arrays. ArrayBuffers cannot be read from or written to directly, but can be passed to a typed array or DataView Object to interpret the raw buffer as needed.\n"
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: "Represents a raw buffer of binary data, which is used to store data for the different typed arrays. ArrayBuffers cannot be read from or written to directly, but can be passed to a typed array or DataView Object to interpret the raw buffer as needed.\n"
 uri: javascript/ArrayBuffer
 
 ---
-# ArrayBuffer
-
-## Summary
+## <span>Summary</span>
 
 Represents a raw buffer of binary data, which is used to store data for the different typed arrays. ArrayBuffers cannot be read from or written to directly, but can be passed to a typed array or DataView Object to interpret the raw buffer as needed.
 
 For more information about typed arrays, see Typed Arrays.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     arrayBuffer = new ArrayBuffer(length);
 
@@ -26,11 +28,11 @@ For more information about typed arrays, see Typed Arrays.
 **length**
 :   The length of the buffer. The contents of the ArrayBuffer are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use an ArrayBuffer object to process the binary data acquired from an XmlHttpRequest. You can use a [DataView Object](/javascript/DataView) to get the individual values.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -49,22 +51,15 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 For more information about using XmlHttpRequest , see XMLHttpRequest enhancements.
 
-## Properties
+## <span>Properties</span>
 
 The following table lists the properties of the **ArrayBuffer** object.
 
-Property
-:   Description
-[byteLength](/javascript/ArrayBuffer/byteLength)
-:   Read-only. The length of the ArrayBuffer (in bytes).
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212474(v=vs.94).aspx)
+|Property|Description|
+|:-------|:----------|
+|[byteLength](/javascript/ArrayBuffer/byteLength)|Read-only. The length of the ArrayBuffer (in bytes).|
 

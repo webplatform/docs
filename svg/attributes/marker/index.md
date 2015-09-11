@@ -1,41 +1,50 @@
 ---
 title: marker
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs all content'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Needs all content'
 uri: svg/attributes/marker
 
 ---
-# marker
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **marker** property is a composite property for the three individual marker properties.
 
-### Syntax
+### <span>Syntax</span>
 
     marker: none | funciri | inherit
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.6.3
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -45,15 +54,8 @@ The **marker** property is a composite property for the three individual marker 
 -   [**SVGPolylineElement**](/svg/elements/polyline)
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 
-### Reference
+### <span>Reference</span>
 
 -   [**markerStart**](/svg/attributes/marker-start)
 -   [**markerMid**](/svg/attributes/marker-mid)
 -   [**markerEnd**](/svg/attributes/marker-end)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

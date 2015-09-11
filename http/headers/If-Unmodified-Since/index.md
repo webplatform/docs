@@ -1,37 +1,39 @@
 ---
 title: If-Unmodified-Since
+overview_table:
+  Direction: Request
+  Features: ''
+summary: 'Makes a request conditional on having a certain last-modified timestamp, used to prevent &quot;lost updates&quot; when modifying resources.'
 tags:
   - HTTP
   - Headers
-summary: 'Makes a request conditional on having a certain last-modified timestamp, used to prevent "lost updates" when modifying resources.'
 uri: http/headers/If-Unmodified-Since
 
 ---
-# If-Unmodified-Since
+## <span>Summary</span>
 
-## Summary
+Makes a request conditional on having a certain last-modified timestamp, used to prevent &quot;lost updates&quot; when modifying resources.
 
-Makes a request conditional on having a certain last-modified timestamp, used to prevent "lost updates" when modifying resources.
-
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Request
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     If-Unmodified-Since = HTTP-date
 
-## Examples
+## <span>Examples</span>
 
-    If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 GMT
+``` html
+If-Unmodified-Since: Sat, 29 Oct 1994 19:43:31 GMT
+```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [RFC7232: HTTP/1.1 Conditional Requests](http://tools.ietf.org/html/rfc7232#section-3.4)
 :
 

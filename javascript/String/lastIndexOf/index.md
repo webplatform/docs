@@ -1,20 +1,22 @@
 ---
 title: lastIndexOf
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6d20k718(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the last occurrence of a substring in the string.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the last occurrence of a substring in the string.'
 uri: javascript/String/lastIndexOf
 
 ---
-# lastIndexOf
-
-## Summary
+## <span>Summary</span>
 
 Returns the last occurrence of a substring in the string.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     strObj.lastIndexOf( substring [, startindex ] )
 
@@ -27,7 +29,7 @@ Returns the last occurrence of a substring in the string.
 **startindex**
 :   Optional. The index at which to begin searching. If omitted, the search begins at the end of the string.
 
-## Examples
+## <span>Examples</span>
 
 The **lastIndexOf** method returns an integer value indicating the beginning of the substring within the String object. If the substring is not found, a -1 is returned.
 
@@ -37,7 +39,7 @@ Searching is performed starting at the last character in the string. Otherwise, 
 
 The following example illustrates the use of the **lastIndexOf** method.
 
-``` {.js}
+``` js
 var str = "time, time";
 
 var s = "";
@@ -52,15 +54,9 @@ document.write(s);
 // abc is at position -1
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [indexOf Method (String)](/javascript/String/indexOf)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6d20k718(v=vs.94).aspx)
 

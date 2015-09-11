@@ -1,49 +1,51 @@
 ---
 title: data
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'example, standards, compatibility'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/MessageEvent
+    href: /dom/MessageEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: any
+    href: /dom/MessageEvent
+standardization_status: 'W3C Working Draft'
+summary: 'Gets the content of the message.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'example, standards, compatibility'
-summary: 'Gets the content of the message.'
 uri: dom/MessageEvent/data
 
 ---
-# data
-
-## Summary
+## <span>Summary</span>
 
 Gets the content of the message.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MessageEvent](/dom/MessageEvent)</span></span>
+Property of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/MessageEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
-var data = event.data;
+``` js
+var data = event.html/elements/data;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">any</span></span>
+Returns an object of type anyany
 
 The content of the message.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 This property contains the value passed to [**postMessage**](/dom/Window/postMessage). Before trusting the data, check the [**URL**](/dom/Window/URL) property of the message request to determine its source.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

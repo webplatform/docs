@@ -1,20 +1,18 @@
 ---
-title: utorials
+title: Learn the latest in web technologies
+readiness: 'Ready to Use'
+summary: 'Tutorials are hands-on lessons about implementing web technology.'
 tags:
   - Basic
   - Pages
-readiness: 'Ready to Use'
-summary: 'Tutorials are hands-on lessons about implementing web technology.'
 uri: tutorials
 
 ---
-# Learn the latest in web technologies
-
-## Summary
+## <span>Summary</span>
 
 Tutorials are hands-on lessons about implementing web technology.
 
-## Fundamentals
+## <span>Fundamentals</span>
 
 -   [Web programming essentials](/tutorials/web_programming_essentials)
 -   [Planning out a website](/tutorials/information_architecture/Planning_out_a_website)
@@ -24,7 +22,7 @@ Tutorials are hands-on lessons about implementing web technology.
 -   [JavaScript](/javascript)
 -   [SVG](/svg/tutorials)
 
-## Topical tutorials
+## <span>Topical tutorials</span>
 
 -   [Audio](/tutorials/audio)
 -   [Connectivity](/tutorials/connectivity)

@@ -1,56 +1,67 @@
 ---
 title: kerning-mode
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': ''
+  'Applies to': ''
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: ''
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'Out of Date'
+summary: 'Obsolete: Unsupported'
 tags:
   - CSS
   - Properties
-readiness: 'Out of Date'
-summary: 'Obsolete: Unsupported'
 uri: css/properties/kerning-mode
 
 ---
-# kerning-mode
-
-## Summary
+## <span>Summary</span>
 
 Obsolete: Unsupported
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
-:   ``
+:
+
 Applies to
 :
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
 
-## Syntax
+## <span>Syntax</span>
 
-## Values
+## <span>Values</span>
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [ ]
 :   Obsolete
+
 [ ]
 :
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -64,17 +75,10 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   **kerning-mode**
-
--   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
 
 -   [text-rendering](/css/properties/text-rendering)
 
 -   [text-underline](/css/properties/text-underline)
 
 -   [user-modify](/css/properties/user-modify)
-

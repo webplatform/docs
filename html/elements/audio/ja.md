@@ -1,17 +1,22 @@
 ---
-title: ja
+title: audio
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/audio)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/7282145'
+lang: ja
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLAudioElement](/dom/HTMLAudioElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: '&lt;audio&gt;は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。'
 tags:
   - Markup
   - Elements
   - Audio
   - HTML
   - Media
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: '<audio>は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。'
-code_samples:
-  - 'http://gist.github.com/7282145'
-uri: html/elements/audio/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -74,25 +79,34 @@ todo_broken_links:
     - html/elements/audio/zh-hans
     - html/elements/audio/zh-hant
     - html/elements/audio/zh-tw
+uri: html/elements/audio/ja
 
 ---
-# audio
-
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/html/elements/audio)**  • <span lang="ja">**日本語**</span>
 
-## Summary
+</th>
+<td class="mbox-text">
+**[English](/html/elements/audio)**  • <span lang="ja">**日本語**</span>
 
-\<audio\>は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。
+</td>
+</tr>
+</table>
 
-## Overview Table
+## <span>Summary</span>
+
+&lt;audio&gt;は音楽ファイルを再生したり、最低限のメディアプレイヤーのインターフェイスを表示するのに使用します。
+
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 より詳細な説明は[HTMLAudioElement](/dom/HTMLAudioElement)を参照してください。
 
-## HTML属性
+## <span>HTML属性</span>
 
 -   `autoplay` = "autoplay"、"" (空文字)、もしくは指定なし
     ブラウザ上でオーディオストリームを自動で再生します。
@@ -109,45 +123,35 @@ todo_broken_links:
     複数の動画や音楽をグループ化し、リンクさせることができます。
 -   `src` = URL（前後のスペースは取り除かれます。）オーディオストリームのURLを指定します。
 
-## アクセシビリティ
+## <span>アクセシビリティ</span>
 
 製作者は、情報とインターフェイスがいろいろなユーザに見やすくわかりやすいように作成する必要があります ([WCAG 2.0 - 原則 1: 知覚可能](http://waic.jp/docs/WCAG20/Overview.html#perceivable))。テキストのキャプション等の、タイムベースメディア（音楽や動画）に対する代替手法についても含まれています。[ガイダンス 1.2](http://waic.jp/docs/WCAG20/Overview.html#media-equiv).
 
-## フォーマットとコーデック
+## <span>フォーマットとコーデック</span>
 
 一部のコーデックについて、すべてのブラウザでサポートされているわけではありません。しかしOgg/VorbisとMP4/AACはほとんどのブラウザでサポートされています。詳細は[対応音声コーデック(Wikipedia)](https://ja.wikipedia.org/wiki/HTML5%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA#.E5.AF.BE.E5.BF.9C.E9.9F.B3.E5.A3.B0.E3.82.B3.E3.83.BC.E3.83.87.E3.83.83.E3.82.AF)を参照してください。
 
-## Examples
+## <span>Examples</span>
 
 この例はウェブページでmp3を再生するサンプルです。
 
-``` {.html}
+``` html
 <audio controls src="http://freedownloads.last.fm/download/533190714/she%2Bso%2Bfly.mp3" type="audio/mp3">
 </audio>
 ```
 
 [View live example](http://code.webplatform.org/gist/7282145)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-audio-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [HTML5 and Xiph codecs](http://wiki.xiph.org/Html5)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/audio)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

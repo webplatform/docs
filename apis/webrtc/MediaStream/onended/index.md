@@ -1,29 +1,32 @@
 ---
 title: onended
+notes:
+  - 'Needs example, spec reference, usage'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/MediaStream
+    href: /apis/webrtc/MediaStream
+standardization_status: 'W3C Working Draft'
+summary: 'Handles the ended event when fired on the MediaStream object.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference, usage'
-summary: 'Handles the ended event when fired on the MediaStream object.'
 uri: apis/webrtc/MediaStream/onended
 
 ---
-# onended
-
-## Summary
+## <span>Summary</span>
 
 Handles the ended event when fired on the MediaStream object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)</span></span>
+Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var onended = stream.onended;
 stream.onended = value;
 ```

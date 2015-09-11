@@ -1,41 +1,50 @@
 ---
 title: message
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/DOMException
+    href: /dom/DOMException
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/DOMException
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves a string describing the exception that occurred.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Retrieves a string describing the exception that occurred.'
 uri: dom/DOMException/message
 
 ---
-# message
-
-## Summary
+## <span>Summary</span>
 
 Retrieves a string describing the exception that occurred.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DOMException](/dom/DOMException)</span></span>
+Property of [dom/DOMException](/dom/DOMException)[dom/DOMException](/dom/DOMException)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var exceptionMessage = exception.message;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 A short description of the exception.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function getExceptionMsg(e) {
 //retrieve text for DOMException
 var exceptionMsg = e.message;
@@ -43,24 +52,15 @@ return exceptionMsg;
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `RangeException`
 -   `EventException`
 -   `code`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

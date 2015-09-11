@@ -1,21 +1,19 @@
 ---
-title: slt
+title: xslt
+readiness: 'Ready to Use'
+summary: "XSL Transformations (XSLT) is a markup language for transforming XML into other forms of output, such as XML documents, HTML and many other text-based formats. The World Wide Web Consortium maintains the XSLT standard.\n"
 tags:
   - Basic
   - Pages
   - XML
-readiness: 'Ready to Use'
-summary: "XSL Transformations (XSLT) is a markup language for transforming XML into other forms of output, such as XML documents, HTML and many other text-based formats. The World Wide Web Consortium maintains the XSLT standard.\n"
 uri: xslt
 
 ---
-# xslt
-
-## Summary
+## <span>Summary</span>
 
 XSL Transformations (XSLT) is a markup language for transforming XML into other forms of output, such as XML documents, HTML and many other text-based formats. The World Wide Web Consortium maintains the XSLT standard.
 
-## Background
+## <span>Background</span>
 
 XSLT is the keystone in a trio of languages developed to transform and format XML. Collectively, those languages are known as XSL, or Extensible Stylesheet Language. Each member of the XSL family has a specific role:
 
@@ -25,7 +23,7 @@ XSLT is the keystone in a trio of languages developed to transform and format XM
 
 [XSLT 1.0](http://www.w3.org/TR/1999/REC-xslt-19991116) became an official recommendation in 1999. [XSLT 2.0](http://www.w3.org/TR/2007/REC-xslt20-20070123/) became an official recommendation in 2007. The latest [XSLT 3.0 Working Draft](http://www.w3.org/TR/2012/WD-xslt-30-20120710/) was released 10 July 2012.
 
-## XSLT as a Standards-Based Templating Language
+## <span>XSLT as a Standards-Based Templating Language</span>
 
 Though the usage of XSLT as a web templating language is not commonplace, there are a lot of factors that make it ideal for this purpose.
 
@@ -41,4 +39,3 @@ XSLT defines sets of instructions that are used to transform source XML and crea
 Many common programming languages are imperative—they issue commands, one after the other. XSLT, on the other hand, is a declarative language. Instead of issuing commands, it simply states what should be done in a given context. It’s rather similar to CSS in that way. Neither language describes a sequence of events or functions. They just say, "When you come across this element, this is how you should style/transform it.”
 
 Templating with this kind of rule-based language takes a different sort of mindset, but it’s actually a much more powerful and flexible approach. A list of commands can only be followed, but rules can have scope and interdependencies, they can cascade, and they can override one another.
-

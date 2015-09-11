@@ -1,20 +1,22 @@
 ---
 title: modulus
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9f59bza0(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Divides the value of one expression by the value of another, and returns the remainder.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Divides the value of one expression by the value of another, and returns the remainder.'
 uri: javascript/operators/modulus
 
 ---
-# modulus
-
-## Summary
+## <span>Summary</span>
 
 Divides the value of one expression by the value of another, and returns the remainder.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result = number1 % number2
 
@@ -27,23 +29,17 @@ Divides the value of one expression by the value of another, and returns the rem
 **number2**
 :   Any numeric expression.
 
-## Examples
+## <span>Examples</span>
 
 The following code shows how to use the modulus operator.
 
-``` {.js}
+``` js
 var modResult = 19 % 6.7;
 document.write(modResult);
 // Output: 5.6
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The modulus, or remainder, operator divides number1 by number2 and returns only the remainder as result. The sign of result is the same as the sign of number1. The value of result is between 0 and the absolute value of number2.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9f59bza0(v=vs.94).aspx)
 

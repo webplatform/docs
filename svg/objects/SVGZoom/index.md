@@ -1,13 +1,19 @@
 ---
 title: SVGZoom
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: SVGElement
+    href: /svg/objects/SVGElement
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'Unreviewed MSDN import'
-uri: svg/objects/SVGZoom
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -30,45 +36,44 @@ todo_broken_links:
     - dom/properties/timeStamp
     - 'dom/properties/type (event)'
     - dom/properties/view
+uri: svg/objects/SVGZoom
 
 ---
-# SVGZoom
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
+Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGElement
+## <span>Inherited from SVGElement</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -76,13 +81,13 @@ The **zoom** event occurs when a user initiates an action that causes the curren
 
 **Note:** A zoom event applies only to the outermost [**svg**](/svg/elements/svg) element.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Scripting](http://go.microsoft.com/fwlink/p/?linkid=204745), Section 18.5.2
 
-### Members
+### <span>Members</span>
 
 The **SVGZoomEvent** object has these methods:
 
@@ -111,10 +116,3 @@ The **SVGZoomEvent** object has these properties:
 -   [**timeStamp**](/w/index.php?title=dom/properties/timeStamp&action=edit&redlink=1): Gets the time, in milliseconds, when an event occurred.
 -   [**type**](/w/index.php?title=dom/properties/type_(event)&action=edit&redlink=1): Gets the name of an event.
 -   [**view**](/w/index.php?title=dom/properties/view&action=edit&redlink=1): Gets the **window** object that an event is generated from.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

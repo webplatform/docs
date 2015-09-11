@@ -1,24 +1,26 @@
 ---
 title: input
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dsa56hkc(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the string against which a regular expression search was performed. Read-only.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the string against which a regular expression search was performed. Read-only.'
 uri: javascript/RegExp/input
 
 ---
-# input
-
-## Summary
+## <span>Summary</span>
 
 Returns the string against which a regular expression search was performed. Read-only.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     RegExp.input
 
-## Examples
+## <span>Examples</span>
 
 The object associated with this property is always the global **RegExp** object.
 
@@ -26,7 +28,7 @@ The value of **input** property is modified any time the searched string is chan
 
 The following example illustrates the use of the **input** property:
 
-``` {.js}
+``` js
 function inputDemo() {
     var s;
     var re = new RegExp("d(b+)(d)","ig");
@@ -36,10 +38,4 @@ function inputDemo() {
     return(s);
 }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dsa56hkc(v=vs.94).aspx)
 

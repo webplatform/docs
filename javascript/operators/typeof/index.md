@@ -1,28 +1,30 @@
 ---
 title: typeof
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/259s7zc1(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a string that identifies the data type of an expression.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a string that identifies the data type of an expression.'
 uri: javascript/operators/typeof
 
 ---
-# typeof
-
-## Summary
+## <span>Summary</span>
 
 Returns a string that identifies the data type of an expression.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     typeof [ ( ] expression [ ) ] ;
 
-## Examples
+## <span>Examples</span>
 
 The following example tests the data type of variables.
 
-``` {.js}
+``` js
 var index = 5;
  var result = (typeof index === 'number');
  // Output: true
@@ -34,7 +36,7 @@ var index = 5;
 
 The following example tests for a data type of undefined for declared and undeclared variables.
 
-``` {.js}
+``` js
 var declared;
  var result = (declared === undefined);
  // Output: true
@@ -54,7 +56,7 @@ var declared;
  //  var result = (notDeclared === undefined);
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The expression argument is any expression for which type information is sought.
 
@@ -62,18 +64,12 @@ The typeof operator returns type information as a string. There are six possible
 
 The parentheses are optional in the typeof syntax.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Array.isArray Function](/javascript/Array/isArray)
 -   [Object.getPrototypeOf Function](/javascript/Object/getPrototypeOf)
 -   [undefined Constant](/javascript/undefined)
 -   [Comparison Operators](/javascript/operators/comparison)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/259s7zc1(v=vs.94).aspx)
 

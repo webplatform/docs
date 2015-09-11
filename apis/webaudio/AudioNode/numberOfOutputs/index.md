@@ -1,43 +1,43 @@
 ---
 title: numberOfOutputs
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioNode
+    href: /apis/webaudio/AudioNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The number of outputs coming out of an AudioNode. For destination nodes, this will be 0.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The number of outputs coming out of an AudioNode. For destination nodes, this will be 0.'
 uri: apis/webaudio/AudioNode/numberOfOutputs
 
 ---
-# numberOfOutputs
-
-## Summary
+## <span>Summary</span>
 
 The number of outputs coming out of an AudioNode. For destination nodes, this will be 0.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioNode](/apis/webaudio/AudioNode)</span></span>
+Property of [apis/webaudio/AudioNode](/apis/webaudio/AudioNode)[apis/webaudio/AudioNode](/apis/webaudio/AudioNode)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioNode.numberOfOutputs;
 ```
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var oscillator = audioCtx.createOscillator();
 var outputs = oscillator.numberOfOutputs;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

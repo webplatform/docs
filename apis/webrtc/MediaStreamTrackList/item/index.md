@@ -1,44 +1,51 @@
 ---
 title: item
+notes:
+  - 'Parent object obsolete; deletion candidate'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webrtc/MediaStreamTrackList
+    href: /apis/webrtc/MediaStreamTrackList
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: MediaStreamTrack
+    href: /apis/webrtc/MediaStreamTrackList
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the MediaStreamTrack at the specified index value.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebRTC
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Parent object obsolete; deletion candidate'
-summary: 'Returns the MediaStreamTrack at the specified index value.'
 uri: apis/webrtc/MediaStreamTrackList/item
 
 ---
-# item
-
-## Summary
+## <span>Summary</span>
 
 Returns the MediaStreamTrack at the specified index value.
 
-*Method of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)*
+Method of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = trackList.item(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### index
+### <span>index</span>
 
- Data-typeÂ
+ Data-type
 :   unsigned long
 
  unsigned long index, required.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type MediaStreamTrack.
+Returns an object of type MediaStreamTrackMediaStreamTrack
 
 **Needs Examples**: This section should include examples.
 

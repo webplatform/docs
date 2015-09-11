@@ -1,25 +1,25 @@
 ---
 title: :last-child
-tags:
-  - CSS
-  - Selectors
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/0b959135eaa76a5de965'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The :last-child pseudo-class represents the last child element of its parent.'
-code_samples:
-  - 'http://gist.github.com/0b959135eaa76a5de965'
+tags:
+  - CSS
+  - Selectors
 uri: 'css/selectors/pseudo-classes/:last-child'
 
 ---
-# :last-child
-
-## Summary
+## <span>Summary</span>
 
 The :last-child pseudo-class represents the last child element of its parent.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /*We add some red color to the second list item*/
 
 li:last-child {
@@ -29,20 +29,20 @@ color: red;
 
 [View live example](http://code.webplatform.org/gist/0b959135eaa76a5de965)
 
-``` {.html}
+``` html
 <ul>
     <li>I'm not red!</li>
     <li>I'm red!</li>
 </ul>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **:last-child** pseudo-class is a structural pseudo-class. Structural pseudo-classes enable selection based on extra information in the document tree that can't be selected using simple selectors or combinators.
 
-### Syntax
+### <span>Syntax</span>
 
 selector
 
@@ -52,25 +52,23 @@ last-child
 
 </dd>
 </dl>
-### Parameters
+### <span>Parameters</span>
 
 *selector*
 :   A CSS simple selector.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.6.5.7
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Selectors Level 3](http://www.w3.org/TR/css3-selectors/)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `:root`
@@ -83,10 +81,3 @@ Specification
 -   `:only-child`
 -   `:only-of-type`
 -   `:empty`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

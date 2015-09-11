@@ -1,26 +1,24 @@
 ---
-title: time
+title: <time>
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The &lt;time&gt; CSS data type specifies a duration in time, expressed as a number followed (without whitespace) by one of the time unit abbreviations: s or ms.'
 tags:
   - Data
   - Type
   - CSS
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The <time> CSS data type specifies a duration in time, expressed as a number followed (without whitespace) by one of the time unit abbreviations: s or ms.'
 uri: 'css/data types/time'
 
 ---
-# \<time\>
+## <span>Summary</span>
 
-## Summary
-
-The \<time\> CSS data type specifies a duration in time, expressed as a number followed (without whitespace) by one of the time unit abbreviations: s or ms.
+The &lt;time&gt; CSS data type specifies a duration in time, expressed as a number followed (without whitespace) by one of the time unit abbreviations: s or ms.
 
  In CSS3, time units must be either seconds (**s**) or milliseconds (**ms**); milliseconds are one-thousandth of a second. Time values can be used to measure the duration of animation effects, in which case the numeric value must be greater than or equal to zero.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 .changeable {
     background-color: #fff;
     transition-property: background-color;
@@ -33,10 +31,7 @@ The \<time\> CSS data type specifies a duration in time, expressed as a number f
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation
-

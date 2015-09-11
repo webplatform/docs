@@ -1,20 +1,22 @@
 ---
 title: charCodeAt
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hza4d04f(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the Unicode value of the character at the specified location.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the Unicode value of the character at the specified location.'
 uri: javascript/String/charCodeAt
 
 ---
-# charCodeAt
-
-## Summary
+## <span>Summary</span>
 
 Returns the Unicode value of the character at the specified location.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     strObj. charCodeAt( index )
 
@@ -24,26 +26,20 @@ Returns the Unicode value of the character at the specified location.
 **index**
 :   Required. The zero-based index of the desired character. If there is no character at the specified index, NaN is returned.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **charCodeAt** method.
 
-``` {.js}
+``` js
 var str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
  document.write(str.charCodeAt(str.length - 1));
 
  // Output: 90
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [String.fromCharCode Function](/javascript/String/fromCharCode)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hza4d04f(v=vs.94).aspx)
 

@@ -1,15 +1,13 @@
 ---
-title: tools
-tags:
-  - Tutorials
+title: Tools tutorials
 readiness: 'Ready to Use'
 summary: 'This page contains links to tools tutorials.'
+tags:
+  - Tutorials
 uri: tutorials/tools
 
 ---
-# Tools tutorials
-
-## Summary
+## <span>Summary</span>
 
 This page contains links to tools tutorials.
 

@@ -1,120 +1,155 @@
 ---
 title: track
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Duplicate info of that in apis/audio-video/TextTrack? Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: HTMLMediaElement
+    href: /dom/HTMLMediaElement
 tags:
   0: API
   1: Objects
   3: Audio
   4: Video
-readiness: 'In Progress'
-notes:
-  - 'Duplicate info of that in apis/audio-video/TextTrack? Needs example, spec reference, standardization status'
 uri: apis/audio-video/track
 
 ---
-# track
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[HTMLMediaElement](/dom/HTMLMediaElement)</span></span>
+Inherits from [HTMLMediaElement](/dom/HTMLMediaElement)[HTMLMediaElement](/dom/HTMLMediaElement)
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from HTMLMediaElement
+## <span>Inherited from HTMLMediaElement</span>
 
-### Properties
+### <span>Properties</span>
 
 API Name
 :   Summary
+
 [audioTracks](/dom/HTMLMediaElement/audioTracks)
 :
+
 [autobuffer](/dom/HTMLMediaElement/autobuffer)
 :
+
 [autoplay](/dom/HTMLMediaElement/autoplay)
 :
+
 [buffered](/dom/HTMLMediaElement/buffered)
 :
+
 [controls](/dom/HTMLMediaElement/controls)
 :   Controls attribute used within a Audio element or Video element displays the default media controls defined by the web browser being used to open HTML document or view of a Web Application.
+
 [currentSrc](/dom/HTMLMediaElement/currentSrc)
 :
+
 [currentTime](/dom/HTMLMediaElement/currentTime)
 :
+
 [defaultPlaybackRate](/dom/HTMLMediaElement/defaultPlaybackRate)
 :
+
 [duration](/dom/HTMLMediaElement/duration)
 :
+
 [ended](/dom/HTMLMediaElement/ended)
 :
+
 [error](/dom/HTMLMediaElement/error)
 :
+
 [loop](/dom/HTMLMediaElement/loop)
 :
+
 [muted](/dom/HTMLMediaElement/muted)
 :
+
 [networkState](/dom/HTMLMediaElement/networkState)
 :
+
 [paused](/dom/HTMLMediaElement/paused)
 :
+
 [playbackRate](/dom/HTMLMediaElement/playbackRate)
 :
+
 [played](/dom/HTMLMediaElement/played)
 :
+
 [preload](/dom/HTMLMediaElement/preload)
 :
+
 [seekable](/dom/HTMLMediaElement/seekable)
 :
+
 [seeking](/dom/HTMLMediaElement/seeking)
 :
+
 [src](/dom/HTMLMediaElement/src)
 :
+
 [textTracks](/dom/HTMLMediaElement/textTracks)
 :
+
 [volume](/dom/HTMLMediaElement/volume)
 :
 
-### Methods
+### <span>Methods</span>
 
 API Name
 :   Summary
+
 [canPlayType](/dom/HTMLMediaElement/canPlayType)
 :
+
 [load](/dom/HTMLMediaElement/load)
 :
+
 [pause](/dom/HTMLMediaElement/pause)
 :
+
 [play](/dom/HTMLMediaElement/play)
 :   Loads and starts playback of a media resource.
 
-### Events
+### <span>Events</span>
 
 API Name
 :   Summary
+
 [canplay](/dom/HTMLMediaElement/canplay)
 :   Fires whenever enough data is available to determine whether a media is playable.
+
 [canplaythrough](/dom/HTMLMediaElement/canplaythrough)
 :   Fires when enough data is available to determine whether a media is playable at a normal rate without interruptions.
+
 [progress](/dom/HTMLMediaElement/progress)
 :   Fires to indicate progress while downloading media data.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **HTMLTrackElement** represents a timed text file to provide users with multiple languages or commentary for videos. You can use multiple tracks, and set one as default to be used when the video starts. The text is displayed in the lower portion of the video player. At this time the position and color can't be controlled, but you can retrieve text through script and display it in your own way. The user can choose alternate tracks, or turn tracks off through a built-in user interface or script. Text tracks use a simplified version of the Web Video Text Track (WebVTT) or Timed Text Markup Language (TTML) timed text file formats.Internet Explorer 10 and Metro style apps using JavaScript currently support only timing cues and text captions.
 
-#### WEBVTT
+#### <span>WEBVTT</span>
 
 WebVTT files are 8-bit Unicode Transformation Format (UTF-8) format text files that look like the following.
 
@@ -129,13 +164,6 @@ WebVTT files are 8-bit Unicode Transformation Format (UTF-8) format text files t
 
 The file starts with the tag "WEBVTT" as the first line, followed by a line feed. The timing cues are in the format "HH:MM:SS.sss". The start and end time cues are separated by a space, two hyphens and a greater-than sign ( --\> ), and another space. The timing cues are on a line by themselves followed by a line feed. Immediately following the cue is the caption text. Text captions can be one or more lines. The only restriction is that there must be no blank lines between lines of text. The MIME type is "text/vtt".
 
-#### TTML
+#### <span>TTML</span>
 
 Internet Explorer 10 and Metro style apps using JavaScript use a subset of the TTML file format, which is defined in the TTML specification. Internet Explorer and Metro style apps using JavaScript support the following structure. The TTML file includes XML version, encoding type, namespace declaration, and the language in the root element ("\<tt\>"). This is followed by the" \<body\>" and a "\<div\>" element. Within the "\<div\>" element are the timing cues. The actual times are set as attributes (begin, end) of the opening paragraph tag (\<p\>) and the text is delineated by the closing \</p\> tag. Blank lines and white space are ignored. If there are multiple lines, they are defined by \<br/\> tags. The MIME type for TTML files is **application/ttml+xml**.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

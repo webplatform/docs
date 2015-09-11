@@ -1,43 +1,52 @@
 ---
 title: timestamp
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/Guide/API/Gamepad)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/gamepad/Gamepad
+    href: /apis/gamepad/Gamepad
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/gamepad/Gamepad
+standardization_status: 'W3C Working Draft'
+summary: 'A timestamp indicating the last time the data for this gamepad was updated.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Gamepad
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'A timestamp indicating the last time the data for this gamepad was updated.'
 uri: apis/gamepad/Gamepad/timestamp
 
 ---
-# timestamp
-
-## Summary
+## <span>Summary</span>
 
 A timestamp indicating the last time the data for this gamepad was updated.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/gamepad/Gamepad](/apis/gamepad/Gamepad)</span></span>
+Property of [apis/gamepad/Gamepad](/apis/gamepad/Gamepad)[apis/gamepad/Gamepad](/apis/gamepad/Gamepad)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = object.timestamp;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 DOMHiResTimeStamp.
 
-## Examples
+## <span>Examples</span>
 
 The Gamepad API provides a function, [Navigator.getGamepads](/dom/Navigator/getGamepads), that returns a list of all devices currently visible to the web page, as an array of Gamepad objects. When a gamepad is connected, this example reports its index, id, number of buttons, number of axes, and when the gamepad data was updated.
 
-``` {.js}
+``` js
 window.addEventListener("gamepadconnected", function(e) {
   var gp = navigator.getGamepads()[e.gamepad.index];
   console.log("Gamepad connected.");
@@ -49,16 +58,7 @@ window.addEventListener("gamepadconnected", function(e) {
 });
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Gamepad Specification](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/Guide/API/Gamepad)
-

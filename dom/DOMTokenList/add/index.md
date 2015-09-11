@@ -1,46 +1,53 @@
 ---
 title: add
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/DOMTokenList
+    href: /dom/DOMTokenList
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /dom/DOMTokenList
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Adds one or more tokens to a DOMTokenList.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Adds one or more tokens to a DOMTokenList.'
 uri: dom/DOMTokenList/add
 
 ---
-# add
-
-## Summary
+## <span>Summary</span>
 
 Adds one or more tokens to a DOMTokenList.
 
-*Method of [dom/DOMTokenList](/dom/DOMTokenList)*
+Method of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.add(token);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### token
+### <span>token</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The token to add to the DOMTokenList.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //adds an item to an element's classList (a DOMTokenList)
 function elAddItem(elid,itemadd) {
   var classes = document.getElementById(elid).classList;
@@ -48,10 +55,7 @@ function elAddItem(elid,itemadd) {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation
-

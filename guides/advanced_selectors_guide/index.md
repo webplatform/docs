@@ -1,22 +1,20 @@
 ---
-title: advanced selectors guide
+title: Advanced selectors guide
+notes:
+  - 'Need to remove compatibility table.'
+readiness: 'Ready to Use'
+summary: 'This guide gives a detailed explanation of most of the advanced CSS selectors available.'
 tags:
   - Guides
   - CSS
-readiness: 'Ready to Use'
-notes:
-  - 'Need to remove compatibility table.'
-summary: 'This guide gives a detailed explanation of most of the advanced CSS selectors available.'
 uri: 'guides/advanced selectors guide'
 
 ---
-# Advanced selectors guide
-
-## Summary
+## <span>Summary</span>
 
 This guide gives a detailed explanation of most of the advanced CSS selectors available.
 
-## Introduction
+## <span>Introduction</span>
 
 In our [Using selectors](/tutorials/using_selectors) article, we introduced the most basic of CSS selectors: element, class, and id selectors. With these selectors you can accomplish a lot, but this certainly is not an exhaustive list of selectors — there are other selectors that allow you to select elements to style based on more specific criteria. In this article, most of the advanced CSS selectors are described.
 
@@ -24,21 +22,21 @@ Note: This article discusses *most* of the advanced selectors, because although 
 
 You will see many of these selectors used throughout our articles as you read on. Don't worry if you don't understand them all immediately: keep referencing this article as needed.
 
-## Universal selectors
+## <span>Universal selectors</span>
 
 Universal selectors select every element on a page. For example, the following rule says that every element on the page will display a solid 1 pixel black border:
 
-``` {.css}
+``` css
 * {
   border: 1px solid #000000;
 }
 ```
 
-## Attribute selectors
+## <span>Attribute selectors</span>
 
 Attribute selectors allow you to select elements based on the attributes they contain. For example, you can select every `<img>` element with an `alt` attribute using the following selector:
 
-``` {.css}
+``` css
 img[alt] {
   border: 1px solid #000000;
 }
@@ -48,11 +46,11 @@ img[alt] {
 
 Using the above selector, you could perhaps add a black border around any images that have an `alt` attribute, and style other images with a bright red border — this is a useful technique for accessibility testing.
 
-### Selecting by attribute value
+### <span>Selecting by attribute value</span>
 
 Attribute selectors instantly become more useful when you consider that you can select by *attribute value*, not just an attribute's name. The following rule selects all images with an `src` attribute value of `alert.gif`:
 
-``` {.css}
+``` css
 img[src="alert.gif"] {
   border: 1px solid #000000;
 }
@@ -62,11 +60,11 @@ img[src="alert.gif"] {
 
 Note that this code is not supported by IE6 and below.
 
-### Selecting based on substrings within the attribute value
+### <span>Selecting based on substrings within the attribute value</span>
 
 This is where attribute selectors become even more useful. To begin, you can select and style our `<img src="alert.gif">` element using the following rule:
 
-``` {.css}
+``` css
 img[src^="alert"] {
   border: 1px solid #000000;
 }
@@ -76,7 +74,7 @@ img[src^="alert"] {
 
 You can also select a `<img src="alert.gif">` element using this rule:
 
-``` {.css}
+``` css
 img[src$="gif"] {
   border: 1px solid #000000;
 }
@@ -86,7 +84,7 @@ img[src$="gif"] {
 
 And finally, you can select a `<img src="alert.gif">` element like this:
 
-``` {.css}
+``` css
 img[src*="ert"] {
   border: 1px solid #000000;
 }
@@ -96,7 +94,7 @@ img[src*="ert"] {
 
 Note: These advanced selectors are not supported by IE8 and below.
 
-### Selecting based on delimited items within the attribute value
+### <span>Selecting based on delimited items within the attribute value</span>
 
 If you have an element on a page with a number of classes applied to it, for example:
 
@@ -104,7 +102,7 @@ If you have an element on a page with a number of classes applied to it, for exa
 
 You could select it using any of the following selectors:
 
-``` {.css}
+``` css
 article[class~="featured"]
 article[class~="archive"]
 article[class~="english"]
@@ -118,7 +116,7 @@ Next, take a look at an element on a page with an ID value in the form of hyphen
 
 You can select it using the following selector:
 
-``` {.css}
+``` css
 article[id|="english"]
 ```
 
@@ -126,11 +124,11 @@ article[id|="english"]
 
 Note: These selectors are not supported by IE8 and below.
 
-## Child selector
+## <span>Child selector</span>
 
 You can use a child selector to select specific elements that are children of other specific elements. For example, the following rule will turn the text of `<strong>` elements that are children of `<h3>` elements blue, without affecting other `<strong>` elements:
 
-``` {.css}
+``` css
 h3 > strong {
   color: blue;
 }
@@ -140,11 +138,11 @@ h3 > strong {
 
 Note also that the \> character is often referred to as a combinator in this context — it combines multiple elements together in one selector.
 
-## Descendent selector
+## <span>Descendent selector</span>
 
 Descendent selectors are similar to child selectors, except that child selectors only select immediate descendants; descendent selectors select matching elements anywhere in the element hierarchy, not just direct descendants. Investigate what this means by examining the following HTML snippet:
 
-``` {.html}
+``` html
 <div>
   <p>hello</p>
   <article>
@@ -157,7 +155,7 @@ Descendent selectors are similar to child selectors, except that child selectors
 
 You could use a child selector to select just the `<p>` immediately inside the `<div>`, like so:
 
-``` {.css}
+``` css
 div > p {
  …
 }
@@ -165,7 +163,7 @@ div > p {
 
  If you instead use a descendent selector, as follows:
 
-``` {.css}
+``` css
 div p {
  …
 }
@@ -173,11 +171,11 @@ div p {
 
  Then, both of the `<p>` elements are selected.
 
-## Adjacent sibling selector
+## <span>Adjacent sibling selector</span>
 
 This selector allows you to select a specific element that comes directly after another specific element, on the same level in the element hierarchy. Review the following example:
 
-``` {.html}
+``` html
 <h2>My heading</h2>
 <p>My first paragraph</p>
 <p>My second paragraph</p>
@@ -188,7 +186,7 @@ This selector allows you to select a specific element that comes directly after 
 
 If you wanted to select just the `<p>` element that comes immediately after the `<h2>` element (and any other such `<p>` elements that might appear later in the document) you could use the following rule:
 
-``` {.css}
+``` css
 h2 + p {
  ...
 }
@@ -198,11 +196,11 @@ h2 + p {
 
 Note also that the + character is often referred to as a combinator in this context — it combines multiple elements together in one selector.
 
-## General sibling selectors
+## <span>General sibling selectors</span>
 
 The general sibling selector is very similar to the adjacent sibling selector, except that it allows you to select all siblings of the specified element type, not just the one immediate next to the element on the left side. The CSS syntax looks like this:
 
-``` {.css}
+``` css
 h2 ~ p {
  ...
 }
@@ -210,7 +208,7 @@ h2 ~ p {
 
  Returning to our previous example, this ruleset would select all five paragraph elements, not just the first one. It would also select the paragraph shown below:
 
-``` {.html}
+``` html
 <h2>My heading</h2>
 <h3>My sub heading</h3>
 <p>My paragraph</p>
@@ -220,11 +218,11 @@ h2 ~ p {
 
 Note also that the \~ character is often referred to as a combinator in this context — it combines multiple elements together in one selector.
 
-## Pseudo-classes
+## <span>Pseudo-classes</span>
 
 Pseudo-classes are used to provide styles not for elements, but for various states of elements.
 
-### Link and user action pseudo-classes
+### <span>Link and user action pseudo-classes</span>
 
 The most common pseudo-classes you will come across are those used to style link states (they are described in full usage in [Styling lists and links](http://docs.webplatform.org/wiki/Styling_lists_and_links)):
 
@@ -238,7 +236,7 @@ Note that the last three listed above (called "user action pseudo-classes" — t
 
 Check out the following examples. The CSS rules below applies a link style to display blue links (which is the default link style in most browsers anyway). When hovered over, the default link underline disappears. To achieve the same effect when the link is focused via the keyboard, the `:hover ` rule is duplicated with the `:focus ` selector. When a link has already been visited, it turns gray. Finally, when a link is active, it is bold, as an extra clue to visitors that something significant is happening.
 
-``` {.css}
+``` css
 a:link {
  color: blue;
 }
@@ -260,18 +258,18 @@ a:active {
 
 As another example, the `:focus` pseudo-class is also useful as a usability aid in forms. For example, you can highlight the input field that has the active blinking cursor inside it with a rule like this:
 
-``` {.css}
+``` css
 input:focus  {
   border: 2px solid black;
   background color: lightgray;
 }
 ```
 
-### The negation (not) pseudo-class
+### <span>The negation (not) pseudo-class</span>
 
 The negation pseudo-class can be used to explicitly apply styles to elements that **are not** selected by a simple selector. For example, imagine that you want to apply some styling to a number of content blocks, all except one. The blocks could look like this:
 
-``` {.html}
+``` html
 <section id="abstract"> ... </section>
 <section id="experiment"> ... </section>
 <section id="tests"> ... </section>
@@ -282,7 +280,7 @@ The negation pseudo-class can be used to explicitly apply styles to elements tha
 
  You can apply the styling to all sections except the references, with this rule:
 
-``` {.css}
+``` css
 #abstract, #experiment, #tests, #results, #conclusion {
   ...
 }
@@ -290,7 +288,7 @@ The negation pseudo-class can be used to explicitly apply styles to elements tha
 
  Or instead, you can use the negation selector, like this:
 
-``` {.css}
+``` css
 section:not(#references) {
   ...
 }
@@ -300,27 +298,27 @@ section:not(#references) {
 
 Note: The negation selector is not supported by IE8 and below.
 
-### The language (lang) pseudo-class
+### <span>The language (lang) pseudo-class</span>
 
 The `:lang` pseudo-class selects elements whose languages have been set to the specified language using the `lang` attribute. For example, the following HTML element:
 
-``` {.html}
+``` html
 <p lang="en-US">A paragraph of American text, gee whiz!<p>
 ```
 
  Could be selected using the following:
 
-``` {.css}
+``` css
 p:lang(en-US) {
  ...
 }
 ```
 
-### The target pseudo-class
+### <span>The target pseudo-class</span>
 
 The target pseudo-class allows you to select an element if it is the **target** of the current page URL. This is really useful and allows for some cool effects, because it effectively allows you to set styles to be applied when links are clicked. For example:
 
-``` {.html}
+``` html
 <a href="#target">Click me</a>
 
 <div id="target">Woot!</div>
@@ -328,7 +326,7 @@ The target pseudo-class allows you to select an element if it is the **target** 
 
  This is accomplished with a simple link followed by a `<div>` — the link references the `<div>` via its ID. The current URL only targets the `<div>` upon the link being clicked. To style the `<div>` only when the link is clicked, you could use the following rule:
 
-``` {.css}
+``` css
 div:target {
   ...
 }
@@ -336,59 +334,59 @@ div:target {
 
  To see a much more involved example of `:target` usage, read the article titled [CSS3 target-based interfaces](http://dev.opera.com/articles/view/css3-target-based-interfaces/) by Corey Mwamba.
 
-### UI element state pseudo-classes
+### <span>UI element state pseudo-classes</span>
 
 These pseudo-classes are all concerned with styling advanced states of UI elements. You'll most commonly use them to style HTML form elements, particularly when some of the new features of HTML5 forms are being used, such as built in validation. (See [HTML5 form additions] for more details.)
 
 Imagine you are styling a basic form input with a `valid` attribute for validation:
 
-``` {.html}
+``` html
 <input type="text" required>
 ```
 
  You can style it only when the information entered into it is valid or invalid using these two rules:
 
-``` {.css}
+``` css
 input:valid {}
 ```
 
  and
 
-``` {.css}
+``` css
 input:invalid {}
 ```
 
  You can also style it depending on whether it is enabled (default) or disabled (using the `disabled` attribute), using this style:
 
-``` {.css}
+``` css
 input:enabled {}
 ```
 
  and this style:
 
-``` {.css}
+``` css
 input:disabled {}
 ```
 
  Finally, you can style a checkbox only when checked, like this:
 
-``` {.css}
+``` css
 input[type="checkbox"]:checked {}
 ```
 
-### Structural pseudo-classes
+### <span>Structural pseudo-classes</span>
 
 Structural pseudo-classes are advanced selectors that enable you to target specific elements based on their position in the document hierarchy. These were introduced in CSS3, and they are built on selectors previously discussed, such as the adjacent sibling selector.
 
 `:root` selects the root element of the document, which is usually the `<html>` element. For example, this rule:
 
-``` {.css}
+``` css
 html:root{ ... }
 ```
 
 `:nth-child(n)` allows you to select a repeating pattern of elements inside an continuous set of like elements, such as several list items, or several paragraphs or articles next to one another. Review this example:
 
-``` {.html}
+``` html
 <ul>
   <li>First</li>
   <li>Second</li>
@@ -405,20 +403,20 @@ html:root{ ... }
 
 `n` is set to the pattern we want to select. In this case, to select list items, use this code:
 
-``` {.css}
+``` css
 li:nth-child(n)
 ```
 
  To select just the odd or even list items, add this rule:
 
-``` {.css}
+``` css
 li:nth-child(odd)
 li:nth-child(even)
 ```
 
  Or you can use this rule to accomplish the same result:
 
-``` {.css}
+``` css
 li:nth-child(2n+1)
 li:nth-child(2n+0)
 ```
@@ -435,7 +433,7 @@ You can also use `nth-last-child(n)`. This does the same thing as `nth-child(n)`
 
 Here is another example:
 
-``` {.html}
+``` html
 <div>
   1. <article class="abstract"> ... </article>
   2. <article class="abstract"> ... </article>
@@ -457,7 +455,7 @@ If you use `article:nth-of-type(2n+0)` as the selector, you would select the `<a
 
 Next, check out the `:first-child` and `:last-child` selectors — these pseudo-classes select only the first or last instance of an element that is the first or last child element of its parent. So, considering the above example again, we could use the following to select - respectively - the first and last `<article>` element:
 
-``` {.css}
+``` css
 article:first-child { ... }
 
 article:last-child { ... }
@@ -473,15 +471,15 @@ There are a few others to consider:
 -   `only-of-type`: Selects an element only if it is the only sibling of its type inside the parent element. So `blockquote:only-of-type` would select the `<blockquote>` in the above example because it is the only one of its type that exists.
 -   `empty`: selects an element only if it has no children whatsoever (including text nodes). For example `div:empty` would select `<div></div>`, but not `<div>1</div>` or `<div><p>Hi!</p></div>`
 
-## Pseudo-elements
+## <span>Pseudo-elements</span>
 
 Pseudo elements differ from pseudo-classes in that they don't select states of elements; they select parts of an element.
 
-### :first-letter
+### <span>:first-letter</span>
 
 You can select the first letter inside a given element using the following rule:
 
-``` {.css}
+``` css
 p:first-letter {
   font-weight: bold;
   font-size: 300%
@@ -491,21 +489,21 @@ p:first-letter {
 
  The first letter of every paragraph will now be bold, 300% bigger than the rest of the paragraph, and have a red background. This is a good start towards creating a decent drop cap effect.
 
-### :first-line
+### <span>:first-line</span>
 
 To make the first line of every paragraph bold, you can use the following rule:
 
-``` {.css}
+``` css
 p:first-line {
   font-weight: bold;
 }
 ```
 
-### Generated content using :before and :after
+### <span>Generated content using :before and :after</span>
 
 You can use the `:before` and `:after` pseudo-elements to specify that content should be inserted before and after the selected element. You then specify the content that you want to insert or generate. For example, you can use the following rule to insert a decorative image after every link on the page:
 
-``` {.css}
+``` css
 a:after {
   content: " " url(flower.gif);
 }
@@ -513,7 +511,7 @@ a:after {
 
  You can also use the `attr()` function to insert the values of attributes of the elements after the element. For example, you could insert the target of every link in your document in brackets after each one using the following:
 
-``` {.css}
+``` css
 a:after {
   content: "" "(" attr(href) ")";
 }
@@ -525,7 +523,6 @@ You can also insert incremented numerical values after repeating elements (such 
 
 These selectors are not supported in IE 7 or below. Also note that you should not insert important information with CSS, because that content will be unavailable to assistive technologies. It will also be unavailable if a visitor chooses not to use the style sheet. The golden rule is that CSS rules are for styling; HTML is for displaying important content.
 
-### CSS3 pseudo-element double colon syntax
+### <span>CSS3 pseudo-element double colon syntax</span>
 
 Please note that the new CSS3 way of writing pseudo-elements is to use a double colon, such as `a::after { … }`, to set them apart from pseudo-classes. You may see this sometimes in CSS. CSS3 however also still allows for single colon pseudo-elements, for the sake of backwards compatibility. For the immediate future, it is recommended to continue using the single colon syntax.
-

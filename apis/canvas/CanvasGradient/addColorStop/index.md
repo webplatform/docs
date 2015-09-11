@@ -1,59 +1,68 @@
 ---
 title: addColorStop
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasGradient
+    href: /apis/canvas/CanvasGradient
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/canvas/CanvasGradient
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Adds a new stop to a gradient. If offset is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS &lt;color&gt; value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset offset relative to the whole gradient, and with the color obtained by parsing color as a CSS &lt;color&gt; value.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Adds a new stop to a gradient. If offset is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS <color> value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset offset relative to the whole gradient, and with the color obtained by parsing color as a CSS <color> value.'
 uri: apis/canvas/CanvasGradient/addColorStop
 
 ---
-# addColorStop
+## <span>Summary</span>
 
-## Summary
+Adds a new stop to a gradient. If offset is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS &lt;color&gt; value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset offset relative to the whole gradient, and with the color obtained by parsing color as a CSS &lt;color&gt; value.
 
-Adds a new stop to a gradient. If offset is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS \<color\> value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset offset relative to the whole gradient, and with the color obtained by parsing color as a CSS \<color\> value.
+Method of [apis/canvas/CanvasGradient](/apis/canvas/CanvasGradient)[apis/canvas/CanvasGradient](/apis/canvas/CanvasGradient)
 
-*Method of [apis/canvas/CanvasGradient](/apis/canvas/CanvasGradient)*
+## <span>Syntax</span>
 
-## Syntax
-
-``` {.js}
+``` js
 var object = CanvasGradient.addColorStop(offset, color);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### offset
+### <span>offset</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  A floating point value between 0.0 and 1.0 that represents the position between the start and end points in a gradient.
 
-### color
+### <span>color</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  A CSS color string to display at the position that the *offset* parameter specifies.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## Examples
+## <span>Examples</span>
 
 The following code example creates a gradient.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -86,20 +95,11 @@ function draw()
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
 You can call the **addColorStop** method multiple times to change a gradient. If you never call this method for [CanvasGradient](/apis/canvas/CanvasGradient), the gradient is not visible. You need to create at least one color stop to have a visible gradient.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

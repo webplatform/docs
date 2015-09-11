@@ -1,37 +1,78 @@
 ---
 title: filterchange
-tags:
-  - Events
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filters.htm'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+readiness: 'In Progress'
+tags:
+  - Events
 uri: dom/Event/filterchange
 
 ---
-# filterchange
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **onfilterchange** event to trigger a filter effect. When the document loads, the block of text is erased using a checkerboard-down Transition. Once the checkerboard Transition is complete, the image is made visible using a box-in Transition.
 
-``` {.html}
+``` html
 <HTML>
 <HEAD>
 <TITLE>Microsoft Cascading Style Sheet Controls Samples</TITLE>
@@ -79,9 +120,9 @@ End Sub
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/filters.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Signals that the filter on an object has changed state. To invoke this event, do one of the following:
 
@@ -114,20 +155,14 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

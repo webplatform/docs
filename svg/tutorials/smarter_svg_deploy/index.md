@@ -1,25 +1,23 @@
 ---
-title: smarter svg deploy
+title: SVG deployment
+notes:
+  - 'Fix a couple of broken links'
+readiness: 'Almost Ready'
+summary: 'This brief guide shows different ways to deploy SVG, either within HTML or as standalone files, with various options to reference CSS and JavaScript.'
 tags:
   - Tutorials
   - SVG
-readiness: 'Almost Ready'
-notes:
-  - 'Fix a couple of broken links'
-summary: 'This brief guide shows different ways to deploy SVG, either within HTML or as standalone files, with various options to reference CSS and JavaScript.'
-uri: 'svg/tutorials/smarter svg deploy'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - svg/elements/foreignObject
     - svg/attributes/requiredExtensions
+uri: 'svg/tutorials/smarter svg deploy'
 
 ---
-# SVG deployment
-
 **By Mike Sierra**
 
-## Summary
+## <span>Summary</span>
 
 This brief guide shows different ways to deploy SVG, either within HTML or as standalone files, with various options to reference CSS and JavaScript.
 
@@ -29,7 +27,7 @@ Until recently, SVG was fairly difficult to incorporate with other web content, 
 
 It translates to this basic HTML markup structure, where CSS and JavaScript may affect both HTML and SVG content:
 
-``` {.xml}
+``` xml
 <!DOCTYPE html>
 <html>
   <head>
@@ -47,7 +45,7 @@ It translates to this basic HTML markup structure, where CSS and JavaScript may 
 
  There are also other ways to do it. You can reference external SVG files, and render them interactively within the HTML using either [**iframe**](/html/elements/iframe), [**embed**](/html/elements/embed), or [**object**](/html/elements/object) tags:
 
-``` {.xml}
+``` xml
 <!DOCTYPE html>
 <html>
   <head>
@@ -66,7 +64,7 @@ It translates to this basic HTML markup structure, where CSS and JavaScript may 
 
 ![scr svg css.png](/assets/public/d/df/scr_svg_css.png)
 
-``` {.css}
+``` css
  a[href] {
      background-image    : url(img/nav_arrow.svg);
      background-position : center 0 right 10px;
@@ -80,7 +78,7 @@ It translates to this basic HTML markup structure, where CSS and JavaScript may 
 
  As you will see, you can also use URL anchors to reference individual component graphics that are collected within an SVG file. This assigns a custom bullet shape:
 
-``` {.css}
+``` css
  ul > li {
     list-style-image     : url(img/components.svg#bullet);
  }
@@ -92,7 +90,7 @@ It translates to this basic HTML markup structure, where CSS and JavaScript may 
 
 This example shows how to embed or reference either CSS or JavaScript from within an SVG file:
 
-``` {.xml}
+``` xml
 <?xml version="1.0" standalone="no"?>
   <!-- reference CSS here: -->
 <?xml-stylesheet href="css/styles.css" type="text/css"?>
@@ -121,7 +119,7 @@ This example shows how to embed or reference either CSS or JavaScript from withi
 
 ![scr svg svg2svg.png](/assets/public/e/eb/scr_svg_svg2svg.png)
 
-``` {.xml}
+``` xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet href="css/svg_styles.css" type="text/css"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000">
@@ -133,7 +131,7 @@ This example shows how to embed or reference either CSS or JavaScript from withi
 
 ![scr svg svg2html.png](/assets/public/2/23/scr_svg_svg2html.png)
 
-``` {.xml}
+``` xml
 <?xml version="1.0" standalone="yes"?>
 <svg width="4in" height="3in" version="1.1" xmlns='http://www.w3.org/2000/svg'>
   <desc>use 'switch' to test if foreignObject works, otherwise render fallback 'text' content</desc>
@@ -153,11 +151,11 @@ This example shows how to embed or reference either CSS or JavaScript from withi
 </svg>
 ```
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -240,4 +238,3 @@ This example shows how to embed or reference either CSS or JavaScript from withi
 -   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
 
 -   [SVG filters](/tutorials/svg_filters)
-

@@ -1,49 +1,58 @@
 ---
 title: font-synthesis
+notes:
+  - 'Add example, description, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`weight style`'
+  'Applies to': 'all elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`font`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'This value specifies whether the user agent is allowed to synthesize  bold or oblique font faces when a font family lacks bold or italic faces.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add example, description, specifications, compatibility.'
-summary: 'This value specifies whether the user agent is allowed to synthesize  bold or oblique font faces when a font family lacks bold or italic faces.'
 uri: css/properties/font-synthesis
 
 ---
-# font-synthesis
-
-## Summary
+## <span>Summary</span>
 
 This value specifies whether the user agent is allowed to synthesize bold or oblique font faces when a font family lacks bold or italic faces.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `weight style`
+
 Applies to
 :   all elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `font`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
--   `font-synthesis: none`
--   `font-synthesis: style`
--   `font-synthesis: weight`
--   `font-synthesis: weight style`
-
-## Values
+## <span>Values</span>
 
 none
 :   user agent is not allowed to synthesize bold or oblique font when not available.
@@ -59,11 +68,11 @@ weight style
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -77,13 +86,7 @@ weight style
 
 -   [font-style](/css/properties/font-style)
 
--   **font-synthesis**
-
 -   [font-variant](/css/properties/font-variant)
-
--   [kerning-mode](/css/properties/kerning-mode)
-
--   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
 
 -   [text-rendering](/css/properties/text-rendering)
 
@@ -91,7 +94,7 @@ weight style
 
 -   [user-modify](/css/properties/user-modify)
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -117,13 +120,7 @@ weight style
 
 -   [font-style](/css/properties/font-style)
 
--   **font-synthesis**
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -131,17 +128,13 @@ weight style
 
 -   [font](/html/elements/font)
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   **font-synthesis**
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -152,8 +145,6 @@ weight style
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -167,25 +158,11 @@ weight style
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -230,4 +207,3 @@ weight style
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-

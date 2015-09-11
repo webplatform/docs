@@ -1,48 +1,50 @@
 ---
 title: add
+notes:
+  - 'Parent object obsolete; deletion candidate'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webrtc/MediaStreamTrackList
+    href: /apis/webrtc/MediaStreamTrackList
+standardization_status: 'W3C Working Draft'
+summary: 'Adds a MediaStreamTrack to this track list.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebRTC
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Parent object obsolete; deletion candidate'
-summary: 'Adds a MediaStreamTrack to this track list.'
 uri: apis/webrtc/MediaStreamTrackList/add
 
 ---
-# add
-
-## Summary
+## <span>Summary</span>
 
 Adds a MediaStreamTrack to this track list.
 
-*Method of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)*
+Method of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  trackList.add(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### track
+### <span>track</span>
 
- Data-typeÂ
+ Data-type
 :   MediaStreamTrack
 
  MediaStreamTrack **track**, required.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 Exception INVALID\_STATE\_ERR if the stream is finished (all tracks have ended).
-

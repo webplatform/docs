@@ -1,48 +1,58 @@
 ---
 title: cloneNode
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.cloneNode](https://developer.mozilla.org/en-US/docs/Web/API/Node.cloneNode) Article]'
+  - 'Microsoft Developer Network: [[cloneNode Method](http://msdn.microsoft.com/en-us/library/ie/ms536365(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Node
+    href: /dom/Node
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Node
+standardization_status: 'W3C Recommendation'
+summary: 'Copies a reference to the object from the document hierarchy.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Copies a reference to the object from the document hierarchy.'
 uri: dom/Node/cloneNode
 
 ---
-# cloneNode
-
-## Summary
+## <span>Summary</span>
 
 Copies a reference to the object from the document hierarchy.
 
-*Method of [dom/Node](/dom/Node)*
+Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var clonedNode = node.cloneNode(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### cloneDescendants
+### <span>cloneDescendants</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether to clone the child nodes of the node as well.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The cloned node.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!doctype html>
 <script>
 function fnClone(){
@@ -65,11 +75,11 @@ function fnClone(){
 <input type="button" value="Clone List" onclick="fnClone()">
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use this method to copy an node, its attributes and, if specified, its childNodes as well.
 
-## Notes
+## <span>Notes</span>
 
 When you refer to the **id** of a cloned element, a collection is returned. **cloneNode**does not work on an **IFRAME** directly. You must call **cloneNode**through the **all** collection. The following example demonstrates how to call **cloneNode** on an **iframe**.
 
@@ -92,18 +102,7 @@ When you refer to the **id** of a cloned element, a collection is returned. **cl
 
 If the object being cloned is an element and that element has expandos defined on it, the expandos are copied to the clone when **cloneNode** is called. Other browsers might handle this differently.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.cloneNode](https://developer.mozilla.org/en-US/docs/Web/API/Node.cloneNode) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[cloneNode Method](http://msdn.microsoft.com/en-us/library/ie/ms536365(v=vs.85).aspx) Article]
-

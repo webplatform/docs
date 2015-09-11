@@ -1,36 +1,43 @@
 ---
 title: length
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLCollection
+    href: /dom/HTMLCollection
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /dom/HTMLCollection
+standardization_status: 'W3C Recommendation'
+summary: 'The length or size of the list.'
 tags:
   - API
   - Object
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs example, spec reference'
-summary: 'The length or size of the list.'
 uri: dom/HTMLCollection/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 The length or size of the list.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLCollection](/dom/HTMLCollection)</span></span>
+Property of [dom/HTMLCollection](/dom/HTMLCollection)[dom/HTMLCollection](/dom/HTMLCollection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var lengthOfCollection = collection.length;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
 **Needs Examples**: This section should include examples.
 

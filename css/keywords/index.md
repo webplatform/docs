@@ -1,18 +1,16 @@
 ---
 title: keywords
+notes:
+  - 'Add values, syntax, example, description, specifications, compatibility.'
+readiness: 'Not Ready'
+summary: 'Index page for CSS keywords.'
 tags:
   - Basic
   - Pages
-readiness: 'Not Ready'
-notes:
-  - 'Add values, syntax, example, description, specifications, compatibility.'
-summary: 'Index page for CSS keywords.'
 uri: css/keywords
 
 ---
-# keywords
-
-## Summary
+## <span>Summary</span>
 
 Index page for CSS keywords.
 

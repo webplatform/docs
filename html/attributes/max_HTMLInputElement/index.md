@@ -1,61 +1,68 @@
 ---
 title: max (HTMLInputElement)
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://code.webplatform.org'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The max attribute specifies the maximum value for an &lt;input&gt; element.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'The max attribute specifies the maximum value for an <input> element.'
-code_samples:
-  - 'http://code.webplatform.org'
-uri: 'html/attributes/max (HTMLInputElement)'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - html/elements/input/type/datetime
+uri: 'html/attributes/max (HTMLInputElement)'
 
 ---
-# max (HTMLInputElement)
+## <span>Summary</span>
 
-## Summary
+The max attribute specifies the maximum value for an &lt;input&gt; element.
 
-The max attribute specifies the maximum value for an \<input\> element.
-
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
+
+</td>
+</tr>
+</table>
 The max attribute works with the following input types: [number](/html/elements/input/type/number), [range](/html/elements/input/type/range), [date](/html/elements/input/type/date), [datetime](/w/index.php?title=html/elements/input/type/datetime&action=edit&redlink=1), [datetime-local](/html/elements/input/type/datetime-local), [month](/html/elements/input/type/month), [time](/html/elements/input/type/time) and [week](/html/elements/input/type/week).
 
 For datetime, datetime-local, month, time, and week the value of the attribute must be a valid string of the type.
 
 For number and range the value of the attribute must be a number: decimal or integer.
 
-## Examples
+## <span>Examples</span>
 
 Two examples of max attributes on inputs.
 
-``` {.html}
+``` html
 The following date control limits input to dates that are before the 1980s:
 <input name="start" type="date" max="1979-12-31">
-
+<br>
 Must be a number at least 1 and less than 101:
 <input name="quantity" required type="number" max="100" min="1">
 ```
 
 [View live example](http://code.webplatform.org)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -153,17 +160,46 @@ Must be a number at least 1 and less than 101:
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 -   [html/attributes/min](/html/attributes/min)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

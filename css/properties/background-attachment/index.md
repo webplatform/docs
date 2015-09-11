@@ -1,52 +1,68 @@
 ---
 title: background-attachment
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-attachment.htm'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`scroll`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`scroll`'
+  Percentages: n/a
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Defines if a background image scrolls with the content or stays fixed.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/background-attachment.htm'
-uri: css/properties/background-attachment
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/background-attachment
 
 ---
-# background-attachment
-
-## Summary
+## <span>Summary</span>
 
 Defines if a background image scrolls with the content or stays fixed.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `scroll`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `scroll`
+
 Percentages
 :   n/a
 
-## Syntax
+## <span>Syntax</span>
 
 -   `background-attachment: fixed`
 -   `background-attachment: local`
 -   `background-attachment: scroll`
 
-## Values
+## <span>Values</span>
 
 scroll
 :   Default. Background image scrolls with the object as the document is scrolled.
@@ -57,13 +73,13 @@ fixed
 local
 :   Background image stays fixed with regard to the element’s contents and scrolls as the element is scrolled.
 
-## Examples
+## <span>Examples</span>
 
 The following examples use the **background-attachment** attribute and the **background-attachment** property to set the background to "fixed", so that the background does not scroll with the text.
 
 This example uses an inline style sheet to set the background to fixed.
 
-``` {.html}
+``` html
 <style >
     body { background-attachment:fixed }
 </style>
@@ -75,32 +91,31 @@ This example uses an inline style sheet to set the background to fixed.
 
 This example uses scripting to set the page background to fixed.
 
-``` {.js}
+``` js
 document.body.backgroundAttachment = 'fixed';
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This property can be set with the other background properties by using the [**background**](/css/cssom/properties/background) composite property.
 
 With CSS3 Backgrounds, the background of a box can have multiple layers. The number of layers is determined by the number of comma-separated values in the [**background-image**](/css/properties/background-image) property. Each of the images is sized, positioned, and tiled according to the corresponding value in the other background properties (**background-attachment**, [**background-clip**](/css/properties/background-clip), [**background-origin**](/css/properties/background-origin), [**background-position**](/css/properties/background-position), [**background-repeat**](/css/properties/background-repeat), and [**background-size**](/css/properties/background-size)). The first image in the list is the layer closest to the user, the next one is painted behind the first, and so on.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1](http://www.w3.org/TR/CSS2/colors.html#propdef-background-attachment)
 :   W3C Recommendation
+
 [CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/#the-background-attachment)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Background
+#### <span>Background</span>
 
 -   [background](/css/cssom/properties/background)
 
@@ -130,7 +145,7 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -138,10 +153,3 @@ Specification
 -   `LayoutRect`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

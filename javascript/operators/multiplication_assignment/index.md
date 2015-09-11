@@ -1,20 +1,22 @@
 ---
 title: multiplication assignment
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/yhecb1ct(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Multiplies the value of a variable by the value of an expression and assigns the result to the variable.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Multiplies the value of a variable by the value of an expression and assigns the result to the variable.'
 uri: 'javascript/operators/multiplication assignment'
 
 ---
-# multiplication assignment
-
-## Summary
+## <span>Summary</span>
 
 Multiplies the value of a variable by the value of an expression and assigns the result to the variable.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result *= expression
 
@@ -24,29 +26,23 @@ Multiplies the value of a variable by the value of an expression and assigns the
 **expression**
 :   Any expression.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var x = 5;
 var y = 2;
 y *= x; // result: y = 10
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Using the **\*=** operator is exactly the same as specifying:
 
     result = result * expression
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Multiplication Operator (\\\*)](/javascript/operators/multiplication)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/yhecb1ct(v=vs.94).aspx)
 

@@ -1,20 +1,22 @@
 ---
 title: do while
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/5c1h7h0k(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.'
 uri: 'javascript/statements/do while'
 
 ---
-# do while
-
-## Summary
+## <span>Summary</span>
 
 Executes a statement block once, and then repeats execution of the loop until a condition expression evaluates to false.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     do {
         statement
@@ -26,11 +28,11 @@ Executes a statement block once, and then repeats execution of the loop until a 
 **expression**
 :   Required. An expression that can be coerced to Boolean true or false. If expression is true , the loop is executed again. If expression is false , the loop is terminated.
 
-## Examples
+## <span>Examples</span>
 
 In the following example, the statements in the do...while loop continue to execute as long as the variable `i` is less than 10.
 
-``` {.js}
+``` js
 var i = 0;
  do {
      document.write(i + " ");
@@ -42,7 +44,7 @@ var i = 0;
 
 In the following example, the statements inside the loop are executed once even though the condition is not met.
 
-``` {.js}
+``` js
 var i = 10;
  do {
      document.write(i + " ");
@@ -52,15 +54,15 @@ var i = 10;
  // Output: 10
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Unlike the while statement, a do...while loop is executed one time before the conditional expression is evaluated.
 
 On any line in a do...while block, you can use the break statement to cause the program flow to exit the loop, or you can use the continue statement to go directly to the while expression.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [break Statement](/javascript/statements/break)
 -   [continue Statement](/javascript/statements/continue)
@@ -68,10 +70,4 @@ On any line in a do...while block, you can use the break statement to cause the 
 -   [for...in Statement](/javascript/statements/for_in)
 -   [while Statement](/javascript/statements/while)
 -   [Labeled Statement](/javascript/statements/Labeled)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/5c1h7h0k(v=vs.94).aspx)
 

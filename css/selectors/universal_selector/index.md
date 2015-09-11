@@ -9,8 +9,6 @@ The *universal selector*, written as a CSS qualified name [CSS3NAMESPACE](http:/
 
 If a universal selector represented by \* (i.e. without a namespace prefix) is not the only component of a sequence of simple selectors selectors or is immediately followed by a pseudo-element, then the \* may be omitted and the universal selector's presence implied.
 
-``
-
     Examples:
 
     *[hreflang|=en] and [hreflang|=en] are equivalent,
@@ -23,11 +21,9 @@ If a universal selector represented by \* (i.e. without a namespace prefix) is n
 
 **Note**: it is recommended that the \* not be omitted, because it decreases the potential confusion between, for example, *div :first-child* and *div:first-child*. Here, *div \*:first-child* is more readable.
 
-## Universal selector and namespaces
+## <span>Universal selector and namespaces</span>
 
 The universal selector allows an optional namespace component. It is used as follows:
-
-``
 
     ns|* all elements in namespace ns
 

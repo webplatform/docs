@@ -1,43 +1,45 @@
 ---
 title: Server
+overview_table:
+  Direction: Response
+  Features: ''
+summary: 'Contains information about the software used by the origin server to handle the request.'
 tags:
   - HTTP
   - Headers
-summary: 'Contains information about the software used by the origin server to handle the request.'
 uri: http/headers/Server
 
 ---
-# Server
-
-## Summary
+## <span>Summary</span>
 
 Contains information about the software used by the origin server to handle the request.
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Response
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     Server = product *( RWS ( product / comment ) )
     product = token ["/" product-version]
     product-version = token
 
-## Examples
+## <span>Examples</span>
 
-``` {.other}
+```
 User-Agent: CERN-LineMode/2.15 libwww/2.17b3
 ```
 
-    Server: Apache/2.2.22 (Debian)
+``` html
+Server: Apache/2.2.22 (Debian)
+```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTTP/1.1 Semantics and Content](http://tools.ietf.org/html/rfc7231#section-7.4.2)
 :
 

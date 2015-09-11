@@ -1,31 +1,40 @@
 ---
 title: translate
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs title, description, example, fix table coding in Parameters'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/transforms/MSCSSMatrix
+    href: /css/transforms/MSCSSMatrix
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /css/transforms/MSCSSMatrix
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'Needs title, description, example, fix table coding in Parameters'
 uri: css/transforms/MSCSSMatrix/translate
 
 ---
-# translate
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [css/transforms/MSCSSMatrix](/css/transforms/MSCSSMatrix)*
+Method of [css/transforms/MSCSSMatrix](/css/transforms/MSCSSMatrix)[css/transforms/MSCSSMatrix](/css/transforms/MSCSSMatrix)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.translate();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -35,13 +44,13 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
 
-### Parameters
+### <span>Parameters</span>
 
 *offsetX* [in]
 :   Type: **float**The translation offset along the *x*-axis.
@@ -52,11 +61,11 @@ This method can return one of these values.
 *retMatrix* [out, retval]
 :   Type: **MSCSSMatrix**The returned matrix.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -90,13 +99,6 @@ This method can return one of these values.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `MSCSSMatrix`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

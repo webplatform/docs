@@ -1,22 +1,24 @@
 ---
 title: String
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ecczf11c(v=vs.94).aspx)'
+notes:
+  - 'Item for later cleanup: An automatically generated list of properties and methods (either static, instance or inherited ones) is absent.'
+readiness: 'Ready to Use'
+summary: 'Allows manipulation and formatting of text strings and determination and location of substrings within strings.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-notes:
-  - 'Item for later cleanup: An automatically generated list of properties and methods (either static, instance or inherited ones) is absent.'
-summary: 'Allows manipulation and formatting of text strings and determination and location of substrings within strings.'
 uri: javascript/String
 
 ---
-# String
-
-## Summary
+## <span>Summary</span>
 
 Allows manipulation and formatting of text strings and determination and location of substrings within strings.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     // Declaring a string literal.
     var newString = "stringLiteral";
@@ -30,7 +32,7 @@ Allows manipulation and formatting of text strings and determination and locatio
 **stringLiteral**
 :   Optional. Any group of Unicode characters.
 
-## Examples
+## <span>Examples</span>
 
 JavaScript provides escape sequences that you can include in strings to create characters that you cannot type directly. For example, `\t` specifies a tab character. For more information, see Special Characters (JScript).
 
@@ -38,7 +40,7 @@ A string literal is zero or more characters enclosed in single or double quotati
 
 The following example shows that the data type of a string literal is not the same as that of a **String** object.
 
-``` {.js}
+``` js
 var strLit = "This is a string literal.";
 var strObj = new String("This is a string object.");
 
@@ -54,7 +56,7 @@ When you call a method on a string literal, it is temporarily converted to a str
 
 The following example applies the **toUpperCase** method to a string literal.
 
-``` {.js}
+``` js
 var strLit = "This is a string literal.";
 
 var result1 = strLit.toUpperCase();
@@ -71,7 +73,7 @@ document.write(result2);
 
 In modern browsers (2011 onwards), you can access an individual character of a string as a read-only array-indexed property. The following example accesses individual string characters.
 
-``` {.js}
+``` js
 var str = "abcd";
 var result = str[2];
 document.write (result);
@@ -82,86 +84,55 @@ document.write(result);
 // Output: t
 ```
 
-## Properties
+## <span>Properties</span>
 
 The following table lists the properties of the **String** object.
 
-Property
-:   Description
-[constructor](/javascript/String/constructor)
-:   Specifies the function that creates an object.
-[length](/javascript/String/length)
-:   Returns the length of a String object.
-[prototype](/javascript/String/prototype)
-:   Returns a reference to the prototype for a class of objects.
+|Property|Description|
+|:-------|:----------|
+|[constructor](/javascript/String/constructor)|Specifies the function that creates an object.|
+|[length](/javascript/String/length)|Returns the length of a String object.|
+|[prototype](/javascript/String/prototype)|Returns a reference to the prototype for a class of objects.|
 
-## Functions
+## <span>Functions</span>
 
 The following table lists the functions of the **String** object.
 
-Function
-:   Description
-[fromCharCode](/javascript/String/fromCharCode)
-:   Returns a string from a number of Unicode character values.
+|Function|Description|
+|:-------|:----------|
+|[fromCharCode](/javascript/String/fromCharCode)|Returns a string from a number of Unicode character values.|
 
-## Methods
+## <span>Methods</span>
 
 The following table lists the methods of the **String** object.
 
-Method
-:   Description
-[HTML Tag Methods](/javascript/String/HTML_Tag_Methods)
-:   Places various HTML tags around text.
-[charAt](/javascript/String/charAt)
-:   Returns the character at the specified index.
-[charCodeAt](/javascript/String/charCodeAt)
-:   Returns the Unicode encoding of the specified character.
-[concat](/javascript/String/concat)
-:   Returns a string that contains the concatenation of two supplied strings.
-[indexOf](/javascript/String/indexOf)
-:   Returns the character position where the first occurrence of a substring occurs within a string.
-[lastIndexOf](/javascript/String/lastIndexOf)
-:   Returns the last occurrence of a substring within a string.
-[localeCompare](/javascript/String/localeCompare)
-:   Returns a value that indicates whether two strings are equivalent in the current locale.
-[match](/javascript/String/match)
-:   Searches a string by using a supplied **Regular Expression** object and returns the results as an array.
-[replace](/javascript/String/replace)
-:   Uses a regular expression to replace text in a string and returns the result.
-[search](/javascript/String/search)
-:   Returns the position of the first substring match in a regular expression search.
-[slice](/javascript/String/slice)
-:   Returns a section of a string.
-[split](/javascript/String/split)
-:   Returns the array of strings that results when a string is separated into substrings.
-[substr](/javascript/String/substr)
-:   Returns a substring beginning at a specified location and having a specified length.
-[substring](/javascript/String/substring)
-:   Returns the substring at a specified location within a String object.
-[toLocaleLowerCase](/javascript/String/toLocaleLowerCase)
-:   Returns a string in which all alphabetic characters are converted to lowercase, taking into account the host environment's current locale.
-[toLocaleUpperCase](/javascript/String/toLocaleUpperCase)
-:   Returns a string in which all alphabetic characters are converted to uppercase, taking into account the host environment's current locale.
-[toLowerCase](/javascript/String/toLowerCase)
-:   Returns a string in which all alphabetic characters are converted to lowercase.
-[toString](/javascript/String/toString)
-:   Returns the string.
-[toUpperCase](/javascript/String/toUpperCase)
-:   Returns a string in which all alphabetic characters are converted to uppercase.
-[trim](/javascript/String/trim)
-:   Returns a string with leading and trailing white space and line terminator characters removed.
-[valueOf](/javascript/String/valueOf)
-:   Returns the string.
+|Method|Description|
+|:-----|:----------|
+|[HTML Tag Methods](/javascript/String/HTML_Tag_Methods)|Places various HTML tags around text.|
+|[charAt](/javascript/String/charAt)|Returns the character at the specified index.|
+|[charCodeAt](/javascript/String/charCodeAt)|Returns the Unicode encoding of the specified character.|
+|[concat](/javascript/String/concat)|Returns a string that contains the concatenation of two supplied strings.|
+|[indexOf](/javascript/String/indexOf)|Returns the character position where the first occurrence of a substring occurs within a string.|
+|[lastIndexOf](/javascript/String/lastIndexOf)|Returns the last occurrence of a substring within a string.|
+|[localeCompare](/javascript/String/localeCompare)|Returns a value that indicates whether two strings are equivalent in the current locale.|
+|[match](/javascript/String/match)|Searches a string by using a supplied **Regular Expression** object and returns the results as an array.|
+|[replace](/javascript/String/replace)|Uses a regular expression to replace text in a string and returns the result.|
+|[search](/javascript/String/search)|Returns the position of the first substring match in a regular expression search.|
+|[slice](/javascript/String/slice)|Returns a section of a string.|
+|[split](/javascript/String/split)|Returns the array of strings that results when a string is separated into substrings.|
+|[substr](/javascript/String/substr)|Returns a substring beginning at a specified location and having a specified length.|
+|[substring](/javascript/String/substring)|Returns the substring at a specified location within a String object.|
+|[toLocaleLowerCase](/javascript/String/toLocaleLowerCase)|Returns a string in which all alphabetic characters are converted to lowercase, taking into account the host environment's current locale.|
+|[toLocaleUpperCase](/javascript/String/toLocaleUpperCase)|Returns a string in which all alphabetic characters are converted to uppercase, taking into account the host environment's current locale.|
+|[toLowerCase](/javascript/String/toLowerCase)|Returns a string in which all alphabetic characters are converted to lowercase.|
+|[toString](/javascript/String/toString)|Returns the string.|
+|[toUpperCase](/javascript/String/toUpperCase)|Returns a string in which all alphabetic characters are converted to uppercase.|
+|[trim](/javascript/String/trim)|Returns a string with leading and trailing white space and line terminator characters removed.|
+|[valueOf](/javascript/String/valueOf)|Returns the string.|
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [new Operator](/javascript/operators/new)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ecczf11c(v=vs.94).aspx)
 

@@ -1,24 +1,30 @@
 ---
 title: Error
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dww52sbt(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Contains information about errors.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Contains information about errors.'
 uri: javascript/Error
 
 ---
-# Error
-
-## Summary
+## <span>Summary</span>
 
 Contains information about errors.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     errorObj = new Error()
 
+<span class="language">JavaScript</span>
+
     errorObj = new Error([ number ])
+
+<span class="language">JavaScript</span>
 
     errorObj = new Error([ number [, description ]])
 
@@ -31,11 +37,11 @@ Contains information about errors.
 **description**
 :   Optional. Brief string that describes an error. Empty string if omitted.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the Error object.
 
-``` {.js}
+``` js
 function checkInput(x) {
      try
      {
@@ -52,7 +58,7 @@ function checkInput(x) {
 
 The following example illustrates the use of the implicitly created Error object.
 
-``` {.js}
+``` js
 try
     {
     // Cause an error.
@@ -82,7 +88,7 @@ try
  // Description: 'y' is undefined
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Whenever a run-time error occurs, an instance of the Error object is created to describe the error. This instance has two intrinsic properties that contain the description of the error ( **description** property) and the error number ( **number** property).
 
@@ -92,26 +98,20 @@ Error objects can also be explicitly created, using the syntax shown above, or t
 
 Typically, the local variable that is created in a **try...catch** statement refers to the implicitly created Error object. As a result, you can use the error number and description in any way you choose.
 
-## Methods
+## <span>Methods</span>
 
 [toString Method (Error)](/javascript/Error/toString) | [valueOf Method (Date)](/javascript/Date/valueOf)
 
-## Properties
+## <span>Properties</span>
 
 [constructor Property (Error)](/javascript/Error/constructor) | [number Property](/javascript/Error/description) | [prototype Property (Error)](/javascript/Error/prototype) | [stack Property (Error)](/javascript/Error/stack) | [stackTraceLimit Property (Error)](/javascript/Error/stackTraceLimit)
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [new Operator](/javascript/operators/new)
 -   [throw Statement](/javascript/statements/throw)
 -   [try...catch...finally Statement](/javascript/statements/try_catch_finally)
 -   [var Statement](/javascript/statements/var)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dww52sbt(v=vs.94).aspx)
 

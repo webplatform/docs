@@ -1,28 +1,31 @@
 ---
 title: onUpgradeNeeded
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBOpenDBRequest
+    href: /apis/indexeddb/IDBOpenDBRequest
+summary: 'The event handler for the upgrade needed event.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'The event handler for the upgrade needed event.'
 uri: apis/indexeddb/IDBOpenDBRequest/onUpgradeNeeded
 
 ---
-# onUpgradeNeeded
-
-## Summary
+## <span>Summary</span>
 
 The event handler for the upgrade needed event.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBOpenDBRequest](/apis/indexeddb/IDBOpenDBRequest)</span></span>
+Property of [apis/indexeddb/IDBOpenDBRequest](/apis/indexeddb/IDBOpenDBRequest)[apis/indexeddb/IDBOpenDBRequest](/apis/indexeddb/IDBOpenDBRequest)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.onUpgradeNeeded;
 element.onUpgradeNeeded = value;
 ```

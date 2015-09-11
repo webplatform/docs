@@ -1,20 +1,22 @@
 ---
 title: get
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+readiness: 'Ready to Use'
+summary: 'Omittable. Gets the element at the specified index.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Omittable. Gets the element at the specified index.'
 uri: javascript/Int32Array/get
 
 ---
-# get
-
-## Summary
+## <span>Summary</span>
 
 Omittable. Gets the element at the specified index.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     var value = int32Array.get(index);
 
@@ -24,11 +26,11 @@ Omittable. Gets the element at the specified index.
 **index**
 :   The index at which to get the element of the array.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to get the first element of the array.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -43,10 +45,4 @@ var req = new XMLHttpRequest();
          }
      }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)
 

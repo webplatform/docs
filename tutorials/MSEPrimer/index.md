@@ -1,33 +1,31 @@
 ---
 title: MSEPrimer
-tags:
-  - Tutorials
-readiness: 'In Progress'
 notes:
   - 'Needs additional content'
+readiness: 'In Progress'
 summary: "Note: this article is in progress.\n"
+tags:
+  - Tutorials
 uri: tutorials/MSEPrimer
 
 ---
-# MSEPrimer
-
 **By Jay Munro [msft]**
 
-## Summary
+## <span>Summary</span>
 
 Note: this article is in progress.
 
 This guide gives you a basic look at Media Source Extensions(MSE), what they are, and how to use them to create add-on free video streaming. An example is presented that uses MSE and MPEG-DASH file to stream content from a single video file as source and used XMLHttpRequest to get segments. This is just one of several ways to stream content.
 
-### Introduction
+### <span>Introduction</span>
 
 [Media Source Extensions (MSE)](http://www.w3.org/TR/media-source/) as adds buffer-based source options to HTML5 media for streaming support. Previously, you had to download a complete video file to play, or use an add-on like Silverlight or Adobe Flash to stream media. With MSE, no client add-ons are required for streaming. Additionally, you can stream video from a standard HTTP server. A special media server is not required. The [example](http://code.webplatform.org/gist/9144919/) described here uses un-prefixed APIs, and runs in Internet Explorer 11. The sample loads in the latest Chrome, but won't load the video, possibly because the source video is MP4.
 
-### MSE Overview
+### <span>MSE Overview</span>
 
 The primary addition to HTML5 media is the MediaSource object. The MediaSource object takes the place of a file URL as the src on a video object.
 
-``` {.js}
+``` js
    mediaSource = new window.MediaSource();  // Create a new object
    var url = URL.createObjectURL(mediaSource); // Make a URL from it
    videoElement.src = url; // Video is now pointing at the mediaSource object
@@ -35,7 +33,7 @@ The primary addition to HTML5 media is the MediaSource object. The MediaSource o
 
  Source buffers are added to the MediaSource object and filled with media data from segmented files. The HTML5 audio or video element does not know whether it's playing a file or a buffer.
 
-``` {.js}
+``` js
    mediaSource.addEventListener('sourceopen', function (e) {
     var videoSource = mediaSource.addSourceBuffer('video/mp4');
    videoSource.appendBuffer(new Uint8Array([video content]));
@@ -48,7 +46,7 @@ With the MediaSource object connected to the video object, you can append data t
 
 If you're serving from a single video file like the example here, or all of your individual file segments have the exact same codec, bitrate, etc, then you just need to initialize once. If you change bitrates, or insert a commercial with different parameters, you'll need to load the initialization segment for the new stream. When you return to your regular content, you'll also have to re-initialize the video object.
 
-### Using MSE on your page
+### <span>Using MSE on your page</span>
 
 The MSE API itself is a simple concept and basically follows these steps:
 
@@ -69,13 +67,13 @@ For the example here, we're going to use a single file that's segmented, and use
 
 Since MSE is fairly basic, the majority of the example here is about getting video segments and handling the UI of the page. This example could be simplified by creating a segment list array, and hard-coding the file names and ranges.
 
-### The HTML5 video element
+### <span>The HTML5 video element</span>
 
 The HTML that you need to use with MSE is very simple. It consists of a video element with any associated fall back code. The snippet below includes an Input Element field to define an MPD file, a play button, and some
 
 areas to display results we get from the MPD file. The video element has the autoplay attribute set, but no src or controls attributes. The source for the video element is set in the script code by the information we'll get from the MPD file, and the play/pause control is done with the Play button. The Play button's click event is later handled in the JavaScript code with an addEventListener() rather than using the onclick() event on the element itself. In the online example, you can also click the video control to play or pause.
 
-``` {.js}
+``` js
    <label>Enter .mpd file:
       <input type="text" id="filename" value="di_dash.mpd" />
     </label>
@@ -92,7 +90,7 @@ areas to display results we get from the MPD file. The video element has the aut
 
  The architecture of the page puts the \<script\> tags below the HTML code in the \<body\> of the page. This adds efficiency by ensuring that the HTML elements have finished loading before the script starts.
 
-### Handling play and pause
+### <span>Handling play and pause</span>
 
 In the example, to play a DASH file click the Play button. Because the intrinsic controls are turned off on the video element, the play button code event handler plays or pauses the current video. The play button's behavior is conditional:
 
@@ -101,7 +99,7 @@ In the example, to play a DASH file click the Play button. Because the intrinsic
 -   If the file name in the input field has changed, and the video is paused, the new file is loaded and then played.
 -   If the video is playing, the pause method is called so the user can stop and start the video.
 
-``` {.js}
+``` js
     playButton.addEventListener("click", function () {
       //  If video is paused then check for file change
       if (videoElement.paused == true) {
@@ -126,25 +124,25 @@ In the example, to play a DASH file click the Play button. Because the intrinsic
 
  To keep the button labels in sync with the state of the video element, the paused and playing events are used to handle switching the button's label between Play and Pause.
 
-``` {.js}
+``` js
 // handler to switch button text to Play
 videoElement.addEventListener("pause", function () {
   playButton.innerText = "Play";
 }, false);
 ```
 
-``` {.js}
+``` js
 // handler to switch button text to pause
 videoElement.addEventListener("playing", function () {
   playButton.innerText = "Pause";
 }, false);
 ```
 
-### Getting the .mpd file and DASH parameters
+### <span>Getting the .mpd file and DASH parameters</span>
 
 The Media Presentation Description is an XML file that describes how the media is segmented, the type and codec (MP4 here), the bit rate, length, and basic segment size of the video. Some MPD files include audio info, and you can split content into separate streams for the video and audio players. The example shown here only uses a single buffer for both video and audio.
 
-``` {.js}
+``` js
 // gets the mpd file and parses it
 function getData(url) {
   if (url !== "") {
@@ -186,7 +184,7 @@ function getData(url) {
 
 The following code queries our new XML document and pulls out the individual data points we want to display. The byte range segments are loaded into an array called segments. With the help of an index, we'll use the segments[] array to download the video segments.
 
-``` {.js}
+``` js
 // retrieve parameters from our stored .mpd file
 function getFileType(data) {
   try {
@@ -241,7 +239,7 @@ function showTypes() {
 
  The `getData()` function calls `getFileType()` function fills global variables with the information from the MPD file. We then call the `showTypes()` function to display the parameters to the screen.
 
-### Setting up video and buffers
+### <span>Setting up video and buffers</span>
 
 After the MPD file has been parsed, the media content pointed to in the MPD file is retrieved and played. When getting and playing video data, timing is very important. In an app that only plays a single resolution, the number of segments in the buffer isn't a big concern; however, you don't want to use up too much memory. If you're playing low resolution because of a slow network, you'll want to be ready to download a higher resolution video segment the next time the network speeds increases. In this case, you might not want to get too far ahead of the current playing segment.
 
@@ -253,7 +251,7 @@ The play process goes like this:
 
 DASH media segments are downloaded and appended to the buffer, which is then played by the HTML5 video element. The MediaSource buffer takes the place of a file URL for the src of these elements. The addSourceBuffer method creates and adds a buffer to the MediaSource object. The removeSourceBuffer removes an existing SourceBuffer from the MediaSource object. The appendBuffer method adds media data to a SourceBuffer.
 
-``` {.js}
+``` js
       //  Create the media source
       if (window.MediaSource) {
         mediaSource = new window.MediaSource();
@@ -286,7 +284,7 @@ The `initVideo()` function in the example downloads the initialization segment f
 
 The XHR request are asynchronous. To ensure functions are called at the right time, the readystatechange event is used. When readystatechange fires, the readyState property is checked. If it's equal to xhr.DONE, the response attribute (media data) is added to the source buffer as a Uint8Array.
 
-``` {.js}
+``` js
     //  Load video's initialization segment
     function initVideo(range, url) {
       var xhr = new XMLHttpRequest();
@@ -323,11 +321,11 @@ The XHR request are asynchronous. To ensure functions are called at the right ti
 
  The sourceBuffer's update event is used to see when the data has finished loading. When the media has finished loading into the SourceBuffer, the bufferUpdated flag is set. This flag is used later to check that the initialization content from the MP4 file is actually completed first.
 
-### Feeding the buffer
+### <span>Feeding the buffer</span>
 
 After the initialization data is loaded, the media segments start to load and play. In this example, the first segment of data is loaded outside of the regular play loop. This is a small hack to get the video started because the main loop that drives the segment request and buffer maintenance is based on the video playing, and at initialization, the video is paused. After the first segment is loaded and is playing, the video update method is called and the loop starts.
 
-``` {.js}
+``` js
 function updateFunct() {
       //  This is a one shot function, when init segment finishes loading,
       //    update the buffer flag, call getStarted, and then remove this event.
@@ -357,7 +355,7 @@ function updateFunct() {
 
 To keep the video element playing, media segments are requested based on the time length of the current segment. The example uses a 20% fudge factor to ensure the content gets downloaded in time. If the current segment has 10 seconds of video, the next segment is requested after 8 seconds, or 80% of the segment total. This gives a small amount of extra time to request the segment, but doesn't eat up memory so quickly. This example gets the length of the segment (timeToDownload(range)) and multiplies it by .8, or 80%. The result is stored in the segCheck global variable used to calculate when to get the next segment.
 
-``` {.js}
+``` js
           xhr.addEventListener("readystatechange", function () {
             if (xhr.readyState == xhr.DONE) { //wait for video to load
               //  Calculate when to get next segment based on time of current one
@@ -375,7 +373,7 @@ To keep the video element playing, media segments are requested based on the tim
 
  To calculate the time length of the current segment, we use the formula: time = (size \* 8) / bitrate. The byte range is stored in the MPD file as xxxx-yyyy, or start-end. The example splits the string and subtracts the start from the end to get the size in bytes of the current segment. That value is multiplied by 8 to convert bytes to bits, and then divided by the bitrate. The bitrate of the media file is specified by the MPD file as bandwidth. The result is the time in seconds that the current segment takes to play.
 
-``` {.js}
+``` js
 function timeToDownload(range) {
   var vidDur = range.split("-");
   // time = size * 8 / bitrate
@@ -389,7 +387,7 @@ The playback loop uses the video element's timeupdate event to drive when to get
 
 This loop continues until all the segments have been loaded and played. When the index matches the number of segments, the removeEventListener method is called to stop the timeupdate event.
 
-``` {.js}
+``` js
 //  get video segments
 function fileChecks() {
   if (bufferUpdated == true) {
@@ -410,7 +408,7 @@ function fileChecks() {
 
  The PlaySegment() function downloads the media data and puts it into the source buffer. The function is called with a media byte range for the segment and the URL of the MP4 file.
 
-``` {.js}
+``` js
 //  Play segment plays a byte range (format nnnn-nnnnn) of a media file
 function playSegment(range, url) {
   var xhr = new XMLHttpRequest();
@@ -449,7 +447,7 @@ function playSegment(range, url) {
 
  To sum up, after the initialization process is complete, the timeupdate event drives the download and playback of segments. When the current segment has played approximately 90% of the way through, another segment is downloaded and added to the buffer and the play method is called.
 
-### Making DASH and Media presentation description (MPD) files
+### <span>Making DASH and Media presentation description (MPD) files</span>
 
 The MPEG-DASH spec describes a how media files are segmented, and is relatively agnostic on codecs. MPEG-DASH is a container which can contain WebM or MP4 files. Segmented files can consist of a series of small single files, or a large file with indexed sections that are downloaded and played sequentially. When you use short segments of video, rather than long pieces, it's easier to do other tasks like inserting ads or changing quality.
 
@@ -465,7 +463,7 @@ To create a single segmented MP4 and associated MPD file, start by installing MP
 
 MP4Box creates two files with \_dash appended to the name, an MP4 and an MPD file. In this example, it creates yourfile\_dash.mp4 and yourfile\_dashs.mpd with 10 second segments and 1 second fragments. The -rap flag tells MP4Box to try to make segments break on a keyframe or start of a decoding sequence. While we're asking for 10 second segments, the actual duration of each segment may vary. For more info about MPD files, see MPEG-DASH Tutorial.
 
-### Where to go from here
+### <span>Where to go from here</span>
 
 The example presented here shows how to create and attach buffers to the HTML5 video element and read one type of MPD file to get segments of video from a single file. As we've said, you can also use an MPD file to describe a number of small video files rather than segments in a single larger file. To work with that type of MPD setup, you can modify the code that reads the segment section of the MPD file to get individual URLs. This eliminates the need to use setRequestHeader because you'd be getting the whole file with XHR.
 
@@ -473,17 +471,17 @@ The code here uses only Media Source Extensions and HTML5 video elements. You mi
 
 Rather than writing all this code yourself, take a look at the dash.js library and reference player. Dash.js is an opensource library and player that is supported by many industry media companies, including Microsoft. Dash.js is a modular library with components that can be replaced or rewritten as needed. For large companies, this gives the flexibility of creating modules that handle special needs. For more info see dash.js on GitHub.
 
-## Usage
+## <span>Usage</span>
 
      The sample runs in Internet Explorer 11, loads in Chrome but the video won't play (not WebM?)
 
 The example needs a DASH WebM mpd and video file.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Video
+#### <span>Video</span>
 
 -   [audio-video](/apis/audio-video)
 
@@ -505,7 +503,7 @@ The example needs a DASH WebM mpd and video file.
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### XHR
+#### <span>XHR</span>
 
 -   [XMLHttpRequest (XHR) API](/apis/xhr)
 
@@ -517,7 +515,7 @@ The example needs a DASH WebM mpd and video file.
 
 -   [file xhr](/tutorials/file_xhr)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [W3C Media Source Extensions](http://www.w3.org/TR/media-source/)
 -   [Simple MPEG-DASH streaming player](http://samples.msdn.microsoft.com/Workshop/samples/media/mpdExampleWP.html)

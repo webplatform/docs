@@ -1,46 +1,47 @@
 ---
 title: SVGElement
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[SVGElement](https://developer.mozilla.org/en-US/docs/Web/API/SVGElement) Article]'
+  - 'Microsoft Developer Network: [[SVGElement](http://msdn.microsoft.com/en-us/library/ie/gg305566(v=vs.85).aspx) Article]'
+notes:
+  - "Missing properties, id etc\nsee https://developer.mozilla.org/en-US/docs/Web/API/SVGElement"
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'All of the SVG DOM interfaces that correspond directly to elements in the SVG language derive from the SVGElement interface.'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - "Missing properties, id etc\nsee https://developer.mozilla.org/en-US/docs/Web/API/SVGElement"
-summary: 'All of the SVG DOM interfaces that correspond directly to elements in the SVG language derive from the SVGElement interface.'
 uri: dom/SVGElement
 
 ---
-# SVGElement
-
-## Summary
+## <span>Summary</span>
 
 All of the SVG DOM interfaces that correspond directly to elements in the SVG language derive from the SVGElement interface.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.1
 
-### Members
+### <span>Members</span>
 
 The **SVGElement** object has these properties:
 
@@ -49,12 +50,3 @@ The **SVGElement** object has these properties:
 -   [**ownerSVGElement**](/svg/properties/ownerSVGElement): Gets the nearest ancestor **svg** element.
 -   [**viewportElement**](/svg/properties/viewportElement): Gets the element that established the current viewport.
 -   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[SVGElement](https://developer.mozilla.org/en-US/docs/Web/API/SVGElement) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[SVGElement](http://msdn.microsoft.com/en-us/library/ie/gg305566(v=vs.85).aspx) Article]
-

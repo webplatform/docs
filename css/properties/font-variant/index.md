@@ -1,48 +1,62 @@
 ---
 title: font-variant
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/5716625'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`fontVariant`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The font-variant property enables you to select the small-caps font within a font family.'
-code_samples:
-  - 'http://gist.github.com/5716625'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/font-variant
 
 ---
-# font-variant
-
-## Summary
+## <span>Summary</span>
 
 The font-variant property enables you to select the small-caps font within a font family.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `fontVariant`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `font-variant: inherit`
 -   `font-variant: normal`
 -   `font-variant: small-caps`
 
-## Values
+## <span>Values</span>
 
 normal
 :   Selects a font that is not a 'small-caps' font, usually the available 'normal' font.
@@ -53,43 +67,42 @@ small-caps
 inherit
 :   Inherits the font-variant setting from its parent.
 
-## Examples
+## <span>Examples</span>
 
 A simple example to show the effect achieved when small-caps are applied to a text paragraph.
 
-``` {.html}
-I think WebPlatform rocks.
+``` html
+<p>I think WebPlatform rocks.</p>
 ```
 
 [View live example](http://code.webplatform.org/gist/5716625)
 
 The CSS applied to the HTML above.
 
-``` {.css}
+``` css
 p {
   font-size: 300%;
   font-variant: small-caps;
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 In ([CSS Fonts Module Level 3, W3C Working Draft 11 December 2012](http://www.w3.org/TR/css3-fonts/#propdef-font-variant)), this property is extended. However, no browser seems to support these changes yet.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#propdef-font-variant)
 :   W3C Candidate Recommendation
+
 [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/CSS21/fonts.html#small-caps)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -103,13 +116,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   **font-variant**
-
--   [kerning-mode](/css/properties/kerning-mode)
-
--   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
 
 -   [text-rendering](/css/properties/text-rendering)
 
@@ -117,7 +124,7 @@ Specification
 
 -   [user-modify](/css/properties/user-modify)
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -143,13 +150,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   **font-variant**
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -157,7 +158,6 @@ Specification
 
 -   [font](/html/elements/font)
 
-### External resources
+### <span>External resources</span>
 
 -   MDN: [[1]](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant)
-

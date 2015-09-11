@@ -1,38 +1,47 @@
 ---
 title: maximumAge
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/geolocation/PositionOptions
+    href: /apis/geolocation/PositionOptions
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/geolocation/PositionOptions
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Indicates that the application is willing to accept a cached position whose age is no greater than the specified time (in milliseconds).'
 tags:
   0: API
   1: Object
   2: Properties
   4: Geolocation
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Indicates that the application is willing to accept a cached position whose age is no greater than the specified time (in milliseconds).'
 uri: apis/geolocation/PositionOptions/maximumAge
 
 ---
-# maximumAge
-
-## Summary
+## <span>Summary</span>
 
 Indicates that the application is willing to accept a cached position whose age is no greater than the specified time (in milliseconds).
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/geolocation/PositionOptions](/apis/geolocation/PositionOptions)</span></span>
+Property of [apis/geolocation/PositionOptions](/apis/geolocation/PositionOptions)[apis/geolocation/PositionOptions](/apis/geolocation/PositionOptions)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = PositionOptions.maximumAge;
 PositionOptions.maximumAge = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //10000ms = 10sec
 if (PositionOptions.maximumAge < 10000) {
    // The position is relatively recent.
@@ -41,16 +50,7 @@ if (PositionOptions.maximumAge < 10000) {
    }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

@@ -1,44 +1,46 @@
 ---
 title: feDistantLight
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs all content'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Needs all content'
 uri: svg/elements/feDistantLight
 
 ---
-# feDistantLight
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.14
 
-### Members
+### <span>Members</span>
 
 The **SVGFEDistantLightElement** object has these properties:
 
 -   [**azimuth**](/svg/properties/azimuth): Gets the direction angle for the light source on the xy plane (clockwise).
 -   [**elevation**](/svg/properties/elevation): Gets the direction angle for the light source from the xy plane towards the z-axis.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -121,10 +123,3 @@ The **SVGFEDistantLightElement** object has these properties:
 -   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
 
 -   [SVG filters](/tutorials/svg_filters)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

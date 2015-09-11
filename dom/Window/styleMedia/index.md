@@ -1,49 +1,58 @@
 ---
 title: styleMedia
+attributions:
+  - 'Microsoft Developer Network: [[styleMedia Method](http://msdn.microsoft.com/en-us/library/ie/gg592987(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Window
+    href: /dom/Window
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/Window
+standardization_status: Non-Standard
+summary: 'Gets a StyleMedia object that contains methods and properties. These methods and properties determine the media types that are supported by the object that displays the document object.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: Non-Standard
-summary: 'Gets a StyleMedia object that contains methods and properties. These methods and properties determine the media types that are supported by the object that displays the document object.'
 uri: dom/Window/styleMedia
 
 ---
-# styleMedia
-
-## Summary
+## <span>Summary</span>
 
 Gets a StyleMedia object that contains methods and properties. These methods and properties determine the media types that are supported by the object that displays the document object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Window](/dom/Window)</span></span>
+Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var styleMedia = window.styleMedia;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 Of type [StyleMedia](/css/media_queries/apis/StyleMedia). Returns the StyleMedia instance object.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var stype=window.styleMedia.type;
 ```
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -99,13 +108,9 @@ var stype=window.styleMedia.type;
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -145,13 +150,50 @@ var stype=window.styleMedia.type;
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-## Attribution
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
 
-*This article contains content originally from external sources.*
+-   [pageY](/css/cssom/properties/pageY)
 
-Portions of this content come from the Microsoft Developer Network: [[styleMedia Method](http://msdn.microsoft.com/en-us/library/ie/gg592987(v=vs.85).aspx) Article]
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
 
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   **styleMedia**

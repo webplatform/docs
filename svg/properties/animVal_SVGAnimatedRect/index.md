@@ -1,37 +1,30 @@
 ---
 title: animVal (SVGAnimatedRect)
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: 'svg/properties/animVal (SVGAnimatedRect)'
 
 ---
-# animVal (SVGAnimatedRect)
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 Internet Explorer 9 supports script-based SVG animation but it does not support declarative-based SVG animation. As a result, the **animVal** property contains the same value as the [**baseVal**](/svg/properties/baseVal_(SVGAnimatedRect)) property.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.20
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGAnimatedRect**](/svg/objects/SVGAnimatedRect)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

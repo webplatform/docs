@@ -1,5 +1,15 @@
 ---
 title: HTMLAudioElement
+notes:
+  - 'Needs spec reference'
+readiness: 'Almost Ready'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: HTMLMediaElement
+    href: /dom/HTMLMediaElement
+standardization_status: 'W3C Working Draft'
+summary: 'The HTML &lt;audio&gt; element represents sound content in documents. This is part of the HTML5 specifications. Audio sources can be specified in the src attribute or by using a source element. There is also a fallback option for browsers which do not support this tag.'
 tags:
   - API
   - Objects
@@ -7,120 +17,141 @@ tags:
   - DOM
   - HTML
   - Media
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs spec reference'
-summary: 'The HTML <audio> element represents sound content in documents. This is part of the HTML5 specifications. Audio sources can be specified in the src attribute or by using a source element. There is also a fallback option for browsers which do not support this tag.'
 uri: dom/HTMLAudioElement
 
 ---
-# HTMLAudioElement
+## <span>Summary</span>
 
-## Summary
+The HTML &lt;audio&gt; element represents sound content in documents. This is part of the HTML5 specifications. Audio sources can be specified in the src attribute or by using a source element. There is also a fallback option for browsers which do not support this tag.
 
-The HTML \<audio\> element represents sound content in documents. This is part of the HTML5 specifications. Audio sources can be specified in the src attribute or by using a source element. There is also a fallback option for browsers which do not support this tag.
+Inherits from [HTMLMediaElement](/dom/HTMLMediaElement)[HTMLMediaElement](/dom/HTMLMediaElement)
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[HTMLMediaElement](/dom/HTMLMediaElement)</span></span>
-
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from HTMLMediaElement
+## <span>Inherited from HTMLMediaElement</span>
 
-### Properties
+### <span>Properties</span>
 
 API Name
 :   Summary
+
 [audioTracks](/dom/HTMLMediaElement/audioTracks)
 :
+
 [autobuffer](/dom/HTMLMediaElement/autobuffer)
 :
+
 [autoplay](/dom/HTMLMediaElement/autoplay)
 :
+
 [buffered](/dom/HTMLMediaElement/buffered)
 :
+
 [controls](/dom/HTMLMediaElement/controls)
 :   Controls attribute used within a Audio element or Video element displays the default media controls defined by the web browser being used to open HTML document or view of a Web Application.
+
 [currentSrc](/dom/HTMLMediaElement/currentSrc)
 :
+
 [currentTime](/dom/HTMLMediaElement/currentTime)
 :
+
 [defaultPlaybackRate](/dom/HTMLMediaElement/defaultPlaybackRate)
 :
+
 [duration](/dom/HTMLMediaElement/duration)
 :
+
 [ended](/dom/HTMLMediaElement/ended)
 :
+
 [error](/dom/HTMLMediaElement/error)
 :
+
 [loop](/dom/HTMLMediaElement/loop)
 :
+
 [muted](/dom/HTMLMediaElement/muted)
 :
+
 [networkState](/dom/HTMLMediaElement/networkState)
 :
+
 [paused](/dom/HTMLMediaElement/paused)
 :
+
 [playbackRate](/dom/HTMLMediaElement/playbackRate)
 :
+
 [played](/dom/HTMLMediaElement/played)
 :
+
 [preload](/dom/HTMLMediaElement/preload)
 :
+
 [seekable](/dom/HTMLMediaElement/seekable)
 :
+
 [seeking](/dom/HTMLMediaElement/seeking)
 :
+
 [src](/dom/HTMLMediaElement/src)
 :
+
 [textTracks](/dom/HTMLMediaElement/textTracks)
 :
+
 [volume](/dom/HTMLMediaElement/volume)
 :
 
-### Methods
+### <span>Methods</span>
 
 API Name
 :   Summary
+
 [canPlayType](/dom/HTMLMediaElement/canPlayType)
 :
+
 [load](/dom/HTMLMediaElement/load)
 :
+
 [pause](/dom/HTMLMediaElement/pause)
 :
+
 [play](/dom/HTMLMediaElement/play)
 :   Loads and starts playback of a media resource.
 
-### Events
+### <span>Events</span>
 
 API Name
 :   Summary
+
 [canplay](/dom/HTMLMediaElement/canplay)
 :   Fires whenever enough data is available to determine whether a media is playable.
+
 [canplaythrough](/dom/HTMLMediaElement/canplaythrough)
 :   Fires when enough data is available to determine whether a media is playable at a normal rate without interruptions.
+
 [progress](/dom/HTMLMediaElement/progress)
 :   Fires to indicate progress while downloading media data.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   **HTMLAudioElement**
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -218,7 +249,42 @@ API Name
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

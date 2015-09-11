@@ -1,40 +1,50 @@
 ---
 title: anchorNode
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.anchorNode](https://developer.mozilla.org/en-US/docs/Web/API/Selection.anchorNode) Article]'
+  - 'Microsoft Developer Network: [[anchorNode Property](http://msdn.microsoft.com/en-us/library/ie/ff974688(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Selection
+    href: /dom/Selection
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/Selection
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the element or node that contains the start of the selection.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns the element or node that contains the start of the selection.'
 uri: dom/Selection/anchorNode
 
 ---
-# anchorNode
-
-## Summary
+## <span>Summary</span>
 
 Returns the element or node that contains the start of the selection.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Selection](/dom/Selection)</span></span>
+Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var node = selObj.anchorNode;
 selObj.anchorNode = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the text that you select, and all the text contained in the anchorNode element.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -64,27 +74,18 @@ The following example shows the text that you select, and all the text contained
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Returns null if not successful. This is not supported by Windows Internet Explorer 8 or earlier versions. AnchorNode returns the value of the [**startContainer**](/dom/Range/startContainer) attribute of the first **Range** object in the list. See [**focusNode**](/dom/Selection/focusNode) to find the node that contains the end of a selection.
 
 A user may make a selection from left to right (in document order) or right to left (reverse of document order). The anchor is where the user began the selection. This can be visualized by holding the Shift key and pressing the arrow keys on your keyboard. The selection's anchor does not move, but the selection's focus, the other end of the selection, does move.
 
-### Syntax
+### <span>Syntax</span>
 
 startNode=selObj.anchorNode;
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.anchorNode](https://developer.mozilla.org/en-US/docs/Web/API/Selection.anchorNode) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[anchorNode Property](http://msdn.microsoft.com/en-us/library/ie/ff974688(v=vs.85).aspx) Article]
-

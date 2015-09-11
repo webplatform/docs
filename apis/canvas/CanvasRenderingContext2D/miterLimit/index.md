@@ -1,42 +1,51 @@
 ---
 title: miterLimit
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The current miter limit ratio.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The current miter limit ratio.'
 uri: apis/canvas/CanvasRenderingContext2D/miterLimit
 
 ---
-# miterLimit
-
-## Summary
+## <span>Summary</span>
 
 The current miter limit ratio.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)</span></span>
+Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = CanvasRenderingContext2D.miterLimit;
 CanvasRenderingContext2D.miterLimit = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 When setting, values that are not finite values greater than zero are ignored. Default is 10.0.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the effect of the miterLimit
 
-``` {.js}
+``` js
 function draw() {
   var ctx = document.getElementById('canvas').getContext('2d');
 
@@ -67,20 +76,11 @@ function draw() {
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 The miter length is the distance from the point where two lines meet to the point where two lines that are drawn along the outer edges of the two lines would intersect. If the ratio of these values exceeds the *miterLimit* value, a [lineJoin](/apis/canvas/CanvasRenderingContext2D/lineJoin) miter style is not drawn.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

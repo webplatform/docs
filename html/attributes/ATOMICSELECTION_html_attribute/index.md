@@ -1,46 +1,55 @@
 ---
 title: ATOMICSELECTION html attribute
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'deletion candidate'
+readiness: 'Not Ready'
+summary: 'Specifies whether the element and its contents must be selected as a whole, indivisible unit.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'deletion candidate'
-summary: 'Specifies whether the element and its contents must be selected as a whole, indivisible unit.'
 uri: 'html/attributes/ATOMICSELECTION html attribute'
 
 ---
-# ATOMICSELECTION html attribute
-
-## Summary
+## <span>Summary</span>
 
 Specifies whether the element and its contents must be selected as a whole, indivisible unit.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 If the document is not in atomic selection mode, the **ATOMICSELECTION** attribute is ignored. To turn on the atomic selection mode, run the IDM\_ATOMICSELECTION command with the value of `true`. A document that is in atomic selection mode has slower performance when a selection is made anywhere in the document.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Requirements
+### <span>Requirements</span>
 
 {
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `a`
 -   `abbr`
@@ -130,10 +139,3 @@ There are no standards that apply here.
 -   `col`
 -   `colGroup`
 -   `Using the MSHTML Editor's Extra Features`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

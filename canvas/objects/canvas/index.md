@@ -1,5 +1,11 @@
 ---
 title: canvas
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "\nMove Candidate:   Probably should be under HTML5 canvas element. See HTML5 specification.\n\n"
+readiness: 'Not Ready'
+summary: "The surface on which to apply graphics and images. The canvas object must contain an graphic created with CanvasRenderingContext2D APIs \nin order to render. When the actual drawing is done using the CanvasRenderingContext2D object, the properties and methods are used to create and manipulate graphics on a canvas object.\n"
 tags:
   - Pages
   - using
@@ -11,42 +17,36 @@ tags:
   - API
   - Objects
   - DOM
-readiness: 'Not Ready'
-notes:
-  - "\nMove Candidate:   Probably should be under HTML5 canvas element. See HTML5 specification.\n\n"
-summary: "The surface on which to apply graphics and images. The canvas object must contain an graphic created with CanvasRenderingContext2D APIs \nin order to render. When the actual drawing is done using the CanvasRenderingContext2D object, the properties and methods are used to create and manipulate graphics on a canvas object.\n"
-uri: canvas/objects/canvas
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - canvas/objects/CanvasRenderingContext2D
+uri: canvas/objects/canvas
 
 ---
-# canvas
-
-## Summary
+## <span>Summary</span>
 
 The surface on which to apply graphics and images. The canvas object must contain an graphic created with CanvasRenderingContext2D APIs in order to render. When the actual drawing is done using the CanvasRenderingContext2D object, the properties and methods are used to create and manipulate graphics on a canvas object.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.10
 
-### Members
+### <span>Members</span>
 
 The **canvas** object has these types of members:
 
@@ -54,19 +54,12 @@ The **canvas** object has these types of members:
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### Events
+#### <span>Events</span>
 
 The **canvas** object has these events. {
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CanvasRenderingContext2D`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

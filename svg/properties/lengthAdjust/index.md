@@ -1,19 +1,19 @@
 ---
 title: lengthAdjust
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/lengthAdjust
 
 ---
-# lengthAdjust
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 Indicates the type of adjustments to perform in order to make the rendered length of the text match the value specified on the [**textLength**](/svg/properties/textLength) attribute.
 
@@ -27,25 +27,18 @@ Be aware that, for a text string that contains *n* characters, the adjustments t
 
 If the attribute is not specified, the effect is as if a value of **spacing** were specified.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.4
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
 -   [**SVGTSpanElement**](/svg/elements/tspan)
 -   [**SVGTextPathElement**](/svg/elements/textPath)
 -   [**SVGTextContentElement**](/svg/elements/etextContent)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

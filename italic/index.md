@@ -1,17 +1,15 @@
 ---
-title: talic
+title: italic
+notes:
+  - 'Merge Candidate: glossary/'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Merge Candidate: glossary/'
 uri: italic
 
 ---
-# italic
-
-## italic
+## <span>italic</span>
 
 Of a font or typeface, a style somewhat emulating cursive writing that slants characters slightly. The last word in this sentence is *italic*.
 

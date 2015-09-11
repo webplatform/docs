@@ -1,39 +1,42 @@
 ---
 title: exitFullscreen
+notes:
+  - 'Needs more mobile compat'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+standardization_status: 'W3C Working Draft'
+summary: 'The exitFullscreen method provides a way for exiting the fullscreen mode enabled by requestFullscreen.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs more mobile compat'
-summary: 'The exitFullscreen method provides a way for exiting the fullscreen mode enabled by requestFullscreen.'
 uri: dom/Document/exitFullscreen
 
 ---
-# exitFullscreen
-
-## Summary
+## <span>Summary</span>
 
 The exitFullscreen method provides a way for exiting the fullscreen mode enabled by requestFullscreen.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  document.exitFullscreen();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //exit fullscreen on Enter key
 document.addEventListener("keydown", function(e) {
   if (e.keyCode == 13) {
@@ -42,16 +45,13 @@ document.addEventListener("keydown", function(e) {
 }, false);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Fullscreen](http://www.w3.org/TR/fullscreen/#api)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [tutorials/using\_the\_full-screen\_api](/tutorials/using_the_full-screen_api)
-

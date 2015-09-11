@@ -1,22 +1,20 @@
 ---
-title: html
+title: Part 4: Structuring our content with HTML
+notes:
+  - "Quoting David Hertz original proposal:\n Add more example in the body section:\n high level page structure - header, footer, navigation, main content, sidebar\n header - include title, logo, search form\n footer - include license notice, accessibility statement, contact details?\n navigation - include 5 items, do horizontal nav as it is better for learning\n main content - have this as the main recipe details; use it as an opportunity to demonstrate some good typography\n sidebar - have this as an image gallery of images from the recipe"
+readiness: 'In Progress'
+summary: 'Next we will dive into Hypertext Markup Language (HTML), structuring our content. This document shows an example HTML file with notes on each components that will help you learn their use.'
 tags:
   - Basic
   - Pages
-readiness: 'In Progress'
-notes:
-  - "Quoting David Hertz original proposal:\n Add more example in the body section:\n high level page structure - header, footer, navigation, main content, sidebar\n header - include title, logo, search form\n footer - include license notice, accessibility statement, contact details?\n navigation - include 5 items, do horizontal nav as it is better for learning\n main content - have this as the main recipe details; use it as an opportunity to demonstrate some good typography\n sidebar - have this as an image gallery of images from the recipe"
-summary: 'Next we will dive into Hypertext Markup Language (HTML), structuring our content. This document shows an example HTML file with notes on each components that will help you learn their use.'
 uri: Beginners/html
 
 ---
-# Part 4: Structuring our content with HTML
-
-## Summary
+## <span>Summary</span>
 
 Next we will dive into Hypertext Markup Language (HTML), structuring our content. This document shows an example HTML file with notes on each components that will help you learn their use.
 
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -31,7 +29,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-## Structuring Essentials
+## <span>Structuring Essentials</span>
 
 If you're running a software, there's plain code working behind the scenes. Similarly, with all its glitter and presentational charisma, a web page also has lots of code running (or sitting idle) behind the screen.
 
@@ -43,17 +41,17 @@ In this article, we're going to analyze the anatomy of an HTML document.
 
 An HTML document is essentially divided into two parts: the `head` and the `body`. The `head` holds important metadata about the webpage, while the body holds all the content, including all text, images, colors, and the entire screen real estate. And these two parts are enclosed inside the most senior, all-encompassing `html` tag, that tells the browser something like "Here starts the HTML markup. Get ready."
 
-### An Example Document in a Web Browser
+### <span>An Example Document in a Web Browser</span>
 
 ![A web browser window with Hello world in red](/assets/public/d/d0/Beginners_example_html_file.png)
 
-## The Code
+## <span>The Code</span>
 
 You can copy and paste this code in a new file (e.g. `index.html`) and open it directly in a web browser to test it live!
 
 You should see only a white page with a big "Hello world" written in red like the image above.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -71,7 +69,7 @@ You should see only a white page with a big "Hello world" written in red like th
 </html>
 ```
 
-## The Components Elaborated
+## <span>The Components Elaborated</span>
 
 -   In HTML code, a comment begins with "`<!--`" and ends with "`-->`". *`<!--this is a comment-->`.*
 
@@ -93,7 +91,7 @@ You should see only a white page with a big "Hello world" written in red like th
 
 -   Finally, remember to close all tags! Modern browsers might face less frenzy but missing closing tags in older browsers like Internet Explorer 8 and earlier cause a havoc.
 
-## The Working
+## <span>The Working</span>
 
 The HTML document works with the power of its tags. The tags work in sync to achieve the intended effect and structure. The CSS rules, attached either via a separate document, embedded rules within the HTML document's `head` or by inline rules (not shown), add the style to the document.
 
@@ -101,7 +99,7 @@ The browser downloads and reads the HTML document line-by-line from top-to-botto
 
 Hopefully, you now understand the basic of HTML: structuring with various available tags. Indeed, there are many tags to explore. Most tags have additional attributes and a way of placement. From the HTML itself, you can serve different styles to different screens (two sets of styles to two separate devices like a portrait iPad and a landscape big monitor!), arrange your content with proper structure, and much, much more.
 
-### Going Over to Styles
+### <span>Going Over to Styles</span>
 
 We've created an CSS rule that translates as follows: "The h1 heading should have a red color."
 

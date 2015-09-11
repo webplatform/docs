@@ -1,54 +1,50 @@
 ---
 title: close
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/workers/WorkerGlobalScope
+    href: /apis/workers/WorkerGlobalScope
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Discards any pending tasks and immediately closes the worker.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Webworkers
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs example'
-summary: 'Discards any pending tasks and immediately closes the worker.'
 uri: apis/workers/WorkerGlobalScope/close
 
 ---
-# close
-
-## Summary
+## <span>Summary</span>
 
 Discards any pending tasks and immediately closes the worker.
 
-*Method of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)*
+Method of [apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)[apis/workers/WorkerGlobalScope](/apis/workers/WorkerGlobalScope)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  object.close();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 This method sets the worker's WorkerGlobalScope object's closing flag to *true*, preventing any further tasks from being queued.
 
 Use the **terminate** method if you want to stop a worker from a parent thread.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

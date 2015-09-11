@@ -1,69 +1,76 @@
 ---
 title: querySelectorAll
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, remove topic cluster flags'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Element
+standardization_status: 'W3C Working Draft'
+summary: 'Returns a list of elements that match a provided selector.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, remove topic cluster flags'
-summary: 'Returns a list of elements that match a provided selector.'
-uri: 'css/selectors api/querySelectorAll'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: 'css/selectors api/querySelectorAll'
 
 ---
-# querySelectorAll
-
-## Summary
+## <span>Summary</span>
 
 Returns a list of elements that match a provided selector.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var elementList = element.querySelectorAll(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### selector
+### <span>selector</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  A selector or multiple selectors (separated by commas).
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 A collection of DOM element nodes. The collection may be empty.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 This method differs from the [**querySelector**](/css/selectors_api/querySelector) method by returning a collection of DOM element nodes that match the selector string, rather than only the first element found. Calling this method with an unknown selector (due to the browser not implementing it, or due to typo and such) may throw an exception.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Selectors API Level 1](http://www.w3.org/TR/selectors-api/)
 :   Proposed Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   **querySelectorAll**
 
@@ -139,7 +146,7 @@ Specification
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Document`
 -   `a`
@@ -217,10 +224,3 @@ Specification
 -   `Other Resources`
 -   `W3C Selectors API`
 -   `W3C Selectors`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

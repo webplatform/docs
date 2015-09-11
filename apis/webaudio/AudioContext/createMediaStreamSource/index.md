@@ -1,39 +1,46 @@
 ---
 title: createMediaStreamSource
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webaudio/AudioContext
+    href: /apis/webaudio/AudioContext
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/webaudio/AudioContext
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Creates a MediaStreamAudioSourceNode, given a MediaStream. As a consequence of calling this method, audio playback from the MediaStream will be re-routed into the processing graph of the AudioContext.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Creates a MediaStreamAudioSourceNode, given a MediaStream. As a consequence of calling this method, audio playback from the MediaStream will be re-routed into the processing graph of the AudioContext.'
 uri: apis/webaudio/AudioContext/createMediaStreamSource
 
 ---
-# createMediaStreamSource
-
-## Summary
+## <span>Summary</span>
 
 Creates a MediaStreamAudioSourceNode, given a MediaStream. As a consequence of calling this method, audio playback from the MediaStream will be re-routed into the processing graph of the AudioContext.
 
-*Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)*
+Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = AudioContext.createMediaStreamSource();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 MediaStreamAudioSourceNode
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //it may be necessary to prefix getUserMedia and AudioContext in order to work in some browsers
 
 //request microphone stream
@@ -45,10 +52,7 @@ navigator.getUserMedia({ audio: true }, function(stream){
 }, function(){ console.log('Error getting Microphone stream'); });
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

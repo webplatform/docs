@@ -1,76 +1,76 @@
 ---
 title: hr
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add Category, Parent and Children information. Add HTML information section. Complete Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLHRElement](/dom/HTMLHRElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The hr element represents a paragraph-level thematic break in text.'
 tags:
   - Markup
   - Elements
   - HTML
   - XHTML
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add Category, Parent and Children information. Add HTML information section. Complete Compatibility information.'
-summary: 'The hr element represents a paragraph-level thematic break in text.'
 uri: html/elements/hr
 
 ---
-# hr
-
-## Summary
+## <span>Summary</span>
 
 The hr element represents a paragraph-level thematic break in text.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLHRElement](/dom/HTMLHRElement)
 
 The **hr** element represents a paragraph-level thematic break. That sounds kinda strange, I know, but a good example what that means comes from the world of fiction where the text in a given chapter might shift from one location to another or from one period of time to another. The **hr** is a great way to indicate a shift like that.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **hr** element to create a paragraph-level thematic break.
 
-``` {.html}
+``` html
 <p>This is a paragraph in a section about Topic A.</p>
 <hr/>
 <p>This paragraph is part of a section concerning Topic B.</p>
 ```
 
-## Usage
+## <span>Usage</span>
 
      The hr element is a “replaced element” which means it is comprised of a single tag with no content. You can apply attributes (e.g. class) to the tag, but it must not contain text.
 
 As a replaced element, the **hr** will be automatically closed by browsers, but you can also explicitly close the element with a trailing slash: **\<hr/\>**
 
-## Notes
+## <span>Notes</span>
 
 In HTML 4.01, the **hr** element represented a horizontal rule. And while the **hr** element may still be displayed as a horizontal rule in visual browsers, it is now defined in semantic terms, rather than presentational ones.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.3
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-hr-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-hr-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/present/graphics.html#edef-HR)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -168,21 +168,53 @@ Specification
 
 -   **hr**
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Text
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -193,8 +225,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -208,25 +238,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -271,10 +287,3 @@ Specification
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,49 +1,65 @@
 ---
 title: border-image-slice
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-slice)'
+code_samples:
+  - 'http://gist.github.com/6949408'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`100%`'
+  'Applies to': 'all elements, except internal table elements when `border-collapse` is set to `collapse`.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderImageSlice`'
+  Percentages: 'refer to size of the border image'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inward offsets.'
-code_samples:
-  - 'http://gist.github.com/6949408'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-image-slice
 
 ---
-# border-image-slice
-
-## Summary
+## <span>Summary</span>
 
 Divides the image specified by border-image-source in nine regions: the four corners, the four edges and the middle. It does this by specifying 4 inward offsets.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `100%`
+
 Applies to
 :   all elements, except internal table elements when `border-collapse` is set to `collapse`.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderImageSlice`
+
 Percentages
 :   refer to size of the border image
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-image-slice: <number>`
 -   `border-image-slice: <percentage>`
 -   `border-image-slice: fill`
 -   `border-image-slice: inherit`
 
-## Values
+## <span>Values</span>
 
 \<number\>
 :   Represents pixels for raster images and coordinates for vector images.
@@ -57,11 +73,11 @@ fill
 inherit
 :   Is a keyword indicating that all four values are inherited from their parent's element calculated value.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing multiple \<div\>s, identical in style except that they have different border-image-slice properties applied to them.
 
-``` {.html}
+``` html
 <div class="pattern one">one</div>
 <div class="pattern two">two</div>
 <div class="pattern three">three</div>
@@ -70,7 +86,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 
 [View live example](http://code.webplatform.org/gist/6949408)
 
-``` {.css}
+``` css
 /**
 *   Border-image-slice Live Example
 *   @see http://docs.webplatform.org/wiki/css/properties/border-image-slice
@@ -118,24 +134,22 @@ div {
 
 [View live example](http://code.webplatform.org/gist/6949408)
 
-## Usage
+## <span>Usage</span>
 
      * Up to four different values can be specified, in the following order: top, right, bottom, left.
 
 -   If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom slice-lines, and the second is used for left and right sides. If three values are specified, they are used for top, right/left, and bottom slice-lines, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-image-slice)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -195,13 +209,6 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-slice)
-

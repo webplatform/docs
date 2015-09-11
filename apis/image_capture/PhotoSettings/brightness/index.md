@@ -1,5 +1,19 @@
 ---
 title: brightness
+notes:
+  - 'Needs example, usage, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/image_capture/PhotoSettings
+    href: /apis/image_capture/PhotoSettings
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/image_capture/PhotoSettings
+standardization_status: 'W3C Working Draft'
+summary: 'This reflects the desired brightness setting of the camera.'
 tags:
   0: API
   1: Object
@@ -7,32 +21,25 @@ tags:
   4: Image
   5: Capture
   6: Mobile
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, usage, spec reference'
-summary: 'This reflects the desired brightness setting of the camera.'
 uri: 'apis/image capture/PhotoSettings/brightness'
 
 ---
-# brightness
-
-## Summary
+## <span>Summary</span>
 
 This reflects the desired brightness setting of the camera.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)</span></span>
+Property of [apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)[apis/image\_capture/PhotoSettings](/apis/image_capture/PhotoSettings)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = photoSettings.brightness;
 photoSettings.brightness = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
 **Needs Examples**: This section should include examples.
 

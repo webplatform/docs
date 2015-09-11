@@ -1,40 +1,54 @@
 ---
 title: text-align-last
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5664996'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'block containers'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`textAlignLast`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The text-align-last CSS property describes how the last line of a block element or a line before line break is aligned in its parent block element.'
-code_samples:
-  - 'http://gist.github.com/5664996'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-align-last
 
 ---
-# text-align-last
-
-## Summary
+## <span>Summary</span>
 
 The text-align-last CSS property describes how the last line of a block element or a line before line break is aligned in its parent block element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   block containers
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textAlignLast`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-align-last: auto`
 -   `text-align-last: center`
@@ -44,7 +58,7 @@ Animatable
 -   `text-align-last: right`
 -   `text-align-last: start`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. Text is aligned like the other lines in the object, using the value of the [**text-align**](/css/properties/text-align) property.
@@ -67,11 +81,11 @@ center
 justify
 :   Text is justified if ‘text-justify’ is ‘distribute’, and the same as `start` value if otherwise.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows an embedded style rule that justifies all the lines in the document's **p** elements. This is sometimes found in East Asian typography.
 
-``` {.html}
+``` html
 <p class="normal">Simple example with "auto" value of text-align-last property. This paragraph needs to be really long in order to show how to work with text-align-last property. It only works because we set a width for this paragraph though.</p>
 
 <p class="justified">Simple example with "justify" value of text-align-last property. In this case, the last line is also justified. This paragraph needs to be really long in order to show how to work with text-align-last property.</p>
@@ -79,7 +93,7 @@ The following example shows an embedded style rule that justifies all the lines 
 
 [View live example](http://code.webplatform.org/gist/5664996)
 
-``` {.css}
+``` css
 .normal {
     width: 300px;
     text-align: justify;
@@ -93,25 +107,16 @@ The following example shows an embedded style rule that justifies all the lines 
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#text-align-last)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,5 +1,14 @@
 ---
 title: big
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Not Ready'
+standardization_status: Deprecated
+summary: "The big element (&lt;big&gt;) indicates that the enclosed text should be display in a larger font size than surrounding text.\nThis element is considered obsolete in HTML5. Use CSS instead.\n"
 tags:
   - Pages
   - using
@@ -11,46 +20,34 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: Deprecated
-notes:
-  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
-summary: "The big element (<big>) indicates that the enclosed text should be display in a larger font size than surrounding text.\nThis element is considered obsolete in HTML5. Use CSS instead.\n"
 uri: html/elements/big
 
 ---
-# big
+## <span>Summary</span>
 
-## Summary
+The big element (&lt;big&gt;) indicates that the enclosed text should be display in a larger font size than surrounding text. This element is considered obsolete in HTML5. Use CSS instead.
 
-The big element (\<big\>) indicates that the enclosed text should be display in a larger font size than surrounding text. This element is considered obsolete in HTML5. Use CSS instead.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **BIG** element to enlarge text.
 
-    <BIG>This text is larger</BIG> than this text.
+``` html
+<BIG>This text is larger</BIG> than this text.
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 15.2.1
 
-### HTML information
+### <span>HTML information</span>
 
 {
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,22 +1,24 @@
 ---
 title: if else
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/85yyde5c(v=vs.94).aspx)'
+notes:
+  - 'Todo: Probably should be renamed to "else if".'
+readiness: 'Ready to Use'
+summary: 'Conditionally executes a group of statements, depending on the value of an expression.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-notes:
-  - 'Todo: Probably should be renamed to "else if".'
-summary: 'Conditionally executes a group of statements, depending on the value of an expression.'
 uri: 'javascript/statements/if else'
 
 ---
-# if else
-
-## Summary
+## <span>Summary</span>
 
 Conditionally executes a group of statements, depending on the value of an expression.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     if ( condition1 ) {
          statement1
@@ -41,13 +43,13 @@ Conditionally executes a group of statements, depending on the value of an expre
 **statement3**
 :   If both condition1 and condition2 are false , this statement is executed.
 
-## Examples
+## <span>Examples</span>
 
 The following code shows how to use if , if else , and else.
 
 It is good practice to enclose statement1 and statement2 in braces ({}) for clarity and to avoid inadvertent errors.
 
-``` {.js}
+``` js
 var z = 3;
  if (x == 5) {
      z = 10;
@@ -60,15 +62,9 @@ var z = 3;
  }
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Conditional (Ternary) Operator (?:)](/javascript/operators/conditional_ternary)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/85yyde5c(v=vs.94).aspx)
 

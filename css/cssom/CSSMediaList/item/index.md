@@ -1,58 +1,65 @@
 ---
 title: item
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples would clarify any overloaded terms here.'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/CSSMediaList/CSSMediaList
+    href: /css/cssom/CSSMediaList/CSSMediaList
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /css/cssom/CSSMediaList/CSSMediaList
+summary: 'Gets the medium at the position number that is indicated by an index in the current list.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'examples would clarify any overloaded terms here.'
-summary: 'Gets the medium at the position number that is indicated by an index in the current list.'
 uri: css/cssom/CSSMediaList/item
 
 ---
-# item
-
-## Summary
+## <span>Summary</span>
 
 Gets the medium at the position number that is indicated by an index in the current list.
 
-*Method of [css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)*
+Method of [css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)[css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = mediaList.item(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### index
+### <span>index</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  An index into the media list.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -108,13 +115,9 @@ Specification
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -154,11 +157,55 @@ Specification
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    â€¦ further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSMediaList`
 -   `Reference`
@@ -166,10 +213,3 @@ Specification
 -   `deleteMedium`
 -   `length`
 -   `mediaText`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

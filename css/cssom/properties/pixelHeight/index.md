@@ -1,39 +1,44 @@
 ---
 title: pixelHeight
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pixelWidth.htm'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/properties
+    href: /css/cssom/properties
+summary: 'Changes the value of the height without changing the units designator.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'Changes the value of the height without changing the units designator.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pixelWidth.htm'
 uri: css/cssom/properties/pixelHeight
 
 ---
-# pixelHeight
-
-## Summary
+## <span>Summary</span>
 
 Changes the value of the height without changing the units designator.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/properties](/css/cssom/properties)</span></span>
+Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.pixelHeight;
 element.pixelHeight = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
 This example uses a timer to increment the **pixelHeight** property.
 
-``` {.js}
+``` js
 <SCRIPT>
 function scaleThis()
 {
@@ -49,23 +54,16 @@ function scaleThis()
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/pixelWidth.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Setting this property changes the value of the height without changing the units designator. Unlike the [**height**](/css/properties/height) property, this property's value is an integer, not a string, and is always interpreted in pixels.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `runtimeStyle`
 -   `style`
 -   `posHeight`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

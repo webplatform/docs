@@ -1,34 +1,39 @@
 ---
 title: spellcheck
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, examples, clean-up MSDN import'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'summary, examples, clean-up MSDN import'
 uri: dom/HTMLElement/spellcheck
 
 ---
-# spellcheck
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.spellcheck;
 element.spellcheck = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Spellcheck is only enabled by default for **textArea** elements, and elements with the [**contentEditable**](/html/attributes/contentEditable) = true attribute for Internet Explorer 10. Spellcheck is off by default for **input type=text**.
 
@@ -36,17 +41,10 @@ You can enable spellchecking by adding the **spellcheck=true** attribute to the 
 
 There is also a default state (missing attribute) which uses the element's default behavior, such as inheriting from the parent element's spellcheck state.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLElement`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

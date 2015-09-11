@@ -1,37 +1,47 @@
 ---
 title: getClientRects
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/DOM/element.getClientRects)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm'
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ClientRectList
+    href: /dom/HTMLElement
+standardization_status: 'W3C Working Draft'
+summary: 'A collection of ClientRect objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right, and bottom properties describing the border box, relative to the top-left of the viewport. For tables with captions, the caption is included even though it is outside the border box of the table.'
 tags:
   - API
   - Object
   - Methods
   - CSS
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'A collection of ClientRect objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right, and bottom properties describing the border box, relative to the top-left of the viewport. For tables with captions, the caption is included even though it is outside the border box of the table.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectselection.htm'
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm'
 uri: dom/HTMLElement/getClientRects
 
 ---
-# getClientRects
-
-## Summary
+## <span>Summary</span>
 
 A collection of ClientRect objects, one for each CSS border box associated with the element. Each ClientRect object contains read-only left, top, right, and bottom properties describing the border box, relative to the top-left of the viewport. For tables with captions, the caption is included even though it is outside the border box of the table.
 
-*Method of [dom/HTMLElement](/dom/HTMLElement)*
+Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var rectList = element.getClientRects();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type ClientRectList.
+Returns an object of type ClientRectListClientRectList
 
 A **ClientRectList** collection, that contains **ClientRect** objects with the following properties -
 
@@ -42,11 +52,11 @@ A **ClientRectList** collection, that contains **ClientRect** objects with the f
      height: Number
      width: Number
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **getClientRects** and [**getBoundingClientRect**](/dom/HTMLElement/getBoundingClientRect) methods to highlight text lines in an object.
 
-``` {.html}
+``` html
 <head>
 <script>
 var rcts;
@@ -105,7 +115,7 @@ ID="idBeige"></div>
 
 This example uses the [**ClientRect**](/css/cssom/ClientRect) collection with the **getClientRects** and [**getBoundingClientRect**](/dom/HTMLElement/getBoundingClientRect) methods to determine the position of the text rectangle within an element. In each line, the left-justified text does not extend to the right margin of the box that contains the text. Using the collection, you can determine the coordinates of the rectangle that surrounds only the content in each line. The example code reads these rectangle coordinates and instructs the ball to move over the text only, and not to the end of the line.
 
-``` {.html}
+``` html
 <head>
 <script>
 var timid = -1;
@@ -178,7 +188,7 @@ function End() {
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rectdemo.htm)
 
-## Notes
+## <span>Notes</span>
 
 -   Before being in the process of standardization, it was intended that this method would return a TextRectangle object for each line of text in an element. However, the CSSOM working draft specifies that it returns a ClientRect for each border box. For an inline element, the two definitions are the same. But for a block element, the CSSOM version returns only a single rectangle.
 -   The amount of scrolling that has been done of the viewport area (or any other scrollable element) is taken into account when computing the rectangles.
@@ -187,22 +197,11 @@ function End() {
 -   Rectangles are returned even for CSS boxes that have empty border-boxes. The left, top, right and bottom coordinates can still be meaningful.
 -   Fractional pixel offsets are possible.
 
-### Compatibility notes
+### <span>Compatibility notes</span>
 
 Internet Explorer 8 and below - **getClientRect** returns a proprietary `TextRectangle` object. While it is similar to [ClientRect](/css/cssom/ClientRect), it does not have `height` or `width` properties and furthermore cannot have any additional properties (including `height` and `width`) added to it.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSSOM View Module](http://www.w3.org/TR/cssom-view/#dom-range-getclientrects)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/DOM/element.getClientRects)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

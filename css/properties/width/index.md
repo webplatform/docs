@@ -1,42 +1,59 @@
 ---
 title: width
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/width)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5702862'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements except inline, non-replaced elements, table rows, and row groups.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'percentage or absolute length'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`http://docs.webplatform.org/wiki/css/cssom/properties/width`'
+  Percentages: 'refer to width of containing block'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies the width of the content area of an element. The content area of the element width does not include the padding, border, and margin of the element.'
-code_samples:
-  - 'http://gist.github.com/5702862'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/width
 
 ---
-# width
-
-## Summary
+## <span>Summary</span>
 
 Specifies the width of the content area of an element. The content area of the element width does not include the padding, border, and margin of the element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements except inline, non-replaced elements, table rows, and row groups.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   percentage or absolute length
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `http://docs.webplatform.org/wiki/css/cssom/properties/width`
+
 Percentages
 :   refer to width of containing block
 
-## Syntax
+## <span>Syntax</span>
 
 -   `width: auto`
 -   `width: available`
@@ -49,7 +66,7 @@ Percentages
 -   `width: min-content`
 -   `width: percentage`
 
-## Values
+## <span>Values</span>
 
 auto
 :   If auto is set for the elements width, the browser will determine the width for the element.
@@ -81,9 +98,9 @@ fit-content
 intrinsic
 :   This is an experimental rule for max-content. Currently it only works in Chrome, however you should be using max-content instead since that is the standard.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 div { width: 100% }
 h1 { width: 20em }
 section { width: auto }
@@ -92,7 +109,7 @@ img { width: 100px }
 
 Example using new values that are part of the CSS Basic Box Model that is currently in working draft.
 
-``` {.html}
+``` html
 <style>
 /* Width values of the CSS Box Model working draft */
 
@@ -146,31 +163,31 @@ p.fitcontent {
 
 [View live example](http://code.webplatform.org/gist/5702862)
 
-## Usage
+## <span>Usage</span>
 
      ===Newer Values===
 
 In the CSS Basic Box Model Working Draft, the values max-content, min-content, available, fit-content, border-box, and content-box were added. It would be a best practice to add the vendor prefix to these until the values are standardized.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Basic Box Model](http://dev.w3.org/csswg/css-box/#the-width-and-height-properties)
 :   Working Draft
+
 [CSS Level 2](http://www.w3.org/TR/CSS2/visudet.html#the-width-property)
 :   Recommendation
+
 [CSS Level 1](http://www.w3.org/TR/CSS1/#width)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
--   [http://www.w3.org/TR/CSS2/visudet.html\#the-width-property](http://www.w3.org/TR/CSS2/visudet.html#the-width-property)
--   [http://www.w3.org/TR/CSS21/visudet.html\#propdef-width](http://www.w3.org/TR/CSS21/visudet.html#propdef-width)
+-   <http://www.w3.org/TR/CSS2/visudet.html#the-width-property>
+-   <http://www.w3.org/TR/CSS21/visudet.html#propdef-width>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -180,12 +197,3 @@ Specification
 -   `Measuring Element Dimension and Location with CSSOM in Internet Explorer 9`
 -   `Other Resources`
 -   `CSS Enhancements in Internet Explorer 6`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/width)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

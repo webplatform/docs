@@ -1,54 +1,50 @@
 ---
 title: getUTCSeconds
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4y0y6x01(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Gets the seconds of a Date object using Universal Coordinated Time (UTC).'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Gets the seconds of a Date object using Universal Coordinated Time (UTC).'
 uri: javascript/Date/getUTCSeconds
 
 ---
-# getUTCSeconds
-
-## Summary
+## <span>Summary</span>
 
 Gets the seconds of a Date object using Universal Coordinated Time (UTC).
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.getUTCSeconds()
 
-## Return Value
+## <span>Return Value</span>
 
 Returns an integer between 0 and 59. Zero is returned when the time is less than one second into the current minute. If a **Date** object was created without specifying the time, by default the UTC seconds value is 0.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use the **getUTCSeconds** method.
 
-``` {.js}
+``` js
 var date = new Date("1/1/2001");
  document.write(date. getUTCSeconds());
 
  // Output: 0
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required dateObj reference is a **Date** object. To get the number of seconds in local time, use the **getSeconds** method.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getSeconds Method (Date)](/javascript/Date/getSeconds)
 -   [setSeconds Method (Date)](/javascript/Date/setSeconds)
 -   [setUTCSeconds Method (Date)](/javascript/Date/setUTCSeconds)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4y0y6x01(v=vs.94).aspx)
 

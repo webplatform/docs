@@ -1,21 +1,23 @@
 ---
 title: setMonth
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tst8h9zw(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the month value in the Date object using local time.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sets the month value in the Date object using local time.'
 uri: javascript/Date/setMonth
 
 ---
-# setMonth
-
-## Summary
+## <span>Summary</span>
 
 Sets the month value in the Date object using local time.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj. setMonth( numMonth [ , dateVal ])
 
@@ -28,11 +30,11 @@ Sets the month value in the Date object using local time.
 **dateVal**
 :   Optional. A numeric value representing the day of the month. If this value is not supplied, the value from a call to the **getDate** method is used.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **setMonth** method.
 
-``` {.js}
+``` js
 date = new Date('1/1/1990');
  date.setMonth(14);
  document.write(date);
@@ -41,7 +43,7 @@ date = new Date('1/1/1990');
  // Note that the time zone corresponds to the time zone on the local computer.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 To set the month value using Universal Coordinated Time (UTC), use the **setUTCMonth** method.
 
@@ -49,17 +51,11 @@ If the value of numMonth is greater than 11 (January is month 0) or is a negativ
 
 The **setFullYear** method can be used to set the year, month, and day of the month.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getMonth Method (Date)](/javascript/Date/getMonth)
 -   [getUTCMonth Method (Date)](/javascript/Date/getUTCMonth)
 -   [setUTCMonth Method (Date)](/javascript/Date/setUTCMonth)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tst8h9zw(v=vs.94).aspx)
 

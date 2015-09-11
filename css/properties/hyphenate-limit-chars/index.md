@@ -1,47 +1,63 @@
 ---
 title: hyphenate-limit-chars
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`hyphenateLimitChars`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Specifies the minimum number of characters in a hyphenated word'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Add description, compatibility.'
-summary: 'Specifies the minimum number of characters in a hyphenated word'
 uri: css/properties/hyphenate-limit-chars
 
 ---
-# hyphenate-limit-chars
-
-## Summary
+## <span>Summary</span>
 
 Specifies the minimum number of characters in a hyphenated word
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `hyphenateLimitChars`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `hyphenate-limit-chars: integer`
 -   `hyphenate-limit-chars: auto`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Corresponds to a value of `5 2 2`, indicating a 5-character word limit, 2 characters required before a hyphenation break, and 2 characters required following a hyphenation break.
@@ -55,36 +71,30 @@ If the second and third values are missing they are given a value of **auto**.
 
 Negative values are not allowed.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* Only hyphenate words with >= 6 characters,
    leave at least 3 characters before the hyphen and at least 2 after it */
 hyphenate-limit-chars: 6 3 2;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Level 4](http://dev.w3.org/csswg/css-text-4/#hyphenate-limit-chars)
 :   W3C Editor’s Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   **hyphenate-limit-chars**
 
@@ -95,8 +105,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -110,25 +118,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -174,13 +168,6 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

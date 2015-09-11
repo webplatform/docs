@@ -1,20 +1,22 @@
 ---
 title: left shift assignment
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2027xe5w(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Moves the specified number of bits to the left and assigns the result to result. The bits vacated by the operation are filled with 0.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Moves the specified number of bits to the left and assigns the result to result. The bits vacated by the operation are filled with 0.'
 uri: 'javascript/operators/left shift assignment'
 
 ---
-# left shift assignment
-
-## Summary
+## <span>Summary</span>
 
 Moves the specified number of bits to the left and assigns the result to result. The bits vacated by the operation are filled with 0.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result <<= expression
 
@@ -24,11 +26,11 @@ Moves the specified number of bits to the left and assigns the result to result.
 **expression**
 :   The number of bits to move.
 
-## Examples
+## <span>Examples</span>
 
 Using the **\<\<=** operator is the same as specifying `result = result << expression`
 
-``` {.js}
+``` js
 // 14 is 00000000000000000000000000001110
 var temp = 14;
 temp <<= 2;
@@ -37,17 +39,11 @@ document.write(temp);
 Output: 56
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Bitwise Left Shift Operator (\<\<)](/javascript/operators/bitwise_left_shift)
 -   [Bitwise Right Shift Operator (\>\>)](/javascript/operators/bitwise_right_shift)
 -   [Unsigned Right Shift Operator (\>\>\>)](/javascript/operators/unsigned_right_shift)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2027xe5w(v=vs.94).aspx)
 

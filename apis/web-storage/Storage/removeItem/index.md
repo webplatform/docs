@@ -1,46 +1,51 @@
 ---
 title: removeItem
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/web-storage/Storage
+    href: /apis/web-storage/Storage
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Removes the key/value pair with the given key from the list associated with the object, if it exists.'
 tags:
   - API
   - Object
   - Methods
   - Webstorage
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Removes the key/value pair with the given key from the list associated with the object, if it exists.'
 uri: apis/web-storage/Storage/removeItem
 
 ---
-# removeItem
-
-## Summary
+## <span>Summary</span>
 
 Removes the key/value pair with the given key from the list associated with the object, if it exists.
 
-*Method of [apis/web-storage/Storage](/apis/web-storage/Storage)*
+Method of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  object.removeItem(key);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### key
+### <span>key</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the key, or the empty string.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // Check for support of sessionStorage
 if(window.sessionStorage) {
 
@@ -52,16 +57,7 @@ if(window.sessionStorage) {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

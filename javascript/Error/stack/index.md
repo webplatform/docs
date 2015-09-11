@@ -1,28 +1,30 @@
 ---
 title: stack
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh699850(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Gets or sets the error stack as a string that contains the stack trace frames.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Gets or sets the error stack as a string that contains the stack trace frames.'
 uri: javascript/Error/stack
 
 ---
-# stack
-
-## Summary
+## <span>Summary</span>
 
 Gets or sets the error stack as a string that contains the stack trace frames.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     object .stack
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to get the stack when you're catching an error.
 
-``` {.js}
+``` js
 try
      {
          var x = y.name;
@@ -36,7 +38,7 @@ try
 
 The following example shows how to set and then get the stack.
 
-``` {.js}
+``` js
 try
      {
          var err = Error("my error");
@@ -50,7 +52,7 @@ try
      }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **stack** property is set to undefined when the error is constructed, and gets the trace information when the error is raised. If an error is raised multiple times, the **stack** property is updated each time the error is raised.
 
@@ -60,18 +62,12 @@ If you create your own Error object and set the stack trace to a value, the valu
 
 The **stack** property does not show inline functions in its frames. It shows only the physical stack.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [description Property (Error)](/javascript/Error/description)
 -   [message Property (Error)](/javascript/Error/message)
 -   [name Property (Error)](/javascript/Error/name)
 -   [stackTraceLimit Property (Error)](/javascript/Error/stackTraceLimit)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh699850(v=vs.94).aspx)
 

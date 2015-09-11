@@ -1,54 +1,54 @@
 ---
 title: frameElement
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, examples best practices, compatibility, standards, clean-up of MSDN sections'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
+standardization_status: Unknown
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Not Ready'
-standardization_status: Unknown
-notes:
-  - 'summary, examples best practices, compatibility, standards, clean-up of MSDN sections'
 uri: dom/HTMLElement/frameElement
 
 ---
-# frameElement
+Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+## <span>Syntax</span>
 
-## Syntax
-
-``` {.js}
+``` js
 var result = element.frameElement;
 element.frameElement = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
 The following example retrieves the **frame** element of the window and sets its source URL to Microsoft Developer Network (MSDN) Online.
 
-    <SCRIPT LANGUAGE="JScript">
-        var oFrame = window.frameElement;
-        oFrame.src = "http://msdn.microsoft.com";
-    </SCRIPT>
+``` html
+<SCRIPT LANGUAGE="JScript">
+    var oFrame = window.frameElement;
+    oFrame.src = "http://msdn.microsoft.com";
+</SCRIPT>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The window must be a **frame** or **iframe**.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `window`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

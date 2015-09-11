@@ -1,22 +1,22 @@
 ---
-title: htmlimports
-tags:
-  - Tutorials
+title: HTML Imports: #include for the web
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/imports/)'
 readiness: 'Ready to Use'
 summary: 'HTML Imports, part of Web Components, is a way to include HTML documents in other HTML documents. An import can include CSS, JavaScript, or anything else an .html file can contain.'
+tags:
+  - Tutorials
 uri: tutorials/webcomponents/htmlimports
 
 ---
-# HTML Imports: \#include for the web
-
 **By [Eric Bidelman](http://www.html5rocks.com/profiles/#ericbidelman)**
 Originally published 11 November 2013
 
-## Summary
+## <span>Summary</span>
 
 HTML Imports, part of Web Components, is a way to include HTML documents in other HTML documents. An import can include CSS, JavaScript, or anything else an .html file can contain.
 
-## Why imports?
+## <span>Why imports?</span>
 
 Think about how you load different types of resources on the web. For JS, we have `<script src>`. For CSS, your go-to is probably `<link rel="stylesheet">`. For images it's `<img>`. Video has `<video>`. Audio, `<audio>`... Get to the point! The majority of the web's content has a simple and declarative way to load itself. Not so for HTML. Here's your options:
 
@@ -26,11 +26,11 @@ Think about how you load different types of resources on the web. For JS, we hav
 
 See the irony? **The web's most basic content, HTML, requires the greatest amount of effort to work with.** Fortunately, [Web Components](http://w3c.github.io/webcomponents/explainer/) are here to get us back on track.
 
-## Getting started
+## <span>Getting started</span>
 
 [HTML Imports](http://w3c.github.io/webcomponents/spec/imports/), part of the [Web Components](http://w3c.github.io/webcomponents/explainer/) cast, is a way to include HTML documents in other HTML documents. You're not limited to markup either. An import can also include CSS, JavaScript, or anything else an .html file can contain. In other words, this makes imports a **fantastic tool for loading related HTML/CSS/JS.**
 
-### The basics
+### <span>The basics</span>
 
 Include an import on your page by declaring a `<link rel="import">`:
 
@@ -45,7 +45,7 @@ The URL of an import is called an *import location*. To load content from anothe
 
 **Fact!** *The browser's network stack automatically de-dupes all requests from the same URL. This means that imports that reference the same URL are only retrieved once. No matter how many times an import at the same location is loaded, it only executes once.*
 
-### Feature detection and support
+### <span>Feature detection and support</span>
 
 To detect support, check if `.import` exists on the `<link>` element:
 
@@ -63,7 +63,7 @@ Browser support is still in the early days. Chrome 31 was the first browser to s
 
 **Tip!** *Also **Enable experimental Web Platform features** to get the other bleeding edge web component goodies.*
 
-### Bundling resources
+### <span>Bundling resources</span>
 
 Imports provide convention for bundling HTML/CSS/JS (even other HTML Imports) into a single deliverable. It's an intrinsic feature, but a powerful one. If you're creating a theme, library, or just want to segment your app into logical chunks, giving users a single URL is compelling. Heck, you could even deliver an entire app via an import. Think about that for a second.
 
@@ -94,7 +94,7 @@ Users simply load an HTML Import link. They don't need to fuss with the scatter-
 
 Let this sit. It's exciting stuff.
 
-### Load/error events
+### <span>Load/error events</span>
 
 The `<link>` element fires a load event when an import is loaded successfully and onerror when the attempt fails (e.g., if the resource 404s).
 
@@ -123,13 +123,13 @@ Or, if you're creating the import dynamically:
     link.onerror = function(e) {...};
     document.head.appendChild(link);
 
-## Using the content
+## <span>Using the content</span>
 
 Including an import on a page doesn't mean "plop the content of that file here". It means "parser, go off an fetch this document so I can use it". To actually use the content, you have to take action and write script.
 
 A critical aha! moment is realizing that an import is just a document. In fact, the content of an import is called an *import document*. You're able to **manipulate the guts of an import using standard DOM APIs!**
 
-### link.import
+### <span>link.import</span>
 
 To access the content of an import, use the link element's `.import` property:
 
@@ -143,7 +143,7 @@ To access the content of an import, use the link element's `.import` property:
 -   The `<link>` has been removed from the DOM.
 -   The resource is not CORS-enabled.
 
-#### Full example
+#### <span>Full example</span>
 
 Let's say `warnings.html` contains:
 
@@ -180,7 +180,7 @@ Importers can grab a specific portion of this document and clone it into their p
       </script>
     </body>
 
-### Scripting in imports
+### <span>Scripting in imports</span>
 
 Imports are not in the main document. They're satellite to it. However, your import can still act on the main page even though the main document reigns supreme. An import can access its own DOM and/or the DOM of the page that's importing it:
 
@@ -223,11 +223,11 @@ Rules of JavaScript in an import:
     -   you don't have to do anything crazy like append the import's `<script>` blocks to the main page. Again, script gets executed.
 -   Imports do not block parsing of the main page. However, scripts inside them are processed in order. This means you get defer-like behavior while maintaining proper script order. More on this below.
 
-## Delivering Web Components
+## <span>Delivering Web Components</span>
 
 The design of HTML Imports lends itself nicely to loading reusable content on the web. In particular, it's an ideal way to distribute Web Components. Everything from basic [HTML `<template>`s](http://www.html5rocks.com/webcomponents/template/) to full-blown [Custom Elements](http://www.html5rocks.com/tutorials/webcomponents/customelements/#registering) with Shadow DOM ([1](http://www.html5rocks.com/tutorials/webcomponents/shadowdom/), [2](http://www.html5rocks.com/tutorials/webcomponents/shadowdom-201/), [3](http://www.html5rocks.com/tutorials/webcomponents/shadowdom-301/)). When these technologies are used in tandem, imports become a [\#include](http://en.cppreference.com/w/cpp/preprocessor/include) for Web Components.
 
-### Including templates
+### <span>Including templates</span>
 
 The [HTML Template](http://www.html5rocks.com/tutorials/webcomponents/template/) element is a natural fit for HTML Imports. `<template>` is great for scaffolding out sections of markup for the importing app to use as it desires. Wrapping content in a `<template>` also gives you the added benefit of making the content inert until used. That is, scripts don't run until the template is added to the DOM. Boom!
 
@@ -258,7 +258,7 @@ The [HTML Template](http://www.html5rocks.com/tutorials/webcomponents/template/)
       </script>
     </body>
 
-### Registering custom elements
+### <span>Registering custom elements</span>
 
 [Custom Elements](http://www.html5rocks.com/en/tutorials/webcomponents/imports/tutorials/webcomponents/customelements/) is another Web Component technology that plays absurdly well with HTML Imports. [Imports can execute script](http://www.html5rocks.com/en/tutorials/webcomponents/imports/#includejs), so why not define and register your custom elements so users don't have to? Call it..."auto-registration".
 
@@ -303,11 +303,11 @@ This import defines (and registers) two elements, `<say-hi>` and `<shadow-elemen
 
 In my opinion, this workflow alone makes HTML Imports an ideal way to share Web Components.
 
-## Managing dependencies and sub-imports
+## <span>Managing dependencies and sub-imports</span>
 
 *Yo dawg. I hear you like imports, so I included an import in your import.*
 
-### Sub-imports
+### <span>Sub-imports</span>
 
 It can be useful for one import to include another. For example, if you want to reuse or extend another component, use an import to load the other element(s).
 
@@ -335,7 +335,7 @@ App developers can import this new element using:
 
 When a new, more awesome `<polymer-selector2>` comes along in the future, you can swap out `<polymer-selector>` and start using it straight away. You won't break your users thanks to imports and web components.
 
-### Dependency management
+### <span>Dependency management</span>
 
 We all know that loading JQuery more than once per page causes errors. Isn't this going to be a *huge* problem for Web Components when multiple components use the same library? Not if we use HTML Imports! They can be used to manage dependencies.
 
@@ -391,21 +391,21 @@ Despite jquery.html being included in many different import trees, its document 
 
 *jquery.html is requested once* ![htmlimports1.png](/assets/public/a/a8/htmlimports1.png)
 
-## Performance considerations
+## <span>Performance considerations</span>
 
 HTML Imports are totally awesome but as with any new web technology, you should use them wisely. Web development best practices still hold true. Below are some things to keep in mind.
 
-### Concatenate imports
+### <span>Concatenate imports</span>
 
 Reducing network requests is always important. If you have many top-level import links, consider combining them into a single resource and importing that file!
 
 [Vulcanize](https://github.com/Polymer/vulcanize) is an npm build tool from the [Polymer](http://www.polymer-project.org/) team that recursively flattens a set of HTML Imports into a single file. Think of it as a concatenation build step for Web Components.
 
-### Imports leverage browser caching
+### <span>Imports leverage browser caching</span>
 
 Many people forget that the browser's networking stack has been finely tuned over the years. Imports (and sub-imports) take advantage of this logic too. The `http://cdn.com/bootstrap.html` import might have sub-resources, but they'll be cached.
 
-### Content is useful only when you add it
+### <span>Content is useful only when you add it</span>
 
 Think of content as inert until you call upon its services. Take a normal, dynamically created stylesheet:
 
@@ -426,7 +426,7 @@ The `h2` is relatively meaningless until you add it to the DOM.
 
 The same concept holds true for the import document. Unless you append it's content to the DOM, it's a no-op. In fact, the only thing that "executes" in the import document directly is `<script>`. See [Scripting in imports](#Scripting_in_imports) above.
 
-### Optimizing for async loading
+### <span>Optimizing for async loading</span>
 
 **Imports don't block parsing of the main page.** Scripts inside imports are processed in order but don't block the importing page. This means you get defer-like behavior while maintaining proper script order. One benefit of putting your imports in the `<head>` is that it lets the parser start working on the content as soon as possible. With that said, it's critical to remember `<script>` in the main document *still* continues to block the page:
 
@@ -437,7 +437,7 @@ The same concept holds true for the import document. Unless you append it's cont
 
 Depending on your app structure and use case, there are several ways to optimize async behavior. The techniques below mitigate blocking the main page rendering.
 
-#### Scenario \#1 (preferred): you don't have script in \<head\> or inlined in \<body\>
+#### <span>Scenario \#1 (preferred): you *don't* have script in `<head>` or inlined in `<body>`</span>
 
 My recommendation for placing `<script>` is to avoid immediately following your imports. Move scripts as late in the game as possible... but you're already doing that best practice, AREN'T YOU!? ;)
 
@@ -470,7 +470,7 @@ Here's an example:
 
 Everything is at the bottom.
 
-#### Scenario 1.5: the import adds itself
+#### <span>Scenario 1.5: the import adds itself</span>
 
 Another option is to have the import [add its own content](#Scripting_in_imports). If the import author establishes a contract for the app developer to follow, the import can add itself to an area of the main page:
 
@@ -494,7 +494,7 @@ Another option is to have the import [add its own content](#Scripting_in_imports
       <!-- no need for script. the import takes care of things -->
     </body>
 
-#### Scenario \#2: you do have script in \<head\> or inlined in \<body\>
+#### <span>Scenario \#2: you *do* have script in `<head>` or inlined in `<body>`</span>
 
 If you have an import that takes a long time to load, the first `<script>` that follows it on the page will block the page from rendering. Google Analytics for example, recommends putting the tracking code in the `<head>`. If you can't avoid putting `<script>` in the `<head>`, dynamically adding the import will prevent blocking the page:
 
@@ -544,7 +544,7 @@ Alternatively, add the import near the end of the `<body>`:
 
 **Note:** *This very last approach is least preferable. The parser doesn't start to work on the import content until late in the page.*
 
-## Things to remember
+## <span>Things to remember</span>
 
 -   An import's mimetype is `text/html`.
 -   Resources from other origins need to be CORS-enabled.
@@ -552,13 +552,13 @@ Alternatively, add the import near the end of the `<body>`:
 -   Scripts in an import are processed in order, but do not block the main document parsing.
 -   An import link doesn't mean "\#include the content here". It means "parser, go off an fetch this document so I can use it later". While scripts execute at import time, stylesheets, markup, and other resources need to be added to the main page explicitly. Note: `<style>` don't need to be added explicitly. This is a major difference between HTML Imports and `<iframe>`, which says "load and render this content here".
 
-## Conclusion
+## <span>Conclusion</span>
 
 HTML Imports allow bundling HTML/CSS/JS as a single resource. While useful by themselves, this idea becomes extremely powerful in the world of Web Components. Developers can create reusable components for others to consume and bring in to their own app, all delivered through `<link rel="import">`.
 
 HTML Imports are a simple concept, but enable a number of interesting use cases for the platform.
 
-### Use cases
+### <span>Use cases</span>
 
 -   **Distribute** related [HTML/CSS/JS as a single bundle](#Bundling_resources). Theoretically, you could import an entire web app into another.
 -   **Code organization** - segment concepts logically into different files, encouraging modularity & reusability.
@@ -575,10 +575,4 @@ HTML Imports are a simple concept, but enable a number of interesting use cases 
 
 -   **Parallelizes** HTML parsing - first time the browser has been able to run two (or more) HTML parsers in parallel.
 -   **Enables switching between debug and non-debug modes** in an app, just by changing the import target itself. Your app doesn't need to know if the import target is a bundled/compiled resource or an import tree.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/imports/)
 

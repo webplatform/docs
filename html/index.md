@@ -1,6 +1,5 @@
 ---
-title: tml
-uri: html
+title: HTML
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -62,46 +61,49 @@ todo_broken_links:
     - html/zh-hans
     - html/zh-hant
     - html/zh-tw
+translations:
+  es:
+    text: español
+    href: /html/es
+  ja:
+    text: 日本語
+    href: /html/ja
+uri: html
 
 ---
-# HTML
-
-## Summary
+## <span>Summary</span>
 
 Hypertext Markup Language (HTML) is the markup language for web pages. The [World Wide Web Consortium](http://www.w3.org) maintains the [HTML standard](http://www.w3.org/standards/techs/html).
 
-**Language:**
-:   ****English****  • <span lang="es">[español](/html/es)</span> • <span lang="ja">[日本語](/html/ja)</span>
+## <span>Explore our HTML docs</span>
 
-## Explore our HTML docs
-
-### HTML learning material
+### <span>[HTML learning material](/html/tutorials)</span>
 
 Tutorials and concept articles to teach you HTML from the ground up.
 
-### Element reference
+### <span>[Element reference](/html/elements)</span>
 
 A reference guide to all the HTML elements available.
 
-### Attribute reference
+### <span>[Attribute reference](/html/attributes)</span>
 
 A reference guide to all the available HTML attributes.
 
-### API reference
+### <span>[API reference](/html/apis)</span>
 
 A reference guide to all the APIs associated with the HTML language.
 
-### Data type reference
+### <span>[Data type reference](/html/data_types)</span>
 
 A reference guide to HTML data types.
 
-### Entity reference
+### <span>[Entity reference](/html/entities)</span>
 
 A reference guide to HTML entities.
 
 Note: If you are completely new to web development, you may want to review [Web development for beginners](/beginners).
 
-## Background
+## <span>Background</span>
 
 HTML is language we structure our content in on the World Wide Web; one of the main components of the [Open Web Platform](http://www.w3.org/wiki/Open_Web_Platform).
 
@@ -109,36 +111,36 @@ HTML is language we structure our content in on the World Wide Web; one of the m
 -   Current stable version: The [HTML 4.01 Recommendation](http://www.w3.org/TR/html4) was published in December 1999.
 -   Current and future work: The most stable draft is published in the W3C [HTML5 Candidate Recommendation](http://www.w3.org/TR/html5); there is also an [HTML living standard](http://developers.whatwg.org/) containing the latest experimental ideas and features, published by the WHATWG.
 
-## Contributing to the HTML technology
+## <span>Contributing to the HTML technology</span>
 
 HTML development has been hosted by a few different organizations during its history including CERN, IETF, and W3C. Development has mainly taken place on [HTML Working Group Mailing Lists](http://www.w3.org/html/wg/lists/). These lists are good places to start if you want to suggest new features or provide feedback. For news and more general information, consult the [W3C HTML home page](http://www.w3.org/html/).
 
 the W3C is also currently asking for review comments on the [Media Accessibility Checklist](http://www.w3.org/wiki/HTML/MediaAccessibilityChecklist)
 
-## Index of all HTML topics
+## <span>Index of all HTML topics</span>
 
 The element and attribute lists below only include W3C Recommended values or candidate/proposed recommendations. Use the [Special:PrefixIndex/html/](/Special:PrefixIndex/html/) search page to find all elements and attributes organized under this page, or the [HTML category page](/Category:HTML) for all HTML-related pages in the wiki.
 
-### HTML Elements
+### <span>HTML Elements</span>
 
 -   [a](/html/elements/a)
 -   [a](/html/elements/a/ja)
 -   [article](/html/elements/article)
 -   [article](/html/elements/article/ja)
--   [audio](/html/elements/audio)
 -   [audio](/html/elements/audio/ja)
--   [b](/html/elements/b/ja)
+-   [audio](/html/elements/audio)
 -   [b](/html/elements/b)
+-   [b](/html/elements/b/ja)
 -   [base](/html/elements/base/ja)
 -   [base](/html/elements/base)
 -   [blockquote](/html/elements/blockquote)
 -   [blockquote](/html/elements/blockquote/ja)
 -   [body](/html/elements/body/ja)
 -   [body](/html/elements/body)
--   [br](/html/elements/br)
 -   [br](/html/elements/br/ja)
--   [button](/html/elements/button)
+-   [br](/html/elements/br)
 -   [button](/html/elements/button/ja)
+-   [button](/html/elements/button)
 -   [caption](/html/elements/caption)
 -   [colgroup](/html/elements/colgroup)
 -   [dd – description list data](/html/elements/dd)
@@ -149,6 +151,7 @@ The element and attribute lists below only include W3C Recommended values or can
 -   [fieldset](/html/elements/fieldset)
 -   [figcaption](/html/elements/figcaption)
 -   [figure](/html/elements/figure)
+-   [file](/html/elements/input/type/file)
 -   [footer](/html/elements/footer)
 -   [form](/html/elements/form)
 -   [hr](/html/elements/hr)
@@ -156,8 +159,8 @@ The element and attribute lists below only include W3C Recommended values or can
 -   [iframe](/html/elements/iframe)
 -   [img](/html/elements/img)
 -   [input](/html/elements/input)
--   [ins](/html/elements/ins)
 
+-   [ins](/html/elements/ins)
 -   [label](/html/elements/label)
 -   [link](/html/elements/link)
 -   [map](/html/elements/map)
@@ -194,7 +197,7 @@ The element and attribute lists below only include W3C Recommended values or can
 -   [video](/html/elements/video)
 -   [wbr](/html/elements/wbr)
 
-### HTML Attributes
+### <span>HTML Attributes</span>
 
 -   [accept](/html/attributes/accept)
 -   [action](/html/attributes/action)

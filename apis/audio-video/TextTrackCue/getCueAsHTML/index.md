@@ -1,42 +1,51 @@
 ---
 title: getCueAsHTML
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/audio-video/TextTrackCue
+    href: /apis/audio-video/TextTrackCue
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/audio-video/TextTrackCue
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the text track cue text as a DocumentFragment of HTML elements and other DOM nodes.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the text track cue text as a DocumentFragment of HTML elements and other DOM nodes.'
 uri: apis/audio-video/TextTrackCue/getCueAsHTML
 
 ---
-# getCueAsHTML
-
-## Summary
+## <span>Summary</span>
 
 Returns the text track cue text as a DocumentFragment of HTML elements and other DOM nodes.
 
-*Method of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)*
+Method of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = TextTrackCue.getCueAsHTML();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 DocumentFragment: A document fragment that represents the [TextTrackCue](/apis/audio-video/TextTrackCue) text.
 
-## Examples
+## <span>Examples</span>
 
 The HTML nodes replace the span element that is the first child of the div.
 
-``` {.html}
+``` html
 <head>
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function () {  // don't run this until all DOM content is loaded
@@ -62,16 +71,7 @@ The HTML nodes replace the span element that is the first child of the div.
     </div>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

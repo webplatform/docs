@@ -1,30 +1,32 @@
 ---
 title: debugger
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0bwt76sk(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Suspends execution.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Suspends execution.'
 uri: javascript/statements/debugger
 
 ---
-# debugger
-
-## Summary
+## <span>Summary</span>
 
 Suspends execution.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     debugger
 
-## Examples
+## <span>Examples</span>
 
 This example uses the debugger statement to suspend execution for each iteration through the for loop.
 
 **Note** -- To run this example, you must have a script debugger installed and the script must run in debug mode.Internet Explorer 8 includes the JavaScript debugger. If you are using an earlier version of Internet Explorer, see [How to: Enable and Start Script Debugging from Internet Explorer](http://go.microsoft.com/fwlink/?LinkId=133801).
 
-``` {.js}
+``` js
 for(i = 1; i<5; i++) {
     // Print i to the Output window.
     Debug.write("loop index is " + i);
@@ -33,7 +35,7 @@ for(i = 1; i<5; i++) {
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 You can place debugger statements anywhere in procedures to suspend execution. Using the debugger statement is similar to setting a breakpoint in the code.
 
@@ -41,15 +43,9 @@ The debugger statement suspends execution, but it does not close any files or cl
 
 **Note** -- The debugger statement has no effect unless the script is being debugged.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [JavaScript Statements](/javascript/statements)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0bwt76sk(v=vs.94).aspx)
 

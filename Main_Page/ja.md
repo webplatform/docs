@@ -1,6 +1,6 @@
 ---
-title: ja
-uri: 'Main Page/ja'
+title: ようこそWeb Platform Docsへ
+lang: ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -53,56 +53,83 @@ todo_broken_links:
     - 'Main Page/vi'
     - 'Main Page/yue'
     - 'Main Page/zh-tw'
+translations:
+  de:
+    text: Deutsch
+    href: /Main_Page/de
+  es:
+    text: español
+    href: /Main_Page/es
+  fr:
+    text: français
+    href: /Main_Page/fr
+  ko:
+    text: 한국어
+    href: /Main_Page/ko
+  nl:
+    text: Nederlands
+    href: /Main_Page/nl
+  pt-br:
+    text: 'português do Brasil'
+    href: /Main_Page/pt-br
+  tr:
+    text: Türkçe
+    href: /Main_Page/tr
+  zh:
+    text: 中文
+    href: /Main_Page/zh
+  zh-hans:
+    text: 中文（简体）‎
+    href: /Main_Page/zh-hans
+  zh-hant:
+    text: 中文（繁體）‎
+    href: /Main_Page/zh-hant
+uri: 'Main Page/ja'
 
 ---
-# ようこそWeb Platform Docsへ
-
-## Summary
+## <span>Summary</span>
 
 Web Platform Docsはコミュニティベースのサイトです。目標は、信頼できるwebの開発者向けのドキュメントを網羅することです。
 
-**言語:**
-:   **[English](/Main_Page)**  • <span lang="de">[Deutsch](/Main_Page/de)</span> • <span lang="es">[español](/Main_Page/es)</span> • <span lang="fr">[français](/Main_Page/fr)</span> • <span lang="ja">**日本語**</span> • <span lang="ko">[한국어](/Main_Page/ko)</span> • <span lang="nl">[Nederlands](/Main_Page/nl)</span> • <span lang="pt-br">[português do Brasil](/Main_Page/pt-br)</span> • <span lang="tr">[Türkçe](/Main_Page/tr)</span> • <span lang="zh">[中文](/Main_Page/zh)</span> • <span lang="zh-hans">[中文（简体）‎](/Main_Page/zh-hans)</span> • <span lang="zh-hant">[中文（繁體）‎](/Main_Page/zh-hant)</span>
+## <span>web development docsの構成</span>
 
-## web development docsの構成
-
-### 初心者向けガイド
+### <span>[初心者向けガイド](/beginners/ja)</span>
 
 初めてwebを開発する方向けの初心者用資料
 
-### webについての基本概念
+### <span>[webについての基本概念](/concepts)</span>
 
 webの動作や情報アーキテクチャ、タイポグラフィー、デザインといったトピックについての考え方とチュートリアル
 
-### HTML
+### <span>[HTML](/html/ja)</span>
 
 webのマークアップ言語についての考え方やリファレンス、チュートリアル
 
-### CSS
+### <span>[CSS](/css)</span>
 
 カスケーディング・スタイル・シート(CSS)についての考え方やリファレンス、チュートリアル
 
-### アクセシビリティ
+### <span>[アクセシビリティ](/concepts/accessibility)</span>
 
 人は様々でできることは異なるが、そんな人々でもwebを使えるようにするパターンやプラクティス、ビジネス・ケース
 
-### JavaScript
+### <span>[JavaScript](/javascript/ja)</span>
 
 webのクライアント用スクリプト言語であるJavaScriptのチュートリアルとリファレンス。サードパーティのライブラリも含む
 
-### DOM
+### <span>[DOM](/dom)</span>
 
 ドキュメント・オブジェクト・モデル(DOM)のチュートリアルとリファレンス
 
-### SVG
+### <span>[SVG](/svg)</span>
 
 、2次元ベクター画像のためのXMLマークアップ言語であるスケーラブル・ベクター・グラフィックス(SVG)のチュートリアルとリファレンス
 
-### API
+### <span>[API](/apis)</span>
 
 appcacheからxhrまで記述してあるJavaScript APIのリファレンス
 
-## Web Platform Docsの特徴
+## <span>Web Platform Docsの特徴</span>
 
 Web Platform Docsはまだアルファリリース段階ですが、それでも役に立つコンテンツがたくさんあります。
 
@@ -112,14 +139,14 @@ Web Platform Docsはまだアルファリリース段階ですが、それでも
 
 将来的には、Web Platform Docsはさらに多くのコンテンツを提供する予定です。例えば、ライブ・コードの例や教育者用の資料等々です。早く実現するために、皆さんに参加していただき、英知を分けていただきたいと思います。
 
-## Web Platform Docsにご協力を
+## <span>Web Platform Docsにご協力を</span>
 
 Web Platform Docsは皆さんの助けを切に希望します。ほんのわずか協力していただくだけで、このサイトにとっては大きな意味があります。例えば、ドキュメントにある間違いを開発者に教えてあげたり、間違いを訂正したり、既存の文書を流用したり、まったく新しいコンテンツを提供したりです。詳しく知りたければ、 [Contributor’s Guide](/WPD:Contributors_Guide)をご覧ください。
 
 -   WebPlatform上の間違いを報告するには、[Project Management page](https://project.webplatform.org)を使ってください。詳しいことは、[filing bugs page](https://docs.webplatform.org/wiki/WPD:Filing_Bugs)をご覧ください。
 -   webplatform.org自体について質問があるなら、[look for an answer in the FAQ first](/WPD:FAQ)をまずご覧ください。
 
-## 連絡方法
+## <span>連絡方法</span>
 
 -   IRCで他の著者と連絡を取るなら、irc.freenode.org, the *\#webplatform*チャンネルでお願いします
 -   [blog](https://blog.webplatform.org/)を読んでください
@@ -127,6 +154,6 @@ Web Platform Docsは皆さんの助けを切に希望します。ほんのわず
 -   [logo](https://www.webplatform.org/logo)を使って、このサイトにリンクを張ってください
 -   Doc Sprintsのような[Events](/WPD:Community/Community_Events) イベントにお越しください
 
-## サイト・ポリシー
+## <span>サイト・ポリシー</span>
 
 Web Platform Docs wikiのコンテンツは、特に断りがない限り、[Creative Commons Attribution (CC-BY) license](/Template:CC-by-3.0)にもとづき利用可能です。詳しいことは、[copyright](/WPD:Copyright) and [privacy](/WPD:Privacy)ポリシーをご覧ください。[policy page](/WPD:Policy)も同様にご覧ください。

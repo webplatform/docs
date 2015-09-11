@@ -1,42 +1,54 @@
 ---
 title: align-items
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Sets the default alignment in the cross axis for all of the flex container''s items, including anonymous flex items, similarly to how justify-content aligns items along the main axis.'
 code_samples:
   - 'http://gist.github.com/5533982'
   - 'http://gist.github.com/4745348'
   - 'http://gist.github.com/4745341'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`stretch`'
+  'Applies to': 'flex containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`alignItems`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Sets the default alignment in the cross axis for all of the flex container''s items, including anonymous flex items, similarly to how justify-content aligns items along the main axis.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/align-items
 
 ---
-# align-items
-
-## Summary
+## <span>Summary</span>
 
 Sets the default alignment in the cross axis for all of the flex container's items, including anonymous flex items, similarly to how justify-content aligns items along the main axis.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `stretch`
+
 Applies to
 :   flex containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `alignItems`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `align-items: baseline`
 -   `align-items: center`
@@ -54,7 +66,7 @@ Animatable
 -   `flex-align: start`
 -   `flex-align: stretch`
 
-## Values
+## <span>Values</span>
 
 flex-start
 :   The cross-start margin edge of the flex item is placed flush with the cross-start edge of the line.
@@ -71,11 +83,11 @@ baseline
 stretch
 :   If the cross size property of the flex item is **auto**, its used value is the length necessary to make the cross size of the item's margin box as close to the same size as the line as possible, while still respecting the constraints imposed by [min-height](/css/properties/min-height)/[min-width](/css/properties/min-width)/[max-height](/css/properties/max-height)/[max-width](/css/properties/max-width). Note: that if the flex container's height is constrained the **stretch** value may cause the contents of the flex item to overflow the item.
 
-## Examples
+## <span>Examples</span>
 
 Alignment of flex items in a flex container. Change the values in the live example.
 
-``` {.css}
+``` css
 .container {
   display: flex;
 
@@ -117,7 +129,7 @@ Alignment of flex items in a flex container. Change the values in the live examp
 
 Displaying children centered horizontally.
 
-``` {.css}
+``` css
 .list {
   display: flex;
   flex-direction: column;
@@ -133,7 +145,7 @@ Displaying children centered horizontally.
 
 Displaying children centered vertically.
 
-``` {.css}
+``` css
 .list {
   display: flex;
   flex-direction: row;
@@ -148,22 +160,20 @@ Displaying children centered vertically.
 
 [View live example](http://code.webplatform.org/gist/4745341)
 
-## Notes
+## <span>Notes</span>
 
 This property was named **flex-align** in older drafts.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#align-items-property)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Flexbox
+#### <span>Flexbox</span>
 
 -   [align-content](/css/properties/align-content)
 
@@ -189,10 +199,9 @@ Specification
 
 -   [justify-content](/css/properties/justify-content)
 
-### External resources
+### <span>External resources</span>
 
 Also, check out the following live demo sites:
 
 -   [Flexbox Playground](http://demo.agektmr.com/flexbox/)
 -   [Flexy Boxes](http://the-echoplex.net/flexyboxes)
-

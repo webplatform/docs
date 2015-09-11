@@ -1,62 +1,62 @@
 ---
 title: responseStart
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/resource_timing/PerformanceResourceTiming
+    href: /apis/resource_timing/PerformanceResourceTiming
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/resource_timing/PerformanceResourceTiming
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the time immediately after the user agent receives the first byte of the response from the server, or from relevant application caches or from local resources.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Resource
   5: Timing
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns the time immediately after the user agent receives the first byte of the response from the server, or from relevant application caches or from local resources.'
 uri: 'apis/resource timing/PerformanceResourceTiming/responseStart'
 
 ---
-# responseStart
-
-## Summary
+## <span>Summary</span>
 
 Returns the time immediately after the user agent receives the first byte of the response from the server, or from relevant application caches or from local resources.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/resource\_timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)</span></span>
+Property of [apis/resource\_timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)[apis/resource\_timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.responseStart;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 DOMHighResTimeStamp
 
-## Examples
+## <span>Examples</span>
 
-This example assumes an HTML page containing a resource such as \<img src="[https://www.webplatform.org/logo/logo-with-text.png](https://www.webplatform.org/logo/logo-with-text.png)" /\>
+This example assumes an HTML page containing a resource such as \<img src="<https://www.webplatform.org/logo/logo-with-text.png>" /\>
 
-``` {.js}
+``` js
 var resources = window.performance.getEntriesByType('resource');
 alert("responseStart: " + resources[0].responseStart);
 ```
 
-## Notes
+## <span>Notes</span>
 
 The value reported by the **responseStart** property represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

@@ -1,50 +1,66 @@
 ---
 title: font-size-adjust
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`fontSizeAdjust`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The font-size-adjust property adjusts the font-size of the fallback fonts defined with font-family, so that the x-height is the same no matter what font is used. This preserves the readability of the text when fallback happens.'
-uri: css/properties/font-size-adjust
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/font-size-adjust
 
 ---
-# font-size-adjust
-
-## Summary
+## <span>Summary</span>
 
 The font-size-adjust property adjusts the font-size of the fallback fonts defined with font-family, so that the x-height is the same no matter what font is used. This preserves the readability of the text when fallback happens.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `fontSizeAdjust`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `font-size-adjust: auto`
 -   `font-size-adjust: none`
 -   `font-size-adjust: number`
 
-## Values
+## <span>Values</span>
 
 none
 :   Only use the font-size value to determine the size of the font.
@@ -55,11 +71,11 @@ number
 auto
 :   The aspect value is calculated by the browser for the first font in the font-family list, and used for every font in that list.
 
-## Examples
+## <span>Examples</span>
 
 The popular font "Verdana" has an aspect value of 0.58. For comparison, Times New Roman has an aspect value of 0.45. Verdana will be more readable at smaller sizes than Times New Roman. Conversely, Verdana will often look 'too big' if substituted for Times New Roman.
 
-``` {.html}
+``` html
 <table>
   <tr>
     <td class="demoblock">
@@ -74,7 +90,7 @@ The popular font "Verdana" has an aspect value of 0.58. For comparison, Times Ne
 </table>
 ```
 
-``` {.css}
+``` css
 .demoblock {
     width: 33%;
 }
@@ -97,7 +113,7 @@ p.adjust {
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 In script types that distinguish between uppercase and lowercase letters, such as the Latin script used for English, the height of the lowercase letters relative to the height of the uppercase letters impacts readability at smaller type sizes. This relation is called the **aspect value**, which is calculated by dividing a font's **[x-height](/x_height)** by the font's size.
 
@@ -116,18 +132,16 @@ Where:
 
 As an abstract example, assume you specify a font-size-adjust value of 0.5, your fallback font's **aspect value** is .4, and the [font-size](/css/properties/font-size) is 8px. The fallback font is rendered at 10px ((.5 /.4) \* 8).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#propdef-font-size-adjust)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -141,13 +155,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [kerning-mode](/css/properties/kerning-mode)
-
--   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
 
 -   [text-rendering](/css/properties/text-rendering)
 
@@ -155,7 +163,7 @@ Specification
 
 -   [user-modify](/css/properties/user-modify)
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -181,13 +189,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -195,11 +197,11 @@ Specification
 
 -   [font](/html/elements/font)
 
-### External resources
+### <span>External resources</span>
 
 -   MDN: [font-size-adjust](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -207,10 +209,3 @@ Specification
 -   `defaults`
 -   `runtimeStyle`
 -   `font-stretch`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

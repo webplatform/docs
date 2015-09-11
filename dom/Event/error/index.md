@@ -1,43 +1,84 @@
 ---
 title: error
-tags:
-  - Events
-readiness: 'In Progress'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'Fires when an error occurs.'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onerrorEX.htm'
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onerrorEX1.htm'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'In Progress'
+summary: 'Fires when an error occurs.'
+tags:
+  - Events
 uri: dom/Event/error
 
 ---
-# error
-
-## Summary
+## <span>Summary</span>
 
 Fires when an error occurs.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 The following examples use the **onerror** event to handle run-time script errors and object load errors.
 
 The following example specifies an invalid script entry. The script in the text field is evaluated when the Throw Error button is clicked. The **onerror** event fires because the script is invalid. The error results are inserted at the bottom of the sample page instead of in a dialog box.
 
-``` {.js}
+``` js
 <script>
 window.onerror=fnErrorTrap;
 function fnErrorTrap(sMsg,sUrl,sLine){
@@ -61,7 +102,7 @@ function fnThrow(){
 
 The following example shows how to set the handler for the **onerror** event in script before an image source is specified. When the invalid source is set on the **img** element, the event fires.
 
-``` {.js}
+``` js
 <script>
 var sImg='<img style="display: none;" id="oStub" alt="Default Text"/>';
 function fnLoadFirst(){
@@ -81,9 +122,9 @@ function fnLoadFail1(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onerrorEX1.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 To suppress the default Windows Internet Explorer error message for the **window** event, set the [**returnValue**](/dom/BeforeUnloadEvent/returnValue) property to **true** or simply return `true` in Microsoft JScript. The **onerror** event fires for run-time errors, but not for compilation errors. In addition, error dialog boxes raised by script debuggers are not suppressed by returning `true`. To turn off script debuggers, disable script debugging in Internet Explorer by choosing **Internet Options** from the **Tools** menu. Click the **Advanced** tab and select the appropriate check box(es). Displays the browser error message when a problem occurs and executes any error handling routine associated with the event. To invoke this event, do one of the following:
 
@@ -120,20 +161,14 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLDocumentEvents4**
 -   **HTMLElementEvents4**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

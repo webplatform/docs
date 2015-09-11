@@ -1,5 +1,5 @@
 ---
-title: uides
+title: guides
 uri: guides
 
 ---

@@ -1,25 +1,27 @@
 ---
 title: rt
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rt.htm'
+notes:
+  - 'HTML information section must be modified. Add compatibility and more example.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'In Progress'
+summary: 'The rt element marks the ruby text component of a ruby annotation.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-notes:
-  - 'HTML information section must be modified. Add compatibility and more example.'
-summary: 'The rt element marks the ruby text component of a ruby annotation.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rt.htm'
 uri: html/elements/rt
 
 ---
-# rt
-
-## Summary
+## <span>Summary</span>
 
 The rt element marks the ruby text component of a ruby annotation.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -28,11 +30,11 @@ Internationalization topics related to the `rt` element:
 
 -   [Using ruby markup](http://localhost/International/techniques/authoring-html#ruby)
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **RT** element to specify a string of text as an annotation or pronunciation guide to the base text.
 
-``` {.html}
+``` html
 <ruby>
    Base Text
    <rt>Ruby Text
@@ -41,35 +43,28 @@ This example uses the **RT** element to specify a string of text as an annotatio
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/rt.htm)
 
-``` {.html}
+``` html
 
 <p lang="ja">...<ruby>漢<rt>かん</rt>字<rt>じ</rt></ruby>...</p>
+
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 A ruby is an annotation or pronunciation guide for a string of text. The string of text annotated with a ruby is referred to as the base. The ruby text specified by the **RT** element is positioned **above** or **inline** with the [**rubyPosition**](/css/properties/ruby-position) property. Browsers that do not support the **RT** element render the ruby text inline with the base text. This element is available in HTML and script as of Microsoft Internet Explorer 5. The ruby text specified by the **RT** element is positioned **above** or **inline** with the [**rubyPosition**](/css/properties/ruby-position) property.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-rt-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-rt-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `ruby`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

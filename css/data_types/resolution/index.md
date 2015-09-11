@@ -1,24 +1,25 @@
 ---
-title: resolution
+title: <resolution>
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/resolution)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The &lt;resolution&gt; CSS data type, used in media queries, denotes the granularity or possible fineness of detail of an output device. It is expressed as a &lt;number&gt; immediately followed by a unit of resolution (dpi, dpcm, ...). Like for any CSS dimension, there is no space between the number and the unit abbreviation.'
 tags:
   - Data
   - Type
   - CSS
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The <resolution> CSS data type, used in media queries, denotes the granularity or possible fineness of detail of an output device. It is expressed as a <number> immediately followed by a unit of resolution (dpi, dpcm, ...). Like for any CSS dimension, there is no space between the number and the unit abbreviation.'
-uri: 'css/data types/resolution'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'css/property/image resolution'
+uri: 'css/data types/resolution'
 
 ---
-# \<resolution\>
+## <span>Summary</span>
 
-## Summary
-
-The \<resolution\> CSS data type, used in media queries, denotes the granularity or possible fineness of detail of an output device. It is expressed as a \<number\> immediately followed by a unit of resolution (dpi, dpcm, ...). Like for any CSS dimension, there is no space between the number and the unit abbreviation.
+The &lt;resolution&gt; CSS data type, used in media queries, denotes the granularity or possible fineness of detail of an output device. It is expressed as a &lt;number&gt; immediately followed by a unit of resolution (dpi, dpcm, ...). Like for any CSS dimension, there is no space between the number and the unit abbreviation.
 
  The resolution value specifies the display or print dot density per unit of distance. A "dot" is the finest level of detail that the device can display, such as a physical screen pixel or a dot of printed ink.
 
@@ -26,7 +27,7 @@ On screens, the resolution is calculated relative to CSS inches, centimeters or 
 
 Unlike the CSS [**\<length\>** data type](/css/data_types/length), the unit may not be omitted for the value **0**: specifying a resolution of **0** is invalid and does not represent **0dpi**, **0dpcm**, nor **0dppx**.
 
-## Units
+## <span>Units</span>
 
 **dpi**
 :   This unit represents the number of dots per inch. A screen typically contains 72 or 96 dpi; a printed document usually reach much greater dpi. As 1 inch is 2.54 cm, **1dpi ≈ 2.54dpcm**.
@@ -35,11 +36,11 @@ Unlike the CSS [**\<length\>** data type](/css/data_types/length), the unit may 
 **dppx**
 :   This unit represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS **in** to CSS **px**, **1dppx** is equivalent to **96dpi**, that corresponds to the default resolution of images displayed in CSS as defined by the [image-resolution](/w/index.php?title=css/property/image_resolution&action=edit&redlink=1) property.
 
-## Examples
+## <span>Examples</span>
 
 Here are some correct uses of \<resolution\> values:
 
-``` {.css}
+``` css
 /* Correct use: a <number> (here an <integer>) followed by the unit. */
 96dpi
 
@@ -49,7 +50,7 @@ Here are some correct uses of \<resolution\> values:
 
 Here are some incorrect uses:
 
-``` {.css}
+``` css
 /* Incorrect: no spaces allowed between the <number> and the unit. */
 72 dpi
 
@@ -60,22 +61,22 @@ ten dpi
 0
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation
+
 [CSS Image Values and Replaced Content Module Level 3](http://dev.w3.org/csswg/css3-images/#resolution-units)
 :   Candidate Recommendation
+
 [Media Queries](http://dev.w3.org/csswg/css3-mediaqueries/#resolution)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -114,12 +115,3 @@ Specification
 -   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
 
 -   [behavior](/css/properties/behavior)
-
--   [Targeting styles with media queries](/tutorials/media_queries)
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/resolution)
-

@@ -1,60 +1,61 @@
 ---
 title: classList
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs examples, compat, better spec link'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Element
+    href: /dom/Element
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /dom/Element
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Reflects the class attribute as an ordered list of the whitespace separated class names and has convenience methods for add, remove, contains and more.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs examples, compat, better spec link'
-summary: 'Reflects the class attribute as an ordered list of the whitespace separated class names and has convenience methods for add, remove, contains and more.'
 uri: dom/Element/classList
 
 ---
-# classList
-
-## Summary
+## <span>Summary</span>
 
 Reflects the class attribute as an ordered list of the whitespace separated class names and has convenience methods for add, remove, contains and more.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Element](/dom/Element)</span></span>
+Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var classList = element.classList;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 A DOMTokenList representing the class names of the element.
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [WHATWG DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
+
 [DOM4](http://www.w3.org/TR/dom/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLElement`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

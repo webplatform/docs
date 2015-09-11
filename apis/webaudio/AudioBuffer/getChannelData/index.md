@@ -1,56 +1,60 @@
 ---
 title: getChannelData
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webaudio/AudioBuffer
+    href: /apis/webaudio/AudioBuffer
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/webaudio/AudioBuffer
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the Float32Array representing the PCM audio data for the specific channel.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the Float32Array representing the PCM audio data for the specific channel.'
 uri: apis/webaudio/AudioBuffer/getChannelData
 
 ---
-# getChannelData
-
-## Summary
+## <span>Summary</span>
 
 Returns the Float32Array representing the PCM audio data for the specific channel.
 
-*Method of [apis/webaudio/AudioBuffer](/apis/webaudio/AudioBuffer)*
+Method of [apis/webaudio/AudioBuffer](/apis/webaudio/AudioBuffer)[apis/webaudio/AudioBuffer](/apis/webaudio/AudioBuffer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = AudioBuffer.getChannelData(channel);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### channel
+### <span>channel</span>
 
- Data-typeÂ
+ Data-type
 :   unsigned long
 
  The channel parameter is an index representing the particular channel to get data for. An index value of 0 represents the first channel. This index value MUST be less than [**numberOfChannels**](/apis/webaudio/AudioBuffer/numberOfChannels) or an exception will be thrown.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 Float32Array
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var myArrayBuffer = audioCtx.createBuffer(2, frameCount, audioCtx.sampleRate);
 var nowBuffering = myArrayBuffer.getChannelData(channel);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

@@ -1,36 +1,35 @@
 ---
 title: RTCSessionDescription
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+summary: 'Describes the session with a serialized Session Description Protocol object.'
 tags:
   0: API
   1: Objects
   3: WebRTC
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'Describes the session with a serialized Session Description Protocol object.'
 uri: apis/webrtc/RTCSessionDescription
 
 ---
-# RTCSessionDescription
-
-## Summary
+## <span>Summary</span>
 
 Describes the session with a serialized Session Description Protocol object.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [sdp](/apis/webrtc/RTCSessionDescription/sdp)
 :   The string representation of the SDP object.
+
 [type](/apis/webrtc/RTCSessionDescription/type)
 :   The type of SDP object this RTCSessionDescription represents.
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
-

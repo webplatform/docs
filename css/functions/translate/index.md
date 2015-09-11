@@ -1,27 +1,27 @@
 ---
 title: translate()
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://codepen.io/Fischaela/pen/Lqmxb'
+readiness: 'Ready to Use'
+summary: 'Transform function for a 2d translation which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.'
 tags:
   - CSS
   - Functions
-readiness: 'Ready to Use'
-summary: 'Transform function for a 2d translation which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.'
-code_samples:
-  - 'http://codepen.io/Fischaela/pen/Lqmxb'
 uri: css/functions/translate()
 
 ---
-# translate()
-
-## Summary
+## <span>Summary</span>
 
 Transform function for a 2d translation which sets the position of an element to a new one, described by two vectors (x, y). The y value is optional.
 
-## Syntax
+## <span>Syntax</span>
 
 -   **translate ( \<translation-value-x\> )**
 -   **translate ( \<translation-value-x\>, \<translate-value-y\> )**
 
-## Parameters
+## <span>Parameters</span>
 
 **translation-value-x**
 
@@ -31,7 +31,7 @@ Transform function for a 2d translation which sets the position of an element to
 
 *First value describes the translation across the x-axis, the second across the y-axis. Values can be a [length](/css/data_types/length) or a [percentage](/css/data_types/percentage) value.*
 
-## Examples
+## <span>Examples</span>
 
 The example shows three div elements, that are transformed individually with the translate() function.
 
@@ -39,7 +39,7 @@ The example shows three div elements, that are transformed individually with the
 2.  The second translation only provides a **single translation-value-x**, the second value is set to zero by default here. The div moves 20px to the right.
 3.  For element-3 **both translation-values** are set. The div is moved 40px to the right and 80px down.
 
-``` {.css}
+``` css
 .element-1 {
     transform: translate(0, 0);
 }
@@ -55,11 +55,11 @@ The example shows three div elements, that are transformed individually with the
 
 [View live example](http://codepen.io/Fischaela/pen/Lqmxb)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -93,15 +93,8 @@ The example shows three div elements, that are transformed individually with the
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### External resources
+### <span>External resources</span>
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.1
 -   [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
 -   [Hands On: 2D Transforms](http://go.microsoft.com/fwlink/?LinkID=240163)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

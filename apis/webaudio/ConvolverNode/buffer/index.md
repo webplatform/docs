@@ -1,43 +1,43 @@
 ---
 title: buffer
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/ConvolverNode
+    href: /apis/webaudio/ConvolverNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'A mono, stereo, or 4-channel AudioBuffer containing the (possibly multi-channel) impulse response used by the ConvolverNode. At the time when this attribute is set, the buffer and the state of the normalize attribute will be used to configure the ConvolverNode with this impulse response having the given normalization.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'A mono, stereo, or 4-channel AudioBuffer containing the (possibly multi-channel) impulse response used by the ConvolverNode. At the time when this attribute is set, the buffer and the state of the normalize attribute will be used to configure the ConvolverNode with this impulse response having the given normalization.'
 uri: apis/webaudio/ConvolverNode/buffer
 
 ---
-# buffer
-
-## Summary
+## <span>Summary</span>
 
 A mono, stereo, or 4-channel AudioBuffer containing the (possibly multi-channel) impulse response used by the ConvolverNode. At the time when this attribute is set, the buffer and the state of the normalize attribute will be used to configure the ConvolverNode with this impulse response having the given normalization.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/ConvolverNode](/apis/webaudio/ConvolverNode)</span></span>
+Property of [apis/webaudio/ConvolverNode](/apis/webaudio/ConvolverNode)[apis/webaudio/ConvolverNode](/apis/webaudio/ConvolverNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = ConvolverNode.buffer;
 ConvolverNode.buffer = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var convolver = audioCtx.createConvolver();
 convolver.buffer = myAudioBuffer;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

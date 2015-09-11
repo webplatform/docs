@@ -1,18 +1,16 @@
 ---
-title: erver-side languages
+title: Server-side languages
+notes:
+  - 'Should not be a webplatform.org topic; deletion candidate'
+readiness: 'Not Ready'
+summary: 'Server-side languages, as opposed to client-side languages, are programming languages that perform tasks on the server, before the page is sent to the browser for rendering. This site only provides limited information on server-side languages.'
 tags:
   - Basic
   - Pages
-readiness: 'Not Ready'
-notes:
-  - 'Should not be a webplatform.org topic; deletion candidate'
-summary: 'Server-side languages, as opposed to client-side languages, are programming languages that perform tasks on the server, before the page is sent to the browser for rendering. This site only provides limited information on server-side languages.'
 uri: 'server-side languages'
 
 ---
-# Server-side languages
-
-## Summary
+## <span>Summary</span>
 
 Server-side languages, as opposed to client-side languages, are programming languages that perform tasks on the server, before the page is sent to the browser for rendering. This site only provides limited information on server-side languages.
 

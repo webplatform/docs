@@ -1,37 +1,32 @@
 ---
 title: ChannelMergerNode
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Represents an AudioNode for combining channels from multiple audio streams into a single audio stream. Often used in conjunction with ChannelSplitterNode.'
 tags:
   0: API
   1: Objects
   3: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Represents an AudioNode for combining channels from multiple audio streams into a single audio stream. Often used in conjunction with ChannelSplitterNode.'
 uri: apis/webaudio/ChannelMergerNode
 
 ---
-# ChannelMergerNode
-
-## Summary
+## <span>Summary</span>
 
 Represents an AudioNode for combining channels from multiple audio streams into a single audio stream. Often used in conjunction with ChannelSplitterNode.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

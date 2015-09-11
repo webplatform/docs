@@ -1,77 +1,75 @@
 ---
 title: removeAttributeNS
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs examples and compat'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+standardization_status: 'W3C Recommendation'
+summary: 'Removes a specified content attribute in a specified namespace from an element.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs examples and compat'
-summary: 'Removes a specified content attribute in a specified namespace from an element.'
 uri: dom/Element/removeAttributeNS
 
 ---
-# removeAttributeNS
-
-## Summary
+## <span>Summary</span>
 
 Removes a specified content attribute in a specified namespace from an element.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  element.removeAttributeNS(namespaceURI, name);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### namespaceURI
+### <span>namespaceURI</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The namespace name of the attribute to remove.
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The local name of the attribute to remove.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Use this method to remove a content attribute in a specified namespace from an element.
 
-## Notes
+## <span>Notes</span>
 
 -   The attribute to remove may not exist in the first place.
 -   Where namespaces are irrelevant, [removeAttribute](/dom/Element/removeAttribute) can be used instead.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
+
 [Document Object Model (DOM) Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
 :   Recommendation
+
 [DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

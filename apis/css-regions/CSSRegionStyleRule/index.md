@@ -1,61 +1,67 @@
 ---
 title: CSSRegionStyleRule
+readiness: 'Ready to Use'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: CSSRule
+    href: /css/cssom/CSSRule
+standardization_status: 'W3C Working Draft'
+summary: 'Represents an @region rule in a CSS style sheet, which applies styles to fragments of content that flow into a CSS region.'
 tags:
   0: API
   1: Objects
   3: CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Represents an @region rule in a CSS style sheet, which applies styles to fragments of content that flow into a CSS region.'
 uri: apis/css-regions/CSSRegionStyleRule
 
 ---
-# CSSRegionStyleRule
-
-## Summary
+## <span>Summary</span>
 
 Represents an @region rule in a CSS style sheet, which applies styles to fragments of content that flow into a CSS region.
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[CSSRule](/css/cssom/CSSRule)</span></span>
+Inherits from [CSSRule](/css/cssom/CSSRule)[CSSRule](/css/cssom/CSSRule)
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from CSSRule
+## <span>Inherited from CSSRule</span>
 
-### Properties
+### <span>Properties</span>
 
 API Name
 :   Summary
-[parentRule](/css/cssom/CSSRule/parentRule)
-:
+
+[cssText](/css/cssom/CSSRule/cssText)
+:   Gets or sets a textual representation of a CSS rule.
+
 [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 :
+
 [type](/css/cssom/CSSRule/type)
 :
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 Starting with this CSS...
 
-``` {.css}
+``` css
 @region div.region {
     p {
     color: #fff;
@@ -66,7 +72,7 @@ Starting with this CSS...
 
 Narrow the scope of the first rule within the @region to the first paragraph, and modify its background color
 
-``` {.js}
+``` js
 // corresponds to @region rule above:
 rule = document.styleSheets[0].cssRules[0];
 
@@ -85,7 +91,7 @@ console.log(rule.cssText);
 
 The **cssText** above now dynamically reflects these altered values:
 
-``` {.css}
+``` css
 @region div.region {
     p:first-of-type {
     color: #fff;
@@ -94,18 +100,16 @@ The **cssText** above now dynamically reflects these altered values:
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/2012/WD-css3-regions-20120823/)
 :   W3C Working Draft 23 August 2012
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -163,10 +167,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

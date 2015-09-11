@@ -1,58 +1,67 @@
 ---
 title: stroke
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs parent'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The stroke attribute is a presentation attribute that define the color of the outline of the given graphical element.'
 tags:
   - Markup
   - Attributes
   - SVG
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs parent'
-summary: 'The stroke attribute is a presentation attribute that define the color of the outline of the given graphical element.'
 uri: svg/attributes/stroke
 
 ---
-# stroke
-
-## Summary
+## <span>Summary</span>
 
 The stroke attribute is a presentation attribute that define the color of the outline of the given graphical element.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-### Syntax
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+### <span>Syntax</span>
 
      stroke: none | currentColor | color | funciri [ none | currentColor | color ] | inherit
 
 The default value is *none*, which means that the outline is not drawn.
 
-## Examples
+## <span>Examples</span>
 
 This example shows how to draw a circle with a red stroke and no fill color.
 
+``` html
 
 
-    <svg width="400" height="400">
-      <circle cx="100" cy="100" r="50" stroke="red" stroke-width="3" fill="none" />
-    </svg>
+<svg width="400" height="400">
+  <circle cx="100" cy="100" r="50" stroke="red" stroke-width="3" fill="none" />
+</svg>
+```
 
 </pre>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://www.w3.org/TR/SVG11/painting.html), Section 11.4
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [SVG 1.1](http://www.w3.org/TR/SVG11/painting.html#StrokeProperties)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -68,7 +77,7 @@ Specification
 -   [**SVGPolylineElement**](/svg/elements/polyline)
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 
-### Reference
+### <span>Reference</span>
 
 -   [**strokeDasharray**](/svg/attributes/stroke-dasharray)
 -   [**strokeDashoffset**](/svg/attributes/stroke-dashoffset)
@@ -78,10 +87,3 @@ Specification
 -   [**strokeOpacity**](/svg/attributes/stroke-opacity)
 -   [**strokeWidth**](/svg/attributes/stroke-width)
 -   [**fill**](/svg/attributes/fill)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,52 +1,57 @@
 ---
 title: SVGException
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: SVGElement
+    href: /svg/objects/SVGElement
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'Unreviewed MSDN import'
 uri: svg/objects/SVGException
 
 ---
-# SVGException
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
+Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGElement
+## <span>Inherited from SVGElement</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -66,11 +71,11 @@ is raised when an invalid value is passed to an operation or assigned to an attr
 
 **Note:** The unusual spelling of this constant is maintained for compatibility with existing content.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics (SVG) 1.1](http://go.microsoft.com/fwlink/p/?linkid=190918), Appendix B.4
 
-### Members
+### <span>Members</span>
 
 The **SVGException** object has these methods:
 
@@ -82,15 +87,8 @@ The **SVGException** object has these properties:
 -   [**message**](/svg/properties/message): Gets a description of the exception that is raised.
 -   [**name**](/svg/properties/name): Gets the exception name that is raised.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   DOM Exception Error Codes
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

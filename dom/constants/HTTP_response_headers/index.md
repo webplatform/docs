@@ -1,71 +1,76 @@
 ---
-title: HTTP response headers
+title: HTTP Response Headers constant
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, examples, proper syntax, compatibility'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/constants
+    href: /dom/constants
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'summary, examples, proper syntax, compatibility'
 uri: 'dom/constants/HTTP response headers'
 
 ---
-# HTTP Response Headers constant
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/constants](/dom/constants)</span></span>
+Property of [dom/constants](/dom/constants)[dom/constants](/dom/constants)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.HTTP response headers;
 element.HTTP response headers = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 A response header can be created using the [**HTTP-EQUIV**](/html/attributes/httpEquiv) attribute of the **meta** tag. Corresponding values are provided for use with **QueryInfo**. In Internet Explorer 6, The MSTHEMECOMPATIBLE constant disables theming support within Web pages.
 
-### Requirements
+### <span>Requirements</span>
 
-<dl data-table="wikitable">
-<dt>
+<table class="wikitable">
+<tr>
+<th>
 Minimum supported client
 
-</dt>
-<dd>
+</th>
+<td>
 Windows XP
 
-</dd>
-<dt>
+</td>
+</tr>
+<tr>
+<th>
 Minimum supported server
 
-</dt>
-<dd>
+</th>
+<td>
 Windows 2000 Server
 
-</dd>
-<dt>
+</td>
+</tr>
+<tr>
+<th>
 Header
 
-</dt>
-<dd>
+</th>
+<td>
 <dl>
 
 <dt>
 </dt>
 </dl>
-</dd>
-</dl>
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+</td>
+</tr>
+</table>

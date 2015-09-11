@@ -1,36 +1,38 @@
 ---
 title: clipPath
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
 uri: svg/elements/clipPath
 
 ---
-# clipPath
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the clipPath element is used to create a clipping path that will visually hide part of an element. The clipping path is defined by a circle in a defs element and has a defined URL.
 
-``` {.xml}
+``` xml
 <path d="M 50,100 Q 150,50 250,100" stroke="hotpink"
     stroke-width="10" fill="white"/>
 ```
 
  The original path would have looked like this:
 
-``` {.html}
+``` html
 
 
 <!DOCTYPE HTML>
@@ -49,7 +51,7 @@ In the following code example, the clipPath element is used to create a clipping
 
 The path after being clipped by the circle looks like this:
 
-``` {.xml}
+``` xml
 <svg width="400" height="400">
   <defs>
     <clipPath id="myClipPath">
@@ -61,7 +63,7 @@ The path after being clipped by the circle looks like this:
 </svg>
 ```
 
-``` {.html}
+``` html
 
 
 <!DOCTYPE HTML>
@@ -83,17 +85,17 @@ The path after being clipped by the circle looks like this:
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.6.1
 
-### Members
+### <span>Members</span>
 
 The **SVGClipPathElement** object has these events:
 
@@ -125,10 +127,3 @@ The **SVGClipPathElement** object has these properties:
 -   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

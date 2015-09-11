@@ -1,22 +1,24 @@
 ---
 title: aside
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The aside element (&lt;aside&gt;) indicates content that is only tangentially related to the rest of the content.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The aside element (<aside>) indicates content that is only tangentially related to the rest of the content.'
 uri: html/elements/aside
 
 ---
-# aside
+## <span>Summary</span>
 
-## Summary
+The aside element (&lt;aside&gt;) indicates content that is only tangentially related to the rest of the content.
 
-The aside element (\<aside\>) indicates content that is only tangentially related to the rest of the content.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -30,11 +32,11 @@ The aside element may be used for:
 
 Or any other content that is considered separate from the main content of the page.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how an aside is used to mark up background material on Switzerland in a much longer news story on Europe.
 
-``` {.html}
+``` html
 <aside>
  <h1>Switzerland</h1>
  <p>Switzerland, a land-locked country in the middle of geographic
@@ -43,18 +45,10 @@ The following example shows how an aside is used to mark up background material 
 </aside>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-aside-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-aside-element)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,64 +1,77 @@
 ---
-title: WebSocket
+title: WebSocket Object API Details
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket)'
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.'
 tags:
   0: API
   1: Objects
   3: WebSocket
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.'
 uri: apis/websocket/WebSocket
 
 ---
-# WebSocket Object API Details
-
-## Summary
+## <span>Summary</span>
 
 Object for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [binaryType](/apis/websocket/WebSocket/binaryType)
 :   Indicates the type of binary data being transmitted by the connection.
+
 [bufferedAmount](/apis/websocket/WebSocket/bufferedAmount)
 :   The number of bytes of data that have been queued using calls to send() but not yet transmitted to the network.
+
 [extensions](/apis/websocket/WebSocket/extensions)
 :   The extensions selected by the server.
+
 [onclose](/apis/websocket/WebSocket/onclose)
 :   An event listener to be called when the WebSocket connection's readyState changes to CLOSED. Receives a [CloseEvent](/apis/websocket/CloseEvent) named "close".
+
 [onerror](/apis/websocket/WebSocket/onerror)
 :   An event listener to be called when an error occurs. Receives an event named "error".
+
 [onmessage](/apis/websocket/WebSocket/onmessage)
 :   An event listener to be called when a message is received from the server. Receives a MessageEvent named "message".
+
 [onopen](/apis/websocket/WebSocket/onopen)
 :   An event listener to be called when the WebSocket connection's readyState changes to OPEN. Receives an event named "open".
+
 [protocol](/apis/websocket/WebSocket/protocol)
 :   Indicates the name of the sub-protocol the server selected.
+
 [readyState](/apis/websocket/WebSocket/readyState)
 :   The current state of the connection, represented as a numeric constant.
+
 [url](/apis/websocket/WebSocket/url)
 :   The absolute URL as resolved by the constructor.
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [close](/apis/websocket/WebSocket/close)
 :   Closes the WebSocket connection or connection attempt, if any.
+
 [send](/apis/websocket/WebSocket/send)
 :   Transmits data to the server over the WebSocket connection.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 The following function can be used to detect WebSocket support.
 
-``` {.js}
+``` js
 
 
 function webSocketSupported() {
@@ -70,7 +83,7 @@ function webSocketSupported() {
 
 WebSockets are created via the WebSocket() constructor function.
 
-``` {.js}
+``` js
 
 
 WebSocket( url[, protocols] )
@@ -80,7 +93,7 @@ WebSocket( url[, protocols] )
 
 Complete example
 
-``` {.js}
+``` js
 
 
 if (window["WebSocket"]) {
@@ -99,7 +112,7 @@ if (window["WebSocket"]) {
 
 </pre>
 
-## Usage
+## <span>Usage</span>
 
      Use the WebSocket API to interface with the WebSocket protocol (RFC 6455). When you create a WebSocket connection, you upgrade the HTTP protocol to the WebSocket protocol during the initial handshake between the client and the server. You can use the WebSocket API to program your client to initiate the WebSocket handshake.
 
@@ -107,7 +120,7 @@ The first argument in the WebSocket constructor is the URL of the server to whic
 
     When a WebSocket is constructed, it immediately attempts to connect to the given URL. There is no way to prevent or postpone the connection attempt. After construction, the WebSocket’s URL is accessible via its url property.
 
-## Notes
+## <span>Notes</span>
 
 The WebSocket API specification defines two URI schemes, ws:// and wss://, foWebSocket Object r unencrypted and encrypted connections, respectively. For example, you could create a new WebSocket connection with the string "ws://example.com:1234/resource". The URL specifies the host to connect to, the port, and (optionally) the protocols you want to use.
 
@@ -124,26 +137,16 @@ To open a use a WebSocket connection, you must follow this procedure:
 -   Check to see whether data was sent to you.
 -   Close the connection when you are finished with the **close** method.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [How to Use WebSockets by Colin Ihrig](http://cjihrig.com/blog/how-to-use-websockets/)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket)
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
 
 }
 

@@ -1,48 +1,53 @@
 ---
 title: advance
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Advance%20cursor&'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBCursor
+    href: /apis/indexeddb/IDBCursor
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'Advances the cursor by the specified number of records.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'Ready to Use'
-standardization_status: 'W3C Proposed Recommendation'
-summary: 'Advances the cursor by the specified number of records.'
-code_samples:
-  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Advance%20cursor&'
 uri: apis/indexeddb/IDBCursor/advance
 
 ---
-# advance
-
-## Summary
+## <span>Summary</span>
 
 Advances the cursor by the specified number of records.
 
-*Method of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)*
+Method of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  cursor.advance(count);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### count
+### <span>count</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  A positive, non-zero integer value indicating the number of records to advance.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function(event){
     var transaction = dbOpenRequest.result.transaction(["ObjectStore_BookList"], IDBTransaction.READ_WRITE);
@@ -65,7 +70,7 @@ dbOpenRequest.onsuccess = function(event){
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Advance%20cursor&)
 
-## Usage
+## <span>Usage</span>
 
      Throws an exception if
 
@@ -73,22 +78,13 @@ dbOpenRequest.onsuccess = function(event){
 -   The transaction this IDBCursor belongs to is not active.
 -   The cursor is currently being iterated, or has iterated past its end.
 
-## Notes
+## <span>Notes</span>
 
 Calling this method more than once before new cursor data has been loaded is not allowed and results in a DOMException of type InvalidStateError being thrown. For example, calling advance() twice from the same onsuccess handler results in a DOMException of type InvalidStateError being thrown on the second call.
 
-### Syntax
+### <span>Syntax</span>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

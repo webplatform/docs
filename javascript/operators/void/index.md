@@ -1,28 +1,30 @@
 ---
 title: void
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/e17c7cbe(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'The void operator evaluates an expression and then returns undefined.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'The void operator evaluates an expression and then returns undefined.'
 uri: javascript/operators/void
 
 ---
-# void
-
-## Summary
+## <span>Summary</span>
 
 The void operator evaluates an expression and then returns undefined.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     void expression
 
-## Examples
+## <span>Examples</span>
 
 In this example, `void(0)` is used to return `undefined` to the link's `href` property, so that the browser will not attempt to load a URL and the function in the `onclick` event can be executed instead.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,7 +36,7 @@ In this example, `void(0)` is used to return `undefined` to the link's `href` pr
 </html>
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The expression argument is any valid JavaScript expression.
 
@@ -42,13 +44,7 @@ The void operator evaluates its expression and returns undefined. It is useful i
 
 Void works only on unary expressions, thus: ` void x, y; ` will set only the x variable to **undefined**.
 
-## Notes
+## <span>Notes</span>
 
 void(0) is equivalent to void 0 and returns the **undefined** value.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/e17c7cbe(v=vs.94).aspx)
 

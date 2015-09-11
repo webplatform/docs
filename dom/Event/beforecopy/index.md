@@ -1,74 +1,117 @@
 ---
 title: beforecopy
-tags:
-  - Events
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec, and compat'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforecopyEX.htm'
+notes:
+  - 'Needs summary, spec, and compat'
+readiness: 'In Progress'
+tags:
+  - Events
 uri: dom/Event/beforecopy
 
 ---
-# beforecopy
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **onbeforecopy** event to customize copy behavior.
 
-    <HEAD>
-    <SCRIPT>
-    var sNewValue = "copy event fired";
-    var bFired = false;
-    var sSave = "";
-    function Source_Beforecopy()
-    {
-      sSave = oSource.innerText;
-      bFired = true;
-      event.returnValue = false;
-    }
-    function Source_Copy()
-    {
-      window.clipboardData.setData("Text", sNewValue);
-    }
-    function Target_BeforePaste()
-    {
-      event.returnValue = false;
-    }
-    function Target_Paste()
-    {
-      event.returnValue = false;
-      oTarget.value = window.clipboardData.getData("Text");
-    }
-    </SCRIPT>
-    </HEAD>
-    <BODY>
-    <SPAN ID=oSource onbeforecopy="Source_Beforecopy()"
-           oncopy="Source_Copy()">copy this text</SPAN>
-    <INPUT ID=oTarget onbeforepaste="Target_BeforePaste()"
-           onpaste="Target_Paste()">
-    </BODY>
+``` html
+<HEAD>
+<SCRIPT>
+var sNewValue = "copy event fired";
+var bFired = false;
+var sSave = "";
+function Source_Beforecopy()
+{
+  sSave = oSource.innerText;
+  bFired = true;
+  event.returnValue = false;
+}
+function Source_Copy()
+{
+  window.clipboardData.setData("Text", sNewValue);
+}
+function Target_BeforePaste()
+{
+  event.returnValue = false;
+}
+function Target_Paste()
+{
+  event.returnValue = false;
+  oTarget.value = window.clipboardData.getData("Text");
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<SPAN ID=oSource onbeforecopy="Source_Beforecopy()"
+       oncopy="Source_Copy()">copy this text</SPAN>
+<INPUT ID=oTarget onbeforepaste="Target_BeforePaste()"
+       onpaste="Target_Paste()">
+</BODY>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforecopyEX.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **onbeforecopy** event fires on the source element. Use the [**setData**](/dom/DataTransfer/setData) method to specify a data format for the selection. None. To invoke this event, do one of the following:
 
@@ -102,20 +145,14 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

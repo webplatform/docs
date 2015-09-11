@@ -1,46 +1,50 @@
 ---
 title: playbackTime
+notes:
+  - 'Deprecated; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
+readiness: 'Out of Date'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioProcessingEvent
+    href: /apis/webaudio/AudioProcessingEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/webaudio/AudioProcessingEvent
+standardization_status: 'W3C Editor''s Draft'
+summary: "The time when the audio will be played, in the same time coordinate system as AudioContext.currentTime. playbackTime allows for very tight synchronization between processing directly in JavaScript with the other events in the context's rendering graph.\n"
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Out of Date'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Deprecated; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
-summary: "The time when the audio will be played, in the same time coordinate system as AudioContext.currentTime. playbackTime allows for very tight synchronization between processing directly in JavaScript with the other events in the context's rendering graph.\n"
 uri: apis/webaudio/AudioProcessingEvent/playbackTime
 
 ---
-# playbackTime
-
-## Summary
+## <span>Summary</span>
 
 The time when the audio will be played, in the same time coordinate system as AudioContext.currentTime. playbackTime allows for very tight synchronization between processing directly in JavaScript with the other events in the context's rendering graph.
 
-**Deprecated; deletion candidate. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+**Deprecated; deletion candidate. See <http://webaudio.github.io/web-audio-api/>.**
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingEvent)</span></span>
+Property of [apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingEvent)[apis/webaudio/AudioProcessingEvent](/apis/webaudio/AudioProcessingEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioProcessingEvent.playbackTime;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

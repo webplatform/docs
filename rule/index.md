@@ -1,17 +1,15 @@
 ---
-title: ule
+title: rule
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: rule
 
 ---
-# rule
-
-## rule
+## <span>rule</span>
 
 The generic name for any line of arbitrary length and weight in a layout, as in "horizontal rule."
 

@@ -1,22 +1,26 @@
 ---
 title: substring
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3cz15ahb(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the substring at the specified location within a String object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the substring at the specified location within a String object.'
 uri: javascript/String/substring
 
 ---
-# substring
-
-## Summary
+## <span>Summary</span>
 
 Returns the substring at the specified location within a String object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     strVariable. substring( start [, end ])
+
+<span class="language">JavaScript</span>
 
     "String Literal".substring( start [, end ] )
 
@@ -26,11 +30,11 @@ Returns the substring at the specified location within a String object.
 **end**
 :   Optional. The zero-based index integer indicating the end of the substring. The substring includes the characters up to, but not including, the character indicated by end.If end is omitted, the characters from start through the end of the original string are returned.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **substring** method.
 
-``` {.js}
+``` js
 var s = "The quick brown fox jumps over the lazy dog.";
  var ss = s.substring(10, 15);
  document.write(ss);
@@ -39,7 +43,7 @@ var s = "The quick brown fox jumps over the lazy dog.";
  // brown
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The substring method returns a string containing the substring from start up to, but not including, end.
 
@@ -49,15 +53,9 @@ If either start or end is **NaN** or negative, it is replaced with zero.
 
 The length of the substring is equal to the absolute value of the difference between start and end. For example, the length of the substring returned in strvar.substring(0, 3) and strvar.substring(3, 0) is three.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [substr Method (String)](/javascript/String/substr)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3cz15ahb(v=vs.94).aspx)
 

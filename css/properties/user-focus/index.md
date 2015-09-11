@@ -1,45 +1,57 @@
 ---
 title: user-focus
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`all`'
+  'Applies to': 'visible elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'Specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+summary: 'This is for all the high level UX stuff.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
-summary: 'This is for all the high level UX stuff.'
 uri: css/properties/user-focus
 
 ---
-# user-focus
-
-## Summary
+## <span>Summary</span>
 
 This is for all the high level UX stuff.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `all`
+
 Applies to
 :   visible elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   Specified value
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `user-focus: all`
 -   `user-focus: none`
 -   `user-focus: text`
 
-## Values
+## <span>Values</span>
 
 none
 :   None of the descendants of the element can be brought under consideration or focus, neither text nor images.

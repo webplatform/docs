@@ -1,49 +1,63 @@
 ---
 title: mask-clip
+notes:
+  - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`border-box`'
+  'Applies to': 'All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: 'Determines the mask painting area, which defines the area that is affected by the mask. The painted content of an element may be restricted to this area.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
-summary: 'Determines the mask painting area, which defines the area that is affected by the mask. The painted content of an element may be restricted to this area.'
 uri: css/properties/mask-clip
 
 ---
-# mask-clip
-
-## Summary
+## <span>Summary</span>
 
 Determines the mask painting area, which defines the area that is affected by the mask. The painted content of an element may be restricted to this area.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `border-box`
+
 Applies to
 :   All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `mask-clip: border-box`
 -   `mask-clip: content-box`
 -   `mask-clip: no-clip`
 -   `mask-clip: padding-box`
 
-## Values
+## <span>Values</span>
 
 no-clip
 :   The painted content is not restricted (not clipped). The mask painting area is set to the bounding client rect.
@@ -57,9 +71,9 @@ padding-box
 content-box
 :   The painted content is restricted (clipped) to the content box (object bounding box for objects without associated layout box).
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* border-box */
 body {
     background-color: white;
@@ -70,10 +84,7 @@ body {
     }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking/)
 :   W3C Working Draft
-

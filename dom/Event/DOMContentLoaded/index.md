@@ -1,38 +1,79 @@
 ---
 title: DOMContentLoaded
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Candidate Recommendation'
 tags:
   - Events
   - DOM
   - DOMEvents
-readiness: 'Almost Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs summary'
 uri: dom/Event/DOMContentLoaded
 
 ---
-# DOMContentLoaded
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   Yes
-Target
-:   dom/Document
-Cancelable
-:   Yes
-Default action
-:    ?
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Document
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 The **DOMContentLoaded** event fires when the markup of a webpage has been parsed, which means it also fires before the [**onload**](/dom/Element/load) event. **DOMContentLoaded** is a good place to perform initialization tasks for your webpage, such as registering event handlers, initializing handles to support objects, and so on. This allows your initialization tasks to occur while the remaining resources for the webpage are being downloaded. For more information, see the [DOMContentLoaded test drive demo.](http://go.microsoft.com/fwlink/p/?LinkId=245080)
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -78,22 +119,13 @@ if(!window.addEventListener) {
 </html>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/single-page.html)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `onload`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

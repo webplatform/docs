@@ -1,54 +1,63 @@
 ---
 title: createElement
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm'
+notes:
+  - 'Needs mobile compat and links fixed at the bottom'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Element
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Creates an instance of the element for the specified tag.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs mobile compat and links fixed at the bottom'
-summary: 'Creates an instance of the element for the specified tag.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm'
 uri: dom/Document/createElement
 
 ---
-# createElement
-
-## Summary
+## <span>Summary</span>
 
 Creates an instance of the element for the specified tag.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var element = document.createElement(tagName);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### tagName
+### <span>tagName</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of an element. The element may be be an existing DOM element or an extension of a DOM element.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Element.
+Returns an object of type ElementElement
 
 The created element.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **createElement** method to dynamically update the contents of a Web page by adding an element selected from a drop-down list box.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -89,33 +98,24 @@ document.addEventListener("change", create, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/createElement.htm)
 
-## Usage
+## <span>Usage</span>
 
      The properties of these created elements are read/write and can be accessed programmatically. Before you use new objects, you must explicitly add them to their respective collections or to the document. To insert new elements into the current document, use the insertBefore method or the appendChild method.
 
-## Notes
+## <span>Notes</span>
 
 You must perform a second step when you use **createElement** to create the [**input**](/html/elements/input) element. The **createElement** method generates an input text box, because that is the default **input**Â [**type**](/html/attributes/type) property. To insert any other kind of **input** element, first invoke **createElement** for **input**, and then set the **type** property to the appropriate value in the next line of code.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-2141741547)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `cloneNode`
 -   `Conceptual`
 -   `About the W3C Document Object Model`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

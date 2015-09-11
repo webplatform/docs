@@ -1,78 +1,82 @@
 ---
 title: setOrientation
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webaudio/AudioListener
+    href: /apis/webaudio/AudioListener
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Number
+    href: /apis/webaudio/AudioListener
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Describes which direction the listener is pointing in the 3D cartesian coordinate space. Both a front vector and an up vector are provided. In human terms, the front vector represents which direction the person''s nose is pointing. The up vector represents the direction the top of a person''s head is pointing. These values are expected to be linearly independent (at right angles to each other). The x, y, z parameters represent a front direction vector in 3D space, with the default value being (0,0,-1). The xUp, yUp, zUp parameters represent an up direction vector in 3D space, with the default value being (0,1,0).'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Describes which direction the listener is pointing in the 3D cartesian coordinate space. Both a front vector and an up vector are provided. In human terms, the front vector represents which direction the person''s nose is pointing. The up vector represents the direction the top of a person''s head is pointing. These values are expected to be linearly independent (at right angles to each other). The x, y, z parameters represent a front direction vector in 3D space, with the default value being (0,0,-1). The xUp, yUp, zUp parameters represent an up direction vector in 3D space, with the default value being (0,1,0).'
 uri: apis/webaudio/AudioListener/setOrientation
 
 ---
-# setOrientation
-
-## Summary
+## <span>Summary</span>
 
 Describes which direction the listener is pointing in the 3D cartesian coordinate space. Both a front vector and an up vector are provided. In human terms, the front vector represents which direction the person's nose is pointing. The up vector represents the direction the top of a person's head is pointing. These values are expected to be linearly independent (at right angles to each other). The x, y, z parameters represent a front direction vector in 3D space, with the default value being (0,0,-1). The xUp, yUp, zUp parameters represent an up direction vector in 3D space, with the default value being (0,1,0).
 
-*Method of [apis/webaudio/AudioListener](/apis/webaudio/AudioListener)*
+Method of [apis/webaudio/AudioListener](/apis/webaudio/AudioListener)[apis/webaudio/AudioListener](/apis/webaudio/AudioListener)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = AudioListener.setOrientation(x, y, z, xUp, yUp, zUp);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-### z
+### <span>z</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-### xUp
+### <span>xUp</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-### yUp
+### <span>yUp</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-### zUp
+### <span>zUp</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Number.
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var myListener = audioCtx.listener;
 myListener.setOrientation(0,0,-1,0,1,0);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

@@ -1,50 +1,60 @@
 ---
 title: appendChild
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.appendChild) Article]'
+  - 'Microsoft Developer Network: [[appendChild Method](http://msdn.microsoft.com/en-us/library/ie/ms535934(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Node
+    href: /dom/Node
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Node
+standardization_status: 'W3C Recommendation'
+summary: 'Appends an element as a child to the object.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Appends an element as a child to the object.'
 uri: dom/Node/appendChild
 
 ---
-# appendChild
-
-## Summary
+## <span>Summary</span>
 
 Appends an element as a child to the object.
 
-*Method of [dom/Node](/dom/Node)*
+Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var appendedChild = node.appendChild(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### newChild
+### <span>newChild</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The child to append.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The appended child.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **appendChild** method to add an item to an unordered list.
 
-``` {.html}
+``` html
 <!doctype html>
 <script>
 function fnAppend(){
@@ -67,11 +77,11 @@ function fnAppend(){
 </body>
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use this method to append elements to the end of the childNodes collection.
 
-## Notes
+## <span>Notes</span>
 
 To display new elements on the page, you must append them within the **body** element. For example, the following syntax demonstrates how to add a **div** element to the **body**.
 
@@ -80,18 +90,7 @@ To display new elements on the page, you must append them within the **body** el
 
 This method is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render. Windows Internet ExplorerÂ 9. Exceptions are only supported when webpages are displayed in IE9 Standards mode.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.appendChild) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[appendChild Method](http://msdn.microsoft.com/en-us/library/ie/ms535934(v=vs.85).aspx) Article]
-

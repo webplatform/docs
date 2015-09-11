@@ -1,42 +1,49 @@
 ---
 title: name
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/css-regions/NamedFlow
+    href: /apis/css-regions/NamedFlow
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/css-regions/NamedFlow
+standardization_status: 'W3C Working Draft'
+summary: 'Name of flow, as specified by any element''s  flow-from or flow-into properties.'
 tags:
   0: API
   1: Object
   2: Properties
   4: CSS
   5: CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Name of flow, as specified by any element''s  flow-from or flow-into properties.'
 uri: apis/css-regions/NamedFlow/name
 
 ---
-# name
-
-## Summary
+## <span>Summary</span>
 
 Name of flow, as specified by any element's flow-from or flow-into properties.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)</span></span>
+Property of [apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)[apis/css-regions/NamedFlow](/apis/css-regions/NamedFlow)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var id = flow.name;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 Name of flow, as specified by any element's [**flow-from**](/css/properties/flow-from) or [**flow-into**](/css/properties/flow-into) properties.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // Generic event handler adds/deletes regions to fit content. The 'name'
 // property might allow the handler to dispatch different functions for
 // different flows.
@@ -54,18 +61,16 @@ function modifyFlow(e) {
 document.getNamedFlows().namedItem('main').addEventListener('regionoversetchange', modifyFlow);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -123,10 +128,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

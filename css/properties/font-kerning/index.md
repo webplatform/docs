@@ -1,50 +1,64 @@
 ---
 title: font-kerning
+code_samples:
+  - 'http://gist.github.com/7283111'
+notes:
+  - 'Example provided is not effective, add compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'all elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`font`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The font-kerning property allows contextual adjustment of inter-glyph spacing, i.e. the spaces between the characters in text. This property  controls &lt;bold&gt;metric kerning&lt;/bold&gt; - that utilizes adjustment data contained in the font. Optical Kerning is not supported as yet.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Example provided is not effective, add compatibility.'
-summary: 'The font-kerning property allows contextual adjustment of inter-glyph spacing, i.e. the spaces between the characters in text. This property  controls <bold>metric kerning</bold> - that utilizes adjustment data contained in the font. Optical Kerning is not supported as yet.'
-code_samples:
-  - 'http://gist.github.com/7283111'
 uri: css/properties/font-kerning
 
 ---
-# font-kerning
+## <span>Summary</span>
 
-## Summary
+The font-kerning property allows contextual adjustment of inter-glyph spacing, i.e. the spaces between the characters in text. This property controls &lt;bold&gt;metric kerning&lt;/bold&gt; - that utilizes adjustment data contained in the font. Optical Kerning is not supported as yet.
 
-The font-kerning property allows contextual adjustment of inter-glyph spacing, i.e. the spaces between the characters in text. This property controls \<bold\>metric kerning\</bold\> - that utilizes adjustment data contained in the font. Optical Kerning is not supported as yet.
-
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   all elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `font`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `font-kerning: auto`
 -   `font-kerning: none`
 -   `font-kerning: normal`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Used to specify kerning is at the discretion of the user agent.
@@ -55,11 +69,11 @@ normal
 none
 :   Specifies kerning is not applied
 
-## Examples
+## <span>Examples</span>
 
 -   Kerning will only be visible when supported.
 
-``` {.html}
+``` html
 <p class="normal">WAVAWAVAWAVAWAVA</p>
 <p class="none"    >WAVAWAVAWAVAWAVA</p>
 ```
@@ -68,7 +82,7 @@ none
 
 -   Kerning will only be visible when supported.
 
-``` {.css}
+``` css
 html { font-size: 62.5%; }
 p { font-family: "Arial", serif; font-size: 3.6rem }
 p.normal {font-kerning: normal;}
@@ -77,26 +91,24 @@ p.none {font-kerning: none;}
 
 [View live example](http://code.webplatform.org/gist/7283111)
 
-## Usage
+## <span>Usage</span>
 
      In auto setting, user agents can determine whether to apply kerning or not based on a number of factors like text size, script, or other factors that influence text processing speed. Authors who what proper kerning should use 'normal' to explicitly enable kerning. Likewise, use none to explicitly disable kerning. There is a performance tradeoff when enabling kerning which might not have a large impact on text rendering speed for modern implementations.
 
-## Notes
+## <span>Notes</span>
 
 Kerning data is a must for this property to take effect. When rendering OpenType fonts, the opentype specification states that kerning be enabled by default. When kerning is enabled, the OpenType `kern` feature is enabled. `vkern` is used for vertical text. User Agents must also support kerning via data contained in a `kern` font table, as detailed in the OpenType specification. When used in conjunction with `letter-spacing`, kerning adjustments are considered part of the default spacing and letter spacing adjustments are made \<bold\>after\</bold\> kerning has been applied.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css-fonts-3/#font-kerning-prop)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -110,13 +122,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [kerning-mode](/css/properties/kerning-mode)
-
--   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
 
 -   [text-rendering](/css/properties/text-rendering)
 
@@ -124,7 +130,7 @@ Specification
 
 -   [user-modify](/css/properties/user-modify)
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -150,17 +156,10 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
 -   [size](/html/attributes/size)
 
 -   [font](/html/elements/font)
-

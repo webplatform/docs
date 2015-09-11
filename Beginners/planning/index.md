@@ -1,22 +1,20 @@
 ---
-title: planning
+title: Part 3: Planning
+notes:
+  - "There are notes to describe what this section should cover, but no content.\nOriginal page contents were notes:\n\n First things first - what do we want the project to do, at a high level\n Project scope - What low level items does the site need?\n Information architecture - how should we group these items, and where should they go?\n Designing a look for the page structures - look at photoshopping, versus designing in the browser \n Site structure - create folders for holding CSS, JS, and images."
+readiness: 'Not Ready'
+summary: 'Now you''ve got some familiarity with some basic concepts about the web, let''s take a step back, introducing an example project for you to work on and taking the necessary steps to plan it.'
 tags:
   - Basic
   - Pages
-readiness: 'Not Ready'
-notes:
-  - "There are notes to describe what this section should cover, but no content.\nOriginal page contents were notes:\n\n First things first - what do we want the project to do, at a high level\n Project scope - What low level items does the site need?\n Information architecture - how should we group these items, and where should they go?\n Designing a look for the page structures - look at photoshopping, versus designing in the browser \n Site structure - create folders for holding CSS, JS, and images."
-summary: 'Now you''ve got some familiarity with some basic concepts about the web, let''s take a step back, introducing an example project for you to work on and taking the necessary steps to plan it.'
 uri: Beginners/planning
 
 ---
-# Part 3: Planning
-
-## Summary
+## <span>Summary</span>
 
 Now you've got some familiarity with some basic concepts about the web, let's take a step back, introducing an example project for you to work on and taking the necessary steps to plan it.
 
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 

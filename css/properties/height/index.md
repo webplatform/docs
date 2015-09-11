@@ -1,40 +1,54 @@
 ---
 title: height
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5702862'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'percentage or absolute height'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the height of an element. The content area of the element height does not include the padding, border, and margin of the element.'
-code_samples:
-  - 'http://gist.github.com/5702862'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/height
 
 ---
-# height
-
-## Summary
+## <span>Summary</span>
 
 Sets the height of an element. The content area of the element height does not include the padding, border, and margin of the element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   percentage or absolute height
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `height: auto`
 -   `height: available`
@@ -46,7 +60,7 @@ Animatable
 -   `height: min-content`
 -   `height: percentage`
 
-## Values
+## <span>Values</span>
 
 auto
 :   If auto is set for the elements height, the browser will determine the height for the element.
@@ -75,9 +89,9 @@ available
 fit-content
 :   This will be either the large of the minimum height or the smaller of the preferred height and the available height
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* Height of div equal to 100% of the bounding element */
 div { height: 100% }
 
@@ -93,7 +107,7 @@ img { height: 100px }
 
 Example using new values that are part of the CSS Basic Box Model that is currently in working draft.
 
-``` {.html}
+``` html
 <style>
 /**
  * Height values of the CSS Box Model working draft
@@ -154,28 +168,28 @@ p.height50solved {
 
 [View live example](http://code.webplatform.org/gist/5702862)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 If you specify the **height** property of an **img** object but not the [**width**](/css/properties/width) property, the width is proportional to the height according to the dimensions of the image source file. To perform operations on the numeric value of this property, use [**pixelHeight**](/css/cssom/properties/pixelHeight) or [**posHeight**](/css/cssom/properties/posHeight).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Basic Box Model](http://dev.w3.org/csswg/css-box/#the-width-and-height-properties)
 :   Working Draft
+
 [CSS Level 2](http://www.w3.org/TR/CSS2/visudet.html#the-height-property)
 :   Recommendation
+
 [CSS Level 1](http://www.w3.org/TR/CSS1/#height)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -190,8 +204,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -221,7 +233,7 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   [border](/css/properties/border)
 
@@ -263,7 +275,7 @@ Specification
 
 -   [min-width](/css/properties/min-width)
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -301,7 +313,7 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Grid Layout
+#### <span>Grid Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -319,7 +331,7 @@ Specification
 
 -   **height**
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -329,10 +341,3 @@ Specification
 -   `Measuring Element Dimension and Location with CSSOM in Internet Explorer 9`
 -   `Other Resources`
 -   `CSS Enhancements in Internet Explorer 6`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

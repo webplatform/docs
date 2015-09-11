@@ -1,22 +1,20 @@
 ---
-title: the beginning
+title: Part 1: The beginning
+notes:
+  - "Truncate content that is duplicate.\nLook at scratchpad https://docs.webplatform.org/wiki/TEST:beginners \n\nAlso, maybe get in touch with CommonCraft and ask to embed their video about the World Wide Web http://www.commoncraft.com/video/world-wide-web"
+readiness: 'Almost Ready'
+summary: 'The very first part of our beginner''s material gives you some important background on how website works in what we commonly call &quot;front end&quot; layer. Note that we limit our topics to what happens on the web browser and that typical sites would have code written that is executed on the server side that generates the HTML.'
 tags:
   - Basic
   - Pages
-readiness: 'Almost Ready'
-notes:
-  - "Truncate content that is duplicate.\nLook at scratchpad https://docs.webplatform.org/wiki/TEST:beginners \n\nAlso, maybe get in touch with CommonCraft and ask to embed their video about the World Wide Web http://www.commoncraft.com/video/world-wide-web"
-summary: 'The very first part of our beginner''s material gives you some important background on how website works in what we commonly call "front end" layer. Note that we limit our topics to what happens on the web browser and that typical sites would have code written that is executed on the server side that generates the HTML.'
 uri: 'Beginners/the beginning'
 
 ---
-# Part 1: The beginning
+## <span>Summary</span>
 
-## Summary
+The very first part of our beginner's material gives you some important background on how website works in what we commonly call &quot;front end&quot; layer. Note that we limit our topics to what happens on the web browser and that typical sites would have code written that is executed on the server side that generates the HTML.
 
-The very first part of our beginner's material gives you some important background on how website works in what we commonly call "front end" layer. Note that we limit our topics to what happens on the web browser and that typical sites would have code written that is executed on the server side that generates the HTML.
-
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -31,9 +29,9 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-## Course Introduction
+## <span>Course Introduction</span>
 
-### Who is this for?
+### <span>Who is this for?</span>
 
 Our beginner’s guide is written for complete beginners to the world of website code, who don't know what to learn first, and just need a single point that will lead them in the right direction with confidence. This series of articles guides you through all the basics of web design and development, so you can get up to speed relatively quickly, learning just enough to not feel lost and overwhelmed, and get comfortable with the area in general.
 
@@ -43,13 +41,13 @@ Also, this course is for front-end web developers. That means we teach you how t
 
 If any term is hard to understand, kindly refer to the [glossary for beginners](/Beginners/glossary). Happy reading!
 
-### What it will teach, and what it won't
+### <span>What it will teach, and what it won't</span>
 
 This course will teach you enough about web design and front-end development that you'll be free to explore on your own and experiment with the technologies that make the web work. In short, you'll be confident and comfortable with the usage and coding of web technologies like HTML, CSS, and JavaScript. Further, it will make you familiar with the structuring, planning, and testing of websites, offline or online.
 
 This course won't teach you about back-end processing and server-side scripting. Also, this course specifically won't go in much details of other interesting and efficient web technologies like SVGs, accessibility best practices, or JavaScript APIs. For learning them, you'll have to visit our [main page](/Main_Page).
 
-## What is the web?
+## <span>What is the web?</span>
 
 The Internet is a global network of networks of computers that connects computers from all around the world. The World Wide Web, or web, is a virtually interconnected spiderweb-like nexus (and thus the name) of information connected to each other by **links**. In short, the World Wide Web is a part of the Internet. There are other services under the Internet too, like emails, fax, FTP, microblogging, instant messaging, etc..
 
@@ -72,7 +70,7 @@ Read [How does the Internet work?](/concepts/internet_and_web/how_does_the_inter
 
 This may sound complicated, but most of this is done transparently, without you having to worry about it. As a beginning web developer, the part you have to worry about is the making of the actual chocolate: That is, the website's content. You don't need to worry about the packaging that is HTTP because web servers deal with that. You just need to make the chocolate because you're the chocolate maker, not the delivery van driver. Have fun!
 
-## Why is the web such a good thing and why should you learn?
+## <span>Why is the web such a good thing and why should you learn?</span>
 
 The web is the future and the next human revolution. Soon, we'll see smart devices taking over our traditional world. Our televisions, phones, computers, and even other devices like refrigerators, cars, printers, gaming consoles, are going to be integrated seamlessly. The web is going to do that.
 
@@ -82,7 +80,7 @@ Under these conditions, the web is going to get very big. Desktops aren't the we
 
 ![webfuture.png](/assets/public/e/e7/webfuture.png)
 
-## What is accessibility and why is it important
+## <span>What is accessibility and why is it important</span>
 
 Accessibility is the practice for designing the web for all, not just the visual browsers. There are many devices that aren't like the traditional pieces of software, like screen readers, Braille output, magnifiers, joysticks, etc. As Jennifer Robbins puts it,
 
@@ -90,7 +88,7 @@ Accessibility is the practice for designing the web for all, not just the visual
 
 It's common good practice and a human expression to make our websites accessible.
 
-## Bricks of websites: HTML, CSS, JavaScript
+## <span>Bricks of websites: HTML, CSS, JavaScript</span>
 
 Websites are generally documents. In fact, you can create a website from a simple text editor. However, these documents use special markup for different elements, and one can further enhance their looks by styling those elements. For now, you don't have to worry about the style part.
 
@@ -114,7 +112,7 @@ The following snippet of HTML code:
 
 results in the following:
 
-# The title of my story
+# <span>The title of my story</span>
 
 It was a dark and stormy night. Somewhere, an owl hooted.
 
@@ -133,7 +131,7 @@ Let's apply the power of CSS to our above snippet:
 
 This results in the following:
 
-# The title of my story
+# <span>The title of my story</span>
 
 It was a dark and stormy night. Somewhere, an owl hooted.
 

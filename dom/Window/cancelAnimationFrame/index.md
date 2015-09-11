@@ -1,48 +1,54 @@
 ---
 title: cancelAnimationFrame
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[cancelAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/Window.cancelAnimationFrame) Article]'
+  - 'Microsoft Developer Network: [[cancelAnimationFrame Method](http://msdn.microsoft.com/en-us/library/windows/apps/hh453388.aspx) Article]'
+notes:
+  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces.'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+standardization_status: Non-Standard
+summary: 'Cancels a requestAnimationFrame request'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: Non-Standard
-notes:
-  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces.'
-summary: 'Cancels a requestAnimationFrame request'
 uri: dom/Window/cancelAnimationFrame
 
 ---
-# cancelAnimationFrame
-
-## Summary
+## <span>Summary</span>
 
 Cancels a requestAnimationFrame request
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  window.cancelAnimationFrame(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### handle
+### <span>handle</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  A handle of the animation request to cancel. The handle is the value returned by [**requestAnimationFrame**](/dom/Window/requestAnimationFrame).
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -88,21 +94,12 @@ div { position: absolute; left: 10px; top:100px; padding: 50px;
 </html>
 ```
 
-## Usage
+## <span>Usage</span>
 
      Script based animations.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Timing control for script-based animations](http://go.microsoft.com/fwlink/p/?linkid=229562)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[cancelAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/Window.cancelAnimationFrame) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[cancelAnimationFrame Method](http://msdn.microsoft.com/en-us/library/windows/apps/hh453388.aspx) Article]
-

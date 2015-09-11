@@ -1,47 +1,63 @@
 ---
 title: border-image-outset
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-outset)'
+code_samples:
+  - 'http://gist.github.com/5622268'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0`'
+  'Applies to': 'all elements, except internal table elements when `border-collapse` is set to `collapse`.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'all length made absolute, otherwise as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderImageOutset`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The border-image-outset property describes, by which amount the border image area extends beyond the border box.'
-code_samples:
-  - 'http://gist.github.com/5622268'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-image-outset
 
 ---
-# border-image-outset
-
-## Summary
+## <span>Summary</span>
 
 The border-image-outset property describes, by which amount the border image area extends beyond the border box.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
+
 Applies to
 :   all elements, except internal table elements when `border-collapse` is set to `collapse`.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   all length made absolute, otherwise as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderImageOutset`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-image-outset: <length>`
 -   `border-image-outset: inherit`
 
-## Values
+## <span>Values</span>
 
 \<length\>
 :   Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px). For more information about the supported length units, see CSS Values and Units Reference (Length). This length must not be negative.
@@ -49,11 +65,11 @@ Percentages
 inherit
 :   Is a keyword indicating that all four values are inherited from their parent's element calculated value.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing multiple \<div\>s, identical in style except that they have different border-image-outset properties applied to them.
 
-``` {.html}
+``` html
 <div class="pattern one">one</div>
 <div class="pattern two">two</div>
 <div class="pattern three">three</div>
@@ -62,7 +78,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 
 [View live example](http://code.webplatform.org/gist/5622268)
 
-``` {.css}
+``` css
 /* This general class will apply the pattern to the containers */
 .pattern {
     border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
@@ -95,24 +111,22 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 
 [View live example](http://code.webplatform.org/gist/5622268)
 
-## Usage
+## <span>Usage</span>
 
      * Up to four different values can be specified, in the following order: top, right, bottom, left.
 
 -   If one value is specified, it is used for all four sides. If two values are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three values are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-image-outset)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -172,13 +186,6 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-outset)
-

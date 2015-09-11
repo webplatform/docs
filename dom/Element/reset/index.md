@@ -1,66 +1,109 @@
 ---
 title: reset
-tags:
-  - Events
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs summary and compat'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onreset.htm'
+notes:
+  - 'Needs summary and compat'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+tags:
+  - Events
 uri: dom/Element/reset
 
 ---
-# reset
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example demonstrates how to use the **onreset** event for a **form** object. Reset the form by clicking the first or second button. The only difference between the two buttons is that the second button invokes the [**reset**](/dom/HTMLFormElement/reset) method and the first button is of **input type=reset**. When either button is pressed the **form** is reset, resulting in the **onreset** event call on the **form** object. The **onreset** event calls an event handler which in turn adds the text `Resetting form.` to the text area below.
 
-    <HTML>
-    <HEAD>
-    <SCRIPT>
-    function doReset(){
-        oTextArea1.innerText += "Resetting form.  ";
-    }
-    </SCRIPT>
-    </HEAD>
-    <BODY>
-    <FORM name="form1" onreset="doReset();"
-        <B>Form</B><BR>
-        style="border:2px solid #cccccc; background:#EEEEEE; padding:10px; ">
-        <b>Enter some text:</b>
-        <INPUT type="text" name="oText1" value=""><BR><BR>
-        <INPUT TYPE="reset" value="Input type=reset"/>
-        <BUTTON onclick="form.reset();">form.reset()</BUTTON>
-    </FORM>
-    <B>Form status</B><BR>
-    <SPAN id="oTextArea1" ></SPAN>
-    <BR><BR>
-    <BUTTON onclick="location.reload(true);">Refresh Page</BUTTON>
-    </BODY>
-    </HTML>
+``` html
+<HTML>
+<HEAD>
+<SCRIPT>
+function doReset(){
+    oTextArea1.innerText += "Resetting form.  ";
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM name="form1" onreset="doReset();"
+    <B>Form</B><BR>
+    style="border:2px solid #cccccc; background:#EEEEEE; padding:10px; ">
+    <b>Enter some text:</b>
+    <INPUT type="text" name="oText1" value=""><BR><BR>
+    <INPUT TYPE="reset" value="Input type=reset"/>
+    <BUTTON onclick="form.reset();">form.reset()</BUTTON>
+</FORM>
+<B>Form status</B><BR>
+<SPAN id="oTextArea1" ></SPAN>
+<BR><BR>
+<BUTTON onclick="location.reload(true);">Refresh Page</BUTTON>
+</BODY>
+</HTML>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onreset.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Executes associated code. To invoke this event, do one of the following:
 
@@ -94,20 +137,14 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

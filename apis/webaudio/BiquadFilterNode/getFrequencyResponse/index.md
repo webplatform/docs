@@ -1,69 +1,73 @@
 ---
 title: getFrequencyResponse
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webaudio/BiquadFilterNode
+    href: /apis/webaudio/BiquadFilterNode
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/webaudio/BiquadFilterNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Given the current filter parameter settings, calculates the frequency response for the specified frequencies.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Given the current filter parameter settings, calculates the frequency response for the specified frequencies.'
 uri: apis/webaudio/BiquadFilterNode/getFrequencyResponse
 
 ---
-# getFrequencyResponse
-
-## Summary
+## <span>Summary</span>
 
 Given the current filter parameter settings, calculates the frequency response for the specified frequencies.
 
-*Method of [apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)*
+Method of [apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)[apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = BiquadFilterNode.getFrequencyResponse(frequencyHz, magResponse, phaseResponse);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### frequencyHz
+### <span>frequencyHz</span>
 
- Data-typeÂ
+ Data-type
 :   void
 
  Specifies an array of frequencies at which the response values will be calculated.
 
-### magResponse
+### <span>magResponse</span>
 
- Data-typeÂ
+ Data-type
 :   void
 
  Specifies an output array receiving the linear magnitude response values.
 
-### phaseResponse
+### <span>phaseResponse</span>
 
- Data-typeÂ
+ Data-type
 :   void
 
  Specifies an output array receiving the phase response values in radians.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var biquadFilter = audioCtx.createBiquadFilter();
 biquadfilter.getFrequencyResponse(myFrequencyArray,magResponseOutput,phaseResponseOutput);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

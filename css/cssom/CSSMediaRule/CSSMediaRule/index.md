@@ -1,5 +1,10 @@
 ---
 title: CSSMediaRule
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Summary and examples are needed. Members can use links or clarification of tokens.'
+readiness: 'In Progress'
 tags:
   - Pages
   - using
@@ -11,58 +16,56 @@ tags:
   - API
   - Objects
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Summary and examples are needed. Members can use links or clarification of tokens.'
 uri: css/cssom/CSSMediaRule/CSSMediaRule
 
 ---
-# CSSMediaRule
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [cssRules](/css/cssom/CSSMediaRule/cssRules)
 :   Gets a list of rules within a @media block.
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [deleteRule](/css/cssom/CSSMediaRule/deleteRule)
 :   Deletes a CSSRule (representing a selector and all its properties) from the block of rules controlled by this @media rule; the rule to be deleted is specified by index.
+
 [insertRule](/css/cssom/CSSMediaRule/insertRule)
 :   Inserts a new rule to a media block.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Style Specification](http://go.microsoft.com/fwlink/p/?linkid=203741), Section 2.2
 
-### Members
+### <span>Members</span>
 
 The **CSSMediaRule** object has these types of members:
 
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### Methods
+#### <span>Methods</span>
 
 The **CSSMediaRule** object has these methods. {
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -118,13 +121,9 @@ The **CSSMediaRule** object has these methods. {
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -164,17 +163,54 @@ The **CSSMediaRule** object has these methods. {
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `IHTMLCSSMediaRule`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

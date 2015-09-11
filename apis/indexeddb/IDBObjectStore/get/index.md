@@ -1,116 +1,106 @@
 ---
 title: get
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBObjectStore
+    href: /apis/indexeddb/IDBObjectStore
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBObjectStore
+summary: 'Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.'
 uri: apis/indexeddb/IDBObjectStore/get
 
 ---
-# get
-
-## Summary
+## <span>Summary</span>
 
 Runs the steps for asynchronously executing a request and returns the IDBRequest created by these steps.
 
-*Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)*
+Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.get(key);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### key
+### <span>key</span>
 
- Data-type�
+ Data-type
 :   Blob
 
  The key value of the record to be retrieved.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
-<dl data-table="wikitable">
+<table>
+<col width="50%" />
+<col width="50%" />
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Exception properties</strong></td>
+<td align="left"><strong>Description</strong></td>
+</tr>
+<tr class="even">
+<td align="left"><dl>
+<p></p>
 <dt>
-**Exception properties**
-
+<strong>name</strong>: DataError
 </dt>
-<dd>
-**Description**
-
-</dd>
+</dl></td>
+<td align="left">The <strong>key</strong> parameter value is not valid.</td>
+</tr>
+<tr class="odd">
+<td align="left"><dl>
+<p></p>
 <dt>
-<dl>
-
-<dt>
-**name**: DataError
-
-</dt>
-</dl>
-</dt>
-<dd>
-The **key** parameter value is not valid.
-
-</dd>
-<dt>
-<dl>
-
-<dt>
-**name**: InvalidStateError
-
+<strong>name</strong>: InvalidStateError
 </dt>
 <dt>
-**code**: DOMException.INVALID\_STATE\_ERR (11)
-
+<strong>code</strong>: DOMException.INVALID_STATE_ERR (11)
 </dt>
-</dl>
-</dt>
-<dd>
-The object store has been deleted or is otherwise unavailable.
-
-</dd>
+</dl></td>
+<td align="left">The object store has been deleted or is otherwise unavailable.</td>
+</tr>
+<tr class="even">
+<td align="left"><dl>
+<p></p>
 <dt>
-<dl>
-
-<dt>
-**name**: TransactionInactiveError
-
+<strong>name</strong>: TransactionInactiveError
 </dt>
-</dl>
-</dt>
-<dd>
-The associated transaction is not active.
+</dl></td>
+<td align="left">The associated transaction is not active.</td>
+</tr>
+</tbody>
+</table>
 
-</dd>
-</dl>
   **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

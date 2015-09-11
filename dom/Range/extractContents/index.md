@@ -1,89 +1,84 @@
 ---
 title: extractContents
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.extractContents](https://developer.mozilla.org/en-US/docs/Web/API/Range.extractContents) Article]'
+  - 'Microsoft Developer Network: [[extractContents Method](http://msdn.microsoft.com/en-us/library/ie/ff975443(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Range
+    href: /dom/Range
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Range
+standardization_status: 'W3C Recommendation'
+summary: 'Removes the contents of a range from a document or document fragment and puts it a new document fragment.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Removes the contents of a range from a document or document fragment and puts it a new document fragment.'
 uri: dom/Range/extractContents
 
 ---
-# extractContents
-
-## Summary
+## <span>Summary</span>
 
 Removes the contents of a range from a document or document fragment and puts it a new document fragment.
 
-*Method of [dom/Range](/dom/Range)*
+Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var documentFragment = range.extractContents(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### oDocumentFragment
+### <span>oDocumentFragment</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  Returns an object that contains the extracted content.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
 This method can return one of these values.
 
-Return code
-:   Description
-S\_OK
-:   The operation completed successfully.
-InvalidStateError
-:   detach has been invoked on the object.
-W3Exception\_DOM\_HIERARCHY\_REQUEST\_ERR
-:   A document type node is included in the range that is being cloned.
-W3Exception\_DOM\_NO\_MODIFICATION\_ALLOWED\_ERR
-:   A node or portion of the content in the range is read-only.
+|Return code|Description|
+|:----------|:----------|
+|S\_OK|The operation completed successfully.|
+|InvalidStateError|detach has been invoked on the object.|
+|W3Exception\_DOM\_HIERARCHY\_REQUEST\_ERR|A document type node is included in the range that is being cloned.|
+|W3Exception\_DOM\_NO\_MODIFICATION\_ALLOWED\_ERR|A node or portion of the content in the range is read-only.|
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 range = document.createRange();
 range.selectNode(document.getElementsByTagName("div").item(0));
 documentFragment = range.extractContents();
 document.body.appendChild(documentFragment);
 ```
 
-## Notes
+## <span>Notes</span>
 
 Event Listeners added using DOM Events are not retained during extraction. HTML attribute events are retained or duplicated as they are for the Node.cloneNode() method. HTML id attributes are also cloned, which can lead to an invalid document if a partially-selected node is extracted and appened to the document.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM](http://dom.spec.whatwg.org/#dom-range-extractcontents)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.extractContents](https://developer.mozilla.org/en-US/docs/Web/API/Range.extractContents) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[extractContents Method](http://msdn.microsoft.com/en-us/library/ie/ff975443(v=vs.85).aspx) Article]
-

@@ -1,36 +1,43 @@
 ---
 title: getElementById
+notes:
+  - 'Needs spec reference, usage, example'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/shadowdom/ShadowRoot
+    href: /dom/shadowdom/ShadowRoot
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/shadowdom/ShadowRoot
+standardization_status: 'W3C Working Draft'
+summary: 'Just like Document.getElementById except that it only works within the scope of this ShadowRoot''s shadow tree.'
 tags:
   - API
   - Object
   - Methods
   - DOM
   - Shadow
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs spec reference, usage, example'
-summary: 'Just like Document.getElementById except that it only works within the scope of this ShadowRoot''s shadow tree.'
 uri: dom/shadowdom/ShadowRoot/getElementById
 
 ---
-# getElementById
-
-## Summary
+## <span>Summary</span>
 
 Just like Document.getElementById except that it only works within the scope of this ShadowRoot's shadow tree.
 
-*Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)*
+Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.getElementById();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Returns the DOM node specified by the given ID. Case matters, and if there is more than one node with the given ID, which node is returned is uncertain.
 

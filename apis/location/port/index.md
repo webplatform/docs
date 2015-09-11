@@ -1,45 +1,52 @@
 ---
-title: port
+title: window.location.port
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/location
+    href: /apis/location
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/location
+standardization_status: 'W3C Working Draft'
+summary: 'The port number the document was accessed via.'
 tags:
   - API
   - Object
   - Properties
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The port number the document was accessed via.'
 uri: apis/location/port
 
 ---
-# window.location.port
-
-## Summary
+## <span>Summary</span>
 
 The port number the document was accessed via.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/location](/apis/location)</span></span>
+Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = window.location.port;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 The port number the document was accessed via.
 
 For example, `http://example.org/` would return the default HTTP port number of `80`.
 
-## Examples
+## <span>Examples</span>
 
 The following example assumes your document has a div element with id 'hostDiv', like this.
 
-``` {.js}
+``` js
 // Get the port from window.location
 var host = window.location.port;
 
@@ -50,10 +57,7 @@ var container = document.getElementById('hostDiv');
 container.innerHTML = port;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft
-

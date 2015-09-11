@@ -1,5 +1,14 @@
 ---
 title: bgSound
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLBGSoundElement](/dom/HTMLBGSoundElement)'
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+summary: 'The bgsound element (&lt;bgsound&gt;) instructs the browser to load and play a sound file while the user is on that page. Don''t use it. Use the audio element instead.'
 tags:
   - Pages
   - using
@@ -11,30 +20,23 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
-summary: 'The bgsound element (<bgsound>) instructs the browser to load and play a sound file while the user is on that page. Don''t use it. Use the audio element instead.'
 uri: html/elements/bgSound
 
 ---
-# bgSound
+## <span>Summary</span>
 
-## Summary
+The bgsound element (&lt;bgsound&gt;) instructs the browser to load and play a sound file while the user is on that page. Don't use it. Use the audio element instead.
 
-The bgsound element (\<bgsound\>) instructs the browser to load and play a sound file while the user is on that page. Don't use it. Use the audio element instead.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLBGSoundElement](/dom/HTMLBGSoundElement)
 
-## Examples
+## <span>Examples</span>
 
 If you want to use sound, please use the [audio](/html/elements/audio) element:
 
-``` {.html}
+``` html
 
 
 <audio autoplay id="bgsound">
@@ -52,25 +54,25 @@ If you want to use sound, please use the [audio](/html/elements/audio) element:
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The `<bgSound>` element can appear anywhere within the document. This element is not rendered. This element does not require a closing tag. Do not use it! In HTML5 the `<bgSound>` is described as ["non-conforming feature"](http://www.w3.org/TR/html5/obsolete.html#non-conforming-features).
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### HTML information
+### <span>HTML information</span>
 
 {
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Audio
+#### <span>Audio</span>
 
 -   [audio-video](/apis/audio-video)
 
@@ -84,8 +86,6 @@ There are no standards that apply here.
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
--   [user-input](/css/properties/user-input)
-
 -   **bgSound**
 
 -   [bgsound](/html/elements/bgSound/ja)
@@ -93,10 +93,3 @@ There are no standards that apply here.
 -   [implementing html5 audio](/tutorials/implementing_html5_audio)
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

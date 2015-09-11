@@ -1,42 +1,58 @@
 ---
 title: vertical-align
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6960125'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`baseline`'
+  'Applies to': 'inline-level and ‘table-cell’ elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'refers to the ‘line-height’ of the element itself'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The vertical-align property controls how inline elements or text are vertically aligned compared to the baseline. If this property is used on table-cells it controls the vertical alignment of content of the table cell.'
-code_samples:
-  - 'http://gist.github.com/6960125'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/vertical-align
 
 ---
-# vertical-align
-
-## Summary
+## <span>Summary</span>
 
 The vertical-align property controls how inline elements or text are vertically aligned compared to the baseline. If this property is used on table-cells it controls the vertical alignment of content of the table cell.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `baseline`
+
 Applies to
 :   inline-level and ‘table-cell’ elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   refers to the ‘line-height’ of the element itself
 
-## Syntax
+## <span>Syntax</span>
 
 -   `vertical-align: <length>`
 -   `vertical-align: <percentage>`
@@ -49,7 +65,7 @@ Percentages
 -   `vertical-align: text-top`
 -   `vertical-align: top`
 
-## Values
+## <span>Values</span>
 
 baseline
 :   Default. Vertically aligns the content with the baseline of its parent.
@@ -81,11 +97,11 @@ top
 bottom
 :   Vertically aligns the content and its descendants to the bottom of the text line.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the `vertical-align` property to align text within a table cell.
 
-``` {.html}
+``` html
 <table>
   <tr>
     <td style='vertical-align: top;'>Top aligned</td>
@@ -97,16 +113,7 @@ This example uses the `vertical-align` property to align text within a table cel
 
 [View live example](http://code.webplatform.org/gist/6960125)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/visudet.html#propdef-vertical-align)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

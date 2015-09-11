@@ -1,31 +1,33 @@
 ---
 title: initialize
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'No editing form'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/methods/initialize
 
 ---
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 If the inserted item is already in the list, the **initialize** method removes the item from its previous list before it is inserted into this list. The inserted item is the item itself and not a copy.
 
-### Syntax
+### <span>Syntax</span>
 
     ISVGTransform retVal = object.initialize(newItem);
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.4
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGLengthList**](/svg/objects/SVGLengthList)
 -   [**SVGNumberList**](/svg/objects/SVGNumberList)
@@ -33,10 +35,3 @@ If the inserted item is already in the list, the **initialize** method removes t
 -   [**SVGPointList**](/svg/objects/SVGPointList)
 -   [**SVGStringList**](/svg/objects/SVGStringList)
 -   [**SVGTransformList**](/svg/objects/SVGTransformList)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

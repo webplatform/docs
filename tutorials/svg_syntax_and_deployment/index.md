@@ -1,13 +1,15 @@
 ---
-title: svg syntax and deployment
+title: SVG syntax and deployment
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Getting_Started)'
+notes:
+  - 'Fix multiple broken links'
+readiness: 'In Progress'
+summary: 'This article shows the basic syntax and usage of SVG.'
 tags:
   - Tutorials
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Fix multiple broken links'
-summary: 'This article shows the basic syntax and usage of SVG.'
-uri: 'tutorials/svg syntax and deployment'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -16,15 +18,14 @@ todo_broken_links:
     - 'Namespaces Crash Course'
     - 'this dedicated article'
     - 'on the next page'
+uri: 'tutorials/svg syntax and deployment'
 
 ---
-# SVG syntax and deployment
-
-## Summary
+## <span>Summary</span>
 
 This article shows the basic syntax and usage of SVG.
 
-## A Simple Example
+## <span>A Simple Example</span>
 
 Let us dive straight in with a simple example. Take a look at the following code.
 
@@ -55,7 +56,7 @@ The rendering process involves the following:
 4.  A green circle [[\<circle/\>]] with a radius of 80px is drawn atop the center of the red rectangle (offset 30+120px inward, and 50+50px upward).
 5.  The text "SVG" is drawn. The interior of each letter is filled in with white. The text is positioned by setting an anchor at where we want the midpoint to be: in this case, the midpoint should correspond to the center of the green circle. Fine adjustments can be made to the font size and vertical position to ensure the final result is aesthetically pleasing.
 
-### Basic properties of SVG files
+### <span>Basic properties of SVG files</span>
 
 -   The first important thing to notice is the order of rendering of elements. The globally valid rule for SVG files is, that *later* elements are rendered *atop previous* elements. The further down an element is the more will be visible.
 -   SVG files on the web can be displayed directly in the browser or embedded in HTML files via several methods:
@@ -75,15 +76,8 @@ The rendering process involves the following:
 -   See [this dedicated article](/w/index.php?title=this_dedicated_article&action=edit&redlink=1) for an in-depth dealing with the topic.
 -   How SVG handles sizes and units will be explained [on the next page](/w/index.php?title=on_the_next_page&action=edit&redlink=1).
 
-### SVG File Types
+### <span>SVG File Types</span>
 
 SVG files come in two flavors. Normal SVG files are simple text files containing SVG markup. The recommended filename extension for these files is ".svg" (all lowercase).
 
 Due to the potentially massive size SVG files can reach when used for some applications (e.g., geographical applications), the SVG specification also allows for gzip-compressed SVG files. The recommended filename extension for these files is ".svgz" (all lowercase). Unfortunately it is very problematic to get gzip-compressed SVG files to work reliably across all SVG capable user agents when served from Microsofts IIS server, and Firefox can not load gzip-compressed SVG from the local computer. Avoid gzip-compressed SVG except when you are publishing to a webserver that you know will serve it correctly. For normal SVG files, servers should send the `Content-Type: image/svg+xml` HTTP header. For gzip-compressed SVG files, servers should also send the `Content-Encoding: gzip` header.
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/SVG/Tutorial/Getting_Started)
-

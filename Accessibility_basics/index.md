@@ -1,21 +1,19 @@
 ---
 title: Accessibility basics
-tags:
-  - Tutorials
-  - Accessibility
 notes:
   - 'http://docs.webplatform.org/wiki/concepts/accessibility/accessibility_basics'
 summary: 'This page refers to the inclusive practice of making websites usable by people of all abilities and disabilities.'
+tags:
+  - Tutorials
+  - Accessibility
 uri: 'Accessibility basics'
 
 ---
-# Accessibility basics
-
-## Summary
+## <span>Summary</span>
 
 This page refers to the inclusive practice of making websites usable by people of all abilities and disabilities.
 
-## Introduction
+## <span>Introduction</span>
 
 When you create a web site, accessibility—making the web site usable by everyone, regardless of their ability or disability—should always be a central concern. So far in this course accessibility has always been implicit in all the examples you’ve seen, even if you didn’t realise it; in this [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) article I’ll now look at accessibility explicitly, so you can understand fully what it is, why it is important, how to ensure that sites are accessible, and what guidelines exist to define accessible sites.
 
@@ -25,7 +23,7 @@ Note that an associated topic to learn about is [WAI ARIA](http://www.w3.org/WAI
 
 Stella Systems have made a wonderful video that uses the text from the first part of this article as spoken word dialog, along with fantastic illustrations, and English and Russian subtitles. [Watch the video on youtube](http://www.youtube.com/watch?v=B-ERNJgAJ7s). Thanks to Dmitry Nechiporenko, Anton Pashchenko, Lucy Stepanovska and Leonid Strorozhuk for this.
 
-## What is Accessibility?
+## <span>What is Accessibility?</span>
 
 Look around. Hopefully you will see some other people; if you don’t, why not take a quick walk? You’d probably enjoy it and it would do you good. None of the people you will see around you are the same—some have brown hair, some don’t. Some have blue eyes, some don’t. Some wear glasses, some don’t. None of us are completely alike. Some differences like hair or eye colour are cosmetic—they don’t significantly affect the way we live our lives. Some differences, like wearing glasses, do. Accessibility is a simple thing, a philosophy, although in some countries it is also part of the law.
 
@@ -44,7 +42,7 @@ So, what does this mean for web site developers? The short answer is that you ne
 
 Don’t worry about the specific details of these interactions— we’ll go through those step by step next.
 
-## Why is Accessibility important?
+## <span>Why is Accessibility important?</span>
 
 Accessibility is important for one big reason and a whole lot of little ones. The main one is that *we are all different and yet we all have an equal right to use web sites*, but there are lots of other reasons why you should make accessibility considerations a part of how you build web sites:
 
@@ -57,7 +55,7 @@ Accessibility is important for one big reason and a whole lot of little ones. Th
 
 Now I will move on to look at some of these points in more detail.
 
-### The legalities of accessibility
+### <span>The legalities of accessibility</span>
 
 Note: it’s important to understand the basics of the legal stuff but unless you are a lawyer and really know what you are talking about, you should take extreme care giving an opinion about legal issues.
 
@@ -65,31 +63,31 @@ In the UK, under the [DDA](http://www.direct.gov.uk/en/DisabledPeople/index.htm)
 
 In the USA and European Union there are also requirements for Governmental web sites. In the USA, federal government (and some state government) web sites are expected to abide by [Section 508](http://www.section508.gov/). Section 508 is a document that tries to define what the minimum requirements are to achieve accessiblity. Section 508 covers more than just web sites; it also deals with any other technology that might be used by a federal employee. In Europe the European Commission has recognised the W3C’s Web Accessibility Initiative (WAI) and recommended it for use with all member states. The [WAI](http://w3.org/WAI) produces guidelines for web sites, web authoring tool manufacturers and web browsers (for example, the WCAG, which I’ll look at later on.)
 
-### Potential Markets
+### <span>Potential Markets</span>
 
 When you only make web sites (or anything else) for one specific type of person you are excluding other types of people even if you don’t realise it, and these people can easily add up to a significant (if not a majority) market share. In 2000 the UK supermarket chain Tesco started a project to make a separate version of their online grocery site specifically targetting people with visual impairments. It was noted by Julie Howell of the RNIB that “Work undertaken by Tesco.com to make their home grocery service more accessible to blind customers has resulted in revenue in excess of £13m per annum, revenue that simply wasn’t available to the company when the web site was inaccessible to blind customers.” So if Tesco hadn’t considered people with visual impairments they would have been missing out on a market of customers that was worth at least £13 million.
 
 The core lesson here is that people of all abilities need the same services; groceries, taxis, electricity; and enjoy the same things; films, music, bars. Assuming that someone’s personal situation in life changes their ability or desire to participate in all aspects of society has been shown to be a mistake time and time again.
 
-### Search Engines
+### <span>Search Engines</span>
 
 Search engines are not people. Often when people build web sites they do it without considering how they are going to be found on Google, Yahoo, etc. Search engines are just computer programs, and they can only use information they can understand to index your site. This makes them much like the screen readers that a person with a visual impairment might use.
 
 The most obvious example of how this affects web design is images. Computers display images by having a list of what colour every pixel is and sending that information to the monitor. If you put an image on a web page that contains some text, for example a logo, the computer has no idea what that text says or even that the image contains text. In HTML the image element contains a way to describe in text the contents of an image, the `alt` attribute. You should provide text to describe all non-decorative images on your site, and you certainly shouldn’t represent whole paragraphs of text as images (or Flash for that matter)—blind people and search engines won’t have a clue what the text says! As a result, your search engine ranking (ie how easy it is to find your web site using search engines such as Google) will suffer and you’ll be needlessly missing out on a valuable market.
 
-### Ethics and branding
+### <span>Ethics and branding</span>
 
 While everyone *should* support Accessibility, it doesn’t mean that everyone does. By supporting accessibility you are acting in the best interests of the community. This is something you can be proud of—showing that you care about everyone in society can only enhance a brand image. As professionals it’s our job to try and produce the best quality output we can. In a society that values us as individuals it’s important to not exclude someone because they have different needs.
 
 By making responsible choices in policy and genuinely demonstrating that you are implementing those policies you can create an extremely positive brand image. Companies that show that they care about their customers will retain much more loyalty than those that don’t.
 
-## Designing with Accessibility in mind
+## <span>Designing with Accessibility in mind</span>
 
 The key to accessibility is thinking about a problem and knowing you are going to solve it for more than one kind of user. If you try to treat accessibility like something you can bolt on at the end then you will get a nasty-bolted-on-at-the-end thing. It’ll take longer, won’t work as well and look damned ugly.
 
 The best way to achieve a well-engineered solution is to design with all the requirements in mind from the start. This doesn’t mean you shouldn’t change your plan or add some things you missed, but you should try to be aware of what the complete problem you are trying to design for is. In the case of web sites this means creating a solution usable by all your users including those who may not be able to use a mouse, or a keyboard, or a monitor, etc.
 
-## Interoperability requirements
+## <span>Interoperability requirements</span>
 
 Interoperability requirements are especially likely to vary from situation to situation.
 
@@ -116,11 +114,11 @@ For example, you might be developing an intranet training application for a larg
 
 Organizational IT policies may change, and the best attempts to make JavaScript functionality operable and exploit the accessibility feature-sets of plugins may fail, so even if you have a technology baseline progressive enhancement from a core HTML layer is still a good idea.
 
-## Features of an accessible web page
+## <span>Features of an accessible web page</span>
 
 In this section I will go through the different accessible features of a web site—that is, what an accessible web site should contain. I’ll explain each one in detail.
 
-### Semantic structure
+### <span>Semantic structure</span>
 
 One of the foundations of web standards is the use of semantic structure in HTML. Semantic structure is also extremely important for accessibility. This is because it provides the framework for the information on the page. When people can’t see the visual style of the page, the semantic structure helps to indicate a number of things to them. It can indicate their position in the heirarchy of the document and the ways they can interact with the different elements of the page, as well as providing emphasis to textual content in the right places.
 
@@ -136,7 +134,7 @@ By having navigation menus structured as lists it is easy to let someone using a
 
 You can find more information on how to use the correct semantics in your HTML in many of the earlier articles in the course, mainly the ones that cover HTML.
 
-### Alternative content
+### <span>Alternative content</span>
 
 As mentioned in the [section about search engines](http://www.w3.org/wiki/Accessibility_basics#Search_Engines), ensuring that there is an accessible alternative to content and navigation is essential. Text is considered the universal currency of content with one alternative, as you’ll see below. Text can be easily read aloud by a screen reader, made bigger or smaller, have its contrast easily altered and many other transformations. It’s because it is so easy to manipulate text that more exotic forms of content should have a text-based alternative to them. Some formats, like the newer versions of Flash, have text access built into them so that the textual content within them can be accessed directly without needing to provide an alternative for the whole medium.
 
@@ -144,7 +142,7 @@ The one disability group that a text alternative can’t necessarily support is 
 
 How should you implement text alternatives on your site? The first step is to identify things that aren’t already text. In HTML there are only so many things that aren’t already text. Images are the most obvious ones. Here is an example of an accessible use of an image:
 
-``` {.html}
+``` html
 <p>An interesting piece of art is Michelangelo’s “God creates Adam”
 <img src="images/adam.jpg"
           alt="A painting of a man reaching up to touch God’s hand reaching down. It is cracked with age."
@@ -159,7 +157,7 @@ In the case of purely decorative images, images used for tracking adverts, or an
 
 Not all forms of content are as simple as an image. More complex media like Flash (Flash files can be whole web sites in themselves) or movies require more complex descriptions. The most recent versions of Flash allow you to provide text alternatives for the items within the Flash movie, just like in HTML.
 
-### Defining interaction
+### <span>Defining interaction</span>
 
 A lot of today’s web involves the use of technologies in addition to HTML. Even something as basic as CSS can be used in ways that make a page or interaction much less accessible. The key to accessibility in interaction is starting with the simplest interactions and using those as the building blocks of more complex interactions.
 
@@ -232,11 +230,11 @@ By creating the interaction first, the markup is cleaner and all users of the si
 
 This is the core to understanding how to do accessible interaction. One of the great things about HTML is that the hard work of figuring out how to make the interactions in HTML accessible has already been done. As long as you don’t use the technologies on top of HTML to break the metaphor you can make most things work for most people without much effort.
 
-## Standards for Accessibility
+## <span>Standards for Accessibility</span>
 
 In this section we will review some of the standards and guidelines available that aim to define web accessibility, and help web developers to create accessible sites. Most of these systems include some kind of check list system so developers can check how their sites match up to different accessibility criteria.
 
-### Web Content Accessibility Guidelines 2.0
+### <span>Web Content Accessibility Guidelines 2.0</span>
 
 The W3C is one of the primary standards bodies on the internet. Their Web Accessibility Initiative (WAI) publishes guidelines for making web sites accessible. The Web Content Accessibility Guidelines version 1.0 (WCAG1.0) from 1999 were the most widely used standard for accessibility on the web. The use of these guidelines had been suggested or mandated by a number of governmental bodies including the EU and various member states.
 
@@ -268,7 +266,7 @@ WCAG 2 then gives a complete picture on the [intents of this particular criterio
 
 The same structure and basic ideas are true for virtually all of WCAG 2, so let's have a look at them.
 
-#### Ensuring Accessibility – the WCAG 2.0 way
+#### <span>Ensuring Accessibility – the WCAG 2.0 way</span>
 
 There are four basic Principles: Perceivable, Operable, Understandable, Robust - mnemonic POUR.
 
@@ -319,13 +317,13 @@ Guideline 1. Provide equivalent alternatives to auditory and visual content.
 
 Technique G94: Providing short text alternative for non-text content that serves the same purpose and presents the same information as the non-text content [...] Examples: A search button uses an image of a magnifying glass. The text alternative is "search" and not "magnifying glass".
 
-#### A, AA or AAA? Levels of Conformance – must, should, can
+#### <span>A, AA or AAA? Levels of Conformance – must, should, can</span>
 
 All success criteria describe or remedy important access issues for people with disabilities. They address problems beyond the usability problems that might be faced by all users. In other words, the access issue must cause a proportionately greater problem for people with disabilities than it causes people without disabilities in order to be considered an accessibility issue.
 
 W3C itself recommends against always targetting full AAA compliance. Most of the AAA criteria are either not applicable to all forms of web content or only to a very small subset of people with disabilities or require resources that may not be available.
 
-#### The rest of the WCAG 2.0 documents
+#### <span>The rest of the WCAG 2.0 documents</span>
 
 The central document for designers and developers is [„Understanding WCAG 2.0“](http://www.w3.org/TR/UNDERSTANDING-WCAG20/) which is intended to be used as guidance throughout the whole process of developing an accessible website.
 
@@ -333,7 +331,7 @@ Understanding WCAG 2.0 provides an extended commentary on each guideline and eac
 
 These documents of different and growing complexity can then be fed into the design and development process and used by team members as guidance on how to solve a certain problem.
 
-##### Techniques
+##### <span>Techniques</span>
 
 The [Techniques](http://www.w3.org/TR/WCAG-TECHS/complete.html) (there are literally hundreds of them) are split up in sufficient techniques and advisory techniques that may or may not enhance accessibility, but did not qualify as sufficient techniques (n.b.: when there are multiple techniques connected by "AND" then all of the techniques must be used!)
 
@@ -350,13 +348,13 @@ The [Techniques](http://www.w3.org/TR/WCAG-TECHS/complete.html) (there are liter
 -   [PDF Techniques](http://www.w3.org/TR/WCAG20-TECHS/pdf.html)
 -   [Common Failures](http://www.w3.org/TR/WCAG20-TECHS/failures.html)
 
-#### What are the differences between WCAG 1 and WCAG 2?
+#### <span>What are the differences between WCAG 1 and WCAG 2?</span>
 
 If you as a designer or developer has worked with a previous version of the WCAG guidelines, it might be helpful to know the differences between WCAG versions 1 and 2.
 
 Quite a few success criteria that were newly introduced in WCAG 2.0 revolve around the use of multimedia, video, audio etc., which may be beyond the scope of a web site.
 
-##### New Level A requirements in WCAG 2.0
+##### <span>New Level A requirements in WCAG 2.0</span>
 
 1.3.3 Sensory Characteristics: Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound.
 
@@ -370,7 +368,7 @@ WCAG 1 was largely concerned with color - up to 7% of the male population of thi
 
 3.3.2 Labels or Instructions: Labels or instructions are provided when content requires user input.
 
-##### New Level AA requirements in WCAG 2.0
+##### <span>New Level AA requirements in WCAG 2.0</span>
 
 2.4.6 Headings and Labels: Headings and labels describe topic or purpose.
 
@@ -384,7 +382,7 @@ WCAG 1 was largely concerned with color - up to 7% of the male population of thi
 2.  Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
 3.  Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
 
-##### New Level AAA requirements in WCAG 2.0
+##### <span>New Level AAA requirements in WCAG 2.0</span>
 
 Additionally there are various new requirements at Level AAA, most of which may be beyond the scope of a web project, as they revolve around the use of audio, video, sign language etc. On the other hand there are a few success criteria that may be easy to implement with a few lines of code or with a slightly different approach in design, such as:
 
@@ -416,7 +414,7 @@ Other AAA criteria may be more difficult to achieve, as they could have massive 
 -   Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
 -   Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
 
-##### Guidelines that didn't make it – deprecated criteria from WCAG 1.0
+##### <span>Guidelines that didn't make it – deprecated criteria from WCAG 1.0</span>
 
 Some outdated requirements from WCAG 1.0 are not required in WCAG 2.0 any longer and are not included in the new version (you can easily tell which ones as most of them start with “until user agents …”). If your site is not aiming to meet WCAG 1.0 anymore, then you no longer need to consider these old requirements. However, many of the old requirements from WCAG 1.0 are still beneficial and suggested as "Advisory Techniques".
 
@@ -428,7 +426,7 @@ Some of the Level AAA success criteria in guideline 3.1 as well as the Advisory 
 
 What should be the necessary reading level needs to be discussed. Generally, all of the text on any given web site (including help text, labels in forms etc.) should be checked for comprehensiveness and, if necessary edited in order to be as understandable as possible. Examples for easy to read content and further discussion of this topic can be found at [plainenglish.co.uk](http://www.plainenglish.co.uk/).
 
-### Section 508
+### <span>Section 508</span>
 
 [Section 508](http://section508.gov/) is an extension to the American Workforce Rehabilitation Act of 1973. The version of Section 508 that became law in 1998 created a process that must be followed during US Federal government procurement. This means that all government agencies in the USA that are funded by federal money must comply with the process and guidelines set down in Section 508. These guidelines cover both web accessiblity and other accessibility issues relating to computers and electronic communication. Whatever else you might have heard, there is no federal law mandating the use of Section 508 beyond the organisations described above. However, some US states and companies use Section 508 to define “accessibility” for their own procurement processes.
 
@@ -436,17 +434,17 @@ The part of Section 508 that covers web accessibility is [Subpart B § 1194.22](
 
 As of the time of writing of this article there was an ongoing investigation in to a [new version of section 508](http://webaim.org/teitac/wiki/EWG~Draft_Jan_7.php) by the Telecommunications and Electronic and Information Technology Advisory Committee (TEITAC). TEITAC presented its findings to the assessment board for Section 508 in April 2008.
 
-### Other standards
+### <span>Other standards</span>
 
 Another important standard being developed by the W3C is the [WAI-ARIA](http://www.w3.org/WAI/intro/aria) standard. This stands for Web Accessibility Initiative—Accessible Rich Internet Applications. It is a suite of documents that defines how to make complex web applications that use technologies like HTML, JavaScript and AJAX accessible. This standard is officially supported by the upcoming/current versions of most of the major browsers in the market place: Opera 9.5+, Internet Explorer 8+ and Firefox 3+.
 
 There are many other standards for web accessibility too numerous to go into much detail about. The W3C maintain an excellent [list of international policies relating to web accessibility](http://www.w3.org/WAI/Policy/)—this is a great resource to help find the policy documents relating to your local government.
 
-## Summary
+## <span>Summary</span>
 
 Accessibility is an important topic for both economic and social reasons. It is not a feature of a web site, but a measure of the quality it was built with. If you consider your site's audience as you are building it (and before) you will build more accessible pages with all the benefits that this brings. There are a number of well-known guidelines to help you—by conforming to those guidelines you can ensure that what you have built meets expert criteria in making your pages accessible.
 
-## Exercise questions
+## <span>Exercise questions</span>
 
 -   Give 3 reasons why it’s important to build accessible web sites.
 -   Use the internet to research the accessibility laws in your country and make a list of any laws that you think would apply to your web sites. Make sure you include if they ask you to use any web standards such as WCAG or Section 508.

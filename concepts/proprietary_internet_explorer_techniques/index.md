@@ -1,16 +1,14 @@
 ---
-title: proprietary internet explorer techniques
+title: Proprietary Internet Explorer Techniques
+readiness: 'In Progress'
+summary: "Back at the times of the browser wars between Microsoft and Netscape both vendors built all sorts of proprietary technology into their browsers. This had different reasons:\n"
 tags:
   - Concept
   - Pages
-readiness: 'In Progress'
-summary: "Back at the times of the browser wars between Microsoft and Netscape both vendors built all sorts of proprietary technology into their browsers. This had different reasons:\n"
 uri: 'concepts/proprietary internet explorer techniques'
 
 ---
-# Proprietary Internet Explorer Techniques
-
-## Summary
+## <span>Summary</span>
 
 Back at the times of the browser wars between Microsoft and Netscape both vendors built all sorts of proprietary technology into their browsers. This had different reasons:
 
@@ -20,11 +18,11 @@ Back at the times of the browser wars between Microsoft and Netscape both vendor
 
 So came that Microsoft's Internet Explorers learned a lot of techniques that admittedly were non-standard but that could still be very helpful in certain situations. Here we'll have a look at them.
 
-# Conditional Comments
+# <span>Conditional Comments</span>
 
 Conditional comments come along as a HTML comments with a special syntax. They allow you to hide certain parts of your document from all browsers but from Internet Explorers. E.g.:
 
-``` {.html}
+``` html
 <!--[if IE]>
 IE can see this whereas other browsers think this is an inline comment
 <![endif]-->
@@ -32,7 +30,7 @@ IE can see this whereas other browsers think this is an inline comment
 
  You can even limit visibility certain versions of IE, like IE 8 for example:
 
-``` {.html}
+``` html
 <!--[if IE 8]>
 Only IE 8 can see this
 <![endif]-->
@@ -40,7 +38,7 @@ Only IE 8 can see this
 
  or to version ranges:
 
-``` {.html}
+``` html
 <!--[if lte IE 8]>
 All IEs up to version 8 can see this (lte = lower than, or equal)
 <![endif]-->
@@ -52,7 +50,7 @@ IEs higher than version 8 can see this (gt = greater than)
 
  Also, if you need to hide sections from IE but want to make them visible to other browsers, you can to do the following:
 
-``` {.html}
+``` html
 <!--[if !IE]> -->
 This is visible to every browser except IE
 <!-- <![endif]-->
@@ -62,11 +60,11 @@ This is visible to every browser except IE
 
 Conditional comments are supported from IE 5 - 9 and were removed from IE 10. This means that IE 10 acts as if it were not belonging to the IE family.
 
-# Conditional Compilation
+# <span>Conditional Compilation</span>
 
 Conditional compilation is similar to what conditional comments are, but for JavaScript. The following is JavaScript code marked as such an will appear as comment to non-IE browsers and will only be executed by IE:
 
-``` {.js}
+``` js
 /*@cc_on @*/
  /*@if (@_jscript_version >= 5.8)
      // executed by IEs with JavaScript (aka JScript) engine >= v5.8 or higher (equals IE 8)
@@ -80,26 +78,26 @@ Conditional compilation is similar to what conditional comments are, but for Jav
 
 Conditional compilation is supported from IE 4 - 9.
 
-# Filters
+# <span>Filters</span>
 
 Filters present a way to apply certain visual effects either to page elements or to the page as a whole. They have nothing to do with the recently specified CSS Filter Effects although they both aim into the same direction. IE Filters are a lot older.
 
 A filter affecting the whole page might be a page or site enter or exit transition effect:
 
-``` {.html}
+``` html
 <meta http-equiv="Page-Enter" content="blendTrans(Duration=0.3)">
 <meta http-equiv="Page-Exit" content="blendTrans(Duration=0.3)">
 ```
 
  Effects for page elements could be for example a blur:
 
-``` {.css}
+``` css
 filter: Blur(direction=235,strength=6);
 ```
 
  A handful of these filters are not just statically applied, but they also need to be initialized via JavaScript afterwards, e.g. the Light filter:
 
-``` {.html}
+``` html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -133,7 +131,7 @@ filter: Blur(direction=235,strength=6);
 
  Multiple filters can be chained into one property by separating them with spaces:
 
-``` {.css}
+``` css
 /* Gray and blur filters applied at the same time */
 filter: Gray() Blur(direction=235,strength=6);
 ```
@@ -149,34 +147,34 @@ filter: Gray() Blur(direction=235,strength=6);
 
 Best practice is to assign `zoom: 1` since that does not have any side effects apart from triggering hasLAyout. So this means that in most cases when you wanted to apply a filter to IE \< 8 you would do this:
 
-``` {.css}
+``` css
 filter: Blur(direction=235,strength=6);
 zoom: 1;
 ```
 
  With the release of IE 5.5 Microsoft introduced a second generation of filters with a new value syntax. Whereas old filters were declared like this:
 
-``` {.css}
+``` css
 /* IE 4+ filters */
 filter: filtername(properties)
 ```
 
  the new generation is declared this way:
 
-``` {.css}
+``` css
 /* IE 5.5+ filters */
 filter: progid:DXImageTransform.Microsoft.filtername(properties)
 ```
 
  Most of the old filters got translated over into a new generation filter, but almost all got a little modified along the way. Take the old "Blur" filter for example. Since it always blurred into a certain direction it got renamed into "MotionBlur":
 
-``` {.css}
+``` css
 filter: progid:DXImageTransform.Microsoft.MotionBlur(strength=13, direction=310);
 ```
 
  And a new "Blur" filter was installed that did a blurring in place:
 
-``` {.css}
+``` css
 filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2);
 ```
 
@@ -184,7 +182,7 @@ filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2);
 
 With IE 8 came another modification to the syntax. Microsoft introduced the vendor prefixed `-ms-filter` property which apart from its name was identical to the former `filter` property. On top of that the value needed to be put into a string. The following two declarations are identical:
 
-``` {.css}
+``` css
 /* IE < 8 syntax */
 filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2);
 
@@ -196,7 +194,7 @@ filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=2);
 
 One thing to note is that up until IE 8, font antialiasing is being disabled for all text inside a filtered element that is smaller than 18px. IE 9 does not face this problem as font rendering has been improved there. For IE 8 there is a trick for restoring font antialiasing: Wrap your text into another container which has `position: relative`, like so:
 
-``` {.html}
+``` html
 <div style="filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#26ffffff,endColorstr=#26ffffff)">
     <div style="position: relative">Lorem ipsum dolor sit amet.</div>
 </div>
@@ -204,11 +202,11 @@ One thing to note is that up until IE 8, font antialiasing is being disabled for
 
  Filters are supported from IE 4 - 9 and were removed from IE 10. They were also removed from all legacy modes inside IE 10.
 
-# DHTML Behaviors
+# <span>DHTML Behaviors</span>
 
 In IE you can attach so-called "behaviors" to elements via CSS. Behaviors are scripts that can watch and modify the element. One handy advantage over using traditional page scripting is that when you attach new elements to the document tree those will automatically get a script treatment, too. A good use case is the dynamic light filter that we talked about. Assigning the filter property on its own is not enough - you always need to have a script run afterwards. Instead of doing this manually, you could put the script into a behavior file and attach that along with the filter in CSS:
 
-``` {.css}
+``` css
 filter: progid:DXImageTransform.Microsoft.Light();
 behavior: url(/scripts/redcoloredlight.htc);
 ```
@@ -217,7 +215,7 @@ behavior: url(/scripts/redcoloredlight.htc);
 
 That said, this is how the referenced `redcoloredlight.htc` would look like:
 
-``` {.js}
+``` js
 <component>
 <script type="text/javascript">
 element.filters.item('DXImageTransform.Microsoft.Light').addAmbient(255, 0, 0, 100);
@@ -229,17 +227,17 @@ element.filters.item('DXImageTransform.Microsoft.Light').addAmbient(255, 0, 0, 1
 
 Notice: Sometimes IE refuses to run a behavior script if the correct MIME type is not set. The correct type would be `text/x-component`. If you are on Apache you can set the MIME type yourself by adding this line to your `.htaccess`:
 
-``` {.html}
+``` html
 AddType text/x-component .htc
 ```
 
  Behaviors are supported from IE 4 - 9 and were removed from IE 10. They were also removed from all legacy modes inside IE 10.
 
-# Expressions
+# <span>Expressions</span>
 
 Expressions allow you to dynamically calculate the value of a property. So for example you could do the following to teach older IEs to inherit the parent's color:
 
-``` {.css}
+``` css
 color: expression(this.parentNode.currentStyle.color);
 ```
 
@@ -247,7 +245,7 @@ color: expression(this.parentNode.currentStyle.color);
 
 But this only applies for when expressions are done wrong. A better way is to write an expression that replaces itself with a static value at its first run. This can be achieved be assigning a static value to `this.runtimeStyle.property` - `property` being the one where the expression is assigned to initially. Taking the example from above that's how you can do it better:
 
-``` {.css}
+``` css
 color: expression(this.runtimeStyle.color = this.parentNode.currentStyle.color);
 ```
 
@@ -255,9 +253,8 @@ color: expression(this.runtimeStyle.color = this.parentNode.currentStyle.color);
 
 Expressions are supported from IE 4 - 7 and were removed from IE 8.
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [www.satzansatz.de - On Having Layout](http://www.satzansatz.de/cssd/onhavinglayout.html)
-

@@ -1,56 +1,58 @@
 ---
 title: unescape
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dz4x90hk(v=vs.94).aspx)'
+notes:
+  - 'Deletion candidate; deprecated function'
+readiness: 'Not Ready'
+summary: "Deprecated\n"
 tags:
   0: JS
   1: Basic
   3: Function
-readiness: 'Not Ready'
-notes:
-  - 'Deletion candidate; deprecated function'
-summary: "Deprecated\n"
 uri: javascript/unescape
 
 ---
-# unescape
-
-## Summary
+## <span>Summary</span>
 
 Deprecated
 
 The deprecated **unescape()** function decodes a string that is usually encoded with the **escape** function.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     unescape(str)
 
 **str**
 :   Required. A String to be decoded
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 unescape("webplatform"); // "webplatform"
 unescape("%FCmlaut"); // "ümlaut"
 unescape("%u65E5%u672C%u8A9E"); // "日本語"
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 All characters encoded with the % xx hexadecimal form are replaced by their ASCII character set equivalents.
 
 Characters encoded in **%u** xxxx format (Unicode characters) are replaced with the Unicode character with hexadecimal encoding xxxx.
 
-## Notes
+## <span>Notes</span>
 
 Do not use the **unescape** function to decode URIs. Use [decodeURI](/javascript/decodeURI) and [decodeURIComponent](/javascript/decodeURIComponent) functions instead.
 
 This function is deprecated and not recommended for use in new projects. Use with caution.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Deprecated
+#### <span>Deprecated</span>
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -82,16 +84,10 @@ This function is deprecated and not recommended for use in new projects. Use wit
 
 -   **unescape**
 
-### Other articles
+### <span>Other articles</span>
 
 -   [decodeURI Function](/javascript/decodeURI)
 -   [decodeURIComponent Function](/javascript/decodeURIComponent)
 -   [escape Function](/javascript/escape)
 -   [String Object](/javascript/String)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dz4x90hk(v=vs.94).aspx)
 

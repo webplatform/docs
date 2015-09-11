@@ -1,18 +1,16 @@
 ---
 title: cubic-bezier
+code_samples:
+  - 'http://letmespellitoutforyou.com/samples/transit_timing.html'
+readiness: 'Ready to Use'
+summary: 'An animation timing function that describes a progression of movement as a cubic-bezier curve.'
 tags:
   - CSS
   - Functions
-readiness: 'Ready to Use'
-summary: 'An animation timing function that describes a progression of movement as a cubic-bezier curve.'
-code_samples:
-  - 'http://letmespellitoutforyou.com/samples/transit_timing.html'
 uri: css/functions/cubic-bezier
 
 ---
-# cubic-bezier
-
-## Summary
+## <span>Summary</span>
 
 An animation timing function that describes a progression of movement as a cubic-bezier curve.
 
@@ -39,26 +37,27 @@ For properties unrelated to opacity and color, the function accepts *y* coordina
 
 **cubic-bezier(0.5, 2, 0.5, -1)** ![transitF cubicWave.png](/assets/thumb/2/2d/transitF_cubicWave.png/230px-transitF_cubicWave.png)
 
-## Examples
+## <span>Examples</span>
 
 A dramatically oscillating timing function whose *y* values lie far outside the 0-1 range:
 
-``` {.css}
+``` css
 transition-timing-function: cubic-bezier(0.5,3.0,0.5,-2.0);
 ```
 
 Modify the timing function for a sequence of two transitions
 
-``` {.other}
+```
+
 ```
 
 [View live example](http://letmespellitoutforyou.com/samples/transit_timing.html)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -79,8 +78,6 @@ Modify the timing function for a sequence of two transitions
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -108,11 +105,9 @@ Modify the timing function for a sequence of two transitions
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Transitions
+#### <span>Transitions</span>
 
 -   **cubic-bezier**
 
@@ -125,4 +120,3 @@ Modify the timing function for a sequence of two transitions
 -   [transition-property](/css/properties/transition-property)
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

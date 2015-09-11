@@ -1,21 +1,19 @@
 ---
-title: sepia
+title: sepia()
+code_samples:
+  - 'http://codepen.io/pverbeek/pen/jKioA'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: "Apply a sepia tinge to an element's color, typical\nof old photographs, for use by the\nfilter property.  A decimal value\nbetween 0 and 1 or percentage up to 100% controls the extent of the\nsepia effect.\n"
 tags:
   0: CSS
   1: Functions
   3: Graphics
   4: SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: "Apply a sepia tinge to an element's color, typical\nof old photographs, for use by the\nfilter property.  A decimal value\nbetween 0 and 1 or percentage up to 100% controls the extent of the\nsepia effect.\n"
-code_samples:
-  - 'http://codepen.io/pverbeek/pen/jKioA'
 uri: css/functions/sepia
 
 ---
-# sepia()
-
-## Summary
+## <span>Summary</span>
 
 Apply a sepia tinge to an element's color, typical of old photographs, for use by the filter property. A decimal value between 0 and 1 or percentage up to 100% controls the extent of the sepia effect.
 
@@ -26,13 +24,13 @@ Apply a sepia tinge to an element's color, typical of old photographs, for use b
 
   ![f07-lenna.jpg](/assets/thumb/e/e6/f07-lenna.jpg/300px-f07-lenna.jpg)![f08-lennasepia.jpg](/assets/thumb/7/70/f08-lennasepia.jpg/300px-f08-lennasepia.jpg)
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the difference between two images, where one is fully in sepia colors.
 
 ![filter sepia.png](/assets/thumb/d/db/filter_sepia.png/400px-filter_sepia.png)
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -48,19 +46,19 @@ The following example shows the difference between two images, where one is full
     </style>
   </head>
   <body>
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo" />
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo bar" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo bar" />
   </body>
 </html>
 ```
 
 [View live example](http://codepen.io/pverbeek/pen/jKioA)
 
-## Notes
+## <span>Notes</span>
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
-``` {.xml}
+``` xml
 <filter id="sepia">
   <feColorMatrix type="matrix"
     values="(0.393 + 0.607 * [1 - amount]) (0.769 - 0.769 * [1 - amount]) (0.189 - 0.189 * [1 - amount]) 0 0
@@ -70,20 +68,19 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 </filter>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
+
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -167,8 +164,7 @@ Specification
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### External resources
+### <span>External resources</span>
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)
-

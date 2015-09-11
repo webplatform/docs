@@ -1,30 +1,34 @@
 ---
 title: toUpperCase
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/kk06d70k(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Converts all the alphabetic characters in a string to uppercase.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Converts all the alphabetic characters in a string to uppercase.'
 uri: javascript/String/toUpperCase
 
 ---
-# toUpperCase
-
-## Summary
+## <span>Summary</span>
 
 Converts all the alphabetic characters in a string to uppercase.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     strVariable.toUpperCase()
 
+<span class="language">JavaScript</span>
+
     "String Literal".toUpperCase()
 
-## Examples
+## <span>Examples</span>
 
 The following example demonstrates the effects of the **toUpperCase** method:
 
-``` {.js}
+``` js
 var str1 = "This is a STRING.";
  var str2 = str1.toUpperCase();
  document.write(str2);
@@ -32,20 +36,14 @@ var str1 = "This is a STRING.";
  // Output: THIS IS A STRING.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **toUpperCase** method has no effect on non-alphabetic characters.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [toLocaleUpperCase Method (String)](/javascript/String/toLocaleUpperCase)
 -   [toLowerCase Method](/javascript/String/toLowerCase)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/kk06d70k(v=vs.94).aspx)
 

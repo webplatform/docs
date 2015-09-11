@@ -1,36 +1,45 @@
 ---
 title: effectAllowed
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/effectAllowedEX.htm'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/DataTransfer
+    href: /dom/DataTransfer
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/DataTransfer
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/effectAllowedEX.htm'
 uri: dom/DataTransfer/effectAllowed
 
 ---
-# effectAllowed
-
-## Summary
+## <span>Summary</span>
 
 Gets which kinds of data transfer operations are allowed for the object. Can be set (during the dragstart event) to change the allowed operations.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DataTransfer](/dom/DataTransfer)</span></span>
+Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var effectAllowed = event.dataTransfer.effectAllowed;
 event.dataTransfer.effectAllowed = newEffectAllowed;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 One of the following values:
 
@@ -44,11 +53,11 @@ One of the following values:
 -   all
 -   uninitialized
 
-## Examples
+## <span>Examples</span>
 
 This example uses the [**dropEffect**](/dom/DataTransfer/dropEffect) and **effectAllowed** properties of the [**DataTransfer**](/dom/DataTransfer) object to display the move cursor.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -112,35 +121,32 @@ window.addEventListener("load", initialize, false);
   </script>
  </head>
  <body>
-  Example of the effectAllowed and dropEffect Properties
-  The code in this example sets the effectAllowed property
-to move. It sets the dropEffect
+  <h1>Example of the effectAllowed and dropEffect Properties</h1>
+  <p>The code in this example sets the <b>effectAllowed</b> property
+to <span class="literal">move</span>. It sets the <b>dropEffect</b>
 property to display the move cursor. The default action must be canceled in all events that are handled&#151;in this example,
-ondragstart, ondragover, ondragenter, and
-ondrop.
-
-
+<b>ondragstart</b>, <b>ondragover</b>, <b>ondragenter</b>, and
+<b>ondrop</b>.</p>
+<p>
+<b>
   [not this text]
-
+<span id="oSource">
   [select and drag this text]
-
+</span>
   [not this text]
-
-
-Â
-
+</b>
+</p>
+<p>Â </p>
+<div id="oTarget">
 [drop text here]
-
-
-</body>
+  </div>
+ </body>
+</html>
 ```
 
-\</html\>
-
-</pre>
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/effectAllowedEX.htm)
 
-## Notes
+## <span>Notes</span>
 
 Set the **effectAllowed** property in the [**ondragstart**](/dom/DragEvent/dragstart) event. This property is used most effectively with the [**dropEffect**](/dom/DataTransfer/dropEffect) property.
 
@@ -148,16 +154,7 @@ This property can be used to override the default behavior in other applications
 
 By setting **effectAllowed** to **none**, dropping is disabled but the no-drop cursor is still displayed. To avoid displaying the no-drop cursor, cancel the [**returnValue**](/dom/BeforeUnloadEvent/returnValue) of the [**ondragstart**](/dom/DragEvent/dragstart) window.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

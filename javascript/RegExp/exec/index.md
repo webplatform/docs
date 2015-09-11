@@ -1,23 +1,25 @@
 ---
 title: exec
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/z908hy33(v=vs.94).aspx)'
+notes:
+  - 'Moved under javascript/RegExp'
+readiness: 'Ready to Use'
+summary: 'Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-notes:
-  - 'Moved under javascript/RegExp'
-summary: 'Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.'
 uri: javascript/RegExp/exec
 
 ---
-# exec
-
-## Summary
+## <span>Summary</span>
 
 Executes a search on a string using a regular expression pattern, and returns an array containing the results of that search.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     rgExp.exec( str )
 
@@ -27,11 +29,11 @@ Executes a search on a string using a regular expression pattern, and returns an
 **str**
 :   Required. The String object or string literal on which to perform the search.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **exec** method:
 
-``` {.js}
+``` js
 function RegExpTest()
  {
     var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())
@@ -58,7 +60,7 @@ function RegExpTest()
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 If the **exec** method does not find a match, it returns null. If it finds a match, **exec** returns an array, and the properties of the global **RegExp** object are updated to reflect the results of the match. Element zero of the array contains the entire match, while elements 1 - n contain any submatches that have occurred within the match. This behavior is identical to the behavior of the **match** method without the global flag ( **g** ) set.
 
@@ -66,18 +68,12 @@ If the global flag is set for a regular expression, **exec** searches the string
 
 The array returned by the **exec** method has three properties, **input** , **index** and **lastIndex.** The **input** property contains the entire searched string. The **index** property contains the position of the matched substring within the complete searched string. The **lastIndex** property contains the position following the last character in the match.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [match Method (String)](/javascript/String/match)
 -   [RegExp Object](/javascript/RegExp)
 -   [search Method (String)](/javascript/String/search)
 -   [test Method (Regular Expression)](/javascript/regular_expression/test)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/z908hy33(v=vs.94).aspx)
 

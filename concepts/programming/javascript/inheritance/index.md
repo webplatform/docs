@@ -1,21 +1,22 @@
 ---
-title: inheritance
+title: Inheritance revisited
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Inheritance_Revisited)'
+readiness: 'In Progress'
+summary: 'Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.'
 tags:
   - Tutorials
   - Inheritance
   - JavaScript
-readiness: 'In Progress'
-summary: 'Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.'
 uri: concepts/programming/javascript/inheritance
 
 ---
-# Inheritance revisited
-
-## Summary
+## <span>Summary</span>
 
 Inheritance has always been available in JavaScript, but the examples on this page use some methods introduced in ECMAScript 5.
 
-## Example
+## <span>Example</span>
 
 `B` shall inherit from `A`:
 
@@ -48,7 +49,7 @@ The important parts are:
 -   Types are defined in `.prototype`
 -   You use `Object.create()` to inherit
 
-## prototype and Object.getPrototypeOf
+## <span>`prototype` and Object.getPrototypeOf</span>
 
 JavaScript is a bit confusing for developers coming from Java or C++, as it's all dynamic, all runtime, and it has no classes at all. It's all just instances (objects). Even the "classes" we simulate are just a function object.
 
@@ -77,10 +78,4 @@ JavaScript actually just does
 it checks whether `o` has a property `someProp`. If not it checks `Object.getPrototypeOf(o).someProp` and if that doesn't exist it checks `Object.getPrototypeOf(Object.getPrototypeOf(o)).someProp` and so on.
 
 <span style="float: left">[« Previous](http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Details_of_the_Object_Model)</span>[Next »](http://docs.webplatform.org/en-US/docs/JavaScript/Guide/Iterators_and_Generators)
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Inheritance_Revisited)
 

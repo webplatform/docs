@@ -1,5 +1,9 @@
 ---
-title: flash conv wordico
+title: Converting Wordico from Flash to HTML5
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/casestudies/wordico/)'
+readiness: 'Ready to Use'
+summary: 'Learn techniques and approaches for converting a crossword game from Flash to HTML5.'
 tags:
   - Tutorials
   - Canvas
@@ -11,25 +15,21 @@ tags:
   - HTML
   - JavaScript
   - UI
-readiness: 'Ready to Use'
-summary: 'Learn techniques and approaches for converting a crossword game from Flash to HTML5.'
 uri: 'tutorials/flash conv wordico'
 
 ---
-# Converting Wordico from Flash to HTML5
-
 **By Adam Mark & Adrian Gould**
 Originally published March 10, 2011
 
-## Summary
+## <span>Summary</span>
 
 Learn techniques and approaches for converting a crossword game from Flash to HTML5.
 
-## Introduction
+## <span>Introduction</span>
 
 When we converted our [Wordico](http://www.wordico.com) crossword game from Flash to HTML5, our first task was to unlearn everything we knew about creating a rich user experience in the browser. While Flash offered a single, comprehensive API for all aspects of application development—from vector drawing to polygon hit detection to XML parsing—HTML5 offered a jumble of specifications with varying browser support. We also wondered if HTML, a document-specific language, and CSS, a box-centric language, were suitable for building a game. Would the game display uniformly across browsers, as it did in Flash, and would it look and behave as nicely? For Wordico, the answer was *yes.*
 
-## What's your vector, Victor?
+## <span>What's your vector, Victor?</span>
 
 We developed the original version of Wordico using only vector graphics: lines, curves, fills, and gradients. The result was both highly compact and infinitely scalable:
 
@@ -122,7 +122,7 @@ Using raster images has some obvious advantages. First, the result is pixel-prec
 
 The downside? By using images, we give up programmatic access to the text fields. In Flash, it was a simple operation to change the color or other properties of the type; in HTML5, these properties are baked into the images themselves. (We tried HTML text, but it required a lot of extra markup and CSS. We also tried canvas text, but the results were inconsistent across browsers.)
 
-## Fuzzy logic
+## <span>Fuzzy logic</span>
 
 We wanted to make full use of the browser window at any size—and avoid scrolling. This was a relatively simple operation in Flash, since the entire game was drawn in vectors and could be scaled up or down without losing fidelity. But it was trickier in HTML. We tried using CSS scaling but ended up with a blurred canvas:
 
@@ -143,7 +143,7 @@ Our solution is to redraw the gameboard, rack, and tiles whenever the user resiz
 
 We end up with crisp images and pleasing layouts at any screen size:
 
-## Get to the point
+## <span>Get to the point</span>
 
 Since each tile is absolutely positioned and must align precisely with the gameboard and rack, we need a reliable positioning system. We use two functions, `Bounds` and `Point`, to help manage the location of elements in the global space (the HTML page). `Bounds` describes a rectangular area on the page, while `Point` describes an *x,y* coordinate relative to the top left corner of the page (0,0), otherwise known as the registration point.
 
@@ -250,7 +250,7 @@ We use `Point` to determine the absolute coordinate (top-left corner) of any ele
 
 These functions form the basis of drag-and-drop and animation capabilities. For example, we use `Bounds.intersects()` to determine if a tile overlaps a space on the gameboard; we use `Point.vector()` to determine the direction of a dragged tile; and we use `Point.interpolate()` in combination with a timer to create a motion tween, or easing effect.
 
-## Go with the flow
+## <span>Go with the flow</span>
 
 While fixed-size layouts are easier to produce in Flash, fluid layouts are much easier to generate with HTML and the CSS box model. Consider the following grid view, with its variable width and height:
 
@@ -264,7 +264,7 @@ The HTML version, by comparison, is just a `<div>` with a fixed height and the o
 
 In cases like this—ordinary layout tasks—HTML and CSS outshine Flash.
 
-## Can you hear me now?
+## <span>Can you hear me now?</span>
 
 We struggled with the `<audio>` tag—it simply wasn't capable of playing short sounds effects repeatedly in certain browsers. We tried two workarounds. First, we padded the sound files with dead air to make them longer. Then we tried alternating playback across multiple audio channels. Neither technique was completely effective or elegant.
 
@@ -315,11 +315,11 @@ In JavaScript, we attempt to detect the embedded Flash player. If that fails, we
 
 Note that this works for MP3 files only—we never bothered to support OGG. We hope the industry will settle on a single format in the near future.
 
-## Poll position
+## <span>Poll position</span>
 
 We use the same technique in HTML5 as we did in Flash to refresh the game state: every 10 seconds, the client asks the server for updates. If the game state has changed since the last poll, the client receives and handles the changes; otherwise, nothing happens. This traditional polling technique is acceptable, if not quite elegant. However, we'd like to switch to [long polling](http://en.wikipedia.org/wiki/Long_polling#Long_polling) or [WebSockets](http://en.wikipedia.org/wiki/Web_Sockets) as the game matures and users come to expect real-time interaction over the network. WebSockets, in particular, would present many opportunities to enhance the game play.
 
-## What a tool!
+## <span>What a tool!</span>
 
 We used [Google Web Toolkit](http://code.google.com/webtoolkit/) (GWT) to develop both the front-end user interface and back-end control logic (authentication, validation, persistence, and so on). The JavaScript itself is compiled from Java source code. For example, the Point function is adapted from `Point.java`:
 
@@ -371,15 +371,8 @@ The full details are beyond the scope of this article, but we encourage you to c
 
 Why use Java? First, for strict typing. While dynamic typing is useful in JavaScript—for example, the ability of an array to hold values of different types—it can be a headache in large, complex projects. Second, for refactoring capabilities. Consider how you'd change a JavaScript method signature across thousands of lines of code—not easily! But with a good Java IDE, it's a snap. Finally, for testing purposes. Writing unit tests for Java classes beats the time-honored technique of "save and refresh."
 
-## Summary
+## <span>Summary</span>
 
 Except for our audio troubles, HTML5 greatly exceeded our expectations. Not only does Wordico look as good as it did in Flash, it's every bit as fluid and responsive. We couldn't have done it without Canvas and CSS3. Our next challenge: adapting Wordico for mobile use.
 
 Except as otherwise [noted](http://code.google.com/policies.html#restrictions), the content of this page is licensed under the [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/), and code samples are licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/casestudies/wordico/)
-

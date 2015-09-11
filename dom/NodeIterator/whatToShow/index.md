@@ -1,35 +1,45 @@
 ---
 title: whatToShow
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NodeIterator.whatToShow](https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator.whatToShow) Article]'
+  - 'Microsoft Developer Network: [[whatToShow Property](http://msdn.microsoft.com/en-us/library/ie/ff974822(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/NodeIterator
+    href: /dom/NodeIterator
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /dom/NodeIterator
+standardization_status: 'W3C Recommendation'
+summary: 'The NodeIterator.whatToShow read-only property represents an unsigned integer representing a bitmask signifying what types of nodes should be returned by the NodeIterator.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The NodeIterator.whatToShow read-only property represents an unsigned integer representing a bitmask signifying what types of nodes should be returned by the NodeIterator.'
 uri: dom/NodeIterator/whatToShow
 
 ---
-# whatToShow
-
-## Summary
+## <span>Summary</span>
 
 The NodeIterator.whatToShow read-only property represents an unsigned integer representing a bitmask signifying what types of nodes should be returned by the NodeIterator.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/NodeIterator](/dom/NodeIterator)</span></span>
+Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIterator)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var nodeTypes = element.whatToShow;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
 The type of accepted nodes.p is a bitwise OR of the following values:
 
@@ -59,9 +69,9 @@ NodeFilter.SHOW\_DOCUMENT\_FRAGMENT (0x00000400) Show DocumentFragment nodes.
 
 NodeFilter.SHOW\_NOTATION (0x00000800) Show Notation nodes.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var nodeIterator = document.createNodeIterator(
     document.body,
     NodeFilter.SHOW_ELEMENT + NodeFilter.SHOW_COMMENT + NodeFilter.SHOW_TEXT,
@@ -71,32 +81,21 @@ var nodeIterator = document.createNodeIterator(
 if( (nodeIterator.whatToShow == NodeFilter.SHOW_ALL)
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Filtering is based both on the **whatToShow** flags and the [**filter**](/dom/NodeIterator/filter) function.
 
-### Syntax
+### <span>Syntax</span>
 
 var nodeTypes = nodeIterator.whatToShow;
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM](http://dom.spec.whatwg.org/#dom-nodeiterator-whattoshow)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NodeIterator.whatToShow](https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator.whatToShow) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[whatToShow Property](http://msdn.microsoft.com/en-us/library/ie/ff974822(v=vs.85).aspx) Article]
-

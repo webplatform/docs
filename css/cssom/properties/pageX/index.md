@@ -1,16 +1,26 @@
 ---
 title: pageX
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'needs examples.'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/objects/MouseEvent
+    href: '/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1'
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: '/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1'
+standardization_status: 'W3C Working Draft'
+summary: 'Gets the x-coordinate of the mouse cursor, relative to the upper-left corner of the page.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'needs examples.'
-summary: 'Gets the x-coordinate of the mouse cursor, relative to the upper-left corner of the page.'
-uri: css/cssom/properties/pageX
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -21,50 +31,47 @@ todo_broken_links:
     - dom/objects/MouseWheelEvent
     - dom/objects/WheelEvent
     - dom/properties/screenX
+uri: css/cssom/properties/pageX
 
 ---
-# pageX
-
-## Summary
+## <span>Summary</span>
 
 Gets the x-coordinate of the mouse cursor, relative to the upper-left corner of the page.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)</span></span>
+Property of [dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)[dom/objects/MouseEvent](/w/index.php?title=dom/objects/MouseEvent&action=edit&redlink=1)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var xCoordinate = event.pageX;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 The X coordinate of the mouse cursor.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 The **pageX** property is equivalent to the [**clientX**](/w/index.php?title=dom/properties/clientX&action=edit&redlink=1) value plus the [**scrollLeft**](/w/index.php?title=dom/properties/scrollLeft&action=edit&redlink=1) value of the document, as the following code example shows.
 
     var pageX = event.clientX + document.documentElement.scrollLeft;
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSSOM View](http://www.w3.org/TR/cssom-view/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -120,13 +127,9 @@ Specification
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -166,11 +169,55 @@ Specification
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   **pageX**
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `DragEvent`
 -   `MouseWheelEvent`
@@ -180,10 +227,3 @@ Specification
 -   `offsetX`
 -   `screenX`
 -   `x`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

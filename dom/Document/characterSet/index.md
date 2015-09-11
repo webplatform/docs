@@ -1,50 +1,48 @@
 ---
 title: characterSet
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Document
+    href: /dom/Document
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'Gets the preferred MIME name of the document''s character encoding.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Last Call Working Draft'
-summary: 'Gets the preferred MIME name of the document''s character encoding.'
 uri: dom/Document/characterSet
 
 ---
-# characterSet
-
-## Summary
+## <span>Summary</span>
 
 Gets the preferred MIME name of the document's character encoding.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.characterSet;
 ```
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //displays the document's character encoding string
 function showCharSet() {
     alert(document.characterSet);
 }
 ```
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 3.1.3
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

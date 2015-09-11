@@ -1,39 +1,46 @@
 ---
 title: length
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/DOMTokenList
+    href: /dom/DOMTokenList
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/DOMTokenList
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Returns the number of tokens in a DOMTokenList.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Returns the number of tokens in a DOMTokenList.'
 uri: dom/DOMTokenList/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 Returns the number of tokens in a DOMTokenList.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DOMTokenList](/dom/DOMTokenList)</span></span>
+Property of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.length;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //returns the number of classes in an element's classList (a DOMTokenList)
 function elNumClasses(elid) {
   var classes = document.getElementById(elid).classList;
@@ -41,10 +48,7 @@ function elNumClasses(elid) {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation
-

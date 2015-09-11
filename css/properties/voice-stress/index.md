@@ -1,52 +1,62 @@
 ---
 title: voice-stress
+notes:
+  - 'Needs usage, example'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': ''
+  '[Inherited](/css/concepts/inherited)': ''
+  Media: speech
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: ''
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The voice-stress property sets the level of vocal emphasis to be used for synthesized speech reading the element.'
 tags:
   - CSS
   - Properties
   - Accessibility
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs usage, example'
-summary: 'The voice-stress property sets the level of vocal emphasis to be used for synthesized speech reading the element.'
 uri: css/properties/voice-stress
 
 ---
-# voice-stress
-
-## Summary
+## <span>Summary</span>
 
 The voice-stress property sets the level of vocal emphasis to be used for synthesized speech reading the element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :
+
 [Inherited](/css/concepts/inherited)
 :
+
 Media
 :   speech
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
 
-## Syntax
+## <span>Syntax</span>
 
-## Values
+## <span>Values</span>
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#voice-props-voice-stress)
 :   W3C Candidate Recommendation
+
 [CSS 2.1, Appendix A. (Aural style sheets)](http://www.w3.org/TR/CSS21/aural.html)
 :   Deprecated
-

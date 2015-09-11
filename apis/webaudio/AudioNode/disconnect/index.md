@@ -1,56 +1,60 @@
 ---
 title: disconnect
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webaudio/AudioNode
+    href: /apis/webaudio/AudioNode
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/webaudio/AudioNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Disconnects an AudioNode from another that it is already connected to.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Disconnects an AudioNode from another that it is already connected to.'
 uri: apis/webaudio/AudioNode/disconnect
 
 ---
-# disconnect
-
-## Summary
+## <span>Summary</span>
 
 Disconnects an AudioNode from another that it is already connected to.
 
-*Method of [apis/webaudio/AudioNode](/apis/webaudio/AudioNode)*
+Method of [apis/webaudio/AudioNode](/apis/webaudio/AudioNode)[apis/webaudio/AudioNode](/apis/webaudio/AudioNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = AudioNode.disconnect(output);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### output
+### <span>output</span>
 
- Data-typeÂ
+ Data-type
 :   unsigned long
 
-*(Optional)*
+(Optional)
 
 An index describing which output of the [**AudioNode**](/apis/webaudio/AudioNode) to disconnect. An out-of-bound value throws an exception.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 oscillator.connect(audioCtx.destination);
 oscillator.disconnect();
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

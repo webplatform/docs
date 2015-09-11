@@ -1,55 +1,62 @@
 ---
 title: defaultValue
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples, compatibility'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLInputElement
+    href: /dom/HTMLInputElement
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/HTMLInputElement
+standardization_status: 'W3C Recommendation'
+summary: 'Gets or sets the value of the value HTML attribute.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'examples, compatibility'
-summary: 'Gets or sets the value of the value HTML attribute.'
 uri: dom/HTMLInputElement/defaultValue
 
 ---
-# defaultValue
-
-## Summary
+## <span>Summary</span>
 
 Gets or sets the value of the value HTML attribute.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLInputElement](/dom/HTMLInputElement)</span></span>
+Property of [dom/HTMLInputElement](/dom/HTMLInputElement)[dom/HTMLInputElement](/dom/HTMLInputElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var defaultValue = inputElement.defaultValue;
 inputElement.defaultValue = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The value of the **value** HTML attribute.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 The value of the property can be changed programmatically, but doing so has no effect on the appearance of the object or the submitted value - if the [value](/dom/HTMLElement/value) property has been changed by a user or by a script. It does, however, change the initial value of the object when the form is reset.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `input type=button`
 -   `input type=checkbox`
@@ -62,10 +69,3 @@ Specification
 -   `input type=submit`
 -   `input type=text`
 -   `textArea`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

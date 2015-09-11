@@ -1,46 +1,53 @@
 ---
 title: timing
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationNode
+    href: /apis/web_animations/AnimationNode
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/web_animations/AnimationNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.'
 uri: 'apis/web animations/AnimationNode/timing'
 
 ---
-# timing
-
-## Summary
+## <span>Summary</span>
 
 Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)</span></span>
+Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var myTiming = myAnimationNode.timing;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 type AnimationTiming object
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -61,8 +68,6 @@ type AnimationTiming object
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -90,7 +95,4 @@ type AnimationTiming object
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

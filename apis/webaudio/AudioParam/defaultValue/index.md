@@ -1,47 +1,51 @@
 ---
 title: defaultValue
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioParam
+    href: /apis/webaudio/AudioParam
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/webaudio/AudioParam
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Initial value for the value attribute.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Initial value for the value attribute.'
 uri: apis/webaudio/AudioParam/defaultValue
 
 ---
-# defaultValue
-
-## Summary
+## <span>Summary</span>
 
 Initial value for the value attribute.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)</span></span>
+Property of [apis/webaudio/AudioParam](/apis/webaudio/AudioParam)[apis/webaudio/AudioParam](/apis/webaudio/AudioParam)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioParam.defaultValue;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var gainNode = audioCtx.createGain();
 var gainDefault = gainNode.gain.defaultValue; //'gain' is the AudioParam
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

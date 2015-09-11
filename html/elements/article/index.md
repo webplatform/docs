@@ -1,22 +1,24 @@
 ---
 title: article
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The article element (&lt;article&gt;) defines a self-contained composition within a page.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The article element (<article>) defines a self-contained composition within a page.'
 uri: html/elements/article
 
 ---
-# article
+## <span>Summary</span>
 
-## Summary
+The article element (&lt;article&gt;) defines a self-contained composition within a page.
 
-The article element (\<article\>) defines a self-contained composition within a page.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -33,11 +35,11 @@ or any other independent item of content.
 
 When **article** elements are nested, the inner article should be related to the contents of the outer article. For example, a blog entry on a site that accepts user-submitted comments might represent the comments as **article** elements nested within the **article** element for the blog entry.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the basic structure of an article using **article**, **header**, and **footer** elements.
 
-``` {.html}
+``` html
 <article>
  <header>
   <h1>Article Heading</h1>
@@ -48,28 +50,20 @@ The following example shows the basic structure of an article using **article**,
 </article>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-article-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-article-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 [nav](/html/elements/nav) - The HTML navigation element is often used as a child element of the article tag.
 
-### External resources
+### <span>External resources</span>
 
--   [http://www.w3.org/TR/html-markup/article.html\#article](http://www.w3.org/TR/html-markup/article.html#article)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+-   <http://www.w3.org/TR/html-markup/article.html#article>

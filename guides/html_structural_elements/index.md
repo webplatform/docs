@@ -1,23 +1,21 @@
 ---
-title: html structural elements
+title: HTML structural elements
+readiness: 'Ready to Use'
+summary: 'This article provides a tour through the elements available in HTML to structure and group content, from old favourites like &lt;div&gt; to new HTML5 additions such as &lt;article&gt; and &lt;aside&gt;.'
 tags:
   - Guides
-readiness: 'Ready to Use'
-summary: 'This article provides a tour through the elements available in HTML to structure and group content, from old favourites like <div> to new HTML5 additions such as <article> and <aside>.'
 uri: 'guides/html structural elements'
 
 ---
-# HTML structural elements
+## <span>Summary</span>
 
-## Summary
+This article provides a tour through the elements available in HTML to structure and group content, from old favourites like &lt;div&gt; to new HTML5 additions such as &lt;article&gt; and &lt;aside&gt;.
 
-This article provides a tour through the elements available in HTML to structure and group content, from old favourites like \<div\> to new HTML5 additions such as \<article\> and \<aside\>.
-
-## Introduction
+## <span>Introduction</span>
 
 Now we've gotten to grips with the basics of HTML, what is contained inside the document `<head>`, and the different building blocks most commonly used to structure different items of content inside the `<body>`, we can look at the overall structure of the HTML content, and what distinct sections the page contains.
 
-## A typical page structure
+## <span>A typical page structure</span>
 
 Before you read any further, go and have a look at some of your favourite websites. They will have vastly differing content, functionality, and look and feel, but they will all have common structural elements. There are very few sites that don't at least loosely follow this pattern:
 
@@ -41,7 +39,7 @@ We could break this up into the sections we have just discussed:
 
 These sections could contain any number of different nested elements; for example, a footer could include a list full of links, a couple of paragraphs and an image. But how do we mark up these distinct sections, and group them together as single entities that can be laid out later using CSS? Let's have a look.
 
-## Structuring a page with HTML 4
+## <span>Structuring a page with HTML 4</span>
 
 HTML4 contains two generic container elements:
 
@@ -60,7 +58,7 @@ So, to mark up the example site with HTML4, you could use the following elements
 
 The markup would look something like this:
 
-``` {.html}
+``` html
 <body>
 
   <div id="header">
@@ -92,7 +90,7 @@ The markup would look something like this:
 
  It's that simple, really. Of course, it is not going to look like a properly laid out site until you apply CSS to the HTML, but it does give you the structural integrity you need to get the site laid out.
 
-## Enter HTML5 structural elements
+## <span>Enter HTML5 structural elements</span>
 
 The HTML4 way of doing things is all well and good, but semantically it could be so much better.
 
@@ -119,7 +117,7 @@ We will discuss these in a moment, but for now let's look at how our example cou
 
 In code, that looks like this:
 
-``` {.html}
+``` html
 <body>
 
   <header>
@@ -151,7 +149,7 @@ In code, that looks like this:
 
  Let's explore some of the HTML5 elements in more detail.
 
-### \<section\>
+### <span>\<section\></span>
 
 The `<section>` element is for containing distinct different areas of functionality or subjects, or for breaking up an article or story into different sections. So in this case:
 
@@ -160,13 +158,13 @@ The `<section>` element is for containing distinct different areas of functional
 
 It is a fairly generic element, but still has far more semantic meaning than the plain old `<div>`.
 
-### \<article\>
+### <span>\<article\></span>
 
 `<article>` is related to `<section>`, but is distinctly different. Whereas `<section>` is for grouping distinct sections of content or functionality, `<article>` is for containing related individual standalone pieces of content, such as blog posts, videos, images, or news items. Think of it this way: if you have a number of items of content, each of which would be suitable for reading on their own, and would make sense to syndicate as separate items in an RSS feed, then `<article>` is suitable for marking them up.
 
 In our example, `<section id="main">` contains blog entries. Each blog entry would be suitable for syndicating as an item in an RSS feed, and would make sense when read on its own, out of context; therefore `<article>` is perfect for them:
 
-``` {.html}
+``` html
 <section id="main">
     <article>
       <!-- first blog post content goes here -->
@@ -184,7 +182,7 @@ In our example, `<section id="main">` contains blog entries. Each blog entry wou
 
  Simple, yes? Be aware, though, that you can also nest sections inside articles where it makes sense to do so. For example, if each one of the blog posts (articles) has a consistent structure made up of distinct sections, then you could put sections inside the articles as well. It could look something like this:
 
-``` {.html}
+``` html
 <article>
   <section id="introduction">
   </section>
@@ -197,11 +195,11 @@ In our example, `<section id="main">` contains blog entries. Each blog entry wou
 </article>
 ```
 
-### \<header\> and \<footer\>
+### <span>\<header\> and \<footer\></span>
 
 As we mentioned above, the purpose of the `<header>` and `<footer>` elements is to wrap header and footer content, respectively. In our example the `<header>` element contains a logo image, and the `<footer>` element contains a copyright notice, but you could add more elaborate content. Also note that you can have more than one header and footer on each page; in addition to the top level header and footer, you could also have a `<header>` and `<footer>` element nested inside each `<article>`, in which case they would just apply to that particular article. Adding to the above example:
 
-``` {.html}
+``` html
 <article>
   <header>
   </header>
@@ -220,21 +218,21 @@ As we mentioned above, the purpose of the `<header>` and `<footer>` elements is 
 </article>
 ```
 
-### \<nav\>
+### <span>\<nav\></span>
 
 The `<nav>` element is for marking up the navigation links or other constructs (e.g., a search form) that will take you to different pages of the site, or to different areas of the current page. (Other links, such as sponsored links, are not usually included here.) You can of course include headings and other structural elements inside the `<nav>`, but it's not compulsory.
 
-### \<aside\>
+### <span>\<aside\></span>
 
 You may have noticed that we used an `<aside>` element to mark up the second sidebar, the one containing latest gigs and contact details. This is perfectly appropriate, as `<aside>` is for marking up pieces of information that are related to the main flow, but don't fit into it directly.
 
 Other good choices for an `<aside>` would be information about the author of the blog post(s), a band biography, or a band discography with links to their albums.
 
-### Where does that leave \<div\>?
+### <span>Where does that leave \<div\>?</span>
 
 With all these great new elements to use on our pages, surely the days of the humble `<div>` are numbered. But no! In fact, `<div>` still has a perfectly valid use. You should use it when there is no other more suitable element available for grouping an area of content, which will often happen when you are grouping content together for styling/visual purposes. A common example is using a `<div>` to wrap all of the content on the page, and then using CSS to centre all the content in the browser window, or to apply a specific background image to the content.
 
-## HTML5 element support
+## <span>HTML5 element support</span>
 
 At this point we should discuss support. There is currently not full support for the HTML5 structural elements in today's selection of web browsers, but it is getting better all the time. Support for these features across browsers may be less than ideal, but for our purposes it doesn't matter very much. Here's why.
 
@@ -242,7 +240,7 @@ The way the elements work in general between HTML4 and HTML5 is exactly the same
 
 First of all, if you put an HTML5 element into a web page that the browser doesn't recognise, by default the browser will just treat it like a `<span>`, i.e., just an anonymous inline element. But most of the HTML5 elements we have looked at in this article are supposed to behave like block elements; therefore, the easiest way to make them behave properly in older browsers is by setting them to `display:block;` in your CSS. You can do this by including the following CSS rule at the top of your CSS, whether it is contained in the head of your HTML file or in an external CSS file:
 
-``` {.css}
+``` css
 article, section, aside, hgroup, nav, header, footer, figure, figcaption {
   display: block;
 }
@@ -250,7 +248,7 @@ article, section, aside, hgroup, nav, header, footer, figure, figcaption {
 
  This solves your HTML5 element problems for all browsers except one. Older versions of Internet Explorer refuse to allow styling of unknown elements, but this can be fixed by inserting a small section of JavaScript into the head of your document that declares each element:
 
-``` {.js}
+``` js
 <script>
     document.createElement('article');
     document.createElement('section');
@@ -266,15 +264,15 @@ article, section, aside, hgroup, nav, header, footer, figure, figcaption {
 
  IE will now happily apply styles to those elements. It's kind of a pain having to use JavaScript to make your CSS work, but hey, at least we have a way forward! There is also a problem with these styles STILL not being carried through to the printer when you try to print HTML5 documents from IE. However, the print problem can be solved using the *HTML5 Shiv* JavaScript library, which also handles adding the `document.createElement` lines for you. You should wrap it up in *conditional comments* for IE versions lower than 9, so that modern browsers don't execute JavaScript they don't need to.
 
-## Conclusion
+## <span>Conclusion</span>
 
 You may be wondering which style of structural elements to choose, now you've had a tour of the two options. We'd advise that you learn both, and use the HTML5 elements where you can, falling back to the HTML4 elements for projects where you are worried about the site's audience having JavaScript support (remember that the HTML5 fix discussed above requires JavaScript to work), or where you can't use HTML5 (e.g., because a client specifies HTML4, or because you are using some kind of content management system that won't work with HTML5).
 
 This way, you can work with whatever is thrown at you on different projects, plus your HTML5 sites will be nicely future-proofed for when browsers do all support HTML5 structural elements.
 
-## See also
+## <span>See also</span>
 
-### Exercise questions
+### <span>Exercise questions</span>
 
 1.  Using these templates as a basis, create an outline HTML structure for one of the following sites. Think about what different things such pages might have on them, in terms of header, footer, navigation, main content, sidebars, etc. Look at existing examples if you need to.
 
@@ -284,4 +282,3 @@ This way, you can work with whatever is thrown at you on different projects, plu
 
 1.  What content would be appropriate for putting into the header and footer of a blog post contained in an article?
 2.  What element should you use for the main content column, if JavaScript is turned off?
-

@@ -1,20 +1,18 @@
 ---
-title: pointer events sites
+title: Pointer events sites
+readiness: 'Ready to Use'
+summary: 'Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:'
 tags:
   - Basic
   - Pages
-readiness: 'Ready to Use'
-summary: 'Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:'
 uri: 'PointerEvents/pointer events sites'
 
 ---
-# Pointer events sites
-
-## Summary
+## <span>Summary</span>
 
 Checkout the following web sites that have already implemented the W3C Pointer Events specification showcasing new features enabled by modern HTML5 browsers:
 
-## Want to add your own Pointer Events site?
+## <span>Want to add your own Pointer Events site?</span>
 
 Once you have implemented Pointer Events on your own website, you are encouraged to add it to this list using these simple steps:
 
@@ -26,7 +24,7 @@ Once you have implemented Pointer Events on your own website, you are encouraged
 
 You are also invited to participate to our documentation, refer to our [Contributors guide](/WPD:Contributors_Guide)
 
-## Sites using Pointer events
+## <span>Sites using Pointer events</span>
 
 [Flipboard](http://flipboard.com) — An interactive Web magazine experience that has an awesome touch and mouse support powered by Pointer Events. Use Flipboard to read and collect the news you care about, and curate your favorite stories into your own magazines on any topic imaginable, can be shared and enjoyed on the Web by anyone, anywhere. ![left ‎](/assets/public/c/ca/flipboard.jpg)
 

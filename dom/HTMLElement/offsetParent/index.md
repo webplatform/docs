@@ -1,71 +1,71 @@
 ---
 title: offsetParent
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, clean-up of MSDN import'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'summary, clean-up of MSDN import'
 uri: dom/HTMLElement/offsetParent
 
 ---
-# offsetParent
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.offsetParent;
 element.offsetParent = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
 This example shows how to determine the position of a **td** object. Although the **td** object appears to the far right in the document, its position is close to the x-axis and y-axis, because its offset parent is a [**table**](/html/elements/table) object rather than the document body.
 
-    <HTML>
-    <HEAD>
-      <TITLE>Elements: Positions</TITLE>
-      <SCRIPT LANGUAGE="JScript">
+``` html
+<HTML>
+<HEAD>
+  <TITLE>Elements: Positions</TITLE>
+  <SCRIPT LANGUAGE="JScript">
 
-      function showPosition()
-      {
-        var oElement = document.all.oCell;
+  function showPosition()
+  {
+    var oElement = document.all.oCell;
 
-        alert("The TD element is at (" + oElement.offsetLeft +
-              "," + oElement.offsetTop + ")\n" + "The offset parent is "
-              + oElement.offsetParent.tagName );
-      }
-      </SCRIPT>
-    </HEAD>
-    <BODY onload="showPosition()">
-    <P>This document contains a right-aligned table.
-    <TABLE BORDER=1 ALIGN=right>
-      <TR>
-        <TD ID=oCell>This is a small table.</TD>
-      </TR>
-    </TABLE>
-    </BODY>
-    </HTML>
+    alert("The TD element is at (" + oElement.offsetLeft +
+          "," + oElement.offsetTop + ")\n" + "The offset parent is "
+          + oElement.offsetParent.tagName );
+  }
+  </SCRIPT>
+</HEAD>
+<BODY onload="showPosition()">
+<P>This document contains a right-aligned table.
+<TABLE BORDER=1 ALIGN=right>
+  <TR>
+    <TD ID=oCell>This is a small table.</TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>
+```
 
 [**Note**  For Internet Explorer 4.0, this same example returns a position of 0,0 because the offset parent is the table row. View live example]
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Most of the time the **offsetParent** property returns the **body** object. **Note**  In Microsoft Internet Explorer 5, the **offsetParent** property returns the [**table**](/html/elements/table) object for the **td** object; in Microsoft Internet Explorer 4.0 it returns the **tr** object. You can use the [**parentElement**](/dom/Element/parentElement) property to retrieve the immediate container of the table cell.
 
-### Syntax
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+### <span>Syntax</span>

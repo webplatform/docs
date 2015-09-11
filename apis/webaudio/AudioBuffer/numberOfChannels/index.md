@@ -1,49 +1,53 @@
 ---
 title: numberOfChannels
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioBuffer
+    href: /apis/webaudio/AudioBuffer
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/webaudio/AudioBuffer
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The number of discrete audio channels described by the PCM audio data.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The number of discrete audio channels described by the PCM audio data.'
 uri: apis/webaudio/AudioBuffer/numberOfChannels
 
 ---
-# numberOfChannels
-
-## Summary
+## <span>Summary</span>
 
 The number of discrete audio channels described by the PCM audio data.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioBuffer](/apis/webaudio/AudioBuffer)</span></span>
+Property of [apis/webaudio/AudioBuffer](/apis/webaudio/AudioBuffer)[apis/webaudio/AudioBuffer](/apis/webaudio/AudioBuffer)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioBuffer.numberOfChannels;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 Integer
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var myArrayBuffer = audioCtx.createBuffer(2, frameCount, audioCtx.sampleRate);
 var nc = myArrayBuffer.numberOfChannels;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

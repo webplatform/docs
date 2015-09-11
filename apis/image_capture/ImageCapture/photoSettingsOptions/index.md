@@ -1,38 +1,45 @@
 ---
 title: photoSettingsOptions
+notes:
+  - 'Needs example, usage, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/image_capture/ImageCapture
+    href: /apis/image_capture/ImageCapture
+  return:
+    predicate: 'Returns an object of type '
+    value: PhotoSettingsOptions
+    href: /apis/image_capture/ImageCapture
+standardization_status: 'W3C Working Draft'
+summary: 'Describes current photo settings.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Image
   5: Capture
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, usage, spec reference'
-summary: 'Describes current photo settings.'
 uri: 'apis/image capture/ImageCapture/photoSettingsOptions'
 
 ---
-# photoSettingsOptions
-
-## Summary
+## <span>Summary</span>
 
 Describes current photo settings.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)</span></span>
+Property of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = pictureDevice.photoSettingsOptions;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">PhotoSettingsOptions</span></span>
+Returns an object of type PhotoSettingsOptionsPhotoSettingsOptions
 
 **Needs Examples**: This section should include examples.
 

@@ -1,19 +1,21 @@
 ---
-title: ja
+title: b
+code_samples:
+  - 'http://gist.github.com/7281844'
+  - 'http://gist.github.com/321e5149c1e661e1de14'
+lang: ja
+notes:
+  - 'Add compatibility.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: '&lt;b&gt;要素は特に重要であることを伝えるのに使うものではなく、あくまで通常の文章において文体的にテキストを強調する際に使用します。'
 tags:
   - Markup
   - Elements
   - HTML
   - XHTML
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add compatibility.'
-summary: '<b>要素は特に重要であることを伝えるのに使うものではなく、あくまで通常の文章において文体的にテキストを強調する際に使用します。'
-code_samples:
-  - 'http://gist.github.com/7281844'
-  - 'http://gist.github.com/321e5149c1e661e1de14'
-uri: html/elements/b/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -81,15 +83,14 @@ todo_broken_links:
     - html/elements/dfn/ja
     - html/elements/hn/ja
     - html/elements/abbr/ja
+uri: html/elements/b/ja
 
 ---
-# b
+## <span>Summary</span>
 
-## Summary
+&lt;b&gt;要素は特に重要であることを伝えるのに使うものではなく、あくまで通常の文章において文体的にテキストを強調する際に使用します。
 
-\<b\>要素は特に重要であることを伝えるのに使うものではなく、あくまで通常の文章において文体的にテキストを強調する際に使用します。
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -98,11 +99,11 @@ todo_broken_links:
 
 \<b\>要素は他に適切な要素がない場合の最終手段として使うようにしてください。そのテキストがスタイル的に重要だと示されている以外の意味はありません（[**span** 要素](/w/index.php?title=html/elements/span/ja&action=edit&redlink=1)の省略形とい言ってもいいでしょう）。意味があり、似たような効果をもたらす要素として、[strong](/w/index.php?title=html/elements/strong/ja&action=edit&redlink=1)、[dfn](/w/index.php?title=html/elements/dfn/ja&action=edit&redlink=1)、[h1-h6](/w/index.php?title=html/elements/hn/ja&action=edit&redlink=1)、[abbr](/w/index.php?title=html/elements/abbr/ja&action=edit&redlink=1).があります。
 
-## Examples
+## <span>Examples</span>
 
 以下の例では、アドベンチャーゲームのテキストの特別な部分を**\<b\>**要素を使って強調しています。
 
-``` {.html}
+``` html
 <p>あなたは小さな部屋に入りました。
 するとあなたの<b>剣</b>が眩しく輝き始めました。
 <b>ネズミ</b>は壁の隅をちょこまかと走って行きました。</p>
@@ -112,14 +113,14 @@ todo_broken_links:
 
 こちらの例では、**\<b\>**要素を使って社名と製品名を強調しています。CSSの曖昧さ回避のため、**class**属性を使用しています。
 
-``` {.html}
+``` html
 <p><b class="org">Acme <abbr title="Corporation">Corp</abbr></b>は<b class="product">ウィジェットブラスト3000</b>を紹介することができ、とても嬉しく思っています。
 これは朝卵を焼くところから夜子供を寝かしつけるまで、あなたの生活を楽にする現代科学の奇跡です。</p>
 ```
 
 [View live example](http://code.webplatform.org/gist/321e5149c1e661e1de14)
 
-## Usage
+## <span>Usage</span>
 
      <b>要素は人名、社名、製品名、地名などの固有名詞を囲んで、周囲のテキストと区別するために使いますが、意味という意味はありません。
 
@@ -127,30 +128,28 @@ todo_broken_links:
 
 -   [[b and i tags](http://www.w3.org/International/techniques/authoring-html#bandi%7CUsing)]
 
-## Notes
+## <span>Notes</span>
 
 **\<b\>**要素は意味を持たないため、自分で意味を持たせて使ってはいけません。もっと適切な要素があるはずです。見出しには**\<h1\>**～**\<h6\>**要素を、アクセントを付けたい場合は**\<em\>**要素を、重要性を示すには**\<strong\>**要素を、文脈上重要/強調したいテキストには**\<mark\>**要素を使うべきでしょう。
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-b-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-b-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/present/graphics.html#edef-B)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -248,21 +247,53 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Text
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -273,8 +304,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -288,25 +317,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -352,5 +367,15 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/html/elements/b)**  • <span lang="ja">**日本語**</span>
+
+</th>
+<td class="mbox-text">
+**[English](/html/elements/b)**  • <span lang="ja">**日本語**</span>
+
+</td>
+</tr>
+</table>

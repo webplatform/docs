@@ -1,45 +1,48 @@
 ---
 title: setOptions
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/image_capture/ImageCapture
+    href: /apis/image_capture/ImageCapture
+standardization_status: 'W3C Working Draft'
+summary: 'Applies the settings specified by the PhotoSettings object passed by parameter.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Image
   5: Capture
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Applies the settings specified by the PhotoSettings object passed by parameter.'
 uri: 'apis/image capture/ImageCapture/setOptions'
 
 ---
-# setOptions
-
-## Summary
+## <span>Summary</span>
 
 Applies the settings specified by the PhotoSettings object passed by parameter.
 
-*Method of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)*
+Method of [apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)[apis/image\_capture/ImageCapture](/apis/image_capture/ImageCapture)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  pictureDevice.setOptions(photoSettings);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### photoSettings
+### <span>photoSettings</span>
 
- Data-typeÂ
+ Data-type
 :   PhotoSettings
 
-*(Optional)*
+(Optional)
 
 The PhotoSettings object is optionally passed into the ImageCapture.setOptions() method in order to modify capture device settings specific to still imagery.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 

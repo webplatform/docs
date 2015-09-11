@@ -1,15 +1,25 @@
 ---
 title: setVersion
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBDatabase
+    href: /apis/indexeddb/IDBDatabase
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBDatabase
+summary: 'Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'Not Ready'
-notes:
-  - 'Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/'
-summary: 'Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/'
-uri: apis/indexeddb/IDBDatabase/setVersion
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -17,41 +27,40 @@ todo_broken_links:
     - apis/indexedDB/properties/indexedDB
     - apis/indexedDB/events/onupgradeneeded
     - apis/indexedDB/IDBDatabase
+uri: apis/indexeddb/IDBDatabase/setVersion
 
 ---
-# setVersion
-
-## Summary
+## <span>Summary</span>
 
 Deletion candidate. Not in spec: http://www.w3.org/TR/IndexedDB/
 
-*Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)*
+Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.setVersion(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### version
+### <span>version</span>
 
- Data-typeÂ
+ Data-type
 :   Blob
 
  The new version identifier.
 
-### retVal
+### <span>retVal</span>
 
- Data-typeÂ
+ Data-type
 :   Blob
 
  The transaction associated with the VERSION\_CHANGE request.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -61,29 +70,22 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **setVersion** method was specified by an early draft of the [Indexed Database specification](http://go.microsoft.com/fwlink/p/?LinkID=224519). The method was removed from later drafts of the specification and is no longer supported. To create object stores, indexes, and other IndexedDB objects, use the **version** parameter of the [**open**](/w/index.php?title=apis/indexedDB/methods/open&action=edit&redlink=1) method of the [**indexedDB**](/w/index.php?title=apis/indexedDB/properties/indexedDB&action=edit&redlink=1) property to generate an [**onupgradeneeded**](/w/index.php?title=apis/indexedDB/events/onupgradeneeded&action=edit&redlink=1) event.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `IDBDatabase`
 -   `onupgradeneeded`
 -   `open`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

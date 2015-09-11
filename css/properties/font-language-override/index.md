@@ -1,47 +1,61 @@
 ---
 title: font-language-override
+notes:
+  - 'Add example, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'all elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`font`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The ‘font-language-override’ property allows authors to explicitly specify the language system of the font, overriding the language system implied by the content language.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add example, specifications, compatibility.'
-summary: 'The ‘font-language-override’ property allows authors to explicitly specify the language system of the font, overriding the language system implied by the content language.'
 uri: css/properties/font-language-override
 
 ---
-# font-language-override
-
-## Summary
+## <span>Summary</span>
 
 The ‘font-language-override’ property allows authors to explicitly specify the language system of the font, overriding the language system implied by the content language.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   all elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `font`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `font-language-override: <string>`
 -   `font-language-override: normal`
 
-## Values
+## <span>Values</span>
 
 normal
 :   specifies that when rendering with OpenType fonts, the content language of the element is used to infer the OpenType language system
@@ -51,21 +65,21 @@ normal
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      OpenType supports language-specific glyph selection and positioning, so that text can be displayed correctly in cases where the language dictates a specific display behavior. Authors can control the use of language-specific glyph substitutions and positioning by setting the content language of an element.
 
 `<!-- Display text using S'gaw Karen specific features --> <p lang="ksw">...</p>`
 
-## Notes
+## <span>Notes</span>
 
 Use of invalid OpenType language system tags must not generate a parse error but must be ignored when doing glyph selection and placement.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -79,13 +93,7 @@ Use of invalid OpenType language system tags must not generate a parse error but
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [kerning-mode](/css/properties/kerning-mode)
-
--   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
 
 -   [text-rendering](/css/properties/text-rendering)
 
@@ -93,7 +101,7 @@ Use of invalid OpenType language system tags must not generate a parse error but
 
 -   [user-modify](/css/properties/user-modify)
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -119,13 +127,7 @@ Use of invalid OpenType language system tags must not generate a parse error but
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -133,17 +135,13 @@ Use of invalid OpenType language system tags must not generate a parse error but
 
 -   [font](/html/elements/font)
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   **font-language-override**
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -154,8 +152,6 @@ Use of invalid OpenType language system tags must not generate a parse error but
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -169,25 +165,11 @@ Use of invalid OpenType language system tags must not generate a parse error but
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -233,7 +215,6 @@ Use of invalid OpenType language system tags must not generate a parse error but
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### External resources
+### <span>External resources</span>
 
 [Microsoft OpenType Layout Tag Registry](http://www.microsoft.com/typography/otspec/languagetags.htm)
-

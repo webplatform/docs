@@ -1,35 +1,74 @@
 ---
 title: addtrack
+notes:
+  - 'Parent object obsolete; deletion candidate'
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+summary: 'A MediaStreamTrack has been added to the list.'
 tags:
   - Events
   - API
   - WebRTC
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Parent object obsolete; deletion candidate'
-summary: 'A MediaStreamTrack has been added to the list.'
 uri: apis/webrtc/MediaStreamTrackList/addtrack
 
 ---
-# addtrack
-
-## Summary
+## <span>Summary</span>
 
 A MediaStreamTrack has been added to the list.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:    ?
-Cancelable
-:   No
-Default action
-:    ?
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 

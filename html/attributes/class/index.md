@@ -1,29 +1,38 @@
 ---
 title: class
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Specifies one or more classes for an element, usually used to point to a class in a style sheet.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Specifies one or more classes for an element, usually used to point to a class in a style sheet.'
 uri: html/attributes/class
 
 ---
-# class
-
-## Summary
+## <span>Summary</span>
 
 Specifies one or more classes for an element, usually used to point to a class in a style sheet.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   dom/HTMLElement
 
-## Examples
+</th>
+<td>
+dom/HTMLElement
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the class attribute to apply one or more styles to an HTML element.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
   <head>
@@ -49,9 +58,9 @@ This example uses the class attribute to apply one or more styles to an HTML ele
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The property is equal to NULL if the attribute is not explicitly assigned. When multiple styles are specified for an element, a conflict could develop if two or more styles define the same attribute differently. In this case, you can resolve the conflict by applying styles to the element in the following order, according to the Cascading Style Sheets (CSS) selector used to define the style:
 
@@ -62,22 +71,13 @@ The property is equal to NULL if the attribute is not explicitly assigned. When 
 
 When two or more selectors pertain to an element, a style defined later takes precedence over a style defined earlier. For more information, see Introduction to Cascading Style Sheets.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,84 +1,82 @@
 ---
 title: setAttributeNS
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs examples and compat'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+standardization_status: 'W3C Recommendation'
+summary: 'Sets the value of a content attribute in a specified namespace.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs examples and compat'
-summary: 'Sets the value of a content attribute in a specified namespace.'
 uri: dom/Element/setAttributeNS
 
 ---
-# setAttributeNS
-
-## Summary
+## <span>Summary</span>
 
 Sets the value of a content attribute in a specified namespace.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  element.setAttributeNS(namespaceURI, name, value);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### namespaceURI
+### <span>namespaceURI</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The namespace URI of the attribute, or null.
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The local name of the attribute within the specified namespace.
 
-### value
+### <span>value</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The value of the attribute.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Use this method to set an attribute in a specified namespace.
 
-## Notes
+## <span>Notes</span>
 
 -   The attribute will be created, if it is not already present.
 -   Where namespaces are irrelevant, [setAttribute](/dom/Element/setAttribute) can be used instead.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
+
 [Document Object Model (DOM) Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
 :   Recommendation
+
 [DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

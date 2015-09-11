@@ -1,30 +1,35 @@
 ---
 title: viewInheritStyle
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/properties
+    href: /css/cssom/properties
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
 uri: css/cssom/properties/viewInheritStyle
 
 ---
-# viewInheritStyle
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/properties](/css/cssom/properties)</span></span>
+Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.viewInheritStyle;
 element.viewInheritStyle = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
 The content of the primary document is shown in the code snippet below. In the following sample a **div** tag contains a custom element that has an element behavior attached to it. The **div** tag that is located in the primary document sets a number of CSS attributes, specifically the following:
 
@@ -44,8 +49,7 @@ The content of the primary document is shown in the code snippet below. In the f
 [**border**](/css/properties/border) is set to 2px solid blue.
 
 </li>
-
-``` {.html}
+``` html
 <HTML xmlns:myns>
 <HEAD>
 <?import namespace="myns" implementation="viewInheritStyle.htc">
@@ -75,7 +79,7 @@ The HTC file contains a simple document fragment, which also includes a **div** 
 </li>
 Because the content in the primary document has CSS styles set on a **div** tag that contains the custom element, the **div** tag in the document fragment inherits the inheritable CSS Styles when the **viewInheritStyle** property is true.
 
-``` {.html}
+``` html
 <public:component tagName="abc">
 <attach event="oncontentready" onevent=init() />
 </public:component>
@@ -107,27 +111,20 @@ boolInherit = defaults.viewInheritStyle;
 </BODY>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 For more information on the CSS styles that can be inherited when **viewInheritStyle** is set to true, see About Viewlink CSS Inheritance. Inheritable CSS styles are only applied to elements in the document fragment that do not already have the corresponding CSS styles defined.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `defaultSelected`
 -   `Conceptual`
 -   `Introduction to Viewlink`
 -   `About Viewlink CSS Inheritance`
 -   `About Element Behaviors`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

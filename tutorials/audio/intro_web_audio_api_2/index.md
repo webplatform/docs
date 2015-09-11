@@ -1,23 +1,21 @@
 ---
-title: intro web audio api 2
+title: Introduction to the web audio API, part 2
+readiness: 'Ready to Use'
+summary: 'An introduction to the web audio API: inserting processor nodes between source and destination.'
 tags:
   - Tutorials
   - Audio
-readiness: 'Ready to Use'
-summary: 'An introduction to the web audio API: inserting processor nodes between source and destination.'
 uri: 'tutorials/audio/intro web audio api 2'
 
 ---
-# Introduction to the web audio API, part 2
-
 **By [Dave Gash](http://docs.webplatform.org/wiki/User:Dgash)**
 Originally published November 7, 2012
 
-## Summary
+## <span>Summary</span>
 
 An introduction to the web audio API: inserting processor nodes between source and destination.
 
-## Introduction
+## <span>Introduction</span>
 
 Web-based audio is becoming more robust all the time, and necessarily so. As the web evolves in stylistic and presentational features, web applications also require a higher degree of sophistication in audio manipulation. Gone are the days of `<embed>`, `<object>`, and `<bgsound>`, when the best you could hope for was static playback of a fixed music track.
 
@@ -29,7 +27,7 @@ The web audio API is high-level JavaScript interface that is about much more tha
 
 In [Part 1](http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_1) of this tutorial, we explored the basics of the API; in this part, we'll learn how to insert a processor node in the audio path and use it to modify the sound between the source and destination nodes.
 
-## A quick recap of part 1
+## <span>A quick recap of part 1</span>
 
 First, recall that all API sound manipulation takes place within an [AudioContext](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#AudioContext-section). A context can be thought of as a master container inside which your web page does all of its audio processing. A major benefit of this "sandbox" approach is that it isolates all the audio work—even the most complex and demanding processes—into an independent, high-priority thread and thus prevents this CPU-intensive work from interfering with other events (visual or aural) and marring the user experience.
 
@@ -41,7 +39,7 @@ The simplest connection case, then, consists of a web app with a context that co
 
 *A context with one source and one destination* ![wap1b-basic-trans.gif](/assets/public/6/6e/wap1b-basic-trans.gif)
 
-## In part 2
+## <span>In part 2</span>
 
 The next reasonable step is a connection case that consists of a web app with a context that contains a source node and a destination node, but with one or more processing nodes between them. A processing node modifies the sound in some way—volume, EQ, pitch, phase, etc.—after it is output from the source node but before it is input to the destination node, as shown below. That's the case we'll cover in this part.
 
@@ -49,46 +47,46 @@ The next reasonable step is a connection case that consists of a web app with a 
 
 Be sure you understand how the nodes are created and linked together as described in [Part 1](http://docs.webplatform.org/wiki/tutorials/intro_web_audio_api_1) before proceeding with this part of the tutorial.
 
-## A simple processor node
+## <span>A simple processor node</span>
 
 One of the most common (and useful) things we might do to a sound is control its volume during playback, either programmatically, via user interaction, based on timing, etc. We can do this by inserting a gain node into the audio path.
 
 Interestingly, this is a very simple procedure. First, we create a gain node within the audio context using the `createGainNode` method.
 
-``` {.js}
+``` js
 var gainNode = context.createGainNode();
 ```
 
  Bear in mind that a gain node is just one of the many built-in processor node types available to an audio context. Other processors are available to control delay, pan, spatialization, splitting, merging, compression, filtering, and more. See the [W3C Web Audio API specification](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html) for a complete list.
 
-## The new connection
+## <span>The new connection</span>
 
 This time, rather than connecting the source node directly to the destination node, we route the source into the gain node, and from there to the destination node. That is, instead of this:
 
-``` {.js}
+``` js
 source.connect(context.destination);
 ```
 
  we do this:
 
-``` {.js}
+``` js
 source.connect(gainNode);
 gainNode.connect(context.destination);
 ```
 
  Then, it's just a matter of setting the gain node's value to something less than 1.0 to achieve a lower volume prior to playback. Again, this might be accomplished via a user interface element, a timing mechanism, or, as done here, a simple JavaScript statement.
 
-``` {.js}
+``` js
 gainNode.gain.value = 0.5;
 ```
 
  And the sound is ready to play at half volume.
 
-## The modified function
+## <span>The modified function</span>
 
 Using the function from Step 5 (Play the audio) in Part 1, we add the four lines above to create a modified function, `playSoundHalf()` (let's call it Step 5.5), that might look like this.
 
-``` {.js}
+``` js
 //Step 5.5
 var source = null;
 function playSoundHalf(anybuffer) {
@@ -111,13 +109,13 @@ function playSoundHalf(anybuffer) {
 >
 > `start()` and `stop()`, as noted in the examples' comments, but as of this writing (November 2012) this change has not been fully implemented. See the web audio specification's [deprecation section](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#deprecation-section) for more
 >
-> information, and always test applications to ensure that they use the currently supported syntax.**
+> information, and always test applications to ensure that they use the currently supported syntax.
 
-## The completed example
+## <span>The completed example</span>
 
 Having examined the required steps in bits and pieces, let's now take a look at a complete, working page that loads, decodes, and plays a sound, including a new button that plays it at half volume. In this example, we assume that the file "mysound.mp3" exists in the same location as the page, and that the page and the sound reside on a server (either local or remote) so that the XHR will work.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -211,11 +209,11 @@ function stopSound() {
 8.  Click the **Play half volume** button. The sound plays at half its full volume.
 9.  Optional: During playback (assuming the sound plays long enough), click the **Stop** button. The sound stops.
 
-## Adding processors
+## <span>Adding processors</span>
 
 As a final example, let's modify the Step 5.5 `playSoundHalf()` function to include a low-pass filter as a second inline processor. First, we create a filter node within the audio context using the `createBiquadFilter()` method and set its filter type to 0 (low-pass) and cutoff value to 440 Hz (A4). (See the [Biquad filter section](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html#BiquadFilterNode-section) of the specs for more information on this filter.)
 
-``` {.js}
+``` js
 var filterNode = context.createBiquadFilter();
 filterNode.type = 0;
 filterNode.frequency.value = 440;
@@ -223,20 +221,20 @@ filterNode.frequency.value = 440;
 
  Then, we insert the filter between the gain node and the destination. That is, instead of this:
 
-``` {.js}
+``` js
 gainNode.connect(context.destination);
 ```
 
  we do this:
 
-``` {.js}
+``` js
 gainNode.connect(filterNode);
 filterNode.connect(context.destination);
 ```
 
  The sound's path is now **audio buffer \> gain node \> filter node \> destination**, and the modified function looks like this:
 
-``` {.js}
+``` js
 //Step 5.5
 var source = null;
 function playSoundHalf(anybuffer) {
@@ -259,14 +257,13 @@ function playSoundHalf(anybuffer) {
 
  The sound will now play at half its original volume *and* frequencies above 440 Hz will be attenuated.
 
-## Summary
+## <span>Summary</span>
 
 As you can see, adding one or more processors to the sound stream is a fairly simple matter of defining the processor(s) and then connecting the inputs and outputs. In this way, you can construct audio paths that include serial (sequential) and/or parallel (simultaneous) processors to achieve sophisticated audio effects.
 
-## References
+## <span>References</span>
 
 -   Chris Wilson's [Google I/O 2012 session video](https://developers.google.com/events/io/sessions/gooio2012/221/)
 -   The W3C's [web audio specification](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 -   Eric Bidelman's [how-to article](http://ericbidelman.tumblr.com/post/13471195250/web-audio-api-how-to-playing-audio-based-on-user)
 -   Boris Smus's [getting started article](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
-

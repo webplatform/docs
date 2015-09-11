@@ -1,45 +1,55 @@
 ---
 title: isCollapsed
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.isCollapsed](https://developer.mozilla.org/en-US/docs/Web/API/Selection.isCollapsed) Article]'
+  - 'Microsoft Developer Network: [[isCollapsed Property](http://msdn.microsoft.com/en-us/library/ie/ff974692(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Selection
+    href: /dom/Selection
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/Selection
+standardization_status: 'W3C Working Draft'
+summary: 'Retrieves whether a selection is collapsed or empty.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Retrieves whether a selection is collapsed or empty.'
 uri: dom/Selection/isCollapsed
 
 ---
-# isCollapsed
-
-## Summary
+## <span>Summary</span>
 
 Retrieves whether a selection is collapsed or empty.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Selection](/dom/Selection)</span></span>
+Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = selObj.isCollapsed;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 false - The selection is not collapsed.
 
 true - The selection is collapsed or empty.
 
-## Examples
+## <span>Examples</span>
 
 This example uses **isCollapsed** to see whether a selection is empty or not. If the selection is not empty, the selected text is displayed.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 
 <html>
@@ -77,23 +87,14 @@ This example uses **isCollapsed** to see whether a selection is empty or not. If
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 A collapsed selection has its start and end points set to the same value, which renders it empty. Even a collapsed selection may have a rangeCount greater than 0. selObj.getRangeAt(0) may return a range that is also collapsed.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.isCollapsed](https://developer.mozilla.org/en-US/docs/Web/API/Selection.isCollapsed) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[isCollapsed Property](http://msdn.microsoft.com/en-us/library/ie/ff974692(v=vs.85).aspx) Article]
-

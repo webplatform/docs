@@ -1,21 +1,23 @@
 ---
 title: setSeconds
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/df6eb6zf(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the seconds value in the Date object using local time.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sets the seconds value in the Date object using local time.'
 uri: javascript/Date/setSeconds
 
 ---
-# setSeconds
-
-## Summary
+## <span>Summary</span>
 
 Sets the seconds value in the Date object using local time.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj .setSeconds( numSeconds [ , numMilli ] )
 
@@ -28,11 +30,11 @@ Sets the seconds value in the Date object using local time.
 **numMilli**
 :   Optional. A numeric value equal to the milliseconds value.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **setSeconds** method.
 
-``` {.js}
+``` js
 function SetSecondsDemo(nsec){
     var d = new Date();         //Create Date object.d.setSeconds( nsec ) ;         //Set seconds.
     var s = "Current setting is ";
@@ -41,7 +43,7 @@ function SetSecondsDemo(nsec){
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 All **set** methods taking optional arguments use the value returned from corresponding **get** methods, if you do not specify an optional argument. For example, if the numMilli argument is not specified, JavaScript uses the value returned from the **getMilliseconds** method.
 
@@ -51,17 +53,11 @@ If the value of an argument is greater than its range or is a negative number, o
 
 The setHours method can be used to set the hours, minutes, seconds, and milliseconds.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getSeconds Method (Date)](/javascript/Date/getSeconds)
 -   [getUTCSeconds Method (Date)](/javascript/Date/getUTCSeconds)
 -   [setUTCSeconds Method (Date)](/javascript/Date/setUTCSeconds)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/df6eb6zf(v=vs.94).aspx)
 

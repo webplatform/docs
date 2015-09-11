@@ -1,5 +1,19 @@
 ---
 title: charging
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/battery_status/BatteryManager
+    href: /apis/battery_status/BatteryManager
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /apis/battery_status/BatteryManager
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Represents if the system''s battery is charging.'
 tags:
   0: API
   1: Object
@@ -7,33 +21,26 @@ tags:
   4: Battery
   5: Status
   6: Mobile
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Represents if the system''s battery is charging.'
 uri: 'apis/battery status/BatteryManager/charging'
 
 ---
-# charging
-
-## Summary
+## <span>Summary</span>
 
 Represents if the system's battery is charging.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)</span></span>
+Property of [apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)[apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = battery.charging;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 **Needs Examples**: This section should include examples.
 

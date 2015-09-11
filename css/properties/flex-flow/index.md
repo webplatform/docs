@@ -1,48 +1,60 @@
 ---
 title: flex-flow
+code_samples:
+  - 'http://gist.github.com/4740728'
+  - 'http://gist.github.com/5506026'
+notes:
+  - 'Add description and compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`See individual properties.`'
+  'Applies to': 'flex containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'See individual properties.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`flexFlow`'
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The flex-flow CSS property defines the flex container''s main and cross axis. It is a shorthand property for the flex-direction and flex-wrap properties.'
 tags:
   - CSS
   - Properties
   - Flexbox
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add description and compatibility.'
-summary: 'The flex-flow CSS property defines the flex container''s main and cross axis. It is a shorthand property for the flex-direction and flex-wrap properties.'
-code_samples:
-  - 'http://gist.github.com/4740728'
-  - 'http://gist.github.com/5506026'
 uri: css/properties/flex-flow
 
 ---
-# flex-flow
-
-## Summary
+## <span>Summary</span>
 
 The flex-flow CSS property defines the flex container's main and cross axis. It is a shorthand property for the flex-direction and flex-wrap properties.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties.`
+
 Applies to
 :   flex containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   See individual properties.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `flexFlow`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `flex-flow: <flex-direction> <flex-wrap>`
 
-## Values
+## <span>Values</span>
 
 \<flex-direction\> \<flex-wrap\>
 :   The shorthand value includes the values of the following properties:
@@ -50,11 +62,11 @@ Animatable
 -   [flex-direction](/css/properties/flex-direction)
 -   [flex-wrap](/css/properties/flex-wrap)
 
-## Examples
+## <span>Examples</span>
 
 Displaying children in a row wrapping to the next line.
 
-``` {.css}
+``` css
 .list {
   display: flex;
   flex-flow: row wrap;
@@ -69,24 +81,22 @@ Displaying children in a row wrapping to the next line.
 
 The Holy Grail Layout example.
 
-``` {.css}
+``` css
 flex-flow: row;
 ```
 
 [View live example](http://code.webplatform.org/gist/5506026)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#flex-flow-property)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Flexbox
+#### <span>Flexbox</span>
 
 -   [align-content](/css/properties/align-content)
 
@@ -112,10 +122,9 @@ Specification
 
 -   [justify-content](/css/properties/justify-content)
 
-### External resources
+### <span>External resources</span>
 
 Also, check out the following live demo sites:
 
 -   [Flexbox Playground](http://demo.agektmr.com/flexbox/)
 -   [Flexy Boxes](http://the-echoplex.net/flexyboxes)
-

@@ -1,35 +1,37 @@
 ---
 title: keys
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff688127(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the names of the enumerable properties and methods of an object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the names of the enumerable properties and methods of an object.'
 uri: javascript/Object/keys
 
 ---
-# keys
-
-## Summary
+## <span>Summary</span>
 
 Returns the names of the enumerable properties and methods of an object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Object.keys( object )
 
 **object**
 :   Required. The object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
 
-## Return Value
+## <span>Return Value</span>
 
 An array that contains the names of the enumerable properties and methods of the object.
 
-## Examples
+## <span>Examples</span>
 
 The following example creates an object that has three properties and a method. It then uses the **keys** method to get the properties and methods of the object.
 
-``` {.js}
+``` js
 // Create a constructor function.
  function Pasta(grain, width, shape) {
      this.grain = grain;
@@ -55,7 +57,7 @@ The following example creates an object that has three properties and a method. 
 
 The following example displays the names of all enumerable properties that start with the letter "g" in the Pasta object.
 
-``` {.js}
+``` js
 // Create a constructor function.
  function Pasta(grain, width, shape) {
      this.grain = grain;
@@ -81,25 +83,19 @@ The following example displays the names of all enumerable properties that start
  // grain
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **keys** method returns only the names of enumerable properties and methods. To return the names of both enumerable and non-enumerable properties and methods, you can use [Object.getOwnPropertyNames Function](/javascript/Object/getOwnPropertyNames).
 
 For information about the enumerable attribute of a property, see [Object.defineProperty Function](/javascript/Object/defineProperty) and [Object.getOwnPropertyDescriptor Function](/javascript/Object/getOwnPropertyDescriptor).
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the value supplied for the object argument is not the name of an object, a TypeError exception is thrown.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Object.getOwnPropertyNames Function](/javascript/Object/getOwnPropertyNames)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff688127(v=vs.94).aspx)
 

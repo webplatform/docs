@@ -1,26 +1,25 @@
 ---
 title: AnimationNode
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Animation nodes are represented in the Web Animations API by the AnimationNode interface.'
 tags:
   0: API
   1: Objects
   3: Web
   4: Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Animation nodes are represented in the Web Animations API by the AnimationNode interface.'
 uri: 'apis/web animations/AnimationNode'
 
 ---
-# AnimationNode
-
-## Summary
+## <span>Summary</span>
 
 Animation nodes are represented in the Web Animations API by the AnimationNode interface.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [computedTiming](/apis/web_animations/AnimationNode/computedTiming)
 :   Returns the calculated timing properties for this animation node. This is comparable to the computed style of an Element, window.getComputedStyle(elem).
 
@@ -30,17 +29,21 @@ API Name
 
 [nextSibling](/apis/web_animations/AnimationNode/nextSibling)
 :   The next sibling of this animation node.
+
 [parent](/apis/web_animations/AnimationNode/parent)
 :   The parent animation group of this animation node or null if this animation node does not have a parent animation group.
+
 [previousSibling](/apis/web_animations/AnimationNode/previousSibling)
 :   The previous sibling of this animation node.
+
 [timing](/apis/web_animations/AnimationNode/timing)
 :   Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [after](/apis/web_animations/AnimationNode/after)
 :   Inserts nodes after this animation node.
 
@@ -55,29 +58,28 @@ API Name
 
 [remove](/apis/web_animations/AnimationNode/remove)
 :   Removes this animation node from its parent animation group or player.
+
 [replace](/apis/web_animations/AnimationNode/replace)
 :   Replaces this AnimationNode with the passed in nodes.
 
     If there is no parent animation group, terminate these steps. If any of the animation nodes in nodes is an inclusive ancestor of the parent animation group throw a HierarchyRequestError exception and terminate these steps. Let reference child be the next sibling of this animation node not in nodes. Remove this animation node from its parent animation group. Insert nodes before reference child.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [ ]
 :
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -98,8 +100,6 @@ Specification
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -127,7 +127,4 @@ Specification
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

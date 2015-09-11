@@ -1,41 +1,44 @@
 ---
 title: droppedVideoFrames
+attributions:
+  - 'Microsoft Developer Network.'
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/media_source_extensions/VideoPlaybackQuality
+    href: /apis/media_source_extensions/VideoPlaybackQuality
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/media_source_extensions/VideoPlaybackQuality
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Gets the number of dropped video frames.'
 tags:
   - API
   - Object
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Gets the number of dropped video frames.'
 uri: 'apis/media source extensions/VideoPlaybackQuality/droppedVideoFrames'
 
 ---
-# droppedVideoFrames
-
-## Summary
+## <span>Summary</span>
 
 Gets the number of dropped video frames.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)</span></span>
+Property of [apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)[apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var number = VideoPlaybackQuality.droppedVideoFrames;
 VideoPlaybackQuality.droppedVideoFrames = number;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 **Needs Examples**: This section should include examples.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network.
 

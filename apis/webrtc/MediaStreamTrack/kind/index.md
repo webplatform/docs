@@ -1,31 +1,34 @@
 ---
 title: kind
+notes:
+  - 'Needs example, spec reference, usage'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/MediaStreamTrack
+    href: /apis/webrtc/MediaStreamTrack
+standardization_status: 'W3C Working Draft'
+summary: 'The value, either audio or video for the source of the track.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference, usage'
-summary: 'The value, either audio or video for the source of the track.'
 uri: apis/webrtc/MediaStreamTrack/kind
 
 ---
-# kind
-
-## Summary
+## <span>Summary</span>
 
 The value, either audio or video for the source of the track.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)</span></span>
+Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = track.kind;
 ```
 

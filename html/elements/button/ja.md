@@ -1,20 +1,25 @@
 ---
-title: ja
+title: button
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[\<button\> on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) Article]'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/b08191a8d5915621a5e1'
+  - 'http://gist.github.com/ceb6531b1b86fb0b21d0'
+  - 'http://gist.github.com/c579515bcd4378bfd634'
+lang: ja
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLButtonElement](/dom/HTMLButtonElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'button要素はクリック可能なボタンを表示します。'
 tags:
   - Markup
   - Elements
   - HTML
   - UI
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information.'
-summary: 'button要素はクリック可能なボタンを表示します。'
-code_samples:
-  - 'http://gist.github.com/b08191a8d5915621a5e1'
-  - 'http://gist.github.com/ceb6531b1b86fb0b21d0'
-  - 'http://gist.github.com/c579515bcd4378bfd634'
-uri: html/elements/button/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -22,15 +27,14 @@ todo_broken_links:
     - dom/MouseEvent/click/ja
     - html/elements/input/ja
     - css/properties/background-image/ja
+uri: html/elements/button/ja
 
 ---
-# button
-
-## Summary
+## <span>Summary</span>
 
 button要素はクリック可能なボタンを表示します。
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLButtonElement](/dom/HTMLButtonElement)
@@ -39,7 +43,7 @@ button要素ではボタンの中にテキストや画像を設置すること�
 
  デフォルトではボタンをクリックすることで、[**form**](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)のデータをサブミットします。type属性を変更することでボタンがクリックされた際の挙動を変更できます。
 
-### 属性(HTML 4)
+### <span>属性(HTML 4)</span>
 
 name
 :   ボタンの名前です。これによってformをサブミットしたボタンを識別することができます。
@@ -55,7 +59,7 @@ value
 disabled
 :   このBooleanの属性は、ユーザにボタンを操作できなくするためのものです。特にこの属性を指定しない場合、button要素は親要素の設定を継承します。例えば、**fieldset**の中の要素にdisabled属性を設定したものがなければ、ボタンは有効となります。disabledを指定したボタンはクリックすることができません。
 
-### 追加属性(HTML 5勧告候補)
+### <span>追加属性(HTML 5勧告候補)</span>
 
 autofocus
 :   この属性を"true"にすると、ユーザが別の入力をしない限り、ページをロードしたあとすぐにボタンがフォーカスされます。 ドキュメント内のform関連要素の中で1つだけがこの属性を指定できます。
@@ -80,11 +84,11 @@ formtarget
 
 これらの属性は`name`属性を除き、デフォルト値を持っているため、記載せずに利用することができます。
 
-## Examples
+## <span>Examples</span>
 
 この例は`<button>`要素を使って、送信もリセットもしないクリック可能なボタンを表示しています。
 
-``` {.html}
+``` html
 <button name="myButton" type="button">クリックしてね</button>
 ```
 
@@ -92,7 +96,7 @@ formtarget
 
 この例ではフォームを送信するための`<button>`の使い方を紹介します。よくわからない場合は、form要素についてのページを読んで[**form**](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)の使い方について詳細な情報を学んでください。
 
-``` {.html}
+``` html
 <form action="dataReceiverURI">
   <label for="name">氏名:</label>
   <input id="name" type="text" name="user_name">
@@ -104,7 +108,7 @@ formtarget
 
 `<button="reset">`を使ってformをリセットする例を紹介します。よくわからない場合は、form要素についてのページを読んで[**form**](/w/index.php?title=html/elements/form/ja&action=edit&redlink=1)の使い方について詳細な情報を学んでください。
 
-``` {.html}
+``` html
 <form>
   <label for="name">氏名:</label>
   <input id="name" type="text" name="user_name" >
@@ -114,7 +118,7 @@ formtarget
 
 [View live example](http://code.webplatform.org/gist/c579515bcd4378bfd634)
 
-## Usage
+## <span>Usage</span>
 
      一般的に、button要素はいつでもクリック可能であるべきです。
 
@@ -124,7 +128,7 @@ formtarget
 
 サブミットボタンを装飾するときは\<button\>要素を使うよりもtype属性に`submit`を指定した[**input**](/w/index.php?title=html/elements/input/ja&action=edit&redlink=1)要素のほうが簡単に実装することができます。
 
-## Notes
+## <span>Notes</span>
 
 type属性のデフォルト値は`type`であるため、特に他の`type`を使用する必要がない場合は、`type`を省略することができます。過去のブラウザでは`type`の値がそれぞれ違いました。
 
@@ -132,50 +136,43 @@ Android用のFirefoxではデフォルトで`background-image`がセットされ
 
 Firefoxは他のブラウザと異なり、デフォルトでbuttonの[disabledの状態がページ読み込みを挟んでも保持されます](http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing)。 autocomplete属性をoffにするとこの機能を無効にすることができます。[Mozilla Bug \#654072](https://bugzilla.mozilla.org/show_bug.cgi?id=654072)をご覧ください。
 
-### クリックとフォーカス
+### <span>クリックとフォーカス</span>
 
 ブラウザ/OS別　**button**をクリックした際、フォーカスが切り替わるかどうか
 
 buttonをクリックしたときフォーカスされますか？
 
-デスクトップブラウザ
-:   Windows 8.1
-Firefox 30.0
-:   Yes
-Chrome 35
-:   Yes
-Safari 7.0.5
-:   N/A
-Internet Explorer 11
-:   Yes
-Presto (Opera 12)
-:   Yes
+|デスクトップブラウザ|Windows 8.1|OS X 10.9|
+|:-------------------|:----------|:--------|
+|Firefox 30.0|Yes|No (even with a [`tabindex`](/html/attributes/tabIndex))|
+|Chrome 35|Yes|Yes|
+|Safari 7.0.5|N/A|No (even with a [`tabindex`](/html/attributes/tabIndex))|
+|Internet Explorer 11|Yes|N/A|
+|Presto (Opera 12)|Yes| ???|
 
 **button**をタップしたときフォーカスされますか？
 
-Mobile Browsers
-:   iOS 7.1.2
-Safari Mobile
-:   No (even with a [`tabindex`](/html/attributes/tabIndex))
-Chrome 35
-:    ???
+|Mobile Browsers|iOS 7.1.2|Android 4.4.4|
+|:--------------|:--------|:------------|
+|Safari Mobile|No (even with a [`tabindex`](/html/attributes/tabIndex))|N/A|
+|Chrome 35| ???|Yes|
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-button-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/forms.html#the-button-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Document Structure
+#### <span>Document Structure</span>
 
 -   [button](/html/elements/button)
 
@@ -193,11 +190,9 @@ Specification
 
 -   [section](/html/elements/section)
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -295,20 +290,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 -   [**input type="button"**](/html/elements/input/type/button)
 -   [**input type="submit"**](/html/elements/input/type/submit)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[\<button\> on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

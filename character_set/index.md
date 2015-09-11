@@ -1,17 +1,15 @@
 ---
-title: haracter set
+title: character set
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: 'character set'
 
 ---
-# character set
-
-## character set
+## <span>character set</span>
 
 The full range of characters in a font used for electronic documents, in which each character assumes a unique code position within the font.
 

@@ -1,24 +1,24 @@
 ---
-title: generated and replaced content
+title: Generated and Replaced Content
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, values, syntax, example, description, specifications, compatibility.'
+readiness: 'Not Ready'
+standardization_status: Unknown
 tags:
   - Basic
   - Pages
-readiness: 'Not Ready'
-standardization_status: Unknown
-notes:
-  - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 uri: 'css/generated and replaced content'
 
 ---
-# Generated and Replaced Content
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Generated and Replaced Content
+#### <span>Generated and Replaced Content</span>
 
 -   **Generated and Replaced Content**
 
@@ -34,11 +34,4 @@ uri: 'css/generated and replaced content'
 
 -   [object-fit](/css/properties/object-fit)
 
-### In this section
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+### <span>In this section</span>

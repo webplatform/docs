@@ -1,36 +1,38 @@
 ---
 title: sort
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4b4fbfhk(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sorts an Array.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sorts an Array.'
 uri: javascript/Array/sort
 
 ---
-# sort
-
-## Summary
+## <span>Summary</span>
 
 Sorts an Array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     sort( sortFunction )
 
 **sortFunction**
 :   Optional. The name of the function used to determine the order of the elements. If omitted, the elements are sorted in ascending, ASCII character order.
 
-## Return Value
+## <span>Return Value</span>
 
 The sorted array.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use the **sort** method.
 
-``` {.js}
+``` js
 var a = new Array(4, 11, 2, 10, 3, 1);
 
  var b = a.sort();
@@ -58,7 +60,7 @@ var a = new Array(4, 11, 2, 10, 3, 1);
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **sort** method sorts the **Array** object in place; no new **Array** object is created during execution.
 
@@ -68,15 +70,9 @@ If you supply a function in the sortFunction argument, it must return one of the
 -   Zero if the two arguments are equivalent.
 -   A positive value if the first argument is greater than the second argument.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.11 Array.prototype.sort (comparefn)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.11) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4b4fbfhk(v=vs.94).aspx)
 

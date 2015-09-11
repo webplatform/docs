@@ -1,43 +1,53 @@
 ---
 title: typeMismatch
+attributions:
+  - 'Microsoft Developer Network: [[typeMismatch Property](http://msdn.microsoft.com/en-us/library/ie/hh773366(v=vs.85).aspx) Article]'
+  - 'Portions of this content come from HTML5Rocks! [[Making forms fabulous](http://www.html5rocks.com/en/tutorials/forms/html5forms/) article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/ValidityState
+    href: /dom/ValidityState
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/ValidityState
+standardization_status: 'W3C Working Draft'
+summary: 'Returns whether the input field value is not the correct syntax.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns whether the input field value is not the correct syntax.'
 uri: dom/ValidityState/typeMismatch
 
 ---
-# typeMismatch
-
-## Summary
+## <span>Summary</span>
 
 Returns whether the input field value is not the correct syntax.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/ValidityState](/dom/ValidityState)</span></span>
+Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.validity.typeMismatch;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 Whether a value is not the correct syntax.
 
-## Examples
+## <span>Examples</span>
 
 In the following example validity.typeMismatch is used to validate an email address field instead of a regular expression pattern.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -71,24 +81,14 @@ document.getElementById('txtemail').addEventListener('blur',validEmail,false);
 </body></html>
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use to validate input fields of type email or url instead of patternMismatch.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[typeMismatch Property](http://msdn.microsoft.com/en-us/library/ie/hh773366(v=vs.85).aspx) Article]
-
-Portions of this content come from HTML5Rocks! [[Making forms fabulous](http://www.html5rocks.com/en/tutorials/forms/html5forms/) article]
-

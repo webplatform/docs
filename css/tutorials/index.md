@@ -1,12 +1,11 @@
 ---
-title: tutorials
+title: CSS tutorials
+readiness: 'Ready to Use'
+summary: 'Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.'
 tags:
   - Basic
   - Pages
   - CSS
-readiness: 'Ready to Use'
-summary: 'Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.'
-uri: css/tutorials
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -66,24 +65,33 @@ todo_broken_links:
     - css/zh-hans
     - css/zh-hant
     - css/zh-tw
+translations:
+  es:
+    text: español
+    href: /css/es
+  fr:
+    text: français
+    href: /css/fr
+  ko:
+    text: 한국어
+    href: /css/ko
+  zh:
+    text: 中文
+    href: /css/zh
+uri: css/tutorials
 
 ---
-# CSS tutorials
-
-## Summary
+## <span>Summary</span>
 
 Cascading Stylesheets (CSS) is a language for styling markup content (such as HTML, SVG or XML.) This page lists our CSS tutorials, perfect for anyone wishing to learn the language from scratch, or dive into learning more advanced CSS techniques.
 
-**Language:**
-:   **[English](/css)**  • <span lang="es">[español](/css/es)</span> • <span lang="fr">[français](/css/fr)</span> • <span lang="ko">[한국어](/css/ko)</span> • <span lang="zh">[中文](/css/zh)</span>
-
-## Beginning with CSS
+## <span>Beginning with CSS</span>
 
 -   [What is CSS?](/tutorials/learning_what_css_is)
 -   [Why use CSS?](/tutorials/learning_why_we_use_css)
 -   [Getting started with CSS](/guides/getting_started_with_css)
 
-## CSS fundamentals
+## <span>CSS fundamentals</span>
 
 -   [Using selectors](/tutorials/using_selectors)
 -   [Advanced selectors guide](/guides/advanced_selectors_guide)
@@ -92,14 +100,14 @@ Cascading Stylesheets (CSS) is a language for styling markup content (such as HT
 -   [CSS shorthand guide](/guides/css_shorthand)
 -   [Debugging CSS](/tutorials/debugging_css)
 
-## Working with fonts and text
+## <span>Working with fonts and text</span>
 
 -   [CSS text quick start](/tutorials/css_text_quick_start)
 -   [Text styling fundamentals](/guides/css_text_styling_fundamentals)
 -   [Advanced CSS text styling](/guides/advanced_css_text_styling)
 -   [Using specific list styles](/tutorials/using_specific_list_styles)
 
-## Graphics
+## <span>Graphics</span>
 
 -   [Using CSS background images](/tutorials/using_css_background_images)
 -   [Creating gradients in CSS](/tutorials/creating_gradients_in_css)
@@ -108,7 +116,7 @@ Cascading Stylesheets (CSS) is a language for styling markup content (such as HT
 -   [Understanding CSS filter effects](/tutorials/css_filters)
 -   [Using multiple backgrounds](/tutorials/using_css_multiple_background)
 
-## CSS layout
+## <span>CSS layout</span>
 
 -   [The CSS layout model: border, boxes, margin and padding](/guides/the_css_layout_model)
 -   [Exploring the CSS box model](/tutorials/box_model)
@@ -118,19 +126,19 @@ Cascading Stylesheets (CSS) is a language for styling markup content (such as HT
 -   [Advanced layouts with absolute and fixed positioning](/tutorials/absolute_and_fixed_positioning)
 -   [Using CSS Regions to flow content through a layout](/tutorials/css-regions)
 
-## CSS best practices
+## <span>CSS best practices</span>
 
 -   [Making CSS easier to read](/tutorials/making_css_easier_to_read)
 -   [Optimizing CSS](/tutorials/optimizing_css)
 -   [State in CSS](/tutorials/state_in_css)
 
-## CSS transforms and animations
+## <span>CSS transforms and animations</span>
 
 -   [Manipulating content with CSS3 transforms](/tutorials/css_transforms)
 -   [Dynamic visual effects with CSS3 transitions](/tutorials/css_transitions)
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 
-## Advanced CSS techniques
+## <span>Advanced CSS techniques</span>
 
 -   [Generating content with CSS](/tutorials/generated_content)
 -   [Manipulating CSS with JavaScript](/tutorials/manipulating_css_with_javascript)
@@ -138,16 +146,15 @@ Cascading Stylesheets (CSS) is a language for styling markup content (such as HT
 -   [Styling XML data with CSS](/tutorials/styling_xml_with_css)
 -   [Manipulating replaced content with object-fit](/tutorials/object_fit)
 
-## Applied styling exercises
+## <span>Applied styling exercises</span>
 
 -   [Styling lists and links](/tutorials/styling_lists_and_links)
 -   [Styling HTML tables](/guides/styling_tables)
 -   [Table styling basics](/tutorials/table_styling_basics)
 -   [Styling forms](/guides/styling_forms_guide)
 
-## CSS for mobile and devices
+## <span>CSS for mobile and devices</span>
 
 -   [Targeting CSS at different media types](/tutorials/targetting_css_at_different_media)
 -   [Targeting CSS with media queries](/tutorials/media_queries)
 -   [Creating responsive layouts](/tutorials/responsive_layouts)
-

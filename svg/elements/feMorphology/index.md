@@ -1,77 +1,81 @@
 ---
 title: feMorphology
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
 uri: svg/elements/feMorphology
 
 ---
-# feMorphology
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 This example shows a simple text element and two morphology filters applied to the same text. The first filter thins the text with an [**operator**](/svg/properties/operator) value of **erode** and a **radius** value of 1. The second filter thickens the text with an **operator** value of **dilate** and and **radius** value of 1.2.
 
 The image will look like this.
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-        <head></head>
-        <body>
-            <svg width="400" height="400">
-                <defs>
-                    <filter id="MyFilter1" filterUnits="userSpaceOnUse" x="50" y="50" width="300" height="300">
-                        <feMorphology operator="erode" radius="1"  />
-                    </filter>
-                    <filter id="MyFilter2" filterUnits="userSpaceOnUse" x="50" y="50" width="300" height="300">
-                        <feMorphology operator="dilate" radius="1.2"  />
-                    </filter>
-                </defs>
-                <g font-family="Verdana" font-size="36" stroke="black" stroke-width="2">
-                    <text x="50" y="50">
-                        Unfiltered
-                    </text>
-                    <text x="50" y="150" filter="url(#MyFilter1)">
-                        Erode
-                    </text>
-                    <text x="50" y="250" filter="url(#MyFilter2)">
-                        Dilate
-                    </text>
-                </g>
-            </svg>
-        </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+    <head></head>
+    <body>
+        <svg width="400" height="400">
+            <defs>
+                <filter id="MyFilter1" filterUnits="userSpaceOnUse" x="50" y="50" width="300" height="300">
+                    <feMorphology operator="erode" radius="1"  />
+                </filter>
+                <filter id="MyFilter2" filterUnits="userSpaceOnUse" x="50" y="50" width="300" height="300">
+                    <feMorphology operator="dilate" radius="1.2"  />
+                </filter>
+            </defs>
+            <g font-family="Verdana" font-size="36" stroke="black" stroke-width="2">
+                <text x="50" y="50">
+                    Unfiltered
+                </text>
+                <text x="50" y="150" filter="url(#MyFilter1)">
+                    Erode
+                </text>
+                <text x="50" y="250" filter="url(#MyFilter2)">
+                    Dilate
+                </text>
+            </g>
+        </svg>
+    </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 You can specify thickness or thinness by using the [**operator**](/svg/properties/operator) property.
 
 You can specify how much you what to thicken or thin by using the **radius**, [**radiusX**](/svg/properties/radiusX), and [**radiusY**](/svg/properties/radiusY) properties.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.23
 
-### Members
+### <span>Members</span>
 
 The **SVGFEMorphologyElement** object has these properties:
 
@@ -85,11 +89,11 @@ The **SVGFEMorphologyElement** object has these properties:
 -   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -172,10 +176,3 @@ The **SVGFEMorphologyElement** object has these properties:
 -   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
 
 -   [SVG filters](/tutorials/svg_filters)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,5 +1,19 @@
 ---
 title: onchargingchange
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/battery_status/BatteryManager
+    href: /apis/battery_status/BatteryManager
+  return:
+    predicate: 'Returns an object of type '
+    value: function
+    href: /apis/battery_status/BatteryManager
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Handles the chargingchange event.'
 tags:
   0: API
   1: Object
@@ -7,32 +21,25 @@ tags:
   4: Battery
   5: Status
   6: Mobile
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Handles the chargingchange event.'
 uri: 'apis/battery status/BatteryManager/onchargingchange'
 
 ---
-# onchargingchange
-
-## Summary
+## <span>Summary</span>
 
 Handles the chargingchange event.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)</span></span>
+Property of [apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)[apis/battery\_status/BatteryManager](/apis/battery_status/BatteryManager)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = battery.onchargingchange;
 battery.onchargingchange = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">function</span></span>
+Returns an object of type functionfunction
 
 **Needs Examples**: This section should include examples.
 

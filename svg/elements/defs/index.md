@@ -1,37 +1,39 @@
 ---
 title: defs
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs properly flagged and automatically collected children instead of manual links, summary, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Needs properly flagged and automatically collected children instead of manual links, summary, spec reference, standardization status'
 uri: svg/elements/defs
 
 ---
-# defs
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 See the [**use**](/svg/elements/use) element for an example of using it with the **defs** element.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.4
 
-### Members
+### <span>Members</span>
 
 The **SVGDefsElement** object has these events:
 
@@ -64,10 +66,3 @@ The **SVGDefsElement** object has these properties:
 -   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

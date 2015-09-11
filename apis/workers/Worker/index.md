@@ -1,48 +1,52 @@
 ---
 title: Worker
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'An object representing a worker, that is used to communicate with the worker.'
 tags:
   0: API
   1: Objects
   3: Webworkers
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'An object representing a worker, that is used to communicate with the worker.'
 uri: apis/workers/Worker
 
 ---
-# Worker
-
-## Summary
+## <span>Summary</span>
 
 An object representing a worker, that is used to communicate with the worker.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [onerror](/apis/workers/Worker/onerror)
 :   An event listener to be called when an error occurs.
+
 [onmessage](/apis/workers/Worker/onmessage)
 :   An event listener to be called when a message is received from the worker.
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [postMessage](/apis/workers/Worker/postMessage)
 :   Posts a message to the worker with which the object is associated.
+
 [terminate](/apis/workers/Worker/terminate)
 :   Immediately terminates the worker with which the object is associated.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 Spawning and communicating with a Worker (document.html)
 
-``` {.js}
+``` js
 // create worker
 var worker = new Worker('script.js');
 // receive data from worker
@@ -57,7 +61,7 @@ worker.postMessage("hello worker");
 
 Being spawned as a worker (script.js) and communicating with parent (document.html)
 
-``` {.js}
+``` js
 // pass data to parent
 self.postMessage("ready for business");
 // receive data from parent
@@ -68,14 +72,14 @@ self.onmessage = function(event) {
 
 Loading additional resources from within a Worker (script.js)
 
-``` {.js}
+``` js
 // (synchronously) load external scripts - URLs relative to the parent document's location
 importScripts('additional.js', 'another-one.js', 'as-many-as-you-like.js' /* , ... */);
 // pass data to parent, executed *after* importScripts() received all files
 self.postMessage("ready for business");
 ```
 
-## Notes
+## <span>Notes</span>
 
 In the past, if you had to do a task on a webpage that might take a long time, you forced the user to wait until the task was finished. Workers can solve that problem by packaging and running code that runs separately from the main webpage. These packages are called threads and run in the background. You can have more than one worker running at once, each with its own thread and JavaScript code file.
 
@@ -89,16 +93,7 @@ You can determine the location of a worker from inside the worker by using the *
 
 You can determine which navigator objects are available to the worker by using the **WorkerNavigator** object. Shared workers are not supported in this release.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

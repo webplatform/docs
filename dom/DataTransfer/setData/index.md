@@ -1,37 +1,42 @@
 ---
 title: setData
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setDataEX.htm'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/DataTransfer
+    href: /dom/DataTransfer
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Adds data in a specified format to the DataTransfer object or the ClipboardData object.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Adds data in a specified format to the DataTransfer object or the ClipboardData object.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setDataEX.htm'
 uri: dom/DataTransfer/setData
 
 ---
-# setData
-
-## Summary
+## <span>Summary</span>
 
 Adds data in a specified format to the DataTransfer object or the ClipboardData object.
 
-*Method of [dom/DataTransfer](/dom/DataTransfer)*
+Method of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.dataTransfer.setData(format, data);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### format
+### <span>format</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The format of the data to be transferred, using one of the following values (case insensitve):
@@ -39,22 +44,22 @@ Adds data in a specified format to the DataTransfer object or the ClipboardData 
 -   URL
 -   Text
 
-### data
+### <span>data</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  Specifies the data supplied by the source object. This information can be descriptive text, a source path to an image, or a URL for an anchor. When you pass "URL" as the *format* parameter, you must use the *data* parameter to provide the location of the object that is transferred.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **setData** method and the [**getData**](/dom/DataTransfer/getData) method with the [**DataTransfer**](/dom/DataTransfer) object to create a shortcut to an image.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -92,16 +97,7 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setDataEX.htm)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,62 +1,63 @@
 ---
 title: releasePointerCapture
+notes:
+  - 'Needs examples and compat'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+standardization_status: 'W3C Working Draft'
+summary: 'Releases a pointer captured by an element (using the setPointerCapture method).'
 tags:
   - API
   - Object
   - Methods
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs examples and compat'
-summary: 'Releases a pointer captured by an element (using the setPointerCapture method).'
 uri: dom/Element/releasePointerCapture
 
 ---
-# releasePointerCapture
-
-## Summary
+## <span>Summary</span>
 
 Releases a pointer captured by an element (using the setPointerCapture method).
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  element.releasePointerCapture(pointerId);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### pointerId
+### <span>pointerId</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  Identifier of the pointer to be released.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 If the specified pointerId does not match any existing pointers, a [DOMException](/dom/DOMException) is thrown with the name *InvalidPointerId*.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pointer Events
+#### <span>Pointer Events</span>
 
 -   [Pointer Events Primer](/concepts/Pointer_Events)
 
@@ -67,8 +68,6 @@ Specification
 -   [maxTouchPoints](/dom/Navigator/maxTouchPoints)
 
 -   [pointerEnabled](/dom/Navigator/pointerEnabled)
-
--   [PointerEvent](/dom/PointerEvent)
 
 -   [Introduction to multi-touch Web development](/tutorials/mobile_touch)
 

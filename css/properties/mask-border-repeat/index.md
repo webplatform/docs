@@ -1,49 +1,63 @@
 ---
 title: mask-border-repeat
+notes:
+  - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`stretch`'
+  'Applies to': 'All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second one applies to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first, similar to the CSS border-image-repeat property.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Last Call Working Draft'
-notes:
-  - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
-summary: 'This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second one applies to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first, similar to the CSS border-image-repeat property.'
 uri: css/properties/mask-border-repeat
 
 ---
-# mask-border-repeat
-
-## Summary
+## <span>Summary</span>
 
 This property specifies how the images for the sides and the middle part of the mask image are scaled and tiled. The first keyword applies to the horizontal sides, the second one applies to the vertical ones. If the second keyword is absent, it is assumed to be the same as the first, similar to the CSS border-image-repeat property.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `stretch`
+
 Applies to
 :   All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `mask-border-repeat: repeat`
 -   `mask-border-repeat: round`
 -   `mask-border-repeat: space`
 -   `mask-border-repeat: stretch`
 
-## Values
+## <span>Values</span>
 
 stretch
 :   The image is stretched to fill the area.
@@ -57,9 +71,9 @@ round
 space
 :   The image is tiled (repeated) to fill the area. If it does not fill the area with a whole number of tiles, the extra space is distributed around the tiles.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* explicit horizontal, explicit vertical */
 #maskbox1: {
     mask-border-repeat: stretch repeat;
@@ -71,12 +85,10 @@ space
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking-1/)
 :   W3C Last Call Working Draft
+
 [CSS Masking Level 1](http://dev.w3.org/fxtf/css-masking-1/)
 :   W3C Editor’s Draft
-

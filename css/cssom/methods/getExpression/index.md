@@ -1,100 +1,113 @@
 ---
 title: getExpression
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getExpression.htm'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/methods
+    href: /css/cssom/methods
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /css/cssom/methods
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getExpression.htm'
 uri: css/cssom/methods/getExpression
 
 ---
-# getExpression
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [css/cssom/methods](/css/cssom/methods)*
+Method of [css/cssom/methods](/css/cssom/methods)[css/cssom/methods](/css/cssom/methods)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.getExpression(PropertyName);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### PropertyName
+### <span>PropertyName</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
 **String**Â that specifies the name of the property from which to retrieve the expression.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 A variant value representing the expression of the property.
 
-## Examples
+## <span>Examples</span>
 
 The following examples demonstrate how to use the **getExpression** method to retrieve CSS properties. This example retrieves the [**width**](/css/properties/width) property of a **span** object.
 
-    <body>
-    <span id="trueBlueSpan"
-        style="background-color:lightblue; width:100px">
-        The width of this blue span is set inline at 100 pixels.
-    </span>
-    <span id="oldYellowSpan" style="background-color:lightyellow;
-        width:200px">
-        The width of this yelllow span is set inline at 200 pixels.
-    </span>
-    <br>
-    <span id="AlGreenSpan" style="background-color:lightgreen;
-        width:expression(trueBlueSpan.style.pixelWidth +
-        oldYellowSpan.style.pixelWidth)">
-        Click the button below to see the expression used to set
-        the width of this span.
-    </span>
-    <br>
-    <button onclick=alert(AlGreenSpan.style.getExpression("width"));>
-        See Expression</button>
-    </body>
+``` html
+<body>
+<span id="trueBlueSpan"
+    style="background-color:lightblue; width:100px">
+    The width of this blue span is set inline at 100 pixels.
+</span>
+<span id="oldYellowSpan" style="background-color:lightyellow;
+    width:200px">
+    The width of this yelllow span is set inline at 200 pixels.
+</span>
+<br>
+<span id="AlGreenSpan" style="background-color:lightgreen;
+    width:expression(trueBlueSpan.style.pixelWidth +
+    oldYellowSpan.style.pixelWidth)">
+    Click the button below to see the expression used to set
+    the width of this span.
+</span>
+<br>
+<button onclick=alert(AlGreenSpan.style.getExpression("width"));>
+    See Expression</button>
+</body>
+```
 
 In the following example, the [**setExpression**](/css/cssom/methods/setExpression) method is used to set the [**width**](/css/properties/width) property of a blue **input type=text** object equal to the sum of the values in two other **input type=text** objects. When the user clicks the **input type=button** element, the **getExpression** method is used to display the expression.
 
-    <html>
-    <head>
-    <script language="JScript">
-    var s;
-    function fnInit() {
-    Box3.style.setExpression("width","eval(Box1.value) + eval(Box2.value)",
-    "jscript");
-    }
-    function getexp() {
-    s=Box3.style.getExpression("width");
-    alert("Expression for the width of the blue box is \n\n" + s +
-    "\n\nThe width property has a value of " + Box3.style.width);
-    }
-    </script>
-    </head>
-    <body onload=fnInit();>
-    <input type=text id="Box1" value=40>
-    <br><input type=text id="Box2" value=40>
-    <br><input type=text id="Box3" style="background-color:blue">
-    <br><input type=button id="Button2" value="Get expression" onclick="getexp()">
-    </body>
-    </html>
+``` html
+<html>
+<head>
+<script language="JScript">
+var s;
+function fnInit() {
+Box3.style.setExpression("width","eval(Box1.value) + eval(Box2.value)",
+"jscript");
+}
+function getexp() {
+s=Box3.style.getExpression("width");
+alert("Expression for the width of the blue box is \n\n" + s +
+"\n\nThe width property has a value of " + Box3.style.width);
+}
+</script>
+</head>
+<body onload=fnInit();>
+<input type=text id="Box1" value=40>
+<br><input type=text id="Box2" value=40>
+<br><input type=text id="Box3" style="background-color:blue">
+<br><input type=button id="Button2" value="Get expression" onclick="getexp()">
+</body>
+</html>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/getExpression.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The following syntax sections show how to retrieve an expression from supported Cascading Style Sheets (CSS) and DHTML Properties.
 
@@ -106,9 +119,9 @@ The following syntax sections show how to retrieve an expression from supported 
 
 `var sExpression = object.style.getExpression(sPropertyName)`
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `IHTMLStyle2`
 -   `IHTMLElement2`
@@ -121,10 +134,3 @@ The following syntax sections show how to retrieve an expression from supported 
 -   `Conceptual`
 -   `CSS Attributes: Index`
 -   `About Dynamic Properties`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

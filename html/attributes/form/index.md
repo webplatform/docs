@@ -1,52 +1,55 @@
 ---
 title: form
+notes:
+  - 'Compatibility table; link examples to our code.webplatform.org playground; fix see also; security considerations'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The form attribute specifies the parent form of an html form element.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Compatibility table; link examples to our code.webplatform.org playground; fix see also; security considerations'
-summary: 'The form attribute specifies the parent form of an html form element.'
 uri: html/attributes/form
 
 ---
-# form
-
-## Summary
+## <span>Summary</span>
 
 The form attribute specifies the parent form of an html form element.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [html/elements/input](/html/elements/input)
 
+</th>
+<td>
+[html/elements/input](/html/elements/input)
+
+</td>
+</tr>
+</table>
 By default, an html element related to a form is associated with it's nearest parent [form](/html/elements/form). The form attribute can be used to override or specify this. This can allow for nested forms, or inputs, buttons, etc. outside of forms, yet associated with them.
 
 The value of the form attribute should be the id of a form that exists on the same page.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 Note that a document conforming to the HTML specifications will never have nested form elements (the primary use for this attribute). However, javascript can make this situation occur.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-fae-form)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -144,7 +147,42 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

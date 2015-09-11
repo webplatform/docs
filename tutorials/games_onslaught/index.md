@@ -1,5 +1,9 @@
 ---
-title: games onslaught
+title: Building the Onslaught! Arena game
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/casestudies/onslaught/)'
+readiness: 'Ready to Use'
+summary: 'Learn how to use the &lt;canvas&gt; element to create an interactive game with retro-looking graphics.'
 tags:
   - Tutorials
   - Audio
@@ -9,25 +13,21 @@ tags:
   - Graphics
   - Performance
   - Webstorage
-readiness: 'Ready to Use'
-summary: 'Learn how to use the <canvas> element to create an interactive game with retro-looking graphics.'
 uri: 'tutorials/games onslaught'
 
 ---
-# Building the Onslaught! Arena game
-
 **By [Matt Hackett & Geoff Blair](http://www.html5rocks.com/profiles/#matthackett)**
 Originally published Februrary 10, 2011
 
-## Summary
+## <span>Summary</span>
 
-Learn how to use the \<canvas\> element to create an interactive game with retro-looking graphics.
+Learn how to use the &lt;canvas&gt; element to create an interactive game with retro-looking graphics.
 
-## Introduction
+## <span>Introduction</span>
 
 In June of 2010, it came to our attention that local publishing "zine" [Boing Boing](http://boingboing.net/) was having a [game development competition](http://boingboing.net/arcade/). We saw this as a perfectly good excuse to make a quick, simple game in JavaScript and `<canvas>`, so we set to work. After the competition we still had a lot of ideas and wanted to finish what we started. Here's the case study of the result, a little game called [Onslaught! Arena](https://chrome.google.com/webstore/detail/khodnfbkbanejphecblcofbghjdgfaih).
 
-## The retro, pixelated look
+## <span>The retro, pixelated look</span>
 
 It was important that our game look and feel like a retro *Nintendo Entertainment System* game, given the [contest premise](http://www.boingboing.net/2010/06/14/games-inspired-by-mu.html) to develop a game based on a [chiptune](http://en.wikipedia.org/wiki/Chiptune). Most games don't have this requirement, but it's still a common artistic style (especially among indie developers) due to its ease of asset creation and natural appeal to nostalgic gamers.
 
@@ -53,7 +53,7 @@ This method would consist of 1x1 sprites instead of doubling them up on the asse
 
 This was a deal breaker for our game since individual pixels are so important but if you need to resize your canvas and anti-aliasing is appropriate for your project, you could consider this approach for performance reasons.
 
-## Fun canvas tricks
+## <span>Fun canvas tricks</span>
 
 We all know that `<canvas>` is the new hotness, but sometimes [developers still recommend using DOM](http://paulbakaus.com/2010/07/19/why-canvas-is-not-an-obvious-choice-for-web-games/). If you're on the fence about which to use, here's an example of how `<canvas>` saved us lots of time and energy.
 
@@ -80,7 +80,7 @@ First we draw the monster to a hidden "buffer" `<canvas>`, overlay it with red, 
     // Copy the buffer onto the visible canvas
     document.getElementById("stage").getContext("2d").drawImage(bufferCanvas, x, y);
 
-## The Game Loop
+## <span>The Game Loop</span>
 
 Game development has some notable differences from web development. In the web stack, it's common to react to events that happened via event listeners. So initialization code may do nothing other than listen for input events. A game's logic is different, as it's necessary to constantly be updating itself. If, for example, a player hasn't moved, that shouldn't stop goblins from getting him!
 
@@ -135,7 +135,7 @@ Lastly, once everything has been computed, it's time to redraw the screen! In DO
       );
     };
 
-## Time-Based Modeling
+## <span>Time-Based Modeling</span>
 
 Time-based modeling is the concept of moving sprites based on the amount of elapsed time since the last frame update. This technique allows your game to run as fast as possible while ensuring that sprites move at consistent speeds.
 
@@ -182,7 +182,7 @@ With these variables in mind here's how we'd move an instance of the above sprit
 
 Note that the `direction.x` and `direction.y` values should be *normalized* which means they should always fall between `-1` and `1`.
 
-## Controls
+## <span>Controls</span>
 
 Controls have been possibly the biggest stumbling block while developing **Onslaught! Arena**. The very first demo only supported the keyboard; players moved the main character around the screen with the arrow keys and fired in the direction he was facing with the space bar. While somewhat intuitive and easy to grasp, this made the game almost unplayable at more difficult levels. With dozens of enemies and projectiles flying at the player at any given time, it's imperative to be able to weave between bad guys *while* firing in any which direction.
 
@@ -226,7 +226,7 @@ To address these many issues, we began playing with a single-input method of gam
 
 Removing the additional factor of having to aim at enemies can make the game easier in some situations, but we feel that making things simpler for the player has many advantages. Other strategies emerge, such as having to position the character close to dangerous enemies to target them, and the ability to support touch devices is invaluable.
 
-## Audio
+## <span>Audio</span>
 
 Among controls and performance, one of our biggest issues while developing **Onslaught! Arena** was HTML5's `<audio>` tag. Probably the worst aspect is the latency: in almost all browsers there's a delay between calling `.play()` and the sound actually playing. This can ruin a gamer's experience, especially when playing with a fast-paced game like ours.
 
@@ -287,7 +287,7 @@ It may also be important for a game to support browsers that will not play MP3 f
      }
 
 
-## Saving data
+## <span>Saving data</span>
 
 You can't have an arcade-style shoot 'em up without high scores! We knew we'd need some of our game data to persist, and while we could have used something old-hat like cookies, we wanted to dig into the fun new HTML5 technologies. There is certainly no shortage of options, including Local storage, Session storage and Web SQL Databases.
 
@@ -317,15 +317,8 @@ There are some "gotchas" to be aware of. No matter what you pass in, values are 
     typeof localStorage.getItem("json"); // string
     JSON.parse(localStorage.getItem("json")); // {"key": "value"}
 
-## Summary
+## <span>Summary</span>
 
 HTML5 is amazing to work with. Most implementations handle everything a game developer needs, from graphics to saving the game state. While there are some growing pains (such as `<audio>` tag woes), browser developers are moving quickly and with things already as great as they are, the future looks bright for games built on HTML5.
 
 Except as otherwise [noted](http://code.google.com/policies.html#restrictions), the content of this page is licensed under the [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/), and code samples are licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/casestudies/onslaught/)
-

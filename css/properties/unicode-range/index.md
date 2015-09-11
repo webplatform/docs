@@ -1,47 +1,59 @@
 ---
 title: unicode-range
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/6366676'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`U+0-10FFFF`'
+  'Applies to': 'The `@font-face` block the property is included inside.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'Same as the inputted value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`unicodeRange`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'unicode-range allows you to set a specific range of characters to be downloaded from a font (embedded using @font-face) and made available for use on the current page.'
-code_samples:
-  - 'http://gist.github.com/6366676'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/unicode-range
 
 ---
-# unicode-range
-
-## Summary
+## <span>Summary</span>
 
 unicode-range allows you to set a specific range of characters to be downloaded from a font (embedded using @font-face) and made available for use on the current page.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `U+0-10FFFF`
+
 Applies to
 :   The `@font-face` block the property is included inside.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   Same as the inputted value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `unicodeRange`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `unicode-range: codepoint range`
 -   `unicode-range: multiple value declarations`
 -   `unicode-range: single codepoint`
 -   `unicode-range: wildcard range`
 
-## Values
+## <span>Values</span>
 
 single codepoint
 :   A single unicode character codepoint, for example `unicode-range: U+26`.
@@ -55,11 +67,11 @@ wildcard range
 multiple value declarations
 :   You can specify multiple single codepoints and/or codepoint groups, delimiting them using commas. For example, `unicode-range: U+00-FF, U+980-9FF`.
 
-## Examples
+## <span>Examples</span>
 
 A single paragraph of HTML, including an ampersand. We have wrapped the ampersand in a `<span>` element because we want to use a different ampersand from a different font.
 
-``` {.html}
+``` html
 <p>Me & You = Us</p>
 ```
 
@@ -69,7 +81,7 @@ The CSS for the example above: you can see that we are in effect defining a comp
 
 Be aware that Firefox does not yet support `unicode-range` properly, hence the reason for the second `@font-face` block. Here we are pointing to an obscure unicode codepoint that will likely never be used in our document, causing Firefox to stop applying the posh Eccentric font to the whole paragraph (definitely not what we want.) — just helvetica is a better fallback.
 
-``` {.css}
+``` css
 @font-face {
   font-family: 'Ampersand';
   src: local('Eccentric STD');
@@ -91,27 +103,24 @@ p {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      * As the examples above show, you can use unicode-range to create a custom @font-face that contains only the characters you need to be downloaded, saving on bandwidth.
 
 -   You should always include a fallback font that is acceptable in case your `unicode-range @font-face` is not supported.
 -   Support for `unicode-range` is currently limited; Chrome and Safari supports it well, Internet Explorer supports is as of version 9, Opera supports it, Firefox *doesn't* support it.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css-fonts-3/#descdef-unicode-range)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [Creating custom font stacks with unicode-range](http://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/)
 -   [Unicode code converter](http://www.rishida.net/tools/conversion/)
 -   [UniView](http://rishida.net/scripts/uniview/) web-based tool for viewing and working with Unicode codepoints
 -   [Using unicode-range in @font-face in CSS](http://rishida.net/blog/?p=760)
 -   [List of Unicode Characters](http://en.wikipedia.org/wiki/List_of_Unicode_characters)
-

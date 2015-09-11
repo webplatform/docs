@@ -1,13 +1,12 @@
 ---
-title: smarter svg shapes
+title: SVG basic shapes and text
+notes:
+  - 'Fix multiple broken links'
+readiness: 'In Progress'
+summary: 'This guide introduces SVG''s basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.'
 tags:
   - Tutorials
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Fix multiple broken links'
-summary: 'This guide introduces SVG''s basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.'
-uri: 'svg/tutorials/smarter svg shapes'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -43,41 +42,40 @@ todo_broken_links:
     - svg/attributes/dx
     - svg/elements/tref
     - svg/attributes/startOffset
+uri: 'svg/tutorials/smarter svg shapes'
 
 ---
-# SVG basic shapes and text
-
 **By Mike Sierra**
 
-## Summary
+## <span>Summary</span>
 
 This guide introduces SVG's basic graphic elements, from simple lines and shapes to complex polygons and freehand paths. It also shows how to place lines of text and wrap it around curved paths.
 
-## Simple shapes
+## <span>Simple shapes</span>
 
 Various SVG elements produce basic shapes, and their attributes specify their dimensions.
 
 Rectangles are defined by their [**width**](/w/index.php?title=svg/attributes/width&action=edit&redlink=1) and [**height**](/w/index.php?title=svg/attributes/height&action=edit&redlink=1) attributes, while [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1) and [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1) offsets position the upper-left corner of the [**rect**](/svg/elements/rect) relative to its parent:
 
-``` {.xml}
+``` xml
 <rect x="10" y="10" width="240" height="160"/>
 ```
 
  Circles are positioned by the [**cx**](/w/index.php?title=svg/attributes/cx&action=edit&redlink=1) and [**cy**](/w/index.php?title=svg/attributes/cy&action=edit&redlink=1) center point, and the radius ([**r**](/w/index.php?title=svg/attributes/r&action=edit&redlink=1)) specifies the size:
 
-``` {.xml}
+``` xml
 <circle cx="50" cy="50" r="100"/>
 ```
 
  Ellipses are positioned like circles, but require two [**rx**](/w/index.php?title=svg/attributes/rx&action=edit&redlink=1) and [**ry**](/w/index.php?title=svg/attributes/ry&action=edit&redlink=1) radius attributes for each axis:
 
-``` {.xml}
+``` xml
 <ellipse cx="40" cy="60" rx="40" ry="20"/>
 ```
 
  When applied to [**rect**](/svg/elements/rect) elements, [**rx**](/w/index.php?title=svg/attributes/rx&action=edit&redlink=1) and [**ry**](/w/index.php?title=svg/attributes/ry&action=edit&redlink=1) attributes produce rounded corners:
 
-``` {.xml}
+``` xml
 <rect x="10" y="10" width="160" height="240" rx="20" ry="20"/>
 ```
 
@@ -85,17 +83,17 @@ Rectangles are defined by their [**width**](/w/index.php?title=svg/attributes/wi
 
 ![svg shapes.png](/assets/public/7/74/svg_shapes.png)
 
-## Fill and stroke properties
+## <span>Fill and stroke properties</span>
 
 By default, shapes are filled black. The [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) properties specify the color of the background and the edge of the shape.
 
-``` {.xml}
+``` xml
 <rect fill="pink" stroke="red" x="10" y="10" width="160" height="240"/>
 ```
 
  You can assign these as attributes on SVG elements, but they are really CSS properties. For the sake of clarity and best practice, this guide expresses SVG properties as CSS selectors:
 
-``` {.css}
+``` css
  rect {
      fill   : pink;
      stroke : red;
@@ -104,14 +102,14 @@ By default, shapes are filled black. The [**fill**](/w/index.php?title=svg/prope
 
  Properties specified via CSS override those specified as attributes, so this local CSS that colors the [**rect**](/svg/elements/rect) green overrides the local attribute that colors it red:
 
-``` {.xml}
+``` xml
 <rect fill="pink" stroke="red" style="fill:lightgreen;stroke:green"
     x="10" y="10" width="160" height="240"/>
 ```
 
  The [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1) is centered over the edge of the shape, so increasing its pixel value bleeds the [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) color both inside and outside the shape:
 
-``` {.css}
+``` css
  rect {
      fill         : pink;
      stroke       : red;
@@ -121,7 +119,7 @@ By default, shapes are filled black. The [**fill**](/w/index.php?title=svg/prope
 
  To apply transparencies, you can set the [**fill-opacity**](/w/index.php?title=svg/properties/fill-opacity&action=edit&redlink=1) and [**stroke-opacity**](/w/index.php?title=svg/properties/stroke-opacity&action=edit&redlink=1) properties.
 
-``` {.css}
+``` css
  rect {
      stroke-width   : 10;
      stroke         : red;
@@ -135,7 +133,7 @@ By default, shapes are filled black. The [**fill**](/w/index.php?title=svg/prope
 
 Alternately, you can use [**rgba()** and **hsla()**](/css/data_types/color) CSS colors to to incorpoarate opacity as part of [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) property values. The following has the same effect as the example above:
 
-``` {.css}
+``` css
  rect {
      stroke-width : 10;
      stroke       : rgba(100%,0%,0%,0.5);
@@ -143,29 +141,29 @@ Alternately, you can use [**rgba()** and **hsla()**](/css/data_types/color) CSS 
  }
 ```
 
-## Lines and polygons
+## <span>Lines and polygons</span>
 
 To draw a straight line, specify its start and end coordinates as **x1**, **y1**, **x2**, and **y2**:
 
-``` {.xml}
+``` xml
 <line x1="0" y1="0" x2="100" y2="100"/>
 ```
 
  A [**polyline**](/svg/elements/polyline) consists of a series of *x*/*y* coordinates specified within the [**points**](/w/index.php?title=svg/attributes/points&action=edit&redlink=1) attribute, with items separated by either commas or whitespace. This draws an arrow:
 
-``` {.xml}
+``` xml
 <polyline points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
 ```
 
  A [**polygon**](/svg/elements/polygon) is the same as a [**polyline**](/svg/elements/polyline), but the final coordinate is joined with the first:
 
-``` {.xml}
+``` xml
 <polygon points="100,225 100,115 130,115 70,15 70,15 10,115 40,115 40,225"/>
 ```
 
  ![svg linepath.png](/assets/public/a/a4/svg_linepath.png)
 
-## More stroke properties
+## <span>More stroke properties</span>
 
 Additional properties provide greater control over how the ends or joints of line segments appear. The [**stroke-linecap**](/w/index.php?title=svg/properties/stroke-linecap&action=edit&redlink=1) property determines the appearance of the end of a stroke, or dashes within a stroke. Options appear as follows, with both **round** and **square** extending past the end of the line depending on the [**stroke-width**](/w/index.php?title=svg/properties/stroke-width&action=edit&redlink=1)::
 
@@ -213,7 +211,7 @@ The [**stroke-dasharray**](/w/index.php?title=svg/properties/stroke-dasharray&ac
 
 The [**stroke-dashoffset**](/w/index.php?title=svg/properties/stroke-dashoffset&action=edit&redlink=1) property allows you to shift the number of pixels at which the dash pattern begins.
 
-## Simple paths
+## <span>Simple paths</span>
 
 Paths are complex shapes that may feature discontinuous series of lines and curves. The [**path**](/svg/elements/path) element's [**d**](/w/index.php?title=svg/attributes/d&action=edit&redlink=1) (definition) attribute specifies a sequence of commands referencing pairs of *x*/*y* coordinates within the drawing area.
 
@@ -223,7 +221,7 @@ The following [interactive path-building utility](http://letmespellitoutforyou.c
 
 The simplest path commands drop a pen at one coordinate and draw a line to another. In this example, the **M** (move) command places the drawing point at the *100,225* coordinate. The **L** (line) command draws a line to *100,115*, and subsequent **L** commands draw the same arrow-shaped polygon shown above, starting from its bottom-left corner and drawing in a clockwise direction:
 
-``` {.xml}
+``` xml
 <path d="M 100,225 L 100,115 L 130,115 L 70,15 L 10,115 L 40,115 L 40,225 z"/>
 ```
 
@@ -235,13 +233,13 @@ Coordinates and commands can be separated by any combination of commas or whites
 
 The uppercase **M** and **L** commands above specify absolute coordinates. For all uppercase commands described here, there are alternative lowercase commands that specify coordinates in terms relative to the previously defined coordinate. Starting from the default *0,0* origin point, the following path defines the same shape as the one above using **m** and **l** commands:
 
-``` {.xml}
+``` xml
 <path d="m 100,225 l 0,-110 l 30,0 l -60,-100 l -60,100 l 30,0 l 0,110 z" />
 ```
 
  The **H** and **V** commands, and their **h** and **v** alternatives, draw a horizontal or vertical line to the specified coordinate.
 
-## Curved paths
+## <span>Curved paths</span>
 
 Unlike polygons, paths can incorporate curves. Bézier curves require additional *control point* coordinates that do not render but that influence the shape of the curve.
 
@@ -249,14 +247,14 @@ The **Q** and **q** commands define a *quadratic* Bézier curve using one contro
 
 ![svg quadratic.png](/assets/public/8/89/svg_quadratic.png)
 
-``` {.xml}
+``` xml
   <!-- quadratic -->
 <path d="M 50,100 Q 180,20 300,130"/>
 ```
 
 ![svg cubic.png](/assets/public/1/1d/svg_cubic.png)
 
-``` {.xml}
+``` xml
   <!-- cubic -->
 <path d="M 50,120 C 130,50 250,150 280,100"/>
 ```
@@ -265,7 +263,7 @@ Adding additional sets of controls points has the same effect as adding addition
 
 ![svg quadratic poly.png](/assets/public/f/f6/svg_quadratic_poly.png)
 
-``` {.xml}
+``` xml
   <!-- quadratic, chained -->
 <path d="M 50,100 Q 180,20 300,130 Q 320,20 400,50"/>
 <path d="M 50,100 Q 180,20 300,130   320,20 400,50"/>
@@ -273,7 +271,7 @@ Adding additional sets of controls points has the same effect as adding addition
 
  ![svg cubic poly.png](/assets/public/f/f8/svg_cubic_poly.png)
 
-``` {.xml}
+``` xml
   <!-- cubic, chained -->
 <path d="M 50,120 C 130,50 250,150 280,100 C 250,50 450,50 400,100"/>
 <path d="M 50,120 C 130,50 250,150 280,100   250,50 450,50 400,100"/>
@@ -281,7 +279,7 @@ Adding additional sets of controls points has the same effect as adding addition
 
  In both of these examples, the curve segments join abruptly at an angle. The **T** and **t** commands are designed to produce quadratic curves that transition smoothly from the previous curve. They work by extrapolating a control point from the previous control point on the other side of the previous destination point, effectively mirroring it to produce waves. The following two path definitions produce the same sequence of curves. The first uses the **T** command to extrapolate the extra control point (marked red), while the second uses a second **Q** command to explicitly define it. Both specify the same destination point:
 
-``` {.xml}
+``` xml
 <path d="M 50,100 Q 180,20 300,130 T         400,50"/>
 <path d="M 50,100 Q 180,20 300,130 Q 420,240 400,50"/>
 ```
@@ -290,7 +288,7 @@ Adding additional sets of controls points has the same effect as adding addition
 
 The **S** and **s** commands perform the same kind of mirroring to produce smooth cubic Bézier curves suitable for freehand drawing. Since Bézier curves are defined by two control points, the first supplied coordinate specifies the second control point, and the second coordinate specifies the end point. The following two path definitions produce the same sequence of curves, the second substituting the **C** command to explicitly define the extra control point, again marked red:
 
-``` {.xml}
+``` xml
 <path d="M 50,120 C 130,50 250,150 280,100 S        450,50 400,100"/>
 <path d="M 50,120 C 130,50 250,150 280,100 C 310,50 450,50 400,100"/>
 ```
@@ -327,7 +325,7 @@ This summarizes path syntax, with coordinate pairs required for control and dest
 -   **S**/**s** *control2* *destination*: draws a cubic Bézier curve to *destination* point, shaped by a virtual control point mirroring the most recent control point, and by a second explicit *control2* point
 -   **A**/**a** *radiusX*,*radiusY* *rotationAngle* *large-arc-flag* *sweep-arc-flag* *destination*: draws an elliptical arc to *destination*, if possible, with overall ellipse shaped by *radiusX*,*radiusY* and rotated by *rotationAngle*. The *large-arc-flag* prefers the widest-angle arc path, and *sweep-arc-flag* specifies the ellipse whose arc path travels clockwise to get to the destination point.
 
-## Fill rules
+## <span>Fill rules</span>
 
 Whenever lines within paths cross each other, and when subpath shapes appear as islands within other shapes, it is not immediately obvious how such paths might be filled. By default, the [**fill-rule**](/w/index.php?title=svg/properties/fill-rule&action=edit&redlink=1) property is set to **nonzero**, which errs on the side of filling regions based on the direction of each stroke, which as the example below shows, may not always be intuitive. Setting it to **evenodd** prevents regions bordering each other from sharing the same fill value.
 
@@ -341,11 +339,11 @@ Whenever lines within paths cross each other, and when subpath shapes appear as 
 
 Note that while these arrows appear to be separate graphics, they are actually sub-paths. The [**fill-rule**](/w/index.php?title=svg/properties/fill-rule&action=edit&redlink=1) property only applies in this case.
 
-## Markers
+## <span>Markers</span>
 
 You can attach arrowheads or other graphic objects to paths, lines, polylines, and polygon segments. A [**marker**](/svg/elements/marker) element encapsulates a graphic, and various properties reference it. Here is a typical arrowhead, for convenience placed within a [**defs**](/svg/elements/defs) region as a common definition:
 
-``` {.xml}
+``` xml
 <defs>
   <marker id="arrowhead" markerWidth="10" markerHeight="10" orient="auto" refX="2" refY="5">
     <polygon points="0,0 10,5 0,10"/>    <!-- triangle pointing right -->
@@ -355,7 +353,7 @@ You can attach arrowheads or other graphic objects to paths, lines, polylines, a
 
  The [**marker**](/svg/elements/marker) element does not render unless it is associated with a path or other line element using various marker-related properties. This example places the arrowhead at the end of the last path segment:
 
-``` {.css}
+``` css
  path.pointer {
      marker-end: url(#arrowhead);
  }
@@ -383,11 +381,11 @@ Several [**marker**](/svg/elements/marker) element attributes are necessary to p
 
 The marker graphic also does not rotate by default to match where the path or line is pointing. Setting [**orient**](/w/index.php?title=svg/attributes/orient&action=edit&redlink=1) to **auto** aligns the graphic's horizontal *x* axis. You can also set [**orient**](/w/index.php?title=svg/attributes/orient&action=edit&redlink=1) to specific degree values. Note in the [**marker-start**](/w/index.php?title=svg/properties/marker-start&action=edit&redlink=1) example above that the initial marker may not be oriented as intended, because it's not associated with an existing line.
 
-## Text
+## <span>Text</span>
 
 Text behaves much like any other SVG graphic. You can mix text with other graphics, but you can't automatically break lines into blocks of text as in HTML, so you have to set each line independently. Use each [**text**](/svg/elements/text) element's [**x**](/w/index.php?title=svg/attributes/x&action=edit&redlink=1) and [**y**](/w/index.php?title=svg/attributes/y&action=edit&redlink=1) attributes to position its baseline:
 
-``` {.xml}
+``` xml
 <text x="100" y="50">The quick brown fox</text>
 <text x="100" y="80">jumped over the lazy dog.</text>
 ```
@@ -396,7 +394,7 @@ Text behaves much like any other SVG graphic. You can mix text with other graphi
 
 You can apply standard CSS font properties, along with the [**text-anchor**](/w/index.php?title=css/properties/text-anchor&action=edit&redlink=1) property to center the text from the specified coordinates. You can also control apply [**fill**](/w/index.php?title=svg/properties/fill&action=edit&redlink=1) and [**stroke**](/w/index.php?title=svg/properties/stroke&action=edit&redlink=1) properties just like any other shape:
 
-``` {.css}
+``` css
 text {
     font-family  : Tahoma, sans-serif;
     font-size    : smaller;
@@ -412,7 +410,7 @@ text {
 
 Use the [**tspan**](/svg/elements/tspan) element to mark and style inline font changes:
 
-``` {.xml}
+``` xml
 <text x="100" y="50">The quick brown fox</text>
 <text x="100" y="80">
   jumped
@@ -421,7 +419,7 @@ Use the [**tspan**](/svg/elements/tspan) element to mark and style inline font c
 </text>
 ```
 
-``` {.css}
+``` css
 .emphasis {
     font-style      : italic;
     text-decoration : underline;
@@ -432,7 +430,7 @@ Use the [**tspan**](/svg/elements/tspan) element to mark and style inline font c
 
 This example uses the [**dy**](/w/index.php?title=svg/attributes/dy&action=edit&redlink=1) attribute to move text upward to a superscript position and then back down to its original baseline, and [**rotate**](/w/index.php?title=svg/attributes/rotate&action=edit&redlink=1) to spin each character of text. (Applying [**dx**](/w/index.php?title=svg/attributes/dx&action=edit&redlink=1) likewise would displace text horizontally.)
 
-``` {.xml}
+``` xml
 <text x="100" y="50">The quick brown fox</text>
 <text x="100" y="80">
   jumped
@@ -445,7 +443,7 @@ This example uses the [**dy**](/w/index.php?title=svg/attributes/dy&action=edit&
 
 SVG also allows you to place text along the curve of a path. The [**textPath**](/svg/elements/textPath) element diverts any nested text to render along the path it references:
 
-``` {.xml}
+``` xml
 <defs>
 <path id="curve" d="M 100,300 A 1,1 0 0 1 500,300" />
 <text id="textContent">The quick brown fox jumped over the lazy dog.</text>
@@ -466,4 +464,3 @@ The [**textPath**](/svg/elements/textPath)'s [**startOffset**](/w/index.php?titl
 ![svg textPathOffset.png](/assets/thumb/9/93/svg_textPathOffset.png/400px-svg_textPathOffset.png)
 
 See [SVG Fonts](/tutorials/svg_fonts) for information on SVG's support for creating font glyphs.
-

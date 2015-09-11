@@ -1,42 +1,51 @@
 ---
 title: length
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://gist.github.com/459f1a0ea9f70009b6fe'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/audio-video/AudioTrackList
+    href: /apis/audio-video/AudioTrackList
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/audio-video/AudioTrackList
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the number of tracks in the list.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the number of tracks in the list.'
-code_samples:
-  - 'http://gist.github.com/459f1a0ea9f70009b6fe'
 uri: apis/audio-video/AudioTrackList/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 Returns the number of tracks in the list.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/AudioTrackList](/apis/audio-video/AudioTrackList)</span></span>
+Property of [apis/audio-video/AudioTrackList](/apis/audio-video/AudioTrackList)[apis/audio-video/AudioTrackList](/apis/audio-video/AudioTrackList)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioTrackList.length;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 (function () {
     // grab the video element
     var video = document.getElementById("video");
@@ -80,16 +89,7 @@ var result = AudioTrackList.length;
 
 [View live example](http://code.webplatform.org/gist/459f1a0ea9f70009b6fe)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

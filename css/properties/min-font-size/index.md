@@ -1,48 +1,59 @@
 ---
 title: min-font-size
+notes:
+  - 'Add example, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'all elements and generated content'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': font-size
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`minFontSize`'
+  Percentages: 'elements computed font-size'
+readiness: 'In Progress'
+summary: "Obsolete: unsupported.\n"
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Add example, specifications, compatibility.'
-summary: "Obsolete: unsupported.\n"
 uri: css/properties/min-font-size
 
 ---
-# min-font-size
-
-## Summary
+## <span>Summary</span>
 
 Obsolete: unsupported.
 
 This property is only used when the text-align-last property is set to size. It controls allowed adjustments of font-size to fit line content.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   all elements and generated content
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   font-size
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `minFontSize`
+
 Percentages
 :   elements computed font-size
 
-## Syntax
+## <span>Syntax</span>
 
--   `min-font-size: auto`
--   `min-font-size: font-size`
-
-## Values
+## <span>Values</span>
 
 font-size
 :   The font size of the last line of an element is restricted to being greater than either the computed font-size or this number, whichever is smaller.
@@ -52,15 +63,15 @@ auto
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      This property is only used when the text-align-last property is set to size.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -86,13 +97,7 @@ auto
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   **min-font-size**
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -100,17 +105,13 @@ auto
 
 -   [font](/html/elements/font)
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -121,8 +122,6 @@ auto
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -136,25 +135,11 @@ auto
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   **min-font-size**
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -199,4 +184,3 @@ auto
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-

@@ -1,36 +1,45 @@
 ---
 title: initiatorType
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: 'apis/resource timing/PerformanceResourceTiming'
+    href: /apis/resource_timing/PerformanceResourceTiming
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/resource_timing/PerformanceResourceTiming
+standardization_status: 'W3C Working Draft'
+summary: 'Returns a DOMString representing the type of object that initiated the request for the resource. See Return Value.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Resource
   5: Timing
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns a DOMString representing the type of object that initiated the request for the resource. See Return Value.'
 uri: 'apis/resource timing/PerformanceResourceTiming/initiatorType'
 
 ---
-# initiatorType
-
-## Summary
+## <span>Summary</span>
 
 Returns a DOMString representing the type of object that initiated the request for the resource. See Return Value.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)</span></span>
+Property of [apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)[apis/resource timing/PerformanceResourceTiming](/apis/resource_timing/PerformanceResourceTiming)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.initiatorType;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 DOMString (one of the following):
 
@@ -45,25 +54,16 @@ DOMString (one of the following):
 -   xmlhttprequest: The initiator is a XMLHttpRequest object.
 -   other: The initiator is not of any type listed above.
 
-## Examples
+## <span>Examples</span>
 
-This example assumes an HTML page containing a resource such as \<img src="[https://www.webplatform.org/logo/logo-with-text.png](https://www.webplatform.org/logo/logo-with-text.png)" /\>
+This example assumes an HTML page containing a resource such as \<img src="<https://www.webplatform.org/logo/logo-with-text.png>" /\>
 
-``` {.js}
+``` js
 var resources = window.performance.getEntriesByType('resource');
 alert("initiatorType: " + resources[0].initiatorType);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Resource Timing Specification](http://www.w3.org/TR/resource-timing/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

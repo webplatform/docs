@@ -1,60 +1,67 @@
 ---
-title: getComputedRegionStyle
+title: getComputedRegionStyle()
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/css-regions/Region
+    href: /apis/css-regions/Region
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: CSSStyleDeclaration
+    href: /apis/css-regions/Region
+standardization_status: 'W3C Working Draft'
+summary: 'Returns styles calculated for an element as it appears within a region, including styles from @region rules applied to ranges within the element.'
 tags:
   0: API
   1: Object
   2: Methods
   4: CSS
   5: CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns styles calculated for an element as it appears within a region, including styles from @region rules applied to ranges within the element.'
 uri: apis/css-regions/Region/getComputedRegionStyle
 
 ---
-# getComputedRegionStyle()
-
-## Summary
+## <span>Summary</span>
 
 Returns styles calculated for an element as it appears within a region, including styles from @region rules applied to ranges within the element.
 
-*Method of [apis/css-regions/Region](/apis/css-regions/Region)*
+Method of [apis/css-regions/Region](/apis/css-regions/Region)[apis/css-regions/Region](/apis/css-regions/Region)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var propValue = region.getComputedRegionStyle(element, pseudoElementName);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### element
+### <span>element</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The element that contains the desired style settings, regardless of whether it currently appears within the region.
 
-### pseudoElementName
+### <span>pseudoElementName</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-*(Optional)*
+(Optional)
 
 The name of a CSS pseudo-element (such as **::before** or **::after**) or a null value. Optional in WebKit-based browsers.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type CSSStyleDeclaration.
+Returns an object of type CSSStyleDeclarationCSSStyleDeclaration
 
 Returns styles calculated for an element as it appears within a region, including styles from [**@region**](/css/atrules/@region) rules applied to ranges within the element.
 
-## Examples
+## <span>Examples</span>
 
 Check if the formatting of an element's property varies within a [region chain](/css/concepts/region_chain)
 
-``` {.js}
+``` js
 var flow = document.getNamedFlows().namedItem('sidebar');
 var regions = flow.getRegions();
 var contents = flow.getContent();
@@ -80,22 +87,20 @@ function regionsVaryCSS(regs, elem, prop) {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      Behaves the same as getComputedStyle(), but incorporates CSS formatting from @region rules that may apply to individual regions.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/2013/WD-css3-regions-20130528/)
 :   W3C Working Draft 28 May 2013
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -153,10 +158,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

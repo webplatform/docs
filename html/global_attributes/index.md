@@ -1,23 +1,21 @@
 ---
 title: global attributes
+readiness: 'Not Ready'
+summary: 'HTML defines a set of attributes common to all HTML elements.'
 tags:
   - Basic
   - Pages
   - HTML
-readiness: 'Not Ready'
-summary: 'HTML defines a set of attributes common to all HTML elements.'
 uri: 'html/global attributes'
 
 ---
-# global attributes
-
-## Summary
+## <span>Summary</span>
 
 HTML defines a set of attributes common to all HTML elements.
 
-This page should document the HTML global attributes as defined in [http://dev.w3.org/html5/markup/global-attributes.html\#global-attributes](http://dev.w3.org/html5/markup/global-attributes.html#global-attributes)
+This page should document the HTML global attributes as defined in <http://dev.w3.org/html5/markup/global-attributes.html#global-attributes>
 
-### Attributes
+### <span>Attributes</span>
 
 accesskey
 :
@@ -49,4 +47,3 @@ title
 :
 translate
 :   Whether this elements
-

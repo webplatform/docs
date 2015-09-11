@@ -1,27 +1,29 @@
 ---
 title: del
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6365735'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLModElement](/dom/HTMLModElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The del element indicates text that has been deleted from the document.'
 tags:
   - Markup
   - Elements
   - HTML
   - XHTML
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information.'
-summary: 'The del element indicates text that has been deleted from the document.'
-code_samples:
-  - 'http://gist.github.com/6365735'
 uri: html/elements/del
 
 ---
-# del
-
-## Summary
+## <span>Summary</span>
 
 The del element indicates text that has been deleted from the document.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLModElement](/dom/HTMLModElement)
@@ -33,18 +35,18 @@ Besides the [global attributes](/html/global_attributes) the following attribute
 [datetime](/html/attributes/datetime)
 :   The **datetime** attribute may be used to specify the time and date of the change. If present, it must be a valid [date string with optional time](http://www.w3.org/html/wg/drafts/html/master/infrastructure.html#valid-date-string-with-optional-time).
 
-## Examples
+## <span>Examples</span>
 
 This example uses the `<del>`' element to mark deleted text.
 
-``` {.html}
+``` html
 <p>This text existed in the document when it
 was written and persists. <del datetime="1997-10-01T12:15:30-05:00">This text was deleted on 1 October 1997.</del></p>
 ```
 
 This example uses `<ins>` and `<del>` elements to explain changes in a document
 
-``` {.html}
+``` html
 <p>I <del>am</del><ins>was</ins> on vacation in <del>France</del><ins>Italy</ins>.</p>
 <p>
   <del>It is supposed to be sunny and hot.</del>
@@ -54,11 +56,11 @@ This example uses `<ins>` and `<del>` elements to explain changes in a document
 
 [View live example](http://code.webplatform.org/gist/6365735)
 
-## Usage
+## <span>Usage</span>
 
      The default behavior of the del element is as a phrasing-level element, but it can be wrapped around any element within the body.
 
-## Notes
+## <span>Notes</span>
 
 The default browser display of **del** is struck-through (with a line through the vertical middle of the text).
 
@@ -68,26 +70,24 @@ While [**s**](/html/elements/s) and **del** appear to perform the same functionâ
 
 For Internet Explorer 8 and later the value of the [**cite**](/html/attributes/cite) attribute depends on the current document compatibility mode.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/edits.html#the-del-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/edits.html#the-del-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-del)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -185,21 +185,53 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    â€¦ further results
+-   [i](/html/elements/i)
 
-#### Text
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -210,8 +242,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -225,25 +255,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -289,15 +305,8 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### External resources
+### <span>External resources</span>
 
 -   [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/Element/del)
 -   [Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ms535236%28v=vs.85%29.aspx)
--   [http://www.w3.org/TR/html-markup/del.html\#del](http://www.w3.org/TR/html-markup/del.html#del)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+-   <http://www.w3.org/TR/html-markup/del.html#del>

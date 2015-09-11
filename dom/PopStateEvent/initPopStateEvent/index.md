@@ -1,63 +1,72 @@
 ---
 title: initPopStateEvent
+attributions:
+  - 'Microsoft Developer Network: [[initPopStateEvent Method](http://msdn.microsoft.com/en-us/library/ie/hh772350(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/PopStateEvent
+    href: /dom/PopStateEvent
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/PopStateEvent
+standardization_status: 'W3C Recommendation'
+summary: 'Initializes the properties of a PopStateEvent.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Initializes the properties of a PopStateEvent.'
 uri: dom/PopStateEvent/initPopStateEvent
 
 ---
-# initPopStateEvent
-
-## Summary
+## <span>Summary</span>
 
 Initializes the properties of a PopStateEvent.
 
-*Method of [dom/PopStateEvent](/dom/PopStateEvent)*
+Method of [dom/PopStateEvent](/dom/PopStateEvent)[dom/PopStateEvent](/dom/PopStateEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.initPopStateEvent(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### typeArg
+### <span>typeArg</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The type of the event being created.
 
-### canBubbleArg
+### <span>canBubbleArg</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  Indicates whether the event can bubble. When true, the event propagates upward. When false, the event does not propagate upward.
 
-### cancelableArg
+### <span>cancelableArg</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Indicates whether the eventâ€™s default action can be prevented. When true, the default action can be canceled. When false, the default action cannot be canceled.
 
-### stateArg
+### <span>stateArg</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The object to be applied to the [**state**](/dom/PopStateEvent/state) property.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -65,27 +74,20 @@ This method can return one of these values.
 
 S\_OK
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var evt = document.createEvent("PopStateEvent");
 evt.initPopStateEvent("popstate", false, false, { .. state object  ..});
 window.dispatchEvent(evt);
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Initializes attributes of an event created through the [**createEvent**](/dom/Document/createEvent) method. This method can only be called before the event has been dispatched via the [**dispatchEvent**](/dom/EventTarget/dispatchEvent) method. If the method is called several times before invoking **dispatchEvent**, only the final invocation takes precedence. This method has no effect if called after the event has been dispatched.
 
-### Syntax
+### <span>Syntax</span>
 
 var retval = PopStateEvent.initPopStateEvent(typeArg, canBubbleArg, cancelableArg, stateArg);
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[initPopStateEvent Method](http://msdn.microsoft.com/en-us/library/ie/hh772350(v=vs.85).aspx) Article]
-

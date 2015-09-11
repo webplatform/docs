@@ -1,31 +1,40 @@
 ---
 title: createTHead
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, clean-up of MSDN import'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/HTMLTableElement
+    href: /dom/HTMLTableElement
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/HTMLTableElement
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'summary, clean-up of MSDN import'
 uri: dom/HTMLTableElement/createTHead
 
 ---
-# createTHead
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [dom/HTMLTableElement](/dom/HTMLTableElement)*
+Method of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.createTHead();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Object
 
@@ -33,33 +42,28 @@ Object
 
 null
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **createTHead** method to create a table header.
 
-    myTHead = document.all.myTable.createTHead()
+``` html
+myTHead = document.all.myTable.createTHead()
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 If a **tHead** already exists, **createTHead** returns the existing element. Otherwise, it returns a pointer to the element created.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 HTML Specification](http://go.microsoft.com/fwlink/p/?linkid=196991), Section 1.6.5
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `table`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

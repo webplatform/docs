@@ -1,31 +1,31 @@
 ---
-title: existence
+title: Attribute selector
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status, remove topic cluster flags'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'Allows to select tags that has an attributes. While it can match the class and the id selector, its specificity value is lower.'
 tags:
   - CSS
   - Selectors
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs summary, spec reference, standardization status, remove topic cluster flags'
-summary: 'Allows to select tags that has an attributes. While it can match the class and the id selector, its specificity value is lower.'
-uri: css/selectors/attributes/existence
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: css/selectors/attributes/existence
 
 ---
-# Attribute selector
-
-## Summary
+## <span>Summary</span>
 
 Allows to select tags that has an attributes. While it can match the class and the id selector, its specificity value is lower.
 
-### Syntax
+### <span>Syntax</span>
 
 ` [sel=att] {...}`
 
-### Parameters
+### <span>Parameters</span>
 
 -   *sel*: The name of a tag property
 -   *att*: Must be either an Identifier or a String.
@@ -36,11 +36,11 @@ Allows to select tags that has an attributes. While it can match the class and t
     -   `~=` Contains (with word boundary),
     -   `*=` Contains (without word boundary)
 
-## Examples
+## <span>Examples</span>
 
 The following style rule selects any element with an "attr" attribute whose value is exactly "Value".
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -55,18 +55,16 @@ The following style rule selects any element with an "attr" attribute whose valu
 </html>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Selectors Level 3](http://www.w3.org/TR/css3-selectors/#attribute-selectors)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -104,7 +102,7 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -179,10 +177,3 @@ Specification
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   [type](/css/selectors/type)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

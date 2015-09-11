@@ -1,45 +1,52 @@
 ---
-title: protocol
+title: window.location.protocol
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/location
+    href: /apis/location
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/location
+standardization_status: 'W3C Working Draft'
+summary: "Sets or retrieves the protocol portion of a URL.\nThe protocol the current document was accessed via (everything preceding the &quot;//&quot;).\n"
 tags:
   - API
   - Object
   - Properties
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: "Sets or retrieves the protocol portion of a URL.\nThe protocol the current document was accessed via (everything preceding the \"//\").\n"
 uri: apis/location/protocol
 
 ---
-# window.location.protocol
+## <span>Summary</span>
 
-## Summary
+Sets or retrieves the protocol portion of a URL. The protocol the current document was accessed via (everything preceding the &quot;//&quot;).
 
-Sets or retrieves the protocol portion of a URL. The protocol the current document was accessed via (everything preceding the "//").
+Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/location](/apis/location)</span></span>
+## <span>Syntax</span>
 
-## Syntax
+**Note**: This property is read-only.
 
-***Note**: This property is read-only.*
-
-``` {.js}
+``` js
 var result = window.location.protocol;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The protocol the current document was accessed via.
 
 For example, `http://example.org/` would return the protocol `http:`.
 
-## Examples
+## <span>Examples</span>
 
 The following example assumes your document has a div element with id 'hostDiv', like this.
 
-``` {.js}
+``` js
 // Get the protocol from window.location
 var hostpr = window.location.protocol;
 
@@ -50,12 +57,10 @@ var container = document.getElementById('hostDiv');
 container.innerHTML = hostpr;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft
+
 [URL](http://www.w3.org/TR/url/#concept-url)
 :   W3C Working Draft
-

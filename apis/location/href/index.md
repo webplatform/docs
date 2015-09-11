@@ -1,55 +1,59 @@
 ---
-title: href
+title: window.location.href
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/location
+    href: /apis/location
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/location
+standardization_status: 'W3C Working Draft'
+summary: 'The full url for this resource. Synonymous with String(window.location).'
 tags:
   - API
   - Object
   - Properties
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The full url for this resource. Synonymous with String(window.location).'
 uri: apis/location/href
 
 ---
-# window.location.href
-
-## Summary
+## <span>Summary</span>
 
 The full url for this resource. Synonymous with String(window.location).
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/location](/apis/location)</span></span>
+Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = window.location.href;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The full url for this resource.
 
 For example, `http://example.org/index.html?page=1#foo` would return the full href of `http://example.org/index.html?page=1#foo`.
 
-## Examples
+## <span>Examples</span>
 
 `window.location.href` is the same as the `toString` method of `window.location`, so you can choose to use either variable when using comparing as a string.
 
-``` {.js}
+``` js
 if(window.location == window.location.href){
     // This equates to true
     alert("These values are the same.")/
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft
-

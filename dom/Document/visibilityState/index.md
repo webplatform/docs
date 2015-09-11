@@ -1,44 +1,53 @@
 ---
 title: visibilityState
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat tables'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Document
+    href: /dom/Document
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Returns the visibility state of a webpage.'
 tags:
   - API
   - Object
   - Properties
   - DOM
   - Performance
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat tables'
-summary: 'Returns the visibility state of a webpage.'
 uri: dom/Document/visibilityState
 
 ---
-# visibilityState
-
-## Summary
+## <span>Summary</span>
 
 Returns the visibility state of a webpage.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var visibilityState = document.visibilityState;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The current visibility state of the document, one of "hidden", "visible", "prerender", "unloaded".
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var timer = 0;
 var PERIOD_VISIBLE = 1000;
 var PERIOD_NOT_VISIBLE = 60000;
@@ -60,22 +69,20 @@ function checkEmail() {
 window.onload = onLoad;
 ```
 
-## Notes
+## <span>Notes</span>
 
 Use the [**visibilitychange**](/dom/Document/visibilitychange) property to track changes to the visibility state.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Page Visibility](http://www.w3.org/TR/page-visibility/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Performance
+#### <span>Performance</span>
 
 -   [navigation timing](/apis/navigation_timing)
 
@@ -91,14 +98,7 @@ Specification
 
 -   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `hidden`
 -   `visibilitychange`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

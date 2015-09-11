@@ -1,19 +1,19 @@
 ---
 title: kernelUnitLengthX
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/kernelUnitLengthX
 
 ---
-# kernelUnitLengthX
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 For JavaScript, the **kernelUnitLengthX** property represents *dx*. For HTML, the **kernelUnitLength** attribute is used to set both *dx* and *dy*, as described next.
 
@@ -23,23 +23,16 @@ For the attribute **kernelUnitLength = "\<** *number optional-number* **\>"**, t
 
 For some level of consistency across display media and browsers, it is necessary that a value be provided for at least one of [**filterRes**](/svg/methods/setFilterRes) and **kernelUnitLength**.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.12
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)
 -   [**SVGFEDiffuseLightingElement**](/svg/elements/feDiffuseLighting)
 -   [**SVGFESpecularLightingElement**](/svg/elements/feSpecularLighting)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

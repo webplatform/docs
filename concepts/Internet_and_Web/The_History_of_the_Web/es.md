@@ -1,6 +1,6 @@
 ---
-title: es
-uri: 'concepts/Internet and Web/the history of the web/es'
+title: the history of the web
+lang: es
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -61,12 +61,17 @@ todo_broken_links:
     - 'concepts/Internet and Web/the history of the web/zh-hans'
     - 'concepts/Internet and Web/the history of the web/zh-hant'
     - 'concepts/Internet and Web/the history of the web/zh-tw'
+translations:
+  ja:
+    text: 日本語
+    href: /concepts/Internet_and_Web/the_history_of_the_web/ja
+  tr:
+    text: Türkçe
+    href: /concepts/Internet_and_Web/the_history_of_the_web/tr
+uri: 'concepts/Internet and Web/the history of the web/es'
 
 ---
-**Idioma:**
-:   **[English](/concepts/Internet_and_Web/the_history_of_the_web)**  • <span lang="es">**español**</span> • <span lang="ja">[日本語](/concepts/Internet_and_Web/the_history_of_the_web/ja)</span> • <span lang="tr">[Türkçe](/concepts/Internet_and_Web/the_history_of_the_web/tr)</span>
-
-## Introducción
+## <span>Introducción</span>
 
 > ¿Por dónde debo empezar, Majestad? Empieza por el principio –dijo el rey solemnemente– y continúa hasta llegar al final. Entonces, detente. «Alicia en el País de las Maravillas, Lewis Caroll»
 
@@ -74,7 +79,7 @@ Todo tiene que empezar en alguna parte, así que vamos a empezar con una lecció
 
 Si cualquiera de los términos no es muy familiar para ti, no te preocupes: si son importantes para el aprendizaje del desarrollo web serán definidos en los artículos posteriores que van a profundizar en cada tema o, en cualquier caso, ¡siempre puedes buscarlos usando tu buscador preferido! Si ya estás familiarizado con la historia de Internet o la World Wide Web, no dudes en saltar a la sección de los [estándares web](#La_llegada_de_los_est.C3.A1ndares_web).
 
-## El origen del Internet
+## <span>El origen del Internet</span>
 
 El cuatro de octubre de 1957 ocurrió un evento que cambiaría el mundo. La Unión Soviética lanzó con éxito el primer satélite en órbita terrestre. Llamado Sputnik 1, ese evento conmocionó el mundo - especialmente a los Estados Unidos de América, que tenía su propio programa de lanzamiento de satélites en marcha, pero todavía no lo habían lanzado. Este evento condujo directamente a la creación de **A**dvanced **R**esearch **P**rojects **A**gency (Agencia de Investigación de Proyectos Avanzados) en el Departamento de Defensa de Estados Unidos ([ARPA](http://es.wikipedia.org/wiki/DARPA)), debido a la necesidad de una organización que pudiera investigar y desarrollar ideas avanzadas y tecnología. Tal vez su proyecto más famoso (ciertamente el más utilizado) fue la creación de el Internet.
 
@@ -88,7 +93,7 @@ Esta proliferación de diferentes protocolos de red pronto se convirtió en un p
 
 Esta especificación redujo el papel de la red y movió la responsabilidad de mantenimiento, transmisión e integridad al equipo host. El resultado fue que se volvió posible y fácil unir casi todas las diferentes redes juntas. ARPA financió el desarrollo del software, y en 1977 fue llevada a cabo una demostración exitosa de tres redes diferentes comunicándose. Por 1981, la especificación fue finalizada, publicada y adoptado; y en 1982 las conexiones de la ARPANET fuera de los Estados Unidos se convirtió para usar el nuevo protocolo [TCP/IP](http://en.wikipedia.org/wiki/TCP/IP). El Internet tal y como lo conocemos llegó.
 
-## La creación de la World Wide Web
+## <span>La creación de la World Wide Web</span>
 
 [Gopher](http://es.wikipedia.org/wiki/Gopher) fue un sistema de acceso a información utilizado en la década de 1990, consistente en el acceso a la información a través de menús de enlaces, archivos, recursos informáticos y otros menús. Estos menús podrían cruzar los límites de la informática actual y usar Internet para buscar menús de otros sistemas. Fue muy popular con las universidades que buscaban proveer información y en las grandes organizaciones que buscaban centralizar el almacenamiento y gestión de documentos.
 
@@ -100,7 +105,7 @@ Entonces, más tarde en el mismo año, [NCSA](http://es.wikipedia.org/wiki/NCSA)
 
 El número de navegadores disponibles aumentó dramáticamente, muchos creados por proyectos de investigación en universidades y corporaciones. Por ejemplo Telenor (una empresa noruega de comunicaciones), que creó la primera versión del navegador Opera en 1994.
 
-### La guerra de los navegadores
+### <span>La guerra de los navegadores</span>
 
 La popularización de la web trajo intereses comerciales. [Marc Andreessen](http://en.wikipedia.org/wiki/Marc_Andreessen) dejó NCSA y junto con [Jim Clark](http://en.wikipedia.org/wiki/James_H._Clark) fundó Mosaic Commnications, más tarde renombrada a Netscape Communicatios Corporation, y comenzó a trabajar en lo que se convertiría en Netscape Navigator. La versión 1.0 del software fue liberada en Diciembre de 1994.
 
@@ -108,13 +113,13 @@ Spyglass Inc, (el brazo comercial de la NCSA) licenció su tecnología Mosaic a 
 
 Un rápida escalada pronto siguió, con Netscape y Microsoft cada uno tratando de obtener una ventaja competitiva en términos de características que ellos apoyaban con el fin de atraer desarrolladores. Esto se ha convertido desde entonces en lo conocido como la guerra de los navegadores. Opera Mantuvo una presencia pequeña, pero constante a lo largo de este periodo. Trató de innovar y apoyar los estándares web lo mejor posible en estos tiempos.
 
-## La llegada de los estándares web
+## <span>La llegada de los estándares web</span>
 
 Durante la guerra de los navegadores, Microsoft y Netscape se enfocaron en la implementación de nuevas características en lugar de arreglar problemas con las características que ya soportaban, y agregando características propias y creando características que entraran en competencia directa con las características existentes en el otro navegador, pero implementado las carácteres de una forma incompatible.
 
 Los desarrolladores de la época fueron forzados a hacer frente los problemas cada vez más confusos cuando traban de crear sitios webs, algunas veces hasta el punto de crear dos sitios diferentes, pero duplicados para los dos navegadores principales, y otras veces escogían soportar sólo un navegador y bloquear los otros para que no utilizasen su sitio. Esta fue una terrible manera de trabajar y la inevitable reacción de los navegadores estaba por llegar.
 
-### La formación de la W3C
+### <span>La formación de la W3C</span>
 
 En 1994, Tim Berners-Lee fundó la World Wide Web Consortium (W3C) en el Instituto Tecnológico de Massachusetts, con el apoyo de CERN, DARPA y la Comisión Europea. La visión de la W3C era estandarizar los protocolos y las tecnologías usadas para construir la web de manera que el contenido estuviese disponible para la mayor población del mundo posible.
 
@@ -122,7 +127,7 @@ Durante los próximos años, la W3C publicó varias especificaciones (llamadas r
 
 Sin embargo, la W3C no hicieron (y todavía no hacen) cumplir sus recomendaciones. Los fabricantes sólo tenían que ajustarse a los documentos de la W3C si deseaban etiquetar sus productos como W3C--compliant. En la practica, esto no fue un punto importante, ya que casi todos los usuarios de la web no sabían, ni probablemente les importaba, que era la W3C (este es todavía el caso, en gran medida). Por lo tanto, la guerra de los navegadores de los noventa continuó sin disminuir.
 
-### El proyecto de los estándares web
+### <span>El proyecto de los estándares web</span>
 
 En 1998, el mercado de los navegadores fue dominado por Internet Explorer 4 y Netscape Navigator 4. Una versión beta de Internet Explorer 5 fue liberada entonces y implementó HTML dinámico patentado, lo que significaba que los desarrolladores web profesionales necesitaban saber cinco **maneras diferentes** de escribir JavaScript.
 
@@ -136,7 +141,7 @@ La W3C tiene poco personal a tiempo completo, pero la mayoría de la gente que t
 
 Todo esto sonaba un poco negativo, pero la WaSP no solo se sentó a criticar personas - también ayudaron. Siete miembros formaron CSS Samurai, quienes identificaron los 10 problemas con el soporte CSS en Opera y otros navegadores (Opera arregló sus problemas, los otros no lo hicieron).
 
-### La llegada de los estándares web
+### <span>La llegada de los estándares web</span>
 
 En el 2000, Microsoft lanzó Internet Explorer 5 Edición Macintosh. Esto fue un hito muy importante, siendo el navegador instalado por defecto con el sistema operativo de la época, teniendo un razonable nivel de apoyo a las recomendaciones de la W3C. Junto con un soporte decente de CSS y HTML en Opera, contribuyó a un movimiento positivo, donde los desarrolladores web y diseñadores finalmente se sintieron cómodos diseñando sitios usando los estándares web, ya que sabían que funcionarían en múltiples navegadores.
 
@@ -152,7 +157,7 @@ También en el 2003, Dave Shea lanzó un sitio llamado the [CSS Zen Garden](http
 
 Desde entonces, el uso de estándares web se han convertido en *de rigor*; en la comunidad de desarrollo web profesional. Y en esta serie, vamos a darle una excelente base en estas técnicas para que puedan desarrollar sitios web limpios, accesibles, semánticos y sitios webs con estándares compatibles.
 
-## La nueva generación de los estándares web
+## <span>La nueva generación de los estándares web</span>
 
 Después del 2003, los estándares web no se le limitaron a quedarse quietos. Nuevas prácticas comenzaron para realmente venir al primer plano, con muchos sitios webs más parecidos a aplicaciones de escritorio que páginas webs estáticas. Esta nueva generación de sitios eran más complicados que para lo que la web estaba destinada, ¡y todavía tenemos que preocuparnos por la semántica, usabilidad y accesibilidad!
 
@@ -177,6 +182,6 @@ Para comenzar a solucionar esto, se empezó a trabajar en CSS3 en el 2000. Los e
 
 Encontrarás más acerca acerca de CSS3 y HTML5 en este curso.
 
-## Resumen
+## <span>Resumen</span>
 
-En este artículo hemos visto como fue creado el Internet moderno, como resultado de la carrera espacial, cómo Tim Berners-Lee define el hipertexto para la generación y cómo el interés comercial de dos compañías causó una de los más notables desarrollo que jamás hemos visto. El término estándares de la web ahora es usado más ampliamente por profesionales de la web que cualquier otro término aplicado por la [http://www.w3.org/](http://www.w3.org/) W3C] (de hecho la W3C ha comenzado a utilizar el término en sus propias páginas), así que esto es lo que os vamos a enseñar - las maneras "estándares" de crear sitios web.
+En este artículo hemos visto como fue creado el Internet moderno, como resultado de la carrera espacial, cómo Tim Berners-Lee define el hipertexto para la generación y cómo el interés comercial de dos compañías causó una de los más notables desarrollo que jamás hemos visto. El término estándares de la web ahora es usado más ampliamente por profesionales de la web que cualquier otro término aplicado por la <http://www.w3.org/> W3C] (de hecho la W3C ha comenzado a utilizar el término en sus propias páginas), así que esto es lo que os vamos a enseñar - las maneras "estándares" de crear sitios web.

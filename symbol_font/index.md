@@ -1,17 +1,15 @@
 ---
-title: ymbol font
+title: symbol font
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: 'symbol font'
 
 ---
-# symbol font
-
-## symbol font
+## <span>symbol font</span>
 
 Any one of a number of typefaces containing primarily symbolic glyphs, such as playing card suits, Greek letters, emoticons, arrows, lines, etc. Common symbol fonts include Symbol, Bookshelf Symbol 7, and the Wingdings series.
 

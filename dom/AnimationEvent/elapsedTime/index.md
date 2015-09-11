@@ -1,36 +1,41 @@
 ---
 title: elapsedTime
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/AnimationEvent
+    href: /dom/AnimationEvent
+summary: 'The amount of time the animation has been running, in seconds, since the event fired, excluding any time the animation was paused.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'The amount of time the animation has been running, in seconds, since the event fired, excluding any time the animation was paused.'
 uri: dom/AnimationEvent/elapsedTime
 
 ---
-# elapsedTime
-
-## Summary
+## <span>Summary</span>
 
 The amount of time the animation has been running, in seconds, since the event fired, excluding any time the animation was paused.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/AnimationEvent](/dom/AnimationEvent)</span></span>
+Property of [dom/AnimationEvent](/dom/AnimationEvent)[dom/AnimationEvent](/dom/AnimationEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.elapsedTime;
 ```
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //for a predefined animation event that is running
 var myAnimEvent = new AnimationEvent();
 // . . .
@@ -38,13 +43,6 @@ var myAnimEvent = new AnimationEvent();
 var myAnimTime = myAnimEvent.elapsedTime;
 ```
 
-## Notes
+## <span>Notes</span>
 
 For an **animationstart** event, the elapsedTime is zero (0.0) unless there was a negative value for *animation-delay*, in which case the event will be fired with an elapsedTime of *(-1 \* delay)*.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

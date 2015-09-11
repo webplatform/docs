@@ -1,42 +1,35 @@
 ---
 title: fy
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/fy
 
 ---
-# fy
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 The [**fx**](/svg/properties/fx) and **fy** properties define the focal point for the radial gradient. The gradient is drawn such that the 0% gradient stop is mapped to the point (fx, fy). If you do not specify the **fy** attribute, **fy** coincides with the presentational value of [**cy**](/svg/properties/cy_(SVGRadialGradientElement)) for the element, whether the value for **cy** is inherited or not. If the element references an element that specifies a value for **fy**, the value of **fy** is inherited from the referenced element. You can animate the **fy** property.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.3
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGRadialGradientElement**](/svg/elements/radialGradient)
 
-### Reference
+### <span>Reference</span>
 
 -   [**fx**](/svg/properties/fx)
 -   [**r**](/svg/properties/r_(SVGRadialGradientElement))
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

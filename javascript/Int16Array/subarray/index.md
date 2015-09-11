@@ -1,20 +1,22 @@
 ---
 title: subarray
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212936(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Gets a new Int16Array view of the ArrayBuffer Object store for this array, specifying the first and last members of the subarray.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Gets a new Int16Array view of the ArrayBuffer Object store for this array, specifying the first and last members of the subarray.'
 uri: javascript/Int16Array/subarray
 
 ---
-# subarray
-
-## Summary
+## <span>Summary</span>
 
 Gets a new Int16Array view of the ArrayBuffer Object store for this array, specifying the first and last members of the subarray.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     var newInt16Array = int16Array.subarray(begin, end);
 
@@ -27,11 +29,11 @@ Gets a new Int16Array view of the ArrayBuffer Object store for this array, speci
 **end**
 :   The index of the end of the array.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to get a subarray three elements long, starting with the first element of the array.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -46,13 +48,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 If either begin or end is negative, it refers to an index from the end of the array, as opposed to from the beginning. If end is unspecified, the subarray contains all elements from begin to the end of the typed array. The range specified by the begin and end values is clamped to the valid index range for the current array. If the computed length of the new typed array would be negative, it is clamped to zero. The returned array is of the same type as the array on which this method is invoked.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212936(v=vs.94).aspx)
 

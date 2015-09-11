@@ -1,34 +1,41 @@
 ---
 title: open
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/indexedDB
+    href: /apis/indexeddb/indexedDB
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/indexeddb/indexedDB
+summary: 'Opens a database. See apis/indexeddb/IDBFactory/open'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Opens a database. See apis/indexeddb/IDBFactory/open'
 uri: apis/indexeddb/indexedDB/open
 
 ---
-# open
-
-## Summary
+## <span>Summary</span>
 
 Opens a database. See apis/indexeddb/IDBFactory/open
 
-*Method of [apis/indexeddb/indexedDB](/apis/indexeddb/indexedDB)*
+Method of [apis/indexeddb/indexedDB](/apis/indexeddb/indexedDB)[apis/indexeddb/indexedDB](/apis/indexeddb/indexedDB)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = .open();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 

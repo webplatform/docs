@@ -1,59 +1,62 @@
 ---
 title: appMinorVersion
+attributions:
+  - 'Microsoft Developer Network: [[navigator.appMinorVersion](http://msdn.microsoft.com/en-us/library/ie/ms533078(v=vs.85).aspx) Article]'
+code_samples:
+  - 'http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Navigator
+    href: /dom/Navigator
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/Navigator
+summary: 'Retrieves the userAgent application''s minor version value.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-summary: 'Retrieves the userAgent application''s minor version value.'
-code_samples:
-  - 'http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788'
 uri: dom/Navigator/appMinorVersion
 
 ---
-# appMinorVersion
-
-## Summary
+## <span>Summary</span>
 
 Retrieves the userAgent application's minor version value.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Navigator](/dom/Navigator)</span></span>
+Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = navigator.appMinorVersion;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The userAgent application's minor version number.
 
-## Examples
+## <span>Examples</span>
 
 The linked example enumerates the window.navigator object and displays the results on the screen.
 
-``` {.js}
+``` js
+
 ```
 
 [View live example](http://result.dabblet.com/gist/b1e7c611e97594b60956/56337717d0b88e99b8944707d60bb7072b359788)
 
-## Usage
+## <span>Usage</span>
 
      Do not use to try to detect the userAgent version number... this is unreliable.
 
 Use 'feature detection' instead.
 
-### Syntax
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[navigator.appMinorVersion](http://msdn.microsoft.com/en-us/library/ie/ms533078(v=vs.85).aspx) Article]
-
+### <span>Syntax</span>

@@ -1,12 +1,22 @@
 ---
 title: display
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`inline`'
+  'Applies to': 'All elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'See individual properties.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'See individual properties.'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'This property specifies the type of rendering box used for an element. It is a shorthand property for many other display properties.'
-uri: css/properties/display
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -70,34 +80,40 @@ todo_broken_links:
     - css/properties/zh-hans
     - css/properties/zh-hant
     - css/properties/zh-tw
+uri: css/properties/display
 
 ---
-# display
-
-## Summary
+## <span>Summary</span>
 
 This property specifies the type of rendering box used for an element. It is a shorthand property for many other display properties.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `inline`
+
 Applies to
 :   All elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   See individual properties.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   See individual properties.
 
-## Syntax
+## <span>Syntax</span>
 
 -   `display: block`
 -   `display: flex`
@@ -112,7 +128,7 @@ Percentages
 -   `display: none`
 -   `display: table, inline-table, table-row-group, table-column, table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption`
 
-## Values
+## <span>Values</span>
 
 inline
 :   Generates one or more inline element boxes.
@@ -150,11 +166,11 @@ inherit
 table, inline-table, table-row-group, table-column, table-column-group, table-header-group, table-footer-group, table-row, table-cell, table-caption
 :   These values cause an element to behave like a table element, subject to certain restrictions. See the [W3C tables specification](http://www.w3.org/TR/CSS2/tables.html).
 
-## Examples
+## <span>Examples</span>
 
 Change a `span` element from its initial display `inline` to display as block-level element.
 
-``` {.html}
+``` html
 <span>Some example text</span>
 <style>
   span {
@@ -165,7 +181,7 @@ Change a `span` element from its initial display `inline` to display as block-le
 
 Do not display an element by using `display: none;`.
 
-``` {.html}
+``` html
 <div>Some example text</div>
 <style>
   div {
@@ -176,7 +192,7 @@ Do not display an element by using `display: none;`.
 
 Specify the rendering type as block or inline to define how the element will display. Set the element to inherit the rendering values of its parent container:
 
-``` {.css}
+``` css
 p.block {
     /* Sets the element to display in a box model rendering type. */
     display:block;
@@ -195,7 +211,7 @@ p.inherit {
 
 Mobile-adapt a table, suppressing column headers and re-inserting text next to vertically stacked cells:
 
-``` {.css}
+``` css
 @media (max-width:400px) {
     /* stack cells vertically... */
     table, tr, td, th, tbody { display: block }
@@ -212,7 +228,7 @@ Mobile-adapt a table, suppressing column headers and re-inserting text next to v
 
 Stack generously sized links in mobile interface to extend the touch zone to the full width of the screen:
 
-``` {.css}
+``` css
 @media (max-width:400px) {
     a[href] {
         display: block;
@@ -228,7 +244,7 @@ Stack generously sized links in mobile interface to extend the touch zone to the
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 **Computed value and relationship between **display**, [position](/css/properties/position), and [float](/css/properties/float)**
 
@@ -238,35 +254,35 @@ Stack generously sized links in mobile interface to extend the touch zone to the
 -   Otherwise, if the element is the root element, 'display' is set according to the table below, except that it is undefined in CSS 2.1 whether a specified value of 'list-item' becomes a computed value of 'block' or 'list-item'.
 -   Otherwise, the remaining 'display' property values apply as specified.
 
-Specified value
-:   Computed value
-inline-table
-:   table
-inline, run-in, table-row-group, table-column,
+|Specified value|Computed value|
+|:--------------|:-------------|
+|inline-table|table|
+|inline, run-in, table-row-group, table-column,
 table-column-group, table-header-group,
  table-footer-group, table-row, table-cell,
-table-caption, inline-block
-:   block
-others
-:   same as specified
+table-caption, inline-block|block|
+|others|same as specified|
 
 **Table-designated elements**
  The Cascading Style Sheets (CSS) table display model does not require explicit elements to correspond with the HTML tags. For example, an element styled as `display: table-cell` does not need to be contained within a block that is styled `display: table-row` to be styled correctly. Implicit table elements are created as necessary in an attempt to make the document valid. Contrast this behavior to the traditional HTML table model, where table elements are implicitly closed early to avoid unexpected nesting.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Display Module Level 3](http://dev.w3.org/csswg/css-display-3/)
 :   Editor's Draft
+
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/visuren.html#display-prop)
 :   Recommendation
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **Language:**
-:   **[English](/css/properties)**
+
+</th>
+<td class="mbox-text">
+**[English](/css/properties)**
+
+</td>
+</tr>
+</table>

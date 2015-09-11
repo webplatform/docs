@@ -1,37 +1,44 @@
 ---
 title: remoteDescription
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+  return:
+    predicate: 'Returns an object of type '
+    value: RTCSessionDescription
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the RTCSessionDescription most recently passed to the setRemoteDescription() method along with any remote candidate descriptions supplied with addIceCandidate(). Returns null if the remote description has not been set.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns the RTCSessionDescription most recently passed to the setRemoteDescription() method along with any remote candidate descriptions supplied with addIceCandidate(). Returns null if the remote description has not been set.'
 uri: apis/webrtc/RTCPeerConnection/remoteDescription
 
 ---
-# remoteDescription
-
-## Summary
+## <span>Summary</span>
 
 Returns the RTCSessionDescription most recently passed to the setRemoteDescription() method along with any remote candidate descriptions supplied with addIceCandidate(). Returns null if the remote description has not been set.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)</span></span>
+Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.remoteDescription;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">RTCSessionDescription</span></span>
+Returns an object of type RTCSessionDescriptionRTCSessionDescription
 
 **Needs Examples**: This section should include examples.
 

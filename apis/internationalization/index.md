@@ -1,34 +1,36 @@
 ---
-title: internationalization
+title: Internationalization (ECMA 402 standard)
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The ECMAScript Internationalization API provides key language-sensitive functionality as a complement to the ECMAScript Language Specification, 5.1 edition or successor. Its functionality has been selected from that of well-established internationalization APIs such as those of the Internationalization Components for Unicode (ICU) library, of the .NET framework, or of the Java platform.'
 tags:
   - API
   - Listings
   - Internationalization
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The ECMAScript Internationalization API provides key language-sensitive functionality as a complement to the ECMAScript Language Specification, 5.1 edition or successor. Its functionality has been selected from that of well-established internationalization APIs such as those of the Internationalization Components for Unicode (ICU) library, of the .NET framework, or of the Java platform.'
 uri: apis/internationalization
 
 ---
-# Internationalization (ECMA 402 standard)
-
-## Summary
+## <span>Summary</span>
 
 The ECMAScript Internationalization API provides key language-sensitive functionality as a complement to the ECMAScript Language Specification, 5.1 edition or successor. Its functionality has been selected from that of well-established internationalization APIs such as those of the Internationalization Components for Unicode (ICU) library, of the .NET framework, or of the Java platform.
 
 API Name
 :   Summary
+
 [Intl](/apis/internationalization/Intl)
 :   The **Intl** object serves as a namespace for the i18n API. It is a standard built-in object that is the initial value of the *Intl* property of the global object. It is not possible to use the **Intl** object as a constructor with the *new* operator. It is not possible to invoke the **Intl** object as a function.
+
 [Collator](/apis/internationalization/Intl/Collator)
 :
+
 [DateTimeFormat](/apis/internationalization/Intl/DateTimeFormat)
 :
+
 [NumberFormat](/apis/internationalization/Intl/NumberFormat)
 :
 
-## Usage
+## <span>Usage</span>
 
      The ECMAScript Internationalization API is designed to complement the ECMAScript Language Specification by providing key language-sensitive functionality. The API can be added to an implementation of the ECMAScript Language Specification, 5.1 edition or successor.
 
@@ -41,7 +43,7 @@ Applications can use the API in two ways:
 
 The **Intl** object is used to package all functionality defined in the ECMAScript Internationalization API to avoid name collisions.
 
-## Notes
+## <span>Notes</span>
 
 The API was developed by an ad-hoc group established by Ecma TC 39 in September 2010 based on a proposal by Nebojša Ćirić and Jungshik Shin.
 
@@ -71,4 +73,3 @@ Feedback provided by Erik Arvidsson, John J. Barton, Zbigniew Braniecki, Marcos 
 This Ecma Standard has been adopted by the General Assembly of December 2012.
 
 See also [Internationalization](http://www.w3.org/standards/webdesign/i18n) and [Internationalization Tag Sets](http://www.w3.org/TR/its20/).
-

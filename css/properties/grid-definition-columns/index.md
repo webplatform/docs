@@ -1,49 +1,63 @@
 ---
 title: grid-definition-columns
+notes:
+  - "Add description, compatibility.\nThis property is no longer listed in the W3C specification."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'grid containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified, except for ‘auto’ (see prose)'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`gridDefinitionColumns`'
+  Percentages: n/a
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: "This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. You can also specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.\n"
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - "Add description, compatibility.\nThis property is no longer listed in the W3C specification."
-summary: "This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. You can also specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.\n"
 uri: css/properties/grid-definition-columns
 
 ---
-# grid-definition-columns
-
-## Summary
+## <span>Summary</span>
 
 This property can specify the length, a percentage of the grid container’s size, a measurement of the contents occupying the column, or a fraction of the free space in the grid. You can also specify a range using minmax(), which combines any of these measurements to define a min and max size for the column.
 
 As well as referring to grid lines by their numerical index, you can also name lines. Names can make the grid-placement properties easier to understand and maintain. Lines can have multiple names, such as 'first' and 'header'.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   grid containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified, except for ‘auto’ (see prose)
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `gridDefinitionColumns`
+
 Percentages
 :   n/a
 
-## Syntax
+## <span>Syntax</span>
 
 -   `grid-definition-columns: <track-list>`
 -   `grid-definition-columns: none`
 
-## Values
+## <span>Values</span>
 
 none
 :   No initial grid; any columns are implicitly generated with their size determined by the ‘grid-auto-columns’ property.
@@ -67,11 +81,11 @@ Where the values are described as:
 -   minmax(min, max): Defines a size range greater than or equal to min and less than or equal to max. If max \< min, then max is ignored and ‘minmax(min,max)’ is treated as min.
 -   auto: Computes to ‘minmax(min-content, max-content)’.
 
-## Examples
+## <span>Examples</span>
 
 We define four values corresponding to each columns of our grid. First column will be exactly 100 pixels, second column will use flex units and will take one 'fr' of the remaining space but because of the third columns which takes up two 'fr'. That means the remaining space will divide on three, and second column will take 1/3 of this, and third column will take 2/3.
 
-``` {.css}
+``` css
 #myGrid {
   display: grid;
   grid-definitions-columns: 100px 1fr 2fr;
@@ -80,7 +94,7 @@ We define four values corresponding to each columns of our grid. First column wi
 
 We define three columns where the first one will adapt to its content, the second will take 250 pixels of the screen and third one will take 50% of its container.
 
-``` {.css}
+``` css
 #myGrid {
   display: grid;
   grid-definitions-columns: auto 250px 50%
@@ -89,7 +103,7 @@ We define three columns where the first one will adapt to its content, the secon
 
 We can also make use of the min/max values. We define two columns where first one take one 'fr' and the second can use either the minimum content of its size, or the maximum value of 1fr. Notice that we gave names on right lines of each columns. That way we can refer to those lines when we define how space will take their contents.
 
-``` {.css}
+``` css
 #myGrid {
   display: grid;
   grid-definition-columns: 1fr "aside" minmax(min-content, 1fr) "main";
@@ -98,7 +112,7 @@ We can also make use of the min/max values. We define two columns where first on
 
 At last, \`repeat\` function can be used to create a repeating sequence.
 
-``` {.css}
+``` css
 #myGrid {
   display: grid;
   grid-definition-columns: repeat(3, 100px 1fr); // which equals to
@@ -106,20 +120,19 @@ At last, \`repeat\` function can be used to create a repeating sequence.
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Grid Layout, Track Sizing: the ‘grid-definition-rows’ and ‘grid-definition-columns’ properties](http://dev.w3.org/csswg/css-grid/#track-sizing)
 :   W3C Editor's Draft
+
 [CSS Grid Layout, Track Sizing: the ‘grid-definition-rows’ and ‘grid-definition-columns’ properties](http://www.w3.org/TR/css3-grid-layout/#track-sizing)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -134,8 +147,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -165,7 +176,7 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Grid Layout
+#### <span>Grid Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -183,7 +194,6 @@ Specification
 
 -   [height](/css/properties/height)
 
-### External resources
+### <span>External resources</span>
 
--   [http://css-tricks.com/almanac/properties/g/grid/](http://css-tricks.com/almanac/properties/g/grid/)
-
+-   <http://css-tricks.com/almanac/properties/g/grid/>

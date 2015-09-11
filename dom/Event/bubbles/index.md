@@ -1,61 +1,68 @@
 ---
 title: bubbles
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs examples and compat'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Event
+    href: /dom/Event
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/Event
+standardization_status: 'W3C Working Draft'
+summary: 'Gets a value that indicates whether an event propagates up from the event target.'
 tags:
   - API
   - Object
   - Properties
   - DOM
   - DOMEvents
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs examples and compat'
-summary: 'Gets a value that indicates whether an event propagates up from the event target.'
-uri: dom/Event/bubbles
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/MouseWheelEvent
+uri: dom/Event/bubbles
 
 ---
-# bubbles
-
-## Summary
+## <span>Summary</span>
 
 Gets a value that indicates whether an event propagates up from the event target.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Event](/dom/Event)</span></span>
+Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var bubbles = event.bubbles;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 Whether the event propagates upward from the event target.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 When you create a custom event by using the [**createEvent**](/dom/Document/createEvent) method, you can set the **bubbles** property by using the [**initEvent**](/dom/Event/initEvent) method.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`
@@ -76,10 +83,3 @@ Specification
 -   `cancelable`
 -   `stopPropagation`
 -   `stopImmediatePropagation`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

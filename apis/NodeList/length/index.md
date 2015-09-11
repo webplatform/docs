@@ -1,41 +1,48 @@
 ---
 title: length
+code_samples:
+  - 'http://result.webplatformstaging.org/gist/66472399f3509d96204a/37c44f44eee101bcc19487fd1cf470e8a5c998d8'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/NodeList
+    href: /dom/NodeList
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /dom/NodeList
+standardization_status: 'W3C Recommendation'
+summary: 'The number of nodes in the list.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-summary: 'The number of nodes in the list.'
-code_samples:
-  - 'http://result.webplatformstaging.org/gist/66472399f3509d96204a/37c44f44eee101bcc19487fd1cf470e8a5c998d8'
 uri: apis/NodeList/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 The number of nodes in the list.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/NodeList](/dom/NodeList)</span></span>
+Property of [dom/NodeList](/dom/NodeList)[dom/NodeList](/dom/NodeList)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = list.length;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!-- Three divs -->
 <ul>
     <li class="fruit">Apple</li>
@@ -60,12 +67,10 @@ var result = list.length;
 
 [View live example](http://result.webplatformstaging.org/gist/66472399f3509d96204a/37c44f44eee101bcc19487fd1cf470e8a5c998d8)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-536297177)
 :   Recommendation
+
 [DOM](http://www.w3.org/TR/dom/#nodelist)
 :   Working Draft
-

@@ -1,42 +1,51 @@
 ---
 title: pauseOnExit
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/audio-video/TextTrackCue
+    href: /apis/audio-video/TextTrackCue
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /apis/audio-video/TextTrackCue
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the pause-on-exit flag on a TextTrackCue. When the flag is true, playback will pause when it reaches the cue''s endTime.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the pause-on-exit flag on a TextTrackCue. When the flag is true, playback will pause when it reaches the cue''s endTime.'
 uri: apis/audio-video/TextTrackCue/pauseOnExit
 
 ---
-# pauseOnExit
-
-## Summary
+## <span>Summary</span>
 
 Returns the pause-on-exit flag on a TextTrackCue. When the flag is true, playback will pause when it reaches the cue's endTime.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)</span></span>
+Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = TextTrackCue.pauseOnExit;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
-## Examples
+## <span>Examples</span>
 
 This example displays the cue (caption), startTime, endTime, pauseOnExit, and id for all cues in a track.
 
-``` {.html}
+``` html
   <head>
     <script type="text/javascript">
       function getCues() {
@@ -66,16 +75,7 @@ This example displays the cue (caption), startTime, endTime, pauseOnExit, and id
 </body>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

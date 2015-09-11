@@ -1,22 +1,20 @@
 ---
-title: url()
+title: CSS images: url()
+notes:
+  - 'Include examples, specifications, compatibility.'
+readiness: 'In Progress'
+summary: 'CSS has a variety of different properties that can reference an image file, displaying that file on a web page normally as part of an element''s background. This is done using the CSS image syntax, which is url().'
 tags:
   - CSS
   - Functions
-readiness: 'In Progress'
-notes:
-  - 'Include examples, specifications, compatibility.'
-summary: 'CSS has a variety of different properties that can reference an image file, displaying that file on a web page normally as part of an element''s background. This is done using the CSS image syntax, which is url().'
 uri: css/functions/url()
 
 ---
-# CSS images: url()
-
-## Summary
+## <span>Summary</span>
 
 CSS has a variety of different properties that can reference an image file, displaying that file on a web page normally as part of an element's background. This is done using the CSS image syntax, which is url().
 
-## Usage
+## <span>Usage</span>
 
 Usage is simple — you insert the path to the image you want to include in your page inside the brackets of `url()`, for example:
 
@@ -33,13 +31,13 @@ This will cause `my-image.png` to be displayed in the background of whatever ele
 -   data URIs
 -   .webp
 
-## Browser support notes
+## <span>Browser support notes</span>
 
 -   IE \< 9: doesn't support SVG for background-images, or multiple background images, or gradients
 -   IE6: doesn't support PNG transparency properly; result looks buggy and malformed
 -   Only Opera and Chrome support .webp
 
-## Properties that accept URL as a value
+## <span>Properties that accept URL as a value</span>
 
 -   [background-image](/css/properties/background-image)
 -   [border-image](/css/properties/border-image)

@@ -1,17 +1,15 @@
 ---
-title: assigned
+title: Use Spreadsheet for who's doing what
 uri: css/assigned
 
 ---
-# Use Spreadsheet for who's doing what
-
 To streamline reporting, we're no longer using this page.
 
 Please use the spreadsheet for now:
 
-[https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE](https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE)
+<https://docs.google.com/spreadsheet/ccc?key=0AkRs-89PKiZpdE0xdm9Sb1ZvRW1ZRzMtWEdyU0Z4OEE>
 
-# Old list of what is doing what: CSS property page project
+# <span>Old list of what is doing what: CSS property page project</span>
 
 CSS properties
 

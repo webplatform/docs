@@ -1,27 +1,25 @@
 ---
-title: svg links
+title: SVG links
+notes:
+  - 'Fix a couple of broken links'
+readiness: 'Almost Ready'
+summary: 'This tutorial covers the creation of links inside SVG objects.'
 tags:
   - Tutorials
   - SVG
-readiness: 'Almost Ready'
-notes:
-  - 'Fix a couple of broken links'
-summary: 'This tutorial covers the creation of links inside SVG objects.'
-uri: 'tutorials/svg links'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'HTML links – let’s build a web!'
     - 'SVG specification'
+uri: 'tutorials/svg links'
 
 ---
-# SVG links
-
-## Summary
+## <span>Summary</span>
 
 This tutorial covers the creation of links inside SVG objects.
 
-## Introduction
+## <span>Introduction</span>
 
 Just like (X)HTML, SVG supports linking to content within the document and to external resources, for example other SVG documents, HTML or XML documents, images, videos or any other kind of typical resource you may want to link to. This tutorial will walk you through how to create links in SVG using Xlink—the W3C spec for linking in XML—and cover any specific SVG-related concerns that you man need to know.
 
@@ -29,11 +27,11 @@ If you are not familiar with the `a` element or the `href` attribute in HTML I r
 
 Note: XML doesn’t support linking by default, so the situation is slightly more complex than [HTML links](/guides/html_links). But don't despair - Xlink is still not that complicated to get the hang of; after reading this article it should present you with no trouble.
 
-## Getting started with SVG links
+## <span>Getting started with SVG links</span>
 
 In HTML I can simply set up a link from one document to another using an `a` element and an `href` attribute like so:
 
-``` {.html}
+``` html
 <a href="http://example.com/link/">An example link</a>
 ```
 
@@ -41,11 +39,11 @@ In HTML I can simply set up a link from one document to another using an `a` ele
 
 In XML and therefore SVG, there is no magic `href` attribute that can create links. Instead you have to use a technology called XLink to provide this functionality. XLink is a very powerful technology that provides a lot of complex functionality, such as one-to-many links, but for SVG we only have to care about simple one-to-one links, as that is all that is supported in the [SVG specification](/w/index.php?title=SVG_specification&action=edit&redlink=1).
 
-### Setting up the XLink namespace
+### <span>Setting up the XLink namespace</span>
 
 You've already met XML namespaces when defining a SVG template. Usually an SVG document uses the default namespace like so:
 
-``` {.xml}
+``` xml
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   …content goes here…
 </svg>
@@ -53,7 +51,7 @@ You've already met XML namespaces when defining a SVG template. Usually an SVG d
 
  Since the default namespace is taken up by SVG, if you want to to define the XLink namespace on the SVG element you have to give it a prefix, which by general convention is `xlink` (although it can be anything you please). Lets add the XLink namespace to our `svg` element:
 
-``` {.xml}
+``` xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
   …content goes here…
 </svg>
@@ -63,11 +61,11 @@ You've already met XML namespaces when defining a SVG template. Usually an SVG d
 
 Now the XLink namespace is set up, any time you want to refer to a XLink element or attribute on the `svg` element or any of its children, you have to use it in combination with the `xlink` prefix. The best way to explain this is with an example, so lets start to set up a similar link to the HTML link above.
 
-### A simple SVG link using XLink
+### <span>A simple SVG link using XLink</span>
 
 Next we need to use the SVG `a` element in our document to define a link, and the `text` element to define the link text:
 
-``` {.xml}
+``` xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
   <a>
     <text x="10" y="25">An example link.</text>
@@ -77,7 +75,7 @@ Next we need to use the SVG `a` element in our document to define a link, and th
 
  Now we have to add the XLink `href` attribute to the `a` element to specify the destination of the link, like so:
 
-``` {.xml}
+``` xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
   <a xlink:href="http://example.com/link/">
     <text x="10" y="25" >An example link.</text>
@@ -93,11 +91,11 @@ Using the `a` element in SVG doesn't automatically style the link like it does i
 
 One thing worth remembering is that to set the colour of the text in SVG you must use the `fill` CSS property or XML attribute, not `color` as in HTML. The text must also be contained in a `text` element nested inside the link, unlike HTML where a `a` element can contain text immediately between its start and end tags.
 
-## Adding additional functionality to links
+## <span>Adding additional functionality to links</span>
 
 You may recall that HTML links can have a `title` attribute to describe additional details about the link. This is also available with XLink in SVG:
 
-``` {.xml}
+``` xml
 <a xlink:href="http://example.com/link/" xlink:title="The link leads to an example page that is of little interest">
   <text x="10" y="25" >An example link.</text>
 </a>
@@ -107,17 +105,17 @@ You may recall that HTML links can have a `title` attribute to describe addition
 
 Following a link defaults to opening the linked resource in the same window or tab. You can change this behaviour by using the XLink `show` attribute. Using a value of `replace` specifies the default behaviour, while changing it to `new` will open the link in a new window or tab.
 
-``` {.xml}
+``` xml
 <a xlink:href="http://example.com/link/" xlink:title="The link opens an example page in a new tab/window" xlink:show="new">
   <text x="10" y="25" >An example link.</text>
 </a>
 ```
 
-### Linking to a specific point in a document
+### <span>Linking to a specific point in a document</span>
 
 Also like HTML, it is possible to link to a specific point in a document (both in local and remote documents) by specifying an `id` on the element you want to link to and adding a fragment identifier to the link. This can be achieved in almost exactly the same way as with HTML:
 
-``` {.xml}
+``` xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
   <a xlink:href="http://www.someurl.com#someid">
     <text x="10" y="25" >An example link.</text>
@@ -129,7 +127,7 @@ Also like HTML, it is possible to link to a specific point in a document (both i
 
 The fragment identifier works in exactly the same way as the example above, while the `view` element is used to specify the size of the viewport after the URL has been followed. I will show this with another example:
 
-``` {.xml}
+``` xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="100%">
   <a xlink:href="#target">
     <text x="10" y="25">Zoom in on shape below</text>
@@ -144,15 +142,15 @@ The fragment identifier works in exactly the same way as the example above, whil
 
 With the example above, you may notice that the rectangle doesn’t fill your browser window. This is because by default it preserves the aspect ratio of the elements. There is a way to define this behaviour using the `preserveAspectRatio` attribute. I will cover this in a later article, but if you just want ignore the aspect ratio, you can set the value to `none` like so:
 
-``` {.xml}
+``` xml
 <view id="target" viewBox="600 600 50 50" preserveAspectRatio="none"/>
 ```
 
-### Embedding external resources in an SVG document
+### <span>Embedding external resources in an SVG document</span>
 
 As well as linking to separate documents, it is possible to embed resources such as images into an SVG document in a very similar manner, again using the XLink href attribute. Images can either be raster images such as PNGs and JPEGS, or another SVG file:
 
-``` {.xml}
+``` xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
   <image xlink:href="circle.png" x="10" y="25" height="100" width="100">
     <desc>A perfect circle</desc>
@@ -166,7 +164,7 @@ Try out my example.
 
 Embedding an SVG image works in exactly the same way:
 
-``` {.xml}
+``` xml
 <image xlink:href="circle.svg" x="10" y="25" height="100" width="100">
   <desc>A perfect circle</desc>
 </image>
@@ -178,11 +176,11 @@ Fragments of SVG can be embedded in the document using the `use` element - this 
 
 SVG Tiny 1.2 and above allow for embedding of audio and video, but this is not widely implemented. At the time of writing this only works in a .
 
-### Linking multiple elements
+### <span>Linking multiple elements</span>
 
 In HTML 4.01 and XHTML 1.0/1.1, the `a` element is inline and thus can not legally contain block level child elements. If you want to for example make an image and adjacent text into the same link, you have to specify additional `a` elements with the same `href` value. There is no such restriction with SVG - it is perfectly valid to do the following:
 
-``` {.xml}
+``` xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
   <defs>
     <linearGradient id="badgeGradient">
@@ -203,4 +201,3 @@ In HTML 4.01 and XHTML 1.0/1.1, the `a` element is inline and thus can not legal
 ```
 
  Try it out by viewing my example.
-

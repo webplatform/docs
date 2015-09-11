@@ -1,31 +1,32 @@
 ---
-title: ja
+title: br
+code_samples:
+  - 'http://gist.github.com/7282007'
+lang: ja
+notes:
+  - 'Add Category, Parent, Children and Compatibility information. Modify DOM Interface information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLBRElement](/dom/HTMLBRElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: '文章をbreakするbr要素はテキストを強制的に終わらせ、brに続くテキストを新たしい行に改めます。'
 tags:
   - Markup
   - Elements
   - HTML
   - XHTML
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information. Modify DOM Interface information.'
-summary: '文章をbreakするbr要素はテキストを強制的に終わらせ、brに続くテキストを新たしい行に改めます。'
-code_samples:
-  - 'http://gist.github.com/7282007'
-uri: html/elements/br/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - html/elements/p/ja
+uri: html/elements/br/ja
 
 ---
-# br
-
-## Summary
+## <span>Summary</span>
 
 文章をbreakするbr要素はテキストを強制的に終わらせ、brに続くテキストを新たしい行に改めます。
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLBRElement](/dom/HTMLBRElement)
@@ -36,11 +37,11 @@ todo_broken_links:
 
 **br**要素の中にどんなコンテンツ（属性など）を記述しようとも、周囲のテキストの一部とはみなされません。
 
-## Examples
+## <span>Examples</span>
 
 以下の例は**br**要素の正しい使い方を示しています。
 
-``` {.html}
+``` html
 <p>P. シャーマン<br>
 42 ワラビーウェイ<br>
 シドニー</p>
@@ -48,36 +49,34 @@ todo_broken_links:
 
 [View live example](http://code.webplatform.org/gist/7282007)
 
-## Usage
+## <span>Usage</span>
 
      br要素はコンテンツを持たない、タグ１つだけの”置換要素”です。classなどの属性を適用することはできますが、テキストを記述することはできません。
 
 **br**は置換要素としてブラウザ側で自動的に閉じられますが、スラッシュを付けて明示的に閉じることもできます。
 
-## Notes
+## <span>Notes</span>
 
 閉じタグは不要です。
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-br-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-br-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-BR)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -175,21 +174,53 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Text
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -200,8 +231,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -215,25 +244,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -278,4 +293,3 @@ Specification
 -   [strong](/html/elements/strong)
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
-

@@ -1,18 +1,16 @@
 ---
-title: css transforms
+title: Manipulating content with CSS3 transforms
+readiness: 'Ready to Use'
+summary: 'CSS transforms allow you to dynamically manipulate the space in which content elements appear. You can move them around on the screen, shrink or expand them, rotate them, or combine all these effects to produce complex movements.  By themselves, transforms produce static visual effects, but you can easily combine them with CSS transitions and keyframe animations to produce vibrant animated interfaces. This tutorial first introduces simple two-dimensional transforms, then shows you how to extend transforms into three-dimensional space.  It ends with step-by-step instructions on how to spin a cube in space.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'CSS transforms allow you to dynamically manipulate the space in which content elements appear. You can move them around on the screen, shrink or expand them, rotate them, or combine all these effects to produce complex movements.  By themselves, transforms produce static visual effects, but you can easily combine them with CSS transitions and keyframe animations to produce vibrant animated interfaces. This tutorial first introduces simple two-dimensional transforms, then shows you how to extend transforms into three-dimensional space.  It ends with step-by-step instructions on how to spin a cube in space.'
 uri: 'tutorials/css transforms'
 
 ---
-# Manipulating content with CSS3 transforms
-
 **By Mike Sierra**
 
-## Summary
+## <span>Summary</span>
 
 CSS transforms allow you to dynamically manipulate the space in which content elements appear. You can move them around on the screen, shrink or expand them, rotate them, or combine all these effects to produce complex movements. By themselves, transforms produce static visual effects, but you can easily combine them with CSS transitions and keyframe animations to produce vibrant animated interfaces. This tutorial first introduces simple two-dimensional transforms, then shows you how to extend transforms into three-dimensional space. It ends with step-by-step instructions on how to spin a cube in space.
 
@@ -42,7 +40,7 @@ These key points serve as reference:
 
 -   Setting [**transform-style**](/css/properties/transform-style) to **preserve-3d** on a 3D element renders any nested 3D elements within its own transformed space.
 
-## The transform property
+## <span>The transform property</span>
 
 Transforms alter a block element's coordinates in several ways so that they vary from where they would ordinarily appear. The [**transform**](/css/properties/transform) CSS property specifies a handful of transformation *functions* that can be combined any way you wish: [**translate()**](/css/functions/translate()), [**scale()**](/css/functions/scale()), [**rotate()**](/css/functions/rotate()), and [**skew()**](/css/functions/skew()). Here is how you specify a combination of most of the two-dimensional transforms discussed below, along with a view of how the effect renders relative to the element's default position:
 
@@ -53,7 +51,7 @@ Transforms alter a block element's coordinates in several ways so that they vary
        transform         : translate(50%, 10%) rotate(20deg) scale(0.75);
     }
 
-![transform combo.png](/assets/public/4/4b/transform_combo.png)
+![transform combo.png](//static.webplatformstaging.org/w/public/4/4b/transform_combo.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_2d_combo.html))
 
@@ -82,13 +80,13 @@ You can also apply transforms directly to an object from JavaScript. Here's an e
 
 Several different technologies such as SVG and the **canvas** element implement transforms, and are all conceptually similar despite slight differences in how they are implemented.
 
-## 2D transform functions
+## <span>2D transform functions</span>
 
 The following isolates how each 2D function works. The [**translate()**](/css/functions/translate()) function simply moves an element around on the screen, much the same as when using [**top**](/css/properties/top) and [**left**](/css/properties/left) to position an element. This example moves the card over to the right more than it moves it downward:
 
     transform: translate(50%, 10%);
 
-![transform translate.png](/assets/public/d/db/transform_translate.png)
+![transform translate.png](//static.webplatformstaging.org/w/public/d/db/transform_translate.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_2d_translate.html))
 
@@ -105,7 +103,7 @@ The [**scale()**](/css/functions/scale()) function sizes an element in decimal t
     transform: scale(0.75, 1.25);
     transform: scaleX(0.75) scaleY(1.25);
 
-![transform scale.png](/assets/public/2/20/transform_scale.png)
+![transform scale.png](//static.webplatformstaging.org/w/public/2/20/transform_scale.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_2d_scale.html))
 
@@ -115,7 +113,7 @@ The [**rotate()**](/css/functions/rotate()) function spins an element around its
     transform: rotate(380deg);  /*   360  + 20 */
     transform: rotate(-340deg); /* (-360) + 20 */
 
-![transform rotate.png](/assets/public/7/79/transform_rotate.png)
+![transform rotate.png](//static.webplatformstaging.org/w/public/7/79/transform_rotate.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_2d_rotate.html))
 
@@ -126,7 +124,7 @@ The [**skew()**](/css/functions/skew()) function leans an element over, altering
     transform: skew(10deg, -30deg);        /* 3rd */
     transform: skewX(10deg) skewY(-30deg); /* 3rd, alternate syntax */
 
-![transform skew.png](/assets/public/3/34/transform_skew.png)
+![transform skew.png](//static.webplatformstaging.org/w/public/3/34/transform_skew.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_2d_skew.html))
 
@@ -136,7 +134,7 @@ Skewing along both *x* and *y* makes the element appear to move into three-dimen
 
     transform: matrix(1, -0.577, 0.176, 1, 0, 0);
 
-## Changing the transform origin
+## <span>Changing the transform origin</span>
 
 By default, transforms *originate* from the center of the element, or 50% along both *x* and *y*. If you scale it down, it shrinks towards the center, or else you rotate it around its center point. The [**transform-origin**](/css/properties/transform-origin) property allows you to place this origin point elsewhere, even outside the element, changing how transforms respond, especially in animations. It accepts a pair of *x*/*y* measurements.
 
@@ -149,7 +147,7 @@ This shows a series of transforms that rotate around a point near the bottom rig
     div:nth-of-type(2) { transform : rotate(20deg) ; }
     div:nth-of-type(3) { transform : rotate(30deg) ; }
 
-![origin rotate.png](/assets/public/1/16/origin_rotate.png)
+![origin rotate.png](//static.webplatformstaging.org/w/public/1/16/origin_rotate.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_2d_origin_rotate.html))
 
@@ -160,7 +158,7 @@ In this example, placing the origin of a skew transform at the bottom makes it a
        transform-origin   : bottom;
     }
 
-![origin skew.png](/assets/public/6/60/origin_skew.png)
+![origin skew.png](//static.webplatformstaging.org/w/public/6/60/origin_skew.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_2d_origin_skew.html))
 
@@ -178,11 +176,11 @@ In the first of the following examples, placing the origin of a [**scaleX()**](/
        transform        : scale(0.5);
     }
 
-![origin scale.png](/assets/public/0/0f/origin_scale.png)
+![origin scale.png](//static.webplatformstaging.org/w/public/0/0f/origin_scale.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_2d_origin_scale.html))
 
-## You need some perspective
+## <span>You need some perspective</span>
 
 You really do. Though they often take on the illusion of three dimensions, 2D transforms are strictly superficial, inhabiting the plane of the display screen. Three dimensional transforms allow ordinary web content, which is still inherently flat, to shift onto other planes. But before applying the 3D transform functions discussed below, you need to position the scene relative to the viewer.
 
@@ -201,7 +199,7 @@ The first scene in the example below shows a 3D rotation that appears flat befor
         transform          : rotateY(45deg);
     }
 
-![transform perspective.png](/assets/public/f/fa/transform_perspective.png)
+![transform perspective.png](//static.webplatformstaging.org/w/public/f/fa/transform_perspective.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_3d_perspective.html))
 
@@ -225,7 +223,7 @@ Keep in mind several things to help understand how perspective corresponds to ho
 
 -   The [**perspective**](/css/properties/perspective) property doesn't allow negative values, so while you may start to simulate traveling around the scene by offsetting the [**perspective-origin**](/css/properties/perspective-origin) while reducing the [**perspective**](/css/properties/perspective) value, you can't actually get to the other side.
 
-## 3D transforms
+## <span>3D transforms</span>
 
 To extend into three-dimensional space, enhanced functions allow rotations around *x* and *y*, and translations into *z* space.
 
@@ -239,7 +237,7 @@ The [**scale3d()**](/css/functions/scale3d()) function accepts three *x*, *y* an
 
 The [**transform-origin**](/css/properties/transform-origin) property accepts an additional third **z** measurement to place the transformation point behind or in front of where the element displays, in absolute units. (Alternately, specify the [**transform-origin-z**](/css/properties/transform-origin-z) property.) This example shows a series of elements that rotate to various degrees from an origin point within the gray parent box that is far behind them:
 
-![3d originZ.png](/assets/public/4/4a/3d_originZ.png)
+![3d originZ.png](//static.webplatformstaging.org/w/public/4/4a/3d_originZ.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_3d_origin.html))
 
@@ -263,14 +261,14 @@ By default, elements that rotate away from view display as a mirror image. Chang
 
 This example shows a pair of child elements positioned at the same coordinates within the parent *card*, but one of which is rotated to face the other way. As described below, you can rotate the entire card along with its children. In this case, with the backface hidden, only one of the child *face* elements displays at a time:
 
-``` {.xml}
+```
  <div class="card">
    <div class="face" id="jackheart"></div>
    <div class="face"></div>
  </div>
 ```
 
- ![3d backface.png](/assets/public/b/b0/3d_backface.png)
+![3d backface.png](//static.webplatformstaging.org/w/public/b/b0/3d_backface.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_3d_backface.html))
 
@@ -309,13 +307,13 @@ While 2D transforms can be represented as a 6-element [**matrix()**](/css/functi
 
     transform: matrix3d(0.642, 0, 0.766, 0, 0, 1, 0, 0, -0.766, 0, 0.642, 0, 0, 0, 0, 1);
 
-## Nested 3D transforms
+## <span>Nested 3D transforms</span>
 
 Applying a 3D rotation to an element aligns it to a different plane than that of the viewing screen. Applying 3D translations and scale effects also overrides the default coordinate system. The [**transform-style**](/css/properties/transform-style) property allows you to transform nested content independently within that already modified space.
 
 To clarify how to use this feature, this extended example builds a cube representing playing dice that can spin freely. The markup is implemented as a series of nested elements:
 
-``` {.xml}
+```
  <div class="scene">
      <div class="dice">
          <div class="centered">
@@ -330,7 +328,7 @@ To clarify how to use this feature, this extended example builds a cube represen
  </div>
 ```
 
- Global styles define absolutely positioned 100-pixel-square boxes. The outlines will help clarify each nested transform:
+Global styles define absolutely positioned 100-pixel-square boxes. The outlines will help clarify each nested transform:
 
     div {
         box-sizing     : border-box;
@@ -349,7 +347,7 @@ The outermost *scene* element defines the overall perspective:
         outline-color : pink;
     }
 
-![3Dnest scene.png](/assets/public/8/80/3Dnest_scene.png)
+![3Dnest scene.png](//static.webplatformstaging.org/w/public/8/80/3Dnest_scene.png)
 
 The next *dice* element is rotated arbitrarily:
 
@@ -359,7 +357,7 @@ The next *dice* element is rotated arbitrarily:
         outline-color   : lightgreen;
     }
 
-![3Dnest dice.png](/assets/public/1/18/3Dnest_dice.png)
+![3Dnest dice.png](//static.webplatformstaging.org/w/public/1/18/3Dnest_dice.png)
 
 The **preserve-3d** above renders any child element's transforms in three dimensions relative to the *dice* element's own transformed space. Otherwise the default **flat** value would make them appear on the *dice* element's surface as if on a display screen.
 
@@ -371,7 +369,7 @@ In this case, the nested *centered* element is there simply as a convenience to 
         outline-color   : gold;
     }
 
-![3Dnest centered.png](/assets/public/e/ee/3Dnest_centered.png)
+![3Dnest centered.png](//static.webplatformstaging.org/w/public/e/ee/3Dnest_centered.png)
 
 Various properties define the dice's edges with rounded corners, along with the small dot images that will be arranged to form a pattern on each face. Only one dot displays in the first face's pattern, and the rest are pushed outside the displaying area:
 
@@ -389,7 +387,7 @@ Various properties define the dice's edges with rounded corners, along with the 
                              -20px -20px, -20px -20px, -20px -20px;
     }
 
-![3Dnest face1.png](/assets/public/4/49/3Dnest_face1.png)
+![3Dnest face1.png](//static.webplatformstaging.org/w/public/4/49/3Dnest_face1.png)
 
 The next four faces use [**transform-origin**](/css/properties/transform-origin) to pivot outward at right angles along each edge of the first face:
 
@@ -418,7 +416,7 @@ The next four faces use [**transform-origin**](/css/properties/transform-origin)
                               70px 10px, 40px 40px, 70px 70px;
     }
 
-![3Dnest face5.png](/assets/public/d/d9/3Dnest_face5.png)
+![3Dnest face5.png](//static.webplatformstaging.org/w/public/d/d9/3Dnest_face5.png)
 
 Note that all the backfaces are visible, and only become hidden when other opaque boxes appear in front of them.
 
@@ -431,7 +429,7 @@ The sixth face simply uses **translateZ()** to drop it back to close off the cub
                               70px 10px, 70px 40px, 70px 70px;
     }
 
-![3Dnest face6.png](/assets/public/b/b7/3Dnest_face6.png)
+![3Dnest face6.png](//static.webplatformstaging.org/w/public/b/b7/3Dnest_face6.png)
 
 Applying different rotations to the *dice* element causes nested transform spaces to render relative to it, thus spinning the entire object. Here is how a script can control the spin:
 
@@ -442,17 +440,17 @@ Applying different rotations to the *dice* element causes nested transform space
 
     function spin() { return( Math.floor( Math.random() * 360 ) + 'deg') }
 
-![3Dnest spin.png](/assets/public/2/2e/3Dnest_spin.png)
+![3Dnest spin.png](//static.webplatformstaging.org/w/public/2/2e/3Dnest_spin.png)
 
 Once such a complex 3D object takes up space, the effect of the [**scaleZ()**](/css/functions/scaleZ()) or [**scale3d()**](/css/functions/scale3d()) functions becomes apparent. An animated transition between **scale3d(0,0,0)** and **scale3d(1,1,1)** sizes the object in all three dimensions:
 
-![scaleZ.png](/assets/public/a/a1/scaleZ.png)
+![scaleZ.png](//static.webplatformstaging.org/w/public/a/a1/scaleZ.png)
 
 ([View live sample](http://letmespellitoutforyou.com/samples/trans_3d_nest.html))
 
 While there are limits to what you can accomplish when transforming flat web content, this technique of building 3D shapes such as cubes may form the basis of simple virtual reality scenes, such as the following (suitable for a mobile browser) that pans to view the surface of Mars:
 
-![mars.png](/assets/public/2/2a/mars.png)
+![mars.png](//static.webplatformstaging.org/w/public/2/2a/mars.png)
 
 View the sample to see how the viewer is positioned within the display elements:
 
@@ -460,7 +458,6 @@ View the sample to see how the viewer is positioned within the display elements:
 
 This example places an element randomly within a coordinate space, and rotates it to face the path to travel there. When viewed on WebKit nightly builds that support custom CSS filters, something amusing happens along the way. (As of this writing, Canary requires the *Enable CSS Shaders* flag enabled under **chrome://flags**)
 
-![custom filter random path.png](/assets/public/f/f7/custom_filter_random_path.png)
+![custom filter random path.png](//static.webplatformstaging.org/w/public/f/f7/custom_filter_random_path.png)
 
 ([View sample here](http://letmespellitoutforyou.com/samples/custom_path.html))
-

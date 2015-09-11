@@ -1,75 +1,74 @@
 ---
 title: replaceState
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'General clean-up'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/History
+    href: /dom/History
+standardization_status: 'W3C Working Draft'
+summary: 'Overwrites the current history record with a new record.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'General clean-up'
-summary: 'Overwrites the current history record with a new record.'
 uri: dom/History/replaceState
 
 ---
-# replaceState
-
-## Summary
+## <span>Summary</span>
 
 Overwrites the current history record with a new record.
 
-*Method of [dom/History](/dom/History)*
+Method of [dom/History](/dom/History)[dom/History](/dom/History)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  history.replaceState(statedata, title, url);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### statedata
+### <span>statedata</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The data to update.
 
-### title
+### <span>title</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The data title to update.
 
-### url
+### <span>url</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-*(Optional)*
+(Optional)
 
 The data URL to update.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 In the following example, a user stored a preference where they want to go straight to the User Account page when they go to the homepage of the website. The code checks for such preference and replaces the URL shown by the browser accordingly and shows a User Account page (albeit minimal). This way, there will be no history record for the original homepage of the website, only for the User Account page.
 
-``` {.js}
+``` js
 if (localStorage["first-page"] === "account") {
  window.history.replaceState({"page": "account", "User Account", "/account"});
  document.body.innerHTML = "<h1>User Account</h1>";
 }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

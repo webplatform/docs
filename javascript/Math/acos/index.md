@@ -1,35 +1,37 @@
 ---
 title: acos
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w1ah75x5(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the arc cosine (or inverse cosine) of a number.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the arc cosine (or inverse cosine) of a number.'
 uri: javascript/Math/acos
 
 ---
-# acos
-
-## Summary
+## <span>Summary</span>
 
 Returns the arc cosine (or inverse cosine) of a number.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Math.acos( number )
 
 **number**
 :   Required. The required number argument is a numeric expression.
 
-## Return Value
+## <span>Return Value</span>
 
 The arc cosine of the number argument, in radians.
 
-## Examples
+## <span>Examples</span>
 
 The following code shows how to use the **acos** function.
 
-``` {.js}
+``` js
 var v1 = Math.acos(-1.0);
  var v2 = Math.cos(-1.0);
 
@@ -42,13 +44,13 @@ var v1 = Math.acos(-1.0);
  // 0.5403023058681398
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Math.asin Function](/javascript/Math/asin)
 -   [Math.atan Function](/javascript/Math/atan)
@@ -56,10 +58,4 @@ var v1 = Math.acos(-1.0);
 -   [Math.sin Function](/javascript/Math/sin)
 -   [Math.tan Function](/javascript/Math/tan)
 -   [Math Object](/javascript/Math)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w1ah75x5(v=vs.94).aspx)
 

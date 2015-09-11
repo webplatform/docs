@@ -1,57 +1,59 @@
 ---
 title: accelerator
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, values, specifications, compatibility.'
+readiness: 'In Progress'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Add summery, values, specifications, compatibility.'
 uri: 'css/media queries/accelerator'
 
 ---
-# accelerator
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **-ms-accelerator** attribute in a **u** element to specify that the `N` in the **label** element is a keyboard shortcut. When the option to "Hide keyboard navigation indicators until I use the Alt key" is enabled in the user's Display Properties, the `N` is not underlined until the user presses the ALT key. When ALT+N is pressed, the **input** element that defines an [**accessKey**](/html/attributes/accessKey) attribute value of 'N' receives the focus.
 
-    <LABEL FOR="oName"><U STYLE="ACCELERATOR:true">N</U>ame: </LABEL>
-    <INPUT TYPE="text"
-        ID="oName"
-        SIZE="25"
-        ACCESSKEY="N"
-        VALUE="Your name here">
+``` html
+<LABEL FOR="oName"><U STYLE="ACCELERATOR:true">N</U>ame: </LABEL>
+<INPUT TYPE="text"
+    ID="oName"
+    SIZE="25"
+    ACCESSKEY="N"
+    VALUE="Your name here">
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This property is supported by Windows 2000 and later, which enables users to hide navigation indicators for menu items and controls until the ALT key is pressed. An access key is a single character used as a keyboard shortcut for selecting an object. Press and hold the ALT key followed by the character to move input focus and invoke the default event associated with an object. Windows Internet Explorer 8. The **-ms-accelerator** attribute is an extension to CSS, and can be used as a synonym for **accelerator** in IE8 Standards mode.
 
-### Syntax
+### <span>Syntax</span>
 
 `-ms-accelerator: false | true`
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -91,9 +93,7 @@ This property is supported by Windows 2000 and later, which enables users to hi
 
 -   [behavior](/css/properties/behavior)
 
--   [Targeting styles with media queries](/tutorials/media_queries)
-
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -101,10 +101,3 @@ This property is supported by Windows 2000 and later, which enables users to hi
 -   `runtimeStyle`
 -   `style`
 -   `accessKey`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

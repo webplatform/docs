@@ -1,35 +1,42 @@
 ---
 title: name
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationEffect
+    href: /apis/web_animations/AnimationEffect
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /apis/web_animations/AnimationEffect
+standardization_status: 'W3C Editor''s Draft'
+summary: 'A string used to identify the effect.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'A string used to identify the effect.'
 uri: 'apis/web animations/AnimationEffect/name'
 
 ---
-# name
-
-## Summary
+## <span>Summary</span>
 
 A string used to identify the effect.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)</span></span>
+Property of [apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.name;
 element.name = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 **Needs Examples**: This section should include examples.
 

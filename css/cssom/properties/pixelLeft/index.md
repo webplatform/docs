@@ -1,51 +1,49 @@
 ---
 title: pixelLeft
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/properties
+    href: /css/cssom/properties
+summary: 'Reflects the value of the Cascading Style Sheets (CSS) left attribute.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Reflects the value of the Cascading Style Sheets (CSS) left attribute.'
 uri: css/cssom/properties/pixelLeft
 
 ---
-# pixelLeft
-
-## Summary
+## <span>Summary</span>
 
 Reflects the value of the Cascading Style Sheets (CSS) left attribute.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/properties](/css/cssom/properties)</span></span>
+Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.pixelLeft;
 element.pixelLeft = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **pixelLeft** property reflects the value of the Cascading Style Sheets (CSS) [**left**](/css/properties/left) attribute. Use the [**offsetLeft**](/dom/HTMLElement/offsetLeft) property to calculate actual positions within the document area. Unlike the [**left**](/css/properties/left) property, the **pixelLeft** value is an integer, not a string, and is always interpreted in pixels.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `runtimeStyle`
 -   `style`
 -   `posLeft`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

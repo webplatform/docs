@@ -1,13 +1,12 @@
 ---
-title: smarter svg animation
+title: SVG animation
+notes:
+  - 'Fix multiple broken links'
+readiness: 'In Progress'
+summary: 'This guide shows you how to animate SVG graphics using SMIL-based markup.  Along with core animation techniques, it shows how to morph shapes, move graphics along curved paths, animate complex filter effects, and control animations from JavaScript.'
 tags:
   - Tutorials
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Fix multiple broken links'
-summary: 'This guide shows you how to animate SVG graphics using SMIL-based markup.  Along with core animation techniques, it shows how to morph shapes, move graphics along curved paths, animate complex filter effects, and control animations from JavaScript.'
-uri: 'svg/tutorials/smarter svg animation'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -51,31 +50,30 @@ todo_broken_links:
     - svg/methods/endElement
     - svg/methods/beginElementAt
     - svg/methods/endElementAt
+uri: 'svg/tutorials/smarter svg animation'
 
 ---
-# SVG animation
-
 **By Mike Sierra**
 
-## Summary
+## <span>Summary</span>
 
 This guide shows you how to animate SVG graphics using SMIL-based markup. Along with core animation techniques, it shows how to morph shapes, move graphics along curved paths, animate complex filter effects, and control animations from JavaScript.
 
-## Introduction
+## <span>Introduction</span>
 
 Interfaces become more vibrant when you add animation effects. This guide focuses on SVG's built-in animation features, which derive from the SMIL web standard (*Synchronized Multimedia Integration Language*). As discussed in the [SVG grand tour](/svg/tutorials/smarter_svg_overview), many SVG attributes are actually implemented as CSS *properties*, and thus respond to CSS [transitions](/tutorials/css_transitions) and [keyframe animations](/tutorials/css_animations). The techniques described here offer a way to smoothly animate SVG *attributes*. You'll also learn how to dynamically modify those attribute values that can't be animated.
 
-## A simple animation
+## <span>A simple animation</span>
 
 Start with a simple SVG element that you'd like to animate:
 
-``` {.xml}
+``` xml
 <text x="0" y="100">An SVG Animation</text>
 ```
 
  Nest an [**animate**](/w/index.php?title=svg/elements/animate&action=edit&redlink=1) element such as the following:
 
-``` {.xml}
+``` xml
 <text x="0" y="100">
     An SVG Animation
     <animate
@@ -97,7 +95,7 @@ Each animation element can modify the value of only one attribute at a time, spe
 
 Instead of nesting the animation, you can also indirectly link the element you want to animate:
 
-``` {.xml}
+``` xml
 <defs>
 <animate xlink:href="#swipeText" id="swipe" attributeName="x"
          from="1000" to="0" begin="0s" dur="0.5s" />
@@ -107,11 +105,11 @@ Instead of nesting the animation, you can also indirectly link the element you w
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipe.svg)
 
-## Delaying an animation
+## <span>Delaying an animation</span>
 
 Increasing the [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) attribute's time value from **0s** to **1s** delays the animation:
 
-``` {.xml}
+``` xml
 <text x="1000" y="100">
     An SVG Animation
     <animate
@@ -132,11 +130,11 @@ Fixing that problem causes another problem, whose solution is also highlighted. 
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipeDelay.svg)
 
-## Sequences of frames
+## <span>Sequences of frames</span>
 
 The animation above swipes in, but then comes to an abrupt stop. This variation bounces the text a bit off the left wall:
 
-``` {.xml}
+``` xml
 <animate
     id            = "bounce"
     attributeName = "x"
@@ -156,7 +154,7 @@ By itself, the [**values**](/w/index.php?title=svg/attributes/values&action=edit
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipeFrames.svg)
 
-## Synchronizing animations
+## <span>Synchronizing animations</span>
 
 The example above manipulates a simple positioning attribute. Animations become far more interesting when applied to complex filter effects, which are discussed in [SVG Filters](/svg/tutorials/smarter_svg_filters). This variation synchronizes two different animations, swiping horizontally blurred text into view, then removing the blur once it has stopped:
 
@@ -164,7 +162,7 @@ The example above manipulates a simple positioning attribute. Animations become 
 
 It is based on the following filter:
 
-``` {.xml}
+``` xml
 <filter id="slidingBlur">
   <feOffset       id="slideEffect" dx="1000" dy="0" />
   <feGaussianBlur id="blurEffect" stdDeviation="20,1" />
@@ -173,7 +171,7 @@ It is based on the following filter:
 
  The [**feOffset**](/svg/elements/feOffset) effect's [**dx**](/w/index.php?title=svg/attributes/dx&action=edit&redlink=1) value reproduces the slide effect using the techniques discussed above, moving the element horizontally within the filtered region:
 
-``` {.xml}
+``` xml
 <animate
     id            = "slideAnim"
     attributeName = "dx"
@@ -190,7 +188,7 @@ It is based on the following filter:
 
  The [**feGaussianBlur**](/svg/elements/feGaussianBlur) effect's [**stdDeviation**](/w/index.php?title=svg/attributes/stdDeviation&action=edit&redlink=1) controls the degree of blur, which the animation reduces primarily along the *x* axis. But note its [**begin**](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1) attribute no longer specifies a time value. Instead, this animation begins whenever the previous one ends:
 
-``` {.xml}
+``` xml
 <animate
     id            = "blurAnim"
     attributeName = "stdDeviation"
@@ -215,7 +213,7 @@ To maintain long chains of animations, you can also use the **prev** shorthand k
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipeBlur.svg)
 
-## Morphing shapes
+## <span>Morphing shapes</span>
 
 The motion animation shown above animates a single value at a time, but the blur animation animates two, a pair of *x*/*y* coordinates. SVG also allows you to animate long series of coordinates that make up [**path**](/svg/elements/path) definitions, which are discussed in [SVG basic shapes and text](/svg/tutorials/smarter_svg_shapes). This results in curved morphing effects:
 
@@ -229,7 +227,7 @@ The motion animation shown above animates a single value at a time, but the blur
 
 For the animation to work, the [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) values, and any frames specified along the way in [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1), must feature the *exact* same number of path commands, all arranged in the same sequence. Only their numeric values may vary. This example shows a path consisting of one *M* positioning command and four *S* curve commands going through a series of eight frames:
 
-``` {.xml}
+``` xml
 <path id = "shape" d = "M 115,169 S 149,424 460,555 S 608,367 568,157
       S 438,108 174,57 S 97,90 115,169" >
 <animate attributeName = "d" begin = "0s" dur = "20s"
@@ -250,11 +248,11 @@ For the animation to work, the [**from**](/w/index.php?title=svg/attributes/from
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_morph.svg)
 
-## Setting the pace
+## <span>Setting the pace</span>
 
 This variation on the swipe animation doesn't bounce the text against the wall, but instead brings it to a more gradual stop:
 
-``` {.xml}
+``` xml
 <animate
     id            = "ease_in"
     attributeName = "x"
@@ -304,11 +302,11 @@ If [**calcMode**](/w/index.php?title=svg/attributes/calcMode&action=edit&redlink
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_swipeTimed.svg)
 
-## Repetition
+## <span>Repetition</span>
 
 The examples above all execute once, but this example uses [**repeatCount**](/w/index.php?title=svg/attributes/repeatCount&action=edit&redlink=1) to run an animation continuously. It modifies a more complex filter effect (explained in greater detail in [SVG Filters](/svg/tutorials/smarter_svg_filters)) that shines a light on a beveled surface:
 
-``` {.xml}
+``` xml
 <filter id="bevel" filterUnits="userSpaceOnUse">
   <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
   <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
@@ -327,7 +325,7 @@ The examples above all execute once, but this example uses [**repeatCount**](/w/
 
 One animation highlights different sides of the element by rotating the light source around it, using its [**azimuth**](/w/index.php?title=svg/attributes/azimuth&action=edit&redlink=1) attribute to modify direction. Its [**repeatCount**](/w/index.php?title=svg/attributes/repeatCount&action=edit&redlink=1) is set to **indefinite**, so after it proceeds from **0** to **360** degrees, it restarts invisibly at **0**:
 
-``` {.xml}
+``` xml
 <animate
     id            = "lightAngleAnim"
     attributeName = "azimuth"
@@ -342,7 +340,7 @@ One animation highlights different sides of the element by rotating the light so
 
  A second un-synchronized animation raises and lowers the rounded surface that makes the element appear beveled. Unlike the previous animation, the [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) values match, and the oscillation occurs within the intervening frames defined in the [**values**](/w/index.php?title=svg/attributes/values&action=edit&redlink=1) attribute. (Unlike [CSS keyframe animations](/tutorials/css_animations), SVG does not allow you to oscillate between the start and end values each time the animation repeats.)
 
-``` {.xml}
+``` xml
 <animate
     id            = "elevationAnim"
     attributeName = "surfaceScale"
@@ -383,11 +381,11 @@ Each animation defines a potentially expansive length of time, over which you ca
 
 Read on for information on how to trigger animations from JavaScript.
 
-## Building progressions
+## <span>Building progressions</span>
 
 In all of these examples, the [**from**](/w/index.php?title=svg/attributes/from&action=edit&redlink=1) and [**to**](/w/index.php?title=svg/attributes/to&action=edit&redlink=1) are fixed at specific values. Sometimes it's useful to build on a value that results from a previous animation. Here's an example that moves a piece across an checker board:
 
-``` {.xml}
+``` xml
 <rect id="board" x="0" y="0" width="800" height="800" stroke="#000" stroke-width="6" fill="url(#chessBoard)"/>
 <circle id="piece" fill="red" cx="150" cy="550" r="40"/>
 ```
@@ -398,7 +396,7 @@ In all of these examples, the [**from**](/w/index.php?title=svg/attributes/from&
 
 ![svga checkerEnd.png](/assets/thumb/a/a7/svga_checkerEnd.png/300px-svga_checkerEnd.png)
 
-``` {.xml}
+``` xml
 <animate
     id            = "moveRight"
     attributeName = "cx"
@@ -425,11 +423,11 @@ Notice also that the [**begin**](/w/index.php?title=svg/attributes/begin&action=
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_chess.svg)
 
-## Curved motions
+## <span>Curved motions</span>
 
 The example above moves the game piece in a straight line, but instead you can move it along the curve of a path. SVG provides an alternative [**animateMotion**](/w/index.php?title=svg/elements/animateMotion&action=edit&redlink=1) element, whose [**path**](/w/index.php?title=svg/attributes/path&action=edit&redlink=1) attribute specifies the movement of a graphic relative to its current position. The animation also links to the graphic that is to be moved along that path. This example moves the game piece along the highlighted series of arcs, *exactly* as shown. It relies on the *A* path command to define elliptical semicircle curves to destination points up and to the right.
 
-``` {.xml}
+``` xml
 <defs>
 <animateMotion
     id         = "animDiag"
@@ -452,7 +450,7 @@ The example above moves the game piece in a straight line, but instead you can m
 
 As an alternative, nesting an [**mpath**](/w/index.php?title=svg/elements/mpath&action=edit&redlink=1) element within the [**animateMotion**](/w/index.php?title=svg/elements/animateMotion&action=edit&redlink=1) makes the graphic travel along the contours of any referenced path, rather than relative to the current position. This example makes an icon travel continuously around an irregularly curved shape. The direction of movement depends on the sequence of path commands, in this case a counter-clockwise motion:
 
-``` {.xml}
+``` xml
 <defs>
 <animateMotion
     xlink:href  = "#icon"
@@ -488,7 +486,7 @@ To move text along a path, you need to return to the [**animate**](/w/index.php?
 
 ![svga motionText.png](/assets/public/5/5d/svga_motionText.png)
 
-``` {.xml}
+``` xml
 <defs>
 <animate
    xlink:href    = "#txtPath"
@@ -514,13 +512,13 @@ To move text along a path, you need to return to the [**animate**](/w/index.php?
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_motionText.svg)
 
-## Animating transforms
+## <span>Animating transforms</span>
 
 ![svga transform.png](/assets/thumb/2/2f/svga_transform.png/200px-svga_transform.png)
 
 Transforms specify not just a single value, but a combination of functional values. To animate them, use the specialized [**animateTransform**](/w/index.php?title=svg/elements/animateTransform&action=edit&redlink=1) element, which clarifies which transform function you want to animate. It works just like the [**animate**](/w/index.php?title=svg/elements/animate&action=edit&redlink=1) element, but the additional [**type**](/w/index.php?title=svg/attributes/type&action=edit&redlink=1) attribute specifies the transform function to be animated. This example moves a graphic diagonally:
 
-``` {.xml}
+``` xml
 <animateTransform
    attributeName = "transform"
    type          = "translate"
@@ -534,13 +532,13 @@ Transforms specify not just a single value, but a combination of functional valu
 
  The element to be animated must not specify other transforms. For example, if you want to animate the **rotate()** function shown on the left below, you need to place the accompanying **translate()** in a different element as shown on the right:
 
-``` {.xml}
+``` xml
 <g transform="translate(10,10) rotate(-90)">
   <use xlink:href="#tileSquare" />
 </g>
 ```
 
-``` {.xml}
+``` xml
 <g transform="translate(10,10)">
   <g id="pivot" transform="rotate(-90)">
     <use xlink:href="#tileSquare" />
@@ -550,13 +548,13 @@ Transforms specify not just a single value, but a combination of functional valu
 
 [View this animation](http://letmespellitoutforyou.com/samples/svg/anim_transform.svg) for an example of transforms within a pattern tile. As of this writing, animating transforms on entire patterns (using [**patternTransform**](/w/index.php?title=svg/attributes/patternTransform&action=edit&redlink=1)) does not work reliably in many browsers.
 
-## Color properties and other values
+## <span>Color properties and other values</span>
 
 To animate color values, SVG provides another specialized [**animateColor**](/w/index.php?title=svg/elements/animateColor&action=edit&redlink=1) element. In this example, its [**attributeType**](/w/index.php?title=svg/attributes/attributeType&action=edit&redlink=1) may help clarify that the animation is modifying a **CSS** property, rather than an **XML** attribute assumed as the default:
 
 ![svga color.png](/assets/thumb/6/6d/svga_color.png/200px-svga_color.png)
 
-``` {.xml}
+``` xml
 <animateColor
    attributeName = "fill"
    attributeType = "CSS"
@@ -572,7 +570,7 @@ To animate color values, SVG provides another specialized [**animateColor**](/w/
 
  However, note that SVG color values are implemented as CSS properties, which may be animated more easily using CSS-based animation techniques. For example, toggling classes might transition the skin color in the example above:
 
-``` {.css}
+``` css
 body {
     transition         : all 1s;
     -webkit-transition : all 1s;
@@ -586,7 +584,7 @@ body {
 
 Many SVG attributes and properties that specify arbitrary string values cannot be animated at all, but you can still dynamically modify them using the [**set**](/w/index.php?title=svg/elements/set&action=edit&redlink=1) shorthand element. It can be triggered like any animation, but executes immediately on any value. In this example, a [**tref**](/w/index.php?title=svg/elements/tref&action=edit&redlink=1) element draws in text from a *label1* object, which the [**set**](/w/index.php?title=svg/elements/set&action=edit&redlink=1) replaces with *label2* to display different text once a separate animation has completed:
 
-``` {.xml}
+``` xml
 <defs>
 <set
    attributeName = "xlink:href"
@@ -604,11 +602,11 @@ Many SVG attributes and properties that specify arbitrary string values cannot b
 
 [View these combined animations](http://letmespellitoutforyou.com/samples/svg/anim_color.svg)
 
-## Scripting animations
+## <span>Scripting animations</span>
 
 This guide shows various ways to control SVG animations, and suggests opportunities to pair them with CSS animations. To wrap up, this section shows how an application might control them with JavaScript. To play back an animation, call [**beginElement()**](/w/index.php?title=svg/methods/beginElement&action=edit&redlink=1) on the relevant animation element:
 
-``` {.js}
+``` js
 function play() {
     document.querySelector('animate').beginElement();
 }
@@ -620,7 +618,7 @@ Calling [**endElement()**](/w/index.php?title=svg/methods/endElement&action=edit
 
 SVG also provides a mechanism to pause and resume playback, but it applies to all animations that are currently running. The following toggles playback:
 
-``` {.js}
+``` js
 function pausePlayAll() {
     var root = document.querySelector('svg');
     root.animationsPaused()
@@ -631,11 +629,11 @@ function pausePlayAll() {
 
  Note that [**animationsPaused()**](/svg/methods/animationsPaused) is a method call just like [**pauseAnimations()**](/svg/methods/pauseAnimations) and [**unpauseAnimations()**](/svg/methods/unpauseAnimations), not a simple object property as you might expect.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -656,8 +654,6 @@ function pausePlayAll() {
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -685,7 +681,4 @@ function pausePlayAll() {
 
 -   [transition](/css/properties/transition)
 
--   **SVG animation**
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

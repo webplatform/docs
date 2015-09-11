@@ -1,20 +1,22 @@
 ---
 title: division assignment
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cfyydsaa(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Divides the value of a variable by the value of an expression and assigns the result to the variable.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Divides the value of a variable by the value of an expression and assigns the result to the variable.'
 uri: 'javascript/operators/division assignment'
 
 ---
-# division assignment
-
-## Summary
+## <span>Summary</span>
 
 Divides the value of a variable by the value of an expression and assigns the result to the variable.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result /= expression
 
@@ -24,27 +26,21 @@ Divides the value of a variable by the value of an expression and assigns the re
 **expression**
 :   Any numeric expression.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var x = 9;
 x /= 3;
 // result: x = 3
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Using the **/=** operator is the same as specifying: `result = result / expression`.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Division Operator (/)](/javascript/operators/division)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cfyydsaa(v=vs.94).aspx)
 

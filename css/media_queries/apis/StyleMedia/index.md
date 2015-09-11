@@ -1,47 +1,49 @@
 ---
 title: StyleMedia
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add syntax, example, description, specifications, compatibility.'
+readiness: 'Not Ready'
+summary: 'A CSS media related functionality and information.'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'Add syntax, example, description, specifications, compatibility.'
-summary: 'A CSS media related functionality and information.'
 uri: 'css/media queries/apis/StyleMedia'
 
 ---
-# StyleMedia
-
-## Summary
+## <span>Summary</span>
 
 A CSS media related functionality and information.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [type](/css/media_queries/apis/properties/type)
 :   Gets the media type of the object that displays the [Document](/dom/Document) object
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [matchMedium](/css/media_queries/apis/matchMedium)
 :   Indicates whether the document currently matches a media query.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -80,12 +82,3 @@ API Name
 -   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
 
 -   [behavior](/css/properties/behavior)
-
--   [Targeting styles with media queries](/tutorials/media_queries)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

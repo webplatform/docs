@@ -1,28 +1,30 @@
 ---
 title: break
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3fhdxafb(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Terminates the current loop or, if in conjunction with a label, terminates the associated statement.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Terminates the current loop or, if in conjunction with a label, terminates the associated statement.'
 uri: javascript/statements/break
 
 ---
-# break
-
-## Summary
+## <span>Summary</span>
 
 Terminates the current loop or, if in conjunction with a label, terminates the associated statement.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     break [ label ];
 
-## Examples
+## <span>Examples</span>
 
 In this example, the counter is set up to count from 1 to 99; however, the break statement terminates the loop after 14 counts.
 
-``` {.js}
+``` js
 for (var i = 1; i < 100; i++) {
      if (i == 15) {
          break;
@@ -36,7 +38,7 @@ for (var i = 1; i < 100; i++) {
 
 In the following code, the break statement refers to the for loop that is preceded by the `Inner:` statement. When `j` is equal to 24, the break statement causes the program flow to exit that loop. The numbers 21 through 23 print on each line.
 
-``` {.js}
+``` js
 Outer:
  for (var i = 1; i <= 10; i++) {
      document.write ("<br />");
@@ -64,7 +66,7 @@ Outer:
  // i: 10 j: 21 22 23
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The optional label argument specifies the label of the statement you are breaking from.
 
@@ -72,9 +74,9 @@ You typically use the break statement in switch statements and in while , for , 
 
 Executing the break statement exits from the current loop or statement, and begins script execution with the statement immediately following.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [continue Statement](/javascript/statements/continue)
 -   [do...while Statement](/javascript/statements/do_while)
@@ -82,10 +84,4 @@ Executing the break statement exits from the current loop or statement, and begi
 -   [for...in Statement](/javascript/statements/for_in)
 -   [Labeled Statement](/javascript/statements/Labeled)
 -   [while Statement](/javascript/statements/while)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/3fhdxafb(v=vs.94).aspx)
 

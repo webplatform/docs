@@ -1,43 +1,59 @@
 ---
 title: transition-timing-function
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Sets the pace of action within a transition'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://letmespellitoutforyou.com/samples/transit_delay.html'
   - 'http://letmespellitoutforyou.com/samples/transit_timing.html'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`ease`'
+  'Applies to': 'all elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: interactive
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`transitionTimingFunction`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Sets the pace of action within a transition'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/transition-timing-function
 
 ---
-# transition-timing-function
-
-## Summary
+## <span>Summary</span>
 
 Sets the pace of action within a transition
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `ease`
+
 Applies to
 :   all elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   interactive
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `transitionTimingFunction`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `transition-timing-function: cubic-bezier()`
 -   `transition-timing-function: steps()`
@@ -49,7 +65,7 @@ Percentages
 -   `transition-timing-function: step-end`
 -   `transition-timing-function: step-start`
 
-## Values
+## <span>Values</span>
 
 ease
 :   Default. Starts and stops gradually, equivalent to [**cubic-bezier(0.25,0.1,0.25,1)**](/css/functions/cubic-bezier)
@@ -78,11 +94,11 @@ step-start
 step-end
 :   The change occurs instantly at the end of the keyframe, equivalent to [**steps(1, end)**](/css/functions/steps).
 
-## Examples
+## <span>Examples</span>
 
 Default transition timing
 
-``` {.css}
+``` css
 transition-timing-function: ease;
 ```
 
@@ -90,7 +106,7 @@ transition-timing-function: ease;
 
 No easing behavior: animation starts and stops abruptly and proceeds at a constant rate.
 
-``` {.css}
+``` css
 transition-timing-function: linear;
 ```
 
@@ -98,27 +114,19 @@ transition-timing-function: linear;
 
 See how changing the timing value affects a sequence of two transitions
 
-``` {.other}
+```
+
 ```
 
 [View live example](http://letmespellitoutforyou.com/samples/transit_timing.html)
 
-## Usage
+## <span>Usage</span>
 
      Along with other transition properties, multiple values
 
 separated by commas apply to transitions in the same order as they are listed by the [**transition-property**](/css/properties/transition-property) property. Excess values are ignored. If there are fewer timing values than transitions, they're recycled in order of declaration until their numbers match.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

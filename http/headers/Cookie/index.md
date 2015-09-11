@@ -1,35 +1,37 @@
 ---
 title: Cookie
+notes:
+  - "* Details on when to use (or rather, when **not** to use) cookies\n Security concerns with using for authenticating users, background on CSRF"
+overview_table:
+  Direction: Request
+  Features: ''
+standardization_status: Mixed
+summary: "The Cookie headers may be used to receive the value of a cookie from a user agent. The value of the cookie will have been previously set though a script, or by the Set-Cookie header.\n"
 tags:
   - HTTP
   - Headers
-standardization_status: Mixed
-notes:
-  - "* Details on when to use (or rather, when **not** to use) cookies\n Security concerns with using for authenticating users, background on CSRF"
-summary: "The Cookie headers may be used to receive the value of a cookie from a user agent. The value of the cookie will have been previously set though a script, or by the Set-Cookie header.\n"
-uri: http/headers/Cookie
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - http/headers/Set-Cookie
+uri: http/headers/Cookie
 
 ---
-# Cookie
-
-## Summary
+## <span>Summary</span>
 
 The Cookie headers may be used to receive the value of a cookie from a user agent. The value of the cookie will have been previously set though a script, or by the Set-Cookie header.
 
 Cookies have many issues associated with them, including security and CSRF attacks, privacy issues, and a nonstandard format compared to other HTTP headers.
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Request
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     cookie-header = "Cookie:" OWS cookie-string OWS
     cookie-string = cookie-pair *( ";" SP cookie-pair )
@@ -41,18 +43,16 @@ Features
                            ; whitespace DQUOTE, comma, semicolon,
                            ; and backslash
 
-## Examples
+## <span>Examples</span>
 
 A user agent sending a cookie named "SID" with the value "31d4d96e407aad42".
 
-``` {.other}
+```
 Cookie: SID=31d4d96e407aad42
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTTP State Management Mechanism](http://tools.ietf.org/html/rfc6265)
 :
 

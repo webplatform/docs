@@ -1,48 +1,41 @@
 ---
 title: Position
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The container for the geolocation information returned by this API.'
 tags:
   0: API
   1: Objects
   3: Geolocation
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The container for the geolocation information returned by this API.'
 uri: apis/geolocation/Position
 
 ---
-# Position
-
-## Summary
+## <span>Summary</span>
 
 The container for the geolocation information returned by this API.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [coords](/apis/geolocation/Position/coords)
 :   Contains a set of geographic coordinates together with their associated accuracy, as well as a set of other optional attributes such as altitude and speed.
+
 [timestamp](/apis/geolocation/Position/timestamp)
 :   Represents the time when the Position object was acquired, represented as a *DOMTimeStamp*.
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

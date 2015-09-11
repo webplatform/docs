@@ -1,48 +1,62 @@
 ---
 title: grid-template-rows
+notes:
+  - 'Add description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'Grid containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified, except for "auto"'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: 'Specifies (with grid-template-columns) the line names and track sizing functions of the grid. Each sizing function can be specified as a length, a percentage of the grid container’s size, a measurement of the contents occupying the column or row, or a fraction of the free space in the grid.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Add description, compatibility.'
-summary: 'Specifies (with grid-template-columns) the line names and track sizing functions of the grid. Each sizing function can be specified as a length, a percentage of the grid container’s size, a measurement of the contents occupying the column or row, or a fraction of the free space in the grid.'
 uri: css/properties/grid-template-rows
 
 ---
-# grid-template-rows
-
-## Summary
+## <span>Summary</span>
 
 Specifies (with grid-template-columns) the line names and track sizing functions of the grid. Each sizing function can be specified as a length, a percentage of the grid container’s size, a measurement of the contents occupying the column or row, or a fraction of the free space in the grid.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   Grid containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified, except for "auto"
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `grid-template-rows: <track-list>`
 -   `grid-template-rows: none`
 -   `grid-template-rows: subgrid <line-name-list>`
 
-## Values
+## <span>Values</span>
 
 none
 :   Indicates that there is no explicit grid; any rows/columns will be implicitly generated, and their size will be determined by the grid-auto-rows and grid-auto-columns properties.
@@ -53,9 +67,9 @@ none
 subgrid \<line-name-list\>
 :   Indicates that the grid will align to its parent grid in that axis. Rather than specifying the sizes of rows/columns explicitly, they will be taken from the parent grid’s definition. If the grid container is not a grid item, this value computes to "none".
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 grid-template-rows: 1fr minmax(min-content, 1fr);
 /* Creates four grid lines:
 1. At the start edge of the grid container
@@ -68,10 +82,7 @@ grid-template-rows: 1fr minmax(min-content, 1fr);
 */
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft
-

@@ -1,20 +1,22 @@
 ---
 title: while
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6wsy66x9(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Executes a statement or series of statements while a specified condition is true.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Executes a statement or series of statements while a specified condition is true.'
 uri: javascript/statements/while
 
 ---
-# while
-
-## Summary
+## <span>Summary</span>
 
 Executes a statement or series of statements while a specified condition is true.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     while ( expression ) {
       statements
@@ -26,9 +28,9 @@ Executes a statement or series of statements while a specified condition is true
 **statements**
 :   Optional. One or more statements to be executed if expression is true.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var i = 0;
 
 while (i < 5) {
@@ -37,7 +39,7 @@ while (i < 5) {
 }
 ```
 
-``` {.js}
+``` js
 var i = 0;
 
 while (i < 100) {
@@ -50,7 +52,7 @@ while (i < 100) {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      The while statement checks the expression before a loop is first executed. If expression is false at this time, the loop is never executed.
 
@@ -58,9 +60,9 @@ The while statement keeps iterating until the conditional expression returns fal
 
 It's essential that the expression can become false or that that loop is terminated with the break statement to prevent an infinite loop.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [break Statement](/javascript/statements/break)
 -   [continue Statement](/javascript/statements/continue)
@@ -68,13 +70,7 @@ It's essential that the expression can become false or that that loop is termina
 -   [for Statement](/javascript/statements/for)
 -   [for...in Statement](/javascript/statements/for_in)
 
-### Specification
+### <span>Specification</span>
 
 -   [ECMAScript 5.1 (ECMA-262) - The while statement](http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/6wsy66x9(v=vs.94).aspx)
 

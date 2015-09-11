@@ -1,31 +1,31 @@
 ---
 title: @keyframes
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://03sq.net/examples/animation.html'
+  - 'http://03sq.net/examples/animation2.html'
+notes:
+  - "Empty \"Main Content\" section, see @import for notes for improvement. \nIn the summary, \"Keyframes\" is defined using itself, would reword and provide a working definition of \"Keyframes\" to the general public."
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: 'Sets the keyframes for the CSS animation property.'
 tags:
   - CSS
   - At
   - Rules
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - "Empty \"Main Content\" section, see @import for notes for improvement. \nIn the summary, \"Keyframes\" is defined using itself, would reword and provide a working definition of \"Keyframes\" to the general public."
-summary: 'Sets the keyframes for the CSS animation property.'
-code_samples:
-  - 'http://03sq.net/examples/animation.html'
-  - 'http://03sq.net/examples/animation2.html'
 uri: css/atrules/@keyframes
 
 ---
-# @keyframes
-
-## Summary
+## <span>Summary</span>
 
 Sets the keyframes for the CSS animation property.
 
-## Examples
+## <span>Examples</span>
 
 Example of prefixed/prefix-free @keyframes blocks
 
-``` {.css}
+``` css
 /* defining the animation */
 @keyframes fadeInAnimation {
     /* starting state */
@@ -48,7 +48,7 @@ div {
 
 Example of an unprefixed @keyframes block that uses percentages to control the keyframes more exactly.
 
-``` {.css}
+``` css
 @keyframes bounceFadeInAnimation {
     /* starting state (same as "from") */
     0% {
@@ -81,35 +81,33 @@ Example of an unprefixed @keyframes block that uses percentages to control the k
 
 [View live example](http://03sq.net/examples/animation2.html)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The version of this rule using a vendor prefix, **@-ms-keyframes**, has been deprecated. To ensure compatibility in the future, applications using this rule with a vendor prefix should be updated accordingly. This rule has no default value. This rule is used to specify property values at various points during an animation. The **@keyframes** rule specifies the property values during one cycle of an animation; the animation may iterate one or more times. This rule uses keyframe selectors to specify property values at various stages of the animation. Keyframe selectors can be declared as `from` (equivalent to `0%`), `to` (equivalent to `100%`), and one or more percentages. Keyframe selectors use keyframe descriptors to specify the properties and values being animated. If a property cannot be animated, the specification is ignored.
 
-### Syntax
+### <span>Syntax</span>
 
 `@keyframes  <identifier>  {  <keyframes_blocks>  };`
 
-### Parameters
+### <span>Parameters</span>
 
 *identifier*
 :   The name of the animation.
 *keyframes\_blocks*
 :   A set of keyframes blocks, each of which is composed of keyframe selectors.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Animations](http://www.w3.org/TR/css3-animations/#keyframes)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -130,8 +128,6 @@ Specification
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   **@keyframes**
 
@@ -159,11 +155,9 @@ Specification
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Syntax
+#### <span>Syntax</span>
 
 -   [@charset](/css/atrules/@charset)
 
@@ -185,19 +179,12 @@ Specification
 
 -   [!important](/css/syntax/!important)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [canIUse Compatibility Table](http://caniuse.com/#feat=css-animation)
 -   [MDN](https://developer.mozilla.org/en-US/docs/CSS/@keyframes)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `animationName`
 -   `css/properties/animation/animation`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

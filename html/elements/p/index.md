@@ -1,55 +1,59 @@
 ---
 title: p
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/p)'
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - "This looks empty. Maybe add details on how to write prose using em, strong, cite, etc.\nAdd Category, Parent and Children information. Complete Compatibility table."
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLParagraphElement](/dom/HTMLParagraphElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The p (for paragraph) element (&lt;p&gt;) represents a paragraph.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - "This looks empty. Maybe add details on how to write prose using em, strong, cite, etc.\nAdd Category, Parent and Children information. Complete Compatibility table."
-summary: 'The p (for paragraph) element (<p>) represents a paragraph.'
 uri: html/elements/p
 
 ---
-# p
+## <span>Summary</span>
 
-## Summary
+The p (for paragraph) element (&lt;p&gt;) represents a paragraph.
 
-The p (for paragraph) element (\<p\>) represents a paragraph.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLParagraphElement](/dom/HTMLParagraphElement)
 
 The **p** element cannot contain block-level elements (including p itself).
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **p** element to create a paragraph.
 
-``` {.html}
+``` html
 
 <p>The quick brown fox jumps over the lazy dog.</p>
+
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-p-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-p-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-P)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Document Structure
+#### <span>Document Structure</span>
 
 -   [button](/html/elements/button)
 
@@ -67,11 +71,9 @@ Specification
 
 -   [section](/html/elements/section)
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -169,15 +171,42 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-## Attribution
+-   [img](/html/elements/img)
 
-*This article contains content originally from external sources.*
+-   [input](/html/elements/input)
 
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/p)
+-   [ins](/html/elements/ins)
 
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
+-   [kbd](/html/elements/kbd)
 
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   **p**
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

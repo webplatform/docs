@@ -1,30 +1,30 @@
 ---
 title: time
+notes:
+  - 'Add compatibility, list valid values'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLTimeElement](/w/index.php?title=dom/HTMLTimeElement&action=edit&redlink=1)'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: "The time tag defines either a time (24 hour clock), or a date in the Gregorian calendar, optionally with a time and a time-zone offset. It does not render differently in any of the major browsers.\n"
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add compatibility, list valid values'
-summary: "The time tag defines either a time (24 hour clock), or a date in the Gregorian calendar, optionally with a time and a time-zone offset. It does not render differently in any of the major browsers.\n"
-uri: html/elements/time
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/HTMLTimeElement
+uri: html/elements/time
 
 ---
-# time
-
-## Summary
+## <span>Summary</span>
 
 The time tag defines either a time (24 hour clock), or a date in the Gregorian calendar, optionally with a time and a time-zone offset. It does not render differently in any of the major browsers.
 
 This element can be used as a way to encode dates and times in a machine-readable way so that, for example, user agents can offer to add birthday reminders or scheduled events to the user's calendar.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLTimeElement](/w/index.php?title=dom/HTMLTimeElement&action=edit&redlink=1)
@@ -33,12 +33,12 @@ The HTML time element (<time>) represents either time on a 24-hour clock or a pr
 
 This element is intended to be used presenting dates and times in a machine readable format. This can be helpful for user agents to offer any event scheduling for user's calendar.
 
-## Attributes
+## <span>Attributes</span>
 
 -   `datetime` = date or time
     Specifies the date or time that the element represents.
 
-## Validity
+## <span>Validity</span>
 
 The datetime value of a time element is the value of the element's datetime attribute, if it has one, or the element's textContent, if it does not.
 
@@ -60,9 +60,9 @@ The kind of content is limited to various kinds of dates, times, time-zone offse
     -   00:00
     -   See more details: [Datetime value](http://www.w3.org/TR/html5/the-time-element.html#datetime-value) at HTML5 specification.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <p>
 On <time datetime="1913-03-12">12 March 1913</time>, the city of Canberra
 was officially given its name by Lady Denman, the wife of Governor-General
@@ -70,24 +70,21 @@ Lord Denman.
 </p>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-time-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-time-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -185,11 +182,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### External resources
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   **time**
+
+### <span>External resources</span>
 
 -   [time page at the Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/HTML/HTML_Elements/time).
 

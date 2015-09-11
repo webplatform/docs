@@ -1,31 +1,40 @@
 ---
 title: autocomplete
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Update/improve example; update descriptions; fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The autocomplete attribute specifies whether a browser should automatically provide values for a form element.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Update/improve example; update descriptions; fix lists & compatibility info'
-summary: 'The autocomplete attribute specifies whether a browser should automatically provide values for a form element.'
-uri: html/attributes/autocomplete
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - html/elements/input/password
     - html/elements/input/text
+uri: html/attributes/autocomplete
 
 ---
-# autocomplete
-
-## Summary
+## <span>Summary</span>
 
 The autocomplete attribute specifies whether a browser should automatically provide values for a form element.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
+
+</td>
+</tr>
+</table>
 When autocomplete is on, the browser may automatically fill previously entered values, or match input [names](/html/attributes/name) with values the user has provided.
 
 For sensitive information or form content that is not repeated, autocomplete should be turned off so the user is forced to fill the field every time.
@@ -34,41 +43,37 @@ Autocomplete should also be turned off if the website provides its own mechanism
 
 Valid values for autocomplete are `on` or `off`. The attribute is not required.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **AUTOCOMPLETE** attribute to disable the AutoComplete feature.
 
-``` {.html}
+``` html
 <input type="password" autocomplete="off">
 ```
 
 The following example shows an HTML form with autocomplete on. One of the inputs ha autocomplete off.
 
-``` {.html}
+``` html
 <form action="submit.php" autocomplete="on">
-  First name:<input type="text" name="name">
-  Last name: <input type="text" name="surname">
-  E-mail: <input type="email" name="email" autocomplete="off">
+  First name:<input type="text" name="name"><br />
+  Last name: <input type="text" name="surname"><br />
+  E-mail: <input type="email" name="email" autocomplete="off"><br />
   <input type="submit">
 </form>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-form-autocomplete)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -166,25 +171,54 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Security
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Security</span>
 
 -   **autocomplete**
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `input type=password`
 -   `input type=text`
 -   `form`
 
 [html/elements/input/password](/w/index.php?title=html/elements/input/password&action=edit&redlink=1) [html/elements/input/text](/w/index.php?title=html/elements/input/text&action=edit&redlink=1) [html/elements/form](/html/elements/form)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

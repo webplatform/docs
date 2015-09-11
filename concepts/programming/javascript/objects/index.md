@@ -1,11 +1,13 @@
 ---
 title: objects
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects)'
+readiness: 'In Progress'
+summary: "JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is association between a name and a value. A value of property can be a function, which is then known as the object's method. In addition to objects that are predefined in the browser, you can define your own objects.\n"
 tags:
   - Tutorials
   - JavaScript
-readiness: 'In Progress'
-summary: "JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is association between a name and a value. A value of property can be a function, which is then known as the object's method. In addition to objects that are predefined in the browser, you can define your own objects.\n"
-uri: concepts/programming/javascript/objects
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -23,23 +25,22 @@ todo_broken_links:
     - 'concepts/programming/javascript/objects/js/objects/Object/defineSetter defineSetter'
     - concepts/programming/javascript/objects/js/operators/get
     - concepts/programming/javascript/objects/js/operators/set
+uri: concepts/programming/javascript/objects
 
 ---
-# objects
-
-## Summary
+## <span>Summary</span>
 
 JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is association between a name and a value. A value of property can be a function, which is then known as the object's method. In addition to objects that are predefined in the browser, you can define your own objects.
 
 This chapter describes how to use objects, properties, functions, and methods, and how to create your own objects.
 
-## Objects overview
+## <span>Objects overview</span>
 
 Objects in JavaScript, just as many other programming languages, can be compared to objects in real life. The concept of objects in JavaScript can be understood with real life, tangible objects.
 
 In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup for example. A cup is an object, with properties. A cup has a colour, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
 
-## Objects and properties
+## <span>Objects and properties</span>
 
 A JavaScript object has properties associated with it. A property of an object can be explained as variables that are attached to the object. Object properties are basically the same as ordinary JavaScript variables, except object properties are attached to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
 
@@ -97,11 +98,11 @@ So, the function call `showProps(myCar, "myCar")` would return the following:
     myCar.model = Mustang
     myCar.year = 1969
 
-## Object everything
+## <span>Object everything</span>
 
 In JavaScript, almost everything is an object. All primitive types except `null` and `undefined` are treated as objects. They can be assigned properties (assigned properties of some types are not persistent), and they have all characteristics of objects. Even simple functions are objects in JavaScript.
 
-## Enumerating all properties of an object
+## <span>Enumerating all properties of an object</span>
 
 Starting with ECMAScript 5, there are three native ways to list/traverse object properties:
 
@@ -127,7 +128,7 @@ In ECMAScript 5, there is no native way to list all properties of an object. How
 
 This can be useful to reveal "hidden" properties (properties in the prototype chain which are not accessible through the object, because another property has the same name earlier in the prototype chain). Listing accessible properties only can easily be done by removing duplicates in the array.
 
-## Creating new objects
+## <span>Creating new objects</span>
 
 JavaScript has a number of predefined objects. In addition, you can create your own objects. Starting in JavaScript 1.2, you can create an object using an object-literal. Alternatively, you can use a constructor function by calling the `new` operator on an existing function. Consider:
 
@@ -136,7 +137,7 @@ JavaScript has a number of predefined objects. In addition, you can create your 
 
 Both of these methods will get you a new object. Let's take a closer look at each of them.
 
-### Using object literals
+### <span>Using object literals</span>
 
 One way to create an object is to use object literals. Using object literals is sometimes referred to as creating objects with object-literal notation.
 
@@ -175,7 +176,7 @@ You can also use object literals to create arrays and regular expressions. See [
 
 In JavaScript 1.1 and earlier, you could not use object literals. You could create objects only using their constructor functions or using a function supplied by some other object for that purpose. See [Using a constructor function](http://docs.webplatform.org/wiki#Using_a_constructor_function).
 
-### Using a constructor function
+### <span>Using a constructor function</span>
 
 Alternatively, you can create an object with these two steps:
 
@@ -240,15 +241,15 @@ Note that you can always add a property to a previously defined object. For exam
 
 adds a property `color` to car1, and assigns it a value of "black." However, this does not affect any other objects. To add the new property to all objects of the same type, you have to add the property to the definition of the `car` object type.
 
-### Using the Object.create method
+### <span>Using the Object.create method</span>
 
 Objects can also be created using the `Object.create` method. This method can be very useful, because it allows you to choose the prototype object for the object you want to create, without having to define a constructor function. For more detailed information on the method and how to use it, see [Object.create method](/w/index.php?title=concepts/programming/javascript/objects/js/objects/Object/create&action=edit&redlink=1)
 
-### Inheritance
+### <span>Inheritance</span>
 
 All objects in JavaScript inherit from at least one other object. The object being inherited from is known as the prototype, and the inherited properties can be found in the `prototype` object of the constructor.
 
-### Indexing object properties
+### <span>Indexing object properties</span>
 
 In JavaScript 1.0, you can refer to a property of an object either by its property name or by its ordinal index. In JavaScript 1.1 and later, however, if you initially define a property by its name, you must always refer to it by its name, and if you initially define a property by an index, you must always refer to it by its index.
 
@@ -256,7 +257,7 @@ This restriction applies when you create an object and its properties with a con
 
 The exception to this rule is objects reflected from HTML, such as the `forms` array. You can always refer to objects in these arrays by either their ordinal number (based on where they appear in the document) or their name (if defined). For example, if the second `<FORM>` tag in a document has a `NAME` attribute of "myForm", you can refer to the form as `document.forms[1]` or `document.forms["myForm"]` or `document.myForm`.
 
-### Defining properties for an object type
+### <span>Defining properties for an object type</span>
 
 You can add a property to a previously defined object type by using the `prototype` property. This defines a property that is shared by all objects of the specified type, rather than by just one instance of the object. The following code adds a `color` property to all objects of type `car`, and then assigns a value to the `color` property of the object `car1`.
 
@@ -265,7 +266,7 @@ You can add a property to a previously defined object type by using the `prototy
 
 See the [`prototype` property](/w/index.php?title=concepts/programming/javascript/objects/js/objects/Function/prototype&action=edit&redlink=1) of the `Function` object in the JavaScript Reference for more information.
 
-### Defining methods
+### <span>Defining methods</span>
 
 A *method* is a function associated with an object, or, simply put, a method is a property of an object that is a function. Methods are defined the way normal functions are defined, except that they have to be assigned as the property of an object. Examples are:
 
@@ -318,7 +319,7 @@ This produces the output shown in the following figure.
 
 <small>**Figure 7.1: Displaying method output.**</small>
 
-### Using this for object references
+### <span>Using `this` for object references</span>
 
 JavaScript has a special keyword, `this`, that you can use within a method to refer to the current object. For example, suppose you have a function called `validate` that validates an object's `value` property, given the object and the high and low values:
 
@@ -359,11 +360,11 @@ These statements use the getter and setter in a `Date` object:
     js> print(now);
     Wed Apr 18 11:13:25 GMT-0700 (Pacific Daylight Time) 2001
 
-#### Obsolete syntaxes
+#### <span>Obsolete syntaxes</span>
 
 In the past, JavaScript supported several other syntaxes for defining getters and setters. None of these syntaxes were supported by other engines, and support has been removed in recent versions of JavaScript. See [this dissection of the removed syntaxes](http://whereswalden.com/2010/04/16/more-spidermonkey-changes-ancient-esoteric-very-rarely-used-syntax-for-creating-getters-and-setters-is-being-removed/) for further details on what was removed and how to adapt to those removals.
 
-#### Summary
+#### <span>Summary</span>
 
 In principle, getters and setters can be either
 
@@ -389,7 +390,7 @@ Prior to Firefox 3.0, getter and setter are not supported for DOM Elements. Olde
 
 With Firefox 3.0, defining getter or setter on an already-defined property will throw an exception. The property must be deleted beforehand, which is not the case for older versions of Firefox.
 
-### Deleting properties
+### <span>Deleting properties</span>
 
 You can remove a property by using the `delete` operator. The following code shows how to remove a property.
 
@@ -412,23 +413,16 @@ See `[/guides/JavaScript/Expressions#delete|delete]]` for more information.
 
 }}
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   `__defineGetter__`
 -   `/js/objects/Object/defineSetter __defineSetter__`
 -   `get`
 -   `set`
 
-### External resources
+### <span>External resources</span>
 
 -   [ECMAScript 5.1 spec: Language Overview](http://es5.github.com/#x4.2)
 -   [JavaScript. The core. (Dmitry A. Soshnikov ECMA-262 article series)](http://dmitrysoshnikov.com/ecmascript/javascript-the-core)
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects)
-

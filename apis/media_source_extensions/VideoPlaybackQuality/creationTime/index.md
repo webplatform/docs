@@ -1,35 +1,42 @@
 ---
 title: creationTime
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/media_source_extensions/VideoPlaybackQuality
+    href: /apis/media_source_extensions/VideoPlaybackQuality
+  return:
+    predicate: 'Returns an object of type '
+    value: VARIANT
+    href: /apis/media_source_extensions/VideoPlaybackQuality
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Gets the timestamp for when the VideoPlaybackQuality metrics were collected.'
 tags:
   - API
   - Object
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Gets the timestamp for when the VideoPlaybackQuality metrics were collected.'
 uri: 'apis/media source extensions/VideoPlaybackQuality/creationTime'
 
 ---
-# creationTime
-
-## Summary
+## <span>Summary</span>
 
 Gets the timestamp for when the VideoPlaybackQuality metrics were collected.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)</span></span>
+Property of [apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)[apis/media\_source\_extensions/VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var time = VideoPlaybackQuality.creationTime;
 VideoPlaybackQuality.creationTime = time;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">VARIANT</span></span>
+Returns an object of type VARIANTVARIANT
 
 Type: DOMHighResTimeStamp The timestamp for when the quality metrics were collected.
 

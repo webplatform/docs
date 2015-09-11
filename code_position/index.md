@@ -1,17 +1,15 @@
 ---
-title: ode position
+title: code position
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: 'code position'
 
 ---
-# code position
-
-## code position
+## <span>code position</span>
 
 The decimal or hexadecimal location of a character's bit encoding (number) within its character set.
 

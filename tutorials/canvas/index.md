@@ -1,19 +1,17 @@
 ---
-title: canvas
+title: Canvas Tutorials
+notes:
+  - 'Needs links to other existing tutorials'
+readiness: 'Almost Ready'
+summary: 'Index of tutorials related to canvas.'
 tags:
   - Basic
   - Pages
   - Canvas
-readiness: 'Almost Ready'
-notes:
-  - 'Needs links to other existing tutorials'
-summary: 'Index of tutorials related to canvas.'
 uri: tutorials/canvas
 
 ---
-# Canvas Tutorials
-
-## Summary
+## <span>Summary</span>
 
 Index of tutorials related to canvas.
 
@@ -24,4 +22,3 @@ Index of tutorials related to canvas.
 [No tears guide to HTML5 game development (using canvas)](/tutorials/canvas_notearsgame)
 
 [Canvas Text Effects](/tutorials/canvas_texteffects)
-

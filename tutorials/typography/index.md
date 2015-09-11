@@ -1,15 +1,13 @@
 ---
 title: typography
-tags:
-  - Tutorials
 readiness: 'Ready to Use'
 summary: 'This page contains links to typography-related tutorials.'
+tags:
+  - Tutorials
 uri: tutorials/typography
 
 ---
-# typography
-
-## Summary
+## <span>Summary</span>
 
 This page contains links to typography-related tutorials.
 

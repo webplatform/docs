@@ -1,20 +1,22 @@
 ---
 title: apply
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4zc42wh1(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.'
 uri: javascript/Function/apply
 
 ---
-# apply
-
-## Summary
+## <span>Summary</span>
 
 Calls the function, substituting the specified object for the this value of the function, and the specified array for the arguments of the function.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     apply([ thisObj [, argArray ]])
 
@@ -24,11 +26,11 @@ Calls the function, substituting the specified object for the this value of the 
 **argArray**
 :   Optional. A set of arguments to be passed to the function.
 
-## Examples
+## <span>Examples</span>
 
 The following code shows how to use the apply method.
 
-``` {.js}
+``` js
 function callMe(arg1, arg2){
      var s = "";
 
@@ -60,21 +62,15 @@ function callMe(arg1, arg2){
  // arguments: 5
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 If argArray is not a valid object, then an "Object expected" error occurs.
 
 If neither argArray nor thisObj are supplied, the original this object is used as thisObj and no arguments are passed.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Function Object](/javascript/Function)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4zc42wh1(v=vs.94).aspx)
 

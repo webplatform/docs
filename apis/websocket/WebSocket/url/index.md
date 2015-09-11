@@ -1,35 +1,45 @@
 ---
 title: url
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket)'
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/websocket/WebSocket
+    href: /apis/websocket/WebSocket
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/websocket/WebSocket
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The absolute URL as resolved by the constructor.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebSocket
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The absolute URL as resolved by the constructor.'
 uri: apis/websocket/WebSocket/url
 
 ---
-# url
-
-## Summary
+## <span>Summary</span>
 
 The absolute URL as resolved by the constructor.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/websocket/WebSocket](/apis/websocket/WebSocket)</span></span>
+Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.url;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The URL specifies the following details about the connection.
 
@@ -38,32 +48,21 @@ The URL specifies the following details about the connection.
 -   Port ― This specifies the remote port to connect to. If the port is not specified then a default is selected based on the scheme. "ws" connections default to port 80, while "wss" connections default to 443.
 -   Resource Name ― The resource name is the path component of the URL which follows the host/port. This includes the URL query component (the part following a question mark), if one is present. The resource name can be omitted, in which case it defaults to a forward slash "/".
 
-## Examples
+## <span>Examples</span>
 
 Example URLs
 
-``` {.js}
+``` js
 scheme://host:port/resource
 ws://localhost:8080/echo
 wss://cjihrig.com
 ```
 
-## Notes
+## <span>Notes</span>
 
 You can use this property to make sure that the URL that is used for the connection is parsed the way the app expects.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/WebSocket)
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

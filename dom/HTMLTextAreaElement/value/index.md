@@ -1,44 +1,51 @@
 ---
 title: value
+notes:
+  - 'Just a final review is probably needed.'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLTextAreaElement
+    href: /dom/HTMLTextAreaElement
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/HTMLTextAreaElement
+standardization_status: 'W3C Recommendation'
+summary: 'Gets the content of a &lt;textarea&gt; element.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Just a final review is probably needed.'
-summary: 'Gets the content of a <textarea> element.'
 uri: dom/HTMLTextAreaElement/value
 
 ---
-# value
+## <span>Summary</span>
 
-## Summary
+Gets the content of a &lt;textarea&gt; element.
 
-Gets the content of a \<textarea\> element.
+Property of [dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)[dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)</span></span>
+## <span>Syntax</span>
 
-## Syntax
-
-``` {.js}
+``` js
 var textAreaContent = textAreaElement.value;
 textAreaElement.value = newTextAreaContent;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The content of the element, whether entered, existing or otherwise visible.
 
-## Examples
+## <span>Examples</span>
 
 The following code uses this property to log the content of a `<textarea>` and its length.
 
-``` {.js}
+``` js
 // Declaring the used variables first.
 var textAreaList, textArea;
 
@@ -62,36 +69,35 @@ if (textAreaList.length) {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use this property to get the content of <textarea>.
 
-## Notes
+## <span>Notes</span>
 
 In JavaScript/ECMAScript, the [length](/javascript/String/length) property of this property can be used to determine the codepoint length of the content.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Document Object Model (DOM) Level 1](http://www.w3.org/TR/REC-DOM-Level-1/level-one-html.html#ID-70715579)
 :   W3C Recommendation
+
 [Document Object Model (DOM) Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-70715579)
 :   W3C Recommendation
+
 [W3C HTML5](http://www.w3.org/TR/html/forms.html#dom-textarea-value)
 :   W3C Candidate Recommendation
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#dom-textarea-value)
 :   Living Standard
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -189,7 +195,42 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

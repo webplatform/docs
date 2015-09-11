@@ -1,37 +1,44 @@
 ---
 title: iceState
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+  return:
+    predicate: 'Returns an object of type '
+    value: RTCIceState
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the ICE state of the ICE agent.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Returns the ICE state of the ICE agent.'
 uri: apis/webrtc/RTCPeerConnection/iceState
 
 ---
-# iceState
-
-## Summary
+## <span>Summary</span>
 
 Returns the ICE state of the ICE agent.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)</span></span>
+Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.iceState;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">RTCIceState</span></span>
+Returns an object of type RTCIceStateRTCIceState
 
 The RTCIceState enum has the following values:
 
@@ -45,7 +52,7 @@ The RTCIceState enum has the following values:
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      An example transition might look like this:
 
@@ -58,7 +65,7 @@ The RTCIceState enum has the following values:
 -   (any state, ICE restart occurs): Starting
 -   close(): Closed
 
-## Notes
+## <span>Notes</span>
 
 States take either the value of any component or all components, as outlined here:
 
@@ -68,4 +75,3 @@ States take either the value of any component or all components, as outlined her
 -   `failed` occurs if ANY component has given up trying to connect.
 -   `disconnected` occurs if ANY component has failed liveness checks.
 -   `closed` occurs only if PeerConnection.close() has been called.
-

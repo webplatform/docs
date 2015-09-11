@@ -1,60 +1,71 @@
 ---
 title: id
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/id.htm'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The id attribute is used for identifying elements in a document.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'The id attribute is used for identifying elements in a document.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/id.htm'
 uri: html/attributes/id
 
 ---
-# id
-
-## Summary
+## <span>Summary</span>
 
 The id attribute is used for identifying elements in a document.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-## Examples
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example gets the **ID** attribute of each cell of a table. When the user clicks a cell, the object of the cell is passed to a function which returns the object's ID.
 
-    <script>
-    function getID(oObject)
-    {
-        var id = oObject.id;
-        alert("This object's ID attribute is set to \"" + id + "\".");
-    }
-    </script>
-    <table border="">
-        <tr>
-            <td id="firstCell" onclick="getID(this);">Table Cell 1</td>
-            <td id="secondCell" onclick="getID(this);">Table Cell 2</td>
-            <td id="thirdCell" onclick="getID(this);">Table Cell 3</td>
-        </tr>
-    </table>
+``` html
+<script>
+function getID(oObject)
+{
+    var id = oObject.id;
+    alert("This object's ID attribute is set to \"" + id + "\".");
+}
+</script>
+<table border="">
+    <tr>
+        <td id="firstCell" onclick="getID(this);">Table Cell 1</td>
+        <td id="secondCell" onclick="getID(this);">Table Cell 2</td>
+        <td id="thirdCell" onclick="getID(this);">Table Cell 3</td>
+    </tr>
+</table>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/id.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **id** is an SGML identifier used as the target for hypertext links or for naming particular objects in associated style sheets. The **id** should be unique throughout the scope of the current document. If a document contains more than one object with the same identifier, the objects are exposed as a collection that can be referenced only in ordinal position. In versions earlier than Microsoft Internet Explorer 5, this property is read-only.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `style`
 -   `a`
@@ -164,10 +175,3 @@ The **id** is an SGML identifier used as the target for hypertext links or for n
 -   `wbr`
 -   `xml`
 -   `xmp`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

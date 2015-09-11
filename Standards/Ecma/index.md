@@ -5,14 +5,14 @@ uri: Standards/Ecma
 ---
 Ecma International focuses on information and communication systems. Its primary Web standard is EcmaScript, which defines JavaScript.
 
-**Website:** [http://www.ecma-international.org/](http://www.ecma-international.org/)
+**Website:** <http://www.ecma-international.org/>
 
-## Organizational Structure
+## <span>Organizational Structure</span>
 
-### Funding
+### <span>Funding</span>
 
-## Communications
+## <span>Communications</span>
 
-## Process
+## <span>Process</span>
 
-## Patent Policy
+## <span>Patent Policy</span>

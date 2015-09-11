@@ -1,54 +1,57 @@
 ---
 title: MediaSource
-tags:
-  - API
-  - Objects
+attributions:
+  - 'Microsoft Developer Network.'
+code_samples:
+  - 'http://gist.github.com/9144919/'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Represents a source of media data (audio or video) for a media element.'
-code_samples:
-  - 'http://gist.github.com/9144919/'
+tags:
+  - API
+  - Objects
 uri: 'apis/media source extensions/MediaSource'
 
 ---
-# MediaSource
-
-## Summary
+## <span>Summary</span>
 
 Represents a source of media data (audio or video) for a media element.
 
-## Overview
+## <span>Overview</span>
 
 Provides a buffer based source for a media object. The app creates a MediaSource object and adds it to the media (audio or video) object as a source for the src object. SourceBuffers are then added to the MediaSource object and media content is then appended to the buffers to provide streaming or multi-source playback.
 
 `var mediaSource = new MediaSource();`
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [addSourceBuffer](/apis/media_source_extensions/MediaSource/addSourceBuffer)
 :   Creates a new SourceBuffer and adds it to the SourceBuffers property of the MediaSource.
+
 [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
 :   Appends the specified media segment to the SourceBuffer.
+
 [endOfStream](/apis/media_source_extensions/MediaSource/endOfStream)
 :   Used to indicate that the end of the stream has been reached.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 This example creates a new MediaSource object and adds it to a video object. It then adds a sourceBuffer and calls to start loading content.
 
 The live sample only runs on a browser that support the W3C syntax and MP4 files.
 
-``` {.js}
+``` js
 // Create mediaSource and initialize video
 function setupVideo() {
   //  Create the media source
@@ -77,26 +80,22 @@ function setupVideo() {
 
 [View live example](http://code.webplatform.org/gist/9144919/)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Media Source Extensions](http://www.w3.org/TR/media-source/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multimedia
+#### <span>Multimedia</span>
 
 -   [Track ended](/apis/MediaStream/ended)
 
 -   **MediaSource**
 
 -   [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
-
--   [VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
@@ -111,12 +110,6 @@ Specification
 -   [img](/html/elements/img)
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network.
 
  }
 

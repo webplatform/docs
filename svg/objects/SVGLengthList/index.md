@@ -1,74 +1,81 @@
 ---
 title: SVGLengthList
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: SVGElement
+    href: /svg/objects/SVGElement
+standardization_status: Unknown
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Not Ready'
-standardization_status: Unknown
-notes:
-  - 'Unreviewed MSDN import'
 uri: svg/objects/SVGLengthList
 
 ---
-# SVGLengthList
+Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
-
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGElement
+## <span>Inherited from SVGElement</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 The following code example declares the **SVGLengthList** object as read-only and identifies the appropriate exceptions to raise.
 
-    interface SVGLengthList {
-      readonly attribute unsigned long numberOfItems;
-      void clear() raises(DOMException);
-      SVGLength initialize(in SVGLength newItem) raises(DOMException);
-      SVGLength getItem(in unsigned long index) raises(DOMException);
-      SVGLength insertItemBefore(in SVGLength newItem, in unsigned long index) raises(DOMException);
-      SVGLength replaceItem(in SVGLength newItem, in unsigned long index) raises(DOMException);
-      SVGLength removeItem(in unsigned long index) raises(DOMException);
-      SVGLength appendItem(in SVGLength newItem) raises(DOMException);
-    };
+``` html
+interface SVGLengthList {
+  readonly attribute unsigned long numberOfItems;
+  void clear() raises(DOMException);
+  SVGLength initialize(in SVGLength newItem) raises(DOMException);
+  SVGLength getItem(in unsigned long index) raises(DOMException);
+  SVGLength insertItemBefore(in SVGLength newItem, in unsigned long index) raises(DOMException);
+  SVGLength replaceItem(in SVGLength newItem, in unsigned long index) raises(DOMException);
+  SVGLength removeItem(in unsigned long index) raises(DOMException);
+  SVGLength appendItem(in SVGLength newItem) raises(DOMException);
+};
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 You can designate an **SVGLengthList** object as read-only, so that any attempts to modify the object cause a **NoModificationAllowedError** exception that is defined during initialization.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.13
 
-### Members
+### <span>Members</span>
 
 The **SVGLengthList** object has these methods:
 
@@ -83,10 +90,3 @@ The **SVGLengthList** object has these methods:
 The **SVGLengthList** object has these properties:
 
 -   [**numberOfItems**](/svg/properties/numberOfItems): Gets or sets the number of items in a list.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

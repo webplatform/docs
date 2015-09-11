@@ -1,7 +1,7 @@
 ---
-title: ko
+title: tutorials
+lang: ko
 summary: '캐스캐이딩 스타일시트 (CSS)는 마크업 콘텐츠(예: HTML, SVG, XML 등)을 꾸미는-스타일을 적용하는- 언어이다. 이 문서는 CSS를 학습하거나 고급 CSS 기법에 입문하려는 분들 모두에게 적합한 자습서 목록들로 구성된다.'
-uri: css/tutorials/ko
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -65,22 +65,32 @@ todo_broken_links:
     - css/tutorials/zh-hant
     - css/tutorials/zh-tw
     - concepts/css-images
+uri: css/tutorials/ko
 
 ---
-## Summary
+## <span>Summary</span>
 
 캐스캐이딩 스타일시트 (CSS)는 마크업 콘텐츠(예: HTML, SVG, XML 등)을 꾸미는-스타일을 적용하는- 언어이다. 이 문서는 CSS를 학습하거나 고급 CSS 기법에 입문하려는 분들 모두에게 적합한 자습서 목록들로 구성된다.
 
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **언어:**
-:   **[English](/css/tutorials)**  • <span lang="ko">**한국어**</span>
 
-## CSS 시작하기
+</th>
+<td class="mbox-text">
+**[English](/css/tutorials)**  • <span lang="ko">**한국어**</span>
+
+</td>
+</tr>
+</table>
+## <span>CSS 시작하기</span>
 
 -   [CSS 소개](/tutorials/learning_what_css_is)
 -   [CSS를 사용한는 이유?](/tutorials/learning_why_we_use_css)
 -   [CSS 시작하기](/guides/getting_started_with_css)
 
-## CSS 기초
+## <span>CSS 기초</span>
 
 -   [선택자 사용하기](/tutorials/using_selectors)
 -   [고급 선택자 가이드](/guides/advanced_selectors_guide)
@@ -89,14 +99,14 @@ todo_broken_links:
 -   [CSS 디버깅](/tutorials/debugging_css)
 -   [CSS 이미지](/w/index.php?title=concepts/css-images&action=edit&redlink=1)
 
-## 글꼴과 글자 사용하기
+## <span>글꼴과 글자 사용하기</span>
 
 -   [Text styling fundamentals](/guides/css_text_styling_fundamentals)
 -   [CSS text quick start](/tutorials/css_text_quick_start)
 -   [Advanced CSS text styling](/guides/advanced_css_text_styling)
 -   [Using specific list styles](/tutorials/using_specific_list_styles)
 
-## Graphics
+## <span>Graphics</span>
 
 -   [CSS 배경이미지 사용하기](/tutorials/using_css_background_images)
 -   [CSS 그라디언트](/tutorials/creating_gradients_in_css)
@@ -105,7 +115,7 @@ todo_broken_links:
 -   [CSS 필터 효과 이해하기](/tutorials/css_filters)
 -   [다단 배경이미지 사용하기](/tutorials/using_css_multiple_background)
 
-## CSS 레이아웃
+## <span>CSS 레이아웃</span>
 
 -   [CSS 레이아웃 모델: 외곽선, 박스, 마진, 패딩](/guides/the_css_layout_model)
 -   [CSS 박스 모델](/tutorials/box_model)
@@ -115,19 +125,19 @@ todo_broken_links:
 -   [절대, 고정 위치](/tutorials/absolute_and_fixed_positioning)
 -   [CSS 범위](/tutorials/css-regions)
 
-## CSS 모범 사례
+## <span>CSS 모범 사례</span>
 
 -   [CSS 가독성 높히기](/tutorials/making_css_easier_to_read)
 -   [CSS 최적화](/tutorials/optimizing_css)
 -   [CSS 상태](/tutorials/state_in_css)
 
-## CSS 변형과 애니메이션
+## <span>CSS 변형과 애니메이션</span>
 
 -   [CSS3 트랜스폼](/tutorials/css_transforms)
 -   [CSS3 트랜지션](/tutorials/css_transitions)
 -   [CSS3 애니메이션](/tutorials/css_animations)
 
-## CSS 고급 기법
+## <span>CSS 고급 기법</span>
 
 -   [CSS로 만든 콘텐츠](/tutorials/generated_content)
 -   [CSS를 JavaScript로 조작하기](/tutorials/manipulating_css_with_javascript)
@@ -135,14 +145,14 @@ todo_broken_links:
 -   [CSS로 XML를 꾸미기](/tutorials/styling_xml_with_css)
 -   [변경된 객체를 꾸미기](/tutorials/object_fit)
 
-## 스타일 적용 예제
+## <span>스타일 적용 예제</span>
 
 -   [목록과 링크 꾸미기](/tutorials/styling_lists_and_links)
 -   [표(테이블) 꾸미기](/guides/styling_tables)
 -   [표(테이블) 꾸미기2](/tutorials/table_styling_basics)
 -   [입력양식(폼) 꾸미기](/guides/styling_forms_guide)
 
-## 모바일과 기기를 위한 CSS
+## <span>모바일과 기기를 위한 CSS</span>
 
 -   [다양한 미디어 형식을 위한 CSS](/tutorials/targetting_css_at_different_media)
 -   [CSS 미디어 쿼리](/tutorials/media_queries)

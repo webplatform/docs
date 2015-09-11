@@ -1,47 +1,61 @@
 ---
 title: border-spacing
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6948537'
+notes:
+  - 'Add example, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0`'
+  'Applies to': 'Table and inline-table elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'Two absolute lengths'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderSpacing`'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'Specifies the distance between the borders of adjacent cells.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add example, compatibility.'
-summary: 'Specifies the distance between the borders of adjacent cells.'
-code_samples:
-  - 'http://gist.github.com/6948537'
 uri: css/properties/border-spacing
 
 ---
-# border-spacing
-
-## Summary
+## <span>Summary</span>
 
 Specifies the distance between the borders of adjacent cells.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
+
 Applies to
 :   Table and inline-table elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   Two absolute lengths
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderSpacing`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-spacing: inherit`
 -   `border-spacing: length`
 
-## Values
+## <span>Values</span>
 
 length
 :   The distance that separates adjoining cell borders. If one length is specified, it gives both the horizontal and vertical spacing. If two are specified, the first gives the horizontal spacing and the second the vertical spacing. Lengths may not be negative.
@@ -49,28 +63,31 @@ length
 inherit
 :   The same specified value as the property for the element's parent will be used.
 
-## Examples
+## <span>Examples</span>
+
+``` html
+
+```
 
 [View live example](http://code.webplatform.org/gist/6948537)
 
-## Notes
+## <span>Notes</span>
 
 -   The CSS2.1 specification states that user agents may apply this property to frameset elements (therefore replacing the framespacing attribute).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1, 17.6.1. The separated borders model](http://www.w3.org/TR/CSS2/tables.html#propdef-border-spacing)
 :   Recommendation
+
 [CSS 3, 8.1. The separated borders model](http://dev.w3.org/csswg/css3-tables/#border-spacing)
 :   Editor's Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Tables
+#### <span>Tables</span>
 
 -   [border-collapse](/css/properties/border-collapse)
 
@@ -95,10 +112,3 @@ Specification
 -   [tfoot](/html/elements/tfoot)
 
 -   [th](/html/elements/th)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

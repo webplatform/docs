@@ -1,49 +1,58 @@
 ---
 title: requestAnimationFrame
+attributions:
+  - 'Microsoft Developer Network: [[requestAnimationFrame](http://msdn.microsoft.com/en-us/library/ie/hh773174(v=vs.85).aspx) Article]'
+notes:
+  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces.'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Number
+    href: /dom/Window
+standardization_status: Mixed
+summary: 'A method to invoke at the optimal time a callback to update the frame of an animation.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-standardization_status: Mixed
-notes:
-  - 'Not part of user_timing, resource_timing, or navigation_timing interfaces.'
-summary: 'A method to invoke at the optimal time a callback to update the frame of an animation.'
 uri: dom/Window/requestAnimationFrame
 
 ---
-# requestAnimationFrame
-
-## Summary
+## <span>Summary</span>
 
 A method to invoke at the optimal time a callback to update the frame of an animation.
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var handle = window.requestAnimationFrame(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### callback
+### <span>callback</span>
 
- Data-typeÂ
+ Data-type
 :   function
 
  The animation code to be run when the system is ready.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Number.
+Returns an object of type NumberNumber
 
 A handle or ID to the animationFrame request that can be used to cancel the request if needed.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -92,20 +101,11 @@ div { position: absolute; left: 10px; top:100px; padding: 50px;
 </body></html>
 ```
 
-## Notes
+## <span>Notes</span>
 
 Unlike older animation techniques based on [**setTimeout**](/dom/Window/setTimeout) and [**setInterval**](/dom/Window/setInterval) methods, **requestAnimationFrame** based animation occurs when the system is ready. This leads to smoother animations and less power consumption than animations because **requestAnimationFrame** takes the visibility of the web application and the refresh rate of the display into account, The **requestAnimationFrame** method creates only a single animation request. To create continous animation, a new request must be registered for each frame. To cancel an animation request before the animation function is called back, use [**cancelAnimationFrame**](/dom/Window/cancelAnimationFrame).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Timing control for script-based animations](http://www.w3.org/TR/animation-timing/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[requestAnimationFrame](http://msdn.microsoft.com/en-us/library/ie/hh773174(v=vs.85).aspx) Article]
-

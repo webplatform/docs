@@ -1,6 +1,5 @@
 ---
-title: ain Page
-uri: 'Main Page'
+title: Welcome to Web Platform Docs
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -53,56 +52,86 @@ todo_broken_links:
     - 'Main Page/vi'
     - 'Main Page/yue'
     - 'Main Page/zh-tw'
+translations:
+  de:
+    text: Deutsch
+    href: /Main_Page/de
+  es:
+    text: español
+    href: /Main_Page/es
+  fr:
+    text: français
+    href: /Main_Page/fr
+  ja:
+    text: 日本語
+    href: /Main_Page/ja
+  ko:
+    text: 한국어
+    href: /Main_Page/ko
+  nl:
+    text: Nederlands
+    href: /Main_Page/nl
+  pt-br:
+    text: 'português do Brasil'
+    href: /Main_Page/pt-br
+  tr:
+    text: Türkçe
+    href: /Main_Page/tr
+  zh:
+    text: 中文
+    href: /Main_Page/zh
+  zh-hans:
+    text: 中文（简体）‎
+    href: /Main_Page/zh-hans
+  zh-hant:
+    text: 中文（繁體）‎
+    href: /Main_Page/zh-hant
+uri: 'Main Page'
 
 ---
-# Welcome to Web Platform Docs
-
-## Summary
+## <span>Summary</span>
 
 Web Platform Docs is a community-driven site that aims to become a comprehensive and authoritative source for web developer documentation.
 
-**Language:**
-:   ****English****  • <span lang="de">[Deutsch](/Main_Page/de)</span> • <span lang="es">[español](/Main_Page/es)</span> • <span lang="fr">[français](/Main_Page/fr)</span> • <span lang="ja">[日本語](/Main_Page/ja)</span> • <span lang="ko">[한국어](/Main_Page/ko)</span> • <span lang="nl">[Nederlands](/Main_Page/nl)</span> • <span lang="pt-br">[português do Brasil](/Main_Page/pt-br)</span> • <span lang="tr">[Türkçe](/Main_Page/tr)</span> • <span lang="zh">[中文](/Main_Page/zh)</span> • <span lang="zh-hans">[中文（简体）‎](/Main_Page/zh-hans)</span> • <span lang="zh-hant">[中文（繁體）‎](/Main_Page/zh-hant)</span>
+## <span>Explore our web development docs</span>
 
-## Explore our web development docs
-
-### Beginners guide
+### <span>[Beginners guide](/beginners)</span>
 
 Introductory materials for those new to web development.
 
-### General web concepts
+### <span>[General web concepts](/concepts)</span>
 
 Conceptual and tutorial articles on topics such as how the web works, information architecture, typography, and web design.
 
-### HTML
+### <span>[HTML](/html)</span>
 
 Conceptual, tutorial, and reference materials for the main markup language of the web.
 
-### CSS
+### <span>[CSS](/css)</span>
 
 Conceptual, tutorial, and reference materials for Cascading style sheets (CSS).
 
-### Accessibility
+### <span>[Accessibility](/concepts/accessibility)</span>
 
 Patterns, practices and business cases for making the web work for people with a diverse range of abilities.
 
-### JavaScript
+### <span>[JavaScript](/javascript)</span>
 
 Tutorial and reference materials for JavaScript, the web's client-side scripting language; Includes reference materials for 3rd party JavaScript libraries.
 
-### DOM
+### <span>[DOM](/dom)</span>
 
 Tutorial and reference materials for the Document Object Model (DOM) events and methods.
 
-### SVG
+### <span>[SVG](/svg)</span>
 
 Tutorial and reference materials for Scalable Vector Graphics (SVG), an XML markup language for describing two-dimensional vector graphics.
 
-### APIs
+### <span>[APIs](/apis)</span>
 
 Reference materials for JavaScript APIs from appcache to xhr.
 
-## Web Platform Docs features
+## <span>Web Platform Docs features</span>
 
 Web Platform Docs is still in alpha, but you can already find lots of valuable content on the site, including:
 
@@ -112,14 +141,14 @@ Web Platform Docs is still in alpha, but you can already find lots of valuable c
 
 In the future, Web Platform Docs will include even more content for you to explore: live code examples, educators' resources and much more. To get there faster, we’d like to invite you to join us, and contribute your knowledge.
 
-## Contribute to Web Platform Docs
+## <span>Contribute to Web Platform Docs</span>
 
 We’d love to have your help in improving Web Platform Docs. Even the slightest effort can have significant impact on the site; from alerting fellow developers about errors in our documentation, to fixing these errors, porting existing articles or even contributing completely new content. To learn more, please read our [Contributor’s Guide](/WPD:Contributors_Guide).
 
 -   To file bugs on WebPlatform, use the [Project Management page](https://project.webplatform.org). Read our [filing bugs page](https://docs.webplatform.org/wiki/WPD:Filing_Bugs) for more information.
 -   If you have a question about *webplatform.org*, please [look for an answer in the FAQ first](/WPD:FAQ).
 
-## Stay in touch
+## <span>Stay in touch</span>
 
 -   Chat with other editors in IRC: we're on irc.freenode.org, the *\#webplatform* channel
 -   Read our [blog](https://blog.webplatform.org/)
@@ -127,6 +156,6 @@ We’d love to have your help in improving Web Platform Docs. Even the slightest
 -   Remix our [logo](https://www.webplatform.org/logo) and link back to our site
 -   Come to our [Events](/WPD:Community/Community_Events) like Doc Sprints.
 
-## Site Policies
+## <span>Site Policies</span>
 
 The content on the Web Platform Docs wiki is available under a [Creative Commons Attribution (CC-BY) license](/Template:CC-by-3.0), except where otherwise noted. For more details on our site policies, see our [copyright](/WPD:Copyright) and [privacy](/WPD:Privacy) policies, as well as our general [policy page](/WPD:Policy).

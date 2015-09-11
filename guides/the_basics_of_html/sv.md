@@ -1,10 +1,10 @@
 ---
-title: sv
+title: Grunderna i HTML
+lang: sv
+summary: 'I denna artikel kommer du lära dig grunderna i HTML för att få en uppfattning om strukturen och innehållet av ett HTML dokument.'
 tags:
   - Guides
   - HTML
-summary: 'I denna artikel kommer du lära dig grunderna i HTML för att få en uppfattning om strukturen och innehållet av ett HTML dokument.'
-uri: 'guides/the basics of html/sv'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -64,19 +64,28 @@ todo_broken_links:
     - 'guides/the basics of html/zh-hans'
     - 'guides/the basics of html/zh-hant'
     - 'guides/the basics of html/zh-tw'
+translations:
+  es:
+    text: español
+    href: /guides/the_basics_of_html/es
+  ja:
+    text: 日本語
+    href: /guides/the_basics_of_html/ja
+  ko:
+    text: 한국어
+    href: /guides/the_basics_of_html/ko
+uri: 'guides/the basics of html/sv'
 
 ---
-# Grunderna i HTML
-
-## Summary
+## <span>Summary</span>
 
 I denna artikel kommer du lära dig grunderna i HTML för att få en uppfattning om strukturen och innehållet av ett HTML dokument.
 
-## Introduktion
+## <span>Introduktion</span>
 
 Denna artikel sammanfattar avsikten och strukturen av HTML på hög nivå. Den kommer bland annat att ta upp hur element fungerar samt vad de olika karaktärerna fyller för funktion i språket. Artiklarna som nedan följer kommer ge dig en detaljrik djupdykning i specifika delar av språket HTML.
 
-## Vad HTML är
+## <span>Vad HTML är</span>
 
 De flesta program som du använder vanligtvis på skrivbordet använder speciella filformat. Ett exempel, Microsoft Word använder ".doc" filer och Microsoft Excel använder ".xls". Dessa filer innehåller den information som programmet behöver för att åter visa dokumenten när du öppnar dem. Filen innehåller bland annat all information du lagt in, dess "metadata" och datumet dokumentet senast redigerades.
 
@@ -84,11 +93,11 @@ HTML ("Hypertext Markup Language") är ett så kallat sidbeskrivningsspråk. Det
 
 En användaragent är en mjukvara som används för att åtkomma hemsidor å användarens vägnar. Det är viktigt att påpeka—alla typer av webbläsare för skrivbordet (Internet Explorer, Opera, Firefox, Safari, Chrome osv.) samt webbläsare för andra enheter (såsom Wii Internet Channel och mobila webbläsare som Opera Mini och WebKit för iPhone) är användaragenter, men alla användaragenter är inte webbläsarmjukvara. De automatiserade program som Google och Yahoo! använder för att indexera webben för sina sökmotorer är också användaragenter, men ingen människa kontrollerar dem.
 
-## Hur HTML ser ut
+## <span>Hur HTML ser ut</span>
 
 HTML är helt enkelt bara en representativ text med innehåll och dess innebörd. Till exempel:
 
-``` {.html}
+``` html
 <p id="exempel">Detta är en paragraf.</p>
 ```
 
@@ -96,11 +105,11 @@ HTML är helt enkelt bara en representativ text med innehåll och dess innebörd
 
 I de flesta webbläsare finns en "Visa sidkälla", eller liknande, alternativ. Detta hittar du vanligtvis i "View" menyn. Testa denna funktion - gå till en sida du gillar, använd detta verktyg, och spendera lite tid och skumma igenom den HTML kod som uppgör strukturen för sidan.
 
-## Strukturen av ett HTML dokument
+## <span>Strukturen av ett HTML dokument</span>
 
 Ett typiskt exempel av ett HTML dokument ser ut såhär:
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="sv">
     <head>
@@ -120,7 +129,4 @@ Ett typiskt exempel av ett HTML dokument ser ut såhär:
 Början av dokumentet har ett dokumenttyp element, kallat doctype. Denna deklaration i dokumentet gör så att webbläsare renderar HTML i vad som kallas "standardläge", så att det fungerar korrekt. Den hjälper även validerings verktyg att se vilken version av HTML de skall validera emot. Oroa dig inte över vad allt detta har för mening för tillfället. Vi återkommer till det här senare. Det vi använder här är dokumenttypen HTML5.
 
 Efter detta, så kan du se starttaggen till `html` elementet. Denna fungerar som en wrapper runt hela dokumentet. Sluttaggen till `html` elementet är det sista som skall finnas i varje HTML dokument. Elementet bär alltid ha ett `lang`-attribut. Detta anger det primära språket för sidan. Till exempel, `sv` betyder "Svenska", `en` betyder "Engelska". Det finns verktyg som hjälper dig hitta rätt språkkod, såsom Richard Ishidas [Language Subtag Lookup tool](http://rishida.net/utils/subtags/).
-
-**Språk:**
-:   **[English](/guides/the_basics_of_html)**  • <span lang="es">[español](/guides/the_basics_of_html/es)</span> • <span lang="ja">[日本語](/guides/the_basics_of_html/ja)</span> • <span lang="ko">[한국어](/guides/the_basics_of_html/ko)</span> • <span lang="sv">**svenska**</span>
 

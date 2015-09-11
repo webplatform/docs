@@ -1,43 +1,53 @@
 ---
 title: removeAllRanges
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.removeAllRanges](https://developer.mozilla.org/en-US/docs/Web/API/Selection.removeAllRanges) Article]'
+  - 'Microsoft Developer Network: [[removeAllRanges Method](http://msdn.microsoft.com/en-us/library/ie/ff975178(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Selection
+    href: /dom/Selection
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Number
+    href: /dom/Selection
+standardization_status: 'W3C Working Draft'
+summary: 'Removes all ranges from a selection.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Removes all ranges from a selection.'
 uri: dom/Selection/removeAllRanges
 
 ---
-# removeAllRanges
-
-## Summary
+## <span>Summary</span>
 
 Removes all ranges from a selection.
 
-*Method of [dom/Selection](/dom/Selection)*
+Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = selObj.removeAllRanges();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Number.
+Returns an object of type NumberNumber
 
 Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## Examples
+## <span>Examples</span>
 
 This example uses **removeAllRanges** to clear a selection from text or elements.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
     <head>
@@ -61,25 +71,16 @@ This example uses **removeAllRanges** to clear a selection from text or elements
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **removeAllRanges** can remove invisible carets or insertion points that result when the **Collapse** method is applied to a selection.
 
-### Syntax
+### <span>Syntax</span>
 
 selObj.removeAllRanges();
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.removeAllRanges](https://developer.mozilla.org/en-US/docs/Web/API/Selection.removeAllRanges) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[removeAllRanges Method](http://msdn.microsoft.com/en-us/library/ie/ff975178(v=vs.85).aspx) Article]
-

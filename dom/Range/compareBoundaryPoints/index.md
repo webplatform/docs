@@ -1,35 +1,45 @@
 ---
 title: compareBoundaryPoints
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.compareBoundaryPoints](https://developer.mozilla.org/en-US/docs/Web/API/Range.compareBoundaryPoints) Article]'
+  - 'Microsoft Developer Network: [[compareBoundaryPoints Method](http://msdn.microsoft.com/en-us/library/ie/ff975440(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Range
+    href: /dom/Range
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Number
+    href: /dom/Range
+standardization_status: 'W3C Recommendation'
+summary: 'The Range.compareBoundaryPoints() method compares the boundary points of the Range with another one.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The Range.compareBoundaryPoints() method compares the boundary points of the Range with another one.'
 uri: dom/Range/compareBoundaryPoints
 
 ---
-# compareBoundaryPoints
-
-## Summary
+## <span>Summary</span>
 
 The Range.compareBoundaryPoints() method compares the boundary points of the Range with another one.
 
-*Method of [dom/Range](/dom/Range)*
+Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var boundaryComparison = range.compareBoundaryPoints(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### how
+### <span>how</span>
 
- Data-typeÂ
+ Data-type
 :   unsigned short
 
  Specifies how *sourceRange* is compared to the range of the object on which **compareBoundaryPoints** is invoked.
@@ -44,22 +54,22 @@ Must be one of -
 
 \`Range.START\_TO\_START\` (0) compares the start boundary-point of sourceRange to the start boundary-point of Range.
 
-### sourceRange
+### <span>sourceRange</span>
 
- Data-typeÂ
+ Data-type
 :   Range
 
 [**Range**](/dom/Range) objectÂ that is compared to the range of the object on which **compareBoundaryPoints** is invoked.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Number.
+Returns an object of type NumberNumber
 
 Returns a â€“1, 0, or 1 to indicate whether the *sourceRange* point is before, equal to, or after the boundary point of the [**Range**](/dom/Range) object on which **compareBoundaryPoints** is invoked.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var range, sourceRange, compare;
 range = document.createRange();
 range.selectNode(document.getElementsByTagName("div")[0]);
@@ -68,20 +78,10 @@ sourceRange.selectNode(document.getElementsByTagName("div")[1]);
 compare = range.compareBoundaryPoints(Range.START_TO_END, sourceRange);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM](http://dom.spec.whatwg.org/#dom-range-compareboundarypoints)
 :   Living Standard
+
 [DOM Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/ranges.html#Level-2-Range-Comparing)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.compareBoundaryPoints](https://developer.mozilla.org/en-US/docs/Web/API/Range.compareBoundaryPoints) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[compareBoundaryPoints Method](http://msdn.microsoft.com/en-us/library/ie/ff975440(v=vs.85).aspx) Article]
-

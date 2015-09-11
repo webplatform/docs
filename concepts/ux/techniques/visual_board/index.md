@@ -1,23 +1,21 @@
 ---
-title: visual board
+title: Agile Schedule, Rich Visual Backlog or Visual Board
+readiness: 'Not Ready'
+summary: 'A User eXperience (UX) design technique'
 tags:
   - Concept
   - Pages
   - Design
   - UI
   - Usability
-readiness: 'Not Ready'
-summary: 'A User eXperience (UX) design technique'
 uri: 'concepts/ux/techniques/visual board'
 
 ---
-# Agile Schedule, Rich Visual Backlog or Visual Board
-
-## Summary
+## <span>Summary</span>
 
 A User eXperience (UX) design technique
 
-### What it is
+### <span>What it is</span>
 
 Visual project schedule or plan on butcher paper containing:
 
@@ -27,23 +25,22 @@ Visual project schedule or plan on butcher paper containing:
 -   Non-functional requirements
 -   Any high-level task that needs be tracked and completed.
 
-### Who does it
+### <span>Who does it</span>
 
 Project lead with UX team.
 
-### Key benefits
+### <span>Key benefits</span>
 
 -   Provides shared understanding and current status to the whole team.
 -   Provides context and layout information.
 -   Deadlines are made explicit.
 
-## Usage
+## <span>Usage</span>
 
      At Scoping
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)
-

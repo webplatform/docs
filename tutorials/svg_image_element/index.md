@@ -1,22 +1,23 @@
 ---
-title: svg image element
+title: SVG image element
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/SVG/Tutorial/SVG_Image_Tag)'
+notes:
+  - 'Fix broken link'
+readiness: 'Almost Ready'
+summary: 'This article describes the usage of the SVG image element'
 tags:
   - Tutorials
   - SVG
-readiness: 'Almost Ready'
-notes:
-  - 'Fix broken link'
-summary: 'This article describes the usage of the SVG image element'
-uri: 'tutorials/svg image element'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'W3 specs'
+uri: 'tutorials/svg image element'
 
 ---
-# SVG image element
-
-## Summary
+## <span>Summary</span>
 
 This article describes the usage of the SVG image element
 
@@ -37,10 +38,3 @@ There are some important things to take note of (referenced from the [W3 specs](
 -   If you do not set the x or y attributes, they will be set to 0
 -   If you do not set the height or width attributes, they will be set to 0
 -   Having a height or width attribute of 0 will disable rendering of the image
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/SVG/Tutorial/SVG_Image_Tag)
-

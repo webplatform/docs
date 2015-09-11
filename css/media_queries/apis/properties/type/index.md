@@ -1,46 +1,55 @@
 ---
 title: type
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add example, description, specifications, compatibility.'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/media_queries/apis/StyleMedia
+    href: /css/media_queries/apis/StyleMedia
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /css/media_queries/apis/StyleMedia
+summary: 'Gets the media type of the object that displays the Document object'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Add example, description, specifications, compatibility.'
-summary: 'Gets the media type of the object that displays the Document object'
 uri: 'css/media queries/apis/properties/type'
 
 ---
-# type
-
-## Summary
+## <span>Summary</span>
 
 Gets the media type of the object that displays the Document object
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)</span></span>
+Property of [css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)[css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var mediaType = window.styleMedia.type;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The media type of the current document.
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -80,15 +89,6 @@ The media type of the current document.
 
 -   [behavior](/css/properties/behavior)
 
--   [Targeting styles with media queries](/tutorials/media_queries)
-
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `StyleMedia`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

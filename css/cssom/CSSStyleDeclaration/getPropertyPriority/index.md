@@ -1,51 +1,60 @@
 ---
 title: getPropertyPriority
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+    href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+standardization_status: 'W3C Recommendation'
+summary: 'Gets the priority of a property in a CSS style declaration.'
 tags:
   - API
   - Object
   - Methods
   - CSS
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Gets the priority of a property in a CSS style declaration.'
 uri: css/cssom/CSSStyleDeclaration/getPropertyPriority
 
 ---
-# getPropertyPriority
-
-## Summary
+## <span>Summary</span>
 
 Gets the priority of a property in a CSS style declaration.
 
-*Method of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)*
+Method of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var priority = declaration.getPropertyPriority(property);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### property
+### <span>property</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the CSS property.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 A string that represents the priority if the property is explicitly set in this declaration block and has a specified priority specified, or null.
 
-## Examples
+## <span>Examples</span>
 
 Gets the priority of the first rule in the stylesheet.
 
-``` {.html}
+``` html
 <head>
 <style>
 #aDiv {
@@ -60,26 +69,24 @@ alert (priority);
 </head>
 
 <body>
-This is a div.
+<div id="aDiv">This is a div.</div>
 </body>
 ```
 
-## Notes
+## <span>Notes</span>
 
 The priority of a CSS property is designated by, for example, the [!important](/css/syntax/!important) declaration.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -135,13 +142,9 @@ Specification
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   **getPropertyPriority**
 
@@ -181,11 +184,55 @@ Specification
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    â€¦ further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -196,10 +243,3 @@ Specification
 -   `length`
 -   `removeProperty`
 -   `setProperty`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,42 +1,58 @@
 ---
 title: border-left-style
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5549423'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderStyleTop`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the style of an element''s left border. To set all four borders, use the shorthand property,  border-style. Otherwise, you can set the borders individually with border-top-style, border-right-style, border-bottom-style, border-left-style.'
-code_samples:
-  - 'http://gist.github.com/5549423'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-left-style
 
 ---
-# border-left-style
-
-## Summary
+## <span>Summary</span>
 
 Sets the style of an element's left border. To set all four borders, use the shorthand property, border-style. Otherwise, you can set the borders individually with border-top-style, border-right-style, border-bottom-style, border-left-style.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderStyleTop`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-left-style: dashed`
 -   `border-left-style: dotted`
@@ -49,7 +65,7 @@ Percentages
 -   `border-left-style: ridge`
 -   `border-left-style: solid`
 
-## Values
+## <span>Values</span>
 
 none
 :   Default. Border is not drawn, color and width are ignored. If the border is an image, the image layer counts but is not drawn. See [background-image](/css/properties/background-image).
@@ -81,11 +97,11 @@ inset
 outset
 :   Looks as if the content on the inside of the border is coming out of the canvas.
 
-## Examples
+## <span>Examples</span>
 
 Border styles in CSS.
 
-``` {.css}
+``` css
 .one {
   border-left-style: none;
 }
@@ -129,25 +145,23 @@ Border styles in CSS.
 
 [View live example](http://code.webplatform.org/gist/5549423)
 
-## Notes
+## <span>Notes</span>
 
 -   Borders are drawn in front of the element's background, but behind the element's content (in case it overlaps).
 -   There is no control over the spacing of the dots and dashes, nor over the length of the dashes.
 -   How borders of different styles are joined in the corner may vary.
 -   Rounded corners may cause the corners and the contents to overlap, if the padding is less than the radius of the corner.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#border-style)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -206,10 +220,3 @@ Specification
 -   [border-top-width](/css/properties/border-top-width)
 
 -   [border-width](/css/properties/border-width)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

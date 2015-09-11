@@ -1,20 +1,22 @@
 ---
 title: conditional ternary
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/be21c7hw(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns one of two expressions depending on a condition. Also referred to as &quot;if...else shorthand&quot;.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns one of two expressions depending on a condition. Also referred to as "if...else shorthand".'
 uri: 'javascript/operators/conditional ternary'
 
 ---
-# conditional ternary
+## <span>Summary</span>
 
-## Summary
+Returns one of two expressions depending on a condition. Also referred to as &quot;if...else shorthand&quot;.
 
-Returns one of two expressions depending on a condition. Also referred to as "if...else shorthand".
+## <span>Syntax</span>
 
-## Syntax
+<span class="language">JavaScript</span>
 
     test ? expression1 : expression2
 
@@ -27,18 +29,18 @@ Returns one of two expressions depending on a condition. Also referred to as "if
 **expression2**
 :   An expression returned if test is false. More than one expression may be a linked by a comma expression.
 
-## Examples
+## <span>Examples</span>
 
 The ?: operator can be used as a shortcut for an if...else statement. It is typically used as part of a larger expression where an if...else statement would be awkward. This example creates a string containing "Good evening." if it is after 6pm, or "Good day." otherwise.
 
-``` {.js}
+``` js
 var now = new Date();
 var greeting = "Good" + ((now.getHours() > 17) ? " evening." : " day.");
 ```
 
 The equivalent code using a regular if...else statement would look as follows:
 
-``` {.js}
+``` js
 var now = new Date();
 var greeting = "Good";
 if (now.getHours() > 17)
@@ -47,15 +49,9 @@ else
     greeting += " day.";
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [if...else Statement](/javascript/statements/if_else)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/be21c7hw(v=vs.94).aspx)
 

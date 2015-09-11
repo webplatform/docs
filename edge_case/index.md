@@ -1,17 +1,15 @@
 ---
-title: dge case
+title: edge case
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: 'edge case'
 
 ---
-# edge case
-
-## edge case
+## <span>edge case</span>
 
 In a layout, a design requirement or issue that is confined to a proportionally small number of elements or documents.
 

@@ -1,21 +1,23 @@
 ---
 title: splice
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wctc5k7s(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.'
 uri: javascript/Array/splice
 
 ---
-# splice
-
-## Summary
+## <span>Summary</span>
 
 Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     splice( start, deleteCount,  [ item1 [, item2 [, . . . [, itemN ]]]])
 
@@ -28,11 +30,11 @@ Removes elements from an array and, if necessary, inserts new elements in their 
 **item1, item2,. . ., itemN**
 :   Optional. Elements to insert into the array in place of the deleted elements.
 
-## Examples
+## <span>Examples</span>
 
 The following code shows how to use the **splice** method.
 
-``` {.js}
+``` js
 var arr = new Array("4", "11", "2", "10", "3", "1");
  arr.splice(2, 2, "21", "31");
  document.write(arr);
@@ -40,19 +42,13 @@ var arr = new Array("4", "11", "2", "10", "3", "1");
  // Output: 4,11,21,31,3,1
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **splice** method modifies arrayObj by removing the specified number of elements from position start and inserting new elements. The deleted elements are returned as a new **Array** object.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.12 Array.prototype.splice (start, deleteCount [ , item1 [ , item2 [ , …](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.12) ] ] )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/wctc5k7s(v=vs.94).aspx)
 

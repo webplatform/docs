@@ -1,37 +1,44 @@
 ---
 title: readyState
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/MediaStreamTrack
+    href: /apis/webrtc/MediaStreamTrack
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned short'
+    href: /apis/webrtc/MediaStreamTrack
+standardization_status: 'W3C Working Draft'
+summary: 'The track''s ready state; values.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'The track''s ready state; values.'
 uri: apis/webrtc/MediaStreamTrack/readyState
 
 ---
-# readyState
-
-## Summary
+## <span>Summary</span>
 
 The track's ready state; values.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)</span></span>
+Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var state = track.readyState;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+Returns an object of type unsigned shortunsigned short
 
 -   LIVE (0)- the track is active; the output may be switched on and off with the enabled attribute.
 -   MUTED (1) - the track's underlying media source is temporarily unable to provide realtime data.

@@ -1,57 +1,66 @@
 ---
 title: getAttributeNS
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat table'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /dom/Element
+standardization_status: 'W3C Recommendation'
+summary: 'Returns the value of the content attribute within a specified namespace.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat table'
-summary: 'Returns the value of the content attribute within a specified namespace.'
 uri: dom/Element/getAttributeNS
 
 ---
-# getAttributeNS
-
-## Summary
+## <span>Summary</span>
 
 Returns the value of the content attribute within a specified namespace.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var attributeValue = element.getAttributeNS(namespaceURI, name);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### namespaceURI
+### <span>namespaceURI</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The namespace URI that defines the desired attribute, or a null value.
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the desired attribute within the specified namespace.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 The value of the content attribute, or null if it does not exist.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // Get the first div element in the page.
 var element = document.querySelector("div");
 // Continue only if the element exists.
@@ -60,32 +69,25 @@ if (element) {
 }
 ```
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Document Object Model (DOM) Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
+
 [Document Object Model (DOM) Level 2 Core](http://www.w3.org/TR/DOM-Level-2-Core/)
 :   Recommendation
+
 [DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `getAttribute`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

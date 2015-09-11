@@ -1,58 +1,66 @@
 ---
 title: start
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges.start)'
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/audio-video/TimeRanges
+    href: /apis/audio-video/TimeRanges
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/audio-video/TimeRanges
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the time for the start of the range with the given index. Throws an IndexSizeError if the index is out of range.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the time for the start of the range with the given index. Throws an IndexSizeError if the index is out of range.'
 uri: apis/audio-video/TimeRanges/start
 
 ---
-# start
-
-## Summary
+## <span>Summary</span>
 
 Returns the time for the start of the range with the given index. Throws an IndexSizeError if the index is out of range.
 
-*Method of [apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)*
+Method of [apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)[apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = TimeRanges.start(index);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### index
+### <span>index</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The zero-based index of the item in the collection.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**. This method can return one of these values.
 
-Return code
-:   Description
-S\_OK
-:   The operation completed successfully.
-IndexSizeError
-:   The specified index is out of range.
+|Return code|Description|
+|:----------|:----------|
+|S\_OK|The operation completed successfully.|
+|IndexSizeError|The specified index is out of range.|
 
-## Examples
+## <span>Examples</span>
 
 Given a video element with the ID "myVideo", this example looks at the time ranges to determine if the entire video has been loaded.
 
-``` {.js}
+``` js
 var v = document.GetElementById("myVideo");
 
 var buf = v.buffered;
@@ -69,18 +77,7 @@ if (buf.length == 1) {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges.start)
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

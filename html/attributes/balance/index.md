@@ -1,37 +1,43 @@
 ---
 title: balance
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
 uri: html/attributes/balance
 
 ---
-# balance
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 Sets the balance of the audio file between the left and right speakers.
 
-## Examples
+## <span>Examples</span>
 
 Audio set to left speaker only:
 
-``` {.html}
+``` html
 <bgsound src="50_005a08.wav" balance="-10000"/>
 ```
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `bgSound`
-

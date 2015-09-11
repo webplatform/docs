@@ -1,42 +1,57 @@
 ---
 title: overflow
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: Mixed
-summary: 'The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.'
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6365118'
   - 'http://gist.github.com/6365403'
   - 'http://gist.github.com/6366211'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`visible`'
+  'Applies to': 'non-replaced block-level elements and non-replaced ’inline-block’ elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified, except ‘visible’'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`overflow`'
+readiness: 'Ready to Use'
+standardization_status: Mixed
+summary: 'The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/overflow
 
 ---
-# overflow
-
-## Summary
+## <span>Summary</span>
 
 The overflow property controls how extra content exceeding the bounding box of an element is rendered. It can be used in conjunction with an element that has a fixed width and height, to eliminate text-induced page distortion.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `visible`
+
 Applies to
 :   non-replaced block-level elements and non-replaced ’inline-block’ elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified, except ‘visible’
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `overflow`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `overflow: <overflow-x> <overflow-y>`
 -   `overflow: auto`
@@ -46,7 +61,7 @@ Animatable
 -   `overflow: scroll`
 -   `overflow: visible`
 
-## Values
+## <span>Values</span>
 
 visible
 :   The default value for most elements. Content is not clipped and a scroll mechanism is not added.
@@ -69,11 +84,11 @@ no-content
 \<overflow-x\> \<overflow-y\>
 :   Set **overflow-x** and **overflow-y** separately.
 
-## Examples
+## <span>Examples</span>
 
 Add different behavior for paragraphs via the `overflow` property.
 
-``` {.css}
+``` css
 .hidden {
     overflow: hidden;
 }
@@ -97,7 +112,7 @@ p {
 
 Clearing floats with overflow
 
-``` {.css}
+``` css
 .clear {
     overflow: hidden;
     background: green;
@@ -114,7 +129,7 @@ Clearing floats with overflow
 
 Two values for `overflow`.
 
-``` {.css}
+``` css
 .overflow-y {
     overflow: hidden auto;
     height: 30px;
@@ -123,7 +138,7 @@ Two values for `overflow`.
 
 [View live example](http://code.webplatform.org/gist/6366211)
 
-## Usage
+## <span>Usage</span>
 
      The overflow CSS property specifies whether to clip content, render scroll bars or display overflow content of a block-level element.
 
@@ -131,47 +146,38 @@ The `overflow` property takes up to two values. If given one value, both `overfl
 
 Using the overflow property with a value different than visible, its default, will create a new block formatting context. This is technically necessary as if a float would intersect with the scrolling element it would force to rewrap the content of the scrollable element around intruding floats. The rewrap would happen after each scroll step and would be lead to a far too slow scrolling experience. Note that, by programmatically setting scrollTop to the relevant HTML element, even when overflow has the hidden value an element may need to scroll.
 
-## Notes
+## <span>Notes</span>
 
 The default value for the `html` element is `auto`. Setting the `overflow` property to `visible` causes the content to clip to the size of the window or frame that contains the object.
 
-### CSS basic box model
+### <span>CSS basic box model</span>
 
 Specifying two values is currently not supported by browsers.
 
-### Firefox (Gecko) Notes
+### <span>Firefox (Gecko) Notes</span>
 
 Through Firefox 3.6 (Gecko 1.9.2), the overflow property is incorrectly applied to table-group elements (\<thead\> , \<tbody\> , \<tfoot\>). This behavior is corrected in later versions.
 
-### Internet Explorer Notes
+### <span>Internet Explorer Notes</span>
 
 Internet Explorer 4 to 6 enlarges an element with `overflow: visible` (default value) to fit the content in it. height/width behaves like min-height/min-width.
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 11.1.1
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/visufx.html#overflow)
 :   Recommendation
+
 [CSS3 module: The box model](http://www.w3.org/TR/2002/WD-css3-box-20021024/#overflow)
 :   Working Draft
+
 [CSS basic box model](http://www.w3.org/TR/css3-box/#overflow1)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related Properties
+### <span>Related Properties</span>
 
 -   [overflow-x](/css/properties/overflow-x)
 -   [overflow-y](/css/properties/overflow-y)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

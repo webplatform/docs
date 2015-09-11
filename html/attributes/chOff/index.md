@@ -1,42 +1,51 @@
 ---
 title: chOff
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+summary: 'Removes an alignment character set by the attribute ch.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Removes an alignment character set by the attribute ch.'
 uri: html/attributes/chOff
 
 ---
-# chOff
-
-## Summary
+## <span>Summary</span>
 
 Removes an alignment character set by the attribute ch.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-## Examples
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This is an example usage in HTML for chOff
 
-``` {.html}
+``` html
 <element choff="p" ... >
 ```
 
 This is an example usage in JS for chOff
 
-``` {.js}
+``` js
 p = object.chOff
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This property has no default value.
 
@@ -46,18 +55,16 @@ There is no functionality implemented for this property unless defined by the au
 
 **Note**   **chOff** functionality is described in the HTML 4.0 standard as the offset of alignment character.
 
-### Syntax
+### <span>Syntax</span>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Specification of chOff](http://www.w3.org/TR/html401/struct/tables.html#adef-charoff)
 :
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `tr`
 -   `td`
@@ -66,10 +73,3 @@ Specification
 -   `tBody`
 -   `tHead`
 -   `tFoot`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

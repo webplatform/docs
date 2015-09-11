@@ -1,55 +1,66 @@
 ---
 title: title
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/title_1.htm'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/title_1.htm'
 uri: html/attributes/title
 
 ---
-# title
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-## Examples
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **title** property to display advisory text when the user hovers the mouse pointer over the text.
 
-    <SCRIPT>
-    function boldAdvise(src) {
-        src.title="this is bold text";
-        return;
-        }
-    </SCRIPT>
-    :
-    <SPAN onmouseover="boldAdvise(this)">bold section</SPAN>
+``` html
+<SCRIPT>
+function boldAdvise(src) {
+    src.title="this is bold text";
+    return;
+    }
+</SCRIPT>
+:
+<SPAN onmouseover="boldAdvise(this)">bold section</SPAN>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/title_1.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Windows Internet Explorer renders the title as a ToolTip when the user hovers the mouse over the object. Titles are limited to 512 total characters; this limit includes control characters, such as line feeds, carriage returns, and so on. In Windows CE, ToolTips do not appear when a user hovers the mouse pointer over objects. Renders the title as a ToolTip when the user hovers a mouse or finger over objects Titles are limited to 512 total characters; this limit includes control characters, such as line feeds, carriage returns, and so on.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 7.4.3
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `a`
 -   `abbr`
@@ -157,10 +168,3 @@ Windows Internet Explorer renders the title as a ToolTip when the user hovers th
 -   `var`
 -   `xmp`
 -   `title`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

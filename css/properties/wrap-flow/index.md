@@ -1,42 +1,58 @@
 ---
 title: wrap-flow
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh772045(v=vs.85).aspx)'
+code_samples:
+  - 'http://gist.github.com/5867597'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'Block-level elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified except for elements whose float computed value is not "none", in which case the computed value is "auto".'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies how exclusions affect inline content within block-level elements. Elements lay out their inline content in their content area but wrap around exclusion areas.'
-code_samples:
-  - 'http://gist.github.com/5867597'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/wrap-flow
 
 ---
-# wrap-flow
-
-## Summary
+## <span>Summary</span>
 
 Specifies how exclusions affect inline content within block-level elements. Elements lay out their inline content in their content area but wrap around exclusion areas.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   Block-level elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified except for elements whose float computed value is not "none", in which case the computed value is "auto".
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `wrap-flow: auto`
 -   `wrap-flow: both`
@@ -46,7 +62,7 @@ Percentages
 -   `wrap-flow: minimum`
 -   `wrap-flow: start`
 
-## Values
+## <span>Values</span>
 
 auto
 :   No exclusion is created. Inline flow content interacts with the element as usual.
@@ -83,9 +99,9 @@ clear
 
 ![wrap-flow:clear applied to grid positioned elements;](/assets/public/4/41/exclusion_wrap_side_clear.png)
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /*
 At the time of writing only available by default in IE10.
 Can be enabled in Canary under "Enable experimental WebKit features".
@@ -109,28 +125,19 @@ Can be enabled in Canary under "Enable experimental WebKit features".
 
 [View live example](http://code.webplatform.org/gist/5867597)
 
-## Usage
+## <span>Usage</span>
 
      If the property's computed value is "auto", the element does not become an exclusion.
 
 An exclusion affects the inline flow content descended from the exclusion's containing block, and that of all descendant elements of the same containing block. All inline flow content inside the containing block of the exclusions is affected. To stop the effect of exclusions defined outside an element, the [wrap-through](/css/properties/wrap-through) property can be used.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Exclusions Module Level 1](http://dev.w3.org/csswg/css-exclusions/)
 :   Editor's Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 [wrap-through](/css/properties/wrap-through)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh772045(v=vs.85).aspx)
-

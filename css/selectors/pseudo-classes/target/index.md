@@ -1,22 +1,20 @@
 ---
-title: :target
+title: :target pseudo-class selector
+code_samples:
+  - 'http://gist.github.com/6f2803eda8ad3c66aaf4'
+notes:
+  - 'No matching spec'
+readiness: 'Not Ready'
+summary: 'The :target pseudo-class (note the &quot;:&quot;) represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.'
 tags:
   - CSS
   - Selectors
-readiness: 'Not Ready'
-notes:
-  - 'No matching spec'
-summary: 'The :target pseudo-class (note the ":") represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.'
-code_samples:
-  - 'http://gist.github.com/6f2803eda8ad3c66aaf4'
 uri: 'CSS/Selectors/pseudo-classes/:target'
 
 ---
-# :target pseudo-class selector
+## <span>Summary</span>
 
-## Summary
-
-The :target pseudo-class (note the ":") represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.
+The :target pseudo-class (note the &quot;:&quot;) represents an element in the current document, if any, that has id attribute set to a name that is matching the fragment identifier of the current URI.
 
  An URI fragment is what follows the "number sign" (`#`).
 
@@ -30,11 +28,11 @@ Let us say you have a section in a document called "`foo`" (e.g. `<div id="foo">
 
 Any element can be a target, as long as it has the `id=".."` attribute set, and the current URI matches it. To use the selector, we use the `:target` pseudo-class notation. If the document's URI has no fragment identifier, then the document has no target element.
 
-## Using the selector
+## <span>Using the selector</span>
 
 To use the selector, append the pseudo selector (`:target`) after a selector string.
 
-``` {.css}
+``` css
   .note:target { /* ... */ }
 ```
 
@@ -44,15 +42,15 @@ Since it is a pseudo selector, it has to be at the end of the chain (e.g. `tagNa
 
 For example, to change the background color of ANY tag that happens to be refered in the URI, you can do like the following:
 
-``` {.css}
+``` css
 *:target { background-color: red }
 ```
 
-## Examples
+## <span>Examples</span>
 
 Changing background color of an element that has an id attribute with a name that matches the current URI after the pound (\#)
 
-``` {.css}
+``` css
 *:target {
   background-color: #f06;
  /* any element that has an id attribute matching
@@ -63,15 +61,15 @@ Changing background color of an element that has an id attribute with a name tha
 
 [View live example](http://code.webplatform.org/gist/6f2803eda8ad3c66aaf4)
 
-## Notes
+## <span>Notes</span>
 
 The `id` attribute was new in HTML 4 (December 1997). Before that, we were using the name attribute in an ahcnor tag (e.g. \<a name="foo"\>. The `:target` pseudo-class applies to those targets as well.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pseudo-Classes
+#### <span>Pseudo-Classes</span>
 
 -   **:target pseudo-class selector**
 
@@ -122,4 +120,3 @@ The `id` attribute was new in HTML 4 (December 1997). Before that, we were using
 -   [:target](/css/selectors/pseudo-classes/:target)
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
-

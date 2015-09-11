@@ -1,20 +1,18 @@
 ---
 title: ended
+notes:
+  - 'Needs example, spec reference, usage'
+readiness: 'Not Ready'
+standardization_status: 'W3C Working Draft'
+summary: "The MediaStreamTrack object's source will not provide data; this may be caused by the following:\n"
 tags:
   - Events
   - API
   - WebRTC
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference, usage'
-summary: "The MediaStreamTrack object's source will not provide data; this may be caused by the following:\n"
 uri: apis/webrtc/MediaStreamTrack/ended
 
 ---
-# ended
-
-## Summary
+## <span>Summary</span>
 
 The MediaStreamTrack object's source will not provide data; this may be caused by the following:
 
@@ -23,18 +21,59 @@ The MediaStreamTrack object's source will not provide data; this may be caused b
 -   the remote peer has stopped sending data
 -   the stop() method was invoked
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:    ?
-Cancelable
-:   No
-Default action
-:    ?
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 

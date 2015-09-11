@@ -1,52 +1,52 @@
 ---
 title: onerror
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/workers/Worker
+    href: /apis/workers/Worker
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/workers/Worker
+standardization_status: 'W3C Editor''s Draft'
+summary: 'An event listener to be called when an error occurs.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Webworkers
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs example'
-summary: 'An event listener to be called when an error occurs.'
 uri: apis/workers/Worker/onerror
 
 ---
-# onerror
-
-## Summary
+## <span>Summary</span>
 
 An event listener to be called when an error occurs.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/workers/Worker](/apis/workers/Worker)</span></span>
+Property of [apis/workers/Worker](/apis/workers/Worker)[apis/workers/Worker](/apis/workers/Worker)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = object.onerror;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 EventHandler
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Workers Specification](http://dev.w3.org/html5/workers)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

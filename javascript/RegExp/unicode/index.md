@@ -1,33 +1,33 @@
 ---
 title: unicode
+code_samples:
+  - 'https://mathiasbynens.be/notes/es6-unicode-regex#impact-dot'
+notes:
+  - 'Moved under javascript/RegExp'
+readiness: 'Ready to Use'
+summary: 'Returns a Boolean value indicating the state of the Unicode flag (u) used with a regular expression. Default is false. Read-only.'
 tags:
   0: JS
   1: Basic
   3: Property
-readiness: 'Ready to Use'
-notes:
-  - 'Moved under javascript/RegExp'
-summary: 'Returns a Boolean value indicating the state of the Unicode flag (u) used with a regular expression. Default is false. Read-only.'
-code_samples:
-  - 'https://mathiasbynens.be/notes/es6-unicode-regex#impact-dot'
 uri: javascript/RegExp/unicode
 
 ---
-# unicode
-
-## Summary
+## <span>Summary</span>
 
 Returns a Boolean value indicating the state of the Unicode flag (u) used with a regular expression. Default is false. Read-only.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     regex.unicode
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the Unicode property.
 
-``` {.js}
+``` js
 // https://mathiasbynens.be/notes/es6-unicode-regex#impact-dot
 // Note: `𝌆` is U+1D306 TETRAGRAM FOR CENTRE, a supplementary Unicode symbol.
 var string = 'a𝌆b';
@@ -51,17 +51,17 @@ console.log(match[1]);
 
 [View live example](https://mathiasbynens.be/notes/es6-unicode-regex#impact-dot)
 
-## Remarks
+## <span>Remarks</span>
 
 The `unicode` property returns `true` if the Unicode flag is set for a regular expression, and returns `false` if it is not.
 
 The Unicode flag, when used, enables [various Unicode-related features for regular expressions](https://mathiasbynens.be/notes/es6-unicode-regex), such as the use of ES6 Unicode code point escapes (e.g. `/\u{1D306}/u`).
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Javascript
+#### <span>Javascript</span>
 
 -   [propertyName](/dom/TransitionEvent/propertyName)
 
@@ -71,14 +71,14 @@ The Unicode flag, when used, enables [various Unicode-related features for regul
 
 -   [future reserved words](/javascript/future_reserved_words)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [global Property (Regular Expression)](/javascript/regular_expression/global)
 -   [ignoreCase Property (Regular Expression)](/javascript/regular_expression/ignoreCase)
 -   [multiline Property (Regular Expression)](/javascript/regular_expression/multiline)
 -   [sticky Property (Regular Expression)](/javascript/regular_expression/sticky)
 
-### External resources
+### <span>External resources</span>
 
 -   [Unicode-aware regular expressions in ECMAScript 6](https://mathiasbynens.be/notes/es6-unicode-regex)
 -   [regexpu – a source code transpiler that enables the use of ES6 Unicode regular expressions in ES5](https://github.com/mathiasbynens/regexpu)

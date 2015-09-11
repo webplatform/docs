@@ -1,31 +1,38 @@
 ---
 title: target
+readiness: readiness-state
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/Animation
+    href: /apis/web_animations/Animation
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/web_animations/Animation
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: readiness-state
 uri: 'apis/web animations/Animation/target'
 
 ---
-# target
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/Animation](/apis/web_animations/Animation)</span></span>
+Property of [apis/web\_animations/Animation](/apis/web_animations/Animation)[apis/web\_animations/Animation](/apis/web_animations/Animation)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var myTarget = myAnimation.target;
 myAnimation.target = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 returns an apis/web\_animations/Animatable object.
 

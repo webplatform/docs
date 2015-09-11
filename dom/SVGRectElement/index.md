@@ -1,129 +1,135 @@
 ---
 title: SVGRectElement
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[SVGRectElement](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect) Article]'
+  - 'Microsoft Developer Network: [[SVGRectElement](http://msdn.microsoft.com/en-us/library/ie/ff972117(v=vs.85).aspx) Article]'
+notes:
+  - 'Needs some inline SVG examples...'
+readiness: 'Almost Ready'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: SVGElement
+    href: /dom/SVGElement
+standardization_status: 'W3C Recommendation'
+summary: 'The SVGRectElement interface provides access to the properties of the rect element.'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs some inline SVG examples...'
-summary: 'The SVGRectElement interface provides access to the properties of the rect element.'
-uri: dom/SVGRectElement
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - svg/properties/rx
     - svg/properties/ry
+uri: dom/SVGRectElement
 
 ---
-# SVGRectElement
-
-## Summary
+## <span>Summary</span>
 
 The SVGRectElement interface provides access to the properties of the rect element.
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/dom/SVGElement)</span></span>
+Inherits from [SVGElement](/dom/SVGElement)[SVGElement](/dom/SVGElement)
 
-## Properties
-
-*No properties.*
-
-## Methods
-
-*No methods.*
-
-## Events
-
-*No events.*
-
-## Inherited from SVGElement
-
-### Properties
+## <span>Properties</span>
 
 *No properties.*
 
-### Methods
+## <span>Methods</span>
 
 *No methods.*
 
-### Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGTests
+## <span>Inherited from SVGElement</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGLangSpace
+## <span>Inherited from SVGTests</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGExternalResourcesRequired
+## <span>Inherited from SVGLangSpace</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGStylable
+## <span>Inherited from SVGExternalResourcesRequired</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGTransformable
+## <span>Inherited from SVGStylable</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Inherited from SVGTransformable</span>
 
-``` {.html}
+### <span>Properties</span>
+
+*No properties.*
+
+### <span>Methods</span>
+
+*No methods.*
+
+### <span>Events</span>
+
+*No events.*
+
+## <span>Examples</span>
+
+``` html
 <?xml version="1.0"?>
 <svg width="120" height="120"
      viewPort="0 0 120 120" version="1.1"
@@ -134,7 +140,7 @@ The SVGRectElement interface provides access to the properties of the rect eleme
 </svg>
 ```
 
-``` {.html}
+``` html
 <?xml version="1.0"?>
 <svg width="120" height="120"
      viewPort="0 0 120 120" version="1.1"
@@ -147,17 +153,17 @@ The SVGRectElement interface provides access to the properties of the rect eleme
 </svg>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.1
 
-### Members
+### <span>Members</span>
 
 The **SVGRectElement** object has these properties:
 
@@ -167,12 +173,3 @@ The **SVGRectElement** object has these properties:
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 -   [**rx**](/w/index.php?title=svg/properties/rx&action=edit&redlink=1): Gets or sets the x-axis radius of a rounded corner rectangle.
 -   [**ry**](/w/index.php?title=svg/properties/ry&action=edit&redlink=1): Gets or sets the y-axis radius of a rounded corner rectangle.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[SVGRectElement](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[SVGRectElement](http://msdn.microsoft.com/en-us/library/ie/ff972117(v=vs.85).aspx) Article]
-

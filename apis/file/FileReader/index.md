@@ -1,49 +1,54 @@
 ---
 title: FileReader
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) Article]'
+  - 'Microsoft Developer Network: [[fileReader Object](http://msdn.microsoft.com/en-us/library/ie/hh772310(v=vs.85).aspx) Article]'
+code_samples:
+  - 'https://developer.mozilla.org/files/3698/image_upload_preview.html'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'The FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user''s computer, using File or Blob objects to specify the file or data to read. File objects may be obtained from a FileList object returned as a result of a user selecting files using the input element, from a drag-and-drop operation''s DataTransfer object, or from the mozGetAsFile() API on an HTMLCanvasElement.'
 tags:
   0: API
   1: Objects
   3: FileAPI
-readiness: 'Ready to Use'
-standardization_status: 'W3C Last Call Working Draft'
-summary: 'The FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user''s computer, using File or Blob objects to specify the file or data to read. File objects may be obtained from a FileList object returned as a result of a user selecting files using the input element, from a drag-and-drop operation''s DataTransfer object, or from the mozGetAsFile() API on an HTMLCanvasElement.'
-code_samples:
-  - 'https://developer.mozilla.org/files/3698/image_upload_preview.html'
 uri: apis/file/FileReader
 
 ---
-# FileReader
-
-## Summary
+## <span>Summary</span>
 
 The FileReader object lets web applications asynchronously read the contents of files (or raw data buffers) stored on the user's computer, using File or Blob objects to specify the file or data to read. File objects may be obtained from a FileList object returned as a result of a user selecting files using the input element, from a drag-and-drop operation's DataTransfer object, or from the mozGetAsFile() API on an HTMLCanvasElement.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [abort](/apis/file/FileReader/abort)
 :   The abort method is used to aborts the read operation. Upon return, the [dom/Element/readyState](/dom/Element/readyState) will be *DONE*.
+
 [readAsArrayBuffer](/apis/file/FileReader/readAsArrayBuffer)
 :   Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), as an ArrayBuffer object, a fixed-length binary data buffer.
+
 [readAsDataURL](/apis/file/FileReader/readAsDataURL)
 :   Returns the complete data of blob as a Data URL, essentially a Base64-encoded string of the file data.
+
 [readAsText](/apis/file/FileReader/readAsText)
 :   Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 Preview an image before upload
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
 <head>
@@ -84,28 +89,17 @@ function loadImageFile() {
 
 [View live example](https://developer.mozilla.org/files/3698/image_upload_preview.html)
 
-## Notes
+## <span>Notes</span>
 
 When the `FileReader` constructor is invoked, a new FileReader object is returned. This FileReader object enables asynchronous reads on individual File objects by firing progress events as the read occurs to event handler methods attached to the FileReader object.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 [Using files from web applications](https://developer.mozilla.org/en-US/docs/Using_files_from_web_applications)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[fileReader Object](http://msdn.microsoft.com/en-us/library/ie/hh772310(v=vs.85).aspx) Article]
-

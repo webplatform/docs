@@ -1,55 +1,60 @@
 ---
 title: lineTo
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Connects the last point in the subpath to the given point (x, y) using a straight line, and then adds the point to the subpath.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Connects the last point in the subpath to the given point (x, y) using a straight line, and then adds the point to the subpath.'
 uri: apis/canvas/CanvasRenderingContext2D/lineTo
 
 ---
-# lineTo
-
-## Summary
+## <span>Summary</span>
 
 Connects the last point in the subpath to the given point (x, y) using a straight line, and then adds the point to the subpath.
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  context.lineTo(x, y);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate, in pixels.
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate, in pixels.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 This example uses moveTo to establish a subpath starting point, and then uses lineTo to add line segments.
 
-``` {.html}
+``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
 . . .
 <script>
@@ -63,20 +68,11 @@ ctxt.stroke();
 </script>
 ```
 
-## Notes
+## <span>Notes</span>
 
 If subpath is not allocated, the user agent will create it. If subpath has no any point (x, y), then point (x, y) will be created for subpath as its first (and only) point, as if the *moveTo(x, y)* method had been called.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

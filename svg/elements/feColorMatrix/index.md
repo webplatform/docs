@@ -1,14 +1,5 @@
 ---
 title: feColorMatrix
-tags:
-  - Markup
-  - Elements
-  - SVG
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Fix broken link to parent'
-summary: 'feColorMatrix is an SVG filter primitive that allows the manipulation of color values across color channels. It provides more powerful color manipulation flexibility than CSS shorthand filters. It is always a child element of an SVG filter element. Using feColorMatrix, you can change color saturation, perform hue rotations, selectively adjust alpha values of particular channels, adjust contrast, brightness and more. feColorMatrix does not allow the manipulation of relative color values *within* color channels which is provided by the feComponentTransfer primitive.'
 code_samples:
   - 'http://gist.github.com/5303882'
   - 'http://gist.github.com/5303933'
@@ -18,20 +9,29 @@ code_samples:
   - 'http://gist.github.com/5304064'
   - 'http://gist.github.com/5304095'
   - 'http://gist.github.com/5304176'
-uri: svg/elements/feColorMatrix
+notes:
+  - 'Fix broken link to parent'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGFEColorMatrixElement](/w/index.php?title=svg/objects/SVGFEColorMatrixElement&action=edit&redlink=1)'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'feColorMatrix is an SVG filter primitive that allows the manipulation of color values across color channels. It provides more powerful color manipulation flexibility than CSS shorthand filters. It is always a child element of an SVG filter element. Using feColorMatrix, you can change color saturation, perform hue rotations, selectively adjust alpha values of particular channels, adjust contrast, brightness and more. feColorMatrix does not allow the manipulation of relative color values *within* color channels which is provided by the feComponentTransfer primitive.'
+tags:
+  - Markup
+  - Elements
+  - SVG
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - svg/objects/SVGFEColorMatrixElement
+uri: svg/elements/feColorMatrix
 
 ---
-# feColorMatrix
-
-## Summary
+## <span>Summary</span>
 
 feColorMatrix is an SVG filter primitive that allows the manipulation of color values across color channels. It provides more powerful color manipulation flexibility than CSS shorthand filters. It is always a child element of an SVG filter element. Using feColorMatrix, you can change color saturation, perform hue rotations, selectively adjust alpha values of particular channels, adjust contrast, brightness and more. feColorMatrix does not allow the manipulation of relative color values \*within\* color channels which is provided by the feComponentTransfer primitive.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGFEColorMatrixElement](/w/index.php?title=svg/objects/SVGFEColorMatrixElement&action=edit&redlink=1)
@@ -66,13 +66,13 @@ feColorMatrix offers four types of color manipulation: 3 shorthands and a matrix
 
 By default, color-manipulation operations using feColorMatrix take place in linearRGB color space. This may produce unwanted results. For example a color inversion may result in a pronounced shift toward lighter tones. If this is not desired, you may explicitly specify a value of "sRGB" for the optional attribute "color-interpolation-filters".
 
-## Examples
+## <span>Examples</span>
 
-![desaturate.png](//static.webplatformstaging.org/w/public/0/03/desaturate.png)
+![desaturate.png](/assets/public/0/03/desaturate.png)
 
 Example of a feColorMatrix with type="saturate"
 
-``` {.other}
+```
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="saturate">
@@ -86,11 +86,11 @@ Example of a feColorMatrix with type="saturate"
 
 [View live example](http://code.webplatform.org/gist/5303882)
 
-![huerotate.png](//static.webplatformstaging.org/w/public/1/19/huerotate.png)
+![huerotate.png](/assets/public/1/19/huerotate.png)
 
 Example of a feColorMatrix with type="hueRotate"
 
-``` {.other}
+```
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="hueRotate">
@@ -106,11 +106,11 @@ Example of a feColorMatrix with type="hueRotate"
 
 [View live example](http://code.webplatform.org/gist/5303933)
 
-![luminancetoalpha.png](//static.webplatformstaging.org/w/public/0/01/luminancetoalpha.png)
+![luminancetoalpha.png](/assets/public/0/01/luminancetoalpha.png)
 
 Example of a feColorMatrix with type="luminanceToAlpha"
 
-``` {.other}
+```
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="L2A">
@@ -126,11 +126,11 @@ Example of a feColorMatrix with type="luminanceToAlpha"
 
 [View live example](http://code.webplatform.org/gist/5303960)
 
-![contrast.png](//static.webplatformstaging.org/w/public/8/80/contrast.png)
+![contrast.png](/assets/public/8/80/contrast.png)
 
 Example of a feColorMatrix with type="matrix" showing a contrast adjustment
 
-``` {.other}
+```
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-contrast">
@@ -149,11 +149,11 @@ Example of a feColorMatrix with type="matrix" showing a contrast adjustment
 
 [View live example](http://code.webplatform.org/gist/5304023)
 
-![sepia.png](//static.webplatformstaging.org/w/public/c/cd/sepia.png)
+![sepia.png](/assets/public/c/cd/sepia.png)
 
 Example of a feColorMatrix with type="matrix" showing a sepia adjustment
 
-``` {.other}
+```
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-sepia">
@@ -172,11 +172,11 @@ Example of a feColorMatrix with type="matrix" showing a sepia adjustment
 
 [View live example](http://code.webplatform.org/gist/5304047)
 
-![grey.png](//static.webplatformstaging.org/w/public/f/fa/grey.png)
+![grey.png](/assets/public/f/fa/grey.png)
 
 Example of a feColorMatrix with type="matrix" showing a standard greyscale adjustment
 
-``` {.other}
+```
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-greyscale">
@@ -195,11 +195,11 @@ Example of a feColorMatrix with type="matrix" showing a standard greyscale adjus
 
 [View live example](http://code.webplatform.org/gist/5304064)
 
-![greygreen.png](//static.webplatformstaging.org/w/public/8/8c/greygreen.png)
+![greygreen.png](/assets/public/8/8c/greygreen.png)
 
 Example of a feColorMatrix with type="matrix" showing a greyscale with green channel weighting
 
-``` {.other}
+```
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-greyscale-greenboost">
@@ -218,11 +218,11 @@ Example of a feColorMatrix with type="matrix" showing a greyscale with green cha
 
 [View live example](http://code.webplatform.org/gist/5304095)
 
-![invert.png](//static.webplatformstaging.org/w/public/f/f8/invert.png)
+![invert.png](/assets/public/f/f8/invert.png)
 
 Example of a feColorMatrix with type="matrix" showing an inversion
 
-``` {.other}
+```
 <svg width="640" height="550" viewBox="0 0 640 550">
 <defs>
     <filter id="matrix-invert">
@@ -241,9 +241,9 @@ Example of a feColorMatrix with type="matrix" showing an inversion
 
 [View live example](http://code.webplatform.org/gist/5304176)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This filter applies the following matrix transformation:
 
@@ -257,13 +257,13 @@ This matrix is applied on the RGBA color and alpha values of every pixel on the 
 
 The calculations are performed on non-premultiplied color values. If the input graphics consist of premultiplied color values, those values are automatically converted into non-premultiplied color values for this operation.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [SVG 1.1 Specification](http://www.w3.org/TR/SVG/filters.html#feColorMatrixElement)
 
-### Members
+### <span>Members</span>
 
 The **SVGFEColorMatrixElement** object has these properties:
 
@@ -276,11 +276,11 @@ The **SVGFEColorMatrixElement** object has these properties:
 -   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -363,4 +363,3 @@ The **SVGFEColorMatrixElement** object has these properties:
 -   [SVG grand tour](/svg/tutorials/smarter_svg_overview)
 
 -   [SVG filters](/tutorials/svg_filters)
-

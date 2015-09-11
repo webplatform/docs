@@ -1,63 +1,56 @@
 ---
 title: DOMParser
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+readiness: 'In Progress'
 tags:
   0: API
   1: Objects
   3: DOM
   4: XHR
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
 uri: apis/xhr/objects/DOMParser
 
 ---
-# DOMParser
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 To create an instance of the **DOMParser** object, use the following syntax.
 
     oParser =  new DOMParser();
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Members
+### <span>Members</span>
 
 The **DOMParser** object has these types of members:
 
 -   [\#methods Methods]
 
-#### Methods
+#### <span>Methods</span>
 
 The **DOMParser** object has these methods. {
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `parseFromString`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

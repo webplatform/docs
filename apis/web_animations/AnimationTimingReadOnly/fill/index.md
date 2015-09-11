@@ -1,20 +1,27 @@
 ---
 title: fill
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationTimingReadOnly
+    href: /apis/web_animations/AnimationTimingReadOnly
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /apis/web_animations/AnimationTimingReadOnly
+standardization_status: 'W3C Editor''s Draft'
+summary: "The fill mode as specified by one of the FillMode enumeration values.\n"
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-summary: "The fill mode as specified by one of the FillMode enumeration values.\n"
 uri: 'apis/web animations/AnimationTimingReadOnly/fill'
 
 ---
-# fill
-
-## Summary
+## <span>Summary</span>
 
 The fill mode as specified by one of the FillMode enumeration values.
 
@@ -22,19 +29,19 @@ When performing timing calculations the special value auto is expanded to one of
 
 If the animation node to which the fill mode is being is applied is an animation, Use none as the fill mode. Otherwise, Use both as the fill mode.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)</span></span>
+Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.fill;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 Returns a FillMode object
 

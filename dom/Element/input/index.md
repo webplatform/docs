@@ -1,36 +1,77 @@
 ---
 title: input
-tags:
-  - Events
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Needs summary and compat'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+tags:
+  - Events
 uri: dom/Element/input
 
 ---
-# input
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 The following script queries the event [**target**](/dom/Event/target) as the text in a **textArea** is changed.
 
-``` {.js}
+``` js
 <script type="text/javascript">
 function handleInput(ev) {
     alert(ev.target.value);
@@ -42,9 +83,9 @@ window.onload = function() {
 <textarea id="myTextArea">Edit this text.</textarea>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 You can use the **oninput** to detect when the contents of a **textArea**, **input type=text**, or **input type=password** have changed. This event occurs immediately after modification, unlike the [**change**](/dom/Element/change) event, which occurs when the element loses focus. To invoke this event, do one of the following:
 
@@ -52,21 +93,14 @@ You can use the **oninput** to detect when the contents of a **textArea**, **inp
 -   Cut, delete, or paste content.
 -   Navigate to another document.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374)
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [DOM Level 2](http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109/html.html#ID-6043025)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

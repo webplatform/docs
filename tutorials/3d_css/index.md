@@ -1,22 +1,22 @@
 ---
-title: 3d css
-tags:
-  - Tutorials
+title: Using CSS 3D transforms
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/3d/css/)'
 readiness: 'Ready to Use'
 summary: 'An introduction to CSS 3D transforms.'
+tags:
+  - Tutorials
 uri: 'tutorials/3d css'
 
 ---
-# Using CSS 3D transforms
-
 **By Paul Kinlan**
 Originally published Sept. 7, 2010
 
-## Summary
+## <span>Summary</span>
 
 An introduction to CSS 3D transforms.
 
-## Introduction
+## <span>Introduction</span>
 
 For a long time 3D has been the preserve of desktop applications. Recently with the introduction of advanced smart-phones that have access to native GPU acceleration we have started to see 3D used nearly everywhere.
 
@@ -28,19 +28,19 @@ The CSS 3D Transformation Working Draft is a logical extension to the [CSS 2D Tr
 
 It must be noted that the CSS 3D module is designed to help developers build rich and visually interesting applications; it is not designed to enable you to build immersive 3D worlds.
 
-## Browser Support and Hardware Acceleration
+## <span>Browser Support and Hardware Acceleration</span>
 
 An important piece of information to remember is that although a browser may "support" 3D, it might not be able to *render* 3D.
 
 3D scenes based on the DOM can be very computationally expensive and therefore browser vendors have decided that, rather than slow the browsers down with a pure software rendering solution, they instead will take advantage of GPU which might not be available on all platforms.
 
-## Feature Detection
+## <span>Feature Detection</span>
 
 What about feature detection? I was hoping that you weren't going to ask!
 
 Developers have been using tools such as [Modernizr](http://modernizr.com/) to detect support for specific browser features and abilities. Whilst it is possible to detect the presence of support for 3D transformations, it is not possible to detect for the presence of hardware acceleration, and hardware acceleration is the key ingredient.
 
-## Basic Sample
+## <span>Basic Sample</span>
 
 There is nothing better than jumping straight in. In this sample we will apply a basic set of rotations to an arbitrary DOM element. We start by defining a perspective on the root element.
 
@@ -60,7 +60,7 @@ BAM! That is it, the element is fully interactive, and in all respects it is a f
 
 If your browser doesn't support 3D transformations, nothing will happen. You will just see a simple iframe with no rotation applied. If your browser supports 3D transformations but without hardware acceleration, it might look a little odd.
 
-## Animating
+## <span>Animating</span>
 
 The thing that I love about CSS3 3D transformations is that it ties in so beautifully with the CSS Transition module. Animations and transitions are easy to define in CSS, and applying these to 3D is no exception.
 
@@ -68,13 +68,7 @@ To animate elements that have a 3D perspective, simply set the "transition" styl
 
 We have re-factored the previous examples to use document styles, rather than inline styles. Not only does it make the example more clear, it allows the sample to take advantage of the the CSS `:hover` pseudo class. By using `:hover`, transitions can be initiated by simply moving the mouse over the element. Awesome!
 
-## Summary
+## <span>Summary</span>
 
 This was just a quick glance over some of the cool effects that can be applied to any visible DOM element using CSS 3D transformations. There are still many things that can be done that have not been covered in this tutorial.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/3d/css/)
 

@@ -1,47 +1,51 @@
 ---
 title: minDecibels
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AnalyserNode
+    href: /apis/webaudio/AnalyserNode
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/webaudio/AnalyserNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The minimum power value in the scaling range for the FFT analysis data for conversion to unsigned byte values. Default is -100.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The minimum power value in the scaling range for the FFT analysis data for conversion to unsigned byte values. Default is -100.'
 uri: apis/webaudio/AnalyserNode/minDecibels
 
 ---
-# minDecibels
-
-## Summary
+## <span>Summary</span>
 
 The minimum power value in the scaling range for the FFT analysis data for conversion to unsigned byte values. Default is -100.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)</span></span>
+Property of [apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)[apis/webaudio/AnalyserNode](/apis/webaudio/AnalyserNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = AnalyserNode.minDecibels;
 AnalyserNode.minDecibels = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var analyser = audioCtx.createAnalyser();
 analyser.minDecibels = -90;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

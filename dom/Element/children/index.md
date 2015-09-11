@@ -1,47 +1,56 @@
 ---
 title: children
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/collections/children.htm'
+notes:
+  - 'Needs compat table'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Element
+    href: /dom/Element
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/Element
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves a live collection of child elements of an element.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat table'
-summary: 'Retrieves a live collection of child elements of an element.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/collections/children.htm'
 uri: dom/Element/children
 
 ---
-# children
-
-## Summary
+## <span>Summary</span>
 
 Retrieves a live collection of child elements of an element.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Element](/dom/Element)</span></span>
+Property of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var childElementList = element.children;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 A live [HTMLCollection](/dom/HTMLCollection) of child elements of the element.
 
-## Examples
+## <span>Examples</span>
 
 This example shows how to retrieve a collection of **input type=text**, [**div**](/html/elements/div) and [**button**](/html/elements/button). The **children** collection for `oChildDIV` includes **p**.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -151,28 +160,20 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/collections/children.htm)
 
-## Usage
+## <span>Usage</span>
 
      Use this property to get a live collection of the child elements of an element.
 
-## Notes
+## <span>Notes</span>
 
 -   Since this is a live collection, its **length**, as well as its content, will always change whenever child elements are added, removed, or reordered.
 -   The objects contained in the **children** collection are undefined if the child elements are overlapping tags.
 -   The **children** collection can contain HTML elements.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [WHATWG DOM](http://dom.spec.whatwg.org/)
 :   Living Standard
+
 [DOM4](http://www.w3.org/TR/dom/)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,48 +1,57 @@
 ---
 title: contains
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/DOMTokenList
+    href: /dom/DOMTokenList
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /dom/DOMTokenList
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Tests if a token is part of a DOMTokenList.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Tests if a token is part of a DOMTokenList.'
 uri: dom/DOMTokenList/contains
 
 ---
-# contains
-
-## Summary
+## <span>Summary</span>
 
 Tests if a token is part of a DOMTokenList.
 
-*Method of [dom/DOMTokenList](/dom/DOMTokenList)*
+Method of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var tokenExists = tokenList.contains(token);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### token
+### <span>token</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The requested token.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
 Whether the given token exists in the list. Returns `true` if the token is present; `false` otherwise.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // check an element's classList (a DOMTokenList) for a specific class
 function elHasClass(elid, cls) {
   var classes = document.getElementById(elid).classList;
@@ -53,28 +62,19 @@ function elHasClass(elid, cls) {
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 Throws a `SyntaxError` exception if *token* is empty.
 
 Throws an `InvalidCharacterError` exception if *token* contains any spaces.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `DOMTokenList`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,42 +1,49 @@
 ---
 title: message
+notes:
+  - 'Needs spec reference'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/DOMError
+    href: /dom/DOMError
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/DOMError
+summary: 'Returns the message associated with an error that occurred during a DOM operation.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference'
-summary: 'Returns the message associated with an error that occurred during a DOM operation.'
 uri: dom/DOMError/message
 
 ---
-# message
-
-## Summary
+## <span>Summary</span>
 
 Returns the message associated with an error that occurred during a DOM operation.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DOMError](/dom/DOMError)</span></span>
+Property of [dom/DOMError](/dom/DOMError)[dom/DOMError](/dom/DOMError)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.message;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The message associated with an error.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function getErrorMsg(e) {
 //retrieve message text for DOMError
 var errorMsg = e.message;

@@ -1,23 +1,21 @@
 ---
-title: inception deck
+title: Collaborative design sessions (Inception deck)
+readiness: 'Not Ready'
+summary: 'A User eXperience (UX) design technique'
 tags:
   - Concept
   - Pages
   - Design
   - UI
   - Usability
-readiness: 'Not Ready'
-summary: 'A User eXperience (UX) design technique'
 uri: 'concepts/ux/techniques/inception deck'
 
 ---
-# Collaborative design sessions (Inception deck)
-
-## Summary
+## <span>Summary</span>
 
 A User eXperience (UX) design technique
 
-### What it is
+### <span>What it is</span>
 
 Session that covers the following topics:
 
@@ -32,24 +30,23 @@ Session that covers the following topics:
 -   What's going to give.
 -   What's it going to take.
 
-### Who does it
+### <span>Who does it</span>
 
 The whole project team.
 
-### Key benefits
+### <span>Key benefits</span>
 
 -   Eliminate confusion and misunderstanding
 -   Set expectation
 -   Highlight challenges
 -   Get alignment
 
-## Usage
+## <span>Usage</span>
 
      At Scoping
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)
-

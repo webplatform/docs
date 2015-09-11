@@ -1,70 +1,82 @@
 ---
 title: fill-opacity
+notes:
+  - "Complete values, add example and compatibility.\nThe SVG property pages will be linked to here."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`1`'
+  'Applies to': 'shapes and text content elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: n/a
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: '‘fill-opacity’ specifies the opacity of the painting operation used to paint the interior the current object. (See Painting shapes and text.)'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - "Complete values, add example and compatibility.\nThe SVG property pages will be linked to here."
-summary: '‘fill-opacity’ specifies the opacity of the painting operation used to paint the interior the current object. (See Painting shapes and text.)'
 uri: css/properties/fill-opacity
 
 ---
-# fill-opacity
-
-## Summary
+## <span>Summary</span>
 
 ‘fill-opacity’ specifies the opacity of the painting operation used to paint the interior the current object. (See Painting shapes and text.)
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `1`
+
 Applies to
 :   shapes and text content elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   n/a
 
-## Syntax
+## <span>Syntax</span>
 
 -   `fill-opacity: inherit`
 
-## Values
+## <span>Values</span>
 
 inherit
 :
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      <opacity-value>
 
 The opacity of the painting operation used to fill the current object, as a \<number\>. Any values outside the range 0.0 (fully transparent) to 1.0 (fully opaque) will be clamped to this range. (See Clamping values which are restricted to a particular range.)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [stroke-opacity](http://www.w3.org/TR/SVG/painting.html#StrokeOpacityProperty)
 :   W3C Recommendation
+
 [opacity](http://www.w3.org/TR/SVG/masking.html#OpacityProperty)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
-[http://www.w3.org/TR/SVG/render.html\#PaintingShapesAndText](http://www.w3.org/TR/SVG/render.html#PaintingShapesAndText)
-
+<http://www.w3.org/TR/SVG/render.html#PaintingShapesAndText>

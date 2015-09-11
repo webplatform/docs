@@ -1,5 +1,15 @@
 ---
 title: applyConstraints
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/media_capture_and_streams/MediaStreamTrack
+    href: /apis/media_capture_and_streams/MediaStreamTrack
+standardization_status: 'W3C Working Draft'
+summary: 'Replaces all existing constraints with the provided constraints, if existing constraints exist. Otherwise, it applies the newly provided constraints to the track.'
 tags:
   0: API
   1: Object
@@ -8,40 +18,33 @@ tags:
   5: Capture
   6: and
   7: Streams
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Replaces all existing constraints with the provided constraints, if existing constraints exist. Otherwise, it applies the newly provided constraints to the track.'
 uri: 'apis/media capture and streams/MediaStreamTrack/applyConstraints'
 
 ---
-# applyConstraints
-
-## Summary
+## <span>Summary</span>
 
 Replaces all existing constraints with the provided constraints, if existing constraints exist. Otherwise, it applies the newly provided constraints to the track.
 
-*Method of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)*
+Method of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  track.applyConstraints(constraints);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### constraints
+### <span>constraints</span>
 
- Data-typeÂ
+ Data-type
 :   MediaTrackConstraints
 
-*(Optional)*
+(Optional)
 
 A new constraint structure to apply to this track.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 

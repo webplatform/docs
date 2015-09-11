@@ -1,19 +1,17 @@
 ---
-title: vg wow demos
+title: svg wow demos
+notes:
+  - 'Needs to be moved to tutorials, or merged with another guide.'
+readiness: 'Not Ready'
+summary: 'SVG WoW demos. Good showcase page, or could be used in separate pages?'
 tags:
   - Basic
   - Pages
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Needs to be moved to tutorials, or merged with another guide.'
-summary: 'SVG WoW demos. Good showcase page, or could be used in separate pages?'
 uri: 'svg wow demos'
 
 ---
-# svg wow demos
-
-## Summary
+## <span>Summary</span>
 
 SVG WoW demos. Good showcase page, or could be used in separate pages?
 
@@ -33,4 +31,3 @@ SVG WoW demos. Good showcase page, or could be used in separate pages?
 -   [Text Effects](http://svg-wow.org//blog/2010/09/25/text-effects)
 -   [Gandhi Quotes](http://svg-wow.org//blog/2010/10/05/gandhi-quotes)
 -   [Rotozoom video](http://svg-wow.org//blog/2011/03/28/rotozoom-video)
-

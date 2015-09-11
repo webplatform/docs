@@ -5,14 +5,14 @@ uri: Standards/WHATWG
 ---
 While not a formal standards organization, the Web Hypertext Application Technology Working Group (WHATWG) plays an active role in the standards ecosystem, with a focus on browser-specific technologies, like markup languages and client-side APIs, as well as Internet protocols.
 
-**Website:** [http://whatwg.org](http://whatwg.org)
+**Website:** <http://whatwg.org>
 
-## Organizational Structure
+## <span>Organizational Structure</span>
 
-### Funding
+### <span>Funding</span>
 
-## Communications
+## <span>Communications</span>
 
-## Process
+## <span>Process</span>
 
-## Patent Policy
+## <span>Patent Policy</span>

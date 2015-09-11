@@ -1,20 +1,22 @@
 ---
 title: setFloat64
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212469(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the Float64 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Sets the Float64 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.'
 uri: javascript/DataView/setFloat64
 
 ---
-# setFloat64
-
-## Summary
+## <span>Summary</span>
 
 Sets the Float64 value at the specified byte offset from the start of the view. There is no alignment constraint; multi-byte values may be set at any offset.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dataView.setFloat64 (byteOffset, value, littleEndian);
 
@@ -27,11 +29,11 @@ Sets the Float64 value at the specified byte offset from the start of the view. 
 **littleEndian**
 :   Optional. If false or undefined, a big-endian value should be written, otherwise a little-endian value should be written.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to set the first Float64 in the DataView.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -46,13 +48,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 These methods raise an exception if they would write beyond the end of the view.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212469(v=vs.94).aspx)
 

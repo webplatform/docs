@@ -1,17 +1,15 @@
 ---
-title: etter spacing
+title: letter spacing
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: 'letter spacing'
 
 ---
-# letter spacing
-
-## letter spacing
+## <span>letter spacing</span>
 
 In typography, the amount of space between a group of letters, adjusted to affect density in a line or block of text. Also called *tracking*, and often confused with kerning.
 

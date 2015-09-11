@@ -1,19 +1,19 @@
 ---
 title: orderX
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/orderX
 
 ---
-# orderX
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 For JavaScript, the **orderX** property indicates the number of columns in the [**kernelMatrix**](/svg/properties/kernelMatrix). For HTML, the **order** attribute is used to set both *orderX* and *orderY*, as described next.
 
@@ -23,21 +23,14 @@ A typical value is **order="3"**. It is recommended that only small values (such
 
 If the **order** attribute is not specified, the effect is as if a value of 3 were specified.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.12
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGFEConvolveMatrixElement**](/svg/elements/feConvolveMatrix)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,40 +1,49 @@
 ---
 title: label
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/audio-video/TextTrack
+    href: /apis/audio-video/TextTrack
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/audio-video/TextTrack
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the text track label, if there is one, or the empty string otherwise (indicating that a custom label probably needs to be generated from the other attributes of the object if the object is exposed to the user).'
 tags:
   0: API
   1: Object
   2: Properties
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the text track label, if there is one, or the empty string otherwise (indicating that a custom label probably needs to be generated from the other attributes of the object if the object is exposed to the user).'
 uri: apis/audio-video/TextTrack/label
 
 ---
-# label
-
-## Summary
+## <span>Summary</span>
 
 Returns the text track label, if there is one, or the empty string otherwise (indicating that a custom label probably needs to be generated from the other attributes of the object if the object is exposed to the user).
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/TextTrack](/apis/audio-video/TextTrack)</span></span>
+Property of [apis/audio-video/TextTrack](/apis/audio-video/TextTrack)[apis/audio-video/TextTrack](/apis/audio-video/TextTrack)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = TextTrack.label;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -62,16 +71,7 @@ var result = TextTrack.label;
 </html>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

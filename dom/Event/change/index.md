@@ -1,54 +1,97 @@
 ---
 title: change
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onchangeEX.htm'
+notes:
+  - 'Needs summary, spec, and compat'
+readiness: 'In Progress'
 tags:
   - Events
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec, and compat'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onchangeEX.htm'
 uri: dom/Event/change
 
 ---
-# change
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **onchange** event to retrieve the selected option of a **select** object.
 
-    <body>
-    <form>
-      <p>Select a different option in the drop-down list box to trigger the onchange event.
-      <select name="selTest" onchange="alert('Index: ' + this.selectedIndex
-         + '\nValue: ' + this.options[this.selectedIndex].value)">
-      <option value="Books">Books</option>
-      <option value="Clothing">Clothing</option>
-      <option value="Housewares">Housewares</option>
-      </select> </p>
-    </form>
-    </body>
+``` html
+<body>
+<form>
+  <p>Select a different option in the drop-down list box to trigger the onchange event.
+  <select name="selTest" onchange="alert('Index: ' + this.selectedIndex
+     + '\nValue: ' + this.options[this.selectedIndex].value)">
+  <option value="Books">Books</option>
+  <option value="Clothing">Clothing</option>
+  <option value="Housewares">Housewares</option>
+  </select> </p>
+</form>
+</body>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onchangeEX.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This event is fired when the contents are committed and not while the value is changing. For example, on a text box, this event is not fired while the user is typing, but rather when the user commits the change by leaving the text box that has focus. In addition, this event is executed before the code specified by [**onblur**](/dom/HTMLElement/blur) when the control is also losing the focus. The **onchange** event does not fire when the selected option of the **select** object is changed programmatically. Changed text selection is committed. To invoke this event, do one of the following:
 
@@ -82,20 +125,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

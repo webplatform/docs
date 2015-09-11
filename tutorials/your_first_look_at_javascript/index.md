@@ -1,25 +1,23 @@
 ---
-title: your first look at javascript
+title: Your first look at JavaScript
+readiness: 'Ready to Use'
+summary: 'Now it is time to get your hands dirty. This article provides a basic introduction to coding with JavaScript.'
 tags:
   - Tutorials
   - JavaScript
   - WSC
-readiness: 'Ready to Use'
-summary: 'Now it is time to get your hands dirty. This article provides a basic introduction to coding with JavaScript.'
 uri: 'tutorials/your first look at javascript'
 
 ---
-# Your first look at JavaScript
-
-## Summary
+## <span>Summary</span>
 
 Now it is time to get your hands dirty. This article provides a basic introduction to coding with JavaScript.
 
-## Introduction
+## <span>Introduction</span>
 
 In this article of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum), we will cover the basics of JavaScript — how and where to use it, what problems to avoid, and general basics to get you started on your journey towards becoming a top-notch JavaScript developer.
 
-## What is JavaScript and how do you execute it?
+## <span>What is JavaScript and how do you execute it?</span>
 
 JavaScript is a text-based language that does not need any conversion before being executed. Other languages like [Java and C++ need to be compiled to be executable](http://dev.opera.com/articles/view/38-programming-the-real-basics/#interpreted) but JavaScript is executed instantly by a type of program that interprets the code called a parser (pretty much all web browsers contain a JavaScript parser).
 
@@ -27,11 +25,11 @@ To execute JavaScript in a browser you have two options — either put it inside
 
 JavaScript does not have to stay inside browsers. To run JavaScript in console environment, please check out [Mozilla Rhino](https://developer.mozilla.org/en-US/docs/Rhino/Download_Rhino); to run JavaScript in server environment, please check [node.js](http://nodejs.org/).
 
-### Including your JavaScript inside your HTML document
+### <span>Including your JavaScript inside your HTML document</span>
 
 The most basic inclusion of JavaScript inside your HTML page would look something like this:
 
-``` {.html}
+``` html
 <script>
   var x = 3;
   alert('hello there, I am JavaScript - x is ' + x);
@@ -42,7 +40,7 @@ The most basic inclusion of JavaScript inside your HTML page would look somethin
 
 As there might be several different types of script available to use on web pages in the future, it makes sense to add the name of the script you are using as a MIME type:
 
-``` {.html}
+``` html
 <script type="text/javascript">
   var x = 3;
   alert('hello there, I am JavaScript - x is ' + x);
@@ -53,7 +51,7 @@ As there might be several different types of script available to use on web page
 
 In the past there was a need to comment out JavaScript with an HTML comment to prevent browsers from showing the code as HTML. As this only applies to very old browsers you do not need to bother with that any longer. However, if you are using strict XHTML as your DOCTYPE, you need to enclose any JavaScript in a CDATA block to make it validate (do not worry about why - it is not really important at this stage in your learning):
 
-``` {.html}
+``` html
 <script type="text/javascript">
 /* <![CDATA[ */
   var x = 3;
@@ -64,17 +62,17 @@ In the past there was a need to comment out JavaScript with an HTML comment to p
 
  However, for strict XHTML documents, it is much more sensible not to embed any JavaScript but instead keep it in an external document.
 
-### Linking to an external JavaScript file
+### <span>Linking to an external JavaScript file</span>
 
 In order to link to an external JavaScript (either on the same server or anywhere on the internet) all you have to do is to add a `src` attribute to your script element:
 
-``` {.html}
+``` html
 <script type="text/javascript" src="myscript.js"></script>
 ```
 
  Upon meeting this element in a page, browsers will then load the file `myscript.js` and execute it. Any content inside the `script` element itself will be skipped when you provide a `src` attribute. The following example will load the file `myscript.js` and execute the code in it, but will not execute the alert inside the `script` element at all.
 
-``` {.html}
+``` html
 <script type="text/javascript" src="myscript.js">
   alert('I am pointless as I will not be executed');
 </script>
@@ -89,11 +87,11 @@ In order to link to an external JavaScript (either on the same server or anywher
 
 You can add as many JavaScript files as you want to a document, but there are several considerations to make before going down that route.
 
-## JavaScript and browser performance
+## <span>JavaScript and browser performance</span>
 
 Cutting up a lot of JavaScript into different files, each dealing with one task at a time, is a great idea to keep your functionality easy to maintain and allow for quick bug-fixing. For example, you could have several script blocks like these:
 
-``` {.html}
+``` html
 <script type="text/javascript" src="config.js"></script>
 <script type="text/javascript" src="base.js"></script>
 <script type="text/javascript" src="effects.js"></script>
@@ -113,13 +111,13 @@ One way around this is to use a backend script to create a single file from all 
 
 The delay in display also defines where you want to put your JavaScript in the document.
 
-## Where to put JavaScript
+## <span>Where to put JavaScript</span>
 
 Technically you can put JavaScript anywhere in your document. The decision you have to make is to weigh performance against making it easy for developers to find your scripts and ensuring that your JavaScript enhancements work immediately for your visitors.
 
 The classic best practice for placing scripts was in the `head` of the document:
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -139,7 +137,7 @@ The drawbacks are that your scripts delay the display of the document and that t
 
 Performance specialists have started to advocate placing your JavaScript at the end of the `body` instead:
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -159,7 +157,7 @@ You might confuse developers who maintain your code because this practice is not
 
 It is up to you to choose what fits the purpose of your website; you could even choose to do a mixture of both — put the scripts with very important functionality in the `head`, and call them in conjunction with the “nice-to-have” scripts at the end of the document.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -176,7 +174,7 @@ It is up to you to choose what fits the purpose of your website; you could even 
 
  Whatever you do, make sure that the order of your scripts is right, as browsers will load and parse them one after the other. This also brings us to another thing to consider when using JavaScript.
 
-## JavaScript security and the lack thereof
+## <span>JavaScript security and the lack thereof</span>
 
 We cannot stress this enough. JavaScript is a wonderful language and can help you to build highly responsive and beautifully interactive web sites and applications, but where it falls down terribly is security. In short, there is no security model in JavaScript and you should not protect, encrypt, secure, or store anything vital or secret with it.
 
@@ -190,7 +188,7 @@ JavaScript is always readily available for reading and analyzing by other develo
 
 Whereas packing and obfuscation are useless as security measures, they are often done on medium and large scripts before the code is put live on the web as part of the publication process. This helps to cut down on the amount of bandwidth required to serve the site to its users. Saving a few bytes here and there may not seem significant on your blog about kittens, but it can add up to massive savings when you are dealing with a site with usage figures like those of google.com.
 
-## Techniques to avoid
+## <span>Techniques to avoid</span>
 
 The biggest problem with learning JavaScript is that there is a massive amount of outdated and possibly dangerous information out there. This is especially frustrating as a lot of this information is very well presented and gives a lot of beginners a “quick win” feeling of knowing JavaScript by copying and pasting some ready-made code.
 
@@ -201,19 +199,19 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 -   `<a href="javascript:doStuff()">…</a>` — this was a very common way to invoke JavaScript functionality, most of the time when a button was not an option (you cannot style buttons in older browsers). The problem is that this is not a valid link as `javascript` is not an internet protocol (like `ftp://` or `http://`). If JavaScript is turned off the link still appears and gives the user false hope that something is going to happen.
 -   `document.layers` and `document.all` — both of these solutions were the DOM equivalents in old browsers (Netscape 4.x and Internet Explorer 4 respectively) and unless you need to support those (sorry if you have to) this is unnecessary code.
 
-## See also
+## <span>See also</span>
 
-### Exercise Questions
+### <span>Exercise Questions</span>
 
 -   What does the following link do and what problems can that cause?
 
-``` {.html}
+``` html
 <a href="javascript: open('tac.pdf')">Read our Terms and Conditions</a>
 ```
 
 -   Providing parameters for scripts is a powerful way of making them reusable. It is very important to keep the option to provide compact and easy to use parameters. What are the downsides of the following solution (which provides parameters that are compact and easy to use)?
 
-``` {.html}
+``` html
 <script src="badge.js"> var color = 'blue'; var background = 'yellow'; var width = 400; </script>
 ```
 
@@ -221,7 +219,6 @@ As the environment JavaScript is being applied to is very much unknown (users ca
 -   Where in the document would you put a large script that is nice to have but not vital to the functionality of the site? Why?
 -   What is the problem with executing scripts like this:
 
-``` {.html}
+``` html
 <body onload="init()">
 ```
-

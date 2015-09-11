@@ -1,25 +1,25 @@
 ---
-title: file dnd
+title: Reading files in JavaScript using the file APIs
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/file/dndfiles/)'
+readiness: 'Ready to Use'
+summary: 'An introduction to HTML5 JavaScript file API.'
 tags:
   - Tutorials
   - FileAPI
   - HTML
   - JavaScript
-readiness: 'Ready to Use'
-summary: 'An introduction to HTML5 JavaScript file API.'
 uri: 'tutorials/file dnd'
 
 ---
-# Reading files in JavaScript using the file APIs
-
 **By [Eric Bidelman](http://www.html5rocks.com/profiles/#ericbidelman)**
 Originally published June 18, 2010
 
-## Summary
+## <span>Summary</span>
 
 An introduction to HTML5 JavaScript file API.
 
-## Introduction
+## <span>Introduction</span>
 
 HTML5 finally provides a standard way to interact with local files, via the [File API](http://www.w3.org/TR/file-upload/) specification. As examples of its capabilities, the File API could be used to create a thumbnail preview of images as they're sent to the server, or to allow an app to save a file reference while the user is offline. Additionally, you could use client-side logic to verify that an upload's MIME type matches its file extension or to restrict the size of an upload.
 
@@ -31,7 +31,7 @@ The specification provides several interfaces for accessing files from a local f
 
 When used in conjunction with the above data structures, the [`FileReader`](http://dev.w3.org/2006/webapi/FileAPI/#filereader-interface) interface can be used to asynchronously read a file through familiar JavaScript event handling. Thus, it is possible to monitor the progress of a read, catch errors, and determine when a load is complete. In many ways the APIs resemble `XMLHttpRequest`'s event model.
 
-## Selecting files
+## <span>Selecting files</span>
 
 The first thing to do is check that your browser fully supports the File API:
 
@@ -44,7 +44,7 @@ The first thing to do is check that your browser fully supports the File API:
 
 Of course, if your app will only use some of these APIs, modify this snippet accordingly.
 
-### Using form input for selecting
+### <span>Using form input for selecting</span>
 
 The most straightforward way to load a file is to use a standard `<input type="file">` element. JavaScript returns the list of selected `File` objects as a `FileList`. Here's an example that uses the `multiple` attribute to allow selecting several files at once:
 
@@ -71,7 +71,7 @@ The most straightforward way to load a file is to use a standard `<input type="f
 
 **Example**: Using form input for selecting. Try it [here](http://www.html5rocks.com/en/tutorials/file/dndfiles/)!
 
-### Using drag and drop for selecting
+### <span>Using drag and drop for selecting</span>
 
 Another technique for loading files is native drag and drop from the desktop to the browser. We can modify the previous example slightly to include drag and drop support.
 
@@ -112,7 +112,7 @@ Another technique for loading files is native drag and drop from the desktop to 
 
 **Note:** Some browsers treat `<input type="file">` elements as native drop targets. Try dragging files onto the input field in the previous example.
 
-## Reading files
+## <span>Reading files</span>
 
 Now comes the fun part!
 
@@ -175,7 +175,7 @@ The example below filters out images from the user's selection, calls `reader.re
 
 **Example**: Reading files. Try it [here](http://www.html5rocks.com/en/tutorials/file/dndfiles/)!
 
-### Slicing a file
+### <span>Slicing a file</span>
 
 In some cases reading the entire file into memory isn't the best option. For example, say you wanted to write an asynchronous file uploader. One possible way to speed up the upload would be to read and send the file in separate byte range chunks. The server component would then be responsible for reconstructing the file content in the correct order.
 
@@ -246,7 +246,7 @@ The following example demonstrates reading chunks of a file. Something worth not
 
 **Example**: Slicing a file. Try it [here](http://www.html5rocks.com/en/tutorials/file/dndfiles/)!
 
-### Monitoring the progress of a read
+### <span>Monitoring the progress of a read</span>
 
 One of the nice things that we get for free when using async event handling is the ability to monitor the progress of the file read; useful for large files, catching errors, and figuring out when a read is complete. The `onloadstart` and `onprogress` events can be used to monitor the progress of a read.
 
@@ -343,17 +343,10 @@ The example below demonstrates displaying a progress bar to monitor the status o
 
 **Example**: Monitoring the progress of a read. Try it [here](http://www.html5rocks.com/en/tutorials/file/dndfiles/)!
 
-## References
+## <span>References</span>
 
 -   [File](http://www.w3.org/TR/file-upload/) API specification
 -   [FileReader](http://www.w3.org/TR/file-upload/#dfn-filereader) interface specification
 -   [Blob](http://www.w3.org/TR/file-upload/#dfn-Blob) interface specification
 -   [FileError](http://www.w3.org/TR/file-upload/#dfn-fileerror) interface specification
 -   [ProgressEvent](http://www.w3.org/TR/progress-events/#Progress) specification
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/file/dndfiles/)
-

@@ -1,5 +1,15 @@
 ---
 title: src
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, examples, clean-up of MSDN import'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLMediaElement
+    href: /dom/HTMLMediaElement
 tags:
   0: API
   1: Object
@@ -7,42 +17,37 @@ tags:
   4: Audio
   5: DOM
   6: Video
-readiness: 'Not Ready'
-notes:
-  - 'summary, examples, clean-up of MSDN import'
 uri: dom/HTMLMediaElement/src
 
 ---
-# src
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLMediaElement](/dom/HTMLMediaElement)</span></span>
+Property of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.src;
 element.src = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This property overrides a **source** element if both are used in a document.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.2
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `track element`
 -   `track object`
@@ -53,10 +58,3 @@ This property overrides a **source** element if both are used in a document.
 -   `video element`
 -   `video object`
 -   `currentSrc`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

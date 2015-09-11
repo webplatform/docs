@@ -1,32 +1,38 @@
 ---
 title: Array
-tags:
-  0: JS
-  1: Basic
-  3: Object
-readiness: 'Ready to Use'
-summary: "Provides support for creation of arrays of any data type.\n"
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k4h76zbx(v=vs.94).aspx)'
 code_samples:
   - 'http://gist.github.com/42267d4185785ffcf82e'
   - 'http://gist.github.com/8856471'
   - 'http://gist.github.com/8856494'
   - 'http://gist.github.com/8857418'
+readiness: 'Ready to Use'
+summary: "Provides support for creation of arrays of any data type.\n"
+tags:
+  0: JS
+  1: Basic
+  3: Object
 uri: javascript/Array
 
 ---
-# Array
-
-## Summary
+## <span>Summary</span>
 
 Provides support for creation of arrays of any data type.
 
 Array is an object used to list values together. When you create an array, you’re setting up a list that you can fill with key:value pairs. You can then refer to a whole list using just that one array name. You can also refer to one item in the list using the key, also called an index when the key is a number.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     [ element0 [, element1 [, ...[, elementN ]]]]
 
+<span class="language">JavaScript</span>
+
     new Array([ element0 [, element1 [, ...[, elementN ]]]])
+
+<span class="language">JavaScript</span>
 
     new Array([ length ])
 
@@ -36,7 +42,7 @@ Array is an object used to list values together. When you create an array, you�
 **length**
 :   Optional. The length of the array. As arrays are zero-based, created elements will have indexes from zero to size -1.
 
-## Return Value
+## <span>Return Value</span>
 
 When no arguments are provided, creates and returns a new Array object, with a length property (whose initial value is +0).
 
@@ -48,11 +54,11 @@ If the only argument is a Number and ToUint32(len) is not equal to len, a RangeE
 
 If the only argument is not a Number, then the length property of the newly constructed object is set to 1 and the 0 property of the newly constructed object is set to len.
 
-## Examples
+## <span>Examples</span>
 
 After an array is created, you can access the individual elements of the array by using [n] notation. Note that unlike other programming languages, arrays keys are only numeric. Keys starts by 0.
 
-``` {.js}
+``` js
 // Literal notation
 var my_array = [];
 for (i = 0; i < 10; i++) {
@@ -67,7 +73,7 @@ document.write(x);
 
 You can pass an unsigned 32-bit integer to the **Array** constructor to specify the size of the array. If the value is negative or not an integer, a run-time error occurs. If you run the following code, you should see this error in the Console.
 
-``` {.js}
+``` js
 var arr = new Array(10);
 document.write(arr.length);
 // Output: 10
@@ -81,7 +87,7 @@ arr = new Array(1.50);
 
 If a single value is passed to the **Array** constructor, and it is not a number, the **length** property is set to 1, and the value of the only element becomes the single, passed-in argument.
 
-``` {.js}
+``` js
 var arr = new Array("one");
  document.write(arr.length);
  document.write(arr[0]);
@@ -95,7 +101,7 @@ var arr = new Array("one");
 
 Adding members, to an array can be done by using the prototypal inheritance chain and call the `push()` method on it.
 
-``` {.js}
+``` js
 var ponies = ['Twilight Sparkle','Pinkie Pie','Rainbow Dash'];
 
 // Adding a new member
@@ -108,11 +114,11 @@ console.log(ponies[3]);
 
 [View live example](http://code.webplatform.org/gist/8857418)
 
-## Remarks
+## <span>Remarks</span>
 
 JavaScript arrays are referred to as "sparse," which means that elements in an array can be undefined and deleted. The keys, or index, are not reordered into a denser table, unless you do so, explicitly.
 
-## Usage
+## <span>Usage</span>
 
      Array is a standard, built-in object. Among other things, this means you can create a new array by using the object creation expression new Array(), as in:
 
@@ -133,85 +139,56 @@ This array combines a string, a number and a Boolean value. An array is often ca
 
 Arrays are a useful kind of object for many reasons. For example, because the keys are numerical indexes by default, it's easy to iterate, or loop, through all of the values. They also have special properties that other objects don't have. But if your array becomes more complex, you may want to consider using an object instead.
 
-## Properties
+## <span>Properties</span>
 
 The following table lists the properties of the **Array** object.
 
-Property
-:   Summary
-[constructor](/javascript/Array/constructor)
-:   References the function which created the instance of the Array object.
-[length](/javascript/Array/length)
-:   Basically specifies the number of elements (AKA length) in an **Array** object. This means the **length** property represents a number one greater than the largest index defined in an **Array** object.
-[prototype](/javascript/Array/prototype)
-:   Returns a reference to the prototype for a class of array.
+|Property|Summary|
+|:-------|:------|
+|[constructor](/javascript/Array/constructor)|References the function which created the instance of the Array object.|
+|[length](/javascript/Array/length)|Basically specifies the number of elements (AKA length) in an **Array** object. This means the **length** property represents a number one greater than the largest index defined in an **Array** object.|
+|[prototype](/javascript/Array/prototype)|Returns a reference to the prototype for a class of array.|
 
-## Functions
+## <span>Functions</span>
 
 The following table lists the functions of the **Array** object.
 
-## Methods
+## <span>Methods</span>
 
 The following table lists the methods of the **Array** object.
 
-Method
-:   Summary
-[concat](/javascript/Array/concat)
-:   Combines two or more arrays.
-[every](/javascript/Array/every)
-:   Determines whether all the members of an array satisfy the specified test.
-[filter](/javascript/Array/filter)
-:   Returns the elements of an array that meet the condition specified in a callback function.
-[forEach](/javascript/Array/forEach)
-:   Performs the specified action for each element in an array.
-[indexOf](/javascript/Array/indexOf)
-:   Returns the index of the first occurrence of a value in an array.
-[isArray](/javascript/Array/isArray)
-:   Determines whether an object is an array.
-[join](/javascript/Array/join)
-:   Adds all the elements of an array separated by the specified separator string.
-[lastIndexOf](/javascript/Array/lastIndexOf)
-:   Returns the index of the last occurrence of a specified value in an array.
-[map](/javascript/Array/map)
-:   Calls a defined callback function on each element of an array, and returns an array that contains the results.
-[pop](/javascript/Array/pop)
-:   Removes the last element from an array and returns it.
-[push](/javascript/Array/push)
-:   Appends new elements to an array, and returns the new length of the array.
-[reduce](/javascript/Array/reduce)
-:   Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
-[reduceRight](/javascript/Array/reduceRight)
-:   Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
-[reverse](/javascript/Array/reverse)
-:   Reverses the elements in an **Array**.
-[shift](/javascript/Array/shift)
-:   Removes the first element from an array and returns it.
-[slice](/javascript/Array/slice)
-:   Returns a section of an array.
-[some](/javascript/Array/some)
-:   Determines whether the specified callback function returns true for any element of an array.
-[sort](/javascript/Array/sort)
-:   Sorts an **Array**.
-[splice](/javascript/Array/splice)
-:   Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
-[toString](/javascript/Array/toString)
-:   Returns a string representation of an array.
-[unshift](/javascript/Array/unshift)
-:   Inserts new elements at the start of an array.
-[valueOf](/javascript/Array/valueOf)
-:   Returns the primitive value of the specified object.
-[hasOwnProperty](/javascript/Object/hasOwnProperty)
-:   Determines whether an object has a property with the specified name.
-[isPrototypeOf](/javascript/Object/isPrototypeOf)
-:   Determines whether an object exists in another object's prototype chain.
-[propertyIsEnumerable](/javascript/Object/propertyIsEnumerable)
-:   Determines whether a specified property is enumerable.
-[toLocaleString](/javascript/Object/toLocaleString)
-:   Returns a date converted to a string using the current locale.
+|Method|Summary|
+|:-----|:------|
+|[concat](/javascript/Array/concat)|Combines two or more arrays.|
+|[every](/javascript/Array/every)|Determines whether all the members of an array satisfy the specified test.|
+|[filter](/javascript/Array/filter)|Returns the elements of an array that meet the condition specified in a callback function.|
+|[forEach](/javascript/Array/forEach)|Performs the specified action for each element in an array.|
+|[indexOf](/javascript/Array/indexOf)|Returns the index of the first occurrence of a value in an array.|
+|[isArray](/javascript/Array/isArray)|Determines whether an object is an array.|
+|[join](/javascript/Array/join)|Adds all the elements of an array separated by the specified separator string.|
+|[lastIndexOf](/javascript/Array/lastIndexOf)|Returns the index of the last occurrence of a specified value in an array.|
+|[map](/javascript/Array/map)|Calls a defined callback function on each element of an array, and returns an array that contains the results.|
+|[pop](/javascript/Array/pop)|Removes the last element from an array and returns it.|
+|[push](/javascript/Array/push)|Appends new elements to an array, and returns the new length of the array.|
+|[reduce](/javascript/Array/reduce)|Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.|
+|[reduceRight](/javascript/Array/reduceRight)|Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.|
+|[reverse](/javascript/Array/reverse)|Reverses the elements in an **Array**.|
+|[shift](/javascript/Array/shift)|Removes the first element from an array and returns it.|
+|[slice](/javascript/Array/slice)|Returns a section of an array.|
+|[some](/javascript/Array/some)|Determines whether the specified callback function returns true for any element of an array.|
+|[sort](/javascript/Array/sort)|Sorts an **Array**.|
+|[splice](/javascript/Array/splice)|Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.|
+|[toString](/javascript/Array/toString)|Returns a string representation of an array.|
+|[unshift](/javascript/Array/unshift)|Inserts new elements at the start of an array.|
+|[valueOf](/javascript/Array/valueOf)|Returns the primitive value of the specified object.|
+|[hasOwnProperty](/javascript/Object/hasOwnProperty)|Determines whether an object has a property with the specified name.|
+|[isPrototypeOf](/javascript/Object/isPrototypeOf)|Determines whether an object exists in another object's prototype chain.|
+|[propertyIsEnumerable](/javascript/Object/propertyIsEnumerable)|Determines whether a specified property is enumerable.|
+|[toLocaleString](/javascript/Object/toLocaleString)|Returns a date converted to a string using the current locale.|
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [JavaScript, by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 -   [Eloquent JavaScript: A Modern Introduction to Programming, by Marijn Haverbeke](http://eloquentjavascript.net/)
@@ -219,15 +196,9 @@ Method
 -   [JavaScript Patterns: Build Better Applications with Coding and Design Patterns, By Stoyan Stefanov](http://shop.oreilly.com/product/9780596806767.do)
 -   [Secrets of the JavaScript Ninja, by John Resig and Bear Bibeault](http://www.manning.com/resig/)
 
-### Specification
+### <span>Specification</span>
 
 [15.4 Array Objects](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4)
 
 ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/k4h76zbx(v=vs.94).aspx)
 

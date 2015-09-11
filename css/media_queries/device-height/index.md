@@ -1,39 +1,38 @@
 ---
 title: device-height
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, values, syntax, example, description, specifications, compatibility.'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
 tags:
   - CSS
   - Media
   - Feature
   - DOM
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add summery, values, syntax, example, description, specifications, compatibility.'
 uri: 'css/media queries/device-height'
 
 ---
-# device-height
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
  The device-height media query should not be used for the same reasons the [device-width](/css/media_queries/device-width) should not be used. Use [height](/css/media_queries/height) instead.
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Media Queries Level 4](http://www.w3.org/TR/mediaqueries-4/)
 :   Working Draft
+
 [Media Queries](http://www.w3.org/TR/css3-mediaqueries/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -72,12 +71,3 @@ Specification
 -   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
 
 -   [behavior](/css/properties/behavior)
-
--   [Targeting styles with media queries](/tutorials/media_queries)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

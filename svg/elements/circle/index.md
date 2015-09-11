@@ -1,49 +1,51 @@
 ---
 title: circle
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The circle element is an SVG basic shape, used to create circles based on a center point and a radius.'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-summary: 'The circle element is an SVG basic shape, used to create circles based on a center point and a radius.'
 uri: svg/elements/circle
 
 ---
-# circle
-
-## Summary
+## <span>Summary</span>
 
 The circle element is an SVG basic shape, used to create circles based on a center point and a radius.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the circle element is used to draw a tomato-colored circle with radius 50.
 
-``` {.html}
+``` html
 <svg width="400" height="400">
   <circle cx="100" cy="100" r="50" fill="tomato" />
 </svg>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 The arc of a **circle** element begins at the 3 o'clock point on the radius and progresses towards the 9 o'clock point. The starting point and direction of the arc are affected by the user space transform in the same manner as the geometry of the element.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Basic Shapes](http://www.w3.org/TR/SVG11/shapes.html#InterfaceSVGCircleElement), Section 9.8.2
 
-### Members
+### <span>Members</span>
 
 Specific attributes of **SVGCircleElement**:
 
@@ -95,18 +97,10 @@ The **SVGCircleElement** object has these methods:
 -   [**getTransformToElement**](/svg/methods/getTransformToElement): Gets the transformation matrix that transforms from the user coordinate system on the current element to the user coordinate system on the specified target element.
 -   [**hasExtension**](/svg/methods/hasExtension): Determines if the specified extension is supported.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [SVG 1.1](http://www.w3.org/TR/SVG/shapes.html#CircleElement)
 :   W3C Recommendation
+
 [SVG Tiny 1.2](http://www.w3.org/TR/SVGTiny12/shapes.html#CircleElement)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

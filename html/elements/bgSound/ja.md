@@ -1,5 +1,15 @@
 ---
-title: ja
+title: bgsound
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+lang: ja
+notes:
+  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLBGSoundElement](/dom/HTMLBGSoundElement)'
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+summary: "bgsoundはユーザがそのページにいる間、音楽ファイルを再生させるための要素です。\nこの要素を使用せず、代わりにaudio要素を使用してください。\n"
 tags:
   - Pages
   - using
@@ -11,30 +21,23 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
-summary: "bgsoundはユーザがそのページにいる間、音楽ファイルを再生させるための要素です。\nこの要素を使用せず、代わりにaudio要素を使用してください。\n"
 uri: html/elements/bgSound/ja
 
 ---
-# bgsound
-
-## Summary
+## <span>Summary</span>
 
 bgsoundはユーザがそのページにいる間、音楽ファイルを再生させるための要素です。 この要素を使用せず、代わりにaudio要素を使用してください。
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLBGSoundElement](/dom/HTMLBGSoundElement)
 
-## Examples
+## <span>Examples</span>
 
 音楽ファイルを再生したい場合、[audio](/html/elements/audio/ja)要素を使用してください。
 
-``` {.html}
+``` html
 
 
 <audio autoplay id="bgsound">
@@ -52,25 +55,25 @@ bgsoundはユーザがそのページにいる間、音楽ファイルを再生�
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### 備考
+### <span>備考</span>
 
 `<bgSound>`要素は文書内のどこにでも記述することができます。 この要素は画面上に表示されません。 この要素は終了タグ(\</bgsound\>)が要りません。 この要素は使用しないでください。 HTML5では、`<bgSound>`は["非適合機能"](http://momdo.github.io/html5/obsolete.html#non-conforming-features)として記述されています。
 
-### 標準情報
+### <span>標準情報</span>
 
 There are no standards that apply here.
 
-### HTML information
+### <span>HTML information</span>
 
 {
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Audio
+#### <span>Audio</span>
 
 -   [audio-video](/apis/audio-video)
 
@@ -84,8 +87,6 @@ There are no standards that apply here.
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
--   [user-input](/css/properties/user-input)
-
 -   [bgSound](/html/elements/bgSound)
 
 -   **bgsound**
@@ -93,10 +94,3 @@ There are no standards that apply here.
 -   [implementing html5 audio](/tutorials/implementing_html5_audio)
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

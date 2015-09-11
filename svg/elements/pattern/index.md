@@ -1,61 +1,65 @@
 ---
 title: pattern
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Defines a block of graphics which can be used as a repeating pattern tile to paint the fill or stroke of other elements.'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Defines a block of graphics which can be used as a repeating pattern tile to paint the fill or stroke of other elements.'
 uri: svg/elements/pattern
 
 ---
-# pattern
-
-## Summary
+## <span>Summary</span>
 
 Defines a block of graphics which can be used as a repeating pattern tile to paint the fill or stroke of other elements.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, a pattern fills a circle. The pattern is made up of a repeated series of wedge-shaped paths. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the pattern-filled circle.
 
 The pattern-filled circle will look like this:
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <!-- Create SVG container. -->
-        <svg width="400" height="400">
-          <!-- Definitions -->
-          <defs>
-            <!-- Define pattern for fill. -->
-            <pattern id="myPattern" patternUnits="userSpaceOnUse" x="0" y="0" width="30" height="30" >
-              <!-- Create path for individual piece of pattern. -->
-              <path d="M 0 10 L 25 30 L 50 30 Z" stroke="darkorchid"
-                            stroke-width="3" fill="cornflowerblue" />
-            </pattern>
-          </defs>
-          <!-- Circle that will use pattern definition for fill. -->
-          <circle cx="100" cy="100" r="75" stroke="forestgreen"
-                    stroke-width="3" fill="url(#myPattern)" />
-        </svg>
-      </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <!-- Create SVG container. -->
+    <svg width="400" height="400">
+      <!-- Definitions -->
+      <defs>
+        <!-- Define pattern for fill. -->
+        <pattern id="myPattern" patternUnits="userSpaceOnUse" x="0" y="0" width="30" height="30" >
+          <!-- Create path for individual piece of pattern. -->
+          <path d="M 0 10 L 25 30 L 50 30 Z" stroke="darkorchid"
+                        stroke-width="3" fill="cornflowerblue" />
+        </pattern>
+      </defs>
+      <!-- Circle that will use pattern definition for fill. -->
+      <circle cx="100" cy="100" r="75" stroke="forestgreen"
+                stroke-width="3" fill="url(#myPattern)" />
+    </svg>
+  </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -65,11 +69,11 @@ The [**x**](/svg/properties/x), [**y**](/svg/properties/y), [**width**](/svg/pro
 
 For more information, see [Scalable Vector Graphics (SVG) 1.0 Specification](http://go.microsoft.com/fwlink/p/?linkid=203737).
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.5
 
-### Members
+### <span>Members</span>
 
 The **SVGPatternElement** object has these events:
 
@@ -109,16 +113,7 @@ coordinate system onto the target coordinate system.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [SVG 1.1](http://www.w3.org/TR/SVG11/pservers.html#Patterns)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

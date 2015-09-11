@@ -1,33 +1,35 @@
 ---
 title: shift
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9e7b4w20(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Removes the first element from an array and returns it.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Removes the first element from an array and returns it.'
 uri: javascript/Array/shift
 
 ---
-# shift
-
-## Summary
+## <span>Summary</span>
 
 Removes the first element from an array and returns it.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     shift( )
 
-## Return Value
+## <span>Return Value</span>
 
 Returns the element removed from the array.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the shift method.
 
-``` {.js}
+``` js
 var arr = new Array(10, 11, 12);
  while (arr.length > 0)
      {
@@ -39,15 +41,9 @@ var arr = new Array(10, 11, 12);
  // 10 11 12
 ```
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.9 Array.prototype.shift ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.9) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9e7b4w20(v=vs.94).aspx)
 

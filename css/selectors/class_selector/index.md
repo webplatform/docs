@@ -9,36 +9,36 @@ Working with HTML, authors may use the "period" notation (also known as "full st
 
 UAs may apply selectors using the period (`.`) notation in XML documents if the UA has namespace-specific knowledge that allows it to determine which attribute is the "class" attribute for the respective namespace. One such example of namespace-specific knowledge is the prose in the specification for a particular namespace (e.g. SVG 1.0 [SVG11](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#SVG11) describes the SVG class attribute and how a UA should interpret it, and similarly MathML 1.01 [MATHML](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#MATHML) describes the MathML class attribute.)
 
-## CSS examples:
+## <span>CSS examples:</span>
 
 We can assign style information to all elements with `class~="pastoral"` as follows:
 
-``` {.css}
+``` css
 *.pastoral { color: green }  /* all elements with class~=pastoral */
 ```
 
  or just
 
-``` {.css}
+``` css
 .pastoral { color: green }  /* all elements with class~=pastoral */
 ```
 
  The following assigns style only to H1 elements with `class~="pastoral"`:
 
-``` {.css}
+``` css
 H1.pastoral { color: green }  /* H1 elements with class~=pastoral */
 ```
 
  Given these rules, the first H1 instance below would not have green text, while the second would:
 
-``` {.html}
+``` html
 <H1>Not green</H1>
 <H1 class="pastoral">Very green</H1>
 ```
 
  The following rule matches any P element whose class attribute has been assigned a list of whitespace-separated values that includes both pastoral and marine:
 
-``` {.css}
+``` css
 p.pastoral.marine { color: green }
 ```
 

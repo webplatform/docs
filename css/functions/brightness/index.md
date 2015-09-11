@@ -1,21 +1,19 @@
 ---
-title: brightness
+title: brightness()
+code_samples:
+  - 'http://codepen.io/pverbeek/pen/Aamdu'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Adjust the brightness of an element''s color, for use by the filter property.  A value of 100% or decimal value of 1 leaves the image as is, while 0 produces black.  Increasing the value from 1 or 100% brightens pixels from their original values.'
 tags:
   0: CSS
   1: Functions
   3: Graphics
   4: SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Adjust the brightness of an element''s color, for use by the filter property.  A value of 100% or decimal value of 1 leaves the image as is, while 0 produces black.  Increasing the value from 1 or 100% brightens pixels from their original values.'
-code_samples:
-  - 'http://codepen.io/pverbeek/pen/Aamdu'
 uri: css/functions/brightness
 
 ---
-# brightness()
-
-## Summary
+## <span>Summary</span>
 
 Adjust the brightness of an element's color, for use by the filter property. A value of 100% or decimal value of 1 leaves the image as is, while 0 produces black. Increasing the value from 1 or 100% brightens pixels from their original values.
 
@@ -26,11 +24,11 @@ Adjust the brightness of an element's color, for use by the filter property. A v
 
   ![f17-boatonlake2.jpg](/assets/thumb/1/15/f17-boatonlake2.jpg/300px-f17-boatonlake2.jpg)![f18-boatonlake2bright.jpg](/assets/thumb/6/67/f18-boatonlake2bright.jpg/300px-f18-boatonlake2bright.jpg)
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the difference between two images, where one has a brightness of 50%: ![filter brightness.png](/assets/thumb/c/c9/filter_brightness.png/400px-filter_brightness.png)
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -46,19 +44,19 @@ The following example shows the difference between two images, where one has a b
     </style>
   </head>
   <body>
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo" />
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo bar" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo bar" />
   </body>
 </html>
 ```
 
 [View live example](http://codepen.io/pverbeek/pen/Aamdu)
 
-## Notes
+## <span>Notes</span>
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
-``` {.xml}
+``` xml
 <filter id="brightness">
   <feComponentTransfer>
     <feFuncR type="linear" slope="[amount]"/>
@@ -68,20 +66,19 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 </filter>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
+
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -165,8 +162,7 @@ Specification
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### External resources
+### <span>External resources</span>
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)
-

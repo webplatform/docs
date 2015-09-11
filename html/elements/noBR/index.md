@@ -1,5 +1,14 @@
 ---
 title: noBR
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+summary: 'Indicates that the enclosed text should not be broken across lines; use the CSS property white-space instead.'
 tags:
   - Pages
   - using
@@ -11,41 +20,36 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
-summary: 'Indicates that the enclosed text should not be broken across lines; use the CSS property white-space instead.'
 uri: html/elements/noBR
 
 ---
-# noBR
-
-## Summary
+## <span>Summary</span>
 
 Indicates that the enclosed text should not be broken across lines; use the CSS property white-space instead.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **NOBR** element to prevent text lines from breaking.
 
-    <NOBR>Here's a line of text I don't want to be broken . . .
-    here's the end of the line.</NOBR>
+``` html
+<NOBR>Here's a line of text I don't want to be broken . . .
+here's the end of the line.</NOBR>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320)
 
-### Members
+### <span>Members</span>
 
 The **noBR** object has these types of members:
 
@@ -53,13 +57,6 @@ The **noBR** object has these types of members:
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### Events
+#### <span>Events</span>
 
 The **noBR** object has these events. {
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

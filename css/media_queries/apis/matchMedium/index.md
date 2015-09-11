@@ -1,43 +1,52 @@
 ---
 title: matchMedium
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add example, specifications, compatibility.'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/media_queries/apis/StyleMedia
+    href: /css/media_queries/apis/StyleMedia
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /css/media_queries/apis/StyleMedia
+summary: 'Indicates whether the document currently matches a media query.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Add example, specifications, compatibility.'
-summary: 'Indicates whether the document currently matches a media query.'
 uri: 'css/media queries/apis/matchMedium'
 
 ---
-# matchMedium
-
-## Summary
+## <span>Summary</span>
 
 Indicates whether the document currently matches a media query.
 
-*Method of [css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)*
+Method of [css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)[css/media\_queries/apis/StyleMedia](/css/media_queries/apis/StyleMedia)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var matchesMedia = window.styleMedia.matchMedium(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### mediaQuery
+### <span>mediaQuery</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The media query to match.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
 Boolean
 
@@ -45,15 +54,15 @@ Returns whether the media type of the document matches the media type that the *
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 The *mediaQuery* parameter can contain a string that specifies a media type, an optional well-formed Cascading Style Sheets (CSS) media query, or both. For more information on Media Queries, see Media Queries.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -109,13 +118,9 @@ The *mediaQuery* parameter can contain a string that specifies a media type, an 
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -155,11 +160,55 @@ The *mediaQuery* parameter can contain a string that specifies a media type, an 
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    â€¦ further results
+-   [pageX](/css/cssom/properties/pageX)
 
-#### Media Queries
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   **matchMedium**
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -199,9 +248,7 @@ The *mediaQuery* parameter can contain a string that specifies a media type, an 
 
 -   [behavior](/css/properties/behavior)
 
--   [Targeting styles with media queries](/tutorials/media_queries)
-
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `StyleMedia`
 -   `<b/>`
@@ -209,10 +256,3 @@ The *mediaQuery* parameter can contain a string that specifies a media type, an 
 -   `Internet Explorer Test Drive: CSS3 Media Queries`
 -   `CSS3 Media Queries (IE Team Blog post)`
 -   `Respond to Different Devices With CSS3 Media Queries (Script Junkie)`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,20 +1,22 @@
 ---
 title: comparison
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ky6fyhws(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a Boolean value indicating the result of the comparison.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a Boolean value indicating the result of the comparison.'
 uri: javascript/operators/comparison
 
 ---
-# comparison
-
-## Summary
+## <span>Summary</span>
 
 Returns a Boolean value indicating the result of the comparison.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     expression1 comparisonoperator expression2
 
@@ -27,11 +29,11 @@ Returns a Boolean value indicating the result of the comparison.
 **expression2**
 :   Any expression.
 
-## Examples
+## <span>Examples</span>
 
 See Remarks.
 
-``` {.js}
+``` js
 var x = 5;
 var y = 7;
 var z = (x > y); // false
@@ -40,7 +42,7 @@ var z = (y >= x); // true
 var z = (y <= x); // false
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 When comparing strings, JavaScript uses the Unicode character value of the string expression.
 
@@ -67,10 +69,4 @@ Equality operators: **==** , **!=**
 Identity operators: **===** , **!==**
 
 These operators behave the same as the equality operators, except that no type conversion is done. If the types of both expressions are not the same, these expressions always return false.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ky6fyhws(v=vs.94).aspx)
 

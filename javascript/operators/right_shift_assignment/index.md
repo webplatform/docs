@@ -1,20 +1,22 @@
 ---
 title: right shift assignment
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7fd7s4a7(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Right shifts the value of a variable by the number of bits specified in the value of an expression, maintaining the sign, and assigns the result to the variable.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Right shifts the value of a variable by the number of bits specified in the value of an expression, maintaining the sign, and assigns the result to the variable.'
 uri: 'javascript/operators/right shift assignment'
 
 ---
-# right shift assignment
-
-## Summary
+## <span>Summary</span>
 
 Right shifts the value of a variable by the number of bits specified in the value of an expression, maintaining the sign, and assigns the result to the variable.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result >>= expression
 
@@ -24,9 +26,9 @@ Right shifts the value of a variable by the number of bits specified in the valu
 **expression**
 :   Any expression.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // 14 is 00000000000000000000000000001110
 var temp = 14;
 temp >>= 2;
@@ -35,7 +37,7 @@ document.write(temp);
 //Output: 3
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Using the **\>\>=** operator is exactly the same as specifying:
 
@@ -47,17 +49,11 @@ The **\>\>=** operator shifts the bits of result right by the number of bits spe
     temp = -14
     temp >>= 2
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Bitwise Left Shift Operator (\<\<)](/javascript/operators/bitwise_left_shift)
 -   [Bitwise Right Shift Operator (\>\>)](/javascript/operators/bitwise_right_shift)
 -   [Unsigned Right Shift Operator (\>\>\>)](/javascript/operators/unsigned_right_shift)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7fd7s4a7(v=vs.94).aspx)
 

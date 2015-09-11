@@ -1,24 +1,30 @@
 ---
 title: Int16Array
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212480(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'A typed array of 16-bit integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'A typed array of 16-bit integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 uri: javascript/Int16Array
 
 ---
-# Int16Array
-
-## Summary
+## <span>Summary</span>
 
 A typed array of 16-bit integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     int16Array = new Int16Array( length );
 
+<span class="language">JavaScript</span>
+
     int16Array = new Int16Array( array );
+
+<span class="language">JavaScript</span>
 
     int16Array = new Int16Array( buffer , byteOffset , length );
 
@@ -40,11 +46,11 @@ A typed array of 16-bit integer values. The contents are initialized to 0. If th
 **length**
 :   The length of the array.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use an Int16Array object to process the binary data acquired from an XmlHttpRequest:
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -63,46 +69,32 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## Constants
+## <span>Constants</span>
 
 The following table lists the constants of the **Int16Array** object.
 
-Constant
-:   Description
-[BYTES\_PER\_ELEMENT Constant](/javascript/Int16Array/BYTES_PER_ELEMENT)
-:   The size in bytes of each element in the array.
+|Constant|Description|
+|:-------|:----------|
+|[BYTES\_PER\_ELEMENT Constant](/javascript/Int16Array/BYTES_PER_ELEMENT)|The size in bytes of each element in the array.|
 
-## Properties
+## <span>Properties</span>
 
 The following table lists the constants of the **Int16Array** object.
 
-Property
-:   Description
-[buffer Property](/javascript/Int16Array/buffer)
-:   Read-only. Gets the ArrayBuffer that is referenced by this array.
-[byteLength Property](/javascript/Int16Array/byteOffset)
-:   Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
-[byteOffset Property](/javascript/Int8Array/byteOffset)
-:   Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
-[length Property](/javascript/Float32Array/length)
-:   The length of the array.
+|Property|Description|
+|:-------|:----------|
+|[buffer Property](/javascript/Int16Array/buffer)|Read-only. Gets the ArrayBuffer that is referenced by this array.|
+|[byteLength Property](/javascript/Int16Array/byteOffset)|Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.|
+|[byteOffset Property](/javascript/Int8Array/byteOffset)|Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.|
+|[length Property](/javascript/Float32Array/length)|The length of the array.|
 
-## Methods
+## <span>Methods</span>
 
 The following table lists the methods of the **Int16Array** object.
 
-Method
-:   Description
-[get Method](/javascript/Int16Array/get)
-:   Omittable. Gets the element at the specified index.
-[set Method (Int16Array)](/javascript/Int16Array/set)
-:   Sets a value or an array of values.
-[subarray Method (Int16Array)](/javascript/Int16Array/subarray)
-:   Gets a new Int16Array view of the ArrayBuffer store for this array.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212480(v=vs.94).aspx)
+|Method|Description|
+|:-----|:----------|
+|[get Method](/javascript/Int16Array/get)|Omittable. Gets the element at the specified index.|
+|[set Method (Int16Array)](/javascript/Int16Array/set)|Sets a value or an array of values.|
+|[subarray Method (Int16Array)](/javascript/Int16Array/subarray)|Gets a new Int16Array view of the ArrayBuffer store for this array.|
 

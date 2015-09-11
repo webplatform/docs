@@ -1,26 +1,26 @@
 ---
-title: device orientation
+title: Using device orientation
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/device/orientation/)'
+notes:
+  - 'Firefox has now convered to the same deviceorientation as others; there are new incompatibilities issues to document though http://lists.w3.org/Archives/Public/public-geolocation/2012Jun/0000.html. Outdated.'
+readiness: 'Out of Date'
+summary: 'An introduction to using device orientation events.'
 tags:
   - Tutorials
   - API
   - DOMEvents
   - Mobile
-readiness: 'Out of Date'
-notes:
-  - 'Firefox has now convered to the same deviceorientation as others; there are new incompatibilities issues to document though http://lists.w3.org/Archives/Public/public-geolocation/2012Jun/0000.html. Outdated.'
-summary: 'An introduction to using device orientation events.'
 uri: 'tutorials/device orientation'
 
 ---
-# Using device orientation
-
 **By [Pete LePage](http://www.html5rocks.com/profiles/#petele)**
 
-## Summary
+## <span>Summary</span>
 
 An introduction to using device orientation events.
 
-## Introduction
+## <span>Introduction</span>
 
 Many new computers, mobile phones, and other devices are now shipping standard with accelerometers, gyroscopes, compasses, and other hardware designed to determine and capture motion and orientation data. At the same time, web browsers are providing increasingly more access to that new hardware. Examples of that are the new [HTML5 DeviceOrientation and DeviceMotion events](http://dev.w3.org/geo/api/spec-source-orientation). These events provide developers with information about the orientation, motion, and acceleration of the device.
 
@@ -28,7 +28,7 @@ These events have a lot of fun uses, such as using orientation to control the di
 
 In this article, we’ll take a look at three different events, and use CSS to rotate an image based on the orientation of the device.
 
-## Which end is up?
+## <span>Which end is up?</span>
 
 There are a couple of things that we need to make sure we understand before we can start using these events: which end is up, and what are the axes we’re going to use?
 
@@ -44,9 +44,9 @@ The rotation data uses Euler angles to represent the difference between the devi
 
 One thing to keep in mind is that most people don’t use their phones when they’re in this flat position, and instead have rotated them around the x-axis so the screen is facing them. This will affect the acceleration data that is returned from the device motion events.
 
-## The events
+## <span>The events</span>
 
-### Device orientation
+### <span>Device orientation</span>
 
 The device orientation event returns only the rotation data, which includes how much the device is leaning side-to-side (beta), front-to-back (gamma) and — if the phone or laptop has a compass — the direction the device is facing (alpha).
 
@@ -64,7 +64,7 @@ Let’s see some examples:
 *The device is leaning toward the user, facing north*
 `{evt.alpha: 0, evt.beta: 45, evt.gamma: 0}` ![up06.jpg](/assets/public/0/09/up06.jpg)
 
-### MozOrientation
+### <span>MozOrientation</span>
 
 Firefox has a slightly different implementation of the device orientation event, and instead uses the [MozOrientationEvent](https://developer.mozilla.org/en/Detecting_device_orientation#Processing_orientation_events). The MozOrientationEvent provides information about the side-to-side tilt (using the parameter x), the front-to-back tilt (using the parameter y), and, instead of providing the compass direction, it provides the vertical acceleration (using the parameter z).
 
@@ -74,31 +74,29 @@ The `MozOrientation` event returns three values:
 -   `Y` - the amount of front-to-back tilt. When the laptop is level, the value is zero; it approaches +1 as it’s titled away from you and approaches -1 as it’s tilted toward you.
 -   `Z` - the amount of vertical acceleration. When undergoing normal earth gravity the value is -1; it decreases as the device is moved up. The value is 0 if the device is thrust up.
 
-### Device motion
+### <span>Device motion</span>
 
 The device motion event is a superset of the device orientation event; it returns data about the rotation information and also [acceleration](http://en.wikipedia.org/wiki/Acceleration) information about the device. The acceleration data is returned in three axes: x, y, and z. The axes are measured in meters per second per second, or [meters per second squared](http://en.wikipedia.org/wiki/Metre_per_second_per_second) (m/s\^2). Because some devices might not have the hardware to exclude the effect of gravity, the event returns two properties, `accelerationIncludingGravity` and `acceleration`, which excludes the effects of gravity. (When this is the case, the acceleration data will be null).
 
 For a laptop in its normal position, with the screen facing up, the data returned would be:
 
-:   Not accelerating
-*acceleration*
-:   {0, 0, 0}
-*accelerationIncludingGravity*
-:   {0, 0, 9.81}
+||Not accelerating|Accelerating up|Accelerating forward|Accelerating left|Accelerating up and to the right|
+|:--|:---------------|:--------------|:-------------------|:----------------|:-------------------------------|
+|*acceleration*|{0, 0, 0}|{0, 0, 5}|{0, 2, 0}|{3, 0, 0}|{5, 0, 9}|
+|*accelerationIncludingGravity*|{0, 0, 9.81}|{0, 0, 15}|{0, 2, 9.81}|{3, 0, 9.81}|{5, 0, 11}|
 
 A mobile phone rotated along the x-axis so the screen is perpendicular to its normal position would return:
 
-:   Not accelerating
-*acceleration*
-:   {0, 0, 0}
-*accelerationIncludingGravity*
-:   {0, 9.81, 0}
+||Not accelerating|Accelerating up|Accelerating forward|Accelerating left|Accelerating up and to the right|
+|:--|:---------------|:--------------|:-------------------|:----------------|:-------------------------------|
+|*acceleration*|{0, 0, 0}|{0, 5, 0}|{0, 0, 2}|{3, 0, 0}|{5, 5, 0}|
+|*accelerationIncludingGravity*|{0, 9.81, 0}|{0, 15, 0}|{0, 9.81, 2}|{3, 9.81, 0}|{5, 11, 0}|
 
-## Using the DeviceOrientation events
+## <span>Using the DeviceOrientation events</span>
 
 Since DeviceOrientation and MozOrientation are similar, we’ll look at them together in this sample.
 
-### 1. Check for compatibility
+### <span>1. Check for compatibility</span>
 
 Check to see if either the DeviceOrientationEvent or the MozOrientationEvent is supported.
 
@@ -110,7 +108,7 @@ Check to see if either the DeviceOrientationEvent or the MozOrientationEvent is 
 
 One thing to note: some devices (for example, the original iPad) say that they support the event when in fact they don’t. In these cases, the event is fired only once, and all of the properties are null.
 
-### 2. Declare the markup
+### <span>2. Declare the markup</span>
 
 For this example, we’re going to display the orientation data and then apply that information as a CSS3 transform to an image.
 
@@ -144,7 +142,7 @@ For this example, we’re going to display the orientation data and then apply t
       <img src="html5_logo.png" id="imgLogo" class="logo">
     </div>
 
-### 3. Add an event listener
+### <span>3. Add an event listener</span>
 
 Now that we know what events are supported, add the appropriate event listeners:
 
@@ -156,7 +154,7 @@ Now that we know what events are supported, add the appropriate event listeners:
       window.addEventListener('MozOrientation', mozDevOrientHandler, false);
     }
 
-### 4. Normalize the data
+### <span>4. Normalize the data</span>
 
 The HTML5 DeviceOrientation event returns three pieces of data:
 
@@ -211,7 +209,7 @@ Because Firefox uses the `MozOrientationEvent` which returns similar data but us
       document.getElementById("doEvent").innerHTML = "Not supported on your device or browser."
     }
 
-### 5. Create an event handler
+### <span>5. Create an event handler</span>
 
 We’ve already normalized our data, so we’ll display it in the table we created in step 2, and also rotate the image using a CSS3 transform.
 
@@ -227,17 +225,17 @@ We’ve already normalized our data, so we’ll display it in the table we creat
     document.getElementById("imgLogo").style.transform = "rotate(" + tiltLR +
       "deg) rotate3d(1,0,0, " + (tiltFB * -1) + "deg)";
 
-### The final product
+### <span>The final product</span>
 
 ![up07.png](/assets/public/3/3b/up07.png)
 
 Try it out [here](http://www.html5rocks.com/en/tutorials/device/orientation/deviceorientationsample.html), and view the source to see it in action.
 
-## Using the DeviceMotion events
+## <span>Using the DeviceMotion events</span>
 
 The `DeviceMotionEvent` provides the acceleration and rotation data of the device. In our example, we’re going to use `accelerationIncludingGravity` to determine the orientation of the device and get a similar result to the sample we built with `DeviceOrientation`.
 
-### 1. Check for compatibility
+### <span>1. Check for compatibility</span>
 
 First thing we want to do is determine if the DeviceMotionEvent is supported using feature detection.
 
@@ -247,7 +245,7 @@ First thing we want to do is determine if the DeviceMotionEvent is supported usi
 
 Like `DeviceOrientationEvent`, if a browser cannot provide motion information, the event will be fired once and all properties will be null.
 
-### 2. Add an event listener
+### <span>2. Add an event listener</span>
 
 Now that we know that the browser and device supports the DeviceMotionEvent, we can add an event listener.
 
@@ -257,7 +255,7 @@ Now that we know that the browser and device supports the DeviceMotionEvent, we 
       document.getElementById("dmEvent").innerHTML = "Not supported on your device."
     }
 
-### 3. Declare the markup
+### <span>3. Declare the markup</span>
 
 For this example, we’re just going to display data that we receive.
 
@@ -287,7 +285,7 @@ For this example, we’re just going to display data that we receive.
       <img src="html5_logo.png" id="imgLogo" class="logo">
     </div>
 
-### 4. Create an event handler
+### <span>4. Create an event handler</span>
 
 We want to display the raw data that we get back, but also convert that into something that we can use to rotate our image, so we need to do a little math to convert from m/s\^2 to an angle.
 
@@ -322,7 +320,7 @@ We want to display the raw data that we get back, but also convert that into som
       document.getElementById("imgLogo").style.webkitTransform = rotation;
     }
 
-### The final product
+### <span>The final product</span>
 
 When you load the page and move the device around the bottom of the HTML5 logo should always point down, towards earth.
 
@@ -330,30 +328,23 @@ When you load the page and move the device around the bottom of the HTML5 logo s
 
 Try it out [here](http://www.html5rocks.com/en/tutorials/device/orientation/devicemotionsample.html), and view the source to see it in action.
 
-## Additional resources
+## <span>Additional resources</span>
 
 Here are a few other resources and demos you can check out that use the HTML5 device orientation or device motion events.
 
-### Physics articles
+### <span>Physics articles</span>
 
 -   [Acceleration](http://en.wikipedia.org/wiki/Acceleration)
 -   [Acceleration of Gravity](http://en.wikipedia.org/wiki/Acceleration_of_gravity)
 -   [Acceleration of Gravity on Earth](http://en.wikipedia.org/wiki/Acceleration_of_gravity#Earth.27s_gravity)
 -   [Euler Angles](http://en.wikipedia.org/wiki/Euler_angles)
 
-### The Specs
+### <span>The Specs</span>
 
 -   [W3C Device Orientation Event Specification](http://dev.w3.org/geo/api/spec-source-orientation)
 -   [Mozilla DOM Orientation Event](https://developer.mozilla.org/en/XPCOM_Interface_Reference/nsIDOMOrientationEvent)
 -   [Mozilla Processing Orientation Events](https://developer.mozilla.org/en/Detecting_device_orientation#Processing_orientation_events)
 
-### A neat demo
+### <span>A neat demo</span>
 
 [Pong](http://petelepage.com/scratch/pong/) An experiment to try out device orientation in gaming.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/device/orientation/)
-

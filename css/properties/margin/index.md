@@ -1,52 +1,64 @@
 ---
 title: margin
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The margin property is shorthand to allow you to set all four margins of an element at once. Its equivalent longhand properties are margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.'
 code_samples:
   0: 'http://gist.github.com/5727296'
   2: 'http://gist.github.com/5727295'
-uri: css/properties/margin
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`Depends on the particular element. Different elements have different default margins.`'
+  'Applies to': 'All elements except elements with table display types other than table-caption, table, and inline-table'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified, but with relative lengths converted into absolute pixel values.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`margin`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The margin property is shorthand to allow you to set all four margins of an element at once. Its equivalent longhand properties are margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.'
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/margin
 
 ---
-# margin
-
-## Summary
+## <span>Summary</span>
 
 The margin property is shorthand to allow you to set all four margins of an element at once. Its equivalent longhand properties are margin-top, margin-right, margin-bottom and margin-left. Negative values are also allowed.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `Depends on the particular element. Different elements have different default margins.`
+
 Applies to
 :   All elements except elements with table display types other than table-caption, table, and inline-table
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified, but with relative lengths converted into absolute pixel values.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `margin`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `margin: auto`
 -   `margin: inherit`
 -   `margin: length`
 -   `margin: percentage`
 
-## Values
+## <span>Values</span>
 
 length
 :   Specifies a fixed length, using any standard [CSS length units](http://docs.webplatform.org/wiki/css/units/length) . Negative Values are allowed.
@@ -62,7 +74,7 @@ auto
 inherit
 :   Causes the element it is applied to to take on the same margin values as its parent.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing different combinations of margin values applied to three identically sized elements.
 
@@ -70,7 +82,7 @@ A simple example showing different combinations of margin values applied to thre
 -   The second one has no margin on the top and bottom, but `auto` set on the left and right, causing it to center in the parent container.
 -   The third one has four individual values, including a negative top margin, causing it to move up, above the level of the second container, and a large left margin, causing it to be shunted over to the right.
 
-``` {.html}
+``` html
 <div class="one"></div>
 <div class="two"></div>
 <div class="three"></div>
@@ -80,7 +92,7 @@ A simple example showing different combinations of margin values applied to thre
 
 The CSS applied to the above HTML.
 
-``` {.css}
+``` css
 /**
  * margin examples
  */
@@ -122,7 +134,7 @@ div {
 
 The following example demonstrates the different ways of using the `margin` property.
 
-``` {.css}
+``` css
 .text-margin {
   /*
   This uses the margin: value syntax.
@@ -159,7 +171,7 @@ The following example demonstrates the different ways of using the `margin` prop
 
 The HTML accompanying the above example.
 
-``` {.html}
+``` html
 <div class="container">
   <p class="text-margin">This paragraph uses the <code>margin: value</code> syntax.</p>
 </div>
@@ -177,7 +189,7 @@ The HTML accompanying the above example.
 </div>
 ```
 
-## Usage
+## <span>Usage</span>
 
      * margin can take 1-4 values for its value, including CSS length units, percentage values, or the keywords auto or inherit:
 
@@ -189,18 +201,16 @@ The HTML accompanying the above example.
 -   When two margins collide, for example when one block level element has a bottom margin set, immediately followed by another block level element with a top margin, the larger of the two margins remains, and the smaller one collapses and disappears.
 -   Margins are always transparent.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1 (Section 8.3)](http://www.w3.org/TR/CSS2/box.html#margin-properties)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   [border](/css/properties/border)
 
@@ -242,7 +252,7 @@ Specification
 
 -   [min-width](/css/properties/min-width)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -253,4 +263,3 @@ Specification
 -   `CSS Values and Units Reference`
 -   `Other Resources`
 -   `CSS Enhancements in Internet Explorer 6`
-

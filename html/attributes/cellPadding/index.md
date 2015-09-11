@@ -1,80 +1,70 @@
 ---
 title: cellPadding
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+summary: 'Specifies the space, in pixels, between the cell wall and the cell content. Not supported in HTML5. Use CSS.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Specifies the space, in pixels, between the cell wall and the cell content. Not supported in HTML5. Use CSS.'
 uri: html/attributes/cellPadding
 
 ---
-# cellPadding
-
-## Summary
+## <span>Summary</span>
 
 Specifies the space, in pixels, between the cell wall and the cell content. Not supported in HTML5. Use CSS.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-The
+</th>
+<td>
+ ?
 
-<table>
-cellpadding attribute is not supported in HTML5. Use CSS instead. The cellpadding attribute specifies the space, in pixels, between the cell wall and the cell content. Note: Do not confuse this with the cellspacing attribute, which specifies the space between cells. Tip: It may be better to NOT specify a cellpadding, and use CSS to apply padding instead.
+</td>
+</tr>
+</table>
+The *table* element cellpadding attribute is not supported in HTML5. Use CSS instead.
 
-## Examples
+The *cellpadding* attribute specifies the space between each cell stroke. Value has to be a number, and is interpreted as a size in pixels.
 
-``` {.html}
+Note: Do not confuse this with the *cellspacing* attribute, which specifies the space between cells.
+
+Tip: It may be better to NOT specify a *cellpadding*, and use CSS to apply padding instead.
+
+## <span>Examples</span>
+
+Here is a table where we use the `cellpadding` and `border` table attributes.
+
+``` html
+<table border="1" cellpadding="10">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>0</td>
+  </tr>
+</table>
 ```
 
-<table border="1" cellpadding="10">
-�
-<tr>
-  �
-<th>
-Month
-</th>
-  �
-<th>
-Savings
-</th>
-�
-</tr>
-�
-<tr>
-  �
-<td>
-January
-</td>
-  �
-<td>
-0
-</td>
-�
-</tr>
-</table>
+## <span>Related specifications</span>
 
-### Syntax
+[Document Object Model (DOM) Level 1, Section 2.5.5](http://www.w3.org/TR/REC-DOM-Level-1/)
+:   Recommendation
 
-### Standards information
+[HTML 4.01 Specification, Section 11.3.3](http://www.w3.org/TR/html401/)
+:   Recommendation
 
--   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
--   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 11.3.3
+## <span>See also</span>
 
-## See also
+### <span>Related pages (MSDN)</span>
 
-### Related pages (MSDN)
-
--   `table`
--   `cellSpacing`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
-</table>
+-   [table](/html/elements/table)
+-   [cellSpacing](/html/attributes/cells)

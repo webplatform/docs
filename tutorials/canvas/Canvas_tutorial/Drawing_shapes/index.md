@@ -1,30 +1,31 @@
 ---
 title: Drawing shapes
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en/Canvas_tutorial/Drawing_shapes)'
+readiness: 'Ready to Use'
+summary: 'This part of the tutorial explains how to draw lines and shapes. The article covers more complex paths, too.'
 tags:
   - Tutorials
   - Canvas
-readiness: 'Ready to Use'
-summary: 'This part of the tutorial explains how to draw lines and shapes. The article covers more complex paths, too.'
 uri: 'tutorials/canvas/Canvas tutorial/Drawing shapes'
 
 ---
-# Drawing shapes
-
-## Summary
+## <span>Summary</span>
 
 This part of the tutorial explains how to draw lines and shapes. The article covers more complex paths, too.
 
-## The grid
+## <span>The grid</span>
 
 Before we can start drawing, we need to talk about the canvas grid or *coordinate space*. The HTML template on the previous page had a canvas element 150 pixels wide and 150 pixels high. I've drawn this image with the default grid overlayed. Normally 1 unit in the grid corresponds to 1 pixel on the canvas. The origin of this grid is positioned in the top left corner (coordinate (0,0)). All elements are placed relative to this origin. So the position of the top left corner of the blue square becomes x pixels from the left and y pixels from the top (coordinate (x,y)). Later in this tutorial we'll see how we can translate the origin to a different position, rotate the grid and even scale it. For now we'll stick to the default.
 
 ![Basic canvas grid with coordinates](/assets/public/5/50/Canvas_default_grid.png)
 
-## Drawing shapes
+## <span>Drawing shapes</span>
 
 Unlike [SVG](/svg), canvas only supports one primitive shape - rectangles. All other shapes must be created by combining one or more paths. Luckily, we have a collection of path drawing functions which make it possible to compose very complex shapes.
 
-### Rectangles
+### <span>Rectangles</span>
 
 First let's look at the rectangle. There are three functions that draw rectangles on the canvas:
 
@@ -36,7 +37,7 @@ Each of these three functions takes the same parameters. `x` and `y` specify the
 
 Below is the `draw()` function from the previous page, but now I've added the three functions above.
 
-#### Rectangular shape example
+#### <span>Rectangular shape example</span>
 
     function draw(){
       var canvas = document.getElementById('tutorial');
@@ -55,7 +56,7 @@ The result should look something like the image on the right. The `fillRect` fun
 
 Unlike the path functions we'll see in the next section, all three rectangle functions draw immediately to the canvas.
 
-## Drawing paths
+## <span>Drawing paths</span>
 
 To make shapes using paths, we need a couple of extra steps.
 
@@ -81,7 +82,7 @@ For example, the code for drawing a triangle would look something like this:
     ctx.lineTo(100,25);
     ctx.fill();
 
-### moveTo
+### <span>moveTo</span>
 
 One very useful function, which doesn't actually draw anything, but is part of the path list described above, is the `moveTo` function. You can probably best think of this as lifting a pen or pencil from one spot on a piece of paper and placing it on the next.
 
@@ -95,7 +96,7 @@ When the canvas is initialized or the `beginPath` method is called, you typicall
 
 To try this for yourself, you can use the code snippet below. Just paste it into the `draw` function we saw earlier.
 
-#### moveTo example
+#### <span>moveTo example</span>
 
     ctx.beginPath();
     ctx.arc(75,75,50,0,Math.PI*2,true); // Outer circle
@@ -109,7 +110,7 @@ To try this for yourself, you can use the code snippet below. Just paste it into
 
 **Note**: Remove the `moveTo` methods to see the connecting lines. For a description of the `arc` function and its parameters look below.
 
-### Lines
+### <span>Lines</span>
 
 For drawing straight lines we use the `lineTo` method.
 
@@ -117,7 +118,7 @@ For drawing straight lines we use the `lineTo` method.
 
 This method takes two arguments - `x` and `y`, - which are the coordinates of the line's end point. The starting point is dependent on previous drawn paths, where the end point of the previous path is the starting point for the following, etc. The starting point can also be changed by using the `moveTo` method.
 
-#### lineTo example
+#### <span>lineTo example</span>
 
 ![Two triangles on a canvas, used to demonstrate lineTo](/assets/public/c/cb/Canvas_lineTo.png)
 
@@ -140,7 +141,7 @@ You'll notice the difference between the filled and stroked triangle. This is, a
     ctx.closePath();
     ctx.stroke();
 
-### Arcs
+### <span>Arcs</span>
 
 For drawing arcs or circles we use the `arc` method. The specification also describes the `arcTo` method, which is supported by Safari and Firefox, but wasn't implemented in the older Gecko browsers.
 
@@ -150,7 +151,7 @@ This method takes five parameters: `x` and `y` are the coordinates of the circle
 
 **Note**: Angles in the `arc` function are measured in radians, not degrees. To convert degrees to radians you can use the following JavaScript expression: `var radians = (Math.PI/180)*degrees`.
 
-#### arc example
+#### <span>arc example</span>
 
 ![A canvas with a series of arcs and sections of filled circles](/assets/public/f/f6/Canvas_arc.png)
 
@@ -178,7 +179,7 @@ The two `for` loops are for looping through the rows and columns of arcs. For ev
       }
     }
 
-### Bezier and quadratic curves
+### <span>Bezier and quadratic curves</span>
 
 The next type of paths available are Bézier curves, available in the cubic and quadratic varieties. These are generally used to draw complex organic shapes.
 
@@ -195,7 +196,7 @@ Using quadratic and cubic Bézier curves can be quite challenging, because unlik
 
 There's nothing very difficult in these examples. In both cases we see a succession of curves being drawn which finally result in a complete shape.
 
-#### quadraticCurveTo example
+#### <span>quadraticCurveTo example</span>
 
 ![Quadratic curveTo example on a canvas](/assets/public/1/1d/Canvas_quadratic.png)
 
@@ -212,7 +213,7 @@ There's nothing very difficult in these examples. In both cases we see a success
 
 It is possible to convert any quadratic Bézier curve to a cubic Bézier curve by correctly computing both cubic Bézier control points from the single quadratic Bézier control point, although the reverse is NOT true. An exact conversion of a cubic Bézier curve to a quadratic Bézier curve is only possible if the cubic term is zero, more commonly a subdivision method is used to approximate a cubic Bézier using multiple quadratic Bézier curves.
 
-#### bezierCurveTo example
+#### <span>bezierCurveTo example</span>
 
 ![Heart-shaped Bezier curve filled shape on a canvas](/assets/public/0/08/Canvas_bezier.png)
 
@@ -227,7 +228,7 @@ It is possible to convert any quadratic Bézier curve to a cubic Bézier curve b
     ctx.bezierCurveTo(85,25,75,37,75,40);
     ctx.fill();
 
-### Firefox 1.5 quadraticCurveTo() bug workaround
+### <span>Firefox 1.5 quadraticCurveTo() bug workaround</span>
 
 There is a bug in the Firefox 1.5 implementation of quadatricCurveTo(). It does NOT draw a quadratic curve, as it is just calling the same cubic curve function bezierCurveTo() calls, and repeating the single quadratic control point (x,y) coordinate twice. For this reason quadraticCurveTo() will yield incorrect results. If you require the use of quadraticCurveTo() you must convert your quadratic Bézier curve to a cubic Bézier curve yourself, so you can use the working bezierCurveTo() method.
 
@@ -276,7 +277,7 @@ There is a bug in the Firefox 1.5 implementation of quadatricCurveTo(). It does 
       currentY = y;
     }
 
-### Rectangles
+### <span>Rectangles</span>
 
 Besides the three methods we saw above which draw rectangular shapes directly to the canvas, we also have a method `rect` which adds a rectangular path to the path list.
 
@@ -286,11 +287,11 @@ This method takes four arguments. The `x` and `y` parameters define the coordina
 
 When this method is executed, the `moveTo` method is automatically called with the parameters (0,0) (i.e. it resets the starting point to its default location).
 
-### Making combinations
+### <span>Making combinations</span>
 
 In all examples on this page I've only used one type of path function per shape. However there's absolutely no limitation to the amount or type of paths you can use to create a shape. So in this last example I've tried to combine all of the path functions to make a set of very famous game characters.
 
-#### Example
+#### <span>Example</span>
 
 I'm not going to run through this complete script, but the most important things to note are the function `roundedRect` and the use of the `fillStyle` property. It can be very useful and time saving to define your own functions to draw more complex shapes. In this script it would have taken me twice as many lines of code as I have now.
  We will look at the `fillStyle` property in greater depth later in this tutorial. Here I'm using it to change the fill color from the default black, to white, and back again.
@@ -366,10 +367,3 @@ I'm not going to run through this complete script, but the most important things
     }
 
 [\<\<Previous ||](/tutorials/canvas/Canvas_tutorial/Basic_usage)[Next\>\>](/tutorials/canvas/Canvas_tutorial/Using_images)
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en/Canvas_tutorial/Drawing_shapes)
-

@@ -1,20 +1,22 @@
 ---
 title: defineProperty
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dd548687(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Adds a property to an object, or modifies the attributes of an existing property.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Adds a property to an object, or modifies the attributes of an existing property.'
 uri: javascript/Object/defineProperty
 
 ---
-# defineProperty
-
-## Summary
+## <span>Summary</span>
 
 Adds a property to an object, or modifies the attributes of an existing property.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Object.defineProperty( object , propertyname , descriptor )
 
@@ -27,17 +29,17 @@ Adds a property to an object, or modifies the attributes of an existing property
 **descriptor**
 :   Required. A descriptor for the property. It can be for a data property or an accessor property.
 
-## Return Value
+## <span>Return Value</span>
 
 The modified object.
 
-## Examples
+## <span>Examples</span>
 
 **Adding a Data Property**
 
 In the following example, the **Object.defineProperty** function adds a data property to a user-defined object. To instead add the property to an existing DOM object, uncomment the `var = window.document` line.
 
-``` {.js}
+``` js
 var newLine = "<br />";
 
 // Create a user-defined object.
@@ -76,7 +78,7 @@ for (var i = 0; i < names.length; i++) {
 
 To modify a property attribute for the object, add the following code to the `addDataProperty` function shown earlier. The descriptor parameter contains only a writable attribute. The other data property attributes remain the same.
 
-``` {.js}
+``` js
 // Modify the writable attribute of the property.
 Object.defineProperty(obj, "newDataProperty", { writable: false });
 
@@ -99,7 +101,7 @@ for (var prop in descriptor) {
 
 In the following example, the **Object.defineProperty** function adds an accessor property to a user-defined object.
 
-``` {.js}
+``` js
 var newLine = "<br />";
 
 // Create a user-defined object.
@@ -146,7 +148,7 @@ for (var i = 0; i < names.length; i++) {
 
 To modify a property attribute for the object, add the following code to the code shown earlier. The descriptor parameter contains only a get accessor definition. The other property attributes remain the same.
 
-``` {.js}
+``` js
 // Modify the get accessor.
 Object.defineProperty(obj, "newAccessorProperty", {
     get: function () { return this.newaccpropvalue; }
@@ -171,7 +173,7 @@ for (var prop in descriptor) {
 
 The following example demonstrates how to customize built-in DOM properties by using the **Object.getOwnPropertyDescriptor** function to get and modify the property's property descriptor. For this example, there must by a DIV element with an ID of "div".
 
-``` {.js}
+``` js
 // Get the querySelector property descriptor.
 var descriptor = Object.getOwnPropertyDescriptor(Element.prototype, "querySelector");
 
@@ -192,7 +194,7 @@ document.write(elem.querySelector);
 // query
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 You can use the **Object.defineProperty** function to do the following:
 
@@ -203,7 +205,7 @@ The property definition is provided in a descriptor object, which describes the 
 
 To add multiple properties to an object, or to modify multiple existing properties, you can use the [Object.defineProperties Function](/javascript/Object/defineProperties).
 
-## Exceptions
+## <span>Exceptions</span>
 
 A TypeError exception is thrown if any one of the following conditions is true:
 
@@ -213,18 +215,12 @@ A TypeError exception is thrown if any one of the following conditions is true:
 -   The descriptor has a get or set attribute that is not a function or undefined.
 -   The specified property name already exists, the existing property has a configurable attribute of false , and the descriptor contains one or more attributes that are different from those in the existing property. However, when the existing property has a configurable attribute of false and a writable attribute of true , it is permitted for the value or writable attribute to be different.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Object.defineProperties Function](/javascript/Object/defineProperties)
 -   [Object.create Function](/javascript/Object/create)
 -   [Object.getOwnPropertyDescriptor Function](/javascript/Object/getOwnPropertyDescriptor)
 -   [Object.getOwnPropertyNames Function](/javascript/Object/getOwnPropertyNames)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dd548687(v=vs.94).aspx)
 

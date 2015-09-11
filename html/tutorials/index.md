@@ -1,32 +1,30 @@
 ---
-title: tutorials
+title: HTML tutorials
+readiness: 'Ready to Use'
+summary: 'HTML is a markup language, used to give content structure and meaning. This section should cover all of our HTML tutorials — Ideal for learning HTML from scratch, or diving into learning more complex HTML topics.'
 tags:
   - Basic
   - Pages
   - HTML
-readiness: 'Ready to Use'
-summary: 'HTML is a markup language, used to give content structure and meaning. This section should cover all of our HTML tutorials — Ideal for learning HTML from scratch, or diving into learning more complex HTML topics.'
 uri: html/tutorials
 
 ---
-# HTML tutorials
-
-## Summary
+## <span>Summary</span>
 
 HTML is a markup language, used to give content structure and meaning. This section should cover all of our HTML tutorials — Ideal for learning HTML from scratch, or diving into learning more complex HTML topics.
 
-## HTML fundamentals
+## <span>HTML fundamentals</span>
 
 -   [The basics of HTML](/guides/the_basics_of_html)
 -   [DOCTYPES and markup styles](/guides/doctypes_and_markup_styles)
 -   [HTML validation](/guides/html_validation)
 
-## The HTML head
+## <span>The HTML head</span>
 
 -   [The HTML \<head\>](/guides/the_html_head)
 -   [More about the HTML \<head\>](/guides/more_about_the_html_head)
 
-## The HTML body
+## <span>The HTML body</span>
 
 -   [HTML text](/guides/html_text)   [Spanish version](/guides/html_text_es)
 -   [HTML lists](/guides/html_lists)
@@ -39,8 +37,7 @@ HTML is a markup language, used to give content structure and meaning. This sect
 -   [HTML structural elements](/guides/html_structural_elements)
 -   [Lesser-known semantic elements](/guides/lesser-known_semantic_elements)
 
-## Applied techniques
+## <span>Applied techniques</span>
 
 -   [Creating navigation menus](/tutorials/creating_basic_navigation_menus)
 -   [Input from mouse, touch, or pen with pointer events](/concepts/Pointer_Events)
-

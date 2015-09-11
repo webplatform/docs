@@ -1,19 +1,17 @@
 ---
-title: named flow
+title: named flows
+notes:
+  - '"Region" and "Regions" link to content almost identical to this page. Consider merging this page with the others.'
+readiness: 'In Progress'
+summary: 'An object that contains content diverted from one set of elements, which can then be threaded through another series of regions that display the content.'
 tags:
   - Concept
   - Pages
   - CSS-Regions
-readiness: 'In Progress'
-notes:
-  - '"Region" and "Regions" link to content almost identical to this page. Consider merging this page with the others.'
-summary: 'An object that contains content diverted from one set of elements, which can then be threaded through another series of regions that display the content.'
 uri: 'css/concepts/named flow'
 
 ---
-# named flows
-
-## Summary
+## <span>Summary</span>
 
 An object that contains content diverted from one set of elements, which can then be threaded through another series of regions that display the content.
 
@@ -29,11 +27,11 @@ There can be more than one **named flow** in a document. Each named flow can acc
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -90,4 +88,3 @@ For an overview of CSS Regions, see [Using CSS Regions to flow content through a
 -   [flow-from](/css/properties/flow-from)
 
 -   [flow-into](/css/properties/flow-into)
-

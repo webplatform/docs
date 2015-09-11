@@ -1,37 +1,46 @@
 ---
 title: direction
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBCursor
+    href: /apis/indexeddb/IDBCursor
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/indexeddb/IDBCursor
+standardization_status: 'W3C Working Draft'
+summary: 'Indicates the direction of travel within a cursor.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Indicates the direction of travel within a cursor.'
 uri: apis/indexeddb/IDBCursor/direction
 
 ---
-# direction
-
-## Summary
+## <span>Summary</span>
 
 Indicates the direction of travel within a cursor.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)</span></span>
+Property of [apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)[apis/indexeddb/IDBCursor](/apis/indexeddb/IDBCursor)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = cursor.direction;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The return value describes the direction of travel and the uniqueness of data within the cursor. It corresponds to one of the following:
 
@@ -46,16 +55,7 @@ prevunique
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Indexed Database API](http://www.w3.org/TR/IndexedDB/)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

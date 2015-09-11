@@ -1,25 +1,25 @@
 ---
 title: linear-gradient
-tags:
-  - CSS
-  - Functions
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://jsfiddle.net/denbuzze/J2CLV/'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Defines a linear gradient as a CSS image.'
-code_samples:
-  - 'http://jsfiddle.net/denbuzze/J2CLV/'
+tags:
+  - CSS
+  - Functions
 uri: css/functions/linear-gradient
 
 ---
-# linear-gradient
-
-## Summary
+## <span>Summary</span>
 
 Defines a linear gradient as a CSS image.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 background: #1e5799;
 background: -moz-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8));
@@ -32,11 +32,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 [View live example](http://jsfiddle.net/denbuzze/J2CLV/)
 
-### Syntax
+### <span>Syntax</span>
 
 **linear-gradient** `([ [  <angle>  | to  <side-or-corner>  ] , ] ?  <color-stop>  [ ,  <color-stop>  ] +)`
 
-### Parameters
+### <span>Parameters</span>
 
 *angle*
 :   Optional. The angle the gradient line should assume, expressed as a number followed by an angle units designator(for instance, "deg")."0deg" points upward and positive angles increase in a clockwise direction. Therefore, "90deg" points toward the right, "180deg" points downward, and so on.If no angle is provided, the gradient line starts in the corner or side opposite the corner or side specified by *\<side-or-corner\>*.
@@ -53,18 +53,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 *color-stop*
 :   At least two color stops are required. Each color stop has one or two components—a color component and an optional position component. The first component defines the color component of a stop point for the gradient. Each stop point has its own designated color, and the area between each point is filled with a continuous color transition from one to the other. This value can be any supported color value.Each stop point can have an optional percentage or supported length value that indicates where along the gradient line to place the color stop. "0%" (or "0px", "0em", and so on) indicates the starting point (or side); "100%" indicates the ending point (or side).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Image Values and Replaced Content Module Level 3](http://www.w3.org/TR/css3-images/)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Gradients
+#### <span>Gradients</span>
 
 -   **linear-gradient**
 
@@ -79,10 +77,3 @@ Specification
 -   [-ms-repeating-linear-gradient](/css/properties/-ms-repeating-linear-gradient)
 
 -   [-ms-repeating-radial-gradient](/css/properties/-ms-repeating-radial-gradient)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

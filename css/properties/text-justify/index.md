@@ -1,40 +1,54 @@
 ---
 title: text-justify
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5671702'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'block containers and, optionally, inline elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`textJustify`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The text-justify CSS property offers a fine level of justification control over the enclosed content, allowing for a variety of sophisticated justification models used in different language writing systems.'
-code_samples:
-  - 'http://gist.github.com/5671702'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-justify
 
 ---
-# text-justify
-
-## Summary
+## <span>Summary</span>
 
 The text-justify CSS property offers a fine level of justification control over the enclosed content, allowing for a variety of sophisticated justification models used in different language writing systems.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   block containers and, optionally, inline elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textJustify`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-justify: auto`
 -   `text-justify: distribute`
@@ -44,7 +58,7 @@ Animatable
 -   `text-justify: kashida`
 -   `text-justify: none`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. Allows the browser to determine which justification algorithm to apply.
@@ -67,11 +81,11 @@ distribute
 kashida
 :   Justifies lines of text by elongating characters at chosen points. This form of justification is intended for Arabic script languages.
 
-## Examples
+## <span>Examples</span>
 
 The first paragraph is using `inter-word` as a value of text-justify property, in English. The second one is using `distribute` in Japanese paragraph.
 
-``` {.html}
+``` html
 <p class="english">This is a simple paragraph with a altered text-justify value by inter-word.</p>
 
 <p class="japanese">日本語では、どのように表示されるかを見てみましょう。日本語の場合にはdistributeが使用される場合があります。</p>
@@ -79,7 +93,7 @@ The first paragraph is using `inter-word` as a value of text-justify property, i
 
 [View live example](http://code.webplatform.org/gist/5671702)
 
-``` {.css}
+``` css
 p {
     width: 300px;
     text-align: justify;
@@ -95,30 +109,21 @@ p.japanese {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/#text-justify0)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
-
--   `CSSStyleDeclaration`
--   `currentStyle`
--   `runtimeStyle`
--   `style`
+### <span>Other articles</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+-   `CSSStyleDeclaration`
+-   `currentStyle`
+-   `runtimeStyle`
+-   `style`

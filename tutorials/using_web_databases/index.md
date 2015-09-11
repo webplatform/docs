@@ -1,12 +1,13 @@
 ---
 title: using web databases
-tags:
-  - Tutorials
-readiness: 'Not Ready'
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/webdatabase/todo/)'
 notes:
   - 'Deletion candidate; duplicate of http://docs.webplatform.org/wiki/tutorials/web_databases'
+readiness: 'Not Ready'
 summary: 'Using Web databases'
-uri: 'tutorials/using web databases'
+tags:
+  - Tutorials
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -15,20 +16,19 @@ todo_broken_links:
     - 'available written using "IndexedDB"'
     - 'Asynchronous API'
     - transaction
+uri: 'tutorials/using web databases'
 
 ---
-# using web databases
-
 **By Paul Kinlan**
 Originally published Feb. 17, 2010
 
-## Summary
+## <span>Summary</span>
 
 Using Web databases
 
-# A Simple To-do list using HTML5 WebDatabases
+# <span>A Simple To-do list using HTML5 WebDatabases</span>
 
-## Introduction
+## <span>Introduction</span>
 
 [Web Databases](/w/index.php?title=Web_Databases&action=edit&redlink=1) are new in HTML5. Web Databases are hosted and persisted inside a user's browser. By allowing developers to create applications with rich query abilities it is envisioned that a new breed of web applications will emerge that have the ability to work online and off-line.
 
@@ -38,20 +38,20 @@ This tutorial is also [available written using "IndexedDB"](/w/index.php?title=a
 
 The example code in this article demonstrates how to create a very simple todo list manager. It is a very high level tour of some of the features available in HTML5.
 
-## Pre-requisites
+## <span>Pre-requisites</span>
 
 This sample uses a namespace to encapsulate the database logic.
 
     var html5rocks = {};
     html5rocks.webdb = {};
 
-## Asynchronous and Transactional
+## <span>Asynchronous and Transactional</span>
 
 In the majority of cases where you are using Web Database support you will be using the [Asynchronous API](/w/index.php?title=Asynchronous_API&action=edit&redlink=1). The Asynchronous API is a non-blocking system and as such will not get data through return values, but rather will get data delivered to a defined callback function.
 
 The Web Database support through HTML is transactional. It is not possible to execute SQL statements outside of a transaction. There are two types of transactions: read/write transactions (*transaction()*) and read only transactions (*readTransaction()*). Please note, read/write will lock the entire database.
 
-## Step 1. Opening the database
+## <span>Step 1. Opening the database</span>
 
 The database needs to be opened before it can be accessed. You need to define the name, version, description and the size of the database.
 
@@ -72,7 +72,7 @@ The database needs to be opened before it can be accessed. You need to define th
       html5rocks.webdb.getAllTodoItems(loadTodoItems);
     }
 
-## Step 2. Creating a table
+## <span>Step 2. Creating a table</span>
 
 You can only create a table by executing a CREATE TABLE SQL statement inside a [transaction](/w/index.php?title=transaction&action=edit&redlink=1).
 
@@ -92,7 +92,7 @@ We have defined a function that will create a table in the body onload event. If
       });
     }
 
-## Step 3. Adding data to a table
+## <span>Step 3. Adding data to a table</span>
 
 We are building a todo list manager so it is pretty important that we are able to add todo items in to the database.
 
@@ -111,7 +111,7 @@ executeSql takes several parameters, the SQL to execute and the parameters value
        });
     }
 
-## Step 4. Selecting data from a table
+## <span>Step 4. Selecting data from a table</span>
 
 Now that the data is in the database, you need a function that gets the data back out. In Chrome, Webdatabase's use standard SQLite SELECT queries.
 
@@ -125,7 +125,7 @@ Now that the data is in the database, you need a function that gets the data bac
 
 Note that all of these commands used in this sample are asynchronous and as such the data is not returned from the transaction or the executeSql call. The results are passed through to the success callback.
 
-## Step 4a. Rendering data from a table
+## <span>Step 4a. Rendering data from a table</span>
 
 Once the data has been fetched from the table, the loadTodoItems method will be called.
 
@@ -148,7 +148,7 @@ The onSuccess callback takes two parameters. The first being the transaction of 
 
 The effect of this method call is that the todo list is rendered into a DOM Element called "todoItems".
 
-## Step 5. Deleting data from a table
+## <span>Step 5. Deleting data from a table</span>
 
     html5rocks.webdb.deleteTodo = function(id) {
       var db = html5rocks.webdb.db;
@@ -159,7 +159,7 @@ The effect of this method call is that the todo list is rendered into a DOM Elem
         });
     }
 
-## Step 6. Hooking it all up
+## <span>Step 6. Hooking it all up</span>
 
 When the page loads, open the database and create the table (if needed) and render any todo items that might already be in the database.
 
@@ -180,10 +180,4 @@ A function that takes the data out of the DOM is needed so, call the html5rocks.
       html5rocks.webdb.addTodo(todo.value);
       todo.value = "";
     }
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/webdatabase/todo/)
 

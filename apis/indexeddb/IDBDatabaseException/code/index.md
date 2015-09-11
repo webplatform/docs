@@ -1,43 +1,41 @@
 ---
 title: code
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Not supported; deletion candidate.'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBDatabaseException
+    href: /apis/indexeddb/IDBDatabaseException
+summary: 'Not supported.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'Not Ready'
-notes:
-  - 'Not supported; deletion candidate.'
-summary: 'Not supported.'
 uri: apis/indexeddb/IDBDatabaseException/code
 
 ---
-# code
-
-## Summary
+## <span>Summary</span>
 
 Not supported.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBDatabaseException](/apis/indexeddb/IDBDatabaseException)</span></span>
+Property of [apis/indexeddb/IDBDatabaseException](/apis/indexeddb/IDBDatabaseException)[apis/indexeddb/IDBDatabaseException](/apis/indexeddb/IDBDatabaseException)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.code;
 element.code = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

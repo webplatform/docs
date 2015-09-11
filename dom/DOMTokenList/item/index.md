@@ -1,48 +1,55 @@
 ---
 title: item
+notes:
+  - 'Needs compat table'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/DOMTokenList
+    href: /dom/DOMTokenList
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /dom/DOMTokenList
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Returns a specific zero-indexed token from a DOMTokenList.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs compat table'
-summary: 'Returns a specific zero-indexed token from a DOMTokenList.'
 uri: dom/DomTokenList/item
 
 ---
-# item
-
-## Summary
+## <span>Summary</span>
 
 Returns a specific zero-indexed token from a DOMTokenList.
 
-*Method of [dom/DOMTokenList](/dom/DOMTokenList)*
+Method of [dom/DOMTokenList](/dom/DOMTokenList)[dom/DOMTokenList](/dom/DOMTokenList)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.item(index);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### index
+### <span>index</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The index of the token to retrieve.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //returns a specific item from an element's classList (a DOMTokenList)
 function elItem(elid,num) {
   var classes = document.getElementById(elid).classList;
@@ -50,14 +57,11 @@ function elItem(elid,num) {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      DOMTokenList.item(n) is functionally equivalent to DOMTokenList[n] in that it references an indexed item in the DOMTokenList.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C DOM4](http://www.w3.org/TR/dom/)
 :   Candidate Recommendation
-

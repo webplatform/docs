@@ -1,39 +1,46 @@
 ---
 title: AnimationGroup
+readiness: 'In Progress'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: AnimationNode
+    href: /apis/web_animations/AnimationNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Animation groups are represented by the AnimationGroup interface.'
 tags:
   - API
   - Objects
   - Web
   - Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Animation groups are represented by the AnimationGroup interface.'
 uri: 'apis/web animations/AnimationGroup'
 
 ---
-# AnimationGroup
-
-## Summary
+## <span>Summary</span>
 
 Animation groups are represented by the AnimationGroup interface.
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[AnimationNode](/apis/web_animations/AnimationNode)</span></span>
+Inherits from [AnimationNode](/apis/web_animations/AnimationNode)[AnimationNode](/apis/web_animations/AnimationNode)
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [children](/apis/web_animations/AnimationGroup/children)
 :   The list of child animation nodes in the group.
+
 [firstChild](/apis/web_animations/AnimationGroup/firstChild)
 :   The first child of this animation group.
+
 [lastChild](/apis/web_animations/AnimationGroup/lastChild)
 :   The last child of this animation group
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [append](/apis/web_animations/AnimationGroup/append)
 :   If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
 
@@ -46,21 +53,23 @@ API Name
 
 [constructor](/apis/web_animations/AnimationGroup/constructor)
 :
+
 [prepend](/apis/web_animations/AnimationGroup/prepend)
 :   If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
 
     Insert nodes before the first child.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from AnimationNode
+## <span>Inherited from AnimationNode</span>
 
-### Properties
+### <span>Properties</span>
 
 API Name
 :   Summary
+
 [computedTiming](/apis/web_animations/AnimationNode/computedTiming)
 :   Returns the calculated timing properties for this animation node. This is comparable to the computed style of an Element, window.getComputedStyle(elem).
 
@@ -70,17 +79,21 @@ API Name
 
 [nextSibling](/apis/web_animations/AnimationNode/nextSibling)
 :   The next sibling of this animation node.
+
 [parent](/apis/web_animations/AnimationNode/parent)
 :   The parent animation group of this animation node or null if this animation node does not have a parent animation group.
+
 [previousSibling](/apis/web_animations/AnimationNode/previousSibling)
 :   The previous sibling of this animation node.
+
 [timing](/apis/web_animations/AnimationNode/timing)
 :   Returns the input timing properties specified for this animation node. This is comparable to the specified style on an Element, elem.style.
 
-### Methods
+### <span>Methods</span>
 
 API Name
 :   Summary
+
 [after](/apis/web_animations/AnimationNode/after)
 :   Inserts nodes after this animation node.
 
@@ -95,12 +108,13 @@ API Name
 
 [remove](/apis/web_animations/AnimationNode/remove)
 :   Removes this animation node from its parent animation group or player.
+
 [replace](/apis/web_animations/AnimationNode/replace)
 :   Replaces this AnimationNode with the passed in nodes.
 
     If there is no parent animation group, terminate these steps. If any of the animation nodes in nodes is an inclusive ancestor of the parent animation group throw a HierarchyRequestError exception and terminate these steps. Let reference child be the next sibling of this animation node not in nodes. Remove this animation node from its parent animation group. Insert nodes before reference child.
 
-### Events
+### <span>Events</span>
 
 *No events.*
 

@@ -1,19 +1,21 @@
 ---
 title: :first-child
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
+readiness: 'Not Ready'
+summary: "The\_:first-child pseudo-class matches an element that is the first child element of some other element."
 tags:
   - CSS
   - Selectors
-readiness: 'Not Ready'
-notes:
-  - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
-summary: "The\_:first-child pseudo-class matches an element that is the first child element of some other element."
-uri: 'css/selectors/pseudo-classes/:first-child'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
     - first-letter
     - first-line
+uri: 'css/selectors/pseudo-classes/:first-child'
 
 ---
 =
@@ -25,39 +27,43 @@ first-child=
 </dd>
 </dl>
 
-## Summary
+## <span>Summary</span>
 
 The :first-child pseudo-class matches an element that is the first child element of some other element.
 
-## Examples
+## <span>Examples</span>
 
 In the following example, the selector matches any **p** element that is the first child of its parent. The style rule below applies indentation to the **p** of the First fragment only.
 
-    <style>
-        p:first-child { text-indent: 5px; }
-    </style>
+``` html
+<style>
+    p:first-child { text-indent: 5px; }
+</style>
+```
 
 The preceding selector would match the **p** inside the **div** of the first fragment that follows, but would not match the **p** in the second fragment.
 
-    <!-- First fragment -->
-    <div class="note">
-       <p> The first P inside the note. </p>
-    </div>
-    <!-- Second fragment -->
-    <div class="note">
-       <h2>Note</h2>
-       <p> The first P inside the note. </p>
-    </div>
+``` html
+<!-- First fragment -->
+<div class="note">
+   <p> The first P inside the note. </p>
+</div>
+<!-- Second fragment -->
+<div class="note">
+   <h2>Note</h2>
+   <p> The first P inside the note. </p>
+</div>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **:first-child** pseudo-class matches an element that is the first child element of some other element. **Note**   Requires Windows Internet Explorer 7 or later. **Note**   Pseudo-class enabled only in standards-compliant mode (strict [!DOCTYPE](/html/elements/!DOCTYPE)). Inline text is not considered to be part of the document tree, and is not counted when calculating the first child. For example, the **EM** element is the first child of the **p** element in the following HTML.
 
     <p>abc <em>default</em> def</p>
 
-### Syntax
+### <span>Syntax</span>
 
 selector
 
@@ -67,20 +73,20 @@ first-child
 
 </dd>
 </dl>
-### Parameters
+### <span>Parameters</span>
 
 *selector*
 :   A CSS simple selector.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.11.1
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pseudo-Classes
+#### <span>Pseudo-Classes</span>
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -132,7 +138,7 @@ first-child
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -208,15 +214,8 @@ first-child
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `first-letter`
 -   `first-line`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

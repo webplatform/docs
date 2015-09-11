@@ -1,17 +1,17 @@
 ---
 title: pointerout
-tags:
-  - Events
-  - DOM
+attributions:
+  - 'Microsoft Developer Network: [[pointerout Event](http://msdn.microsoft.com/en-us/library/ie/hh771912(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: "Dispatched when any of the following occurs:\n"
+tags:
+  - Events
+  - DOM
 uri: dom/PointerEvent/pointerout
 
 ---
-# pointerout
-
-## Summary
+## <span>Summary</span>
 
 Dispatched when any of the following occurs:
 
@@ -19,35 +19,67 @@ Dispatched when any of the following occurs:
 -   After firing the [pointerup](/dom/PointerEvent/pointerup) event for a device that does not support hover
 -   After firing the [pointercancel](/dom/PointerEvent/pointercancel) event
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   Yes
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
 Bubbles
-:   Yes
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
 Target
-:   dom/Element
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
 Cancelable
-:   Yes
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
 Default action
-:   Varies: when the pointer is primary, all default actions of the [mouseout](/dom/MouseEvent/mouseout) event
 
-## Examples
+</th>
+<td>
+Varies: when the pointer is primary, all default actions of the [mouseout](/dom/MouseEvent/mouseout) event
 
-``` {.js}
+</td>
+</tr>
+</table>
+## <span>Examples</span>
+
+``` js
 element.addEventListener("pointerout", handler, useCapture) ;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[pointerout Event](http://msdn.microsoft.com/en-us/library/ie/hh771912(v=vs.85).aspx) Article]
-

@@ -1,20 +1,22 @@
 ---
 title: getOwnPropertyDescriptor
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dd548686(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Gets the own property descriptor of the specified object. An own property descriptor is one that is defined directly on the object and is not inherited from the object''s prototype.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Gets the own property descriptor of the specified object. An own property descriptor is one that is defined directly on the object and is not inherited from the object''s prototype.'
 uri: javascript/Object/getOwnPropertyDescriptor
 
 ---
-# getOwnPropertyDescriptor
-
-## Summary
+## <span>Summary</span>
 
 Gets the own property descriptor of the specified object. An own property descriptor is one that is defined directly on the object and is not inherited from the object's prototype.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Object.getOwnPropertyDescriptor( object , propertyname )
 
@@ -24,15 +26,15 @@ Gets the own property descriptor of the specified object. An own property descri
 **propertyname**
 :   Required. The name of the property.
 
-## Return Value
+## <span>Return Value</span>
 
 The descriptor of the property.
 
-## Examples
+## <span>Examples</span>
 
 The following example gets a data property descriptor and uses it to make the property read-only.
 
-``` {.js}
+``` js
 // Create a user-defined object.
 var obj = {};
 
@@ -49,7 +51,7 @@ Object.defineProperty(obj, "newDataProperty", descriptor);
 
 To list the property attributes, you can add the following code to this example.
 
-``` {.js}
+``` js
 // Get the descriptor from the object.
 var desc2 = Object.getOwnPropertyDescriptor(obj, "newDataProperty");
 
@@ -66,21 +68,15 @@ for (var prop in desc2) {
 // configurable: true
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 You can use the **Object.getOwnPropertyDescriptor** function to obtain a descriptor object that describes attributes of the property.
 
 The [Object.defineProperty Function](/javascript/Object/defineProperty) is used to add or modify properties.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Object.defineProperty Function](/javascript/Object/defineProperty)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/dd548686(v=vs.94).aspx)
 

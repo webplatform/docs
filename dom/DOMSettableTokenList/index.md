@@ -1,41 +1,34 @@
 ---
 title: DOMSettableTokenList
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs children, spec reference, standardization status'
+readiness: 'In Progress'
+summary: 'The DOMSettableTokenList interface is the same as the DOMTokenList interface, except that it allows the underlying string to be changed.'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs children, spec reference, standardization status'
-summary: 'The DOMSettableTokenList interface is the same as the DOMTokenList interface, except that it allows the underlying string to be changed.'
 uri: dom/DOMSettableTokenList
 
 ---
-# DOMSettableTokenList
-
-## Summary
+## <span>Summary</span>
 
 The DOMSettableTokenList interface is the same as the DOMTokenList interface, except that it allows the underlying string to be changed.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Notes
+## <span>Notes</span>
 
 `someTokenList.value` returns the underlying string and can be set (to change the underlying string).
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

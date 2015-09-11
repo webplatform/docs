@@ -1,21 +1,23 @@
 ---
 title: setUTCDate
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/xy2a08e6(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the numeric day of the month in the Date object using Universal Coordinated Time (UTC).'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sets the numeric day of the month in the Date object using Universal Coordinated Time (UTC).'
 uri: javascript/Date/setUTCDate
 
 ---
-# setUTCDate
-
-## Summary
+## <span>Summary</span>
 
 Sets the numeric day of the month in the Date object using Universal Coordinated Time (UTC).
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.setUTCDate( numDate )
 
@@ -25,11 +27,11 @@ Sets the numeric day of the month in the Date object using Universal Coordinated
 **numDate**
 :   Required. A numeric value equal to the day of the month.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **setUTCDate** method.
 
-``` {.js}
+``` js
 function SetUTCDateDemo(newdayofmonth){
     var d = new Date();           // Create Date
     object.d.setUTCDate( newdayofmonth ) ;  // Set UTC day of month.
@@ -39,7 +41,7 @@ function SetUTCDateDemo(newdayofmonth){
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 To set the day of the month using local time, use the **setDate** method.
 
@@ -47,17 +49,11 @@ If the value of numDate is greater than the number of days in the month stored i
 
 The **setUTCFullYear** method can be used to set the year, month, and day of the month.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getDate Method (Date)](/javascript/Date/getDate)
 -   [getUTCDate Method (Date)](/javascript/Date/getUTCDate)
 -   [setDate Method (Date)](/javascript/Date/setDate)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/xy2a08e6(v=vs.94).aspx)
 

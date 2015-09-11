@@ -1,41 +1,55 @@
 ---
 title: break-after
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/7281550'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'block-level elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`breakAfter`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'The CSS break-after property allows you to force a break on multi-column layouts. More specifically, it allows you to force a break after an element. It allows you to determine if a break should occur, and what type of break it should be. The break-after CSS property describes how the page, column or region break behaves after the generated box. If there is no generated box, the property is ignored.'
 tags:
   0: CSS
   1: Properties
   3: CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The CSS break-after property allows you to force a break on multi-column layouts. More specifically, it allows you to force a break after an element. It allows you to determine if a break should occur, and what type of break it should be. The break-after CSS property describes how the page, column or region break behaves after the generated box. If there is no generated box, the property is ignored.'
-code_samples:
-  - 'http://gist.github.com/7281550'
 uri: css/properties/break-after
 
 ---
-# break-after
-
-## Summary
+## <span>Summary</span>
 
 The CSS break-after property allows you to force a break on multi-column layouts. More specifically, it allows you to force a break after an element. It allows you to determine if a break should occur, and what type of break it should be. The break-after CSS property describes how the page, column or region break behaves after the generated box. If there is no generated box, the property is ignored.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   block-level elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `breakAfter`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `break-after: always`
 -   `break-after: auto`
@@ -49,7 +63,7 @@ Animatable
 -   `break-after: region`
 -   `break-after: right`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. A page break or column break is determined by the flow of content.
@@ -84,9 +98,9 @@ region
 avoid-region
 :   A [region](/css/concepts/region) break is not allowed after the content block.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* forces top-level headings onto a new page, column, or region */
 h1 {
     break-before: always;
@@ -100,7 +114,7 @@ h2, h3 {
 }
 ```
 
-``` {.css}
+``` css
 .multicol {
 background-color:lightyellow;
 padding:20px;
@@ -118,13 +132,13 @@ break-after: column;
 
 [View live example](http://code.webplatform.org/gist/7281550)
 
-## Usage
+## <span>Usage</span>
 
      The break-after property is not supported for absolutely positioned elements.
 
 This property replaces separate **column-break-after**, **page-break-after**, and **region-break-after** properties, which may still be present in some browser implementations.
 
-## Notes
+## <span>Notes</span>
 
 The break-after property is ignored if there is no generated box or flows defined. So most of the times, you have to define a flow of content to test the property.
 
@@ -136,18 +150,16 @@ If any of the three concerned values is a forced break value, that is always, le
 
 If any of the three concerned values is an avoid break value, that is avoid, avoid-page, avoid-region, avoid-column, no such break will be applied at that point.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/#region-flow-break)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   **break-after**
 
@@ -173,7 +185,7 @@ Specification
 
 -   [content](/css/properties/content)
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -231,18 +243,18 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Using CSS Regions to flow content through a layout](/tutorials/css-regions)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -278,10 +290,3 @@ Specification
 -   `Reference`
 -   `breakBefore`
 -   `breakInside`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

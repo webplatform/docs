@@ -1,68 +1,66 @@
 ---
 title: @charset
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Specifies the character encoding of the style sheet.'
 tags:
   - CSS
   - At
   - Rules
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Specifies the character encoding of the style sheet.'
 uri: css/atrules/@charset
 
 ---
-# @charset
-
-## Summary
+## <span>Summary</span>
 
 Specifies the character encoding of the style sheet.
 
-## Examples
+## <span>Examples</span>
 
 Set the character encoding of the style sheet to Unicode UTF-8 (recommended)
 
-``` {.css}
+``` css
 @charset "UTF-8";
 ```
 
 Set the character encoding of the style sheet to Cyrillic (Windows 1251)
 
-``` {.css}
+``` css
 @charset "Windows-1251";
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 You can use only one **@charset** rule in an external style sheet. The rule must appear at the top of the file, cannot be preceded by any characters, and cannot be included in an embedded style sheet.
 
 The rule has no default value.
 
-### Syntax
+### <span>Syntax</span>
 
 `@charset CharSet-Description`
 
-### Parameters
+### <span>Parameters</span>
 
 *CharSet-Description*
 :   **String** that specifies the name of the character encoding.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 4.4
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1)](http://www.w3.org/TR/CSS2/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Syntax
+#### <span>Syntax</span>
 
 -   **@charset**
 
@@ -83,10 +81,3 @@ Specification
 -   [Alphabetical list of CSS reference](/css/reference/alphabetical)
 
 -   [!important](/css/syntax/!important)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,28 +1,30 @@
 ---
 title: use strict
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+readiness: 'Ready to Use'
+summary: 'Restricts the use of some potentially-harmful features of JavaScript (e.g., eval, with) and throws syntax errors for certain sloppy code.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Restricts the use of some potentially-harmful features of JavaScript (e.g., eval, with) and throws syntax errors for certain sloppy code.'
 uri: 'javascript/directives/use strict'
 
 ---
-# use strict
-
-## Summary
+## <span>Summary</span>
 
 Restricts the use of some potentially-harmful features of JavaScript (e.g., eval, with) and throws syntax errors for certain sloppy code.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     "use strict";
 
-## Examples
+## <span>Examples</span>
 
 The following code causes a syntax error because in strict mode all variables must be declared with `var`.
 
-``` {.js}
+``` js
 // Be careful - all code used in the page/context must be strict mode conformant.
 "use strict";
 function testFunction(){
@@ -34,7 +36,7 @@ intvar = testFunction();
 
 The following code causes a syntax error because in strict mode all variables must be declared with `var`. Even though the strict mode directive (`use strict;`) is only added to the function, the whole code breaks because that function does not adhere to the strict mode rules.
 
-``` {.js}
+``` js
 function testFunction(){
    // Restricts strict mode to this function only.
    "use strict";
@@ -47,7 +49,7 @@ var hello = true;
 
 The following code \_does not\_ cause a syntax error, even though the variable **intvar** variable is not declared with `var`, because the strict mode is scoped to the function only, while the non conformant code is found in a different scope (the global scope).
 
-``` {.js}
+``` js
 function testFunction(){
    // Restricts strict mode to this function only.
    "use strict";
@@ -70,10 +72,4 @@ When the expression `"use strict";` is placed at the start of a script or a func
 -   **with** statements are completely disallowed.
 
 **TODO**: Add the complete set of strict mode rules.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)
 

@@ -1,41 +1,50 @@
 ---
 title: createDocumentFragment
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat table'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Creates a new document fragment (DocumentFragment) object.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat table'
-summary: 'Creates a new document fragment (DocumentFragment) object.'
 uri: dom/Document/createDocumentFragment
 
 ---
-# createDocumentFragment
-
-## Summary
+## <span>Summary</span>
 
 Creates a new document fragment (DocumentFragment) object.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var documentFragment = document.createDocumentFragment();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The created DocumentFragment instance.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 
 var div, docFrag = document.createDocumentFragment(),  i = 0, thismany = 1000;
 
@@ -51,18 +60,10 @@ while ( i < thismany) {
 
 // Appends the fragment and child nodes to the document body.  Makes one DOM update instead of 1000
 document.body.appendChild(docFrag);
+
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-35CB04B5)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

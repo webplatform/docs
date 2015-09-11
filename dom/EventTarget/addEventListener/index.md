@@ -1,67 +1,72 @@
 ---
 title: addEventListener
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/EventTarget
+    href: /dom/EventTarget
+standardization_status: 'W3C Recommendation'
+summary: 'Registers an event handler for the specified event type.'
 tags:
   - API
   - Object
   - Methods
   - DOM
   - DOMEvents
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Registers an event handler for the specified event type.'
 uri: dom/EventTarget/addEventListener
 
 ---
-# addEventListener
-
-## Summary
+## <span>Summary</span>
 
 Registers an event handler for the specified event type.
 
-*Method of [dom/EventTarget](/dom/EventTarget)*
+Method of [dom/EventTarget](/dom/EventTarget)[dom/EventTarget](/dom/EventTarget)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  target.addEventListener(type, handler, useCapture);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### type
+### <span>type</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The type of event [**type**](/dom/Event/type) to register.
 
-### handler
+### <span>handler</span>
 
- Data-typeÂ
+ Data-type
 :   function
 
  A **function** that is called when the event is fired.
 
-### useCapture
+### <span>useCapture</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
-*(Optional)*
+(Optional)
 
 A **Boolean** value that specifies the event phase to add the event handler for.
 
 While this parameter is officially optional, it may only be omitted in modern browsers.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 This example listens to any click events on the document or its descendants.
 
-``` {.js}
+``` js
 document.addEventListener(
   "click",
   function (e) {
@@ -70,22 +75,13 @@ document.addEventListener(
   false);
 ```
 
-## Notes
+## <span>Notes</span>
 
 1.  Events are handled in two phases: capturing and bubbling. During the capturing phase, events are dispatched to parent objects before they are dispatched to event targets that are lower in the object hierarchy. During the bubbling phase, events are dispatched to target elements first and then to parent elements. You can register event handlers for either event phase. For more information, see [**eventPhase**](/dom/Event/eventPhase).
 2.  Some events, such as [**onfocus**](/dom/HTMLElement/focus), do not bubble. However, you can capture all events. You cannot capture events by elements that are not parents of the target element.
 3.  If you register multiple identical event handlers on the same event target, the duplicate event handlers are discarded.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

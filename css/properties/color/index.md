@@ -1,57 +1,71 @@
 ---
 title: color
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/5502992'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`black, except in a few cases (see notes)`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'For a non-translucent color, an hexadecimal equivalent is used. Otherwise it is the RGBa equivalent'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`color`'
+  Percentages: NA
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The color property sets the color of an element''s foreground content (usually text), accepting any standard CSS color from keywords and hex values to RGB(a) and HSL(a).'
-code_samples:
-  - 'http://gist.github.com/5502992'
-uri: css/properties/color
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - css/color/value
+uri: css/properties/color
 
 ---
-# color
-
-## Summary
+## <span>Summary</span>
 
 The color property sets the color of an element's foreground content (usually text), accepting any standard CSS color from keywords and hex values to RGB(a) and HSL(a).
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `black, except in a few cases (see notes)`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   For a non-translucent color, an hexadecimal equivalent is used. Otherwise it is the RGBa equivalent
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `color`
+
 Percentages
 :   NA
 
-## Syntax
+## <span>Syntax</span>
 
 -   `color: color`
 
-## Values
+## <span>Values</span>
 
 color
 :   [CSS color value](/css/color)
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* Setting a paragraph color to turquoise with a name value */
 p {color:turquoise}
 
@@ -78,21 +92,21 @@ p { color: hsla(174,72%,56%,0.8) }
 
 [View live example](http://code.webplatform.org/gist/5502992)
 
-## Usage
+## <span>Usage</span>
 
      Though CSS color values are precisely defined, they may appear differently between different output devices. Most of them are not calibrated, and some browsers do not support output device color profiles. Without these, color rendering may vary significantly.
 
-## Notes
+## <span>Notes</span>
 
-### Default color
+### <span>Default color</span>
 
 Some browsers change the default color from black to another color in their default css (user-agent stylesheet).
 
-### RGB, HSL, RGBa and HSLa support
+### <span>RGB, HSL, RGBa and HSLa support</span>
 
 HSL, RGBa and HSLa are not supported by older browsers (IE6-8), therefore if you do use such colours you should also provide a fallback color property that uses something similar but more widely supported, like a hex value. This should be placed either next to the modern color value but earlier in the cascade, or in a separate stylesheet hidden behind a conditional comment.
 
-### Separating foreground from background
+### <span>Separating foreground from background</span>
 
 In order to make it easier for users to see and hear content including separating foreground from background, [[WCAG](http://www.w3.org/TR/2008/REC-WCAG20-20081211/)] indicates the following:
 
@@ -100,18 +114,17 @@ In order to make it easier for users to see and hear content including separatin
 -   The visual presentation of text and images of text has a minimum contrast ratio of at least 4.5:1, with some exceptions. [[Contrast Minimum Guideline 1.4.3](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast)] (Level AA)
 -   The visual presentation of text and images of text has an enhanced contrast ratio of at least 7:1 [[Guideline 1.4.6](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast7)] (Level AAA)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Color Module Level 3](http://www.w3.org/TR/css3-color/)
 :   W3C Recommendation
+
 [Color in CSS1](http://www.w3.org/TR/REC-CSS1/#color)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Setting color in CSS](/tutorials/setting_color_in_css)
 -   [color](/css/color)
@@ -121,7 +134,7 @@ Specification
 -   [MDN color property](https://developer.mozilla.org/en-US/docs/CSS/color)
 -   [MSDN color property](http://msdn.microsoft.com/en-us/library/ie/ms530749(v=vs.85).aspx)
 
-### css color value
+### <span>css color value</span>
 
 See [css color value](/w/index.php?title=css/color/value&action=edit&redlink=1) for more information. The color value may be given as:
 

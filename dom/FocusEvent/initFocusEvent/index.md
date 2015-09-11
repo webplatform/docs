@@ -1,99 +1,95 @@
 ---
 title: initFocusEvent
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/FocusEvent
+    href: /dom/FocusEvent
+standardization_status: 'W3C Working Draft'
+summary: 'Initializes a new FocusEvent that the  createEvent method created.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example'
-summary: 'Initializes a new FocusEvent that the  createEvent method created.'
 uri: dom/FocusEvent/initFocusEvent
 
 ---
-# initFocusEvent
-
-## Summary
+## <span>Summary</span>
 
 Initializes a new FocusEvent that the createEvent method created.
 
-*Method of [dom/FocusEvent](/dom/FocusEvent)*
+Method of [dom/FocusEvent](/dom/FocusEvent)[dom/FocusEvent](/dom/FocusEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.initFocusEvent(eventType, canBubble, cancelable, view, detail, relatedTarget);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### eventType
+### <span>eventType</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### canBubble
+### <span>canBubble</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### cancelable
+### <span>cancelable</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### view
+### <span>view</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
  The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
 
-### detail
+### <span>detail</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  Specifies additional information. This value is returned in the [**detail**](/dom/UIEvent/detail) property of the event.
 
-### relatedTarget
+### <span>relatedTarget</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  A secondary element that is involved in the event. This value is returned in the [**relatedTarget**](/dom/MouseEvent/relatedTarget) property of the event.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `FocusEvent`
 -   `initUIEvent`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

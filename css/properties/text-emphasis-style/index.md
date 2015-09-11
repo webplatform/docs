@@ -1,42 +1,56 @@
 ---
 title: text-emphasis-style
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/6133332'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': '‘none’, a pair of keywords representing the shape and fill, or a string'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`textEmphasisStyle`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The text-emphasis-style property applies special emphasis marks to an element''s text.'
-code_samples:
-  - 'http://gist.github.com/6133332'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-emphasis-style
 
 ---
-# text-emphasis-style
-
-## Summary
+## <span>Summary</span>
 
 The text-emphasis-style property applies special emphasis marks to an element's text.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   ‘none’, a pair of keywords representing the shape and fill, or a string
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textEmphasisStyle`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-emphasis-style: <string>`
 -   `text-emphasis-style: circle`
@@ -48,7 +62,7 @@ Percentages
 -   `text-emphasis-style: sesame`
 -   `text-emphasis-style: triangle`
 
-## Values
+## <span>Values</span>
 
 none
 :   No emphasis marks.
@@ -77,9 +91,9 @@ sesame
 \<string\>
 :   Display the given string as marks. Authors should not specify more than one character in \<string\>. The UA may truncate or ignore strings consisting of more than one grapheme cluster.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 p {
   /*text-emphasis-style: shape;*/
   text-emphasis-style: dot;
@@ -88,17 +102,14 @@ p {
 
 [View live example](http://code.webplatform.org/gist/6133332)
 
-``` {.css}
+``` css
 p {
   /*text-emphasis-style: <string>;*/
   text-emphasis-style: "^";
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Decoration Module Level 3](http://www.w3.org/TR/css-text-decor-3/)
 :   W3C Candidate Recommendation
-

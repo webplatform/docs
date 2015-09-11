@@ -1,26 +1,35 @@
 ---
 title: select
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.'
 tags:
   - Markup
   - Attributes
   - HTML
   - Shadow
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.'
 uri: html/attributes/select
 
 ---
-# select
-
-## Summary
+## <span>Summary</span>
 
 One or more tokens that define the matching criteria for the distribution of child nodes of the shadow host.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   dom/HTMLContentElement
 
+</th>
+<td>
+dom/HTMLContentElement
+
+</td>
+</tr>
+</table>
 The select tokens define the matching criteria for distributing child nodes of the shadow host. Each token must be a valid selector fragment, which consists of the following:
 
 -   a selector that uniquely identifies the shadow host.
@@ -49,11 +58,11 @@ The select tokens define the matching criteria for distributing child nodes of t
         -   last-of-type
         -   only-of-type
 
-## Examples
+## <span>Examples</span>
 
 This example uses CSS selectors to select specific content from a shadow root.
 
-``` {.html}
+``` html
 <div style="background: purple; padding: 1em;">
   <div style="color: red;">
     <content select=".first"></content>
@@ -67,16 +76,7 @@ This example uses CSS selectors to select specific content from a shadow root.
 </div>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Shadow DOM](http://www.w3.org/TR/2012/WD-shadow-dom-20120522/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
-

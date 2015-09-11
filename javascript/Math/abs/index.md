@@ -1,35 +1,37 @@
 ---
 title: abs
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/09bx9f48(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the absolute value of a number (the value without regard to whether it is positive or negative). For example, the absolute value of -5 is the same as the absolute value of 5.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the absolute value of a number (the value without regard to whether it is positive or negative). For example, the absolute value of -5 is the same as the absolute value of 5.'
 uri: javascript/Math/abs
 
 ---
-# abs
-
-## Summary
+## <span>Summary</span>
 
 Returns the absolute value of a number (the value without regard to whether it is positive or negative). For example, the absolute value of -5 is the same as the absolute value of 5.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Math.abs( number )
 
 **number**
 :   Required. The required number argument is a numeric expression for which the absolute value is needed.
 
-## Return Value
+## <span>Return Value</span>
 
 The absolute value of the number argument.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **abs** function.
 
-``` {.js}
+``` js
 var s;
  var v1 = Math.abs(6);
  var v2 = Math.abs(-6);
@@ -43,15 +45,9 @@ var s;
  // Output: Absolute values are the same.
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Math Object](/javascript/Math)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/09bx9f48(v=vs.94).aspx)
 

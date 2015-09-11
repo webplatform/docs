@@ -1,13 +1,15 @@
 ---
 title: Using images
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/Canvas_tutorial/Using_images)'
+notes:
+  - 'Needs additional content, fix broken links'
+readiness: 'In Progress'
+summary: 'One of the more fun features of the canvas is the ability to use images. These can be used to do dynamic photo compositing or used as backdrops of graphs etc. External images can be used in any format supported by the browser (e.g. PNG, GIF or JPEG format). Other canvas elements on the same page can also be used as the source.'
 tags:
   - Tutorials
   - Canvas
-readiness: 'In Progress'
-notes:
-  - 'Needs additional content, fix broken links'
-summary: 'One of the more fun features of the canvas is the ability to use images. These can be used to do dynamic photo compositing or used as backdrops of graphs etc. External images can be used in any format supported by the browser (e.g. PNG, GIF or JPEG format). Other canvas elements on the same page can also be used as the source.'
-uri: 'tutorials/canvas/Canvas tutorial/Using images'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -18,15 +20,14 @@ todo_broken_links:
     - Image
     - 'data: url'
     - insertBefore
+uri: 'tutorials/canvas/Canvas tutorial/Using images'
 
 ---
-# Using images
-
-## Summary
+## <span>Summary</span>
 
 One of the more fun features of the canvas is the ability to use images. These can be used to do dynamic photo compositing or used as backdrops of graphs etc. External images can be used in any format supported by the browser (e.g. PNG, GIF or JPEG format). Other canvas elements on the same page can also be used as the source.
 
-## Importing images
+## <span>Importing images</span>
 
 Importing images is basically a two step process:
 
@@ -35,23 +36,23 @@ Importing images is basically a two step process:
 
 Let's look at step one first. There are basically four options available:
 
-#### Using images which are on the same page
+#### <span>Using images which are on the same page</span>
 
 We can access all images on a page by using either the `document.images` collection, the `document.getElementsByTagName` method, or if we know the ID attribute of the image, the `document.getElementById` method.
 
-#### Using images from other domains
+#### <span>Using images from other domains</span>
 
 Using the `crossOrigin` attribute on an `Image`, you can request permission to load an image from another domain for use in your call to `drawImage()`. If the hosting domain permits cross-domain access to the image, the image can be used in your canvas without tainting it; otherwise using the image will taint the canvas.
 
 **Note**: Need description for "taint the canvas"
 
-#### Using other canvas elements
+#### <span>Using other canvas elements</span>
 
 Just as with normal images we access other canvas elements using either the `document.getElementsByTagName` method or the `document.getElementById` method. Make sure you've drawn something to the source canvas before using it in your target canvas.
 
 One of the more practical uses of this would be to use a second canvas element as a thumbnail view of the other larger canvas.
 
-#### Creating an image from scratch
+#### <span>Creating an image from scratch</span>
 
 Another option is to create new `Image` objects in our script.
 
@@ -70,13 +71,13 @@ When this script gets executed, the image starts loading. Trying to call `drawIm
 
 If you're only using one external image this can be a good approach but once you need to track more than one we need to resort to something more cunning. It's beyond the scope of this tutorial to look at image preloading tactics but you can check out [JavaScript Image Preloader](http://www.webreference.com/programming/javascript/gr/column3/index.html) for a complete solution.
 
-#### Embedding an image via data: url
+#### <span>Embedding an image via data: url</span>
 
 Another possible way to include images is via the [data: url](/w/index.php?title=data:_url&action=edit&redlink=1). Data urls allow you to completely define an image as a Base64 encoded string of characters directly in your code. One advantage of data urls is that the resulting image is available immediately without another round trip to the server. (Another advantage is that it is then possible to encapsulate in one file all of your CSS, Javascript, HTML, and images, making it more portable to other locations.) Some disadvantages of this method are that your image is not cached, and for larger images the encoded url can become quite long:
 
     var img_src = 'data:image/gif;base64,R0lGODlhCwALAIAAAAAA3pn/ZiH5BAEAAAEALAAAAAALAAsAAAIUhA+hkcuO4lmNVindo7qyrIXiGBYAOw==';
 
-## drawImage
+## <span>drawImage</span>
 
 Once we have a reference to our source image object we can use the `drawImage` method to render it to the canvas. As we we'll see later the `drawImage` method is overloaded and has three different variants. In its most basic form it looks like this.
 
@@ -84,7 +85,7 @@ Once we have a reference to our source image object we can use the `drawImage` m
 
 Where `image` is a reference to our image or canvas object. `x` and `y` form the coordinate on the target canvas where our image should be placed.
 
-#### drawImage example 1
+#### <span>drawImage example 1</span>
 
 ![basic graph drawn on a canvas](/assets/public/7/7b/Canvas_backdrop.png)
 
@@ -105,7 +106,7 @@ In the following example I will be using an external image as the backdrop of a 
         img.src = 'images/backdrop.png';
       }
 
-## Scaling
+## <span>Scaling</span>
 
 The second variant of the `drawImage` method adds two new parameters and it allows us to place scaled images on the canvas.
 
@@ -113,7 +114,7 @@ The second variant of the `drawImage` method adds two new parameters and it allo
 
 Where `width` and `height` is the image's size on the target canvas.
 
-#### drawImage example 2
+#### <span>drawImage example 2</span>
 
 ![An image of a rhino wading in water](/assets/public/1/1a/Canvas_rhino.jpg)
 
@@ -136,7 +137,7 @@ In this example I'm going to use an image as a wallpaper and repeat it several t
         img.src = 'images/rhino.jpg';
       }
 
-## Slicing
+## <span>Slicing</span>
 
 The third and last variant of the `drawImage` method has eight new parameters. We can use this method to slice parts of a source image and draw them to the canvas.
 
@@ -148,7 +149,7 @@ The first parameter `image`, just as with the other variants, is either a refere
 
 Slicing can be a useful tool when you want to make compositions. You could have all elements in a single image file and use this method to composite a complete drawing. For instance, if you want to make a chart you could have a PNG image containing all the necessary text in a single file and depending on your data could change the scale of your chart without very much diffculty. Another advantage is that you don't need to load every image individually.
 
-#### drawImage example 3
+#### <span>drawImage example 3</span>
 
 ![Cropped image of a rhino in a gilt frame](/assets/public/6/63/Canvas_drawimage2.jpg)
 
@@ -170,7 +171,7 @@ I took a different approach to the loading of the images than the example above.
       ctx.drawImage(document.getElementById('frame'),0,0);
     }
 
-## Art gallery example
+## <span>Art gallery example</span>
 
 ![A group of four canvas images, each in a frame, on a brown background](/assets/public/3/38/Canvas_art_gallery.jpg)
 
@@ -207,7 +208,7 @@ The code below should be self-explanatory. We loop through the images array and 
       }
     }
 
-## Controlling image scaling behavior
+## <span>Controlling image scaling behavior</span>
 
 Introduced in Gecko 1.9.2 (Firefox 3.6 / Thunderbird 3.1 / Fennec 1.0)
 
@@ -216,10 +217,3 @@ Gecko 1.9.2 introduced the `mozImageSmoothingEnabled` property to the canvas ele
     ctx.mozImageSmoothingEnabled = false;
 
 [\<\<Previous ||](/tutorials/canvas/Canvas_tutorial/Drawing_shapes)[Next\>\>](/tutorials/canvas/Canvas_tutorial/Applying_styles_and_colors)
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/Canvas_tutorial/Using_images)
-

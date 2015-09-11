@@ -1,37 +1,44 @@
 ---
 title: localStreams
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+  return:
+    predicate: 'Returns an object of type '
+    value: MediaStreamArray
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: 'W3C Working Draft'
+summary: 'Returns an array of MediaStream objects added to the connection with addStream().'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Returns an array of MediaStream objects added to the connection with addStream().'
 uri: apis/webrtc/RTCPeerConnection/localStreams
 
 ---
-# localStreams
-
-## Summary
+## <span>Summary</span>
 
 Returns an array of MediaStream objects added to the connection with addStream().
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)</span></span>
+Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.localStreams;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">MediaStreamArray</span></span>
+Returns an object of type MediaStreamArrayMediaStreamArray
 
 An array of local [MediaStream](/apis/webrtc/MediaStream) objects that were added with [addStream()](/apis/webrtc/RTCPeerConnection/addStream).
 

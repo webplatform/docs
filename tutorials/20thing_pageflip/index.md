@@ -1,22 +1,22 @@
 ---
-title: 20thing pageflip
+title: Building the page flip effect from 20thingsilearned.com
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/casestudies/20things_pageflip/)'
+readiness: 'Ready to Use'
+summary: 'A case study showing basic implementation of a page-flipping effect.'
 tags:
   - Tutorials
   - Canvas
-readiness: 'Ready to Use'
-summary: 'A case study showing basic implementation of a page-flipping effect.'
 uri: 'tutorials/20thing pageflip'
 
 ---
-# Building the page flip effect from 20thingsilearned.com
-
 **By [Hakim El Hattab](http://www.html5rocks.com/profiles/#hakimelhattab)**
 
-## Summary
+## <span>Summary</span>
 
 A case study showing basic implementation of a page-flipping effect.
 
-## Introduction
+## <span>Introduction</span>
 
 In 2010, [F-i.com](http://www.f-i.com) and the Google Chrome team collaborated on an HTML5-based educational web app called 20 Things I Learned about Browsers and the Web ([www.20thingsilearned.com](http://www.20thingsilearned.com)). One of the key ideas behind this project was that it would best be presented in the [context of a book](http://chrome.blogspot.com/2010/11/curious-guide-to-browsers-and-web.html). Since the book is very much about open web technologies we felt it was important to stay true to that by making the container itself an example of what these technologies allow us to accomplish today.
 
@@ -24,13 +24,13 @@ In 2010, [F-i.com](http://www.f-i.com) and the Google Chrome team collaborated o
 
 We decided that the best way to achieve the feeling of a real world book is to simulate the good parts of the analogue reading experience while still leveraging the benefits of the digital realm in areas such as navigation. A lot of effort went into the graphical and interactive treatment of the reading flow — especially how the pages of the books flip from one page to another.
 
-## Getting Started
+## <span>Getting Started</span>
 
 This tutorial will take you through the process of creating your own page flip effect using the canvas element and plenty of JavaScript. Some of the rudimentary code, such as variable declarations and event listener subscription, has been left out of the snippets in this article, so remember to reference the working example.
 
 Before we get started it's a good idea to [check out the demo](http://www.html5rocks.com/static/demos/20things_pageflip/example/index.html) so you know what we're aiming to build.
 
-## Markup
+## <span>Markup</span>
 
 It's always important to remember that what we draw on canvas can't be indexed by search engines, selected by a visitor, or found by in-browser searches. For that reason, the content we will be working with is put directly into the DOM and then manipulated by JavaScript if it is available. The markup required for this is minimal:
 
@@ -48,7 +48,7 @@ We have one main container element for the book, which in turn contains the diff
 
 *A background image containing the paper texture and brown book jacket is added to the book element* ![Open Book](/assets/public/0/0c/pf02.jpg)
 
-## Logic
+## <span>Logic</span>
 
 The code required to power the page flip is not very complex, but it is quite extensive because it involves a lot of procedurally generated graphics. Let's start by looking at the description of the constant values we'll be using throughout the code.
 
@@ -136,7 +136,7 @@ In `mouseDownHandler` we start by checking if the mouse was pressed down on eith
 
 Once we reach the `mouseUpHandler` we go through all of the `flips` and check if any of them were flagged as `dragging` and should now be released. When a flip is released we set its target value to match the side it should flip to depending on the current mouse position. The page number is also update to reflect this navigation.
 
-## Rendering
+## <span>Rendering</span>
 
 Now that most of our logic is in place we'll go through how to render the folding paper onto the canvas element. Most of this happens inside of the `render()` function, which is called 60 times per second to update and draw the current state of all active flips.
 
@@ -272,7 +272,7 @@ All that remains now is drawing the shape of the folded paper using the properti
 
 That's it! You've now got a fully functional page flip navigation in place.
 
-## Page Flip Demo
+## <span>Page Flip Demo</span>
 
 The page flip effect is all about communicating the right interactive feel, so looking at images of it doesn't exactly do it justice. Use the links below to play around with the final result!
 
@@ -280,19 +280,12 @@ The page flip effect is all about communicating the right interactive feel, so l
 
 [Download the source code (75k .zip)](http://www.html5rocks.com/static/demos/20things_pageflip/20Things_PageFlip_Example.zip)
 
-## Next Steps
+## <span>Next Steps</span>
 
 *The soft page flip in this tutorial becomes even more powerful when paired with other book-like features such as an interactive hard cover* ![Hrad-flip](/assets/public/e/e8/pf07.jpg)
 
 This is only one example of what can be accomplished by utilizing HTML5 features such as the canvas element. I recommend you have a look at the more refined book experience, from which this technique is an excerpt, at: [www.20thingsilearned.com](http://www.20thingsilearned.com). There you will see how the page flips can be applied in a real application and how powerful it becomes when paired with other HTML5 features.
 
-## References
+## <span>References</span>
 
 -   [Canvas](http://developers.whatwg.org/the-canvas-element.html#the-canvas-element) API specification
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/casestudies/20things_pageflip/)
-

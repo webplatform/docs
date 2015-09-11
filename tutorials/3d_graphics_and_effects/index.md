@@ -1,15 +1,13 @@
 ---
-title: 3d graphics and effects
-tags:
-  - Tutorials
+title: Graphics (3D)
 readiness: 'Ready to Use'
 summary: 'Between SVG, Canvas, WebGL, and CSS3 3D features, you''re sure to amaze your users with stunning visuals natively rendered in the browser. This page lists tutorial articles for various visual features.'
+tags:
+  - Tutorials
 uri: 'tutorials/3d graphics and effects'
 
 ---
-# Graphics (3D)
-
-## Summary
+## <span>Summary</span>
 
 Between SVG, Canvas, WebGL, and CSS3 3D features, you're sure to amaze your users with stunning visuals natively rendered in the browser. This page lists tutorial articles for various visual features.
 

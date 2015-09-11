@@ -1,73 +1,82 @@
 ---
 title: strokeRect
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Takes the result of tracing the path, using the CanvasRenderingContext2D object''s line styles, and fills it with the strokeStyle.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Takes the result of tracing the path, using the CanvasRenderingContext2D object''s line styles, and fills it with the strokeStyle.'
 uri: apis/canvas/CanvasRenderingContext2D/strokeRect
 
 ---
-# strokeRect
-
-## Summary
+## <span>Summary</span>
 
 Takes the result of tracing the path, using the CanvasRenderingContext2D object's line styles, and fills it with the strokeStyle.
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.strokeRect(x, y, w, h);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate, in pixels, of the upper-left corner of the rectangle in relation to the coordinates of the canvas.
 
-### w
+### <span>w</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The width, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-### h
+### <span>h</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The height, in pixels, of the rectangle in relation to the coordinates of the canvas.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## Examples
+## <span>Examples</span>
 
 Basic example drawing a 100 x 100 px rect with a red outline
 
-``` {.js}
+``` js
 // draw rect with red outline
 ctx.strokeStyle = 'red';
 ctx.strokeRect(10,10,100,100);
@@ -75,7 +84,7 @@ ctx.strokeRect(10,10,100,100);
 
 Draws a rect with a white outline onto a black canvas
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -103,20 +112,11 @@ Draws a rect with a white outline onto a black canvas
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
 The *strokeRect* method creates a path that requires the use of the [stroke](/apis/canvas/CanvasRenderingContext2D/stroke) method to render the rectangle. The outline uses the current [strokeStyle](/apis/canvas/CanvasRenderingContext2D/strokeStyle), [lineWidth](/apis/canvas/CanvasRenderingContext2D/lineWidth), [lineJoin](/apis/canvas/CanvasRenderingContext2D/lineJoin), and, when appropriate, [miterLimit](/apis/canvas/CanvasRenderingContext2D/miterLimit) properties. If the *w* or *h* parameter is zero, a line is drawn. If the *w* and *h* parameters are zero, the rectangle is not drawn.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

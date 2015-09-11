@@ -1,10 +1,10 @@
 ---
-title: ja
+title: Webを開発し始める皆さんへ
+lang: ja
+summary: 'Webサイトの構築について学びたいですか? このページには、基礎を理解するのに最適な文書と合わせて、必要なツールや基本を解説している文書へのリンクもあります。'
 tags:
   - Basic
   - Pages
-summary: 'Webサイトの構築について学びたいですか? このページには、基礎を理解するのに最適な文書と合わせて、必要なツールや基本を解説している文書へのリンクもあります。'
-uri: Beginners/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -64,18 +64,30 @@ todo_broken_links:
     - Beginners/zh-tw
     - tutorials/ja
     - 'concepts/programming/the purpose of javascript/ja'
+translations:
+  es:
+    text: español
+    href: /Beginners/es
+  ko:
+    text: 한국어
+    href: /Beginners/ko
+  pt-br:
+    text: 'português do Brasil'
+    href: /Beginners/pt-br
+  tr:
+    text: Türkçe
+    href: /Beginners/tr
+  zh:
+    text: 中文
+    href: /Beginners/zh
+uri: Beginners/ja
 
 ---
-# Webを開発し始める皆さんへ
-
-## Summary
+## <span>Summary</span>
 
 Webサイトの構築について学びたいですか? このページには、基礎を理解するのに最適な文書と合わせて、必要なツールや基本を解説している文書へのリンクもあります。
 
-**言語:**
-:   **[English](/Beginners)**  • <span lang="es">[español](/Beginners/es)</span> • <span lang="ja">**日本語**</span> • <span lang="ko">[한국어](/Beginners/ko)</span> • <span lang="pt-br">[português do Brasil](/Beginners/pt-br)</span> • <span lang="tr">[Türkçe](/Beginners/tr)</span> • <span lang="zh">[中文](/Beginners/zh)</span>
-
-## はじめる前に
+## <span>はじめる前に</span>
 
 このセクションでは、コードをたくさん書いてブラウザで試していきます。まず始める前に、最低限次のものインストールしてください。
 
@@ -113,7 +125,7 @@ Webサイトの構築について学びたいですか? このページには、
 
 さあ、腕をまくって勉強する準備をしましょう。ここに挙げたものをやり終えてさらに学ぶつもりがあるなら、[こちら](/w/index.php?title=tutorials/ja&action=edit&redlink=1)に網羅した文書があります。
 
-## Web の基礎知識
+## <span>Web の基礎知識</span>
 
 -   [Webの歴史](/concepts/internet_and_web/the_history_of_the_web/ja)
 -   [インターネットのしくみ](/concepts/internet_and_web/how_does_the_internet_work/ja)
@@ -121,7 +133,7 @@ Webサイトの構築について学びたいですか? このページには、
 -   [コンテンツを公開する](/tutorials/getting_your_content_online/ja)
 -   [アクセシビリティ](/concepts/accessibility/ja)
 
-## HTML — Web コンテンツの構�
+## <span>HTML — Web コンテンツの構造</span>
 
 -   [HTMLの基礎](/guides/the_basics_of_html/ja)
 -   [DOCTYPE宣言とマークアップスタイル](/guides/doctypes_and_markup_styles/ja)
@@ -137,7 +149,7 @@ Webサイトの構築について学びたいですか? このページには、
 -   [HTML5のフォーム機能](/guides/html5_form_features/ja)
 -   [上記ほど知られていない要素](/guides/lesser-known_semantic_elements/ja)
 
-## CSS — Web コンテンツのスタイル
+## <span>CSS — Web コンテンツのスタイル</span>
 
 -   [CSSの基礎](/guides/getting_started_with_css/ja)
 -   [セレクターの使い方](/tutorials/using_selectors/ja)
@@ -148,7 +160,7 @@ Webサイトの構築について学びたいですか? このページには、
 -   [読みやすいCSSの記述方法](/tutorials/making_css_easier_to_read/ja)
 -   [メディアクエリーの使い方](/tutorials/media_queries/ja)
 
-## JavaScript — Webサイトに動きのある振る舞いをさせる
+## <span>JavaScript — Webサイトに動きのある振る舞いをさせる</span>
 
 -   [プログラミングの基礎](/concepts/programming/programming_basics/ja)
 -   [はじめてのJavaScript](/tutorials/your_first_look_at_javascript/ja)

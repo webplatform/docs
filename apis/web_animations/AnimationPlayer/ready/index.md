@@ -1,27 +1,30 @@
 ---
 title: ready
+readiness: readiness-state
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationPlayer
+    href: /apis/web_animations/AnimationPlayer
+summary: 'Returns the current ready promise for this object.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: readiness-state
-summary: 'Returns the current ready promise for this object.'
 uri: 'apis/web animations/AnimationPlayer/ready'
 
 ---
-# ready
-
-## Summary
+## <span>Summary</span>
 
 Returns the current ready promise for this object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)</span></span>
+Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var promise = myAnimationPlayer.ready;
 myAnimationPlayer.ready = value;
 ```

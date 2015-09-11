@@ -1,45 +1,60 @@
 ---
 title: list-style-type
-tags:
-  - CSS
-  - Properties
-readiness: 'In Progress'
-notes:
-  - 'Add specification, complete compatibility.'
-summary: 'Specifies the type of list-item marker in a list.'
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/list-style-type)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   0: 'http://gist.github.com/6798718'
   2: 'http://gist.github.com/5597602'
   3: 'http://gist.github.com/5598129'
   4: 'http://gist.github.com/5597530'
   5: 'http://gist.github.com/5697355'
+notes:
+  - 'Add specification, complete compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`disc`'
+  'Applies to': 'elements with ''display: list-item'''
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+summary: 'Specifies the type of list-item marker in a list.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/list-style-type
 
 ---
-# list-style-type
-
-## Summary
+## <span>Summary</span>
 
 Specifies the type of list-item marker in a list.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `disc`
+
 Applies to
 :   elements with 'display: list-item'
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `list-style-type: armenian`
 -   `list-style-type: circle`
@@ -58,7 +73,7 @@ Animatable
 -   `list-style-type: upper-latin`
 -   `list-style-type: upper-roman`
 
-## Values
+## <span>Values</span>
 
 armenian
 :   The marker is traditional Armenian numbering
@@ -108,13 +123,13 @@ upper-latin
 upper-roman
 :   upper-roman (I, II, III, IV, V, etc.)
 
-## Examples
+## <span>Examples</span>
 
 The following examples use the **`list-style-type`** attribute and the **`list-style-type`** property to set the markers.
 
 This example uses **`ul`** as a selector in an embedded (global) style sheet to change the marker type to **`circle`**.
 
-``` {.css}
+``` css
 <style>
     ul { list-style-type:circle }
 </style>
@@ -124,7 +139,7 @@ This example uses **`ul`** as a selector in an embedded (global) style sheet to 
 
 This example demonstrates the use of `decimal-leading-zero`.
 
-``` {.html}
+``` html
 <style type="text/css">
 .decleadzero {
     list-style-type: decimal-leading-zero;
@@ -145,7 +160,7 @@ This example demonstrates the use of `decimal-leading-zero`.
 
 Using the `list-style-type` on ordered lists
 
-``` {.css}
+``` css
 /**
  * using list-style-type on ordered lists
  * the default for ol's is list-style-type: decimal
@@ -164,7 +179,7 @@ Using the `list-style-type` on ordered lists
 
 If the left padding of a line item is set to 0 and the list has `list-style-position: outside;` (which is the default) the list-item markers will not show.
 
-``` {.css}
+``` css
 /*
 If the left padding is set to 0 the list-item markers do not show
 This happens only if the list-style-position is set on outside (which is the default)
@@ -183,7 +198,7 @@ ul {
 
 Example for unordered lists
 
-``` {.css}
+``` css
 /*
     Example for unordered lists
 */
@@ -205,7 +220,7 @@ Example for unordered lists
 
 Example for unordered lists with `list-style-type` set as `none` which removes the default bullet style of the unordered list.
 
-``` {.css}
+``` css
 /**
  * Example of list-style-type
 
@@ -250,13 +265,13 @@ a:visited{text-decoration:none;color:green;}
 
 [View live example](http://code.webplatform.org/gist/5697355)
 
-## Usage
+## <span>Usage</span>
 
      The list-style-type CSS property specifies appearance of a list item element. As it is the only one who defaults to display:list-item, this is usually a <li> element, but can be any element with this display value.
 
-## Notes
+## <span>Notes</span>
 
-### Notes
+### <span>Notes</span>
 
 -   The color of the marker will be the same as the computed color of the element it applies to.
 
@@ -270,11 +285,11 @@ a:visited{text-decoration:none;color:green;}
 
 -   If the left padding of a list is set to 0 using one of the padding properties, the list-item markers do not show only if that list has the default list-style-position: inside; . For a better understanding see the examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Generated and Replaced Content
+#### <span>Generated and Replaced Content</span>
 
 -   [Generated and Replaced Content](/css/generated_and_replaced_content)
 
@@ -290,18 +305,9 @@ a:visited{text-decoration:none;color:green;}
 
 -   [object-fit](/css/properties/object-fit)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/list-style-type)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

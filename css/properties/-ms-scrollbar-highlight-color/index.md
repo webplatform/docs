@@ -1,37 +1,41 @@
 ---
 title: -ms-scrollbar-highlight-color
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://result.webplatform.org/gist/7331495'
+notes:
+  - 'Add summery, values, specifications, compatibility.'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/properties/-ms-scrollbar-highlight-color
+standardization_status: Non-Standard
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Add summery, values, specifications, compatibility.'
-code_samples:
-  - 'http://result.webplatform.org/gist/7331495'
 uri: css/properties/-ms-scrollbar-highlight-color
 
 ---
-# -ms-scrollbar-highlight-color
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">**css/properties/-ms-scrollbar-highlight-color**</span></span>
+Property of **css/properties/-ms-scrollbar-highlight-colorcss/properties/-ms-scrollbar-highlight-color**
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = -ms-scrollbar-highlight-color.-ms-scrollbar-highlight-color;
 -ms-scrollbar-highlight-color.-ms-scrollbar-highlight-color = scrollbar-highlight-color:blue;
 ```
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to create a style rule that sets the **-ms-scrollbar-highlight-color** property.
 
-``` {.html}
+``` html
 <html>
   <head>
     <style>
@@ -47,13 +51,13 @@ The following example shows how to create a style rule that sets the **-ms-scrol
 
 [View live example](http://result.webplatform.org/gist/7331495)
 
-## Usage
+## <span>Usage</span>
 
      -ms-scrollbar-highlight-color: purple
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This property is specific to Internet Explorer 8. The **-ms-scrollbar-highlight-color** attribute is an extension to CSS, and can be used as a synonym for **scrollbar-highlight-color** in IE8 Standards mode.
 
@@ -61,15 +65,15 @@ The scroll box is the square box within a scroll bar that can be moved either up
 
 This property applies to elements that display a scroll bar. Cascading Style Sheets (CSS) enable scrolling on all objects through the [**overflow**](/css/properties/overflow) property. These objects are not listed in the Applies To list for this property.
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Scrollbar
+#### <span>Scrollbar</span>
 
 -   [-ms-scrollbar-3d-light-color](/css/properties/-ms-scrollbar-3d-light-color)
 
@@ -87,7 +91,7 @@ There are no standards that apply here.
 
 -   [-ms-scrollbar-track-color](/css/properties/-ms-scrollbar-track-color)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -102,10 +106,3 @@ There are no standards that apply here.
 -   `-ms-scrollbar-face-color`
 -   `-ms-scrollbar-shadow-color`
 -   `-ms-scrollbar-track-color`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

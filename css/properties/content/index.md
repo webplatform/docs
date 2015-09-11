@@ -1,48 +1,62 @@
 ---
 title: content
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: "The content property is used to display content in the pseudo-elements\_::before and\_::after."
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6948299'
   - 'http://gist.github.com/6948575'
   - 'http://gist.github.com/6948854'
   - 'http://gist.github.com/6949103'
   - 'http://gist.github.com/6949289'
-uri: css/properties/content
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': "pseudo-elements\_:before and\_:after"
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'On elements, always computers to normal.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`content`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: "The content property is used to display content in the pseudo-elements\_::before and\_::after."
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - before
+uri: css/properties/content
 
 ---
-# content
-
-## Summary
+## <span>Summary</span>
 
 The content property is used to display content in the pseudo-elements ::before and ::after.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   pseudo-elements :before and :after
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   On elements, always computers to normal.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `content`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `content: attr`
 -   `content: close-quote`
@@ -55,7 +69,7 @@ Animatable
 -   `content: string`
 -   `content: uri`
 
-## Values
+## <span>Values</span>
 
 none
 :   Pseudo element is not generated.
@@ -97,11 +111,11 @@ no-close-quote
 attr
 :   Value of an attribute of the subject of the selector. If attribute is not set on the subject an empty string will be returned. It is used as a function with the element name as the argument: 'attr( element-name )'
 
-## Examples
+## <span>Examples</span>
 
 The following example generates braces before and after all the **h1** elements on a page.
 
-``` {.css}
+``` css
 h1:before {
     content: "{ ";
 }
@@ -114,7 +128,7 @@ h1:after {
 
 Using attr( element-name ) to display text from an attribute. The following example adds a box displaying the value of the data-badge attribute for a button element.
 
-``` {.css}
+``` css
 button[data-badge] {
     /* the badge is going to be positioned absolute in the
      * button. Therefore the button needs a relative position */
@@ -140,7 +154,7 @@ button[data-badge]:after {
 
 Using the uri data-type the webplatform favicon is appended to all elements with the webplatform class.
 
-``` {.css}
+``` css
 .webplatform:before {
     content: url('http://docs.webplatform.org/favicon.ico');
 }
@@ -150,7 +164,7 @@ Using the uri data-type the webplatform favicon is appended to all elements with
 
 Uses the counter data-type to show a automatic numbering for all h2 elements on the page. More information is available on the [**counter-increment**](/css/properties/counter-increment) property page.
 
-``` {.css}
+``` css
 h2 {
 /*  increment header counter per h2 element */
     counter-increment: header;
@@ -166,7 +180,7 @@ h2:before {
 
 Uses the open-quote and close-quote data-type to add quoting around each blockquote element on the page.
 
-``` {.css}
+``` css
 blockquote:before {
     content: open-quote;
 }
@@ -178,22 +192,20 @@ blockquote:after {
 
 [View live example](http://code.webplatform.org/gist/6949289)
 
-## Notes
+## <span>Notes</span>
 
 -   CSS2.1 uses a single colon, and most browsers still support this. CSS3 introduces the use of double colons to avoid confusion with pseudo-classes.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Generated content, automatic numbering and lists](http://www.w3.org/TR/CSS21/generate.html#propdef-content)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Generated and Replaced Content
+#### <span>Generated and Replaced Content</span>
 
 -   [Generated and Replaced Content](/css/generated_and_replaced_content)
 
@@ -209,7 +221,7 @@ Specification
 
 -   [object-fit](/css/properties/object-fit)
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -235,20 +247,13 @@ Specification
 
 -   **content**
 
-### Other articles
+### <span>Other articles</span>
 
 -   [counter-increment](/css/properties/counter-increment)
 -   [counter-reset](/css/properties/counter-reset)
 -   [before](/Special:FormEdit/Method/before?redlink=1)
 -   [after](/after)
 
-### External resources
+### <span>External resources</span>
 
 -   CSS-Tricks: CSS Content [[1]](http://css-tricks.com/css-content/)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

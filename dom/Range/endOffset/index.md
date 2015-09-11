@@ -1,41 +1,51 @@
 ---
 title: endOffset
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.endOffset](https://developer.mozilla.org/en-US/docs/Web/API/Range.endOffset) Article]'
+  - 'Microsoft Developer Network: [[endOffset Property](http://msdn.microsoft.com/en-us/library/ie/ff974928(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Range
+    href: /dom/Range
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/Range
+standardization_status: 'W3C Recommendation'
+summary: 'Returns a number representing where in the Range.endContainer the Range ends.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Returns a number representing where in the Range.endContainer the Range ends.'
 uri: dom/Range/endOffset
 
 ---
-# endOffset
-
-## Summary
+## <span>Summary</span>
 
 Returns a number representing where in the Range.endContainer the Range ends.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Range](/dom/Range)</span></span>
+Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var offset = range.endOffset;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 the end offset value.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var range = document.createRange();
 
 range.setStart(startNode,startOffset);
@@ -43,30 +53,19 @@ range.setEnd(endNode,endOffset);
 endRangeOffset = range.endOffset;
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 If the boundary point offset is within a container that is not a character data node, the offset is a count based on where it falls between child nodes. For example, the offset is 0 if it falls before the first child, and 1 if it is between the first and second child. If the offset is within a character data node container, the value represents 16-bit unit positions.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM](http://dom.spec.whatwg.org/#dom-range-endoffset)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.endOffset](https://developer.mozilla.org/en-US/docs/Web/API/Range.endOffset) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[endOffset Property](http://msdn.microsoft.com/en-us/library/ie/ff974928(v=vs.85).aspx) Article]
-

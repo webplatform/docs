@@ -1,25 +1,27 @@
 ---
 title: mask
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, usage, spec reference,  standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, usage, spec reference,  standardization status'
 uri: svg/elements/mask
 
 ---
-# mask
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, an alpha mask is used to filter text. A linear gradient is defined that runs from magenta to cyan. A mask is then defined that will use the gradient to filter defined text. Alpha masking uses the image brightness to define the opacity of the final image. Magenta is less "bright" than cyan, so the resulting masked image will be less opaque on the left and more opaque on the right.
 
@@ -27,41 +29,43 @@ Copy this sample to a text file and save it with the *.html* file extension. Run
 
 The masked text will look like this:
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <svg width="400" height="400">
-          <defs>
-            <!-- Define linear gradient for magenta to cyan. -->
-            <linearGradient id="magenta2cyan" >
-              <!-- First color is magenta. -->
-              <stop offset="0%" style="stop-color:magenta"/>
-              <!-- Second color is cyan. -->
-              <stop offset="100%" style="stop-color:cyan"/>
-            </linearGradient>
-            <!-- Define mask. -->
-            <mask id="myMask" x="0" y="0" width="400" height="400">
-              <rect x="0" y="0" width="400" height="400" fill="url(#magenta2cyan)" />
-            </mask>
-            <!-- Define text. -->
-            <text id="myText" x="50" y="50" font-family="Verdana" font-size="32"  >
-             SVG forever!
-            </text>
-          </defs>
-          <!-- Use text with mask and gradient. -->
-          <use xlink:href="#myText" fill="navy" mask="url(#myMask)" />
-        </svg>
-      </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <svg width="400" height="400">
+      <defs>
+        <!-- Define linear gradient for magenta to cyan. -->
+        <linearGradient id="magenta2cyan" >
+          <!-- First color is magenta. -->
+          <stop offset="0%" style="stop-color:magenta"/>
+          <!-- Second color is cyan. -->
+          <stop offset="100%" style="stop-color:cyan"/>
+        </linearGradient>
+        <!-- Define mask. -->
+        <mask id="myMask" x="0" y="0" width="400" height="400">
+          <rect x="0" y="0" width="400" height="400" fill="url(#magenta2cyan)" />
+        </mask>
+        <!-- Define text. -->
+        <text id="myText" x="50" y="50" font-family="Verdana" font-size="32"  >
+         SVG forever!
+        </text>
+      </defs>
+      <!-- Use text with mask and gradient. -->
+      <use xlink:href="#myText" fill="navy" mask="url(#myMask)" />
+    </svg>
+  </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -90,11 +94,11 @@ The effect of a mask is the same as if there is no mask, but the alpha channel o
 
 **Note:** The paths, shapes (for example, circle), and text in SVG are all treated as four-channel RGBA images for the purposes of masking operations.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Clipping, Masking and Compositing](http://go.microsoft.com/fwlink/p/?linkid=199810), Section 14.6.2
 
-### Members
+### <span>Members</span>
 
 The **SVGMaskElement** object has these events:
 
@@ -126,10 +130,3 @@ The **SVGMaskElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

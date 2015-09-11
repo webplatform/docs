@@ -1,42 +1,58 @@
 ---
 title: outline-style
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5579124'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'Specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`outlineStyle`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The outline-style property sets the style of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.'
-code_samples:
-  - 'http://gist.github.com/5579124'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/outline-style
 
 ---
-# outline-style
-
-## Summary
+## <span>Summary</span>
 
 The outline-style property sets the style of the outline of an element. An outline is a line that is drawn around elements, outside the border edge, to make the element stand out.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   Specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `outlineStyle`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `outline-style: auto`
 -   `outline-style: dashed`
@@ -50,7 +66,7 @@ Percentages
 -   `outline-style: ridge`
 -   `outline-style: solid`
 
-## Values
+## <span>Values</span>
 
 none
 :   Default. Outline is not drawn, color and width are ignored.
@@ -85,11 +101,11 @@ inherit
 auto
 :   Defined by the user agent (browser). Currently supported only in WebKit. This value allows user-agents to draw focus outlines on elements in an appropriate platform-native style, or in some other appropriate style if there is no platform-native style.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing multiple \<span\>s.
 
-``` {.html}
+``` html
 <div class="all">
 <p>
       <span class="one">One</span>
@@ -125,7 +141,7 @@ A simple example showing multiple \<span\>s.
 
 Outline styles in CSS.
 
-``` {.css}
+``` css
 .all {
   background-color: lightgrey;
 }
@@ -181,21 +197,12 @@ Outline styles in CSS.
 
 [View live example](http://code.webplatform.org/gist/5579124)
 
-## Notes
+## <span>Notes</span>
 
 -   This property accepts the same values as [border-style](/css/properties/border-style), ***except*** that ‘hidden’ is not a legal outline style.
 -   The [outline](/css/properties/outline) property is a shorthand property for setting one or more of the individual outline properties **outline-style**, [outline-width](/css/properties/outline-width) and [outline-color](/css/properties/outline-color) in a single rule. In most cases the use of this shortcut is preferable and more convenient.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Basic User Interface Module Level 3 (CSS3 UI)](http://dev.w3.org/csswg/css-ui/#outline-style0)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

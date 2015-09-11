@@ -1,60 +1,67 @@
 ---
 title: currentTarget
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Event
+    href: /dom/Event
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/Event
+standardization_status: 'W3C Working Draft'
+summary: 'Gets the event target that is currently being processed.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example'
-summary: 'Gets the event target that is currently being processed.'
 uri: dom/Event/currentTarget
 
 ---
-# currentTarget
-
-## Summary
+## <span>Summary</span>
 
 Gets the event target that is currently being processed.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Event](/dom/Event)</span></span>
+Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var currentTargetElement = event.currentTarget;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 The current target of the event.
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Use this property to get the element for which the current event handler is being processed, during the capturing and bubbling phases.
 
-## Notes
+## <span>Notes</span>
 
 The [**target**](/dom/Event/target) property returns the element that originally received an event. At event phase `AT_TARGET`, the **currentTarget** and **target** objects are the same object.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`
@@ -72,10 +79,3 @@ Specification
 -   `TextEvent`
 -   `UIEvent`
 -   `eventPhase`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,26 +1,24 @@
 ---
 title: svg primer
+readiness: 'Ready to Use'
+summary: 'This guide offers a detailed introduction to the main important things to know about SVG.'
 tags:
   - Guides
   - SVG
-readiness: 'Ready to Use'
-summary: 'This guide offers a detailed introduction to the main important things to know about SVG.'
 uri: 'tutorials/svg primer'
 
 ---
-# svg primer
-
-## Summary
+## <span>Summary</span>
 
 This guide offers a detailed introduction to the main important things to know about SVG.
 
-## SVG Primer: Basic shapes and effects
+## <span>SVG Primer: Basic shapes and effects</span>
 
-### Introduction
+### <span>Introduction</span>
 
 SVG is a technology that has been on the cusp of greatness for a long time now. With browser support improving, and three of the big four browser engines already incorporating [solid support for SVG](http://www.codedread.com/svg-support.php), it is an ideal time to start looking into what the technology offers. This first article will get you comfortable with the basics, so that you are ready to dig deeper and explore SVG further. Even these baby steps will produce results that can be incorporated straight into your progressively enhanced designs. The latest W3C candidate recommendation is SVG 1.1, so this is the version I will follow. SVG Tiny 1.2 is in working draft at the time of writing, and is partially supported by Opera 9.5 and above.
 
-### SVG overview
+### <span>SVG overview</span>
 
 Since very early on, the web has been primarily made up of text and images, and more recently video and audio have also started to make a regular appearance. SVG is primarily an image format, but can incorporate all these things. Unlike image formats you may be more familiar with such as PNG or JPEG (raster image formats), SVG is a vector format. In this respect it is related to similar technologies such as Adobe Flash and Microsoft Silverlight. SVG however is an open format, based on XML, which is not controlled by one corporation.
 
@@ -32,7 +30,7 @@ One key advantage of SVG is that it plays well with other Open Web standards. Yo
 
 Another advantage of SVG is that, due to it being based on XML, an image can be created using nothing but a text editor. This is perfectly reasonable for the basic images we will be creating here, but as images get more complex it is more likely that you’ll want to use an authoring tool – unless you are a super-hero. Fortunately if your drawing application of choice is Adobe Illustrator, then you are in luck. You can just export your creation as an SVG file. Otherwise Inkscape is a good free application that uses SVG as its native format. You may ask why you should learn SVG if your application of choice supports exporting automatically? Just like web authoring tools don’t create great HTML and CSS, the same is true of SVG. Having knowledge of SVG will allow you to optimise those images, and will help a great deal if you want to use scripting to alter or animate SVG files. It may also be faster to make changes to a file, or create a simple shape by hand.
 
-### Incorporating SVG in your site or application
+### <span>Incorporating SVG in your site or application</span>
 
 There are a number of ways you can incorporate SVG into your site or application. You can create a SVG file, with the .svg file extension and just link to it like you would with any other document. If you would like to incorporate it as an element of an existing page, there are a few options; referencing the URI of the SVG from the `img` (Opera or WebKit only) or `object` elements, from CSS via the `background-image` or `list-style-image` properties (Opera only), or creating a compound document that mixes SVG with other markup languages such as XHTML and MathML. Using this last method requires that XHTML is used and served as XML. It will not work with documents served as HTML. The HTML5 Working Group are working to specify how SVG can be used within a HTML document served as text/html.
 
@@ -46,7 +44,7 @@ Similarly, I can include my SVG image as a background in CSS in the same way as 
 
 The SVG file will scale with the size of the element if it doesn’t specify absolute units; more on that later in the article.
 
-### Creating a basic skeleton
+### <span>Creating a basic skeleton</span>
 
 In this section I will walk you through creating a basic SVG template, a process that will be simple for anyone familiar with XML or XHTML. The complete example files for this article can be downloaded here (PROVIDE FILES, INSERT ANCHOR)
 
@@ -68,13 +66,13 @@ In this section I will walk you through creating a basic SVG template, a process
 
 Just like in HTML, the contents of the file are included between the opening and closing tags.
 
-### A note about document sizes
+### <span>A note about document sizes</span>
 
 In the example above the image will take up 100% of the available height and width by default. This will be the full browser window if it is a standalone file; if it is a CSS background image then it will be the size of the element that references it. If you don't want to go with these defaults, then you can specify your own image dimensions using the svg element's height and width attributes. A suitable unit should be used with the value, for example:
 
     <svg version="1.1" width="50%" height="50%" xmlns="http://www.w3.org/2000/svg">
 
-### Creating a simple rectangle
+### <span>Creating a simple rectangle</span>
 
 One of the most basic shapes in SVG is the humble rectangle. You’ll most likely use these a lot in SVG, especially when referencing SVG via CSS. A rectangle (or square) is specified using the `rect` element. We’ll step through how to create this shape:
 
@@ -104,7 +102,7 @@ The following CSS styles the rectangle above to have a 1px black outline (referr
 
 Try creating a CSS file with the rule above, and add the processing instruction to your SVG file above the SVG element. The final file should look somewhat like the SVG rectangle I created earlier. While this doesn’t look like much yet, I’ll cover more useful examples after we’ve worked our way through the basic shapes.
 
-### Circles and ellipses
+### <span>Circles and ellipses</span>
 
 If you thought creating a rectangle was easy, circles and ellipses are also relatively straight forward. To draw a circle, create a new file and follow the steps below:
 
@@ -133,7 +131,7 @@ An ellipse is specified in the same way as a circle, except with the `ellipse` e
 
     <ellipse cx="50%" cy="50%" rx="20%" ry="15%"/>
 
-### Draw some lines
+### <span>Draw some lines</span>
 
 Next up are lines. Lines are created using the `line` element, and four attributes are used to place the line on the canvas. the `x1` and `y1` attributes are used to specify the start of the line:
 
@@ -153,7 +151,7 @@ As with other shapes, lines have to be styled before it can be seen. One new pro
         stroke-linecap: round;
     }
 
-### Make any shape you please with the polygon and polyline elements
+### <span>Make any shape you please with the polygon and polyline elements</span>
 
 With the polygon element you can create more complex enclosed shapes. Unlike the previous shapes that I've defined with percentage units, the points in a polygon have to be defined using the co-ordinate system. As previously mentioned, co-ordinates map one to one with CSS pixels. The co-ordinate model can be adjusted using the `viewBox` or `transform` attribute, but this is beyond the scope of this article.
 
@@ -185,7 +183,7 @@ View polyline example (add example)
 
 All shapes in this article can be defined using the path element, which is the basic building block of SVG. The basic shapes are included in SVG to make it easier for developers to define common shapes, as path elements are not particularly easy to read or write. I'll not describe how to use the path element in this article, as it could be an entire article in itself. Most authoring tools will use the path element to define shapes, so it is useful to be aware that it exists, even if you don't need to fully understand it. For complex shapes, I usually create them in a image editor and copy/paste the shape into my hand authored SVG file.
 
-### Create beautiful buttons using shapes, gradients and filters
+### <span>Create beautiful buttons using shapes, gradients and filters</span>
 
 Now that you know how to draw shapes, it is time to put the knowledge to good use, with a more concrete example. I’ll walk you through an example of how to build a button, by adding gradients, shadows and text.
 
@@ -276,11 +274,10 @@ The final step was to add a cursor, to show the user the button can be clicked:
 
 While in this example, the button is a box with text, and much of it could be created with CSS 3 properties, you could make a button of any shape or size. As another simple example, I've created [a round play button with a triangle play icon](http://people.opera.com/dstorey/images/circle-button.svg). I'll not describe in detail how this was created, as it uses almost the same elements as the regular button, and just switches a rectangle for a circle and the text for a polygon.
 
-### Using your SVG buttons via CSS
+### <span>Using your SVG buttons via CSS</span>
 
 Instead of creating standalone buttons, you can use the regular HTML button and reference the SVG file using the CSS background-image property. There are some differences you should take into account however. You will have to make the SVG file the same size as the HTML button element, so it fits correctly, or set it so that the SVG file fills 100% of the width and height of the HTML element. You will not need the SVG text as it already exists in the HTML. For buttons with icons instead of text, the best way is to specify the text in the HTML button, and hide it using generated content as in the example below, or the CSS method of your choice:
 
     input#play-button {
         content: ""
     }
-

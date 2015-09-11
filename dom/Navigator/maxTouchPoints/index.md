@@ -1,40 +1,49 @@
 ---
 title: maxTouchPoints
+attributions:
+  - 'Microsoft Developer Network: [[maxTouchPoints property](http://msdn.microsoft.com/en-us/library/ie/hh772144(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Navigator
+    href: /dom/Navigator
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/Navigator
+standardization_status: 'W3C Working Draft'
+summary: 'The maximum number of simultaneous touch contacts supported by the device.'
 tags:
   - API
   - Object
   - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The maximum number of simultaneous touch contacts supported by the device.'
 uri: dom/Navigator/maxTouchPoints
 
 ---
-# maxTouchPoints
-
-## Summary
+## <span>Summary</span>
 
 The maximum number of simultaneous touch contacts supported by the device.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Navigator](/dom/Navigator)</span></span>
+Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = navigator.maxTouchPoints;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
 Basic HTML5 Canvas painting application
 
-``` {.js}
+``` js
 <style>
   /* Disable intrinsic user agent touch behaviors (such as panning or zooming) so
   that all events are given to the application instead. */
@@ -66,24 +75,22 @@ window.addEventListener('load', function() {
 });
 ```
 
-## Usage
+## <span>Usage</span>
 
      In the case of devices with multiple digitizers (e.g. multiple touchscreens), the value must be the maximum of the set of maximum supported contacts by each individual digitizer.
 
 For example, suppose a device has 3 touchscreens, which support 2, 5, and 10 simultaneous touch contacts, respectively. The value of *maxTouchPoints* is 10.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pointer Events
+#### <span>Pointer Events</span>
 
 -   [Pointer Events Primer](/concepts/Pointer_Events)
 
@@ -95,13 +102,5 @@ Specification
 
 -   [pointerEnabled](/dom/Navigator/pointerEnabled)
 
--   [PointerEvent](/dom/PointerEvent)
-
 -   [Introduction to multi-touch Web development](/tutorials/mobile_touch)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[maxTouchPoints property](http://msdn.microsoft.com/en-us/library/ie/hh772144(v=vs.85).aspx) Article]
 

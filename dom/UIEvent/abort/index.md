@@ -1,36 +1,78 @@
 ---
 title: abort
-tags:
-  - Events
-  - DOM
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [abort](https://developer.mozilla.org/en-US/docs/Web/Events/abort) Article]'
+  - 'Microsoft Developer Network: [[abort Event](http://msdn.microsoft.com/en-us/library/ie/ms536785(v=vs.85).aspx) Article]'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Fires when the user aborts the download.'
+tags:
+  - Events
+  - DOM
 uri: dom/UIEvent/abort
 
 ---
-# abort
-
-## Summary
+## <span>Summary</span>
 
 Fires when the user aborts the download.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
 Bubbles
-:   No
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
 Target
-:   dom/Element
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
 Cancelable
-:   Yes
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
 Default action
-:   Halts downloading of the designated image, but not due to an error
 
-## Examples
+</th>
+<td>
+Halts downloading of the designated image, but not due to an error
 
-``` {.js}
+</td>
+</tr>
+</table>
+## <span>Examples</span>
+
+``` js
 <img id="imgLogo" title="Click to view larger image" src="example.com/small.jpg" alt="small logo"/>
 <script type="text/javascript">
 var myAddEvent=function(el, ev, fn){
@@ -54,13 +96,13 @@ myAddEvent(el,'click',imgResize);
 myAddEvent(el,'abort',imgAbortHandler);
 ```
 
-## Usage
+## <span>Usage</span>
 
      Used to recover the original resource if the user cancels the download.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Halts downloading of the designated image, but not due to an error. To invoke this event, do one of the following:
 
@@ -98,22 +140,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLDocumentEvents4**
 -   **HTMLElementEvents4**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 6.1.6.2
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [abort](https://developer.mozilla.org/en-US/docs/Web/Events/abort) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[abort Event](http://msdn.microsoft.com/en-us/library/ie/ms536785(v=vs.85).aspx) Article]
-

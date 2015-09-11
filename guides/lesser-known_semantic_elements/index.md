@@ -1,30 +1,28 @@
 ---
-title: lesser-known semantic elements
+title: Lesser known semantic elements
+readiness: 'Ready to Use'
+summary: "This article discusses some of the lesser known and more\ninfrequently used semantic elements available in HTML.\n"
 tags:
   - Tutorials
   - HTML
-readiness: 'Ready to Use'
-summary: "This article discusses some of the lesser known and more\ninfrequently used semantic elements available in HTML.\n"
 uri: 'guides/lesser-known semantic elements'
 
 ---
-# Lesser known semantic elements
-
-## Summary
+## <span>Summary</span>
 
 This article discusses some of the lesser known and more infrequently used semantic elements available in HTML.
 
-## Introduction
+## <span>Introduction</span>
 
 In this article we look at some of the and less well-known and used semantic elements in HTML. We'll look at marking up programming code, interaction with computers, citations and abbreviations, showing changes made to documents, and more.
 
-## Highlighting contact information
+## <span>Highlighting contact information</span>
 
 The `<address>` element is probably the most poorly named and misunderstood element in HTML. At first glance, with a name like "address", it would appear that it is used to encapsulate addresses, email, postal, or otherwise. This is only partially the case.
 
 The actual meaning of `<address>` is to supply contact information *for the author or authors* of the page, or for the major section of the page, that it appears within. This can take the form of a name, an email address, a postal address, or a link to another page with more contact information. For example:
 
-``` {.html}
+``` html
 <address>
   <span>Mark Norman Francis</span>,
   <span class="tel">1-800-555-4865</span>
@@ -33,7 +31,7 @@ The actual meaning of `<address>` is to supply contact information *for the auth
 
  In the following example, the address is contained within the footer paragraph and simply links to another page on the site. The extended contact information on the page that this link targets could then have more detailed contact information, to save repeating it endlessly across the entire site.
 
-``` {.html}
+``` html
 <footer>
 <p>© Copyright 2011</p>
 <address>
@@ -46,7 +44,7 @@ The actual meaning of `<address>` is to supply contact information *for the auth
 
 It is **incorrect** to use the `<address>` element to indicate any other type of addresses, such as this:
 
-``` {.html}
+``` html
 <p> Our company address: </p>
 <address>
   Opera Software ASA,
@@ -60,11 +58,11 @@ It is **incorrect** to use the `<address>` element to indicate any other type of
 
 For any general address, you can use something called a "microformat" to indicate that a paragraph contains an address.
 
-## Programming languages and code
+## <span>Programming languages and code</span>
 
 The `<code>` element is used to indicate computer code or programming languages, such as PHP, JavaScript, CSS, or XML. For short samples within a sentence, you would simply wrap the element around the code snippet, like so:
 
-``` {.html}
+``` html
 <p>It is bad form to use event handlers like
 <code>onclick</code> directly in the HTML.</p>
 ```
@@ -73,7 +71,7 @@ The `<code>` element is used to indicate computer code or programming languages,
 
 Although there is no defined method for indicating which programming language or code is shown within the `<code>` element, you can use the `class` attribute. A common practice (mentioned in the HTML 5 specification) is to use the prefix `<language->` and then append the language name. So the above example would become:
 
-``` {.html}
+``` html
 <p>It is bad form to use event handlers like
 <code class="language-javascript">onclick</code>
 directly in the HTML.</p>
@@ -81,11 +79,11 @@ directly in the HTML.</p>
 
  Some programming languages have names that cannot be easily represented in classes, such as C\# (C-Sharp). The correct way of writing this would be "`<class='language-c\#'>`", where the "\\" indicates "treat the next character literally". This, of course, could be confusing and could easily be mis-typed. We recommend using a class consisting of only letters and hyphens, and spelling it out completely. So in this case, use "`<class='language-csharp'>`" instead.
 
-## Displaying computer interaction
+## <span>Displaying computer interaction</span>
 
 The two elements `<samp>` and `<kbd>` can be used to indicate the input and output of interaction with a computer program. For example:
 
-``` {.html}
+``` html
 <p>One common method of determining if a computer is connected
 to the internet is to use the computer program <code>ping</code>
 to see if a computer likely to be running is reachable.</p>
@@ -104,11 +102,11 @@ to see if a computer likely to be running is reachable.</p>
 
 The `<kbd>` element indicates input from the user interacting with the computer. Although this is traditionally keyboard input (hence the "kbd" contraction) it should also be used to indicate other types of input, such as spoken voice.
 
-## Variables
+## <span>Variables</span>
 
 The `<var>` element is used to indicate variables in textual content. This can include variables in algebraic mathematical expressions or within programming code. For example:
 
-``` {.html}
+``` html
 <p>The value of <var>x</var> in
  3<var>x</var>+2=14 is 4.</p>
 
@@ -117,24 +115,24 @@ my <var>$welcome</var> = "Hello world!";
 </code></pre>
 ```
 
-## Citations
+## <span>Citations</span>
 
 The `<cite>` element is used to indicate where the nearby content comes from. When quoting a person, a book or other publication, or generally referring people to another source, that source should be wrapped in a `<cite>` element. For example:
 
-``` {.html}
+``` html
 <p>The saying <q>Everything should be made as simple as possible,
 but not simpler</q> is often attributed to <cite>Albert
 Einstein</cite>, but it is actually a paraphrasing of a quote which
 is much less easy to understand.</p>
 ```
 
-## Abbreviations
+## <span>Abbreviations</span>
 
 The `<abbr>` element is used to indicate where abbreviations occur, and to provide a method for expanding them without unnecessarily interrupting the flow of the document.
 
 The text that is the abbreviation gets wrapped in the `<abbr>` element, and the full expansion is placed in the `title` attribute, like this:
 
-``` {.html}
+``` html
 <p>Styling is added to
 <abbr title="Hypertext Markup Language">HTML</abbr> documents
 using <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
@@ -144,19 +142,19 @@ using <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
 
 One problem with this is Internet Explorer support: Internet Explorer (before version 7, and 7 doesn't provide the dotted underline underneath abbreviations that other browsers do) doesn't recognise the `<abbr>` element, but does recognise `<acronym>`. But this is easy enough to get around. To ensure that `<abbr>` will be stylable in Internet Explorer, just create the element with JavaScript. Put this code in your document `<head>`:
 
-``` {.html}
+``` html
 <script type="text/javascript">document.createElement('abbr');</script>
 ```
 
  To find out more about why this works, see the [HTML Structural Elements](/guides/html_structural_elements) article. Of course, you could just stick to using `<acronym>` for now, until you decide to make a complete move toward HTML5.
 
-## Defining instances
+## <span>Defining instances</span>
 
 There is some confusion over the proper use of `<dfn>`, which is described in the HTML specification as "the defining instance of the enclosed term". This is remarkably close to the idea of the `<dt>` element (definition term) used in definition lists.
 
 The difference is that the term used in `<dfn>` does not have to be a part of a list of terms and descriptions and can instead be used as part of the normal flow of text, even in conversational style prose. So, let's look at an example of using `<dfn>`:
 
-``` {.html}
+``` html
 <p><dfn>HTML</dfn>: HTML stands for "HyperText Markup Language". This is
 the language used to describe the contents of web documents.</p>
 ```
@@ -165,14 +163,14 @@ the language used to describe the contents of web documents.</p>
 
 This is all well and good, but an isolated example is not very practical — the use of `<dfn>` is recommended when an abbreviation is used more than once on a page. For example, in any article about HTML, the abbreviation "HTML" could appear dozens of times. To use the code "`<abbr title="HyperText Markup Language">HTML</abbr>`" each and every time it is seen would be a waste of bandwidth, visually distracting, and for screen reader users probably quite tiresome as HTML is expanded over and over, even though they would already have been told what it stands for. Instead, the code could be inserted only at the point where it is first defined for the readers:
 
-``` {.html}
+``` html
 <p><dfn><abbr>HTML</abbr></dfn> ("HyperText Markup Language") is
 a language to describe the contents of web documents.</p>
 ```
 
  Then later, whenever "HTML" is used, it can be marked up simply as "`<abbr>HTML</abbr>`". A user agent could then make available to the user some method of retrieving the defining instance of that abbreviation. Unfortunately, no user agent currently does this, including screen readers. It would be better, then, to use the `title` attribute as well to provide this information:
 
-``` {.html}
+``` html
 <p><dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> ("HyperText Markup Language") is a language
 to describe the contents of web documents.</p>
 ```
@@ -181,7 +179,7 @@ to describe the contents of web documents.</p>
 
 We suggest that this is an acceptable trade-off when there are only one or two items requiring a definition. In pages that require a larger number of definitions, it might be better to create a glossary section or page where the more rigourous definition list markup can be used. If you are very concerned about this, the code could instead appear as:
 
-``` {.html}
+``` html
 <p><abbr title="HyperText Markup Language">HTML</abbr>
 (<dfn>HyperText Markup Language</dfn>) is a language to
 describe the contents of web documents.</p>
@@ -191,7 +189,7 @@ describe the contents of web documents.</p>
 
 This is an unfortunate instance where the specification has been created without clear guidelines on how an element is supposed to be used, and probably was not based upon any real-world usage of that element; otherwise, there would be a method of combining the term with its full description or definition. The HTML5 specification goes into [[more detail](http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-dfn-element)] about how dfn is used, but this is still in draft and not suitable for use on the web yet.
 
-## Superscript and subscript
+## <span>Superscript and subscript</span>
 
 To mark up a part of some text as being super- or subscripted (slightly raised or lowered compared to the rest of the text) you use the `<sup>` and `<sub>` elements.
 
@@ -199,7 +197,7 @@ Some languages require these elements for correct rendering of abbreviations, an
 
 An example of both types:
 
-``` {.html}
+``` html
 <p>The chemical formula for water is H<sub>2</sub>O, and it
 is also known as hydrogen hydroxide.</p>
 <p>The famous formula for mass-energy equivalence as derived
@@ -208,7 +206,7 @@ is equal to the mass multiplied by the speed of light
 squared.</p>
 ```
 
-## Line breaks
+## <span>Line breaks</span>
 
 Because of the way HTML defines white space, it is not possible to control where lines of text break (such as marking up a postal address as a paragraph, but wanting the visual appearance to have each part of the address appear on a separate line) by simply pressing the Return key whilst writing the text.
 
@@ -218,7 +216,7 @@ Sometimes it might be easier to use the preformatted text block rather than inse
 
 For example, you could write the Opera contact address seen earlier in this article like this instead:
 
-``` {.html}
+``` html
 <p>Our company address: </p>
 <address>
 Opera Software ASA,<br>Waldemar Thranes gate 98,<br>
@@ -228,7 +226,7 @@ NO-0175 OSLO,<br>NORWAY
 
  Of course, if you are writing XHTML style syntax rather than HTML, the element should be self-closing: `<br />`.
 
-## Horizontal rules
+## <span>Horizontal rules</span>
 
 A horizontal rule is created in HTML with the `<hr>` element. It inserts into the document a line, which is described to represent a boundary between different sections of a document.
 
@@ -240,7 +238,7 @@ The `<hr>` element has no uncommon attributes and should be styled using CSS if 
 
 Also, like the line break, if you are writing XHTML style syntax and not HTML, use the self-closing form: `<hr />`.
 
-## Changes to documents (inserting, deleting and outdated content)
+## <span>Changes to documents (inserting, deleting and outdated content)</span>
 
 If a document has been changed since the first time it was available, you can mark these changes so that return visitors or automated processes can tell what has changed, and when.
 
@@ -254,7 +252,7 @@ You can also indicate the time at which the change was made by using a `datetime
 
 An example using both attributes:
 
-``` {.html}
+``` html
 <p>We should only solve problems that actually arise. As
 <cite><del datetime="2008-03-25 18:26:55 Z"
 cite="/changes.html#revision-4">Donald Knuth</del><ins
@@ -266,11 +264,10 @@ evil</q>.</p>
 
  We can also use the `<s>` element to markup content that is outdated, perhaps if you want to mark it for future updating or deletion. For example:
 
-``` {.html}
+``` html
 <p><s>The president of the USA is currently Barack Obama</s>.</p>
 ```
 
-## Conclusion
+## <span>Conclusion</span>
 
 Although the elements in this article are less well known than some of their fellows, they are no less useful. You should of course use whichever elements are appropriate to the content they mark up, regardless of popularity. Usage promotes familiarity, and familiarity promotes usage!
-

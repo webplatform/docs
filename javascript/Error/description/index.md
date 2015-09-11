@@ -1,20 +1,22 @@
 ---
 title: description
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hs13sc3e(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns or sets the descriptive string associated with a specific error.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns or sets the descriptive string associated with a specific error.'
 uri: javascript/Error/description
 
 ---
-# description
-
-## Summary
+## <span>Summary</span>
 
 Returns or sets the descriptive string associated with a specific error.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     object .description  [ =  stringExpression ]
 
@@ -24,11 +26,11 @@ Returns or sets the descriptive string associated with a specific error.
 **stringExpression**
 :   Optional. A string expression containing a description of the error.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **description** property.
 
-``` {.js}
+``` js
 try
  {
  // Cause an error:
@@ -50,23 +52,17 @@ try
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **description** property contains the error message string associated with a specific error. Use the value contained in this property to alert a user to an error.
 
 The **description** and **message** properties provide the same functionality; the **description** property provides backward compatibility; the **message** property complies with the ECMA standard.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [number Property (Error)](/javascript/Error/number)
 -   [message Property (Error)](/javascript/Error/message)
 -   [name Property (Error)](/javascript/Error/name)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hs13sc3e(v=vs.94).aspx)
 

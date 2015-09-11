@@ -1,21 +1,19 @@
 ---
-title: blur
+title: blur()
+code_samples:
+  - 'http://codepen.io/pverbeek/pen/yiKBv'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: "Blurs an element, for use by the\nfilter property.  Accepts a distance\nmeasurement within which pixels are randomly scattered. A value of 0\nleaves the image as is.\n"
 tags:
   0: CSS
   1: Functions
   3: Graphics
   4: SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: "Blurs an element, for use by the\nfilter property.  Accepts a distance\nmeasurement within which pixels are randomly scattered. A value of 0\nleaves the image as is.\n"
-code_samples:
-  - 'http://codepen.io/pverbeek/pen/yiKBv'
 uri: css/functions/blur
 
 ---
-# blur()
-
-## Summary
+## <span>Summary</span>
 
 Blurs an element, for use by the filter property. Accepts a distance measurement within which pixels are randomly scattered. A value of 0 leaves the image as is.
 
@@ -29,11 +27,11 @@ Note that pixels blur around the contours of image transparencies, possibly affe
 
 ![music blur.png](/assets/public/2/25/music_blur.png)
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the difference between two images, where one has a blur of 10px: ![filter blur.png](/assets/thumb/7/78/filter_blur.png/400px-filter_blur.png)
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -49,38 +47,37 @@ The following example shows the difference between two images, where one has a b
    </style>
   </head>
   <body>
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo" />
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo bar" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo bar" />
   </body>
 </html>
 ```
 
 [View live example](http://codepen.io/pverbeek/pen/yiKBv)
 
-## Notes
+## <span>Notes</span>
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *radius* passed to the function:
 
-``` {.xml}
+``` xml
 <filter id="blur">
   <feGaussianBlur stdDeviation="[radius radius]">
 </filter>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
+
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   **blur()**
 
@@ -164,8 +161,7 @@ Specification
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### External resources
+### <span>External resources</span>
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)
-

@@ -1,59 +1,63 @@
 ---
 title: styleSheets
+notes:
+  - 'Cannot finish, Spec is still at Draft level anyway.'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/properties
+    href: /css/cssom/properties
+  return:
+    predicate: 'Returns an object of type '
+    value: StyleSheetList
+    href: /css/cssom/properties
+standardization_status: 'W3C Working Draft'
+summary: 'Get a list of Style sheets applied to the current document as an ordered collection.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Cannot finish, Spec is still at Draft level anyway.'
-summary: 'Get a list of Style sheets applied to the current document as an ordered collection.'
 uri: css/cssom/properties/styleSheets
 
 ---
-# styleSheets
-
-## Summary
+## <span>Summary</span>
 
 Get a list of Style sheets applied to the current document as an ordered collection.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/properties](/css/cssom/properties)</span></span>
+Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.styleSheets;
 element.styleSheets = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">StyleSheetList</span></span>
+Returns an object of type StyleSheetListStyleSheetList
 
 Get a list of CSS Style Sheets assigned to the current document.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Style sheets that are imported using the [**@import**](/css/atrules/@import) rule and are contained within the **style** object are available through the [**imports**](/css/cssom/imports) collection.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Object Model (CSSOM), Section 6.2.3 Extensions to the Document Interface](http://www.w3.org/TR/cssom/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
-### Related pages
+### <span>Related pages</span>
 
 -   `link`
 -   `style`
 -   `CSSImportRule`
-

@@ -1,51 +1,57 @@
 ---
 title: getElementsByClassName
+notes:
+  - 'Needs spec reference, example'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/shadowdom/ShadowRoot
+    href: /dom/shadowdom/ShadowRoot
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Object
+    href: /dom/shadowdom/ShadowRoot
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Just like Document/getElementsByClassName except that it only works within the scope of this ShadowRoot''s shadow tree.'
 tags:
   - API
   - Object
   - Methods
   - DOM
   - Shadow
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs spec reference, example'
-summary: 'Just like Document/getElementsByClassName except that it only works within the scope of this ShadowRoot''s shadow tree.'
 uri: dom/shadowdom/ShadowRoot/getElementsByClassName
 
 ---
-# getElementsByClassName
-
-## Summary
+## <span>Summary</span>
 
 Just like Document/getElementsByClassName except that it only works within the scope of this ShadowRoot's shadow tree.
 
-*Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)*
+Method of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.getElementsByClassName(classNames);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### classNames
+### <span>classNames</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  A space separated list of classes.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Object.
+Returns an object of type ObjectObject
 
 A live [HTMLCollection](/dom/HTMLCollection) of elements with the given class names.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 Use of this method is discouraged. See [HTMLCollection](/dom/HTMLCollection). However, that article has not been vetted for vendor bias, it is an unreviewed import, and the performance implications described may be browser (IE) specific.
-

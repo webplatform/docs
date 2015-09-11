@@ -1,53 +1,60 @@
 ---
 title: play
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/web_animations/AnimationTimeline
+    href: /apis/web_animations/AnimationTimeline
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/web_animations/AnimationTimeline
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Creates a new AnimationPlayer object associated with this timeline that begins playback as soon as it is ready.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Web
   5: Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Creates a new AnimationPlayer object associated with this timeline that begins playback as soon as it is ready.'
 uri: 'apis/web animations/AnimationTimeline/play'
 
 ---
-# play
-
-## Summary
+## <span>Summary</span>
 
 Creates a new AnimationPlayer object associated with this timeline that begins playback as soon as it is ready.
 
-*Method of [apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)*
+Method of [apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)[apis/web\_animations/AnimationTimeline](/apis/web_animations/AnimationTimeline)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.play(source);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### source
+### <span>source</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-*(Optional)*
+(Optional)
 
 If source is specified, it will be used as the newly-created AnimationPlayerâ€™s source content.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -68,8 +75,6 @@ Returns an object of type .
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   **play**
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -97,7 +102,4 @@ Returns an object of type .
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

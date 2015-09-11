@@ -1,19 +1,19 @@
 ---
 title: cx (SVGRadialGradientElement)
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: 'svg/properties/cx (SVGRadialGradientElement)'
 
 ---
-# cx (SVGRadialGradientElement)
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 The **cx** property defines the x-coordinate for the center of the largest (that is, outermost) circle of a radial gradient. The gradient is drawn such that the 100% gradient [**stop**](/svg/elements/stop) is mapped to the perimeter of this largest (that is, outermost) circle. If you do not specify the **cx** property, the effect is the same as if you specify a value of **50%**.
 
@@ -25,21 +25,14 @@ Properties inherit into the [**radialGradient**](/svg/elements/radialGradient) e
 
 The **display** property does not apply to the [**radialGradient**](/svg/elements/radialGradient) element so **radialGradient** elements are not directly rendered even if the **display** property is set to a value other than **none**. **radialGradient** elements are available for referencing even when the **display** property on the **radialGradient** element or any of its ancestors is set to **none**.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.3
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGRadialGradientElement**](/svg/elements/radialGradient)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

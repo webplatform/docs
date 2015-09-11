@@ -1,23 +1,21 @@
 ---
-title: content-security-policy
+title: Introduction to content security policy
+readiness: 'Ready to Use'
+summary: 'Provides an overview of Content Security Policy (CSP)'
 tags:
   - Tutorials
   - Security
-readiness: 'Ready to Use'
-summary: 'Provides an overview of Content Security Policy (CSP)'
 uri: tutorials/content-security-policy
 
 ---
-# Introduction to content security policy
-
 **By Mike West**
 Originally published June 15, 2012
 
-## Summary
+## <span>Summary</span>
 
 Provides an overview of Content Security Policy (CSP)
 
-## Introduction
+## <span>Introduction</span>
 
 **Caution:** This article discusses APIs that are not yet fully standardized and still in flux. Be cautious when using experimental APIs in your own projects.
 
@@ -27,7 +25,7 @@ The web’s security model is rooted in the [*same origin policy*](http://en.wik
 
 This tutorial highlights one promising new defense that can significantly reduce the risk and impact of XSS attacks in modern browsers: Content Security Policy (CSP).
 
-## Source Whitelists
+## <span>Source Whitelists</span>
 
 The core issue exploited by XSS attacks is the browser’s inability to distinguish between script that’s intended to be part of your application, and script that’s been maliciously injected by a third-party. For example, the Google +1 button at the top of this article loads and executes code from `https://apis.google.com/js/plusone.js` in the context of this page’s origin. We trust that code, but we can’t expect the browser to figure out on it’s own that code from `apis.google.com` is awesome, while code from `apis.evil.example.com` probably isn’t. The browser happily downloads and executes any code a page requests, regardless of source.
 
@@ -43,7 +41,7 @@ With this policy defined, the browser will simply throw an error instead of load
 
 ![Console error: "Refused to load the script 'http://evil.example.com/evil.js' because it violates the following Content Security Policy directive: "script-src 'self' https://apis.google.com"."](/assets/public/7/75/csp-error.png.pagespeed.ce.8abh9RZ6bz.png)
 
-### Policy applies to a wide variety of resources
+### <span>Policy applies to a wide variety of resources</span>
 
 While script resources are the most obvious security risks, CSP provides a rich set of policy directives that enable fairly granular control over the resources that a page is allowed to load. You’ve already seen `script-src`, so the concept should be clear. Let’s quickly walk through the rest of the resource directives:
 
@@ -65,7 +63,7 @@ If, for example, you have an application that loads all of it’s resources from
 
     Content-Security-Policy: default-src https://cdn.example.net; frame-src 'none'; object-src 'none'
 
-### Implementation Details
+### <span>Implementation Details</span>
 
 Before moving further, it’s important to note that the canonical header I’ve used in the examples is `Content-Security-Policy`, but current browsers have implemented the feature behind a prefix: Firefox uses `X-Content-Security-Policy`, and WebKit-based browsers (Safari and Chrome) use `X-WebKit-CSP`. The implementations are quite similar, however, and are converging rapidly on the standard. This article will continue to use `Content-Security-Policy`, as browsers will migrate to that header, but the prefixes are essential for the moment.
 
@@ -82,11 +80,11 @@ Four keywords are also accepted in the source list:
 
 These keywords require single-quotes. `script-src 'self'` authorizes the execution of JavaScript from the current host. `script-src self` allows JavaScript from a server named “`self`” (and *not* from the current host), which probably isn’t what you meant.
 
-### Sandboxing
+### <span>Sandboxing</span>
 
 There’s one more directive worth talking about: **`sandbox`**. It’s a bit different than the others we’ve looked at, as is places restrictions on actions the page can take, rather than on resources that the page can load. If the `sandbox` directive is present, the page will be treated as though it was loaded inside of an `iframe` with a `sandbox` attribute. This can have a wide range of effects on the page: forcing the page into a unique origin, and preventing form submission, among others. It’s a bit beyond the scope of this article, but you can find full details on valid sandboxing attributes in the [“sandboxing flag set” section of the HTML5 spec](http://www.whatwg.org/specs/web-apps/current-work/multipage/origin-0.html#sandboxing-flag-set).
 
-## Inline Code Considered Harmful
+## <span>Inline Code Considered Harmful</span>
 
 It should be clear that CSP is based on whitelisting origins, as that’s an unambiguous way of instructing the browser to treat specific sets of resources as acceptable and to reject the rest. Origin-based whitelisting doesn’t, however, solve the biggest threat posed by XSS attacks: inline script injection. If an attacker can inject a script tag that directly contains some malicious payload (`<script>sendMyDataToEvilDotCom();</script>`), the browser has no mechanism by which to distinguish it from a legitimate inline script tag. CSP solves this problem by banning inline script entirely: [it’s the only way to be sure](https://www.youtube.com/watch?v=aCbfMkh940Q).
 
@@ -119,7 +117,7 @@ Inline style is treated in the same way: both the `style` attribute and `style` 
 
 If you really, absolutely must have inline script and style, you can enable it by adding `'unsafe-inline'` as an allowed source in a `script-src` or `style-src` directive. But please don’t. Banning inline script is the biggest security win CSP provides, and banning inline style likewise hardens your application. It’s a little bit of effort up front to ensure that things work correctly after moving all the code out-of-line, but that’s a tradeoff that’s well worth making.
 
-## Eval Too
+## <span>Eval Too</span>
 
 Even when an attacker can’t inject script directly, she might be able to trick your application into converting otherwise inert text into executable JavaScript and executing it on her behalf. `eval()`, `new Function()`, `setTimeout([string], ...)`, `and setInterval([string], ...)` are all vectors through which injected text might end up executing something unexpectedly malicious. CSP’s default response to this risk is, unsurprisingly, to block all of these vectors completely.
 
@@ -138,7 +136,7 @@ This has a more than few impacts on the way you build applications:
 
 You’re even better off, however, if your templating language of choice offers precompilation ([Handlebars does](http://handlebarsjs.com/precompilation.html), for instance). Precompiling your templates can make the user experience even faster than the fastest runtime implementation, and it’s safer too. Win, win! If eval and its text-to-JavaScript brethren are completely essential to your application, you can enable them by adding `'unsafe-eval'` as an allowed source in a `script-src` directive. But, again, please don’t. Banning the ability to execute strings makes it much more difficult for an attacker to execute unauthorized code on your site.
 
-## Reporting
+## <span>Reporting</span>
 
 CSP’s ability to block untrusted resources client-side is a huge win for your users, but it would be quite helpful indeed to get some sort of notification sent back to the server so that you can identify and squash any bugs that allow malicious injection in the first place. To this end, you can instruct the browser to `POST` JSON-formatted violation reports to a location specified in a **`report-uri`** directive.
 
@@ -158,7 +156,7 @@ Those reports will look something like the following:
 
 It contains a good chunk of information that will help you track down the specific cause of the violation, including the page on which the violation occurred (**`document-uri`**), that page’s referrer (referrer, note that the key is *not* misspelled), the resource that violated the page’s policy (**`blocked-uri`**), the specific directive it violated (**`violated-directive`**), and the page’s complete policy (**`original-policy`**).
 
-### Report-Only
+### <span>Report-Only</span>
 
 If you’re just starting out with CSP, it makes sense to evaluate the current state of your application before rolling out a draconian policy to your users. As a stepping stone to a complete deployment, you can ask the browser to monitor a policy, reporting violations, but not enforcing the restrictions. Instead of sending a `Content-Security-Policy` header, send a `Content-Security-Policy-Report-Only` header.
 
@@ -166,13 +164,13 @@ If you’re just starting out with CSP, it makes sense to evaluate the current s
 
 The policy specified in report-only mode won’t block restricted resources, but it will send violation reports to the location you specify. You can even send *both* headers, enforcing one policy while monitoring another. This is a great way to evaluate the effect of changes to your application’s CSP: turn on reporting for a new policy, monitor the violation reports and fix any bugs that turn up, then start enforcing the new policy once you’re satisfied with its effect.
 
-## Real World Usage
+## <span>Real World Usage</span>
 
 CSP is quite usable in Chrome 16+ and Firefox 4+, and it’s expected to gain at least limited support in IE 10. Safari’s current implementation is lacking, but WebKit nightlies work just as well as Chrome, so there’s hope for the next iteration of Safari. Massive sites like Twitter have deployed the header ([Twitter’s case study](http://engineering.twitter.com/2011/03/improving-browser-security-with-csp.html) is worth a read), and the standard is very much ready for you to start playing around on your own sites.
 
 The first step towards crafting a policy for your application is to evaluate the resources you’re actually loading. Once you think you have a handle on how things are put together in your app, set up a policy based on those requirements. Let’s walk through a few common use-cases, and determine how we’d best be able to support them within the protective confines of CSP:
 
-### Use Case \#1: Social media widgets
+### <span>Use Case \#1: Social media widgets</span>
 
 -   Google’s [+1 button](http://www.google.com/intl/en/webmasters/+1/button/index.html) includes script from `https://apis.google.com`, and embeds an `iframe` from `https://plusone.google.com`. You’ll need a policy that includes both these origins in order to embed the button. A minimal policy would be `script-src https://apis.google.com; frame-src https://plusone.google.com`. You’ll also need to ensure that the snippet of JavaScript that Google provides is pulled out into an external JavaScript file.
 -   Facebook’s [Like button](http://developers.facebook.com/docs/reference/plugins/like/) has a number of implementation options. I’d recommend sticking with the `iframe` version, as it’s safely sandboxed from the rest of your site. That would require a `frame-src https://facebook.com` directive to function properly. Note that, by default, the `iframe` code Facebook provides loads a relative URL, `//facebook.com`. Please change that to explicitly specify HTTPS: `https://facebook.com`. There’s no reason to use HTTP if you don’t have to.
@@ -183,7 +181,7 @@ Including multiple widgets is straightforward: simply combine the policy directi
 
     script-src https://apis.google.com https://platform.twitter.com; frame-src https://plusone.google.com https://facebook.com https://platform.twitter.com
 
-### Use Case \#2: Lockdown
+### <span>Use Case \#2: Lockdown</span>
 
 Assume for a moment that you run a banking site, and want to make very sure that only those resources you’ve written yourself can be loaded. In this scenario, start with a default policy that blocks absolutely everything (`default-src 'none'`), and build up from there.
 
@@ -191,7 +189,7 @@ Let’s say the bank loads all images, style, and script from a CDN at `https://
 
     Content-Security-Policy: default-src 'none'; script-src https://cdn.mybank.net; style-src https://cdn.mybank.net; img-src https://cdn.mybank.net; connect-src https://api.mybank.com; frame-src 'self'
 
-### Use Case \#3: SSL Only
+### <span>Use Case \#3: SSL Only</span>
 
 A wedding-ring discussion forum admin wants to ensure that all resources are only loaded via secure channels, but doesn’t really write much code; rewriting large chunks of the third-party forum software that’s filled to the brim with inline script and style is beyond his abilities. The following policy would be effective:
 
@@ -199,7 +197,7 @@ A wedding-ring discussion forum admin wants to ensure that all resources are onl
 
 Even though `https:` was specified in `default-src`, the script and style directives don’t automatically inherit that source. Each directive overwrites the default completely for that specific type of resource.
 
-## The Future
+## <span>The Future</span>
 
 The W3C’s [Web Application Security Working Group](http://www.w3.org/2011/webappsec/) is working through the details of the Content Security Policy specification, and a 1.0 version containing the functionality outlined in this article is fairly close to [moving to Last Call](http://lists.w3.org/Archives/Public/public-webappsec/2012Jun/0011.html). The group isn’t sitting around patting themselves on the back, however: CSP 1.1 is being actively discussed on the [public-webappsec@ mailing list](http://lists.w3.org/Archives/Public/public-webappsec/), and browser vendors are [hard at work](https://lists.webkit.org/pipermail/webkit-dev/2012-May/020559.html) solidifying and improving their implementations.
 
@@ -210,4 +208,3 @@ CSP 1.1 has a few interesting bits on the drawing board, a few are worth highlig
 -   **New directives:** A variety of new directives are being discussed, including [**`script-nonce`**](https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html#script-nonce--experimental), which would enable inline script only for explicitly specified script elements; [**`plugin-types`**](https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html#plugin-types--experimental), which would limit the `MIME` types of content for which plugins could be loaded; [**`form-action`**](https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html#form-action--experimental), which would allow form submission to only specific origins; and a few others that are [currently less completely specified](https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html#frame-options--experimental).
 
 If you’re interested in the discussion around these upcoming features, [skim the mailing list archives](http://lists.w3.org/Archives/Public/public-webappsec/), or join in yourself.
-

@@ -1,57 +1,53 @@
 ---
 title: clear
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/web-storage/Storage
+    href: /apis/web-storage/Storage
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Causes the list associated with the object to be emptied of all key/value pairs, if there are any.'
 tags:
   - API
   - Object
   - Methods
   - Webstorage
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Causes the list associated with the object to be emptied of all key/value pairs, if there are any.'
 uri: apis/web-storage/Storage/clear
 
 ---
-# clear
-
-## Summary
+## <span>Summary</span>
 
 Causes the list associated with the object to be emptied of all key/value pairs, if there are any.
 
-*Method of [apis/web-storage/Storage](/apis/web-storage/Storage)*
+Method of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  object.clear();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 The following button clears the local storage area for the current domain.
 
-``` {.html}
+``` html
 <button onclick="localStorage.clear()">
     Clear Stored Values</button>
 ```
 
-## Notes
+## <span>Notes</span>
 
 sessionStorage is cleared immediately. localStorage key/value pairs are removed from memory, and disk storage quota is updated.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

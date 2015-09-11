@@ -1,29 +1,32 @@
 ---
 title: onmute
+notes:
+  - 'Needs example, spec reference, usage'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/MediaStreamTrack
+    href: /apis/webrtc/MediaStreamTrack
+standardization_status: 'W3C Working Draft'
+summary: 'Handles the muted event when fired on the MediaStream object.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference, usage'
-summary: 'Handles the muted event when fired on the MediaStream object.'
 uri: apis/webrtc/MediaStreamTrack/onmute
 
 ---
-# onmute
-
-## Summary
+## <span>Summary</span>
 
 Handles the muted event when fired on the MediaStream object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)</span></span>
+Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.onmute;
 element.onmute = value;
 ```

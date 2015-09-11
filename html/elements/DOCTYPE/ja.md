@@ -1,13 +1,15 @@
 ---
-title: ja
+title: !DOCTYPE
+lang: ja
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'In Progress'
+summary: '文書型宣言（DOCTYPE宣言）とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。&lt;!DOCTYPE&gt;を書かないとQuirksモード(互換モード)で表示されます。'
 tags:
   - Markup
   - Elements
   - DOCTYPE
   - HTML
-readiness: 'In Progress'
-summary: 文書型宣言（DOCTYPE宣言）とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。<!DOCTYPE>を書かないとQuirksモード(互換モード)で表示されます。
-uri: html/elements/!DOCTYPE/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -70,50 +72,49 @@ todo_broken_links:
     - html/elements/!DOCTYPE/zh-hans
     - html/elements/!DOCTYPE/zh-hant
     - html/elements/!DOCTYPE/zh-tw
+uri: html/elements/!DOCTYPE/ja
 
 ---
-# !DOCTYPE
+## <span>Summary</span>
 
-## Summary
+文書型宣言（DOCTYPE宣言）とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。&lt;!DOCTYPE&gt;を書かないとQuirksモード(互換モード)で表示されます。
 
-文書型宣言（DOCTYPE宣言）とはSGMLやXML文書(webページなど)を文書型定義(DTD)(HTMLのバージョンごとの書式の定義など）と結びつけるためのものです。ドキュメントをシリアライズした書式中で、特定の構文にマッチするようにマークアップした短い文字列で指定します。\<!DOCTYPE\>を書かないとQuirksモード(互換モード)で表示されます。
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## Examples
+## <span>Examples</span>
 
 HTML5ではDOCTYPE宣言は以下のように記述されます。
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 ```
 
 HTML4.01のStrict DTDでは
 
-``` {.html}
+``` html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 ```
 
 HTML4.01のTransitional DTDでは
 
-``` {.html}
+``` html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
-## Usage
+## <span>Usage</span>
 
      htmlファイルの始まりの部分に
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 ```
 
     を追加してください。
 
-## Notes
+## <span>Notes</span>
 
 \<!DOCTYPE\>はHTML文書の\<html\>タグより前の一番最初の部分に書かなければいけません。
 
@@ -123,11 +124,11 @@ HTML4.01はSGMLベースであり、\<!DOCTYPE\>では参照するDTDを指定�
 
 一方HTML5はSGMLベースではないため、DTDを参照する必要がありません。
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Deprecated
+#### <span>Deprecated</span>
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -159,11 +160,9 @@ HTML4.01はSGMLベースであり、\<!DOCTYPE\>では参照するDTDを指定�
 
 -   [unescape](/javascript/unescape)
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -261,15 +260,61 @@ HTML4.01はSGMLベースであり、\<!DOCTYPE\>では参照するDTDを指定�
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 html/quirksmode
 
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/html/elements/!DOCTYPE)**  • <span lang="ja">**日本語**</span>
+
+</th>
+<td class="mbox-text">
+**[English](/html/elements/!DOCTYPE)**  • <span lang="ja">**日本語**</span>
+
+</td>
+</tr>
+</table>
 
 と記述されます。

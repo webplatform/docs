@@ -1,111 +1,116 @@
 ---
 title: initWheelEvent
+attributions:
+  - 'Microsoft Developer Network: [[initWheelEvent](http://msdn.microsoft.com/en-us/library/ie/ff975254(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/WheelEvent
+    href: /dom/WheelEvent
+summary: 'Initializes a new WheelEvent that the createEvent method created.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-summary: 'Initializes a new WheelEvent that the createEvent method created.'
 uri: dom/WheelEvent/initWheelEvent
 
 ---
-# initWheelEvent
-
-## Summary
+## <span>Summary</span>
 
 Initializes a new WheelEvent that the createEvent method created.
 
-*Method of [dom/WheelEvent](/dom/WheelEvent)*
+Method of [dom/WheelEvent](/dom/WheelEvent)[dom/WheelEvent](/dom/WheelEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.initWheelEvent(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### eventType
+### <span>eventType</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the event. Sets the value for the [type](/dom/Event/type) property.
 
-### canBubble
+### <span>canBubble</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### cancelable
+### <span>cancelable</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### view
+### <span>view</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
  The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
 
-### detail
+### <span>detail</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  Specifies additional information. This value is returned in the [**detail**](/dom/UIEvent/detail) property of the event.
 
-### screenX
+### <span>screenX</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate of the mouse pointer, relative to the upper-left corner of the screen. Sets the value for the [**screenX**](/dom/MouseEvent/screenX) property,
 
-### screenY
+### <span>screenY</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate of the mouse pointer, relative to the upper-left corner of the screen. Sets the value for the [**screenY**](/dom/MouseEvent/screenY) property.
 
-### clientX
+### <span>clientX</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. Sets the value for the [**clientX**](/dom/MouseEvent/clientX) property.
 
-### clientY
+### <span>clientY</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The y-coordinate of the mouse pointer, relative to the upper-left corner of the browser's client area. Sets the value for the [**clientY**](/dom/MouseEvent/clientY) property.
 
-### button
+### <span>button</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The mouse button that caused the event. Sets the value for the [**button**](/dom/MouseEvent/button) property (see the property page for common values).
 
-### relatedTarget
+### <span>relatedTarget</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  A secondary element that is involved in the event. Sets the value for the [**relatedTarget**](/dom/MouseEvent/relatedTarget) property.
 
-### modifiersListArg
+### <span>modifiersListArg</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  A space-separated list of any of the following values:
@@ -127,41 +132,41 @@ Other implementation specific options may be supported. For example -
 -   **Win** (on Microsoft Windows) - The left or right Windows logo key.
 -   **Scroll** - The Scroll Lock toggle.
 
-### deltaX
+### <span>deltaX</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The distance that the mouse wheel has rotated around the x-axis. Sets the value for the [**deltaX**](/dom/WheelEvent/deltaX) property.
 
-### deltaY
+### <span>deltaY</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The distance that the mouse wheel has rotated around the y-axis. Sets the value for the [**deltaY**](/dom/WheelEvent/deltaY) property.
 
-### deltaZ
+### <span>deltaZ</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The distance that the mouse wheel has rotated around the z-axis. Sets the value for the [**deltaZ**](/dom/WheelEvent/deltaZ) property.
 
-### deltaMode
+### <span>deltaMode</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The delta mode of the event. Sets the value for the [**deltaMode**](/dom/WheelEvent/deltaMode) property (see the property page for common values).
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function dispatchWheelEvent(){
         var evt=document.createEvent('WheelEvent');
         var theform=document.forms.dispatch;
@@ -188,16 +193,7 @@ function dispatchWheelEvent(){
    }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[initWheelEvent](http://msdn.microsoft.com/en-us/library/ie/ff975254(v=vs.85).aspx) Article]
-

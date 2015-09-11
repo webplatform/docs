@@ -1,42 +1,58 @@
 ---
 title: max-height
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5070850'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements but non-replaced inline elements, table columns, and column groups'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'The percentage as specified or the absolute length or ''none'''
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`max-height`'
+  Percentages: 'Of the height of containing block. If the height of the containing block depends on the content & the element does not have position as absolute, then this value becomes ''none''.'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the maximum height for an element. It prevents the height of the element to exceed the specified value. If min-height is specified and is greater than max-height, max-height is overridden.'
-code_samples:
-  - 'http://gist.github.com/5070850'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/max-height
 
 ---
-# max-height
-
-## Summary
+## <span>Summary</span>
 
 Sets the maximum height for an element. It prevents the height of the element to exceed the specified value. If min-height is specified and is greater than max-height, max-height is overridden.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements but non-replaced inline elements, table columns, and column groups
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   The percentage as specified or the absolute length or 'none'
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `max-height`
+
 Percentages
 :   Of the height of containing block. If the height of the containing block depends on the content & the element does not have position as absolute, then this value becomes 'none'.
 
-## Syntax
+## <span>Syntax</span>
 
 -   `max-height: calc()`
 -   `max-height: fill-available`
@@ -48,7 +64,7 @@ Percentages
 -   `max-height: none`
 -   `max-height: percentage`
 
-## Values
+## <span>Values</span>
 
 length
 :   Specifies a fixed height. Negative values are not allowed. See [length](/css/data_types/length) for possible units.
@@ -77,18 +93,18 @@ fill-available
 fit-content
 :   If the total available space is finite, equals to min(max-content, max(min-content, fill-available)). Otherwise, equal to the max-content measure. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
 
-## Examples
+## <span>Examples</span>
 
 Use max-height with any CSS selector to apply it.
 
-``` {.css}
+``` css
 /* Restrict all div elements to a max-height of 10px */
 div { max-height: 10px }
 ```
 
 max-height property overrides the height of an element.
 
-``` {.html}
+``` html
 <style>
 /*Default width. Height is based on the content*/
 .without-max-height, .with-max-height {
@@ -112,7 +128,7 @@ max-height property overrides the height of an element.
 
 [View live example](http://code.webplatform.org/gist/5070850)
 
-## Usage
+## <span>Usage</span>
 
      CSS max height is well supported across most browsers. A few things to consider while usage:
 
@@ -121,20 +137,19 @@ max-height property overrides the height of an element.
 -   max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
 -   Support for [calc](/css/functions/calc) is better across browsers. Vendor prefixes may be needed.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1 (Section 10.7)](http://www.w3.org/TR/CSS2/visudet.html#min-max-heights)
 :   W3C Recommendation
+
 [CSS Intrinsic & Extrinsic Sizing Module Level 3](http://dev.w3.org/csswg/css3-sizing/#width-height-keywords)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   [border](/css/properties/border)
 
@@ -176,17 +191,10 @@ Specification
 
 -   [min-width](/css/properties/min-width)
 
-### External resources
+### <span>External resources</span>
 
 -   [W3C Wiki](http://www.w3.org/wiki/CSS/Properties/max-height)
 -   [Internet Explorer Docs](http://msdn.microsoft.com/en-in/library/ie/ms530809(v=vs.85).aspx)
 -   [Firefox Docs](https://developer.mozilla.org/en-US/docs/CSS/max-height)
 -   [Safari Docs](https://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/css/property/max-height)
 -   [Can I Use](http://caniuse.com/#feat=minmaxwh)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

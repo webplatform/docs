@@ -1,46 +1,50 @@
 ---
 title: createReader
+notes:
+  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
+readiness: 'Out of Date'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/filesystem/DirectoryEntry
+    href: /apis/filesystem/DirectoryEntry
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/filesystem/DirectoryEntry
+standardization_status: 'W3C Working Draft'
+summary: "Creates a new DirectoryReader to read Entries from this Directory.\n"
 tags:
   0: API
   1: Object
   2: Methods
   4: FileSystemAPI
-readiness: 'Out of Date'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
-summary: "Creates a new DirectoryReader to read Entries from this Directory.\n"
 uri: apis/filesystem/DirectoryEntry/createReader
 
 ---
-# createReader
-
-## Summary
+## <span>Summary</span>
 
 Creates a new DirectoryReader to read Entries from this Directory.
 
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-*Method of [apis/filesystem/DirectoryEntry](/apis/filesystem/DirectoryEntry)*
+Method of [apis/filesystem/DirectoryEntry](/apis/filesystem/DirectoryEntry)[apis/filesystem/DirectoryEntry](/apis/filesystem/DirectoryEntry)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = DirectoryEntry.createReader();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 DirectoryReader
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft
-

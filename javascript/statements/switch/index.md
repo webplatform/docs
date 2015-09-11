@@ -1,20 +1,22 @@
 ---
 title: switch
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hzc6t81t(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Enables the execution of one or more statements when a specified expression''s value matches a label.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Enables the execution of one or more statements when a specified expression''s value matches a label.'
 uri: javascript/statements/switch
 
 ---
-# switch
-
-## Summary
+## <span>Summary</span>
 
 Enables the execution of one or more statements when a specified expression's value matches a label.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     switch ( expression ) {
          case label:
@@ -33,11 +35,11 @@ Enables the execution of one or more statements when a specified expression's va
 **statementlist**
 :   One or more statements to be executed.
 
-## Examples
+## <span>Examples</span>
 
 The following example tests an object for its type.
 
-``` {.js}
+``` js
 function MyObjectType(obj) {
      switch (obj.constructor) {
          case Date:
@@ -69,7 +71,7 @@ function MyObjectType(obj) {
 
 The following code shows what happens if you do not use a break statement.
 
-``` {.js}
+``` js
 function MyObjectType(obj) {
      switch (obj.constructor) {
          case Date:
@@ -96,7 +98,7 @@ function MyObjectType(obj) {
  // Object is unknown.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Use the default clause to provide a statement to be executed if none of the label values matches expression. It can appear anywhere within the switch code block.
 
@@ -109,16 +111,10 @@ Execution flows through a switch statement as follows:
 -   If no label equals expression , go to the default case. If there is no default case, go to last step.
 -   Continue execution at the statement following the end of the switch code block.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [break Statement](/javascript/statements/break)
 -   [if...else Statement](/javascript/statements/if_else)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hzc6t81t(v=vs.94).aspx)
 

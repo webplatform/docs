@@ -1,35 +1,42 @@
 ---
 title: getStats
+notes:
+  - 'Needs example, spec reference, return value'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: 'W3C Working Draft'
+summary: 'Retrieves status information for a given MediaStreamTrack.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference, return value'
-summary: 'Retrieves status information for a given MediaStreamTrack.'
 uri: apis/webrtc/RTCPeerConnection/getStats
 
 ---
-# getStats
-
-## Summary
+## <span>Summary</span>
 
 Retrieves status information for a given MediaStreamTrack.
 
-*Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)*
+Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.getStats();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 

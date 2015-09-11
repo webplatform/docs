@@ -1,37 +1,46 @@
 ---
 title: getData
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setDataEX.htm'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/DataTransfer
+    href: /dom/DataTransfer
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /dom/DataTransfer
+standardization_status: 'W3C Candidate Recommendation'
+summary: "Gets the data in the specified format from the clipboard through the DataTransfer object or the ClipboardData object.\nIf there is no data, returns an empty string.\n"
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: "Gets the data in the specified format from the clipboard through the DataTransfer object or the ClipboardData object.\nIf there is no data, returns an empty string.\n"
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setDataEX.htm'
 uri: dom/DataTransfer/getData
 
 ---
-# getData
-
-## Summary
+## <span>Summary</span>
 
 Gets the data in the specified format from the clipboard through the DataTransfer object or the ClipboardData object. If there is no data, returns an empty string.
 
-*Method of [dom/DataTransfer](/dom/DataTransfer)*
+Method of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var eventData = event.dataTransfer.getData(format);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### format
+### <span>format</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The format of the data to be transferred, using one of the following values (case insensitve):
@@ -39,17 +48,17 @@ var eventData = event.dataTransfer.getData(format);
 -   URL
 -   Text
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 Returns the data in the format retrieved from the clipboard/drag and drop operation through the [**DataTransfer**](/dom/DataTransfer) object or the [**ClipboardData**](/dom/ClipboardData) object. Depending on the information contained in [**setData**](/dom/DataTransfer/setData), this variable can get a path to an image, text, or an anchor URL.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **getData** method and the [**setData**](/dom/DataTransfer/setData) method with the [**DataTransfer**](/dom/DataTransfer) object to create a shortcut to an image.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -87,21 +96,12 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setDataEX.htm)
 
-## Notes
+## <span>Notes</span>
 
 -   The **getData** method enforces cross-frame security and allows data transfers only in the same domain. To the user, this means that a selection that is dragged between different security protocols, such as HTTP and HTTPS, fails. In addition, that a selection that is dragged between two instances of the application with different security levels, where the first instance is set to medium and the second is set to high, fails. Finally, that a selection that is dragged into the application from another drag-enabled application, such as Microsoft Word, also fails.
 -   To use the **getData** method to get data from the clipboard in the **oncopy** event or the **oncut** event, you must call [event.preventDefault()](/dom/Event/preventDefault) in the event handler script.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

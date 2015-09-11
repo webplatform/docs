@@ -1,16 +1,20 @@
 ---
-title: ja
+title: area
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm'
+lang: ja
+notes:
+  - 'Add more information in Summary, Notes and Compatibility sections.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLAreaElement](/dom/HTMLAreaElement)'
+readiness: 'In Progress'
+summary: イメージマップ上でハイパーリンクとして設定されるテキストとエリア、またはハイパーリンクとして設定しないエリアを表します。
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-notes:
-  - 'Add more information in Summary, Notes and Compatibility sections.'
-summary: イメージマップ上でハイパーリンクとして設定されるテキストとエリア、またはハイパーリンクとして設定しないエリアを表します。
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm'
-uri: html/elements/area/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -20,20 +24,19 @@ todo_broken_links:
     - html/attributes/title/ja
     - html/attributes/alt/ja
     - html/attributes/href/ja
+uri: html/elements/area/ja
 
 ---
-# area
-
-## Summary
+## <span>Summary</span>
 
 イメージマップ上でハイパーリンクとして設定されるテキストとエリア、またはハイパーリンクとして設定しないエリアを表します。
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLAreaElement](/dom/HTMLAreaElement)
 
-## HTML属性
+## <span>HTML属性</span>
 
  グローバル属性: accesskey, class, contenteditable, dir, hidden, id, lang, spellcheck, style, tabindex, title, translate
 :   [グローバル属性](/w/index.php?title=html/global_attributes/ja&action=edit&redlink=1)を参照
@@ -84,11 +87,11 @@ todo_broken_links:
 :   リンク先のMIMEタイプを指定します。
     [RFC2046]で定義された文字列のみ有効です。
 
-## Examples
+## <span>Examples</span>
 
 この例は親となる**\<map\>**要素の中で**\<area\>**要素を使い、太陽系のイメージマップを作成するHTMLです。各\<area\>要素が[**coords**](/w/index.php?title=html/attributes/coords/ja&action=edit&redlink=1)属性と[**shape**](/w/index.php?title=html/attributes/shape/ja&action=edit&redlink=1)属性を使ってmap要素の画像にハイパーリンクを設定しています。そして[**title**](/w/index.php?title=html/attributes/title/ja&action=edit&redlink=1)属性でマウスカーソルを当てた時にポップアップされるヒントを定義しています。このようなヒントは画像ファイルが存在しない、または何らかの理由で読み込むことができない場合などに有効です。
 
-``` {.html}
+``` html
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
   "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -132,9 +135,9 @@ todo_broken_links:
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm)
 
-## Notes
+## <span>Notes</span>
 
-### 備考
+### <span>備考</span>
 
 -   \<area\>要素は1つの\<map\>要素に何個でも指定することができます。
 -   [**coords**](/w/index.php?title=html/attributes/coords/ja&action=edit&redlink=1)属性のフォーマットは[**shape**](/w/index.php?title=html/attributes/shape/ja&action=edit&redlink=1)属性の値に依存します。
@@ -142,20 +145,13 @@ todo_broken_links:
 -   この要素は画面上に描画されません。
 -   この要素は終了タグ(\</area\>)が要りません。
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-area-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-area-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/objects.html#edef-AREA)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

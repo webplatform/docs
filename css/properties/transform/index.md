@@ -1,45 +1,61 @@
 ---
 title: transform
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'CSS transforms allow elements styled with CSS to be transformed in two-dimensional or three-dimensional space. Using this property, elements can be translated, rotated, scaled, and skewed. The value list may consist of 2D and/or 3D transform values.'
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [transform Article](https://developer.mozilla.org/en-US/docs/CSS/transform)'
 code_samples:
   - 'http://gist.github.com/6982577'
   - 'http://gist.github.com/6982633'
   - 'http://gist.github.com/6982663'
   - 'http://gist.github.com/6982706'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'Transformable elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified, but with relative lengths converted into absolute lengths.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`transform`'
+  Percentages: 'Refer to the size of the element''s bounding box.'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'CSS transforms allow elements styled with CSS to be transformed in two-dimensional or three-dimensional space. Using this property, elements can be translated, rotated, scaled, and skewed. The value list may consist of 2D and/or 3D transform values.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/transform
 
 ---
-# transform
-
-## Summary
+## <span>Summary</span>
 
 CSS transforms allow elements styled with CSS to be transformed in two-dimensional or three-dimensional space. Using this property, elements can be translated, rotated, scaled, and skewed. The value list may consist of 2D and/or 3D transform values.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   Transformable elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified, but with relative lengths converted into absolute lengths.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `transform`
+
 Percentages
 :   Refer to the size of the element's bounding box.
 
-## Syntax
+## <span>Syntax</span>
 
 -   `transform: matrix(a, b, c, d, e, f)`
 -   `transform: matrix3d(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p)`
@@ -64,7 +80,7 @@ Percentages
 -   `transform: translateY(y)`
 -   `transform: translateZ(tz)`
 
-## Values
+## <span>Values</span>
 
 none
 :   Specifies that no transform should be applied.
@@ -132,11 +148,11 @@ rotateZ(az)
 perspective(p)
 :   Specifies a perspective projection matrix, which scales points in the X and Y directions based on their Z value. Thus, points with positive Z values are scaled away from the origin, and those with negative Z values are scaled toward the origin.
 
-## Examples
+## <span>Examples</span>
 
 Translate the object by 150 pixels along the x and y axes.
 
-``` {.css}
+``` css
 .matrix {
     transform:  matrix(1, 0, 0, 1, 150, 150);
 
@@ -150,7 +166,7 @@ Translate the object by 150 pixels along the x and y axes.
 
 Rotate the object by 40 degrees clockwise.
 
-``` {.css}
+``` css
 .rotate {
     transform: rotate(40deg);
 
@@ -164,7 +180,7 @@ Rotate the object by 40 degrees clockwise.
 
 Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by the y axis.
 
-``` {.css}
+``` css
 .scale {
     transform: scale(3, 0.5);
 
@@ -178,7 +194,7 @@ Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by t
 
 3D rotate the object by 40 degrees clockwise around the X axis.
 
-``` {.css}
+``` css
 .rotateX {
     transform: rotateX(40deg);
 
@@ -190,27 +206,19 @@ Scale the element by the factor of 3 on the x axis and by the factor of 0.5 by t
 
 [View live example](http://code.webplatform.org/gist/6982706)
 
-## Notes
+## <span>Notes</span>
 
 Any value other than "none" results in the creation of both a stacking context and a containing block. The containing block is for fixed positioned descendants.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Transforms Module Level 3](http://www.w3.org/TR/css3-transforms)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
-Cross Browser CSS Transforms – Even in IE [http://www.useragentman.com/blog/2010/03/09/cross-browser-css-transforms-even-in-ie/](http://www.useragentman.com/blog/2010/03/09/cross-browser-css-transforms-even-in-ie/)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [transform Article](https://developer.mozilla.org/en-US/docs/CSS/transform)
+Cross Browser CSS Transforms – Even in IE <http://www.useragentman.com/blog/2010/03/09/cross-browser-css-transforms-even-in-ie/>
 
 ![alt Example showing translate, scale and rotate step by step](/assets/public/2/2b/transform_example.png)

@@ -1,37 +1,35 @@
 ---
-title: selectors
+title: CSS Selectors
+readiness: 'Ready to Use'
+summary: "A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.\n"
 tags:
   - Basic
   - Pages
   - CSS
-readiness: 'Ready to Use'
-summary: "A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.\n"
-uri: css/selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'css/selectors/pseudo-classes/:lang'
+uri: css/selectors
 
 ---
-# CSS Selectors
-
-## Summary
+## <span>Summary</span>
 
 A Selector represents a structure. This structure can be used as a condition (e.g. in a CSS rule) that determines which elements a selector matches in the document tree, or as a flat description of the HTML or XML fragment corresponding to that structure.
 
 Selectors may range from simple element names to rich contextual representations.
 
-## CSS Selector Reference
+## <span>CSS Selector Reference</span>
 
-### Type Selector
+### <span>Type Selector</span>
 
 -   [`elementname`](/css/selectors/type)
 
-### Universal Selector
+### <span>Universal Selector</span>
 
 -   [`*`](/css/selectors/universal_selector)
 
-### Attribute Selector
+### <span>[Attribute Selector](/css/selectors/attribute_selector)</span>
 
 -   `[attributename]`
 -   `[attributename="val"]`
@@ -41,17 +39,17 @@ Selectors may range from simple element names to rich contextual representations
 -   `[attributename$="val"]`
 -   `[attributename*="val"]`
 
-### Class Selector
+### <span>Class Selector</span>
 
 -   [`.classname`](/css/selectors/class_selector)
 
-### ID Selector
+### <span>ID Selector</span>
 
 -   [`#idname`](/css/selectors/id_selector)
 
-### Pseudo-classes
+### <span>Pseudo-classes</span>
 
-#### Dynamic pseudo-classes
+#### <span>[Dynamic pseudo-classes](/css/selectors/pseudo-classes)</span>
 
 -   `:link`
 -   `:visited`
@@ -59,21 +57,21 @@ Selectors may range from simple element names to rich contextual representations
 -   `:active`
 -   `:focus`
 
-#### The target pseudo-class
+#### <span>The target pseudo-class</span>
 
 -   [`:target`](/css/selectors/pseudo-classes/:target)
 
-#### The language pseudo-class
+#### <span>The language pseudo-class</span>
 
 -   [`:lang`](/w/index.php?title=css/selectors/pseudo-classes/:lang&action=edit&redlink=1)
 
-#### The UI element states pseudo-classes
+#### <span>[The UI element states pseudo-classes](/css/selectors/pseudo-classes/ui_element_states_pseudo-classes)</span>
 
 -   `:enabled`
 -   `:disabled`
 -   `:checked`
 
-#### Structural pseudo-classes
+#### <span>[Structural pseudo-classes](/css/selectors/pseudo-classes/Structural_pseudo-classes)</span>
 
 -   [`:root`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:root_pseudo-class)
 -   [`:nth-child`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:nth-child.28.29_pseudo-class)
@@ -88,40 +86,40 @@ Selectors may range from simple element names to rich contextual representations
 -   [`:only-of-type`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:only-of-type_pseudo-class)
 -   [`:empty`](/css/selectors/pseudo-classes/Structural_pseudo-classes#:empty_pseudo-class)
 
-#### The negation pseudo-class
+#### <span>The negation pseudo-class</span>
 
 -   [`:not`](/css/selectors/pseudo-classes/:not)
 
-### Pseudo-elements
+### <span>Pseudo-elements</span>
 
 -   [`::first-line`](/css/selectors/pseudo-elements/::first-line)
 -   [`::first-letter`](/css/selectors/pseudo-elements/::first-letter)
 -   [`::before`](/css/selectors/pseudo-elements/::before)
 -   [`::after`](/css/selectors/pseudo-elements/::after)
 
-### Combinators
+### <span>Combinators</span>
 
-#### Descendant combinator
+#### <span>Descendant combinator</span>
 
 -   [`A B`](/css/selectors/combinators/descendant)
 
-#### Child combinator
+#### <span>Child combinator</span>
 
 -   [`A > B`](/css/selectors/combinators/child)
 
-#### Adjacent sibling combinator
+#### <span>Adjacent sibling combinator</span>
 
 -   [`A + B`](/css/selectors/combinators/adjacent_sibling)
 
-#### General sibling combinator
+#### <span>General sibling combinator</span>
 
 -   [`A ~ B`](/css/selectors/combinators/general_sibling)
 
-## Case sensitivity
+## <span>Case sensitivity</span>
 
 All Selectors syntax is case-insensitive within the ASCII range (i.e. [a-z] and [A-Z] are equivalent), except for parts that are not under the control of Selectors. The case sensitivity of document language element names, attribute names, and attribute values in selectors depends on the document language. For example, in HTML, element names are case-insensitive, but in XML, they are case-sensitive. Case sensitivity of namespace prefixes is defined in [CSS3NAMESPACE](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE).
 
-## Selector syntax
+## <span>Selector syntax</span>
 
 A selector is a chain of one or more sequences of simple selectors separated by combinators. One pseudo-element may be appended to the last sequence of simple selectors in a selector. A sequence of simple selectors is a chain of simple selectors that are not separated by a combinator. It always begins with a type selector or a universal selector. No other type selector or universal selector is allowed in the sequence.
 
@@ -135,13 +133,13 @@ An empty selector, containing no sequence of simple selectors and no pseudo-elem
 
 Certain selectors support namespace prefixes. The mechanism by which namespace prefixes are declared should be specified by the language that uses Selectors. If the language does not specify a namespace prefix declaration mechanism, then no prefixes are declared. In CSS, namespace prefixes are declared with the @namespace rule. [CSS3NAMESPACE](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#CSS3NAMESPACE)
 
-## Groups of selectors
+## <span>Groups of selectors</span>
 
 A comma-separated list of selectors represents the union of all elements selected by each of the individual selectors in the list. (A comma is U+002C.) For example, in CSS when several selectors share the same declarations, they may be grouped into a comma-separated list. White space may appear before and/or after the comma.
 
 In this example, we condense three rules with identical declarations into one. Thus,
 
-``` {.css}
+``` css
 h1 { font-family: sans-serif }
 h2 { font-family: sans-serif }
 h3 { font-family: sans-serif }
@@ -149,7 +147,7 @@ h3 { font-family: sans-serif }
 
 is equivalent to:
 
-``` {.css}
+``` css
 h1, h2, h3 { font-family: sans-serif }
 ```
 
@@ -157,7 +155,7 @@ h1, h2, h3 { font-family: sans-serif }
 
 Invalid CSS example:
 
-``` {.css}
+``` css
 h1 { font-family: sans-serif }
 h2..foo { font-family: sans-serif }
 h3 { font-family: sans-serif }
@@ -165,220 +163,357 @@ h3 { font-family: sans-serif }
 
 is not equivalent to:
 
-``` {.css}
+``` css
 h1, h2..foo, h3 { font-family: sans-serif }
 ```
 
 because the above selector (h1, h2..foo, h3) is entirely invalid and the entire style rule is dropped. (When the selectors are not grouped, only the rule for h2..foo is dropped.)
 
-## See also
+## <span>See also</span>
 
-### Related topics
+### <span>Related topics</span>
 
 -   [Using Selectors Tutorial](/tutorials/using_selectors)
 -   [CSS Educational Materials for Beginners](/css/tutorials)
 -   [CSS Properties Reference](/css/properties)
 
-### Selector list
+### <span>Selector list</span>
 
-<dl data-table="mw-prefixindex-list-table">
-<dt>
+<table class="mw-prefixindex-list-table">
+<tr>
+<td>
 [css/selectors/-ms-scrollbar-shadow-color](/css/selectors/-ms-scrollbar-shadow-color)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/ID](/css/selectors/ID)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/Namespaced](/css/selectors/Namespaced)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/Type](/css/selectors/Type)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/Universal](/css/selectors/Universal)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/attribute selector](/css/selectors/attribute_selector)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/attributes/equality](/css/selectors/attributes/equality)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/attributes/existence](/css/selectors/attributes/existence)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/attributes/hyphen](/css/selectors/attributes/hyphen)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/attributes/prefix](/css/selectors/attributes/prefix)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/attributes/substring](/css/selectors/attributes/substring)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/attributes/suffix](/css/selectors/attributes/suffix)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/attributes/whitespace](/css/selectors/attributes/whitespace)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/border-image](/css/selectors/border-image)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/class](/css/selectors/class)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/class selector](/css/selectors/class_selector)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/combinators/adjacent sibling](/css/selectors/combinators/adjacent_sibling)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/combinators/child](/css/selectors/combinators/child)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/combinators/descendant](/css/selectors/combinators/descendant)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/combinators/general sibling](/css/selectors/combinators/general_sibling)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/cursor](/css/selectors/cursor)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/id selector](/css/selectors/id_selector)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/outline](/css/selectors/outline)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/outline-color](/css/selectors/outline-color)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/outline-style](/css/selectors/outline-style)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/outline-width](/css/selectors/outline-width)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes](/css/selectors/pseudo-classes)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:-ms-input-placeholder](/css/selectors/pseudo-classes/:-ms-input-placeholder)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:active](/css/selectors/pseudo-classes/:active)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:checked](/css/selectors/pseudo-classes/:checked)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:disabled](/css/selectors/pseudo-classes/:disabled)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:empty](/css/selectors/pseudo-classes/:empty)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:enabled](/css/selectors/pseudo-classes/:enabled)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:first-child](/css/selectors/pseudo-classes/:first-child)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:first-of-type](/css/selectors/pseudo-classes/:first-of-type)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:focus](/css/selectors/pseudo-classes/:focus)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:hover](/css/selectors/pseudo-classes/:hover)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:in-range](/css/selectors/pseudo-classes/:in-range)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:indeterminate](/css/selectors/pseudo-classes/:indeterminate)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:invalid](/css/selectors/pseudo-classes/:invalid)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:lang(c)](/css/selectors/pseudo-classes/:lang(c))
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:last-child](/css/selectors/pseudo-classes/:last-child)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:last-of-type](/css/selectors/pseudo-classes/:last-of-type)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:link](/css/selectors/pseudo-classes/:link)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:not](/css/selectors/pseudo-classes/:not)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:nth-child(n)](/css/selectors/pseudo-classes/:nth-child(n))
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:nth-last-child(n)](/css/selectors/pseudo-classes/:nth-last-child(n))
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:nth-last-of-type(n)](/css/selectors/pseudo-classes/:nth-last-of-type(n))
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:nth-of-type(n)](/css/selectors/pseudo-classes/:nth-of-type(n))
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:only-child](/css/selectors/pseudo-classes/:only-child)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:only-of-type](/css/selectors/pseudo-classes/:only-of-type)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:optional](/css/selectors/pseudo-classes/:optional)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:required](/css/selectors/pseudo-classes/:required)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:root](/css/selectors/pseudo-classes/:root)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/:target](/css/selectors/pseudo-classes/:target)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/:valid](/css/selectors/pseudo-classes/:valid)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/:visited](/css/selectors/pseudo-classes/:visited)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-classes/Dynamic pseudo-classes](/css/selectors/pseudo-classes/Dynamic_pseudo-classes)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-classes/Structural pseudo-classes](/css/selectors/pseudo-classes/Structural_pseudo-classes)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-classes/ui element states pseudo-classes](/css/selectors/pseudo-classes/ui_element_states_pseudo-classes)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-elements](/css/selectors/pseudo-elements)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-elements/::after](/css/selectors/pseudo-elements/::after)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-elements/::before](/css/selectors/pseudo-elements/::before)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-elements/::first-letter](/css/selectors/pseudo-elements/::first-letter)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/pseudo-elements/::first-line](/css/selectors/pseudo-elements/::first-line)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/pseudo-elements/::region](/css/selectors/pseudo-elements/::region)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/pseudo-elements/::selection](/css/selectors/pseudo-elements/::selection)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/type](/css/selectors/type)
 
-</dd>
-<dt>
+</td>
+<td>
+[css/selectors/universal selector](/css/selectors/universal_selector)
+
+</td>
+</tr>
+<tr>
+<td>
 [css/selectors/user-select](/css/selectors/user-select)
 
-</dt>
-<dd>
+</td>
+<td>
 [css/selectors/zoom](/css/selectors/zoom)
 
-</dd>
-</dl>
-## Related specifications
+</td>
+</tr>
+</table>
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Selectors Level 3](http://www.w3.org/TR/css3-selectors/)
 :   Recommendation
-

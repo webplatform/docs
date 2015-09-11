@@ -1,29 +1,32 @@
 ---
 title: blockquote
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote)'
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLQuoteElement](/dom/HTMLQuoteElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The blockquote element indicates an extended quotation.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information.'
-summary: 'The blockquote element indicates an extended quotation.'
 uri: html/elements/blockquote
 
 ---
-# blockquote
-
-## Summary
+## <span>Summary</span>
 
 The blockquote element indicates an extended quotation.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLQuoteElement](/dom/HTMLQuoteElement)
 
-### Introduction
+### <span>Introduction</span>
 
 The **blockquote** element represents content that is quoted from another source, optionally with a citation which must be within a [**footer**](/html/elements/footer) or [**cite**](/html/elements/cite) element, and optionally with in-line changes such as annotations and abbreviations.
 
@@ -39,14 +42,14 @@ If the cite attribute is present, it must be a valid URL potentially surrounded 
 
 The cite IDL attribute must reflect the element's cite content attribute.
 
-## HTML Attributes
+## <span>HTML Attributes</span>
 
 -   `cite` = valid URL potentially surrounded by spaces
     Specifies the address in the quotation source. [[Example B]](#Example_B)
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!-- This example uses the blockquote element to set off a quotation that renders as indented text: -->
 <p>He said,
 <blockquote cite="http://www.example.com">"Hi there!"</blockquote>
@@ -54,7 +57,7 @@ The cite IDL attribute must reflect the element's cite content attribute.
 
 The **blockquote** element represents content that is quoted from another source, optionally with a citation which must be within a **footer** or **cite** element, and optionally with in-line changes such as annotations and abbreviations. For example, in English, abbreviations are traditionally identified using square brackets. Consider a page with the sentence "Fred ate the cracker. He then said he liked apples and fish."; it could be quoted as follows:
 
-``` {.html}
+``` html
 <blockquote>
  <p>[Fred] then said he liked [...] fish.</p>
 </blockquote>
@@ -62,7 +65,7 @@ The **blockquote** element represents content that is quoted from another source
 
 Quotation marks may be used to delineate between quoted text and annotations within a **blockquote**.
 
-``` {.html}
+``` html
 <!-- For example, an in-line note provided by the author: -->
 <figure>
  <blockquote>
@@ -84,7 +87,7 @@ Quotation marks may be used to delineate between quoted text and annotations wit
 
 Attribution for the quotation may be be placed inside the **blockquote** element, but must be within a **cite** element for in-text attributions or within a **footer** element.
 
-``` {.html}
+``` html
 <!-- For example, here the attribution is given in a footer after the quoted text, to clearly relate the quote to its attribution: -->
 <blockquote>
  <p>I contend that we are both atheists. I just believe in one fewer
@@ -94,7 +97,7 @@ Attribution for the quotation may be be placed inside the **blockquote** element
  </blockquote>
 ```
 
-``` {.html}
+``` html
 <!-- Here the attribution is given in a cite element on the last line of the quoted text. Note that a link to the author is also included. -->
 <blockquote>
  The people recognize themselves in their commodities; they find their
@@ -103,7 +106,7 @@ Attribution for the quotation may be be placed inside the **blockquote** element
  </blockquote>
 ```
 
-``` {.html}
+``` html
 <!-- Here the attribution is given in a footer after the quoted text, and metadata about the reference has been added using the Microdata syntax (note it could have equally been marked up using RDFA Lite). -->
 <blockquote>
   <p>... she said she would not sign any deposition containing the word "amorous" instead of "advances". For her the difference was of crucial significance, and one of the reasons she had separated from her husband was that he had never been amorous but had consistently made advances.</p>
@@ -113,10 +116,10 @@ Attribution for the quotation may be be placed inside the **blockquote** element
     <span itemprop="datePublished">January 1, 1974</span>
   </footer>
 </blockquote>
-<!-- Note: There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a blockquote to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism). -->
+<!-- Note: There is no formal method for indicating the markup in a blockquote is from a quoted source. It is suggested that if the footer or cite elements are included and these elements are also being used within a '''blockquote''' to identify citations, the elements from the quoted source could be annotated with metadata to identify their origin, for example by using the class attribute (a defined extensibility mechanism). -->
 ```
 
-``` {.html}
+``` html
 <!-- In this example the source of a quote includes a cite element, which is annotated using the class attribute: -->
 <blockquote>
   <p>My favorite book is <cite class="from-source">At Swim-Two-Birds</cite></p>
@@ -126,7 +129,7 @@ Attribution for the quotation may be be placed inside the **blockquote** element
 
 The other examples below show other ways of showing attribution.
 
-``` {.html}
+``` html
 <!-- Here a blockquote element is used in conjunction with a figure element and its figcaption: -->
 <figure>
  <blockquote>
@@ -136,7 +139,7 @@ The other examples below show other ways of showing attribution.
 </figure>
 ```
 
-``` {.html}
+``` html
 <!-- This next example shows the use of cite alongside blockquote: -->
 <p>His next piece was the aptly named <cite>Sonnet 130</cite>:</p>
 <blockquote cite="http://quotes.example.org/s/sonnet130.html">
@@ -145,7 +148,7 @@ The other examples below show other ways of showing attribution.
   ...
 ```
 
-``` {.html}
+``` html
 <!-- This example shows how a forum post could use blockquote to show what post a user is replying to. The article element is used for each post, to mark up the threading. -->
 <article>
  <h1><a href="http://bacon.example.com/?blog=109431">Bacon on a crowbar</a></h1>
@@ -186,7 +189,7 @@ The other examples below show other ways of showing attribution.
 </article>
 ```
 
-``` {.html}
+``` html
 <!-- This example shows the use of a blockquote for short snippets, demonstrating that one does not have to use p elements inside blockquote elements: -->
 <p>He began his list of "lessons" with the following:</p>
 <blockquote>One should never assume that his side of
@@ -199,35 +202,26 @@ be cowed by the possibility.</blockquote>
 <p>We shall now discuss these points...
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 -   Examples of how to represent a conversation are shown in a later section; it is not appropriate to use the **cite** and **blockquote** elements for this purpose.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-blockquote-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-blockquote-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-BLOCKQUOTE)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (internal)
+### <span>Related pages (internal)</span>
 
 -   `q`
 -   `cite`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote)
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

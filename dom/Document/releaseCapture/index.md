@@ -1,43 +1,48 @@
 ---
 title: releaseCapture
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/releaseCaptureEX.htm'
+notes:
+  - 'Needs compat tables and specs'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+standardization_status: Non-Standard
+summary: 'Removes mouse capture from the object in the current document.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Needs compat tables and specs'
-summary: 'Removes mouse capture from the object in the current document.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/releaseCaptureEX.htm'
 uri: dom/Document/releaseCapture
 
 ---
-# releaseCapture
-
-## Summary
+## <span>Summary</span>
 
 Removes mouse capture from the object in the current document.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  document.releaseCapture();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 This example invokes the **releaseCapture** method on the document object.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -62,16 +67,9 @@ This example invokes the **releaseCapture** method on the document object.
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/releaseCaptureEX.htm)
 
-## Notes
+## <span>Notes</span>
 
 -   For **releaseCapture** to have an effect, you must set mouse capture through the **setCapture** method.
 -   You can invoke the **releaseCapture** method on the [**Document**](/dom/Document) object.
 -   The **releaseCapture** method makes it unnecessary to determine which element has capture to programmatically release it.
 -   Other actions that release document capture include displaying a modal dialog box and switching focus to another application or browser window.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

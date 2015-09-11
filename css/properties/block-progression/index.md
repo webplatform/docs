@@ -1,51 +1,65 @@
 ---
 title: block-progression
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add example, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`tb`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+standardization_status: Non-Standard
+summary: 'Sets the block progression and layout orientation: deprecated in favor of the writing-mode property.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Add example, compatibility.'
-summary: 'Sets the block progression and layout orientation: deprecated in favor of the writing-mode property.'
-uri: css/properties/block-progression
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/block-progression
 
 ---
-# block-progression
-
-## Summary
+## <span>Summary</span>
 
 Sets the block progression and layout orientation: deprecated in favor of the writing-mode property.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `tb`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `block-progression: bt`
 -   `block-progression: lr`
 -   `block-progression: rl`
 -   `block-progression: tb`
 
-## Values
+## <span>Values</span>
 
 tb
 :   Default. Top-to-bottom block flow. Layout is horizontal.
@@ -61,50 +75,45 @@ lr
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      ===Deprecated===
 
 This property has been dropped from the current version of [CSS Writing Modes specification](http://dev.w3.org/csswg/css-writing-modes=the). You are encouraged to manipulate an element's writing mode via the [**writing-mode**](/css/properties/writing-mode) property instead.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 In vertical layout, text lines are rotated 90° clockwise. Images are not rotated, but tables are. Box layout in vertical orientations is exactly analogous to layout in the horizontal orientation: width, height, top, bottom, right, and left do not rotate with the text. Only one block progression is active at a time; these values cannot be combined. See [**-ms-writing-mode**](/css/properties/writing-mode) for additive block progression values. This property is based on the block-progression property of the [CSS3 Text Layout](http://go.microsoft.com/fwlink/p/?linkid=203505) module.
 
-### Syntax
+### <span>Syntax</span>
 
 `-ms-block-progression: tb | rl | bt | lr`
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Level 3](http://www.w3.org/TR/2003/CR-css3-text-20030514/#block-progression)
 :   [Obsolete] W3C Candidate Recommendation
+
 [CSS Writing Mode Level 3](http://www.w3.org/TR/css3-writing-modes/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   **block-progression**
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -115,8 +124,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -130,25 +137,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -194,7 +187,7 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -202,10 +195,3 @@ Specification
 -   `runtimeStyle`
 -   `style`
 -   `direction`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

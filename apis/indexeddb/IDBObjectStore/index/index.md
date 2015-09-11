@@ -1,107 +1,100 @@
 ---
 title: index
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBObjectStore
+    href: /apis/indexeddb/IDBObjectStore
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBObjectStore
+summary: 'Returns an IDBIndex representing an index that is part of the object store.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns an IDBIndex representing an index that is part of the object store.'
 uri: apis/indexeddb/IDBObjectStore/index
 
 ---
-# index
-
-## Summary
+## <span>Summary</span>
 
 Returns an IDBIndex representing an index that is part of the object store.
 
-*Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)*
+Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.index(name);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### name
+### <span>name</span>
 
- Data-type�
+ Data-type
 :   Blob
 
  Name of the index to be retrieved.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
-<dl data-table="wikitable">
+<table>
+<col width="50%" />
+<col width="50%" />
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Exception properties</strong></td>
+<td align="left"><strong>Description</strong></td>
+</tr>
+<tr class="even">
+<td align="left"><dl>
+<p></p>
 <dt>
-**Exception properties**
-
-</dt>
-<dd>
-**Description**
-
-</dd>
-<dt>
-<dl>
-
-<dt>
-**name**: NotFoundError
-
+<strong>name</strong>: NotFoundError
 </dt>
 <dt>
-**code**: DOMException.NOT\_FOUND\_ERR (8)
-
+<strong>code</strong>: DOMException.NOT_FOUND_ERR (8)
 </dt>
-</dl>
-</dt>
-<dd>
-The specified index was not found in the database (case-sensitive).
-
-</dd>
+</dl></td>
+<td align="left">The specified index was not found in the database (case-sensitive).</td>
+</tr>
+<tr class="odd">
+<td align="left"><dl>
+<p></p>
 <dt>
-<dl>
-
-<dt>
-**name**: InvalidStateError
-
+<strong>name</strong>: InvalidStateError
 </dt>
 <dt>
-**code**: DOMException.INVALID\_STATE\_ERR (11)
-
+<strong>code</strong>: DOMException.INVALID_STATE_ERR (11)
 </dt>
-</dl>
-</dt>
-<dd>
-The data source has been deleted or removed.
+</dl></td>
+<td align="left">The data source has been deleted or removed.</td>
+</tr>
+</tbody>
+</table>
 
-</dd>
-</dl>
   **Note**  As of Internet Explorer 10, the **code** property is deprecated in favor of the **name** property, which is preferred for standards compliance and future compatibility.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

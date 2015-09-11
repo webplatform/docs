@@ -1,5 +1,13 @@
 ---
 title: optgroup
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLOptGroupElement](/dom/HTMLOptGroupElement)'
+readiness: 'In Progress'
+summary: 'Allows authors to group choices logically in a select element.'
 tags:
   - Pages
   - using
@@ -11,69 +19,58 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-notes:
-  - 'Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.'
-summary: 'Allows authors to group choices logically in a select element.'
 uri: html/elements/optgroup
 
 ---
-# optgroup
-
-## Summary
+## <span>Summary</span>
 
 Allows authors to group choices logically in a select element.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLOptGroupElement](/dom/HTMLOptGroupElement)
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use the **OPTGROUP** element to create groups of items in a drop-down list box.
 
-    <SELECT>
-        <OPTGROUP LABEL="Alkaline Metals">
-            <OPTION>Lithium (Li)</OPTION>
-            <OPTION>Sodium (Na)</OPTION>
-            <OPTION>Potassium (K)</OPTION>
-        </OPTGROUP>
-        <OPTGROUP LABEL="Halogens">
-            <OPTION>Fluorine (F)</OPTION>
-            <OPTION>Chlorine (Cl)</OPTION>
-            <OPTION>Bromine (Br)</OPTION>
-        </OPTGROUP>
-    </SELECT>
+``` html
+<SELECT>
+    <OPTGROUP LABEL="Alkaline Metals">
+        <OPTION>Lithium (Li)</OPTION>
+        <OPTION>Sodium (Na)</OPTION>
+        <OPTION>Potassium (K)</OPTION>
+    </OPTGROUP>
+    <OPTGROUP LABEL="Halogens">
+        <OPTION>Fluorine (F)</OPTION>
+        <OPTION>Chlorine (Cl)</OPTION>
+        <OPTION>Bromine (Br)</OPTION>
+    </OPTGROUP>
+</SELECT>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 In [HTML 4.01](http://go.microsoft.com/fwlink/p/?linkid=203769), all **OPTGROUP** elements must be specified directly within a **SELECT** element. Groups may not be nested. You can add **OPTGROUP** elements only to a **SELECT** element located in the same window where the **OPTGROUP** elements are created. This element is available in HTML as of Microsoft Internet Explorer 6.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.6
 
-### HTML information
+### <span>HTML information</span>
 
 {
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-optgroup-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/forms.html#the-optgroup-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-OPTGROUP)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

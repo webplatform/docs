@@ -1,58 +1,62 @@
 ---
-title: replace
+title: window.location.replace
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/location
+    href: /apis/location
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/location
+standardization_status: 'W3C Working Draft'
+summary: 'Similar to window.location.assign, except that it &quot;replaces&quot; the current document, removing the previous one from the back button history.'
 tags:
   - API
   - Object
   - Methods
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Similar to window.location.assign, except that it "replaces" the current document, removing the previous one from the back button history.'
 uri: apis/location/replace
 
 ---
-# window.location.replace
+## <span>Summary</span>
 
-## Summary
+Similar to window.location.assign, except that it &quot;replaces&quot; the current document, removing the previous one from the back button history.
 
-Similar to window.location.assign, except that it "replaces" the current document, removing the previous one from the back button history.
+Method of [apis/location](/apis/location)[apis/location](/apis/location)
 
-*Method of [apis/location](/apis/location)*
+## <span>Syntax</span>
 
-## Syntax
-
-``` {.js}
+``` js
 var  = window.location.replace(url);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### url
+### <span>url</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The new URL to navigate to.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //force a new page to load and replace the current one
 window.location.replace("http://www.example.com");
 ```
 
-## Notes
+## <span>Notes</span>
 
 It is generally advisable to use `window.location.assign` becuse it retains the back button history. The `replace` method removes the current page from the back history, and therefore may confuse the user.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft
-

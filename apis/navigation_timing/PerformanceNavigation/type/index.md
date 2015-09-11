@@ -1,45 +1,54 @@
 ---
 title: type
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: 'apis/navigation timing/PerformanceNavigation'
+    href: /apis/navigation_timing/PerformanceNavigation
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned short'
+    href: /apis/navigation_timing/PerformanceNavigation
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the type of the last non-redirect navigation in the current browsing context. See Notes.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Navigation
   5: Timing
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns the type of the last non-redirect navigation in the current browsing context. See Notes.'
 uri: 'apis/navigation timing/PerformanceNavigation/type'
 
 ---
-# type
-
-## Summary
+## <span>Summary</span>
 
 Returns the type of the last non-redirect navigation in the current browsing context. See Notes.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/navigation timing/PerformanceNavigation](/apis/navigation_timing/PerformanceNavigation)</span></span>
+Property of [apis/navigation timing/PerformanceNavigation](/apis/navigation_timing/PerformanceNavigation)[apis/navigation timing/PerformanceNavigation](/apis/navigation_timing/PerformanceNavigation)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = PerformanceNavigation.type;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+Returns an object of type unsigned shortunsigned short
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var perfnavtyp = performance.navigation.type;
 alert(perfnavtyp); // see Notes
 ```
 
-## Notes
+## <span>Notes</span>
 
 This attribute must have one of the following navigation type values.
 
@@ -48,16 +57,7 @@ This attribute must have one of the following navigation type values.
 -   TYPE\_BACK\_FORWARD (2): Navigation through a history traversal operation.
 -   TYPE\_RESERVED (255): Any navigation types not defined by values above.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Navigation Timing Specification 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

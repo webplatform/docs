@@ -1,24 +1,24 @@
 ---
 title: matrix()
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://jsfiddle.net/denbuzze/J2CLV/1/'
+readiness: 'Ready to Use'
+summary: 'Defines a two dimensional transformation in matrix format.'
 tags:
   - CSS
   - Functions
-readiness: 'Ready to Use'
-summary: 'Defines a two dimensional transformation in matrix format.'
-code_samples:
-  - 'http://jsfiddle.net/denbuzze/J2CLV/1/'
 uri: css/functions/matrix()
 
 ---
-# matrix()
-
-## Summary
+## <span>Summary</span>
 
 Defines a two dimensional transformation in matrix format.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 -webkit-transform: matrix(1, 0, 0.5, 1, 10, 0);
 -o-transform: matrix(1, 0, 0.5, 1, 10, 0);
 transform: matrix(1, 0, 0.5, 1, 10, 0);
@@ -26,9 +26,9 @@ transform: matrix(1, 0, 0.5, 1, 10, 0);
 
 [View live example](http://jsfiddle.net/denbuzze/J2CLV/1/)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This function defines a two dimensional transformation in matrix format.
 
@@ -42,31 +42,24 @@ and
 
 For more information about transformation matrices, see [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246), in the [CSS3 Transforms](http://go.microsoft.com/fwlink/?LinkID=223145) specification.
 
-### Syntax
+### <span>Syntax</span>
 
 **matrix** `( <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number>  ,  <number> )`
 
-### Parameters
+### <span>Parameters</span>
 
 *number*
 :   A matrix value.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.1
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`
 -   `Direct3D: Matrices`
 -   `Hands On: 2D Transforms`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

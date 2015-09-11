@@ -11,11 +11,11 @@ tags:
 uri: 'tutorials/Getting Your Content Online'
 
 ---
-## Introduction
+## <span>Introduction</span>
 
 This [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) article aims to provide a quickfire guide for getting your website online. You’ll find out about how to get yourself a domain name and some hosting. You’ll also find out about the software required to upload websites, along with best practice for structuring a site and ensuring you always have safe copies of your work.
 
-## What’s in a name?
+## <span>What’s in a name?</span>
 
 A domain name is an important component when creating a website: it’s your text-based link to the world—the thing people type into a browser’s address bar to access your site (such as google.com, or apple.com). The best domain names are memorable and straightforward, and therefore superior to the URL you may be given with some free web space, which typically includes your ISP’s domain and your broadband or dial-up username (such as nameofisp.com/\~username).
 
@@ -35,7 +35,7 @@ Note that pitfalls can occur during the domain buying process. Some sellers infl
 
 Figure 1: The domain for my blog, [Revert to Saved](http://reverttosaved.com/), was carefully chosen. It’s memorable, a string that’s unbroken by hyphens, and has a .com suffix, which is one of the most common.
 
-## The host with the most
+## <span>The host with the most</span>
 
 Once you have a domain name in mind (or already purchased), you need somewhere to upload your site. Chances are you already have free web space with your broadband or dial-up account, but it’s almost certainly restricted in some way, perhaps in terms of bandwidth (the amount of data users can download over a set time period), storage allocation (the number of megabytes or gigabytes you have for storing content), or by way of other technologies (such as support for various types of scripts or for things like databases). Free hosting tends to offer the bare minimum, meaning you could be scuppered should you later want to expand your site’s scope or feature set.
 
@@ -49,7 +49,7 @@ A pretty good global tip for hosting is to shop around. Various sites, such as [
 
 Figure 2: Various websites offer comparative reviews of hosting services, and it’s a good idea to scour these prior to parting with any cash.
 
-## Getting it on(line)
+## <span>Getting it on(line)</span>
 
 Once you’ve got your domain and hosting sorted, you can start putting content online. Your web host will provide you with some pieces of information that you’ll need to keep safe. You’ll likely get details for accessing your account with the host itself, enabling you to access online administration features. You’ll also get details for accessing your site via FTP, which stands for “File Transfer Protocol”. Although the information provided by web hosts varies, you’ll likely be given a username, a password, a location to upload files to (often your URL, but this varies by host), and perhaps a path to the folder where your web pages should be stored. (Note that although you should be able to access your space very quickly via FTP, it can sometimes take up to three days before the entire internet is able to “see” your domain, so don't fret if people can’t access your site right away after you’ve uploaded it.)
 
@@ -63,7 +63,7 @@ If you’re working with scripts, you may also have instructions to change the p
 
 Figure 3: Transmit, available for Mac OS X, is a fairly typical dual-pane FTP client, showing a local view on the left and remote files on the right.
 
-## Work in progress
+## <span>Work in progress</span>
 
 In the previous section, I mentioned how FTP clients often show remote and local files simultaneously. This is a good thing—as any decent web designer will tell you, work solely online at your peril. If you screw up a change when working on a live site, the entire world will see it until a fix is made, and if something happens to the site (hosts do take back-ups, but they aren’t always successful, nor as regular as they should be), you lose everything if you’re only working online.
 
@@ -77,7 +77,7 @@ Figure 4: A fairly typical site structure, awaiting content.
 
 From a development standpoint, ensure your local and remote folders are identical in structure, otherwise updating and keeping your “test” and “live” sites consistent will be borderline impossible. (Note also that some hosts request that certain file types be placed in specific folders. The most common example of this is CGI scripts, which often have to be within a *cgi-bin* folder to run. Also, some configuration options—such as for databases—are host-specific. As always, ask your host for advice if unsure.)
 
-## Summary
+## <span>Summary</span>
 
 Overall, when it comes to everything mentioned in this overview, caution and research are the two most important considerations. Don’t rush headlong into anything and you won’t make a costly mistake. Do your research (on domains, hosts, how best to use your web space, and how to upload and maintain your site), and you’ll have an easier time of it.
 

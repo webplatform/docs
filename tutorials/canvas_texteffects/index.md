@@ -1,29 +1,29 @@
 ---
-title: canvas texteffects
+title: Achieving typographic effects with the canvas tag
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/canvas/texteffects/)'
+readiness: 'Ready to Use'
+summary: 'An introduction to typographic effects using the &lt;canvas&gt; element.'
 tags:
   - Tutorials
   - Canvas
-readiness: 'Ready to Use'
-summary: 'An introduction to typographic effects using the <canvas> element.'
 uri: 'tutorials/canvas texteffects'
 
 ---
-# Achieving typographic effects with the canvas tag
-
 **By Michael Deal**
 Originally published March 1, 2011
 
-## Summary
+## <span>Summary</span>
 
-An introduction to typographic effects using the \<canvas\> element.
+An introduction to typographic effects using the &lt;canvas&gt; element.
 
-## My background
+## <span>My background</span>
 
 The \<canvas\> element entered my awareness in 2006 when Firefox v2.0 was released. An article on [Ajaxian](http://ajaxian.com/) describing the transformation matrix inspired me to create my first \<canvas\> web-app, [Color Sphere](http://www.colorjack.com/sphere/) (2007). This immersed me into the world of colors and graphic primitives, inspiring the creation of [Sketchpad](http://mugtug.com/sketchpad/) (2007-2008) in an effort to put together an application *better than Paint* in the browser.
 
 These experiments eventually led to the creation of the startup Mugtug with my long-time friend Charles Pritchard. We are developing [Darkroom](http://mugtug.com/darkroom/) in HTML5 \<canvas\>. Darkroom is a non-destructive photo-sharing app, combining the powers of pixel-based filters with vector-based typography and drawing.
 
-## Introduction
+## <span>Introduction</span>
 
 ![typ01-canvas.png](/assets/public/6/6b/typ01-canvas.png)
 
@@ -40,7 +40,7 @@ The following examples deal with one area in \<canvas\> that hasn't gotten much 
  Spaceage-generative effect
 :   Generative based text-effect in \<canvas\> using hsl() color-cycling and `window.requestAnimationFrame` to create the feeling of motion
 
-## Text-Shadows in Canvas
+## <span>Text-Shadows in Canvas</span>
 
 One of my favorite additions to CSS3 (along with border-radius, web-gradients, and others) is the ability to create shadows. It's important to realize the differences between CSS and \<canvas\> shadows, specifically:
 
@@ -85,7 +85,7 @@ There are two things to notice when converting this string to \<canvas\>:
      // the value to multiply PXs by to convert to EMs
      var EM2PX = 1 / d.offsetHeight;
 
-### Preventing alpha-multiplication
+### <span>Preventing alpha-multiplication</span>
 
 In a more complex example, such as the Neon effect found on Line25, the `shadowBlur` property must be used to emulate the effect properly. Because the Neon effect relies on multiple shadows, we run into a problem: in \<canvas\> each vector object can only have one shadow. So, in order to draw multiple shadows, you must draw multiple versions of the text on top of itself. This results in alpha multiplication, and ultimately jagged edges.
 
@@ -105,7 +105,7 @@ Luckily, there is a way around this. We can draw the shadow offset from the text
      ctx.shadowBlur = blur;
      ctx.fillText(text, -width, 0);
 
-### Clipping around a text block
+### <span>Clipping around a text block</span>
 
 To clean this up a bit we can prevent the fillText from being drawn in the first place (while allowing the shadow to be drawn) by adding a clipping path. In order to create a clipping path surrounding the text, we need to know the height of the text (called the "em-height"; historically, the height of the letter M) and the width of the text. We can get the width using `ctx.measureText().width`, however, `ctx.measureText().height` doesn't exist.
 
@@ -164,7 +164,7 @@ Since you're not going to want to enter all these \<canvas\> commands manually, 
 
 View [Text-Shadows in \<canvas\>](http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-Effects.html) effects.
 
-### Intermission (a tangent on pixel-pushing)
+### <span>Intermission (a tangent on pixel-pushing)</span>
 
 In writing this section of the article, the Stereoscopic example made me curious. How hard it would be to create a 3D-movie-screen effect using \<canvas\> and two images taken from slightly different perspectives?  Apparently, not too hard. The following kernel combines the red channel of the first image (data) with the cyan channel of the second image (data2):
 
@@ -176,7 +176,7 @@ Visit the [Stereoscopic demo](http://www.html5rocks.com/en/tutorials/canvas/text
 
 ![typ05-stereo.png](/assets/public/9/9f/typ05-stereo.png)
 
-## Neon-rainbow, zebra-reflection — chaining effects
+## <span>Neon-rainbow, zebra-reflection — chaining effects</span>
 
 Chaining multiple effects in \<canvas\> can be simple, but a basic knowledge of the globalCompositeOperation (GCO) is required. To compare the operations to GIMP (or Photoshop): there are 12 GCOs in \<canvas\>: *darker* and *lighter* can be thought of as layer blend-modes; the other 10 operations are applied to the layers as alpha masks (one layer removes the pixels of the other layer). The globalCompositeOperation ties *layers* (or in our case, strings of code) together, combining them in new and exciting ways:
 
@@ -188,7 +188,7 @@ My favorite mode is globalCompositeOperation="lighter". Lighter mixes the append
 
 **NOTE:** There is some missing support for some of the GCO modes across the browsers that needs to be sorted out. There are six modes that generally work across browsers: source-over, source-atop, destination-over, destination-out, lighter, and xor. For more information visit [globalCompositeOperation browser handling](http://www.rekim.com/tag/globalcompositeoperation/).
 
-### Neon-Rainbow Jitter Effect
+### <span>Neon-Rainbow Jitter Effect</span>
 
 In the following demo, we're going to achieve a Photoshop-like neon-rainbow-glow with a jittered outline by chaining effects together using the globalCompositeOperation (source-in, lighter, and darker). This demo is a progression of the "Text-Shadows in \<canvas\>" demo, using the same strategy in separating the shadow from the text (see previous section):
 
@@ -259,7 +259,7 @@ View [Neon-Rainbow Jitter](http://www.html5rocks.com/en/tutorials/canvas/texteff
        ctx.restore();
      };
 
-### Zebra reflection effect
+### <span>Zebra reflection effect</span>
 
 The zebra reflection effect was inspired by [WebDesignerWall](http://www.webdesignerwall.com/demo/css-gradient-text)'s excellent resource on how to spice up your page with CSS. This takes the idea a little bit further, creating a "reflection" for the text such as you might see in iTunes. The effect combines fillColor (white), createPattern (zebra.png), and linearGradient (shine); this illustrates the ability to apply multiple fill types to each vector object:
 
@@ -325,7 +325,7 @@ View [zebra reflection](http://www.html5rocks.com/en/tutorials/canvas/texteffect
        ctx.restore();
      };
 
-## Inner/outer shadows in canvas
+## <span>Inner/outer shadows in canvas</span>
 
 The \<canvas\> spec doesn't touch on the subject of *inner* vs. *outer* shadows. In fact, at first appearance, you may expect that inner shadow isn't supported. This is not the case, it's just a bit tricker to enable. As proposed in a recent post from [F1LT3R](http://weblog.bocoup.com/can-i-draw-an-inset-shadow-with-the-html5-canvas-api), you can create inner-shadows using the unique properties of clockwise vs. anti-clockwise winding rules. To do this, you create an inner-shadow by drawing a container rectangle and then, using opposite winding rules, draw a cutout shape, creating the inverse of the shape.
 
@@ -429,7 +429,7 @@ View [inner-shadow](http://www.html5rocks.com/en/tutorials/canvas/texteffects/Te
 
 From these examples you can see that, using globalCompositeOperation, we can chain effects together, producing more elaborate effects (utilizing masking and blending). The screen is your oyster! ;-)
 
-## Spaceage—generative effects.
+## <span>Spaceage—generative effects.</span>
 
 In \<canvas\>, going from the unicode character 0x2708...
 
@@ -445,7 +445,7 @@ By mapping the element's XY position to a sine/cosine wave and cycling through c
 
 ![typ12-biohazard.png](/assets/public/5/55/typ12-biohazard.png)
 
-### HSL: Hue, Saturation, Lightness (1978)
+### <span>HSL: Hue, Saturation, Lightness (1978)</span>
 
 HSL is a newly supported format in the CSS3 specs. Where HEX was designed for computers, HSL is designed to be human readable.
 
@@ -495,7 +495,7 @@ Because HSL is a recent standard, you may wish to continue supporting older brow
        };
      };
 
-### Creating animations with requestAnimationFrame
+### <span>Creating animations with requestAnimationFrame</span>
 
 In the past, to create animations in Javascript there were two choices, `setTimeout` and `setInterval`.
 
@@ -548,17 +548,17 @@ View [Spaceage](http://www.html5rocks.com/en/tutorials/canvas/texteffects/Text-E
 
 ![typ16-spaceage3.png](/assets/public/4/4a/typ16-spaceage3.png)
 
-## Source code
+## <span>Source code</span>
 
 With support from across the browser vendor-sphere, there is no question about the future of \<canvas\>. It can be ported to the iPhone/Android/Desktop executables using [PhoneGap](http://www.phonegap.com/) or [Titanium](http://www.appcelerator.com/products/titanium-cross-platform-application-development/).
 
 Source code can be found in [CanvasTextEffects.zip](http://www.html5rocks.com/en/tutorials/canvas/texteffects/CanvasTextEffects.zip).
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Canvas
+#### <span>Canvas</span>
 
 -   [canvas](/apis/canvas)
 
@@ -570,17 +570,13 @@ Source code can be found in [CanvasTextEffects.zip](http://www.html5rocks.com/en
 
 -   [Introduction to Canvas](/tutorials/canvas/canvas_tutorial)
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -591,8 +587,6 @@ Source code can be found in [CanvasTextEffects.zip](http://www.html5rocks.com/en
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -606,25 +600,11 @@ Source code can be found in [CanvasTextEffects.zip](http://www.html5rocks.com/en
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -669,10 +649,3 @@ Source code can be found in [CanvasTextEffects.zip](http://www.html5rocks.com/en
 -   [strong](/html/elements/strong)
 
 -   **Achieving typographic effects with the canvas tag**
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/en/tutorials/canvas/texteffects/)
-

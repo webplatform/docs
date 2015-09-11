@@ -1,50 +1,59 @@
 ---
 title: createTextNode
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat table'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Creates a text node containing the passed string (nodeValue).'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat table'
-summary: 'Creates a text node containing the passed string (nodeValue).'
 uri: dom/Document/createTextNode
 
 ---
-# createTextNode
-
-## Summary
+## <span>Summary</span>
 
 Creates a text node containing the passed string (nodeValue).
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var textNode = document.createTextNode(text);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### text
+### <span>text</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The [**nodeValue**](/dom/Node/nodeValue) property of the text node.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The created TextNode.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <script>
 //create a text node and replace an existing node with the new one
 function changeNode() {
@@ -58,25 +67,16 @@ Original Text
 </span>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-1975348127)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `createElement`
 -   `Conceptual`
 -   `About the W3C Document Object Model`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

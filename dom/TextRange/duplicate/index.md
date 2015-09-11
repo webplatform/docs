@@ -1,57 +1,59 @@
 ---
 title: duplicate
+attributions:
+  - 'Microsoft Developer Network: [[duplicate Method](http://msdn.microsoft.com/en-us/library/ie/ms536416(v=vs.85).aspx) Article]'
+notes:
+  - "needs example\nTextRange not in js types list."
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/TextRange
+    href: /dom/TextRange
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Object
+    href: /dom/TextRange
+standardization_status: Non-Standard
+summary: 'Returns a duplicate of the TextRange.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: Non-Standard
-notes:
-  - "needs example\nTextRange not in js types list."
-summary: 'Returns a duplicate of the TextRange.'
 uri: dom/TextRange/duplicate
 
 ---
-# duplicate
-
-## Summary
+## <span>Summary</span>
 
 Returns a duplicate of the TextRange.
 
-*Method of [dom/TextRange](/dom/TextRange)*
+Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var duplicate = textRange.duplicate();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Object.
+Returns an object of type ObjectObject
 
 a duplicate of the TextRange object.
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Used to fill the edit-undo buffer.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[duplicate Method](http://msdn.microsoft.com/en-us/library/ie/ms536416(v=vs.85).aspx) Article]
-

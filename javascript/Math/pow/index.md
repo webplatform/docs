@@ -1,20 +1,22 @@
 ---
 title: pow
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the value of a base expression taken to a specified power.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the value of a base expression taken to a specified power.'
 uri: javascript/Math/pow
 
 ---
-# pow
-
-## Summary
+## <span>Summary</span>
 
 Returns the value of a base expression taken to a specified power.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Math.pow( base , exponent )
 
@@ -24,23 +26,17 @@ Returns the value of a base expression taken to a specified power.
 **exponent**
 :   Required. The exponent value of the expression.
 
-## Examples
+## <span>Examples</span>
 
 In the following example, a numeric expression equal to baseexponent returns 1000.
 
-``` {.js}
+``` js
 Math.pow( 10,3 ) ;
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Math Object](/javascript/Math)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)
 

@@ -1,43 +1,52 @@
 ---
 title: entryType
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Needs example'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/user_timing/PerformanceMark
+    href: /apis/user_timing/PerformanceMark
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/user_timing/PerformanceMark
+standardization_status: 'W3C Recommendation'
+summary: 'Returns the DOMString &quot;mark&quot;.'
 tags:
   0: API
   1: Object
   2: Properties
   4: User
   5: Timing
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs example'
-summary: 'Returns the DOMString "mark".'
 uri: 'apis/user timing/PerformanceMark/entryType'
 
 ---
-# entryType
+## <span>Summary</span>
 
-## Summary
+Returns the DOMString &quot;mark&quot;.
 
-Returns the DOMString "mark".
+Property of [apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)[apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/user\_timing/PerformanceMark](/apis/user_timing/PerformanceMark)</span></span>
+## <span>Syntax</span>
 
-## Syntax
-
-``` {.js}
+``` js
 var result = element.entryType;
 element.entryType = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 DOMString
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // set begin mark
 performance.mark("startMark");
 // execute a function to be measured
@@ -60,16 +69,7 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

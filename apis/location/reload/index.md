@@ -1,53 +1,58 @@
 ---
-title: reload
+title: window.location.reload
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/location
+    href: /apis/location
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/location
+standardization_status: 'W3C Working Draft'
+summary: 'Refresh/reload the current page, optionally forcing a re-download of the content.'
 tags:
   - API
   - Object
   - Methods
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Refresh/reload the current page, optionally forcing a re-download of the content.'
 uri: apis/location/reload
 
 ---
-# window.location.reload
-
-## Summary
+## <span>Summary</span>
 
 Refresh/reload the current page, optionally forcing a re-download of the content.
 
-*Method of [apis/location](/apis/location)*
+Method of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = window.location.reload(forceget);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### forceget
+### <span>forceget</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  Boolean, true forces a download the page contents again.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //force the page to reload/refresh
 window.location.reload();
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft
 

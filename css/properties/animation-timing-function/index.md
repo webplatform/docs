@@ -1,42 +1,59 @@
 ---
 title: animation-timing-function
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://gist.github.com/7011239'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`ease`'
+  'Applies to': 'all elements, ::before and ::after pseudo-elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`animationTimingFunction`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Describes how the animation will progress over one cycle of its duration.'
-code_samples:
-  - 'http://gist.github.com/7011239'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/animation-timing-function
 
 ---
-# animation-timing-function
-
-## Summary
+## <span>Summary</span>
 
 Describes how the animation will progress over one cycle of its duration.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `ease`
+
 Applies to
 :   all elements, ::before and ::after pseudo-elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `animationTimingFunction`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `animation-timing-function: cubic-bezier(0,0,1,1)`
 -   `animation-timing-function: ease`
@@ -48,7 +65,7 @@ Percentages
 -   `animation-timing-function: step-start`
 -   `animation-timing-function: steps(3, end)`
 
-## Values
+## <span>Values</span>
 
 ease
 :   Default. The animation begins and ends gradually; this value is equivalent to `cubic-bezier(0.25,0.1,0.25,1)`.
@@ -77,11 +94,11 @@ step-start
 step-end
 :   Equivalent to steps(1,end).
 
-## Examples
+## <span>Examples</span>
 
 A fast-moving sequence uses linear timing to highlight an abrupt transition within the keyframes, from a moving to a stopped state:
 
-``` {.css}
+``` css
 div {
     animation-duration        : 0.5s;
     animation-fill-mode       : both;
@@ -101,7 +118,7 @@ div {
 
 [View live example](http://code.webplatform.org/gist/7011239)
 
-## Usage
+## <span>Usage</span>
 
      The timing functions supported by animation-timing-function are defined by transition-timing-function.
 
@@ -109,16 +126,14 @@ If `animation-timing-function` specifies more timing functions than there are va
 
 For a keyframed animation, the **animation-timing-function** applies between keyframes, not over the entire animation. For example, in the case of an **ease-in-out** timing function, an animation will ease in at the start of the keyframe and ease out at the end of the keyframe. An **animation-timing-function** defined within a keyframe block applies to that keyframe, otherwise the timing function specified for the animation is used.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Animations](http://www.w3.org/TR/css3-animations/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Making things move with CSS3 animations](/tutorials/css_animations)
 -   [@keyframes](/css/atrules/@keyframes)
@@ -131,15 +146,6 @@ Specification
 -   [animation-name](/css/properties/animation-name)
 -   [animation-play-state](/css/properties/animation-play-state)
 
-### External resources
+### <span>External resources</span>
 
 -   A [detailed description of timing functions](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function) (MDN)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

@@ -1,53 +1,67 @@
 ---
 title: border-left
+code_samples:
+  - 'http://gist.github.com/5539642'
+notes:
+  - 'Add specifications and compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': '[[Computed value::Depends of the value type, see [\#Computed value](#Computed_value) in [\#Notes](#Notes) for more details]]'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderLeft`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'Shorthand property that defines the border-width, border-style and border-color of an element''s left border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the left border — border-left-width, border-left-style and border-left-color.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add specifications and compatibility.'
-summary: 'Shorthand property that defines the border-width, border-style and border-color of an element''s left border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the left border — border-left-width, border-left-style and border-left-color.'
-code_samples:
-  - 'http://gist.github.com/5539642'
-uri: css/properties/border-left
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/border-left
 
 ---
-# border-left
-
-## Summary
+## <span>Summary</span>
 
 Shorthand property that defines the border-width, border-style and border-color of an element's left border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the left border — border-left-width, border-left-style and border-left-color.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   [[Computed value::Depends of the value type, see [\#Computed value](#Computed_value) in [\#Notes](#Notes) for more details]]
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderLeft`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-left: border-width border-style color`
 -   `border-left: inherit`
 
-## Values
+## <span>Values</span>
 
 border-width border-style color
 :   The `border-left` property can contain up to three components:
@@ -59,21 +73,21 @@ border-width border-style color
 inherit
 :   When we set the value to `inherit`, the element will inherit the border values set on its parent.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing multiple `<div>`s, identical in style except that they have different `border-left` properties applied to them.
 
-``` {.html}
-One
-Two
-Three
-Four
-Five
+``` html
+<div class="one"><p>One</p></div>
+<div class="two"><p>Two</p></div>
+<div class="three"><p>Three</p></div>
+<div class="four"><p>Four</p></div>
+<div class="five"><p>Five</p></div>
 ```
 
 [View live example](http://code.webplatform.org/gist/5539642)
 
-``` {.css}
+``` css
 /**
  * border-left example
 **/
@@ -123,23 +137,23 @@ p {
 
 [View live example](http://code.webplatform.org/gist/5539642)
 
-## Usage
+## <span>Usage</span>
 
      * It is usual to use the border-left property to set the default state of a box's left border, and then override individual values using more specific properties, such as border-left-width or border-left-color.
 
 -   `border-left` can be used as a divider between horizontally laid out items, such as horizontal navigation menu items, or table cells.
 
-## Notes
+## <span>Notes</span>
 
-## Computed value
+## <span>Computed value</span>
 
 For `style` values, the computed value is as specified. For `width` values, the computed value is the absolute pixel value, or `0` if the value is set to `none` or `hidden`. For `color` values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -199,7 +213,7 @@ For `style` values, the computed value is as specified. For `width` values, the 
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -210,4 +224,3 @@ For `style` values, the computed value is as specified. For `width` values, the 
 -   `border`
 -   `Other Resources`
 -   `CSS Enhancements in Internet Explorer 6`
-

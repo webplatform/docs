@@ -1,26 +1,26 @@
 ---
 title: HTML Tag Methods
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806183(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'You can use HTML tag methods to place HTML elements around text in a String object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'You can use HTML tag methods to place HTML elements around text in a String object.'
 uri: 'javascript/String/HTML Tag Methods'
 
 ---
-# HTML Tag Methods
-
-## Summary
+## <span>Summary</span>
 
 You can use HTML tag methods to place HTML elements around text in a String object.
 
-## Syntax
+## <span>Syntax</span>
 
-## Examples
+## <span>Examples</span>
 
 The following examples show how to use the HTML tag methods.
 
-``` {.js}
+``` js
 // anchor method.
  var strVariable = "This is an anchor.";
  document.write(strVariable.anchor("Anchor1"));
@@ -87,11 +87,11 @@ The following examples show how to use the HTML tag methods.
  // Output: <SUP>This is a string.</SUP>
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 No checking is performed to determine whether the HTML tags have already been applied to the string.
 
-## Syntax
+## <span>Syntax</span>
 
 The following table lists the syntax for and a description of each HTML tag method.
 
@@ -99,44 +99,211 @@ In the Syntax column, string1 is a **String** object or literal.
 
 The Standard column indicates [World Wide Web Consortium (W3C)](http://go.microsoft.com/fwlink/?LinkId=199553) recommendations for HTML 4. "Discouraged" indicates that the HTML element is discouraged in favor of style sheets.
 
+<table class="wikitable">
+<tr>
+<th>
 Syntax
-:   Method description
+
+</th>
+<th>
+Method description
+
+</th>
+<th>
+Parameter description
+
+</th>
+<th>
+Standard
+
+</th>
+</tr>
+<tr>
+<td>
 string1.anchor( name )
-:   Places an HTML anchor that has a NAME attribute around the text.
+
+</td>
+<td>
+Places an HTML anchor that has a NAME attribute around the text.
+
+</td>
+<td>
+The name parameter is text to put in the NAME attribute of the HTML anchor.
+
+</td>
+</tr>
+<tr>
+<td>
 string1.big()
-:   Places HTML \<BIG\> tags around the text.
+
+</td>
+<td>
+Places HTML \<BIG\> tags around the text.
+
+</td>
+<td>
+Discouraged
+
+</td>
+</tr>
+<tr>
+<td>
 string1.blink()
-:   Places HTML \<BLINK\> tags around the text. The \<BLINK\> tag is not supported in Internet Explorer.
+
+</td>
+<td>
+Places HTML \<BLINK\> tags around the text. The \<BLINK\> tag is not supported in Internet Explorer.
+
+</td>
+<td>
+Not in standard
+
+</td>
+</tr>
+<tr>
+<td>
 string1.bold()
-:   Places HTML \<B\> tags around the text.
+
+</td>
+<td>
+Places HTML \<B\> tags around the text.
+
+</td>
+<td>
+Discouraged
+
+</td>
+</tr>
+<tr>
+<td>
 string1.fixed()
-:   Places HTML \<TT\> tags around the text.
+
+</td>
+<td>
+Places HTML \<TT\> tags around the text.
+
+</td>
+<td>
+Discouraged
+
+</td>
+</tr>
+<tr>
+<td>
 string1.fontcolor( color )
-:   Places HTML \<FONT\> tags with a COLOR attribute around the text.
+
+</td>
+<td>
+Places HTML \<FONT\> tags with a COLOR attribute around the text.
+
+</td>
+<td>
+The color parameter is a string value that contains the hexadecimal value or predefined name for a color. Valid predefined color names depend on the JavaScript host browser and its version.
+
+</td>
+<td>
+Deprecated
+
+</td>
+</tr>
+<tr>
+<td>
 string1.fontsize( size )
-:   Places HTML \<FONT\> tags with a SIZE attribute around the text.
+
+</td>
+<td>
+Places HTML \<FONT\> tags with a SIZE attribute around the text.
+
+</td>
+<td>
+The size parameter is an integer value that specifies the size of the text. Valid integer values depend on the JavaScript host browser and its version.
+
+</td>
+<td>
+Deprecated
+
+</td>
+</tr>
+<tr>
+<td>
 string1.italics()
-:   Places HTML \<I\> tags around the text.
+
+</td>
+<td>
+Places HTML \<I\> tags around the text.
+
+</td>
+<td>
+Discouraged
+
+</td>
+</tr>
+<tr>
+<td>
 string1.link( href )
-:   Places an HTML anchor that has an HREF attribute around the text.
+
+</td>
+<td>
+Places an HTML anchor that has an HREF attribute around the text.
+
+</td>
+<td>
+The href parameter is text to put in the HREF attribute of the HTML anchor.
+
+</td>
+</tr>
+<tr>
+<td>
 string1.small()
-:   Places HTML \<SMALL\> tags around the text.
+
+</td>
+<td>
+Places HTML \<SMALL\> tags around the text.
+
+</td>
+<td>
+Discouraged
+
+</td>
+</tr>
+<tr>
+<td>
 string1.strike()
-:   Places HTML \<STRIKE\> tags around the text.
+
+</td>
+<td>
+Places HTML \<STRIKE\> tags around the text.
+
+</td>
+<td>
+Deprecated
+
+</td>
+</tr>
+<tr>
+<td>
 string1.sub()
-:   Places HTML \<SUB\> tags around the text.
+
+</td>
+<td>
+Places HTML \<SUB\> tags around the text.
+
+</td>
+</tr>
+<tr>
+<td>
 string1.sup()
-:   Places HTML \<SUP\> tags around the text.
 
-## See also
+</td>
+<td>
+Places HTML \<SUP\> tags around the text.
 
-### Other articles
+</td>
+</tr>
+</table>
+## <span>See also</span>
+
+### <span>Other articles</span>
 
 -   [String Object](/javascript/String)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806183(v=vs.94).aspx)
 

@@ -1,32 +1,39 @@
 ---
 title: contextmenu
+code_samples:
+  - 'http://gist.github.com/11067829'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Used to associate the menu element in the DOM to the given element as its context menu.'
 tags:
   - Markup
   - Attributes
   - HTML
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Used to associate the menu element in the DOM to the given element as its context menu.'
-code_samples:
-  - 'http://gist.github.com/11067829'
 uri: html/attributes/contextmenu
 
 ---
-# contextmenu
-
-## Summary
+## <span>Summary</span>
 
 Used to associate the menu element in the DOM to the given element as its context menu.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   html/elements/menu
 
+</th>
+<td>
+html/elements/menu
+
+</td>
+</tr>
+</table>
 The contextmenu attribute allows a developer to modify the menu shown upon interacting with an element. Its value must be set to be the ID of a **menu** element contained within the DOM which has a type of context.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!doctype html>
 <title>Demo for contextmenu attribute</title>
 <!-- Setting the context menu for the image to be imageMenu. -->
@@ -73,14 +80,11 @@ var increaseItem = document.getElementById('increaseImageSize'),
 
 [View live example](http://code.webplatform.org/gist/11067829)
 
-## Usage
+## <span>Usage</span>
 
      This feature may only work in Firefox currently. (Untested in IE and Safari.)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html-markup/global-attributes.html#common.attrs.contextmenu)
 :   Candidate Recommendation
-

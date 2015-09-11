@@ -1,36 +1,39 @@
 ---
 title: pseudoElement
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/AnimationEvent
+    href: /dom/AnimationEvent
+summary: 'A DOMString, starting with &quot;::&quot;, containing the name of the pseudo-element the animation runs on. If the animation runs on the element rather than on a pseudo-element, this property contains an empty string, &quot;&quot;.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'A DOMString, starting with "::", containing the name of the pseudo-element the animation runs on. If the animation runs on the element rather than on a pseudo-element, this property contains an empty string, "".'
 uri: dom/AnimationEvent/pseudoElement
 
 ---
-# pseudoElement
+## <span>Summary</span>
 
-## Summary
+A DOMString, starting with &quot;::&quot;, containing the name of the pseudo-element the animation runs on. If the animation runs on the element rather than on a pseudo-element, this property contains an empty string, &quot;&quot;.
 
-A DOMString, starting with "::", containing the name of the pseudo-element the animation runs on. If the animation runs on the element rather than on a pseudo-element, this property contains an empty string, "".
+Property of [dom/AnimationEvent](/dom/AnimationEvent)[dom/AnimationEvent](/dom/AnimationEvent)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/AnimationEvent](/dom/AnimationEvent)</span></span>
+## <span>Syntax</span>
 
-## Syntax
+**Note**: This property is read-only.
 
-***Note**: This property is read-only.*
-
-``` {.js}
+``` js
 var result = element.pseudoElement;
 ```
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //for a predefined animation event
 var myAnimEvent = new AnimationEvent();
 // . . .

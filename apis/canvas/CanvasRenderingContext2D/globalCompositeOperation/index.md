@@ -1,34 +1,43 @@
 ---
 title: globalCompositeOperation
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Sets how shapes and images are drawn onto the existing bitmap once they have had globalAlpha and the current transformation matrix applied.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Sets how shapes and images are drawn onto the existing bitmap once they have had globalAlpha and the current transformation matrix applied.'
 uri: apis/canvas/CanvasRenderingContext2D/globalCompositeOperation
 
 ---
-# globalCompositeOperation
-
-## Summary
+## <span>Summary</span>
 
 Sets how shapes and images are drawn onto the existing bitmap once they have had globalAlpha and the current transformation matrix applied.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)</span></span>
+Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = CanvasRenderingContext2D.globalCompositeOperation;
 CanvasRenderingContext2D.globalCompositeOperation = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 Must be set to a value from the following list. In the descriptions below, the source image, *A*, is the shape or image being rendered; the destination image, *B*, is the current state of the bitmap. **Note:** Values are case-sensitive.
 
@@ -45,13 +54,13 @@ Must be set to a value from the following list. In the descriptions below, the s
 -   "xor" - A xor B. Exclusive OR of the source image and destination image.
 -   *vendorName-operationName* - Vendor-specific extensions to the list of composition operators should use this syntax.
 
-## Examples
+## <span>Examples</span>
 
 This example draws two pairs of overlapping rectangles using different globalCompositionOperation values. In the example, the first rectangle of each pair (green) is the *destination*; the second rectangle of each pair (yellow) is the *source*. Thus in the first **source-over** pair, yellow overlays green; in the second **destination-over** pair, green overlays yellow.
 
-``` {.html}
+``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
-. . .
+<p>. . .</p>
 <script>
 var can = document.getElementById("myCanvas");
 var ctxt = can.getContext("2d");
@@ -60,6 +69,7 @@ ctxt.fillRect(20, 30, 80, 50);
 ctxt.fillStyle = "yellow";
 ctxt.globalCompositeOperation = "source-over";
 ctxt.fillRect(50, 60, 80, 50);
+
 ctxt.fillStyle = "green";
 ctxt.fillRect(150, 30, 80, 50);
 ctxt.fillStyle = "yellow";
@@ -68,20 +78,11 @@ ctxt.fillRect(180, 60, 80, 50);
 </script>
 ```
 
-## Notes
+## <span>Notes</span>
 
 You can copy images directly, or you can apply them depending on the opacity or transparency of the images or by using an XOR operation. Values are case-sensitive. If you set an unsupported or unrecognized value, *globalCompositeOperation* retains the previous value.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

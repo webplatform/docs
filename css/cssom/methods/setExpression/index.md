@@ -1,50 +1,59 @@
 ---
 title: setExpression
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/recalc_inline.htm'
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setExpression.htm'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/methods
+    href: /css/cssom/methods
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /css/cssom/methods
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/recalc_inline.htm'
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setExpression.htm'
 uri: css/cssom/methods/setExpression
 
 ---
-# setExpression
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [css/cssom/methods](/css/cssom/methods)*
+Method of [css/cssom/methods](/css/cssom/methods)[css/cssom/methods](/css/cssom/methods)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.setExpression(PropertyName, Expression, Language);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### PropertyName
+### <span>PropertyName</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
 **String**Â that specifies the name of the property to which *expression* is added.
 
-### Expression
+### <span>Expression</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
 **String**Â that specifies any valid script (JScript, JavaScript, VBSCript) statement without quotations or semicolons. This string can include references to other properties on the current page. Array references are not allowed on object properties included in this script.
 
-### Language
+### <span>Language</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
 **String**Â that specifies one of the following values:
@@ -53,17 +62,17 @@ var object = object.setExpression(PropertyName, Expression, Language);
 -   "VBScript" --Language is VBScript.
 -   "JavaScript" -- Language is JavaScript.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
-## Examples
+## <span>Examples</span>
 
 The following examples use the **setExpression** method to change the width of a blue box. In each example, the width of the blue box is equal to the sum of the values of the first two text boxes. When a value in one of the text boxes changes, the width of the blue box recalculates.
 
 This example shows the HTML implementation of **setExpression**.
 
-``` {.html}
+``` html
 <INPUT TYPE=text ID=oBox1 value=40>The sum of the values in
     these two text boxes determines the width<BR>
 <INPUT TYPE=text ID=oBox2 value=40>of the blue text box below.
@@ -79,7 +88,7 @@ This example shows the HTML implementation of **setExpression**.
 
 This example uses the [**uniqueID**](/dom/HTMLElement/uniqueID) property and the **setExpression** method to update the [**innerText**](/dom/HTMLElement/innerText) property of a table row.
 
-``` {.js}
+``` js
 <SCRIPT>
 window.onload=fnInit;
 function fnInit(){
@@ -136,9 +145,9 @@ function fnGetValue(oRow){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setExpression.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Use the **setExpression** method to add expressions to supported [**removeExpression**](/css/cssom/methods/removeExpression) method. The following syntax sections show how to set an expression on DHTML Properties and CSS attributes.
 
@@ -162,9 +171,9 @@ Use the **setExpression** method to add expressions to supported [**removeExpres
 
 `object.style.setExpression("width","document.body.style.fontSize"); `
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `IHTMLElement2`
 -   `IHTMLStyle2`
@@ -176,10 +185,3 @@ Use the **setExpression** method to add expressions to supported [**removeExpres
 -   `removeExpression`
 -   `Conceptual`
 -   `About Dynamic Properties`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

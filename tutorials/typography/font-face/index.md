@@ -1,22 +1,22 @@
 ---
-title: font-face
-tags:
-  - Tutorials
+title: Overview of web fonts using @font-face
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/webfonts/quick/)'
 readiness: 'Ready to Use'
 summary: 'An introduction to webfonts and @font-face. Part of the  Typography tutorials section.'
+tags:
+  - Tutorials
 uri: tutorials/typography/font-face
 
 ---
-# Overview of web fonts using @font-face
-
 **By Paul Irish**
 Originally published published Aug. 2, 2010
 
-## Summary
+## <span>Summary</span>
 
 An introduction to webfonts and @font-face. Part of the Typography tutorials section.
 
-## Introduction
+## <span>Introduction</span>
 
 The @font-face feature from CSS3 allows us to use custom typefaces on the web in an accessible, manipulable, and scalable way. "But," you might ask, "why would we use @font-face if we have Cufon, sIFR, and using text in images?"
 
@@ -29,7 +29,7 @@ A few benefits of leveraging @font-face for custom fonts:
 
  View the [Font Previewer](http://code.google.com/webfonts/preview) for a taste of how flexible webfonts are ![ff-previewer.jpg](/assets/public/8/8b/ff-previewer.jpg)
 
-## @font-face at its essence
+## <span>@font-face at its essence</span>
 
 At its most basic, we declare a new custom remote font to be used like so:
 
@@ -59,23 +59,23 @@ Inducing a headache yet? If you'd rather just get this off the ground quickly, h
 
  The [Font Squirrel generator](http://www.fontsquirrel.com/fontface/generator) ![ff-squirrel.png](/assets/public/a/a8/ff-squirrel.png)
 
-### Mobile support?
+### <span>Mobile support?</span>
 
 Some mobile operating systems support SVG webfonts and some don't. But regardless, should your mobile users get this enhanced typographic experience? I'd recommend no. The predominant reason is due to how WebKit handles text that is awaiting a custom font via @font-face: the text is invisible. So on a low-bandwidth mobile connection, your users will see no text at all until the \~50k of font data has loaded. The Webkit team is pursuing a solution of turning on a fallback font after a few seconds have expired, but until that has landed, I wouldn't consider it fair to subject your users to such roadblocks between them and your content.
 
-## Webfont services
+## <span>Webfont services</span>
 
 A number of services wrap the @font-face feature in an easy API, often letting you add a single CSS or script line to your HTML and some configuration and you're all done. Many like [WebInk](http://www.extensis.com/en/WebINK/), [Typekit](http://typekit.com/), and [Fontslive](http://www.fontslive.com/) will allow you to use the fonts (sometimes up to a bandwidth cap) for a monthly fee. Using these services is very convenient for the casual developer, handing off some of the complications of serving a cross-browser solution to the service.
 
 The [Google Font API](http://code.google.com/apis/webfonts/) lets you use a small, curated set of freely licensed fonts by just linking to a stylesheet and letting Google handle the cross-browser and performance concerns. It's the fastest way to get off the ground and running with webfonts.
 
-## Finding professional typefaces for @font-face
+## <span>Finding professional typefaces for @font-face</span>
 
 A common surprise to designers is that just because you purchase a font license (to use in your graphic design, for example), that doesn't mean you can use it in @font-face. Licenses for @font-face (or web embedding) are typically sold separately. Read the agreement carefully, and feel free to contact the font foundry if you have questions.
 
 [Fontspring](http://fontspring.com) is a font boutique, selling hundreds of quality professional fonts, all of them cleared for use with @font-face. [FontShop](http://fontshop.com) and other foundries have begun selling @font-face licenses directly, though currently only targeting WOFF and EOT, which leave out a sizable (but shrinking) portion of the browser market. Many foundries are adding webfont licenses to their catalog, but if you can't find one for your chosen typeface, get in touch with them to ask about it.
 
-## Dealing with FOUT
+## <span>Dealing with FOUT</span>
 
 The [Flash of Unstyled Text](http://paulirish.com/2009/fighting-the-font-face-fout/) is a phenomenon in Firefox and Opera that few web designers are fond of. When you apply a custom typeface via @font-face, there is a brief moment when loading the page where the specified font hasn't been downloaded and applied yet, and so the next font in the `font-family` stack is used. This causes a flash of a different (typically less good looking) font, before it gets upgraded.
 
@@ -106,13 +106,7 @@ If JavaScript is disabled the text will remain visible the whole time, and if th
 
 A more lightweight but less effective solution is the `font-size-adjust` property, currently only supported in Firefox. It gives you an opportunity to normalize the [x-height](http://en.wikipedia.org/wiki/X-height) across a font-stack, reducing the amount of visible change in the FOUT. In fact, the [Font Squirrel generator](http://www.fontsquirrel.com/fontface/generator) just added a feature where it tells you the x-height ratio of the fonts you upload, so you can accurately set the `font-size-adjust` value.
 
-## Summary
+## <span>Summary</span>
 
 Webfonts deliver quite a bit of freedom to designers, and with upcoming features like [discretionary ligatures and stylistic alternates](http://hacks.mozilla.org/2009/10/font-control-for-designers/), they will have a lot more flexibility. For now, you can feel confident implementing this part of CSS3, as it covers 98% of deployed browsers. Enjoy!
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/webfonts/quick/)
 

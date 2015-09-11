@@ -1,29 +1,29 @@
 ---
 title: td
+notes:
+  - 'Add description/notes, compatibility.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLTableDataCellElement](/dom/HTMLTableDataCellElement)'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'Defines a standard Cell in an HTML table.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add description/notes, compatibility.'
-summary: 'Defines a standard Cell in an HTML table.'
 uri: html/elements/td
 
 ---
-# td
-
-## Summary
+## <span>Summary</span>
 
 Defines a standard Cell in an HTML table.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableDataCellElement](/dom/HTMLTableDataCellElement)
 
-## Attributes
+## <span>Attributes</span>
 
 -   `colspan` = valid non-negative integer
     This attribute gives the number of columns respectively that the cell is to span.
@@ -32,11 +32,11 @@ Defines a standard Cell in an HTML table.
 -   `headers` = unordered set of unique space-separated tokens
     The value of this attribute must have the value of an id attribute of the th element that is targeted.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the [**table**](/html/elements/table) element with [**tr**](/html/elements/tr) and ****td**** to create a table with three rows and two columns.
 
-``` {.html}
+``` html
 <table border="1" width="80%">
   <tbody>
     <tr>
@@ -51,26 +51,24 @@ This example uses the [**table**](/html/elements/table) element with [**tr**](/h
 </table>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-td-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-td-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-TD)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -168,11 +166,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Tables
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   **td**
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Tables</span>
 
 -   [border-collapse](/css/properties/border-collapse)
 
@@ -197,4 +231,3 @@ Specification
 -   [tfoot](/html/elements/tfoot)
 
 -   [th](/html/elements/th)
-

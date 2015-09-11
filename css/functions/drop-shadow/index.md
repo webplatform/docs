@@ -1,22 +1,20 @@
 ---
-title: drop-shadow
+title: drop-shadow()
+code_samples:
+  - 'http://codepen.io/pverbeek/pen/etIyE'
+  - 'http://codepen.io/pverbeek/pen/BlFef'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: "Applies a shadow to an element's pixels, for use by\nthe filter property.  Accepts up to 3\ndistance measurements, representing x/y offset and blur\nradius, along with a color value.\n"
 tags:
   0: CSS
   1: Functions
   3: Graphics
   4: SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: "Applies a shadow to an element's pixels, for use by\nthe filter property.  Accepts up to 3\ndistance measurements, representing x/y offset and blur\nradius, along with a color value.\n"
-code_samples:
-  - 'http://codepen.io/pverbeek/pen/etIyE'
-  - 'http://codepen.io/pverbeek/pen/BlFef'
 uri: css/functions/drop-shadow
 
 ---
-# drop-shadow()
-
-## Summary
+## <span>Summary</span>
 
 Applies a shadow to an element's pixels, for use by the filter property. Accepts up to 3 distance measurements, representing x/y offset and blur radius, along with a color value.
 
@@ -35,11 +33,11 @@ The filter affects the contours of image transparencies, which allows for more v
 
 ![giraffe dropshadow.png](/assets/public/8/82/giraffe_dropshadow.png)
 
-## Examples
+## <span>Examples</span>
 
 The below example shows the difference between the CSS box-shadow property and the drop-shadow filter function. Where the box-shadow property outlines the html box and the drop-shadow outlines the element parts.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -76,7 +74,7 @@ This example shows the difference when using png images with transparency.
 
 ![filter dropshadow.png](/assets/thumb/7/78/filter_dropshadow.png/400px-filter_dropshadow.png)
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -96,8 +94,8 @@ This example shows the difference when using png images with transparency.
     </style>
   </head>
   <body>
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo" />
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo bar" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo bar" />
   </body>
   </body>
 </html>
@@ -105,11 +103,11 @@ This example shows the difference when using png images with transparency.
 
 [View live example](http://codepen.io/pverbeek/pen/BlFef)
 
-## Notes
+## <span>Notes</span>
 
 The CSS filter corresponds to this SVG filter definition, based on variable *offset-x*, *offset-y*, blur *radius*, and *color* values passed to the function:
 
-``` {.xml}
+``` xml
 <filter id="drop-shadow">
   <feGaussianBlur in="[alpha-channel-of-input]" stdDeviation="[radius]"/>
   <feOffset dx="[offset-x]" dy="[offset-y]" result="offsetblur"/>
@@ -122,20 +120,19 @@ The CSS filter corresponds to this SVG filter definition, based on variable *off
 </filter>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
+
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -219,8 +216,7 @@ Specification
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)
-

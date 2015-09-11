@@ -1,29 +1,29 @@
 ---
-title: speed best practices
+title: Best practices for building faster Web apps with HTML5
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/speed/quick/)'
+readiness: 'Ready to Use'
+summary: 'Tips to improve HTML5 web app performance.'
 tags:
   - Tutorials
   - Developer
   - Tools
   - Performance
-readiness: 'Ready to Use'
-summary: 'Tips to improve HTML5 web app performance.'
 uri: 'tutorials/speed best practices'
 
 ---
-# Best practices for building faster Web apps with HTML5
-
 **By Paul Irish**
 Originally published June 18, 2010
 
-## Summary
+## <span>Summary</span>
 
 Tips to improve HTML5 web app performance.
 
-## Introduction
+## <span>Introduction</span>
 
 Much of HTML5 aims to deliver native browser support for components and techniques that we have achieved through JavaScript libraries thus far. Using these features, when present, can end up delivering a much faster experience for your users. In this tutorial, we won't recap the excellent performance research that you've seen at Yahoo's [Exceptional Performance site](http://developer.yahoo.com/performance/rules.html) or Google's [Page Speed docs](http://code.google.com/speed/page-speed/docs/rules_intro.html) and [Let's make the web faster](http://code.google.com/speed/index.html) sites. Instead we'll focus on how putting HTML5 and CSS3 to use today can make your web apps more responsive.
 
-## Tip 1: Use web storage in place of cookies
+## <span>Tip 1: Use web storage in place of cookies</span>
 
 While cookies have been used to track unique user data for years, they have serious disadvantages. The largest flaw is that all of your cookie data is added to every HTTP request header. This can end up having a [measurable impact on response time](http://yuiblog.com/blog/2007/03/01/performance-research-part-3/), especially during XHRs. So a best practice is to [reduce cookie size](http://developer.yahoo.com/performance/rules.html#cookie_size). In HTML5 we can do better than that: use `sessionStorage` and `localStorage` in place of cookies.
 
@@ -47,7 +47,7 @@ These two web storage objects can be used, respectively, to persist user data on
        document.cookie = cookiestr;
      }
 
-## Tip 2: Use CSS Transitions instead of JavaScript animation
+## <span>Tip 2: Use CSS Transitions instead of JavaScript animation</span>
 
 CSS Transitions give you an attractive visual transition between two states. Most style properties can be transitioned, like manipulating the text-shadow, position, background, or color. You can use transitions into pseudo-selector states like `:hover` or from HTML5 forms, `:invalid` and `:valid` ([example with form validation states](http://bradshawenterprises.com/tests/formdemo.php)). But they're much more powerful and can be triggered when you add any class to an element.
 
@@ -63,13 +63,13 @@ CSS Transitions give you an attractive visual transition between two states. Mos
 
 By adding the toggling the classes of `totheleft` and `totheright` you can move the box around. Compare this amount of code with that of a JavaScript animation library. Clearly, the number of bytes sent to the browser is much less when using CSS-based animation. Additionally, with GPU level acceleration, these visual transitions will be as smooth as possible.
 
-## Tip 3: Use client-side databases instead of server roundtrips
+## <span>Tip 3: Use client-side databases instead of server roundtrips</span>
 
 [Web SQL Database](http://dev.w3.org/html5/webdatabase/) and [IndexedDB](http://www.w3.org/TR/IndexedDB/) introduce databases to the client side. Instead of the common pattern of posting data to the server via `XMLHttpRequest` or form submission, you can leverage these client-side databases. Decreasing HTTP requests is a primary target of all performance engineers, so using these as a datastore can save many trips via XHR or form posts back to the server. `localStorage` and `sessionStorage` could be used in some cases, like capturing form submission progress, and have been seen to be noticeably faster than the client-side database APIs.
 
 For example, if you have a data grid component or an inbox with hundreds of messages, storing the data locally in a database will save you HTTP roundtrips when the user wishes to search, filter, or sort. A list of friends or a text input autocomplete could be filtered on each keystroke, making for a much more responsive user experience. Certainly view the [/tutorials/webdatabase/todo/ Web SQL Database tutorial] for a comprehensive guide at putting this to work.
 
-## Tip 4: JavaScript improvements lend considerable performance advantages
+## <span>Tip 4: JavaScript improvements lend considerable performance advantages</span>
 
 Many [additional methods were added to the Array protoype](https://developer.mozilla.org/En/Core_JavaScript_1.5_Reference/Objects/Array#Methods) in JavaScript 1.6. For example:
 
@@ -101,7 +101,7 @@ Native JSON parsing (via `JSON.parse()`) replaces the json2.js file we've been u
 
 Native `String.trim` is another good example of being not only faster than the longhand JS equivalents, but also potentially more correct. None of these JavaScript additions are technically HTML5, but they fall within the umbrella of technologies that are now becoming available.
 
-## Tip 5: Use cache manifest for live sites, not just offline apps
+## <span>Tip 5: Use cache manifest for live sites, not just offline apps</span>
 
 Two years back, Wordpress used Google Gears to add a feature called [Wordpress Turbo](http://en.blog.wordpress.com/2008/07/02/gears/). It essentially cached many of the resources used in the admin panel locally, speeding up file access to them. We can replicate that behavior with HTML5's applicationCache and the [cache.manifest](http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html#manifests).
 
@@ -111,7 +111,7 @@ Consider your site's basic structure as a template. You have data that may chang
 
 Read the [application cache tutorial](http://www.html5rocks.com/tutorials/appcache/beginner/) for a guide on putting this to use.
 
-## Tip 6: Enable hardware acceleration to enhance visual experience
+## <span>Tip 6: Enable hardware acceleration to enhance visual experience</span>
 
 In leading browsers, many visual operations can leverage GPU-level acceleration, which can make highly dynamic visual operations much smoother.
 
@@ -123,7 +123,7 @@ No guarantees, though. :)
 
 With hardware acceleration supported and enabled, animated translation, rotation, scaling, and opacity will definitely be smoother with GPU compositing. They have the benefit of being handled directly on the GPU and don't require redrawing of the layer contents. However, any property that affects the layout of the page will still be *relatively* slow.
 
-## Tip 7: For CPU-heavy operations, Web Workers deliver
+## <span>Tip 7: For CPU-heavy operations, Web Workers deliver</span>
 
 Web Workers have two significant benefits: 1) They are fast. 2) While they chug on your tasks, the browser remains responsive. Grab a look at the [HTML5 Slide Deck](http://slides.html5rocks.com/#web-workers) for Workers in action.
 
@@ -135,7 +135,7 @@ Some possible situations where you could use Web Workers:
 -   Image synthesis
 -   Processing large arrays
 
-## Tip 8: HTML5 Form attributes and input types
+## <span>Tip 8: HTML5 Form attributes and input types</span>
 
 HTML5 introduces a new set of input types, upgrading our set of `text`, `password`, and `file` to include `search`, `tel`, `url`, `email`, `datetime`, `date`, `month`, `week`, `time`, `datetime-local`, `number`, `range`, and `color`. Browser support for these varies, with Opera implementing most at the moment. With feature detection you can determine if the browser has native support (and will offer a UI like a datepicker or color picker) and, if not, you can continue to use the JS widgets to accomplish these common tasks.
 
@@ -143,7 +143,7 @@ In addition to the types, a few useful features have been added to our normal in
 
 Using the native widgets here means you don't need to send the heavy JavaScript and CSS required to pull off these widgets, speeding up page load and likely improving widget responsiveness. To try out some of these input enhancements, check out the [HTML5 Slide deck](http://slides.html5rocks.com/#new-form-types).
 
-## Tip 9: Use CSS3 effects instead of requesting heavy image sprites
+## <span>Tip 9: Use CSS3 effects instead of requesting heavy image sprites</span>
 
 CSS3 delivers many new styling possibilities that supplant our use of images to represent the visual design accurately. Replacing a 2k image with 100 bytes of CSS is a huge win—not to mention you've removed yet another HTTP request. A few of the properties to familiarize yourself with are:
 
@@ -156,21 +156,14 @@ CSS3 delivers many new styling possibilities that supplant our use of images to 
 
 For example, you can create very [polished buttons via gradients](http://cubiq.org/dropbox/cssgrad.html) and [replicate many other effects](http://www.phpied.com/css-performance-ui-with-fewer-images/) sans images. Browser support for most of these is very solid, and you can use a library like [Modernizr](http://www.modernizr.com/) to catch browsers that don't support the features in order to use images in a fallback case.
 
-## Tip 10: WebSockets for faster delivery with less bandwidth than XHR
+## <span>Tip 10: WebSockets for faster delivery with less bandwidth than XHR</span>
 
 [WebSockets](http://dev.w3.org/html5/websockets/) was designed in response to the growing popularity of [Comet](http://en.wikipedia.org/wiki/Comet_(programming)). There are indeed advantages to using WebSockets now, instead of the Comet-over-XHR model.
 
 WebSockets has very light framing, so the bandwidth it consumes is often lighter than that of XHR. [Some reports](http://axod.blogspot.com/2009/12/websocket-some-numbers.html) indicate a 35% reduction in bytes sent across the wire. Additionally, in higher volume the performance difference when it comes to message delivery is more apparent; XHR has been recorded [in this test](http://bloga.jp/ws/jq/wakachi/mecab/wakachi.html) as having an aggregate time of 3500% longer than WebSockets. Lastly, [Ericsson Labs considered the performance of WebSockets](http://www.youtube.com/watch?v=Z897fkPn7Rw) and found the ping times over HTTP were 3-5 times larger than over WebSockets due to more substantial processing requirements. They concluded that the WebSocket protocol was clearly more suitable for realtime applications.
 
-## Additional Resources
+## <span>Additional Resources</span>
 
 For measurement and performance recommendations, you should certainly be using the Firefox extensions [Page Speed](http://code.google.com/speed/page-speed/) and [YSlow](http://developer.yahoo.com/yslow/). Additionally, [Speed Tracer for Chrome](http://code.google.com/webtoolkit/speedtracer/) and [DynaTrace Ajax for IE](http://ajax.dynatrace.com/pages/) provide a more detailed level of logging of analysis.
 
 The [guide to Chrome's Developer Tools](http://www.html5rocks.com/tutorials/developertools/part1/) should help orient you with the resources tab and will soon cover the [new Audits panel](http://webkit.org/blog/1091/more-web-inspector-updates/#audits_panel).
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/speed/quick/)
-

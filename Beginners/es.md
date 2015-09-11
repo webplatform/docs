@@ -1,6 +1,6 @@
 ---
-title: es
-uri: Beginners/es
+title: Desarrollo web para principiantes
+lang: es
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -58,18 +58,30 @@ todo_broken_links:
     - Beginners/zh-hans
     - Beginners/zh-hant
     - Beginners/zh-tw
+translations:
+  ja:
+    text: 日本語
+    href: /Beginners/ja
+  ko:
+    text: 한국어
+    href: /Beginners/ko
+  pt-br:
+    text: 'português do Brasil'
+    href: /Beginners/pt-br
+  tr:
+    text: Türkçe
+    href: /Beginners/tr
+  zh:
+    text: 中文
+    href: /Beginners/zh
+uri: Beginners/es
 
 ---
-# Desarrollo web para principiantes
-
-## Resumen
+## <span>Resumen</span>
 
 Este conjunto de artículos es para que los principiantes los lean con confianza, comenzando a construir sus habilidades fundamentales desde el inicio de su viaje para convertirse en un diseñador o desarrollador web.
 
-**Idioma:**
-:   **[English](/Beginners)**  • <span lang="es">**español**</span> • <span lang="ja">[日本語](/Beginners/ja)</span> • <span lang="ko">[한국어](/Beginners/ko)</span> • <span lang="pt-br">[português do Brasil](/Beginners/pt-br)</span> • <span lang="tr">[Türkçe](/Beginners/tr)</span> • <span lang="zh">[中文](/Beginners/zh)</span>
-
-## Antes de comenzar
+## <span>Antes de comenzar</span>
 
 En este curso escribirás una gran cantidad de código y lo pondrás a prueba en los navegadores web. Antes de comenzar debes tener instalado por lo menos lo siguiente:
 
@@ -78,7 +90,7 @@ En este curso escribirás una gran cantidad de código y lo pondrás a prueba en
 
 Ahora, arremángate la camisa y preparémonos a aprender. [¡Explora nuestra lista completa de artículos didácticos](/tutorials) si terminas la lista de esta página y deseas aprender aún más!
 
-## Fundamentos de la web
+## <span>Fundamentos de la web</span>
 
 -   [La Historia de la Web](/concepts/internet_and_web/the_history_of_the_web/es)
 -   [¿Cómo funciona la Internet?](/concepts/internet_and_web/how_does_the_internet_work)
@@ -86,7 +98,7 @@ Ahora, arremángate la camisa y preparémonos a aprender. [¡Explora nuestra lis
 -   [Colocando tu contenido en línea](/tutorials/getting_your_content_online)
 -   [Accesibilidad](/concepts/accessibility)
 
-## HTML — estructurando tu contenido web
+## <span>HTML — estructurando tu contenido web</span>
 
 -   [Nociones básicas de HTML](/guides/the_basics_of_html)
 -   [DOCTYPES y estilos de etiquetado](/guides/doctypes_and_markup_styles)
@@ -102,7 +114,7 @@ Ahora, arremángate la camisa y preparémonos a aprender. [¡Explora nuestra lis
 -   [Características de formularios del HTML5](/guides/html5_form_features)
 -   [Elementos semánticos menos conocidos](/guides/lesser-known_semantic_elements)
 
-## CSS — aplicando estilos a tu contenido web
+## <span>CSS — aplicando estilos a tu contenido web</span>
 
 -   [Iniciándote en las CSS](/guides/getting_started_with_css)
 -   [Usando los selectores](/tutorials/using_selectors)
@@ -113,7 +125,7 @@ Ahora, arremángate la camisa y preparémonos a aprender. [¡Explora nuestra lis
 -   [Haciendo las CSS más fáciles de leer](/tutorials/making_css_easier_to_read)
 -   [Adaptando estilos con media queries](/tutorials/media_queries)
 
-## JavaScript — añadiendo comportamiento dinámico a tus sitios web
+## <span>JavaScript — añadiendo comportamiento dinámico a tus sitios web</span>
 
 -   [Nociones básicas de Programación](/concepts/programming/programming_basics)
 -   [Tu primer vistazo a JavaScript](/tutorials/your_first_look_at_javascript)
@@ -125,7 +137,7 @@ Ahora, arremángate la camisa y preparémonos a aprender. [¡Explora nuestra lis
 -   [Manipulando las CSS con JavaScript](/tutorials/manipulating_css_with_javascript)
 -   [Eventos en JavaScript](/tutorials/events_in_javascript)
 
-## Técnicas aplicadas
+## <span>Técnicas aplicadas</span>
 
 -   [Creando Menús de Navegación](/tutorials/creating_basic_navigation_menus)
 

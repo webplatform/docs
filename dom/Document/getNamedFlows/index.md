@@ -1,43 +1,50 @@
 ---
 title: getNamedFlows
+notes:
+  - 'Needs compat table'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Document
+standardization_status: 'W3C Working Draft'
+summary: 'Gathers NamedFlow objects, each representing a set of content that flows through various layout regions.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs compat table'
-summary: 'Gathers NamedFlow objects, each representing a set of content that flows through various layout regions.'
 uri: dom/Document/getNamedFlows
 
 ---
-# getNamedFlows
-
-## Summary
+## <span>Summary</span>
 
 Gathers NamedFlow objects, each representing a set of content that flows through various layout regions.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var flows = document.getNamedFlows();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Returns a static [**NamedFlowCollection**](/apis/css-regions/NamedFlowCollection) object accessible via standard array methods. Each member is a [**NamedFlow**](/apis/css-regions/NamedFlow) instance representing a set of content that flows through various layout [regions](/css/concepts/region).
 
-## Examples
+## <span>Examples</span>
 
 Various ways to access [named flows](/css/concepts/named_flow):
 
-``` {.js}
+``` js
 var flow, flows;
 flow = document.getNamedFlows().namedItem("main"); // typically by name
 flow = document.getNamedFlows().item(0);
@@ -50,18 +57,15 @@ for (var i = 0; i < flows.length; i++) {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/2013/WD-css3-regions-20130528/#document-getnamedflows)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

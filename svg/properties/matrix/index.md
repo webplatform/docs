@@ -1,19 +1,19 @@
 ---
 title: matrix
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/matrix
 
 ---
-# matrix
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 The matrix object is *live* (that is, any changes to the [**SVGTransform**](/svg/objects/SVGTransform) object are immediately reflected in the matrix object and vice versa). If you change the matrix object directly (that is, without using the **SVGTransform** methods), the **SVGTransform** type changes to SVG\_TRANSFORM\_MATRIX.
 
@@ -27,21 +27,14 @@ The values in the returned matrix changes based on the type of matrix:
 
 -   For a SVG\_TRANSFORM\_ROTATE, SVG\_TRANSFORM\_SKEWX, or SVG\_TRANSFORM\_SKEWY matrix, the [**a**](/svg/properties/a), [**b**](/svg/properties/b), [**c**](/svg/properties/c), and [**d**](/svg/properties/d) values represent the matrix that causes the given transformation ([**e**](/svg/properties/e)=0 and [**f**](/svg/properties/f)=0).
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.4
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGTransform**](/svg/objects/SVGTransform)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

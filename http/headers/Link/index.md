@@ -1,28 +1,30 @@
 ---
 title: Link
+overview_table:
+  Direction: 'Request and Response'
+  Features: ''
+summary: "Specifies a link between resources, at the HTTP header level.\n"
 tags:
   - HTTP
   - Headers
-summary: "Specifies a link between resources, at the HTTP header level.\n"
 uri: http/headers/Link
 
 ---
-# Link
-
-## Summary
+## <span>Summary</span>
 
 Specifies a link between resources, at the HTTP header level.
 
 Carries same semantics as the \<link/\> and \<a/\> tags in HTML.
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Request and Response
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     Link           = "Link" ":" #link-value
     link-value     = "<" URI-Reference ">" *( ";" link-param )
@@ -54,18 +56,20 @@ Features
     reg-rel-type   = LOALPHA *( LOALPHA | DIGIT | "." | "-" )
     ext-rel-type   = URI
 
-## Examples
+## <span>Examples</span>
 
-    Link: <http://example.com/TheBook/chapter2>; rel="previous"; title="previous chapter"
+``` html
+Link: <http://example.com/TheBook/chapter2>; rel="previous"; title="previous chapter"
+```
 
 The Link header carries the same semantics, and many Web browsers recognize this:
 
-    Link: </style/main.css>;rel="stylesheet";type="text/css"
+``` html
+Link: </style/main.css>;rel="stylesheet";type="text/css"
+```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [RFC5988: Web Linking](http://tools.ietf.org/html/rfc5988)
 :
 

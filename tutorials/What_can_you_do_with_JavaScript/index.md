@@ -6,13 +6,13 @@ tags:
 uri: 'tutorials/What can you do with JavaScript'
 
 ---
-## Introduction
+## <span>Introduction</span>
 
 Now the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) has taken you through the core essential concepts of programming, it’s time to take a step back from the details and take a high level look at what you can actually do with JavaScript — why would you want to take the time to learn such a complicated subject, and use it on your web pages?
 
 This is an interesting time for me, as the usage of JavaScript has moved away from a fringe knowledge matter to a mainstream web development skill over the last few years. Right now you’d be hard pushed to get a job as a web developer without JavaScript skills.
 
-## How I came to like JavaScript
+## <span>How I came to like JavaScript</span>
 
 When I first encountered JavaScript computers were slow, browsers were bad at interpreting it, and it just seemed like a bad idea in general. I came from a back-end development world — keep all your functionality in Perl and you’ll be safe.
 
@@ -20,13 +20,13 @@ On the other hand the speed of the internet was very slow and the cost of hostin
 
 Skip forward to the modern day, and browsers are better at implementing JavaScript, computers are much faster and bandwidth is a lot cheaper, so a lot of the negatives are less critical now. However, cutting down on server-round trips by doing things in JavaScript still results in more responsive web applications and a better user experience.
 
-## The downside of JavaScript
+## <span>The downside of JavaScript</span>
 
 Even with all these improvements in recent times, there is still a catch: JavaScript is flaky. Not the language itself but the environment it is implemented in. You don’t know what computer is on the receiving end of your web page, you don’t know how busy the computer is with other things and you don’t know if some other JavaScript open in another tab of the browser is grinding things down to a halt. Until browsers in general begin having different processing resources for different tabs and windows (also known as threads), this will always remain an issue. Multiple threading is made available to a certain degree by a new HTML5 feature called Web workers, and this has reasonable browsers support.
 
 In addition, JavaScript is frequently turned off in browsers because of security concerns, or because JavaScript is often used to annoy people rather than improving their experience. For example, you will still find a lot of sites that try to pop up new windows against your wishes, or cover the content with advertising until you click a link to get rid of it.
 
-## What JavaScript can do for you
+## <span>What JavaScript can do for you</span>
 
 Let’s take a step back and count the merits of JavaScript:
 
@@ -39,7 +39,7 @@ Let’s take a step back and count the merits of JavaScript:
 
 That is a lot for a language that until recently was laughed at by programmers favouring “higher programming languages”. One part of the renaissance of JavaScript is that we are building more and more complex web applications these days, and high interactivity either requires Flash (or other plugins) or scripting. JavaScript is arguably the best way to go, as it is a web standard, it is supported natively across browsers (more or less — some things differ across browsers, and these differences are discussed in appropriate places in the articles that follow this one), and it is compatible with other open web standards.
 
-## Common uses of JavaScript
+## <span>Common uses of JavaScript</span>
 
 The usage of JavaScript has changed over the years we’ve been using it. At first, JavaScript interaction with the site was mostly limited to interacting with forms, giving feedback to the user and detecting when they do certain things. We used `alert()` to notify the user of something (see Figure 1), `confirm()` to ask if something is OK to do or not and either `prompt()` or a form field to get user input.
 
@@ -51,7 +51,7 @@ This lead mostly to validation scripts that stopped the user to send a form to t
 
 Another thing we used was `document.write()` to add content to the document. We also worked with popup windows and frames and lost many a nerve and pulled out hair trying to make them talk to each other. Thinking about most of these technologies should make any developer rock forward and backward and curl up into a fetal position stammering “make them go away”, so let's not dwell on these things — there are better ways to use JavaScript!
 
-### Enter DOM scripting
+### <span>Enter DOM scripting</span>
 
 When browsers started supporting and implementing the [Document Object Model (DOM)](http://www.w3.org/DOM/), which allows us to have much richer interaction with web pages, JavaScript started to get more interesting.
 
@@ -84,7 +84,7 @@ Users might resize the window, scroll the page, press certain keys or click on l
 
 Events are covered in much more detail in the [Handling events in JavaScript](http://dev.opera.com/articles/view/handling-events-with-javascript/) article later in the course.
 
-### Other modern uses of JavaScript
+### <span>Other modern uses of JavaScript</span>
 
 And this is basically what we are doing these days with JavaScript. We enhance the old, tried and true web interface — clicking links, entering information and sending off forms, etc. — to be more responsive to the end user. For example:
 
@@ -96,7 +96,7 @@ And this is basically what we are doing these days with JavaScript. We enhance t
 -   JavaScript can enhance the interfaces HTML gives us. While it is nice to have a text input box you might want to have a combo box allowing you to choose from a list of preset values or enter your own. Using JavaScript you can enhance a normal input box to do that.
 -   You can use JavaScript to animate elements on a page — for example to show and hide information, or highlight specific sections of a page — this can make for a more usable, richer user experience. There is more information on this in the [JavaScript animation article](http://dev.opera.com/articles/view/javascript-animation/) later on in the course.
 
-## Using JavaScript sensibly and responsibly
+## <span>Using JavaScript sensibly and responsibly</span>
 
 There is not much you cannot do with JavaScript — especially when you mix it with other technologies like [Canvas](http://dev.opera.com/articles/view/html-5-canvas-the-basics/) or [SVG](http://dev.opera.com/articles/svg/). However, with great power comes great responsibility, and you should always remember the following when using JavaScript.
 
@@ -105,7 +105,7 @@ There is not much you cannot do with JavaScript — especially when you mix it w
 -   Using JavaScript we often break conventions that people have got used to over the years of using the web (for example clicking links to go to other pages, or a little basket icon meaning “shopping cart”). Whilst these usage patterns might be outdated and inefficient, changing them still means making users change their ways — and this makes humans feel uneasy. We like being in control and once we understand something, it is hard for us to deal with change. Your JavaScript solutions should feel naturally better than the previous interaction, but not so different that the user cannot relate to it via their previous experience. If you manage to get a site visitor saying “ah ha — this means I don’t have to wait” or “Cool — now I don’t have to take this extra annoying step”— you have got yourself a great use for JavaScript.
 -   JavaScript should never be a security measure. If you need to prevent users from accessing data or you are likely to handle sensitive data then don’t rely on JavaScript. Any JavaScript protection can easily be reverse engineered and overcome, as all the code is available to read on the client machine. Also, users can just turn JavaScript off in their browsers.
 
-## Summary
+## <span>Summary</span>
 
 JavaScript is a wonderful technology to use on the web. It is not *that* hard to learn and it is very versatile. It plays nicely with other web technologies — such as HTML and CSS — and can even interact with plugins such as Flash. JavaScript allows us to build highly responsive user interfaces, prevent frustrating page reloads and even fix support issues for CSS. Using the right browser add-ons (such as Google Gears or Yahoo Browser Plus) you can even use JavaScript to make online systems available offline and sync automatically once the computer goes online.
 

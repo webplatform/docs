@@ -1,20 +1,22 @@
 ---
 title: setInt8
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212461(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Stores an Int8 value at the specified byte offset from the start of the view.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Stores an Int8 value at the specified byte offset from the start of the view.'
 uri: javascript/DataView/setInt8
 
 ---
-# setInt8
-
-## Summary
+## <span>Summary</span>
 
 Stores an Int8 value at the specified byte offset from the start of the view.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dataView.setInt8(byteOffset, value);
 
@@ -24,11 +26,11 @@ Stores an Int8 value at the specified byte offset from the start of the view.
 **value**
 :   The value to set.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to set the first Int8 in the DataView.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -43,13 +45,7 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 These methods raise an exception if they would write beyond the end of the view.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212461(v=vs.94).aspx)
 

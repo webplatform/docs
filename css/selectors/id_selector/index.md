@@ -11,23 +11,23 @@ An ID-typed attribute of a document language allows authors to assign an identif
 
 Selectors does not specify how a UA knows the ID-typed attribute of an element. The UA may, e.g., read a document's DTD, have the information hard-coded or ask the user.
 
-## Examples:
+## <span>Examples:</span>
 
 The following ID selector represents an h1 element whose ID-typed attribute has the value "chapter1":
 
-``` {.css}
+``` css
 h1#chapter1
 ```
 
  The following ID selector represents any element whose ID-typed attribute has the value "chapter1":
 
-``` {.css}
+``` css
 #chapter1
 ```
 
  The following selector represents any element whose ID-typed attribute has the value "z98y".
 
-``` {.css}
+``` css
 *#z98y
 ```
 

@@ -1,28 +1,30 @@
 ---
 title: byteLength
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212926(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Read-only. The length of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Read-only. The length of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.'
 uri: javascript/DataView/byteLength
 
 ---
-# byteLength
-
-## Summary
+## <span>Summary</span>
 
 Read-only. The length of this view from the start of its ArrayBuffer, in bytes, as fixed at construction time.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     var byteLength = dataView.byteLength;
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how get the length of a DataView from an XMLHttpRequest.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -36,10 +38,4 @@ var req = new XMLHttpRequest();
          }
      }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212926(v=vs.94).aspx)
 

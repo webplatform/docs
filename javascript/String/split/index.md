@@ -1,20 +1,22 @@
 ---
 title: split
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t5az126b(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Split a string into substrings using the specified separator and return the substrings as an array.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Split a string into substrings using the specified separator and return the substrings as an array.'
 uri: javascript/String/split
 
 ---
-# split
-
-## Summary
+## <span>Summary</span>
 
 Split a string into substrings using the specified separator and return the substrings as an array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     stringObj.split([separator[, limit ]])
 
@@ -27,15 +29,15 @@ Split a string into substrings using the specified separator and return the subs
 **limit**
 :   Optional. A value used to limit the number of elements returned in the array.
 
-## Return Value
+## <span>Return Value</span>
 
 The result of the **split** method is an array of strings split at each point where separator occurs in stringObj. The separator is not returned as part of any array element.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **split** method.
 
-``` {.js}
+``` js
 var s = "The quick brown fox jumps over the lazy dog.";
  var ss = s.split(" ");
  for (i in ss) {
@@ -55,17 +57,11 @@ var s = "The quick brown fox jumps over the lazy dog.";
  // dog.
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [concat Method (String)](/javascript/String/concat)
 -   [RegExp Object](/javascript/RegExp)
 -   [Regular Expression Object](/javascript/regular_expression)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t5az126b(v=vs.94).aspx)
 

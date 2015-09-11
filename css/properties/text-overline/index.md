@@ -1,46 +1,60 @@
 ---
 title: text-overline
-tags:
-  - CSS
-  - Properties
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`not defined for shorthand properties`'
+  'Applies to': 'all elements with and generated content with textual content'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The text-overline property is the shorthand for the text-overline-style, text-overline-width, text-overline-color, and text-overline-mode properties.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-overline
 
 ---
-# text-overline
-
-## Summary
+## <span>Summary</span>
 
 The text-overline property is the shorthand for the text-overline-style, text-overline-width, text-overline-color, and text-overline-mode properties.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `not defined for shorthand properties`
+
 Applies to
 :   all elements with and generated content with textual content
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-overline: <'text-overline-color'>`
 -   `text-overline: <'text-overline-mode'>`
 -   `text-overline: <'text-overline-style'>`
 
-## Values
+## <span>Values</span>
 
 \<'text-overline-style'\>
 :   Possible values:
@@ -57,20 +71,17 @@ None- Produces no line. solid - Produces a solid line. double - Produces a doubl
 
 Continuous is the default value and shows overline for both words and whitespaces. Words only shows onverline for words and not whitespaces. It can also have the values of initial or inherit.
 
-## Examples
+## <span>Examples</span>
 
 Produces a single, solid, blue overline.
 
-``` {.css}
+``` css
 p {
    text-overline: solid blue;
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
 :   Candidate Recommendation
-

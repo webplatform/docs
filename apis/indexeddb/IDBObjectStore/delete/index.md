@@ -1,50 +1,59 @@
 ---
 title: delete
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Delete%20Data&'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBObjectStore
+    href: /apis/indexeddb/IDBObjectStore
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBObjectStore
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'Removes a record from the specified Object Store.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'Ready to Use'
-standardization_status: 'W3C Proposed Recommendation'
-summary: 'Removes a record from the specified Object Store.'
-code_samples:
-  - 'http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Delete%20Data&'
 uri: apis/indexeddb/IDBObjectStore/delete
 
 ---
-# delete
-
-## Summary
+## <span>Summary</span>
 
 Removes a record from the specified Object Store.
 
-*Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)*
+Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var idbRequest = objectStore.delete(key);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### key
+### <span>key</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  Key identifying the record to be deleted
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Returns an IDBRequest Object
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 store = db.createObjectStore("store1", { autoIncrement: true });
 store.put("a"); // Will get key 1
 store.delete(1);
@@ -56,59 +65,42 @@ store.delete(IDBKeyRange.lowerBound(0));
 
 [View live example](http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Delete%20Data&)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This method can throw the following [**DOMException**](/dom/DOMException) exceptions:
 
-<dl data-table="wikitable">
+<table>
+<col width="50%" />
+<col width="50%" />
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Exception properties</strong></td>
+<td align="left"><strong>Description</strong></td>
+</tr>
+<tr class="even">
+<td align="left"><dl>
+<p></p>
 <dt>
-**Exception properties**
-
+<strong>name</strong>: ReadOnlyError
 </dt>
-<dd>
-**Description**
-
-</dd>
+</dl></td>
+<td align="left">The associated transaction is read-only.</td>
+</tr>
+<tr class="odd">
+<td align="left"><dl>
+<p></p>
 <dt>
-<dl>
-
-<dt>
-**name**: ReadOnlyError
-
+<strong>name</strong>: TransactionInactiveError
 </dt>
-</dl>
-</dt>
-<dd>
-The associated transaction is read-only.
+</dl></td>
+<td align="left">The associated transaction is not active.</td>
+</tr>
+</tbody>
+</table>
 
-</dd>
-<dt>
-<dl>
+## <span>Related specifications</span>
 
-<dt>
-**name**: TransactionInactiveError
-
-</dt>
-</dl>
-</dt>
-<dd>
-The associated transaction is not active.
-
-</dd>
-</dl>
-
-## Related specifications
-
-Specification
-:   Status
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

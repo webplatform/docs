@@ -1,50 +1,62 @@
 ---
 title: flex-wrap
-tags:
-  - CSS
-  - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Add description and compatibility.'
-summary: 'The flex-wrap property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction in which new lines are stacked.'
 code_samples:
   - 'http://gist.github.com/4740662'
   - 'http://gist.github.com/4740667'
   - 'http://gist.github.com/4740670'
+notes:
+  - 'Add description and compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`nowrap`'
+  'Applies to': 'flex containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`flexWrap`'
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The flex-wrap property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction in which new lines are stacked.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/flex-wrap
 
 ---
-# flex-wrap
-
-## Summary
+## <span>Summary</span>
 
 The flex-wrap property controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction in which new lines are stacked.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `nowrap`
+
 Applies to
 :   flex containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `flexWrap`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `flex-wrap: nowrap`
 -   `flex-wrap: wrap`
 -   `flex-wrap: wrap-reverse`
 
-## Values
+## <span>Values</span>
 
 nowrap
 :   The flex container is single-line. The cross-start direction is equivalent to either the start or before/head direction of the current [writing mode](/css/properties/writing-mode), whichever is in the cross axis, and the cross-end direction is the opposite direction of cross-start.
@@ -55,11 +67,11 @@ wrap
 wrap-reverse
 :   Same as **wrap**, except the cross-start and cross-end directions are swapped.
 
-## Examples
+## <span>Examples</span>
 
 Displaying children in a non-wrapping row
 
-``` {.css}
+``` css
 .list {
   display: flex;
   flex-wrap: nowrap;
@@ -74,7 +86,7 @@ Displaying children in a non-wrapping row
 
 Displaying children in a row wrapping to the next line
 
-``` {.css}
+``` css
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -89,7 +101,7 @@ Displaying children in a row wrapping to the next line
 
 Displaying children in a row wrapping to the previous line
 
-``` {.css}
+``` css
 .list {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -102,18 +114,16 @@ Displaying children in a row wrapping to the previous line
 
 [View live example](http://code.webplatform.org/gist/4740670)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#flex-wrap-property)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Flexbox
+#### <span>Flexbox</span>
 
 -   [align-content](/css/properties/align-content)
 
@@ -138,4 +148,3 @@ Specification
 -   **flex-wrap**
 
 -   [justify-content](/css/properties/justify-content)
-

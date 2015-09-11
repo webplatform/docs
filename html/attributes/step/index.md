@@ -1,42 +1,53 @@
 ---
 title: step
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/Input#Attributes)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+  - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
+code_samples:
+  - 'http://jsfiddle.net/mejarc/YkGZY/2/'
+  - 'http://jsfiddle.net/mejarc/YkGZY/6/'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'Specify the increment for input with types number, time, or range'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Specify the increment for input with types number, time, or range'
-code_samples:
-  - 'http://jsfiddle.net/mejarc/YkGZY/2/'
-  - 'http://jsfiddle.net/mejarc/YkGZY/6/'
 uri: html/attributes/step
 
 ---
-# step
-
-## Summary
+## <span>Summary</span>
 
 Specify the increment for input with types number, time, or range
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
+
+</td>
+</tr>
+</table>
 When `input type="range"`, `input type="date"`, or `input type="number"` is specified, the default increment from `min` to `max` is 1. Override this default with a value in `step`.
 
-## Examples
+## <span>Examples</span>
 
 A slider with a range from 1-12 that increments by 3.
 
-``` {.html}
+``` html
 <input type="range" min="1" max="24" step="3" />
 ```
 
 A form input for a number between 0 and 15 that increments by 3.
 
-``` {.html}
+``` html
 <input type="number" min="0" max="15" step="3" />​​​​​​​​​​​​​​​​​​​​
 ```
 
@@ -44,37 +55,35 @@ A form input for a number between 0 and 15 that increments by 3.
 
 Restricting time input to half-hours.
 
-``` {.html}
+``` html
 <input type="time"  step="1800" />
 ```
 
 [View live example](http://jsfiddle.net/mejarc/YkGZY/6/)
 
-## Usage
+## <span>Usage</span>
 
      * when used for input type="time", value must be in seconds
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The following example shows the use of the [**min**](/html/attributes/min), [**max**](/html/attributes/max_(HTMLInputElement)), and **step** attributes.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.3.11
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -172,28 +181,53 @@ The following example shows the use of the [**min**](/html/attributes/min), [**m
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### External resources
+-   [img](/html/elements/img)
 
--   [http://dev.opera.com/articles/view/new-form-features-in-html5/\#input-datetime](http://dev.opera.com/articles/view/new-form-features-in-html5/#input-datetime)
--   [http://www.quirksmode.org/html5/inputs.html](http://www.quirksmode.org/html5/inputs.html)
+-   [input](/html/elements/input)
 
-### Related pages (MSDN)
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>External resources</span>
+
+-   <http://dev.opera.com/articles/view/new-form-features-in-html5/#input-datetime>
+-   <http://www.quirksmode.org/html5/inputs.html>
+
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLInputElement`
 -   `input type=number`
 -   `input type=range`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/Input#Attributes)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
-This content was originally published on [DevOpera](http://dev.opera.com), Opera's Developer Network. .
-

@@ -1,20 +1,22 @@
 ---
 title: instanceof
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/zh0zb36z(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a Boolean value that indicates whether or not an object is an instance of a particular class.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a Boolean value that indicates whether or not an object is an instance of a particular class.'
 uri: javascript/operators/instanceof
 
 ---
-# instanceof
-
-## Summary
+## <span>Summary</span>
 
 Returns a Boolean value that indicates whether or not an object is an instance of a particular class.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result = object instanceof class
 
@@ -27,11 +29,11 @@ Returns a Boolean value that indicates whether or not an object is an instance o
 **class**
 :   Required. Any defined object class.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use the **instanceof** operator.
 
-``` {.js}
+``` js
 function objTest(obj){
      var i, t, s = "";
      t = new Array();
@@ -58,13 +60,7 @@ function objTest(obj){
  // obj is not an instance of Array
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **instanceof** operator returns true if object is an instance of class. It returns false if object is not an instance of class, or if object is null.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/zh0zb36z(v=vs.94).aspx)
 

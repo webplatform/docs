@@ -1,35 +1,37 @@
 ---
 title: getOwnPropertyNames
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff688126(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the names of the own properties of an object. The own properties of an object are those that are defined directly on that object, and are not inherited from the object''s prototype. The properties of an object include both fields (objects) and functions.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the names of the own properties of an object. The own properties of an object are those that are defined directly on that object, and are not inherited from the object''s prototype. The properties of an object include both fields (objects) and functions.'
 uri: javascript/Object/getOwnPropertyNames
 
 ---
-# getOwnPropertyNames
-
-## Summary
+## <span>Summary</span>
 
 Returns the names of the own properties of an object. The own properties of an object are those that are defined directly on that object, and are not inherited from the object's prototype. The properties of an object include both fields (objects) and functions.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Object.getOwnPropertyNames( object )
 
 **object**
 :   Required. The object that contains the own properties.
 
-## Return Value
+## <span>Return Value</span>
 
 An array that contains the names of the own properties of the object.
 
-## Examples
+## <span>Examples</span>
 
 The following example creates an object that has three properties and a method. It then uses the **getOwnPropertyNames** method to obtain the own properties (including the method) of the object.
 
-``` {.js}
+``` js
 function Pasta(grain, width, shape) {
      // Define properties.
      this.grain = grain;
@@ -53,7 +55,7 @@ function Pasta(grain, width, shape) {
 
 The following example displays the names of properties that start with the letter 's' in a spaghetti object constructed with the Pasta constructor.
 
-``` {.js}
+``` js
 function Pasta(grain, size, shape) {
      this.grain = grain;
      this.size = size;
@@ -77,23 +79,17 @@ function Pasta(grain, size, shape) {
  // size,shape
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **getOwnPropertyNames** method returns the names of both enumerable and non-enumerable properties and methods. To return only the names of enumerable properties and methods, you can use the [Object.keys Function](/javascript/Object/keys).
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the value supplied for the object argument is not the name of an object, a TypeError exception is thrown.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Object.keys Function](/javascript/Object/keys)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff688126(v=vs.94).aspx)
 

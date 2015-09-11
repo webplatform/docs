@@ -1,51 +1,47 @@
 ---
 title: isPrototypeOf
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/bch72c9e(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Determines whether an object exists in another object''s prototype chain.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Determines whether an object exists in another object''s prototype chain.'
 uri: javascript/Object/isPrototypeOf
 
 ---
-# isPrototypeOf
-
-## Summary
+## <span>Summary</span>
 
 Determines whether an object exists in another object's prototype chain.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     isPrototypeOf( object2 )
 
 **object2**
 :   Required. Another object whose prototype chain is to be checked.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **isPrototypeOf** method.
 
-``` {.js}
+``` js
 var re = new RegExp();
  document.write(RegExp.prototype.isPrototypeOf(re));
 
  // Output: true
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **isPrototypeOf** method returns true if object2 has object1 in its prototype chain. The prototype chain is used to share functionality between instances of the same object type. The **isPrototypeOf** method returns false when object2 is not an object or when object1 does not appear in the prototype chain of the object2.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.2.4.6 Object.prototype.isPrototypeOf (V)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.6) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/bch72c9e(v=vs.94).aspx)
 

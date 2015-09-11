@@ -1,17 +1,20 @@
 ---
 title: input
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6364130'
+notes:
+  - "Add Category, Parent, Children and Compatibility information.\nIs size=\"20,5\" valid?"
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLInputElement](/dom/HTMLInputElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The input element (&lt;input/&gt;) is a multipurpose element for representing form widgets. The type of widget depends on the type attribute.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - "Add Category, Parent, Children and Compatibility information.\nIs size=\"20,5\" valid?"
-summary: 'The input element (<input/>) is a multipurpose element for representing form widgets. The type of widget depends on the type attribute.'
-code_samples:
-  - 'http://gist.github.com/6364130'
-uri: html/elements/input
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -21,15 +24,14 @@ todo_broken_links:
     - html/attributes/formmethod
     - html/attributes/formnovalidate
     - html/attributes/value
+uri: html/elements/input
 
 ---
-# input
+## <span>Summary</span>
 
-## Summary
+The input element (&lt;input/&gt;) is a multipurpose element for representing form widgets. The type of widget depends on the type attribute.
 
-The input element (\<input/\>) is a multipurpose element for representing form widgets. The type of widget depends on the type attribute.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
@@ -67,11 +69,11 @@ Internationalization topics related to the `input` element:
 -   [Working with date formats](http://www.w3.org/International/techniques/authoring-html#localdata)
 -   [Working with personal names](http://www.w3.org/International/techniques/authoring-html#localnames)
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **input** element to create different types of input controls.
 
-``` {.html}
+``` html
 <form action="http://example.org/survey" method="post">
 <p>Name</p>
 <br/><input name="control1" type="text" value="Your Name"/>
@@ -90,11 +92,11 @@ This example uses the **input** element to create different types of input contr
 
 [View live example](http://code.webplatform.org/gist/6364130)
 
-## Usage
+## <span>Usage</span>
 
      To cater for international users see: Managing text direction in form controls
 
-## Notes
+## <span>Notes</span>
 
 For code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
 
@@ -102,26 +104,24 @@ Firefox will, unlike other browsers, by default, [persist the dynamic disabled s
 
 Safari Mobile for iOS applies a default style of [`opacity`](/css/properties/opacity)`: 0.4` to disabled textual **input** elements. Other major browsers don't currently share this particular default style.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-input-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/forms.html#the-input-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-INPUT)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -219,17 +219,46 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### External resources
+-   [img](/html/elements/img)
 
-[http://www.w3.org/TR/html-markup/input.html\#input](http://www.w3.org/TR/html-markup/input.html#input)
+-   **input**
 
-## Attribution
+-   [ins](/html/elements/ins)
 
-*This article contains content originally from external sources.*
+-   [kbd](/html/elements/kbd)
 
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+-   [legend](/html/elements/legend)
 
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>External resources</span>
+
+<http://www.w3.org/TR/html-markup/input.html#input>

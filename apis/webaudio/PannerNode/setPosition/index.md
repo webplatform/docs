@@ -1,63 +1,67 @@
 ---
 title: setPosition
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webaudio/PannerNode
+    href: /apis/webaudio/PannerNode
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Number
+    href: /apis/webaudio/PannerNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Sets the position of the audio source relative to the listener attribute. A 3D cartesian coordinate system is used. The x, y, and z parameters represent the coordinates in 3D space. The default value is (0,0,0).'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Sets the position of the audio source relative to the listener attribute. A 3D cartesian coordinate system is used. The x, y, and z parameters represent the coordinates in 3D space. The default value is (0,0,0).'
 uri: apis/webaudio/PannerNode/setPosition
 
 ---
-# setPosition
-
-## Summary
+## <span>Summary</span>
 
 Sets the position of the audio source relative to the listener attribute. A 3D cartesian coordinate system is used. The x, y, and z parameters represent the coordinates in 3D space. The default value is (0,0,0).
 
-*Method of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)*
+Method of [apis/webaudio/PannerNode](/apis/webaudio/PannerNode)[apis/webaudio/PannerNode](/apis/webaudio/PannerNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = PannerNode.setPosition(x, y, z);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-### z
+### <span>z</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Number.
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var panner = audioCtx.createPanner();
 panner.setPosition(0,0,0);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

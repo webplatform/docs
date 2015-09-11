@@ -1,47 +1,51 @@
 ---
 title: createConvolver
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webaudio/AudioContext
+    href: /apis/webaudio/AudioContext
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/webaudio/AudioContext
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Creates a ConvolverNode, commonly used to add reverb to audio.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Creates a ConvolverNode, commonly used to add reverb to audio.'
 uri: apis/webaudio/AudioContext/createConvolver
 
 ---
-# createConvolver
-
-## Summary
+## <span>Summary</span>
 
 Creates a ConvolverNode, commonly used to add reverb to audio.
 
-*Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)*
+Method of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = AudioContext.createConvolver();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 ConvolverNode
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var convolver = audioCtx.createConvolver();
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

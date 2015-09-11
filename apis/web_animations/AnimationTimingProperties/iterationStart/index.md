@@ -1,17 +1,20 @@
 ---
 title: iterationStart
+readiness: readiness-state
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: 'apis/web animations/AnimationTimingProperties'
+    href: /apis/web_animations/AnimationTimingProperties
+summary: "See the iterationStart member of the AnimationTimingReadOnly interface.\n"
 tags:
   - API
   - Object
   - Properties
-readiness: readiness-state
-summary: "See the iterationStart member of the AnimationTimingReadOnly interface.\n"
 uri: 'apis/web animations/AnimationTimingProperties/iterationStart'
 
 ---
-# iterationStart
-
-## Summary
+## <span>Summary</span>
 
 See the iterationStart member of the AnimationTimingReadOnly interface.
 
@@ -19,11 +22,11 @@ Values less than zero are clamped to zero for the purpose of timing model calcul
 
 Note that the value of iterations is effectively added to the iterationStart such that an animation node with an iterationStart of ‘0.5’ and iterations of ‘2’ would still repeat twice however it would begin and end half-way through the animation node’s iteration interval. Setting the iterationStart to a value greater than or equal to one is typically only useful in combination with an animation effect that has an iteration composite operation of ‘accumulate’.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)</span></span>
+Property of [apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)[apis/web animations/AnimationTimingProperties](/apis/web_animations/AnimationTimingProperties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.iterationStart;
 element.iterationStart = value;
 ```

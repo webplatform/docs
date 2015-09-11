@@ -3,36 +3,32 @@ title: adding and deleting elements
 uri: 'dom/tutorials/adding and deleting elements'
 
 ---
-## Adding and Deleting Elements
+## <span>Adding and Deleting Elements</span>
 
 So far we have seen how to manipulate html tags that have already been declared in the document, but now let's create some. (and then get rid of them).
 
-Method Name
-:   Description
-createElement()
-:   Used to create an element
-removeChild()
-:   Remove the selected element or child node.
-appendChild()
-:   Add an element or child node.
-replaceChild()
-:   Replace an element or child node
+|Method Name|Description|
+|:----------|:----------|
+|createElement()|Used to create an element|
+|removeChild()|Remove the selected element or child node.|
+|appendChild()|Add an element or child node.|
+|replaceChild()|Replace an element or child node|
 
 -   **createElement()**
 
 Syntax for this method is as follows:
 
-``` {.js}
+``` js
 Variable = element.createElement("element name");
 ```
 
-``` {.js}
+``` js
 var newimg = document.createElement("img");
 ```
 
  This will just create an image element. To display an image we must first set its attributes.
 
-``` {.js}
+``` js
 var newimg = document.createElement("img");
 newimg.setAttribute("src", "abc.jpg");
 ```
@@ -41,11 +37,11 @@ newimg.setAttribute("src", "abc.jpg");
 
 Syntax for this method is as follows:
 
-``` {.js}
+``` js
 element.node.removeChild(node);
 ```
 
-``` {.js}
+``` js
 document.getElementsByTagName.removeChild(newimg);
 ```
 
@@ -53,11 +49,11 @@ document.getElementsByTagName.removeChild(newimg);
 
 Syntax for this method is as follows:
 
-``` {.js}
+``` js
 element.node.appendChild(node);
 ```
 
-``` {.js}
+``` js
 document.getElementsByTagName("p")[0].appendChild(newimg);
 ```
 
@@ -65,13 +61,13 @@ document.getElementsByTagName("p")[0].appendChild(newimg);
 
 The Syntax for this method is as follows:
 
-``` {.js}
+``` js
 node.replaceChild(newnode,oldnode);
 ```
 
  All right, lets look at these methods in action.
 
-``` {.html}
+``` html
 <html>
 <head>
 
@@ -115,19 +111,19 @@ document.getElementById("container").removeChild(olddata);
 -   What is happening in the destroy() function?
 -   In the destroy() function, what happens if you replace :
 
-``` {.js}
+``` js
 var olddata=document.getElementById("container").lastChild;
 ```
 
 with
 
-``` {.js}
+``` js
 var olddata=document.getElementById("container").firstChild;
 ```
 
  Now let's look at an example for replaceChild():
 
-``` {.html}
+``` html
 <html>
 <head>
 <title>replaceChild</title>

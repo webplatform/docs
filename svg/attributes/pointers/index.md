@@ -1,27 +1,36 @@
 ---
 title: pointers
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs all content'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Needs all content'
 uri: svg/attributes/pointers
 
 ---
-# pointers
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **pointerEvents** property affects the circumstances under which the following are processed:
 
@@ -31,17 +40,17 @@ The **pointerEvents** property affects the circumstances under which the followi
 
 -   Hyperlinks (that is, the [**a**](/svg/elements/a) element)
 
-### Syntax
+### <span>Syntax</span>
 
     pointer-events: visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | none | inherit
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Interactivity](http://go.microsoft.com/fwlink/p/?linkid=204743), Section 16.6
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -56,10 +65,3 @@ The **pointerEvents** property affects the circumstances under which the followi
 -   [**SVGRectElement**](/svg/elements/rect)
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGUseElement**](/svg/elements/use)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,41 +1,48 @@
 ---
 title: items
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/DataTransfer
+    href: /dom/DataTransfer
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /dom/DataTransfer
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Returns a DataTransferItemList object containing the drag data.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Returns a DataTransferItemList object containing the drag data.'
 uri: dom/DataTransfer/items
 
 ---
-# items
-
-## Summary
+## <span>Summary</span>
 
 Returns a DataTransferItemList object containing the drag data.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DataTransfer](/dom/DataTransfer)</span></span>
+Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.items;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 A DataTransferItemList object; see the [W3C specification](http://www.w3.org/TR/html5/editing.html#datatransferitemlist) for more information.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //get DataTransfer item list
 function getItemList(e) {
   var oData = e.dataTransfer;
@@ -43,10 +50,7 @@ function getItemList(e) {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation
-

@@ -1,41 +1,48 @@
 ---
 title: cssText
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+    href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+standardization_status: 'W3C Recommendation'
+summary: 'Gets or sets the textual representation of a CSS style declaration.'
 tags:
   - API
   - Object
   - Properties
   - CSS
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Gets or sets the textual representation of a CSS style declaration.'
 uri: css/cssom/CSSStyleDeclaration/cssText
 
 ---
-# cssText
-
-## Summary
+## <span>Summary</span>
 
 Gets or sets the textual representation of a CSS style declaration.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)</span></span>
+Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var declarationText = declaration.cssText;
 declaration.cssText = declarationText;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The textual representation of the CSS style declaration.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 <style>
 body { background-color: darkblue; }
 </style>
@@ -46,14 +53,11 @@ body { background-color: darkblue; }
 </script>
 ```
 
-## Notes
+## <span>Notes</span>
 
 This property reflects the current state of the declaration and not its initial value.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Style](http://www.w3.org/TR/DOM-Level-2-Style/css.html)
 :   Recommendation
-

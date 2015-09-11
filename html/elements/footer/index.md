@@ -1,36 +1,39 @@
 ---
 title: footer
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+  - 'Facebook HTML5 Resource Center.'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The footer element (&lt;footer&gt;) represents content of the end of the nearest ancestor sectioning content or sectioning root element.'
 tags:
   - Markup
   - Elements
   - Design
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information. Delete HTML information sub section.'
-summary: 'The footer element (<footer>) represents content of the end of the nearest ancestor sectioning content or sectioning root element.'
 uri: html/elements/footer
 
 ---
-# footer
+## <span>Summary</span>
 
-## Summary
+The footer element (&lt;footer&gt;) represents content of the end of the nearest ancestor sectioning content or sectioning root element.
 
-The footer element (\<footer\>) represents content of the end of the nearest ancestor sectioning content or sectioning root element.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
 The basic motivation for introducing the footer element in HTML5 was to eliminate the overuse of [\<div\>](/html/elements/div) elements and creating a suitable element for the links and text that are usually located at the bottom of the webpages.
 
-## Examples
+## <span>Examples</span>
 
 The following example defines two footers, one at the top and one at the bottom, with the same content.
 
-``` {.html}
+``` html
 <body>
  <!-- First footer -->
  <footer><a href="../">Back to index...</a></footer>
@@ -41,26 +44,25 @@ The following example defines two footers, one at the top and one at the bottom,
 </body>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Footers don't necessarily have to appear at the end of a section, though they usually do. The **footer** element can contain entire sections to represent appendices, indexes, license agreements, and similar content. Footers might also contain **nav** elements or contact information for the author or editor inside an **address** element. When the nearest ancestor element is the **body** element, then the footer applies to the whole document. The **footer** element is not sectioning content; it does not introduce a new section. Windows Internet Explorer 9. The **footer** element is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-footer-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-footer-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Document Structure
+#### <span>Document Structure</span>
 
 -   [button](/html/elements/button)
 
@@ -78,11 +80,9 @@ Specification
 
 -   [section](/html/elements/section)
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -180,11 +180,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Related pages (MSDN)
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `article`
@@ -196,12 +232,3 @@ Specification
 -   `mark`
 -   `nav`
 -   `section`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
-Portions of this content come from the Facebook HTML5 Resource Center.
-

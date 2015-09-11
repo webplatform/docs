@@ -1,20 +1,21 @@
 ---
-title: closures
+title: Closures
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](//static.webplatformstaging.org/w/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Closures)'
+readiness: 'Ready to Use'
+summary: 'This article discusses Closures, an important JavaScript feature.'
 tags:
   - Tutorials
   - JavaScript
-readiness: 'Ready to Use'
-summary: 'This article discusses Closures, an important JavaScript feature.'
 uri: tutorials/closures
 
 ---
-# Closures
-
-## Summary
+## <span>Summary</span>
 
 This article discusses Closures, an important JavaScript feature.
 
-## Introduction
+## <span>Introduction</span>
 
 Closures are often considered an advanced feature in JavaScript, but understanding them is essential to mastering the language.
 
@@ -72,7 +73,7 @@ In this example, we have defined a function `makeAdder(x)` which takes a single 
 
 `add5` and `add10` are both closures. They share the same function body definition, but store different environments. In `add5`'s environment, `x` is 5. As far as `add10` is concerned, `x` is 10.
 
-## Practical closures
+## <span>Practical closures</span>
 
 That's the theory out of the way — but are closures actually useful? Let's consider their practical implications. A closure lets you associate some data (the environment) with a function that operates on that data. This has obvious parallels to object oriented programming, where objects allow us to associate some data (the object's properties) with one or more methods.
 
@@ -120,7 +121,7 @@ Our interactive text size buttons can change the font-size property of the body 
 
 [[View on jsFiddle](http://jsfiddle.net/vnkuZ)]
 
-## Emulating private methods with closures
+## <span>Emulating private methods with closures</span>
 
 Languages such as Java provide the ability to declare methods private, meaning that they can only be called by other methods in the same class.
 
@@ -193,7 +194,7 @@ Notice how each of the two counters maintains its independence from the other. I
 
  Using closures in this way provides a number of benefits that are normally associated with object oriented programming, in particular data hiding and encapsulation.
 
-## Creating closures in loops: A common mistake
+## <span>Creating closures in loops: A common mistake</span>
 
 Prior to the introduction of the let keyword in JavaScript 1.7, a common problem with closures occurred when they were created inside a loop. Consider the following example:
 
@@ -262,7 +263,7 @@ Prior to the introduction of the let keyword in JavaScript 1.7, a common problem
 
  This works as expected. Rather than the callbacks all sharing a single environment, the `makeHelpCallback` function creates a new environment for each one in which `help` refers to the corresponding string from the `helpText` array.
 
-## Performance considerations
+## <span>Performance considerations</span>
 
 It is unwise to unnecessarily create functions within other functions if closures are not needed for a particular task as it will negatively affect script performance both in terms of processing speed and memory consumption.
 
@@ -311,10 +312,3 @@ Or as follows:
     };
 
 In the two previous examples, the inherited prototype can be shared by all objects and the method definitions need not occur at every object creation.
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Closures)
-

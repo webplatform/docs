@@ -1,42 +1,36 @@
 ---
 title: MSStreamError
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Non-standard; deletion candidate'
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+summary: "The MSStreamError object reports file-related errors asynchronously.\n"
 tags:
   0: API
   1: Objects
   3: FileAPI
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-notes:
-  - 'Non-standard; deletion candidate'
-summary: "The MSStreamError object reports file-related errors asynchronously.\n"
 uri: apis/file/MSStreamError
 
 ---
-# MSStreamError
-
-## Summary
+## <span>Summary</span>
 
 The MSStreamError object reports file-related errors asynchronously.
 
 Obsolete per latest specification. Use [DOMError](/dom/DOMError) instead.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
 

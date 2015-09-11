@@ -1,35 +1,45 @@
 ---
 title: deltaMode
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[WheelEvent](https://developer.mozilla.org/en-US/docs/Web/API/WheelEvent) Article]'
+  - 'Microsoft Developer Network: [[deltaMode Property](http://msdn.microsoft.com/en-us/library/ie/ff974798(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/WheelEvent
+    href: /dom/WheelEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/WheelEvent
+standardization_status: 'W3C Recommendation'
+summary: 'Gets a value that indicates the unit of measurement for delta values.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Gets a value that indicates the unit of measurement for delta values.'
 uri: dom/WheelEvent/deltaMode
 
 ---
-# deltaMode
-
-## Summary
+## <span>Summary</span>
 
 Gets a value that indicates the unit of measurement for delta values.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/WheelEvent](/dom/WheelEvent)</span></span>
+Property of [dom/WheelEvent](/dom/WheelEvent)[dom/WheelEvent](/dom/WheelEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var deltaMode = event.deltaMode;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 One of the following values -
 
@@ -37,11 +47,11 @@ One of the following values -
 -   [WheelEvent](/dom/WheelEvent).DOM\_DELTA\_LINE, or 0x01 (hex), or 1. The delta coordinates are line based (in form controls, for example).
 -   [WheelEvent](/dom/WheelEvent).DOM\_DELTA\_PAGE, or 0x02 (hex), or 2. The delta coordinates are page based.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to determine the deltaMode property of the WheelEvent. Note: to feature test for deltaMode you need to use the 'deltaMode' in event as 0 (false) is a valid WheelEvent constant.
 
-``` {.js}
+``` js
 <script type="text/javascript">
 function getDeltaMode(dMode){
     switch (dMode){
@@ -70,18 +80,7 @@ function getDeltaMode(dMode){
 </script>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[WheelEvent](https://developer.mozilla.org/en-US/docs/Web/API/WheelEvent) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[deltaMode Property](http://msdn.microsoft.com/en-us/library/ie/ff974798(v=vs.85).aspx) Article]
-

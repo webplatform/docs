@@ -1,32 +1,34 @@
 ---
 title: atan
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/13bwes5d(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the arctangent of a number.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the arctangent of a number.'
 uri: javascript/Math/atan
 
 ---
-# atan
-
-## Summary
+## <span>Summary</span>
 
 Returns the arctangent of a number.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Math.atan( number )
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var v1 = Math.atan(-1.0);
 document.write(v1);
 // Output: -0.7853981633974483
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required number argument is a numeric expression for which the arctangent is needed.
 
@@ -34,9 +36,9 @@ The return value is the arctangent of the number argument, in radians.
 
 **Applies To** : [Math Object](/javascript/Math)
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Math.acos Function](/javascript/Math/acos)
 -   [Math.asin Function](/javascript/Math/asin)
@@ -45,10 +47,4 @@ The return value is the arctangent of the number argument, in radians.
 -   [Math.sin Function](/javascript/Math/sin)
 -   [Math.tan Function](/javascript/Math/tan)
 -   [Math Object](/javascript/Math)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/13bwes5d(v=vs.94).aspx)
 

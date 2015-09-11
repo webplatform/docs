@@ -1,17 +1,20 @@
 ---
 title: line
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/9e2c858dc34a018a483d'
+notes:
+  - 'Fix multiple broken links'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGLineElement](/dom/SVGLineElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The line element creates a line segment interconnecting two points.'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Fix multiple broken links'
-summary: 'The line element creates a line segment interconnecting two points.'
-code_samples:
-  - 'http://gist.github.com/9e2c858dc34a018a483d'
-uri: svg/elements/line
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -23,24 +26,23 @@ todo_broken_links:
     - svg/attributes/x2
     - svg/attributes/y1
     - svg/attributes/y2
+uri: svg/elements/line
 
 ---
-# line
-
-## Summary
+## <span>Summary</span>
 
 The line element creates a line segment interconnecting two points.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGLineElement](/dom/SVGLineElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the line element is used to draw a salmon-colored line.
 
-``` {.other}
+```
 
 
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN"     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
@@ -52,9 +54,9 @@ In the following code example, the line element is used to draw a salmon-colored
 </pre>
 [View live example](http://code.webplatform.org/gist/9e2c858dc34a018a483d)
 
-### Attributes
+### <span>Attributes</span>
 
-#### Global attributes
+#### <span>Global attributes</span>
 
 -   [**Conditional processing attributes**](/svg/attributes#Conditional_Processing_Attributes)
 -   [**Core attributes**](/svg/attributes#Core_Attributes)
@@ -66,14 +68,14 @@ In the following code example, the line element is used to draw a salmon-colored
 -   [**externalResourcesRequired**](/w/index.php?title=svg/attributes/externalResourcesRequired&action=edit&redlink=1)
 -   [**transform**](/w/index.php?title=svg/attributes/transform&action=edit&redlink=1)
 
-#### Specific attributes
+#### <span>Specific attributes</span>
 
 -   [**x1**](/w/index.php?title=svg/attributes/x1&action=edit&redlink=1)
 -   [**x2**](/w/index.php?title=svg/attributes/x2&action=edit&redlink=1)
 -   [**y1**](/w/index.php?title=svg/attributes/y1&action=edit&redlink=1)
 -   [**y2**](/w/index.php?title=svg/attributes/y2&action=edit&redlink=1)
 
-### DOM Interface
+### <span>DOM Interface</span>
 
 **The following DOM interface properties & methods should be moved to a proper SVG DOM documentation (i.e. SVGLineElement et. al, see above). However, at the present time, the WebPlatform MediaWiki doesn't allow the necessary changes.**
 
@@ -129,16 +131,7 @@ The **SVGLineElement** object has these properties:
 -   [**y1**](/svg/properties/y1_(SVGLineElement)): Gets or sets the y-coordinate for the start of a line.
 -   [**y2**](/svg/properties/y2_(SVGLineElement)): Gets or sets the y-coordinate for the end of a line.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Scalable Vector Graphics: Basic Shapes](http://www.w3.org/TR/SVG11/shapes.html#LineElement)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

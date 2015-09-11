@@ -1,50 +1,59 @@
 ---
 title: fill
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs parent, example, spec reference, standardization status'
+readiness: 'In Progress'
+summary: 'The attribute fill specifies the filling color or the behavior of an animation after it has finished.'
 tags:
   - Markup
   - Attributes
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs parent, example, spec reference, standardization status'
-summary: 'The attribute fill specifies the filling color or the behavior of an animation after it has finished.'
 uri: svg/attributes/fill
 
 ---
-# fill
-
-## Summary
+## <span>Summary</span>
 
 The attribute fill specifies the filling color or the behavior of an animation after it has finished.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-### Context: Shapes and Text
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+### <span>Context: Shapes and Text</span>
 
 Fill defines the color of a surface of text or a shape.
 
-#### Syntax
+#### <span>Syntax</span>
 
     fill: none | currentColor | funciri | inherit
 
  This attribute has a corresponding [CSS property](/css/properties/fill).
 
-#### Standards information
+#### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://www.w3.org/TR/SVG11/painting.html), Section 11.3
 
-### Context: Animation Elements
+### <span>Context: Animation Elements</span>
 
 Fill specifies whether after an animation the animated value should be preserved or removed from the element.
 
-#### Syntax
+#### <span>Syntax</span>
 
     fill: remove | freeze
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -60,10 +69,3 @@ Fill specifies whether after an animation the animated value should be preserved
 -   [**SVGPolylineElement**](/svg/elements/polyline)
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 -   [**stroke**](/svg/attributes/stroke)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

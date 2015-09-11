@@ -1,40 +1,38 @@
 ---
 title: user timing
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.'
 tags:
   0: API
   1: Listings
   3: User
   4: Timing
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.'
 uri: 'apis/user timing'
 
 ---
-# user timing
-
-## Summary
+## <span>Summary</span>
 
 This API defines an interface to help web developers measure the performance of their applications by giving them access to high precision timestamps.
 
 API Name
 :   Summary
+
 [Performance](/apis/user_timing/Performance)
 :   Exposes a high precision timestamp to developers so they can better measure the performance of their applications.
+
 [PerformanceMark](/apis/user_timing/PerformanceMark)
 :   Exposes marks created via the mark() method to the Performance Timeline.
-[PerformanceMeasure](/apis/user_timing/PerformanceMeasure)
-:   Exposes measures created via the measure() method to the Performance Timeline.
 
-## Notes
+## <span>Notes</span>
 
 Based on [[W3C User Timing Candidate Recommendation Specification](http://www.w3.org/TR/user-timing/)]
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Performance
+#### <span>Performance</span>
 
 -   [navigation timing](/apis/navigation_timing)
 
@@ -49,4 +47,3 @@ Based on [[W3C User Timing Candidate Recommendation Specification](http://www.w3
 -   [visibilitychange](/dom/Document/visibilitychange)
 
 -   [HTML5 Techniques for Optimizing Mobile Performance](/tutorials/mobile_opt_and_perf)
-

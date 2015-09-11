@@ -1,22 +1,26 @@
 ---
 title: Function
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/x844tc74(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Creates a new function.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Creates a new function.'
 uri: javascript/Function
 
 ---
-# Function
-
-## Summary
+## <span>Summary</span>
 
 Creates a new function.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     function functionName ( [ argname1  [, ...[, argnameN ] ] ] )
+
+<span class="language">JavaScript</span>
 
     functionName = new Function( [ argname1 ,  [... argnameN ,] ] body );
 
@@ -32,11 +36,11 @@ Creates a new function.
 **body**
 :   Optional. A string that contains the block of JavaScript code to be executed when the function is called.
 
-## Examples
+## <span>Examples</span>
 
 To declare a function that adds the two arguments passed to it, you can do it in one of two ways:
 
-``` {.js}
+``` js
 //Method 1
  function add(x, y)
  {
@@ -52,7 +56,7 @@ To declare a function that adds the two arguments passed to it, you can do it in
  add(2, 3);
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The function is a basic data type in JavaScript. Syntax 1 creates a function value that JavaScript converts into a Function object when necessary. JavaScript converts Function objects created by Syntax 2 into function values at the time the function is called.
 
@@ -60,25 +64,19 @@ Syntax 1 is the standard way to create new functions in JavaScript. Syntax 2 is 
 
 **Note** -- When you call a function, make sure that you always include the parentheses and any required arguments. Calling a function without parentheses causes the function itself to be returned, instead of the return value of the function.
 
-## Properties
+## <span>Properties</span>
 
 [prototype Property](/javascript/arguments/0_n_Properties)
 
-## Methods
+## <span>Methods</span>
 
 [valueOf Method](/javascript/Function/apply)
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [function Statement](/javascript/statements/function)
 -   [new Operator](/javascript/operators/new)
 -   [var Statement](/javascript/statements/var)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/x844tc74(v=vs.94).aspx)
 

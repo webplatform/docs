@@ -1,85 +1,88 @@
 ---
 title: initEvent
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Event
+    href: /dom/Event
+standardization_status: 'W3C Working Draft'
+summary: 'Initializes a new generic event that the  createEvent method created.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Initializes a new generic event that the  createEvent method created.'
 uri: dom/Event/initEvent
 
 ---
-# initEvent
-
-## Summary
+## <span>Summary</span>
 
 Initializes a new generic event that the createEvent method created.
 
-*Method of [dom/Event](/dom/Event)*
+Method of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.initEvent(eventType, canBubble, cancelable);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### eventType
+### <span>eventType</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### canBubble
+### <span>canBubble</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### cancelable
+### <span>cancelable</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 The following code example creates a custom event that bubbles but cannot be canceled.
 
-``` {.js}
+``` js
 var evt = document.createEvent("Event");
 evt.initEvent("custom", true, false);
 document.getElementById('target').dispatchEvent(evt);
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use this method before the   dispatchEvent method dispatches the event object, to set some properties of the event.
 
-## Notes
+## <span>Notes</span>
 
 After the event is dispatched, its properties cannot be changed.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`
@@ -96,10 +99,3 @@ Specification
 -   `StorageEvent`
 -   `TextEvent`
 -   `UIEvent`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

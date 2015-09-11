@@ -1,13 +1,11 @@
 ---
 title: pathLength
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
 notes:
   - stub
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/pathLength
 
 ---
-# pathLength
-

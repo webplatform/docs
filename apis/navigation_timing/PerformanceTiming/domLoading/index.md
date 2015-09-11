@@ -1,58 +1,58 @@
 ---
 title: domLoading
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/navigation_timing/PerformanceTiming
+    href: /apis/navigation_timing/PerformanceTiming
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/navigation_timing/PerformanceTiming
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the time immediately before the user agent sets the current document readiness to &quot;loading&quot;.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Navigation
   5: Timing
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns the time immediately before the user agent sets the current document readiness to "loading".'
 uri: 'apis/navigation timing/PerformanceTiming/domLoading'
 
 ---
-# domLoading
+## <span>Summary</span>
 
-## Summary
+Returns the time immediately before the user agent sets the current document readiness to &quot;loading&quot;.
 
-Returns the time immediately before the user agent sets the current document readiness to "loading".
+Property of [apis/navigation\_timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)[apis/navigation\_timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/navigation\_timing/PerformanceTiming](/apis/navigation_timing/PerformanceTiming)</span></span>
+## <span>Syntax</span>
 
-## Syntax
+**Note**: This property is read-only.
 
-***Note**: This property is read-only.*
-
-``` {.js}
+``` js
 var result = PerformanceTiming.domLoading;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var perftime = performance.timing;
 document.write("domLoading: " + perftime.domLoading + "<br />");
 ```
 
-## Notes
+## <span>Notes</span>
 
 The value of the **domLoading** property is controlled by the **document** object associated with the **window** object. The value of the **domLoading** property is updated when the **readyState** property is set to `loading`. If the document cannot be loaded, the value of the **domLoading** property is available after the **onload** event has finished executing. The value reported represents the number of milliseconds between the recorded time and midnight January 1, 1970 (UTC).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Navigation Timing Specification 2](http://www.w3.org/TR/navigation-timing-2/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

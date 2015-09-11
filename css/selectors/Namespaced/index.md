@@ -1,56 +1,58 @@
 ---
 title: Namespaced
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
+readiness: 'In Progress'
 tags:
   - CSS
   - Selectors
-readiness: 'In Progress'
-notes:
-  - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
-uri: css/selectors/Namespaced
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: css/selectors/Namespaced
 
 ---
-# Namespaced
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Examples
+## <span>Examples</span>
 
 **Type** selectors allow an optional namespace component (namespace prefix). The namespace prefix can be left empty to indicate that the selector is only to match elements with no namespace, or an asterisk can be used to indicate that the selector matches elements in any namespace (as well as elements with no namespace).
 
-    @namespace myprfx url(http://www.microsoft.com);
+``` html
+@namespace myprfx url(http://www.microsoft.com);
+```
 
 [First, declare the namespace prefix (`myprfx` in this example): View live example]
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 A *CSS qualified name* is an element or attribute name that is located within a namespace. To form a qualified name, first declare a namespace prefix by using the [**@namespace**](/css/atrules/@namespace) at-rule. Then, prepend the namespace prefix to the element or attribute name, separating the prefix and the name with a vertical bar (|). **Type**, universal, and attribute selectors can be namespaced, as shown in Examples.
 
-### Syntax
+### <span>Syntax</span>
 
 `<strong/>prfx|selector {...}`
 
-### Parameters
+### <span>Parameters</span>
 
 *prfx*
 :   A namespace prefix. The namespace prefix is declared by the [**@namespace**](/css/atrules/@namespace) at-rule.
 *selector*
 :   A local element or attribute name.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Namespaces Module](http://go.microsoft.com/fwlink/p/?linkid=199777), Section 4
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -125,10 +127,3 @@ A *CSS qualified name* is an element or attribute name that is located within a 
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   [type](/css/selectors/type)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

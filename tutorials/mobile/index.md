@@ -1,15 +1,13 @@
 ---
-title: mobile
-tags:
-  - Tutorials
+title: Mobile-specific tutorials
 readiness: 'Ready to Use'
 summary: 'This page lists available mobile-specific tutorials.'
+tags:
+  - Tutorials
 uri: tutorials/mobile
 
 ---
-# Mobile-specific tutorials
-
-## Summary
+## <span>Summary</span>
 
 This page lists available mobile-specific tutorials.
 

@@ -1,45 +1,59 @@
 ---
 title: background
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: "This background property is a shorthand property for setting the color, position, size, repeat, clip, origin, attachment, and image of the element.\n"
 code_samples:
   - 'http://gist.github.com/6114809'
   - 'http://gist.github.com/6115439'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`[[Initial value::see individual properties: * background-color * background-position * background-size * background-repeat * background-attachment * background-clip * background-origin * background-image]]`'
+  'Applies to': 'all elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'see individual properties'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`background`'
+  Percentages: 'see individual properties'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: "This background property is a shorthand property for setting the color, position, size, repeat, clip, origin, attachment, and image of the element.\n"
+tags:
+  - CSS
+  - Properties
 uri: css/properties/background
 
 ---
-# background
-
-## Summary
+## <span>Summary</span>
 
 This background property is a shorthand property for setting the color, position, size, repeat, clip, origin, attachment, and image of the element.
 
 The background- properties provide fundamental styles to an element, such as color, image, and position. CSS3 adds more properties for handling backgrounds, including properties that improve the mobile web experience. Many CSS background properties can be set, at the same time, with this background property.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `[[Initial value::see individual properties: * background-color * background-position * background-size * background-repeat * background-attachment * background-clip * background-origin * background-image]]`
+
 Applies to
 :   all elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   see individual properties
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `background`
+
 Percentages
 :   see individual properties
 
-## Syntax
+## <span>Syntax</span>
 
 -   `background: <attachment>`
 -   `background: <bg-image>`
@@ -48,7 +62,7 @@ Percentages
 -   `background: <position> [ / <bg-size> ]?`
 -   `background: <repeat-style>`
 
-## Values
+## <span>Values</span>
 
 \<bg-image\>
 :   Any of the values available to [**background-image**](/css/properties/background-image) property. The default value is `none`.
@@ -70,11 +84,11 @@ For background-clip, valid values are those available to [**background-clip**](/
 \<color\>
 :   Any of the values available to [**background-color**](/css/properties/background-color) property. The default value is `transparent`.
 
-## Examples
+## <span>Examples</span>
 
 The background property is set to the color \#f06 on the p element.
 
-``` {.css}
+``` css
 p {
     background: #f06;
 }
@@ -84,7 +98,7 @@ p {
 
 Only one background property is set on the body. Many individual properties have been specified for the p element, including a background image that only shows up on the p element.
 
-``` {.css}
+``` css
 body {
     background: #90ee90;
     font-family: 'Bitter';
@@ -101,28 +115,27 @@ p { background: url(http://www.webplatform.org/logo/wplogo_transparent_xlg.png)
 
 [View live example](http://code.webplatform.org/gist/6115439)
 
-## Usage
+## <span>Usage</span>
 
      The background property is a shorthand property that can set almost all of the background- properties. The specification has examples of how to use the shorthand property and what that usage translates to.
 
-## Notes
+## <span>Notes</span>
 
 The background of the root element becomes the background of the canvas and extends to cover the entire canvas, but only for that element alone. For an example, see [[1]](http://code.webplatform.org/gist/6115439).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3](http://www.w3.org/TR/css3-background/)
 :   Candidate Recommendation
+
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS21/colors.html#propdef-background)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -137,8 +150,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -168,7 +179,7 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Background
+#### <span>Background</span>
 
 -   [background](/css/cssom/properties/background)
 
@@ -198,16 +209,15 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Using Multiple Backgrounds](/tutorials/using_css_multiple_background)
 -   [CSS\_background\_images](/tutorials/CSS_background_images)
 
-### External resources
+### <span>External resources</span>
 
 -   [Backgrounds In CSS: Everything You Need To Know](http://coding.smashingmagazine.com/2009/09/02/backgrounds-in-css-everything-you-need-to-know/), By Michael Martin
 -   [CSS Background shorthand coming to mobile WebKit browsers](http://updates.html5rocks.com/2013/02/CSS-Background-shorthand-coming-to-mobile-WebKit-browsers), By Stephen Thomas
 -   [Simple Responsive Images With CSS Background Images](http://mobile.smashingmagazine.com/2013/07/22/simple-responsive-images-with-css-backgrounds/), By Stephen Thomas
 -   [Just One of Those Weird Things About CSS: Background on body](http://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/), By Chris Coyier
 -   [background](http://css-tricks.com/almanac/properties/b/background/), By Chris Coyier
-

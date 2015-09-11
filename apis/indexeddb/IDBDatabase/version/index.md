@@ -1,49 +1,47 @@
 ---
 title: version
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBDatabase
+    href: /apis/indexeddb/IDBDatabase
+summary: 'Returns the version of the database when this IDBDatabaseSync instance was created.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns the version of the database when this IDBDatabaseSync instance was created.'
 uri: apis/indexeddb/IDBDatabase/version
 
 ---
-# version
-
-## Summary
+## <span>Summary</span>
 
 Returns the version of the database when this IDBDatabaseSync instance was created.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)</span></span>
+Property of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.version;
 element.version = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 In pre-release versions of Internet Explorer 10, this property initially returned a **DOMString** value. Based on changes to the underlying specification, the **version** property now returns a **unsigned long long** value. Applications that rely on the original implementation must be updated accordingly.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

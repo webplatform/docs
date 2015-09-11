@@ -1,51 +1,60 @@
 ---
 title: checked
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/7282321'
+  - 'http://gist.github.com/33aa4c8bece121ba6e9e'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Indicates the initial state of a checkbox or radio button.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Indicates the initial state of a checkbox or radio button.'
-code_samples:
-  - 'http://gist.github.com/7282321'
-  - 'http://gist.github.com/33aa4c8bece121ba6e9e'
-uri: html/attributes/checked
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/properties/defaultChecked
     - dom/methods/removeAttribute
     - dom/methods/setAttribute
+uri: html/attributes/checked
 
 ---
-# checked
-
-## Summary
+## <span>Summary</span>
 
 Indicates the initial state of a checkbox or radio button.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [html/elements/input](/html/elements/input)
 
+</th>
+<td>
+[html/elements/input](/html/elements/input)
+
+</td>
+</tr>
+</table>
 The checked attribute can be used to specify what the visual or initial state of an input element is. It's often used to toggle an element through JavaScript.
 
 As a boolean attribute, valid values are "`checked`" and nothing. The attribute is never required.
 
-## Examples
+## <span>Examples</span>
 
 This example shows a set of radio buttons with one checked by default.
 
-``` {.html}
+``` html
 <form>
     <fieldset>
         <legend>Radio buttons</legend>
         <input type="radio" name="rad" id="rad1" value="Option 1">
-        <label for="rad1">Option 1</label>
+        <label for="rad1">Option 1</label><br>
         <input type="radio" name="rad" id="rad2" value="Option 2" checked>
-        <label for="rad2">Option 2</label>
+        <label for="rad2">Option 2</label><br>
         <input type="radio" name="rad" id="rad3" value="Option 3">
-        <label for="rad3">Option 3</label>
+        <label for="rad3">Option 3</label><br>
         <input type="radio" name="rad" id="rad4" value="Option 4">
         <label for="rad4">Option 4</label>
     </fieldset>
@@ -56,16 +65,16 @@ This example shows a set of radio buttons with one checked by default.
 
 This example shows a set of check boxes with multiple checked by default.
 
-``` {.html}
+``` html
 <form>
     <fieldset>
         <legend>Check boxes</legend>
         <input type="checkbox" name="check1" id="check1" value="Option 1">
-        <label for="check1">Option 1</label>
+        <label for="check1">Option 1</label><br>
         <input type="checkbox" name="check2" id="check2" value="Option 2" checked>
-        <label for="check2">Option 2</label>
+        <label for="check2">Option 2</label><br>
         <input type="checkbox" name="check3" id="check3" value="Option 3">
-        <label for="check3">Option 3</label>
+        <label for="check3">Option 3</label><br>
         <input type="checkbox" name="check4" id="check4" value="Option 4" checked>
         <label for="check4">Option 4</label>
     </fieldset>
@@ -74,9 +83,9 @@ This example shows a set of check boxes with multiple checked by default.
 
 [View live example](http://code.webplatform.org/gist/33aa4c8bece121ba6e9e)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Check boxes that are not selected do not return their values when the **form** is submitted.
 
@@ -84,22 +93,18 @@ A user can select a radio button only if the button has a [**name**](/html/attri
 
 Windows Internet Explorer 8 and later. In IE8 Standards mode, parsing operations on the **checked** content attribute always affect both the **checked** content attribute and [**defaultChecked**](/w/index.php?title=dom/properties/defaultChecked&action=edit&redlink=1) Document Object Model (DOM) attribute. For example, [**removeAttribute('checked')**](/w/index.php?title=dom/methods/removeAttribute&action=edit&redlink=1) sets both **checked** and **defaultChecked** to false. Similarly, [**setAttribute('checked', 'checked')**](/w/index.php?title=dom/methods/setAttribute&action=edit&redlink=1) sets both DOM attributes to true (as if the element was being re-parsed) For more information on IE8 mode, see Defining Document Compatibility. Internet Explorer 8 and later. In IE8 mode, the [**defaultChecked**](/w/index.php?title=dom/properties/defaultChecked&action=edit&redlink=1) DOM attribute reflects the value of the **checked** content attribute.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/forms.html#attr-input-checked)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -197,23 +202,52 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 -   [**checkbox**](/html/elements/input/type/checkbox) element
 -   [**radio**](/html/elements/input/type/radio) element
 
-### External resources
+### <span>External resources</span>
 
--   [http://www.w3.org/TR/html-markup/input.radio.html](http://www.w3.org/TR/html-markup/input.radio.html)
--   [http://www.w3.org/TR/html-markup/input.checkbox.html](http://www.w3.org/TR/html-markup/input.checkbox.html)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+-   <http://www.w3.org/TR/html-markup/input.radio.html>
+-   <http://www.w3.org/TR/html-markup/input.checkbox.html>

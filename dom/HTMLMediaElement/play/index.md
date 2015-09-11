@@ -1,5 +1,17 @@
 ---
 title: play
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'clean-up of MSDN import content to use WPD sections, compatibility'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/HTMLMediaElement
+    href: /dom/HTMLMediaElement
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Loads and starts playback of a media resource.'
 tags:
   0: API
   1: Object
@@ -7,37 +19,30 @@ tags:
   4: Audio
   5: DOM
   6: Video
-readiness: 'Almost Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'clean-up of MSDN import content to use WPD sections, compatibility'
-summary: 'Loads and starts playback of a media resource.'
 uri: dom/HTMLMediaElement/play
 
 ---
-# play
-
-## Summary
+## <span>Summary</span>
 
 Loads and starts playback of a media resource.
 
-*Method of [dom/HTMLMediaElement](/dom/HTMLMediaElement)*
+Method of [dom/HTMLMediaElement](/dom/HTMLMediaElement)[dom/HTMLMediaElement](/dom/HTMLMediaElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  object.play();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 Play method example.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -79,7 +84,7 @@ Play method example.
      </script>
 </head>
 <body>
-<video id="video1" controls >HTML5 video is not supported</video>
+<video id="video1" controls >HTML5 video is not supported</video><br />
 <input type="text" id="videoFile" size="60" placeholder="Enter video file URL here"/>
   <button onclick="playVideo(this);">Play</button>
   <button onclick="hidecontrol(this);">Hide controls</button>
@@ -87,28 +92,21 @@ Play method example.
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 To change the URL that is currently playing, assign it to [**src**](/dom/HTMLMediaElement/src). This method sets [**paused**](/dom/HTMLMediaElement/paused) to false. To change the URL using the **source** element, or if the original video was specified by the **source** element, call [**load**](/dom/HTMLMediaElement/load) before calling **play**.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.8.9.8
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `media`
 -   `audio`
 -   `audio`
 -   `video`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

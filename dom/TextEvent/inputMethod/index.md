@@ -1,34 +1,43 @@
 ---
 title: inputMethod
+attributions:
+  - 'Microsoft Developer Network: [[inputMethod Property](http://msdn.microsoft.com/en-us/library/ie/ff974806(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/TextEvent
+    href: /dom/TextEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/TextEvent
+summary: 'Gets a value that describes how text is entered.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-summary: 'Gets a value that describes how text is entered.'
 uri: dom/TextEvent/inputMethod
 
 ---
-# inputMethod
-
-## Summary
+## <span>Summary</span>
 
 Gets a value that describes how text is entered.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/TextEvent](/dom/TextEvent)</span></span>
+Property of [dom/TextEvent](/dom/TextEvent)[dom/TextEvent](/dom/TextEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var inputMethod = event.inputMethod;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 The input method used to generate the event. One of the following values -
 
@@ -43,11 +52,11 @@ The input method used to generate the event. One of the following values -
 -   TextEvent.DOM\_INPUT\_METHOD\_MULTIMODAL = 8
 -   TextEvent.DOM\_INPUT\_METHOD\_SCRIPT = 9
 
-## Examples
+## <span>Examples</span>
 
 Display a user friendly value of the inputMethod property of an event.
 
-``` {.js}
+``` js
 var description=(event.inputMethod)?getDOMInputMethod(event.inputMethod):'not supported';
 
     function getDOMInputMethod(iInputMethod){
@@ -78,24 +87,15 @@ var description=(event.inputMethod)?getDOMInputMethod(event.inputMethod):'not su
     }
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use to determine if the device that initiated the textinput event is to be 'trusted'.
 
-## Notes
+## <span>Notes</span>
 
 Not implemented in Safari or Chromium.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events (20110531)](http://www.w3.org/TR/2011/WD-DOM-Level-3-Events-20110531)
 :   Outdated Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[inputMethod Property](http://msdn.microsoft.com/en-us/library/ie/ff974806(v=vs.85).aspx) Article]
-

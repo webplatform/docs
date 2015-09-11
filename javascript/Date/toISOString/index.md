@@ -1,31 +1,33 @@
 ---
 title: toISOString
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff925953(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a date as a string value in simplified ISO 8601 Extended format.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Returns a date as a string value in simplified ISO 8601 Extended format.'
 uri: javascript/Date/toISOString
 
 ---
-# toISOString
-
-## Summary
+## <span>Summary</span>
 
 Returns a date as a string value in simplified ISO 8601 Extended format.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     toISOString()
 
-## Return Value
+## <span>Return Value</span>
 
 String in simplified [ISO 8601 Extended](http://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:mm:ss.sssZ`
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var now = new Date();
 console.log(date.toISOString());
 // ouputs: "2014-10-08T12:54:27.487Z"
@@ -33,7 +35,7 @@ console.log(date.toISOString());
 
 Manually assembling the ISO 8601 format (polyfill)
 
-``` {.js}
+``` js
 // if the environment does not support toISOString() yet
 // add it to the Date prototype
 if (!Date.prototype.toISOString) {
@@ -56,19 +58,19 @@ if (!Date.prototype.toISOString) {
 }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
-### Throws
+### <span>Throws</span>
 
 [`RangeError`](/javascript/Error) when called on a date object with an *invalid date* (e.g. `new Date("I am not a date");` - see [Time Values And Time Range](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.1))
 
-## Usage
+## <span>Usage</span>
 
      The ISO 8601 Extended format is supported by Date.parse(), it is therefore a good choice when dates need to be exchanged between APIs.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [toString Method (Date)](/javascript/Date/toString)
 -   [toDateString Method (Date)](/javascript/Date/toDateString)
@@ -79,7 +81,7 @@ if (!Date.prototype.toISOString) {
 -   [toTimeString Method (Date)](/javascript/Date/toTimeString)
 -   [toUTCString Method (Date)](/javascript/Date/toUTCString)
 
-### External resources
+### <span>External resources</span>
 
 -   [toISOString(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString)
 -   [toISOString(), by Microsoft Developer Network](http://msdn.microsoft.com/en-us/library/ie/ff925953%28v=vs.94%29.aspx)
@@ -87,15 +89,9 @@ if (!Date.prototype.toISOString) {
 -   [Time Values and Time Range, ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.1.1)
 -   [ISO 8601, Wikipedia](http://en.wikipedia.org/wiki/ISO_8601)
 
-### Specification
+### <span>Specification</span>
 
 [Date.prototype.toISOString()](http://www.ecma-international.org/ecma-262/5.1/#sec-15.9.5.43)
 
 ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff925953(v=vs.94).aspx)
 

@@ -1,20 +1,22 @@
 ---
 title: subtraction
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9ty8kw3w(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Subtracts the value of one expression from another or provides unary negation of a single expression.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Subtracts the value of one expression from another or provides unary negation of a single expression.'
 uri: javascript/operators/subtraction
 
 ---
-# subtraction
-
-## Summary
+## <span>Summary</span>
 
 Subtracts the value of one expression from another or provides unary negation of a single expression.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     result = number1 - number2 ;
 
@@ -27,16 +29,16 @@ Subtracts the value of one expression from another or provides unary negation of
 **number2**
 :   Any numeric expression.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var x = 5;
 var y = 7;
 var z;
 z = y - x; // result: z = 2
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 In Syntax 1, the **-** operator is the arithmetic subtraction operator used to find the difference between two numbers. In Syntax 2, the **-** operator is used as the unary negation operator to indicate the negative value of an expression.
 
@@ -49,15 +51,9 @@ For Syntax 2, as for all unary operators, expressions are evaluated as follows:
 
 The operator is applied to the resulting number. In Syntax 2, if the resulting number is nonzero, result is equal to the resulting number with its sign reversed. If the resulting number is zero, result is zero.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Subtraction Assignment Operator (-=)](/javascript/operators/subtraction_assignment)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/9ty8kw3w(v=vs.94).aspx)
 

@@ -1,36 +1,45 @@
 ---
 title: href
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+summary: 'Sets or retrieves a destination URL or an anchor point'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Sets or retrieves a destination URL or an anchor point'
 uri: html/attributes/href
 
 ---
-# href
-
-## Summary
+## <span>Summary</span>
 
 Sets or retrieves a destination URL or an anchor point
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-## Examples
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 Using `a` and `href` to link to the top-level page in the same domain.
 
-``` {.html}
+``` html
 <a href="/">Home</a>
 ```
 
 This example function returns the [**href**](/css/cssom/properties/href) property of the current page location.
 
-``` {.js}
+``` js
 function getHref()
 {
     return document.location.href;
@@ -39,19 +48,19 @@ function getHref()
 
 Using `a` and `href` to link to an email address.
 
-``` {.html}
+``` html
 <a href="mailto:bigcheese@webplatform.org">Email</a>
 ```
 
 Using `a` and `href` to link to a telephone number.
 
-``` {.html}
+``` html
 <a href="tel:5555551212">Call us!</a>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 When specified for an [**a**](/html/elements/a) element (also called an *anchor element*), **HREF** defines a link to another document or another location within the document containing the **a** element. By default, the text between the opening and closing tags of the anchor element is underlined and the location specified by the **HREF** attribute is loaded when the user activates the link.
 
@@ -61,23 +70,16 @@ When specified for an [**a**](/html/elements/a) element (also called an *anchor 
 
 **Note**  As of Microsoft Internet Explorer 6 Service Pack 1 (SP1), browsing a local machine from the Internet zone is not allowed. For example, if an Internet site contains a link to a local file, Internet Explorer 6 SP1 and later displays a blank page when a user clicks on the link. Previous versions of Windows Internet Explorer followed the link to the local file.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 12.2
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `a`
 -   `area`
 -   `img`
 -   `link`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

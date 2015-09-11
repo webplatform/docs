@@ -1,42 +1,56 @@
 ---
 title: background-blend-mode
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/10908092'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`<normal>#`'
+  'Applies to': 'All HTML and SVG elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'No'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: "This property describes how the element's background images should blend with each other and the element's background color. \nThe value is a list of blend modes that corresponds to each background image. Each element in the list will apply to the corresponding element of background-image. If a property doesn’t have enough comma-separated values to match the number of layers, the UA must calculate its used value by repeating the list of values until there are enough.\n"
-code_samples:
-  - 'http://gist.github.com/10908092'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/background-blend-mode
 
 ---
-# background-blend-mode
-
-## Summary
+## <span>Summary</span>
 
 This property describes how the element's background images should blend with each other and the element's background color. The value is a list of blend modes that corresponds to each background image. Each element in the list will apply to the corresponding element of background-image. If a property doesn’t have enough comma-separated values to match the number of layers, the UA must calculate its used value by repeating the list of values until there are enough.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `<normal>#`
+
 Applies to
 :   All HTML and SVG elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   No
 
-## Syntax
+## <span>Syntax</span>
 
 -   `background-blend-mode: color`
 -   `background-blend-mode: color-burn`
@@ -55,7 +69,7 @@ Percentages
 -   `background-blend-mode: screen`
 -   `background-blend-mode: soft-light`
 
-## Values
+## <span>Values</span>
 
 normal
 :   This is the default attribute which specifies no blending. The blending formula simply selects the source color.
@@ -105,11 +119,11 @@ color
 luminosity
 :   Creates a color with the luminosity of the source color and the hue and saturation of the backdrop color. This produces an inverse effect to that of the Color mode.
 
-## Examples
+## <span>Examples</span>
 
 A group of boxes that show different blend effects.
 
-``` {.html}
+``` html
 <div class='normal'>      <label>Normal</label>       </div>
 <div class='multiply'>        <label>Multiply</label>     </div>
 <div class='screen'>      <label>Screen</label>       </div>
@@ -130,7 +144,7 @@ A group of boxes that show different blend effects.
 
 [View live example](http://code.webplatform.org/gist/10908092)
 
-``` {.css}
+``` css
 body {
     margin: 2em;
 }
@@ -178,13 +192,13 @@ div:hover { opacity: 1.0; }
 .luminosity  { background-blend-mode: luminosity;  }
 ```
 
-## Usage
+## <span>Usage</span>
 
      The ‘background-blend-mode’ list must be applied in the same order as ‘background-image’. This means that the first element in the list will apply to the layer that is on top. If a property doesn't have enough comma-separated values to match the number of layers, the UA must calculate its used value by repeating the list of values until there are enough.
 
 If the ‘background’ shorthand is used, the ‘background-blend-mode’ property for that element must be reset to its initial value.
 
-## Notes
+## <span>Notes</span>
 
 **Separable blend modes** *(normal, multiply, screen, overlay, darken, lighten, color-dodge, color-burn, hard-light, soft-light, difference, exclusion)*
 
@@ -194,18 +208,16 @@ A blend mode is termed separable if each component of the result color is comple
 
 Non-separable blend modes consider all color components in combination as opposed to the seperable ones that look at each component individually.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Compositing and Blending Level 1](http://www.w3.org/TR/compositing/#blending)
 :   Candidate recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Background
+#### <span>Background</span>
 
 -   [background](/css/cssom/properties/background)
 
@@ -235,7 +247,7 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   **background-blend-mode**
 
@@ -273,7 +285,7 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Visual Effects
+#### <span>Visual Effects</span>
 
 -   [color](/css/color)
 
@@ -309,11 +321,10 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### External resources
+### <span>External resources</span>
 
 -   [Introducing CSS blending](http://www.adobe.com/devnet/html5/articles/css-blending.html) by Rik Cabanier
 -   [[1]](http://blogs.adobe.com/webplatform/2014/06/12/background-blending-now-available-in-firefox-30/) by Rik Cabanier
 -   [[2]](http://codepen.io/collection/Hcdol/) by Adobe
 -   [[3]](http://bennettfeely.com/gradients/) by Bennett Feely
 -   [[4]](http://codepen.io/collection/fEkjb/) by yoksl
-

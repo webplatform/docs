@@ -1,43 +1,53 @@
 ---
 title: focusNode
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.focusNode](https://developer.mozilla.org/en-US/docs/Web/API/Selection.focusNode) Article]'
+  - 'Microsoft Developer Network: [[focusNode Property](http://msdn.microsoft.com/en-us/library/ie/ff974690(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Selection
+    href: /dom/Selection
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/Selection
+standardization_status: 'W3C Working Draft'
+summary: 'Retrieves the element or node that contains the end of a selection.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Retrieves the element or node that contains the end of a selection.'
 uri: dom/Selection/focusNode
 
 ---
-# focusNode
-
-## Summary
+## <span>Summary</span>
 
 Retrieves the element or node that contains the end of a selection.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Selection](/dom/Selection)</span></span>
+Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var oNode = selObj.focusNode;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 Returns the node in which the selection ends.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the text content that is contained within the node (or tags) that is in focus when you click a section of text.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -67,23 +77,14 @@ The following example shows the text content that is contained within the node (
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Returns null if the selection does not exist. As a [**Selection**](/dom/Selection) object consists of a list of Range objects, focusNode returns the value of the [**endContainer**](/dom/Range/endContainer) attribute of the last Range object in the list.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.focusNode](https://developer.mozilla.org/en-US/docs/Web/API/Selection.focusNode) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[focusNode Property](http://msdn.microsoft.com/en-us/library/ie/ff974690(v=vs.85).aspx) Article]
-

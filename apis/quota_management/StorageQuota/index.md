@@ -1,55 +1,53 @@
 ---
 title: StorageQuota
+notes:
+  - "Missing supportedTypes attribute (https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html#widl-StorageQuota-supportedTypes).\nThe methods in the spec differ from the two listed here. The spec has:\nqueryInfo\n\nrequestPersistentQuota"
+readiness: 'Not Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Provides a means to query and request storage usage and quota information.'
 tags:
   0: API
   1: Objects
   3: Quota
   4: Management
-readiness: 'Not Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - "Missing supportedTypes attribute (https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html#widl-StorageQuota-supportedTypes).\nThe methods in the spec differ from the two listed here. The spec has:\nqueryInfo\n\nrequestPersistentQuota"
-summary: 'Provides a means to query and request storage usage and quota information.'
 uri: 'apis/quota management/StorageQuota'
 
 ---
-# StorageQuota
-
-## Summary
+## <span>Summary</span>
 
 Provides a means to query and request storage usage and quota information.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [queryUsageAndQuota](/apis/quota_management/queryUsageAndQuota)
 :   Queries the current usage (how much data is stored) and quota available for the requesting application.
+
 [requestQuota](/apis/quota_management/requestQuota)
 :   Requests a new quota for the requesting application.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Quota Management Specification](https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html#storagequota-interface)
 :   W3C Editor's Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Off-line Storage
+#### <span>Off-line Storage</span>
 
 -   [appcache](/apis/appcache)
 
@@ -61,8 +59,6 @@ Specification
 
 -   [quota management](/apis/quota_management)
 
--   **StorageQuota**
-
 -   [queryUsageAndQuota](/apis/quota_management/queryUsageAndQuota)
 
 -   [requestQuota](/apis/quota_management/requestQuota)
@@ -70,6 +66,3 @@ Specification
 -   [localStorage](/apis/web-storage/Storage/localStorage)
 
 -   [Introduction to using the application cache](/tutorials/appcache_beginner)
-
--   [Overview of client-side storage](/tutorials/offline_storage)
-

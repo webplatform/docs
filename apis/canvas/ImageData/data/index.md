@@ -1,73 +1,73 @@
 ---
 title: data
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/canvas/ImageData
+    href: /apis/canvas/ImageData
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /apis/canvas/ImageData
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Initialized to a Uint8ClampedArray object. The Uint8ClampedArray object must use a Canvas Pixel ArrayBuffer for its storage, and must have a zero start offset and a length equal to the length of its storage, in bytes.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Initialized to a Uint8ClampedArray object. The Uint8ClampedArray object must use a Canvas Pixel ArrayBuffer for its storage, and must have a zero start offset and a length equal to the length of its storage, in bytes.'
 uri: apis/canvas/ImageData/data
 
 ---
-# data
-
-## Summary
+## <span>Summary</span>
 
 Initialized to a Uint8ClampedArray object. The Uint8ClampedArray object must use a Canvas Pixel ArrayBuffer for its storage, and must have a zero start offset and a length equal to the length of its storage, in bytes.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/canvas/ImageData](/apis/canvas/ImageData)</span></span>
+Property of [apis/canvas/ImageData](/apis/canvas/ImageData)[apis/canvas/ImageData](/apis/canvas/ImageData)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
-var result = ImageData.data;
+``` js
+var result = ImageData.html/elements/data;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
-## Examples
+## <span>Examples</span>
 
 This example creates an ImageData object, then sets all its data pixels to yellow (at half intensity), then puts the object onto the canvas at a specified position.
 
-``` {.html}
+``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
-. . .
+<p>. . .</p>
 <script>
 var can = document.getElementById("myCanvas");
 var ctxt = can.getContext("2d");
 var imgdata = ctxt.createImageData(150, 100);
 for (var i = 0; i < imgdata.data.length; i += 4) {
 
-  imgdata.data[i+0] = 255;
-  imgdata.data[i+1] = 255;
-  imgdata.data[i+2] = 0;
-  imgdata.data[i+3] = 128;
+   imgdata.data[i+0] = 255;
+   imgdata.data[i+1] = 255;
+   imgdata.data[i+2] = 0;
+   imgdata.data[i+3] = 128;
+
+}
+ctxt.putImageData(imgdata, 10, 10);
+</script>
 ```
 
-} ctxt.putImageData(imgdata, 10, 10); \</script\>
-
-</pre>
-
-## Notes
+## <span>Notes</span>
 
 An image is organized by pixels with four values per pixel: red, green, blue, and alpha. To access a specific pixel, use the formula `((canvas.width * y)+ x) *4`, where *x* and *y* are the row and offset in the image.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

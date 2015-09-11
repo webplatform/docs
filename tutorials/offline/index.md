@@ -1,16 +1,16 @@
 ---
-title: offline
+title: Offline apps
+attributions:
+  - 'Facebook HTML5 Resource Center.'
+readiness: 'Ready to Use'
+summary: "Mobile users expect to have the ability to open an app and interact with it, no matter if they have a connection.\n"
 tags:
   - Tutorials
   - JavaScript
-readiness: 'Ready to Use'
-summary: "Mobile users expect to have the ability to open an app and interact with it, no matter if they have a connection.\n"
 uri: tutorials/offline
 
 ---
-# Offline apps
-
-## Summary
+## <span>Summary</span>
 
 Mobile users expect to have the ability to open an app and interact with it, no matter if they have a connection.
 
@@ -22,7 +22,7 @@ Gmail, for example, uses both of these features so that you can continue to read
 
 Note that this guide focuses on mobile, but the same practices can be applied to desktop, as well.
 
-## Caching the App
+## <span>Caching the App</span>
 
 [App Cache](http://www.whatwg.org/specs/web-apps/current-work/#applicationcache) allows caching of static resources like images, CSS, and Javascript. Using AppCache, these resources only need to be requested the first time the app is run, or whenever it is updated. AppCache is currently supported on Chrome 10.0+, Firefox 3.6+, IE 10.0, Opera 10.6+, Safari 4.0+ and on iPhone 2.1+, Android 2.0+. For up-to-date compatibility support, check out [CanIUse.com's support table](http://www.caniuse.com/#search=appcache).
 
@@ -37,7 +37,7 @@ Note that any page that references the cache manifest will be cached by the brow
 
     AddType text/cache-manifest .appcache
 
-### Structure of a Manifest File
+### <span>Structure of a Manifest File</span>
 
 A simple manifest file looks like this.
 
@@ -108,7 +108,7 @@ You can also use prefix match patterns if you want tighter control. For example,
     FALLBACK:
     archives/ offline.html
 
-### Updating the Cache
+### <span>Updating the Cache</span>
 
 Updating the cache is a bit more involved. Whenever your app is loaded, if your app calls the `window.applicationCache.update()` API, or if the user wiped out its cache, AppCache will attempt to download the manifest file again and check to see if there have been changes to it. If the server responds with a `304 Not Modified` header or if the downloaded manifest file is byte-for-byte equivalent to the previous one, nothing happens. On the other hand, if there are changes, AppCache will download all resources again. To avoid generating extra traffic, it will use its previous cache as if it were a local HTTP cache, and, in doing so, will conform to any HTTP directives you might have set.
 
@@ -123,7 +123,7 @@ You also need to keep in mind that only modifications to the manifest file itsel
     # Update revision number to trigger a cache refresh
     # v0.4.3-12-1337fac3
 
-### JavaScript API
+### <span>JavaScript API</span>
 
 AppCache's [JS API](http://dev.w3.org/html5/spec/offline.html#application-cache-api) is currently limited but can still prove useful for debugging purposes (see Jonathan Stark's [script](http://jonathanstark.com/blog/2009/09/27/debugging-html-5-offline-application-cache/)), force swaps on long-lived apps or to prompt users to refresh their app once it has been updated.
 
@@ -151,7 +151,7 @@ On long-lived apps, you'll have to add a timer that regularly checks the manifes
       appCache.update();
     }, 1000 * 60 * 60 * 24); // Checks for updates once a day.
 
-## Caching Dynamic Content
+## <span>Caching Dynamic Content</span>
 
 Web apps may want to locally store dynamic user generated content like email or a game's scoreboard. Currently, cookies have been used to work around this shortcoming and offer local storage, but cookies are limited by data size. Cookies are also included in every http request which not only slows down your app but also potentially exposes security risks.
 
@@ -159,7 +159,7 @@ HTML5 overcomes these restrictions by offering local data storage options, which
 
 HTML5 storage is supported by almost all browsers: Chrome 10.0+, Firefox 3.6+, IE 8.0+, Opera 10.6+, Safari 4.0+ and on iPhone 2.0+, Android 2.1+. For up-to-date compatibility support, check out [CanIUse.com's Local Storage support table](http://www.caniuse.com/#search=storage).
 
-### Detecting HTML5 Storage support
+### <span>Detecting HTML5 Storage support</span>
 
 You can use Modernizr to detect support HTML5 Storage:
 
@@ -170,7 +170,7 @@ You can use Modernizr to detect support HTML5 Storage:
       // try PersistJS or a third-party solution
     }
 
-### Storing the content
+### <span>Storing the content</span>
 
 HTML5 stores data in key/value pairs. Note that both key and values are coerced to strings, so you might need to revive your data back to its original type when accessing it.
 
@@ -207,7 +207,7 @@ A common and useful technique to store structured data is to use JSON:
     var obj = JSON.parse(localStorage.someObj);
     obj.foo.bar; // => 123
 
-### Listening to Changes to the Storage
+### <span>Listening to Changes to the Storage</span>
 
 You can register listeners for `setItem()`, `removeItem()`, `clear()` functions, which will be called when the data in the storage changes.
 
@@ -219,41 +219,30 @@ You can register listeners for `setItem()`, `removeItem()`, `clear()` functions,
 
 The `storage_listener` function will be called with a `StorageEvent` object:
 
-Property
-:   Type
-key
-:   string
-oldValue
-:   any
-newValue
-:   any
-url
-:   string
+|Property|Type|Description|
+|:-------|:---|:----------|
+|key|string|The key that was changed, added or removed.|
+|oldValue|any|The old value of the changed key or null if new key.|
+|newValue|any|The new value of the added/changed key or null if removed.|
+|url|string|The url that triggered the change.|
 
-### Potential Pitfalls
+### <span>Potential Pitfalls</span>
 
-Local Storage has a single data store for each domain: e.g. there's a single instance of `localStorage` for [http://www.example.com](http://www.example.com). The data it contains is shared across sessions and is not encrypted. While this is possibly fine on mobile, it could be an issue on shared computers. The data contained in `localStorage` is available to anyone who visits [http://www.example.com](http://www.example.com), whether or not the user is logged in or is the previously logged in user.
+Local Storage has a single data store for each domain: e.g. there's a single instance of `localStorage` for <http://www.example.com>. The data it contains is shared across sessions and is not encrypted. While this is possibly fine on mobile, it could be an issue on shared computers. The data contained in `localStorage` is available to anyone who visits <http://www.example.com>, whether or not the user is logged in or is the previously logged in user.
 
-### Data Storage Limits
+### <span>Data Storage Limits</span>
 
 Most implementations have a 5MB storage limit. More storage is often available, but the user will be prompted for it. Expect a `QUOTA_EXCEEDED_ERR` or similar error if the limit is exceeded or if the user refuses to allocate more storage for your app.
 
-### Libraries and Demos
+### <span>Libraries and Demos</span>
 
 -   [PersistJS: Cross Browser Client-Side Persistent Storage Without Cookies](http://pablotron.org/?cid=1557)
 -   [PersistJS source code](https://github.com/jeremydurham/persist-js)
 -   [Kindle Cloud Reader](https://read.amazon.com)
 -   [TrappistDB: demo of cross-browser persistant data storage](http://futtta.be/NoWebDB/)
 
-## Additional Resources {\#resources}
+## <span>Additional Resources {\#resources}</span>
 
 -   [A Beginner's Guide to Using the App Cache](http://www.html5rocks.com/en/tutorials/appcache/beginner/)
 -   [Dive into HTML5 Offline](http://diveintohtml5.org/offline.html) - caching the static resources for web apps
 -   [Dive into HTML5 Local Storage](http://diveintohtml5.org/storage.html) - persistent local storage for web apps
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Facebook HTML5 Resource Center.
-

@@ -1,10 +1,10 @@
 ---
-title: zh
+title: 入门指南
+lang: zh
+summary: '这一系列的文章的宗旨是让初学者们能够具备所需的技能、充满信心地踏上成长为一个网页设计师或者开发者的旅程。'
 tags:
   - Basic
   - Pages
-summary: '这一系列的文章的宗旨是让初学者们能够具备所需的技能、充满信心地踏上成长为一个网页设计师或者开发者的旅程。'
-uri: Beginners/zh
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -98,18 +98,30 @@ todo_broken_links:
     - 'tutorials/manipulating css with javascript/zh'
     - 'tutorials/events in javascript/zh'
     - 'tutorials/creating basic navigation menus/zh'
+translations:
+  es:
+    text: español
+    href: /Beginners/es
+  ja:
+    text: 日本語
+    href: /Beginners/ja
+  ko:
+    text: 한국어
+    href: /Beginners/ko
+  pt-br:
+    text: 'português do Brasil'
+    href: /Beginners/pt-br
+  tr:
+    text: Türkçe
+    href: /Beginners/tr
+uri: Beginners/zh
 
 ---
-# 入门指南
-
-## Summary
+## <span>Summary</span>
 
 这一系列的文章的宗旨是让初学者们能够具备所需的技能、充满信心地踏上成长为一个网页设计师或者开发者的旅程。
 
-**Language:**
-:   **[English](/Beginners)**  • <span lang="es">[español](/Beginners/es)</span> • <span lang="ja">[日本語](/Beginners/ja)</span> • <span lang="ko">[한국어](/Beginners/ko)</span> • <span lang="pt-br">[português do Brasil](/Beginners/pt-br)</span> • <span lang="tr">[Türkçe](/Beginners/tr)</span> • <span lang="zh">**中文**</span>
-
-## 准备
+## <span>准备</span>
 
 在学习过程中，你将会编写很多的代码并在网页浏览器中进行测试。在此之前，你需要先安装下面这些程序：
 
@@ -141,7 +153,7 @@ todo_broken_links:
 
 现在卷起袖子、开始学习吧。 [了解更多请查看全部文章列表！](/tutorials)
 
-## 网络基础知识
+## <span>网络基础知识</span>
 
 -   [互联网的历史](/w/index.php?title=concepts/internet_and_web/the_history_of_the_web/zh&action=edit&redlink=1)
 -   [互联网是如何工作的](/w/index.php?title=concepts/internet_and_web/how_does_the_internet_work/zh&action=edit&redlink=1)
@@ -149,7 +161,7 @@ todo_broken_links:
 -   [公布于世](/w/index.php?title=tutorials/getting_your_content_online/zh&action=edit&redlink=1)
 -   [无障碍](/w/index.php?title=concepts/accessibility/zh&action=edit&redlink=1)
 
-## HTML - 构建您的网页内容
+## <span>HTML - 构建您的网页内容</span>
 
 -   [HTML基础](/w/index.php?title=guides/the_basics_of_html/zh&action=edit&redlink=1)
 -   [DOCTYPES和标记样式](/w/index.php?title=guides/doctypes_and_markup_styles/zh&action=edit&redlink=1)
@@ -165,7 +177,7 @@ todo_broken_links:
 -   [HTML5表单功能](/w/index.php?title=guides/html5_form_features/zh&action=edit&redlink=1)
 -   [鲜为人知的语义元素](/w/index.php?title=guides/lesser-known_semantic_elements/zh&action=edit&redlink=1)
 
-## CSS - 给网页内容添加造型
+## <span>CSS - 给网页内容添加造型</span>
 
 -   [CSS入门](/w/index.php?title=guides/getting_started_with_css/zh&action=edit&redlink=1)
 -   [使用选择器](/w/index.php?title=tutorials/using_selectors/zh&action=edit&redlink=1)
@@ -176,7 +188,7 @@ todo_broken_links:
 -   [让CSS更容易阅读](/w/index.php?title=tutorials/making_css_easier_to_read/zh&action=edit&redlink=1)
 -   [为不同平台设置不同的CSS样式](/w/index.php?title=tutorials/media_queries/zh&action=edit&redlink=1)
 
-## JavaScript - 给网站添加动态行为
+## <span>JavaScript - 给网站添加动态行为</span>
 
 -   [编程基础](/w/index.php?title=concepts/programming/programming_basics/zh&action=edit&redlink=1)
 -   [JavaScript代码初接触](/w/index.php?title=tutorials/your_first_look_at_javascript/zh&action=edit&redlink=1)
@@ -188,7 +200,7 @@ todo_broken_links:
 -   [用JavaScript控制CSS](/w/index.php?title=tutorials/manipulating_css_with_javascript/zh&action=edit&redlink=1)
 -   [JavaScript事件](/w/index.php?title=tutorials/events_in_javascript/zh&action=edit&redlink=1)
 
-## 应用技术
+## <span>应用技术</span>
 
 -   [创建基本的导航栏](/w/index.php?title=tutorials/creating_basic_navigation_menus/zh&action=edit&redlink=1)
 

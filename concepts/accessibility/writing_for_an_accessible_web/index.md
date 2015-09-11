@@ -1,16 +1,14 @@
 ---
-title: writing for an accessible web
+title: Writing for an Accessible Web
+summary: "\nDo you have a cool idea for a website that you want to share with everyone? Excellent! People with disabilities tend to feel left out of websites, so try following these tips to share your website with them, too.\n"
 tags:
   - Concept
   - Pages
   - Accessibility
-summary: "\nDo you have a cool idea for a website that you want to share with everyone? Excellent! People with disabilities tend to feel left out of websites, so try following these tips to share your website with them, too.\n"
 uri: 'concepts/accessibility/writing for an accessible web'
 
 ---
-# Writing for an Accessible Web
-
-## Summary
+## <span>Summary</span>
 
 Do you have a cool idea for a website that you want to share with everyone? Excellent! People with disabilities tend to feel left out of websites, so try following these tips to share your website with them, too.
 
@@ -18,25 +16,25 @@ With several browsers available and a continuing history of incompatibility betw
 
 Fortunately, making a website accessible to people with disabilities doesn't have to be difficult. Some basic principles apply and many of these principles make a site accessible and usable for people without disabilities, too.
 
-## Who is my audience?
+## <span>Who is my audience?</span>
 
 There is a whole spectrum of people who may visit your website, regardless of what brought them there. This includes a wide range of "typical" people, people who have not been diagnosed with a disability, as well as people with [audio](/concepts/accessibility/definitions/audio_impairment), [cognitive](/concepts/accessibility/definitions/cognitive_impairment), [mobility](/concepts/accessibility/definitions/mobility_impairment), and [visual](/concepts/accessibility/definitions/visual_impairment) impairments. Many of the affordances made for people with disabilities actually underline sound web design and make a site easier to use for people without disabilities.
 
-## How do I reach my audience?
+## <span>How do I reach my audience?</span>
 
 One of the first things to remember when designing a website that is intended to be accessible is that your site should not rely on JavaScript to operate. Since JavaScript is a core technology for AJAX (it's the J in AJAX), your site should not rely on AJAX, either. Does this mean your site cannot use JavaScript or AJAX? No! It means that your site should be just as usable without JavaScript and AJAX as it is with those technologies. It may not be as flashy, but people should be able to perform the same tasks with JavaScript turned off as they could with everything enabled and working.
 
 Because the Web is predominantly a visual medium, [visual impairments](/concepts/accessibility/definitions/visual_impairment) seem to require more accommodations than any other type of impairment. While [cognitive impairments](/concepts/accessibility/definitions/cognitive_impairment) and the accommodations afforded them may also seem daunting, many of these accommodations are actually part of good usability design.
 
-## Remember
+## <span>Remember</span>
 
 Disabilities are not mutually exclusive. Someone with a cognitive impairment may also have audio, mobility, and visual impairments.
 
-## What do I need to do?
+## <span>What do I need to do?</span>
 
 Here are some guidelines (yes, there are a lot of them) to follow when building websites.
 
-### JavaScript & Plugins
+### <span>JavaScript & Plugins</span>
 
 -   Provide a `noscript` version of your website.
     -   This version should be as functional as the JavaScript-enabled version of your website. You will lose visitors (and not just people with disabilities) if your `noscript` version is entirely non-functional (*i.e.*, "You must enable JavaScript to view this page.").
@@ -50,7 +48,7 @@ Here are some guidelines (yes, there are a lot of them) to follow when building 
 -   Link to accessible sites for any plugins that are required to render your website properly.
     -   If you have anything other than plain text or simple web pages on your site, chances are that plugins are required to render your website properly. Don't make the browser search for an accessible site where the plugins are available; find the sites and provide the links yourself.
 
-### Images
+### <span>Images</span>
 
 -   Provide text alternatives for any content images (*e.g.*, the `alt` attribute of the `img` tag) that are not simply placeholders. Set the `alt` attribute to an empty string for a placeholder image.
     -   Screen readers will use the `alt` text in an attempt to describe the import of your images.
@@ -64,7 +62,7 @@ Here are some guidelines (yes, there are a lot of them) to follow when building 
 -   Avoid flickering images.
     -   People who suffer from epileptic seizures can be sensitive to flickering lights. If your website presents a flickering image, it may cause a seizure for someone prone to have them.
 
-### Navigation
+### <span>Navigation</span>
 
 -   Provide text to explain the function of any frames in your website.
     -   Screen readers will use the `alt` text for a `frame` tag to describe the function of that frame.
@@ -72,7 +70,7 @@ Here are some guidelines (yes, there are a lot of them) to follow when building 
     -   Someone using a screen reader and already familiar with the navigation of your website can use this link to skip to the content without having to listen to the list of navigation links again.
 -   *See the guidelines under "Images" regarding image maps.*
 
-### Tables
+### <span>Tables</span>
 
 -   Provide a summary and caption for any tables on your website.
     -   This will help someone using a screen reader get a quick grasp of the layout and content of your tables, much like a person without a visual disability will scan over a table to determine its layout and import before delving into the details of the content.
@@ -80,7 +78,7 @@ Here are some guidelines (yes, there are a lot of them) to follow when building 
     -   Use the `scope` attribute for `th` elements to indicate when the header applies to a column, row, column group, or row group. This helps a screen reader associate the header with the appropriate data cells.
     -   Use the `id` attribute for `th` elements and `headers` attribute for `td` elements to associated data cells with the appropriate header cells. This also helps a screen reader associate the appropriate headers with their associated data cells.
 
-### Forms
+### <span>Forms</span>
 
 -   Break forms into semantically related input groups using the `fieldset` tag.
     -   Provide a caption for the `fieldset` that will make the form easier to understand. Some screen readers will read the `fieldset` caption with each form element contained therein. Used properly, fieldsets also break form elements into semantically related groups, aiding people with or without cognitive and visual disabilities.
@@ -91,31 +89,31 @@ Here are some guidelines (yes, there are a lot of them) to follow when building 
 -   If describing the purpose of an element might take too much space for a label, use the `title` attribute for that description.
     -   Screen readers may not support or otherwise have difficulty if the value of the element is originally used to describe its purpose. The `title` text will appear as a tooltip for most browsers.
 
-### Media
+### <span>Media</span>
 
 -   Provide captioning for multimedia elements (*e.g.*, videos with audio) and transcripts for audio media (*e.g.*, podcasts).
     -   A multimedia presentation should include captioning, allowing someone with an audio impairment (or muted sound) to understand the video without hearing the audio.
     -   A transcript is sufficient for audio-only presentations.
 
-### Colors & Styles
+### <span>Colors & Styles</span>
 
 -   Color may be used to convey information, but do not rely on color alone.
     -   Color cannot translate well to some people with a visual impairment, like color blindness. Make sure that whatever information the color conveys (*e.g.*, valid or invalid) is also conveyed in another way (boldface, italics, descriptive context).
 -   Stylesheets may be used to organize information, but do not rely on stylesheets alone.
     -   Someone with a visual impairment may need to override the stylesheets of websites they visit with a personal stylesheet (*e.g.*, high-contrast) in order to read the content. Make sure your website is understandable when any stylesheets are disabled.
 
-### General
+### <span>General</span>
 
 -   If it is otherwise impossible or terribly intrusive to provide textual alternatives inline with non-textual elements, provide a text-only version of your website.
     -   It can be difficult to make a site "cool" and accessible at the same time, to be all things to all people at all times. If you decide to provide a text-only version, make sure that it is always current with the version that has dynamic or non-textual elements.
 -   If your website is time-sensitive, *e.g.*, it logs the user out after a certain period of inactivity, give the user an opportunity to request more time.
     -   While you might think 15 minutes is plenty of time for someone to fill out a form, people for whom your site is in a non-native language or people with disabilities may need more time to complete it. This helps people who do not have disabilities, too. Make sure that someone can request more time without losing the work already completed.
 
-## Section 508 and Beyond
+## <span>Section 508 and Beyond</span>
 
 If you follow the guidelines above, you will go a long ways in making your site accessible and compliant with Section 508 Standards for Electronic and Information Technology. The following guidelines are inteneded to make your site accessible by people with cognitive impairments, but can make your website easier to use by anybody.
 
-### Use of Language
+### <span>Use of Language</span>
 
 -   Use simple sentence structures.
     -   It doesn't take a cognitive impairment to have difficulty with complex sentences or complex structures.
@@ -134,7 +132,7 @@ If you follow the guidelines above, you will go a long ways in making your site 
         -   "Where did you go to high school?" can be ambiguous: the user may have attended multiple high schools. "Which high school did you graduate from?" is not as ambiguous. "What school did you go to for sixth grade?" will have a larger audience.
         -   "What is your grandmother's maiden name?" can be ambiguous: most people have two grandmothers. "What is your maternal grandmother's maiden name?" is not as ambiguous.
 
-### Memory and Decision Making
+### <span>Memory and Decision Making</span>
 
 -   Use whitespace.
     -   Maybe your paragraphs are short, but if they are all jumbled together, they still look foreboding.
@@ -155,7 +153,7 @@ If you follow the guidelines above, you will go a long ways in making your site 
     -   Try to guide the user through the selection process and make sure all the possible choices and choice combinations are valid and any invalid choices or choice combinations are unavailable.
     -   If possible, break complex decisions into simpler decisions.
 
-### Usability
+### <span>Usability</span>
 
 -   Use form elements as intended.
     -   Users become confused when familiar actions have unexpected results.
@@ -167,9 +165,8 @@ If you follow the guidelines above, you will go a long ways in making your site 
 -   Make matches and searches case-insensitive when possible and appropriate.
     -   Children, elders, people with cognitive impairments, and people with mobility impairments can have trouble with capitalization. Passwords would be one of a very few exceptions.
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
-[http://www.access-board.gov/sec508/guide/](http://www.access-board.gov/sec508/guide/)
-
+<http://www.access-board.gov/sec508/guide/>

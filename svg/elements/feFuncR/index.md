@@ -1,29 +1,31 @@
 ---
 title: feFuncR
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Merge candidate; see feFuncA.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Merge candidate; see feFuncA.'
 uri: svg/elements/feFuncR
 
 ---
-# feFuncR
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This topic describes the **feFuncR**, **feFuncG**, **feFuncB**, and **feFuncA** elements. These four elements are typically children of [**feComponentTransferelement**](/svg/elements/feComponentTransfer) and specify the transfer functions for the four channels, as follows:
 
@@ -97,15 +99,15 @@ When **type="gamma"**, **exponent** indicates the exponent of the gamma function
 
 When **type="gamma"**, **offset** indicates the offset of the gamma function. If the attribute is not specified, then the effect is as if a value of 0 were specified
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.7
 
-### Members
+### <span>Members</span>
 
-#### Properties
+#### <span>Properties</span>
 
 The **SVGFEFuncRElement** object has these properties.
 
@@ -116,11 +118,11 @@ The **SVGFEFuncRElement** object has these properties.
 -   [**tableValues**](/svg/properties/tableValues): Define the lookup table.
 -   [**type**](/svg/properties/type_(SVGComponentTransferFunctionElement)): The type of component transfer function. The function type determines the applicability of the other attributes.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -204,16 +206,9 @@ The **SVGFEFuncRElement** object has these properties.
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGFEComponentTransferElement**](/svg/elements/feComponentTransfer)
 -   [**SVGFEFuncGElement**](/svg/elements/feFuncGelement)
 -   [**SVGFEFuncBElement**](/svg/elements/feFuncB)
 -   [**SVGFEFuncAElement**](/svg/elements/feFuncA)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

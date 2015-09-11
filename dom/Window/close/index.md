@@ -1,36 +1,42 @@
 ---
 title: close
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[window.close](https://developer.mozilla.org/en-US/docs/Web/API/Window.close) Article]'
+  - 'Microsoft Developer Network: [[close Method](http://msdn.microsoft.com/en-us/library/ie/ms536367(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+summary: 'Closes the current browser window or tab, or HTML Application (HTA).'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-summary: 'Closes the current browser window or tab, or HTML Application (HTA).'
 uri: dom/Window/close
 
 ---
-# close
-
-## Summary
+## <span>Summary</span>
 
 Closes the current browser window or tab, or HTML Application (HTA).
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  window.close();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 <script type="text/javascript">
 function closeCurrentWindow()
 {
@@ -39,9 +45,9 @@ function closeCurrentWindow()
 </script>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 When a function fired by an event on any object calls the **close** method, the window.**close** method is implied.
 
@@ -66,15 +72,6 @@ How a window is closed programmatically determines whether the user is prompted 
 
 window.**close** method on an HTA closes the application without prompting the user because the HTA is trusted and follows a different security model. For more information on the security model of HTAs, please refer to [\_inet\_HTML\_Applications\_Overview\#Security\#Security The Power of Trust: HTAs and Security].
 
-#### Using the close method in a Metro style app using JavaScript
+#### <span>Using the close method in a Metro style app using JavaScript</span>
 
 Invoking the **window.close** method on a Metro style app using JavaScript closes the app without prompting the user. It is against Windows Store policy to programmatically close your app. The only time an app should programmatically close is when there is an unrecoverable error, in which case the app should throw an unhandled exception or use the **MSApp.terminateApp** method. In you use **window.close**, it appears as a crash to the user is logged as a crash in the developer’s telemetry data on the Windows Store dashboard.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[window.close](https://developer.mozilla.org/en-US/docs/Web/API/Window.close) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[close Method](http://msdn.microsoft.com/en-us/library/ie/ms536367(v=vs.85).aspx) Article]
-

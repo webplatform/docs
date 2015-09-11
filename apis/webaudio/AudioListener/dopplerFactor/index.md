@@ -1,47 +1,51 @@
 ---
 title: dopplerFactor
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioListener
+    href: /apis/webaudio/AudioListener
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/webaudio/AudioListener
+standardization_status: 'W3C Editor''s Draft'
+summary: 'A constant used to determine the amount of pitch shift to use when rendering a doppler effect. The default value is 1.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'A constant used to determine the amount of pitch shift to use when rendering a doppler effect. The default value is 1.'
 uri: apis/webaudio/AudioListener/dopplerFactor
 
 ---
-# dopplerFactor
-
-## Summary
+## <span>Summary</span>
 
 A constant used to determine the amount of pitch shift to use when rendering a doppler effect. The default value is 1.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioListener](/apis/webaudio/AudioListener)</span></span>
+Property of [apis/webaudio/AudioListener](/apis/webaudio/AudioListener)[apis/webaudio/AudioListener](/apis/webaudio/AudioListener)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = AudioListener.dopplerFactor;
 AudioListener.dopplerFactor = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var myListener = audioCtx.listener;
 myListener.dopplerFactor = 1;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

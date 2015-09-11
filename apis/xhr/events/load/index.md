@@ -1,38 +1,77 @@
 ---
 title: load
-tags:
-  - Events
-readiness: 'Almost Ready'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
 summary: "After the onload event has occurred,\nresponseText contains the complete server response.\n"
+tags:
+  - Events
 uri: apis/xhr/events/load
 
 ---
-# load
-
-## Summary
+## <span>Summary</span>
 
 After the onload event has occurred, responseText contains the complete server response.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 Setting the **onload** property.
 
-``` {.js}
+``` js
 function loadd()
 {
     alert("XDR onload");
@@ -42,31 +81,24 @@ function loadd()
 xdr.onload = loadd;
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 After the **onload** event has occurred, **responseText** contains the complete server response. To invoke this event, do one of the following:
 
 -   Event handlers are called as needed after a request is **sent**.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 This method has no parameters.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `XDomainRequest`
 -   `Reference`
 -   `onprogress`
 -   `Conceptual`
 -   `XMLHttpRequest Enhancements in Internet Explorer 8`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

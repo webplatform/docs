@@ -1,14 +1,14 @@
 ---
-title: es
+title: Conceptos de diseño web
+lang: es
+notes:
+  - 'Created stub to illustrate how to make a translation page.'
+readiness: 'Not Ready'
+summary: ...
 tags:
   - Basic
   - Pages
   - Design
-readiness: 'Not Ready'
-notes:
-  - 'Created stub to illustrate how to make a translation page.'
-summary: ...
-uri: 'concepts/web design/es'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -71,14 +71,22 @@ todo_broken_links:
     - 'concepts/web design/zh-hans'
     - 'concepts/web design/zh-hant'
     - 'concepts/web design/zh-tw'
+uri: 'concepts/web design/es'
 
 ---
-# Conceptos de diseño web
-
-## Summary
+## <span>Summary</span>
 
 ...
 
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **Idioma:**
-:   **[English](/concepts/web_design)**  • <span lang="es">**español**</span>
 
+</th>
+<td class="mbox-text">
+**[English](/concepts/web_design)**  • <span lang="es">**español**</span>
+
+</td>
+</tr>
+</table>

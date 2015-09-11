@@ -1,26 +1,26 @@
 ---
 title: translate3d()
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'might be able to merge with regular translate function, with a notation on how the 3D version differs'
+readiness: 'Ready to Use'
+summary: 'Transform function for a 3d translation which moves an element on x-axis, y-axis and z-axis by the given values.'
 tags:
   - CSS
   - Functions
-readiness: 'Ready to Use'
-notes:
-  - 'might be able to merge with regular translate function, with a notation on how the 3D version differs'
-summary: 'Transform function for a 3d translation which moves an element on x-axis, y-axis and z-axis by the given values.'
 uri: css/functions/translate3d()
 
 ---
-# translate3d()
-
-## Summary
+## <span>Summary</span>
 
 Transform function for a 3d translation which moves an element on x-axis, y-axis and z-axis by the given values.
 
-## Syntax
+## <span>Syntax</span>
 
 **translate3d ( \<translation-value-x\>, \<translation-value-y\>, \<translation-value-z\> )**
 
-## Parameters
+## <span>Parameters</span>
 
 **translation-value-x, translation-value-y, translation-value-z**
 
@@ -28,7 +28,7 @@ Transform function for a 3d translation which moves an element on x-axis, y-axis
 
 *translation-value-z is the third vector value and defines the translation in the direction of the z-axis (3rd dimension).* **Attention:** *It can only be a [length](/css/data_types/length) value, percentage is not supported.*
 
-## Examples
+## <span>Examples</span>
 
 The example shows three div elements, that are transformed individually with the translateY() function.
 
@@ -36,7 +36,7 @@ The example shows three div elements, that are transformed individually with the
 2.  The second element is moved 120 pixels down along the positive direction of the y-axis.
 3.  The last translation of element-3 is moving the div 120 pixels in the negative direction of the z-axis. Note that you have to apply a value for the [perspective](/css/properties/perspective) also, since without it the translation is not visible.
 
-``` {.css}
+``` css
 .element-1 {
     transform: translate3d(150px, 0, 0);
 }
@@ -50,11 +50,11 @@ The example shows three div elements, that are transformed individually with the
 }
 ```
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -88,15 +88,8 @@ The example shows three div elements, that are transformed individually with the
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### External resources
+### <span>External resources</span>
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.2
 -   [Mathematical Description of Transform Functions](http://go.microsoft.com/fwlink/p/?LinkId=256246)
 -   [Hands On: 3-D Transforms](http://go.microsoft.com/fwlink/?LinkId=227893)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

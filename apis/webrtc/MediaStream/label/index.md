@@ -1,37 +1,44 @@
 ---
 title: label
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/MediaStream
+    href: /apis/webrtc/MediaStream
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/webrtc/MediaStream
+standardization_status: 'W3C Working Draft'
+summary: 'A globally unique identifier (GUID) of 36 characters that describes the media stream.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'A globally unique identifier (GUID) of 36 characters that describes the media stream.'
 uri: apis/webrtc/MediaStream/label
 
 ---
-# label
-
-## Summary
+## <span>Summary</span>
 
 A globally unique identifier (GUID) of 36 characters that describes the media stream.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)</span></span>
+Property of [apis/webrtc/MediaStream](/apis/webrtc/MediaStream)[apis/webrtc/MediaStream](/apis/webrtc/MediaStream)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = stream.label;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 

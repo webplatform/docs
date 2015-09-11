@@ -1,20 +1,22 @@
 ---
 title: with
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/b294afx9(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Establishes the default object for a statement. Disallowed in strict mode.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Establishes the default object for a statement. Disallowed in strict mode.'
 uri: javascript/statements/with
 
 ---
-# with
-
-## Summary
+## <span>Summary</span>
 
 Establishes the default object for a statement. Disallowed in strict mode.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     with ( object ) {
          statements
@@ -26,13 +28,13 @@ Establishes the default object for a statement. Disallowed in strict mode.
 **statements**
 :   One or more statements for which object is the default object.
 
-## Examples
+## <span>Examples</span>
 
 The with statement is commonly used to shorten the amount of code that you have to write in certain situations. In this example, notice the repeated use of Math.
 
 When you use the **with** statement, your code may become shorter and easier to read (yet with uncommon semantics).
 
-``` {.js}
+``` js
 // Not using 'with'.
 var x = Math.cos(3 * Math.PI) + Math.sin(Math.LN10);
 var y = Math.tan(14 * Math.E);
@@ -47,7 +49,7 @@ with (Math) {
 
 The following strict mode code will cause a syntax error to be thrown, because **with** statements are disallowed in strict mode.
 
-``` {.js}
+``` js
 "use strict";
 with (Math) {
     console.log(cos(3));
@@ -58,15 +60,9 @@ This statement changes the default context from a global or a function scope, to
 
  This statement is disallowed in [strict mode](/javascript/directives/use_strict) and so will generate a syntax error before even running the script.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [this Statement](/javascript/statements/this)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/b294afx9(v=vs.94).aspx)
 

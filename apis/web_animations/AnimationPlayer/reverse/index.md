@@ -1,42 +1,45 @@
 ---
 title: reverse
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: 'apis/web animations/AnimationPlayer'
+    href: /apis/web_animations/AnimationPlayer
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Inverts the playback rate of this player and seeks to the start of the source content if if has finished playing in the reversed direction using the reverse a player procedure for this object.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Web
   5: Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Inverts the playback rate of this player and seeks to the start of the source content if if has finished playing in the reversed direction using the reverse a player procedure for this object.'
 uri: 'apis/web animations/AnimationPlayer/reverse'
 
 ---
-# reverse
-
-## Summary
+## <span>Summary</span>
 
 Inverts the playback rate of this player and seeks to the start of the source content if if has finished playing in the reversed direction using the reverse a player procedure for this object.
 
-*Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)*
+Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  element.reverse();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -57,8 +60,6 @@ No return value
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -86,7 +87,4 @@ No return value
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

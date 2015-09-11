@@ -1,44 +1,54 @@
 ---
 title: setNamedItem
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap) Article]'
+  - 'Microsoft Developer Network: [[setNamedItem Method](http://msdn.microsoft.com/en-us/library/ie/ms536751(v=vs.85).aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setNamedItemEx1.htm'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/NamedNodeMap
+    href: /dom/NamedNodeMap
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/NamedNodeMap
+standardization_status: 'W3C Recommendation'
+summary: 'Adds an attribute to an element by using an attributes collection.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Adds an attribute to an element by using an attributes collection.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setNamedItemEx1.htm'
 uri: dom/NamedNodeMap/setNamedItem
 
 ---
-# setNamedItem
-
-## Summary
+## <span>Summary</span>
 
 Adds an attribute to an element by using an attributes collection.
 
-*Method of [dom/NamedNodeMap](/dom/NamedNodeMap)*
+Method of [dom/NamedNodeMap](/dom/NamedNodeMap)[dom/NamedNodeMap](/dom/NamedNodeMap)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.setNamedItem(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### ppNode
+### <span>ppNode</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
 **attribute**
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **IHTMLDOMAttribute**
 
@@ -46,46 +56,39 @@ Returns an object of type DOM Node.
 
 attribute
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to add an attribute to an element using the **setNamedItem** method.
 
-    <html>
-    <head>
-    <title>setNamedItem example</title>
-    <script>
-    function fnSetNamedItem(){
-    var nnm = myDIV.attributes;
-    var namedItem = document.createAttribute("title");
-    namedItem.value = "This is a ToolTip";
-    nnm.setNamedItem(namedItem);
-    }
-    </script>
-    </head>
-    <body onload="fnSetNamedItem();">
-    <div id="myDIV">This DIV now has a ToolTip.</div>
-    </body>
-    </html>
+``` html
+<html>
+<head>
+<title>setNamedItem example</title>
+<script>
+function fnSetNamedItem(){
+var nnm = myDIV.attributes;
+var namedItem = document.createAttribute("title");
+namedItem.value = "This is a ToolTip";
+nnm.setNamedItem(namedItem);
+}
+</script>
+</head>
+<body onload="fnSetNamedItem();">
+<div id="myDIV">This DIV now has a ToolTip.</div>
+</body>
+</html>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/setNamedItemEx1.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 An [**attribute**](/dom/HTMLElement) that is set with this method does not have to apply to the element. If an **attribute** with the same name is already present, it is replaced by the new **attribute**. **setNamedItem** was introduced in Microsoft Internet ExplorerÂ 6.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[setNamedItem Method](http://msdn.microsoft.com/en-us/library/ie/ms536751(v=vs.85).aspx) Article]
-

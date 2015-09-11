@@ -1,23 +1,23 @@
 ---
-title: workers basics
+title: Introduction to web workers
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/workers/basics/)'
+readiness: 'Ready to Use'
+summary: 'Web Workers are a means of spawning background scripts in your application, giving thread-like message passing for handling computationally intensive tasks.'
 tags:
   - Tutorials
   - Webworkers
-readiness: 'Ready to Use'
-summary: 'Web Workers are a means of spawning background scripts in your application, giving thread-like message passing for handling computationally intensive tasks.'
 uri: 'tutorials/workers basics'
 
 ---
-# Introduction to web workers
-
 **By [Eric Bidelman](http://www.html5rocks.com/profiles/#ericbidelman)**
 Originally published July 26, 2010, updated Aug. 21, 2012
 
-## Summary
+## <span>Summary</span>
 
 Web Workers are a means of spawning background scripts in your application, giving thread-like message passing for handling computationally intensive tasks.
 
-## The Problem: JavaScript Concurrency
+## <span>The Problem: JavaScript Concurrency</span>
 
 There are a number of bottlenecks preventing interesting applications from being ported (say, from server-heavy implementations) to client-side JavaScript. Some of these include browser compatibility, static typing, accessibility, and performance. Fortunately, the latter is quickly becoming a thing of the past as browser vendors rapidly improve the speed of their JavaScript engines.
 
@@ -25,7 +25,7 @@ One thing that's remained a hindrance for JavaScript is actually the language it
 
 Developers mimic concurrency by using techniques like `setTimeout()`, `setInterval()`, `XMLHttpRequest`, and event handlers. Yes, all of these features run asynchronously, but non-blocking doesn't necessarily mean concurrency. Asynchronous events are processed after the current executing script has yielded. The good news is that HTML5 gives us something better than these hacks!
 
-## Introducing Web Workers: Bring Threading to JavaScript
+## <span>Introducing Web Workers: Bring Threading to JavaScript</span>
 
 The [Web Workers](http://www.whatwg.org/specs/web-workers/current-work/) specification defines an API for spawning background scripts in your web application. Web Workers allow you to do things like fire up long-running scripts to handle computationally intensive tasks, but without blocking the UI or other scripts to handle user interactions. They're going to help put and end to that nasty "unresponsive script" dialog that we've all come to love:
 
@@ -33,11 +33,11 @@ The [Web Workers](http://www.whatwg.org/specs/web-workers/current-work/) specifi
 
 Web Workers utilize thread-like message passing to achieve parallelism. They're perfect for keeping your UI refresh, performant, and responsive for users.
 
-### Types of Web Workers
+### <span>Types of Web Workers</span>
 
 It's worth noting that the [specification](http://www.whatwg.org/specs/web-workers/current-work/) discusses two kinds of Web Workers, [Dedicated Workers](http://www.whatwg.org/specs/web-workers/current-work/#dedicated-workers-and-the-worker-interface) and [Shared Workers](http://www.whatwg.org/specs/web-workers/current-work/#sharedworker). This article will only cover Dedicated Workers, and will refer to them as "web workers" or "workers" throughout.
 
-## Getting Started
+## <span>Getting Started</span>
 
 Web Workers run in an isolated thread. As a result, the code that they execute needs to be contained in a separate file. But before we do that, the first thing to do is create a new `Worker` object in your main page. The constructor takes the name of the worker script:
 
@@ -49,7 +49,7 @@ After creating the worker, start it by calling the `postMessage()` method:
 
      worker.postMessage(); // Start the worker.
 
-### Communicating with a Worker via Message Passing
+### <span>Communicating with a Worker via Message Passing</span>
 
 Communication between a worker and its parent page is done using an event model and the `postMessage()` method. Depending on your browser/version, `postMessage()` can accept either a string or JSON object as its single argument.
 
@@ -126,9 +126,9 @@ doWork2.js:
 
 **Example**: Run this worker [here](http://www.html5rocks.com/en/tutorials/workers/basics/)!
 
-## The Worker Environment
+## <span>The Worker Environment</span>
 
-### Worker Scope
+### <span>Worker Scope</span>
 
 In the context of a worker, both `self` and `this` reference the global scope for the worker. Thus, the previous example could also be written as:
 
@@ -150,7 +150,7 @@ Alternatively, you could set the `onmessage` event handler directly (although `a
        ...
      };
 
-### Features Available to Workers
+### <span>Features Available to Workers</span>
 
 Due to their multi-threaded behavior, web workers only have access to a subset of JavaScript's features:
 
@@ -169,7 +169,7 @@ Workers do NOT have access to:
 -   The `document` object
 -   The `parent` object
 
-### Loading External Scripts
+### <span>Loading External Scripts</span>
 
 You can load external script files or libraries into a worker with the `importScripts()` function. The method takes zero or more strings representing the filenames for the resources to import.
 
@@ -184,7 +184,7 @@ This can also be written as a single import statement:
 
      importScripts('script1.js', 'script2.js');
 
-### Subworkers
+### <span>Subworkers</span>
 
 Workers have the ability to spawn child workers. This is great for further breaking up large tasks at runtime. However, subworkers come with a few caveats:
 
@@ -195,7 +195,7 @@ Keep in mind that most browsers spawn separate processes for each worker. Before
 
 For an sample of how to spawn a subworker, see the [example](http://www.whatwg.org/specs/web-workers/current-work/#delegation) in the specification.
 
-## Inline Workers
+## <span>Inline Workers</span>
 
 What if you want to create your worker script on the fly, or create a self-contained page without having to create separate worker files? With `Blob()`, you can "inline" your worker in the same HTML file as your main logic by creating a URL handle to the worker code as a string:
 
@@ -212,7 +212,7 @@ What if you want to create your worker script on the fly, or create a self-conta
      };
      worker.postMessage(); // Start the worker.
 
-### Blob URLs
+### <span>Blob URLs</span>
 
 The magic comes with the call to [`window.URL.createObjectURL()`](http://dev.w3.org/2006/webapi/FileAPI/#dfn-createObjectURL). This method creates a simple URL string which can be used to reference data stored in a DOM `File` or `Blob` object. For example:
 
@@ -224,7 +224,7 @@ Blob URLs are unique and last for the lifetime of your application (i.e., until 
 
 In Chrome, there's a nice page to view all of the created blob URLs: `chrome://blob-internals/`.
 
-### Full Example
+### <span>Full Example</span>
 
 Taking this one step further, we can get clever with how the worker's JavaScript code is inlined in our page. This technique uses a `<script>` tag to define the worker:
 
@@ -270,11 +270,11 @@ Taking this one step further, we can get clever with how the worker's JavaScript
 
 In my opinion, this new approach is a bit cleaner and more legible. It defines a script tag with <var>id="worker1"</var> and <var>type="javascript/worker"</var> (so the browser doesn't parse the JavaScript). That code is extracted as a string using `document.querySelector('#worker1').textContent` and passed to `Blob()` to create the file.
 
-### Loading External Scripts
+### <span>Loading External Scripts</span>
 
 When using these techniques to inline your worker code, `importScripts()` will only work if you supply an absolute URI. If you attempt to pass a relative URI, the browser will complain with a security error. This is because the worker (now created from a blob URL) will be resolved with a `blob:` prefix, while your app will be running from a different (presumably `http://`) scheme. Hence, the failure will be due to cross-origin restrictions.
 
-One way to utilize `importScripts()` in an inline worker is to "inject" the current URL your main script is running from by passing it to the inline worker and constructing the absolute URL manually. This will insure the external script is imported from the same origin. For example, assuming your main app is running from [http://example.com/index.html](http://example.com/index.html) (not a real site):
+One way to utilize `importScripts()` in an inline worker is to "inject" the current URL your main script is running from by passing it to the inline worker and constructing the absolute URL manually. This will insure the external script is imported from the same origin. For example, assuming your main app is running from <http://example.com/index.html> (not a real site):
 
      ...
      <script id="worker2" type="javascript/worker">
@@ -297,7 +297,7 @@ One way to utilize `importScripts()` in an inline worker is to "inject" the curr
        worker.postMessage('''{url: document.location}''');
      </script>
 
-## Handling Errors
+## <span>Handling Errors</span>
 
 As with any JavaScript logic, you'll want to handle any errors that are thrown in your web workers. If an error occurs while a worker is executing, the `ErrorEvent` is fired. The interface contains three useful properties for figuring out what went wrong: `filename` - the name of the worker script that caused the error, `lineno` - the line number where the error occurred, and `message` - a meaningful description of the error. Here is an example of setting up an `onerror` event handler to print the properties of the error:
 
@@ -330,19 +330,19 @@ workerWithError.js:
        postMessage(1/x); // Intentional error.
      };
 
-## A Word on Security
+## <span>A Word on Security</span>
 
-### Restrictions with Local Access
+### <span>Restrictions with Local Access</span>
 
 Due to Google Chrome's security restrictions, workers will not run locally (i.e., from `file://`). Instead, they fail silently! To run your app from the `file://` scheme, run Chrome with the `--allow-file-access-from-files` flag set. **NOTE**: It is not recommended to run your primary browser with this flag set. It should only be used for testing purposes and not regular browsing.
 
 Other browsers do not impose the same restriction.
 
-### Same Origin Considerations
+### <span>Same Origin Considerations</span>
 
 Worker scripts must be external files with the same scheme as their calling page. Thus, you cannot load a script from a `data:` URL or `javascript:` URL, and an `https:` page cannot start worker scripts that begin with `http:` URLs.
 
-## Use Cases
+## <span>Use Cases</span>
 
 So what kind of application would utilize web workers? Unfortunately, web workers are still relatively new and the majority of samples/tutorials out there involve computing prime numbers. Although that isn't very interesting, it's useful for understanding the concepts of web workers. Here are a few more ideas to get your brain churning:
 
@@ -355,22 +355,15 @@ So what kind of application would utilize web workers? Unfortunately, web worker
 -   Image filtering in \<canvas\>
 -   Updating many rows of a local web database
 
-## Demos
+## <span>Demos</span>
 
 -   Example from [HTML5Rocks slides](http://slides.html5rocks.com/#web-workers)
 -   [Motion tracker](http://htmlfive.appspot.com/static/tracker1.html)
 -   [Simulated Annealing](http://people.mozilla.com/~prouget/demos/worker_and_simulatedannealing/index.xhtml)
 -   [HTML5demos sample](http://html5demos.com/worker)
 
-## References
+## <span>References</span>
 
 -   [Web Workers](http://www.whatwg.org/specs/web-workers/current-work/) specification
 -   [Using web workers](http://developer.mozilla.org/en/Using_web_workers) from Mozilla Developer Network
 -   [Web Workers rise up!](http://dev.opera.com/articles/view/web-workers-rise-up/) from Dev.Opera
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/workers/basics/)
-

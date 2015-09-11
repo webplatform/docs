@@ -1,48 +1,62 @@
 ---
 title: border-bottom
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Shorthand property that defines the border-width, border-style and border-color of an element''s bottom border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the bottom border — border-bottom-width, border-bottom-style and border-bottom-color.'
 code_samples:
   0: 'http://gist.github.com/5539585'
   2: 'http://gist.github.com/5704867'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'See **Notes** below.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderBottom`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Shorthand property that defines the border-width, border-style and border-color of an element''s bottom border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the bottom border — border-bottom-width, border-bottom-style and border-bottom-color.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-bottom
 
 ---
-# border-bottom
-
-## Summary
+## <span>Summary</span>
 
 Shorthand property that defines the border-width, border-style and border-color of an element's bottom border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the bottom border — border-bottom-width, border-bottom-style and border-bottom-color.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   See **Notes** below.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderBottom`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-bottom: border-width border-style color`
 -   `border-bottom: inherit`
 
-## Values
+## <span>Values</span>
 
 border-width border-style color
 :   The `border-bottom` property can contain up to three components:
@@ -54,9 +68,9 @@ border-width border-style color
 inherit
 :   When we set the value to `inherit`, the element will inherit the border values set on its parent.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /**
  * border-bottom example
 **/
@@ -108,7 +122,7 @@ p {
 
 A simple example showing multiple `<div>`s, identical in style except that they have different `border-bottom` properties applied to them.
 
-``` {.html}
+``` html
 <div class="one"><p>One</p></div>
 <div class="two"><p>Two</p></div>
 <div class="three"><p>Three</p></div>
@@ -120,7 +134,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 
 An example showing the use of border-bottom property with the hover effect...It gives a beautiful result
 
-``` {.css}
+``` css
 /**
  * Example of border-bottom property
 
@@ -151,34 +165,34 @@ a:visited{text-decoration:none;color:green;}
 
 [View live example](http://code.webplatform.org/gist/5704867)
 
-## Usage
+## <span>Usage</span>
 
      * It is usual to use the border-bottom property to set the default state of a box's bottom border, and then override individual values using more specific propeties, such as border-bottom-width or border-bottom-color.
 
 -   `border-bottom` can be used as a divider between vertically laid out items, such as a vertical navigation menu, or table cells.
 
-## Notes
+## <span>Notes</span>
 
-### Computed values
+### <span>Computed values</span>
 
 For `style` values, the computed value is as specified. For `width` values, the computed value is the absolute pixel value, or `0` if the value is set to `none` or `hidden`. For `color` values, the computed value is the equivalent RGB value, or the equivalent RGBA value for translucent colors.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3](http://www.w3.org/TR/css3-background/#borders)
 :   Candidate Recommendation
+
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/box.html#border-shorthand-properties)
 :   Recommendation
+
 [CSS Level 1](http://www.w3.org/TR/CSS1/#border)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -238,7 +252,7 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -249,4 +263,3 @@ Specification
 -   `border`
 -   `Other Resources`
 -   `CSS Enhancements in Internet Explorer 6`
-

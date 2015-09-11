@@ -1,42 +1,58 @@
 ---
 title: max-width
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5842171'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'all elements but non-replaced inline elements, tables, inline tables, table cells, table columns, and column groups'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'the percentage as specified or the absolute length or ''none'''
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`max-width`'
+  Percentages: 'refer to width of containing block'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the maximum width for an element. It limits the width property to be larger than the value specified in max-width.'
-code_samples:
-  - 'http://gist.github.com/5842171'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/max-width
 
 ---
-# max-width
-
-## Summary
+## <span>Summary</span>
 
 Sets the maximum width for an element. It limits the width property to be larger than the value specified in max-width.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   all elements but non-replaced inline elements, tables, inline tables, table cells, table columns, and column groups
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   the percentage as specified or the absolute length or 'none'
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `max-width`
+
 Percentages
 :   refer to width of containing block
 
-## Syntax
+## <span>Syntax</span>
 
 -   `max-width: calc()`
 -   `max-width: fill-available`
@@ -48,7 +64,7 @@ Percentages
 -   `max-width: none`
 -   `max-width: percentage`
 
-## Values
+## <span>Values</span>
 
 length
 :   Specifies a fixed width. Negative values are not allowed. See [length](/css/data_types/length) for possible units.
@@ -77,18 +93,18 @@ fill-available
 fit-content
 :   If the total available space is finite, equals to min(max-content, max(min-content, fill-available)). Otherwise, equal to the max-content measure. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
 
-## Examples
+## <span>Examples</span>
 
 Use max-width with any CSS selector to apply it.
 
-``` {.css}
+``` css
 /* Restrict all div elements to a max-width of 100px */
 div { max-width: 100px }
 ```
 
 Constrain the width of a **div** element using [**min-width**](/css/properties/min-width) and **max-width** attributes.
 
-``` {.html}
+``` html
 <style>
 /* Width set to 50% */
 .width {
@@ -132,7 +148,7 @@ Constrain the width of a **div** element using [**min-width**](/css/properties/m
 
 [View live example](http://code.webplatform.org/gist/5842171)
 
-## Usage
+## <span>Usage</span>
 
      CSS max width is well supported across most browsers. A few things to consider while usage:
 
@@ -140,26 +156,25 @@ Constrain the width of a **div** element using [**min-width**](/css/properties/m
 -   max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
 -   Support for [calc](/css/functions/calc) is better across browsers. Vendor prefixes may be needed.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The [**min-width**](/css/properties/min-width)/**max-width** attributes apply to floating and absolutely positioned block and inline-block elements, as well as some intrinsic controls. They do not apply to non-replaced inline elements, such as table rows and row/column groups. (A "replaced" element has intrinsic dimensions, such as an **img** or **textArea**.) This property is enabled only under the strict [!DOCTYPE](/html/elements/!DOCTYPE).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1 (Section 10.7)](http://www.w3.org/TR/CSS2/visudet.html#min-max-widths)
 :   W3C Recommendation
+
 [CSS Intrinsic & Extrinsic Sizing Module Level 3](http://dev.w3.org/csswg/css3-sizing/#width-height-keywords)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -174,8 +189,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -205,7 +218,7 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   [border](/css/properties/border)
 
@@ -247,17 +260,10 @@ Specification
 
 -   [min-width](/css/properties/min-width)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
 -   `Cascading Style Sheet Compatibility in Internet Explorer 7`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

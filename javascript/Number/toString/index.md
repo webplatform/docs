@@ -1,38 +1,40 @@
 ---
 title: toString
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj159596(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a string representation of a number.'
 tags:
   0: JS
   1: Basic
   3: Function
-readiness: 'Ready to Use'
-summary: 'Returns a string representation of a number.'
 uri: javascript/Number/toString
 
 ---
-# toString
-
-## Summary
+## <span>Summary</span>
 
 Returns a string representation of a number.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     toString([ radix ])
 
 **radix**
 :   Optional. The base number system to convert to given as 2 - 36, inclusive. Defaults to 10.
 
-## Return Value
+## <span>Return Value</span>
 
 String representing the number value in the given base number system.
 
 Negative numbers are simply preceded by the `-` sign, i.e. there is no conversion to a system like the [Two's Complement](http://en.wikipedia.org/wiki/Two%27s_complement) for binary.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **toString** method with a number.
 
-``` {.js}
+``` js
 var mph_number = 234.567;
 var mph_string = mph_number.toString();
 
@@ -44,7 +46,7 @@ console.log(mph_string.length);
 
 The following example illustrates the use of the toString method with a radix argument.
 
-``` {.js}
+``` js
 var mph_number = 199;
 
 // Convert to hexadecimal
@@ -66,39 +68,33 @@ mph_number.toString(2);
 
 implicit use of `toString()`
 
-``` {.js}
+``` js
 var mph_number = 199;
 String(mph_number) === mph_number.toString(10);
 (mph_number + "") === mph_number.toString(10);
 ```
 
-## Remarks
+## <span>Remarks</span>
 
-### Throws
+### <span>Throws</span>
 
 [`RangeError`](/javascript/Error) when a *radix* outside the bounds of 2 - 36 (inclusive) was given.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [toExponential Method (Number)](/javascript/Number/toExponential)
 -   [toFixed Method (Number)](/javascript/Number/toFixed)
 -   [toPrecision Method (Number)](/javascript/Number/toPrecision)
 
-### External resources
+### <span>External resources</span>
 
 -   [toString(), by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)
 
-### Specification
+### <span>Specification</span>
 
 [15.7.4.2 Number.prototype.toString(radix)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.7.4.2)
 
 ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj159596(v=vs.94).aspx)
 

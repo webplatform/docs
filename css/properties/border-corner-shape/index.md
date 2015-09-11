@@ -1,47 +1,61 @@
 ---
 title: border-corner-shape
-tags:
-  - CSS
-  - Properties
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`curve`'
+  'Applies to': 'all elements, except table element when ‘border-collapse’ is ‘collapse’'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderCornerShape`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Specifies different corner clipping effects, such as scoop (inner curves), bevel (straight cuts) or notch (cut-off rectangles). Works along with border-radius to specify the size of each corner effect.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-corner-shape
 
 ---
-# border-corner-shape
-
-## Summary
+## <span>Summary</span>
 
 Specifies different corner clipping effects, such as scoop (inner curves), bevel (straight cuts) or notch (cut-off rectangles). Works along with border-radius to specify the size of each corner effect.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `curve`
+
 Applies to
 :   all elements, except table element when ‘border-collapse’ is ‘collapse’
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderCornerShape`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-corner-shape: bevel`
 -   `border-corner-shape: curve`
 -   `border-corner-shape: notch`
 -   `border-corner-shape: scoop`
 
-## Values
+## <span>Values</span>
 
 curve
 :   Border radii define a convex curve at the corner (default behavior of border-radius).
@@ -55,34 +69,32 @@ scoop
 notch
 :   Border radii define a concave rectangular notch at the corner.
 
-## Examples
+## <span>Examples</span>
 
 Create a diamond (rhombus) shape
 
-``` {.css}
+``` css
 border-corner-shape: bevel;
 border-radius: 50%;
 ```
 
 Create a trapezoid
 
-``` {.css}
+``` css
 border-corner-shape: bevel;
 border-radius: 25% / 100% 100% 0 0;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 4 - Backgrounds and Borders Module](http://dev.w3.org/csswg/css-backgrounds-4/#border-corner-shape)
 :   W3C Editor’s Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   [border](/css/properties/border)
 
@@ -124,7 +136,6 @@ Specification
 
 -   [min-width](/css/properties/min-width)
 
-### External resources
+### <span>External resources</span>
 
 -   [Preview of border-corner-shape with SVG](http://leaverou.github.com/border-corner-shape)
-

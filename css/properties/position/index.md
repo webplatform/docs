@@ -1,42 +1,57 @@
 ---
 title: position
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/position)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://jsfiddle.net/DqxfR/'
+  - 'http://jsfiddle.net/58ybJ/1/'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`static`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`position`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The position property controls the type of positioning used by an element within its parent elements. The effect of the position property depends on a lot of factors, for example the position property of parent elements.'
 tags:
   0: CSS
   1: Properties
   3: Design
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The position property controls the type of positioning used by an element within its parent elements. The effect of the position property depends on a lot of factors, for example the position property of parent elements.'
-code_samples:
-  - 'http://jsfiddle.net/DqxfR/'
-  - 'http://jsfiddle.net/58ybJ/1/'
 uri: css/properties/position
 
 ---
-# position
-
-## Summary
+## <span>Summary</span>
 
 The position property controls the type of positioning used by an element within its parent elements. The effect of the position property depends on a lot of factors, for example the position property of parent elements.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `static`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `position`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `position: absolute`
 -   `position: fixed`
@@ -44,7 +59,7 @@ Animatable
 -   `position: relative`
 -   `position: static`
 
-## Values
+## <span>Values</span>
 
 static
 :   Default. Object has no special positioning; it follows the layout rules of HTML. Values of [top](/css/properties/top), [bottom](/css/properties/bottom), [left](/css/properties/left) and [right](/css/properties/right) have no impact.
@@ -61,11 +76,11 @@ fixed
 inherit
 :   Inherits the value of the parent element.
 
-## Examples
+## <span>Examples</span>
 
 The example shows how a child element’s position depends on the position value of its parent, as well as its own position value.
 
-``` {.html}
+``` html
 <section class="parent static">
     <div class="child absolute">
         <p>absolute</p>
@@ -99,7 +114,7 @@ The example shows how a child element’s position depends on the position value
 
 Watch how the child positions itself relative to the parent, depending on the value of position for both elements.
 
-``` {.css}
+``` css
 .static {
     position: static;
 }
@@ -135,7 +150,7 @@ Watch how the child positions itself relative to the parent, depending on the va
 
 A typical navigation menu with **position: fixed**.
 
-``` {.html}
+``` html
 <nav class="nav nav-fixed">
     <a href="#">Home</a>
     <a href="#">Something</a>
@@ -149,7 +164,7 @@ A typical navigation menu with **position: fixed**.
 
 While the .long-scrollable section is scrolled down, the .nav-fixed stays fixed at the top of the viewport.
 
-``` {.css}
+``` css
 .long-scrollable {
     border: 2px dotted #999;
     height: 2000px;
@@ -167,20 +182,20 @@ While the .long-scrollable section is scrolled down, the .nav-fixed stays fixed 
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      ===Static (Default)===
 
 The element is laid out according to normal HTML flow.
 
-### Relative
+### <span>Relative</span>
 
 Setting the property to **relative** places the object in the natural HTML flow of the document, but offsets the position of the object from its normal position. The following syntax shows how to create superscript text by placing the text in a span that is positioned relative to its original position.
 
-``` {.html}
+``` html
 <p>The superscript in this name
     <span style="position: relative; top: -3px">xyz</span>
-    is &quot;xyz&quot;.</p>
+    is "xyz".</p>
 ```
 
 The superscript in this name <span style="position: relative; top: -3px">xyz</span> is "xyz".
@@ -189,7 +204,7 @@ The superscript in this name <span style="position: relative; top: -3px">xyz</sp
 
 Text and objects that follow a relatively positioned object occupy their own space and do not overlap the natural space for the positioned object. In contrast, text and objects that follow an absolutely positioned object occupy what would have been the natural space for the positioned object before it was pulled out of the flow. Placing an absolutely positioned object beyond the viewable area of the window causes a scroll bar to appear. When relatively positioned objects are placed beyond the viewable area, a scroll bar is not shown. The size of the content determines the size of objects with layout. For example, setting the height and position properties on a div object gives it layout. The content of the div determines the size. In this case, the content determines the size of the width.
 
-### Absolute
+### <span>Absolute</span>
 
 Setting the property to **absolute** pulls the object out of the "flow" of the document and positions it regardless of the layout of surrounding objects. If other objects already occupy the given position, they do not affect the positioned object, nor does the positioned object affect them. Instead, all objects are drawn at the same place, causing the objects to overlap. (This overlap is controlled by using the [z-index](/css/properties/z-index) property.)
 
@@ -199,20 +214,20 @@ The edges of the element can be specified relative to the edges of the containin
 
 Absolutely positioned objects do not have **margins**, but they do have borders and padding.
 
-#### Side Note
+#### <span>Side Note</span>
 
 Input from pointing devices, such as the mouse, does not penetrate through overlapping elements even if the elements are not visible. This is also true for positioned elements with a negative z-index unless:
 
 -   The parent is a scrolling container (that is, its overflow property is set to auto or scroll).
 -   The parent is positioned (that is, its position property is set to absolute or relative).
 
-### Fixed
+### <span>Fixed</span>
 
 An element with a **fixed** position is positioned relative to the visible viewport. It does not move away if the browser window is scrolled but appears to be fixed in the viewport. A common pattern and example is to use position: fixed on navigation elements that should be visible on the whole page regardless of the scrollbar position. Fixed positioning is only supported for pages using a strict \<!DOCTYPE\> directive.
 
-## Notes
+## <span>Notes</span>
 
-### Layout Float
+### <span>Layout Float</span>
 
 **static** The positioned float is laid out according to normal HTML flow.
 
@@ -222,25 +237,14 @@ An element with a **fixed** position is positioned relative to the visible viewp
 
 **fixed** The positioned float is laid out relative to the initial position of the viewport, or browser window. (The positioned float's position is not updated as the viewport moves due to scrolling.)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1](http://www.w3.org/TR/CSS2/visuren.html#choose-position)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-## Related Tutorials
+## <span>Related Tutorials</span>
 
 -   [Static and relative positioning](/tutorials/static_and_relative_positioning)
 -   [Absolute and fixed positioning](/tutorials/absolute_and_fixed_positioning)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/position)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

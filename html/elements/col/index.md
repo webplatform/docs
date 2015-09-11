@@ -1,78 +1,80 @@
 ---
 title: col
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information. Modify DOM Interface information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLTableColElement](/dom/HTMLTableColElement)'
+readiness: 'In Progress'
+summary: 'The col element (&lt;col&gt;) specifies  properties for each column within a &lt;colgroup&gt; element in a &lt;table&gt;.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information. Modify DOM Interface information.'
-summary: 'The col element (<col>) specifies  properties for each column within a <colgroup> element in a <table>.'
 uri: html/elements/col
 
 ---
-# col
+## <span>Summary</span>
 
-## Summary
+The col element (&lt;col&gt;) specifies properties for each column within a &lt;colgroup&gt; element in a &lt;table&gt;.
 
-The col element (\<col\>) specifies properties for each column within a \<colgroup\> element in a \<table\>.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableColElement](/dom/HTMLTableColElement)
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **col** element to specify characteristics for default columns in a table.
 
-    <HTML>
-    <BODY>
-    <TABLE BORDER="2" RULES="groups">
-    <!-- RULES is set to "groups", which has no effect in this sample. For this
-    attribute to work, you must use COLSPAN to define the groups of columns.-->
-        <COL SPAN="2" STYLE="color:red">
-        <COL STYLE="color:blue">
-        <TR>
-            <TD>This column is in the first group.</TD>
-            <TD>This column is in the first group.</TD>
-            <TD>This column is in the second group.</TD>
-        </TR>
-        <TR>
-            <TD>This column is in the first group.</TD>
-            <TD>This column is in the first group.</TD>
-            <TD>This column is in the second group.</TD>
-        </TR>
-    </TABLE>
-    </BODY>
-    </HTML>
+``` html
+<HTML>
+<BODY>
+<TABLE BORDER="2" RULES="groups">
+<!-- RULES is set to "groups", which has no effect in this sample. For this
+attribute to work, you must use COLSPAN to define the groups of columns.-->
+    <COL SPAN="2" STYLE="color:red">
+    <COL STYLE="color:blue">
+    <TR>
+        <TD>This column is in the first group.</TD>
+        <TD>This column is in the first group.</TD>
+        <TD>This column is in the second group.</TD>
+    </TR>
+    <TR>
+        <TD>This column is in the first group.</TD>
+        <TD>This column is in the first group.</TD>
+        <TD>This column is in the second group.</TD>
+    </TR>
+</TABLE>
+</BODY>
+</HTML>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **COL** elements can be nested within a **COLGROUP** element. If this is done, the nested **COL** attributes override the **COLGROUP** attributes. You can use the **COL** and **COLGROUP** elements for similar purposes. However, you must use the **COLGROUP** element to determine where table internal dividing lines ([**rules**](/html/attributes/rules)) should go. This is illustrated in the following example. Use the [**SPAN**](/html/attributes/span) attribute to specify the number of table columns that the **COLGROUP** defines. This attribute has a default value equal to one. The [**table**](/html/elements/table) object and its associated elements have a separate table object model, which uses different methods than the general object model. For more information on the table object model, see Building Tables Dynamically.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-col-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-col-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-COL)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -170,11 +172,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Tables
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Tables</span>
 
 -   [border-collapse](/css/properties/border-collapse)
 
@@ -200,13 +238,6 @@ Specification
 
 -   [th](/html/elements/th)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [colgroup](/html/elements/colgroup)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

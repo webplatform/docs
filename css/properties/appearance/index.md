@@ -1,43 +1,59 @@
 ---
 title: appearance
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/-moz-appearance?redirectlocale=en-US&redirectslug=CSS%3A-moz-appearance)'
+notes:
+  - 'Add example, description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'all elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specific value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: Non-Standard
+summary: 'Allows changing the style of any element to platform-based interface elements or vice versa.'
 tags:
   0: CSS
   1: Properties
   3: Design
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Add example, description, compatibility.'
-summary: 'Allows changing the style of any element to platform-based interface elements or vice versa.'
 uri: css/properties/appearance
 
 ---
-# appearance
-
-## Summary
+## <span>Summary</span>
 
 Allows changing the style of any element to platform-based interface elements or vice versa.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   all elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specific value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `appearance: button`
 -   `appearance: button-arrow-down`
@@ -54,7 +70,7 @@ Percentages
 -   `appearance: listbox`
 -   `appearance: none`
 
-## Values
+## <span>Values</span>
 
 button-arrow-down
 :   Firefox specific - but no effect in latest version
@@ -100,17 +116,9 @@ listbox
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Basic User Interface Module](http://www.w3.org/TR/2004/CR-css3-ui-20040511/#appearance)
 :   W3C Candidate Recommendation (Obsolete)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/-moz-appearance?redirectlocale=en-US&redirectslug=CSS%3A-moz-appearance)
 
 }}

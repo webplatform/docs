@@ -1,46 +1,60 @@
 ---
 title: flow-into
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'Block elements, excluding pseudo-elements such as **::before** or **::after**.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`flowInto`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Diverts the selected element''s content into a named flow, used to thread content through different layout regions specified by  flow-from.'
 tags:
   0: CSS
   1: Properties
   3: CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Diverts the selected element''s content into a named flow, used to thread content through different layout regions specified by  flow-from.'
 uri: css/properties/flow-into
 
 ---
-# flow-into
-
-## Summary
+## <span>Summary</span>
 
 Diverts the selected element's content into a named flow, used to thread content through different layout regions specified by flow-from.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   Block elements, excluding pseudo-elements such as **::before** or **::after**.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `flowInto`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `flow-into: <ident>`
 -   `flow-into: none`
 
-## Values
+## <span>Values</span>
 
 none
 :   The element's content remains unchanged, and is not diverted to a flow unless an ancestor element specifies it.
@@ -52,11 +66,11 @@ none
 
 -   **\<ident\> content**: Adding the **content** keyword overrides the default behavior described above, diverting only the element's nested content to the named flow.
 
-## Examples
+## <span>Examples</span>
 
 The following CSS...
 
-``` {.css}
+``` css
 article.content {
     flow-into: main;
 }
@@ -68,7 +82,7 @@ section.layout > div {
 
 ...flows the article through the series of **div** elements, transforming them into [*regions*](/css/concepts/region) and replacing the placeholder text:
 
-``` {.html}
+``` html
 
 
 <!-- CONTENT -->
@@ -94,7 +108,7 @@ section.layout > div {
 
 By default, or with the **element** keyword, content appears as if structured as follows, but dynamically [*fragmenting*](/css/concepts/fragment) from one layout region to another. (Note that as presented, this is not a valid DOM structure, and simply helps to visualize how content appears in output.)
 
-``` {.html}
+``` html
 
 
 <section class="layout">
@@ -120,7 +134,7 @@ By default, or with the **element** keyword, content appears as if structured as
 
 With the **content** keyword specified, content fragments appear as if structured as follows, *without* the interim **article** element that serves as their container:
 
-``` {.html}
+``` html
 
 
 <section class="layout">
@@ -142,7 +156,7 @@ With the **content** keyword specified, content fragments appear as if structure
 
 </pre>
 
-## Usage
+## <span>Usage</span>
 
      The flow-into property diverts content from where it would ordinarily appear in the document to a named flow.  It reappears elsewhere flowing through a series of region elements whose flow-from specifies the same named flow.
 
@@ -158,18 +172,16 @@ More than one element can contribute to the same named flow, in which case their
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -227,11 +239,10 @@ Specification
 
 -   **flow-into**
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
 -   [Additional examples on codpen.io](http://codepen.io/collection/jabto). This experimental feature is in WebKit (Chrome and Safari) and Trident (Internet Explorer). Enable experimental features to see how CSS Regions works.
-

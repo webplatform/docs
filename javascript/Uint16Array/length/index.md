@@ -1,28 +1,30 @@
 ---
 title: length
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+readiness: 'Ready to Use'
+summary: 'The length of the array.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'The length of the array.'
 uri: javascript/Uint16Array/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 The length of the array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     var arrayLength = uint16Array.length;
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to get the length of the array.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -37,10 +39,4 @@ var req = new XMLHttpRequest();
          }
      }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)
 

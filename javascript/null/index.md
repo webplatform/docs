@@ -1,37 +1,37 @@
 ---
 title: null
+readiness: 'Ready to Use'
+summary: 'null is used to indicate that a variable does not have a value.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'null is used to indicate that a variable does not have a value.'
 uri: javascript/null
 
 ---
-# null
-
-## Summary
+## <span>Summary</span>
 
 null is used to indicate that a variable does not have a value.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     null
 
-## Examples
+## <span>Examples</span>
 
 This example shows the difference between **null** and [undefined](/javascript/undefined).
 
-``` {.js}
+``` js
 var foo; // undefined, there is no value assigned
 var bar = null; // null, states that there is no value
 ```
 
-## Notes
+## <span>Notes</span>
 
 **null** is the only value of the Null type
 
-## null vs. undefined
+## <span>null vs. undefined</span>
 
 **null** can be assigned to a variable to represent no value.
 

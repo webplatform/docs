@@ -1,48 +1,63 @@
 ---
 title: list-style-position
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Specifies if the list-item markers should appear inside or outside the content flow.'
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5841706'
   - 'http://gist.github.com/6949116'
   - 'http://gist.github.com/5598129'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`outside`'
+  'Applies to': 'elements with ''display: list-item'''
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`listStylePosition`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Specifies if the list-item markers should appear inside or outside the content flow.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/list-style-position
 
 ---
-# list-style-position
-
-## Summary
+## <span>Summary</span>
 
 Specifies if the list-item markers should appear inside or outside the content flow.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `outside`
+
 Applies to
 :   elements with 'display: list-item'
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `listStylePosition`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `list-style-position: inherit`
 -   `list-style-position: inside`
 -   `list-style-position: outside`
 
-## Values
+## <span>Values</span>
 
 outside
 :   Default. Marker is placed outside the list item, and any wrapping text is not aligned under the marker.
@@ -53,11 +68,11 @@ inside
 inherit
 :   Takes the same specified value as the property for the element's parent. (Acts similarly to other uses of inherit in CSS.)
 
-## Examples
+## <span>Examples</span>
 
 The following example uses the **list-style-position** attribute and the **list-style-position** property to set the position for markers.
 
-``` {.css}
+``` css
 .firstlist { list-style-position:inside }
 .secondlist { list-style-position:outside }
 ```
@@ -66,7 +81,7 @@ The following example uses the **list-style-position** attribute and the **list-
 
 The following example shows how to change the value dynamically using JavaScript. The value changes from outside to inside when the mouse is over the list
 
-``` {.js}
+``` js
 var ul = document.getElementById('list-hover');
 
 // When the mouse is over the list, the position changes to inside
@@ -84,7 +99,7 @@ ul.addEventListener('mouseout', function () {
 
 An example to show how setting padding-left to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
 
-``` {.css}
+``` css
 ul {
     padding-left: 0;
 }
@@ -100,24 +115,22 @@ ul {
 
 [View live example](http://code.webplatform.org/gist/5598129)
 
-## Usage
+## <span>Usage</span>
 
      ===Remarks===
 
 If a list-style-position is set to outside and padding-left is set to 0, the marker will not show.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS21/generate.html#propdef-list-style-position)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -155,18 +168,9 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

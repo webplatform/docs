@@ -1,55 +1,57 @@
 ---
 title: getBookmark
+attributions:
+  - 'Microsoft Developer Network: [[getBookmark Method](http://msdn.microsoft.com/en-us/library/ie/ms536432(v=vs.85).aspx) Article]'
+notes:
+  - 'needs example'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/TextRange
+    href: /dom/TextRange
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: String
+    href: /dom/TextRange
+standardization_status: Non-Standard
+summary: 'Retrieves a bookmark (opaque string) that can be used with moveToBookmark to return to the same range.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: Non-Standard
-notes:
-  - 'needs example'
-summary: 'Retrieves a bookmark (opaque string) that can be used with moveToBookmark to return to the same range.'
 uri: dom/TextRange/getBookmark
 
 ---
-# getBookmark
-
-## Summary
+## <span>Summary</span>
 
 Retrieves a bookmark (opaque string) that can be used with moveToBookmark to return to the same range.
 
-*Method of [dom/TextRange](/dom/TextRange)*
+Method of [dom/TextRange](/dom/TextRange)[dom/TextRange](/dom/TextRange)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var bookmark = textRange.getBookmark();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type String.
+Returns an object of type StringString
 
 Returns the bookmark if successfully retrieved, or null otherwise.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 .
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[getBookmark Method](http://msdn.microsoft.com/en-us/library/ie/ms536432(v=vs.85).aspx) Article]
-

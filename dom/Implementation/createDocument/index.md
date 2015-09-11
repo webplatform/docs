@@ -1,73 +1,73 @@
 ---
 title: createDocument
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'example, compatibility'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Implementation
+    href: /dom/Implementation
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Implementation
+standardization_status: 'W3C Recommendation'
+summary: 'Creates a Document that is not attached to a window.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'example, compatibility'
-summary: 'Creates a Document that is not attached to a window.'
 uri: dom/Implementation/createDocument
 
 ---
-# createDocument
-
-## Summary
+## <span>Summary</span>
 
 Creates a Document that is not attached to a window.
 
-*Method of [dom/Implementation](/dom/Implementation)*
+Method of [dom/Implementation](/dom/Implementation)[dom/Implementation](/dom/Implementation)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var newDocument = implementation.createDocument(namespace, rootElementName, doctype);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### namespace
+### <span>namespace</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The namespace URI of the resulting document or a null value.
 
-### rootElementName
+### <span>rootElementName</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The qualified name (for example, namespace:localname) of the root element for the document or a null value.
 
-### doctype
+### <span>doctype</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The desired [document type](/html/elements/!DOCTYPE) for the document or a null value.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The resulting document.
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

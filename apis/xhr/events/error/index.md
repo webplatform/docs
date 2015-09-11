@@ -1,39 +1,78 @@
 ---
 title: error
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+summary: 'The onerror event occurs when the request could not be completed because of an error.'
 tags:
   - Events
   - API
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'The onerror event occurs when the request could not be completed because of an error.'
 uri: apis/xhr/events/error
 
 ---
-# error
-
-## Summary
+## <span>Summary</span>
 
 The onerror event occurs when the request could not be completed because of an error.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 Setting the onerror property.
 
-``` {.js}
+``` js
 <script type="text/javascript">
 function err()
 {
@@ -43,21 +82,21 @@ function err()
 xdr.onerror = err;
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The document can respond to the error, but there is no way to determine the cause or nature of the error. The **onerror** event does not occur when the [**ontimeout**](/apis/xhr/events/timeout) event occurs. To invoke this event, do one of the following:
 
 -   Cannot invoke.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 This method has no parameters.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `XDomainRequest`
 -   `Reference`
@@ -65,10 +104,3 @@ This method has no parameters.
 -   `onprogress`
 -   `Conceptual`
 -   `XMLHttpRequest Enhancements in Internet Explorer 8`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

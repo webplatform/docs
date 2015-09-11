@@ -1,34 +1,43 @@
 ---
 title: baseline-shift
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs parent, example'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline.'
 tags:
   - Markup
   - Attributes
   - DOM
   - SVG
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs parent, example'
-summary: 'The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline.'
 uri: svg/attributes/baseline-shift
 
 ---
-# baseline-shift
-
-## Summary
+## <span>Summary</span>
 
 The ‘baseline-shift’ property allows repositioning of the dominant-baseline( a baseline-table and a baseline-table font-size which are those of the nearest block-level ancestor element and are applied to its root inline box.) relative to the dominant-baseline.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 Name: baseline-shift Value: baseline
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **baseline-shift** property allows repositioning of the dominant baseline relative to the dominant baseline of the parent text content element. The shifted object might be a subscript or superscript. Within the shifted object, the whole baseline table is offset; not just a single baseline. The amount of the shift is determined by one of the following:
 
@@ -37,26 +46,24 @@ The **baseline-shift** property allows repositioning of the dominant baseline re
 -   the percent of the **line-height** of the parent text content element
 -   an absolute value.
 
-### Syntax
+### <span>Syntax</span>
 
     baseline-shift: baseline | sub | super | percentage | length
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.9.2
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Scalable Vector Graphics (SVG) 1.1](http://www.w3.org/TR/SVG/text.html#BaselineShiftProperty)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -71,8 +78,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -102,7 +107,7 @@ Specification
 
 -   **baseline-shift**
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -140,7 +145,7 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -148,10 +153,3 @@ Specification
 -   [**SVGTSpanElement**](/svg/elements/tspan)
 -   [**SVGTextPathElement**](/svg/elements/textPath)
 -   [**dominantBaseline**](/svg/attributes/dominant-baseline)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

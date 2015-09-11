@@ -1,17 +1,20 @@
 ---
 title: polyline
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/37caee51f773695efdd4'
+notes:
+  - 'Fix multiple broken links'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGPolylineElement](/w/index.php?title=dom/SVGPolylineElement&action=edit&redlink=1)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The polyline element is a SVG basic shape to create a series of lines connecting several points. Usually, a polyline is used to create open shapes.'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Fix multiple broken links'
-summary: 'The polyline element is a SVG basic shape to create a series of lines connecting several points. Usually, a polyline is used to create open shapes.'
-code_samples:
-  - 'http://gist.github.com/37caee51f773695efdd4'
-uri: svg/elements/polyline
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -21,43 +24,44 @@ todo_broken_links:
     - svg/attributes/externalResourcesRequired
     - svg/attributes/transform
     - svg/attributes/points
+uri: svg/elements/polyline
 
 ---
-# polyline
-
-## Summary
+## <span>Summary</span>
 
 The polyline element is a SVG basic shape to create a series of lines connecting several points. Usually, a polyline is used to create open shapes.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGPolylineElement](/w/index.php?title=dom/SVGPolylineElement&action=edit&redlink=1)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the polyline element is used to draw a gold polyline inside an inline SVG element.
 
+``` html
 
 
-    <svg width="400" height="400"  version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <polyline points="50,50 150,120 100,220 200,150" stroke="gold" stroke-width="1" fill="none" />
-    </svg>
+<svg width="400" height="400"  version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <polyline points="50,50 150,120 100,220 200,150" stroke="gold" stroke-width="1" fill="none" />
+</svg>
+```
 
 </pre>
 [View live example](http://code.webplatform.org/gist/37caee51f773695efdd4)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 Typically, **polyline** elements define open shapes. **Note:** You cannot provide an odd number of coordinates.
 
-### Attributes
+### <span>Attributes</span>
 
-#### Global attributes
+#### <span>Global attributes</span>
 
 -   [**Conditional processing attributes**](/svg/attributes#Conditional_Processing_Attributes)
 -   [**Core attributes**](/svg/attributes#Core_Attributes)
@@ -69,15 +73,15 @@ Typically, **polyline** elements define open shapes. **Note:** You cannot provid
 -   [**externalResourcesRequired**](/w/index.php?title=svg/attributes/externalResourcesRequired&action=edit&redlink=1)
 -   [**transform**](/w/index.php?title=svg/attributes/transform&action=edit&redlink=1)
 
-#### Specific attributes
+#### <span>Specific attributes</span>
 
 -   [**points**](/w/index.php?title=svg/attributes/points&action=edit&redlink=1)
 
-### DOM Interface
+### <span>DOM Interface</span>
 
 This element implements the [**SVGPolylineElement**](/w/index.php?title=dom/SVGPolylineElement&action=edit&redlink=1) interface.
 
-### Members
+### <span>Members</span>
 
 The **SVGPolylineElement** object has these events:
 
@@ -129,17 +133,9 @@ The **SVGPolylineElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [The 'polyline' element](http://www.w3.org/TR/SVG11/shapes.html#PolylineElement)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 
 {{

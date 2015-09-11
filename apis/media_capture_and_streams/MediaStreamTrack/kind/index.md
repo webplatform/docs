@@ -1,5 +1,19 @@
 ---
 title: kind
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/media_capture_and_streams/MediaStreamTrack
+    href: /apis/media_capture_and_streams/MediaStreamTrack
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/media_capture_and_streams/MediaStreamTrack
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the string &quot;audio&quot; if the object represents an audio track or &quot;video&quot; if object represents a video track.'
 tags:
   0: API
   1: Object
@@ -8,33 +22,26 @@ tags:
   5: Capture
   6: and
   7: Streams
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Returns the string "audio" if the object represents an audio track or "video" if object represents a video track.'
 uri: 'apis/media capture and streams/MediaStreamTrack/kind'
 
 ---
-# kind
+## <span>Summary</span>
 
-## Summary
+Returns the string &quot;audio&quot; if the object represents an audio track or &quot;video&quot; if object represents a video track.
 
-Returns the string "audio" if the object represents an audio track or "video" if object represents a video track.
+Property of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)</span></span>
+## <span>Syntax</span>
 
-## Syntax
+**Note**: This property is read-only.
 
-***Note**: This property is read-only.*
-
-``` {.js}
+``` js
 var result = track.kind;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 

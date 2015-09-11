@@ -1,55 +1,55 @@
 ---
 title: tFoot
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'summary, clean-up of MSDN import'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLTableElement
+    href: /dom/HTMLTableElement
+standardization_status: Unknown
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Not Ready'
-standardization_status: Unknown
-notes:
-  - 'summary, clean-up of MSDN import'
 uri: dom/HTMLTableElement/tFoot
 
 ---
-# tFoot
+Property of [dom/HTMLTableElement](/dom/HTMLTableElement)[dom/HTMLTableElement](/dom/HTMLTableElement)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLTableElement](/dom/HTMLTableElement)</span></span>
+## <span>Syntax</span>
 
-## Syntax
-
-``` {.js}
+``` js
 var result = element.tFoot;
 element.tFoot = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
 This example sets the color of the **tFoot** object to blue.
 
-    document.all.myTable.tFoot.style.color = "blue"
+``` html
+document.all.myTable.tFoot.style.color = "blue"
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 If the table doesn't have a foot section, the value for the property is null. If multiple table feet are listed in on a document, only the first one is treated as the foot of the table.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 1 Specification](http://go.microsoft.com/fwlink/p/?linkid=161725), Section 2.5.5
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `table`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

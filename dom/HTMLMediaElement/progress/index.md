@@ -1,55 +1,95 @@
 ---
 title: progress
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples, clean-up of MSDN import'
+readiness: 'In Progress'
+summary: 'Fires to indicate progress while downloading media data.'
 tags:
   - Events
   - API
   - Audio
   - DOM
   - Video
-readiness: 'In Progress'
-notes:
-  - 'examples, clean-up of MSDN import'
-summary: 'Fires to indicate progress while downloading media data.'
 uri: dom/HTMLMediaElement/progress
 
 ---
-# progress
-
-## Summary
+## <span>Summary</span>
 
 Fires to indicate progress while downloading media data.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 This operation occurs while the video is loading. To invoke this event, Start playing audio or video from a website.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `audio`
 -   `audio`
@@ -58,10 +98,3 @@ Specification
 -   `video element`
 -   `video object`
 -   `window`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

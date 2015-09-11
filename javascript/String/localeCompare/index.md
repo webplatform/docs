@@ -1,20 +1,22 @@
 ---
 title: localeCompare
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/62b7ahzy(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Determines whether two strings are equivalent in the current locale.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Determines whether two strings are equivalent in the current locale.'
 uri: javascript/String/localeCompare
 
 ---
-# localeCompare
-
-## Summary
+## <span>Summary</span>
 
 Determines whether two strings are equivalent in the current locale.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     stringVar.localeCompare( stringExp )
 
@@ -24,11 +26,11 @@ Determines whether two strings are equivalent in the current locale.
 **stringExp**
 :   Required. String to compare to stringVar.
 
-## Examples
+## <span>Examples</span>
 
 The following code shows how to use **localeCompare**.
 
-``` {.js}
+``` js
 var str1 = "def";
  var str2 = "abc"
 
@@ -47,21 +49,15 @@ var str1 = "def";
  // Output: 0
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **localeCompare** performs a locale-sensitive string comparison of the stringVar and the stringExp and returns -1, 0, or +1, depending on the sort order of the system default locale.
 
 If stringVar sorts before stringExp , **localeCompare** returns -1; if stringVar sorts after stringExp , +1 is returned. A return value of zero means that the two strings are equivalent.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [toLocaleString Method (Object)](/javascript/Object/toLocaleString)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/62b7ahzy(v=vs.94).aspx)
 

@@ -1,53 +1,69 @@
 ---
 title: transition-duration
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5842067'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0s`'
+  'Applies to': "all elements,\_:before and\_:after pseudo elements"
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: interactive
+  '[Computed value](/css/concepts/computed_value)': 'Same as specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`transitionDuration`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The ''transition-duration'' property specifies the length of time a transition animation takes to complete.'
-code_samples:
-  - 'http://gist.github.com/5842067'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/transition-duration
 
 ---
-# transition-duration
-
-## Summary
+## <span>Summary</span>
 
 The 'transition-duration' property specifies the length of time a transition animation takes to complete.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0s`
+
 Applies to
 :   all elements, :before and :after pseudo elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   interactive
+
 [Computed value](/css/concepts/computed_value)
 :   Same as specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `transitionDuration`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `transition-duration: time`
 
-## Values
+## <span>Values</span>
 
 time
 :   Floating-point number, followed by a time units designator (`ms` or `s`). For more information about the supported time units, see **CSS Values and Units Reference**.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /*
   * This example gradually changes the background color
   * of a div to red over the specified duration time(3s)
@@ -60,26 +76,24 @@ div:hover{
 
 [View live example](http://code.webplatform.org/gist/5842067)
 
-## Notes
+## <span>Notes</span>
 
 Transitions respect Cascading Style Sheets (CSS) box model constraints such as [**min-width**](/css/properties/min-width). For example, if an element is declared with a [**min-width**](/css/properties/min-width) value of `50px` then a transition to a width of `25px` is not valid. In a case such as this, the transition runs for the specified duration from the start value until a valid maximum or minimum end value, as appropriate.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transitions Module Level 3](http://www.w3.org/TR/css3-transitions/#transition-duration-property), Section 2.2
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transitions
+#### <span>Transitions</span>
 
 -   [cubic-bezier](/css/functions/cubic-bezier)
 
@@ -92,10 +106,3 @@ Specification
 -   [transition-property](/css/properties/transition-property)
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,43 +1,41 @@
 ---
 title: AnimationPlayerEvent
+readiness: 'Almost Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: "Constructs a new AnimationPlayerEvent object as described in Constructing events in [DOM4].\n"
 tags:
   - API
   - Objects
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: "Constructs a new AnimationPlayerEvent object as described in Constructing events in [DOM4].\n"
 uri: 'apis/web animations/AnimationPlayerEvent'
 
 ---
-# AnimationPlayerEvent
-
-## Summary
+## <span>Summary</span>
 
 Constructs a new AnimationPlayerEvent object as described in Constructing events in [DOM4].
 
-[http://www.w3.org/TR/dom/\#constructing-events](http://www.w3.org/TR/dom/#constructing-events)
+<http://www.w3.org/TR/dom/#constructing-events>
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -58,8 +56,6 @@ Constructs a new AnimationPlayerEvent object as described in Constructing events
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -87,7 +83,4 @@ Constructs a new AnimationPlayerEvent object as described in Constructing events
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

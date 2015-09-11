@@ -1,48 +1,57 @@
 ---
 title: text-line-through-width
+notes:
+  - 'Obsolete; deletion candidate'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': ''
+  'Applies to': ''
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: ''
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'Not Ready'
+summary: 'Specifies the line width for the line-through text decoration.'
 tags:
   - CSS
   - Properties
-readiness: 'Not Ready'
-notes:
-  - 'Obsolete; deletion candidate'
-summary: 'Specifies the line width for the line-through text decoration.'
 uri: css/properties/text-line-through-width
 
 ---
-# text-line-through-width
-
-## Summary
+## <span>Summary</span>
 
 Specifies the line width for the line-through text decoration.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
-:   ``
+:
+
 Applies to
 :
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
 
-## Syntax
+## <span>Syntax</span>
 
-## Values
+## <span>Values</span>
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/)
 :   Candidate Recommendation
-

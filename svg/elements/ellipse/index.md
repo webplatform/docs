@@ -1,30 +1,32 @@
 ---
 title: ellipse
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/e44f667a01785f7a116f'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
+summary: 'The &lt;ellipse&gt; element is a common SVG shape marker used to create an elliptic shape based on the given coordinates and radius.'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
-summary: 'The <ellipse> element is a common SVG shape marker used to create an elliptic shape based on the given coordinates and radius.'
-code_samples:
-  - 'http://gist.github.com/e44f667a01785f7a116f'
 uri: svg/elements/ellipse
 
 ---
-# ellipse
+## <span>Summary</span>
 
-## Summary
+The &lt;ellipse&gt; element is a common SVG shape marker used to create an elliptic shape based on the given coordinates and radius.
 
-The \<ellipse\> element is a common SVG shape marker used to create an elliptic shape based on the given coordinates and radius.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-### Members
+### <span>Members</span>
 
 The **SVGEllipseElement** object has these events:
 
@@ -74,11 +76,11 @@ The **SVGEllipseElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the ellipse element is used to draw a skyblue-colored circle inside an inline SVG element.
 
-``` {.other}
+```
 <svg width="400" height="400">
     <ellipse cx="150" cy="100" rx="100" ry="75" fill="skyblue" />
 </svg>
@@ -86,22 +88,13 @@ In the following code example, the ellipse element is used to draw a skyblue-col
 
 [View live example](http://code.webplatform.org/gist/e44f667a01785f7a116f)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Scalable Vector Graphics: Basic Shapes](http://www.w3.org/TR/SVG11/shapes.html), Section 9.8.3]
 :   W3C Recommendation 16 August 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

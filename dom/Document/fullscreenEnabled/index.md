@@ -1,43 +1,50 @@
 ---
 title: fullscreenEnabled
+notes:
+  - 'Needs mobile compat'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Document
+    href: /dom/Document
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/Document
+standardization_status: 'W3C Working Draft'
+summary: 'Exposes the current document''s fullscreen capability, returning true if the document can display elements in fullscreen, or false if not.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs mobile compat'
-summary: 'Exposes the current document''s fullscreen capability, returning true if the document can display elements in fullscreen, or false if not.'
 uri: dom/Document/fullscreenEnabled
 
 ---
-# fullscreenEnabled
-
-## Summary
+## <span>Summary</span>
 
 Exposes the current document's fullscreen capability, returning true if the document can display elements in fullscreen, or false if not.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Document](/dom/Document)</span></span>
+Property of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = document.fullscreenEnabled;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 Returns true if document has the ability to display elements fullscreen, or false otherwise.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function canDisplayFullScreen() {
   if (document.fullscreenEnabled) {
     // document can display elements in full-screen mode
@@ -50,13 +57,11 @@ function canDisplayFullScreen() {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Fullscreen Module](http://www.w3.org/TR/fullscreen/#api)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
 Tutorial: [Using the full-screen API](http://docs.webplatform.org/wiki/tutorials/using_the_full-screen_api)

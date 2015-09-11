@@ -1,15 +1,13 @@
 ---
-title: jsfeatures
-tags:
-  - Tutorials
+title: JavaScript features tutorials
 readiness: 'Ready to Use'
 summary: 'This page contains links to JavaScript features tutorials.'
+tags:
+  - Tutorials
 uri: tutorials/jsfeatures
 
 ---
-# JavaScript features tutorials
-
-## Summary
+## <span>Summary</span>
 
 This page contains links to JavaScript features tutorials.
 

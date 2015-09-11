@@ -1,20 +1,18 @@
 ---
 title: device-width
+notes:
+  - 'Add description, specifications, compatibility.'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The media feature describes the actual width of the output device, such as the entire screen width or the page sheet width.'
 tags:
   - CSS
   - Media
   - Feature
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add description, specifications, compatibility.'
-summary: 'The media feature describes the actual width of the output device, such as the entire screen width or the page sheet width.'
 uri: 'css/media queries/device-width'
 
 ---
-# device-width
-
-## Summary
+## <span>Summary</span>
 
 The media feature describes the actual width of the output device, such as the entire screen width or the page sheet width.
 
@@ -22,19 +20,19 @@ The media feature describes the actual width of the output device, such as the e
 
 Since screen.width and the device-width media query are unreliable on mobile browsers they should not be used for responsive design purposes. Use [width](/css/media_queries/width) instead.
 
-## Syntax
+## <span>Syntax</span>
 
 -   **device-width: \<length\>**
 -   **min-device-width: \<length\>**
 -   **max-device-width: \<length\>**
 
-## Values
+## <span>Values</span>
 
 **\<length\>**
 
 *Value for the width of the device must be a [length](/css/data_types/length) value and can not be negative.*
 
-## Examples
+## <span>Examples</span>
 
 The first media query describes a device that has a screen width of exactly 320 pixels.
 
@@ -42,7 +40,7 @@ The second example describes all screen devices with a screen width of 1024 pixe
 
 The third media query describes all devices with a screen width not wider than 1023 pixels.
 
-``` {.css}
+``` css
 @media screen and ( device-width: 320px ) { … }
 
 @media screen and ( min-device-width: 1024px ) { … }
@@ -50,12 +48,11 @@ The third media query describes all devices with a screen width not wider than 1
 @media screen and ( max-device-width: 1023px ) { … }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Media Queries Level 4](http://www.w3.org/TR/mediaqueries-4/)
 :   Working Draft
+
 [Media Queries](http://www.w3.org/TR/mediaqueries-4/)
 :   Recommendation
 

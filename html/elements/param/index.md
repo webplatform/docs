@@ -1,33 +1,35 @@
 ---
 title: param
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.\nAdd history information."
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLParamElement](/dom/HTMLParamElement)'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'This element defines parameters for plugins invoked by object elements.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - "Add Category, Parent and Children information. Complete Compatibility table. Complete HTML information subsection.\nAdd history information."
-summary: 'This element defines parameters for plugins invoked by object elements.'
-uri: html/elements/param
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/properties/outerdom/outerHTML
+uri: html/elements/param
 
 ---
-# param
-
-## Summary
+## <span>Summary</span>
 
 This element defines parameters for plugins invoked by object elements.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLParamElement](/dom/HTMLParamElement)
 
-## Attributes
+## <span>Attributes</span>
 
 -   `name` = name of the parameter
     Gives the name of the parameter.
@@ -36,11 +38,11 @@ This element defines parameters for plugins invoked by object elements.
     Gives the value of the parameter.
     This attribute must be present.
 
-## Examples
+## <span>Examples</span>
 
 This example displays the Internet Explorer Data Binding component's [**outerHTML**](/w/index.php?title=dom/properties/outerdom/outerHTML&action=edit&redlink=1) so you can view the properties assigned by the **PARAM** elements. You can perform this check to gather information when debugging an **OBJECT** element's properties. You cannot edit the object's **outerHTML** property without reintializing the **outerHTML** object.
 
-``` {.html}
+``` html
 // The OBJECT CLASSID below is for the
 // Microsoft Internet Explorer Data Binding component
 // Use just the following HTML and press the button
@@ -71,7 +73,7 @@ Show Object outerHTML</BUTTON><BR/>
 
 The following example shows how the param element can be used to pass a parameter to a plugin, in this case the O3D plugin
 
-``` {.html}
+``` html
 
 <!DOCTYPE HTML>
 <html lang="en">
@@ -97,26 +99,19 @@ The following example shows how the param element can be used to pass a paramete
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **PARAM** element is valid within the **APPLET**, **EMBED**, and **OBJECT** elements. **Note**  Properties set by a **PARAM** element cannot be altered by changing the **PARAM** object. After the **APPLET**, **EMBED**, or **OBJECT** element is instantiated, the property set by the **PARAM** element cannot be changed with the **param** object. To change the object's properties, use the script properties exposed by the object.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-param-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-param-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/objects.html#edef-PARAM)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

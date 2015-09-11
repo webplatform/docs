@@ -1,41 +1,51 @@
 ---
 title: focusOffset
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.focusOffset](https://developer.mozilla.org/en-US/docs/Web/API/Selection.focusOffset) Article]'
+  - 'Microsoft Developer Network: [[focusOffset Property](http://msdn.microsoft.com/en-us/library/ie/ff974691(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Selection
+    href: /dom/Selection
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/Selection
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the number of characters that the selection''s focus is offset within the focusNode.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns the number of characters that the selection''s focus is offset within the focusNode.'
 uri: dom/Selection/focusOffset
 
 ---
-# focusOffset
-
-## Summary
+## <span>Summary</span>
 
 Returns the number of characters that the selection's focus is offset within the focusNode.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Selection](/dom/Selection)</span></span>
+Property of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var offset = selObj.focusOffset;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
 The following example uses **focusOffset** to show the offset value for the end of a selection when you release the mouse button.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -65,23 +75,14 @@ The following example uses **focusOffset** to show the offset value for the end 
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **focusOffset** typically refers to a character position within the text portion of the [**focusNode**](/dom/Selection/focusNode).
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.focusOffset](https://developer.mozilla.org/en-US/docs/Web/API/Selection.focusOffset) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[focusOffset Property](http://msdn.microsoft.com/en-us/library/ie/ff974691(v=vs.85).aspx) Article]
-

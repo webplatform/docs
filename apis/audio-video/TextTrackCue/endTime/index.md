@@ -1,39 +1,48 @@
 ---
 title: endTime
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/audio-video/TextTrackCue
+    href: /apis/audio-video/TextTrackCue
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /apis/audio-video/TextTrackCue
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The text track cue end time, in seconds.'
 tags:
   - API
   - Object
   - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The text track cue end time, in seconds.'
 uri: apis/audio-video/TextTrackCue/endTime
 
 ---
-# endTime
-
-## Summary
+## <span>Summary</span>
 
 The text track cue end time, in seconds.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)</span></span>
+Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = TextTrackCue.endTime;
 TextTrackCue.endTime = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
-## Examples
+## <span>Examples</span>
 
 This example adds start times, end times, and captions to a track.
 
-``` {.html}
+``` html
 <!DOCTYPE html >
 
 <html >
@@ -66,16 +75,8 @@ This example adds start times, end times, and captions to a track.
 </html>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
 

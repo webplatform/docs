@@ -1,101 +1,98 @@
 ---
 title: initMessageEvent
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'example, standards, compatibility'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/MessageEvent
+    href: /dom/MessageEvent
+standardization_status: 'W3C Working Draft'
+summary: 'Initializes a new cross-document message (XDM) event  that the  createEvent method created.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'example, standards, compatibility'
-summary: 'Initializes a new cross-document message (XDM) event  that the  createEvent method created.'
 uri: dom/MessageEvent/initMessageEvent
 
 ---
-# initMessageEvent
-
-## Summary
+## <span>Summary</span>
 
 Initializes a new cross-document message (XDM) event that the createEvent method created.
 
-*Method of [dom/MessageEvent](/dom/MessageEvent)*
+Method of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/MessageEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.initMessageEvent(eventType, canBubble, cancelable, data, origin, lastEventId, source);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### eventType
+### <span>eventType</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### canBubble
+### <span>canBubble</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### cancelable
+### <span>cancelable</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### data
+### <span>data</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The cross-document message. Sets the value for the [**data**](/dom/MessageEvent/data) property.
 
-### origin
+### <span>origin</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The originating domain of the message. Sets the value for the [**origin**](/dom/MessageEvent/origin) property.
 
-### lastEventId
+### <span>lastEventId</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  Not used. Set this parameter to an empty string.
 
-### source
+### <span>source</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
  A reference to the **window** that generated the event. Sets the value for the [**source**](/dom/MessageEvent/source) property.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

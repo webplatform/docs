@@ -9,11 +9,11 @@ Selectors introduces the concept of structural pseudo-classes to permit selectio
 
 Standalone text and other non-element nodes are not counted when calculating the position of an element in the list of children of its parent. When calculating the position of an element in the list of children of its parent, the index numbering starts at 1.
 
-## :root pseudo-class
+## <span>`:root` pseudo-class</span>
 
 The `:root` pseudo-class represents an element that is the root of the document. In HTML 4, this is always the `HTML` element.
 
-## :nth-child() pseudo-class
+## <span>`:nth-child()` pseudo-class</span>
 
 The `:nth-child(an+b)` pseudo-class notation represents an element that has an+b-1 siblings before it in the document tree, for any positive integer or zero value of n, and has a parent element. For values of a and b greater than zero, this effectively divides the element's children into groups of a elements (the last group taking the remainder), and selecting the bth element of each group. For example, this allows the selectors to address every other row in a table, and could be used to alternate the color of paragraph text in a cycle of four. The a and b values must be integers (positive, negative, or zero). The index of the first child of an element is 1.
 
@@ -26,9 +26,9 @@ The argument to `:nth-child()` must match the grammar below, where INTEGER match
              ['-'|'+']? INTEGER | {O}{D}{D} | {E}{V}{E}{N} ] S*
       ;
 
-### Examples:
+### <span>Examples:</span>
 
-``` {.css}
+``` css
 tr:nth-child(2n+1) /* represents every odd row of an HTML table */
 tr:nth-child(odd)  /* same */
 tr:nth-child(2n+0) /* represents every even row of an HTML table */
@@ -43,7 +43,7 @@ p:nth-child(4n+4) { color: purple; }
 
  When the value b is preceded by a negative sign, the "`+`" character in the expression must be removed (it is effectively replaced by the "`-`" character indicating the negative value of b).
 
-``` {.css}
+``` css
 :nth-child(10n-1)  /* represents the 9th, 19th, 29th, etc, element */
 :nth-child(10n+9)  /* Same */
 :nth-child(10n+-1) /* Syntactically invalid, and would be ignored */
@@ -51,14 +51,14 @@ p:nth-child(4n+4) { color: purple; }
 
  When a=0, the an part need not be included (unless the b part is already omitted). When an is not included and b is non-negative, the + sign before b (when allowed) may also be omitted. In this case the syntax simplifies to :nth-child(b).
 
-``` {.css}
+``` css
 foo:nth-child(0n+5)   /* represents an element foo that is the 5th child of its parent element */
 foo:nth-child(5)      /* same */
 ```
 
  When a=1, or a=-1, the number may be omitted from the rule. The following selectors are therefore equivalent:
 
-``` {.css}
+``` css
 bar:nth-child(1n+0)   /* represents all bar elements, specificity (0,1,1) */
 bar:nth-child(n+0)    /* same */
 bar:nth-child(n)      /* same */
@@ -67,14 +67,14 @@ bar                   /* same but lower specificity (0,0,1) */
 
  If b=0, then every ath element is picked. In such a case, the +b (or -b) part may be omitted unless the a part is already omitted.
 
-``` {.css}
+``` css
 tr:nth-child(2n+0) /* represents every even row of an HTML table */
 tr:nth-child(2n) /* same */
 ```
 
  Whitespace is permitted after the "`(`", before the "`)`", and on either side of the "`+`" or "`-`" that separates the an and b parts when both are present. Valid Examples with white space:
 
-``` {.css}
+``` css
 :nth-child( 3n + 1 )
 :nth-child( +3n - 2 )
 :nth-child( -n+ 6)
@@ -83,7 +83,7 @@ tr:nth-child(2n) /* same */
 
  Invalid Examples with white space:
 
-``` {.css}
+``` css
 :nth-child(3 n)
 :nth-child(+ 2n)
 :nth-child(+ 2)
@@ -93,63 +93,63 @@ tr:nth-child(2n) /* same */
 
 The value a can be negative, but only the positive values of an+b, for n≥0, may represent an element in the document tree.
 
-``` {.css}
+``` css
 html|tr:nth-child(-n+6)  /* represents the 6 first rows of XHTML tables */
 ```
 
-## :nth-last-child() pseudo-class
+## <span>`:nth-last-child()` pseudo-class</span>
 
 The `:nth-last-child(an+b)` pseudo-class notation represents an element that has an+b-1 siblings after it in the document tree, for any positive integer or zero value of n, and has a parent element. See `:nth-child()` pseudo-class for the syntax of its argument. It also accepts the ‘`even`’ and ‘`odd`’ values as arguments.
 
-### Examples:
+### <span>Examples:</span>
 
-``` {.css}
+``` css
 tr:nth-last-child(-n+2)    /* represents the two last rows of an HTML table */
 
 foo:nth-last-child(odd)    /* represents all odd foo elements in their parent element,
 counting from the last one */
 ```
 
-## :nth-of-type() pseudo-class
+## <span>`:nth-of-type()` pseudo-class</span>
 
 The `:nth-of-type(an+b)` pseudo-class notation represents an element that has an+b-1 siblings with the same expanded element name before it in the document tree, for any zero or positive integer value of n, and has a parent element. See `:nth-child()` pseudo-class for the syntax of its argument. It also accepts the ‘`even`’ and ‘`odd`’ values.
 
 This allows an author to alternate the position of floated images:
 
-``` {.css}
+``` css
 img:nth-of-type(2n+1) { float: right; }
 img:nth-of-type(2n) { float: left; }
 ```
 
-## :nth-last-of-type() pseudo-class
+## <span>`:nth-last-of-type()` pseudo-class</span>
 
 The `:nth-last-of-type(an+b)` pseudo-class notation represents an element that has an+b-1 siblings with the same expanded element name after it in the document tree, for any zero or positive integer value of n, and has a parent element. See `:nth-child()` pseudo-class for the syntax of its argument. It also accepts the ‘`even`’ and ‘`odd`’ values.
 
 To represent all h2 children of an XHTML body except the first and last, one could use the following selector:
 
-``` {.css}
+``` css
 body > h2:nth-of-type(n+2):nth-last-of-type(n+2)
 ```
 
 In this case, one could also use :not(), although the selector ends up being just as long:
 
-``` {.css}
+``` css
 body > h2:not(:first-of-type):not(:last-of-type)
 ```
 
-## :first-child pseudo-class
+## <span>`:first-child` pseudo-class</span>
 
 Same as `:nth-child(1)`. The `:first-child` pseudo-class represents an element that is the first child of some other element.
 
 The following selector represents a p element that is the first child of a div element:
 
-``` {.css}
+``` css
 div > p:first-child
 ```
 
 This selector can represent the p inside the div of the following fragment:
 
-``` {.html}
+``` html
 <p> The last P before the note.</p>
 <div class="note">
    <p> The first P inside the note.</p>
@@ -158,7 +158,7 @@ This selector can represent the p inside the div of the following fragment:
 
 but cannot represent the second p in the following fragment:
 
-``` {.html}
+``` html
 <p> The last P before the note.</p>
 <div class="note">
    <h2> Note </h2>
@@ -168,34 +168,34 @@ but cannot represent the second p in the following fragment:
 
 The following two selectors are usually equivalent:
 
-``` {.css}
+``` css
 * > a:first-child /* a is first child of any element */
 a:first-child /* Same (assuming a is not the root element) */
 ```
 
-## :last-child pseudo-class
+## <span>`:last-child` pseudo-class</span>
 
 Same as `:nth-last-child(1)`. The `:last-child` pseudo-class represents an element that is the last child of some other element.
 
 The following selector represents a list item li that is the last child of an ordered list ol.
 
-``` {.css}
+``` css
 ol > li:last-child
 ```
 
-## :first-of-type pseudo-class
+## <span>`:first-of-type` pseudo-class</span>
 
 Same as `:nth-of-type(1)`. The `:first-of-type` pseudo-class represents an element that is the first sibling of its type in the list of children of its parent element.
 
 The following selector represents a definition title `dt` inside a definition list `dl`, this `dt` being the first of its type in the list of children of its parent element.
 
-``` {.css}
+``` css
 dl dt:first-of-type
 ```
 
 It is a valid description for the first two `dt` elements in the following example but not for the third one:
 
-``` {.html}
+``` html
 <dl>
  <dt>gigogne</dt>
  <dd>
@@ -209,37 +209,37 @@ It is a valid description for the first two `dt` elements in the following examp
 </dl>
 ```
 
-## :last-of-type pseudo-class
+## <span>`:last-of-type` pseudo-class</span>
 
 Same as `:nth-last-of-type(1)`. The `:last-of-type` pseudo-class represents an element that is the last sibling of its type in the list of children of its parent element.
 
 The following selector represents the last data cell td of a table row `tr`.
 
-``` {.css}
+``` css
 tr > td:last-of-type
 ```
 
-## :only-child pseudo-class
+## <span>`:only-child` pseudo-class</span>
 
 Represents an element that has a parent element and whose parent element has no other element children. Same as `:first-child:last-child` or `:nth-child(1):nth-last-child(1)`, but with a lower specificity.
 
-## :only-of-type pseudo-class
+## <span>`:only-of-type` pseudo-class</span>
 
 Represents an element that has a parent element and whose parent element has no other element children with the same expanded element name. Same as `:first-of-type:last-of-type` or `:nth-of-type(1):nth-last-of-type(1)`, but with a lower specificity.
 
-## :empty pseudo-class
+## <span>`:empty` pseudo-class</span>
 
 The `:empty` pseudo-class represents an element that has no children at all. In terms of the document tree, only element nodes and content nodes (such as DOM [[DOM-LEVEL-3-CORE](http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#DOM-LEVEL-3-CORE)] text nodes, CDATA nodes, and entity references) whose data has a non-zero length must be considered as affecting emptiness; comments, processing instructions, and other nodes must not affect whether an element is considered empty or not.
 
 p:empty is a valid representation of the following fragment:
 
-``` {.html}
+``` html
 <p></p>
 ```
 
 foo:empty is not a valid representation for the following fragments:
 
-``` {.html}
+``` html
 <foo>bar</foo>
 
 <foo><bar>bla</bar></foo>

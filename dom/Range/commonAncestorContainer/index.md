@@ -1,41 +1,51 @@
 ---
 title: commonAncestorContainer
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.commonAncestorContainer](https://developer.mozilla.org/en-US/docs/Web/API/Range.commonAncestorContainer) Article]'
+  - 'Microsoft Developer Network: [[commonAncestorContainer Property](http://msdn.microsoft.com/en-us/library/ie/ff974926(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Range
+    href: /dom/Range
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/Range
+standardization_status: 'W3C Recommendation'
+summary: 'Returns the deepest node in which two boundary points exist.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Returns the deepest node in which two boundary points exist.'
 uri: dom/Range/commonAncestorContainer
 
 ---
-# commonAncestorContainer
-
-## Summary
+## <span>Summary</span>
 
 Returns the deepest node in which two boundary points exist.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Range](/dom/Range)</span></span>
+Property of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var rangeAcestor = range.commonAncestorContainer;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 Node that contains both the Range.startContainer and Range.endContainer nodes.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var range = document.createRange();
 
 range.setStart(startNode,startOffset);
@@ -43,26 +53,15 @@ range.setEnd(endNode,endOffset);
 rangeAncestor = range.commonAncestorContainer;
 ```
 
-### Syntax
+### <span>Syntax</span>
 
 rangeAncestor = range.commonAncestorContainer;
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM](http://dom.spec.whatwg.org/#dom-range-commonancestorcontainer)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.commonAncestorContainer](https://developer.mozilla.org/en-US/docs/Web/API/Range.commonAncestorContainer) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[commonAncestorContainer Property](http://msdn.microsoft.com/en-us/library/ie/ff974926(v=vs.85).aspx) Article]
-

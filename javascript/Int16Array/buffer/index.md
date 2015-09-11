@@ -1,28 +1,30 @@
 ---
 title: buffer
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212908(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Read-only. Gets the ArrayBuffer that is referenced by this array.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Read-only. Gets the ArrayBuffer that is referenced by this array.'
 uri: javascript/Int16Array/buffer
 
 ---
-# buffer
-
-## Summary
+## <span>Summary</span>
 
 Read-only. Gets the ArrayBuffer that is referenced by this array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     var arrayBuffer = int16Array.buffer;
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to get the ArrayBuffer of the array.
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -37,10 +39,4 @@ var req = new XMLHttpRequest();
          }
      }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212908(v=vs.94).aspx)
 

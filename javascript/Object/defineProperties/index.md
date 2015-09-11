@@ -1,20 +1,22 @@
 ---
 title: defineProperties
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff800817(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Adds one or more properties to an object, and/or modifies attributes of existing properties.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Adds one or more properties to an object, and/or modifies attributes of existing properties.'
 uri: javascript/Object/defineProperties
 
 ---
-# defineProperties
-
-## Summary
+## <span>Summary</span>
 
 Adds one or more properties to an object, and/or modifies attributes of existing properties.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     object.defineProperties( object , descriptors )
 
@@ -24,11 +26,11 @@ Adds one or more properties to an object, and/or modifies attributes of existing
 **descriptors**
 :   Required. A JavaScript object that contains one or more descriptor objects. Each descriptor object describes a data property or an accessor property.
 
-## Return Value
+## <span>Return Value</span>
 
 The object that was passed to the function.
 
-## Examples
+## <span>Examples</span>
 
 **Adding Properties**
 
@@ -36,7 +38,7 @@ In the following example, the **Object.defineProperties** function adds a data p
 
 The example uses an object literal to create the descriptors object with the `newDataProperty` and `newAccessorProperty` descriptor objects.
 
-``` {.js}
+``` js
 var newLine = "<br />";
 
 var obj = {};
@@ -72,7 +74,7 @@ document.write ("newAccessorProperty value: " + obj.newAccessorProperty + newLin
 
 Like the previous example, the following example adds properties dynamically instead of with an object literal.
 
-``` {.js}
+``` js
 var newLine = "<br />";
 
 // Create the descriptors object.
@@ -116,7 +118,7 @@ document.write ("newAccessorProperty value: " + obj.newAccessorProperty + newLin
 
 To modify property attributes for the object, add the following code. The **Object.defineProperties** function modifies the writable attribute of `newDataProperty` , and modifies the enumerable attribute of `newAccessorProperty`. It adds `anotherDataProperty` to the object because that property name does not already exist.
 
-``` {.js}
+``` js
 Object.defineProperties(obj, {
         newDataProperty: { writable: false },
         newAccessorProperty: { enumerable: false },
@@ -124,7 +126,7 @@ Object.defineProperties(obj, {
     });
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The descriptors argument is an object that contains one or more descriptor objects.
 
@@ -136,19 +138,13 @@ If the object already has a property that has the specified name, the property a
 
 To create an object and add properties to the new object, you can use the [Object.create Function](/javascript/Object/create).
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Object.getOwnPropertyDescriptor Function](/javascript/Object/getOwnPropertyDescriptor)
 -   [Object.getOwnPropertyNames Function](/javascript/Object/getOwnPropertyNames)
 -   [Object.defineProperty Function](/javascript/Object/defineProperty)
 -   [Object.create Function](/javascript/Object/create)
 -   [Object Object](/javascript/Object)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff800817(v=vs.94).aspx)
 

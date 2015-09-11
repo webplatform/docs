@@ -1,41 +1,42 @@
 ---
 title: CanvasGradient
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'An opaque object of the canvas API.'
 tags:
   0: API
   1: Objects
   3: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'An opaque object of the canvas API.'
 uri: apis/canvas/CanvasGradient
 
 ---
-# CanvasGradient
-
-## Summary
+## <span>Summary</span>
 
 An opaque object of the canvas API.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [addColorStop](/apis/canvas/CanvasGradient/addColorStop)
 :   Adds a new stop to a gradient. If *offset* is less than 0 or greater than 1 then an IndexSizeError exception must be thrown. If the color cannot be parsed as a CSS \<color\> value, then a SyntaxError exception must be thrown. Otherwise the gradient must have a new stop placed, at offset *offset* relative to the whole gradient, and with the color obtained by parsing *color* as a CSS \<color\> value.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 The following code example creates a gradient.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,20 +71,11 @@ The following code example creates a gradient.
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
 You can create a linear or radial **CanvasGradient** object by using the **createLinearGradient** or **createRadialGradient** method. A **CanvasGradient** object must have at least one **color stop** or the gradient is not visible.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

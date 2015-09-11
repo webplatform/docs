@@ -1,95 +1,99 @@
 ---
 title: getContext
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - "\nMove Candidate:   Probably should be under HTML5 canvas element. See HTML5 specification.\n\n"
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/HTMLCanvasElement
+    href: /dom/HTMLCanvasElement
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/HTMLCanvasElement
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-notes:
-  - "\nMove Candidate:   Probably should be under HTML5 canvas element. See HTML5 specification.\n\n"
 uri: canvas/methods/getContext
 
 ---
-# getContext
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [dom/HTMLCanvasElement](/dom/HTMLCanvasElement)*
+Method of [dom/HTMLCanvasElement](/dom/HTMLCanvasElement)[dom/HTMLCanvasElement](/dom/HTMLCanvasElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.getContext(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### contextId
+### <span>contextId</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The identifier (ID) of the type of canvas to create.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **ICanvasRenderingContext2D**
 
 The context object.
 
-## Examples
+## <span>Examples</span>
 
 The following code example uses **getContext** to get a context to use to show a filled rectangle and filled text.
 
-    <!DOCTYPE html>
-    <head>
-      <script type="text/javascript">
-    function draw()
+``` html
+<!DOCTYPE html>
+<head>
+  <script type="text/javascript">
+function draw()
+{
+  var canvas = document.getElementById("MyCanvas");
+  if (canvas.getContext)
     {
-      var canvas = document.getElementById("MyCanvas");
-      if (canvas.getContext)
-        {
-        var ctx = canvas.getContext("2d");
-        ctx.font = "italic 36px/2 Unknown Font, sans-serif";
-        ctx.fillStyle = "blue";
-        ctx.fillRect(0,0,canvas.width,canvas.height);
-        ctx.fillStyle = "white";
-        ctx.fillText ("Hello World",canvas.width/2,canvas.height*.8);
-        }
+    var ctx = canvas.getContext("2d");
+    ctx.font = "italic 36px/2 Unknown Font, sans-serif";
+    ctx.fillStyle = "blue";
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+    ctx.fillStyle = "white";
+    ctx.fillText ("Hello World",canvas.width/2,canvas.height*.8);
     }
-    </script>
-    </head>
-    <body onload="draw()" bgcolor="lightgray" >
-          <div>
-            <canvas id="MyCanvas" width="500" height="500" > </canvas>
-          </div>
-      </body>
-    </html>
+}
+</script>
+</head>
+<body onload="draw()" bgcolor="lightgray" >
+      <div>
+        <canvas id="MyCanvas" width="500" height="500" > </canvas>
+      </div>
+  </body>
+</html>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **getContext** method returns null if the *contextId* value is not supported.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [The canvas element](http://go.microsoft.com/fwlink/p/?linkid=197017), Section 4.8.11
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `canvas`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

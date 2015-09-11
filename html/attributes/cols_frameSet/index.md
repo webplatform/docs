@@ -1,57 +1,63 @@
 ---
 title: cols (frameSet)
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+summary: 'Sets or retrieves the number of columns in the table.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Sets or retrieves the number of columns in the table.'
-uri: 'html/attributes/cols (frameSet)'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'dom/properties/rows (frameSet, cols)'
+uri: 'html/attributes/cols (frameSet)'
 
 ---
-# cols (frameSet)
-
-## Summary
+## <span>Summary</span>
 
 Sets or retrieves the number of columns in the table.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-## Examples
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example defines a two-column frame, with the first occupying 40 percent of the available width and the second occupying the remaining 60 percent.
 
-    <FRAMESET COLS="40%, 60%">
+``` html
+<FRAMESET COLS="40%, 60%">
+```
 
 This example defines a four-column frame. The first is 50 pixels wide, and the fourth is 80 pixels wide. The second occupies two-thirds of the remaining width, while the third occupies the final third of the remaining width.
 
-    <FRAMESET COLS="50, 2*, *, 80">
+``` html
+<FRAMESET COLS="50, 2*, *, 80">
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The number of comma-separated items is equal to the number of frames contained within the **frameSet**, while the value of each item determines the frame width.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `frameSet`
 -   `rows`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

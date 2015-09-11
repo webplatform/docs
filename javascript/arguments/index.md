@@ -1,20 +1,22 @@
 ---
 title: arguments
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/87dw3w1k(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'An object representing the arguments to the currently executing function, and the functions that called it.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'An object representing the arguments to the currently executing function, and the functions that called it.'
 uri: javascript/arguments
 
 ---
-# arguments
-
-## Summary
+## <span>Summary</span>
 
 An object representing the arguments to the currently executing function, and the functions that called it.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     [ function . ] arguments[ n ]
 
@@ -24,11 +26,11 @@ An object representing the arguments to the currently executing function, and th
 **n**
 :   Required. The zero-based index to argument values passed to the Function object.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **arguments** object.
 
-``` {.js}
+``` js
 function ArgTest(a, b)
  {
     var s = "";
@@ -56,21 +58,15 @@ function ArgTest(a, b)
  // The individual arguments are: 1 2 hello Tues Jan 8 08:27:09 PST 20xx
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 You cannot explicitly create an **arguments** object. The **arguments** object only becomes available when a function begins execution. The **arguments** object of the function is not an array, but the individual arguments are accessed the same way array elements are accessed. The index n is actually a reference to one of the **0** n properties of the **arguments** object.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [0...n Properties (arguments)](/javascript/arguments/0_n_Properties)
 -   [callee Property (arguments)](/javascript/arguments/callee)
 -   [length Property (arguments)](/javascript/arguments/length)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/87dw3w1k(v=vs.94).aspx)
 

@@ -1,32 +1,41 @@
 ---
 title: dir
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://www.w3.org/International/php/examples/generate?data=bidi&test=18'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'Global attribute. Specifies the element’s text directionality.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Global attribute. Specifies the element’s text directionality.'
-code_samples:
-  - 'http://www.w3.org/International/php/examples/generate?data=bidi&test=18'
-uri: html/attributes/dir
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'dom/properties/dir (Document object)'
+uri: html/attributes/dir
 
 ---
-# dir
-
-## Summary
+## <span>Summary</span>
 
 Global attribute. Specifies the element’s text directionality.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 dir = "ltr" or "rtl" or "auto"
 
 Internationalization topics related to the `dir` attribute:
@@ -37,11 +46,11 @@ Internationalization topics related to the `dir` attribute:
 -   [Mixing text direction inline](http://www.w3.org/International/techniques/authoring-html#inline)
 -   [Overriding the Unicode bidirectional algorithm](http://www.w3.org/International/techniques/authoring-html#bdo)
 
-## Examples
+## <span>Examples</span>
 
 For pages in Arabic, Hebrew, Persian, Thaana, Urdu, etc. set the default direction of the page to right-to-left by including dir in the html tag.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -50,15 +59,15 @@ For pages in Arabic, Hebrew, Persian, Thaana, Urdu, etc. set the default directi
 
 To make the exclamation mark appear to the left of the citation, surround the citation with markup and add a dir attribute.
 
-``` {.html}
+``` html
 <p>The title is "<span dir="rtl" lang="ar" xml:lang="ar">مفتاح معايير الويب!</span>" in Arabic.</p>
 ```
 
 [View live example](http://www.w3.org/International/php/examples/generate?data=bidi&test=18)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Unless explicitly set, the **dir** property has no return value when accessed in script. The property does not affect alphanumeric characters in Latin documents. These characters always render **ltr**. However, the property does affect punctuation characters in Latin documents. For example, punctuation marks such as periods and question marks render to the left of a sentence when the [**dir**](/w/index.php?title=dom/properties/dir_(Document_object)&action=edit&redlink=1) property is set to **rtl**. The real benefit of this attribute is when using **rtl** languages such as Arabic and Hebrew. These can be some of the most challenging languages to write **HTML** with especially because html in itself is a left-to-right programming language.
 
@@ -70,11 +79,11 @@ For more information see the following links:
 -   [Mixing text direction inline](http://www.w3.org/International/techniques/authoring-html#inline)
 -   [Handling parentheses and other mirrored characters](http://www.w3.org/International/techniques/authoring-html#mirrored)
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `a`
 -   `abbr`
@@ -165,10 +174,3 @@ For more information see the following links:
 -   `direction`
 -   `Conceptual`
 -   `HTML Character Sets`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

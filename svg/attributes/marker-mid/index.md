@@ -1,35 +1,44 @@
 ---
 title: marker-mid
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs all content'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Needs all content'
 uri: svg/attributes/marker-mid
 
 ---
-# marker-mid
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
     marker-mid: none | funciri | inherit
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Painting, Filling, Stroking and Marker Symbols](http://go.microsoft.com/fwlink/p/?linkid=199816), Section 11.6.3
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**CSSStyleDeclaration**](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 -   [**currentStyle**](/css/cssom/currentStyle)
@@ -39,15 +48,8 @@ Applies to
 -   [**SVGPolylineElement**](/svg/elements/polyline)
 -   [**SVGPolygonElement**](/svg/elements/polygon)
 
-### Reference
+### <span>Reference</span>
 
 -   [**marker**](/svg/attributes/marker)
 -   [**markerStart**](/svg/attributes/marker-start)
 -   [**markerEnd**](/svg/attributes/marker-end)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

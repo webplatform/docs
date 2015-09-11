@@ -1,28 +1,31 @@
 ---
 title: onblocked
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBOpenDBRequest
+    href: /apis/indexeddb/IDBOpenDBRequest
+summary: 'The event handler for the blocked event. This event is triggered when the upgradeneeded should be triggered because of a version change but the database is still in use (ie not closed) somewhere, even after the versionchange event was sent.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'The event handler for the blocked event. This event is triggered when the upgradeneeded should be triggered because of a version change but the database is still in use (ie not closed) somewhere, even after the versionchange event was sent.'
 uri: apis/indexeddb/IDBOpenDBRequest/onblocked
 
 ---
-# onblocked
-
-## Summary
+## <span>Summary</span>
 
 The event handler for the blocked event. This event is triggered when the upgradeneeded should be triggered because of a version change but the database is still in use (ie not closed) somewhere, even after the versionchange event was sent.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBOpenDBRequest](/apis/indexeddb/IDBOpenDBRequest)</span></span>
+Property of [apis/indexeddb/IDBOpenDBRequest](/apis/indexeddb/IDBOpenDBRequest)[apis/indexeddb/IDBOpenDBRequest](/apis/indexeddb/IDBOpenDBRequest)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.onblocked;
 element.onblocked = value;
 ```

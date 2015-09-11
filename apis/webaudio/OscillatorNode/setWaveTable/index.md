@@ -1,51 +1,55 @@
 ---
 title: setWaveTable
+notes:
+  - 'Not in spec; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webaudio/OscillatorNode
+    href: /apis/webaudio/OscillatorNode
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/webaudio/OscillatorNode
+standardization_status: 'W3C Editor''s Draft'
+summary: "Sets an arbitrary custom periodic waveform given a WaveTable.\n"
 tags:
   0: API
   1: Object
   2: Methods
   4: WebAudio
-readiness: 'Not Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Not in spec; deletion candidate. See http://webaudio.github.io/web-audio-api/.'
-summary: "Sets an arbitrary custom periodic waveform given a WaveTable.\n"
 uri: apis/webaudio/OscillatorNode/setWaveTable
 
 ---
-# setWaveTable
-
-## Summary
+## <span>Summary</span>
 
 Sets an arbitrary custom periodic waveform given a WaveTable.
 
-**Not in spec; deletion candidate. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+**Not in spec; deletion candidate. See <http://webaudio.github.io/web-audio-api/>.**
 
-*Method of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)*
+Method of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = OscillatorNode.setWaveTable(waveTable);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### waveTable
+### <span>waveTable</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

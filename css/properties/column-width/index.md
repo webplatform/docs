@@ -1,47 +1,63 @@
 ---
 title: column-width
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5305475'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'non-replaced block-level elements (except table elements), table cells, and inline-block elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'the absolute length, zero or larger'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`columnWidth`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the width of columns in multi-column elements.'
-code_samples:
-  - 'http://gist.github.com/5305475'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/column-width
 
 ---
-# column-width
-
-## Summary
+## <span>Summary</span>
 
 Specifies the width of columns in multi-column elements.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   non-replaced block-level elements (except table elements), table cells, and inline-block elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   the absolute length, zero or larger
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `columnWidth`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `column-width: auto`
 -   `column-width: length`
 
-## Values
+## <span>Values</span>
 
 length
 :   A floating-point number, followed by either an absolute units designator
@@ -51,11 +67,11 @@ length
 auto
 :   Default. The optimal column width is determined through other property values of the multi-column element, such as [**columnCount**](/css/properties/column-count).
 
-## Examples
+## <span>Examples</span>
 
 Makes as many columns that are 100px as there is space in the browser.
 
-``` {.css}
+``` css
 /*
 Makes as many columns that are 100px as there is space in the browser.
 */
@@ -68,24 +84,22 @@ Makes as many columns that are 100px as there is space in the browser.
 
 [View live example](http://code.webplatform.org/gist/5305475)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The actual column width may vary from the value specified due to available space. To ensure that the exact value specified for this property is used, all property values of the multi-column element that pertain to length (such as width, column-width, column-gap, and column-rule-width) must be specified.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -110,10 +124,3 @@ Specification
 -   **column-width**
 
 -   [content](/css/properties/content)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

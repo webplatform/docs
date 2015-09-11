@@ -1,34 +1,41 @@
 ---
 title: type
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/OscillatorNode
+    href: /apis/webaudio/OscillatorNode
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned short'
+    href: /apis/webaudio/OscillatorNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The setWaveTable() method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The setWaveTable() method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.'
 uri: apis/webaudio/OscillatorNode/type
 
 ---
-# type
-
-## Summary
+## <span>Summary</span>
 
 The shape of the periodic waveform. It may directly be set to any of the type constant values except for CUSTOM. The setWaveTable() method can be used to set a custom waveform, which results in this attribute being set to CUSTOM.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)</span></span>
+Property of [apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)[apis/webaudio/OscillatorNode](/apis/webaudio/OscillatorNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = OscillatorNode.type;
 OscillatorNode.type = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+Returns an object of type unsigned shortunsigned short
 
 Uses one of the following constant values:
 
@@ -38,17 +45,14 @@ Uses one of the following constant values:
 -   TRIANGLE (3);
 -   CUSTOM (4).
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var oscillator = audioCtx.createOscillator();
 oscillator.type = 'square';
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

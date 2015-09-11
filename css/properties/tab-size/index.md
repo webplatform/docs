@@ -1,45 +1,59 @@
 ---
 title: tab-size
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size)'
+code_samples:
+  - 'http://gist.github.com/5673098'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`8`'
+  'Applies to': 'block containers'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'the specified integer or an absolute length'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The tab-size CSS property is used to customise the width of a tab (U+0009) character.'
-code_samples:
-  - 'http://gist.github.com/5673098'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/tab-size
 
 ---
-# tab-size
-
-## Summary
+## <span>Summary</span>
 
 The tab-size CSS property is used to customise the width of a tab (U+0009) character.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `8`
+
 Applies to
 :   block containers
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   the specified integer or an absolute length
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `tab-size: <integer>`
 -   `tab-size: inherit`
 
-## Values
+## <span>Values</span>
 
 \<integer\>
 :   The number of spaces in a tab. Must be positive.
@@ -47,11 +61,11 @@ Animatable
 inherit
 :   Inherits from the parent element.
 
-## Examples
+## <span>Examples</span>
 
 Example of using different tab-size.
 
-``` {.css}
+``` css
 /**
 Examples of using the tab-size prop
 */
@@ -75,20 +89,11 @@ Examples of using the tab-size prop
 
 [View live example](http://code.webplatform.org/gist/5673098)
 
-## Notes
+## <span>Notes</span>
 
 The tab character (unicode U+0009) is converted to space characters (unicode U+0020) by the white space rule (default is normal) which collapses multiple white space characters. Therefor this rule only makes sense inside a parent that cancels the white-space rule. For example the pre tag (which does this by default, setting it to pre-wrap) . See the example.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://dev.w3.org/csswg/css-text/)
 :   Editor's draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size)
-

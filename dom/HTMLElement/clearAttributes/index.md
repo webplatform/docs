@@ -1,83 +1,87 @@
 ---
 title: clearAttributes
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clearAttributes.htm'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/HTMLElement
 tags:
   - API
   - Object
   - Methods
   - DOM
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clearAttributes.htm'
 uri: dom/HTMLElement/clearAttributes
 
 ---
-# clearAttributes
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [dom/HTMLElement](/dom/HTMLElement)*
+Method of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.clearAttributes();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
-
-Type: **HRESULT**
-
-If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## Examples
+Type: **HRESULT**
+
+If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
+
+## <span>Examples</span>
 
 This example uses the **clearAttributes** method to remove user-defined attributes from an element.
 
-    <SCRIPT>
-    function fnClear(){
-       oSource.children[0].clearAttributes();
-    }
-    </SCRIPT>
-    <SPAN ID=oSource>
-    <DIV
-       ID="oDiv"
-       ATTRIBUTE1="true"
-       ATTRIBUTE2="true"
-       onclick="alert('click');"
-       onmouseover="this.style.color='#0000FF';"
-       onmouseout="this.style.color='#000000';"
-    >
-    This is a sample <b>DIV</b> element.
-    </DIV>
-    </SPAN>
-    <INPUT
-       TYPE="button"
-       VALUE="Clear Attributes"
-       onclick="fnClear()"
-    >
+``` html
+<SCRIPT>
+function fnClear(){
+   oSource.children[0].clearAttributes();
+}
+</SCRIPT>
+<SPAN ID=oSource>
+<DIV
+   ID="oDiv"
+   ATTRIBUTE1="true"
+   ATTRIBUTE2="true"
+   onclick="alert('click');"
+   onmouseover="this.style.color='#0000FF';"
+   onmouseout="this.style.color='#000000';"
+>
+This is a sample <b>DIV</b> element.
+</DIV>
+</SPAN>
+<INPUT
+   TYPE="button"
+   VALUE="Clear Attributes"
+   onclick="fnClear()"
+>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clearAttributes.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **clearAttributes** method clears only persistent HTML attributes. The ID attribute, styles, and script-only properties are not affected.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

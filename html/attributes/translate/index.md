@@ -1,25 +1,32 @@
 ---
 title: translate
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The translate attribute indicates whether the element’s content and attribute values should be translated or not.'
 tags:
   - Markup
   - Attributes
   - HTML
   - Internationalization
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The translate attribute indicates whether the element’s content and attribute values should be translated or not.'
 uri: html/attributes/translate
 
 ---
-# translate
-
-## Summary
+## <span>Summary</span>
 
 The translate attribute indicates whether the element’s content and attribute values should be translated or not.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLElement](/dom/HTMLElement)
 
+</th>
+<td>
+[HTMLElement](/dom/HTMLElement)
+
+</td>
+</tr>
+</table>
 Two values allowed: "yes" and "no". The information will be inherited. When no translate flag is set, "yes" is default.
 
 Some automated translation services apply "no" to elements like the code element.
@@ -28,9 +35,9 @@ Elements with translate attributes of different values may be nested to indicate
 
 Overwriting "no" with "yes" is not widely supported by translation services yet.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 
 
 <p>The national motto of France is
@@ -40,29 +47,26 @@ Overwriting "no" with "yes" is not widely supported by translation services yet.
 
 </pre>
 
-``` {.html}
+``` html
 
 
 <code translate="no">
-&lt;section id="translate-attribute"&gt;
-&lt;h2&gt;<span translate="yes">The <span translate="no">translate</span> attribute&lt;h2&gt;
-&lt;p&gt;<span translate="yes">The <span translate="no">translate</span> attribute indicates whether the element’s content and attribute values should be translated or not.</span>&lt;/p&gt;
-&lt;/section&gt;
+<section id="translate-attribute">
+<h2><span translate="yes">The <span translate="no">translate</span> attribute<h2>
+<p><span translate="yes">The <span translate="no">translate</span> attribute indicates whether the element’s content and attribute values should be translated or not.</span></p>
+</section>
 </code>
 ```
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 [Using HTML's translate attribute](http://www.w3.org/International/questions/qa-translate-flag)
-

@@ -1,66 +1,68 @@
 ---
 title: serializeToString
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs spec reference, standardization status'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/xhr/objects/XMLSerializer
+    href: /apis/xhr/objects/XMLSerializer
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/xhr/objects/XMLSerializer
+summary: 'Converts the parent DOM node of a document tree to an XML string.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'Needs spec reference, standardization status'
-summary: 'Converts the parent DOM node of a document tree to an XML string.'
 uri: apis/xhr/methods/serializeToString
 
 ---
-# serializeToString
-
-## Summary
+## <span>Summary</span>
 
 Converts the parent DOM node of a document tree to an XML string.
 
-*Method of [apis/xhr/objects/XMLSerializer](/apis/xhr/objects/XMLSerializer)*
+Method of [apis/xhr/objects/XMLSerializer](/apis/xhr/objects/XMLSerializer)[apis/xhr/objects/XMLSerializer](/apis/xhr/objects/XMLSerializer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.serializeToString(pNode);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### pNode
+### <span>pNode</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The parent DOM node of a document tree to convert to an XML string.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 String
 
 The string that contains an XML representation of a DOM node tree.
 
-## Examples
+## <span>Examples</span>
 
 To use the **serializeToString** method, type the following syntax.
 
-``` {.js}
+``` js
 oXmlSerializer =  new XMLSerializer();
 sXmlString = oXmlSerializer.serializeToString(oDOMNode);
 ```
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `XMLSerializer`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,61 +1,71 @@
 ---
 title: insertBefore
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.insertBefore](https://developer.mozilla.org/en-US/docs/Web/API/Node.insertBefore) Article]'
+  - 'Microsoft Developer Network: [[insertBefore Method](http://msdn.microsoft.com/en-us/library/ie/ms536454(v=vs.85).aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/insertBefore.htm'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Node
+    href: /dom/Node
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Node
+standardization_status: 'W3C Recommendation'
+summary: 'Inserts a child into the node, immediately before the specified reference child node.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Inserts a child into the node, immediately before the specified reference child node.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/insertBefore.htm'
 uri: dom/Node/insertBefore
 
 ---
-# insertBefore
-
-## Summary
+## <span>Summary</span>
 
 Inserts a child into the node, immediately before the specified reference child node.
 
-*Method of [dom/Node](/dom/Node)*
+Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var insertedNode = node.insertBefore(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### newNode
+### <span>newNode</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The new node to be inserted.
 
-### refChild
+### <span>refChild</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
-*(Optional)*
+(Optional)
 
 Supplies the placement of the new node. If this parameter is specified, the new element will be inserted immediately before this existing child node. If not, it will be added after the last child node.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The inserted node.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use the **insertBefore** method to insert a new item into an existing list.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
 <head>
@@ -81,24 +91,14 @@ The following example shows how to use the **insertBefore** method to insert a n
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/insertBefore.htm)
 
-## Notes
+## <span>Notes</span>
 
 Do not specify the *refChild* parameter when inserting the first child node. If children already exist and you do not specify the *refChild* parameter, the *newChild* becomes the last child of the parent object. This method is accessible at run time. If elements are removed at run time, before the closing tag has been parsed, areas of the document might not render.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-952280727)
 :   Recommendation
+
 [DOM4](http://www.w3.org/TR/dom/#dom-node-insertbefore)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.insertBefore](https://developer.mozilla.org/en-US/docs/Web/API/Node.insertBefore) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[insertBefore Method](http://msdn.microsoft.com/en-us/library/ie/ms536454(v=vs.85).aspx) Article]
-

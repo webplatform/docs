@@ -1,39 +1,44 @@
 ---
 title: abort
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort%20Transaction&'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBTransaction
+    href: /apis/indexeddb/IDBTransaction
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'The abort method is used to abort a transaction. Once called, the abort method follows the steps to abort a transaction'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'Ready to Use'
-standardization_status: 'W3C Proposed Recommendation'
-summary: 'The abort method is used to abort a transaction. Once called, the abort method follows the steps to abort a transaction'
-code_samples:
-  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort%20Transaction&'
 uri: apis/indexeddb/IDBTransaction/abort
 
 ---
-# abort
-
-## Summary
+## <span>Summary</span>
 
 The abort method is used to abort a transaction. Once called, the abort method follows the steps to abort a transaction
 
-*Method of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)*
+Method of [apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)[apis/indexeddb/IDBTransaction](/apis/indexeddb/IDBTransaction)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  transaction.abort();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function (event) {
     var db = dbOpenRequest.result;
@@ -50,20 +55,11 @@ dbOpenRequest.onsuccess = function (event) {
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Abort%20Transaction&)
 
-## Usage
+## <span>Usage</span>
 
      If the transaction is finished, a DOMException of type InvalidStateError is thrown. Otherwise, the steps to abort a transactions are run.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

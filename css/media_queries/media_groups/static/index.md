@@ -1,33 +1,30 @@
 ---
 title: static
+notes:
+  - 'Add values, syntax, example, specifications, compatibility.'
+readiness: 'Not Ready'
+summary: 'The static media group encompasses any media type that cannot change the document once it is created.'
 tags:
   - CSS
   - Media
   - Groups
-readiness: 'Not Ready'
-notes:
-  - 'Add values, syntax, example, specifications, compatibility.'
-summary: 'The static media group encompasses any media type that cannot change the document once it is created.'
 uri: 'css/media queries/media groups/static'
 
 ---
-# static
-
-## Summary
+## <span>Summary</span>
 
 The static media group encompasses any media type that cannot change the document once it is created.
 
 The opposite of static media is [interactive media](/css/media_queries/media_groups/interactive).
 
-## Applicable Media Types
+## <span>Applicable Media Types</span>
 
 (none in the database)
 
-## Applicable Media Features
+## <span>Applicable Media Features</span>
 
 (none in the database)
 
-## Applicable CSS properties
+## <span>Applicable CSS properties</span>
 
 (none in the database)
-

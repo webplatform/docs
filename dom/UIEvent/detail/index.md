@@ -1,43 +1,53 @@
 ---
 title: detail
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[event.detail](https://developer.mozilla.org/en-US/docs/Web/API/event.detail) Article]'
+  - 'Microsoft Developer Network: [[detail Property](http://msdn.microsoft.com/en-us/library/ie/ff974802(v=vs.85).aspx) Article]'
+notes:
+  - 'but.... example does not work in MSIE.'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/UIEvent
+    href: /dom/UIEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/UIEvent
+standardization_status: 'W3C Working Draft'
+summary: 'Gets additional, developer defined, information about an event.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'but.... example does not work in MSIE.'
-summary: 'Gets additional, developer defined, information about an event.'
 uri: dom/UIEvent/detail
 
 ---
-# detail
-
-## Summary
+## <span>Summary</span>
 
 Gets additional, developer defined, information about an event.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/UIEvent](/dom/UIEvent)</span></span>
+Property of [dom/UIEvent](/dom/UIEvent)[dom/UIEvent](/dom/UIEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var eventDetails = event.detail;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 Returns additional numerical information about the event, depending on the type of event.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -63,11 +73,11 @@ Returns additional numerical information about the event, depending on the type 
 </html>
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use this property to get developer defined information about a developer generated event, if any. When part of a user agent initiated UIEvent, this property is never set.
 
-## Notes
+## <span>Notes</span>
 
 You can set the **detail** property of an event by using the [**initUIEvent**](/dom/UIEvent/initUIEvent) method.
 
@@ -75,18 +85,7 @@ For mouse events, such as click, dblclick, mousedown, or mouseup, the detail pro
 
 For a dblclick event the value of detail is always 2.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[event.detail](https://developer.mozilla.org/en-US/docs/Web/API/event.detail) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[detail Property](http://msdn.microsoft.com/en-us/library/ie/ff974802(v=vs.85).aspx) Article]
-

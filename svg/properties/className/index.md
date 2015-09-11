@@ -1,19 +1,19 @@
 ---
 title: className
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/className
 
 ---
-# className
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 The **className** property gets the names of the classes that are assigned to this object. The object *belongs* to these classes. Several object instances can share a class name.
 
@@ -22,15 +22,15 @@ The **className** property has several roles:
 -   As a style sheet selector (when you want to assign style information to a set of elements).
 -   For general purpose browser processing.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.22
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGAElement**](/svg/elements/a)
 -   [**SVGCircleElement**](/svg/elements/circle)
@@ -63,10 +63,3 @@ The **className** property has several roles:
 -   [**SVGTitleElement**](/svg/elements/title)
 -   [**SVGTSpanElement**](/svg/elements/tspan)
 -   [**SVGUseElement**](/svg/elements/use)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

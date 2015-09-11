@@ -1,48 +1,64 @@
 ---
 title: top
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6171243'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'Positioned elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, ''auto''.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`top`'
+  Percentages: 'refer to height of containing block'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'This property specifies how far an absolutely positioned box''s top margin edge is offset below the top edge of the box''s containing block. For relatively positioned boxes, the offset is with respect to the top edges of the box itself (i.e., the box is given a position in the normal flow, then offset from that position according to these properties).'
-code_samples:
-  - 'http://gist.github.com/6171243'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/top
 
 ---
-# top
-
-## Summary
+## <span>Summary</span>
 
 This property specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's containing block. For relatively positioned boxes, the offset is with respect to the top edges of the box itself (i.e., the box is given a position in the normal flow, then offset from that position according to these properties).
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   Positioned elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `top`
+
 Percentages
 :   refer to height of containing block
 
-## Syntax
+## <span>Syntax</span>
 
 -   `top: auto`
 -   `top: length`
 -   `top: percentage`
 
-## Values
+## <span>Values</span>
 
 auto
 :   For non-replaced elements, the effect of this value depends on which of related properties have the value 'auto' as well. See the sections on the width and height of absolutely positioned, non-replaced elements for details. For replaced elements, the effect of this value depends only on the intrinsic dimensions of the replaced content. See the sections on the width and height of absolutely positioned, replaced elements for details
@@ -53,11 +69,11 @@ length
 percentage
 :   The offset is a percentage of the containing block's width (for 'left' or 'right') or height (for 'top' and 'bottom'). Negative values are allowed.
 
-## Examples
+## <span>Examples</span>
 
 We demonstrate the \`top\` property by positioning the elements.
 
-``` {.css}
+``` css
 .container {
   /**
    * Object is positioned according to the normal flow, and then offset.
@@ -111,7 +127,7 @@ We demonstrate the \`top\` property by positioning the elements.
 
 The HTML for the above example.
 
-``` {.html}
+``` html
 
 
 <article>
@@ -126,16 +142,7 @@ The HTML for the above example.
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/2007/CR-CSS21-20070719/visuren.html#position-props)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

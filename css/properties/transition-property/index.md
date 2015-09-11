@@ -1,48 +1,64 @@
 ---
 title: transition-property
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5842100'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`all`'
+  'Applies to': "all elements,\_:before and\_:after pseudo elements"
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'Same as specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`transitionProperty`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The ''transition-property'' property specifies the name of the CSS property to which the transition is applied.'
-code_samples:
-  - 'http://gist.github.com/5842100'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/transition-property
 
 ---
-# transition-property
-
-## Summary
+## <span>Summary</span>
 
 The 'transition-property' property specifies the name of the CSS property to which the transition is applied.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `all`
+
 Applies to
 :   all elements, :before and :after pseudo elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   Same as specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `transitionProperty`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `transition-property: all`
 -   `transition-property: none`
 -   `transition-property: propertyname`
 
-## Values
+## <span>Values</span>
 
 none
 :   No transition effect is applied (all transition properties are ignored) when a new property value is specified.
@@ -53,9 +69,9 @@ all
 propertyname
 :   A list of properties, separated by commas, to which the transition effect is applied.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /*
   * This example only applies "transition-" prefixed css
   *  properties to those listed in "transition-property" css
@@ -77,28 +93,26 @@ div:hover{
 
 [View live example](http://code.webplatform.org/gist/5842100)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The version of this property using a vendor prefix, **-ms-transition-property**, has been deprecated. To ensure compatibility in the future, applications using this property with a vendor prefix should be updated accordingly.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transitions Module Level 3](http://www.w3.org/TR/css3-transitions/#transition-property-property), Section 2.1
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Transitions](http://www.w3.org/TR/2009/WD-css3-transitions-20091201/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transitions
+#### <span>Transitions</span>
 
 -   [cubic-bezier](/css/functions/cubic-bezier)
 
@@ -111,10 +125,3 @@ Specification
 -   **transition-property**
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

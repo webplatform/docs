@@ -1,8 +1,7 @@
 ---
-title: elements
+title: SVG Elements
 tags:
   - SVG
-uri: svg/elements
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -33,15 +32,14 @@ todo_broken_links:
     - svg/elements/hkern
     - svg/elements/mpath
     - svg/elements/vkern
+uri: svg/elements
 
 ---
-# SVG Elements
-
 [By alphabetical order](/svg/elements_(alphabetical_order))
 
 This is the list of SVG Elements sorted by topics.
 
-## Animation elements
+## <span>Animation elements</span>
 
 -   [animate](/w/index.php?title=svg/elements/animate&action=edit&redlink=1)
 -   [animatecolor](/w/index.php?title=svg/elements/animateColor&action=edit&redlink=1)
@@ -49,7 +47,7 @@ This is the list of SVG Elements sorted by topics.
 -   [animatetransform](/w/index.php?title=svg/elements/animateTransform&action=edit&redlink=1)
 -   [set](/w/index.php?title=svg/elements/set&action=edit&redlink=1)
 
-## Basic shapes
+## <span>Basic shapes</span>
 
 -   [circle](/svg/elements/circle)
 -   [ellipse](/svg/elements/ellipse)
@@ -58,7 +56,7 @@ This is the list of SVG Elements sorted by topics.
 -   [polyline](/svg/elements/polyline)
 -   [rect](/svg/elements/rect)
 
-## Container elements
+## <span>Container elements</span>
 
 -   [a](/svg/elements/a)
 -   [defs](/svg/elements/defs)
@@ -72,17 +70,17 @@ This is the list of SVG Elements sorted by topics.
 -   [switch](/svg/elements/switch)
 -   [symbol](/svg/elements/symbol)
 
-## Descriptive elements
+## <span>Descriptive elements</span>
 
 -   [desc](/svg/elements/desc)
 -   [metadata](/svg/elements/metadata)
 -   [title](/svg/elements/title)
 
-## Filter Elements
+## <span>Filter Elements</span>
 
 -   [filter](/svg/elements/filter)
 
-### Filter Primitive Elements
+### <span>Filter Primitive Elements</span>
 
 -   [feBlend](/svg/elements/feBlend)
 -   [feColorMatrix](/svg/elements/feColorMatrix)
@@ -106,18 +104,18 @@ This is the list of SVG Elements sorted by topics.
 -   [feTile](/svg/elements/feTile)
 -   [feTurbulence](/svg/elements/feTurbulence)
 
-### Filter light source elements
+### <span>Filter light source elements</span>
 
 -   [feDistantLight](/svg/elements/feDistantLight)
 -   [fePointLight](/svg/elements/fePointLight)
 -   [feSpotlight](/svg/elements/feSpotlight)
 
-## Gradient elements
+## <span>Gradient elements</span>
 
 -   [linearGradient](/svg/elements/linearGradient)
 -   [radialGradient](/svg/elements/radialGradient)
 
-## Graphics elements
+## <span>Graphics elements</span>
 
 -   [circle](/svg/elements/circle)
 -   [ellipse](/svg/elements/ellipse)
@@ -130,7 +128,7 @@ This is the list of SVG Elements sorted by topics.
 -   [text](/svg/elements/text)
 -   [use](/svg/elements/use)
 
-## Shape elements
+## <span>Shape elements</span>
 
 -   [circle](/svg/elements/circle)
 -   [ellipse](/svg/elements/ellipse)
@@ -140,7 +138,7 @@ This is the list of SVG Elements sorted by topics.
 -   [polyline](/svg/elements/polyline)
 -   [rect](/svg/elements/rect)
 
-## Structural elements
+## <span>Structural elements</span>
 
 -   [defs](/svg/elements/defs)
 -   [g](/svg/elements/g)
@@ -148,7 +146,7 @@ This is the list of SVG Elements sorted by topics.
 -   [symbol](/svg/elements/symbol)
 -   [use](/svg/elements/use)
 
-## Text content elements
+## <span>Text content elements</span>
 
 -   [altGlyph](/w/index.php?title=svg/elements/altGlyph&action=edit&redlink=1)
 -   [textPath](/svg/elements/textPath)
@@ -156,14 +154,14 @@ This is the list of SVG Elements sorted by topics.
 -   [tref](/w/index.php?title=svg/elements/tref&action=edit&redlink=1)
 -   [tspan](/svg/elements/tspan)
 
-## Text content child elements
+## <span>Text content child elements</span>
 
 -   [altglyph](/w/index.php?title=svg/elements/altglyph&action=edit&redlink=1)
 -   [textpath](/w/index.php?title=svg/elements/textpath&action=edit&redlink=1)
 -   [tref](/w/index.php?title=svg/elements/tref&action=edit&redlink=1)
 -   [tspan](/svg/elements/tspan)
 
-## Uncategorized elements
+## <span>Uncategorized elements</span>
 
 -   [altglyphdef](/w/index.php?title=svg/elements/altglyphdef&action=edit&redlink=1)
 -   [altglyphitem](/w/index.php?title=svg/elements/altglyphitem&action=edit&redlink=1)
@@ -187,177 +185,299 @@ This is the list of SVG Elements sorted by topics.
 -   [view](/svg/elements/view)
 -   [vkern](/w/index.php?title=svg/elements/vkern&action=edit&redlink=1)
 
-## See also
+## <span>See also</span>
 
 TBD
 
-<dl data-table="mw-prefixindex-list-table">
-<dt>
+<table class="mw-prefixindex-list-table">
+<tr>
+<td>
 [svg/elements/a](/svg/elements/a)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/circle](/svg/elements/circle)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/clipPath](/svg/elements/clipPath)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/defs](/svg/elements/defs)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/desc](/svg/elements/desc)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/ellipse](/svg/elements/ellipse)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/etextContent](/svg/elements/etextContent)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/feBlend](/svg/elements/feBlend)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/feColorMatrix](/svg/elements/feColorMatrix)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/feColorMix](/svg/elements/feColorMix)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/feComponentTransfer](/svg/elements/feComponentTransfer)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/feComposite](/svg/elements/feComposite)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/feConvolveMatrix](/svg/elements/feConvolveMatrix)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/feDiffuseLighting](/svg/elements/feDiffuseLighting)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/feDisplacementMap](/svg/elements/feDisplacementMap)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/feDistantLight](/svg/elements/feDistantLight)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/feFlood](/svg/elements/feFlood)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/feFuncA](/svg/elements/feFuncA)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/feFuncB](/svg/elements/feFuncB)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/feFuncG](/svg/elements/feFuncG)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/feFuncGelement](/svg/elements/feFuncGelement)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/feFuncR](/svg/elements/feFuncR)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/feGaussianBlur](/svg/elements/feGaussianBlur)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/feImage](/svg/elements/feImage)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/feMerge](/svg/elements/feMerge)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/feMergeNode](/svg/elements/feMergeNode)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/feMorphology](/svg/elements/feMorphology)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/feOffset](/svg/elements/feOffset)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/fePointLight](/svg/elements/fePointLight)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/feSpecularLighting](/svg/elements/feSpecularLighting)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/feSpotlight](/svg/elements/feSpotlight)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/feTile](/svg/elements/feTile)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/feTurbulence](/svg/elements/feTurbulence)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/filter](/svg/elements/filter)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/g](/svg/elements/g)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/gradient](/svg/elements/gradient)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/image](/svg/elements/image)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/line](/svg/elements/line)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/linearGradient](/svg/elements/linearGradient)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/marker](/svg/elements/marker)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/mask](/svg/elements/mask)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/metadata](/svg/elements/metadata)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/path](/svg/elements/path)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/pattern](/svg/elements/pattern)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/patterrn](/svg/elements/patterrn)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/polygon](/svg/elements/polygon)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/polyline](/svg/elements/polyline)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/radialGradient](/svg/elements/radialGradient)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/rect](/svg/elements/rect)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/script](/svg/elements/script)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/stop](/svg/elements/stop)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/style](/svg/elements/style)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/svg](/svg/elements/svg)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/switch](/svg/elements/switch)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/symbol](/svg/elements/symbol)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/text](/svg/elements/text)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/textPath](/svg/elements/textPath)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/textPositioning](/svg/elements/textPositioning)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/title](/svg/elements/title)
 
-</dd>
-<dt>
+</td>
+<td>
+[svg/elements/tspan](/svg/elements/tspan)
+
+</td>
+</tr>
+<tr>
+<td>
 [svg/elements/use](/svg/elements/use)
 
-</dt>
-<dd>
+</td>
+<td>
 [svg/elements/view](/svg/elements/view)
 
-</dd>
-</dl>
+</td>
+</tr>
+</table>

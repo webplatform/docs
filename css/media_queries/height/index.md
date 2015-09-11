@@ -1,24 +1,22 @@
 ---
 title: height
+notes:
+  - 'Add description, compatibility.'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The media feature describes the height of the output device''s rendering surface, such as the viewport height or the height of the page box.'
 tags:
   - CSS
   - Media
   - Feature
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add description, compatibility.'
-summary: 'The media feature describes the height of the output device''s rendering surface, such as the viewport height or the height of the page box.'
 uri: 'css/media queries/height'
 
 ---
-# height
-
-## Summary
+## <span>Summary</span>
 
 The media feature describes the height of the output device's rendering surface, such as the viewport height or the height of the page box.
 
-## Description
+## <span>Description</span>
 
 Just as the [width media query](/css/media_queries/width) reports the layout viewport's width, the height media query reports its height. It tells you how many CSS pixels are available vertically for showing content, which is occasionally useful if you need to figure out if an item will be shown "above the fold."
 
@@ -30,19 +28,19 @@ One serious problem on many mobile browsers is that the layout viewport height, 
 
 For this reason it's best to use height media queries sparingly, and, if you need them, to give browsers ample leeway. In general you should expect a browser toolbar to be between 40 and 70 pixels high.
 
-## Syntax
+## <span>Syntax</span>
 
 -   **height: \<length\>**
 -   **min-height: \<length\>**
 -   **max-height: \<length\>**
 
-## Values
+## <span>Values</span>
 
 **\<length\>**
 
 *Value for the height of the device's viewport must be a [length](/css/data_types/length) value and can not be negative.*
 
-## Examples
+## <span>Examples</span>
 
 The first media query describes a viewport with a height of exactly 480 pixels. Note: The height of the viewport, for example in a smartphone browser is not the same as the height of the screen, because of the browser bars. If you want to describe the screen height, you have to use [mediaqueries: device-height](/css/media_queries/device-height).
 
@@ -50,7 +48,7 @@ The second example describes viewports with height of 700 pixels and higher.
 
 The third media query describes all viewports with a height not bigger than 699 pixels.
 
-``` {.css}
+``` css
 @media screen and ( height: 400px ) { … }
 
 @media screen and ( min-height: 700px ) { … }
@@ -58,12 +56,11 @@ The third media query describes all viewports with a height not bigger than 699 
 @media screen and ( max-height: 699px ) { … }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Media Queries Level 4](http://www.w3.org/TR/mediaqueries-4/)
 :   Working Draft
+
 [Media Queries](http://www.w3.org/TR/css3-mediaqueries/)
 :   Recommendation
 

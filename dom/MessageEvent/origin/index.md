@@ -1,59 +1,60 @@
 ---
 title: origin
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples, compatibility'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/MessageEvent
+    href: /dom/MessageEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/MessageEvent
+standardization_status: 'W3C Working Draft'
+summary: 'Gets the URL of the document of origin.'
 tags:
   - API
   - Object
   - Properties
   - DOM
   - DOMEvents
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'examples, compatibility'
-summary: 'Gets the URL of the document of origin.'
 uri: dom/MessageEvent/origin
 
 ---
-# origin
-
-## Summary
+## <span>Summary</span>
 
 Gets the URL of the document of origin.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MessageEvent](/dom/MessageEvent)</span></span>
+Property of [dom/MessageEvent](/dom/MessageEvent)[dom/MessageEvent](/dom/MessageEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var messageOrigin = event.origin;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The origin URL of the document that sent the message.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 In cross-document messaging, this property represents the originating URI of the document that sent the message (typically the URI includes the scheme, host name, and port of the document, but not its path or fragment identifier).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

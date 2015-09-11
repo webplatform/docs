@@ -1,35 +1,42 @@
 ---
 title: composite
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationEffect
+    href: /apis/web_animations/AnimationEffect
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /apis/web_animations/AnimationEffect
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The possible values of an animation effect''s composition behavior are represented by the CompositeOperation enumeration.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The possible values of an animation effect''s composition behavior are represented by the CompositeOperation enumeration.'
 uri: 'apis/web animations/AnimationEffect/composite'
 
 ---
-# composite
-
-## Summary
+## <span>Summary</span>
 
 The possible values of an animation effect's composition behavior are represented by the CompositeOperation enumeration.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)</span></span>
+Property of [apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)[apis/web\_animations/AnimationEffect](/apis/web_animations/AnimationEffect)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.composite;
 element.composite = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 Returns a CompositeOperation object, specified by the CompositeOperation enumeration.
 

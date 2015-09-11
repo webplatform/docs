@@ -1,40 +1,81 @@
 ---
 title: activate
-tags:
-  - Events
-  - DOM
+attributions:
+  - 'Microsoft Developer Network: [[active Event](http://msdn.microsoft.com/en-us/library/ie/ms536787(v=vs.85).aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onactivate.htm'
 readiness: 'Ready to Use'
 standardization_status: Non-Standard
 summary: 'Fires when the object is set as the active element.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onactivate.htm'
+tags:
+  - Events
+  - DOM
 uri: dom/UIEvent/activate
 
 ---
-# activate
-
-## Summary
+## <span>Summary</span>
 
 Fires when the object is set as the active element.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   Yes
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:   see Notes
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+see Notes
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 The following example demonstrates the order of event firing for the **onactivate** and **onload** events. As each event fires, it appends a string to the **div** element within the document. The **onactivate** event fires before the **onload** event.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,9 +99,9 @@ function fnLoad(){
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onactivate.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note**  Using the [**setActive**](/dom/HTMLElement/setActive) method has no effect on document focus. Using the [**focus**](/dom/HTMLElement/focus) method on an individual element causes the element to gain focus and become the active element. When one object loses activation and another object becomes the [**activeElement**](/dom/Document/activeElement), the **onfocus** event fires on the object becoming the **activeElement** only after the [**onblur**](/dom/HTMLElement/blur) event fires on the object losing activation. Each document may have up to one active element. Set the active element with the **setActive** or **focus** methods. Using the **focus** method on a document that does not have the focus moves the document to the front of the display. Additionally, the document's active element gains focus. The **onactivate** event fires before the **onload** event for any of the objects listed in the Applies To section. For Microsoft Internet Explorer 6 and later, the **event.fromElement** property is now exposed by this event. For Microsoft Internet Explorer 5.5 and later, focus on a [**Document**](/dom/Document), and the **activeElement** of a **Document** can be managed separately. Use the **onactivate** event to manage formatting changes when an element is made active. Change activation from the **event.fromElement** to the **event.srcElement**. To invoke this event, do one of the following:
 
@@ -95,20 +136,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[active Event](http://msdn.microsoft.com/en-us/library/ie/ms536787(v=vs.85).aspx) Article]
-

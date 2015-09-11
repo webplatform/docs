@@ -1,42 +1,58 @@
 ---
 title: font-weight
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/font-weight)'
+code_samples:
+  - 'http://gist.github.com/5628518'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'The keyword or the numerical value as specified, with bolder and lighter transformed to the real value.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`fontWeight`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The font-weight property specifies the weight or boldness of the font (their degree of blackness or stroke thickness). Note that some fonts are not available in all weights; some are available only on normal and bold.'
-code_samples:
-  - 'http://gist.github.com/5628518'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/font-weight
 
 ---
-# font-weight
-
-## Summary
+## <span>Summary</span>
 
 The font-weight property specifies the weight or boldness of the font (their degree of blackness or stroke thickness). Note that some fonts are not available in all weights; some are available only on normal and bold.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   The keyword or the numerical value as specified, with bolder and lighter transformed to the real value.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `fontWeight`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900`
 -   `font-weight: bold`
@@ -44,7 +60,7 @@ Percentages
 -   `font-weight: lighter`
 -   `font-weight: normal`
 
-## Values
+## <span>Values</span>
 
 normal
 :   Normal font weight. Same as **400**.
@@ -61,17 +77,17 @@ bolder
 100, 200, 300, 400, 500, 600, 700, 800, 900
 :   Numeric font weights for fonts that provide more than just normal and bold. If the exact weight given is unavailable, a face with a nearby weight is used.
 
-## Examples
+## <span>Examples</span>
 
 A selection of examples showing some typical uses of the font-weight property. In practise, you most probably won't see much difference when using any values except for `normal` and `bold`.
 
-``` {.html}
+``` html
 <p class="example-one">Set text to be bold.</p>
 <p class="example-two">Set text to two step darker than normal but less than a standard bold.</p>
 <p class="example-three">Sets text to be one step lighter than the parent.</p>
 ```
 
-``` {.css}
+``` css
 p { font-size: 150%; }
 
 p.example-one { font-weight: bold; }
@@ -81,7 +97,7 @@ p.example-three { font-weight: lighter; }
 
 [View live example](http://code.webplatform.org/gist/5628518)
 
-## Usage
+## <span>Usage</span>
 
      Quite often there are only a few weights available for a particular font family. When a weight is specified for which no face exists, a face with a nearby weight is used:
 
@@ -104,27 +120,19 @@ Although the practice — also called “Faux bold” — is not well-loved by t
 -   **800** - Extra Bold (Ultra Bold)
 -   **900** - Black (Heavy)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-weight-prop)
 :   W3C Working Draft
+
 [CSS Transitions](http://www.w3.org/TR/css3-transitions/#animatable-css)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   A List Apart: [Say No to Faux Bold](http://alistapart.com/article/say-no-to-faux-bold)
 -   Mozilla: [default style sheet](http://mxr.mozilla.org/mozilla/source/layout/style/html.css)
 -   WebKit: [default style sheet](http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css)
 -   IECSS: [Internet Explorer User Agent Style Sheets](http://www.iecss.com/)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/font-weight)
-

@@ -1,41 +1,50 @@
 ---
 title: clear
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Clear%20ObjectStore&'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBObjectStore
+    href: /apis/indexeddb/IDBObjectStore
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBObjectStore
+standardization_status: 'W3C Working Draft'
+summary: 'Removes all records from the object store.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Removes all records from the object store.'
-code_samples:
-  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Clear%20ObjectStore&'
 uri: apis/indexeddb/IDBObjectStore/clear
 
 ---
-# clear
-
-## Summary
+## <span>Summary</span>
 
 Removes all records from the object store.
 
-*Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)*
+Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var idbRequest = objectStore.clear();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 store = db.createObjectStore("store1", { autoIncrement: true });
 store.put("a"); // Will get key 1
 store.delete(1);
@@ -45,7 +54,7 @@ store.clear(); // Clears all records from the store
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=Clear%20ObjectStore&)
 
-## Usage
+## <span>Usage</span>
 
      The method throws a DOMException if
 
@@ -53,15 +62,8 @@ store.clear(); // Clears all records from the store
 -   The mode of the transaction this IDBObjectStore belongs to is "readonly".
 -   Occurs if a request is made on a source object that has been deleted or removed.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Indexed Database API](http://go.microsoft.com/fwlink/p/?LinkId=224519)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

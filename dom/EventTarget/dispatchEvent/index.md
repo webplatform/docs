@@ -1,45 +1,54 @@
 ---
 title: dispatchEvent
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/EventTarget
+    href: /dom/EventTarget
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /dom/EventTarget
+standardization_status: 'W3C Recommendation'
+summary: 'Sends an event to the current element.'
 tags:
   - API
   - Object
   - Methods
   - DOM
   - DOMEvents
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs example'
-summary: 'Sends an event to the current element.'
 uri: dom/EventTarget/dispatchEvent
 
 ---
-# dispatchEvent
-
-## Summary
+## <span>Summary</span>
 
 Sends an event to the current element.
 
-*Method of [dom/EventTarget](/dom/EventTarget)*
+Method of [dom/EventTarget](/dom/EventTarget)[dom/EventTarget](/dom/EventTarget)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var defaultPrevented = eventTarget.dispatchEvent(event);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### event
+### <span>event</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The event object to dispatch.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
 Whether any of the event handlers called [**preventDefault**](/dom/Event/preventDefault).
 
@@ -49,20 +58,11 @@ The caller should prevent the default action.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 Events that the **dispatchEvent** method dispatches are subject to the same capturing and bubbling behavior as events that the browser dispatches. You cannot cancel some events. For more information, see the documentation for the event.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

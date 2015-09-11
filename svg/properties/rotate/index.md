@@ -1,40 +1,42 @@
 ---
 title: rotate
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/rotate
 
 ---
-# rotate
-
-## Examples
+## <span>Examples</span>
 
 The following code example shows how to rotate individual characters. Because the number of rotate values is less than the number of characters in the string, all characters after the fourth character are rendered at 30°.
 
+``` html
 
 
-    <?xml version="1.0" standalone="no"?>
-    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-    <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"
-         xmlns:xlink="http://www.w3.org/1999/xlink">
-      <text font-family="Verdana" font-size="55" fill="blue" >
-        <!--  -->
-        <tspan x="250" y="150" rotate="-30, -15, 0, 15, 30">
-          Hello World!
-        </tspan>
-      </text>
-    </svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text font-family="Verdana" font-size="55" fill="blue" >
+    <!--  -->
+    <tspan x="250" y="150" rotate="-30, -15, 0, 15, 30">
+      Hello World!
+    </tspan>
+  </text>
+</svg>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **rotate** property gets or sets the supplemental rotation about the current text position that is applied to all of the glyphs that correspond to each character within this element.
 
@@ -50,23 +52,16 @@ This supplemental rotation does not impact how the current text position is modi
 
 **Note:** If you do not specify the **rotate** attribute on an element or any of its descendants, no supplemental rotations occur.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics (SVG) 1.1](http://go.microsoft.com/fwlink/p/?linkid=190918), Appendix M
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGTextElement**](/svg/elements/text)
 -   [**SVGTextPositioningElement**](/svg/elements/textPositioning)
 -   [**SVGTSpanElement**](/svg/elements/tspan)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

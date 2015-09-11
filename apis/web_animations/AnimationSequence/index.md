@@ -1,53 +1,60 @@
 ---
 title: AnimationSequence
+readiness: 'In Progress'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: AnimationGroup
+    href: /apis/web_animations/AnimationGroup
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Animation sequences are represented by the AnimationSequence interface.'
 tags:
   - API
   - Objects
   - Web
   - Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Animation sequences are represented by the AnimationSequence interface.'
 uri: 'apis/web animations/AnimationSequence'
 
 ---
-# AnimationSequence
-
-## Summary
+## <span>Summary</span>
 
 Animation sequences are represented by the AnimationSequence interface.
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[AnimationGroup](/apis/web_animations/AnimationGroup)</span></span>
+Inherits from [AnimationGroup](/apis/web_animations/AnimationGroup)[AnimationGroup](/apis/web_animations/AnimationGroup)
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from AnimationGroup
+## <span>Inherited from AnimationGroup</span>
 
-### Properties
+### <span>Properties</span>
 
 API Name
 :   Summary
+
 [children](/apis/web_animations/AnimationGroup/children)
 :   The list of child animation nodes in the group.
+
 [firstChild](/apis/web_animations/AnimationGroup/firstChild)
 :   The first child of this animation group.
+
 [lastChild](/apis/web_animations/AnimationGroup/lastChild)
 :   The last child of this animation group
 
-### Methods
+### <span>Methods</span>
 
 API Name
 :   Summary
+
 [append](/apis/web_animations/AnimationGroup/append)
 :   If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
 
@@ -60,12 +67,13 @@ API Name
 
 [constructor](/apis/web_animations/AnimationGroup/constructor)
 :
+
 [prepend](/apis/web_animations/AnimationGroup/prepend)
 :   If any of the animation nodes in nodes is an inclusive ancestor of this animation node throw a HierarchyRequestError exception and terminate these steps.
 
     Insert nodes before the first child.
 
-### Events
+### <span>Events</span>
 
 *No events.*
 

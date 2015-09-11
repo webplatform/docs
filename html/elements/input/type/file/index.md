@@ -1,5 +1,14 @@
 ---
 title: file
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Merge Candidate: html/attributes/type'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLInputElement](/dom/HTMLInputElement)'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The file type of the &lt;input&gt; element represents widget for specifying a file.'
 tags:
   - Pages
   - using
@@ -11,34 +20,27 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Merge Candidate: html/attributes/type'
-summary: 'The file type of the <input> element represents widget for specifying a file.'
-uri: html/elements/input/type/file
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'dom/properties/value (type/file) B685'
+uri: html/elements/input/type/file
 
 ---
-# file
+## <span>Summary</span>
 
-## Summary
+The file type of the &lt;input&gt; element represents widget for specifying a file.
 
-The file type of the \<input\> element represents widget for specifying a file.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
-## Examples
+## <span>Examples</span>
 
 The following example lets the user choose one or more files, and then displays the choices. The files list can also be used to upload to a website.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html >
 <head>
@@ -65,7 +67,7 @@ The following example lets the user choose one or more files, and then displays 
 
 use the input file type to upload a file to a server
 
-``` {.html}
+``` html
 <form name="oForm"
    action="/endpoint"
    enctype="multipart/form-data"
@@ -75,9 +77,9 @@ use the input file type to upload a file to a server
 </form>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 For a file upload to take place:
 
@@ -90,23 +92,40 @@ For a file upload to take place:
 
 Windows Internet Explorer 8 and later. When a file is selected by using the **input type=file** object, the value of the [**value**](/w/index.php?title=dom/properties/value_(type/file)_B685&action=edit&redlink=1) property depends on the value of the "Include local directory path when uploading files to a server" security setting for the security zone used to display the Web page containing the **input** object. For more information, see [**value**](/w/index.php?title=dom/properties/value_(type/file)_B685&action=edit&redlink=1). Windows Internet Explorer 7 and later. By default, Internet Explorer does not include folder or directory path information when uploading files to sites in the Restricted zone. This improves security by preventing information disclosure. Also, to improve accessibility, the **INPUT type=file** element now contains two accessible elements—one for the input box and one for the **Browse** button. This change is applicable only to accessibility tools; script implementations are not affected. Microsoft Internet Explorer 6 for Windows XP Service Pack 2 (SP2) and later. For security reasons, the **input type=file** element no longer accepts relative file paths. Microsoft Internet Explorer raises an Access Denied exception when the user attempts to submit a form containing an **input type=file** element that contains a relative path. The **INPUT type=file** element is available in HTML and script as of Microsoft Internet Explorer 4.0. The file upload add-on is required to use the **INPUT type=file** element in Microsoft Internet Explorer 3.02. Users can enter a file path in the text box or click the **Browse** button to browse the file system. When a file is uploaded, the file name is also submitted.
 
-### Compatibility notes
+### <span>Compatibility notes</span>
 
 Firefox for Android sets a default `border` on `<input type="file">` elements, unlike most other browsers.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10
 
-### HTML information
+### <span>HTML information</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Closing Tag
-:   forbidden
-CSS Display
-:   inline
 
-### Members
+</th>
+<td>
+forbidden
+
+</td>
+</tr>
+<tr>
+<th>
+CSS Display
+
+</th>
+<td>
+inline
+
+</td>
+</tr>
+</table>
+### <span>Members</span>
 
 The **input type=file** object has these types of members:
 
@@ -114,13 +133,6 @@ The **input type=file** object has these types of members:
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### Events
+#### <span>Events</span>
 
 The **input type=file** object has these events. {
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

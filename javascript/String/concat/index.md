@@ -1,20 +1,22 @@
 ---
 title: concat
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/c751eb33(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a string that contains the concatenation of two or more strings.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a string that contains the concatenation of two or more strings.'
 uri: javascript/String/concat
 
 ---
-# concat
-
-## Summary
+## <span>Summary</span>
 
 Returns a string that contains the concatenation of two or more strings.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     string1. concat([ string2 [, string3 [, . . . [, stringN ]]]])
 
@@ -24,11 +26,11 @@ Returns a string that contains the concatenation of two or more strings.
 **string2,. . ., stringN**
 :   Optional. The strings to append to the end of string1.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **concat** method when used with a string:
 
-``` {.js}
+``` js
 var str1 = "ABCD"
  var str2 = "EFGH";
  var str3 = "1234";
@@ -38,19 +40,13 @@ var str1 = "ABCD"
  // Output: "ABCDEFGH12345678"
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The result of the **concat** method is equivalent to: result = string1 + string2 + string3 + stringN. A change of value in either a source or result string does not affect the value in the other string. If any of the arguments are not strings, they are first converted to strings before being concatenated to string1.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Addition Operator (+)](/javascript/operators/addition)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/c751eb33(v=vs.94).aspx)
 

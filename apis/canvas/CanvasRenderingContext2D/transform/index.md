@@ -1,90 +1,99 @@
 ---
 title: transform
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://audiocommander.github.com/transformMatrixDemo'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: "Replaces the current transformation matrix with the result of multiplying the current transformation matrix with the matrix described by:\n"
 tags:
   - API
   - Object
   - Methods
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: "Replaces the current transformation matrix with the result of multiplying the current transformation matrix with the matrix described by:\n"
-code_samples:
-  - 'http://audiocommander.github.com/transformMatrixDemo'
 uri: apis/canvas/CanvasRenderingContext2D/transform
 
 ---
-# transform
-
-## Summary
+## <span>Summary</span>
 
 Replaces the current transformation matrix with the result of multiplying the current transformation matrix with the matrix described by:
 
 `a c e b d f 0 0 1`
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.transform(a, b, c, d, e, f);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### a
+### <span>a</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The m1,1 value in the matrix.
 
-### b
+### <span>b</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The m1,2 value in the matrix.
 
-### c
+### <span>c</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The m2,1 value in the matrix.
 
-### d
+### <span>d</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The m2,2 value in the matrix.
 
-### e
+### <span>e</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The delta x (dx) value in the matrix.
 
-### f
+### <span>f</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
  The delta y (dy) value in the matrix.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## Examples
+## <span>Examples</span>
 
 This example shows visually how the transformation matrix works.
 
-``` {.html}
+``` html
 <html>
 <head>
     <title>Transformation Matrix Demo</title>
@@ -107,17 +116,20 @@ This example shows visually how the transformation matrix works.
 
 <body>
 <canvas id="canvas" width="800" height="600"></canvas>
-
-<input type="range" id="sliderA" min="-100" max="100" value="100"></input>a:0
-<input type="range" id="sliderB" min="-100" max="100" value="0">    </input>b:0
-<input type="range" id="sliderC" min="-100" max="100" value="0">    </input>c:0
-<input type="range" id="sliderD" min="-100" max="100" value="100"></input>d:0
-<input type="range" id="sliderE" min="-100" max="100" value="0">    </input>e:0
-<input type="range" id="sliderF" min="-100" max="100" value="0">    </input>f:0
+<div id="sliders">
+<div id="slA"><input type="range" id="sliderA" min="-100" max="100" value="100"></input>a:<span id="aValue">0</span></div>
+<div id="slB"><input type="range" id="sliderB" min="-100" max="100" value="0">  </input>b:<span id="bValue">0</span></div>
+<div id="slC"><input type="range" id="sliderC" min="-100" max="100" value="0">  </input>c:<span id="cValue">0</span></div>
+<div id="slD"><input type="range" id="sliderD" min="-100" max="100" value="100"></input>d:<span id="dValue">0</span></div>
+<div id="slE"><input type="range" id="sliderE" min="-100" max="100" value="0">  </input>e:<span id="eValue">0</span></div>
+<div id="slF"><input type="range" id="sliderF" min="-100" max="100" value="0">  </input>f:<span id="fValue">0</span></div>
+</div>
 
 <script type="text/javascript">
+
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext('2d');
+
 // get the sliders
 var sliderA = document.querySelector('#sliderA');
 var sliderB = document.querySelector('#sliderB');
@@ -125,10 +137,13 @@ var sliderC = document.querySelector('#sliderC');
 var sliderD = document.querySelector('#sliderD');
 var sliderE = document.querySelector('#sliderE');
 var sliderF = document.querySelector('#sliderF');
+
 var a, b, c, d, e, f;
+
 function mapSliderValue(v) {
     return v / 100;
 }
+
 function sliderDidChange() {
     // get values
     a = mapSliderValue(sliderA.value);
@@ -147,6 +162,7 @@ function sliderDidChange() {
     // redraw
     draw();
 }
+
 function draw() {
     // save the current context
     ctx.save();
@@ -161,6 +177,7 @@ function draw() {
     // restore the context
     ctx.restore();
 }
+
 function setup() {
     ctx.font = "5em Arial";
     // set default values for tx & ty
@@ -179,30 +196,24 @@ function setup() {
     sliderF.addEventListener("change",sliderDidChange,false);
     sliderDidChange();
 }
+
 setup();
+
 </script>
+
 </body>
 </html>
 ```
 
 [View live example](http://audiocommander.github.com/transformMatrixDemo)
 
-## Notes
+## <span>Notes</span>
 
 The parameters of *transform* represent a matrix. This matrix is multiplied with the transformation matrix of the current context.
 
 The arguments *a, b, c, d, e, f* are sometimes called *m11, m12, m21, m22, dx, dy* or *m11, m21, m12, m22, dx, dy*. Care should be taken in particular with the order of the second and third arguments (*b* and *c*) as their order varies from API to API; APIs sometimes use the notation *m12/m21* and sometimes *m21/m12* for those positions.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

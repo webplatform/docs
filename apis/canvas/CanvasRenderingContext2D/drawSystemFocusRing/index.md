@@ -1,72 +1,72 @@
 ---
 title: drawSystemFocusRing
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Removed from spec; deletion candidate.'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: "Draws a focus ring of the appropriate style along the intended path, following platform conventions.\n"
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Removed from spec; deletion candidate.'
-summary: "Draws a focus ring of the appropriate style along the intended path, following platform conventions.\n"
 uri: apis/canvas/CanvasRenderingContext2D/drawSystemFocusRing
 
 ---
-# drawSystemFocusRing
-
-## Summary
+## <span>Summary</span>
 
 Draws a focus ring of the appropriate style along the intended path, following platform conventions.
 
 **Removed from spec; deletion candidate.**
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.drawSystemFocusRing(path, element);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### path
+### <span>path</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
-*(Optional)*
+(Optional)
 
 The path along which the focus ring is to be drawn.
 
-### element
+### <span>element</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The element on which the focus ring is to be drawn.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 The focus ring should not be subject to the shadow effects, the global alpha, or the global composition operators, but should be subject to the clipping region.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

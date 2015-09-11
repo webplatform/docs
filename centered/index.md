@@ -1,17 +1,15 @@
 ---
-title: entered
+title: centered
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: centered
 
 ---
-# centered
-
-## centered
+## <span>centered</span>
 
 A form of typographical justification that positions an element horizontally equidistant from the left and right edges of its container element.
 

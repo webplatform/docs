@@ -1,121 +1,119 @@
 ---
 title: ellipse
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Experimental, subject to change or removal; deletion candidate.'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: "Draws the specified ellipse. If the object's path has any subpaths, this method adds a straight line from the last point in the subpath to the start point of the arc. Then, it adds the start and end points of the arc to the subpath, and connects them with an arc.\n"
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Experimental, subject to change or removal; deletion candidate.'
-summary: "Draws the specified ellipse. If the object's path has any subpaths, this method adds a straight line from the last point in the subpath to the start point of the arc. Then, it adds the start and end points of the arc to the subpath, and connects them with an arc.\n"
 uri: apis/canvas/CanvasRenderingContext2D/ellipse
 
 ---
-# ellipse
-
-## Summary
+## <span>Summary</span>
 
 Draws the specified ellipse. If the object's path has any subpaths, this method adds a straight line from the last point in the subpath to the start point of the arc. Then, it adds the start and end points of the arc to the subpath, and connects them with an arc.
 
 **Experimental, subject to change or removal; deletion candidate.**
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.ellipse(x, y, radiusX, radiusY, rotation, startAngle, endAngle, anticlockwise);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate, in pixels, for the center point of the arc in relation to the upper-left corner of the canvas rectangle.
 
-### radiusX
+### <span>radiusX</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate, in pixels, from the point (x,y) that the arc's path follows.
 
-### radiusY
+### <span>radiusY</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate, in pixels, from the point (x,y) that the arc's path follows.
 
-### rotation
+### <span>rotation</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The rotation, in radians, the semi-major axis is inclined clockwise from the x-axis.
 
-### startAngle
+### <span>startAngle</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The starting angle, in radians, where 0 is at the 3 o'clock position of the arc's circle.
 
-### endAngle
+### <span>endAngle</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The starting angle, in radians.
 
-### anticlockwise
+### <span>anticlockwise</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
 *true*: The arc is drawn in a counterclockwise direction from start to end.
 
 *false*: The arc is drawn in a clockwise direction from start to end.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
 This method can return one of these values.
 
-Return code
-:   Description
-S\_OK
-:   The operation completed successfully.
-IndexSizeError
-:   The specified radius value is negative.
+|Return code|Description|
+|:----------|:----------|
+|S\_OK|The operation completed successfully.|
+|IndexSizeError|The specified radius value is negative.|
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

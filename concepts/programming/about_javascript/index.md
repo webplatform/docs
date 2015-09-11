@@ -7,9 +7,9 @@ uri: 'concepts/programming/about javascript'
 ---
 JavaScript is a cross-platform, object-based scripting language. This guide explains everything you need to know about using JavaScript.
 
-## New features in JavaScript versions
+## <span>New features in JavaScript versions</span>
 
-``` {.script style="font-size: 16px;"}
+``` js
 /* Note: To add a link to new JavaScript version description
 add version number to versionList variable below. The page linked to
 must reside in /en/JavaScript/New_in_JavaScript/N, where N is version number. */
@@ -24,7 +24,7 @@ var s = "";
 </ul>;
 ```
 
-## What you should already know
+## <span>What you should already know</span>
 
 This guide assumes you have the following basic background:
 
@@ -33,7 +33,7 @@ This guide assumes you have the following basic background:
 
 Some programming experience with a language such as C or Visual Basic is useful, but not required.
 
-## JavaScript versions
+## <span>JavaScript versions</span>
 
 <table class="standard-table">
 <caption style="text-align: left;">
@@ -190,7 +190,7 @@ Netscape Enterprise Server 3.0
 \</tbody\>
 
 </table>
-## Where to find JavaScript information
+## <span>Where to find JavaScript information</span>
 
 JavaScript documentation includes the following books:
 
@@ -199,19 +199,19 @@ JavaScript documentation includes the following books:
 
 If you are new to JavaScript, start with the \<a href="mks://localhost/en/JavaScript/Guide" title="en/Core\_JavaScript\_1.5\_Guide"\>JavaScript Guide\</a\>. Once you have a firm grasp of the fundamentals, you can use the \<a href="mks://localhost/en/JavaScript/Reference" title="en/JavaScript/Reference"\>JavaScript Reference\</a\> to get more details on individual objects and statements.
 
-## Tips for learning JavaScript
+## <span>Tips for learning JavaScript</span>
 
 Getting started with JavaScript is easy: all you need is a modern Web browser. This guide includes some JavaScript features which are only currently available in the latest versions of Firefox (and other Gecko powered browsers), so using the most recent version of Firefox is recommended.
 
-### An interactive interpreter
+### <span>An interactive interpreter</span>
 
 An interactive JavaScript prompt is an invaluable aid to learning the language, as it enables you to try things out interactively without having to save a file and refresh a page. The Firefox Error Console, accessible through the Tools menu, provides a simple way to try interactive JavaScript: Just enter a line of code and click the "Evaluate" button.
 
 \<img alt="Image:ErrorConsole.png" class="internal" src="/@api/deki/files/192/=ErrorConsole.png" /\>
 
-### Firebug
+### <span>Firebug</span>
 
-A more advanced interactive prompt is available using \<a class="external" href="[http://www.getfirebug.com/](http://www.getfirebug.com/)"\>Firebug\</a\>, a Firefox extension. Expressions you type are interpreted as objects and linked to other parts of Firebug. For example, you can add 5 plus 5, change the case of a string, get a clickable link to the document, or get a link to an element:
+A more advanced interactive prompt is available using \<a class="external" href="<http://www.getfirebug.com/>"\>Firebug\</a\>, a Firefox extension. Expressions you type are interpreted as objects and linked to other parts of Firebug. For example, you can add 5 plus 5, change the case of a string, get a clickable link to the document, or get a link to an element:
 
 \<img alt="" class="internal" src="/@api/deki/files/5188/=FirebugCommandLine.PNG" style="width: 728px; height: 281px;" /\>
 
@@ -221,7 +221,7 @@ Firebug also provides an advanced DOM inspector, a JavaScript debugger, a profil
 
 Many of the examples in this guide use `alert()` to show messages as they execute. If you have Firebug installed you can use `console.log()` in place of `alert()` when running these examples.
 
-## Document conventions
+## <span>Document conventions</span>
 
 JavaScript applications run on many operating systems; the information in this book applies to all versions. File and directory paths are given in Windows format (with backslashes separating directory names). For Unix versions, the directory paths are the same, except that you use slashes instead of backslashes to separate directories.
 
@@ -237,7 +237,7 @@ This guide uses the following font conventions:
 -   *Italic type* is used for book titles, emphasis, variables and placeholders, and words used in the literal sense.
 -   **Boldface** type is used for glossary terms.
 
-``` {.script style="font-size: 16px;"}
+``` js
 autoPreviousNext("JSGChapters");
 ```
 

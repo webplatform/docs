@@ -1,48 +1,65 @@
 ---
 title: font-style
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/font-style)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5628297'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`fontStyle`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The font-style property allows normal, italic, or oblique faces to be selected. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face. Oblique faces can be simulated by artificially sloping the glyphs of the regular face.'
-code_samples:
-  - 'http://gist.github.com/5628297'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/font-style
 
 ---
-# font-style
-
-## Summary
+## <span>Summary</span>
 
 The font-style property allows normal, italic, or oblique faces to be selected. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face. Oblique faces can be simulated by artificially sloping the glyphs of the regular face.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `fontStyle`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `font-style: italic`
 -   `font-style: normal`
 -   `font-style: oblique`
 
-## Values
+## <span>Values</span>
 
 normal
 :   Selects a face that is classified as a normal face (one that is neither italic or oblique).
@@ -53,18 +70,18 @@ italic
 oblique
 :   Selects a font that is labeled as 'oblique' (sloped version of the regular face). If no italic or oblique font is available, the browser slopes the normal version of the font to produce an oblique approximation.
 
-## Examples
+## <span>Examples</span>
 
 A selection of examples showing uses of the font-style property.
 
-``` {.html}
+``` html
 <p>Regular ol' P</p>
 <p class="normal">Normal P, no different from the regular ol' P</p>
 <p class="italic">Italic P, the cursive version of the font</p>
 <p class="oblique">Oblique P, the sloped version of the font</p>
 ```
 
-``` {.css}
+``` css
 p { font-family: "Trebuchet MS", "Gill sans", serif; }
 p.normal { font-style: normal; }
 p.italic { font-style: italic; }
@@ -73,30 +90,28 @@ p.oblique { font-style: oblique; }
 
 [View live example](http://code.webplatform.org/gist/5628297)
 
-## Usage
+## <span>Usage</span>
 
      According to the specs, 'oblique' is a sloped version of the regular font. The example shows that browsers actually use the 'italic' version for the 'oblique' variant as well. In the example, the bottom of a regular 'f' aligns with the bottom of the surrounding text. In the oblique line this should be the case as well, but instead it shows a cursive 'f' that extends below the surrounding letters--proving that the browser is using the italic version instead of oblique.
 
 ![screenshot-font-style-example.png](/assets/public/e/ea/screenshot-font-style-example.png)
 
-## Notes
+## <span>Notes</span>
 
 If no italic or oblique face is available, oblique faces can be synthesized by rendering non-obliqued faces with an artificial obliquing operation. The use of these artificially obliqued faces can be disabled using the ‘font-synthesis’ property.
 
 Authors should also be aware that synthesized approaches may not be suitable for scripts like Cyrillic, where italic forms are very different in shape. It is always better to use an actual italic font rather than rely on a synthetic version.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-style-prop)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -110,13 +125,7 @@ Specification
 
 -   **font-style**
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [kerning-mode](/css/properties/kerning-mode)
-
--   [kerning-pair-threshold](/css/properties/kerning-pair-threshold)
 
 -   [text-rendering](/css/properties/text-rendering)
 
@@ -124,7 +133,7 @@ Specification
 
 -   [user-modify](/css/properties/user-modify)
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -150,13 +159,7 @@ Specification
 
 -   **font-style**
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -164,19 +167,10 @@ Specification
 
 -   [font](/html/elements/font)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
 -   `font`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/font-style)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

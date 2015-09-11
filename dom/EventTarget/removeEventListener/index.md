@@ -1,76 +1,72 @@
 ---
 title: removeEventListener
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/EventTarget
+    href: /dom/EventTarget
+standardization_status: 'W3C Recommendation'
+summary: 'Removes an event handler that the addEventListener method registered.'
 tags:
   - API
   - Object
   - Methods
   - DOM
   - DOMEvents
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs example'
-summary: 'Removes an event handler that the addEventListener method registered.'
 uri: dom/EventTarget/removeEventListener
 
 ---
-# removeEventListener
-
-## Summary
+## <span>Summary</span>
 
 Removes an event handler that the addEventListener method registered.
 
-*Method of [dom/EventTarget](/dom/EventTarget)*
+Method of [dom/EventTarget](/dom/EventTarget)[dom/EventTarget](/dom/EventTarget)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  target.removeEventListener(type, listener, useCapture);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### type
+### <span>type</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The event [**type**](/dom/Event/type) that the event handler is registered for.
 
-### listener
+### <span>listener</span>
 
- Data-typeÂ
+ Data-type
 :   function
 
  The event handler function to remove.
 
-### useCapture
+### <span>useCapture</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  A **Boolean** value that specifies the event phase to remove the event handler from.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 If you register multiple identical event handlers for the same event type, the duplicate event handlers are discarded. You can remove only the first instance. If the arguments for **removeEventListener** do not identify a registered event handler, the call to **removeEventListener** has no effect.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

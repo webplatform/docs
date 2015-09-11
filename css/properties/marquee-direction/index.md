@@ -1,47 +1,61 @@
 ---
 title: marquee-direction
+notes:
+  - "Add description, compatibility.\nThis property seems to have been deprecated. Once compatibility tables have been updated, consider a note talking about its usage."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`forward`'
+  'Applies to': 'non-replaced block-level elements and non-replaced ’inline-block’ elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`marqueeDirection`'
+  Percentages: n/a
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The marquee-direction determines the initial direction in which the marquee content moves.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - "Add description, compatibility.\nThis property seems to have been deprecated. Once compatibility tables have been updated, consider a note talking about its usage."
-summary: 'The marquee-direction determines the initial direction in which the marquee content moves.'
 uri: css/properties/marquee-direction
 
 ---
-# marquee-direction
-
-## Summary
+## <span>Summary</span>
 
 The marquee-direction determines the initial direction in which the marquee content moves.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `forward`
+
 Applies to
 :   non-replaced block-level elements and non-replaced ’inline-block’ elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `marqueeDirection`
+
 Percentages
 :   n/a
 
-## Syntax
+## <span>Syntax</span>
 
 -   `marquee-direction: forward`
 -   `marquee-direction: reverse`
 
-## Values
+## <span>Values</span>
 
 forward
 :   moves the content in normal reading order
@@ -49,7 +63,7 @@ forward
 reverse
 :   moves the content in reverse reading order
 
-## Usage
+## <span>Usage</span>
 
      The actual direction depends the 'direction' and 'overflow-style', as follows:
 
@@ -71,10 +85,7 @@ reverse
 `overflow-style: block;marquee-direction:reverse;`
  animation direction: top-to-bottom
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Marquee Module Level 3](http://www.w3.org/TR/css3-marquee/#marquee-direction)
 :   Candidate Recommendation
-

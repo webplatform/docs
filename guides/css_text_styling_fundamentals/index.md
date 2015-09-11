@@ -1,20 +1,18 @@
 ---
-title: css text styling fundamentals
+title: CSS text styling fundamentals
+readiness: 'Ready to Use'
+summary: 'This article covers the fundamentals of styling text on the web, including web fonts, font size, line height, and more.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This article covers the fundamentals of styling text on the web, including web fonts, font size, line height, and more.'
 uri: 'guides/css text styling fundamentals'
 
 ---
-# CSS text styling fundamentals
-
-## Summary
+## <span>Summary</span>
 
 This article covers the fundamentals of styling text on the web, including web fonts, font size, line height, and more.
 
-## Introduction
+## <span>Introduction</span>
 
 The web is composed of a lot of different things, technical, social, and structural, but at its heart is something we all understand: human language. The beauty of the web is that it allows human-readable text to be presented so that it transcends barriers such as disability and geography. Of course, as humans we have been working out ways to format text so that it is legible to others for many centuries, but in printed form.
 
@@ -22,7 +20,7 @@ Web design has a lot of parallels with print design, but it also has a lot of di
 
 Note: The article [Web Typography](http://docs.webplatform.org/wiki/concepts/web_typography) lays a good foundation for this chapter by explaining a number of typographic concepts. Make sure you read it before this one.
 
-## Print to web?
+## <span>Print to web?</span>
 
 The main shock that print designers get when coming to the web is the lack of control. In print design, designers have ultimate control over how their creations will look, and are safe in the knowledge that the space the work appears in will not change dimensions, number of colors available, or any other such property.
 
@@ -30,21 +28,21 @@ On the web, however, you can not guarantee that your beautifully crafted design 
 
 So, you need to accept this uncertainty and move on. You will discover strategies to make your designs more flexible so they look better in widely varying viewing contexts later, but for now, let's review the basics.
 
-## Font styles
+## <span>Font styles</span>
 
 CSS has a number of properties beginning with `font-`, which allow you to control many features of the text characters (or glyphs) themselves. We'll take a look at these in the following sections.
 
-### Choosing a font with font-family
+### <span>Choosing a font with font-family</span>
 
 `font-family` allows you to specify which font, or fonts, a selection of elements will use. Try adding the following CSS line to a `body` rule, then save and reload:
 
-``` {.css}
+``` css
 font-family: Arial;
 ```
 
  This will apply Arial — a sans-serif font (no serifs, the little decorative features at the end of the strokes of the text) — to the whole document, rather than the default serif font (fonts that *have* serifs), provided this font is available on your user's system. It probably will be, because Arial is a ubiquitous font.
 
-#### Web-safe fonts
+#### <span>Web-safe fonts</span>
 
 There are about 11 fonts that are installed across almost all systems, termed *web safe fonts* because they are safe for use in your pages. The list includes:
 
@@ -54,11 +52,11 @@ There are about 11 fonts that are installed across almost all systems, termed *w
 -   **Cursive**: fonts that have a decorative, often handwritten-looking style: Comic Sans
 -   **Fantasy**: fonts that have a bold, often ornamental or quirky style, which are meant to be used for headings, not body copy: Impact
 
-#### Font stacks
+#### <span>Font stacks</span>
 
 If you want, you can also apply a number of fonts to a single element selection, known as a *font stack*. Try changing the line you added above to the following:
 
-``` {.css}
+``` css
 font-family: 'helvetica neue', arial, verdana, sans-serif;
 ```
 
@@ -73,13 +71,13 @@ So:
 
 Note that fonts with more than one word in their names must be surrounded by quotes.
 
-#### Overriding body fonts
+#### <span>Overriding body fonts</span>
 
 So far you have set fonts on the `<body>` element, which sets a page-wide default that affects everything; now you will learn how to override some of the `<body>`'s child elements to set things up nicely.
 
 For a start, it is often a good idea to use a different font for at least some of your headings, to make them stand out and give your site a bit more character. Add the following to your styles:
 
-``` {.css}
+``` css
 h1, h2 {
   font-family: impact;
 }
@@ -89,7 +87,7 @@ h1, h2 {
 
 As for other content elements we could affect, how about emphasized text? You could, for example, use `<em>` for all references involving dates to make them stand out a bit. As it is, the browser gives emphasis a default italic look, but this does not stand out as much as it could. Add the following rule:
 
-``` {.css}
+``` css
 em {
   font-family: georgia;
 }
@@ -99,13 +97,13 @@ em {
 
 Headings used to be difficult to deal with. Given that the only web safe fantasy font seems to be Impact (not bad, but imagine if all sites had to use it) and you do not want to be stuck with a default system font, such as the dreadful Papyrus, designers used to use various image techniques for their headings. As you should know by now, using images for text on a web site is really bad because images cannot be read by screen readers or search engines. In the next section, you will find some solutions to resolve this problem.
 
-### Image replacement
+### <span>Image replacement</span>
 
 Image replacement is a very common technique to display better looking headings and company logos, while not making the text inaccessible or compromising on search engine optimization. Here is an overview of how it works:
 
 Create an image file of your heading with the desired design. Add the following rule to your CSS, and then save and reload the page, making sure the image is in the same directory as the HTML file:
 
-``` {.css}
+``` css
 h1 {
   background-image: url(myheading.png);
   height: 55px;
@@ -121,11 +119,11 @@ This works pretty well — you get the heading look you want displayed on the pa
 -   Text scales nicely as you zoom in; images don't. If you zoom in too much, the graphical heading will start to look grainy and pixelated.
 -   If you use too much text replacement, the extra HTTP requests could slow down your page load. Some more sophisticated image replacement techniques can slow down the page even more, as they use Flash ([siFR](http://www.sifrgenerator.com/)) or SVG ([cufon](http://cufon.shoqolate.com/generate/)).
 
-### Web fonts
+### <span>Web fonts</span>
 
 Thankfully, CSS3 introduces Web fonts, a feature that allows us to specify our own custom font files to download along with our web pages. This is great, as it completely gets around the problem of fonts not being available on users' machines. To specify a web font for download on a page, you reference the font in a special `@font-face` block that goes at the top of the page, and looks something like this:
 
-``` {.css}
+``` css
 @font-face {
   font-family: 'My font';
   src: url('myfont.ttf') format('truetype');
@@ -136,7 +134,7 @@ Thankfully, CSS3 introduces Web fonts, a feature that allows us to specify our o
 
 You then include the font in your page in exactly the same way as you would other fonts:
 
-``` {.css}
+``` css
 font-family: 'My font';
 ```
 
@@ -158,7 +156,7 @@ Follow these steps:
 
 1.  Open the `stylesheet.css` file and copy the CSS rule inside it into the top of your example file styles. It looks like this:
 
-``` {.css}
+``` css
 @font-face {
   font-family: 'RomantiquesRegular';
   src: url('romantiques-webfont.eot');
@@ -179,7 +177,7 @@ Note: If you didn't save the font files in the same directory as your example fi
 
 Delete the `h1` rule you added previously, and replace it with this:
 
-``` {.css}
+``` css
 h1, h2 {
   font-family: RomantiquesRegular;
 }
@@ -187,7 +185,7 @@ h1, h2 {
 
  Save the page and reload it. Notice that the font is applied to all first and second level headings in the page. This is a very useful technique, and much more flexible than image replacement. Try adding a color to your headings:
 
-``` {.css}
+``` css
 color: #530FAD;
 ```
 
@@ -200,7 +198,7 @@ color: #530FAD;
 
 Note: There are professional paid font services you can use for your web font needs, such as [Fontdeck](http://fontdeck.com/) and [Typekit](https://typekit.com/). If you have the money to spend, their font options provide higher quality.
 
-### Setting units and sizing with font-size
+### <span>Setting units and sizing with font-size</span>
 
 The next CSS property to look at is `font-size`. This allows you to set the size of the text inside selected elements, using any CSS units available, such as pixels, ems, percentage, and more.
 
@@ -208,17 +206,17 @@ You can also use size keywords: `xx-small`, `x-small`, `small`, `medium`, `large
 
 Using size keywords, headings will always stay proportionate to one another, regardless of the fonts used and the visitor's operating system. But they do not offer a great amount of control — you do not see them used very often. Check out the following typical font-sizing exercise.
 
-#### Setting a base font size
+#### <span>Setting a base font size</span>
 
 The first thing to do is set a base font size for the whole document. This is usually accomplished by adding a rule to the `<body>` element. Add the following to your `body` rule:
 
-``` {.css}
+``` css
 font-size: 62.5%
 ```
 
  Why 62.5%? The answer is that the default font-size for most browsers is 16px. 62.5% of 16 is 10, so by using this percentage you are setting the base font for the whole site to 10px, which makes subsequent math calculations easier.
 
-#### Setting heading and body sizes
+#### <span>Setting heading and body sizes</span>
 
 Next, turn your attention to the font-sizes for different content. The base font size is 10px, making it easy to work out the sizes of the rest of the page text. For example, if you want the first level headings to be 42px, you can set the font-size to 420%, or 4.2ems. Percentages and ems work almost equivalently for our purposes. The differences are not really that important, at least for now. Both units set sizes proportionately to the size of parent font size, and the added bonus is that you can also set other dimensions in your design to percentages of ems, such as margins, the width of content blocks, and more. It is nice to be able to control a whole site relative to the text sizes.
 
@@ -228,7 +226,7 @@ For now, stick to using ems when writing rules.
 
 Add the following rules to your styles:
 
-``` {.css}
+``` css
 h1 {
   font-size: 5.5em;
 }
@@ -242,7 +240,7 @@ h2 {
 
 Next, set the body text and list to make it easier to read:
 
-``` {.css}
+``` css
 p, ul {
   font-size: 1.6em;
 }
@@ -252,7 +250,7 @@ p, ul {
 
 Next, set the emphasis slightly smaller, to make it stand out even more nicely:
 
-``` {.css}
+``` css
 em {
   font-size: 0.8em;
 }
@@ -262,7 +260,7 @@ em {
 
 Note: The pixel sizes we are talking about here are called the *computed values*. Regardless of the units and values you use to set your font sizes, computers display graphics display in pixels, so the browser must convert everything into pixel values before it can display them to visitors.
 
-### Changing the details with font-weight, font-style, and font-variant
+### <span>Changing the details with font-weight, font-style, and font-variant</span>
 
 Next, you'll check out these properties:
 
@@ -270,7 +268,7 @@ Next, you'll check out these properties:
 -   `font-style` allows you to set a element's text to be oblique or italic.
 -   `font-variant` allows you to set and element's text to be small-caps, also known as copperplate letters.
 
-#### Using font-weight
+#### <span>Using font-weight</span>
 
 Use this property when you want text to be bolder. Possible values are:
 
@@ -283,7 +281,7 @@ Most of these settings don't really make a visual difference, especially when se
 
 For this example, add the following rule to highlight the first lines below each heading:
 
-``` {.css}
+``` css
 h1 + p:first-line, h2 + p:first-line {
   font-weight: bold;
 }
@@ -293,25 +291,24 @@ h1 + p:first-line, h2 + p:first-line {
 
 Note: `bold` is equivalent to `700`.
 
-#### Setting font-style
+#### <span>Setting font-style</span>
 
 `font-style` can take the values `italic`, `oblique`, and `normal`. Normal is the default, as before, `italic` tells the browser to use the italic version of the font (if available), and `oblique` tells the browser to use the normal version of the font, but slant it. If you specify `italic`, unless the font you are using has a specific italic version available the browser will fall back to generate an oblique version to use.
 
 Add the following line to the rule you added in the previous section:
 
-``` {.css}
+``` css
 font-style: italic;
 ```
 
-#### Working with font-variant
+#### <span>Working with font-variant</span>
 
 `font-variant` can take two values, `normal`, which is the default as expected, and `small-caps`, which uses all capital characters, but large ones for the capital letters, and small ones for the lower case letters. Add the following to the `em` rule and see what happens:
 
-``` {.css}
+``` css
 font-variant: small-caps;
 ```
 
-## Conclusion
+## <span>Conclusion</span>
 
 You should now have a grasp of text styling fundamentals and be able to apply the techniques to your own pages. For more information, see the other tutorial articles in this section.
-

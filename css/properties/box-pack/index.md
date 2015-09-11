@@ -1,51 +1,65 @@
 ---
 title: box-pack
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add example, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`start`'
+  'Applies to': 'box elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+standardization_status: Non-Standard
+summary: 'Do not use. This property has been replaced by flex-pack.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: Non-Standard
-notes:
-  - 'Add example, compatibility.'
-summary: 'Do not use. This property has been replaced by flex-pack.'
-uri: css/properties/box-pack
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - flex-pack
+uri: css/properties/box-pack
 
 ---
-# box-pack
-
-## Summary
+## <span>Summary</span>
 
 Do not use. This property has been replaced by flex-pack.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `start`
+
 Applies to
 :   box elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `box-pack: center`
 -   `box-pack: end`
 -   `box-pack: justify`
 -   `box-pack: start`
 
-## Values
+## <span>Values</span>
 
 start
 :   The starting edge of the first child element is placed at the start of the parent element; the starting edge of the next child element is placed edge to edge with the ending edge of the first child element; and so on along the layout axis direction. All space that remains along the layout axis is placed at the end of the layout axis.
@@ -61,24 +75,22 @@ justify
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Be aware that these are [**writing-mode**](/css/properties/writing-mode) dependent keywords; the starting and ending edges of the parent element and child elements depend on the layout direction. For instance, for a left-to-right layout, the starting edge is the left edge of the parent element, for a top-to-bottom layout the starting edge is the top edge, and so on. Likewise, the ending edge of a child element is the right edge in a left-to-right layout, the bottom edge in a top-to-bottom layout, and so on.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Flexible Box Layout Module](http://www.w3.org/TR/2009/WD-css3-flexbox-20090723/)
 :   W3C Working Draft (Obsolete)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -93,8 +105,6 @@ Specification
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -124,13 +134,6 @@ Specification
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

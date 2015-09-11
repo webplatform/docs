@@ -1,22 +1,20 @@
 ---
-title: ia and usability
+title: IA and usability
+notes:
+  - 'Listing page; needs more links'
+readiness: 'In Progress'
+summary: 'This page lists articles related to the theory and practice of information architecture and usability.'
 tags:
   - Basic
   - Pages
-readiness: 'In Progress'
-notes:
-  - 'Listing page; needs more links'
-summary: 'This page lists articles related to the theory and practice of information architecture and usability.'
 uri: 'concepts/ia and usability'
 
 ---
-# IA and usability
-
-## Summary
+## <span>Summary</span>
 
 This page lists articles related to the theory and practice of information architecture and usability.
 
-## Information Architecture
+## <span>Information Architecture</span>
 
 -   [Planning a website](/concepts/information_architecture/planning_a_website)
 -   Scoping and User Research

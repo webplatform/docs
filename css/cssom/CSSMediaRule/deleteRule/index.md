@@ -1,58 +1,61 @@
 ---
 title: deleteRule
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - Examples
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/CSSMediaRule/CSSMediaRule
+    href: /css/cssom/CSSMediaRule/CSSMediaRule
+summary: 'Deletes a CSSRule (representing a selector and all its properties) from the block of rules controlled by this @media rule; the rule to be deleted is specified by index.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - Examples
-summary: 'Deletes a CSSRule (representing a selector and all its properties) from the block of rules controlled by this @media rule; the rule to be deleted is specified by index.'
 uri: css/cssom/CSSMediaRule/deleteRule
 
 ---
-# deleteRule
-
-## Summary
+## <span>Summary</span>
 
 Deletes a CSSRule (representing a selector and all its properties) from the block of rules controlled by this @media rule; the rule to be deleted is specified by index.
 
-*Method of [css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)*
+Method of [css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)[css/cssom/CSSMediaRule/CSSMediaRule](/css/cssom/CSSMediaRule/CSSMediaRule)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  mediaRule.deleteRule(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### index
+### <span>index</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The index of the rule to remove from the media block's rule collection.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html#CSS-CSSMediaRule)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -108,13 +111,9 @@ Specification
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -154,21 +153,58 @@ Specification
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    â€¦ further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSMediaRule`
 -   `Reference`
 -   `cssRules`
 -   `insertRule`
 -   `media`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

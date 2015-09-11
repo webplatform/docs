@@ -1,50 +1,66 @@
 ---
 title: transform-origin
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'This property defines the origin of the transformation axes relative to the element to which the transformation is applied.'
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
   - 'http://gist.github.com/6983020'
   - 'http://gist.github.com/6983052'
   - 'http://gist.github.com/6983069'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`50% 50%`'
+  'Applies to': 'Transformable elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'For \<length\>, the absolute value; otherwise a percentage.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'Refer to the size of the element''s bounding box.'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'This property defines the origin of the transformation axes relative to the element to which the transformation is applied.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/transform-origin
 
 ---
-# transform-origin
-
-## Summary
+## <span>Summary</span>
 
 This property defines the origin of the transformation axes relative to the element to which the transformation is applied.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `50% 50%`
+
 Applies to
 :   Transformable elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   For \<length\>, the absolute value; otherwise a percentage.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   Refer to the size of the element's bounding box.
 
-## Syntax
+## <span>Syntax</span>
 
 -   `transform-origin: <named-position>`
 -   `transform-origin: length`
 -   `transform-origin: percentage`
 
-## Values
+## <span>Values</span>
 
 percentage
 :   A number, followed by a %.
@@ -61,9 +77,9 @@ Units of measurement may be absolute (`cm`, `mm`, `in`, `pt`, or `pc`) or relati
 
 The values `left`, `center`, and `right` are valid for the X axis and are equivalent to 0%, 50%, and 100% respectively. The values `top`, `center`, and `bottom` are valid for the Y axis and are equivalent to 0%, 50%, and 100% respectively. There are no named positions along the Z axis.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* 25% X offset, 50% Y offset, 0 Z offset */
 #mytranselem {
     transform-origin: 25% 50%;
@@ -72,7 +88,7 @@ The values `left`, `center`, and `right` are valid for the X axis and are equiva
 
 [View live example](http://code.webplatform.org/gist/6983020)
 
-``` {.css}
+``` css
 /* 20px Y offset, 25px X offset, 30px Z offset */
 #mytranselem {
     transform-origin: 20px 25px 30px;
@@ -81,7 +97,7 @@ The values `left`, `center`, and `right` are valid for the X axis and are equiva
 
 [View live example](http://code.webplatform.org/gist/6983052)
 
-``` {.css}
+``` css
 /* right X offset, center Y offset, 0 Z offset */
 #mytranselem {
     transform-origin: right;
@@ -90,7 +106,7 @@ The values `left`, `center`, and `right` are valid for the X axis and are equiva
 
 [View live example](http://code.webplatform.org/gist/6983069)
 
-## Notes
+## <span>Notes</span>
 
 The origin may be moved along all three axes with this single property by specifying the relative position of each axis in X, Y, Z order. The grid complies with the right-hand rule for Cartesian coordinate systems. The x-axis increases from left to right; the y-axis increases from top to bottom; and the z-axis increases away from the user (higher z-values are more distant).
 
@@ -101,25 +117,16 @@ If the `transform-origin` property is not set, the transform begins in the cente
 -   If fewer than three values are provided, the third value (z-axis) is assumed to be `0` (screen level).
 -   If only one value is specified, the second value (y-axis) is assumed to be `50%`.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Transforms Module Level 3](http://www.w3.org/TR/css3-transforms)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `style`
 -   `transform`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

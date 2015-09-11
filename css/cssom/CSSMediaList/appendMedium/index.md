@@ -1,59 +1,62 @@
 ---
 title: appendMedium
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'include examples of appropriate and inappropriate mediums, or provide range of accepted values for mediums.'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/CSSMediaList/CSSMediaList
+    href: /css/cssom/CSSMediaList/CSSMediaList
+standardization_status: 'W3C Recommendation'
+summary: 'Adds a medium to the end of the current list. If the medium is already used, it is first removed.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'include examples of appropriate and inappropriate mediums, or provide range of accepted values for mediums.'
-summary: 'Adds a medium to the end of the current list. If the medium is already used, it is first removed.'
 uri: css/cssom/CSSMediaList/appendMedium
 
 ---
-# appendMedium
-
-## Summary
+## <span>Summary</span>
 
 Adds a medium to the end of the current list. If the medium is already used, it is first removed.
 
-*Method of [css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)*
+Method of [css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)[css/cssom/CSSMediaList/CSSMediaList](/css/cssom/CSSMediaList/CSSMediaList)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  mediaList.appendMedium(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### medium
+### <span>medium</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The new medium to add.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -109,13 +112,9 @@ Specification
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -155,11 +154,55 @@ Specification
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    â€¦ further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSMediaList`
 -   `Reference`
@@ -167,10 +210,3 @@ Specification
 -   `item`
 -   `length`
 -   `mediaText`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

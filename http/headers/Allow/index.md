@@ -1,51 +1,53 @@
 ---
 title: Allow
+overview_table:
+  Direction: Response
+  Required: 'Along with 405 Method Not allowed'
+  Features: ''
+summary: 'Lists the methods supported by the target resource.'
 tags:
   - HTTP
   - Headers
-summary: 'Lists the methods supported by the target resource.'
 uri: http/headers/Allow
 
 ---
-# Allow
-
-## Summary
+## <span>Summary</span>
 
 Lists the methods supported by the target resource.
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Response
+
 Required
 :   Along with 405 Method Not allowed
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     Allow = #method
 
-## Examples
+## <span>Examples</span>
 
-``` {.other}
+```
 Allow: GET, HEAD, PUT
 ```
 
-``` {.other}
+```
 Allow: GET, HEAD, PUT, DELETE, POST
 ```
 
-## Usage
+## <span>Usage</span>
 
      Must be sent in a 405 Method Not Allowed response.
 
 *Should* be sent to an OPTIONS response.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [RFC7231: HTTP/1.1 Semantics and Content](http://tools.ietf.org/html/rfc7231#section-7.4.1)
 :
 

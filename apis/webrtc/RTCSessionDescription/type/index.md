@@ -1,35 +1,42 @@
 ---
 title: type
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/RTCSessionDescription
+    href: /apis/webrtc/RTCSessionDescription
+  return:
+    predicate: 'Returns an object of type '
+    value: RTCSdpType
+    href: /apis/webrtc/RTCSessionDescription
+summary: 'The type of SDP object this RTCSessionDescription represents.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'The type of SDP object this RTCSessionDescription represents.'
 uri: apis/webrtc/RTCSessionDescription/type
 
 ---
-# type
-
-## Summary
+## <span>Summary</span>
 
 The type of SDP object this RTCSessionDescription represents.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/RTCSessionDescription](/apis/webrtc/RTCSessionDescription)</span></span>
+Property of [apis/webrtc/RTCSessionDescription](/apis/webrtc/RTCSessionDescription)[apis/webrtc/RTCSessionDescription](/apis/webrtc/RTCSessionDescription)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.type;
 element.type = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">RTCSdpType</span></span>
+Returns an object of type RTCSdpTypeRTCSdpType
 
 The RTCSdpType enum has the following values:
 

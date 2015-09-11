@@ -1,22 +1,20 @@
 ---
-title: events
+title: SVG events
+notes:
+  - 'Add some content, with link to the main DOM events page.'
+readiness: 'In Progress'
+summary: 'List of all pages in svg/events/'
 tags:
   - API
   - Listings
-readiness: 'In Progress'
-notes:
-  - 'Add some content, with link to the main DOM events page.'
-summary: 'List of all pages in svg/events/'
 uri: svg/events
 
 ---
-# SVG events
-
-## Summary
+## <span>Summary</span>
 
 List of all pages in svg/events/
 
-## All Pages
+## <span>All Pages</span>
 
 -   [error](/svg/events/error)
 -   [load](/svg/events/load)

@@ -1,45 +1,47 @@
 ---
 title: asin
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/whc9ckbs(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the arcsine of a number.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the arcsine of a number.'
 uri: javascript/Math/asin
 
 ---
-# asin
-
-## Summary
+## <span>Summary</span>
 
 Returns the arcsine of a number.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Math.asin( number )
 
 **number**
 :   Required. The required number argument is a numeric expression for which the arcsine is needed.
 
-## Return Value
+## <span>Return Value</span>
 
 The return value is the arcsine of the number argument, in radians.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var v1 = Math.asin(-1.0);
 document.write(v1);
 // Output: -1.5707963267948965
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Applies To : [Math Object](/javascript/Math)
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Math.acos Function](/javascript/Math/acos)
 -   [Math.atan Function](/javascript/Math/atan)
@@ -47,10 +49,4 @@ Applies To : [Math Object](/javascript/Math)
 -   [Math.sin Function](/javascript/Math/sin)
 -   [Math.tan Function](/javascript/Math/tan)
 -   [Math Object](/javascript/Math)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/whc9ckbs(v=vs.94).aspx)
 

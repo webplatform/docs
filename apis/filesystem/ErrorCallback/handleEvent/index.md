@@ -1,53 +1,53 @@
 ---
 title: handleEvent
+notes:
+  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
+readiness: 'Out of Date'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/filesystem/ErrorCallback
+    href: /apis/filesystem/ErrorCallback
+standardization_status: 'W3C Working Draft'
+summary: "There was an error with the request. Details are provided by the err parameter.\n"
 tags:
   0: API
   1: Object
   2: Methods
   4: FileSystemAPI
-readiness: 'Out of Date'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
-summary: "There was an error with the request. Details are provided by the err parameter.\n"
 uri: apis/filesystem/ErrorCallback/handleEvent
 
 ---
-# handleEvent
-
-## Summary
+## <span>Summary</span>
 
 There was an error with the request. Details are provided by the err parameter.
 
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-*Method of [apis/filesystem/ErrorCallback](/apis/filesystem/ErrorCallback)*
+Method of [apis/filesystem/ErrorCallback](/apis/filesystem/ErrorCallback)[apis/filesystem/ErrorCallback](/apis/filesystem/ErrorCallback)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  ErrorCallback.handleEvent(err);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### err
+### <span>err</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The error that was generated.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft
-

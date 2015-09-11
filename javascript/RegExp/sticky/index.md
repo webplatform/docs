@@ -1,31 +1,31 @@
 ---
 title: sticky
+notes:
+  - 'Moved under javascript/RegExp'
+readiness: 'Ready to Use'
+summary: 'Returns a Boolean value indicating the state of the sticky flag ( y ) used with a regular expression. Default is false. Read-only.'
 tags:
   0: JS
   1: Basic
   3: Property
-readiness: 'Ready to Use'
-notes:
-  - 'Moved under javascript/RegExp'
-summary: 'Returns a Boolean value indicating the state of the sticky flag ( y ) used with a regular expression. Default is false. Read-only.'
 uri: javascript/RegExp/sticky
 
 ---
-# sticky
-
-## Summary
+## <span>Summary</span>
 
 Returns a Boolean value indicating the state of the sticky flag ( y ) used with a regular expression. Default is false. Read-only.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     regex.sticky
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the `sticky` property.
 
-``` {.js}
+``` js
 var regex = /foo.bar/gy;
 regex.sticky;
 // → true
@@ -50,15 +50,15 @@ regex.lastIndex;
 // → 9
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The `sticky` property returns `true` if the sticky flag is set for a regular expression, and returns `false` if it is not.
 
 The `sticky` flag, when used, indicates that the regular expression performs sticky matching in the target string by attempting to match starting at `lastIndex`. If matching at that location fails, then `null` is returned, i.e., no forward “anchoring” search is performed. If matching succeeds, then the regular expression’s `lastIndex` property is updated as for the flag `g`.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [global Property (Regular Expression)](/javascript/regular_expression/global)
 -   [ignoreCase Property (Regular Expression)](/javascript/regular_expression/ignoreCase)

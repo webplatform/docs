@@ -1,5 +1,7 @@
 ---
-title: responsive design
+title: Responsive Web Design
+readiness: 'Ready to Use'
+summary: 'Responsive Web Design is an approach that emphasises design which works well across a variety of devices and browsing contexts -- without serving different content for each different operating system, device, browser, display size or pixel density.'
 tags:
   - Concept
   - Pages
@@ -7,14 +9,10 @@ tags:
   - Mobile
   - UI
   - Usability
-readiness: 'Ready to Use'
-summary: 'Responsive Web Design is an approach that emphasises design which works well across a variety of devices and browsing contexts -- without serving different content for each different operating system, device, browser, display size or pixel density.'
 uri: 'concepts/mobile web/responsive design'
 
 ---
-# Responsive Web Design
-
-## Summary
+## <span>Summary</span>
 
 Responsive Web Design is an approach that emphasises design which works well across a variety of devices and browsing contexts -- without serving different content for each different operating system, device, browser, display size or pixel density.
 
@@ -38,7 +36,7 @@ Earlier web designers had discovered the advantages of [separating content from 
 
 Jared Ponchot points out that [the web was by it's very nature designed to be responsive](http://www.lullabot.com/articles/responsive-adaptive-web-design).
 
-### The perils of serving different content
+### <span>The perils of serving different content</span>
 
 [](/File:mobile_book.jpg)
 
@@ -52,7 +50,7 @@ Even if you only have one site, but you serve different content to different dev
 
 Consistent content is king! Responsive design can be used to give all your users access to all your site's or app's content and features.
 
-## Workflow and process
+## <span>Workflow and process</span>
 
 [](/File:responsive_comping.jpg)
 
@@ -70,9 +68,9 @@ Developer Brad Frost has compiled a [list of resources](http://bradfrost.github.
 
 To make RWD possible in a commercial context, it is crucial to be able to get sign-off for responsive designs: Matt Griffin has suggestions on how to achieve this in his article about what he calls [responsive comping](http://www.alistapart.com/articles/responsive-comping-obtaining-signoff-with-mockups/).
 
-## Layout, sizing and grids
+## <span>Layout, sizing and grids</span>
 
-### Viewport
+### <span>Viewport</span>
 
 There are two types of width specified in the context of browser display space:
 
@@ -89,9 +87,9 @@ This example causes `width` to equal `device-width`: the 'window' that web conte
 
 A [comprehensive guide to the viewport meta element](https://developer.mozilla.org/en-US/docs/Mobile/Viewport_meta_tag) is available on the Mozilla Developer Network, and there are a number of [tools for viewport testing](http://bradfrost.github.com/this-is-responsive/resources.html#viewport-testing).
 
-### Dimensions and units
+### <span>Dimensions and units</span>
 
-#### A pixel is not a pixel
+#### <span>A pixel is not a pixel</span>
 
 One of the major problems with using px (pixel) units on mobile devices is that a 'CSS pixel' (the unit used in a CSS rule) may not correspond to a 'device pixel' (the actual coloured dot on the display). This number of device pixels per unit of physical width is referred to as [pixel density](http://en.wikipedia.org/wiki/List_of_displays_by_pixel_density). (To determine the appropriate resolution for an image in a given context, the browser uses the device pixel ratio, as described in Boris Smus's [article about high-DPI images](http://www.html5rocks.com/en/mobile/high-dpi/#toc-calculating-dpr) explains the meaning of device pixel ratio.)
 
@@ -107,7 +105,7 @@ This means that, unlike for print media, it is not advisable to attempt to speci
 
 As a result, one of the core techniques of responsive design is to use relative, not absolute units, and techniques for this are described throughout Koch's article.
 
-## Media queries
+## <span>Media queries</span>
 
 CSS media queries allow you to choose different CSS rules for different browsing conditions, such as media (print or screen), display width or device orientation. Media queries are at the core of RWD approaches, because they enable web designers to specify different layouts and sizes for different contexts.
 
@@ -126,7 +124,7 @@ You can use media queries to apply different stylesheets:
 
 [mediaqueri.es](http://mediaqueri.es/) provides examples of sites that use media queries, Mozilla Developer Network provides [a detailed reference to media queries](https://developer.mozilla.org/en-US/docs/CSS/Media_queries), and more details of features that may be implemented in the future are available from the [W3C Recommendation](http://www.w3.org/TR/css3-mediaqueries/).
 
-#### Breakpoints
+#### <span>Breakpoints</span>
 
 [](/File:mediaqueri.es.png)
 
@@ -145,7 +143,7 @@ The problem with the device-size approach is that the number of device types and
 
 It's easy to test this out, with tools like Remy Sharp's [responsivepx](http://responsivepx.com/) and Brad Frost's [ish](http://bradfrostweb.com/blog/post/ish/).
 
-#### Responsive design v Adaptive design v adaptive layout
+#### <span>Responsive design v Adaptive design v adaptive layout</span>
 
 [Adaptive web design](http://blog.easy-designs.net/archives/2011/11/16/on-adaptive-vs-responsive-web-design/) can respond to varying contexts without fluid grids and flexible images, for example by providing different page components in different contexts. Brad Frost [gives three examples](http://blog.easy-designs.net/archives/2011/11/16/on-adaptive-vs-responsive-web-design/) of design that is adaptive rather than responsive:
 
@@ -161,15 +159,15 @@ For typography, images and layout, adaptive design might respond to breakpoints 
 
 The differences between 'adaptive' and 'responsive' have been summarised by [Aaron Gustafson](http://blog.easy-designs.net/archives/2011/11/16/on-adaptive-vs-responsive-web-design/), often credited with inventing the term 'adaptive design'. Marc ven den Dobbelsteen also used the term 'adaptive design' in his 2006 [Switch McLayout article](http://www.alistapart.com/articles/switchymclayout). Brad Frost [has suggested](http://blog.easy-designs.net/archives/2011/11/16/on-adaptive-vs-responsive-web-design/) that responsive design is a subset of adaptive design.
 
-#### More information
+#### <span>More information</span>
 
-Using media queries on mobile platforms: [http://mobile.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/](http://mobile.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/)
+Using media queries on mobile platforms: <http://mobile.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/>
 
 Reference: [developer.mozilla.org/en-US/docs/CSS/Media\_queries](https://developer.mozilla.org/en-US/docs/CSS/Media_queries)
 
 W3C Recommendation: [w3.org/TR/css3-mediaqueries](http://www.w3.org/TR/css3-mediaqueries/)
 
-## Testing
+## <span>Testing</span>
 
 [](/File:responsivepx.png)
 
@@ -193,7 +191,7 @@ Brad Frost's [ish](http://bradfrostweb.com/demo/ish/) resizer emphasises that br
 
 A huge range of other tools is available for testing and debugging responsive design components including images, fonts and layouts. For more information and resources see the [Mobile Debugging article](http://docs.webplatform.org/wiki/concepts/internet_and_web/html5_hybrid_applications/concepts/mobile_debugging#Devices) on webplatform.org.
 
-## Pro and con
+## <span>Pro and con</span>
 
 A word of warning: 'pure' RWD may not always be appropriate, and developers such as Guy Podjarny have pointed to [potential performance problems](http://guypo.com/technical/responsive-web-design-is-bad-for-performance-there-i-said-it).
 
@@ -210,21 +208,21 @@ Developers have encountered several other RWD hazards:
 
 Some techniques for dealing with these issues are described below.
 
-### Coping with older browsers
+### <span>Coping with older browsers</span>
 
-#### Media queries
+#### <span>Media queries</span>
 
 Scott Jehl's [Respond.js polyfill](https://github.com/scottjehl/Respond) enables min-width and max-width rules, even with older browsers such as Internet Explorer 6 8; [jQuery](http://www.jquery.com/) likewise.
 
-#### Feature detection
+#### <span>Feature detection</span>
 
 The [Modernizr](http://www.modernizr.com/) library works on most web platforms and can be used to build responsive sites and apps which work in a range of contexts.
 
-#### Polyfills
+#### <span>Polyfills</span>
 
 A polyfill (think [Polyfilla](http://www.wilkinsonplus.com/content/ebiz/wilkinsonplus/invt/0288365/0288365_l.jpg)) is code that enables features to be used natively, if they're available, or replicates them if they're not. This can be very useful for achieving future-proof RWD across a range of browsers.
 
-### High performance RWD
+### <span>High performance RWD</span>
 
 Several developers have suggested techniques to avoid or minimise performance problems with RWD.
 
@@ -234,7 +232,7 @@ Jason Grigsby: [The Performance Implications of Responsive Web Design](http://la
 
 Brad Frost: list of RWD [performance resources](http://bradfrost.github.com/this-is-responsive/resources.html#performance)
 
-### RWD opt out
+### <span>RWD opt out</span>
 
 [](/File:bruce_lawson.png)
 
@@ -244,7 +242,7 @@ Bruce Lawson blog post: opting out of RWD
 
 Bruce Lawson and other developers have suggested that it might be appropriate to give users the option to opt out of RWD: his [blog post](http://www.brucelawson.co.uk/2013/turning-off-responsive-web-design/) on the subject, has links to articles explaining techniques for enabling this.
 
-## Further reading
+## <span>Further reading</span>
 
 [Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design/), by Ethan Marcotte
 
@@ -254,7 +252,7 @@ Bruce Lawson and other developers have suggested that it might be appropriate to
 
 [A List Apart articles on responsive design](http://www.alistapart.com/articles/)
 
-## Related concepts
+## <span>Related concepts</span>
 
 Adaptive web design
 
@@ -262,11 +260,11 @@ Adaptive web design
 
 [Liquid layout](http://coding.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Layout
+#### <span>CSS Layout</span>
 
 -   **Responsive Web Design**
 
@@ -281,8 +279,6 @@ Adaptive web design
 -   [box-flex](/css/properties/box-flex)
 
 -   [box-lines](/css/properties/box-lines)
-
--   [box-ordinal-group](/css/properties/box-ordinal-group)
 
 -   [box-orient](/css/properties/box-orient)
 
@@ -312,7 +308,7 @@ Adaptive web design
 
 -   [baseline-shift](/svg/attributes/baseline-shift)
 
-#### Grid Layout
+#### <span>Grid Layout</span>
 
 -   **Responsive Web Design**
 
@@ -330,7 +326,7 @@ Adaptive web design
 
 -   [height](/css/properties/height)
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   **Responsive Web Design**
 
@@ -369,6 +365,3 @@ Adaptive web design
 -   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
 
 -   [behavior](/css/properties/behavior)
-
--   [Targeting styles with media queries](/tutorials/media_queries)
-

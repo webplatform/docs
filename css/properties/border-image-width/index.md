@@ -1,49 +1,65 @@
 ---
 title: border-image-width
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-width)'
+code_samples:
+  - 'http://gist.github.com/5621387'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'all elements, except internal table elements when `border-collapse` is set to `collapse`.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'all length made absolute, or as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderImageWidth`'
+  Percentages: 'Relative to the width, for horizontal effects, or the height, for vertical effects, of the border image area.'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The border-image-width CSS property defines the offset to use for dividing the border image in nine parts, the top-left corner, central top edge, top-right-corner, central right edge, bottom-right corner, central bottom edge, bottom-left corner, and central right edge. They represent inward distance from the top, right, bottom, and left edges.'
-code_samples:
-  - 'http://gist.github.com/5621387'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-image-width
 
 ---
-# border-image-width
-
-## Summary
+## <span>Summary</span>
 
 The border-image-width CSS property defines the offset to use for dividing the border image in nine parts, the top-left corner, central top edge, top-right-corner, central right edge, bottom-right corner, central bottom edge, bottom-left corner, and central right edge. They represent inward distance from the top, right, bottom, and left edges.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   all elements, except internal table elements when `border-collapse` is set to `collapse`.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   all length made absolute, or as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderImageWidth`
+
 Percentages
 :   Relative to the width, for horizontal effects, or the height, for vertical effects, of the border image area.
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-image-width: <length>`
 -   `border-image-width: <number>`
 -   `border-image-width: <percentage>`
 -   `border-image-width: auto`
 
-## Values
+## <span>Values</span>
 
 \<length\>
 :   Represents the length of the image slice. It can be an absolute or relative length. This length must not be negative.
@@ -57,11 +73,11 @@ Percentages
 auto
 :   Indicates that the width, or height, of the image size must be the intrinsic size of that dimension.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing multiple \<div\>s, identical in style except that they have different border-image-width properties applied to them.
 
-``` {.html}
+``` html
 <div class="pattern one">one</div>
 <div class="pattern two">two</div>
 <div class="pattern three">three</div>
@@ -70,7 +86,7 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 
 [View live example](http://code.webplatform.org/gist/5621387)
 
-``` {.css}
+``` css
 /* This general class will apply the pattern to the containers */
 .pattern {
     border-image-source: url(http://docs.webplatform.org/w/images/d/d8/border-image.png);
@@ -102,24 +118,22 @@ A simple example showing multiple \<div\>s, identical in style except that they 
 
 [View live example](http://code.webplatform.org/gist/5621387)
 
-## Usage
+## <span>Usage</span>
 
      * Up to four different widths can be specified, in the following order: top, right, bottom, left.
 
 -   If one width is specified, it is used for all four sides. If two widths are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three widths are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#the-border-image-width)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -179,13 +193,6 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/border-image-width)
-

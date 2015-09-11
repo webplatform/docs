@@ -1,28 +1,30 @@
 ---
 title: picture
+attributions:
+  - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
+code_samples:
+  - 'http://googlechrome.github.io/samples/picture-element/'
+notes:
+  - 'Add Category, Parent,  Children information and HTML information subsection. Complete Compatibility table.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLPictureElement](/dom/HTMLPictureElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Control which image resource a user agent presents to a user, based on media query and/or support for a particular image format.'
 tags:
   - Markup
   - Elements
   - DOM
   - HTML
   - Media
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Add Category, Parent,  Children information and HTML information subsection. Complete Compatibility table.'
-summary: 'Control which image resource a user agent presents to a user, based on media query and/or support for a particular image format.'
-code_samples:
-  - 'http://googlechrome.github.io/samples/picture-element/'
 uri: html/elements/picture
 
 ---
-# picture
-
-## Summary
+## <span>Summary</span>
 
 Control which image resource a user agent presents to a user, based on media query and/or support for a particular image format.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLPictureElement](/dom/HTMLPictureElement)
@@ -31,15 +33,15 @@ The **picture** element (`<picture>`) addresses use cases that are left unaddres
 
 Other use cases, such as matching media features and media types and matching on supported image formats, are also addressed by this element.
 
-### Attributes
+### <span>Attributes</span>
 
 This element supports the HTML5 [global attributes](/html/global_attributes).
 
-## Examples
+## <span>Examples</span>
 
 **Art direction use case::** This example shows the basic usage of the picture element for responsive images and art direction.
 
-``` {.html}
+``` html
 <picture>
   <source media="(min-width: 650px)" srcset="images/kitten-large.png">
   <source media="(min-width: 465px)" srcset="images/kitten-medium.png">
@@ -52,7 +54,7 @@ This element supports the HTML5 [global attributes](/html/global_attributes).
 
 **Different image types use case:** Browsers that support WebP get a WebP image; other browsers get JPG.
 
-``` {.html}
+``` html
 <picture>
   <source
     srcset="opera.webp"
@@ -64,7 +66,7 @@ This element supports the HTML5 [global attributes](/html/global_attributes).
 
 **High-DPI images & art direction use case:** For browser windows with a width of 1024 CSS pixels and wider, a full-shot photo is used; smaller browser windows get a close-up photo. In addition, these photos are served as high-resolution images to browsers on devices with high-DPI screens; other browsers get a normal image.
 
-``` {.html}
+``` html
 <picture>
   <source
     media="(min-width: 1024px)"
@@ -77,7 +79,7 @@ This element supports the HTML5 [global attributes](/html/global_attributes).
 
 **Changing image sizes & art direction use case:** For browser windows with a width of 1280 CSS pixels and wider, a full-shot photo with a width of 50% of the viewport width is used; for browser windows with a width of 640-1279 CSS pixels, a photo with a width of 60% of the viewport width is used; for less wide browser windows, a photo with a width that is equal to the full viewport width is used. In each case, the browser picks the optional image from a selection of images with widths of 200px, 400px, 800px and 1200px, keeping in mind image width and screen DPI.
 
-``` {.html}
+``` html
 <picture>
   <source
     media="(min-width: 1280px)"
@@ -91,7 +93,7 @@ This element supports the HTML5 [global attributes](/html/global_attributes).
 </picture>
 ```
 
-## Usage
+## <span>Usage</span>
 
      The picture element is not a general replacement for the img element. When there is only a single image source, authors should use <img> as usual.
 
@@ -101,29 +103,21 @@ The picture element requires `<img>` nested as the last child; without the img e
 
 For accessibility, place alternative text for all images in the `alt` attribute of the img element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [RICG](http://picture.responsiveimages.org/)
 :   Superseded
+
 [WHATWG](http://www.whatwg.org/specs/web-apps/current-work/multipage/embedded-content.html#embedded-content)
 :   Living Standard
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [\<img\> Element](http://docs.webplatform.org/wiki/html/elements/img)
 -   [\<source\> Element](http://docs.webplatform.org/wiki/html/elements/source)
 
-### External resources
+### <span>External resources</span>
 
 -   [Responsive Images: Use Cases and Documented Code Snippets to Get You Started](http://dev.opera.com/articles/responsive-images/)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-This content was originally published on [DevOpera](http://dev.opera.com), Opera's Developer Network. .
-

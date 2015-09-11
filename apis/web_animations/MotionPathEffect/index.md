@@ -1,31 +1,29 @@
 ---
 title: MotionPathEffect
+readiness: 'Almost Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Motion path animation effects are represented by the MotionPathEffect interface.'
 tags:
   - API
   - Objects
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Motion path animation effects are represented by the MotionPathEffect interface.'
 uri: 'apis/web animations/MotionPathEffect'
 
 ---
-# MotionPathEffect
-
-## Summary
+## <span>Summary</span>
 
 Motion path animation effects are represented by the MotionPathEffect interface.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 

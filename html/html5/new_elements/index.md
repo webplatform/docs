@@ -1,6 +1,5 @@
 ---
-title: new elements
-uri: 'html/html5/new elements'
+title: New Elements in HTML5
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -23,10 +22,9 @@ todo_broken_links:
     - 'html/elements/input type=week'
     - 'html/elements/meta charset'
     - html/elements/summary
+uri: 'html/html5/new elements'
 
 ---
-# New Elements in HTML5
-
 There are 47 new elements in HTML5:
 
 -   **[article](/html/elements/article):** article

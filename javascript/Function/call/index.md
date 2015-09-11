@@ -1,20 +1,22 @@
 ---
 title: call
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/h2ak8h2y(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Calls a method of an object, substituting another object for the current object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Calls a method of an object, substituting another object for the current object.'
 uri: javascript/Function/call
 
 ---
-# call
-
-## Summary
+## <span>Summary</span>
 
 Calls a method of an object, substituting another object for the current object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     call([ thisObj [, arg1 [ , arg2 [ ,   [ , argN ]]]]])
 
@@ -24,11 +26,11 @@ Calls a method of an object, substituting another object for the current object.
 **arg1, arg2, , argN**
 :   Optional. A list of arguments to be passed to the method.
 
-## Examples
+## <span>Examples</span>
 
 The following code shows how to use the **call** method.
 
-``` {.js}
+``` js
 function callMe(arg1, arg2){
      var s = "";
 
@@ -60,22 +62,16 @@ function callMe(arg1, arg2){
  // arguments: 5
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **call** method is used to call a method on behalf of another object. It allows you to change the this object of a function from the original context to the new object specified by thisObj.
 
 If thisObj is not supplied, the global object is used as thisObj.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Function Object](/javascript/Function)
 -   [apply Method (Function)](/javascript/Function/apply)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/h2ak8h2y(v=vs.94).aspx)
 

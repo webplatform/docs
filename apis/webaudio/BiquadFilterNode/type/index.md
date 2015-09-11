@@ -1,34 +1,41 @@
 ---
 title: type
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/BiquadFilterNode
+    href: /apis/webaudio/BiquadFilterNode
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned short'
+    href: /apis/webaudio/BiquadFilterNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The type of BiquadFilterNode (filtering algorithm) the node is implementing.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The type of BiquadFilterNode (filtering algorithm) the node is implementing.'
 uri: apis/webaudio/BiquadFilterNode/type
 
 ---
-# type
-
-## Summary
+## <span>Summary</span>
 
 The type of BiquadFilterNode (filtering algorithm) the node is implementing.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)</span></span>
+Property of [apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)[apis/webaudio/BiquadFilterNode](/apis/webaudio/BiquadFilterNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = BiquadFilterNode.type;
 BiquadFilterNode.type = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+Returns an object of type unsigned shortunsigned short
 
 Uses one of the following constant values:
 
@@ -41,18 +48,15 @@ Uses one of the following constant values:
 -   NOTCH (6), restricting a set of frequencies;
 -   ALLPASS (7), a second-order allpass filter.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var audioCtx = new AudioContext();
 var biquadFilter = audioCtx.createBiquadFilter();
 biquadfilter.type = 'lowpass';
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

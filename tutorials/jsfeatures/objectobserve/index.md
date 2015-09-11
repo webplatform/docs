@@ -1,22 +1,22 @@
 ---
-title: objectobserve
-tags:
-  - Tutorials
+title: Respond to change with Object.observe
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://updates.html5rocks.com/2012/11/Respond-to-change-with-Object-observe)'
 readiness: 'Ready to Use'
 summary: 'Object.observe() lets you add a listener to any JavaScript object that gets called whenever that object, or its properties, change.'
+tags:
+  - Tutorials
 uri: tutorials/jsfeatures/objectobserve
 
 ---
-# Respond to change with Object.observe
-
 **By [Alex Danilo](http://www.html5rocks.com/profiles/#alexdanilo)**
 Originally published 28 November 2012
 
-## Summary
+## <span>Summary</span>
 
 Object.observe() lets you add a listener to any JavaScript object that gets called whenever that object, or its properties, change.
 
-## Introduction
+## <span>Introduction</span>
 
 Lots of JavaScript frameworks using MVC or MDV need to respond to changes to the objects that model the state inside a web application. This capability is a fundamental part of a data-binding model.
 
@@ -26,7 +26,7 @@ In order to improve the performance of web applications, a new method called [Ob
 
 Object.observe() lets you add a listener to any JavaScript object that gets called whenever that object, or its properties, change.
 
-## Compatibility
+## <span>Compatibility</span>
 
 You can try it out now in [Chrome Canary](https://tools.google.com/dlpage/chromesxs).
 
@@ -34,7 +34,7 @@ To experiment with this feature, you need to enable the Enable Experimental Java
 
 ![objectobserve1.jpg](/assets/public/0/0b/objectobserve1.jpg)
 
-## Basic use
+## <span>Basic use</span>
 
 Here’s a simple example of how to set up an observer on an object:
 
@@ -51,7 +51,7 @@ So the JavaScript engine is free to buffer up a number of changes and pass them 
 
 The callback function will be triggered whenever a property is added, modified, deleted or reconfigured.
 
-## Observing multiple changes
+## <span>Observing multiple changes</span>
 
 Another really nice thing when observing arrays is that if an array has had a number of changes made to it, you can use a [Change Summary](https://github.com/rafaelw/ChangeSummary) helper library to create a minimal change set, so that client side JavaScript doesn’t have to manually scan the array to check each item.
 
@@ -73,25 +73,19 @@ The `type` property identifies what happened to the object. Some examples of pro
 
 The great thing about this technique is that all the monitoring smarts are inside the JavaScript engine which allows the browser to optimize it well and free your JavaScript up to implement functionality taking advantage of this feature.
 
-## Calling the debugger
+## <span>Calling the debugger</span>
 
 Another really great feature for development is the ability to use Object.observe() to trigger the debugger whenever an object changes. To do that you’d use code something like the example below:
 
     Object.observe(beingWatched, function(){ debugger; });
 
-## More information
+## <span>More information</span>
 
 [Here’s a great video introduction](https://www.youtube.com/watch?feature=player_embedded&v=VO--VXFJnmE) about Object.observe() that explains it in detail.
 
 There’s also a [nice descriptive write-up here](http://weblog.bocoup.com/JavaScript-object-observe/) and a [working example here](http://simpl.info/observe/).
 
-## Conclusion
+## <span>Conclusion</span>
 
 The TC39 standards body is seeking feedback on this feature, so go ahead and try it and let us know what you think.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://updates.html5rocks.com/2012/11/Respond-to-change-with-Object-observe)
 

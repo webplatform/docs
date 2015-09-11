@@ -1,21 +1,23 @@
 ---
 title: setUTCFullYear
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/c9sd3ksb(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the year value in the Date object using Universal Coordinated Time (UTC).'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sets the year value in the Date object using Universal Coordinated Time (UTC).'
 uri: javascript/Date/setUTCFullYear
 
 ---
-# setUTCFullYear
-
-## Summary
+## <span>Summary</span>
 
 Sets the year value in the Date object using Universal Coordinated Time (UTC).
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.setUTCFullYear( numYear [ ,  numMonth [ , numDate ]] )
 
@@ -31,11 +33,11 @@ Sets the year value in the Date object using Universal Coordinated Time (UTC).
 **numDate**
 :   Optional. A numeric value equal to the day of the month.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **setUTCFullYear** method.
 
-``` {.js}
+``` js
 var dtFirst = new Date();
  dtFirst.setUTCFullYear(2007);
 
@@ -48,7 +50,7 @@ var dtFirst = new Date();
  document.write (dtSecond.toUTCString());
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 All **set** methods taking optional arguments use the value returned from corresponding **get** methods, if you do not specify an optional argument. For example, if the numMonth argument is not specified, JavaScript uses the value returned from the **getUTCMonth** method.
 
@@ -58,17 +60,11 @@ To set the year using local time, use the **setFullYear** method.
 
 The range of years supported in the Date object is approximately 285,616 years from either side of 1970.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getFullYear Method (Date)](/javascript/Date/getFullYear)
 -   [getUTCFullYear Method (Date)](/javascript/Date/getUTCFullYear)
 -   [setFullYear Method (Date)](/javascript/Date/setFullYear)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/c9sd3ksb(v=vs.94).aspx)
 

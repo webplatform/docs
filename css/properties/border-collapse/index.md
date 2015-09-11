@@ -1,48 +1,62 @@
 ---
 title: border-collapse
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6948189'
+notes:
+  - 'Add examples'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`separate`'
+  'Applies to': 'Table and inline-table elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderCollapse`'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'Border-collapse can be used for collapsing the borders between table cells'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add examples'
-summary: 'Border-collapse can be used for collapsing the borders between table cells'
-code_samples:
-  - 'http://gist.github.com/6948189'
 uri: css/properties/border-collapse
 
 ---
-# border-collapse
-
-## Summary
+## <span>Summary</span>
 
 Border-collapse can be used for collapsing the borders between table cells
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `separate`
+
 Applies to
 :   Table and inline-table elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderCollapse`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-collapse: collapse`
 -   `border-collapse: inherit`
 -   `border-collapse: separate`
 
-## Values
+## <span>Values</span>
 
 separate
 :   Default. Borders are detached (standard HTML). Each table cell has an individual border, with optional space between the borders.
@@ -53,11 +67,11 @@ collapse
 inherit
 :   The same specified value as the property for the element's parent will be used.
 
-## Examples
+## <span>Examples</span>
 
 An example of border-collapse 'collapse' and 'seperate' table borders are red, cell borders are blue
 
-``` {.css}
+``` css
 /**
  * @author  Vivienne van Velzen
  * @see     http://code.webplatform.org/gist/6948189
@@ -83,20 +97,19 @@ td p {
 
 [View live example](http://code.webplatform.org/gist/6948189)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1, section 17.6. Borders](http://www.w3.org/TR/CSS2/tables.html#propdef-border-collapse)
 :   Recommendation
+
 [CSS 3, section 8. Borders](http://dev.w3.org/csswg/css3-tables/#border-collapse)
 :   Editor's Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Tables
+#### <span>Tables</span>
 
 -   **border-collapse**
 
@@ -122,13 +135,6 @@ Specification
 
 -   [th](/html/elements/th)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [css/properties/border](/css/properties/border)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

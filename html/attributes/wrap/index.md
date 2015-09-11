@@ -1,31 +1,40 @@
 ---
 title: wrap
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wrap.htm'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Sets the wrap style (soft, hard, or off) for a text element.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Sets the wrap style (soft, hard, or off) for a text element.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wrap.htm'
 uri: html/attributes/wrap
 
 ---
-# wrap
-
-## Summary
+## <span>Summary</span>
 
 Sets the wrap style (soft, hard, or off) for a text element.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   dom/HTMLElement
 
-## Examples
+</th>
+<td>
+dom/HTMLElement
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example dynamically sets the **wrap** property of a **textArea** to the value selected by the user.
 
-``` {.js}
+``` js
 <script>
 function ChangeWrap(oSelect, oTA)
 {
@@ -45,28 +54,19 @@ function ChangeWrap(oSelect, oTA)
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/wrap.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 To detect the difference between **soft** and **hard** you must submit the content within the **textArea** to an HTTP server.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `textArea`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

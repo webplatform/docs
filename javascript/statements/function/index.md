@@ -1,21 +1,23 @@
 ---
 title: function
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4t2k5yhw(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Declares a new function.'
 tags:
   0: JS
   1: Basic
   3: Function
-readiness: 'Ready to Use'
-summary: 'Declares a new function.'
 uri: javascript/statements/function
 
 ---
-# function
-
-## Summary
+## <span>Summary</span>
 
 Declares a new function.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     function functionName ([ arg1 [, arg2 [,...[, argN ]]]] ) {
          statements
@@ -30,11 +32,11 @@ Declares a new function.
 **statements**
 :   Optional. One or moreJavaScript statements.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the function statement.
 
-``` {.js}
+``` js
 //Defining the function myFunc
 function myFunc () {
     var r = 3 * 4;
@@ -49,7 +51,7 @@ myFunc();
 
 It's possible to pass along arguments within the parantheses when calling the function.
 
-``` {.js}
+``` js
 //Defining the function myFunc
 function myFunc (name) {
     console.log('Hello, ' + name + '!');
@@ -63,7 +65,7 @@ myFunc('Susan');
 
 A function can be assigned to a variable. This is illustrated in the following example.
 
-``` {.js}
+``` js
 function addFive(x) {
      return x + 5;
  }
@@ -86,7 +88,7 @@ function addFive(x) {
  // Output: 133
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Use the function statement to declare a function for later use. The code that is contained in statements is not executed until the function is called from elsewhere in the script.
 
@@ -94,15 +96,9 @@ The [return](/javascript/statements/return) statement is used to return a value 
 
 **Note** -- When you call a function, be sure to include the parentheses and any required arguments. Calling a function without parentheses returns a reference to the function, not the results of the function.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [new Operator](/javascript/operators/new)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/4t2k5yhw(v=vs.94).aspx)
 

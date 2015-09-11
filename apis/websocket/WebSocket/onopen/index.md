@@ -1,41 +1,50 @@
 ---
 title: onopen
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/websocket/WebSocket
+    href: /apis/websocket/WebSocket
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/websocket/WebSocket
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'An event listener to be called when the WebSocket connection''s readyState changes to OPEN. Receives an event named &quot;open&quot;.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebSocket
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'An event listener to be called when the WebSocket connection''s readyState changes to OPEN. Receives an event named "open".'
 uri: apis/websocket/WebSocket/onopen
 
 ---
-# onopen
+## <span>Summary</span>
 
-## Summary
+An event listener to be called when the WebSocket connection's readyState changes to OPEN. Receives an event named &quot;open&quot;.
 
-An event listener to be called when the WebSocket connection's readyState changes to OPEN. Receives an event named "open".
+Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/websocket/WebSocket](/apis/websocket/WebSocket)</span></span>
+## <span>Syntax</span>
 
-## Syntax
+**Note**: This property is read-only.
 
-***Note**: This property is read-only.*
-
-``` {.js}
+``` js
 var result = element.onopen;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 EventHandler
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 socket.onopen = function(event) {
   // handle open event
 };
@@ -43,22 +52,13 @@ socket.onopen = function(event) {
 
 Event handlers can also be created using the addEventListener() method.
 
-``` {.js}
+``` js
 socket.addEventListener("open", function(event) {
   // handle open event
 });
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

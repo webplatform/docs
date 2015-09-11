@@ -1,49 +1,65 @@
 ---
 title: writing-mode
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'writing-mode specifies if lines of text are laid out horizontally or vertically, and the direction which lines of text and blocks progress.'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5833192'
   - 'http://gist.github.com/5860978'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`horizontal-tb`'
+  'Applies to': 'All elements except table row groups, table column groups, table rows, and table columns'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`writingMode`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'writing-mode specifies if lines of text are laid out horizontally or vertically, and the direction which lines of text and blocks progress.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/writing-mode
 
 ---
-# writing-mode
-
-## Summary
+## <span>Summary</span>
 
 writing-mode specifies if lines of text are laid out horizontally or vertically, and the direction which lines of text and blocks progress.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `horizontal-tb`
+
 Applies to
 :   All elements except table row groups, table column groups, table rows, and table columns
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `writingMode`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `writing-mode: horizontal-tb`
 -   `writing-mode: vertical-lr`
 -   `writing-mode: vertical-rl`
 
-## Values
+## <span>Values</span>
 
 horizontal-tb
 :   Lines of text are laid out horizontally, and progress from the top to the bottom of the page. This is the writing mode used in many writing systems, such as Latin, Greek, Cyrillic, Arabic, Hebrew, etc.
@@ -54,17 +70,17 @@ vertical-rl
 vertical-lr
 :   Lines of text are laid out vertically, and progress from the left to the right of the page. Mongolian-based writing systems typically use this writing mode.
 
-## Examples
+## <span>Examples</span>
 
 Sets the writing mode to vertical and to progress from right to left. Sometimes used by East Asian, especially Japanese and Chinese. This example is Japanese use case.
 
-``` {.html}
+``` html
 <p>日本では、新聞や書籍などで縦書きを使用することがあります。これは、縦書きのシンプルな例です。</p>
 ```
 
 [View live example](http://code.webplatform.org/gist/5833192)
 
-``` {.css}
+``` css
 p {
     width: 100%;
     -webkit-writing-mode: vertical-rl;
@@ -73,7 +89,7 @@ p {
 
 Sets the writing mode, including a fallback for the previous version of the spec, supported by IE.
 
-``` {.css}
+``` css
 /* horizontal and top to bottom */
 writing-mode: horizontal-tb;
 -ms-writing-mode: lr-tb;
@@ -94,7 +110,7 @@ writing-mode: vertical-lr;
 
 Complete example, including HTML.
 
-``` {.html}
+``` html
 <style>
     #horizontal-tb {
     -ms-writing-mode: lr-tb;  /* old syntax, supported by IE */
@@ -155,27 +171,18 @@ Complete example, including HTML.
 
 [View live example](http://code.webplatform.org/gist/5860978)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Writing Modes Module Level 3](http://www.w3.org/TR/css3-writing-modes/#writing-mode)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [direction](/css/properties/direction)
 -   [unicode-bidi](/css/properties/unicode-bidi)
 
-### External resources
+### <span>External resources</span>
 
 -   [Vertical text with CSS 3 Writing Modes](http://generatedcontent.org/post/45384206019/writing-modes)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

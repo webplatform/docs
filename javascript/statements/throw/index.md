@@ -1,28 +1,30 @@
 ---
 title: throw
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/85fscz6h(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Generates an error condition that can be handled by a try...catch...finally statement.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Generates an error condition that can be handled by a try...catch...finally statement.'
 uri: javascript/statements/throw
 
 ---
-# throw
-
-## Summary
+## <span>Summary</span>
 
 Generates an error condition that can be handled by a try...catch...finally statement.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     throw exception
 
-## Examples
+## <span>Examples</span>
 
 The following example throws an error inside a try block, and it is caught in the catch block.
 
-``` {.js}
+``` js
 try {
          throw new Error(200, "x equals zero");
  }
@@ -33,20 +35,14 @@ try {
  // Output: x equals zero.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required exception argument can be any expression.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [try...catch...finally Statement](/javascript/statements/try_catch_finally)
 -   [Error Object](/javascript/Error)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/85fscz6h(v=vs.94).aspx)
 

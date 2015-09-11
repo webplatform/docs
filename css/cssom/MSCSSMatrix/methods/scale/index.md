@@ -1,44 +1,52 @@
 ---
 title: scale
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Little content; browser-specific; move/deletion candidate'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/cssom/MSCSSMatrix
+    href: '/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1'
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: '/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'Little content; browser-specific; move/deletion candidate'
-uri: css/cssom/MSCSSMatrix/methods/scale
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - css/cssom/MSCSSMatrix
+uri: css/cssom/MSCSSMatrix/methods/scale
 
 ---
-# scale
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)*
+Method of [css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)[css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix&action=edit&redlink=1)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.scale();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
 This method can return one of these values.
 
-Return value
-:   Description
-S\_OK
-:   The operation completed successfully.
+|Return value|Description|
+|:-----------|:----------|
+|S\_OK|The operation completed successfully.|
 
 MSCSSMatrix
 
@@ -46,13 +54,13 @@ The returned matrix.
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
 
-### Parameters
+### <span>Parameters</span>
 
 *scaleX* [in]
 :   Type: **float**The *x* component (in degrees) of the scale value.
@@ -63,15 +71,8 @@ The returned matrix.
 *retMatrix* [out, retval]
 :   Type: **MSCSSMatrix**The returned matrix.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `MSCSSMatrix`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

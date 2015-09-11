@@ -1,54 +1,68 @@
 ---
 title: wrap-option
+notes:
+  - 'Obsolete; not in current W3C spec.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`wrap`'
+  'Applies to': 'all elements and generated content'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'Not Ready'
+summary: "Obsolete and unsupported. Do not use.\n"
 tags:
   - CSS
   - Properties
-readiness: 'Not Ready'
-notes:
-  - 'Obsolete; not in current W3C spec.'
-summary: "Obsolete and unsupported. Do not use.\n"
 uri: css/properties/wrap-option
 
 ---
-# wrap-option
-
-## wrap-option (Obsolete)
+## <span>wrap-option (Obsolete)</span>
 
 For technical reasons, the title of this article is not the text used to call this API. Instead, use `wrap-option (Obsolete)`
 
-## Summary
+## <span>Summary</span>
 
 Obsolete and unsupported. Do not use.
 
 This CSS property controls the text when it reaches the end of the block in which it is enclosed.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `wrap`
+
 Applies to
 :   all elements and generated content
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `wrap-option: emergency`
 -   `wrap-option: no-wrap`
 -   `wrap-option: soft-wrap`
 -   `wrap-option: wrap`
 
-## Values
+## <span>Values</span>
 
 wrap
 :   The text is wrapped at the best line-breaking opportunity (if required) within the available block inline-progression dimension
@@ -64,20 +78,17 @@ emergency
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 Could not find any documentation that this is still relevant, concur that it should be deleted.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514)
 :   Obsolete (previously a Candidate Recommendation)
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 See also: [wrap-flow](/css/properties/wrap-flow) property
-

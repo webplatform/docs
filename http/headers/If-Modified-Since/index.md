@@ -1,37 +1,39 @@
 ---
 title: If-Modified-Since
+overview_table:
+  Direction: Request
+  Features: ''
+summary: 'Makes the request conditional on the server''s resource having been updated recently, for refreshing caches.'
 tags:
   - HTTP
   - Headers
-summary: 'Makes the request conditional on the server''s resource having been updated recently, for refreshing caches.'
 uri: http/headers/If-Modified-Since
 
 ---
-# If-Modified-Since
-
-## Summary
+## <span>Summary</span>
 
 Makes the request conditional on the server's resource having been updated recently, for refreshing caches.
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Request
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     If-Modified-Since = HTTP-date
 
-## Examples
+## <span>Examples</span>
 
-    If-Modified-Since: Sat, 29 Oct 1994 19:43:31 GMT
+``` html
+If-Modified-Since: Sat, 29 Oct 1994 19:43:31 GMT
+```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [RFC7232: HTTP/1.1 Conditional Requests](http://tools.ietf.org/html/rfc7232#section-3.3)
 :
 

@@ -1,59 +1,64 @@
 ---
 title: SVGPathSegCurvetoCubicAbs
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: SVGElement
+    href: /svg/objects/SVGElement
+standardization_status: Unknown
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Not Ready'
-standardization_status: Unknown
-notes:
-  - 'Unreviewed MSDN import'
 uri: svg/objects/SVGPathSegCurvetoCubicAbs
 
 ---
-# SVGPathSegCurvetoCubicAbs
+Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
-
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGElement
+## <span>Inherited from SVGElement</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 The **C** object uses absolute coordinates to draw a cubic Bézier curve from the current point to (x,y) by using (x1,y1) as the control point at the beginning of the curve and (x2,y2) as the control point at the end of the curve. You can specify multiple sets of coordinates to draw a polybézier. At the end of the command, the new current point becomes the final (x,y) coordinate pair that is used in the polybézier.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Paths](http://go.microsoft.com/fwlink/p/?linkid=204736), Section 8.5.7
 
-### Members
+### <span>Members</span>
 
 The **SVGPathSegCurvetoCubicAbs** object has these properties:
 
@@ -65,10 +70,3 @@ The **SVGPathSegCurvetoCubicAbs** object has these properties:
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 -   [**y1**](/svg/properties/y1): Gets or sets the absolute or relative y-coordinate for the first control point.
 -   [**y2**](/svg/properties/y2): Gets or sets the absolute or relative y-coordinate for the second control point.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

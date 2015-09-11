@@ -1,76 +1,77 @@
 ---
 title: ownerDocument
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.ownerDocument](https://developer.mozilla.org/en-US/docs/Web/API/Node.ownerDocument) Article]'
+  - 'Microsoft Developer Network: [[ownerDocument Property](http://msdn.microsoft.com/en-us/library/ie/ms534315(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Node
+    href: /dom/Node
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/Node
+standardization_status: 'W3C Recommendation'
+summary: 'Retrieves the document object associated with the node.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Retrieves the document object associated with the node.'
 uri: dom/Node/ownerDocument
 
 ---
-# ownerDocument
-
-## Summary
+## <span>Summary</span>
 
 Retrieves the document object associated with the node.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Node](/dom/Node)</span></span>
+Property of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var doc = element.ownerDocument;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 The document Node of the web page or iframe or frame.
 
 The document object returned by this property is the main object with which all the child nodes in the actual HTML document are created. If this property is used on a node that is itself a document, the result is null.
 
-## Examples
+## <span>Examples</span>
 
-    // given a node "p", get the top-level HTML child
-    // of the document object
+``` html
+// given a node "p", get the top-level HTML child
+// of the document object
 
-    var doc = p.ownerDocument;
-    alert(doc.outerHTML);
-    var html = doc.documentElement;
-    alert(html.outerHTML);
+var doc = p.ownerDocument;
+alert(doc.outerHTML);
+var html = doc.documentElement;
+alert(html.outerHTML);
+```
 
-## Usage
+## <span>Usage</span>
 
      Used to build the DOM tree of documents that contain <iframe>, <frame> and <frameset> elements.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **ownerDocument** is the [Document](/dom/Document) object that is used to create new nodes. This property returns null when the node is a [Document](/dom/Document). **ownerDocument** was introduced in Microsoft Internet Explorer 6.
 
-### Syntax
+### <span>Syntax</span>
 
 var doc=element.ownerDocument;
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Core](http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html#node-ownerDoc)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.ownerDocument](https://developer.mozilla.org/en-US/docs/Web/API/Node.ownerDocument) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[ownerDocument Property](http://msdn.microsoft.com/en-us/library/ie/ms534315(v=vs.85).aspx) Article]
-

@@ -1,20 +1,22 @@
 ---
 title: number
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hc53e755(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns or sets the numeric value associated with a specific error. The Error object''s default property is number.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns or sets the numeric value associated with a specific error. The Error object''s default property is number.'
 uri: javascript/Error/number
 
 ---
-# number
-
-## Summary
+## <span>Summary</span>
 
 Returns or sets the numeric value associated with a specific error. The Error object's default property is number.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     object .number [ =  errorNumber ]
 
@@ -24,11 +26,11 @@ Returns or sets the numeric value associated with a specific error. The Error ob
 **errorNumber**
 :   An integer representing an error.
 
-## Examples
+## <span>Examples</span>
 
 The following example causes an exception to be thrown and displays the error code that is derived from the error number.
 
-``` {.js}
+``` js
 try
      {
      // Cause an error.
@@ -51,27 +53,21 @@ try
 
 The output of this code is as follows.
 
-``` {.js}
+``` js
 Error Code: 5009
  Facility Code: 10
  Error Message: 'y' is undefined
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 An error number is a 32-bit value. The upper 16-bit word is the facility code, and the lower word is the error code. To determine the error code, use the & (bitwise And) operator to combine the number property with the hexadecimal number `0xFFFF`.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [description Property (Error)](/javascript/Error/description)
 -   [message Property (Error)](/javascript/Error/message)
 -   [name Property (Error)](/javascript/Error/name)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/hc53e755(v=vs.94).aspx)
 

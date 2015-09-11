@@ -1,22 +1,20 @@
 ---
-title: programming
+title: Part 6: Programming fundamentals
+notes:
+  - "Original notes:\n Variables\n Operators\n Conditional logic\n Loops\n Functions\n Events\n Objects\nrenoirb: Regarding the programming language to use, there was a discussion to use a backend programming language. Maybe that would be the perfect place to show basics without using backend code by showing eventually how send an email through an API (e.g. send grid, mailgun) and other actions can be mimicked with static files (e.g. from a static JSON file)"
+readiness: 'Not Ready'
+summary: 'Before we go any further, let''s look at the programming basics you''ll need to know before you can start getting your hands dirty with JavaScript.'
 tags:
   - Basic
   - Pages
-readiness: 'Not Ready'
-notes:
-  - "Original notes:\n Variables\n Operators\n Conditional logic\n Loops\n Functions\n Events\n Objects\nrenoirb: Regarding the programming language to use, there was a discussion to use a backend programming language. Maybe that would be the perfect place to show basics without using backend code by showing eventually how send an email through an API (e.g. send grid, mailgun) and other actions can be mimicked with static files (e.g. from a static JSON file)"
-summary: 'Before we go any further, let''s look at the programming basics you''ll need to know before you can start getting your hands dirty with JavaScript.'
 uri: Beginners/programming
 
 ---
-# Part 6: Programming fundamentals
-
-## Summary
+## <span>Summary</span>
 
 Before we go any further, let's look at the programming basics you'll need to know before you can start getting your hands dirty with JavaScript.
 
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 

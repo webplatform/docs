@@ -1,66 +1,70 @@
 ---
 title: textLength
+notes:
+  - 'I am not sure examples are needed, as this property should be discouraged.'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLTextAreaElement
+    href: /dom/HTMLTextAreaElement
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/HTMLTextAreaElement
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Use value.length (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'I am not sure examples are needed, as this property should be discouraged.'
-summary: 'Use value.length (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.'
 uri: dom/HTMLTextAreaElement/textLength
 
 ---
-# textLength
-
-## Summary
+## <span>Summary</span>
 
 Use value.length (in JavaScript/ECMAScript) instead. Gets the codepoint length of the value of the element.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)</span></span>
+Property of [dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)[dom/HTMLTextAreaElement](/dom/HTMLTextAreaElement)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var valueLength = textAreaElement.textLength;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 The codepoint length of the value of the element.
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Use the well known and well supported value.length instead (in JavaScript/ECMAScript).
 
 Use this property to get the codepoint length of the value of the element. For more details about **codepoint length**, see [length](/javascript/String/length).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/2014/CR-html5-20140731/forms.html#dom-textarea-textlength)
 :   W3C Candidate Recommendation
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#dom-textarea-textlength)
 :   Living Standard
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   **textLength**
 
@@ -158,7 +162,42 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

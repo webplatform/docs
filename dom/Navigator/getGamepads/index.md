@@ -1,43 +1,53 @@
 ---
 title: getGamepads
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[navigator.getGamepads method](https://developer.mozilla.org/en-US/docs/Web/API/Navigator.getGamepads) Article]'
+  - 'Microsoft Developer Network: [[Gamepad API in DevChannel](http://msdn.microsoft.com/en-us/library/ie/dn753843(v=vs.85).aspx) Article]'
+notes:
+  - 'MSDN documentation only available on devChannel.'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Navigator
+    href: /dom/Navigator
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /dom/Navigator
+standardization_status: 'W3C Working Draft'
+summary: 'Retrieves a snapshot of the data for the currently connected and interacted-with gamepads. Returns a Gamepad object.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Gamepad
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'MSDN documentation only available on devChannel.'
-summary: 'Retrieves a snapshot of the data for the currently connected and interacted-with gamepads. Returns a Gamepad object.'
 uri: dom/Navigator/getGamepads
 
 ---
-# getGamepads
-
-## Summary
+## <span>Summary</span>
 
 Retrieves a snapshot of the data for the currently connected and interacted-with gamepads. Returns a Gamepad object.
 
-*Method of [dom/Navigator](/dom/Navigator)*
+Method of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = navigator.getGamepads();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 gamePads collection.
 
-## Examples
+## <span>Examples</span>
 
 This example detects when a gamepad is connected to the computer.
 
-``` {.js}
+``` js
 window.addEventListener("gamepadconnected", function(e) {
   var gp = navigator.getGamepads()[0];
   console.log("Gamepad connected at index %d: %s. %d buttons, %d axes.",
@@ -46,18 +56,7 @@ window.addEventListener("gamepadconnected", function(e) {
 });
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Gamepad Specification](https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[navigator.getGamepads method](https://developer.mozilla.org/en-US/docs/Web/API/Navigator.getGamepads) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[Gamepad API in DevChannel](http://msdn.microsoft.com/en-us/library/ie/dn753843(v=vs.85).aspx) Article]
-

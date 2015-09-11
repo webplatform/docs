@@ -1,33 +1,40 @@
 ---
 title: its-term
+code_samples:
+  - 'http://gist.github.com/8404173'
+notes:
+  - 'Add summery, example, note, compatibility.'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The its-term attribute is used to mark terms so they can be recognized during translation process. This helps to increase consistency of translation across different parts of the documentation.'
 tags:
   - Markup
   - Attributes
   - Internationalization
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add summery, example, note, compatibility.'
-summary: 'The its-term attribute is used to mark terms so they can be recognized during translation process. This helps to increase consistency of translation across different parts of the documentation.'
-code_samples:
-  - 'http://gist.github.com/8404173'
 uri: its/attributes/its-term
 
 ---
-# its-term
-
-## Summary
+## <span>Summary</span>
 
 The its-term attribute is used to mark terms so they can be recognized during translation process. This helps to increase consistency of translation across different parts of the documentation.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [http://docs.webplatform.org/wiki/dom/HTMLElement](http://docs.webplatform.org/wiki/dom/HTMLElement)
 
+</th>
+<td>
+<http://docs.webplatform.org/wiki/dom/HTMLElement>
+
+</td>
+</tr>
+</table>
 The its-term attribute can contain "yes" or "no" values. Defintion of the term can be optionally linked by using its-term-info-ref attribute.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 
 
 <!DOCTYPE html>
@@ -45,14 +52,11 @@ The its-term attribute can contain "yes" or "no" values. Defintion of the term c
 </pre>
 [View live example](http://code.webplatform.org/gist/8404173)
 
-## Usage
+## <span>Usage</span>
 
      Use its-term for all terms on your page especially if you expect your content being translated to other languages in the future.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Internationalization Tag Set (ITS) Version 2.0](http://www.w3.org/TR/its20/)
 :   W3C Recommendation
-

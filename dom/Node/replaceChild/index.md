@@ -1,59 +1,69 @@
 ---
 title: replaceChild
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.replaceChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.replaceChild) Article]'
+  - 'Microsoft Developer Network: [[replaceChild Method](http://msdn.microsoft.com/en-us/library/ie/ms536716(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Node
+    href: /dom/Node
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Node
+standardization_status: 'W3C Recommendation'
+summary: 'Replaces an existing child node with a new child node.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Replaces an existing child node with a new child node.'
 uri: dom/Node/replaceChild
 
 ---
-# replaceChild
-
-## Summary
+## <span>Summary</span>
 
 Replaces an existing child node with a new child node.
 
-*Method of [dom/Node](/dom/Node)*
+Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var replacedNode = node.replaceChild(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### newChild
+### <span>newChild</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The new node to be inserted into the document.
 
-### oldChild
+### <span>oldChild</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The existing node to be replaced.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **IHTMLDOMNode**
 
 Returns a reference to the object that is replaced.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **replaceChild** method to replace a bold element from a **div** with an italic element.
 
-``` {.html}
+``` html
 <!doctype html>
 <head>
 <script>
@@ -85,22 +95,11 @@ between bold and italic.</div>
 </body>
 ```
 
-## Notes
+## <span>Notes</span>
 
 The node to be replaced must be an immediate child of the parent object. The new node must be created using the [**createElement**](/dom/Document/createElement) method. This property is accessible at run time. If elements are removed at run time, before the closing tag is parsed, areas of the document might not render.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.replaceChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.replaceChild) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[replaceChild Method](http://msdn.microsoft.com/en-us/library/ie/ms536716(v=vs.85).aspx) Article]
-

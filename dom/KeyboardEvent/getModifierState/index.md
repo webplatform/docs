@@ -1,37 +1,46 @@
 ---
 title: getModifierState
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'example/more description, compatibility'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/KeyboardEvent
+    href: /dom/KeyboardEvent
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /dom/KeyboardEvent
+standardization_status: 'W3C Working Draft'
+summary: 'Queries the state of the specified modifier key.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'example/more description, compatibility'
-summary: 'Queries the state of the specified modifier key.'
 uri: dom/KeyboardEvent/getModifierState
 
 ---
-# getModifierState
-
-## Summary
+## <span>Summary</span>
 
 Queries the state of the specified modifier key.
 
-*Method of [dom/KeyboardEvent](/dom/KeyboardEvent)*
+Method of [dom/KeyboardEvent](/dom/KeyboardEvent)[dom/KeyboardEvent](/dom/KeyboardEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var modifierState = event.getModifierState(modifierKeyName);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### modifierKeyName
+### <span>modifierKeyName</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  One of the following values -
@@ -53,28 +62,19 @@ Other implementation specific options may be supported. For example -
 -   **Win** (on Microsoft Windows) - The left or right Windows logo key.
 -   **Scroll** - The Scroll Lock toggle.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
 Whether the modifier key is active.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 Some keyboard configurations contain a left and right modifier key. To determine whether the left or right key is pressed, use the [**location**](/dom/KeyboardEvent/location) property.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

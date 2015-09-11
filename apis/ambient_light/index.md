@@ -1,23 +1,20 @@
 ---
-title: ambient light
-tags:
-  - API
-  - Listings
+title: Ambient Light API
 readiness: 'Not Ready'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The Ambient Light API defines events that provide information about the ambient light level, as measured by a device''s light sensor.'
+tags:
+  - API
+  - Listings
 uri: 'apis/ambient light'
 
 ---
-# Ambient Light API
-
-## Summary
+## <span>Summary</span>
 
 The Ambient Light API defines events that provide information about the ambient light level, as measured by a device's light sensor.
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
-[http://www.w3.org/TR/ambient-light/](http://www.w3.org/TR/ambient-light/)
-
+<http://www.w3.org/TR/ambient-light/>

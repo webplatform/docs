@@ -1,40 +1,52 @@
 ---
 title: pointer-events
+code_samples:
+  - 'http://jsbin.com/uvumuj/3'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'all elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'the specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`pointerEvents`'
+readiness: 'Ready to Use'
+summary: 'The pointer-events property  allows you to control whether an element can be the target for the pointing device (e.g, mouse, pen) events.'
 tags:
   0: CSS
   1: Properties
   3: SVG
-readiness: 'Ready to Use'
-summary: 'The pointer-events property  allows you to control whether an element can be the target for the pointing device (e.g, mouse, pen) events.'
-code_samples:
-  - 'http://jsbin.com/uvumuj/3'
 uri: css/properties/pointer-events
 
 ---
-# pointer-events
-
-## Summary
+## <span>Summary</span>
 
 The pointer-events property allows you to control whether an element can be the target for the pointing device (e.g, mouse, pen) events.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   all elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   the specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `pointerEvents`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `pointer-events: all`
 -   `pointer-events: auto`
@@ -47,7 +59,7 @@ Animatable
 -   `pointer-events: visiblePainted`
 -   `pointer-events: visibleStroke`
 
-## Values
+## <span>Values</span>
 
 auto
 :   In HTML/XML content, this value and the value all have the same effect. In SVG content, this value and the value visiblePainted have the same effect.
@@ -79,11 +91,11 @@ fill
 stroke
 :   For SVG only. The element can only be the target of a pointer event when the pointer is over the perimeter (i.e., stroke) of the element.
 
-## Examples
+## <span>Examples</span>
 
 The first a element have the pointer-events property set to none, any pointer events (i.e., mouse over, click) do not happen.
 
-``` {.html}
+``` html
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -100,7 +112,7 @@ The first a element have the pointer-events property set to none, any pointer ev
 </html>
 ```
 
-``` {.css}
+``` css
 #one{
   pointer-events: none;
 }
@@ -111,18 +123,18 @@ The first a element have the pointer-events property set to none, any pointer ev
 
 SVG demo of two intersecting circles
 
-    {see jsbin for the full source}
+``` html
+{see jsbin for the full source}
+```
 
 [View live example](http://jsbin.com/uvumuj/3)
 
-## Notes
+## <span>Notes</span>
 
 The pointer-events property used to be in the CSS 3 UI specification, but it has been postponed to CSS 4 due to many open issues.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Scalable Vector Graphics (SVG) 1.1 (Second Edition)](http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty)
 :   W3C Recommendation
 

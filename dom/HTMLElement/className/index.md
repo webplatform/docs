@@ -1,58 +1,65 @@
 ---
 title: className
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/className.htm'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
 tags:
   - API
   - Object
   - Properties
   - DOM
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/className.htm'
 uri: dom/HTMLElement/className
 
 ---
-# className
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.className;
 element.className = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **className** attribute to apply one or more styles to an HTML element.
 
-    <HEAD>
-        <STYLE TYPE="text/css">
-            P {font-size: 24pt;}
-            .redText {color: red;}
-            .blueText {color: blue;}
-            .italicText {font-style: italic;}
-        </STYLE>
-    </HEAD>
+``` html
+<HEAD>
+    <STYLE TYPE="text/css">
+        P {font-size: 24pt;}
+        .redText {color: red;}
+        .blueText {color: blue;}
+        .italicText {font-style: italic;}
+    </STYLE>
+</HEAD>
 
-    <BODY>
-        <P>
-            Large text, no class specified, one implied.
-        </P>
-        <P CLASS="redText">
-            Large text, .redText class specified.
-        </P>
-        <P CLASS="blueText italicText">
-            Large text, .blueText and .italicText classes specified.
-        </P>
-    </BODY>
+<BODY>
+    <P>
+        Large text, no class specified, one implied.
+    </P>
+    <P CLASS="redText">
+        Large text, .redText class specified.
+    </P>
+    <P CLASS="blueText italicText">
+        Large text, .blueText and .italicText classes specified.
+    </P>
+</BODY>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/className.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The class is typically used to associate a particular style rule in a style sheet with the element. You can apply multiple styles to an element by specifying more than one style for the **CLASS** attribute. To apply multiple styles to a single element, use the following syntax:
 
@@ -67,11 +74,4 @@ By default, the property is equal to the string assigned to the **className** pr
 
 When two or more selectors pertain to an element, a style defined later takes precedence over a style defined earlier. For more information, see [Introduction to Cascading Style Sheets](http://msdn.microsoft.com/en-us/library/240ww6sz(VS.71).aspx). Multiple styles are supported as of Microsoft Internet Explorer 5. In Windows Internet Explorer 8, class names, such as `hslice` and `entry-title`, are used to identify portions of a webpage that can be monitored for updates (Web Slices). For more information, see Subscribing to Content with Web Slices.
 
-### Syntax
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+### <span>Syntax</span>

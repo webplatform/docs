@@ -1,31 +1,33 @@
 ---
 title: mi
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mi)'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[mathml](/mathml)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The MathML mi element indicates that the content should be rendered as an identifier such as function names, variables or symbolic constants. You can also have arbitrary text in it to mark up terms.'
 tags:
   - Markup
   - Elements
   - MathML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The MathML mi element indicates that the content should be rendered as an identifier such as function names, variables or symbolic constants. You can also have arbitrary text in it to mark up terms.'
 uri: mathml/elements/mi
 
 ---
-# mi
-
-## Summary
+## <span>Summary</span>
 
 The MathML mi element indicates that the content should be rendered as an identifier such as function names, variables or symbolic constants. You can also have arbitrary text in it to mark up terms.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## Examples
+## <span>Examples</span>
 
 This example demonstrates a simple usage of the mi element:
 
-``` {.html}
+``` html
 
 
 <math>
@@ -36,27 +38,19 @@ This example demonstrates a simple usage of the mi element:
 
   <mi mathvariant="monospace"> x </mi>
 
-  <mi mathvariant="bold"> &pi; </mi>
+  <mi mathvariant="bold"> π </mi>
 
 </math>
 ```
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mi)
 :   W3C Recommendation
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mi)
-
-## Attributes
+## <span>Attributes</span>
 
  mathsize
 :   The size of the content. Possible values are:

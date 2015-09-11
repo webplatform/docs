@@ -1,5 +1,19 @@
 ---
 title: onmute
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/media_capture_and_streams/MediaStreamTrack
+    href: /apis/media_capture_and_streams/MediaStreamTrack
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/media_capture_and_streams/MediaStreamTrack
+standardization_status: 'W3C Working Draft'
+summary: 'Handles the mute event when fired on the MediaStreamTrack object.'
 tags:
   0: API
   1: Object
@@ -8,32 +22,25 @@ tags:
   5: Capture
   6: and
   7: Streams
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Handles the mute event when fired on the MediaStreamTrack object.'
 uri: 'apis/media capture and streams/MediaStreamTrack/onmute'
 
 ---
-# onmute
-
-## Summary
+## <span>Summary</span>
 
 Handles the mute event when fired on the MediaStreamTrack object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)</span></span>
+Property of [apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)[apis/media\_capture\_and\_streams/MediaStreamTrack](/apis/media_capture_and_streams/MediaStreamTrack)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = track.onmute;
 track.onmute = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 EventHandler
 

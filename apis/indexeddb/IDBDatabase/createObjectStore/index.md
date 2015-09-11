@@ -1,64 +1,73 @@
 ---
 title: createObjectStore
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#createObjectStore&'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBDatabase
+    href: /apis/indexeddb/IDBDatabase
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBDatabase
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a &quot;versionchange&quot; transaction.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'Ready to Use'
-standardization_status: 'W3C Proposed Recommendation'
-summary: 'The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a "versionchange" transaction.'
-code_samples:
-  - 'http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#createObjectStore&'
 uri: apis/indexeddb/IDBDatabase/createObjectStore
 
 ---
-# createObjectStore
+## <span>Summary</span>
 
-## Summary
+The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a &quot;versionchange&quot; transaction.
 
-The createObjectStore method enables you to create object stores inside an indexedDB database. The creation of an object store is only possible inside a "versionchange" transaction.
+Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)[apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)
 
-*Method of [apis/indexeddb/IDBDatabase](/apis/indexeddb/IDBDatabase)*
+## <span>Syntax</span>
 
-## Syntax
-
-``` {.js}
+``` js
 var IDBObjectStore = IDBDatabase.createObjectStore(name, optionalParameters);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the object store to be created.
 
-### optionalParameters
+### <span>optionalParameters</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
-*(Optional)*
+(Optional)
 
 An object literal containing one or more of the following attributes:
 
 -   **keyPath**: specifies the key path of the new object store. If the attribute is null, no key path is specified. In this case the key isn't an attribute of the object stored in the value
 -   **autoIncrement**: specifies whether the object store should have a key generator. If a key generator is present, the key will be automatically incremented when objects get inserted.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 [**IDBObjectStore**](/apis/indexeddb/IDBObjectStore)
 
 An object representing the new object store.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // the db object was opened in the upgradeNeeded method
 try {
   var objectStore = db.createObjectStore("ObjectStore_BookList", {
@@ -73,7 +82,7 @@ try {
 
 [View live example](http://nparashuram.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#createObjectStore&)
 
-## Notes
+## <span>Notes</span>
 
 The method throws an exception if
 
@@ -81,16 +90,7 @@ The method throws an exception if
 -   If an object store with the same name, compared in a case-sensitive manner, already exists in the connected database.
 -   If autoIncrement is set to true, and keyPath either is the empty string, or an Array containing the empty string.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Proposed Recommendation](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

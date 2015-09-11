@@ -1,6 +1,5 @@
 ---
-title: html5
-uri: html/html5
+title: HTML5
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -52,11 +51,10 @@ todo_broken_links:
     - 'html/elements/meta http-equiv=default-style'
     - 'html/elements/meta http-equiv=refresh'
     - 'html/elements/meta name'
+uri: html/html5
 
 ---
-# HTML5
-
-## Summary
+## <span>Summary</span>
 
 HTML5 is the newest revision of the HyperText Markup Language. It updates and replaces HTML 4.01 and XHTML 1.1. It is being standardized at W3C, and jointly developed by W3C and WHATWG. It is currently in W3C's [Candidate Recommendation](/w/index.php?title=Standards/W3C_Process&action=edit&redlink=1) phase, and is expected to be finalized as a [Recommendation](/w/index.php?title=Standards/W3C_Process&action=edit&redlink=1) in 2014.
 
@@ -66,9 +64,9 @@ To get started using HTML5, you can read our [HTML tutorials](/w/index.php?title
 
 Here is a summary of which features are new, changed, or even obsolete in HTML5.
 
-## Elements
+## <span>Elements</span>
 
-### New Elements
+### <span>New Elements</span>
 
 There are 47 new elements in HTML5:
 
@@ -120,7 +118,7 @@ There are 47 new elements in HTML5:
 -   **[video](/html/elements/video):** video
 -   **[wbr](/html/elements/wbr):** line-break opportunity
 
-### Changed Elements
+### <span>Changed Elements</span>
 
 There are 11 elements that were changed in HTML5:
 
@@ -136,7 +134,7 @@ There are 11 elements that were changed in HTML5:
 -   **[s](/html/elements/s):** struck text
 -   **[u](/html/elements/u):** offset text conventionally styled with an underline
 
-### Obsolete Elements
+### <span>Obsolete Elements</span>
 
 Several existing elements were declared obsolete in HTML5, though for the sake of completeness and handling legacy content, they are still defined in the specification. However, authors should not use these elements.
 
@@ -162,7 +160,7 @@ There are 13 elements made obsolete in HTML5:
 -   **[strike](/html/elements/strike):** *presentational*. Use [CSS](/css) instead
 -   **[tt](/html/elements/tt):** *presentational*. Use [CSS](/css) instead
 
-### Existing Elements
+### <span>Existing Elements</span>
 
 There are 84 unchanged elements in HTML5:
 
@@ -251,16 +249,16 @@ There are 84 unchanged elements in HTML5:
 -   **[ul](/html/elements/ul):** unordered list
 -   **[var](/html/elements/var):** variable or placeholder text
 
-## Attributes
+## <span>Attributes</span>
 
-### New Attributes
+### <span>New Attributes</span>
 
-### Changed Attributes
+### <span>Changed Attributes</span>
 
-### Obsolete Attributes
+### <span>Obsolete Attributes</span>
 
-### Existing Attributes
+### <span>Existing Attributes</span>
 
-## APIs
+## <span>APIs</span>
 
-### New APIs
+### <span>New APIs</span>

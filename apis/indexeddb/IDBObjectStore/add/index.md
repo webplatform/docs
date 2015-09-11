@@ -1,57 +1,66 @@
 ---
 title: add
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#saveData&'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/indexeddb/IDBObjectStore
+    href: /apis/indexeddb/IDBObjectStore
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/indexeddb/IDBObjectStore
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'Adds a record to the specified object store.'
 tags:
   0: API
   1: Object
   2: Methods
   4: IndexedDB
-readiness: 'Ready to Use'
-standardization_status: 'W3C Proposed Recommendation'
-summary: 'Adds a record to the specified object store.'
-code_samples:
-  - 'http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#saveData&'
 uri: apis/indexeddb/IDBObjectStore/add
 
 ---
-# add
-
-## Summary
+## <span>Summary</span>
 
 Adds a record to the specified object store.
 
-*Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)*
+Method of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var idbRequest = objectStore.add(value, key);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### value
+### <span>value</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The value must be valid for the Structured Cloning Algorithm.
 
-### key
+### <span>key</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-*(Optional)*
+(Optional)
 
 A key must be provided if the Object Store does not have a key path, or a key generator is not specified.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var dbOpenRequest = window.indexedDB.open("BookShop1");
 dbOpenRequest.onsuccess = function(event){
     var db = dbOpenRequest.result;
@@ -81,7 +90,7 @@ dbOpenRequest.onsuccess = function(event){
 
 [View live example](http://axemclion.github.com/trialtool/index.html#example=/IndexedDB/trialtool/moz_indexedDB.html&selected=#saveData&)
 
-## Usage
+## <span>Usage</span>
 
      An error is thrown if one of the following is true
 
@@ -91,22 +100,13 @@ dbOpenRequest.onsuccess = function(event){
 -   The object store uses in-line keys but no key generator and the result of evaluating the object store's key path does not yield a value.
 -   The key parameter was provided but does not contain a valid key.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This method can throw the following [**DOMException**](/dom/DOMException)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

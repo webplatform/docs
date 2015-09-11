@@ -1,50 +1,53 @@
 ---
 title: IterationCompositeOperation
+readiness: readiness-state
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: enum
+    href: '/w/index.php?title=enum&action=edit&redlink=1'
+summary: 'The possible values of an animation effect’s iteration composite operation are represented by the IterationCompositeOperation enumeration.'
 tags:
   - API
   - Objects
   - Web
   - Animations
-readiness: readiness-state
-summary: 'The possible values of an animation effect’s iteration composite operation are represented by the IterationCompositeOperation enumeration.'
-uri: 'apis/web animations/IterationCompositeOperation'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - enum
+uri: 'apis/web animations/IterationCompositeOperation'
 
 ---
-# IterationCompositeOperation
-
-## Summary
+## <span>Summary</span>
 
 The possible values of an animation effect’s iteration composite operation are represented by the IterationCompositeOperation enumeration.
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[enum](/w/index.php?title=enum&action=edit&redlink=1)</span></span>
+Inherits from [enum](/w/index.php?title=enum&action=edit&redlink=1)[enum](/w/index.php?title=enum&action=edit&redlink=1)
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from enum
+## <span>Inherited from enum</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 

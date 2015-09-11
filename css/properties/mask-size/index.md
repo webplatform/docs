@@ -1,42 +1,56 @@
 ---
 title: mask-size
+notes:
+  - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements. It applies to container elements without the \<defs\> and graphics elements in SVG.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified, but with lengths made absolute.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'See text.'
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Specifies the size of the mask images, similar to the CSS background-size property.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
-summary: 'Specifies the size of the mask images, similar to the CSS background-size property.'
 uri: css/properties/mask-size
 
 ---
-# mask-size
-
-## Summary
+## <span>Summary</span>
 
 Specifies the size of the mask images, similar to the CSS background-size property.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements. It applies to container elements without the \<defs\> and graphics elements in SVG.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified, but with lengths made absolute.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   See text.
 
-## Syntax
+## <span>Syntax</span>
 
 -   `mask-size: auto`
 -   `mask-size: contain`
@@ -44,7 +58,7 @@ Percentages
 -   `mask-size: length`
 -   `mask-size: percentage`
 
-## Values
+## <span>Values</span>
 
 auto
 :   The intrinsic height/width of the mask image is used.
@@ -61,9 +75,9 @@ length
 percentage
 :   An integer, followed by a percent (%). A percentage value is relative to the background positioning area.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* contain */
 body {
         background-color: white;
@@ -74,10 +88,7 @@ body {
     }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Masking Level 1](https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html)
 :   W3C Editor's Draft
-

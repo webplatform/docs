@@ -1,43 +1,50 @@
 ---
 title: cssText
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/css/cssText/cssText.html'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/CSSRule/CSSRule
+    href: /css/cssom/CSSRule/CSSRule
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /css/cssom/CSSRule/CSSRule
+standardization_status: 'W3C Recommendation'
+summary: 'Gets or sets a textual representation of a CSS rule.'
 tags:
   0: API
   1: Object
   2: Properties
   4: CSS
   5: CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Gets or sets a textual representation of a CSS rule.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/css/cssText/cssText.html'
 uri: css/cssom/CSSRule/cssText
 
 ---
-# cssText
-
-## Summary
+## <span>Summary</span>
 
 Gets or sets a textual representation of a CSS rule.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/CSSRule/CSSRule](/css/cssom/CSSRule/CSSRule)</span></span>
+Property of [css/cssom/CSSRule/CSSRule](/css/cssom/CSSRule/CSSRule)[css/cssom/CSSRule/CSSRule](/css/cssom/CSSRule/CSSRule)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var ruleText = rule.cssText;
 rule.cssText = ruleText;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 Returns a textual representation of a CSS rule.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <div id="myDiv"></div>
 <input type="button" value="Blue" id="blueButton">
 <input type="button" value="Red" id="redButton">
@@ -61,18 +68,16 @@ Returns a textual representation of a CSS rule.
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/css/cssText/cssText.html)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Style](http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113/css.html)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -128,13 +133,9 @@ Specification
 
 -   **cssText**
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -174,7 +175,50 @@ Specification
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)

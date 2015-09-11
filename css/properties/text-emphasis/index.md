@@ -1,42 +1,56 @@
 ---
 title: text-emphasis
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/6133067'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': none
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`textEmphasis`'
+  Percentages: 'Not available'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'The text-emphasis property will apply special emphasis marks to the elements text. Slightly similar to the text-decoration property only that this property can have affect on the line-height. It also is noted that this is shorthand for text-emphasis-style and for text-emphasis-color.'
-code_samples:
-  - 'http://gist.github.com/6133067'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-emphasis
 
 ---
-# text-emphasis
-
-## Summary
+## <span>Summary</span>
 
 The text-emphasis property will apply special emphasis marks to the elements text. Slightly similar to the text-decoration property only that this property can have affect on the line-height. It also is noted that this is shorthand for text-emphasis-style and for text-emphasis-color.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   none
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textEmphasis`
+
 Percentages
 :   Not available
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-emphasis: <string>`
 -   `text-emphasis: circle`
@@ -48,7 +62,7 @@ Percentages
 -   `text-emphasis: sesame`
 -   `text-emphasis: triangle`
 
-## Values
+## <span>Values</span>
 
 none
 :   There are no emphasis marks
@@ -77,9 +91,9 @@ sesame
 \<string\>
 :   Display the given string as marks. Authors should not specify more than one character in \<string\>. The UA may truncate or ignore strings consisting of more than one grapheme cluster.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 p {
   /*text-emphasis: shape color;*/
   text-emphasis: triangle #f70;
@@ -88,30 +102,27 @@ p {
 
 [View live example](http://code.webplatform.org/gist/6133067)
 
-``` {.css}
+``` css
 p {
   /*text-emphasis: "string";*/
   text-emphasis: "*";
 }
 ```
 
-``` {.css}
+``` css
 p {
   /*text-emphasis: "string" color;*/
   text-emphasis: "^" #ccc;
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 Don't apply on special word separators like spaces.
 
 Size of the marks will always scale to 50% of the container's actual font size.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Decoration Module Level 3](http://dev.w3.org/csswg/css-text-decor-3/#emphasis-marks)
 :   Editor's Draft
-

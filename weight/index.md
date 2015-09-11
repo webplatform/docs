@@ -1,17 +1,15 @@
 ---
-title: eight
+title: weight
+notes:
+  - 'Glossary term; move candidate'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; move candidate'
 uri: weight
 
 ---
-# weight
-
-## weight
+## <span>weight</span>
 
 In typography, the relative heaviness or lightness of rules, borders, and character strokes.
 

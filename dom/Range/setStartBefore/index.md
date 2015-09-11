@@ -1,76 +1,75 @@
 ---
 title: setStartBefore
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.setStartBefore](https://developer.mozilla.org/en-US/docs/Web/API/Range.setStartBefore) Article]'
+  - 'Microsoft Developer Network: [[setStartBefore Method](http://msdn.microsoft.com/en-us/library/ie/ff975453(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Range
+    href: /dom/Range
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Number
+    href: /dom/Range
+standardization_status: 'W3C Recommendation'
+summary: 'Sets the start point of a range to a point before a specific node.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Sets the start point of a range to a point before a specific node.'
 uri: dom/Range/setStartBefore
 
 ---
-# setStartBefore
-
-## Summary
+## <span>Summary</span>
 
 Sets the start point of a range to a point before a specific node.
 
-*Method of [dom/Range](/dom/Range)*
+Method of [dom/Range](/dom/Range)[dom/Range](/dom/Range)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = range.setStartBefore(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### referenceNode
+### <span>referenceNode</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  Node in the document hierarchy.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Number.
+Returns an object of type NumberNumber
 
 Type: **HRESULT**
 
 This method can return one of these values.
 
-Return code
-:   Description
-S\_OK
-:   The operation completed successfully.
-InvalidStateError
-:   detach has been invoked on the object.
+|Return code|Description|
+|:----------|:----------|
+|S\_OK|The operation completed successfully.|
+|InvalidStateError|detach has been invoked on the object.|
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var range = document.createRange();
 var referenceNode = document.getElementsByTagName("div").item(0);
 
 range.setStartBefore(referenceNode);
 ```
 
-### Syntax
+### <span>Syntax</span>
 
 range.setStartBefore(referenceNode);
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 2.13
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Range.setStartBefore](https://developer.mozilla.org/en-US/docs/Web/API/Range.setStartBefore) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[setStartBefore Method](http://msdn.microsoft.com/en-us/library/ie/ff975453(v=vs.85).aspx) Article]
-

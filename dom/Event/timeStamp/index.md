@@ -1,43 +1,52 @@
 ---
 title: timeStamp
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Event
+    href: /dom/Event
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/Event
+standardization_status: 'W3C Working Draft'
+summary: 'Gets the time, in milliseconds, when an event occurred.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Gets the time, in milliseconds, when an event occurred.'
 uri: dom/Event/timeStamp
 
 ---
-# timeStamp
-
-## Summary
+## <span>Summary</span>
 
 Gets the time, in milliseconds, when an event occurred.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Event](/dom/Event)</span></span>
+Property of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var eventTimestamp = event.timeStamp;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 The event time stamp, in milliseconds since 1970-1-1 00:00:00 UTC.
 
-## Examples
+## <span>Examples</span>
 
 The following event handler displays the event time by using the current locale settings.
 
-``` {.js}
+``` js
 function eventHandler(evt) {
     var dt = new Date(evt.timeStamp);
     alert(dt.toLocaleString());
@@ -45,16 +54,14 @@ function eventHandler(evt) {
 window.onload = eventHandler;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`
@@ -70,10 +77,3 @@ Specification
 -   `StorageEvent`
 -   `TextEvent`
 -   `UIEvent`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

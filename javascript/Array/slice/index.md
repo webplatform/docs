@@ -1,21 +1,23 @@
 ---
 title: slice
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tkcsy6fe(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a section of an array.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Returns a section of an array.'
 uri: javascript/Array/slice
 
 ---
-# slice
-
-## Summary
+## <span>Summary</span>
 
 Returns a section of an array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     slice( start , [ end ])
 
@@ -25,11 +27,11 @@ Returns a section of an array.
 **end**
 :   Optional. The end of the specified portion of arrayObj.
 
-## Examples
+## <span>Examples</span>
 
 The following examples show how to use the slice method. In the first example, all but the last element of `myArray` is copied into `newArray`. In the second example, only the last two elements of `myArray` are copied into `newArray`.
 
-``` {.js}
+``` js
 var origArray = [3, 5, 7, 9];
  var newArray = origArray.slice(0, -1);
  document.write(origArray);
@@ -42,21 +44,15 @@ var origArray = [3, 5, 7, 9];
  // 7,9
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **slice** method returns an **Array** object containing the specified portion of arrayObj.
 
 The **slice** method copies up to, but not including, the element indicated by end. If start is negative, it is treated as length + start , where length is the length of the array. If end is negative, it is treated as length + end where length is the length of the array. If end is omitted, extraction continues to the end of arrayObj. If end occurs before start , no elements are copied to the new array.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.10 Array.prototype.slice (start, end)](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.10) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/tkcsy6fe(v=vs.94).aspx)
 

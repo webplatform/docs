@@ -1,41 +1,50 @@
 ---
 title: statusText
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+notes:
+  - 'Needs example'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/xhr/XMLHttpRequest
+    href: /apis/xhr/XMLHttpRequest
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/xhr/XMLHttpRequest
+standardization_status: 'W3C Working Draft'
+summary: 'Returns the HTTP status text.'
 tags:
   0: API
   1: Object
   2: Properties
   4: XHR
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example'
-summary: 'Returns the HTTP status text.'
 uri: apis/xhr/XMLHttpRequest/statusText
 
 ---
-# statusText
-
-## Summary
+## <span>Summary</span>
 
 Returns the HTTP status text.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)</span></span>
+Property of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.statusText;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // The following script checks the status to determine if the request was successful
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "http://localhost/test.xml", false);
@@ -46,16 +55,7 @@ else
    console.log(xhr.statusText);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

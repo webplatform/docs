@@ -1,38 +1,46 @@
 ---
 title: aria-activedescendant
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Attributes
   - ARIA
-readiness: 'Not Ready'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
-uri: aria/attributes/aria-activedescendant
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/events/keypress
+uri: aria/attributes/aria-activedescendant
 
 ---
-# aria-activedescendant
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:
 
+</th>
+<td>
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
-<dl data-table="wikitable">
-<dt>
+<table class="wikitable">
+<tr>
+<th>
 Used in Roles
 
-</dt>
-<dd>
+</th>
+<td>
 <dl>
 
 <dt>
@@ -48,27 +56,21 @@ textbox
 
 </dt>
 </dl>
-</dd>
-</dl>
+</td>
+</tr>
+</table>
   To simplify keyboard navigation, an element that gains focus may specify the currently active child element by [**id**](/html/attributes/id).
 
 The container element should change the designated descendant during a [**keypress**](/w/index.php?title=dom/events/keypress&action=edit&redlink=1) event. The container should also ensure that the current child has a style that visibly shows it is active, such as an outline or different background color. **Note**  For cross-browser compatibility, always use the WAI-ARIA attribute syntax to access and modify ARIA properties, for example `object.setAttribute("aria-valuenow", newValue)`.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Accessible Rich Internet Applications (WAI-ARIA) 1.0](http://go.microsoft.com/fwlink/p/?linkid=203793), Section 6.6
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Accessible Rich Internet Applications (ARIA)`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,5 +1,13 @@
 ---
 title: reset
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Merge Candidate: html/attributes/type. Add example, and more contents.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLInputElement](/dom/HTMLInputElement)'
+readiness: 'Not Ready'
+summary: 'An input form button that resets the form to default values.'
 tags:
   - Pages
   - using
@@ -11,52 +19,39 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Merge Candidate: html/attributes/type. Add example, and more contents.'
-summary: 'An input form button that resets the form to default values.'
 uri: html/elements/input/type/reset
 
 ---
-# reset
-
-## Summary
+## <span>Summary</span>
 
 An input form button that resets the form to default values.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLInputElement](/dom/HTMLInputElement)
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The [**value**](/html/attributes/value_(button_element)) property specifies the label displayed on the **Reset** button the same way it specifies it on the **INPUT type=submit** button.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 17.4
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.7.1.21
 
-### HTML information
+### <span>HTML information</span>
 
 {
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `button`
 -   `input`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

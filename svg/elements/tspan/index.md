@@ -1,50 +1,54 @@
 ---
 title: tspan
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, usage, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, usage, spec reference, standardization status'
 uri: svg/elements/tspan
 
 ---
-# tspan
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, text is modified with [**tSpan**](/svg/elements/text). Each letter has a specified x,y position. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the modified text.
 
 The text will look like this:
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <svg width="400" height="400">
-          <text fill="limegreen" font-size="20">
-            <tSpan x="50" y="50 55 60 60 60 55 50 45 40 35 30 25 " >
-                        SVG forever!</tSpan>
-          </text>
-        </svg>
-      </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <svg width="400" height="400">
+      <text fill="limegreen" font-size="20">
+        <tSpan x="50" y="50 55 60 60 60 55 50 45 40 35 30 25 " >
+                    SVG forever!</tSpan>
+      </text>
+    </svg>
+  </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -52,11 +56,11 @@ You can use the [**x**](/svg/properties/x), [**y**](/svg/properties/y), [**dx**]
 
 You can create multi-line [**text**](/svg/elements/text) elements by defining different **tspan** elements for each line of text, with [**x**](/svg/properties/x), [**y**](/svg/properties/y), [**dx**](/svg/properties/dx), or [**dy**](/svg/properties/dy) attributes that define the position of each **tspan** element. This setup enables users to select multi-line text selection.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.4
 
-### Members
+### <span>Members</span>
 
 The **SVGTSpanElement** object has these events:
 
@@ -115,10 +119,3 @@ Gets or sets a value that indicates whether Metro style app using JavaScript sho
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

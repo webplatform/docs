@@ -1,33 +1,42 @@
 ---
 title: formNoValidate
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'When present, it specifies that the &lt;input&gt; element should not be validated when submitted.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'When present, it specifies that the <input> element should not be validated when submitted.'
 uri: html/attributes/formNoValidate
 
 ---
-# formNoValidate
+## <span>Summary</span>
 
-## Summary
+When present, it specifies that the &lt;input&gt; element should not be validated when submitted.
 
-When present, it specifies that the \<input\> element should not be validated when submitted.
-
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLInputElement](/html/elements/input)
 
+</th>
+<td>
+[HTMLInputElement](/html/elements/input)
+
+</td>
+</tr>
+</table>
 The formnovalidate attribute is a boolean attribute.
 
 The formnovalidate attribute overrides the novalidate attribute of the \<form\> element.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <form action="submit.php">
   Input field: <input type="email" name="inputfield">
   <input type="submit" value="Submit">
@@ -35,28 +44,21 @@ The formnovalidate attribute overrides the novalidate attribute of the \<form\> 
 </form>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This attribute can be set on button and input elements. It is a Boolean attribute, and needs to be specified only on an element. The following example shows a field with two buttons, **check and save** and just **save**. **Note**  For more code samples, see [Form controls part 1](http://go.microsoft.com/fwlink/p/?LinkID=251128) and [Form controls part 2: validation](http://go.microsoft.com/fwlink/p/?LinkID=251131) on the Windows Internet Explorer sample site.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 4.10.19.6
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `HTMLInputElement`
 -   `HTMLButtonElement`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,72 +1,68 @@
 ---
-title: write
+title: document.write
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs examples and compat'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Method to insert a string of marked up text in the document tree.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs examples and compat'
-summary: 'Method to insert a string of marked up text in the document tree.'
 uri: dom/Document/write
 
 ---
-# document.write
-
-## Summary
+## <span>Summary</span>
 
 Method to insert a string of marked up text in the document tree.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  document.write(str);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### str
+### <span>str</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  A **String** that specifies the text and HTML tags to write.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Do not use the write method or the writeln method on the current document after the document has finished loading unless you first call the open method, which clears the current document window and erases all variables.
 
-## Notes
+## <span>Notes</span>
 
 When [**Document**](/dom/Document).**write** or **document**.[**writeln**](/dom/Document/writeln) is used in an event handler, you must also use **document**.[**close**](/dom/Document/close).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM HTML Level 2](http://www.w3.org/TR/DOM-Level-2-HTML/html.html#ID-75233634)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages
+### <span>Related pages</span>
 
 -   `writeln`
 -   `open`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

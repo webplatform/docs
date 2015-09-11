@@ -1,21 +1,19 @@
 ---
 title: functions
+readiness: 'Ready to Use'
+summary: 'In CSS, functions can be used in values to invoke special processing or visual effects.'
 tags:
   - Basic
   - Pages
   - CSS
-readiness: 'Ready to Use'
-summary: 'In CSS, functions can be used in values to invoke special processing or visual effects.'
 uri: css/functions
 
 ---
-# functions
-
-## Summary
+## <span>Summary</span>
 
 In CSS, functions can be used in values to invoke special processing or visual effects.
 
-### All Functions
+### <span>All Functions</span>
 
 -   [CSS cross-fade() function](/css/functions/cross-fade)
 -   [CSS images: url()](/css/functions/url())

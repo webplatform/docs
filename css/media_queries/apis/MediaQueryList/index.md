@@ -1,5 +1,19 @@
 ---
 title: MediaQueryList
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, example, description, specifications, compatibility.'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/media_queries
+    href: /css/media_queries
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /css/media_queries
 tags:
   - Pages
   - using
@@ -12,58 +26,53 @@ tags:
   - Object
   - Methods
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Add summery, example, description, specifications, compatibility.'
 uri: 'css/media queries/apis/MediaQueryList'
 
 ---
-# MediaQueryList
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [css/media\_queries](/css/media_queries)*
+Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.MediaQueryList();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The following example displays a message as when the windows size is less or greater than 250 pixels.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), Section 4.1
 
-### Members
+### <span>Members</span>
 
 The **MediaQueryList** object has these types of members:
 
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### Methods
+#### <span>Methods</span>
 
 The **MediaQueryList** object has these methods. {
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -102,12 +111,3 @@ The **MediaQueryList** object has these methods. {
 -   [ms-interpolation-mode](/css/media_queries/ms-interpolation-mode)
 
 -   [behavior](/css/properties/behavior)
-
--   [Targeting styles with media queries](/tutorials/media_queries)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

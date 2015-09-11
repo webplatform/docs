@@ -1,56 +1,48 @@
 ---
 title: DOMException
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Represents a DOM operation exception.'
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Represents a DOM operation exception.'
 uri: dom/DOMException
 
 ---
-# DOMException
-
-## Summary
+## <span>Summary</span>
 
 Represents a DOM operation exception.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [message](/dom/DOMException/message)
 :   Retrieves a string describing the exception that occurred.
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Usage
+## <span>Usage</span>
 
      DOM operations only raise exceptions in "exceptional" circumstances, when an operation is impossible to perform (e.g., for logical reasons, because data is lost, or because the implementation has become unstable). In general, DOM methods return specific error values in ordinary processing situations
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `DOM Exception Error Codes`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

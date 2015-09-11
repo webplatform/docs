@@ -1,35 +1,37 @@
 ---
 title: constructor
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155291(v=vs.94).aspx)'
+code_samples:
+  - 'http://gist.github.com/9237139'
+readiness: 'Ready to Use'
+summary: 'References the function which created the instance of the Array object.'
 tags:
   0: JS
   1: Basic
   3: Property
-readiness: 'Ready to Use'
-summary: 'References the function which created the instance of the Array object.'
-code_samples:
-  - 'http://gist.github.com/9237139'
 uri: javascript/Array/constructor
 
 ---
-# constructor
-
-## Summary
+## <span>Summary</span>
 
 References the function which created the instance of the Array object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     arrayObj.constructor
 
-## Return Value
+## <span>Return Value</span>
 
 The function object which constructed the Array instance.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the constructor property.
 
-``` {.js}
+``` js
 var x = new Array();
 
  if (x.constructor == Array)
@@ -43,7 +45,7 @@ var x = new Array();
 
 [View live example](http://code.webplatform.org/gist/9237139)
 
-## Remarks
+## <span>Remarks</span>
 
 The **constructor** property is a member of the prototype of every object that has a prototype. This includes all intrinsic JavaScript objects except the **Global** and **Math** objects. If the JavaScript interpreter falls back to their prototype object, the **constructor** property references the native `Object.prototype.constructor`.
 
@@ -66,23 +68,17 @@ The **constructor** property is only read-only for primitive values such as 1, t
 
     // Output: function Number() { [native code] }
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [JavaScript, by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 -   [Object.prototype.constructor, by Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor)
 
-### Specification
+### <span>Specification</span>
 
 -   [4.3.4 constructor](http://www.ecma-international.org/ecma-262/5.1/#sec-4.3.4)
 -   [15.2.4.1 Object.prototype.constructor](http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.1)
 
 ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155291(v=vs.94).aspx)
 

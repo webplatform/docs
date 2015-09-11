@@ -1,70 +1,68 @@
 ---
 title: width
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/canvas/ImageData
+    href: /apis/canvas/ImageData
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/canvas/ImageData
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The number of physical device pixels per row in the image data.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The number of physical device pixels per row in the image data.'
 uri: apis/canvas/ImageData/width
 
 ---
-# width
-
-## Summary
+## <span>Summary</span>
 
 The number of physical device pixels per row in the image data.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/canvas/ImageData](/apis/canvas/ImageData)</span></span>
+Property of [apis/canvas/ImageData](/apis/canvas/ImageData)[apis/canvas/ImageData](/apis/canvas/ImageData)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = ImageData.width;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
 This example creates an ImageData object and reports its width, then draws the ImageData onto the canvas.
 
-``` {.html}
+``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
-. . .
+<p>. . .</p>
 <script>
 var can = document.getElementById("myCanvas");
 var ctxt = can.getContext("2d");
 var imgdata = ctxt.createImageData(150, 100);
 alert(imgdata.width); // 150
 for (var i = 0; i < imgdata.data.length; i += 4) {
-
-imgdata.data[i+0] = 255;
-imgdata.data[i+1] = 255;
-imgdata.data[i+2] = 0;
-imgdata.data[i+3] = 128;
+ imgdata.data[i+0] = 255;
+ imgdata.data[i+1] = 255;
+ imgdata.data[i+2] = 0;
+ imgdata.data[i+3] = 128;
+}
+ctxt.putImageData(imgdata, 10, 10);
+</script>
 ```
 
-} ctxt.putImageData(imgdata, 10, 10); \</script\>
+## <span>Related specifications</span>
 
-</pre>
-
-## Related specifications
-
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

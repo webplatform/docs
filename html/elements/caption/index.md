@@ -1,37 +1,37 @@
 ---
 title: caption
+code_samples:
+  - 'http://gist.github.com/7282268'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLTableCaptionElement](/dom/HTMLTableCaptionElement)'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The caption (&lt;caption&gt;) element represents the title of the table that is its parent.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information.'
-summary: 'The caption (<caption>) element represents the title of the table that is its parent.'
-code_samples:
-  - 'http://gist.github.com/7282268'
 uri: html/elements/caption
 
 ---
-# caption
+## <span>Summary</span>
 
-## Summary
+The caption (&lt;caption&gt;) element represents the title of the table that is its parent.
 
-The caption (\<caption\>) element represents the title of the table that is its parent.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableCaptionElement](/dom/HTMLTableCaptionElement)
 
 The **caption** element (\<caption\>) specifies a brief description for a table. The \<caption\> element must be inserted immediately after the \<table\> element.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **caption** element to provide a brief description for a table.
 
-``` {.html}
+``` html
 
 <table>
  <caption>Characteristics with positive and negative sides</caption>
@@ -55,13 +55,14 @@ This example uses the **caption** element to provide a brief description for a t
   </tr>
  </tbody>
 </table>
+
 ```
 
 [View live example](http://code.webplatform.org/gist/7282268)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **caption** element should be a child of the \<table\> element.
 
@@ -69,26 +70,24 @@ A caption can introduce context for a table, making it significantly easier to u
 
 When a table element is the only content in a figure element other than the **figcaption**, the caption element should be omitted in favor of the [figcaption](/html/elements/figcaption).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-caption-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-caption-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-CAPTION)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -186,21 +185,53 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Text
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -211,8 +242,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -226,25 +255,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -290,7 +305,6 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### External resources
+### <span>External resources</span>
 
-[http://www.w3.org/wiki/HTML/Elements/caption](http://www.w3.org/wiki/HTML/Elements/caption)
-
+<http://www.w3.org/wiki/HTML/Elements/caption>

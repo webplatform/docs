@@ -1,53 +1,67 @@
 ---
 title: border-right
+code_samples:
+  - 'http://gist.github.com/5534715'
+notes:
+  - 'Add description, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': '<span class="smwttpersist" data-type="warning" data-context="persitent"><span class="smwtticon warning"></span><span class="smwttcontent">String representation "For \<code\>style … slucent colors." is too long.</span></span>'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderRight`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'Shorthand property that defines the border-width, border-style and border-color of an element''s right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — border-right-width, border-right-style and border-right-color.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add description, specifications, compatibility.'
-summary: 'Shorthand property that defines the border-width, border-style and border-color of an element''s right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — border-right-width, border-right-style and border-right-color.'
-code_samples:
-  - 'http://gist.github.com/5534715'
-uri: css/properties/border-right
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/border-right
 
 ---
-# border-right
-
-## Summary
+## <span>Summary</span>
 
 Shorthand property that defines the border-width, border-style and border-color of an element's right border in a single declaration. Note that you can use the corresponding longhand properties to set specific individual properties of the right border — border-right-width, border-right-style and border-right-color.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `For style values, the initial value is none. For color values, the initial value is currentColor.  For width values, the initial value is medium, which is computed as about 3px in most browsers.`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   <span class="smwttpersist" data-type="warning" data-context="persitent"><span class="smwtticon warning"></span><span class="smwttcontent">String representation "For \<code\>style … slucent colors." is too long.</span></span>
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderRight`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-right: border-width border-style color`
 -   `border-right: inherit`
 
-## Values
+## <span>Values</span>
 
 border-width border-style color
 :   The `border-right` property can contain up to three components:
@@ -59,21 +73,21 @@ border-width border-style color
 inherit
 :   When we set the value to `inherit`, the element will inherit the border values set on its parent.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing multiple `<div>`s, identical in style except that they have different `border-right` properties applied to them.
 
-``` {.html}
-One
-Two
-Three
-Four
-Five
+``` html
+<div class="one"><p>One</p></div>
+<div class="two"><p>Two</p></div>
+<div class="three"><p>Three</p></div>
+<div class="four"><p>Four</p></div>
+<div class="five"><p>Five</p></div>
 ```
 
 [View live example](http://code.webplatform.org/gist/5534715)
 
-``` {.css}
+``` css
 /**
  * border-right example
 **/
@@ -123,17 +137,17 @@ p {
 
 [View live example](http://code.webplatform.org/gist/5534715)
 
-## Usage
+## <span>Usage</span>
 
      * It is usual to use the border-right property to set the default state of a box's right border, and then override individual values using more specific propeties, such as border-right-width or border-right-color.
 
 -   `border-right` can be used as a divider between horizontally laid out items, such as a horizontal navigation menu, or table cells.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -193,7 +207,7 @@ p {
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -204,4 +218,3 @@ p {
 -   `border`
 -   `Other Resources`
 -   `CSS Enhancements in Internet Explorer 6`
-

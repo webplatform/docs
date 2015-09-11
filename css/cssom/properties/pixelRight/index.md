@@ -1,51 +1,49 @@
 ---
 title: pixelRight
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/properties
+    href: /css/cssom/properties
+summary: 'Reflects the value of the Cascading Style Sheets (CSS) right attribute.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Reflects the value of the Cascading Style Sheets (CSS) right attribute.'
 uri: css/cssom/properties/pixelRight
 
 ---
-# pixelRight
-
-## Summary
+## <span>Summary</span>
 
 Reflects the value of the Cascading Style Sheets (CSS) right attribute.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/properties](/css/cssom/properties)</span></span>
+Property of [css/cssom/properties](/css/cssom/properties)[css/cssom/properties](/css/cssom/properties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.pixelRight;
 element.pixelRight = value;
 ```
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **pixelRight** property reflects the value of the Cascading Style Sheets (CSS) [**right**](/css/properties/right) attribute. Unlike the [**right**](/css/properties/right) property, the **pixelRight** value is an integer, not a string, and is always interpreted in pixels.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `runtimeStyle`
 -   `style`
 -   `posRight`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,55 +1,57 @@
 ---
 title: screenTop
+attributions:
+  - 'Microsoft Developer Network: [[screenTop Property](http://msdn.microsoft.com/en-us/library/ie/ms534390(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Window
+    href: /dom/Window
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/Window
+standardization_status: Non-Standard
+summary: 'Retrieves the y-coordinate of the top corner of the client area, relative to the top corner of the screen.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: Non-Standard
-summary: 'Retrieves the y-coordinate of the top corner of the client area, relative to the top corner of the screen.'
 uri: dom/Window/screenTop
 
 ---
-# screenTop
-
-## Summary
+## <span>Summary</span>
 
 Retrieves the y-coordinate of the top corner of the client area, relative to the top corner of the screen.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Window](/dom/Window)</span></span>
+Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var top = window.screenTop;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 the y-coordinate, in pixels.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var top=window.screenTop;
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The client area consists of the window, exclusive of the caption bar, the window-sizing border, the menu bar, the toolbars, the scroll bars, and the status bars.
 
-### Syntax
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[screenTop Property](http://msdn.microsoft.com/en-us/library/ie/ms534390(v=vs.85).aspx) Article]
-
+### <span>Syntax</span>

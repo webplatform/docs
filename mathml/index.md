@@ -1,39 +1,37 @@
 ---
-title: athml
+title: MathML
+notes:
+  - "Fix broken links.\nNOTE: Maybe we should not put \"almost ready\" or ready to use if not ALL subpages aren’t on a better state. Reverted to Unreviewed."
+summary: 'Mathematical Markup Language (MathML) is a XML language, which is used to describe mathematical formulas. The current stable specification is the MathML 3.0 W3C Recommendation.'
 tags:
   - Basic
   - Pages
   - MathML
-notes:
-  - "Fix broken links.\nNOTE: Maybe we should not put \"almost ready\" or ready to use if not ALL subpages aren’t on a better state. Reverted to Unreviewed."
-summary: 'Mathematical Markup Language (MathML) is a XML language, which is used to describe mathematical formulas. The current stable specification is the MathML 3.0 W3C Recommendation.'
 uri: mathml
 
 ---
-# MathML
-
-## Summary
+## <span>Summary</span>
 
 Mathematical Markup Language (MathML) is a XML language, which is used to describe mathematical formulas. The current stable specification is the MathML 3.0 W3C Recommendation.
 
-## Explore our MathML docs
+## <span>Explore our MathML docs</span>
 
-### Element reference
+### <span>[Element reference](/mathml/elements)</span>
 
 A reference guide to all MathML elements available.
 
-### Attribute reference
+### <span>[Attribute reference](/mathml/attributes)</span>
 
 A reference guide to all available MathML attributes.
 
-## Background
+## <span>Background</span>
 
 There are two types of MathML:
 
 -   Presentation MathML, for the presentation of a mathematical formulas.
 -   Content MathML, which describes the meaning of a mathematical formula.
 
-## Contributing to MathML development
+## <span>Contributing to MathML development</span>
 
 MathML is worked on by the MathML working group [see the WG homepage](http://www.w3.org/Math/) for more details, including mailing list details for feedback and contributing.
 
@@ -143,4 +141,3 @@ MathML is worked on by the MathML working group [see the WG homepage](http://www
 </td>
 </tr>
 </table>
-

@@ -1,42 +1,58 @@
 ---
 title: column-rule-width
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6288958'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`medium`'
+  'Applies to': 'multi-column elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'absolute length; ‘0’ if the column rule style is ‘none’ or ‘hidden’'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`columnRuleWidth`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the width of the rule between columns.'
-code_samples:
-  - 'http://gist.github.com/6288958'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/column-rule-width
 
 ---
-# column-rule-width
-
-## Summary
+## <span>Summary</span>
 
 Specifies the width of the rule between columns.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `medium`
+
 Applies to
 :   multi-column elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   absolute length; ‘0’ if the column rule style is ‘none’ or ‘hidden’
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `columnRuleWidth`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `column-rule-width: 0`
 -   `column-rule-width: medium`
@@ -44,7 +60,7 @@ Percentages
 -   `column-rule-width: thin`
 -   `column-rule-width: width`
 
-## Values
+## <span>Values</span>
 
 medium
 :   Default. A medium width border.
@@ -61,11 +77,11 @@ width
 0
 :   If the column rule style is ‘none’ or ‘hidden’
 
-## Examples
+## <span>Examples</span>
 
 Makes 3 columns with 4px dashed green column-rule.
 
-``` {.css}
+``` css
 /*
 Makes 3 columns with 4px dashed green column-rule
 */
@@ -82,26 +98,24 @@ Makes 3 columns with 4px dashed green column-rule
 
 [View live example](http://code.webplatform.org/gist/6288958)
 
-## Usage
+## <span>Usage</span>
 
      * Negative length values are not allowed.
 
-## Notes
+## <span>Notes</span>
 
 The exact thickness of the column rule when using the `medium`, `thin`, or `thick` value is user agent dependent, and is not defined in the specification.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Multi-column Layout Module](http://www.w3.org/TR/css3-multicol/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -126,10 +140,3 @@ Specification
 -   [column-width](/css/properties/column-width)
 
 -   [content](/css/properties/content)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

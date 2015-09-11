@@ -1,28 +1,26 @@
 ---
 title: file xhr
+notes:
+  - 'Old version of file_xhr2; deletion candidate'
+readiness: 'Not Ready'
+summary: 'An introduction to XMLHttpRequest2.'
 tags:
   - Tutorials
   - XHR
-readiness: 'Not Ready'
-notes:
-  - 'Old version of file_xhr2; deletion candidate'
-summary: 'An introduction to XMLHttpRequest2.'
 uri: 'tutorials/file xhr'
 
 ---
-# file xhr
-
-## Summary
+## <span>Summary</span>
 
 An introduction to XMLHttpRequest2.
 
-# New Tricks in XMLHttpRequest2
+# <span>New Tricks in XMLHttpRequest2</span>
 
-## By Eric Bidelman
+## <span>By Eric Bidelman</span>
 
 Published May 27, 2011
 
-## Introduction
+## <span>Introduction</span>
 
 One of the unsung heros in the HTML5 universe is `XMLHttpRequest`. Strictly speaking XHR2 isn't HTML5. However, it's part of the incremental improvements browser vendors are making to the core platform. I'm including XHR2 in our new bag of goodies because it plays such an integral part in today's complex web apps.
 
@@ -30,7 +28,7 @@ Turns out our old friend got a huge makeover but many folks are unaware of its n
 
 This tutorial highlights some of the new features in `XMLHttpRequest`, especially those that can be used for [working with files](/tutorials/file_dnd).
 
-## Fetching data
+## <span>Fetching data</span>
 
 Fetching a file as a binary blob has been painful with XHR. Technically, it wasn't even possible. One trick that has been well documented involves overriding the mime type with a user-defined charset as seen below.
 
@@ -57,7 +55,7 @@ The old way to fetch an image:
 
 While this works, what you actually get back in the `responseText` is not a binary blob. It is a binary string representing the image file. We're tricking the server into passing the data back, unprocessed. Even though this little gem works, I'm going to call it black magic and advise against it. Anytime you resort to character code hacks and string manipulation for coercing data into a desirable format, that's a problem.
 
-### Specifying a response format
+### <span>Specifying a response format</span>
 
 In the previous example, we downloaded the image as a binary "file" by overriding the server's mime type and processing the response text as a binary string. Instead, let's leverage `XMLHttpRequest`'s new `responseType` and `response` properties to inform the browser what format we want the data returned as.
 
@@ -84,7 +82,7 @@ With this new awesomeness, we can rework the previous example, but this time, fe
 
 Much nicer!
 
-#### ArrayBuffer responses
+#### <span>ArrayBuffer responses</span>
 
 An [`ArrayBuffer`](https://developer.mozilla.org/en/JavaScript_typed_arrays/ArrayBuffer) is a generic fixed-length container for binary data. They are super handy if you need a generalized buffer of raw data, but the real power behind these guys is that you can create "views" of the underlying data using [JavaScript typed arrays](https://developer.mozilla.org/en/JavaScript_typed_arrays). In fact, multiple views can be created from a single `ArrayBuffer` source. For example, you could create an 8-bit integer array that shares the same `ArrayBuffer` as an existing 32-bit integer array from the same data. The underlying data remains the same, we just create different representations of it.
 
@@ -102,7 +100,7 @@ As an example, the following fetches our same image as an `ArrayBuffer`, but thi
 
      xhr.send();
 
-#### Blob responses
+#### <span>Blob responses</span>
 
 If you want to work directly with a [`Blob`](https://developer.mozilla.org/en/DOM/Blob) and/or don't need to manipulate any of the file's bytes, use `xhr.responseType='blob'`:
 
@@ -130,11 +128,11 @@ If you want to work directly with a [`Blob`](https://developer.mozilla.org/en/DO
 
 A `Blob` can be used in a number of places, including writing it to the HTML5 [File System](/tutorials/file_filesystem), or [creating a Blob URL](/tutorials/workers_basics#BlobURLs), as seen in this example.
 
-## Sending data
+## <span>Sending data</span>
 
 Being able to download data in different formats is great, but it doesn't get us anywhere if we can't send these rich formats back to home base (the server). `XMLHttpRequest` has limited us to sending `DOMString` or `Document` (XML) data for some time. Not anymore. A revamped `send()` method has been overridden to accept any of the following types: `DOMString`, `Document`, `FormData`, `Blob`, `File`, `ArrayBuffer`. The examples in the rest of this section demonstrate sending data using each type.
 
-### Sending string data: xhr.send(DOMString)
+### <span>Sending string data: xhr.send(DOMString)</span>
 
      function sendText(txt) {
        var xhr = new XMLHttpRequest();
@@ -166,7 +164,7 @@ Being able to download data in different formats is great, but it doesn't get us
 
 There's nothing new here, though the second snippet is slightly different. It sets `responseType='text'` for comparison. Again, omitting that line yields the same results.
 
-### Submitting forms: xhr.send(FormData)
+### <span>Submitting forms: xhr.send(FormData)</span>
 
 Many people are probably accustomed to using [jQuery plugins](http://jquery.malsup.com/form/) or other libraries to handle AJAX form submissions. Instead, we can use [`FormData`](https://developer.mozilla.org/en/XMLHttpRequest/FormData), another new data type conceived for XHR2. `FormData` is convenient for creating an HTML `<form>` on-the-fly, in JavaScript. That form can then be submitted using AJAX:
 
@@ -228,7 +226,7 @@ An HTML form can include file uploads (e.g. `<input type="file">`) and `FormData
        uploadFiles('/server', this.files);
      }, false);
 
-### Uploading a file or blob: xhr.send(Blob)
+### <span>Uploading a file or blob: xhr.send(Blob)</span>
 
 We can also send `File` or `Blob` data using XHR. Keep in mind all `File`s are `Blob`s, so either works here.
 
@@ -255,7 +253,7 @@ This example creates a new text file from scratch using the `Blob()` constructor
 
      upload('''new Blob(['hello world'], {type: 'text/plain'})''');
 
-### Uploading a chunk of bytes: xhr.send(ArrayBuffer)
+### <span>Uploading a chunk of bytes: xhr.send(ArrayBuffer)</span>
 
 Last but not least, we can send `ArrayBuffer`s as the XHR's payload.
 
@@ -270,11 +268,11 @@ Last but not least, we can send `ArrayBuffer`s as the XHR's payload.
        xhr.send('''uInt8Array.buffer''');
      }
 
-## Cross Origin Resource Sharing (CORS)
+## <span>Cross Origin Resource Sharing (CORS)</span>
 
 [CORS](http://dev.w3.org/2006/waf/access-control/) allows web applications on one domain to make cross domain AJAX requests to another domain. It's dead simple to enable, only requiring a single response header to be sent by the server.
 
-### Enabling CORS requests
+### <span>Enabling CORS requests</span>
 
 Let's say your application lives on `example.com` and you want to pull data from `www.example2.com`. Normally if you tried to make this type of AJAX call, the request would fail and the browser would throw an origin mismatch error. With CORS, `www.example2.com` can choose to allow requests from `example.com` by simply adding a header:
 
@@ -291,7 +289,7 @@ If a site has enabled CORS on its pages, you can fire up the Developer Tools and
 
 Enabling cross-origin requests is easy, so please, please, please [enable CORS](http://enable-cors.org/) if your data is public!
 
-### Making a cross-domain request
+### <span>Making a cross-domain request</span>
 
 If the server endpoint has enabled CORS, making the cross-origin request is no different than a normal `XMLHttpRequest` request. For example, here is a request `example.com` can now make to `www.example2.com`:
 
@@ -304,9 +302,9 @@ If the server endpoint has enabled CORS, making the cross-origin request is no d
      }
      xhr.send();
 
-## Practical examples
+## <span>Practical examples</span>
 
-### Download + save files to the HTML5 file system
+### <span>Download + save files to the HTML5 file system</span>
 
 Let's say you have an image gallery and want to fetch a bunch of images then save them locally using the [HTML5 File System](/tutorials/file_filesystem). One way to accomplish this would be to request images as `Blob`s and write them out using `FileWriter`:
 
@@ -342,7 +340,7 @@ Let's say you have an image gallery and want to fetch a bunch of images then sav
 
 **Note:** to use this code, see [[tutorials/file \_filesystem\#Browser\_support\_&\_storage\_limitations|Browser support & storage limitations]] in the [Exploring the FileSystem APIs](/tutorials/file_filesystem) tutorial.
 
-### Slicing a file and uploading each portion
+### <span>Slicing a file and uploading each portion</span>
 
 Using the [File APIs](/tutorials/file_dnd), we can minimize the work to upload a large file. The technique is to slice the upload into multiple chunks, spawn an XHR for each portion, and put the file together on the server. This is similar to how GMail uploads large attachments so quickly. Such a technique could also be used to get around Google App Engine's 32MB http request limit.
 
@@ -376,18 +374,18 @@ What is not shown here is the code to reconstruct the file on the server.
 
 **Try it!**
 
-## References
+## <span>References</span>
 
 -   [XMLHttpRequest Level 2](http://dev.w3.org/2006/webapi/XMLHttpRequest-2/) specification
 -   [Cross Origin Resource Sharing (CORS)](http://dev.w3.org/2006/waf/access-control/) specification
 -   [File API](http://www.w3.org/TR/file-upload/) specification
 -   [FileSystem API](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/) specification
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### XHR
+#### <span>XHR</span>
 
 -   [XMLHttpRequest (XHR) API](/apis/xhr)
 

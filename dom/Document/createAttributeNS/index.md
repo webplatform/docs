@@ -1,55 +1,64 @@
 ---
 title: createAttributeNS
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Creates a reference to an attribute object that is associated with an XML namespace.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Creates a reference to an attribute object that is associated with an XML namespace.'
 uri: dom/Document/createAttributeNS
 
 ---
-# createAttributeNS
-
-## Summary
+## <span>Summary</span>
 
 Creates a reference to an attribute object that is associated with an XML namespace.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var attribute = document.createAttributeNS(namespace, name);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### namespace
+### <span>namespace</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the desired namespace or a null value if no namespace is desired.
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the desired attribute.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The created attribute.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //create a "lang" attribute associated with a namespace
 var attr = document.createAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:lang");
 //assign a value to the attribute
@@ -58,26 +67,17 @@ attr.nodeValue = "es-us";
 document.documentElement.setAttributeNodeNS(attr);
 ```
 
-## Notes
+## <span>Notes</span>
 
 **createAttributeNS** is an XML DOM method and is supported only for XML documents.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `createAttribute`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

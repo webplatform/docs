@@ -1,23 +1,21 @@
 ---
-title: techniques
+title: User eXperience (UX) Design Techniques
+readiness: 'Not Ready'
+summary: 'A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.'
 tags:
   - Concept
   - Pages
   - Design
   - UI
   - Usability
-readiness: 'Not Ready'
-summary: 'A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.'
 uri: concepts/ux/techniques
 
 ---
-# User eXperience (UX) Design Techniques
-
-## Summary
+## <span>Summary</span>
 
 A list of techniques at product development stages that are used within the practices of User eXperience (UX) design.
 
-### Research & Analysis
+### <span>Research & Analysis</span>
 
 -   [Contextual inquiry](/concepts/ux/techniques/contextual_inquiry)
 -   [Stakeholder mapping](/concepts/ux/techniques/stakeholder_mapping)
@@ -26,7 +24,7 @@ A list of techniques at product development stages that are used within the prac
 -   [Empathy map](/concepts/ux/techniques/empathy_map)
 -   [Journey map](/concepts/ux/techniques/journey_map)
 
-### Scoping and Initial Design
+### <span>Scoping and Initial Design</span>
 
 -   [Elevator Pitch](/concepts/ux/techniques/elevator_pitch)
 -   [Collaborative design sessions (Inception deck)](/concepts/ux/techniques/inception_deck)
@@ -39,7 +37,7 @@ A list of techniques at product development stages that are used within the prac
 -   Rich Visual Backlog
 -   Behavior driven development
 
-### Prototyping
+### <span>Prototyping</span>
 
 -   Sketches
 -   Wireframes
@@ -47,11 +45,11 @@ A list of techniques at product development stages that are used within the prac
 -   Mockups
 -   Functional Prototype
 
-### Development
+### <span>Development</span>
 
 -   Just-in-time design
 
-### Testing
+### <span>Testing</span>
 
 -   Quantitative Usability Testing
 -   Pair testing
@@ -59,13 +57,12 @@ A list of techniques at product development stages that are used within the prac
 -   Cognitive walkthrough
 -   Heuristic Evaluation
 
-## Usage
+## <span>Usage</span>
 
      At product development stages
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 [User eXperience (UX)](/concepts/ux/user_experience_design)
-

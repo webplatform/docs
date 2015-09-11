@@ -1,20 +1,22 @@
 ---
 title: replace
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t0kbytzc(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: "Replaces text in a string, using a regular expression or search string.\n"
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: "Replaces text in a string, using a regular expression or search string.\n"
 uri: javascript/String/replace
 
 ---
-# replace
-
-## Summary
+## <span>Summary</span>
 
 Replaces text in a string, using a regular expression or search string.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     stringObj. replace( rgExp , replaceText )
 
@@ -27,38 +29,32 @@ Replaces text in a string, using a regular expression or search string.
 **replaceText**
 :   Required. A String object or string literal containing the text to replace for every successful match of rgExp in stringObj. In Internet Explorer 5.5 or later, the replaceText argument can also be a function that returns the replacement text.
 
-## Return Value
+## <span>Return Value</span>
 
 The result of the **replace** method is a copy of stringObj after the specified replacements have been made.
 
-## Remarks
+## <span>Remarks</span>
 
 Any of the following match variables can be used to identify the most recent match and the string from which it came. The match variables can be used in text replacement where the replacement string has to be determined dynamically.
 
-Characters
-:   Meaning
-**\$\$**
-:   \$ (Internet Explorer 5.5 or later)
-**\$&**
-:   Specifies that portion of stringObj that the entire pattern matched. (Internet Explorer 5.5 or later)
-**\$\`**
-:   Specifies that portion of stringObj that precedes the match described by **\$&**. (Internet Explorer 5.5 or later)
-**\$'**
-:   Specifies that portion of stringObj that follows the match described by **\$&**. (Internet Explorer 5.5 or later)
-\$ n
-:   The n th captured submatch, where n is a single decimal digit from 1 through 9. (Internet Explorer 5.5 or later)
-\$ nn
-:   The nn th captured submatch, where nn is a two-digit decimal number from 01 through 99. (Internet Explorer 5.5 or later)
+|Characters|Meaning|
+|:---------|:------|
+|**\$\$**|\$ (Internet Explorer 5.5 or later)|
+|**\$&**|Specifies that portion of stringObj that the entire pattern matched. (Internet Explorer 5.5 or later)|
+|**\$\`**|Specifies that portion of stringObj that precedes the match described by **\$&**. (Internet Explorer 5.5 or later)|
+|**\$'**|Specifies that portion of stringObj that follows the match described by **\$&**. (Internet Explorer 5.5 or later)|
+|\$ n|The n th captured submatch, where n is a single decimal digit from 1 through 9. (Internet Explorer 5.5 or later)|
+|\$ nn|The nn th captured submatch, where nn is a two-digit decimal number from 01 through 99. (Internet Explorer 5.5 or later)|
 
 If replaceText is a function, for each matched substring the function is called with the following m + 3 arguments where m is the number of left capturing parentheses in the rgExp. The first argument is the substring that matched. The next m arguments are all of the captures that resulted from the search. Argument m + 2 is the offset within stringObj where the match occurred, and argument m + 3 is stringObj. The result is the string value that results from replacing each matched substring with the corresponding return value of the function call.
 
 The **replace** method updates the properties of the global **RegExp** object.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **replace** method to replace all instances of "the" with "a."
 
-``` {.js}
+``` js
 var s = "the batter hit the ball with the bat";
 
  // Replace "the" with "a".
@@ -70,7 +66,7 @@ var s = "the batter hit the ball with the bat";
 
 In addition, the **replace** method can also replace subexpressions in the pattern. The following example exchanges each pair of words in the string.
 
-``` {.js}
+``` js
 var s = "The quick brown fox jumped over the lazy dog.";
  var re = /(\S+)(\s+)(\S+)/g;
  // Exchange each pair of words.
@@ -82,7 +78,7 @@ var s = "The quick brown fox jumped over the lazy dog.";
 
 The following example, which works in JavaScript 5.5 and later, shows how to use a function that returns the replacement text. It replaces any instance of a number followed by "F" with a Celsius conversion.
 
-``` {.js}
+``` js
 function f2c(s1) {
      // Initialize pattern.
      var test = /(\d+(\.\d*)?)F\b/g;
@@ -101,19 +97,13 @@ function f2c(s1) {
  // Output: Water freezes at 0C and boils at 100C.
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [exec Method (Regular Expression)](/javascript/regular_expression/exec)
 -   [match Method (String)](/javascript/String/match)
 -   [RegExp Object](/javascript/RegExp)
 -   [search Method (String)](/javascript/String/search)
 -   [test Method (Regular Expression)](/javascript/regular_expression/test)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/t0kbytzc(v=vs.94).aspx)
 

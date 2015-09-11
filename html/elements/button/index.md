@@ -1,29 +1,32 @@
 ---
 title: button
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[\<button\> on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) Article]'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/b08191a8d5915621a5e1'
+  - 'http://gist.github.com/ceb6531b1b86fb0b21d0'
+  - 'http://gist.github.com/c579515bcd4378bfd634'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLButtonElement](/dom/HTMLButtonElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The button element represents a clickable button.'
 tags:
   - Markup
   - Elements
   - HTML
   - UI
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information.'
-summary: 'The button element represents a clickable button.'
-code_samples:
-  - 'http://gist.github.com/b08191a8d5915621a5e1'
-  - 'http://gist.github.com/ceb6531b1b86fb0b21d0'
-  - 'http://gist.github.com/c579515bcd4378bfd634'
 uri: html/elements/button
 
 ---
-# button
-
-## Summary
+## <span>Summary</span>
 
 The button element represents a clickable button.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLButtonElement](/dom/HTMLButtonElement)
@@ -32,7 +35,7 @@ You can put text or images inside a button element. If the element is not disabl
 
 By default, the button element is used to submit [**form**](/html/elements/form) data. Modifying the type attribute can change this behavior.
 
-### Attributes (HTML 4)
+### <span>Attributes (HTML 4)</span>
 
 name
 :   The name of the button. This can be used to identify which button was used to submit a form.
@@ -48,7 +51,7 @@ value
 disabled
 :   This Boolean attribute indicates that the user cannot interact with the button. If this attribute is not specified, the button inherits its setting from the containing element, for example **fieldset** if there is no containing element with the disabled attribute set, then the button is enabled. A disabled button isn’t clickable.
 
-### Additional attributes (HTML 5, candidate specification)
+### <span>Additional attributes (HTML 5, candidate specification)</span>
 
 autofocus
 :   When this attribute is set to "true" the button will have input focused after the page loads, unless the user overrides it, for example by typing in a different control. Only one form-associated element in a document can have this attribute specified.
@@ -73,11 +76,11 @@ formtarget
 
 All these attributes, except `name`, have default values and can be omitted.
 
-## Examples
+## <span>Examples</span>
 
 This examples uses the `<button>` element to display a clickable button with out sending or reseting a form.
 
-``` {.html}
+``` html
 <button name="myButton" type="button">Click me</button>
 ```
 
@@ -85,7 +88,7 @@ This examples uses the `<button>` element to display a clickable button with out
 
 This example shows how to use a submit `<button>` to send a form. Read about the [**form**](/html/elements/form) element to get further information about how to use forms.
 
-``` {.html}
+``` html
 <form action="dataReceiverURI">
   <label for="name">Name:</label>
   <input id="name" type="text" name="user_name">
@@ -97,7 +100,7 @@ This example shows how to use a submit `<button>` to send a form. Read about the
 
 This example shows how to reset a form with use of `<button="reset">`. Read about the [**form**](/html/elements/form) element to get further information about how to use forms.
 
-``` {.html}
+``` html
 <form>
   <label for="name">Name:</label>
   <input id="name" type="text" name="user_name" >
@@ -107,7 +110,7 @@ This example shows how to reset a form with use of `<button="reset">`. Read abou
 
 [View live example](http://code.webplatform.org/gist/c579515bcd4378bfd634)
 
-## Usage
+## <span>Usage</span>
 
      Generally, the button element can be used whenever there should be a button clickable by the user.
 
@@ -115,7 +118,7 @@ The ending tag is mandatory. The button should have a descriptive text inside it
 
 Please note that styling a submit button using the \<button\> element is easier than styling an [**input**](/html/elements/input) element with type `submit`.
 
-## Notes
+## <span>Notes</span>
 
 Since the default for the `type` attribute is `submit`, the type can be omitted if no other type needs to be used. Historical browser versions may have different standard `type` values.
 
@@ -123,50 +126,43 @@ Firefox for Android, by default, sets a `background-image` gradient on all **but
 
 Firefox will, unlike other browsers, by default, [persist the dynamic disabled state](http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing) of a **button** across page loads. Setting the value of the `autocomplete` attribute to `off` disables this feature. See [Mozilla Bug \#654072](https://bugzilla.mozilla.org/show_bug.cgi?id=654072).
 
-### Clicking and focus
+### <span>Clicking and focus</span>
 
 Whether clicking on a **button** causes it to (by default) become focused varies by browser and OS.
 
 Does clicking on a **button** give it the focus?:
 
-Desktop Browsers
-:   Windows 8.1
-Firefox 30.0
-:   Yes
-Chrome 35
-:   Yes
-Safari 7.0.5
-:   N/A
-Internet Explorer 11
-:   Yes
-Presto (Opera 12)
-:   Yes
+|Desktop Browsers|Windows 8.1|OS X 10.9|
+|:---------------|:----------|:--------|
+|Firefox 30.0|Yes|No (even with a [`tabindex`](/html/attributes/tabIndex))|
+|Chrome 35|Yes|Yes|
+|Safari 7.0.5|N/A|No (even with a [`tabindex`](/html/attributes/tabIndex))|
+|Internet Explorer 11|Yes|N/A|
+|Presto (Opera 12)|Yes| ???|
 
  Does tapping on a **button** give it the focus?:
 
-Mobile Browsers
-:   iOS 7.1.2
-Safari Mobile
-:   No (even with a [`tabindex`](/html/attributes/tabIndex))
-Chrome 35
-:    ???
+|Mobile Browsers|iOS 7.1.2|Android 4.4.4|
+|:--------------|:--------|:------------|
+|Safari Mobile|No (even with a [`tabindex`](/html/attributes/tabIndex))|N/A|
+|Chrome 35| ???|Yes|
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/forms.html#the-button-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/forms.html#the-button-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/interact/forms.html#edef-BUTTON)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Document Structure
+#### <span>Document Structure</span>
 
 -   **button**
 
@@ -184,11 +180,9 @@ Specification
 
 -   [section](/html/elements/section)
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -286,20 +280,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 -   [**input type="button"**](/html/elements/input/type/button)
 -   [**input type="submit"**](/html/elements/input/type/submit)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[\<button\> on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

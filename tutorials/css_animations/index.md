@@ -1,18 +1,16 @@
 ---
-title: css animations
+title: Making things move with CSS3 animations
+readiness: 'Ready to Use'
+summary: "CSS animations allow you to build complex animated\nsequences. Like transitions, they\nmanipulate the CSS properties that control how interface elements\nappear. Unlike transitions, they are not tied to shifts between style\nsheets that distinguish interface states. Keyframe animations can\nexecute freely, and offer the best way to build complex effects into\nan interface.\n"
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: "CSS animations allow you to build complex animated\nsequences. Like transitions, they\nmanipulate the CSS properties that control how interface elements\nappear. Unlike transitions, they are not tied to shifts between style\nsheets that distinguish interface states. Keyframe animations can\nexecute freely, and offer the best way to build complex effects into\nan interface.\n"
 uri: 'tutorials/css animations'
 
 ---
-# Making things move with CSS3 animations
-
 **By Mike Sierra**
 
-## Summary
+## <span>Summary</span>
 
 CSS animations allow you to build complex animated sequences. Like transitions, they manipulate the CSS properties that control how interface elements appear. Unlike transitions, they are not tied to shifts between style sheets that distinguish interface states. Keyframe animations can execute freely, and offer the best way to build complex effects into an interface.
 
@@ -48,7 +46,7 @@ These key points serve as reference:
 
 -   To modify [**@keyframes**](/css/atrules/@keyframes) rules dynamically, inject CSS into a local **style** region, or use the [**CSSKeyframeRule**](/css/cssom/CSSKeyframeRule) interface.
 
-## Animation properties
+## <span>Animation properties</span>
 
 To understand how animations work, start with an example of a pulsing icon, which may be used in a mobile interface to indicate what part of an application is selected. The animation continuously shrinks and grows one of the icons as it dims and brightens it. This simple example will illustrate several other features below:
 
@@ -83,7 +81,7 @@ Animation properties are standard in many browsers, but as of this writing requi
 
 From here on, examples feature only the un-prefixed property names.
 
-## The @keyframes rule
+## <span>The @keyframes rule</span>
 
 The [**animation-name**](/css/properties/animation-name) property specifies an animation named **pulse**. Use a [**@keyframes**](/css/atrules/@keyframes) rule within the CSS to define each named animation sequence:
 
@@ -114,7 +112,7 @@ As with animation properties, each [**@keyframes**](/css/atrules/@keyframes) rul
 
 This example also substitutes **0%** and **100%** for their synonymous keywords **from** and **to**. (If you don't specify either, values transition from the next available keyframe in the series.)
 
-## Changing Direction
+## <span>Changing Direction</span>
 
 This simple animation can also be alternated to produce the same effect:
 
@@ -134,7 +132,7 @@ The [**animation-duration**](/css/properties/animation-duration) is now half of 
 
 (You can also set [**animation-direction**](/css/properties/animation-direction) to always **reverse**, or to **reverse-alternate**.)
 
-## Multiple animations
+## <span>Multiple animations</span>
 
 Animation properties accept more than one comma-delineated value, which allows you to chain together different animations or run them concurrently.
 
@@ -163,7 +161,7 @@ This variation on the pulsing icon uses two keyframes to manipulate the [**opaci
 
 Make sure that any keyframes or transitions that execute concurrently don't manipulate any of the same properties. This is *not* a problem for animations or transitions applied to different elements.
 
-## Setting a Delay
+## <span>Setting a Delay</span>
 
 As with transitions, animations can be delayed before they execute. Use the [**animation-delay**](/css/properties/animation-delay) property to wait some time before pulsing the icon:
 
@@ -238,7 +236,7 @@ The banner's second animation (*scrollBanner*) takes over at the 5-second mark, 
         to   { transform : translateX(0%) }
     }
 
-## Fill mode
+## <span>Fill mode</span>
 
 Each keyframe within an animation specifies CSS properties, just like regular CSS selectors. Properties manipulated by keyframes may vary from those defined or inherited by selectors. By default, after animations complete their series of iterations, these properties abruptly snap from the final keyframe's value back to their original value. Likewise when animations are delayed, properties snap from their original values to that of the first keyframe's value.
 
@@ -261,7 +259,7 @@ Fill mode can override not only an element's underlying properties, but other an
         /* 'none' does not clobber previous animation: ^^^^ */
     }
 
-## Timing functions
+## <span>Timing functions</span>
 
 The same set of timing functions that apply to transitions also apply to animations. (For details, see [Timing Functions](/tutorials/css_transitions#timing).) The [**animation-timing-function**](/css/properties/animation-timing-function) property allows you to control the response curve for each keyframe's progress. It recognizes keyword values **ease**, **ease-in**, **ease-out**, **ease-in-out**, **linear**, along with **cubic-bezier()** functions for custom response curves.
 
@@ -291,7 +289,7 @@ Setting the timing function to **linear** makes the shift from a moving to a sto
 
 For greater control, you can even manipulate the value of the [**animation-timing-function**](/css/properties/animation-timing-function) property *within* each keyframe, so that it changes over the course of the animation.
 
-## Dynamic animations
+## <span>Dynamic animations</span>
 
 The example above uses JavaScript to assign random delays to stagger each animation's execution. Any animation property can be set directly on an element's **style** object, but as of this writing you also need to add alternative *Webkit*-prefixed property names:
 
@@ -320,7 +318,7 @@ To dynamically initiate an animation, specify a different name. In this example,
 
 Once the *animate* class is applied, simply reapplying it has no effect, because the animation's name has to actually change its value. The same is true when applying the property directly to the element. The first button below only works once, but the second can be repeated because it responds to asynchronous mouse or touch input:
 
-``` {.xml}
+``` xml
  <div onclick="document.querySelector('#animation').style.WebkitAnimationName = 'sequence';">
  REPLAY</div>
 
@@ -332,7 +330,7 @@ Once the *animate* class is applied, simply reapplying it has no effect, because
 
  As a workaround, you can inject CSS into a local **style** region. Re-interpreting the CSS causes the animation to re-execute:
 
-``` {.xml}
+``` xml
  <style id="customCSS"></style>
  . . .
  <div onclick="replay()">REPLAY</div>
@@ -375,9 +373,8 @@ Here is how you might change the initial color to a shade of gray:
 
 See [**CSSKeyframesRule**](/css/cssom/CSSKeyframesRule), [**CSSKeyframeRule**](/css/cssom/CSSKeyframeRule) and [**CSSRule**](/css/cssom/CSSRule) for details.
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [CSS Animations: W3C Working Draft](http://www.w3.org/TR/css3-animations/)
-

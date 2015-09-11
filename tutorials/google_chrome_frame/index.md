@@ -1,22 +1,22 @@
 ---
-title: google chrome frame
+title: Rendering HTML5 in older browsers with Google Chrome Frame
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/google-chrome-frame/)'
+readiness: 'Ready to Use'
+summary: 'An introduction to rendering HTML5 in older browsers with Google Chrome Frame.'
 tags:
   - Tutorials
   - Compatibility
-readiness: 'Ready to Use'
-summary: 'An introduction to rendering HTML5 in older browsers with Google Chrome Frame.'
 uri: 'tutorials/google chrome frame'
 
 ---
-# Rendering HTML5 in older browsers with Google Chrome Frame
-
 **By [Malte Ubl](http://www.html5rocks.com/en/profiles/#malteubl)**
 
-## Summary
+## <span>Summary</span>
 
 An introduction to rendering HTML5 in older browsers with Google Chrome Frame.
 
-## Introduction
+## <span>Introduction</span>
 
 HTML5 adds a multitude of new and awesome tools to the web developer toolbox, including:
 
@@ -30,7 +30,7 @@ This list is, of course, not comprehensive; the web platform has moved forward m
 
 [Google Chrome Frame](http://www.google.com/chromeframe) can help you build state-of-the-art HTML5 pages while still allowing people using older browsers to see your content.
 
-## What is Google Chrome Frame?
+## <span>What is Google Chrome Frame?</span>
 
 Google Chrome Frame is a plugin for Internet Explorer that enables rendering the full browser canvas using Google Chrome’s rendering engine. It seamlessly integrates all the HTML5 features supported by Chrome into the Internet Explorer user experience. Chrome Frame is available for Internet Explorer 6, 7, 8, and 9. Chrome Frame is certainly more useful when supporting old browser such as IE6 to IE8, but can be useful for IE9 users, as well.
 
@@ -38,7 +38,7 @@ Even if your site does not need HTML5 features, using Chrome Frame can still pro
 
 Alternatively, HTML5 polyfills provide another way to smooth out the transition to newer browsers. Unfortunately, they cannot emulate every feature, and they slow down your page in old browsers (which are already slower than the new generation) even more.
 
-## Opting in
+## <span>Opting in</span>
 
 You can enable Chrome Frame to render a page by adding an HTML meta tag or using an HTTP header. By using one of these two methods, no site will break if a user has Chrome Frame installed, because the site is in full control of using the plugin or default rendering. The following two code snippets show how a site can opt into being rendered by Chrome Frame.
 
@@ -52,7 +52,7 @@ Option 2: Meta-tag (just paste this into your HTML \<head\> section)
 
 Once you have added either of these to your site, pages are rendered using Chrome Frame if it is installed on the user’s machine.
 
-## Prompting for Google Chrome Frame
+## <span>Prompting for Google Chrome Frame</span>
 
 You may decide to fully deprecate support for old browsers for many reasons, such as:
 
@@ -97,37 +97,30 @@ Then, display a button to prompt users to install Chrome Frame:
     <button onclick="GCF_Install()">Install Chrome Frame
     (for IE only)</button>
 
-### Prompt yourself
+### <span>Prompt yourself</span>
 
 You may also decide to build a landing page or layer yourself. To do so:
 
--   Send users to this URL: [http://www.google.com/chromeframe/](http://www.google.com/chromeframe/) which you can place in an IFRAME.
--   Append a redirect parameter to the URL to send users back to your site after installation is complete: [http://www.google.com/chromeframe/?redirect=http://www.google.com/](http://www.google.com/chromeframe/?redirect=http://www.google.com/)
--   Instead of going to the Chrome Frame landing page, you can also send the users directly to the EULA thus saving one step in the installation process: [http://www.google.com/chromeframe/eula.html](http://www.google.com/chromeframe/eula.html)
+-   Send users to this URL: <http://www.google.com/chromeframe/> which you can place in an IFRAME.
+-   Append a redirect parameter to the URL to send users back to your site after installation is complete: <http://www.google.com/chromeframe/?redirect=http://www.google.com/>
+-   Instead of going to the Chrome Frame landing page, you can also send the users directly to the EULA thus saving one step in the installation process: <http://www.google.com/chromeframe/eula.html>
 
-### No administrator rights needed
+### <span>No administrator rights needed</span>
 
 To enable users to install Chrome Frame without having administrative privileges on their machines, append the `user=true` parameter to enable user level installation of Chrome Frame, as shown here:
 
     http://www.google.com/chromeframe/?user=true
 
-### Enterprise installation
+### <span>Enterprise installation</span>
 
-Enterprises can deploy Chrome Frame company-wide using the MSI installer which you can download here: [http://www.google.com/chromeframe/eula.html?msi=true](http://www.google.com/chromeframe/eula.html?msi=true).
+Enterprises can deploy Chrome Frame company-wide using the MSI installer which you can download here: <http://www.google.com/chromeframe/eula.html?msi=true>.
 
-For more information on Chrome and enterprise deployments see [http://www.chromium.org/administrators](http://www.chromium.org/administrators).
+For more information on Chrome and enterprise deployments see <http://www.chromium.org/administrators>.
 
-## Adoption
+## <span>Adoption</span>
 
 Many major websites such as [yahoo.com](http://yahoo.com), [wordpress.com](http://wordpress.com) and several Google properties have adopted Google Chrome Frame. Besides giving their users access to a more modern web experience for many sites, Chrome Frame also presents a significant improvement in initial load time. You can check whether Chrome Frame helps your site get faster rendering by going to [webpagetest.org](http://webpagetest.org) and selecting Chrome Frame as the browser.
 
-## More information
+## <span>More information</span>
 
 For more information see the [Getting Started Guide](http://www.google.com/url?q=http%3A%2F%2Fwww.chromium.org%2Fdevelopers%2Fhow-tos%2Fchrome-frame-getting-started) or watch [this video](http://www.youtube.com/watch?feature=player_embedded&v=3YkEUpJQP3o) from Google IO 2011.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/google-chrome-frame/)
-

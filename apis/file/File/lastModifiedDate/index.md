@@ -1,73 +1,70 @@
 ---
 title: lastModifiedDate
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/file/File
+    href: /apis/file/File
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /apis/file/File
+standardization_status: 'W3C Working Draft'
+summary: 'The last modified date of the file. On getting, if user agents can make this information available, this must return a new Date object initialized to the last modified date of the file. If the last modification date and time are not known, the attribute must return the current date and time as a Date object.'
 tags:
   0: API
   1: Object
   2: Properties
   4: FileAPI
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The last modified date of the file. On getting, if user agents can make this information available, this must return a new Date object initialized to the last modified date of the file. If the last modification date and time are not known, the attribute must return the current date and time as a Date object.'
 uri: apis/file/File/lastModifiedDate
 
 ---
-# lastModifiedDate
-
-## Summary
+## <span>Summary</span>
 
 The last modified date of the file. On getting, if user agents can make this information available, this must return a new Date object initialized to the last modified date of the file. If the last modification date and time are not known, the attribute must return the current date and time as a Date object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/file/File](/apis/file/File)</span></span>
+Property of [apis/file/File](/apis/file/File)[apis/file/File](/apis/file/File)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = File.lastModifiedDate;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
-## Examples
+## <span>Examples</span>
 
 This example lets you select one or more files, then reports each file's name and last modified date/time.
 
-``` {.html}
-<input type="file" multiple id="myfileinput">
+``` html
+<input type="file" multiple id="myfileinput"><br/>
 <input type="button" value="Show file names and last modified dates" onclick="shownd()">
-. . .
+<p>. . .</p>
 <script>
 function shownd() {
-
- var fileinp = document.getElementById("myfileinput");
- var filelist = fileinp.files;
- alert(filelist.length);
- for (var i = 0; i < filelist.length; i++) {
-   alert(filelist[i].name + " was last modified: " + filelist[i].lastModifiedDate);
- }
+  var fileinp = document.getElementById("myfileinput");
+  var filelist = fileinp.files;
+  alert(filelist.length);
+  for (var i = 0; i < filelist.length; i++) {
+    alert(filelist[i].name + " was last modified: " + filelist[i].lastModifiedDate);
+  }
+}
+</script>
 ```
 
-} \</script\>
-
-</pre>
-
-## Notes
+## <span>Notes</span>
 
 Returns the last modified date of the file in the form of a new **Date** object. If the browser can't obtain file date information, null is returned.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

@@ -1,44 +1,55 @@
 ---
 title: line-break
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add description, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+summary: 'Deprecated. Gets or sets line-breaking rules for text in selected languages such as Japanese, Chinese, and Korean.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Add description, specifications, compatibility.'
-summary: 'Deprecated. Gets or sets line-breaking rules for text in selected languages such as Japanese, Chinese, and Korean.'
 uri: css/properties/line-break
 
 ---
-# line-break
-
-## Summary
+## <span>Summary</span>
 
 Deprecated. Gets or sets line-breaking rules for text in selected languages such as Japanese, Chinese, and Korean.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
 
-## Syntax
+## <span>Syntax</span>
 
--   `line-break: normal`
--   `line-break: strict`
-
-## Values
+## <span>Values</span>
 
 normal
 :   Default. Normal line-breaking mode is applied.
@@ -46,27 +57,23 @@ normal
 strict
 :   Stricter line-breaking rules are enforced.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 This property is deprecated. It is replaced by the [**-ms-word-break**](/css/properties/word-break) property starting in Windows Internet Explorer 7.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -77,8 +84,6 @@ This property is deprecated. It is replaced by the [**-ms-word-break**](/css/pro
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -92,25 +97,11 @@ This property is deprecated. It is replaced by the [**-ms-word-break**](/css/pro
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   **line-break**
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -156,17 +147,10 @@ This property is deprecated. It is replaced by the [**-ms-word-break**](/css/pro
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
 -   `-ms-word-break`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

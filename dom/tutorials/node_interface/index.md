@@ -3,32 +3,24 @@ title: node interface
 uri: 'dom/tutorials/node interface'
 
 ---
-## Node Interface
+## <span>Node Interface</span>
 
-Node Property
-:   Description
-nodeType
-:   Shows the node type
-parentNode
-:   Access the parent node
-childNodes
-:   List of all the child nodes
-firstChild
-:   Selects the first child of the node
-lastChild
-:   Selects the last child of this node
-previousSibling
-:   Selects the node just before the current node
-nextSibling
-:   Selects the node just after the current node
-attributes
-:   Lists all the attributes in case of an element node
+|Node Property|Description|
+|:------------|:----------|
+|nodeType|Shows the node type|
+|parentNode|Access the parent node|
+|childNodes|List of all the child nodes|
+|firstChild|Selects the first child of the node|
+|lastChild|Selects the last child of this node|
+|previousSibling|Selects the node just before the current node|
+|nextSibling|Selects the node just after the current node|
+|attributes|Lists all the attributes in case of an element node|
 
 Before we get started on this part, let's understand the node interface. In DOM every single piece of data can be viewed as a node.
 
 Let's look at this piece of code:
 
-``` {.html}
+``` html
 <html>
 <head>
           <title>DOM</title>
@@ -43,7 +35,7 @@ Let's look at this piece of code:
 
  If we add this script to the HTML code:
 
-``` {.js}
+``` js
 document.getElementsByTagName("h1")[0].previousSibling.data="I am now the main heading";
 ```
 
@@ -53,7 +45,7 @@ For the firstChild and a lastChild node properties,, sometimes when there is onl
 
 It would probably be easier to explain in example form:
 
-``` {.html}
+``` html
 <html>
 <head>
 <title>First Child, Last Chold</title>

@@ -1,41 +1,50 @@
 ---
 title: width
+attributions:
+  - 'Microsoft Developer Network: [[width Property PointerEvent](http://msdn.microsoft.com/en-us/library/ie/dn255065(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/PointerEvent
+    href: /dom/PointerEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /dom/PointerEvent
+standardization_status: 'W3C Working Draft'
+summary: 'The width (magnitude on the X axis), in CSS pixels, of the contact geometry of the pointer.'
 tags:
   - API
   - Object
   - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The width (magnitude on the X axis), in CSS pixels, of the contact geometry of the pointer.'
 uri: dom/PointerEvent/width
 
 ---
-# width
-
-## Summary
+## <span>Summary</span>
 
 The width (magnitude on the X axis), in CSS pixels, of the contact geometry of the pointer.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/PointerEvent](/dom/PointerEvent)</span></span>
+Property of [dom/PointerEvent](/dom/PointerEvent)[dom/PointerEvent](/dom/PointerEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = event.width;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
 Resizing an element to match the contact geometry
 
-``` {.js}
-
+``` js
+<div style="position:absolute; top:0px; left:0px; width:100px;height:100px;"></div>
 <script>
 window.addEventListener("pointerdown", checkPointerSize, false);
 function checkPointerSize(event) {
@@ -45,19 +54,13 @@ function checkPointerSize(event) {
 </script>
 ```
 
-## Usage
+## <span>Usage</span>
 
      This value may be updated on each event for a given pointer. For devices which have a contact geometry but the actual geometry is not reported by the hardware, a default value may be provided by the user agent to approximate the geometry typical of that pointer type. Otherwise, the value must be 0.
 
-## Notes
+## <span>Notes</span>
 
 For touch hardware that doesn't support width or height, a CSS document pixel equivalent of 7 millimeters is returned. For mouse or pen input, a value off 1 pixel is returned.
 
 In Internet Explorer 10, the returned value is in screen pixels. In Internet Explorer 11, the returned value is in CSS document pixels, where for example, a div sized to the values of PointerEvent.width and PointerEvent.height would have the same size as the finger contact.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[width Property PointerEvent](http://msdn.microsoft.com/en-us/library/ie/dn255065(v=vs.85).aspx) Article]
 

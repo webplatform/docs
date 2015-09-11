@@ -1,60 +1,59 @@
 ---
 title: canvas
+notes:
+  - 'Add Category, Parent and Children information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLCanvasElement](/dom/HTMLCanvasElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: 'The canvas element (&lt;canvas&gt;) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly, by using the associated canvas API.'
 tags:
   - Markup
   - Elements
   - Canvas
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Add Category, Parent and Children information.'
-summary: 'The canvas element (<canvas>) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly, by using the associated canvas API.'
 uri: html/elements/canvas
 
 ---
-# canvas
+## <span>Summary</span>
 
-## Summary
+The canvas element (&lt;canvas&gt;) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly, by using the associated canvas API.
 
-The canvas element (\<canvas\>) provides scripts with a resolution-dependent bitmap canvas, which can be used for rendering graphs, game graphics, or other visual images on the fly, by using the associated canvas API.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLCanvasElement](/dom/HTMLCanvasElement)
 
-## HTML Attributes
+## <span>HTML Attributes</span>
 
 -   `height` = non-negative integer
     The height of the canvas, in CSS pixels.
 -   `width` = non-negative integer
     The width of the canvas, in CSS pixels.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <canvas width="800" height="600"></canvas>
 ```
 
-## Usage
+## <span>Usage</span>
 
      The canvas api is a useful resource for working with the canvas element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/scripting-1.html#the-canvas-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/scripting-1.html#the-canvas-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Canvas
+#### <span>Canvas</span>
 
 -   [canvas](/apis/canvas)
 
@@ -65,4 +64,3 @@ Specification
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
 -   [Introduction to Canvas](/tutorials/canvas/canvas_tutorial)
-

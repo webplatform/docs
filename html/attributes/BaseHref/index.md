@@ -1,30 +1,39 @@
 ---
 title: BaseHref
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'deletion candidate - old, not xUserAgent'
+readiness: 'Not Ready'
+summary: 'Retrieves a string of the URL where the object tag can be found, often the href of the document that the object is in, or the value set by a base element.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'deletion candidate - old, not xUserAgent'
-summary: 'Retrieves a string of the URL where the object tag can be found, often the href of the document that the object is in, or the value set by a base element.'
 uri: html/attributes/BaseHref
 
 ---
-# BaseHref
-
-## Summary
+## <span>Summary</span>
 
 Retrieves a string of the URL where the object tag can be found, often the href of the document that the object is in, or the value set by a base element.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Use the **BaseHref** property to resolve relative paths when locating an **object**. The following rules determine the resulting *p*.
 
@@ -32,17 +41,10 @@ Use the **BaseHref** property to resolve relative paths when locating an **objec
 -   If the **object** element is on a page with `javascript` or `vbscript`, or is about **protocol** URLs, then *p* takes the value of the current page's parent page URL. This applies to **object**.**BaseHref** property requests in **iframe**/ **frame** elements as well.
 -   For all other **object** elements, *p* takes the value of the page they are found on.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `object`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,31 +1,33 @@
 ---
 title: html
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information. Add HTML information section. Complete Events section.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLHtmlElement](/dom/HTMLHtmlElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The html element (&lt;html&gt;) represents the root of an HTML document. The &lt;html&gt; tag is the container for all other HTML elements; except for the &lt;!DOCTYPE&gt; tag.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information. Add HTML information section. Complete Events section.'
-summary: 'The html element (<html>) represents the root of an HTML document. The <html> tag is the container for all other HTML elements; except for the <!DOCTYPE> tag.'
 uri: html/elements/html
 
 ---
-# html
+## <span>Summary</span>
 
-## Summary
+The html element (&lt;html&gt;) represents the root of an HTML document. The &lt;html&gt; tag is the container for all other HTML elements; except for the &lt;!DOCTYPE&gt; tag.
 
-The html element (\<html\>) represents the root of an HTML document. The \<html\> tag is the container for all other HTML elements; except for the \<!DOCTYPE\> tag.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLHtmlElement](/dom/HTMLHtmlElement)
 
 The **html** element is used to contain a complete HTML document.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,32 +48,30 @@ Internationalization topics related to the `html` element:
 -   [Declaring the overall language of a page](http://www.w3.org/International/techniques/authoring-html#textprocessing)
 -   [Setting up a right-to-left page](http://www.w3.org/International/techniques/authoring-html#using)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 When you use the [!DOCTYPE](/html/elements/!DOCTYPE) declaration to specify standards-compliant mode, this element represents the canvas—the entire surface onto which a document's contents can be rendered. When you switch on standards-compliant mode, this element also becomes the positioning container for positioned elements that don't have a positioned parent. When the !DOCTYPE declaration does not specify standards-compliant mode, the **body** object represents the entire surface onto which a document's contents can be rendered.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/semantics.html#the-html-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/semantics.html#the-html-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-HTML)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -169,13 +169,42 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   **html**
 
-    … further results
+-   [i](/html/elements/i)
 
-## Attribution
+-   [img](/html/elements/img)
 
-*This article contains content originally from external sources.*
+-   [input](/html/elements/input)
 
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+-   [ins](/html/elements/ins)
 
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

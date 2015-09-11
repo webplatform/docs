@@ -1,22 +1,24 @@
 ---
 title: Labeled
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d3666y5k(v=vs.94).aspx)'
+notes:
+  - 'Todo: Probably should be renamed to label.'
+readiness: 'Ready to Use'
+summary: 'Provides an identifier for a statement.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-notes:
-  - 'Todo: Probably should be renamed to label.'
-summary: 'Provides an identifier for a statement.'
 uri: javascript/statements/Labeled
 
 ---
-# Labeled
-
-## Summary
+## <span>Summary</span>
 
 Provides an identifier for a statement.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     label :
     statements
@@ -27,11 +29,11 @@ Provides an identifier for a statement.
 **statements**
 :   Optional. One or more statements associated with label.
 
-## Examples
+## <span>Examples</span>
 
 In the following code, the **continue** statement refers to the **for** loop that is preceded by the `Inner:` statement. When `j` is 24, the **continue** statement causes that **for** loop to go to the next iteration. The numbers 21 through 23 and 25 through 30 print on each line.
 
-``` {.js}
+``` js
 Outer:
  for (i = 1; i <= 10; i++) {
     document.write ("<br />");
@@ -49,20 +51,14 @@ Outer:
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 Labels are used by the **break** and **continue** statements to specify the statement to which the **break** and **continue** apply.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [break Statement](/javascript/statements/break)
 -   [continue Statement](/javascript/statements/continue)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d3666y5k(v=vs.94).aspx)
 

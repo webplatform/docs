@@ -1,40 +1,43 @@
 ---
 title: data
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/MessageEvent)'
+notes:
+  - 'Not specific to WebSocket. Probably belongs somewhere in DOM docs. Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/websocket/MessageEvent
+    href: /apis/websocket/MessageEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/websocket/MessageEvent
+summary: 'The data from the server.'
 tags:
   - API
   - Object
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Not specific to WebSocket. Probably belongs somewhere in DOM docs. Needs example, spec reference, standardization status'
-summary: 'The data from the server.'
 uri: apis/websocket/MessageEvent/data
 
 ---
-# data
-
-## Summary
+## <span>Summary</span>
 
 The data from the server.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/websocket/MessageEvent](/apis/websocket/MessageEvent)</span></span>
+Property of [apis/websocket/MessageEvent](/apis/websocket/MessageEvent)[apis/websocket/MessageEvent](/apis/websocket/MessageEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
-var result = element.data;
-element.data = value;
+``` js
+var result = element.html/elements/data;
+element.html/elements/data = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/MessageEvent)
 

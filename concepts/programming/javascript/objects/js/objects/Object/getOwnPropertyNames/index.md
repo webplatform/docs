@@ -1,16 +1,16 @@
 ---
 title: getOwnPropertyNames
-uri: concepts/programming/javascript/objects/js/objects/Object/getOwnPropertyNames
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - concepts/programming/javascript/objects/js/objects/Object/keys
     - concepts/programming/javascript/objects/js/statements/for...in
+uri: concepts/programming/javascript/objects/js/objects/Object/getOwnPropertyNames
 
 ---
 This is a method of [Object](/javascript/objects) which was implemented in ECMAScript 5th Edition.
 
-## Overview
+## <span>Overview</span>
 
 This method returns an [Array](/concepts/programming/javascript/core_objects) of the string names of all properties ( *both enumerable and non-enumerable* ) of a given Object. This does not include the properties in the prototype chain.
 
@@ -18,15 +18,15 @@ Should the given object not be of type *Object*, a TypeError exception is thrown
 
 To obtain only the enumerable properties of an Object, use [Object.keys](/w/index.php?title=concepts/programming/javascript/objects/js/objects/Object/keys&action=edit&redlink=1), should all properties, both enumerable and non-enumerable, of the object and it's prototype chain be required, use a [for...in loop](/w/index.php?title=concepts/programming/javascript/objects/js/statements/for...in&action=edit&redlink=1).
 
-## Syntax
+## <span>Syntax</span>
 
 Object.getOwnPropertyNames( *objectToInspect* )
 
 *where "objectToInspect" is an Object whose properties are required*
 
-### Example
+### <span>Example</span>
 
-``` {.js}
+``` js
 // basic example
 var objectToInspect = {
       foo: 'Hello World!',
@@ -94,7 +94,7 @@ console.log( Object.getOwnPropertyNames( objectToInspect ) );
 */
 ```
 
-## Extract From Specification
+## <span>Extract From Specification</span>
 
 >     15.2.3.4 Object.getOwnPropertyNames ( O )
 >         When the getOwnPropertyNames function is called, the following steps are taken:
@@ -114,7 +114,7 @@ console.log( Object.getOwnPropertyNames( objectToInspect ) );
 >     properties defined in 15.5.5.2 that correspond to character positions within the
 >     object‘s [[PrimitiveValue]] String.
 
-## External resources
+## <span>External resources</span>
 
 -   [ECMAScript Language Specification 5.1 Edition](http://es5.github.com/#x15.2.3.4)
 -   [ES5 Compatibility Table](http://kangax.github.com/es5-compat-table/)

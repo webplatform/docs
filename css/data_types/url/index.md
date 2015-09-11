@@ -1,23 +1,21 @@
 ---
-title: url
+title: <url>
+code_samples:
+  - 'http://gist.github.com/10604525'
+  - 'http://gist.github.com/10603403'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The &lt;url&gt; CSS data type, formerly called the &lt;uri&gt; data type, represents a reference to a file or file fragment.  It is specified with the url() function.'
 tags:
   - Data
   - Type
   - CSS
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The <url> CSS data type, formerly called the <uri> data type, represents a reference to a file or file fragment.  It is specified with the url() function.'
-code_samples:
-  - 'http://gist.github.com/10604525'
-  - 'http://gist.github.com/10603403'
 uri: 'css/data types/url'
 
 ---
-# \<url\>
+## <span>Summary</span>
 
-## Summary
-
-The \<url\> CSS data type, formerly called the \<uri\> data type, represents a reference to a file or file fragment. It is specified with the url() function.
+The &lt;url&gt; CSS data type, formerly called the &lt;uri&gt; data type, represents a reference to a file or file fragment. It is specified with the url() function.
 
  The `url(string)` function identifies the parameter string as a resource identifier; possible resource identifier types include absolute file paths, relative file paths, fragment identifiers and data URI values. Relative file paths are resolved relative to the location of the file that contains the CSS rule.
 
@@ -27,13 +25,13 @@ The string may be quoted (with single or double quotes) but need not be. If an u
 
 Not all references in CSS to external files require the use of the `url()` syntax; file names in [`@import` rules](/css/atrules/@import), for example, may be given as simple quoted [`<string>`](/css/data_types/string) values.
 
-## Examples
+## <span>Examples</span>
 
 **Relative URLs and Fragments**
 
 In a `<style>` block in an HTML or SVG page, relative files and fragments are resolved relative to that page or its base url.
 
-``` {.html}
+``` html
 <html>
 <head>
    <style>
@@ -54,7 +52,8 @@ In a `<style>` block in an HTML or SVG page, relative files and fragments are re
     </defs>
   </svg>
 
-  Blurry Headline
+  <h1 class="blurry">Blurry Headline</h1>
+
 </body>
 </html>
 ```
@@ -63,7 +62,7 @@ In a `<style>` block in an HTML or SVG page, relative files and fragments are re
 
 In an external stylesheet, relative files are resolved relative to the stylesheet's location.
 
-``` {.css}
+``` css
 body {
            background-image: url(fileInTheSameFolderAsTheStylesheet.jpeg);
     /* note that a simple file name does not have to be quoted */
@@ -76,7 +75,7 @@ The **\\** character allows you to escape the following character in a url strin
 
 **Note**: This example does not work in Internet Explorer, which does not support xml data URI values without full URI encoding.
 
-``` {.css}
+``` css
 ul.custom {
   font-size:x-large;
   list-style:image;
@@ -93,12 +92,10 @@ ul.custom {
 
 [View live example](http://code.webplatform.org/gist/10603403)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/#urls)
 :   W3C Candidate Recommendation
+
 [CSS 2.1](http://www.w3.org/TR/CSS21/syndata.html#uri)
 :   W3C Recommendation
-

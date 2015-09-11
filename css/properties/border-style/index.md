@@ -1,42 +1,58 @@
 ---
 title: border-style
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5544029'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderStyle`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Sets the style of an element''s four borders. This property can have from one to four values. With only one value, the value will be applied to all four borders; otherwise, this works as a shorthand property for each of border-top-style, border-right-style, border-bottom-style, border-left-style, where each border style may be assigned a separate value.'
-code_samples:
-  - 'http://gist.github.com/5544029'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border-style
 
 ---
-# border-style
-
-## Summary
+## <span>Summary</span>
 
 Sets the style of an element's four borders. This property can have from one to four values. With only one value, the value will be applied to all four borders; otherwise, this works as a shorthand property for each of border-top-style, border-right-style, border-bottom-style, border-left-style, where each border style may be assigned a separate value.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderStyle`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-style: <border-top-style> <border-right-style> <border-bottom-style> <border-left-style>`
 -   `border-style: dashed`
@@ -50,7 +66,7 @@ Percentages
 -   `border-style: ridge`
 -   `border-style: solid`
 
-## Values
+## <span>Values</span>
 
 none
 :   Default. Border is not drawn, color and width are ignored. If the border is an image, the image layer counts but is not drawn. See [background-image](/css/properties/background-image).
@@ -85,11 +101,11 @@ outset
 \<border-top-style\> \<border-right-style\> \<border-bottom-style\> \<border-left-style\>
 :   Shorthand values syntax.
 
-## Examples
+## <span>Examples</span>
 
 Border styles in CSS.
 
-``` {.css}
+``` css
 .one {
   border-style: none;
 }
@@ -133,29 +149,27 @@ Border styles in CSS.
 
 [View live example](http://code.webplatform.org/gist/5544029)
 
-## Usage
+## <span>Usage</span>
 
      * Up to four different styles can be specified, in the following order: top, right, bottom, left.
 
 -   If one style is specified, it is used for all four sides. If two styles are specified, the first is used for the top and bottom borders, and the second is used for left and right borders. If three styles are specified, they are used for top, right/left, and bottom borders, respectively. If left is missing, it is the same as right; if bottom is missing, it is the same as top; if right is missing, it is the same as top.
 
-## Notes
+## <span>Notes</span>
 
 -   Borders are drawn in front of the element's background, but behind the element's content (in case it overlaps).
 -   There is no control over the spacing of the dots and dashes, nor over the length of the dashes.
 -   How borders of different styles are joined in the corner may vary.
 -   Rounded corners may cause the corners and the contents to overlap, if the padding is less than the radius of the corner.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3 - Backgrounds and Borders Module](http://www.w3.org/TR/css3-background/#border-style)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 Related CSS properties:
 
@@ -168,14 +182,7 @@ Related tutorials:
 
 -   [Decorating fancy borders with CSS border-image](/tutorials/css_border_image)
 
-### External resources
+### <span>External resources</span>
 
 -   [CSS border-style property on MDN](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&ved=0CE4QFjAD&url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%2Fborder-style&ei=um2mUb2QC6mliQKE-IHwDg&usg=AFQjCNHuEil-o7WWpH1wxOt_DzFDy_lm-A&sig2=Ifwz1_Fq4GzjkJct0EfFxw&bvm=bv.47244034,d.cGE)
 -   [CSS border-style property on SitePoint](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&cad=rja&ved=0CHIQFjAH&url=http%3A%2F%2Freference.sitepoint.com%2Fcss%2Fborder-style&ei=um2mUb2QC6mliQKE-IHwDg&usg=AFQjCNGjOxzgETcUxPFZD3txXZ3rgghK8Q&sig2=H8jwjVBXF55U1h_a6E3HsA&bvm=bv.47244034,d.cGE)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

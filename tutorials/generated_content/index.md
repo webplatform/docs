@@ -1,24 +1,25 @@
 ---
-title: generated content
+title: Generating content with CSS
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Content)'
+readiness: 'Ready to Use'
+summary: 'This article describes generated content — a way in which you can use CSS to add content when a document is displayed.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This article describes generated content — a way in which you can use CSS to add content when a document is displayed.'
 uri: 'tutorials/generated content'
 
 ---
-# Generating content with CSS
-
-## Summary
+## <span>Summary</span>
 
 This article describes generated content — a way in which you can use CSS to add content when a document is displayed.
 
-## Information: Content
+## <span>Information: Content</span>
 
 One of the important advantages of CSS is that it helps you to separate a document's style from its content. Yet there are situations where it makes sense to specify certain content as part of the stylesheet, not as part of the document. Content specified in a stylesheet can consist of text or images. You specify content in your stylesheet when the content is closely linked to the document's structure.
 
-## Generated content in detail
+## <span>Generated content in detail</span>
 
 Specifying content in a stylesheet can cause complications. For example, you might have different language versions of your document that share a stylesheet. If part of the stylesheet has to be translated, it means that you must put those parts of the stylesheet in separate files and arrange for them to be linked with the appropriate language versions of your document.
 
@@ -26,15 +27,15 @@ These complications do not arise if the content you specify consists of symbols 
 
 Content specified in a stylesheet does not become part of the DOM.
 
-### Text content
+### <span>Text content</span>
 
 CSS can insert text content before or after an element. To specify this, make a rule and add [::before](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::before) or [::after](https://docs.webplatform.org/wiki/css/selectors/pseudo-elements/::after) to the selector. In the declaration, specify the [content](/css/properties/content) property with the text content as its value.
 
-#### Generated text example
+#### <span>Generated text example</span>
 
 This rule adds the text Reference: before every element with the class `ref`:
 
-``` {.css}
+``` css
 .ref:before {
   font-weight: bold;
   color: navy;
@@ -42,21 +43,21 @@ This rule adds the text Reference: before every element with the class `ref`:
 }
 ```
 
-#### More details
+#### <span>More details</span>
 
 The character set of a stylesheet is UTF-8 by default, but it can be specified in the link, or in the stylesheet itself, or in other ways. For details, see [4.4 CSS style sheet representation](http://www.w3.org/TR/CSS21/syndata.html#q23) in the CSS Specification.
 
 Individual characters can also be specified by an escape mechanism that uses backslash as the escape character. For example, \\265B is the chess symbol for a black queen. For details, see [Referring to characters not represented in a character encoding](http://www.w3.org/TR/CSS21/syndata.html#q24) and also [Characters and case](http://www.w3.org/TR/CSS21/syndata.html#q6) in the CSS Specification.
 
-### Generated images
+### <span>Generated images</span>
 
 To add an image before or after an element, you can specify the URL of an image file in the value of the **content** property.
 
-#### Generated image example
+#### <span>Generated image example</span>
 
 This rule adds a space and an icon after every link that has the class `glossary`:
 
-``` {.css}
+``` css
 a.glossary:after {content: " " url("../images/glossary-icon.gif");}
 ```
 
@@ -64,15 +65,15 @@ a.glossary:after {content: " " url("../images/glossary-icon.gif");}
 
 The following element rule sets the background of a specific element, using a URL to specify an image file. The selector specifies the element's id. The value `no-repeat` makes the image appear only once:
 
-``` {.css}
+``` css
 #sidebar-box {background: url("../images/sidebar-ground.png") no-repeat;}
 ```
 
-#### More details
+#### <span>More details</span>
 
 For information about individual properties affecting backgrounds, and about other options when you specify background images, see the **background** reference page.
 
-## Action: Adding a background image
+## <span>Action: Adding a background image</span>
 
 This image is a white square with a blue line at the bottom:
 
@@ -82,7 +83,7 @@ This image is a white square with a blue line at the bottom:
 
 2.  Edit your CSS file and add this rule to the body, setting a background image for the entire page.
 
-    ``` {.css}
+    ``` css
     background: url("Blue-rule.png");
     ```
 
@@ -90,9 +91,9 @@ The value `repeat` is the default, so it does not need to be specified. The imag
 
 ![Blue-rule-ground.png](/assets/public/9/93/Blue-rule-ground.png)
 
-## See also
+## <span>See also</span>
 
-### Exercise question
+### <span>Exercise question</span>
 
 1.  Download this image:
 
@@ -101,10 +102,4 @@ The value `repeat` is the default, so it does not need to be specified. The imag
 2.  Add a one rule to your stylesheet so that it displays the image at the start of each line:
 
     ![Blue-rule-ground-2.png](/assets/public/a/a2/Blue-rule-ground-2.png)
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/Content)
 

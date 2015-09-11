@@ -1,56 +1,59 @@
 ---
 title: stopPropagation
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs example'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Event
+    href: /dom/Event
+standardization_status: 'W3C Working Draft'
+summary: 'Prevents propagation of an event beyond the current target.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example'
-summary: 'Prevents propagation of an event beyond the current target.'
 uri: dom/Event/stopPropagation
 
 ---
-# stopPropagation
-
-## Summary
+## <span>Summary</span>
 
 Prevents propagation of an event beyond the current target.
 
-*Method of [dom/Event](/dom/Event)*
+Method of [dom/Event](/dom/Event)[dom/Event](/dom/Event)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.stopPropagation();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Use this method to stop event propagation in the capturing or bubbling event phase.
 
-## Notes
+## <span>Notes</span>
 
 The event dispatches to all event listeners on the current target (regardless of capturing or bubbling) before the event flow stops. To completely prevent any remaining handlers from running, use the [**stopImmediatePropagation**](/dom/Event/stopImmediatePropagation) method instead.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `SVGZoomEvent`
 -   `BeforeUnloadEvent`
@@ -66,10 +69,3 @@ Specification
 -   `StorageEvent`
 -   `TextEvent`
 -   `UIEvent`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

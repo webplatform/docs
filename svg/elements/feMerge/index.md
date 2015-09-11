@@ -1,33 +1,35 @@
 ---
 title: feMerge
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, example, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, example, spec reference, standardization status'
 uri: svg/elements/feMerge
 
 ---
-# feMerge
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.21
 
-### Members
+### <span>Members</span>
 
 The **SVGFEMergeElement** object has these properties:
 
@@ -37,11 +39,11 @@ The **SVGFEMergeElement** object has these properties:
 -   [**x**](/svg/properties/x): Gets or sets the x-coordinate value.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -125,13 +127,6 @@ The **SVGFEMergeElement** object has these properties:
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**feMergeNode**](/svg/elements/feMergeNode)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

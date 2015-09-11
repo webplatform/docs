@@ -1,55 +1,51 @@
 ---
 title: content
+notes:
+  - 'Deletion Candidate'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLContentElement](/w/index.php?title=dom/HTMLContentElement&action=edit&redlink=1)'
+readiness: 'Not Ready'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The &lt;content&gt; element provides an insertion point into a shadow DOM tree.'
 tags:
   - Markup
   - Elements
-readiness: 'Not Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Deletion Candidate'
-summary: 'The <content> element provides an insertion point into a shadow DOM tree.'
-uri: html/elements/content
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/HTMLContentElement
+uri: html/elements/content
 
 ---
-# content
+## <span>Summary</span>
 
-## Summary
+The &lt;content&gt; element provides an insertion point into a shadow DOM tree.
 
-The \<content\> element provides an insertion point into a shadow DOM tree.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLContentElement](/w/index.php?title=dom/HTMLContentElement&action=edit&redlink=1)
 
-### Attributes
+### <span>Attributes</span>
 
 In addition to the [Global Attributes](http://www.w3.org/html/wg/drafts/html/master/dom.html#global-attributes), the `<content>` element supports the following attributes:
 
-Attribute
-:   Type
-[select](/html/attributes/select)
-:   A set of [comma-separated tokens](http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#comma-separated-tokens)
-[reset-style-inheritance](/html/attributes/reset-style-inheritance)
-:   Read-only. Boolean.
+|Attribute|Type|Description|
+|:--------|:---|:----------|
+|[select](/html/attributes/select)|A set of [comma-separated tokens](http://www.whatwg.org/specs/web-apps/current-work/multipage/common-microsyntaxes.html#comma-separated-tokens)|The select tokens define the matching criteria for distributing child nodes of the shadow host.|
+|[reset-style-inheritance](/html/attributes/reset-style-inheritance)|Read-only. Boolean.|Indicates whether the inheritable CSS properties are set to the initial value established at the shadow boundary.|
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Web Components
+#### <span>Web Components</span>
 
 -   [register](/dom/Document/register)
 
 -   [shadowdom](/dom/shadowdom)
-
--   [ShadowRoot](/dom/shadowdom/ShadowRoot)
 
 -   [is](/html/attributes/is)
 

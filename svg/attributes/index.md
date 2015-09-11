@@ -1,14 +1,13 @@
 ---
-title: attributes
+title: SVG attributes
+notes:
+  - 'Page with almost all broken links.'
+readiness: 'Not Ready'
+summary: 'SVG attributes'
 tags:
   - API
   - Listings
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Page with almost all broken links.'
-summary: 'SVG attributes'
-uri: svg/attributes
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -104,19 +103,18 @@ todo_broken_links:
     - 'svg/attributes/xlink:show'
     - 'svg/attributes/xlink:title'
     - 'svg/attributes/xlink:type'
+uri: svg/attributes
 
 ---
-# SVG attributes
-
-## Summary
+## <span>Summary</span>
 
 SVG attributes
 
-## Usage
+## <span>Usage</span>
 
      ===Attribute Listing (by Category)===
 
-#### Animation Event Attributes
+#### <span>Animation Event Attributes</span>
 
 These attributes are used to capture animation events.
 
@@ -125,12 +123,12 @@ These attributes are used to capture animation events.
 -   [onload](/w/index.php?title=svg/attributes/onload&action=edit&redlink=1)
 -   [onrepeat](/w/index.php?title=svg/attributes/onrepeat&action=edit&redlink=1)
 
-#### Animation Attribute Target Attributes
+#### <span>Animation Attribute Target Attributes</span>
 
 -   [attributeType](/w/index.php?title=svg/attributes/attributeType&action=edit&redlink=1)
 -   [attributeName](/w/index.php?title=svg/attributes/attributeName&action=edit&redlink=1)
 
-#### Animation Timing Attributes
+#### <span>Animation Timing Attributes</span>
 
 -   [begin](/w/index.php?title=svg/attributes/begin&action=edit&redlink=1)
 -   [dur](/w/index.php?title=svg/attributes/dur&action=edit&redlink=1)
@@ -142,7 +140,7 @@ These attributes are used to capture animation events.
 -   [repeatDur](/w/index.php?title=svg/attributes/repeatDur&action=edit&redlink=1)
 -   [fill](/svg/attributes/fill)
 
-#### Animation Value Attributes
+#### <span>Animation Value Attributes</span>
 
 -   [calcMode](/w/index.php?title=svg/attributes/calcMode&action=edit&redlink=1)
 -   [values](/w/index.php?title=svg/attributes/values&action=edit&redlink=1)
@@ -152,18 +150,18 @@ These attributes are used to capture animation events.
 -   [to](/w/index.php?title=svg/attributes/to&action=edit&redlink=1)
 -   [by](/w/index.php?title=svg/attributes/by&action=edit&redlink=1)
 
-#### Animation Addition Attributes
+#### <span>Animation Addition Attributes</span>
 
 -   [additive](/w/index.php?title=svg/attributes/additive&action=edit&redlink=1)
 -   [accumulate](/w/index.php?title=svg/attributes/accumulate&action=edit&redlink=1)
 
-#### Conditional Processing Attributes
+#### <span>Conditional Processing Attributes</span>
 
 -   [requiredExtensions](/w/index.php?title=svg/attributes/requiredExtensions&action=edit&redlink=1)
 -   [requiredFeatures](/w/index.php?title=svg/attributes/requiredFeatures&action=edit&redlink=1)
 -   [systemLanguage](/w/index.php?title=svg/attributes/systemLanguage&action=edit&redlink=1)
 
-#### Core Attributes
+#### <span>Core Attributes</span>
 
 These attributes can be specified on any SVG element.
 
@@ -172,7 +170,7 @@ These attributes can be specified on any SVG element.
 -   [xml:lang](/w/index.php?title=svg/attributes/xml:lang&action=edit&redlink=1)
 -   [xml:space](/w/index.php?title=svg/attributes/xml:space&action=edit&redlink=1)
 
-#### Document Event Attributes
+#### <span>Document Event Attributes</span>
 
 These attributes are used to capture document events.
 
@@ -183,7 +181,7 @@ These attributes are used to capture document events.
 -   [onunload](/w/index.php?title=svg/attributes/onunload&action=edit&redlink=1)
 -   [onzoom](/w/index.php?title=svg/attributes/onzoom&action=edit&redlink=1)
 
-#### Filter primitive Attributes
+#### <span>Filter primitive Attributes</span>
 
 -   [height](/w/index.php?title=svg/attributes/height&action=edit&redlink=1)
 -   [result](/w/index.php?title=svg/attributes/result&action=edit&redlink=1)
@@ -191,7 +189,7 @@ These attributes are used to capture document events.
 -   [x](/w/index.php?title=svg/attributes/x&action=edit&redlink=1)
 -   [y](/w/index.php?title=svg/attributes/y&action=edit&redlink=1)
 
-#### Graphical Event Attributes
+#### <span>Graphical Event Attributes</span>
 
 These attributes are used to capture interaction events.
 
@@ -206,7 +204,7 @@ These attributes are used to capture interaction events.
 -   [onmouseover](/w/index.php?title=svg/attributes/onmouseover&action=edit&redlink=1)
 -   [onmouseup](/w/index.php?title=svg/attributes/onmouseup&action=edit&redlink=1)
 
-#### Presentation Attributes
+#### <span>Presentation Attributes</span>
 
 -   [alignment-baseline](/svg/attributes/alignment-baseline)
 -   [baseline-shift](/svg/attributes/baseline-shift)
@@ -268,7 +266,7 @@ These attributes are used to capture interaction events.
 -   [word-spacing](/w/index.php?title=svg/attributes/word-spacing&action=edit&redlink=1)
 -   [writing-mode](/w/index.php?title=svg/attributes/writing-mode&action=edit&redlink=1)
 
-#### Transfer Function Attributes
+#### <span>Transfer Function Attributes</span>
 
 -   [type](/w/index.php?title=svg/attributes/type&action=edit&redlink=1)
 -   [tableValues](/w/index.php?title=svg/attributes/tableValues&action=edit&redlink=1)
@@ -278,7 +276,7 @@ These attributes are used to capture interaction events.
 -   [exponent](/w/index.php?title=svg/attributes/exponent&action=edit&redlink=1)
 -   [offset](/w/index.php?title=svg/attributes/offset&action=edit&redlink=1)
 
-#### XLink Attributes
+#### <span>XLink Attributes</span>
 
 These attributes can be used for cross-links ("x"-links).
 
@@ -289,4 +287,3 @@ These attributes can be used for cross-links ("x"-links).
 -   [xlink:show](/w/index.php?title=svg/attributes/xlink:show&action=edit&redlink=1)
 -   [xlink:title](/w/index.php?title=svg/attributes/xlink:title&action=edit&redlink=1)
 -   [xlink:type](/w/index.php?title=svg/attributes/xlink:type&action=edit&redlink=1)
-

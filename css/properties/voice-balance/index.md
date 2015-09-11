@@ -1,52 +1,62 @@
 ---
 title: voice-balance
+notes:
+  - 'Needs usage, example'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`center`'
+  'Applies to': ''
+  '[Inherited](/css/concepts/inherited)': ''
+  Media: speech
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: ''
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The voice-balance property sets the apparent position (in stereo sound) of the synthesized voice for spoken media.'
 tags:
   - CSS
   - Properties
   - Accessibility
-readiness: 'In Progress'
-standardization_status: 'W3C Candidate Recommendation'
-notes:
-  - 'Needs usage, example'
-summary: 'The voice-balance property sets the apparent position (in stereo sound) of the synthesized voice for spoken media.'
 uri: css/properties/voice-balance
 
 ---
-# voice-balance
-
-## Summary
+## <span>Summary</span>
 
 The voice-balance property sets the apparent position (in stereo sound) of the synthesized voice for spoken media.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `center`
+
 Applies to
 :
+
 [Inherited](/css/concepts/inherited)
 :
+
 Media
 :   speech
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
 
-## Syntax
+## <span>Syntax</span>
 
-## Values
+## <span>Values</span>
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Speech Module](http://www.w3.org/TR/css3-speech/#mixing-props-voice-balance)
 :   W3C Candidate Recommendation
+
 [CSS 2.1, Appendix A. (Aural style sheets)](http://www.w3.org/TR/CSS21/aural.html)
 :   Deprecated
-

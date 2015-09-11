@@ -1,43 +1,53 @@
 ---
 title: innerHeight
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/DOM/window.innerHeight)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Window
+    href: /dom/Window
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/Window
+standardization_status: 'W3C Working Draft'
+summary: 'Height (in pixels) of the browser window viewport including, if rendered, the horizontal scrollbar.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Height (in pixels) of the browser window viewport including, if rendered, the horizontal scrollbar.'
 uri: dom/Window/innerHeight
 
 ---
-# innerHeight
-
-## Summary
+## <span>Summary</span>
 
 Height (in pixels) of the browser window viewport including, if rendered, the horizontal scrollbar.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Window](/dom/Window)</span></span>
+Property of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var height = window.innerHeight;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 Viewport height in CSS pixels
 
-## Examples
+## <span>Examples</span>
 
 Assumes a frameset
 
-``` {.js}
+``` js
 var intFrameHeight = window.innerHeight; // or
 var intFrameHeight = self.innerHeight; /* will return the height of the
 frame viewport within the frameset */
@@ -47,17 +57,17 @@ var intOuterFramesetHeight = top.innerHeight; /* will return the height
 of the viewport of the outermost frameset */
 ```
 
-## Notes
+## <span>Notes</span>
 
 **Graphical example** The following figure shows the difference between outerHeight and innerHeight.
 
 ![screenshot showing difference between innerHeight and outerHeight](/assets/public/8/88/FirefoxInnerVsOuterHeight2.png)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -113,13 +123,9 @@ of the viewport of the outermost frameset */
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -159,15 +165,50 @@ of the viewport of the outermost frameset */
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-## Attribution
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
 
-*This article contains content originally from external sources.*
+-   [pageY](/css/cssom/properties/pageY)
 
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/DOM/window.innerHeight)
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
 
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
 
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   **innerHeight**
+
+-   [styleMedia](/dom/Window/styleMedia)

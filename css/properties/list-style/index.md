@@ -1,46 +1,60 @@
 ---
 title: list-style
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Shorthand property that sets the list-style-type, list-style-position and list-style-image properties in one declaration.'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/6950114'
   - 'http://gist.github.com/5598129'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`disc outside none`'
+  'Applies to': 'elements with display: list-item'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'see individual properties'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`listStyle`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Shorthand property that sets the list-style-type, list-style-position and list-style-image properties in one declaration.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/list-style
 
 ---
-# list-style
-
-## Summary
+## <span>Summary</span>
 
 Shorthand property that sets the list-style-type, list-style-position and list-style-image properties in one declaration.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `disc outside none`
+
 Applies to
 :   elements with display: list-item
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   see individual properties
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `listStyle`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `list-style: inherit`
 -   `list-style: list-style-type list-style-position list-style-image`
 
-## Values
+## <span>Values</span>
 
 list-style-type list-style-position list-style-image
 :   The `list-style` property can contain up to three components:
@@ -52,11 +66,11 @@ list-style-type list-style-position list-style-image
 inherit
 :   Takes the same specified value as the property for the element's parent. (Acts similarly to other uses of inherit in CSS.)
 
-## Examples
+## <span>Examples</span>
 
 The following example contains multiple examples of using this property, omitting some of the values.
 
-``` {.css}
+``` css
 /* Specifying the list-style providing all the values */
 .first-list {
     list-style: disc inside url(http://docs.webplatform.org/w/skins/webplatform/images/logo.svg);
@@ -82,7 +96,7 @@ The following example contains multiple examples of using this property, omittin
 
 An example to show how setting padding-left to 0 when position is set to outside will produce the market not being shown at all. A ul contained in a div with overflow hidden might run into this issue.
 
-``` {.css}
+``` css
 ul {
     padding-left: 0;
 }
@@ -98,26 +112,25 @@ ul {
 
 [View live example](http://code.webplatform.org/gist/5598129)
 
-## Usage
+## <span>Usage</span>
 
      The list-style property is a composite property. You can omit one or more of the values. If both list-style-type and list-style-image are provided, and the value for this last one is different than none and links to an available image, the image takes precedence and it will be shown as the marker.
 
 When the `list-style-position` value is set to **outside** and the [**padding**](/css/properties/padding) or [**padding-left**](/css/properties/padding-left) is set to 0, the list marker won't be displayed.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Lists and Counters Module Level 3](http://dev.w3.org/csswg/css3-lists/#list-style)
 :   Working Draft
+
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/generate.html#propdef-list-style)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -155,7 +168,7 @@ Specification
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `list-style-type`
 -   `list-style-position`
@@ -164,10 +177,3 @@ Specification
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

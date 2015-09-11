@@ -1,58 +1,64 @@
 ---
-title: parse
+title: JSON.parse
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/json
+    href: /apis/json
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/json
+standardization_status: 'W3C Recommendation'
+summary: 'Parse a JSON string to a JavaScript object.'
 tags:
   - API
   - Object
   - Methods
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Parse a JSON string to a JavaScript object.'
 uri: apis/json/parse
 
 ---
-# JSON.parse
-
-## Summary
+## <span>Summary</span>
 
 Parse a JSON string to a JavaScript object.
 
-*Method of [apis/json](/apis/json)*
+Method of [apis/json](/apis/json)[apis/json](/apis/json)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = JSON.parse(json string);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### json string
+### <span>json string</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  A JSON string.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 A JavaScript object representing the JSON string.
 
-## Examples
+## <span>Examples</span>
 
-    var json = '{"result":true,"count":1}',
-        obj = JSON && JSON.parse(json)
+``` html
+var json = '{"result":true,"count":1}',
+    obj = JSON && JSON.parse(json)
+```
 
-## Notes
+## <span>Notes</span>
 
 This method will throw an error if the argument is not a valid JSON string. You should wrap the parse call in a try/catch block.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [JSON-LD 1.0](http://www.w3.org/TR/json-ld/)
 :   W3C Recommendation
-

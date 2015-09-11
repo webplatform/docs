@@ -1,51 +1,51 @@
 ---
 title: VideoPlaybackQuality
+attributions:
+  - 'Microsoft Developer Network.'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Provides attributes that offer information about the quality for the video currently playing.'
 tags:
   - API
   - Objects
   - Media
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Provides attributes that offer information about the quality for the video currently playing.'
 uri: 'apis/media source extensions/VideoPlaybackQuality'
 
 ---
-# VideoPlaybackQuality
-
-## Summary
+## <span>Summary</span>
 
 Provides attributes that offer information about the quality for the video currently playing.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [creationTime](/apis/media_source_extensions/VideoPlaybackQuality/creationTime)
 :   Gets the timestamp for when the VideoPlaybackQuality metrics were collected.
+
 [droppedVideoFrames](/apis/media_source_extensions/VideoPlaybackQuality/droppedVideoFrames)
 :   Gets the number of dropped video frames.
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multimedia
+#### <span>Multimedia</span>
 
 -   [Track ended](/apis/MediaStream/ended)
 
 -   [MediaSource](/apis/media_source_extensions/MediaSource)
 
 -   [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
-
--   **VideoPlaybackQuality**
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
@@ -60,10 +60,3 @@ API Name
 -   [img](/html/elements/img)
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network.
-

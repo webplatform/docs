@@ -1,42 +1,56 @@
 ---
 title: grid-auto-flow
+notes:
+  - 'Add description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'Grid containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: 'Automatically places grid elements into the grid layout if an explicit location is not designated.  Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Add description, compatibility.'
-summary: 'Automatically places grid elements into the grid layout if an explicit location is not designated.  Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.'
 uri: css/properties/grid-auto-flow
 
 ---
-# grid-auto-flow
-
-## Summary
+## <span>Summary</span>
 
 Automatically places grid elements into the grid layout if an explicit location is not designated. Designates the direction of the the flow and whether rows or columns must be added to accommodate the element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   Grid containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `grid-auto-flow: columns`
 -   `grid-auto-flow: dense`
@@ -44,7 +58,7 @@ Percentages
 -   `grid-auto-flow: rows`
 -   `grid-auto-flow: sparse`
 
-## Values
+## <span>Values</span>
 
 none
 :   Causes auto-placed grid items to be placed according to the grid-auto-position property, rather than using the auto-placement algorithm.
@@ -63,9 +77,9 @@ Note: This may cause items to appear out-of-order.
 sparse
 :   Permanently skips cells that are not filled with the current item. The default auto-pacement algorithm packing approach.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /*
 In this form layout example, there are three columns, each auto-sized to their
 contents. No rows are explicitly defined. The grid-auto-flow property is set to "rows",
@@ -121,7 +135,7 @@ object sequence within the grid.
 </style>
 ```
 
-``` {.html}
+``` html
 <form>
   <label for="firstname">First name:</label>
   <input type="text" id="firstname" name="firstname" />
@@ -140,28 +154,24 @@ object sequence within the grid.
   <label for="zip">Zip:</label>
   <input type="text" id="zip" name="zip" />
 
+  <div id="department">
+    <label for="department">Department:</label>
+    <select id="department" name="department" multiple>
+      <option value="finance">Finance</option>
+      <option value="humanresources">Human Resources</option>
+      <option value="marketing">Marketing</option>
+    </select>
+  </div>
 
-   <label for="department">Department:</label>
-   <select id="department" name="department" multiple>
-     <option value="finance">Finance</option>
-     <option value="humanresources">Human Resources</option>
-     <option value="marketing">Marketing</option>
-   </select>
+  <div id="buttons">
+    <button id="cancel">Cancel</button>
+    <button id="back">Back</button>
+    <button id="next">Next</button>
+  </div>
+</form>
 ```
 
-       <button id="cancel">Cancel</button>
-       <button id="back">Back</button>
-       <button id="next">Next</button>
+## <span>Related specifications</span>
 
-\</form\>
-
-</pre>
-</div>
-
-## Related specifications
-
-Specification
-:   Status
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft
-

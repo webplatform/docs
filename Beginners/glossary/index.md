@@ -1,20 +1,18 @@
 ---
-title: glossary
+title: Glossary of terms
+readiness: 'Ready to Use'
+summary: 'This page provides basic definitions of fundamental web technologies, concepts and other terms you might meet while learning web development.'
 tags:
   - Basic
   - Pages
-readiness: 'Ready to Use'
-summary: 'This page provides basic definitions of fundamental web technologies, concepts and other terms you might meet while learning web development.'
 uri: Beginners/glossary
 
 ---
-# Glossary of terms
-
-## Summary
+## <span>Summary</span>
 
 This page provides basic definitions of fundamental web technologies, concepts and other terms you might meet while learning web development.
 
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -29,47 +27,47 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [9. Browser testing](/Beginners/browser_testing)
 -   **Glossary**
 
-## Terms
+## <span>Terms</span>
 
-### Alignment
+### <span>Alignment</span>
 
 The horizontal or vertical positioning of an element. Typical horizontal alignments include left, right, and center; typical vertical alignments include baseline, sub, super, top, text-top, middle, bottom, and text-bottom.
 
-### API (Application Program Interface)
+### <span>API (Application Program Interface)</span>
 
 A set of commands, functions, and protocols which can be used to build websites. APIs are predefined functions that web site authors can call to perform certain tasks instead of writing code from scratch to perform them.
 
-### Attribute
+### <span>Attribute</span>
 
 An instruction or definition or additional defined characteristic of an Element, such as `href` or `title`, the parts that show up to the left of equal signs after the Element itself in the opening tag, thus
 
-``` {.html}
+``` html
 <tag href="#" title="the href and title are what we call attributes">Tag content</tag>
 ```
 
 **Note**: Historically everybody was writing tags with *Capital letters*. Nowadays, we write both tag names and their attribute names in lowercase. The web browser doesn’t make a difference how you write your tag names and attributes, but its a common convention that many web developers adopted during the epoch just before we started using HTML5.
 
-### Border
+### <span>Border</span>
 
 The edge delimiting the boundaries of an element box.
 
-### Browser
+### <span>Browser</span>
 
 A program installed on a Client allowing it to access and display web sites, thereby allowing you to interact with the Web. CSS (Cascading Style Sheets): A language for specifying how documents are presented to users. A document is a collection of information that is structured using a markup language.
 
-### Client
+### <span>Client</span>
 
 Any computing device, such as your laptop or mobile phone, that can be used to connect to and draw content from the web. Your device uses an application (usually a web browser) to request a web site/other data from a server; the server then sends back a response, which includes all the information needed for your application to display the web site or other data you requested. Cursive: Used to describe fonts that have a decorative, often handwritten-looking style
 
-### DNS (Domain Name Server)
+### <span>DNS (Domain Name Server)</span>
 
 This is essentially an address book for the Web that links common names to the numerical addresses at which all Web sites are stored. All Web sites are actually located at numerical addresses of the form \#\#\#.\#\#\#.\#\#\#.\#\#\# called IP addresses. Domain Name Servers associate these addresses with domain names, so they are easier to handle for humans. So for example, the IP address of google.co.uk is 173.194.66.94 — try typing it in and you'll see we're right — but google.co.uk is far easier to remember!
 
-### DOM The Document Object Model (DOM)
+### <span>DOM The Document Object Model (DOM)</span>
 
 An application programming interface (API) for markup documents, like HTML, SVG, MathML, and XML. The DOM provides a logically structured representation of a document, and a set of Objects and Methods for manipulating that structure.
 
-### Element
+### <span>Element</span>
 
 Or a tag. We basically give a one word (no space), surround it by angle brackets (e.g. \<html\>). There are various types of tags and they depend of their role.
 
@@ -77,7 +75,7 @@ For example, to make a link we surround the text we want to use as the text to c
 
 When the documentation refers to an element we are talking about HTML tags that are *inside* the `<body>` tag of a page.
 
-### Entity
+### <span>Entity</span>
 
 If you want to show characters that might not exist, or might also create confusion in the web page, we can still use them in a way that the web browser will understand and convert for you.
 
@@ -87,19 +85,19 @@ To tell the web browser we want to display a special character we annotate them 
 
 Here are a few examples: ¶ (`&#182;`), ¼ (`&#182;`). Its also possible to use both code and alias notation, for example: & could be shown either by doing `&#38;` or `&amp;`.
 
-### Code
+### <span>Code</span>
 
 A means for displaying an Entity, such as \< without it having coding effect, typically by use of a string that begins &\#. Fantasy: Used to describe fonts that have a bold, often ornamental or quirky style, which are meant to be used for headings, not body copy
 
-### Font Stack
+### <span>Font Stack</span>
 
 A sequential listing of preferred fonts to display on a web page allowing a developer to specify alternatives in the case that a desired font is not available to a Client.
 
-### FTP (File Transfer Protocol)
+### <span>FTP (File Transfer Protocol)</span>
 
 A protocol that defines the manner in which files can be loaded to or from Servers such that there is a standard method that can be used by any of the many disparate devices that can connect to the Web.
 
-### Hexadecimal
+### <span>Hexadecimal</span>
 
 While common numbers goes from 0-9 (i.e. decimal numbers). This notation is easy for us, humans, to understand. But it also implies that one numeric charcter slot cannot go higher than 9. In hexadecimal, one slot can go up to 16. This is what we call "base 16" and Hexadecimal is also a common name for this. Hexadecimal numbers goes from 0-9, then uses the alphabet letters A-F to fill the gap.
 
@@ -111,87 +109,87 @@ In Hexadecimal, we would say that 0% is represented as `00`, and 100% as `FF`.
 
 Therefore, red in RGB would be described as the string `#FF0000;` in CSS.
 
-### HTML (Hyper Text Markup Language)
+### <span>HTML (Hyper Text Markup Language)</span>
 
 A language to describe the contents of web documents. It uses a special syntax containing markers (called “elements”) which are wrapped around the text within the document to indicate how user agents (eg. web browsers) should interpret that portion of the document.
 
-### Justification
+### <span>Justification</span>
 
 The typographical practice of aligning multiple lines of text precisely to one or both of their common margins. Typically referred to in its individual forms as left, right, center, or full justification.
 
-### Margin
+### <span>Margin</span>
 
 The space surrounding an element box; the space between the border and the margin of an adjacent element.
 
-### Monospaced
+### <span>Monospaced</span>
 
 Used to describe fonts in which every glyph takes up the same space, like in computer code
 
-### Networking Protocols
+### <span>Networking Protocols</span>
 
 Agreed upon methods by which computers communicate with each other on a network, allowing the many different types of computers on the Web to talk to each other. The term HTTP, for instance, means Hyper Text Transfer Protocol and tells your browser how to interface with the network to access information stored on the Web.
 
-### Padding
+### <span>Padding</span>
 
 The space between the substance of an element and the edge of the box that surrounds it.
 
-### RGB
+### <span>RGB</span>
 
 Literally, red, green and blue. For our purposes a hexadecimal notation that provides levels for each of the colors red green and blue.
 
-### Sans-serif
+### <span>Sans-serif</span>
 
 "Sans"; meaning without in french, describes fonts that doesn’t have serifs, the small projecting features at the ends of character strokes. Modern convention holds that sans-serif fonts are preferred over serif fonts for online text, while serif fonts are preferred for print. Serif Term used to describe fonts with small small projecting features at the ends of character strokes.
 
-### Server
+### <span>Server</span>
 
 A computer on which web sites are stored, ready for delivery to those who want to look at them.
 
-### Style Sheeet
+### <span>Style Sheeet</span>
 
 A set of instructions for how the content of a markup file should be displayed.
 
-### SVG
+### <span>SVG</span>
 
 A markup language for graphics.
 
-### Transmission Protocols
+### <span>Transmission Protocols</span>
 
 The various agreed upon methods for transporting data around the Web.
 
-### User Agent
+### <span>User Agent</span>
 
 Any software that is used to access web pages on behalf of users. There is an important distinction to be made here—all types of desktop browser software (Internet Explorer, Opera, Firefox, Safari, Chrome etc.) and alternative browsers for other devices (such as the Wii Internet channel, and mobile phone browsers such as Opera Mini and WebKit on the iPhone) are user agents, but not all user agents are browser software. The automated programs that Google and Yahoo! use to index the web to use in their search engines are also user agents, but no human being is controlling them directly.
 
-### Web Browser
+### <span>Web Browser</span>
 
 See Browser
 
-### Web-safe fonts
+### <span>Web-safe fonts</span>
 
 The 11 or so fonts that are installed across almost all systems, termed web safe fonts because they are safe for use in your pages. These are: Verdana, Arial, Trebuchet MS (sans-serif); Times New Roman, Georgia (serif); Andale Mono, Courier New (monospaced); Comic Sans (cursive); Impact (fantasy).
 
-### Web Servers
+### <span>Web Servers</span>
 
 See Server
 
-### Web Technologies
+### <span>Web Technologies</span>
 
 these are the different types of code that web developers use to create web sites, which define things such as the text you want to show on the web page, the styles that text should have, etc. The web browser receives such code from a server and assembles it into a complete web page.
 
-### XML
+### <span>XML</span>
 
 A markup language for structured documents in general.
 
-### XUL
+### <span>XUL</span>
 
 A markup language for user interfaces in Mozilla Firefox. Note that the trend in most browser vendors are also using HTML/CSS/JavaScript inside the "browser chrome" (See *Browser chrome* below) and thus deprecating XUL.
 
-### Browser chrome
+### <span>Browser chrome</span>
 
 The term browser chrome is used to describe the actual web browser software and user interface components. It is confusing because the term is much older than Google’s own web browser.
 
-### Polyfill
+### <span>Polyfill</span>
 
 Also called "Shim" is a piece of code that we can add to a web page to support a feature that is not supported yet. The use of a polyfill goes with the use of techniques to detect and load the "shim", ONLY IF the web browser doesn’t pass the test. We call this technique "Progressive enhancement".
 

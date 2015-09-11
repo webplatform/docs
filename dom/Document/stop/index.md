@@ -1,51 +1,94 @@
 ---
 title: stop
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec, and compat'
+readiness: 'In Progress'
 tags:
   - Events
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec, and compat'
 uri: dom/Document/stop
 
 ---
-# stop
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **onstop** event to stop a function from executing in a continuous cycle. The [**setInterval**](/dom/Window/setInterval) method is used to execute script every millisecond. If the user clicks the **Stop** button, the [**clearInterval**](/dom/Window/clearInterval) method removes the interval and the script is no longer executed.
 
-    document.onstop=fnTrapStop;
-    window.onload=fnInit;
-    var oInterval;
-    function fnInit(){
-       oInterval=window.setInterval("fnCycle()",1);
-    }
-    function fnCycle(){
-       // Do something
-    }
-    function fnTrapStop(){
-       window.clearInterval(oInterval);
-    }
+``` html
+document.onstop=fnTrapStop;
+window.onload=fnInit;
+var oInterval;
+function fnInit(){
+   oInterval=window.setInterval("fnCycle()",1);
+}
+function fnCycle(){
+   // Do something
+}
+function fnTrapStop(){
+   window.clearInterval(oInterval);
+}
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **onstop** event fires after the [**beforeunload**](/dom/Event/beforeunload) event, and before the [**unload**](/dom/Element/unload) event. Initiates any action associated with this event. To invoke this event, do one of the following:
 
@@ -79,20 +122,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

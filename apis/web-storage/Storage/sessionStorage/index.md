@@ -1,41 +1,50 @@
 ---
 title: sessionStorage
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+code_samples:
+  - 'http://jsfiddle.net/DM6hB/7/'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web-storage/Storage
+    href: /apis/web-storage/Storage
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /apis/web-storage/Storage
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Provides a Storage object specific to the current top-level browsing context. The storage will be cleared after a browser restart. If you need a persistent storage, use apis/web-storage/Storage/localStorage.'
 tags:
   - API
   - Object
   - Properties
   - Webstorage
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Provides a Storage object specific to the current top-level browsing context. The storage will be cleared after a browser restart. If you need a persistent storage, use apis/web-storage/Storage/localStorage.'
-code_samples:
-  - 'http://jsfiddle.net/DM6hB/7/'
 uri: apis/web-storage/Storage/sessionStorage
 
 ---
-# sessionStorage
-
-## Summary
+## <span>Summary</span>
 
 Provides a Storage object specific to the current top-level browsing context. The storage will be cleared after a browser restart. If you need a persistent storage, use apis/web-storage/Storage/localStorage.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web-storage/Storage](/apis/web-storage/Storage)</span></span>
+Property of [apis/web-storage/Storage](/apis/web-storage/Storage)[apis/web-storage/Storage](/apis/web-storage/Storage)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = object.sessionStorage;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 /* global document, window */
 
 var valueSetHandler = function () {
@@ -68,56 +77,40 @@ document.getElementById('clear').addEventListener('click', clearStorageHandler);
 
 [View live example](http://jsfiddle.net/DM6hB/7/)
 
-``` {.html}
+``` html
 <section>
     <label for="key">Key:</label>
     <input type="text" id="key" value="c3po">
-
+    <br>
     <label for="value">Value:</label>
     <input type="text" id="value" value="R2-D2">
-
+    <br>
     <button type="button" id="set-local">Save to sessionStorage</button>
 </section>
+<hr>
 <section>
-
-   <label for="get-key">Key:</label>
-   <input type="text" id="get-key" value="c3po">
-   <button type="button" id="get-local">Get from sessionStorage</button>
-   <output id="output"></output>
+    <label for="get-key">Key:</label>
+    <input type="text" id="get-key" value="c3po">
+    <button type="button" id="get-local">Get from sessionStorage</button>
+    <output id="output"></output>
+</section>
+<hr>
+<section>
+    <button type="button" id="clear">Clear sessionStorage</button>
+</section>
 ```
 
-\</section\>
-
-* * * * *
-
-\<section\>
-
-       <button type="button" id="clear">Clear sessionStorage</button>
-
-\</section\>
-
-</pre>
-
-## Usage
+## <span>Usage</span>
 
      Use the methods setItem, getItem, removeItem and clear defined in apis/web-storage/Storage
 
-## Notes
+## <span>Notes</span>
 
 The **sessionStorage** "property" provides an instance of a storage area object, to which the **Storage** object's properties and methods are applied.
 
-The amount of storage in sessionStorage is limited by a quota by the browser. See an example error for when the quota is exceed: [http://jsfiddle.net/wkDc6/1/](http://jsfiddle.net/wkDc6/1/)
+The amount of storage in sessionStorage is limited by a quota by the browser. See an example error for when the quota is exceed: <http://jsfiddle.net/wkDc6/1/>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Storage Specification](http://dev.w3.org/html5/webstorage)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

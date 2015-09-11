@@ -1,26 +1,28 @@
 ---
 title: callee
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/334e1zza(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the Function object being executed, that is, the body text of the specified Function object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the Function object being executed, that is, the body text of the specified Function object.'
 uri: javascript/arguments/callee
 
 ---
-# callee
-
-## Summary
+## <span>Summary</span>
 
 Returns the Function object being executed, that is, the body text of the specified Function object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     [ function . ] arguments.callee
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function factorial(n){
    if (n <= 0)
       return 1;
@@ -29,7 +31,7 @@ function factorial(n){
  document.write(factorial(4));
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The optional function argument is the name of the currently executing Function object.
 
@@ -37,15 +39,9 @@ The **callee** property is a member of the **arguments** object that becomes ava
 
 The initial value of the **callee** property is the Function object being executed. This allows anonymous functions to be recursive.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [caller Property (Function)](/javascript/Function/caller)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/334e1zza(v=vs.94).aspx)
 

@@ -1,28 +1,30 @@
 ---
 title: delete
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2b2z052x(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Deletes a property from an object, or removes an element from an array.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Deletes a property from an object, or removes an element from an array.'
 uri: javascript/operators/delete
 
 ---
-# delete
-
-## Summary
+## <span>Summary</span>
 
 Deletes a property from an object, or removes an element from an array.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     delete expression
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to remove an element from an array.
 
-``` {.js}
+``` js
 // Create an array.
  var ar = new Array (10, 11, 12, 13, 14);
 
@@ -40,7 +42,7 @@ The following example shows how to remove an element from an array.
 
 The following example shows how to delete properties from an object.
 
-``` {.js}
+``` js
 // Create an object and add expando properties.
  var myObj = new Object();
  myObj.name = "Fred";
@@ -59,17 +61,11 @@ The following example shows how to delete properties from an object.
  //  count: undefined
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The expression argument is a valid JavaScript expression that usually results in a property name or array element.
 
 If the result of expression is an object, the property specified in expression exists, and the object will not allow it to be deleted, false is returned.
 
 In all other cases, true is returned.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2b2z052x(v=vs.94).aspx)
 

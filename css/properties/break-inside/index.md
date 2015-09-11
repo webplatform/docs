@@ -1,40 +1,54 @@
 ---
 title: break-inside
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Complete specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'block-level elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`breakInside`'
+readiness: 'In Progress'
+summary: 'Control page/column/region breaks that fall within a block of content'
 tags:
   0: CSS
   1: Properties
   3: CSS-Regions
-readiness: 'In Progress'
-notes:
-  - 'Complete specifications, compatibility.'
-summary: 'Control page/column/region breaks that fall within a block of content'
 uri: css/properties/break-inside
 
 ---
-# break-inside
-
-## Summary
+## <span>Summary</span>
 
 Control page/column/region breaks that fall within a block of content
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   block-level elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `breakInside`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `break-inside: auto`
 -   `break-inside: avoid`
@@ -42,7 +56,7 @@ Animatable
 -   `break-inside: avoid-page`
 -   `break-inside: avoid-region`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. A page/column/region break is determined by the flow of content.
@@ -59,9 +73,9 @@ avoid-column
 avoid-region
 :   A [region](/css/concepts/region) break is not allowed within the content block.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* forces top-level headings onto a new page, column, or region */
 h1 {
     break-before: always;
@@ -75,22 +89,20 @@ h2, h3 {
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      This property replaces separate column-break-inside, page-break-inside, and region-break-inside properties, which may still be present in some browser implementations.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://dev.w3.org/csswg/css3-regions/)
 :
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multi-Column
+#### <span>Multi-Column</span>
 
 -   [break-after](/css/properties/break-after)
 
@@ -116,7 +128,7 @@ Specification
 
 -   [content](/css/properties/content)
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -174,14 +186,14 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -217,10 +229,3 @@ Specification
 -   `Reference`
 -   `breakAfter`
 -   `breakBefore`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

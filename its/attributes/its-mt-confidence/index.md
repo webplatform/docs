@@ -1,31 +1,38 @@
 ---
 title: its-mt-confidence
+notes:
+  - 'Add summery, example, note, compatibility.'
+readiness: 'Not Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The its-* attribute...'
 tags:
   - Markup
   - Attributes
   - Internationalization
-readiness: 'Not Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add summery, example, note, compatibility.'
-summary: 'The its-* attribute...'
 uri: its/attributes/its-mt-confidence
 
 ---
-# its-mt-confidence
-
-## Summary
+## <span>Summary</span>
 
 The its-\* attribute...
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [http://docs.webplatform.org/wiki/dom/HTMLElement](http://docs.webplatform.org/wiki/dom/HTMLElement)
 
+</th>
+<td>
+<http://docs.webplatform.org/wiki/dom/HTMLElement>
+
+</td>
+</tr>
+</table>
 The its-\* attribute can contain ...
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 
 
 <!DOCTYPE html>
@@ -35,14 +42,11 @@ The its-\* attribute can contain ...
 
 </pre>
 
-## Usage
+## <span>Usage</span>
 
      Use its-* ...
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Internationalization Tag Set (ITS) Version 2.0](http://www.w3.org/TR/its20/)
 :   W3C Recommendation
-

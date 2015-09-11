@@ -1,24 +1,26 @@
 ---
 title: dfn
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'In Progress'
+summary: 'The dfn element indicates the defining instance of a term.'
 tags:
   - Markup
   - Elements
   - HTML
   - XHTML
-readiness: 'In Progress'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information.'
-summary: 'The dfn element indicates the defining instance of a term.'
 uri: html/elements/dfn
 
 ---
-# dfn
-
-## Summary
+## <span>Summary</span>
 
 The dfn element indicates the defining instance of a term.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -30,18 +32,18 @@ The dfn element indicates the defining instance of a term.
     3.  TextContent of the dfn element
 -   If the title attribute of the dfn element is present, then it must contain only the term being defined.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **dfn** element to indicate the defining instance of a new term.
 
-``` {.html}
+``` html
 <p>The <dfn title="Garage Door Opener">GDO</dfn>
 is a device that allows off-world teams to open the iris.</p>
 ```
 
 This example uses the **dfn** element to indicate the defining instance of a new term that is an abbreviation.
 
-``` {.html}
+``` html
 <p>The <dfn><abbr title="Garage Door Opener">GDO</abbr></dfn>
 is a device that allows off-world teams to open the iris.</p>
 <!-- ... later in the document: -->
@@ -51,7 +53,7 @@ and so Hammond ordered the iris to be opened.</p>
 
 This example uses the **dfn** element to indicate the defining instance of a new term and then uses an anchor to provide a reference to that instance.
 
-``` {.html}
+``` html
 <p>The <dfn id="dfn-gdo"><abbr title="Garage Door Opener">GDO</abbr></dfn>
 is a device that allows off-world teams to open the iris.</p>
 <!-- ... later in the document: -->
@@ -59,7 +61,7 @@ is a device that allows off-world teams to open the iris.</p>
 and so Hammond ordered the iris to be opened.</p>
 ```
 
-## Usage
+## <span>Usage</span>
 
      The dfn is a phrasing-level element and can’t contain block-level elements, but it can contain other phrasing type elements like abbr, read on…
 
@@ -71,30 +73,28 @@ If the **dfn** only contains text, the exact text content of the element gives t
 
 If the [**title** attribute](/html/attributes/title) of the **dfn** element is present, then it must contain only the definition of the term being defined.
 
-## Notes
+## <span>Notes</span>
 
 If given an [**id** attribute](/html/attributes/id), a **dfn** may serve as a reference for other elements on the page by anchoring to the **dfn** (see Example 3).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-dfn-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-dfn-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/text.html#edef-DFN)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -192,21 +192,53 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Text
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -217,8 +249,6 @@ Specification
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   [layout-flow](/css/properties/layout-flow)
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -232,25 +262,11 @@ Specification
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -296,16 +312,9 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Other articles
+### <span>Other articles</span>
 
 -   `acronym`
 -   `address`
 -   `cite`
 -   `i`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

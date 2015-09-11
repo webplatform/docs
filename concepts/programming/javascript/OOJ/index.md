@@ -1,11 +1,12 @@
 ---
-title: OOJ
+title: Introduction to object-oriented JavaScript
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Introduction_to_Object-Oriented_JavaScript)'
+readiness: 'Not Ready'
+summary: "JavaScript has strong object-oriented programming capabilities, even though some debates have taken place due to the differences in object-oriented JavaScript compared to other languages.\n"
 tags:
   - Inheritance
   - JavaScript
-readiness: 'Not Ready'
-summary: "JavaScript has strong object-oriented programming capabilities, even though some debates have taken place due to the differences in object-oriented JavaScript compared to other languages.\n"
-uri: concepts/programming/javascript/OOJ
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -16,21 +17,20 @@ todo_broken_links:
     - concepts/programming/javascript/OOJ/js/objects/Function/call
     - concepts/programming/javascript/OOJ/js/objects/Function/apply
     - concepts/programming/javascript/OOJ/js/objects/Object/prototype
+uri: concepts/programming/javascript/OOJ
 
 ---
-# Introduction to object-oriented JavaScript
-
-## Summary
+## <span>Summary</span>
 
 JavaScript has strong object-oriented programming capabilities, even though some debates have taken place due to the differences in object-oriented JavaScript compared to other languages.
 
 This article starts with an introduction to object-oriented programming, then reviews the JavaScript object model, and finally demonstrates concepts of object-oriented programming in JavaScript.
 
-## JavaScript review
+## <span>JavaScript review</span>
 
 If you don't feel confident about JavaScript concepts such as variables, types, functions, and scope you can read about those topics in [A re-introduction to JavaScript](/w/index.php?title=concepts/programming/javascript/OOJ/tutorials/JavaScript/reintroduction&action=edit&redlink=1). You can also consult the [JavaScript Guide](/w/index.php?title=concepts/programming/javascript/OOJ/guides/JavaScript&action=edit&redlink=1).
 
-## Object-oriented programming
+## <span>Object-oriented programming</span>
 
 Object-oriented programming is a programming paradigm that uses abstraction to create models based on the real world. It uses several techniques from previously established paradigms, including modularity, polymorphism, and encapsulation. Today, many popular programming languages (such as Java, JavaScript, C\#, C++, Python, PHP, Ruby and Objective-C) support object-oriented programming (OOP).
 
@@ -38,7 +38,7 @@ Object-oriented programming may be seen as the design of software using a collec
 
 Object-oriented programming is intended to promote greater flexibility and maintainability in programming, and is widely popular in large-scale software engineering. By virtue of its strong emphasis on modularity, object oriented code is intended to be simpler to develop and easier to understand later on, lending itself to more direct analysis, coding, and understanding of complex situations and procedures than less modular programming methods.<sup>[1](#Reference)</sup>
 
-## Terminology
+## <span>Terminology</span>
 
  Class
 :   Defines the characteristics of the Object.
@@ -61,15 +61,15 @@ Object-oriented programming is intended to promote greater flexibility and maint
 
 For a more extensive description of object-oriented programming, see [Object-oriented programming](http://en.wikipedia.org/wiki/Object_oriented_programming) at Wikipedia.
 
-## Prototype-based programming
+## <span>Prototype-based programming</span>
 
 Prototype-based programming is a style of object-oriented programming in which classes are not present, and behavior reuse (known as inheritance in class-based languages) is accomplished through a process of decorating existing objects which serve as prototypes. This model is also known as class-less, prototype-oriented, or instance-based programming.
 
 The original (and most canonical) example of a prototype-based language is the programming language Self developed by David Ungar and Randall Smith. However, the class-less programming style has recently grown increasingly popular, and has been adopted for programming languages such as JavaScript, Cecil, NewtonScript, Io, MOO, REBOL, Kevo, Squeak (when using the Viewer framework to manipulate Morphic components), and several others.<sup>[1](#References)</sup>
 
-## JavaScript Object Oriented Programming
+## <span>JavaScript Object Oriented Programming</span>
 
-### Core Objects
+### <span>Core Objects</span>
 
 JavaScript has several objects included in its core; for example, there are objects like Math, Object, Array, and String. The example below shows how to use the Math object to get a random number by using its `random()` method.
 
@@ -81,15 +81,15 @@ JavaScript has several objects included in its core; for example, there are obje
 
 Every object in JavaScript is an instance of the object `Object` and therefore inherits all its properties and methods.
 
-### Custom Objects
+### <span>Custom Objects</span>
 
-#### The Class
+#### <span>The Class</span>
 
 JavaScript is a prototype-based language which contains no class statement, such as is found in C++ or Java. This is sometimes confusing for programmers accustomed to languages with a class statement. Instead, JavaScript uses functions as classes. Defining a class is as easy as defining a function. In the example below we define a new class called Person.
 
     function Person() { }
 
-#### The Object (Class Instance)
+#### <span>The Object (Class Instance)</span>
 
 To create a new instance of an object *`obj`* we use the statement `new obj`, assigning the result (which is of type *`obj`*) to a variable to access it later.
 
@@ -101,7 +101,7 @@ In the example below we define a class named `Person` and we create two instance
 
 **Note**: Please also see [Object.create](/w/index.php?title=concepts/programming/javascript/OOJ/js/objects/Object/create&action=edit&redlink=1) for a new and alternative instantiation method.
 
-#### The Constructor
+#### <span>The Constructor</span>
 
 The constructor is called at the moment of instantiation (the moment when the object instance is created). The constructor is a method of the class. In JavaScript, the function serves as the constructor of the object; therefore, there is no need to explicitly define a constructor method. Every action declared in the class gets executed at the time of instantiation.
 
@@ -116,7 +116,7 @@ In the example below, the constructor of the class `Person` displays an alert wh
     var person1 = new Person();
     var person2 = new Person();
 
-#### The Property (object attribute)
+#### <span>The Property (object attribute)</span>
 
 Properties are variables contained in the class; every instance of the object has those properties. Properties should be set in the prototype property of the class (function) so that inheritance works correctly.
 
@@ -135,7 +135,7 @@ In the example below we define the `gender` property for the `Person` class and 
     //display the person1 gender
     alert('person1 is a ' + person1.gender); // person1 is a Male
 
-#### The methods
+#### <span>The methods</span>
 
 Methods follow the same logic as properties; the difference is that they are functions and they are defined as functions. Calling a method is similar to accessing a property, but you add `()` at the end of the method name, possibly with arguments. To define a method, assign a function to a named property of the class's `prototype` property; the name that the function is assigned to is the name that the method is called by on the object.
 
@@ -182,7 +182,7 @@ This example demonstrates many concepts at once. It shows that there are no "per
 
 See more about this on [Function.call](/w/index.php?title=concepts/programming/javascript/OOJ/js/objects/Function/call&action=edit&redlink=1) and [Function.apply](/w/index.php?title=concepts/programming/javascript/OOJ/js/objects/Function/apply&action=edit&redlink=1)
 
-#### Inheritance
+#### <span>Inheritance</span>
 
 Inheritance is a way to create a class as a specialized version of one or more classes (*JavaScript only supports single class inheritance*). The specialized class is commonly called the *child*, and the other class is commonly called the parent. In JavaScript you do this by assigning an instance of the parent class to the child class, and then specializing it.
 
@@ -231,11 +231,11 @@ Inheritance is a way to create a class as a specialized version of one or more c
     alert(student1 instanceof Person); // true
     alert(student1 instanceof Student); // true
 
-#### Encapsulation
+#### <span>Encapsulation</span>
 
 In the previous example, `Student` does not need to know how the `Person` class's `walk()` method is implemented, but still can use that method; the `Student` class doesn't need to explicitly define that method unless we want to change it. This is called **encapsulation**, by which every class inherits the methods of its parent and only needs to define things it wishes to change.
 
-#### Abstraction
+#### <span>Abstraction</span>
 
 Abstraction is a mechanism that permits modeling the current part of the working problem. This can be achieved by inheritance (specialization), or composition. JavaScript achieves specialization by inheritance, and composition by letting instances of classes be the values of attributes of other objects.
 
@@ -245,11 +245,11 @@ The JavaScript Function class inherits from the Object class (this demonstrates 
     alert( 'foo is a Function: ' + (foo instanceof Function) );
     alert( 'foo.prototype is an Object: ' + (foo.prototype instanceof Object) );
 
-#### Polymorphism
+#### <span>Polymorphism</span>
 
 Just like all methods and properties are defined inside the prototype property, different classes can define methods with the same name; methods are scoped to the class in which they're defined. This is only true when the two classes do not hold a parent-child relation (when one does not inherit from the other in a chain of inheritance).
 
-## Notes
+## <span>Notes</span>
 
 The techniques presented in this article to implement object-oriented programming are not the only ones that can be used in JavaScript, which is very flexible in terms of how object-oriented programming can be performed.
 
@@ -257,17 +257,11 @@ Similarly, the techniques shown here do not use any language hacks, nor do they 
 
 There are other techniques that make even more advanced object-oriented programming in JavaScript, but those are beyond the scope of this introductory article.
 
-## References
+## <span>References</span>
 
-1.  Wikipedia. "Prototype-based programming", [http://en.wikipedia.org/wiki/Prototype-based\_programming](http://en.wikipedia.org/wiki/Prototype-based_programming)
+1.  Wikipedia. "Prototype-based programming", <http://en.wikipedia.org/wiki/Prototype-based_programming>
 
 <span id="Original_Document_Information">**Original Document Information**</span>
 
 -   Author(s): Fernando Trasviña \<f\_trasvina at hotmail dot com\>
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Introduction_to_Object-Oriented_JavaScript)
 

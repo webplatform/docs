@@ -1,24 +1,30 @@
 ---
 title: Float64Array
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212931(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'A typed array of 64-bit float values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'A typed array of 64-bit float values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 uri: javascript/Float64Array
 
 ---
-# Float64Array
-
-## Summary
+## <span>Summary</span>
 
 A typed array of 64-bit float values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     float64Array = new Float64Array( length );
 
+<span class="language">JavaScript</span>
+
     float64Array = new Float64Array( array );
+
+<span class="language">JavaScript</span>
 
     float64Array = new Float64Array( buffer , byteOffset , length );
 
@@ -40,11 +46,11 @@ A typed array of 64-bit float values. The contents are initialized to 0. If the 
 **length**
 :   The length of the array.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use a Float64Array object to process the binary data acquired from an XmlHttpRequest:
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -63,46 +69,32 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## Constants
+## <span>Constants</span>
 
 The following table lists the constants of the **Float64Array** object.
 
-Constant
-:   Description
-[BYTES\_PER\_ELEMENT Constant](/javascript/Float64Array/BYTES_PER_ELEMENT)
-:   The size in bytes of each element in the array.
+|Constant|Description|
+|:-------|:----------|
+|[BYTES\_PER\_ELEMENT Constant](/javascript/Float64Array/BYTES_PER_ELEMENT)|The size in bytes of each element in the array.|
 
-## Properties
+## <span>Properties</span>
 
 The following table lists the constants of the **Float64Array** object.
 
-Property
-:   Description
-[buffer Property](/javascript/Float64Array/byteLength)
-:   Read-only. Gets the ArrayBuffer that is referenced by this array.
-[byteLength Property](/javascript/Float64Array/byteLength)
-:   Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
-[byteOffset Property](/javascript/Float64Array/length)
-:   Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
-[length Property](/javascript/Float64Array/length)
-:   The length of the array.
+|Property|Description|
+|:-------|:----------|
+|[buffer Property](/javascript/Float64Array/byteLength)|Read-only. Gets the ArrayBuffer that is referenced by this array.|
+|[byteLength Property](/javascript/Float64Array/byteLength)|Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.|
+|[byteOffset Property](/javascript/Float64Array/length)|Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.|
+|[length Property](/javascript/Float64Array/length)|The length of the array.|
 
-## Methods
+## <span>Methods</span>
 
 The following table lists the methods of the **Float64Array** object.
 
-Method
-:   Description
-[get Method](/javascript/Float64Array/get)
-:   Omittable. Gets the element at the specified index.
-[set Method (Float64Array)](/javascript/Float64Array/set)
-:   Sets a value or an array of values.
-[subarray Method (Float64Array)](/javascript/Float64Array/subarray)
-:   Gets a new Float64Array view of the ArrayBuffer store for this array.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212931(v=vs.94).aspx)
+|Method|Description|
+|:-----|:----------|
+|[get Method](/javascript/Float64Array/get)|Omittable. Gets the element at the specified index.|
+|[set Method (Float64Array)](/javascript/Float64Array/set)|Sets a value or an array of values.|
+|[subarray Method (Float64Array)](/javascript/Float64Array/subarray)|Gets a new Float64Array view of the ArrayBuffer store for this array.|
 

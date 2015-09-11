@@ -1,73 +1,82 @@
 ---
 title: createTreeWalker
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Compatibility table'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Creates a TreeWalker object that you can use to traverse filtered lists of nodes or elements in a document.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Compatibility table'
-summary: 'Creates a TreeWalker object that you can use to traverse filtered lists of nodes or elements in a document.'
 uri: dom/Document/createTreeWalker
 
 ---
-# createTreeWalker
-
-## Summary
+## <span>Summary</span>
 
 Creates a TreeWalker object that you can use to traverse filtered lists of nodes or elements in a document.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var treeWalker = document.createTreeWalker(rootNode, whatToShow, filter, entityReferenceExpansion);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### rootNode
+### <span>rootNode</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The root element or node to start traversing on.
 
-### whatToShow
+### <span>whatToShow</span>
 
- Data-typeÂ
+ Data-type
 :   unsigned long
 
  The type of nodes or elements to appear in the node list. For more information, see [**whatToShow**](/dom/NodeIterator/whatToShow).
 
-### filter
+### <span>filter</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  A custom **NodeFilter** function to use. For more information, see [**filter**](/dom/NodeIterator/filter), or null for none.
 
-### entityReferenceExpansion
+### <span>entityReferenceExpansion</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether entity reference nodes are expanded. For more information, see [**expandEntityReferences**](/dom/NodeIterator/expandEntityReferences).
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 A [**TreeWalker**](/dom/TreeWalker) instanceÂ object.
 
-## Examples
+## <span>Examples</span>
 
 The following code example shows how to use [**TreeWalker**](/dom/TreeWalker) objects to find and remove references. The iterator returns all text nodes from the document **body** and searches for `Monday` in text and [**id**](/html/attributes/id) attributes of parent nodes. The script matches text by using the [**wholeText**](/dom/Text/wholeText) property of the node.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
  <head>
@@ -104,26 +113,17 @@ function refresh()
 </html>
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use the createTreeWalker method when you want to navigate a representation of the document's hierarchical structure. If you would rather traverse a sequence of nodes without regard to document structure, use createNodeIterator.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/traversal.html#Traversal-Document)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `createNodeIterator`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

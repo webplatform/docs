@@ -1,20 +1,21 @@
 ---
-title: styling svg with css
+title: Styling SVG with CSS
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/SVG_and_CSS)'
+readiness: 'Ready to Use'
+summary: 'This article covers the basics of styling SVG content with CSS.'
 tags:
   - Tutorials
   - CSS
-readiness: 'Ready to Use'
-summary: 'This article covers the basics of styling SVG content with CSS.'
 uri: 'tutorials/styling svg with css'
 
 ---
-# Styling SVG with CSS
-
-## Summary
+## <span>Summary</span>
 
 This article covers the basics of styling SVG content with CSS.
 
-### Information: SVG
+### <span>Information: SVG</span>
 
 *SVG* (Scalable Vector Graphics) is an XML-based language for creating graphics. It can be used for static images, and also for animations and user interfaces.
 
@@ -28,7 +29,7 @@ At the time of writing (mid 2011), most modern browsers have basic support for S
 
 You can add SVG support to other versions by installing a plugin such as the one provided by [Adobe](http://www.adobe.com).
 
-### Action: An SVG demonstration
+### <span>Action: An SVG demonstration</span>
 
 1.  Make a new SVG document as a plain text file, `doc8.svg`. Copy and paste the content from here, making sure that you scroll to get all of it:
 
@@ -185,15 +186,8 @@ Notes:
 -   The SVG document links the styesheet in the usual way.
 -   SVG has its own CSS properties and values. Some of them are similar to CSS properties for HTML.
 
-## See also
+## <span>See also</span>
 
-## Exercise question
+## <span>Exercise question</span>
 
 Change the stylesheet so that the inner petals all turn pink when the mouse pointer is over any one of them, without changing the way the outer petals work.
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/SVG_and_CSS)
-

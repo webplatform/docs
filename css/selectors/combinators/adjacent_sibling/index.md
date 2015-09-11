@@ -1,27 +1,27 @@
 ---
 title: adjacent sibling
-tags:
-  - CSS
-  - Selectors
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/8928240'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'This is referred to as an adjacent selector. It will select only the element that is immediately preceded by the former element.'
-code_samples:
-  - 'http://gist.github.com/8928240'
+tags:
+  - CSS
+  - Selectors
 uri: 'css/selectors/combinators/adjacent sibling'
 
 ---
-# adjacent sibling
-
-## Summary
+## <span>Summary</span>
 
 This is referred to as an adjacent selector. It will select only the element that is immediately preceded by the former element.
 
  An adjacent sibling combinator selects an element that appears directly after a specified sibling element. It is created by placing a plus sign (+) between two simple selectors. For example [li](/html/elements/li) + [li](/html/elements/li) will select a [list item](/html/elements/li) directly following another, sibling [list item](/html/elements/li).
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 li + li {
   border-left: 1px solid #333;
 }
@@ -29,37 +29,28 @@ li + li {
 
 [View live example](http://code.webplatform.org/gist/8928240)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The adjacent sibling combinator is a "plus sign" (+) character that separates two simple selectors. Whitespace is not significant. A selector of the form "E+F" matches element F when it immediately follows sibling element E in the document tree, ignoring non-element nodes (such as text nodes and comments). Element E and F must share the same parent and E must immediately precede F. To match the first child of the parent, use the :first-child pseudo-class. **Note**  Requires Windows Internet Explorer 7 or later. **Note**  Combinators are not supported in webpages that are displayed in the Microsoft Internet Explorer 5 document mode (also known as "Quirks" mode). To use attribute selectors, add a [!DOCTYPE](/html/elements/!DOCTYPE) directive that specifies a standards-based document. For more information, see [Defining Document Compatibility](http://go.microsoft.com/fwlink/p/?LinkID=125785).
 
-### Syntax
+### <span>Syntax</span>
 
 `first+second { ... }`
 
-### Parameters
+### <span>Parameters</span>
 
 *first*
 :   A CSS simple selector.
 *second*
 :   A CSS simple selector.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 5.7
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 2 Specification](http://www.w3.org/TR/CSS2/)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,72 +1,72 @@
 ---
 title: hasFeature
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'general clean-up/more description'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Implementation
+    href: /dom/Implementation
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /dom/Implementation
+standardization_status: 'W3C Recommendation'
+summary: 'Returns whether a specific DOM standard is implemented.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'general clean-up/more description'
-summary: 'Returns whether a specific DOM standard is implemented.'
 uri: dom/Implementation/hasFeature
 
 ---
-# hasFeature
-
-## Summary
+## <span>Summary</span>
 
 Returns whether a specific DOM standard is implemented.
 
-*Method of [dom/Implementation](/dom/Implementation)*
+Method of [dom/Implementation](/dom/Implementation)[dom/Implementation](/dom/Implementation)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var featureImplemented = implementation.hasFeature(feature, version);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### feature
+### <span>feature</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the standard. Case insensitive.
 
-### version
+### <span>version</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The version number of the standard.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
 Whether the feature is implemented.
 
-## Examples
+## <span>Examples</span>
 
 The following example uses the **hasFeature** method to test whether the object implements the DOM HTML standard.
 
-``` {.js}
+``` js
 var featureImplemented = document.implementation.hasFeature("HTML", "1.0");
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

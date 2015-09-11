@@ -1,73 +1,82 @@
 ---
 title: createNodeIterator
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat table'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Creates a NodeIterator object that you can use to traverse filtered lists of nodes or elements in a document.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat table'
-summary: 'Creates a NodeIterator object that you can use to traverse filtered lists of nodes or elements in a document.'
 uri: dom/Document/createNodeIterator
 
 ---
-# createNodeIterator
-
-## Summary
+## <span>Summary</span>
 
 Creates a NodeIterator object that you can use to traverse filtered lists of nodes or elements in a document.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var nodeIterator = document.createNodeIterator(rootNode, whatToShow, filter, expandEntityReference);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### rootNode
+### <span>rootNode</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The root element or node to start traversing on.
 
-### whatToShow
+### <span>whatToShow</span>
 
- Data-typeÂ
+ Data-type
 :   unsigned long
 
  The type of nodes or elements to appear in the node list. For more information, see [**whatToShow**](/dom/NodeIterator/whatToShow).
 
-### filter
+### <span>filter</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  A custom NodeFilter function to use. For more information, see [**filter**](/dom/NodeIterator/filter). Use null for no filter.
 
-### expandEntityReference
+### <span>expandEntityReference</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether entity reference nodes are expanded. For more information, see [**expandEntityReferences**](/dom/NodeIterator/expandEntityReferences).
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 A [**NodeIterator**](/dom/NodeIterator)Â instance object.
 
-## Examples
+## <span>Examples</span>
 
 The following code example shows how to use [**NodeIterator**](/dom/NodeIterator) objects to find and remove references. The iterator returns all text nodes from the document **body** and searches for `Monday` in text and [**id**](/html/attributes/id) attributes of parent nodes. The script matches text by using the [**wholeText**](/dom/Text/wholeText) object of the node.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
  <head>
@@ -104,20 +113,11 @@ function refresh()
 </html>
 ```
 
-## Notes
+## <span>Notes</span>
 
 Use the **createNodeIterator** method when you want to focus on node content because [**NodeIterator**](/dom/NodeIterator) traverses a flat list of nodes in the document structure.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/traversal.html#Traversal-Document)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,48 +1,53 @@
 ---
 title: appendBuffer
+attributions:
+  - 'Microsoft Developer Network.'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/media_source_extensions/MediaSource
+    href: /apis/media_source_extensions/MediaSource
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Appends the specified media segment to the SourceBuffer.'
 tags:
   - API
   - Object
   - Methods
   - Media
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Appends the specified media segment to the SourceBuffer.'
 uri: 'apis/media source extensions/MediaSource/appendBuffer'
 
 ---
-# appendBuffer
-
-## Summary
+## <span>Summary</span>
 
 Appends the specified media segment to the SourceBuffer.
 
-*Method of [apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)*
+Method of [apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)[apis/media\_source\_extensions/MediaSource](/apis/media_source_extensions/MediaSource)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  SourceBuffer.appendBuffer(data);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### data
+### <span>data</span>
 
- Data-typeÂ
+ Data-type
 :   VARIANT
 
  Type: ArrayBuffer. The media segment to append
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 This example uses XMLHttpRequest to get a segment of video (range) from a file (url) and appends it to the current sourceBuffer.
 
-``` {.js}
+``` js
 
 
 //  Load video's initialization segment
@@ -84,26 +89,22 @@ videoSource.removeEventListener("update", updateFunct);
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Media Source Extensions](http://www.w3.org/TR/media-source/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multimedia
+#### <span>Multimedia</span>
 
 -   [Track ended](/apis/MediaStream/ended)
 
 -   [MediaSource](/apis/media_source_extensions/MediaSource)
 
 -   **appendBuffer**
-
--   [VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
@@ -118,10 +119,3 @@ Specification
 -   [img](/html/elements/img)
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network.
-

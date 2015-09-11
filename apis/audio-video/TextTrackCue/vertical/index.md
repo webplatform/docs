@@ -1,39 +1,48 @@
 ---
 title: vertical
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/audio-video/TextTrackCue
+    href: /apis/audio-video/TextTrackCue
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/audio-video/TextTrackCue
+standardization_status: 'W3C Editor''s Draft'
+summary: 'A string representing the text track cue writing direction, as follows. If it is horizontal: The empty string. If it is vertical growing left: The string &quot;rl&quot;. If it is vertical growing right: The string &quot;lr&quot;.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'A string representing the text track cue writing direction, as follows. If it is horizontal: The empty string. If it is vertical growing left: The string "rl". If it is vertical growing right: The string "lr".'
 uri: apis/audio-video/TextTrackCue/vertical
 
 ---
-# vertical
+## <span>Summary</span>
 
-## Summary
+A string representing the text track cue writing direction, as follows. If it is horizontal: The empty string. If it is vertical growing left: The string &quot;rl&quot;. If it is vertical growing right: The string &quot;lr&quot;.
 
-A string representing the text track cue writing direction, as follows. If it is horizontal: The empty string. If it is vertical growing left: The string "rl". If it is vertical growing right: The string "lr".
+Property of [apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/TextTrackCue](/apis/audio-video/TextTrackCue)</span></span>
+## <span>Syntax</span>
 
-## Syntax
-
-``` {.js}
+``` js
 var result = TextTrackCue.vertical;
 TextTrackCue.vertical = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //. . .
 var myTrack = document.getElementById("entrack").track; // get text track from track element
 var myCues = myTrack.cues;   // get list of cues
@@ -44,20 +53,11 @@ myCues[i].vertical = "lr";
 //. . .
 ```
 
-## Usage
+## <span>Usage</span>
 
      "Horizontal" writing direction means a text line extends horizontally and is positioned vertically, with consecutive lines displayed below each other. "Vertical growing left" means a text line extends vertically and is positioned horizontally, with consecutive lines displayed to the left of each other. "Vertical growing right" means a text line extends vertically and is positioned horizontally, with consecutive lines displayed to the right of each other.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

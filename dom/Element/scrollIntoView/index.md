@@ -1,31 +1,34 @@
 ---
 title: scrollIntoView
+notes:
+  - 'Needs examples, spec, and compat'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+summary: 'Scrolls the page to the point where the element shows up.'
 tags:
   - API
   - Object
   - Methods
-readiness: 'In Progress'
-notes:
-  - 'Needs examples, spec, and compat'
-summary: 'Scrolls the page to the point where the element shows up.'
 uri: dom/Element/scrollIntoView
 
 ---
-# scrollIntoView
-
-## Summary
+## <span>Summary</span>
 
 Scrolls the page to the point where the element shows up.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  element.scrollIntoView();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 

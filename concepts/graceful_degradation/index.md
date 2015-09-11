@@ -1,18 +1,16 @@
 ---
-title: graceful degradation
+title: Graceful Degradation
+notes:
+  - "* Needs topics like \"concept\" or \"methodology\".\n Code-Block in second example doesn't work as expected (some lines missing: source tags doen't show up)"
+readiness: 'In Progress'
+summary: 'Graceful degradation, also known as Fault tolerance is a concept of building a web site or application so it provides a good level of user experience in modern browsers.'
 tags:
   - Concept
   - Pages
-readiness: 'In Progress'
-notes:
-  - "* Needs topics like \"concept\" or \"methodology\".\n Code-Block in second example doesn't work as expected (some lines missing: source tags doen't show up)"
-summary: 'Graceful degradation, also known as Fault tolerance is a concept of building a web site or application so it provides a good level of user experience in modern browsers.'
 uri: 'concepts/graceful degradation'
 
 ---
-# Graceful Degradation
-
-## Summary
+## <span>Summary</span>
 
 Graceful degradation, also known as Fault tolerance is a concept of building a web site or application so it provides a good level of user experience in modern browsers.
 
@@ -24,13 +22,13 @@ Graceful degradation, also known as Fault tolerance is a concept of building a w
 
 You start creating your website or web-application with the use of features that are available in the latest generation of modern browsers. Thereafter, have a look on older browsers and systems and start creating fallbacks by using [polyfills](/concepts/polyfill) or other workarounds.
 
-## Examples
+## <span>Examples</span>
 
 **Definition of Done:** Create a videoplayer that is working on IE6 up to IE10.
 
 Cause you trust the approach of GD, you prefer the HTML5 `<video>` tag over Flash as your entry point. Now your videoplayer works well on IE9 & 10. You need to create a fallback for IE6-8, that does not support HTML5Video. You'll now create another instance of your player based on Flash, which is a graceful replacement of your HTML5 player.
 
-``` {.html}
+``` html
 <video>
 
 
@@ -45,10 +43,9 @@ Cause you trust the approach of GD, you prefer the HTML5 `<video>` tag over Flas
 
 </pre>
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [W3C: Graceful degredation versus progressive enhancement](http://www.w3.org/wiki/Graceful_degredation_versus_progressive_enhancement)
 -   [Wikipedia: Fault tolerance](http://en.wikipedia.org/wiki/Fault_tolerance)
-

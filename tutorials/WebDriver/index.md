@@ -1,49 +1,47 @@
 ---
 title: WebDriver
-tags:
-  - Tutorials
 readiness: 'Ready to Use'
 summary: 'Basic tutorial on how to use WebDriver to test web documents without using a service or 3rd party software'
+tags:
+  - Tutorials
 uri: tutorials/WebDriver
 
 ---
-# WebDriver
-
-## Summary
+## <span>Summary</span>
 
 Basic tutorial on how to use WebDriver to test web documents without using a service or 3rd party software
 
-## WebDriver in a nutshell
+## <span>WebDriver in a nutshell</span>
 
 WebDriver is a [W3C editors draft](https://dvcs.w3.org/hg/webdriver/raw-file/default/webdriver-spec.html) for writing automated tests of websites. It aims to mimic the behaviour of a real user, and as such interacts with the HTML of the application.
 
 All implementations of WebDriver that communicate with the browser use the [JSON WireProtocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol). This wire protocol defines a RESTful web service using JSON over HTTP.
 
-## Real world support
+## <span>Real world support</span>
 
 All browser vendors except of Apple are committed to the WebDriver standard. Although not all browsers provide out of the box support for it, or implement the [JSON WireProtocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol) as documented.
 
-### Microsoft Internet Explorer
+### <span>Microsoft Internet Explorer</span>
 
 Microsoft has Support for WebDriver via an external binary, the so called [Internet Explorer Driver](https://code.google.com/p/selenium/wiki/InternetExplorerDriver) acts as a RESTful web server and instruments the browser using the non public debug API. The driver is compatible with the Internet Explorer versions 6 to 10, for IE 12 there are rumors that the WebDriver API will be brought natively to the browsers, without the need of an external binary.
 
-### Google Chrome
+### <span>Google Chrome</span>
 
 Google provides support for WebDriver in the same manor as Microsoft does, using an external library called [Chromedriver](https://code.google.com/p/selenium/wiki/ChromeDriver), and like the Internet Explorer Driver, it acts as "man in the middle" to translate RESTful requests into something the browser understands. Due to the fast update path of the Chrome browser, the browser compatibility is in constant flux, but it's fairly save to say that the past three browser versions are support by the current driver binary.
 
-### Mozilla Firefox
+### <span>Mozilla Firefox</span>
 
 Unfortunately Mozilla does not adhere to the WebDriver standard, but instead supports a homegrown [raw TCP socket](http://en.wikipedia.org/wiki/Transmission_Control_Protocol) based testing Framework called [Marionette](https://developer.mozilla.org/en-US/docs/Mozilla/QA/Marionette), which fortunately is designed to be pretty close the the WebDriver spec. It was shipped in the stable builds beginning with Firefox version 24, but itself isn't stable & the API is in constant flux.
 
-### PhantomJS
+### <span>PhantomJS</span>
 
 PhantomJS, the [headless](http://blog.arhg.net/2009/10/what-is-headless-browser.html) browser based on the WebKit rendering engine & JavaScriptCore javascript engine contains a WebDriver implementation named [Ghostdriver](https://github.com/detro/ghostdriver) that is nearly spec compliant. Ghostdriver is shipped bundled with PhantomJS since version 1.8.
 
-### Mobile Browsers
+### <span>Mobile Browsers</span>
 
 Mobile browsers and operation systems do not contain an native WebDriver implementation (with the exception of the FirefoxOS debug builds containing Marionette); the [Appium](http://appium.io/) project tries to fill the gap by acting as a WebDriver server for Mobile Chrome, Mobile Safari & Firefox OS.
 
-## Setup
+## <span>Setup</span>
 
 For our basic test setup, we use [PhantomJS](http://phantomjs.org/) as the system we want to test & Chrome as our host system which will control PhantomJS remotely. The installation of PhantomJS is straight forward, just download it from [here](http://phantomjs.org/download.html) & you should have the `phantomjs` binary (or the `phantomjs.exe` if you're on windows) ready.
 
@@ -77,7 +75,7 @@ To finally check if our setup is up & running, navigate to `localhost:8080`, you
 
 ` Unknown Command - Request => {"headers":{"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,/;q=0.8","Accept-Encoding":"gzip,deflate,sdch","Accept-Language":"en-US,en;q=0.8,de;q=0.6","Connection":"keep-alive","Host":"localhost:8080","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 1092) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36"},...]`
 
-## Connecting to the remote browser
+## <span>Connecting to the remote browser</span>
 
 Next step is to connect our PhantomJS based server with the JavaScript code we will run in our Chrome client instance. Lets start by creating a simple webpage that will be the host of our tests:
 
@@ -120,7 +118,7 @@ The output should be something like this:
 
 We now connected Chrome & PhantomJS, time to extend our basic HTML page to obtain a WebDriver session, open up a webpage we want to test & read out the title of that one.
 
-## Browser, I command you
+## <span>Browser, I command you</span>
 
 If we want to grab the title of the Webplatform Wiki main page located at `http://docs.webplatform.org/wiki/Main_Page`, we need to take three steps to make that happen:
 
@@ -128,7 +126,7 @@ If we want to grab the title of the Webplatform Wiki main page located at `http:
 -   Second, we need to tell the remote Webdriver which URL we want to navigate to
 -   Third and last, we need to tell the remote Webdriver which data we want, in our case, that we want the `title`
 
-### Obtain a session
+### <span>Obtain a session</span>
 
 As said, first we need to ask the remote Webdriver instance to start a new session for us, this is needed because a remote Webdriver instance can be requested from different clients at the same time & we it needs to hold some state like which URL we are currently on for example.
 
@@ -159,7 +157,7 @@ A function that would do this request would look like this:
       request.send(JSON.stringify({desiredCapabilities: {browserName: 'phantomjs', version: '', platform: 'ANY'}}));
     };
 
-### Open the URL
+### <span>Open the URL</span>
 
 After we obtained the session, we need to tell remote browser which URL we want to open. We can do this by issuing another `POST` request to the [/url](https://code.google.com/p/selenium/wiki/JsonWireProtocol#/session/:sessionId/url) method. The pattern here is always the same, if we want the remote browser to do something, like navigating to a page, clicking an element, etc., we make a `POST` request, if we want to retrieve data, we make a `GET` request.
 
@@ -183,7 +181,7 @@ If we transform the request into code, it looks like this:
 
 Note that we need to send the sessionId, we received in the last request, with the request as a part of the URL. The address of the page we want to open needs to be transferred as a part of the request body.
 
-### Grab the title
+### <span>Grab the title</span>
 
 Now that we know how we can control the remote browser instance, lets see how we can receive some data. As said, we want to know the title of the Webplatform.org main wiki page. In order to do so, we need to request the [/title](https://code.google.com/p/selenium/wiki/JsonWireProtocol#/session/:sessionId/title) method, and as we want to receive some data, it is a `GET` request this time.
 
@@ -205,7 +203,7 @@ We also need to send the session with us (which makes sense, otherwise the Webdr
         request.send();
     };
 
-### Display title & close the session
+### <span>Display title & close the session</span>
 
 So, as we have coded our three functions to get a session, open an URL & request the page title, it is time to glue them all together and have some fun. I hope you noticed that every of our functions above takes an argument called `cb`. `cb` is short for `callback` & describes a function that should be invoked after the work in the previously called function is done, in our case, if the request is finished.
 
@@ -264,7 +262,7 @@ The function to do this, looks like so:
       request.send();
     };
 
-## Summary
+## <span>Summary</span>
 
 To sum it up, the complete code looks like this:
 
@@ -360,7 +358,7 @@ To sum it up, the complete code looks like this:
 
 I encourage you to take this as a foundation, to play around with & to gain even more and deeper knowledge on how Webdriver works.
 
-## Further reading & tooling
+## <span>Further reading & tooling</span>
 
 -   [W3C editors draft](https://dvcs.w3.org/hg/webdriver/raw-file/default/webdriver-spec.html) - The W3Cs specification document on Webdriver
 -   [JSON WireProtocol](https://code.google.com/p/selenium/wiki/JsonWireProtocol) - The JSON WireProtocol specification

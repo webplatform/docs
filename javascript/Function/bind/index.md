@@ -1,20 +1,22 @@
 ---
 title: bind
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff841995(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'For a given function, creates a bound function that has the same body as the original function. In the bound function, the this object resolves to the passed in object. The bound function has the specified initial parameters.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'For a given function, creates a bound function that has the same body as the original function. In the bound function, the this object resolves to the passed in object. The bound function has the specified initial parameters.'
 uri: javascript/Function/bind
 
 ---
-# bind
-
-## Summary
+## <span>Summary</span>
 
 For a given function, creates a bound function that has the same body as the original function. In the bound function, the this object resolves to the passed in object. The bound function has the specified initial parameters.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     function.bind( thisArg [, arg1 [, arg2 [, argN ]]])
 
@@ -27,15 +29,15 @@ For a given function, creates a bound function that has the same body as the ori
 **arg1 [, arg2 [, argN ]]]**
 :   Optional. A list of arguments to be passed to the new function.
 
-## Return Value
+## <span>Return Value</span>
 
 A new function that is the same as the function function, except for the thisArg object and the initial arguments.
 
-## Examples
+## <span>Examples</span>
 
 The following code shows how to use the **bind** method.
 
-``` {.js}
+``` js
 // Define the original function.
  var checkNumericRange = function (value) {
      if (typeof value !== 'number')
@@ -59,7 +61,7 @@ The following code shows how to use the **bind** method.
 
 In the following example, the thisArg object is different from the object that contains the original method.
 
-``` {.js}
+``` js
 // Create an object that contains the original function.
  var originalObject = {
      minimum: 50,
@@ -91,7 +93,7 @@ In the following example, the thisArg object is different from the object that c
 
 The following code shows how to use the arg1[,arg2[,argN]]] arguments. The bound function uses the parameters specified in the **bind** method as the first and second parameters. Any parameters specified when the bound function is called are used as the third, fourth (and so on) parameters.
 
-``` {.js}
+``` js
 // Define the original function with four parameters.
  var displayArgs = function (val1, val2, val3, val4) {
      document.write(val1 + " " + val2 + " " + val3 + " " + val4);
@@ -109,20 +111,14 @@ The following code shows how to use the arg1[,arg2[,argN]]] arguments. The bound
  // Output: 12 a b c
 ```
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the specified function is not a function, a **TypeError** exception is thrown.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Function Object](/javascript/Function)
 -   [filter Method (Array)](/javascript/Array/filter)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff841995(v=vs.94).aspx)
 

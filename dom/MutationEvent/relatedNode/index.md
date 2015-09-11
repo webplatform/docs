@@ -1,55 +1,63 @@
 ---
 title: relatedNode
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Mutation Events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Mutation_events) Article]'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/MutationEvent
+    href: /dom/MutationEvent
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/MutationEvent
+standardization_status: Deprecated
+summary: 'Gets a second node related to a mutation event.'
 tags:
   - API
   - Object
   - Properties
   - DOM
   - DOMEvents
-readiness: 'Ready to Use'
-standardization_status: Deprecated
-summary: 'Gets a second node related to a mutation event.'
 uri: dom/MutationEvent/relatedNode
 
 ---
-# relatedNode
-
-## Summary
+## <span>Summary</span>
 
 Gets a second node related to a mutation event.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/MutationEvent](/dom/MutationEvent)</span></span>
+Property of [dom/MutationEvent](/dom/MutationEvent)[dom/MutationEvent](/dom/MutationEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var relatedNode = event.relatedNode;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 The second node related to the event.
 
-## Notes
+## <span>Notes</span>
 
 In a `DOMAttrModified` event, the related node is the attribute node that is being modified. In a `DOMNodeInserted` or `DOMNodeRemoved` event, the related node is the parent node of the event target.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Deprecated
+#### <span>Deprecated</span>
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -80,12 +88,3 @@ Specification
 -   [escape](/javascript/escape)
 
 -   [unescape](/javascript/unescape)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Mutation Events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Mutation_events) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

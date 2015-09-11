@@ -1,6 +1,5 @@
 ---
-title: changed obsolete elements
-uri: 'html/html5/changed obsolete elements'
+title: Elements changed or obsolete in HTML5
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -8,11 +7,10 @@ todo_broken_links:
     - html/elements/frameset
     - html/elements/isindex
     - html/elements/noframes
+uri: 'html/html5/changed obsolete elements'
 
 ---
-# Elements changed or obsolete in HTML5
-
-## Changed Elements
+## <span>Changed Elements</span>
 
 There are 11 elements that were changed in HTML5:
 
@@ -28,7 +26,7 @@ There are 11 elements that were changed in HTML5:
 -   **[s](/html/elements/s):** struck text
 -   **[u](/html/elements/u):** offset text conventionally styled with an underline
 
-## Obsolete Elements
+## <span>Obsolete Elements</span>
 
 Several existing elements were declared obsolete in HTML5, though for the sake of completeness and handling legacy content, they are still defined in the specification. However, authors should not use these elements.
 

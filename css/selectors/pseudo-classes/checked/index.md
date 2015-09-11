@@ -1,42 +1,44 @@
 ---
 title: :checked
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs description, example, remove topic cluster flags'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The :checked selector applies to toggable elements (e.g. radio buttons or checkboxes) that are toggled on.'
 tags:
   - CSS
   - Selectors
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs description, example, remove topic cluster flags'
-summary: 'The :checked selector applies to toggable elements (e.g. radio buttons or checkboxes) that are toggled on.'
-uri: 'css/selectors/pseudo-classes/:checked'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: 'css/selectors/pseudo-classes/:checked'
 
 ---
-# :checked
-
-## Summary
+## <span>Summary</span>
 
 The :checked selector applies to toggable elements (e.g. radio buttons or checkboxes) that are toggled on.
 
-## Examples
+## <span>Examples</span>
+
+``` html
+
+```
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.6.4.2
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Selectors Level 3](http://www.w3.org/TR/selectors/#checked)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pseudo-Classes
+#### <span>Pseudo-Classes</span>
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -88,7 +90,7 @@ Specification
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -164,16 +166,9 @@ Specification
 
 -   [type](/css/selectors/type)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `:enabled`
 -   `:disabled`
 -   `:indeterminate`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

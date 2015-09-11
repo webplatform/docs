@@ -1,41 +1,52 @@
 ---
 title: layout-flow
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, example, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': ''
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Add summery, example, specifications, compatibility.'
 uri: css/properties/layout-flow
 
 ---
-# layout-flow
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
-:   ``
+:
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
 
-## Syntax
+## <span>Syntax</span>
 
--   `layout-flow: horizontal`
--   `layout-flow: vertical-ideographic`
-
-## Values
+## <span>Values</span>
 
 horizontal
 :   Default. Content in the object flows from left to right, and the next horizontal line is positioned underneath the previous line. This layout is used in most Roman-based documents.
@@ -45,31 +56,27 @@ vertical-ideographic
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Windows Internet Explorer 8. The **-ms-layout-flow** attribute is an extension to CSS, and can be used as a synonym for **layout-flow** in IE8 Standards mode. This is a deprecated property; use the [**-ms-writing-mode**](/css/properties/writing-mode) property instead. This property is read-only for the .
 
-### Syntax
+### <span>Syntax</span>
 
 `-ms-layout-flow: horizontal | vertical-ideographic`
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
 -   [font-language-override](/css/properties/font-language-override)
 
 -   [font-size](/css/properties/font-size)
-
--   [font-synthesis](/css/properties/font-synthesis)
-
--   [hanging-punctuation](/css/properties/hanging-punctuation)
 
 -   [hyphenate-limit-chars](/css/properties/hyphenate-limit-chars)
 
@@ -80,8 +87,6 @@ Windows Internet Explorer 8. The **-ms-layout-flow** attribute is an extension 
 -   [hyphens](/css/properties/hyphens)
 
 -   [ime-mode](/css/properties/ime-mode)
-
--   **layout-flow**
 
 -   [layout-grid](/css/properties/layout-grid)
 
@@ -95,25 +100,11 @@ Windows Internet Explorer 8. The **-ms-layout-flow** attribute is an extension 
 
 -   [letter-spacing](/css/properties/letter-spacing)
 
--   [line-break](/css/properties/line-break)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
-
 -   [text-overflow-ellipsis](/css/properties/text-overflow-ellipsis)
 
 -   [text-overflow-mode](/css/properties/text-overflow-mode)
 
 -   [text-rendering](/css/properties/text-rendering)
-
--   [text-underline-position](/css/properties/text-underline-position)
-
--   [text-underline-style](/css/properties/text-underline-style)
-
--   [text-underline-width](/css/properties/text-underline-width)
-
--   [user-input](/css/properties/user-input)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -159,7 +150,7 @@ Windows Internet Explorer 8. The **-ms-layout-flow** attribute is an extension 
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -169,10 +160,3 @@ Windows Internet Explorer 8. The **-ms-layout-flow** attribute is an extension 
 -   `-ms-writing-mode`
 -   `Other Resources`
 -   `International Layout in CSS`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

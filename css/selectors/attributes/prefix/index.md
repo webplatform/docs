@@ -1,65 +1,67 @@
 ---
 title: prefix
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status, remove topic cluster flags'
+readiness: 'In Progress'
 tags:
   - CSS
   - Selectors
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status, remove topic cluster flags'
-uri: css/selectors/attributes/prefix
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: css/selectors/attributes/prefix
 
 ---
-# prefix
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Examples
+## <span>Examples</span>
 
 The following style rule selects any element with an "attr" attribute whose value begins with "B".
 
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <style type="text/css">
-          .test       { display:none; }
-          [attr^="B"] { display:block; }
-        </style>
-      </head>
-      <body>
-        <div class="test" attr="Blue">Test for [^=] (Prefix) succeeded.</div>
-      </body>
-    </html>
+``` html
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      .test       { display:none; }
+      [attr^="B"] { display:block; }
+    </style>
+  </head>
+  <body>
+    <div class="test" attr="Blue">Test for [^=] (Prefix) succeeded.</div>
+  </body>
+</html>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note**  Requires Windows Internet Explorer 7 or later. **Note**  Attribute selectors are not supported in webpages that are displayed in the Microsoft Internet Explorer 5 document mode (also known as "Quirks" mode). To use attribute selectors, add a [!DOCTYPE](/html/elements/!DOCTYPE) directive that specifies a standard-based document. For more information, see [Defining Document Compatibility](http://go.microsoft.com/fwlink/p/?LinkID=125785). Attributes are case-sensitive.
 
-### Syntax
+### <span>Syntax</span>
 
 `<strong/> [att^=val] {...}`
 
-### Parameters
+### <span>Parameters</span>
 
 *att*
 :   Must be either an Identifier or a String.
 *val*
 :   Must be either an Identifier or a String.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Selectors Level 3](http://go.microsoft.com/fwlink/p/?linkid=199783), Section 6.3
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Attributes
+#### <span>CSS Attributes</span>
 
 -   [background-blend-mode](/css/properties/background-blend-mode)
 
@@ -97,7 +99,7 @@ The following style rule selects any element with an "attr" attribute whose valu
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -172,10 +174,3 @@ The following style rule selects any element with an "attr" attribute whose valu
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   [type](/css/selectors/type)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

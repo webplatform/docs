@@ -1,37 +1,44 @@
 ---
 title: styleSheets
+notes:
+  - 'Needs spec reference, usage, example'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/shadowdom/ShadowRoot
+    href: /dom/shadowdom/ShadowRoot
+  return:
+    predicate: 'Returns an object of type '
+    value: StyleSheetList
+    href: /dom/shadowdom/ShadowRoot
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Represents the shadow root style sheets.'
 tags:
   0: API
   1: Object
   2: Properties
   4: DOM
   5: Shadow
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Needs spec reference, usage, example'
-summary: 'Represents the shadow root style sheets.'
 uri: dom/shadowdom/ShadowRoot/styleSheets
 
 ---
-# styleSheets
-
-## Summary
+## <span>Summary</span>
 
 Represents the shadow root style sheets.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)</span></span>
+Property of [dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)[dom/shadowdom/ShadowRoot](/dom/shadowdom/ShadowRoot)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.styleSheets;
 element.styleSheets = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">StyleSheetList</span></span>
+Returns an object of type StyleSheetListStyleSheetList
 
 On getting, the attribute must return a StyleSheetList sequence containing the shadow root style sheets.
 

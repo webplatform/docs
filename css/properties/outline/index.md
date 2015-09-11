@@ -1,16 +1,27 @@
 ---
 title: outline
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-summary: "The CSS outline property is a shorthand property for setting one or more of the individual outline properties outline-style, outline-width and outline-color in a single rule. In most cases the use of this shortcut is preferable and more convenient.\n"
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   0: 'http://gist.github.com/5546931'
   2: 'http://gist.github.com/5546728'
   3: 'http://gist.github.com/5547019'
   5: 'http://gist.github.com/5547072'
-uri: css/properties/outline
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`see individual properties`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'see individual properties'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`outline`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+summary: "The CSS outline property is a shorthand property for setting one or more of the individual outline properties outline-style, outline-width and outline-color in a single rule. In most cases the use of this shortcut is preferable and more convenient.\n"
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -73,11 +84,14 @@ todo_broken_links:
     - css/properties/outline/zh-hans
     - css/properties/outline/zh-hant
     - css/properties/outline/zh-tw
+translations:
+  sv:
+    text: svenska
+    href: /css/properties/outline/sv
+uri: css/properties/outline
 
 ---
-# outline
-
-## Summary
+## <span>Summary</span>
 
 The CSS outline property is a shorthand property for setting one or more of the individual outline properties outline-style, outline-width and outline-color in a single rule. In most cases the use of this shortcut is preferable and more convenient.
 
@@ -86,31 +100,38 @@ Outlines differ from [borders](/css/properties/border) in the following ways:
 -   Outlines do not take up space, they are drawn above the content.
 -   Outlines may be non-rectangular. They are rectangular in Gecko/Firefox. Internet Explorer attempts to place the smallest contiguous outline around all elements or shapes that are indicated to have an outline. Opera draws a non-rectangular shape around a construct.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `see individual properties`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   see individual properties
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `outline`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `outline: inherit`
 -   `outline: outline-color outline-style outline-width`
 
-## Values
+## <span>Values</span>
 
 outline-color outline-style outline-width
 :   The `outline` property can contain up to three components:
@@ -122,11 +143,11 @@ outline-color outline-style outline-width
 inherit
 :   This is a keyword indicating that the value is inherited from their parent's element calculated value.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing multiple **div**s, identical in style except that they have different **outline** properties applied to them.
 
-``` {.html}
+``` html
 <div class="one">I &hearts; WebPlatform.org!</div>
 <div class="two">I &hearts; WebPlatform.org!</div>
 <div class="three">I &hearts; WebPlatform.org!</div>
@@ -136,7 +157,7 @@ A simple example showing multiple **div**s, identical in style except that they 
 
 [View live example](http://code.webplatform.org/gist/5546931)
 
-``` {.css}
+``` css
 .one {
     /* The most basic border example you can show. */
     outline: 1px solid #000;
@@ -169,7 +190,7 @@ A simple example showing multiple **div**s, identical in style except that they 
 
 Even though the syntax of outline and border is similar they differ in the way they are drawn.
 
-``` {.css}
+``` css
 /* Outlines do not take up space, they are drawn above the content */
 .outline { outline: 10px solid #f00; }
 
@@ -181,7 +202,7 @@ Even though the syntax of outline and border is similar they differ in the way t
 
 An example of how outline and border behave when applied to an inline element spanning multiple lines.
 
-``` {.html}
+``` html
 <p>Web Platform Docs is a community-driven site that aims to become <span class="outline">a comprehensive and authoritative source for web developer documentation.</span></p>
 <p>Web Platform Docs is a community-driven site that aims to become <span class="border">a comprehensive and authoritative source for web developer documentation.</span></p>
 <p>Web Platform Docs is a community-driven site that aims to become <span class="outline border">a comprehensive and authoritative source for web developer documentation.</span></p>
@@ -189,7 +210,7 @@ An example of how outline and border behave when applied to an inline element sp
 
 [View live example](http://code.webplatform.org/gist/5547019)
 
-``` {.css}
+``` css
 /**
  * Outline vs Border on multiline text
  */
@@ -212,15 +233,15 @@ An example of how outline and border behave when applied to an inline element sp
 
 Browsers place an outline around the element that currently has focus.
 
-``` {.html}
+``` html
 <p>Press the TAB key to navigate through the links below and focus them.</p>
-<a href="http://webplatform.org%22>I &#9829; WebPlatform.org!</p>
-<a class="two" href="http://webplatform.org%22>I &hearts; WebPlatform.org!</p>
+<a href="http://webplatform.org">I &#9829; WebPlatform.org!</p>
+<a class="two" href="http://webplatform.org">I &hearts; WebPlatform.org!</p>
 ```
 
 [View live example](http://code.webplatform.org/gist/5547072)
 
-``` {.css}
+``` css
 /**
  * Outline, links and focus status
  */
@@ -248,24 +269,11 @@ a:hover {
 
 [View live example](http://code.webplatform.org/gist/5547072)
 
-## Notes
+## <span>Notes</span>
 
 Displaying an outline does not cause reflow, no matter how wide the outline is. The outline frame is drawn over an element, and does not influence the position or size of the box, or of any other boxes.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Basic User Interface Module Level 3 (CSS3 UI)](http://dev.w3.org/csswg/css-ui/#outline)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
-**Language:**
-:   ****English****  • <span lang="sv">[svenska](/css/properties/outline/sv)</span>

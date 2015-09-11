@@ -1,12 +1,12 @@
 ---
-title: ccessibility testing
+title: Accessibility testing
 tags:
   - Tutorials
   - WSC
 uri: 'Accessibility testing'
 
 ---
-## Introduction
+## <span>Introduction</span>
 
 Web accessibility testing is a subset of usability testing where the users under consideration have disabilities that affect how they use the web. The end goal, in both usability and accessibility, is to discover how easily people can use a web site and feed that information back into improving future designs and implementations.
 
@@ -31,7 +31,7 @@ Accessibility guidelines and tools help bridge these experience gaps. However, t
 
 In this article of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum), I will discuss approaches to evaluating web accessibility, both from the perspective of establishing formal compliance and from the perspective of maximizing accessibility.
 
-## When should testing be done?
+## <span>When should testing be done?</span>
 
 “Test early, test often” is an old software engineering saying. Tacking on testing at the end of the development process has two risks:
 
@@ -40,11 +40,11 @@ In this article of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Sta
 
 So to ensure quality and save time and money, accessibility evaluations should start right at the beginning of product design and be included in subsequent development iterations through to final delivery.
 
-## Understanding your requirements
+## <span>Understanding your requirements</span>
 
 Before you begin to evaluate a project for accessibility, you need to determine what the key requirements are for that project, given its environment, intended audience, and resources. Some requirements will be set by third parties like governments and clients; some you may be able to choose for yourself.
 
-### External requirements
+### <span>External requirements</span>
 
 Often requirements come from external sources, such as:
 
@@ -53,7 +53,7 @@ Often requirements come from external sources, such as:
 -   **Marketing utility**. Compliance with a particular standard, such as Section 508, might help sell a project to clients concerned about accessibility.
 -   **Internal accessibility policies at your organization**. For example, projects produced by the BBC need to comply with the [BBC's Accessibility Guidelines v1.3](http://www.bbc.co.uk/guidelines/futuremedia/accessibility/).
 
-### The details of conformance
+### <span>The details of conformance</span>
 
 It is important to get as much clarity about external requirements as possible. Some accessibility standards have more than one possible level or type of conformance, so it is particularly important to nail down which is required. For example, WCAG 1.0 has three conformance levels:
 
@@ -72,7 +72,7 @@ Note that within an intranet setting, you might be able to guarantee that such u
 
 WCAG 2.0 also allows more limited statements of conformance. An inaccessible resource can conform if an accessible alternative is provided. Publishers can make a statement of partial conformance where content is aggregated from other sources.
 
-### Exceeding expectations
+### <span>Exceeding expectations</span>
 
 Determining external requirements should only be the beginning of the process; they should be treated as a minimum set of requirements to which further goals should be added to maximize accessibility. As the person evaluating accessibility, it is your role to raise additional accessibility concerns, as you are the subject expert.
 
@@ -102,11 +102,11 @@ By contrast control, the criteria means that you should provide a way of changin
 
 WCAG 2.0 is being designed to have a high degree of backwards compatibility with other standards, especially WCAG 1.0 and Section 508.
 
-### The importance of the user interface
+### <span>The importance of the user interface</span>
 
 Consider the special importance of making the user interface of a web site accessible. Even if content is not available in a suitable form, an accessible user interface may help users identify content of interest and seek external help in converting it to a form they can use. For example, a hard-of-hearing individual might be pointed to a video of a talk on a video-sharing site without captions. Because the URL uniquely identifies that video and because they can still use the player to see the video however they could submit it to a third party, such as the free [Project readOn](http://www.projectreadon.com/) service, for captioning.
 
-### Personas with disabilities
+### <span>Personas with disabilities</span>
 
 An ideal approach is to build key disabilities for your project right into your other [user personas](http://www.usability.gov/analyze/personas.html): fictional users that act as archetypes for how particular types of users would use a web site. Let us say you are evaluating prototypes for a video sharing site and your personas include:
 
@@ -132,7 +132,7 @@ It shouldn’t need saying, but don’t assume people with disabilities are inte
 
 Again, comparing products against accessibility guidelines can help fill in the gaps that your personas do not cover. For example, perhaps you’re following WCAG 2.0 with the video sharing site, but your personas don’t include a user with epilepsy. Nonetheless, you read Guideline 2.3 (“Seizures: Do not design content in a way that is known to cause seizures”) and decide that the system needs to be able to screen uploaded videos for flashing before displaying them.
 
-### Choosing an accessibility standard
+### <span>Choosing an accessibility standard</span>
 
 If you need to choose an accessibility standard in order to manage web accessibility concerns across a team or in simply to guide you while testing, I’d advise looking at WCAG 2.0 because it:
 
@@ -146,7 +146,7 @@ If you need to choose an accessibility standard in order to manage web accessibi
 
 You can cite compliance with a specific draft of WCAG 2.0; for marketing purposes however it is best to also seek compliance with finished standards like Section 508 and WCAG 1.0 as well as that draft.
 
-### The spirit of the law
+### <span>The spirit of the law</span>
 
 When testing against guidelines, it’s important to keep in mind the underlying rationale for any specific technical guidance: to comply with the spirit, not just the letter, of the law.
 
@@ -164,7 +164,7 @@ WCAG 2.0 tries to be clearer. The [equivalent guideline](http://www.w3.org/TR/WC
 
 > The purpose of this guideline is to ensure that all non-text content is also available in text. “Text” refers to electronic text, not an image of text. Electronic text has the unique advantage that it is presentation neutral. That is, it can be rendered visually, auditorily, tactilely, or by any combination. As a result, information rendered in electronic text can be presented in whatever form best meets the needs of the user. It can also be easily enlarged, spoken in a voice that is easy to understand, or rendered in whatever tactile form best meets the needs of a user.
 
-## Who should test?
+## <span>Who should test?</span>
 
 There are basically two groups who conduct testing: experts and users.
 
@@ -176,7 +176,7 @@ A web developer who knows how to use a screen reader is unlikely to explore a si
 
 Knowledge gained in user testing is fed back into the expert testing process the next time testing is performed (either in another testing iteration on the same project, or a different project entirely). User testing also has a more subtle advantage. By humanizing accessibility and bringing developers together with end users, it can increase the motivation to build accessible websites.
 
-## Expert testing
+## <span>Expert testing</span>
 
 There are four components to expert testing:
 
@@ -189,7 +189,7 @@ While beginners may be especially dependent on tool-guided evaluation, evaluator
 
 Unfortunately, although there are lots of accessibility tools, most of them are flawed in one way or another. For example, one tool that lists headings in HTML documents makes the error of not including `alt` text from `img` elements. Just as you should keep the spirit of the law in mind with standards compliance, so you should keep it in mind when using tools. Before complaining to someone about an accessibility problem, make sure it is a genuine issue not a tool error.
 
-### Semi-automated accessibility checkers
+### <span>Semi-automated accessibility checkers</span>
 
 Once the first-glance problems have been fixed, a good next step is to throw the page at a semi-automated accessibility checker tool. If you are evaluating compliance with a particular standard, you will probably want to pick one that is designed for use with that standard.
 
@@ -201,7 +201,7 @@ Good tools inspect the page for accessibility problems and produce a list of thi
 
 Perhaps the biggest advantage of accessibility checkers is that if you choose one, such as [TAW 3](http://www.tawdis.net/), which can be run against multiple URLs, you can find pages in large collections that are likely to require closer inspection.
 
-### Structural inspectors
+### <span>Structural inspectors</span>
 
 Many inspection tools are designed to probe structures of web content. Structures, in simple terms, define what the components of a web site are and how they relate to one another. For example, in the HTML document object model (DOM), text can be designated as a label for a form field using the `label` element. Browsers parse the HTML into a document object model. The browser associates various behaviour with particular components. For example, if you click the label of a checkbox, it will normally get checked.
 
@@ -221,7 +221,7 @@ Not all content can be inspected with DOM or web accessibility inspectors. Inspe
 
 In general, you should check that all controls are exposed in the model with the appropriate role (eg text boxes are text boxes, buttons are buttons), and the necessary properties.
 
-### Screening and using end-user assistive technology
+### <span>Screening and using end-user assistive technology</span>
 
 Screening involves emulating the experiences of people with disabilities while testing. This might take the form of using assistive technology to interact with a site or attempting to restrict one's abilities in some manner. For example:
 
@@ -235,7 +235,7 @@ Using assistive technology is not a task to be taken lightly, since a good under
 
 Use of assistive technology needs to be accompanied by experience of how everyday users employ the technology and conclusions drawn from such use should ideally be confirmed with expert users. On the whole, beginners are better off leaving use of assistive technology to user testers.
 
-### Detailed inspection
+### <span>Detailed inspection</span>
 
 Once all genuine problems identified by your chosen checker tool have been fixed, you can move on to manual testing, probing, and review of the project.
 
@@ -248,7 +248,7 @@ WCAG 2.0 splits its best practice criterion into four principles. Content and fu
 
 In this section, I shall present some examples of how expert testers can evaluate how far content matches up to these principles. Please note this section is not intended as a substitute for a review of WCAG and its techniques.
 
-#### Perceivability
+#### <span>Perceivability</span>
 
 One subset of perceivability problems revolves around the provision of alternative media of various types. You can test for text equivalents by turning off images and multimedia in your browser and looking at the page. But you’ll need to take special care with the `img` and `input` elements. Normally, you are advised to give all purely decorative images blank `alt` attributes (`alt=""`) so that the screenreader will just skip them. However, in the case of:
 
@@ -267,7 +267,7 @@ Another group of perceivability problems concerns the styling of the page. There
 -   Can publisher suggestions for presentation be safely mixed with common user preferences aimed at making content more legible, like increased font size, zoom, and different default colors? Try increasing the text size by about 2–5 steps; don’t worry if the results are not pixel perfect but do worry if the layout is so broken it renders the content hard to read. Try changing your color preferences and see what happens. If publisher CSS sets colors, it should explicitly set background and foreground together to ensure that the combination of unusual preferences and publisher styles do not result in unreadable or invisible text. Popular browsers allow users to enforce their own color preferences and turn off CSS background images. When you try this yourself, it can reveal misconceived CSS image replacement techniques that hide text off-screen, since the image will not be loaded but the text will still be invisible.
 -   If publisher suggestions for presentation are discarded, is all the information communicated by such suggestions preserved in the web content for use by the default stylings of the user agent or user styling? Try turning off CSS and inspecting the document object model to check that headings are marked as headings and tables are used for tabulated data not layout.
 
-#### Operability
+#### <span>Operability</span>
 
 Health and safety is a crucial, though rarely considered, part of making a website operable. But flashing content risks triggering fits in photosensitive epileptics. You can take a screen capture of your website in use and feed it into the [Trace Center Photosensitive Epilepsy Analysis Tool (PEAT)](http://trace.wisc.edu/peat/) to test if it has flashing content likely to pose a danger to your users. Obviously, this is an especially big concern if you are creating a video sharing website. At the product design stage, you might look at including an automated screening process for uploads.
 
@@ -283,7 +283,7 @@ Screen readers and other assistive technology can make use of the semantic struc
 
 Figure 1: Screenshot of Firefox Accessibility Extension’s forms information window with the new BBC homepage.
 
-#### Understandability
+#### <span>Understandability</span>
 
 Assessing comprehensibility is even more subjective that testing legibility. Unless an evaluator is new to a project or is a professional editor, they are probably not the best person to evaluate whether copy is as understandable as possible. You can however use [Juicy Studio’s Readability Test tool](http://juicystudio.com/services/readability.php) to get a rough idea of how simple your site's copy is.
 
@@ -291,7 +291,7 @@ Some aspects are highly objectively testable however, such as whether content ha
 
 Keep an eye out for inconsistencies in web sites, both in terms of internal consistency and predictability from common web conventions. Screen magnifier users who only see part of a page at a time rely heavily on such consistency in order to know where to look to find given content and functionality.
 
-#### Robustness
+#### <span>Robustness</span>
 
 Testing whether content is robust involves checking that technologies are being correctly used. At a very basic level, you can run markup and code through linters such as:
 
@@ -307,11 +307,11 @@ The most common problem is probably obtrusive JavaScript, like anchors and butto
 
 Another example is multimedia controls. Often, when plugin content is included, the plugin’s native user interface is disabled and the plugin is instead controlled by scripted HTML widgets. When the plugin content is only added via JavaScript after JavaScript-based plugin detection, this is fine. But sometimes plugin content is included in the pre-scripted state of the page. In such cases, it is worth checking not only that a fallback has been included in case a handling plugin is not available, but also that the native user interface of the plugin is not disabled unless JavaScript is available. If the former is not the case, then users will not see the fallback content at all; if the latter is not true then users will see the plugin but not be able to control it.
 
-## User testing
+## <span>User testing</span>
 
 No amount of developer inspection and screening can substitute for the raw clash between a user and a web site. Given the difficulties of understanding all the subtle interactions between web content and assistive technology and the difficulties of approximating the experience of users with disabilities, this goes double for users with disabilities. If at all possible, you should test your site with real users with disabilities. This can be done on a large and expensive scale, but do not underestimate the benefits of doing even small-scale user testing.
 
-### Recruiting testers
+### <span>Recruiting testers</span>
 
 Testers can be found in the same way as you find candidates for usability testing generally (eg through advertising and recruitment agencies). Your local disability organizations should be able to suggest appropriate forums for recruiting test subjects.
 
@@ -338,7 +338,7 @@ Having said that you may be able to find people who will test smaller projects f
 
 Such groups typically welcome questions from web developers about the accessibility of their sites or particular techniques.
 
-### Practical considerations
+### <span>Practical considerations</span>
 
 Remember that the test environment itself needs to be accessible. For example, if you are preparing written test materials, you need to be prepared to offer these in alternative forms. The logistics of replicating the user’s browsing environment at your normal testing location are complicated, so it may be more realistic to test at the user’s home. Failing that, even completely remote testing can be valuable.
 
@@ -348,7 +348,7 @@ If you take a longtime user of the Window-Eyes screen reader, sit him in front o
 
 Likewise, unless you specifically want to test novice users or expert users, you should aim to select users who have around a year’s familiarity with using their current setup to access the web. Both assistive technology and the conventions of the web itself are non-trivial to learn. With novice users you will not know whether problems arise from your site or are intrinsic to the learning process, and experts may have tricks up their sleeves that others don’t.
 
-### Choosing tasks
+### <span>Choosing tasks</span>
 
 It’s incredibly instructive even to observe users simply exploring a website. As with any other user testing:
 
@@ -369,7 +369,7 @@ For example, if you are testing a video sharing site for accessibility, do not b
 
 This way, you are likely to uncover lots of problems you had not anticipated. For example, a screen reader user might not be able to find the search box or the controls for the video. Conversely, users might have navigational strategies for dealing with the web you do not even know about.
 
-### Interpreting the results
+### <span>Interpreting the results</span>
 
 In an ideal world, we could test every possible combination and get feedback from everybody. But in reality, time and money will limit user testing. Given this, feedback can be a double-edged sword. While it can teach you an enormous amount, there is a real danger of attaching too much weight to one person’s view, which may not be representative of the greater target audience. For example, some screen reader users tend to be looking for an experience streamlined for blind users; others are keen to know everything about the site that their sighted friends and colleagues see.
 
@@ -382,7 +382,7 @@ When you do observe a problem, analyse its causes. For example, your video shari
 -   A problem with the user agent. For example, Safari exposes data tables to the Apple accessibility model as a series of layout boxes rather than as a set of data relationships. Here appropriate actions would include reporting the bug to the user agent vendor or developers, researching a technique that does work in the user agent, or noting the limitation in documentation and suggesting alternative user agents that do work with your web site.
 -   A problem with the screen reader. For example, the developers might have shortened long table headers using the `abbr` attribute, but the screen reader might not provide a user interface for reading the shortened version. Here appropriate actions would include reporting the bug to the screen reader vendor or developers, and might be to find a technique that does work in the screen reader, or to note the limitation in documentation and suggest an alternative tool or navigation strategy that does work.
 
-## Communicating the results of accessibility testing
+## <span>Communicating the results of accessibility testing</span>
 
 When communicating the results of accessibility evaluation, document precisely what was evaluated. If you tested conformance with a particular standard, be specific about exactly where conformance has succeeded and failed. Whenever raising a problem, make sure to put it in real, human terms and explain how the problem might adversely affect users. Describe how to reproduce the problem and test for its resolution. Suggest practical techniques for achieving conformance or improving accessibility.
 
@@ -394,11 +394,11 @@ For example, you might report a problem with the video sharing website like this
 -   ***Conformance implications**: Keyboard operability is a requirement for WCAG 1.0 and WCAG 2.0 Level “A” compliance (see WCAG 1.0 Guideline 9 and WCAG 2.0 Guideline 2.1).*
 -   ***Suggested remedies**: When JavaScript is not available, use a simple list of links to subpages for each sublist of navigation. On sub pages, present the main navigation followed by the sublist. When JavaScript is available, remove the sublist from the DOM and add sublists for each menu item on the `click` event, which can be triggered by keyboards, mice, speech recognition, and touch screens alike.*
 
-## Summary
+## <span>Summary</span>
 
 Not every webpage will receive an accessibility evaluation by experts and a suite of paid test subjects. But any web developer can learn the principles of accessibility, attempt to implement those principles in their code, and submit the results of their labours to user mailing lists to learn of further problems, and so feed new knowledge back into future development.
 
-## Exercise questions
+## <span>Exercise questions</span>
 
 -   Try navigating a complex site of your choice without using the mouse. What difficulties do you encounter? How could the developers of the site help you?
 -   Turn off CSS and do your normal browsing for a day. What problems do you encounter?

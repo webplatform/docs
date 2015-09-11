@@ -1,20 +1,18 @@
 ---
-title: angle
+title: <angle>
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The &lt;angle&gt; CSS data type describes an amount of rotation; it is expressed with a number followed (without whitespace) by one of the recognized angle unit abbreviations.'
 tags:
   - Data
   - Type
   - CSS
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The <angle> CSS data type describes an amount of rotation; it is expressed with a number followed (without whitespace) by one of the recognized angle unit abbreviations.'
 uri: 'css/data types/angle'
 
 ---
-# \<angle\>
+## <span>Summary</span>
 
-## Summary
-
-The \<angle\> CSS data type describes an amount of rotation; it is expressed with a number followed (without whitespace) by one of the recognized angle unit abbreviations.
+The &lt;angle&gt; CSS data type describes an amount of rotation; it is expressed with a number followed (without whitespace) by one of the recognized angle unit abbreviations.
 
  Four angle units are available:
 
@@ -27,9 +25,9 @@ Measurements may be positive or negative, and may extend past the limit required
 
 If using Javascript to set or manipulate styles requiring angle measurements, it is worth mentioning that the trigonometric [Math functions](/concepts/programming/javascript/core_objects#Math_Object) use radians for angles.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 .a[href] {
     display: block;
     transition: transform 0.25s;
@@ -41,10 +39,7 @@ a:hover {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation
-

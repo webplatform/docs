@@ -1,15 +1,16 @@
 ---
 title: Cache-Control
+overview_table:
+  Direction: 'Request and Response'
+  Features: ''
+summary: "Specifies directives for caches along the path to the origin server. The header is found in both directions, but the directives may have different semantics depending on direction.\n"
 tags:
   - HTTP
   - Headers
-summary: "Specifies directives for caches along the path to the origin server. The header is found in both directions, but the directives may have different semantics depending on direction.\n"
 uri: http/headers/Cache-Control
 
 ---
-# Cache-Control
-
-## Summary
+## <span>Summary</span>
 
 Specifies directives for caches along the path to the origin server. The header is found in both directions, but the directives may have different semantics depending on direction.
 
@@ -35,24 +36,27 @@ Response directives are:
 -   max-age
 -   s-maxage
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Request and Response
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     Cache-Control   = 1#cache-directive
     cache-directive = token [ "=" ( token / quoted-string ) ]
 
-## Examples
+## <span>Examples</span>
 
-## Related specifications
+``` html
 
-Specification
-:   Status
+```
+
+## <span>Related specifications</span>
+
 [RFC7234: HTTP/1.1 Caching](http://tools.ietf.org/html/rfc7234#section-5.2)
 :
 

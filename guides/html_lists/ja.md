@@ -1,10 +1,10 @@
 ---
-title: ja
+title: HTMLのリスト
+lang: ja
+summary: この文書では、HTMLの3つのタイプのリストを紹介し、その基本的な特徴を調べます。
 tags:
   - Guides
   - HTML
-summary: この文書では、HTMLの3つのタイプのリストを紹介し、その基本的な特徴を調べます。
-uri: 'guides/html lists/ja'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -67,24 +67,32 @@ todo_broken_links:
     - 'guides/html lists/zh-hans'
     - 'guides/html lists/zh-hant'
     - 'guides/html lists/zh-tw'
+uri: 'guides/html lists/ja'
 
 ---
-# HTMLのリスト
-
-## Summary
+## <span>Summary</span>
 
 この文書では、HTMLの3つのタイプのリストを紹介し、その基本的な特徴を調べます。
 
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/guides/html_lists)**  • <span lang="ja">**日本語**</span>
 
-## はじめに
+</th>
+<td class="mbox-text">
+**[English](/guides/html_lists)**  • <span lang="ja">**日本語**</span>
+
+</td>
+</tr>
+</table>
+## <span>はじめに</span>
 
 リストは、関連する個々の情報を集めるのに使われ、相互の関連がはっきりして読みやすくなります。最近のweb開発において、リストはとても役立つ要素であり、一般的なコンテンツと同様、ナビゲーションによく使われます。
 
 リストは構造的な点で優れています。というのは、構造が整えられて分かりやすくなり、ドキュメントのメンテナンスも容易になるからです。 また便利な点として、CSSスタイルと連携できる専用の要素を用意していることも挙げられます。最後に、意味的に正しいリストによって、webサイトを訪れた人が読み取りやすくなります。加えて、ページがアップデートを必要とした時、メンテナンスがやさしくなります。
 
-## 3つのタイプのリスト
+## <span>3つのタイプのリスト</span>
 
 HTMLには、3つのタイプのリストがあります。
 
@@ -94,7 +102,7 @@ HTMLには、3つのタイプのリストがあります。
 
 リストの各タイプは、webページの中で独自の目的と意味を持っています。
 
-### 順序なしリスト
+### <span>順序なしリスト</span>
 
 *順序なし* (ビュレット)リストは、順序に関係なく項目を並べる時に使います。買い物リストがその例です。
 
@@ -112,11 +120,11 @@ HTMLには、3つのタイプのリストがあります。
 
 CSSを使うと、ビュレットを既定のスタイルの1つに変更したり、自分で用意した画像を使ったり、ビュレットなしでリストを表示したりできます — このやり方は [Styling lists and links](/guides/Styling_lists_and_links) という文書で見るつもりです。
 
-#### 順序なしリストをマークアップする
+#### <span>順序なしリストをマークアップする</span>
 
 順序なしリストは、1つの `<ul></ul>` タグが、複数の `<li></li>` タグを囲む形で使います。
 
-``` {.html}
+``` html
 <ul>
   <li>bread</li>
   <li>coffee beans</li>
@@ -125,7 +133,7 @@ CSSを使うと、ビュレットを既定のスタイルの1つに変更した�
 </ul>
 ```
 
-### 順序ありリスト
+### <span>順序ありリスト</span>
 
 *順序あり* (番号付き)リストは、特定の順序で並んだ項目のリストを表示するのに使われます。調理の説明がその例です。
 
@@ -163,11 +171,11 @@ CSSを使うと、ビュレットを既定のスタイルの1つに変更した�
 
 順序なしリストと同様、CSSを使って順序ありリストのスタイルを変更できます。 さらに詳しい情報は、[Styling lists and links](/guides/Styling_lists_and_links) を見てください。
 
-#### 順序ありリストをマークアップする
+#### <span>順序ありリストをマークアップする</span>
 
 順序ありリストは、1つの `<ol></ol>` タグが、複数の `<li></li>` タグを囲む形で使います。
 
-``` {.html}
+``` html
 <ol>
   <li>Gather ingredients</li>
   <li>Mix ingredients together</li>
@@ -179,11 +187,11 @@ CSSを使うと、ビュレットを既定のスタイルの1つに変更した�
 </ol>
 ```
 
-#### 順序ありリストを1以外の番号で開始する
+#### <span>順序ありリストを1以外の番号で開始する</span>
 
 順序ありリストを使う際によく必要となるのは、リストを1(もしくはiや I等)以外の番号ではじめることです。`start` 属性を使って実現します。この属性には数値を指定します(CSSを使ってリストのカウンターをアルファベットやローマ字にしていても)。項目リストが1つあって、そのリストに注釈や別の関連情報を割り込ませる必要があるとすると、これは役に立ちます。
 
-``` {.html}
+``` html
 <ol>
   <li>Gather ingredients</li>
   <li>Mix ingredients together</li>
@@ -216,7 +224,7 @@ Before you place the ingredients in the baking dish, preheat the oven to 180 deg
 
 注意したいのは、この属性はHTML 4では非推奨だったことです。したがって、ページでHTML 4の strict 型を使っていると検証が通らないでしょう。HTML 4の strict 型なページでそのような機能を使って完璧に正しくしたいのなら、代わりに [CSS Counters](http://dev.opera.com/articles/view/automatic-numbering-with-css-counters/) を使って実装してください。しかし幸いにも、 `start` 属性は、HTML5で非推奨ではなくなりました。
 
-### 説明リスト
+### <span>説明リスト</span>
 
 *説明リスト*(以前は *定義リスト* と言われていましたが、HTML5で変わりました)は、リスト内で特定の名前と値を関連付けます。 例として、材料リストと説明や記事の著者と略歴、競技会の勝者と勝利した年が挙げられるかもしれません。好きなだけ名前と値のグループを作成できますが、少なくとも1つの名前と値のペアが存在する必要があります。
 
@@ -238,13 +246,13 @@ Before you place the ingredients in the baking dish, preheat the oven to 180 deg
 
       a sweet, carbonated beverage
 
-#### 説明リストをマークアップする
+#### <span>説明リストをマークアップする</span>
 
 説明リストは、1つの `<dl></dl>` タグが複数の `<dt></dt>` (名前)と `<dd></dd>` (値)タグを囲む形で使います。少なくても1つの`<dt></dt>` と`<dd></dd>` のペアが必要です。`<dt></dt>` は、ソース上の順番で必ず最初にくるようにしてください。
 
 名前1つに値が1つの単純な説明リストは、このようになります。
 
-``` {.html}
+``` html
 <dl>
   <dt>Name</dt>
   <dd>Value</dd>
@@ -266,7 +274,7 @@ Before you place the ingredients in the baking dish, preheat the oven to 180 deg
 
 下記の例では、名前1つに複数の値のものと複数の名前に値が1つもの両方を関連付けしています。
 
-``` {.html}
+``` html
 <dl>
   <dt>Name1</dt>
   <dd>Value that applies to Name1</dd>
@@ -290,7 +298,7 @@ Before you place the ingredients in the baking dish, preheat the oven to 180 deg
       One value that applies to Name4
       Another value that applies to Name4
 
-## リストのタイプを選ぶ
+## <span>リストのタイプを選ぶ</span>
 
 どのタイプのリストにするのかを決めようとする時には、簡単な2つの質問を自問してください。
 
@@ -302,7 +310,7 @@ Before you place the ingredients in the baking dish, preheat the oven to 180 deg
     -   Yesなら、順序ありリストを使用
     -   Noなら、順序なしリストを使用
 
-## HTMLのリストの長所
+## <span>HTMLのリストの長所</span>
 
 -   柔軟さ：順序ありリストでリストの項目の順序を変更しなければならなくなっても、リストの項目要素を移動させるだけです。ブラウザがそのリストをレンダリングすると、正しく並ぶでしょう。
 -   スタイル：HTMLのリストを使えば、CSSを利用してリストをきっちり整えられます。リストの項目の `<li>` タグは、ドキュメントにある他のタグと違っていて、CSSのルールを細かく適用できます。
@@ -310,7 +318,7 @@ Before you place the ingredients in the baking dish, preheat the oven to 180 deg
 
 別の言い方をすれば、**普通のテキストタグを使って、リストの項目を記述するな** です。リストのかわりにテキストを使うと、手間が余計にかかる上、ドキュメントの読者も困難な状況になります。したがって、ドキュメントにリストが必要なら、HTMLのリスト形式を正しく使う必要があります。
 
-## リストをネスト(入れ子に)する
+## <span>リストをネスト(入れ子に)する</span>
 
 個々のリストの項目には、 別のリスト全体を入れることができます。いわゆる *ネストされたリスト(入れ子のリスト)* です。 サブセクションがあるコンテンツの見出しのようなものに役に立ちます。
 
@@ -323,7 +331,7 @@ Before you place the ingredients in the baking dish, preheat the oven to 180 deg
 
 コードで示すと、最初のリストの項目の内側にネストされたリスト全体を入れることになります。コードはこのようになります。
 
-``` {.html}
+``` html
 <ol>
   <li>Chapter One
     <ol style="list-style-type: lower-alpha;">
@@ -343,21 +351,20 @@ Before you place the ingredients in the baking dish, preheat the oven to 180 deg
 
 理屈の上では、好きなレベルだけリストをネストすることができますが、実際はあまりに深くネストしてしまうと混乱をきたします。とても大きなリストなら、コンテンツを分割し見出しを付けてリストを分けるか、さらにページに分割するかした方がもっと良くなるでしょう。 経験則では、3レベル以上に深くしないことです。
 
-## 結論
+## <span>結論</span>
 
 この文書では、HTMLのリストの様々なタイプがどのように使われ、コーディングされるかを見てきました。基本的なリストのオプションも調べました。 HTMLのリストの体裁や振る舞い修正する具体的な情報がさらに必要なら、[Styling lists and links](/guides/Styling_lists_and_links) を見てください。
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 -   [A List Apart: Taming Lists](http://www.alistapart.com/articles/taminglists/)
 -   [W3C CSS2: list-style-type definition](http://www.w3.org/TR/REC-CSS2/generate.html#lists)
 
-### 練習問題
+### <span>練習問題</span>
 
 -   3つのタイプのHTMLリストとは何か?
 -   どのような時にそれぞれのリストを使うか? どうやって選ぶのか?
 -   どうやってリストをネストするのか?
 -   リストを整形するのに、なぜHTMLよりもCSSを使うのか?
-

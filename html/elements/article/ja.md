@@ -1,13 +1,17 @@
 ---
-title: ja
+title: article
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+lang: ja
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: '&lt;article&gt;はページ内で単独で完結する構成要素を定義します。'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: '<article>はページ内で単独で完結する構成要素を定義します。'
-uri: html/elements/article/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -71,15 +75,14 @@ todo_broken_links:
     - html/elements/article/zh-hant
     - html/elements/article/zh-tw
     - html/elements/nav/ja
+uri: html/elements/article/ja
 
 ---
-# article
+## <span>Summary</span>
 
-## Summary
+&lt;article&gt;はページ内で単独で完結する構成要素を定義します。
 
-\<article\>はページ内で単独で完結する構成要素を定義します。
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -96,11 +99,11 @@ todo_broken_links:
 
 **\<article\>**要素をネストする時は、内側の\<article\>の内容は外側の\<article\>に関連したコンテンツでなければいけません。例えば、コメントの付いたブログのエントリでは、ブログエントリの**\<article\>**の中にコメントの**\<article\>**をネストするほうがよいでしょう。
 
-## Examples
+## <span>Examples</span>
 
 以下の例では**\<article\>**、**\<header\>**、**\<footer\>**を使った記事の基本構成を示します。
 
-``` {.html}
+``` html
 <article>
  <header>
   <h1>見出し</h1>
@@ -111,31 +114,34 @@ todo_broken_links:
 </article>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/sections.html#the-article-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/sections.html#the-article-element)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 [nav](/w/index.php?title=html/elements/nav/ja&action=edit&redlink=1) - \<article\>タグの子要素としてよく用いられます。
 
-### External resources
+### <span>External resources</span>
 
--   [http://www.w3.org/TR/html-markup/article.html\#article](http://www.w3.org/TR/html-markup/article.html#article)
+-   <http://www.w3.org/TR/html-markup/article.html#article>
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/html/elements/article)**  • <span lang="ja">**日本語**</span>
+
+</th>
+<td class="mbox-text">
+**[English](/html/elements/article)**  • <span lang="ja">**日本語**</span>
+
+</td>
+</tr>
+</table>
 

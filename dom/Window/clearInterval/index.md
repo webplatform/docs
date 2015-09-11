@@ -1,46 +1,52 @@
 ---
 title: clearInterval
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window.clearInterval) Article]'
+  - 'Microsoft Developer Network: [[clearInterval Method](http://msdn.microsoft.com/en-us/library/ie/ms536353(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+standardization_status: Non-Standard
+summary: 'Cancels the interval previously started using the setInterval method. '
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: Non-Standard
-summary: 'Cancels the interval previously started using the setInterval method. '
 uri: dom/Window/clearInterval
 
 ---
-# clearInterval
-
-## Summary
+## <span>Summary</span>
 
 Cancels the interval previously started using the setInterval method.
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  window.clearInterval(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### timerID
+### <span>timerID</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
 **Integer**Â that specifies the interval to cancel. This value must have been previously returned by the [**setInterval**](/dom/Window/setInterval) method.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -73,12 +79,4 @@ function stopTextColor() {
 </body>
 </html>
 ```
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window.clearInterval) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[clearInterval Method](http://msdn.microsoft.com/en-us/library/ie/ms536353(v=vs.85).aspx) Article]
 

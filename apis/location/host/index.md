@@ -1,47 +1,54 @@
 ---
-title: host
+title: window.location.host
+code_samples:
+  - 'http://fiddle.jshell.net/YJEhh/4/'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/location
+    href: /apis/location
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/location
+standardization_status: 'W3C Working Draft'
+summary: 'The host property contains the host part of the the current document URL, (hostname:port).'
 tags:
   - API
   - Object
   - Properties
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The host property contains the host part of the the current document URL, (hostname:port).'
-code_samples:
-  - 'http://fiddle.jshell.net/YJEhh/4/'
 uri: apis/location/host
 
 ---
-# window.location.host
-
-## Summary
+## <span>Summary</span>
 
 The host property contains the host part of the the current document URL, (hostname:port).
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/location](/apis/location)</span></span>
+Property of [apis/location](/apis/location)[apis/location](/apis/location)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = window.location.host;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The hostname and port number.
 
 For example, `http://example.org:8080/` would return the host string of `example.org:8080`.
 
-## Examples
+## <span>Examples</span>
 
 The following example assumes your document has a div element with id 'hostDiv', like this.
 
-``` {.js}
+``` js
 // Get the host from window.location
 var host = window.location.host;
 
@@ -54,10 +61,7 @@ container.innerHTML = host;
 
 [View live example](http://fiddle.jshell.net/YJEhh/4/)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Window Object 1.0](http://www.w3.org/TR/Window/)
 :   W3C Working Draft
-

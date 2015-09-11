@@ -1,41 +1,51 @@
 ---
 title: customError
+attributions:
+  - 'Microsoft Developer Network: [[customError Property](http://msdn.microsoft.com/en-us/library/ie/hh773352(v=vs.85).aspx) Article]'
+  - 'Portions of this content come from HTML5Rocks! [[Making forms fabulous](http://www.html5rocks.com/en/tutorials/forms/html5forms/) article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/ValidityState
+    href: /dom/ValidityState
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/ValidityState
+standardization_status: 'W3C Working Draft'
+summary: 'The element''s custom validity message has been set to a non-empty string by calling the element''s setCustomValidity() method.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'The element''s custom validity message has been set to a non-empty string by calling the element''s setCustomValidity() method.'
 uri: dom/ValidityState/customError
 
 ---
-# customError
-
-## Summary
+## <span>Summary</span>
 
 The element's custom validity message has been set to a non-empty string by calling the element's setCustomValidity() method.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/ValidityState](/dom/ValidityState)</span></span>
+Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var hasErrorStatus = element.validity.customError;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 Whether the element has raised a custom error.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var elem = document.getElementById('email_addr_confirm');
 elem.addEventListener('blur', verifyEmail);
 
@@ -59,24 +69,14 @@ function verifyEmail(evt) {
 
 </pre>
 
-## Usage
+## <span>Usage</span>
 
      HTML5 Web form validation
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[customError Property](http://msdn.microsoft.com/en-us/library/ie/hh773352(v=vs.85).aspx) Article]
-
-Portions of this content come from HTML5Rocks! [[Making forms fabulous](http://www.html5rocks.com/en/tutorials/forms/html5forms/) article]
-

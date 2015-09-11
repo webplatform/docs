@@ -1,59 +1,64 @@
 ---
 title: SVGMatrix
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+relationships:
+  subclass_of:
+    predicate: 'Inherits from '
+    value: SVGElement
+    href: /svg/objects/SVGElement
+standardization_status: Unknown
 tags:
   - API
   - Objects
   - DOM
-readiness: 'Not Ready'
-standardization_status: Unknown
-notes:
-  - 'Unreviewed MSDN import'
 uri: svg/objects/SVGMatrix
 
 ---
-# SVGMatrix
+Inherits from [SVGElement](/svg/objects/SVGElement)[SVGElement](/svg/objects/SVGElement)
 
-<span data-meta="subclass_of" data-type="key">Inherits from <span data-type="value">[SVGElement](/svg/objects/SVGElement)</span></span>
-
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Inherited from SVGElement
+## <span>Inherited from SVGElement</span>
 
-### Properties
+### <span>Properties</span>
 
 *No properties.*
 
-### Methods
+### <span>Methods</span>
 
 *No methods.*
 
-### Events
+### <span>Events</span>
 
 *No events.*
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
 Many SVG graphics operations use **2×3** matrices. When you need a matrix for matrix arithmetic, you can expand a **2×3** matrix into a **3×3** matrix equivalent by adding a third row of **[0 0 1]**.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Coordinate Systems, Transformations and Units](http://go.microsoft.com/fwlink/p/?linkid=204735), Section 7.14.3
 
-### Members
+### <span>Members</span>
 
 The **SVGMatrix** object has these methods:
 
@@ -77,10 +82,3 @@ The **SVGMatrix** object has these properties:
 -   [**d**](/svg/properties/d): Gets or sets the **d** entry of the **SVGMatrix**.
 -   [**e**](/svg/properties/e): Gets or sets the **e** entry of the **SVGMatrix**.
 -   [**f**](/svg/properties/f): Gets or sets the [**f**](/svg/properties/f) entry of the **SVGMatrix**.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

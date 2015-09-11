@@ -1,28 +1,28 @@
 ---
 title: scale3d()
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5305309'
+notes:
+  - 'Could benefit from demonstrative images.'
+readiness: 'Ready to Use'
+summary: 'Defines a three-dimensional transformation to change the scale of the element by setting specific scaling factors in each of the x, y, and z directions.  All three parameters must be specified.'
 tags:
   - CSS
   - Functions
-readiness: 'Ready to Use'
-notes:
-  - 'Could benefit from demonstrative images.'
-summary: 'Defines a three-dimensional transformation to change the scale of the element by setting specific scaling factors in each of the x, y, and z directions.  All three parameters must be specified.'
-code_samples:
-  - 'http://gist.github.com/5305309'
 uri: css/functions/scale3d()
 
 ---
-# scale3d()
-
-## Summary
+## <span>Summary</span>
 
 Defines a three-dimensional transformation to change the scale of the element by setting specific scaling factors in each of the x, y, and z directions. All three parameters must be specified.
 
-## Examples
+## <span>Examples</span>
 
 The following code snippet is an example of the **scale3d** function in use. When applied to a square blue [**div**](/html/elements/div) element, it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
 
-``` {.css}
+``` css
 div {
   transform: scale3d(0.5, -0.5, 1.5);
 }
@@ -30,11 +30,11 @@ div {
 
 [View live example](http://code.webplatform.org/gist/5305309)
 
-### Syntax
+### <span>Syntax</span>
 
 **scale3d** `( <scaling-value-x>  ,  <scaling-value-y>  ,  <scaling-value-z> )`
 
-### Parameters
+### <span>Parameters</span>
 
 *scaling-value-x*
 :   Numerical value by which to scale the specified element in the *x*-direction.
@@ -43,15 +43,15 @@ div {
 *scaling-value-z*
 :   Numerical value by which to scale the specified element in the *z*-direction.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.2
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -85,16 +85,9 @@ div {
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`
 -   `Direct3D: Matrices`
 -   `Hands On: 3-D Transforms`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

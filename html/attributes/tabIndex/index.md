@@ -1,17 +1,18 @@
 ---
 title: tabIndex
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex1.htm'
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex2.htm'
+notes:
+  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
+readiness: 'Not Ready'
+summary: 'Represents the tab order of an element.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Review import; Remove MS bias; Update/improve example; Update descriptions; Fix lists & compatibility info'
-summary: 'Represents the tab order of an element.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex1.htm'
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex2.htm'
-uri: html/attributes/tabIndex
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -20,48 +21,58 @@ todo_broken_links:
     - dom/events/keydown
     - dom/events/keypress
     - dom/events/keyup
+uri: html/attributes/tabIndex
 
 ---
-# tabIndex
-
-## Summary
+## <span>Summary</span>
 
 Represents the tab order of an element.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:
 
-## Examples
+</th>
+<td>
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **tabIndex** property to specify the tab order for three text fields. In addition, the Submit button is removed by specifying a negative value.
 
-    <input type="text" tabindex="1">
-    <input type="text">
-    <input type="text" tabindex="2">
-    <input type="submit" tabindex="-1">
+``` html
+<input type="text" tabindex="1">
+<input type="text">
+<input type="text" tabindex="2">
+<input type="submit" tabindex="-1">
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex1.htm)
 
 This example uses the **tabIndex** property to assign a tab order to an unordered list. To cycle through the list's tab order, the user presses the TAB key. Since the list items can have focus, the focus rectangle surrounds each item the user selects.
 
-    <ul>
-        <li>Item 1 (no tab)</li>
-        <li>Item 2 (no tab)</li>
-        <li>Item 3 (no tab)</li>
-    </ul>
-    <ul>
-        <li tabindex="1">Tab Item 1</li>
-        <li tabindex="2">Tab Item 2</li>
-        <li tabindex="3">Tab Item 3</li>
-        <li tabindex="4">Tab Item 4</li>
-        <li tabindex="5">Tab Item 5</li>
-    </ul>
+``` html
+<ul>
+    <li>Item 1 (no tab)</li>
+    <li>Item 2 (no tab)</li>
+    <li>Item 3 (no tab)</li>
+</ul>
+<ul>
+    <li tabindex="1">Tab Item 1</li>
+    <li tabindex="2">Tab Item 2</li>
+    <li tabindex="3">Tab Item 3</li>
+    <li tabindex="4">Tab Item 4</li>
+    <li tabindex="5">Tab Item 5</li>
+</ul>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/tabindex2.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **tabIndex** value determines the tab order as follows:
 
@@ -76,11 +87,11 @@ An element can have focus if the **tabIndex** property is set to any valid negat
 
 For Internet Explorer 5.01 or above, the attribute may be set to any value in the valid range of `-32767` to `32767`. Content of elements with a closing tag can have focus by default, but are not tab stops. As of Internet Explorer 5, you can set the **tabIndex** property to a valid positive integer to force the content to have a tab stop. Elements that receive focus can fire the [**onblur**](/w/index.php?title=dom/events/blur&action=edit&redlink=1) and [**onfocus**](/w/index.php?title=dom/events/focus&action=edit&redlink=1) events as of Microsoft Internet Explorer 4.0, and the [**onkeydown**](/w/index.php?title=dom/events/keydown&action=edit&redlink=1), [**onkeypress**](/w/index.php?title=dom/events/keypress&action=edit&redlink=1), and [**onkeyup**](/w/index.php?title=dom/events/keyup&action=edit&redlink=1) events as of Internet Explorer 5.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `a`
 -   `abbr`
@@ -164,10 +175,3 @@ For Internet Explorer 5.01 or above, the attribute may be set to any value in t
 -   `ul`
 -   `var`
 -   `xmp`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

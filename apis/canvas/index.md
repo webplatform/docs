@@ -1,41 +1,47 @@
 ---
 title: canvas
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Allows applications to render pixel-based graphics within a canvas element using a two-dimensional graphics context.'
 tags:
   0: API
   1: Listings
   3: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Allows applications to render pixel-based graphics within a canvas element using a two-dimensional graphics context.'
 uri: apis/canvas
 
 ---
-# canvas
-
-## Summary
+## <span>Summary</span>
 
 Allows applications to render pixel-based graphics within a canvas element using a two-dimensional graphics context.
 
 API Name
 :   Summary
+
 [CanvasGradient](/apis/canvas/CanvasGradient)
 :   An opaque object of the canvas API.
+
 [CanvasPattern](/apis/canvas/CanvasPattern)
 :   An opaque object of the canvas API. See Notes.
+
 [CanvasPixelArray](/apis/canvas/CanvasPixelArray)
 :   Specifies each pixel within a canvas's rectangular selection, via the [ImageData](/apis/canvas/ImageData) object's [data](/apis/canvas/ImageData/data) property. The array uses four elements to represent each pixel's red, green, blue, and alpha channels. See Notes.
+
 [CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 :   The 2D rendering context for the drawing surface of a \<canvas\> element.
+
 [ImageData](/apis/canvas/ImageData)
 :   The ImageData object of the canvas API.
+
 [TextMetrics](/apis/canvas/TextMetrics)
 :   The TextMetrics object of the canvas API. TextMetrics retrieves numeric informations like the width of a text that is drawn onto the canvas with the current font style.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Canvas
+#### <span>Canvas</span>
 
 -   **canvas**
 
@@ -46,10 +52,3 @@ API Name
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
 -   [Introduction to Canvas](/tutorials/canvas/canvas_tutorial)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

@@ -1,20 +1,27 @@
 ---
 title: before
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/web_animations/AnimationNode
+    href: /apis/web_animations/AnimationNode
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/web_animations/AnimationNode
+standardization_status: 'W3C Editor''s Draft'
+summary: "Inserts nodes before this animation node.\n"
 tags:
   - API
   - Object
   - Methods
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: "Inserts nodes before this animation node.\n"
 uri: 'apis/web animations/AnimationNode/before'
 
 ---
-# before
-
-## Summary
+## <span>Summary</span>
 
 Inserts nodes before this animation node.
 
@@ -23,26 +30,26 @@ If there is no parent animation group, terminate these steps. If any of the anim
            node.before(node); // throws HierarchyRequestError
 
 
-*Method of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)*
+Method of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = .before(AnimationNode...nodes);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### AnimationNode...nodes
+### <span>AnimationNode...nodes</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
  Takes a series of AnimationNodes as an object.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 

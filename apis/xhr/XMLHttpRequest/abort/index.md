@@ -1,37 +1,42 @@
 ---
 title: abort
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/xhr/XMLHttpRequest
+    href: /apis/xhr/XMLHttpRequest
+standardization_status: 'W3C Working Draft'
+summary: 'Stops an asynchronous XMLHttpRequest in progress.'
 tags:
   0: API
   1: Object
   2: Methods
   4: XHR
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Stops an asynchronous XMLHttpRequest in progress.'
 uri: apis/xhr/XMLHttpRequest/abort
 
 ---
-# abort
-
-## Summary
+## <span>Summary</span>
 
 Stops an asynchronous XMLHttpRequest in progress.
 
-*Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)*
+Method of [apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)[apis/xhr/XMLHttpRequest](/apis/xhr/XMLHttpRequest)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  .abort();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 function request() {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "http://localhost/test.xml", true);
@@ -65,20 +70,11 @@ document.getElementById('submit').addEventListener('click', function () {
 }, false);
 ```
 
-## Notes
+## <span>Notes</span>
 
 Calling **abort** resets the object; the **readyState** is changed to 0 (uninitialized). Calling it on an already aborted request throws an exception.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C XMLHttpRequest Specification](http://www.w3.org/TR/XMLHttpRequest/)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

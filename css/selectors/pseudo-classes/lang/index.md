@@ -1,22 +1,22 @@
 ---
 title: :lang(c)
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
+readiness: 'Not Ready'
+summary: 'The :lang(c) pseudo selector applies to documents that specifies the lang attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.'
 tags:
   - CSS
   - Selectors
-readiness: 'Not Ready'
-notes:
-  - 'Needs title, summary, spec reference, standardization status, remove topic cluster flags'
-summary: 'The :lang(c) pseudo selector applies to documents that specifies the lang attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.'
-uri: 'css/selectors/pseudo-classes/:lang(c)'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: 'css/selectors/pseudo-classes/:lang(c)'
 
 ---
-# :lang(c)
-
-## Summary
+## <span>Summary</span>
 
 The :lang(c) pseudo selector applies to documents that specifies the lang attribute to an HTML element. This allows to style based on which language (and/or dialect) a given section is written into.
 
@@ -32,24 +32,24 @@ The pseudo-class `:lang(C)` represents an element that is in language `C`. Wheth
 
 If *C* is empty or invalid, the selector will have no effect.
 
-### Syntax
+### <span>Syntax</span>
 
 
      selector:lang(C) { /* ... */ }
 
 
-### Parameters
+### <span>Parameters</span>
 
 *selector*
 :   A CSS simple selector
 *C*
 :   Language code as specified in [RFC3066: Tags for the Identification of Languages](http://www.ietf.org/rfc/rfc3066.txt)
 
-## Examples
+## <span>Examples</span>
 
 The following code example uses the **:lang(C)** pseudo-class to apply a color to any **p** elements that are explicitly given a language value of "en" (or a hyphen-separated subset thereof). The first paragraph gets "en-us" (a subset of "en") and thus turns green.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
   <html>
   <head>
@@ -82,7 +82,7 @@ The following code example uses the **:lang(C)** pseudo-class to apply a color t
 
 How to declare a full HTML document body language
 
-``` {.html}
+``` html
 <body>
     <p>This text is written in english, but <span lang=fr>cette section ci est écrite en français</span>.</p>
   </body>
@@ -90,7 +90,7 @@ How to declare a full HTML document body language
 
 The two following selectors represent an HTML document that is in Belgian French or German. The two next selectors represent q quotations in an arbitrary element in Belgian French or German.
 
-``` {.css}
+``` css
 html:lang(fr-be)
   html:lang(de)
   :lang(fr-be) > q
@@ -99,7 +99,7 @@ html:lang(fr-be)
 
 Match all of the listed language codes (and any corresponding hyphen-separated substrings of language codes) that are known to have text orientation from **right to left** (see the "rtl" value at the *direction* property).
 
-``` {.css}
+``` css
 html:lang(ar),
   html:lang(dv),
   html:lang(fa),
@@ -117,18 +117,16 @@ html:lang(ar),
   }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#lang)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pseudo-Classes
+#### <span>Pseudo-Classes</span>
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -180,7 +178,7 @@ Specification
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -256,14 +254,7 @@ Specification
 
 -   [type](/css/selectors/type)
 
-### External resources
+### <span>External resources</span>
 
 -   Language code as specified in [RFC3066: Tags for the Identification of Languages](http://www.ietf.org/rfc/rfc3066.txt)
 -   [Styling by language](http://www.w3.org/International/techniques/authoring-html#langstyle)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

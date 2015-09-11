@@ -1,23 +1,23 @@
 ---
 title: mo
+notes:
+  - 'Needs example, fix broken links'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[mathml](/mathml)'
+readiness: 'Almost Ready'
+standardization_status: 'W3C Recommendation'
+summary: 'The MathML mo element represents an operator in a broad sense. Besides operators in strict mathematical meaning, this element also includes &quot;operators&quot; like parentheses, separators like comma and semicolon, or &quot;absolute value&quot; bars.'
 tags:
   - Markup
   - Elements
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs example, fix broken links'
-summary: 'The MathML mo element represents an operator in a broad sense. Besides operators in strict mathematical meaning, this element also includes "operators" like parentheses, separators like comma and semicolon, or "absolute value" bars.'
 uri: mathml/elements/mo
 
 ---
-# mo
+## <span>Summary</span>
 
-## Summary
+The MathML mo element represents an operator in a broad sense. Besides operators in strict mathematical meaning, this element also includes &quot;operators&quot; like parentheses, separators like comma and semicolon, or &quot;absolute value&quot; bars.
 
-The MathML mo element represents an operator in a broad sense. Besides operators in strict mathematical meaning, this element also includes "operators" like parentheses, separators like comma and semicolon, or "absolute value" bars.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)

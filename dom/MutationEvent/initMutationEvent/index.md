@@ -1,105 +1,109 @@
 ---
 title: initMutationEvent
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Mutation Events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Mutation_events) Article]'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/MutationEvent
+    href: /dom/MutationEvent
+standardization_status: Deprecated
+summary: 'Initializes a new DOM mutation (modification) event that the createEvent method created.'
 tags:
   - API
   - Object
   - Methods
   - DOM
   - DOMEvents
-readiness: 'Ready to Use'
-standardization_status: Deprecated
-summary: 'Initializes a new DOM mutation (modification) event that the createEvent method created.'
 uri: dom/MutationEvent/initMutationEvent
 
 ---
-# initMutationEvent
-
-## Summary
+## <span>Summary</span>
 
 Initializes a new DOM mutation (modification) event that the createEvent method created.
 
-*Method of [dom/MutationEvent](/dom/MutationEvent)*
+Method of [dom/MutationEvent](/dom/MutationEvent)[dom/MutationEvent](/dom/MutationEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.initMutationEvent(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### eventType
+### <span>eventType</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property.
 
-### canBubble
+### <span>canBubble</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### cancelable
+### <span>cancelable</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### relatedNode
+### <span>relatedNode</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  A secondary node that is related to the event. Sets the value for the [**relatedNode**](/dom/MutationEvent/relatedNode) property.
 
-### prevValue
+### <span>prevValue</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The previous value of the attribute or text node. Sets the value for the [**prevValue**](/dom/MutationEvent/prevValue) property.
 
-### newValue
+### <span>newValue</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The new value of the attribute or text node. Sets the value for the [**newValue**](/dom/MutationEvent/newValue) property.
 
-### attrName
+### <span>attrName</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the changed attribute in a **DOMAttrModified** event. Sets the value for the [**attrName**](/dom/MutationEvent/attrName) property.
 
-### attrChange
+### <span>attrChange</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The type of modification in a **DOMAttrModified** event. Sets the value for the [**attrChange**](/dom/MutationEvent/attrChange) property.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Events](http://www.w3.org/TR/DOM-Level-2-Events/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Deprecated
+#### <span>Deprecated</span>
 
 -   [-ms-radial-gradient](/css/properties/-ms-radial-gradient)
 
@@ -130,12 +134,3 @@ Specification
 -   [escape](/javascript/escape)
 
 -   [unescape](/javascript/unescape)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Mutation Events](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Mutation_events) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

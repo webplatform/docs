@@ -1,46 +1,58 @@
 ---
 title: font-size
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'font-size sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element''s parent or root elements. CSS Text Styling Fundamentals provides an overview.'
 code_samples:
   - 'http://gist.github.com/5628042'
   - 'http://gist.github.com/5628240'
-uri: css/properties/font-size
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`medium`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified, but with relative lengths converted into absolute pixel values.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`fontSize`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'font-size sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element''s parent or root elements. CSS Text Styling Fundamentals provides an overview.'
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'css/concepts/CSS pixels'
     - css/properties/text-size-adjust
+uri: css/properties/font-size
 
 ---
-# font-size
-
-## Summary
+## <span>Summary</span>
 
 font-size sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. CSS Text Styling Fundamentals provides an overview.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `medium`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified, but with relative lengths converted into absolute pixel values.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `fontSize`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `font-size: absolute keywords`
 -   `font-size: inherit`
@@ -48,7 +60,7 @@ Animatable
 -   `font-size: percentage`
 -   `font-size: relative keywords`
 
-## Values
+## <span>Values</span>
 
 absolute keywords
 :   A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From smallest to largest, possible values are **xx-small**, **x-small**, **small**, **medium**, **large**, **x-large**, and **xx-large**.
@@ -65,17 +77,17 @@ percentage
 inherit
 :   The `inherit` keyword causes the element to adopt its parent element's font size.
 
-## Examples
+## <span>Examples</span>
 
 A selection of examples showing some typical uses of the font-size property.
 
-``` {.html}
+``` html
 <p class="example-one">Example One: We ♥ WebPlatform Docs!</p>
 <p class="example-two">Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!</p>
 <p class="example-three">Example Three: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.</p>
 ```
 
-``` {.css}
+``` css
 .example-one {
     font-size: 1.2em;
 }
@@ -93,7 +105,7 @@ A selection of examples showing some typical uses of the font-size property.
 
 A redefinition of the typical **16px** browser default font size **medium** value as **10px**, followed by a resizing of the text that follows proportionate to that.
 
-``` {.css}
+``` css
 html { font-size: 62.5%; }
 /*
 16 * 62.5% == 10
@@ -106,7 +118,7 @@ html { font-size: 62.5%; }
 
 [View live example](http://code.webplatform.org/gist/5628240)
 
-## Usage
+## <span>Usage</span>
 
      Keywords such as large and medium, or relative em or percentage units, are generally safer to use than pixel measurements, especially for mobile web browsers that adjust their set of default font sizes for legibility. Use of percentage values, or values in  ems, leads to more robust and cascadable style sheets.
 
@@ -118,26 +130,26 @@ The value of **font-size** also affects the value of [**line-height**](/css/prop
 
 Along with many other CSS properties, **font-size** can also be applied directly as an SVG attribute:
 
-``` {.xml}
+``` xml
 <text x="12px" y="12px" font-family="sans-serif" font-size="120%"/>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-size-prop)
 :   Working Draft
+
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/)
 :   Candidate Recommendation
+
 [Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification](http://www.w3.org/TR/CSS2/)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSS Font
+#### <span>CSS Font</span>
 
 -   [font-family](/css/properties/font-family)
 
@@ -165,7 +177,7 @@ Specification
 
 -   [user-modify](/css/properties/user-modify)
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -205,7 +217,7 @@ Specification
 
 -   [font](/html/elements/font)
 
-#### Text
+#### <span>Text</span>
 
 -   [block-progression](/css/properties/block-progression)
 
@@ -305,11 +317,11 @@ Specification
 
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
-### Other articles
+### <span>Other articles</span>
 
 -   [CSS text styling fundamentals](/guides/css_text_styling_fundamentals)
 
-### External resources
+### <span>External resources</span>
 
 -   Smashing: [16 Pixels: For Body Copy. Anything Less Is a Costly Mistake](http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake)
 -   HTML5 Boilerplate: [Reasoning behind default font-size and line-height](https://github.com/h5bp/html5-boilerplate/issues/724)
@@ -318,4 +330,3 @@ Specification
 -   WebKit: [default style sheet](http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css)
 -   CSS-Tricks: [Font size keywords](http://css-tricks.com/css-font-size/)
 -   MDN: [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
-

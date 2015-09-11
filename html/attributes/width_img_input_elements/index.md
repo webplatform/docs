@@ -1,5 +1,10 @@
 ---
 title: width (img, input elements)
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Deletion Candidate'
+readiness: 'Not Ready'
 tags:
   - Pages
   - using
@@ -11,36 +16,42 @@ tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-notes:
-  - 'Deletion Candidate'
 uri: 'html/attributes/width (img, input elements)'
 
 ---
-# width (img, input elements)
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-## Examples
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example sets the width of the image to 20 pixels regardless of the original size of the image.
 
-    <IMG SRC="large.png" WIDTH="20">
+``` html
+<IMG SRC="large.png" WIDTH="20">
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 If you specify the **width** property of an **img**, but not the [**height**](/html/attributes/height) property, the resulting height of the **img** is sized proportionally to the specified **width** property and the actual height, in pixels, of the source image file. Consider the following example: {
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `img`
 -   `input type=button`
@@ -52,10 +63,3 @@ If you specify the **width** property of an **img**, but not the [**height**](/h
 -   `input type=reset`
 -   `input type=submit`
 -   `input type=text`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

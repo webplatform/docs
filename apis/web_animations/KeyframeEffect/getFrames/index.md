@@ -1,34 +1,41 @@
 ---
 title: getFrames
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/web_animations/KeyframeEffect
+    href: /apis/web_animations/KeyframeEffect
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Object
+    href: /apis/web_animations/KeyframeEffect
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the keyframes that make up this effect as a sequence of ComputedKeyframe objects.'
 tags:
   - API
   - Object
   - Methods
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the keyframes that make up this effect as a sequence of ComputedKeyframe objects.'
 uri: 'apis/web animations/KeyframeEffect/getFrames'
 
 ---
-# getFrames
-
-## Summary
+## <span>Summary</span>
 
 Returns the keyframes that make up this effect as a sequence of ComputedKeyframe objects.
 
-*Method of [apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)*
+Method of [apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)[apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = .getFrames();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Object.
+Returns an object of type ObjectObject
 
 Returns a sequence of ComputedKeyFrame objects.
 

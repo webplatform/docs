@@ -1,52 +1,62 @@
 ---
 title: selectAllChildren
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.selectAllChildren](https://developer.mozilla.org/en-US/docs/Web/API/Selection.selectAllChildren) Article]'
+  - 'Microsoft Developer Network: [[selectAllChildren Method](http://msdn.microsoft.com/en-us/library/ie/ff975180(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Selection
+    href: /dom/Selection
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Number
+    href: /dom/Selection
+standardization_status: 'W3C Working Draft'
+summary: 'Adds all the children of the specified node to the selection. Previous selection is lost.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Adds all the children of the specified node to the selection. Previous selection is lost.'
 uri: dom/Selection/selectAllChildren
 
 ---
-# selectAllChildren
-
-## Summary
+## <span>Summary</span>
 
 Adds all the children of the specified node to the selection. Previous selection is lost.
 
-*Method of [dom/Selection](/dom/Selection)*
+Method of [dom/Selection](/dom/Selection)[dom/Selection](/dom/Selection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = selObj.selectAllChildren(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### parentNode
+### <span>parentNode</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The object that receives the new selection.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Number.
+Returns an object of type NumberNumber
 
 Type: **HRESULT**
 
 If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## Examples
+## <span>Examples</span>
 
 In this example, your selection is replaced by all the elements of the DIV.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <head>
     <title>Select all children example</title>
@@ -70,29 +80,20 @@ In this example, your selection is replaced by all the elements of the DIV.
 </body>
 ```
 
-``` {.js}
+``` js
 var footer = document.getElementById("footer");
 window.getSelection().selectAllChildren(footer);
 /* Everything inside the footer is now selected */
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Raises a WRONG\_DOCUMENT\_ERR [**DOMException**](/dom/DOMException) if the *parentNode* is in another document.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML5 A vocabulary and associated APIs for HTML and XHTML](http://go.microsoft.com/fwlink/p/?linkid=221374), Section 7.6.1
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Selection.selectAllChildren](https://developer.mozilla.org/en-US/docs/Web/API/Selection.selectAllChildren) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[selectAllChildren Method](http://msdn.microsoft.com/en-us/library/ie/ff975180(v=vs.85).aspx) Article]
-

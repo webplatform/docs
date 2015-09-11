@@ -11,11 +11,11 @@ tags:
 uri: 'tutorials/More about the document head'
 
 ---
-## Introduction
+## <span>Introduction</span>
 
 In [The HTML \<head\> element article](http://www.w3.org/community/webed/wiki/The_HTML_head_element) of this course we learned about the essential things that go inside the `head` of an HTML document. In this article of the [Web Standards Curriculum](http://www.w3.org/community/webed/wiki/Main_Page) we’ll expand on that information and talk about some other — lesser used — things that you can add to the `head` section of an HTML document; these are less essential, but still very useful nonetheless. By the end of this tutorial you’ll know how to collate several HTML documents into a larger multi-part collection, what a favicon is and how to use it, and what RSS is all about. Before you go any further, [download this article’s accompanying zip file](http://dev.opera.com/articles/view/supplementary-more-about-the-document/moreinthehead.zip) so you can follow along with the examples.
 
-## Document relationships — collating several HTML documents into a collection
+## <span>Document relationships — collating several HTML documents into a collection</span>
 
 One feature of HTML that stems from the origins of the web as a document repository are document relationships. These define how one document relates to another, for example if it is the previous or next document in a logical chain or if it is the index of a whole series of documents.
 
@@ -147,11 +147,11 @@ And finally the table of contents ([toc.html](http://dev.opera.com/articles/view
 
 You can also use `rel` and `rev` attributes on the links in the document to tell browsers and assistive technology that these anchors correspond with the link relationships. And `rel` and `rev` are used for other purposes such as Microformats—[check out this article for some uses of the XFN Microformat](http://dev.opera.com/articles/view/xfn-encoding-extraction-and-visualizat/).
 
-## Linking to alternative versions of the document
+## <span>Linking to alternative versions of the document</span>
 
 The option to link to other documents that have a certain relationship to the document in question also includes different language versions of the same document, or different formats. You can do both by providing a link with a `rel` attribute value of `alternate`, indicating an alternative version.
 
-### Translations
+### <span>Translations</span>
 
 Translations are a great candidate for document interlinking. It might for example be that one language version of a document is very successful and visitors who don’t speak that language would love to have that information available to them. By linking from the original to the alternative language version you’ll make it easier for readers of the alternative to understand and promote the content and possibly make the other language version as successful. The following example shows how you can define the other language versions ([languageexample.html](http://dev.opera.com/articles/view/supplementary-more-about-the-document/languageexample.html)); note the syntax — it’s pretty intuitive:
 
@@ -186,7 +186,7 @@ As a recap, the `hreflang` attribute on links and anchors defines the human lang
 
 Different languages have obviously been around since the Internet first existed (and thousands of years before that), but there is another type of alternative web page that you’ll see a lot as you trawl the web—feeds (eg. RSS feeds). These are very popular, especially for documents that change constantly, such as news sites. We’ll look at these next.
 
-### Feeds
+### <span>Feeds</span>
 
 A feed is a document containing condensed information detailing the new additions to your site in chronological order. Users can subscribe to it and get to know what has changed on your site recently without having to visit it. They do this by using tools like feed readers, eg. [Google Reader](http://reader.google.com/), [Netvibes](http://www.netvibes.com/) or [Bloglines](http://www.bloglines.com/). Some modern browsers (such as Opera and Firefox) and e-mail clients (such as Mac Mail, or Outlook on Windows) can also process and display feeds. You can recognize that a web site offers a feed by the RSS icon next to the location as shown in Figure 2:
 
@@ -210,7 +210,7 @@ Feed pages are either structured using HTML or an XML format like RSS or Atom, a
 
 Supplying a feed makes sense for content-heavy web sites that change very often (like blogs or photo sites), and by using a feed reading tool and subscribing to feeds you can cut down on a lot of your surfing and research time. If you don’t update your site that often but you have a lot of content and want people to have a visual reminder of your web site, then you might want to consider using a shortcut icon to stand out in people’s bookmark lists. This is what We’ll cover in the section below.
 
-## Making bookmarking more fun — using favicons
+## <span>Making bookmarking more fun — using favicons</span>
 
 One last subject we’ll cover here is shortcut icons or favicons. These are small images with a file format of .ico — if you place one on your web server, you can use it to show a small icon next to the entry of your web site in a visitor’s bookmark list, as shown in Figure 3:
 
@@ -236,11 +236,11 @@ The biggest obstacle to adding your shortcut icon is actually creating it in the
 
 If you open this document in a browser it should show the Opera icon next to the address in the location toolbar. If you bookmark it, the same icon will appear next to the bookmark.
 
-## Summary
+## <span>Summary</span>
 
 That’s all for this article, and for the `head` section of an HTML document. There are other things we could cover, but they tend to be fairly advanced subjects, and often not a good idea — what we have covered here, and in [The HTML \<head\> element article](http://www.w3.org/community/webed/wiki/The_HTML_head_element), should give you all you need to get on.
 
-## Exercise questions
+## <span>Exercise questions</span>
 
 -   Why does it make sense to define link relationships when they are not displayed?
 -   How would you link to a search page?

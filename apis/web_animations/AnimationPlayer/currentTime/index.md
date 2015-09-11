@@ -1,42 +1,49 @@
 ---
 title: currentTime
+readiness: readiness-state
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationPlayer
+    href: /apis/web_animations/AnimationPlayer
+  return:
+    predicate: 'Returns an object of type '
+    value: double
+    href: /apis/web_animations/AnimationPlayer
+summary: 'The current time of this player unless this player has a pending pause task, in which case this attribute returns null.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Web
   5: Animations
-readiness: readiness-state
-summary: 'The current time of this player unless this player has a pending pause task, in which case this attribute returns null.'
 uri: 'apis/web animations/AnimationPlayer/currentTime'
 
 ---
-# currentTime
-
-## Summary
+## <span>Summary</span>
 
 The current time of this player unless this player has a pending pause task, in which case this attribute returns null.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)</span></span>
+Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.currentTime;
 element.currentTime = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">double</span></span>
+Returns an object of type doubledouble
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -57,8 +64,6 @@ element.currentTime = value;
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -86,7 +91,4 @@ element.currentTime = value;
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

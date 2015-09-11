@@ -1,51 +1,65 @@
 ---
 title: clip-rule
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/7037715'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`nonzero`'
+  'Applies to': 'Graphics elements that are contained within a \<clipPath\> element.'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Editor''s Draft'
 summary: 'Clipping crops an graphic, so that only a portion of the graphic is rendered, or filled. This clip-rule property, when used with the clip-path property, defines which clip rule, or algorithm, to use when filling the different parts of a graphics.'
-code_samples:
-  - 'http://gist.github.com/7037715'
-uri: css/properties/clip-rule
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - css/properties/clipPath
+uri: css/properties/clip-rule
 
 ---
-# clip-rule
-
-## Summary
+## <span>Summary</span>
 
 Clipping crops an graphic, so that only a portion of the graphic is rendered, or filled. This clip-rule property, when used with the clip-path property, defines which clip rule, or algorithm, to use when filling the different parts of a graphics.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `nonzero`
+
 Applies to
 :   Graphics elements that are contained within a \<clipPath\> element.
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `clip-rule: evenodd`
 -   `clip-rule: nonzero`
 
-## Values
+## <span>Values</span>
 
 nonzero
 :   This value defines whether a point is inside or outside the path by drawing a ray from that point to infinity in any direction and counting the places where a shape segment crosses the ray in a specific direction. When a segment crosses the ray from left to right, the count is incremented; when a segment crosses the ray from right to left, the count is decremented. If the count is zero, the point is outside; if non-zero, it is inside.
@@ -57,11 +71,11 @@ evenodd
 
 See [SVG fill-rule property](http://www.w3.org/TR/2011/REC-SVG11-20110816/painting.html#FillRuleProperty) for details.
 
-## Examples
+## <span>Examples</span>
 
 This example uses the SVG `clip-rule` property to show the difference in values for overlapping circles. With `nonzero`, the default, the overlapping area is filled in. With `evenodd` the overlapping area is removed.
 
-``` {.other}
+```
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      width="100%" height="100%" viewBox="0 0 140 110">
@@ -118,16 +132,14 @@ This example uses the SVG `clip-rule` property to show the difference in values 
 
 [View live example](http://code.webplatform.org/gist/7037715)
 
-## Usage
+## <span>Usage</span>
 
      The clip-rule property only applies to graphics elements that are contained within a clipPath element.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Masking](http://dev.w3.org/fxtf/masking/)
 :   Editor's Draft
+
 [SVG 1.1](http://www.w3.org/TR/SVG/)
 :   Recommendation
-

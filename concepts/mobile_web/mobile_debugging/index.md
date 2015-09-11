@@ -1,5 +1,7 @@
 ---
-title: mobile debugging
+title: Mobile web debugging
+readiness: 'Ready to Use'
+summary: 'Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.'
 tags:
   - Concept
   - Pages
@@ -8,31 +10,27 @@ tags:
   - Mobile
   - Design
   - Performance
-readiness: 'Ready to Use'
-summary: 'Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.'
 uri: 'concepts/mobile web/mobile debugging'
 
 ---
-# Mobile web debugging
-
-## Summary
+## <span>Summary</span>
 
 Debugging web applications on multiple platforms requires careful prioritisation, different from developing for desktop alone. This article explains techniques and tools available, with links to external resources.
 
-# Mobile web debugging
+# <span>Mobile web debugging</span>
 
-## Summary
+## <span>Summary</span>
 
 <span data-meta="summary" data-type="key"><span data-type="value">Debugging web applications on multiple platforms requires careful prioritisation. This article explains techniques and tools available, with links to external resources.</span></span>
 
-## Quick start
+## <span>Quick start</span>
 
 1.  Prioritise testing on a variety of [real devices](#Devices).
 2.  Add [simulators and emulators](#Simulators_and_emulators) to your toolkit.
 3.  Use [remote debugging tools](#Remote_debugging) such as [Chrome DevTools](#Chrome_DevTools) and [Adobe Edge Inspect](#Adobe_Edge_Inspect).
 4.  [Report bugs](#Reporting_browser_bugs)!
 
-## Understanding hardware
+## <span>Understanding hardware</span>
 
 Debugging for mobile can be more complex and demanding than for desktop, simply because mobile devices often have a complex variety of functions and inputs:
 
@@ -52,7 +50,7 @@ CPU, memory and storage are far more constrained and variable on mobile devices 
 -   browser software
 -   app software
 
-## Context
+## <span>Context</span>
 
 Two factors are characteristic of mobile web usage: variability and instability. Both can lead to a buggy user experience.
 
@@ -78,7 +76,7 @@ When dealing with bugs, it's also important to consider user context: environmen
 
 To get a sense of what people are actually consuming on the mobile web, take a look at [HTTP Archive Mobile](http://mobile.httparchive.org). This provides analysis of browsing data for Alexa's top one million sites.
 
-## Devices
+## <span>Devices</span>
 
 Facebook data show that [over 7000 different devices access their site every day](http://techcrunch.com/2012/08/03/vp-mike-schroepfer-7000-different-mobile-devices-access-facebook-every-day/). Even if your site or app doesn't have this level of traffic, it's important to test web apps on multiple platforms, and to develop a strategy for prioritising which devices and browsers to test on.
 
@@ -93,18 +91,18 @@ Strategies for choosing devices:
 Testing 'without breaking the bank':
 [bradfrostweb.com/blog/mobile/test-on-real-mobile-devices-without-breaking-the-bank](http://bradfrostweb.com/blog/mobile/test-on-real-mobile-devices-without-breaking-the-bank/)
 
-## Mobile simulation in the browser
+## <span>Mobile simulation in the browser</span>
 
 Before testing on mobile devices, it's often best to do as much design and development as possible on a development computer. With that in mind, a number of tools have been built to mimic the mobile environment in the browser.
 
-### Chrome DevTools
+### <span>Chrome DevTools</span>
 
 Chrome provides many features for mobile device simulation:
  - touch simulation
  - user agent overriding
  - device metrics overriding (resolution and font scale factor)
 
-### Firefox
+### <span>Firefox</span>
 
 Firefox provides Responsive Design View:
 [developer.mozilla.org/en-US/docs/Tools/Responsive\_Design\_View](https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_View)
@@ -112,7 +110,7 @@ Firefox provides Responsive Design View:
 Other Firefox developer tools are listed here:
 [developer.mozilla.org/en-US/docs/Tools](https://developer.mozilla.org/en-US/docs/Tools)
 
-### Debugging responsive design
+### <span>Debugging responsive design</span>
 
 [Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design/) (RWD for short) is an approach that emphasises design which works well across a variety of platforms, in particular by using [media queries](http://www.html5rocks.com/en/mobile/responsivedesign/?redirect_from_locale=ja#toc-style-mediaqueries), [fluid grids](http://www.alistapart.com/articles/fluidgrids/) (layouts) and [fluid images](http://www.alistapart.com/articles/fluid-images/).
 
@@ -122,7 +120,7 @@ For responsive typography, [designers have found](http://www.webtypography.net/R
 
 A [huge range of other tools](http://bradfrost.github.com/this-is-responsive/resources.html#viewport-testing) is available for testing and debugging responsive design components including images, fonts and layouts.
 
-## Simulators and emulators
+## <span>Simulators and emulators</span>
 
 Simulators aim only to mimic the behaviour of a device. Emulators are designed to replicate the way a device actually works, in terms of hardware and software. For example, the Android emulator runs a full Android system stack down to the kernel level, whereas iOS provides a simulator. (There's a [long discussion on Stack Overflow](http://stackoverflow.com/questions/1584617/simulator-or-emulator-what-is-the-difference) on the difference.)
 
@@ -133,7 +131,7 @@ Simulators and emulators are available for many platforms, and browsers can be i
 
 The [Opera Mobile simulator](http://www.opera.com/developer/tools/mobile/) can run multiple Opera Mobile instances, each with its own settings (such as resolution and pixel density) and can be used in collaboration with the Opera Dragonfly development tools.
 
-### Online tools
+### <span>Online tools</span>
 
 Several paid-for online tools enable developers to test sites in a variety of real or virtual devices and browsers.
 
@@ -145,13 +143,13 @@ Several paid-for online tools enable developers to test sites in a variety of re
 
 [Saucelabs](https://saucelabs.com/) provides integration with Selenium RC and WebDriver.
 
-## Remote debugging
+## <span>Remote debugging</span>
 
 Several tools enable developers to run a debugger user interface on one device in order to debug a web page running on another: for example, from your laptop debug a web page displayed on your phone.
 
 Most tools for remote debugging require some setup; in particular, browser tools require port forwarding to be initiated from the command line.
 
-### Chrome DevTools
+### <span>Chrome DevTools</span>
 
 The Chrome tools enable remote debugging via USB. The full set of developer tools is available, including:
 
@@ -165,7 +163,7 @@ The Chrome tools enable remote debugging via USB. The full set of developer tool
 
 For more information see [developers.google.com/chrome-developer-tools/docs/remote-debugging](https://developers.google.com/chrome-developer-tools/docs/remote-debugging).
 
-### WebKit remote debugging
+### <span>WebKit remote debugging</span>
 
 The WebKit Web Inspector is implemented as an HTML + CSS + JavaScript web application that can run outside of the browser environment, and has been incorporated in other debugging tools. Chrome DevTools developer Pavel Feldman's [article about remote debugging](http://www.google.com/url?q=http%3A%2F%2Fwebkit.org%2Fblog%2F1620%2Fwebkit-remote-debugging&sa=D&sntz=1&usg=AFQjCNGF6wUdoJzskoR5CBEY8AlWz6I3Zw) provides a quick tutorial (albeit oriented to desktop Chromium) and discusses the Remote Debugging Protocol. Safari's Web inspector uses the WebKit remote debugging protocol.
 
@@ -177,14 +175,14 @@ General information about using the iOS simulator is available from [Apple's Xco
 
 Information about BlackBerry debugging is available from the [HTML5 WebWorks](https://developer.blackberry.com/html5/documentation/enabling_webinsp_microsite_1987478_11.html) site, and RIM's Playbook OS also [supports Web Inpector](http://devblog.blackberry.com/2012/02/web-inspector-playbook/).
 
-### weinre
+### <span>weinre</span>
 
 Remote debugging tool. Reuses WebKit Web Inspector – and is used by Adobe Edge Inspect.
 
 Useful for remote debugging with pre-Jelly Bean (4.1) Android devices, and iOS pre version 5:
 [people.apache.org/\~pmuellr/weinre/docs/latest](http://people.apache.org/~pmuellr/weinre/docs/latest/).
 
-### Adobe Edge Inspect
+### <span>Adobe Edge Inspect</span>
 
 Previously known as Adobe Shadow; uses weinre (see above) for remote inspection.
 
@@ -201,7 +199,7 @@ Installation requires three steps:
 
 Adobe has also published a [beginner's guide](http://blogs.adobe.com/mallika/2012/10/beginners-guide-to-adobe-edge-tools-services.html) to the Edge tools.
 
-### Firefox remote debugging
+### <span>Firefox remote debugging</span>
 
 Firefox has tools for remote debugging, though these are currently more limited than the Chrome tools:
  - remote debugging only for scripts, i.e. not HTML or CSS or anything else
@@ -219,35 +217,35 @@ Screencast:
 Information about the Mozilla remote debugging protocol:
 [wiki.mozilla.org/Remote\_Debugging\_Protocol](https://wiki.mozilla.org/Remote_Debugging_Protocol)
 
-### Firebug
+### <span>Firebug</span>
 
 There is a bookmarklet that allows Firebug to run on iOS:
 [martinkool.com/post/13629963755/firebug-on-ipad-and-iphone](http://martinkool.com/post/13629963755/firebug-on-ipad-and-iphone)
 
-### iWebInspector
+### <span>iWebInspector</span>
 
 This tool, built by Maximiliano Firtman, can be useful for debugging apps running on Safari for iOS pre version 6.0 – can also be used with PhoneGap apps: [iwebinspector.com](http://www.iwebinspector.com/).
 
-## Debugging performance issues
+## <span>Debugging performance issues</span>
 
 Performance bugs are a significant barrier to producing a successful site or web app.
 
 For more information about improving mobile web performance, see Google's [mobile web best practice documentation](https://developers.google.com/speed/docs/best-practices/mobile).
 
-### Memory
+### <span>Memory</span>
 
 When considering performance problems, bear in mind that some bugs go unnoticed on desktop computers but become problematic on devices with more constrained memory and caching. Remember that users – even on mobile – are leaving web apps [open for longer than they used to](http://www.samdutton.com/devoxx2012/#76). In particular, beware of memory leaks when using event listeners or creating DOM elements.
 
 The Chrome DevTools have [several features for analysing memory usage](https://developers.google.com/chrome-developer-tools/docs/memory-analysis-101). These tools also provide a timeline and Frame Mode for understanding the time taken to display each 'frame' in the browser – loading, scripting, rendering and painting – and how to maintain an acceptable 'frame rate'.
 
-### window.performance
+### <span>window.performance</span>
 
 The Navigation Timing API is a great 'tool' for debugging performance problems:
 [html5rocks.com/en/tutorials/webperformance/basics](http://www.html5rocks.com/en/tutorials/webperformance/basics/).
 
 The API provides timing data for page load and navigation events, including DNS resolution and redirects. Data from the web.performance [can be accessed via Google Analytics](http://analytics.blogspot.nl/2012/04/more-ways-to-measure-your-websites.html).
 
-### Performance checking
+### <span>Performance checking</span>
 
 In order to avoid performance bugs, it is crucial to incorporate performance checking in your workflow.
 
@@ -263,7 +261,7 @@ There are several tools for this.
 
 W3C also offers a tool to check web pages for 'mobile friendliness': [validator.w3.org/mobile](http://validator.w3.org/mobile/).
 
-## Browser and device capability
+## <span>Browser and device capability</span>
 
 It's important to ensure that your target platforms support the HTML, JavaScript and CSS features you use, and to plan sensible fallback strategies. Several sites provide detailed, up-to-date information about this.
 
@@ -292,7 +290,7 @@ It's important to ensure that your target platforms support the HTML, JavaScript
 [overlooksoft.com/fing](http://www.overlooksoft.com/fing)
  Fing is a native app for checking the network environment – you can even run ping and traceroute.
 
-## Reporting browser bugs
+## <span>Reporting browser bugs</span>
 
 It's extremely important for the developer community that you report browser bugs as soon as you encounter them, however frustrating or trivial they may seem.
 
@@ -308,7 +306,7 @@ Firefox: [bugzilla.mozilla.org](https://bugzilla.mozilla.org/)
 
 Internet Explorer: [connect.microsoft.com](http://connect.microsoft.com/)
 
-## And finally...
+## <span>And finally...</span>
 
 Whatever you build, try to test it on a variety of mobile devices in a variety of contexts.
 
@@ -316,7 +314,7 @@ You don't need a complex test suite and usability lab for that: just get friends
 
 The mobile web is changing fast, unpredictably – what matters now may not matter in six months – so make sure to incorporate testing early in your workflow.
 
-## Learn more
+## <span>Learn more</span>
 
 Brad Frost's guide to testing and tools:
 [mobilewebbestpractices.com/resources/\#r-testing](http://mobilewebbestpractices.com/resources/#r-testing)
@@ -338,4 +336,3 @@ Brian Leroux on debugging mobile web apps:
 
 Resources for finding information about web development, and how to help others:
 [movethewebforward.org](http://movethewebforward.org/)
-

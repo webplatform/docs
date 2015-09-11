@@ -1,31 +1,33 @@
 ---
 title: maction
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/maction)'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[mathml](/mathml)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: "The MathML maction element provides a possibility to bind actions to (sub-) expressions.\nThe action itself is specified by the actiontype attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the selection attribute.\n"
 tags:
   - Markup
   - Elements
   - MathML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: "The MathML maction element provides a possibility to bind actions to (sub-) expressions.\nThe action itself is specified by the actiontype attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the selection attribute.\n"
 uri: mathml/elements/maction
 
 ---
-# maction
-
-## Summary
+## <span>Summary</span>
 
 The MathML maction element provides a possibility to bind actions to (sub-) expressions. The action itself is specified by the actiontype attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the selection attribute.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## Examples
+## <span>Examples</span>
 
 This example demonstrates a simple usage of maction:
 
-``` {.html}
+``` html
 
 
 <math>
@@ -40,12 +42,12 @@ This example demonstrates a simple usage of maction:
   <mfrac>
     <mrow>
       <mn>3</mn>
-      <mo>&sdot;</mo>
+      <mo>⋅</mo>
       <mn>2</mn>
     </mrow>
     <mrow>
       <mn>4</mn>
-      <mo>&sdot;</mo>
+      <mo>⋅</mo>
       <mn>2</mn>
     </mrow>
   </mfrac>
@@ -62,20 +64,12 @@ This example demonstrates a simple usage of maction:
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter2.html#interf.toplevel)
 :   W3C Recommendation
 
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/maction)
-
-## Attributes
+## <span>Attributes</span>
 
  actiontype
 :   The action which specifies what happens for this element. Possible values are:

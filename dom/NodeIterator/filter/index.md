@@ -1,43 +1,53 @@
 ---
 title: filter
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NodeIterator.filter](https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator.filter) Article]'
+  - 'Microsoft Developer Network: [[filter Property](http://msdn.microsoft.com/en-us/library/ie/ff974820(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/NodeIterator
+    href: /dom/NodeIterator
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/NodeIterator
+standardization_status: 'W3C Recommendation'
+summary: 'Gets the currently applied NodeFilter to the traversal.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Gets the currently applied NodeFilter to the traversal.'
 uri: dom/NodeIterator/filter
 
 ---
-# filter
-
-## Summary
+## <span>Summary</span>
 
 Gets the currently applied NodeFilter to the traversal.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/NodeIterator](/dom/NodeIterator)</span></span>
+Property of [dom/NodeIterator](/dom/NodeIterator)[dom/NodeIterator](/dom/NodeIterator)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var nodeFilter = nodeIterator.filter;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 The **NodeFilter** that was applied while traversing.
 
-## Examples
+## <span>Examples</span>
 
 The following example searches for [**table**](/html/elements/table) and [**anchor**](/html/elements/a) tags and reports the value of the [**id**](/html/attributes/id) attribute. Although the [**TreeWalker**](/dom/TreeWalker) preserves the hierarchical relationship of nodes, you don't need to write recursive functions to walk the nodes in a hierarchy. The **NodeFilter** function skips nodes rather than rejecting them, which allows the function to examine all child nodes in the hierarchy.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,7 +63,7 @@ function findNodes()
 {
     var tw = document.createTreeWalker(document.body, NodeFilter.SHOW_ELEMENT, filter, false);
 
-    var node, results = ;
+    var node, results = '';
     while (node = tw.nextNode()) {
         results += node.id + "<br/>";
     }
@@ -85,11 +95,11 @@ function refresh()
 </html>
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use the filter property to exclude/include Nodes from the Iteration.
 
-## Notes
+## <span>Notes</span>
 
 -   Appending content to the document while the [**TreeWalker**](/dom/TreeWalker) is searching for nodes can cause an endless loop. To prevent this, the example collects all possible output in a temporary variable and appends it to the document after the **TreeWalker** is finished.
 -   The **NodeFilter** is a callback function that provides customized filtering for [**NodeIterator**](/dom/NodeIterator) and [**TreeWalker**](/dom/TreeWalker). The filter function accepts a node as its only parameter, and indicates whether the node is accepted, rejected, or skipped.
@@ -101,18 +111,7 @@ function refresh()
         // NodeFilter.FILTER_ACCEPT, NodeFilter.FILTER_REJECT, NodeFilter.FILTER_SKIP
     }
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 Traversal and Range](http://www.w3.org/TR/DOM-Level-2-Traversal-Range/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NodeIterator.filter](https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator.filter) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[filter Property](http://msdn.microsoft.com/en-us/library/ie/ff974820(v=vs.85).aspx) Article]
-

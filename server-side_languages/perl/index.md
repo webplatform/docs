@@ -3,7 +3,7 @@ title: perl
 uri: 'server-side languages/perl'
 
 ---
-## Summary
+## <span>Summary</span>
 
 [Perl](http://www.perl.org) is a high-level, general-purpose, interpreted, dynamic programming language.
 
@@ -15,27 +15,27 @@ Perl gained widespread popularity in the late 1990s as a CGI scripting language,
 
 In addition to CGI, Perl is used for graphics programming, system administration, network programming, finance, bioinformatics, and other applications. Perl is nicknamed "the Swiss Army chainsaw of scripting languages" because of its flexibility and power, and possibly also because of its perceived "ugliness". In 1998, it was also referred to as the "duct tape that holds the Internet together", in reference to its ubiquity and perceived inelegance.
 
-## Resources
+## <span>Resources</span>
 
 -   [Official Documentation](http://www.perl.org/docs.html)
 -   [Downloads](http://www.perl.org/get.html)
 
-## Support
+## <span>Support</span>
 
 -   [Mailing Lists](http://lists.perl.org/)
 -   [User Groups](http://www.pm.org/)
 
-## Tutorials
+## <span>Tutorials</span>
 
 -   [Learn Perl in about 2 hours 30 minutes](http://qntm.org/files/perl/perl.html)
 
-## Frameworks
+## <span>Frameworks</span>
 
 Some popular PHP frameworks:
 
 -   [Catalyst](http://www.catalystframework.org/)
 -   [Dancer](http://www.perldancer.org/)
 
-## References
+## <span>References</span>
 
-1.  <span class="mw-cite-backlink">[↑](#cite_ref-1)</span> <span class="reference-text">[http://perlnews.org/2013/03/perl-5-16-3-and-5-14-4-just-released/](http://perlnews.org/2013/03/perl-5-16-3-and-5-14-4-just-released/)</span>
+1.  <span class="mw-cite-backlink">[↑](#cite_ref-1)</span> <span class="reference-text"><http://perlnews.org/2013/03/perl-5-16-3-and-5-14-4-just-released/></span>

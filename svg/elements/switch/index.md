@@ -1,62 +1,66 @@
 ---
 title: switch
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, usage, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, usage, spec reference, standardization status'
 uri: svg/elements/switch
 
 ---
-# switch
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 The following code example uses the **switch** element to provide a graphical representation of a paragraph if XMHTML is not supported.
 
+``` html
 
 
-    <?xml version="1.0" standalone="yes"?>
-    <svg width="4in" height="3in" version="1.1"
-     xmlns = 'http://www.w3.org/2000/svg'>
-      <!-- The <switch> element will process the first child element
-           whose testing attributes evaluate to TRUE.-->
-      <switch>
-        <!-- Process the embedded XHTML if the requiredExtensions attribute
-             evaluates to TRUE (that is, the browser supports XHTML
-             embedded within SVG). -->
-        <foreignObject width="100" height="50"
-                       requiredExtensions="http://example.com/SVGExtensions/EmbeddedXHTML">
-          <!-- XHTML content goes here -->
-          <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>Here is a paragraph that requires word wrap.</p>
-          </body>
-        </foreignObject>
-        <!-- ELSE, process the following alternate SVG.
-             Note that there are no testing attributes on the <text> element.
-             If no testing attributes are provided, it is as if there
-             were testing attributes and they evaluated to TRUE.-->
-        <text font-size="10" font-family="Verdana">
-          <tspan x="10" y="10">Here is a paragraph that</tspan>
-          <tspan x="10" y="20">requires word wrap.</tspan>
-        </text>
-      </switch>
-    </svg>
+<?xml version="1.0" standalone="yes"?>
+<svg width="4in" height="3in" version="1.1"
+ xmlns = 'http://www.w3.org/2000/svg'>
+  <!-- The <switch> element will process the first child element
+       whose testing attributes evaluate to TRUE.-->
+  <switch>
+    <!-- Process the embedded XHTML if the requiredExtensions attribute
+         evaluates to TRUE (that is, the browser supports XHTML
+         embedded within SVG). -->
+    <foreignObject width="100" height="50"
+                   requiredExtensions="http://example.com/SVGExtensions/EmbeddedXHTML">
+      <!-- XHTML content goes here -->
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>Here is a paragraph that requires word wrap.</p>
+      </body>
+    </foreignObject>
+    <!-- ELSE, process the following alternate SVG.
+         Note that there are no testing attributes on the <text> element.
+         If no testing attributes are provided, it is as if there
+         were testing attributes and they evaluated to TRUE.-->
+    <text font-size="10" font-family="Verdana">
+      <tspan x="10" y="10">Here is a paragraph that</tspan>
+      <tspan x="10" y="20">requires word wrap.</tspan>
+    </text>
+  </switch>
+</svg>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -64,11 +68,11 @@ The **switch** element evaluates the [**requiredFeatures**](/svg/properties/requ
 
 The values of the [**display**](/css/properties/display) and [**visibility**](/css/properties/visibility) properties does not affect the **switch** element processing. In particular, if you set **display** to [**none**](/css/properties/text-decoration-none) on a child element of a **switch** element, it does not affect TRUE and FALSE testing that is associated with processing **switch** elements.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.13
 
-### Members
+### <span>Members</span>
 
 The **SVGSwitchElement** object has these events:
 
@@ -101,10 +105,3 @@ The **SVGSwitchElement** object has these properties:
 -   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

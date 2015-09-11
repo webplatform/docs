@@ -1,22 +1,20 @@
 ---
-title: opacity
+title: opacity()
+code_samples:
+  - 'http://codepen.io/pverbeek/pen/qhfaD'
+  - 'http://codepen.io/pverbeek/pen/KzEHw'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: "Applies a transparency effect to an element's\ncolors, for use by the filter\nproperty. A decimal value between 0 and 1 or percentage up to 100%\ncontrols the overall opacity, with 0 rendering the element invisible\nand background elements showing through.\n"
 tags:
   0: CSS
   1: Functions
   3: Graphics
   4: SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: "Applies a transparency effect to an element's\ncolors, for use by the filter\nproperty. A decimal value between 0 and 1 or percentage up to 100%\ncontrols the overall opacity, with 0 rendering the element invisible\nand background elements showing through.\n"
-code_samples:
-  - 'http://codepen.io/pverbeek/pen/qhfaD'
-  - 'http://codepen.io/pverbeek/pen/KzEHw'
 uri: css/functions/opacity
 
 ---
-# opacity()
-
-## Summary
+## <span>Summary</span>
 
 Applies a transparency effect to an element's colors, for use by the filter property. A decimal value between 0 and 1 or percentage up to 100% controls the overall opacity, with 0 rendering the element invisible and background elements showing through.
 
@@ -37,13 +35,13 @@ When used in isolation, the **opacity()** filter has the same effect as the [**o
 
 **Note:** As is true for the related [**opacity**](/css/properties/opacity) CSS property, transparent elements still receive mouse and touch events, but the [**pointer-events**](/css/properties/pointer-events) property offers a way to override this behavior.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows the difference between two images, where one has an opacity of 50%:
 
 ![filter opacity1.png](/assets/thumb/0/09/filter_opacity1.png/400px-filter_opacity1.png)
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -59,8 +57,8 @@ The following example shows the difference between two images, where one has an 
     </style>
   </head>
   <body>
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo" />
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo bar" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo bar" />
   </body>
 </html>
 ```
@@ -71,7 +69,7 @@ This example shows the importance of the order in which filters are applied. In 
 
 ![filter opacity2.png](/assets/thumb/c/c4/filter_opacity2.png/400px-filter_opacity2.png)
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -91,19 +89,19 @@ This example shows the importance of the order in which filters are applied. In 
     </style>
   </head>
   <body>
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo bar" />
-    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png%22 class="foo baz" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo bar" />
+    <img src="http://www.webplatform.org/logo/wplogo_transparent_xlg.png" class="foo baz" />
   </body>
 </html>
 ```
 
 [View live example](http://codepen.io/pverbeek/pen/KzEHw)
 
-## Notes
+## <span>Notes</span>
 
 The CSS filter corresponds to this SVG filter definition, based on a variable *amount* passed to the function:
 
-``` {.xml}
+``` xml
 <filter id="opacity">
   <feComponentTransfer>
     <feFuncA type="table" tableValues="0 [amount]"/>
@@ -111,20 +109,19 @@ The CSS filter corresponds to this SVG filter definition, based on a variable *a
 </filter>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
+
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -208,8 +205,7 @@ Specification
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### External resources
+### <span>External resources</span>
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)
-

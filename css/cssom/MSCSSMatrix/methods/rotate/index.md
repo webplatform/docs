@@ -1,35 +1,44 @@
 ---
 title: rotate
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - Proprietary.
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: /css/cssom/MSCSSMatrix
+    href: '/w/index.php?title=css/cssom/MSCSSMatrix/methods/rotate/css/cssom/MSCSSMatrix&action=edit&redlink=1'
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: '/w/index.php?title=css/cssom/MSCSSMatrix/methods/rotate/css/cssom/MSCSSMatrix&action=edit&redlink=1'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-notes:
-  - Proprietary.
-uri: css/cssom/MSCSSMatrix/methods/rotate
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - css/cssom/MSCSSMatrix/methods/rotate/css/cssom/MSCSSMatrix
+uri: css/cssom/MSCSSMatrix/methods/rotate
 
 ---
-# rotate
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [/css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix/methods/rotate/css/cssom/MSCSSMatrix&action=edit&redlink=1)*
+Method of [/css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix/methods/rotate/css/cssom/MSCSSMatrix&action=edit&redlink=1)[/css/cssom/MSCSSMatrix](/w/index.php?title=css/cssom/MSCSSMatrix/methods/rotate/css/cssom/MSCSSMatrix&action=edit&redlink=1)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.rotate();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -39,13 +48,13 @@ This method can return one of these values.
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
 
-### Parameters
+### <span>Parameters</span>
 
 *angleX* [in]
 :   Type: **float**The angle (in degrees) of the rotation along the *x*-axis. If *angleY* and *angleZ* are undefined, this method becomes a rotation *angleX* degrees around the *z*-axis.
@@ -56,11 +65,11 @@ This method can return one of these values.
 *retMatrix* [out, retval]
 :   Type: **MSCSSMatrix**The returned matrix.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -94,13 +103,6 @@ This method can return one of these values.
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `MSCSSMatrix`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

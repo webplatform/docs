@@ -1,41 +1,50 @@
 ---
 title: length
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/CharacterData
+    href: /dom/CharacterData
+  return:
+    predicate: 'Returns an object of type '
+    value: Number
+    href: /dom/CharacterData
+standardization_status: 'W3C Recommendation'
+summary: 'Gets the number of characters in a text node.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Gets the number of characters in a text node.'
 uri: dom/CharacterData/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 Gets the number of characters in a text node.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/CharacterData](/dom/CharacterData)</span></span>
+Property of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var textLength = textualNode.length;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Number</span></span>
+Returns an object of type NumberNumber
 
 The number of characters in the node.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //create text node
 var phrase = document.createTextNode ("A flawed plan today is better than a perfect plan tomorrow.");
 //report length
@@ -44,7 +53,7 @@ alert(phrase.length);
 
 This example uses the **length** property to specify where a [**Text**](/dom/Text) node is split by using the [**splitText**](/dom/Text/splitText) method.
 
-``` {.html}
+``` html
 <script>
 function fnChangeValue(){
    var oListItem = document.createElement("LI");
@@ -61,16 +70,7 @@ function fnChangeValue(){
 </ul>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

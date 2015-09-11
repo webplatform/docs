@@ -1,57 +1,98 @@
 ---
 title: unload
-tags:
-  - Events
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs summary, and compat, also better spec link'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onunloadEX.htm'
+notes:
+  - 'Needs summary, and compat, also better spec link'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+tags:
+  - Events
 uri: dom/Element/unload
 
 ---
-# unload
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example shows how to use the **onunload** event to run script when the window object has been unloaded.
 
-    <head>
-    <script type="text/javascript" for="window" event="onunload">
-        alert("The onunload event fired for the window object.");
-    </script>
-    <script type="text/javascript">
-        function fnRelocate()
-        {
-        location.href="/workshop/samples/author/dhtml/refs/onunloadEX_target.htm";
-        }
-    </script>
-    </head>
-    <body>
-    <input type="button" value="Go To Page 2" onclick="fnRelocate()">
-    </body>
+``` html
+<head>
+<script type="text/javascript" for="window" event="onunload">
+    alert("The onunload event fired for the window object.");
+</script>
+<script type="text/javascript">
+    function fnRelocate()
+    {
+    location.href="/workshop/samples/author/dhtml/refs/onunloadEX_target.htm";
+    }
+</script>
+</head>
+<body>
+<input type="button" value="Go To Page 2" onclick="fnRelocate()">
+</body>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onunloadEX.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 If you call **window**.[**open**](/dom/Window/open) from this event, the Pop-up Blocker feature in Microsoft Internet Explorer 6 prevents the pop-up window from appearing. Removes the object or document from the browser window. To invoke this event, do one of the following:
 
@@ -97,13 +138,13 @@ For security reasons, the **unload** event does not open modeless dialog boxes, 
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Standards information
+### <span>Standards information</span>
 
 -   [HTML 4.01 Specification](http://go.microsoft.com/fwlink/p/?linkid=25320), Section 18.2.3
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `body`
 -   `frameSet`
@@ -111,10 +152,3 @@ For security reasons, the **unload** event does not open modeless dialog boxes, 
 -   `Reference`
 -   `Conceptual`
 -   `About the Pop-up Blocker`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

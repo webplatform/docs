@@ -1,29 +1,32 @@
 ---
 title: onstatechange
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+standardization_status: 'W3C Working Draft'
+summary: 'Handles the statechange event for when the readyState property is changed, i.e. with a call to setLocalDescription() or setRemoteDescription(). The event does not fire when a new RTCPeerConnection object is created.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Handles the statechange event for when the readyState property is changed, i.e. with a call to setLocalDescription() or setRemoteDescription(). The event does not fire when a new RTCPeerConnection object is created.'
 uri: apis/webrtc/RTCPeerConnection/onstatechange
 
 ---
-# onstatechange
-
-## Summary
+## <span>Summary</span>
 
 Handles the statechange event for when the readyState property is changed, i.e. with a call to setLocalDescription() or setRemoteDescription(). The event does not fire when a new RTCPeerConnection object is created.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)</span></span>
+Property of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.onstatechange;
 element.onstatechange = value;
 ```

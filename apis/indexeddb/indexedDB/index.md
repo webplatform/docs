@@ -1,40 +1,36 @@
 ---
 title: indexedDB
+readiness: 'Ready to Use'
+standardization_status: 'W3C Proposed Recommendation'
+summary: 'Implements the IDBFactory object''s open method, thereby providing the way to open (create or access) a database.'
 tags:
   0: API
   1: Objects
   3: IndexedDB
-readiness: 'Ready to Use'
-standardization_status: 'W3C Proposed Recommendation'
-summary: 'Implements the IDBFactory object''s open method, thereby providing the way to open (create or access) a database.'
 uri: apis/indexeddb/indexedDB
 
 ---
-# indexedDB
-
-## Summary
+## <span>Summary</span>
 
 Implements the IDBFactory object's open method, thereby providing the way to open (create or access) a database.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [open](/apis/indexeddb/indexedDB/open)
 :   Opens a database. See [apis/indexeddb/IDBFactory/open](/apis/indexeddb/IDBFactory/open)
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C IndexedDB Specification](http://www.w3.org/TR/IndexedDB/)
 :   W3C Proposed Recommendation
-

@@ -1,38 +1,43 @@
 ---
 title: attribute
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLElement
+    href: /dom/HTMLElement
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
 uri: dom/HTMLElement/attribute
 
 ---
-# attribute
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLElement](/dom/HTMLElement)</span></span>
+Property of [dom/HTMLElement](/dom/HTMLElement)[dom/HTMLElement](/dom/HTMLElement)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.attribute;
 element.attribute = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
 This example shows how to iterate through the collection of attributes of the specified object, displaying the name and value of the attributes as well as the language of the attribute (HTML or script).
 
-``` {.js}
+``` js
 <SCRIPT>
 function ShowAttribs(oElem)
 {
-    txtAttribs.innerHTML = ;
+    txtAttribs.innerHTML = '';
     // Retrieve the collection of attributes for the specified object.
     var oAttribs = oElem.attributes;
     // Iterate through the collection.
@@ -49,27 +54,20 @@ function ShowAttribs(oElem)
 </SCRIPT>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **attributes** collection does not expose the [**style**](/css/cssom/style) object. Use the [**cssText**](/css/cssom/styleSheet/cssText) property of the object's **style** property to retrieve the persistent representation of the cascading styles associated with an object. Unlike other DHTML collections, such as [**children**](/dom/Element/children), the **attributes** collection is static. Modifications to the properties of an object are not automatically reflected by an existing reference to the **attributes** collection of that object.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 3 Core Specification](http://go.microsoft.com/fwlink/p/?linkid=182717), Section 1.4
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `About the W3C Document Object Model`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

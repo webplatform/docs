@@ -1,35 +1,42 @@
 ---
 title: onblocked
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBVersionChangeRequest
+    href: /apis/indexeddb/IDBVersionChangeRequest
+  return:
+    predicate: 'Returns an object of type '
+    value: function
+    href: /apis/indexeddb/IDBVersionChangeRequest
+summary: 'The event handler for the blocked event.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'The event handler for the blocked event.'
 uri: apis/indexeddb/IDBVersionChangeRequest/onblocked
 
 ---
-# onblocked
-
-## Summary
+## <span>Summary</span>
 
 The event handler for the blocked event.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBVersionChangeRequest](/apis/indexeddb/IDBVersionChangeRequest)</span></span>
+Property of [apis/indexeddb/IDBVersionChangeRequest](/apis/indexeddb/IDBVersionChangeRequest)[apis/indexeddb/IDBVersionChangeRequest](/apis/indexeddb/IDBVersionChangeRequest)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.onblocked;
 element.onblocked = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">function</span></span>
+Returns an object of type functionfunction
 
 **Needs Examples**: This section should include examples.
 

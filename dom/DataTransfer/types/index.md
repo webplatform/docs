@@ -1,41 +1,50 @@
 ---
 title: types
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/DataTransfer
+    href: /dom/DataTransfer
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/DataTransfer
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Returns an array listing the formats that were set in the dragstart event. If any files are being dragged, one of the types will be the string &quot;Files&quot;.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Returns an array listing the formats that were set in the dragstart event. If any files are being dragged, one of the types will be the string "Files".'
 uri: dom/DataTransfer/types
 
 ---
-# types
+## <span>Summary</span>
 
-## Summary
+Returns an array listing the formats that were set in the dragstart event. If any files are being dragged, one of the types will be the string &quot;Files&quot;.
 
-Returns an array listing the formats that were set in the dragstart event. If any files are being dragged, one of the types will be the string "Files".
+Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DataTransfer](/dom/DataTransfer)</span></span>
+## <span>Syntax</span>
 
-## Syntax
+**Note**: This property is read-only.
 
-***Note**: This property is read-only.*
-
-``` {.js}
+``` js
 var dragTypes = event.dataTransfer.types;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 An array of dragged formats.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //retrieve array of formats being dragged
 function getDragTypes(e) {
   var oData = e.dataTransfer;
@@ -43,16 +52,7 @@ function getDragTypes(e) {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

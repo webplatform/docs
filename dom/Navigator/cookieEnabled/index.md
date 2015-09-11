@@ -1,35 +1,45 @@
 ---
 title: cookieEnabled
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[navigator.cookieEnabled](https://developer.mozilla.org/en-US/docs/Web/API/Navigator.cookieEnabled) Article]'
+  - 'Microsoft Developer Network: [[navigator.cookieEnabled](http://msdn.microsoft.com/en-us/library/ie/ms533694(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/Navigator
+    href: /dom/Navigator
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/Navigator
+standardization_status: Non-Standard
+summary: 'Retrieves whether client-side persistent cookies are enabled. Persistent cookies are those that are stored on the client-side computer.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: Non-Standard
-summary: 'Retrieves whether client-side persistent cookies are enabled. Persistent cookies are those that are stored on the client-side computer.'
 uri: dom/Navigator/cookieEnabled
 
 ---
-# cookieEnabled
-
-## Summary
+## <span>Summary</span>
 
 Retrieves whether client-side persistent cookies are enabled. Persistent cookies are those that are stored on the client-side computer.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/Navigator](/dom/Navigator)</span></span>
+Property of [dom/Navigator](/dom/Navigator)[dom/Navigator](/dom/Navigator)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = navigator.cookieEnabled;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 false (false)
 
@@ -39,15 +49,15 @@ true (true)
 
 Client does support cookies.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 if (!navigator.cookieEnabled) {
   // let the user know that enabling cookies makes the web page much more useful
 }
 ```
 
-## Usage
+## <span>Usage</span>
 
      Some websites may require cookies to be enabled on the client in order to work as intended.
 
@@ -55,25 +65,16 @@ eg. a cookie may be used to store a user token that is used to automatically log
 
 Use navigator.cookieEnabled to determine if the client web browser has cookies enabled. Display a message if they are not and your site requires it.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note**  CookieEnabled does not check the status of session cookies. This property does not check whether third-party persistent cookies are enabled.
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
 [How to enable cookies in your Web Browser](http://www.wikihow.com/Enable-Cookies-in-Your-Internet-Web-Browser)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[navigator.cookieEnabled](https://developer.mozilla.org/en-US/docs/Web/API/Navigator.cookieEnabled) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[navigator.cookieEnabled](http://msdn.microsoft.com/en-us/library/ie/ms533694(v=vs.85).aspx) Article]
-

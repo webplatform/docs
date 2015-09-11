@@ -1,45 +1,54 @@
 ---
 title: matches
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add summery, example, description, specifications, compatibility.'
+readiness: 'Not Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: css/media_queries
+    href: /css/media_queries
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /css/media_queries
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'Add summery, example, description, specifications, compatibility.'
 uri: 'css/media queries/apis/matches'
 
 ---
-# matches
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [css/media\_queries](/css/media_queries)*
+Method of [css/media\_queries](/css/media_queries)[css/media\_queries](/css/media_queries)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = ptr.matches();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 **Needs Examples**: This section should include examples.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSSOM View Module](http://go.microsoft.com/fwlink/p/?linkid=199793), Section 4.1
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -79,15 +88,6 @@ Returns an object of type DOM Node.
 
 -   [behavior](/css/properties/behavior)
 
--   [Targeting styles with media queries](/tutorials/media_queries)
-
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `MediaQueryList`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

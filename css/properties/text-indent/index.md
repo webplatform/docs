@@ -1,48 +1,65 @@
 ---
 title: text-indent
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Specifies the amount of space horizontally that should be left on the first line of the text of an element. This horizontal spacing is at the beginning of the first line and is in respect to the left edge of the containing block box.'
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 code_samples:
   - 'http://gist.github.com/5842068'
   - 'http://gist.github.com/5658652'
-uri: css/properties/text-indent
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0`'
+  'Applies to': 'Block, inline-block, and table cells'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'percentage or absolute length'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`textIndent`'
+  Percentages: 'refer to width of containing block'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Specifies the amount of space horizontally that should be left on the first line of the text of an element. This horizontal spacing is at the beginning of the first line and is in respect to the left edge of the containing block box.'
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/events/click
     - dom/events/mouseover
+uri: css/properties/text-indent
 
 ---
-# text-indent
-
-## Summary
+## <span>Summary</span>
 
 Specifies the amount of space horizontally that should be left on the first line of the text of an element. This horizontal spacing is at the beginning of the first line and is in respect to the left edge of the containing block box.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
+
 Applies to
 :   Block, inline-block, and table cells
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   percentage or absolute length
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `textIndent`
+
 Percentages
 :   refer to width of containing block
 
-## Syntax
+## <span>Syntax</span>
 
 -   `text-indent: <length/percentage> each-line`
 -   `text-indent: <length/percentage> each-line`
@@ -51,7 +68,7 @@ Percentages
 -   `text-indent: length`
 -   `text-indent: percentage`
 
-## Values
+## <span>Values</span>
 
 length
 :   Floating-point number, followed by an absolute units designator (cm, mm, in, pt, or pc) or a relative units designator (em, ex, or px).
@@ -77,13 +94,13 @@ Currently an experimental feature.
 
 Currently an experimental feature.
 
-## Examples
+## <span>Examples</span>
 
 The following examples use the **text-indent** attribute and the **text-indent** property to indent the object's text.
 
 This example uses calls to an embedded style sheet to change the indent on the text when a [**click**](/w/index.php?title=dom/events/click&action=edit&redlink=1) event occurs. The text was originally indented 2 centimeters using **div** as a selector in the style sheet.
 
-``` {.css}
+``` css
 /* Indenting a line by an absolute value. */
 p:nth-child(1) {
     text-indent: 3em;
@@ -104,7 +121,7 @@ p:nth-child(3) {
 
 This example uses JavaScript to indent the text within the **div** when a [**mouseover**](/w/index.php?title=dom/events/mouseover&action=edit&redlink=1) event occurs.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
  <head>
@@ -127,28 +144,18 @@ window.addEventListener("load", initialize, false);
 
 [View live example](http://code.webplatform.org/gist/5658652)
 
-## Usage
+## <span>Usage</span>
 
      It is important to note that the keyword options (each-line and hanging) are experimental features; exercise caution when using them, as there is no guarantee of cross-browser compatibility.
 
-## Notes
+## <span>Notes</span>
 
 The property can be negative. An indent is not inserted in the middle of an object that was broken by another object, such as **br** in HTML.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Text Module Level 3](http://www.w3.org/TR/css3-text/)
 :   Working Draft
+
 [CSS 2.1](http://www.w3.org/TR/CSS2/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,13 +1,12 @@
 ---
 title: implementing html5 audio
+notes:
+  - 'Deletion candidate; duplicate of http://docs.webplatform.org/wiki/tutorials/audio_tag'
+readiness: 'Not Ready'
+summary: 'A step-by-step guide on how to implement the HTML5 audio-tag.'
 tags:
   - Tutorials
   - Audio
-readiness: 'Not Ready'
-notes:
-  - 'Deletion candidate; duplicate of http://docs.webplatform.org/wiki/tutorials/audio_tag'
-summary: 'A step-by-step guide on how to implement the HTML5 audio-tag.'
-uri: 'tutorials/implementing html5 audio'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -18,24 +17,23 @@ todo_broken_links:
     - 'neolao production'
     - Rushus
     - 'Creative Commons Attribution License'
+uri: 'tutorials/implementing html5 audio'
 
 ---
-# implementing html5 audio
-
 **By Ernest Delgado**
 Originally published Feb. 5, 2010
 
-## Summary
+## <span>Summary</span>
 
 A step-by-step guide on how to implement the HTML5 audio-tag.
 
-# Implementing the HTML5 Audio Tag
+# <span>Implementing the HTML5 Audio Tag</span>
 
-## Step 1: Wrap your Flash object with the audio tag
+## <span>Step 1: Wrap your Flash object with the audio tag</span>
 
 Those browsers that don't recognize the audio tag will load the Flash content instead.
 
-``` {.html}
+``` html
 <audio>
 
     <object class="playerpreview" type="application/x-shockwave-flash"
@@ -52,11 +50,11 @@ Those browsers that don't recognize the audio tag will load the Flash content in
 </audio>
 ```
 
-## Step 2: Add the source reference
+## <span>Step 2: Add the source reference</span>
 
 We can add as many "source" lines and formats as we want. If the browser doesn't support one specific format it will fallback to the next one and so forth.
 
-``` {.html}
+``` html
 <audio>
   <source src="test.mp3" type="audio/mpeg" />
   <source src="test.ogg" type="audio/ogg" />
@@ -75,13 +73,13 @@ We can add as many "source" lines and formats as we want. If the browser doesn't
 </audio>
 ```
 
-## Step 3: Add fallback to Flash
+## <span>Step 3: Add fallback to Flash</span>
 
 To be safe, we need to add the fallback to a Flash audio player, in case the browser doesn't support any of the formats we specified. For instance, Firefox 3.5 only supports the audio tag with *Ogg* format, but we might only have the *mp3* file available.
 
 *Note:* There are also tools and [online converters](/w/index.php?title=online_converters&action=edit&redlink=1) you can use if you want to create ogg files from your mp3 and add support for ogg too.
 
-``` {.html}
+``` html
 <audio>
   <source src="test.mp3" type="audio/mpeg" />
 
@@ -118,16 +116,16 @@ To be safe, we need to add the fallback to a Flash audio player, in case the bro
 
  To make it easier, we are using the [SWFObject](/w/index.php?title=SWFObject&action=edit&redlink=1) library to insert the Flash player via JavaScript. To include the library you can simply use the [Google AJAX Libraries API](/w/index.php?title=Google_AJAX_Libraries_API&action=edit&redlink=1) inserting these two lines in your header:
 
-``` {.html}
+``` html
 <script src="http://www.google.com/jsapi"></script>
 <script>google.load("swfobject", "2.2");</script>
 ```
 
-## Step 4: Add the default controls to show the player
+## <span>Step 4: Add the default controls to show the player</span>
 
 These controls are not customizable (see examples at the end). Since these default controls will show up regardless of the supported format we will need to handle its visibility with the conditional we previously created.
 
-``` {.html}
+``` html
 <audio id="audio_with_controls" controls>
   <source src="test.mp3" type="audio/mpeg" />
 
@@ -157,7 +155,7 @@ These controls are not customizable (see examples at the end). Since these defau
 
  Alternatively, you can create your own player using JavaScript and CSS.
 
-``` {.html}
+``` html
 <audio id="audio">
   <source src="test.mp3" type="audio/mpeg" />
 
@@ -176,8 +174,8 @@ These controls are not customizable (see examples at the end). Since these defau
 
 <div id="player_fallback"></div>
 <div id="player" style="display: none">
-  <button onClick="document.getElementById('audio').play()">Play&lt;/button>
-  <button onClick="document.getElementById('audio').pause()">Pause&lt;/button>
+  <button onClick="document.getElementById('audio').play()">Play</button>
+  <button onClick="document.getElementById('audio').pause()">Pause</button>
 </div>
 
 <script>
@@ -191,11 +189,11 @@ These controls are not customizable (see examples at the end). Since these defau
 </script>
 ```
 
-## Examples
+## <span>Examples</span>
 
 The following two examples will fallback to the Flash player in those browsers that don't support the audio tag nor can play mp3 in it.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -268,11 +266,11 @@ The following two examples will fallback to the Flash player in those browsers t
 
  Flash MP3 player is from [neolao production](/w/index.php?title=neolao_production&action=edit&redlink=1). MP3 sample is **Modal Blues** by [Rushus](/w/index.php?title=Rushus&action=edit&redlink=1) and is licensed under a [Creative Commons Attribution License](/w/index.php?title=Creative_Commons_Attribution_License&action=edit&redlink=1).
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Audio
+#### <span>Audio</span>
 
 -   [audio-video](/apis/audio-video)
 
@@ -286,8 +284,6 @@ The following two examples will fallback to the Flash player in those browsers t
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
--   [user-input](/css/properties/user-input)
-
 -   [bgSound](/html/elements/bgSound)
 
 -   [bgsound](/html/elements/bgSound/ja)
@@ -295,4 +291,3 @@ The following two examples will fallback to the Flash player in those browsers t
 -   **implementing html5 audio**
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
-

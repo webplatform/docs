@@ -1,44 +1,43 @@
 ---
 title: data
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLDataElement](/dom/HTMLDataElement)'
+standardization_status: 'W3C Recommendation'
+summary: 'Annotates content with some machine-readable value.'
 tags:
   - Markup
   - Elements
-standardization_status: 'W3C Recommendation'
-summary: 'Annotates content with some machine-readable value.'
 uri: html/elements/data
 
 ---
-# data
-
-## Summary
+## <span>Summary</span>
 
 Annotates content with some machine-readable value.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLDataElement](/dom/HTMLDataElement)
 
-## Examples
+## <span>Examples</span>
 
 Give an alternate representation of a value for humans, but embed the machine readable as an annotation.
 
-``` {.html}
-<data value="9">Nine</data>
+``` html
+<code><data value="9">Nine</data></code>
 ```
 
 Represent an inventory item within a document, and hide within the markup the inventory code.
 
-``` {.html}
-<data value="UPC:022014640201">North Coast Organic Apple Cider</data>
+``` html
+<code><data value="UPC:022014640201">North Coast Organic Apple Cider</data></code>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/text-level-semantics.html#the-data-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/text-level-semantics.html#the-data-element)
 :   W3C Recommendation
 

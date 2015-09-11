@@ -1,58 +1,62 @@
 ---
 title: symbol
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, usage, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, usage, spec reference, standardization status'
 uri: svg/elements/symbol
 
 ---
-# symbol
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, a symbol is created and displayed in two different sizes. Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the symbols.
 
 The symbols will look like this:
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <!-- Create SVG container. -->
-        <svg width="400" height="400">
-          <!-- Definitions -->
-          <defs>
-            <!-- Define symbol for fill. -->
-            <symbol id="mySymbol" viewBox="0 0 50 50" x="0" y="0" width="10" height="10" >
-              <!-- Create path for individual symbol. -->
-              <path d="M 0 10 L 25 30 L 50 30 Z" stroke="darkorchid" stroke-width="3" fill="cornflowerblue" />
-            </symbol>
-          </defs>
-          <!-- Insert symbol twice. -->
-          <use x="50" y="50" width="50" height="50" xlink:href="#mySymbol" />
-          <use x="50" y="100" width="100" height="100" xlink:href="#mySymbol" />
-          </svg>
-      </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <!-- Create SVG container. -->
+    <svg width="400" height="400">
+      <!-- Definitions -->
+      <defs>
+        <!-- Define symbol for fill. -->
+        <symbol id="mySymbol" viewBox="0 0 50 50" x="0" y="0" width="10" height="10" >
+          <!-- Create path for individual symbol. -->
+          <path d="M 0 10 L 25 30 L 50 30 Z" stroke="darkorchid" stroke-width="3" fill="cornflowerblue" />
+        </symbol>
+      </defs>
+      <!-- Insert symbol twice. -->
+      <use x="50" y="50" width="50" height="50" xlink:href="#mySymbol" />
+      <use x="50" y="100" width="100" height="100" xlink:href="#mySymbol" />
+      </svg>
+  </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -64,11 +68,11 @@ The **symbol** element has [**viewBox**](/svg/properties/viewBox) and [**preserv
 
 The [**display**](/css/properties/display) property does not apply to the **symbol** element. Thus, **symbol** elements are not directly rendered even if you set the **display** property to a value other than [**none**](/css/properties/text-decoration-none). **symbol** elements are available for referencing even when you set the **display** property on the **symbol** element or any of its ancestors to **none**.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Document Structure](http://go.microsoft.com/fwlink/p/?linkid=204733), Section 5.11.7
 
-### Members
+### <span>Members</span>
 
 The **SVGSymbolElement** object has these events:
 
@@ -90,18 +94,11 @@ The **SVGSymbolElement** object has these properties:
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
-### Reference
+### <span>Reference</span>
 
 -   [**SVGMarkerElement**](/svg/elements/marker)
 -   [**SVGPatternElement**](/svg/elements/patterrn)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

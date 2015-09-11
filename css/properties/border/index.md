@@ -1,47 +1,63 @@
 ---
 title: border
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
+code_samples:
+  - 'http://gist.github.com/5534182'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`medium none currentColor`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'concatenation of `border-width`, `border-style`, and `border-color`.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`border`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Shorthand property that defines the different properties of all four sides of an element''s border in a single declaration. It can be used to set border-width, border-style and border-color, or a subset of these.'
-code_samples:
-  - 'http://gist.github.com/5534182'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/border
 
 ---
-# border
-
-## Summary
+## <span>Summary</span>
 
 Shorthand property that defines the different properties of all four sides of an element's border in a single declaration. It can be used to set border-width, border-style and border-color, or a subset of these.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `medium none currentColor`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   concatenation of `border-width`, `border-style`, and `border-color`.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `border`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border: <border-width> OR <border-style> OR <border-color>`
 -   `border: inherit`
 
-## Values
+## <span>Values</span>
 
 inherit
 :   When the value is set to `inherit`, the element will inherit the border values set on its parent.
@@ -55,11 +71,11 @@ inherit
 
 **\<border-color\>**: This takes any valid CSS color. See the [border-color](/css/properties/border-color) property. The initial value is `currentColor`.
 
-## Examples
+## <span>Examples</span>
 
 A simple example showing multiple `<div>`s, identical in style except that they have different `border` properties applied to them.
 
-``` {.html}
+``` html
 <div class="one"><p>One</p></div>
 <div class="two"><p>Two</p></div>
 <div class="three"><p>Three</p></div>
@@ -69,7 +85,7 @@ A simple example showing multiple `<div>`s, identical in style except that they 
 
 [View live example](http://code.webplatform.org/gist/5534182)
 
-``` {.css}
+``` css
 /**
  * border example
 **/
@@ -116,7 +132,7 @@ p {
 
 [View live example](http://code.webplatform.org/gist/5534182)
 
-## Usage
+## <span>Usage</span>
 
      * It is usual to first use the border shorthand property to set the state of a default box, and then override it where needed, using the more specific shorthand properties border-width, border-style, and border-color. Each of these properties may take up to four values, respective to the sides of the box.
 
@@ -125,28 +141,28 @@ p {
 
 `border-top-width`, `border-top-style`, `border-top-color`, `border-right-width`, `border-right-style`, `border-right-color`, `border-bottom-width`, `border-bottom-style`, `border-bottom-color`, `border-left-width`, `border-left-style`, `border-left-color`.
 
-## Notes
+## <span>Notes</span>
 
 -   The initial value of `border` is the concatenated result of the initial values of each component.
 -   A `border-bottom` can be used as a divider between vertically laid out items, such as navigation menu items, or a new section. Authors will sometimes use this technique rather than inserting an `<hr/>` element in the HTML.
 -   Another common technique is to use `border-bottom` properties for link underlining rather than `text-decoration: underline`, as it affords the designer more control.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Level 3](http://www.w3.org/TR/css3-background/#borders)
 :   Candidate Recommendation
+
 [CSS Level 2 (Revision 1)](http://www.w3.org/TR/CSS2/box.html#border-shorthand-properties)
 :   Recommendation
+
 [CSS Level 1](http://www.w3.org/TR/CSS1/#border)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   **border**
 
@@ -206,7 +222,7 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   **border**
 
@@ -248,17 +264,10 @@ Specification
 
 -   [min-width](/css/properties/min-width)
 
-### Related pages
+### <span>Related pages</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `defaultSelected`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
-

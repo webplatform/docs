@@ -1,78 +1,83 @@
 ---
 title: strokeText
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Renders the given text at the given (x, y) coordinates, ensuring that the text isn''t wider than maxWidth (if specified), using the current font, textAlign, and textBaseline values.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Renders the given text at the given (x, y) coordinates, ensuring that the text isn''t wider than maxWidth (if specified), using the current font, textAlign, and textBaseline values.'
 uri: apis/canvas/CanvasRenderingContext2D/strokeText
 
 ---
-# strokeText
-
-## Summary
+## <span>Summary</span>
 
 Renders the given text at the given (x, y) coordinates, ensuring that the text isn't wider than maxWidth (if specified), using the current font, textAlign, and textBaseline values.
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  context.strokeText(text, x, y, maxWidth);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### text
+### <span>text</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The text characters to paint on the canvas.
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The horizontal coordinate to start painting the text relative to the canvas.
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The vertical coordinate of the baseline for the text to start painting, relative to the canvas.
 
-### maxWidth
+### <span>maxWidth</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
-*(Optional)*
+(Optional)
 
 The maximum possible text width. If the value is less than [width](/apis/canvas/TextMetrics/width), the text is scaled to fit.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 Short example of drawing an outline text
 
-``` {.js}
+``` js
 ctx.strokeStyle = 'white';
 ctx.strokeText("Hello World!", canvas.width/2, canvas.height/2, maxWidth);
 ```
 
 Full example of drawing an outline text
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html>
 <head>
@@ -106,16 +111,7 @@ Full example of drawing an outline text
 </html>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

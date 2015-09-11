@@ -1,24 +1,30 @@
 ---
 title: Uint8Array
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212477(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'A typed array of 8-bit unsigned integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'A typed array of 8-bit unsigned integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.'
 uri: javascript/Uint8Array
 
 ---
-# Uint8Array
-
-## Summary
+## <span>Summary</span>
 
 A typed array of 8-bit unsigned integer values. The contents are initialized to 0. If the requested number of bytes could not be allocated an exception is raised.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     uint8Array = new Uint8Array( length );
 
+<span class="language">JavaScript</span>
+
     uintArray = new Uint8Array( array );
+
+<span class="language">JavaScript</span>
 
     uintArray = new Uint8Array( buffer , byteOffset , length );
 
@@ -40,11 +46,11 @@ A typed array of 8-bit unsigned integer values. The contents are initialized to 
 **length**
 :   The length of the array.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use a Uint8Array object to process the binary data acquired from an XmlHttpRequest:
 
-``` {.js}
+``` js
 var req = new XMLHttpRequest();
      req.open('GET', "http://www.example.com");
      req.responseType = "arraybuffer";
@@ -63,46 +69,32 @@ var req = new XMLHttpRequest();
      }
 ```
 
-## Constants
+## <span>Constants</span>
 
 The following table lists the constants of the **Uint8Array** object.
 
-Constant
-:   Description
-[BYTES\_PER\_ELEMENT Constant](/javascript/Uint8Array/BYTES_PER_ELEMENT)
-:   The size in bytes of each element in the array.
+|Constant|Description|
+|:-------|:----------|
+|[BYTES\_PER\_ELEMENT Constant](/javascript/Uint8Array/BYTES_PER_ELEMENT)|The size in bytes of each element in the array.|
 
-## Properties
+## <span>Properties</span>
 
 The following table lists the constants of the **Uint8Array** object.
 
-Property
-:   Description
-[buffer Property](/javascript/Uint8Array/buffer)
-:   Read-only. Gets the ArrayBuffer that is referenced by this array.
-[byteLength Property](/javascript/Uint8Array/byteLength)
-:   Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
-[byteOffset Property](/javascript/Uint8Array/byteOffset)
-:   Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.
-[length Property](/javascript/Uint8Array/length)
-:   The length of the array.
+|Property|Description|
+|:-------|:----------|
+|[buffer Property](/javascript/Uint8Array/buffer)|Read-only. Gets the ArrayBuffer that is referenced by this array.|
+|[byteLength Property](/javascript/Uint8Array/byteLength)|Read-only. The length of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.|
+|[byteOffset Property](/javascript/Uint8Array/byteOffset)|Read-only. The offset of this array from the start of its ArrayBuffer, in bytes, as fixed at construction time.|
+|[length Property](/javascript/Uint8Array/length)|The length of the array.|
 
-## Methods
+## <span>Methods</span>
 
 The following table lists the methods of the **Uint8Array** object.
 
-Method
-:   Description
-[get Method](/javascript/Uint8Array/get)
-:   Omittable. Gets the element at the specified index.
-[set Method (Uint8Array)](/javascript/Uint8Array/set)
-:   Sets a value or an array of values.
-[subarray Method (Uint8Array)](/javascript/Uint8Array/subarray)
-:   Gets a new Uint8Array view of the ArrayBuffer store for this array.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/br212477(v=vs.94).aspx)
+|Method|Description|
+|:-----|:----------|
+|[get Method](/javascript/Uint8Array/get)|Omittable. Gets the element at the specified index.|
+|[set Method (Uint8Array)](/javascript/Uint8Array/set)|Sets a value or an array of values.|
+|[subarray Method (Uint8Array)](/javascript/Uint8Array/subarray)|Gets a new Uint8Array view of the ArrayBuffer store for this array.|
 

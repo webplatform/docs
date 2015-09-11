@@ -1,46 +1,60 @@
 ---
 title: background-clip
-tags:
-  - CSS
-  - Properties
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`border-box`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`backgroundClip`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies how an element’s background is clipped.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/background-clip
 
 ---
-# background-clip
-
-## Summary
+## <span>Summary</span>
 
 Specifies how an element’s background is clipped.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `border-box`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `backgroundClip`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `background-clip: border-box`
 -   `background-clip: content-box`
 -   `background-clip: padding-box`
 
-## Values
+## <span>Values</span>
 
 border-box
 :   Default. The background extends underneath the element’s borders, which can be seen with semi-transparent or dotted or dashed border-styles.
@@ -51,11 +65,11 @@ padding-box
 content-box
 :   The background is clipped the element’s content box, so the paddings and borders have no background. This is mainly useful with multiple backgrounds with different background-clip values.
 
-## Examples
+## <span>Examples</span>
 
 The background will not extend underneath the semi-transparent black border, so the element’s borders will allow whatever is underneath the element to show through.
 
-``` {.css}
+``` css
 div
 {
    border: 5px solid rgba(0,0,0,.5);
@@ -64,18 +78,16 @@ div
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Backgrounds and Borders Module Level 3](http://www.w3.org/TR/css3-background/#the-background-clip)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Background
+#### <span>Background</span>
 
 -   [background](/css/cssom/properties/background)
 
@@ -104,4 +116,3 @@ Specification
 -   [background-size](/css/properties/background-size)
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

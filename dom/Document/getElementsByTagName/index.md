@@ -1,52 +1,61 @@
 ---
 title: getElementsByTagName
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs compat'
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Returns an HTMLCollection of all descendant elements with a given tag name.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Almost Ready'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs compat'
-summary: 'Returns an HTMLCollection of all descendant elements with a given tag name.'
 uri: dom/Document/getElementsByTagName
 
 ---
-# getElementsByTagName
-
-## Summary
+## <span>Summary</span>
 
 Returns an HTMLCollection of all descendant elements with a given tag name.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.getElementsByTagName(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of an element tag.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 A DOM collection of elements with the given tag name.
 
-## Examples
+## <span>Examples</span>
 
 The following example returns the number of `li` elements (10) and the text of the first one ("Item 1").
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -85,20 +94,11 @@ function printFirstLIText(){
 </html>
 ```
 
-## Usage
+## <span>Usage</span>
 
      Use this method to get a collection of all child and nested child elements with the specified tag name.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 HTML](http://www.w3.org/TR/DOM-Level-2-HTML/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

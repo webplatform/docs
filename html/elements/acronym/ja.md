@@ -1,15 +1,19 @@
 ---
-title: ja
+title: acronym
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+lang: ja
+notes:
+  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Not Ready'
+standardization_status: Deprecated
+summary: "HTML5ではabbrが追加されており、この要素は非推奨となっています。今後はもう使うべきではありません。\n"
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: Deprecated
-notes:
-  - 'Deletion Candidate: It''s deprecated, http://www.w3.org/TR/html5/obsolete.html#non-conforming-features'
-summary: "HTML5ではabbrが追加されており、この要素は非推奨となっています。今後はもう使うべきではありません。\n"
-uri: html/elements/acronym/ja
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -73,17 +77,16 @@ todo_broken_links:
     - html/elements/acronym/zh-hant
     - html/elements/acronym/zh-tw
     - html/elements/abbr/ja
+uri: html/elements/acronym/ja
 
 ---
-# acronym
-
-## Summary
+## <span>Summary</span>
 
 HTML5ではabbrが追加されており、この要素は非推奨となっています。今後はもう使うべきではありません。
 
 `<acronym>`要素は、NATO(North Atlantic Treaty Organization)、レーダー（RAdio Detection And Ranging）、インターポール（the International Criminal Police Organization）などのような頭字語を表します。
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
@@ -92,26 +95,18 @@ HTML5ではabbrが追加されており、この要素は非推奨となって�
 
 HTML5では**`abbr`** 要素が\<acronym\>と同等の役割を持っています。
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 4.01 Specification](http://www.w3.org/TR/html401/struct/text.html#h-9.2.1)
 :   W3C Recommendation
 
-## Attribution
+## <span>See also</span>
 
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
-## See also
-
-### Deprecated
+### <span>Deprecated</span>
 
 -   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
 
-### HTML
+### <span>HTML</span>
 
 -   [!DOCTYPE](/html/elements/!DOCTYPE/ja)
 
@@ -121,5 +116,15 @@ Portions of this content come from the Microsoft Developer Network: [[Windows In
 
 -   [button](/html/elements/button/ja)
 
+<table class="nmbox languages" style>
+<tr>
+<th class="mbox-image" style>
 **言語:**
-:   **[English](/html/elements/acronym)**  • <span lang="ja">**日本語**</span>
+
+</th>
+<td class="mbox-text">
+**[English](/html/elements/acronym)**  • <span lang="ja">**日本語**</span>
+
+</td>
+</tr>
+</table>

@@ -1,41 +1,50 @@
 ---
 title: clipBottom
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipBottom.htm'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+    href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+summary: 'Gets the bottom coordinate of the object clipping region.'
 tags:
   - API
   - Object
   - Properties
   - CSS
-readiness: 'Ready to Use'
-summary: 'Gets the bottom coordinate of the object clipping region.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipBottom.htm'
 uri: css/cssom/properties/clipBottom
 
 ---
-# clipBottom
-
-## Summary
+## <span>Summary</span>
 
 Gets the bottom coordinate of the object clipping region.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)</span></span>
+Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = declaration.clipBottom;
 declaration.clipBottom = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
-## Examples
+## <span>Examples</span>
 
 This example reads the **clipBottom** property from the [**currentStyle**](/css/cssom/currentStyle) object of an image.
 
-``` {.html}
+``` html
 <SCRIPT>
 function setClip(sOptionValue) {
     oImage.style.clip="rect(0,100,"+sOptionValue+",0)";
@@ -60,9 +69,9 @@ Pick an amount to clip the bottom:
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipBottom.htm)
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -72,10 +81,3 @@ Pick an amount to clip the bottom:
 -   `clipLeft`
 -   `clipRight`
 -   `clipTop`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

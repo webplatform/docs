@@ -2,7 +2,6 @@
 title: elements (alphabetical order)
 tags:
   - SVG
-uri: 'svg/elements (alphabetical order)'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -53,13 +52,14 @@ todo_broken_links:
     - svg/elements/textpath
     - svg/elements/tref
     - svg/elements/vkern
+uri: 'svg/elements (alphabetical order)'
 
 ---
 [By topics](/svg/elements)
 
 This is the list of SVG Elements sorted by alphabetical order.
 
-## A
+## <span>A</span>
 
 -   [a](/svg/elements/a)
 -   [altglyph](/w/index.php?title=svg/elements/altglyph&action=edit&redlink=1)
@@ -70,23 +70,23 @@ This is the list of SVG Elements sorted by alphabetical order.
 -   [animatemotion](/w/index.php?title=svg/elements/animatemotion&action=edit&redlink=1)
 -   [animatetransform](/w/index.php?title=svg/elements/animatetransform&action=edit&redlink=1)
 
-## C
+## <span>C</span>
 
 -   [circle](/svg/elements/circle)
 -   [clippath](/w/index.php?title=svg/elements/clippath&action=edit&redlink=1)
 -   [color-profile](/w/index.php?title=svg/elements/color-profile&action=edit&redlink=1)
 -   [cursor](/w/index.php?title=svg/elements/cursor&action=edit&redlink=1)
 
-## D
+## <span>D</span>
 
 -   [defs](/svg/elements/defs)
 -   [desc](/svg/elements/desc)
 
-## E
+## <span>E</span>
 
 -   [ellipse](/svg/elements/ellipse)
 
-## F
+## <span>F</span>
 
 -   [feblend](/w/index.php?title=svg/elements/feblend&action=edit&redlink=1)
 -   [fecolormatrix](/w/index.php?title=svg/elements/fecolormatrix&action=edit&redlink=1)
@@ -116,26 +116,26 @@ This is the list of SVG Elements sorted by alphabetical order.
 -   [font-face-uri](/w/index.php?title=svg/elements/font-face-uri&action=edit&redlink=1)
 -   [foreignObject](/w/index.php?title=svg/elements/foreignObject&action=edit&redlink=1)
 
-## G
+## <span>G</span>
 
 -   [g](/svg/elements/g)
 -   [glyph](/w/index.php?title=svg/elements/glyph&action=edit&redlink=1)
 -   [glyphref](/w/index.php?title=svg/elements/glyphref&action=edit&redlink=1)
 
-## H
+## <span>H</span>
 
 -   [hkern](/w/index.php?title=svg/elements/hkern&action=edit&redlink=1)
 
-## I
+## <span>I</span>
 
 -   [image](/svg/elements/image)
 
-## L
+## <span>L</span>
 
 -   [line](/svg/elements/line)
 -   [lineargradient](/w/index.php?title=svg/elements/lineargradient&action=edit&redlink=1)
 
-## M
+## <span>M</span>
 
 -   [marker](/svg/elements/marker)
 -   [mask](/svg/elements/mask)
@@ -143,19 +143,19 @@ This is the list of SVG Elements sorted by alphabetical order.
 -   [missing-glyph](/w/index.php?title=svg/elements/missing-glyph&action=edit&redlink=1)
 -   [mpath](/w/index.php?title=svg/elements/mpath&action=edit&redlink=1)
 
-## P
+## <span>P</span>
 
 -   [path](/svg/elements/path)
 -   [pattern](/svg/elements/pattern)
 -   [polygon](/svg/elements/polygon)
 -   [polyline](/svg/elements/polyline)
 
-## R
+## <span>R</span>
 
 -   [radialgradient](/w/index.php?title=svg/elements/radialgradient&action=edit&redlink=1)
 -   [rect](/svg/elements/rect)
 
-## S
+## <span>S</span>
 
 -   [script](/svg/elements/script)
 -   [set](/w/index.php?title=svg/elements/set&action=edit&redlink=1)
@@ -165,7 +165,7 @@ This is the list of SVG Elements sorted by alphabetical order.
 -   [switch](/svg/elements/switch)
 -   [symbol](/svg/elements/symbol)
 
-## T
+## <span>T</span>
 
 -   [text](/svg/elements/text)
 -   [textpath](/w/index.php?title=svg/elements/textpath&action=edit&redlink=1)
@@ -173,15 +173,15 @@ This is the list of SVG Elements sorted by alphabetical order.
 -   [tref](/w/index.php?title=svg/elements/tref&action=edit&redlink=1)
 -   [tspan](/svg/elements/tspan)
 
-## U
+## <span>U</span>
 
 -   [use](/svg/elements/use)
 
-## V
+## <span>V</span>
 
 -   [view](/svg/elements/view)
 -   [vkern](/w/index.php?title=svg/elements/vkern&action=edit&redlink=1)
 
-## See also
+## <span>See also</span>
 
 TBD

@@ -1,39 +1,39 @@
 ---
 title: Content-Location
+overview_table:
+  Direction: 'Request and Response'
+  Features: ''
+summary: 'References a URI that can be used as an identifier for a specific resource corresponding to the representation in this message''s payload.'
 tags:
   - HTTP
   - Headers
-summary: 'References a URI that can be used as an identifier for a specific resource corresponding to the representation in this message''s payload.'
 uri: http/headers/Content-Location
 
 ---
-# Content-Location
-
-## Summary
+## <span>Summary</span>
 
 References a URI that can be used as an identifier for a specific resource corresponding to the representation in this message's payload.
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Request and Response
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     Content-Location = absolute-URI / partial-URI
 
-## Examples
+## <span>Examples</span>
 
-``` {.other}
+```
 Content-Location: /images/car.png
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [RFC7231: HTTP/1.1 Semantics and Content](http://tools.ietf.org/html/rfc7231#section-3.1.4.2)
 :
 

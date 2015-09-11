@@ -1,41 +1,53 @@
 ---
 title: align-content
+code_samples:
+  - 'http://gist.github.com/5536244'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`stretch`'
+  'Applies to': 'multi-line flex containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`alignContent`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Aligns a flex container''s lines within the flex container when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.'
 tags:
   0: CSS
   1: Properties
   3: Flexbox
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Aligns a flex container''s lines within the flex container when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.'
-code_samples:
-  - 'http://gist.github.com/5536244'
 uri: css/properties/align-content
 
 ---
-# align-content
-
-## Summary
+## <span>Summary</span>
 
 Aligns a flex container's lines within the flex container when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `stretch`
+
 Applies to
 :   multi-line flex containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `alignContent`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `align-content: center`
 -   `align-content: flex-end`
@@ -50,7 +62,7 @@ Animatable
 -   `flex-line-pack: start`
 -   `flex-line-pack: stretch`
 
-## Values
+## <span>Values</span>
 
 flex-start
 :   Lines are packed toward the start of the flex container. The cross-start edge of the first line in the flex container is placed flush with the cross-start edge of the flex container, and each subsequent line is placed flush with the preceding line.
@@ -70,11 +82,11 @@ space-around
 stretch
 :   Lines stretch to take up the remaining space. If the leftover free-space is negative, this value is identical to **flex-start**. Otherwise, the free-space is split equally between all of the lines, increasing their cross size.
 
-## Examples
+## <span>Examples</span>
 
 Spacing lines within a multi-line flex container. Change the values in the live example.
 
-``` {.css}
+``` css
 .container {
     display:         flex;
     flex-flow: row wrap;
@@ -108,23 +120,21 @@ Spacing lines within a multi-line flex container. Change the values in the live 
 
 [View live example](http://code.webplatform.org/gist/5536244)
 
-## Notes
+## <span>Notes</span>
 
 -   This property has no effect when the flexbox has only a single line. Only flex containers with multiple lines can ever have free space in the cross-axis for lines to be aligned in, because in a flex container with a single line the sole line automatically stretches to fill the space.
 -   This property was named **flex-line-pack** in earlier drafts.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#align-content-property)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Flexbox
+#### <span>Flexbox</span>
 
 -   **align-content**
 
@@ -150,10 +160,9 @@ Specification
 
 -   [justify-content](/css/properties/justify-content)
 
-### External resources
+### <span>External resources</span>
 
 Also, check out the following live demo sites:
 
 -   [Flexbox Playground](http://demo.agektmr.com/flexbox/)
 -   [Flexy Boxes](http://the-echoplex.net/flexyboxes)
-

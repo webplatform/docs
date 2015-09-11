@@ -1,52 +1,59 @@
 ---
 title: constructor
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/web_animations/KeyframeEffect
+    href: /apis/web_animations/KeyframeEffect
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/web_animations/KeyframeEffect
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Creates a new KeyframeEffect object for the given set of keyframes.'
 tags:
   - API
   - Object
   - Methods
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Creates a new KeyframeEffect object for the given set of keyframes.'
 uri: 'apis/web animations/KeyframeEffect/constructor'
 
 ---
-# constructor
-
-## Summary
+## <span>Summary</span>
 
 Creates a new KeyframeEffect object for the given set of keyframes.
 
-*Method of [apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)*
+Method of [apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)[apis/web\_animations/KeyframeEffect](/apis/web_animations/KeyframeEffect)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = .constructor(frames, KeyframeEffectOptions, options);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### frames, KeyframeEffectOptions
+### <span>frames, KeyframeEffectOptions</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
  A Keyframe object or sequence of Keyframe objects used for calculating animation values for this animation effect. The constraints on this parameter and its processing are identical to those for setFrames.
 
-### options
+### <span>options</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-*(Optional)*
+(Optional)
 
 A KeyframeEffectOptions dictionary defining other aspects of the animation effectâ€™s behavior. If this parameter is not provided, the default values of the dictionary are used.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 

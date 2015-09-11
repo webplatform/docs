@@ -1,42 +1,56 @@
 ---
 title: mask-repeat
+notes:
+  - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`no-repeat`'
+  'Applies to': 'All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'Two keywords, one per dimension'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Specifies how mask images are tiled (repeated) after they have been sized and positioned.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
-summary: 'Specifies how mask images are tiled (repeated) after they have been sized and positioned.'
 uri: css/properties/mask-repeat
 
 ---
-# mask-repeat
-
-## Summary
+## <span>Summary</span>
 
 Specifies how mask images are tiled (repeated) after they have been sized and positioned.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `no-repeat`
+
 Applies to
 :   All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   Two keywords, one per dimension
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `mask-repeat: no-repeat`
 -   `mask-repeat: repeat`
@@ -45,7 +59,7 @@ Percentages
 -   `mask-repeat: round`
 -   `mask-repeat: space`
 
-## Values
+## <span>Values</span>
 
 repeat-x
 :   Tiling of the mask object occurs in the x direction.
@@ -65,9 +79,9 @@ round
 no-repeat
 :   Tiling of the mask object does not occur; that is, it is placed once and not repeated.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* repeat-y */
 body {
   background-color: white;
@@ -77,10 +91,7 @@ body {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Masking Level 1](https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html)
 :   W3C Editor's Draft
-

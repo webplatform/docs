@@ -1,41 +1,40 @@
 ---
 title: NavigatorBattery
+readiness: 'Ready to Use'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'The NavigatorBattery interface is exposed on the Navigator object.'
 tags:
   0: API
   1: Objects
   3: Battery
   4: Status
   5: Mobile
-readiness: 'Ready to Use'
-standardization_status: 'W3C Last Call Working Draft'
-summary: 'The NavigatorBattery interface is exposed on the Navigator object.'
 uri: 'apis/battery status/NavigatorBattery'
 
 ---
-# NavigatorBattery
-
-## Summary
+## <span>Summary</span>
 
 The NavigatorBattery interface is exposed on the Navigator object.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [battery](/apis/battery_status/NavigatorBattery/battery)
 :   The object that exposes the battery status information.
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 navigator.battery.onlevelchange = function () {
   console.log(navigator.battery.level);
 };
@@ -47,10 +46,7 @@ navigator.battery.addEventListener('levelchange', function () {
 }, false);
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Battery Status API](http://www.w3.org/TR/battery-status/)
 :   W3C Last Call Working Draft
-

@@ -1,30 +1,28 @@
 ---
 title: var
+code_samples:
+  - 'http://gist.github.com/a41474c974dfef4ec106'
+notes:
+  - 'Add values/parameters, syntax, example, compatibility.'
+readiness: 'Not Ready'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'Allows authors to reference the value of a custom property for cascading variables.'
 tags:
   - CSS
   - Functions
-readiness: 'Not Ready'
-standardization_status: 'W3C Last Call Working Draft'
-notes:
-  - 'Add values/parameters, syntax, example, compatibility.'
-summary: 'Allows authors to reference the value of a custom property for cascading variables.'
-code_samples:
-  - 'http://gist.github.com/a41474c974dfef4ec106'
 uri: css/functions/var
 
 ---
-# var
-
-## Summary
+## <span>Summary</span>
 
 Allows authors to reference the value of a custom property for cascading variables.
 
-## Syntax
+## <span>Syntax</span>
 
 -   **var ( \<custom-property\> )**
 -   **var ( \<custom-property\>, \<default-value\> )**
 
-## Parameters
+## <span>Parameters</span>
 
 **custom-property**
 
@@ -34,9 +32,9 @@ Allows authors to reference the value of a custom property for cascading variabl
 
 *A value to use when the custom property isn't defined.*
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 .block .header {
     /* use a variable for the text color of the header, with default 'blue' */
     color: var(--header-color, blue);
@@ -61,10 +59,7 @@ Allows authors to reference the value of a custom property for cascading variabl
 
 [View live example](http://code.webplatform.org/gist/a41474c974dfef4ec106)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Custom Properties for Cascading Variables Module Level 1](http://www.w3.org/TR/css-variables-1/)
 :   W3C Last Call Working Draft
-

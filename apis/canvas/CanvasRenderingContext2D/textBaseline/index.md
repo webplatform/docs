@@ -1,34 +1,43 @@
 ---
 title: textBaseline
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Returns or sets the baseline value. See return value description below.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Returns or sets the baseline value. See return value description below.'
 uri: apis/canvas/CanvasRenderingContext2D/textBaseline
 
 ---
-# textBaseline
-
-## Summary
+## <span>Summary</span>
 
 Returns or sets the baseline value. See return value description below.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)</span></span>
+Property of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = CanvasRenderingContext2D.textBaseline;
 CanvasRenderingContext2D.textBaseline = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 Must be one of the following:
 
@@ -39,11 +48,11 @@ Must be one of the following:
 -   "ideographic" - The ideographic baseline
 -   "bottom" - The bottom of the em square
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <canvas id="myCanvas" width="400" height="150" style="border:1px solid blue;"></canvas>
-. . .
+<p>. . .</p>
 <script>
 var can=document.getElementById("myCanvas");
 var ctxt=can.getContext("2d");
@@ -68,16 +77,7 @@ ctxt.fillText("HANGING",290,75);
 </script>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

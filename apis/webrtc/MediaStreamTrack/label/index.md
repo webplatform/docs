@@ -1,37 +1,44 @@
 ---
 title: label
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/MediaStreamTrack
+    href: /apis/webrtc/MediaStreamTrack
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /apis/webrtc/MediaStreamTrack
+standardization_status: 'W3C Working Draft'
+summary: 'A user agent-assigned string that identifies the track source, as in &quot;internal microphone.&quot;'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'A user agent-assigned string that identifies the track source, as in "internal microphone."'
 uri: apis/webrtc/MediaStreamTrack/label
 
 ---
-# label
+## <span>Summary</span>
 
-## Summary
+A user agent-assigned string that identifies the track source, as in &quot;internal microphone.&quot;
 
-A user agent-assigned string that identifies the track source, as in "internal microphone."
+Property of [apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStreamTrack](/apis/webrtc/MediaStreamTrack)</span></span>
+## <span>Syntax</span>
 
-## Syntax
+**Note**: This property is read-only.
 
-***Note**: This property is read-only.*
-
-``` {.js}
+``` js
 var result = track.label;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 **Needs Examples**: This section should include examples.
 

@@ -1,59 +1,57 @@
 ---
 title: type
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'A type selector matches every instance of the element type in the document tree.'
 tags:
   - CSS
   - Selectors
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Needs summary, spec reference'
-summary: 'A type selector matches every instance of the element type in the document tree.'
-uri: css/selectors/type
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: css/selectors/type
 
 ---
-# type
-
-## Summary
+## <span>Summary</span>
 
 A type selector matches every instance of the element type in the document tree.
 
-### Syntax
+### <span>Syntax</span>
 
-``` {.css}
+``` css
 E { /* properties goes here */ }
 ```
 
-### Parameters
+### <span>Parameters</span>
 
 *E*: String that specifies the name of a document language element type.
 
-## Examples
+## <span>Examples</span>
 
 The following style rule applies to all the H1 tags within the document.
 
-``` {.css}
+``` css
 h1 {
     color:teal;
     font-variant:small-caps;
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1](http://www.w3.org/TR/CSS2/)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -128,10 +126,3 @@ Specification
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   **type**
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,46 +1,61 @@
 ---
 title: right
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/right)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6181880'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, ''auto''.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`right`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Specifies the position an element in relation to the right side of the containing element.'
-code_samples:
-  - 'http://gist.github.com/6181880'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/right
 
 ---
-# right
-
-## Summary
+## <span>Summary</span>
 
 Specifies the position an element in relation to the right side of the containing element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   If specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `right`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `right: auto`
 -   `right: length`
 -   `right: percentage`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. Position is determined by the regular HTML layout of the page.
@@ -51,11 +66,11 @@ length
 percentage
 :   Integer, followed by a percent sign (%). The value is a percentage of the width of the parent object.
 
-## Examples
+## <span>Examples</span>
 
 We demonstrate the \`right\` property by positioning the elements.
 
-``` {.css}
+``` css
 .container {
   /**
    * Object is positioned according to the normal flow, and then offset.
@@ -110,7 +125,7 @@ We demonstrate the \`right\` property by positioning the elements.
 
 The HTML for the above example.
 
-``` {.html}
+``` html
 
 
 <article>
@@ -125,28 +140,17 @@ The HTML for the above example.
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Visual Formatting Model](http://www.w3.org/TR/CSS2/visuren.html)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `LayoutRect`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/CSS/right)
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

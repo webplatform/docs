@@ -1,48 +1,62 @@
 ---
 title: grid-template
+notes:
+  - 'Add description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`See individual properties`'
+  'Applies to': 'Grid containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'See individual properties'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'See indvidual properties'
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: 'Shorthand for setting grid-template-columns, grid-template-rows, and grid-template-areas in a single declaration.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Add description, compatibility.'
-summary: 'Shorthand for setting grid-template-columns, grid-template-rows, and grid-template-areas in a single declaration.'
 uri: css/properties/grid-template
 
 ---
-# grid-template
-
-## Summary
+## <span>Summary</span>
 
 Shorthand for setting grid-template-columns, grid-template-rows, and grid-template-areas in a single declaration.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `See individual properties`
+
 Applies to
 :   Grid containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   See individual properties
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   See indvidual properties
 
-## Syntax
+## <span>Syntax</span>
 
 -   `grid-template: <grid-template-columns> / <grid-template-rows>`
 -   `grid-template: <track-list> / <line-names> <string> <track-size> <line-names>`
 -   `grid-template: none`
 
-## Values
+## <span>Values</span>
 
 none
 :   Sets all three individual properties to their initial values ("none").
@@ -55,9 +69,9 @@ none
 
 This syntax allows the author to align track names and sizes inline with their respective grid areas.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /*
 The shorthand syntax
 */
@@ -70,10 +84,7 @@ grid-template-rows: auto 1fr;
 grid-template-areas: none;
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft
-

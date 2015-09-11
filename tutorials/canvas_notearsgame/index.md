@@ -1,23 +1,23 @@
 ---
-title: canvas notearsgame
+title: Introduction to HTML5 games
+attributions:
+  - 'Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/canvas/notearsgame/)'
+readiness: 'Ready to Use'
+summary: 'An intermediate tutorial for creating games using HTML5 and Canvas.'
 tags:
   - Tutorials
   - Canvas
-readiness: 'Ready to Use'
-summary: 'An intermediate tutorial for creating games using HTML5 and Canvas.'
 uri: 'tutorials/canvas notearsgame'
 
 ---
-# Introduction to HTML5 games
-
 **By Daniel X Moore**
 Originally published Feb 1, 2011
 
-## Summary
+## <span>Summary</span>
 
 An intermediate tutorial for creating games using HTML5 and Canvas.
 
-## Introduction
+## <span>Introduction</span>
 
 This tutorial shows you how to build a game using HTML5 and the \<canvas\> element, and assumes you have an intermediate level of knowledge of JavaScript.
 
@@ -25,7 +25,7 @@ This tutorial shows you how to build a game using HTML5 and the \<canvas\> eleme
 
 Before you get started, try [playing the game](http://strd6.com/space_demo/) and [viewing the source code for the game](http://strd6.com/wp-content/uploads/2010/12/space_demo.zip).
 
-## Creating the canvas
+## <span>Creating the canvas</span>
 
 To draw objects on the page, we'll need to first create a canvas. Because this is a No Tears guide, we'll use jQuery.
 
@@ -37,7 +37,7 @@ To draw objects on the page, we'll need to first create a canvas. Because this i
     var canvas = canvasElement.get(0).getContext("2d");
     canvasElement.appendTo('body');
 
-## Game loop
+## <span>Game loop</span>
 
 To simulate the appearance of smooth and continuous gameplay, let's update the game and redraw the screen slightly faster than the human mind and eye can perceive.
 
@@ -52,7 +52,7 @@ For now we can leave the update() and draw() methods blank, since `setInterval()
     function update() { ... }
     function draw() { ... }
 
-## Hello world
+## <span>Hello world</span>
 
 Now, let's update the draw() method to draw text on the screen.
 
@@ -88,7 +88,7 @@ Let's add code to the draw() method to clear the screen.
 
 Now that you've created a canvas and added text that moves around on the screen, let's turn this into a game with players and interaction between the players.
 
-## Creating the player
+## <span>Creating the player</span>
 
 Create an object to hold the player data and be responsible for things like drawing.
 
@@ -111,9 +111,9 @@ At the moment, we're using a simple colored rectangle to represent the player. W
       player.draw();
     }
 
-## Keyboard controls
+## <span>Keyboard controls</span>
 
-### Using jQuery Hotkeys
+### <span>Using jQuery Hotkeys</span>
 
 The [jQuery Hotkeys plugin](https://github.com/tzuryby/jquery.hotkeys) makes key handling across browsers very easy. Instead of using difficult-to-use cross-browser `keyCode` and `charCode`, we can bind events like so:
 
@@ -121,7 +121,7 @@ The [jQuery Hotkeys plugin](https://github.com/tzuryby/jquery.hotkeys) makes key
 
 By binding events, we don't have to worry specifically about key and code combinations. Instead, we can use jQuery Hotkeys to add events like "when the player presses the Up arrow key, move forward."
 
-### Player movement
+### <span>Player movement</span>
 
 Because the way JavaScript handles keyboard events is completely event-driven, there is no built-in query for checking whether a key is pressed. To address this, we'll create our own query.
 
@@ -178,9 +178,9 @@ Let's start working with sample projectiles to see how the key binding works.
       // :) Well at least adding the key binding was easy...
     };
 
-## Adding more game objects
+## <span>Adding more game objects</span>
 
-### Projectiles
+### <span>Projectiles</span>
 
 Now, let's add proper projectiles (or bullets, since this is, after all, a game). First, create a collection to store them:
 
@@ -258,7 +258,7 @@ The final step is to draw the bullets:
       });
     }
 
-### Enemies
+### <span>Enemies</span>
 
 Now that we have bullets, let's add enemies to interact with our player.
 
@@ -328,7 +328,7 @@ Now that we have bullets, let's add enemies to interact with our player.
       });
     }
 
-## Loading and drawing images
+## <span>Loading and drawing images</span>
 
 Now that we have the enemy-player interaction set with box images, let's draw actual images to make this game more interesting. To avoid what is usually a painful experience with loading and drawing images on canvas, we can use a simple utility class.
 
@@ -350,7 +350,7 @@ Now that we have the enemy-player interaction set with box images, let's draw ac
       ...
     }
 
-## Collision detection
+## <span>Collision detection</span>
 
 Now that we have images flying around on the screen, notice that they're not interacting with each other. Let's add collision detection to let the objects know when they've collided, and therefore when to blow up.
 
@@ -411,7 +411,7 @@ Finally, to make the interaction realistic, we'll add the explode() methods to t
       // Extra Credit: Add an explosion graphic and then end the game
     };
 
-## Sound
+## <span>Sound</span>
 
 To round out the experience, we'll add some sweet sound effects. Sounds, like images, can be somewhat of a pain to use in HTML5, but thanks to our magic no-tears formula sound.js, sound can be made very easily.
 
@@ -433,24 +433,24 @@ Although the API is now tear-free, adding sounds is currently the quickest way t
 
 You can also play with the [full working game demo](http://strd6.com/space_demo/) online.
 
-## Source Code
+## <span>Source Code</span>
 
 The source code is available [here](http://strd6.com/wp-content/uploads/2010/12/space_demo.zip).
 
-## Summary
+## <span>Summary</span>
 
 I hope you enjoyed learning the basics of making a simple game in JavaScript and HTML5. By programming at the right level of abstraction, we can insulate ourselves from the more difficult parts of the APIs, as well as be resilient in the face of future changes.
 
-## References
+## <span>References</span>
 
 -   [HTML5 Canvas Cheat Sheet](http://blog.nihilogic.dk/2009/02/html5-canvas-cheat-sheet.html)
 -   [HTML5 Game Engines](https://gist.github.com/768272)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Canvas
+#### <span>Canvas</span>
 
 -   [canvas](/apis/canvas)
 
@@ -461,10 +461,3 @@ I hope you enjoyed learning the basics of making a simple game in JavaScript and
 -   [Achieving typographic effects with the canvas tag](/tutorials/canvas_texteffects)
 
 -   [Introduction to Canvas](/tutorials/canvas/canvas_tutorial)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from HTML5Rocks! [article](http://www.html5rocks.com/tutorials/canvas/notearsgame/)
-

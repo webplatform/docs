@@ -1,87 +1,96 @@
 ---
 title: createRadialGradient
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Returns a radial CanvasGradient initialized with the two specified circles. This effectively creates a cone, touched by the two circles defined in the creation of the gradient, with the part of the cone before the start circle (0.0) using the color of the first offset, the part of the cone after the end circle (1.0) using the color of the last offset, and areas outside the cone (untouched by the gradient) transparent black.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Returns a radial CanvasGradient initialized with the two specified circles. This effectively creates a cone, touched by the two circles defined in the creation of the gradient, with the part of the cone before the start circle (0.0) using the color of the first offset, the part of the cone after the end circle (1.0) using the color of the last offset, and areas outside the cone (untouched by the gradient) transparent black.'
 uri: apis/canvas/CanvasRenderingContext2D/createRadialGradient
 
 ---
-# createRadialGradient
-
-## Summary
+## <span>Summary</span>
 
 Returns a radial CanvasGradient initialized with the two specified circles. This effectively creates a cone, touched by the two circles defined in the creation of the gradient, with the part of the cone before the start circle (0.0) using the color of the first offset, the part of the cone after the end circle (1.0) using the color of the last offset, and areas outside the cone (untouched by the gradient) transparent black.
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var object = object.createRadialGradient(x0, y0, r0, x1, y1, r1);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x0
+### <span>x0</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate of the starting circle of the gradient.
 
-### y0
+### <span>y0</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate of the starting circle of the gradient.
 
-### r0
+### <span>r0</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The radius of the starting circle.
 
-### x1
+### <span>x1</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The x-coordinate of the ending circle of the gradient.
 
-### y1
+### <span>y1</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The y-coordinate of the ending circle of the gradient.
 
-### r1
+### <span>r1</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The radius of the ending circle.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 A **CanvasGradient** object that represents the radial gradient.
 
-## Examples
+## <span>Examples</span>
 
 This example creates a radial gradient, fading from yellow to red, and then places a rectangle filled with the gradient onto the canvas.
 
-``` {.html}
+``` html
 <canvas id="myCanvas" width="300" height="150" style="border:1px solid blue;"></canvas>
-. . .
+<p>. . .</p>
 <script>
 var can = document.getElementById("myCanvas");
 var ctxt = can.getContext("2d");
@@ -93,20 +102,11 @@ ctxt.fillRect(10, 10, 275, 125);
 </script>
 ```
 
-## Notes
+## <span>Notes</span>
 
 You can use radial gradients together with the *fillText* or *fillRect* method.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Context](http://www.w3.org/TR/2dcontext/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

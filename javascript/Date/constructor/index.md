@@ -1,28 +1,30 @@
 ---
 title: constructor
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155284(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Specifies the function that creates a date.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Specifies the function that creates a date.'
 uri: javascript/Date/constructor
 
 ---
-# constructor
-
-## Summary
+## <span>Summary</span>
 
 Specifies the function that creates a date.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     date.constructor
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the constructor property.
 
-``` {.js}
+``` js
 var x = new Date("Hi");
 
  if (x.constructor == Date)
@@ -32,15 +34,9 @@ var x = new Date("Hi");
  // Object is a date.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required date is the name of a date object.
 
 The **constructor** property is a member of the prototype of every object that has a prototype. The **constructor** property contains a reference to the function that constructs instances of that particular object.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155284(v=vs.94).aspx)
 

@@ -1,5 +1,12 @@
 ---
 title: xml
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLElement](/dom/HTMLElement)'
+readiness: 'Not Ready'
+standardization_status: Non-Standard
+summary: 'Defines a simple XML data that can be embedded directly in an HTML page.'
 tags:
   - Pages
   - using
@@ -11,66 +18,69 @@ tags:
   - Markup
   - Elements
   - HTML
-readiness: 'Not Ready'
-standardization_status: Non-Standard
-summary: 'Defines a simple XML data that can be embedded directly in an HTML page.'
-uri: html/elements/xml
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'dom/properties/readyState (Link, Img, Input, Style...elements)'
+uri: html/elements/xml
 
 ---
-# xml
-
-## Summary
+## <span>Summary</span>
 
 Defines a simple XML data that can be embedded directly in an HTML page.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLElement](/dom/HTMLElement)
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **XML** element to define a simple XML data island that can be embedded directly in an HTML page.
 
-    <XML ID="oMetaData">
-      <METADATA>
-         <AUTHOR>John Smith</AUTHOR>
-         <GENERATOR>Visual Notepad</GENERATOR>
-         <PAGETYPE>Reference</PAGETYPE>
-         <ABSTRACT>Specifies a data island</ABSTRACT>
-      </METADATA>
-    </XML>
+``` html
+<XML ID="oMetaData">
+  <METADATA>
+     <AUTHOR>John Smith</AUTHOR>
+     <GENERATOR>Visual Notepad</GENERATOR>
+     <PAGETYPE>Reference</PAGETYPE>
+     <ABSTRACT>Specifies a data island</ABSTRACT>
+  </METADATA>
+</XML>
+```
 
 This example uses the [**readyState**](/w/index.php?title=dom/properties/readyState_(Link,_Img,_Input,_Style...elements)&action=edit&redlink=1) property of the **xml** object to determine whether the XML data island is completely downloaded.
 
-    if (oMetaData.readyState == "complete")
-          window.alert ("The XML document is ready.");
+``` html
+if (oMetaData.readyState == "complete")
+      window.alert ("The XML document is ready.");
+```
 
 This example uses the **readyState** property of the **XMLDOMDocument** object to determine whether the XML data island is completely downloaded.
 
-    if (oMetaData.XMLDocument.readyState == 4)
-          window.alert ("The XML document is ready.");
+``` html
+if (oMetaData.XMLDocument.readyState == 4)
+      window.alert ("The XML document is ready.");
+```
 
 This script example retrieves the text contained within the **ABSTRACT** field of the data island.
 
-    var oNode = oMetaData.XMLDocument.selectSingleNode("METADATA/ABSTRACT");
-       alert(oNode.text);
+``` html
+var oNode = oMetaData.XMLDocument.selectSingleNode("METADATA/ABSTRACT");
+   alert(oNode.text);
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The [**readyState**](/w/index.php?title=dom/properties/readyState_(Link,_Img,_Input,_Style...elements)&action=edit&redlink=1) property of the **XML** element, available as a string value, corresponds to the **readyState** property of the **XMLDOMDocument** object, which is available as a long value. The string values correspond to the long values of the XML document object's property as shown in the Examples section. The [**XMLDocument**](/apis/xhr/properties/XMLDocument) property is the default property. This element is available in HTML and script as of Microsoft Internet Explorer 5.
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Members
+### <span>Members</span>
 
 The **xml** object has these types of members:
 
@@ -78,13 +88,6 @@ The **xml** object has these types of members:
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### Events
+#### <span>Events</span>
 
 The **xml** object has these events. {
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

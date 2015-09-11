@@ -1,46 +1,60 @@
 ---
-title: table-layout
-tags:
-  - CSS
-  - Properties
+title: table layout
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/7044174'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'Table and inline-table elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`object.style.tableLayout`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The ''table-layout'' property controls the algorithm used to lay out the table cells, rows, and columns.'
-code_samples:
-  - 'http://gist.github.com/7044174'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/table-layout
 
 ---
-# table layout
-
-## Summary
+## <span>Summary</span>
 
 The 'table-layout' property controls the algorithm used to lay out the table cells, rows, and columns.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   Table and inline-table elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `object.style.tableLayout`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `table-layout: auto`
 -   `table-layout: fixed`
 -   `table-layout: inherit`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. Column width is set by the widest unbreakable content in the column cells. The width of the table and its cells depends on the content of the cells.
@@ -51,11 +65,11 @@ fixed
 inherit
 :   This features inherits table-layout property from the parent element.
 
-## Examples
+## <span>Examples</span>
 
 This example shows table-layout 'auto' and 'fixed'. With 'auto', the column stretches to encompass the largest unbreakable element. With 'fixed', the column gets the defined width, even though the content might not fit.
 
-``` {.html}
+``` html
 <p><strong>table-layout: auto</strong></p>
 <table border="1">
     <tr>
@@ -97,7 +111,7 @@ This example shows table-layout 'auto' and 'fixed'. With 'auto', the column stre
 
 Here's the CSS for styling the table, above.
 
-``` {.css}
+``` css
 /**
  * Table-layout - Web Platform Docs Examples
  *
@@ -137,21 +151,12 @@ td p {
 
 [View live example](http://code.webplatform.org/gist/7044174)
 
-## Notes
+## <span>Notes</span>
 
 -   When using 'table-layout: fixed', authors should not omit columns from the first row. If a subsequent row has more columns than the greater of the number determined by the table-column elements and the number determined by the first row, then additional columns may not be rendered.
 -   If 'table-layout: fixed', any cell that has content that overflows uses the overflow property to determine whether to clip the overflow content.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS2.1, 17.5.2 Table width algorithms: the 'table-layout' property](http://www.w3.org/TR/CSS2/tables.html#width-layout)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

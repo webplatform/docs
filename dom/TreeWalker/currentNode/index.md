@@ -1,40 +1,50 @@
 ---
 title: currentNode
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[TreeWalker.currentNode](https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker.currentNode) Article]'
+  - 'Microsoft Developer Network: [[currentNode Property](http://msdn.microsoft.com/en-us/library/ie/ff974804(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/TreeWalker
+    href: /dom/TreeWalker
+  return:
+    predicate: 'Returns an object of type '
+    value: 'DOM Node'
+    href: /dom/TreeWalker
+standardization_status: 'W3C Recommendation'
+summary: 'Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.'
 uri: dom/TreeWalker/currentNode
 
 ---
-# currentNode
-
-## Summary
+## <span>Summary</span>
 
 Sets or retrieves where the current node in a filtered TreeWalker hierarchy is positioned.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/TreeWalker](/dom/TreeWalker)</span></span>
+Property of [dom/TreeWalker](/dom/TreeWalker)[dom/TreeWalker](/dom/TreeWalker)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var node = walker.currentNode;
 walker.currentNode = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">DOM Node</span></span>
+Returns an object of type DOM NodeDOM Node
 
 The currentNode of the TreeWalker object.
 
-## Examples
+## <span>Examples</span>
 
-``` {.html}
+``` html
 <div id="divcontent">
 <p>Some <span>text</span></p>
 <b>Bold text</b>
@@ -59,30 +69,19 @@ alert(walker.firstChild().tagName); //alerts P
 </script>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **currentNode** will never return null in Windows Internet Explorer 9, even when the traversing method returns null.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Document Object Model (DOM) Level 2 Traversal and Range Specification](http://go.microsoft.com/fwlink/p/?linkid=182712), Section 1.2
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM](http://dom.spec.whatwg.org/#dom-treewalker-currentnode)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[TreeWalker.currentNode](https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker.currentNode) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[currentNode Property](http://msdn.microsoft.com/en-us/library/ie/ff974804(v=vs.85).aspx) Article]
-

@@ -1,36 +1,43 @@
 ---
 title: firstChild
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationGroup
+    href: /apis/web_animations/AnimationGroup
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /apis/web_animations/AnimationGroup
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The first child of this animation group.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The first child of this animation group.'
 uri: 'apis/web animations/AnimationGroup/firstChild'
 
 ---
-# firstChild
-
-## Summary
+## <span>Summary</span>
 
 The first child of this animation group.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)</span></span>
+Property of [apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)[apis/web\_animations/AnimationGroup](/apis/web_animations/AnimationGroup)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.firstChild;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 Returns an AnimationNode object
 

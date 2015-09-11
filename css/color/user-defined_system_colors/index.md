@@ -1,5 +1,11 @@
 ---
-title: user-defined system colors
+title: User-Defined System Colors
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Summary photo link went to a form instead of displaying photo.'
+readiness: 'Almost Ready'
+standardization_status: Unknown
 tags:
   0: Basic
   1: Pages
@@ -7,22 +13,16 @@ tags:
   4: broken
   5: file
   6: links
-readiness: 'Almost Ready'
-standardization_status: Unknown
-notes:
-  - 'Summary photo link went to a form instead of displaying photo.'
 uri: 'css/color/user-defined system colors'
 
 ---
-# User-Defined System Colors
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Visual Effects
+#### <span>Visual Effects</span>
 
 -   [color](/css/color)
 
@@ -58,11 +58,11 @@ uri: 'css/color/user-defined system colors'
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-## ==
+## <span>==</span>
 
 The following image shows typical Windows 7 system colors. [File:sysColorPreview.png](/w/index.php?title=Special:Upload&wpDestFile=sysColorPreview.png) Click the link below to see an active table of your current system colors. **Code example:**[http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/colors/sys\_colors.htm](http://go.microsoft.com/fwlink/p/?linkid=237723)
 
-### Related topics
+### <span>Related topics</span>
 
 **Conceptual**
 :   [Colors by Name](/css/color/colors_by_name)
@@ -75,11 +75,4 @@ The following image shows typical Windows 7 system colors. [File:sysColorPrevie
 [Colors by Lightness](/css/color/colors_by_lightness)
 :
 
-    [[ie\_css\\ie](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback):%20User-Defined System Colors%20 RELEASE:%20(7/24/2012)&body=%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see [http://privacy.microsoft.com/en-us/default.aspx](http://privacy.microsoft.com/en-us/default.aspx). Send comments about this topic to Microsoft] Build date: 7/24/2012
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+    [[ie\_css\\ie](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback):%20User-Defined System Colors%20 RELEASE:%20(7/24/2012)&body=%0A%0APRIVACY STATEMENT%0A%0AThe doc team uses your feedback to improve the documentation. We don't use your email address for any other purpose. We'll remove your email address from our system after the issue that you are reporting is resolved. While we are working to resolve this issue, we may send you an email message to request more info about your feedback. After the issue is addressed, we may send you an email message to let you know that your feedback has been addressed.%0A%0AFor more info about Microsoft's privacy policy, see <http://privacy.microsoft.com/en-us/default.aspx>. Send comments about this topic to Microsoft] Build date: 7/24/2012

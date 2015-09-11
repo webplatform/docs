@@ -1,49 +1,63 @@
 ---
 title: shape-outside
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/5832982'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': Floats
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As defined for \<basic-shape\> (with \<shape-box\> following, if supplied), the \<image\> with its URI made absolute, otherwise as specified.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Declares a shape around which text should be wrapped, with possible modifications from the shape-margin property. The shape defined by shape-outside and shape-margin changes the geometry of a float element''s float area.'
-code_samples:
-  - 'http://gist.github.com/5832982'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/shape-outside
 
 ---
-# shape-outside
-
-## Summary
+## <span>Summary</span>
 
 Declares a shape around which text should be wrapped, with possible modifications from the shape-margin property. The shape defined by shape-outside and shape-margin changes the geometry of a float element's float area.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   Floats
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As defined for \<basic-shape\> (with \<shape-box\> following, if supplied), the \<image\> with its URI made absolute, otherwise as specified.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `shape-outside: <basic-shape>`
 -   `shape-outside: <image>`
 -   `shape-outside: <shape-box>`
 -   `shape-outside: none`
 
-## Values
+## <span>Values</span>
 
 none
 :   The float area is unaffected.
@@ -70,9 +84,9 @@ none
 \<image\>
 :   If \<image\> references an image (fetched using the CORS-enabled fetch method defined by the HTML5 specification), the shape is extracted and computed based on the alpha channel of the image as defined by [shape-image-threshold](/css/properties/shape-image-threshold). If \<image\> does not reference an image or if the fetch attempt results in any error such that there is no fallback image, the effect is as if the value *auto* had been specified.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* shape used is a rectangle equal to the margin box */
 shape-outside: inset(0 0 0 0);
 /* Or equivalent: */
@@ -114,20 +128,17 @@ shape-outside: url(path/to/image.png);
 
 [View live example](http://code.webplatform.org/gist/5832982)
 
-## Usage
+## <span>Usage</span>
 
      Currently implemented as an experimental feature in WebKit and Blink. This can be used with a -webkit- prefix in WebKit nightly builds and with a -webkit- prefix in Chrome Canary builds with experimental-webkit-features enabled: chrome://flags/#enable-experimental-webkit-features
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Shapes Module Level 1](http://www.w3.org/TR/css-shapes/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 [shape-margin](/css/properties/shape-margin) [shape-image-threshold](/css/properties/shape-image-threshold)
-

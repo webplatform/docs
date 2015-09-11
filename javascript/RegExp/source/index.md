@@ -1,31 +1,33 @@
 ---
 title: source
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/fkd8dws9(v=vs.94).aspx)'
+notes:
+  - 'Moved under javascript/RegExp'
+readiness: 'Ready to Use'
+summary: 'Returns a copy of the text of the regular expression pattern. Read-only. The rgExp argument is a Regular expression object. It can be a variable name or a literal.'
 tags:
   0: JS
   1: Basic
   3: Property
-readiness: 'Ready to Use'
-notes:
-  - 'Moved under javascript/RegExp'
-summary: 'Returns a copy of the text of the regular expression pattern. Read-only. The rgExp argument is a Regular expression object. It can be a variable name or a literal.'
 uri: javascript/RegExp/source
 
 ---
-# source
-
-## Summary
+## <span>Summary</span>
 
 Returns a copy of the text of the regular expression pattern. Read-only. The rgExp argument is a Regular expression object. It can be a variable name or a literal.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     rgExp.source
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **source** property:
 
-``` {.js}
+``` js
 function SourceDemo(re, s){
     var s1;
     // Test string for existence of regular expression.
@@ -38,16 +40,10 @@ function SourceDemo(re, s){
  }
 ```
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Regular Expression Object](/javascript/regular_expression)
 -   [Regular Expression Object](/javascript/regular_expression)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/fkd8dws9(v=vs.94).aspx)
 

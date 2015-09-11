@@ -1,21 +1,23 @@
 ---
 title: setUTCMonth
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d82ks7xe(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the month value in the Date object using Universal Coordinated Time (UTC).'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sets the month value in the Date object using Universal Coordinated Time (UTC).'
 uri: javascript/Date/setUTCMonth
 
 ---
-# setUTCMonth
-
-## Summary
+## <span>Summary</span>
 
 Sets the month value in the Date object using Universal Coordinated Time (UTC).
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.setUTCMonth( numMonth [ , dateVal ] )
 
@@ -28,11 +30,11 @@ Sets the month value in the Date object using Universal Coordinated Time (UTC).
 **dateVal**
 :   Optional. A numeric value representing the day of the month. If it is not supplied, the value from a call to the **getUTCDate** method is used.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **setUTCMonth** method.
 
-``` {.js}
+``` js
 function SetUTCMonthDemo(newmonth){
     var d, s;                       // Declare variables.
     d = new Date();                 // Create Date object.d.setUTCMonth( newmonth ) ;        // Set UTC month.
@@ -42,7 +44,7 @@ function SetUTCMonthDemo(newmonth){
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 To set the month value using local time, use the **setMonth** method.
 
@@ -50,17 +52,11 @@ If the value of numMonth is greater than 11 (January is month 0), or is a negati
 
 The **setUTCFullYear** method can be used to set the year, month, and day of the month.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getMonth Method (Date)](/javascript/Date/getMonth)
 -   [getUTCMonth Method (Date)](/javascript/Date/getUTCMonth)
 -   [setMonth Method (Date)](/javascript/Date/setMonth)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/d82ks7xe(v=vs.94).aspx)
 

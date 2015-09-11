@@ -1,51 +1,67 @@
 ---
 title: direction
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5708516'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`ltr`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`direction`'
+  Percentages: N/A
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The direction CSS property specifies the text direction/writing direction. The rtl is used for Hebrew or Arabic text, the ltr is for other languages.'
-code_samples:
-  - 'http://gist.github.com/5708516'
-uri: css/properties/direction
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/direction
 
 ---
-# direction
-
-## Summary
+## <span>Summary</span>
 
 The direction CSS property specifies the text direction/writing direction. The rtl is used for Hebrew or Arabic text, the ltr is for other languages.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `ltr`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `direction`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `direction: ltr`
 -   `direction: rtl`
 
-## Values
+## <span>Values</span>
 
 ltr
 :   Default. Content flows left to right.
@@ -53,11 +69,11 @@ ltr
 rtl
 :   Content flows right to left.
 
-## Examples
+## <span>Examples</span>
 
 The following example demonstrates how to set and retrieve the value of the **direction** property.
 
-``` {.html}
+``` html
 <p>This is a paragraph using default writting direction(ltr).</p>
 
 <p class="rtl">This is a paragraph using right-to-left direction.</p>
@@ -67,7 +83,7 @@ The following example demonstrates how to set and retrieve the value of the **di
 
 [View live example](http://code.webplatform.org/gist/5708516)
 
-``` {.css}
+``` css
 p {
     width: 300px;
     background-color: #cccccc;
@@ -82,20 +98,18 @@ p {
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 The property does not affect alphanumeric characters in Latin documents. These characters always render **ltr**. However, the property does affect punctuation characters in Latin documents. The property pertains only to the directional flow of an element's content. It has no effect on properties such as [**left**](/css/properties/left) or [**right**](/css/properties/right), [**margin-left**](/css/properties/margin-left) or [**margin-right**](/css/properties/margin-right). The **margin-left** property, for example, sets or retrieves the width of the margin on the left side of the document regardless of the value of the **direction** property.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Cascading Style Sheets Level 2 Revision 1](http://www.w3.org/TR/CSS2/visuren.html#propdef-direction)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -106,10 +120,3 @@ Specification
 -   `dir`
 -   `Conceptual`
 -   `HTML Character Sets`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

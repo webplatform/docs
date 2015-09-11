@@ -15,6 +15,6 @@ The major techniques used are
 
 The problem is that at present the support for HTML5 techniques varies widely with different browsers and different mobile device screen resolutions further complicate design - what looks fine on a mobile may waste space on a tablet.
 
-The technical compatibility issues are a serious problem but libraries such as [http://html5boilerplate.com/](http://html5boilerplate.com/) make this much simpler, allowing you to focus on writing 'pure' HTML5 while it juggles with the contortions required for each type of browser.
+The technical compatibility issues are a serious problem but libraries such as <http://html5boilerplate.com/> make this much simpler, allowing you to focus on writing 'pure' HTML5 while it juggles with the contortions required for each type of browser.
 
 A responsive layout needs thought at the design level, so page content reflows and adjusts to suit. But you also need to remember that what looks slick on a desktop site (a large crossfading background and nice popup dialogs) can kill usability on a mobile device. I have seen sites with modal popups (i.e. they lock the whole screen until you close them) that open automatically, for example 'Do you want to complete a survey?'. The problem is that on a mobile or even a small tablet the dialog close button isn't visible, and you have to scroll around the screen until you find it. This is the definition of *un*responsive design.

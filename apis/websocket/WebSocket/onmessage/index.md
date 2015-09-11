@@ -1,41 +1,50 @@
 ---
 title: onmessage
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/websocket/WebSocket
+    href: /apis/websocket/WebSocket
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/websocket/WebSocket
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'An event listener to be called when a message is received from the server. Receives a MessageEvent named &quot;message&quot;.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebSocket
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'An event listener to be called when a message is received from the server. Receives a MessageEvent named "message".'
 uri: apis/websocket/WebSocket/onmessage
 
 ---
-# onmessage
+## <span>Summary</span>
 
-## Summary
+An event listener to be called when a message is received from the server. Receives a MessageEvent named &quot;message&quot;.
 
-An event listener to be called when a message is received from the server. Receives a MessageEvent named "message".
+Property of [apis/websocket/WebSocket](/apis/websocket/WebSocket)[apis/websocket/WebSocket](/apis/websocket/WebSocket)
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/websocket/WebSocket](/apis/websocket/WebSocket)</span></span>
+## <span>Syntax</span>
 
-## Syntax
+**Note**: This property is read-only.
 
-***Note**: This property is read-only.*
-
-``` {.js}
+``` js
 var result = element.onmessage;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 EventHandler
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 socket.onmessage = function(event) {
   var data = event.data;
   // process data as string, blob, or ArrayBuffer
@@ -44,23 +53,14 @@ socket.onmessage = function(event) {
 
 The "onmessage" event handler can also be implemented using addEventListener().
 
-``` {.js}
+``` js
 socket.addEventListener("message", function(event) {
   var data = event.data;
   // process data as string, blob, or ArrayBuffer
 });
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C WebSocket Specification](http://www.w3.org/TR/websockets/)
 :   W3C Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

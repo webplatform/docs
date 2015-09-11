@@ -1,18 +1,16 @@
 ---
-title: crash course
+title: Part 2: A crash course in website code
+notes:
+  - "(Note1: Tried to handle the below-mentioned stuff. Please run a check and then you can remove these notes. Thanks)\n(Note2: I'm making it Ready to Use. Note1 still needs to be processed.)\nThere are plenty of notes and idea but all incomplete.\nEditorial notes:\n\n Explain what HTML, CSS, and JavaScript are, show how to create some really trivially simple examples\n Show what a simple site structure might look like\n Go through simple HTML anatomy\n Show what an HTML page looks like, explain its purpose. Show head, body, title, and a few other things\n Add some really simple bits to it. headings and paragraphs, bullet points, an image maybe\n explain simple common gotchas - quote problems, incorrect paths, bad nesting, missing out attributes\n Next, go through simple CSS anatomy\n Show how simple CSS selectors work\n Go through how to apply CSS to HTML - 3 ways\n explain simple CSS gotchas - bad pathing, missing semi colons, missing attributes, incorrect adding of classes to elements (I've seen people try to use <class=\"heading\">content</class>) \n next, show simple javascript anatomy and explain how it works\n show some really simple JS use\n explain simple JS gotchas, and explain that it needs quite a bit more understanding than HTML or CSS. But it has more power.\n Take the user through the steps towards getting web space (use a free service, such as http://www.biz.nf/), and get them to set up their FTP, and upload their simple files.\n Show them how they can now view their files on another computer."
+readiness: 'Ready to Use'
+summary: "This part assumes you want to build a website with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away. Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.\n"
 tags:
   - Basic
   - Pages
-readiness: 'Ready to Use'
-notes:
-  - "(Note1: Tried to handle the below-mentioned stuff. Please run a check and then you can remove these notes. Thanks)\n(Note2: I'm making it Ready to Use. Note1 still needs to be processed.)\nThere are plenty of notes and idea but all incomplete.\nEditorial notes:\n\n Explain what HTML, CSS, and JavaScript are, show how to create some really trivially simple examples\n Show what a simple site structure might look like\n Go through simple HTML anatomy\n Show what an HTML page looks like, explain its purpose. Show head, body, title, and a few other things\n Add some really simple bits to it. headings and paragraphs, bullet points, an image maybe\n explain simple common gotchas - quote problems, incorrect paths, bad nesting, missing out attributes\n Next, go through simple CSS anatomy\n Show how simple CSS selectors work\n Go through how to apply CSS to HTML - 3 ways\n explain simple CSS gotchas - bad pathing, missing semi colons, missing attributes, incorrect adding of classes to elements (I've seen people try to use <class=\"heading\">content</class>) \n next, show simple javascript anatomy and explain how it works\n show some really simple JS use\n explain simple JS gotchas, and explain that it needs quite a bit more understanding than HTML or CSS. But it has more power.\n Take the user through the steps towards getting web space (use a free service, such as http://www.biz.nf/), and get them to set up their FTP, and upload their simple files.\n Show them how they can now view their files on another computer."
-summary: "This part assumes you want to build a website with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away. Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.\n"
 uri: 'Beginners/crash course'
 
 ---
-# Part 2: A crash course in website code
-
-## Summary
+## <span>Summary</span>
 
 This part assumes you want to build a website with almost no prior knowledge. It will start on HTML and CSS to allow you to do that right away. Obviously, we can't teach it all at once, so we will start with certain basic features we expect you might be interested in, and build on from there.
 
@@ -20,7 +18,7 @@ If you have terms you don’t understand, you can see the [Beginners/glossary](/
 
 You will quickly find that once you get the hang of how this works, you will be able to figure out how to add the features you want just by looking at the HTML and CSS code and applying that code to your site, or an offline test site.
 
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -35,7 +33,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-## HTML, CSS, and JavaScript
+## <span>HTML, CSS, and JavaScript</span>
 
 We're assuming you've had your general introduction with HTML, CSS, and JavaScript at the former article of this series. Here we're going to get a bit advanced.
 
@@ -51,7 +49,7 @@ and so on. HTML is just that. It was created to give markup to scientific docume
 
 CSS is essentially used for styling the elements and portions of the HTML document. Suppose you really need a yellow highlight instead on emphasis. Here's what you'll do:
 
-``` {.html}
+``` html
 .important {
   background-color: yellow;
 }
@@ -59,7 +57,7 @@ CSS is essentially used for styling the elements and portions of the HTML docume
 
  Note that a CSS rule can only target HTML elements. So there needs to be HTML code too!
 
-``` {.html}
+``` html
 <p class="important">
  Heisenberg's Uncertainty Principle
 </p>
@@ -73,7 +71,7 @@ So, in essence, the code becomes like this:
 
 **HTML**:
 
-``` {.html}
+``` html
 <p class="important">
  Heisenberg's Uncertainty Principle: Two properties of an object cannot be known for sure at a given instant.
 </p>
@@ -87,7 +85,7 @@ So, in essence, the code becomes like this:
 
 **CSS**:
 
-``` {.html}
+``` html
 .important {
   background-color: yellow;
 }
@@ -98,11 +96,11 @@ So, in essence, the code becomes like this:
 
  As you can easily understand, we styled the important class and also the *\#alphaParticle*. What's that? Well, the hash denotes an ID. An ID is different from a class because it can only be assigned to one HTML element.
 
-## An HTML document
+## <span>An HTML document</span>
 
 This is a basic HTML document.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -124,7 +122,7 @@ There is the paired `<tag-name>tag contents</tag-name>`, which is how we tell th
 
 Then there is the `<tag-name _______________ />` where those are instructions to describe on how to deal with certain situations. The `meta` are about the server communication. In this particular case, we are saying that the file is written in `UTF-8` (i.e. a format that supports multiple language characters at once), and `link` is for asking which file to download along with the HTML document to take care of the visual aspects ("stylesheets"). These stylesheets are a collection of style rules, written in CSS.
 
-## Let's make a website
+## <span>Let's make a website</span>
 
 For your first HTML document, please cut and paste the above into a text editor of your choice and save it as `example.html`, but leave the file opened.
 
@@ -134,7 +132,7 @@ Now go to your browser, choose Open, open this file and see what happens and lea
 
 Now add the following (or whatever other text you want) in your editor. Why not put it after the paragraph that's already there:
 
-``` {.html}
+``` html
 <h2>Your Second-Level Heading Here</h2>
 <p>Write something <em>add emphasis</em> finish your paragraph and add a list along with maybe?</p>
 <ul>
@@ -160,7 +158,7 @@ Create a file beside `example.html`, and call it `example2.html`. Empty the `bod
 
 We will call `example2.html`, from our `example.html` sandbox document. Add this line:
 
-``` {.html}
+``` html
 <a href="example2.html" title="Another HTML file">Calling example2</a>
 ```
 
@@ -168,7 +166,7 @@ We will call `example2.html`, from our `example.html` sandbox document. Add this
 
 Now, whenever you click on this link, you'll be taken to `example2.html` instantaneously. Congratulations, you learned something that's pretty much the cornerstone of the web!
 
-## Some other things you need to take care of
+## <span>Some other things you need to take care of</span>
 
 To be a good web-coder, you need to learn some good practices.
 
@@ -178,7 +176,7 @@ To be a good web-coder, you need to learn some good practices.
 
 -   **Avoid bad nesting**: It's a common problem to do nesting in an illogical and confusing manner. Always try to maintain the hierarchy. A small example will be this:
 
-``` {.html}
+``` html
 <div>
   <p>
     To-Do List
@@ -196,7 +194,7 @@ To be a good web-coder, you need to learn some good practices.
 
 -   **Don't miss out the attributes**: HTML attributes are very important and they make a webpage and entire websites more meaningful and suitable for screen readers and other accessibility devices. Some attributes you should never miss out are: `lang` (for telling the browser which language the webpage is written in), `title` (for specifying the name of the browser window/tab and naming elements), `href` (used mostly in links, if you skip it, the link won't point to anywhere), and `alt` (the alt attribute is used to display/read text content when an HTML element, like an image, cannot be loaded).
 
-## Simple CSS anatomy and application
+## <span>Simple CSS anatomy and application</span>
 
 CSS is a detailed language, and for its graceful implementation, we've created the [Part 5](/Beginners/css), but here, you should learn about the simple anatomy of CSS and applying it on HTML elements.
 
@@ -204,7 +202,7 @@ CSS is a language for styling the HTML elements we create. It includes sets of r
 
 **HTML**:
 
-``` {.html}
+``` html
 <h1>How to destroy Mars</h1>
 <p>It'll be really bad to do this, as the world would be very disappointed,
 but for the sake of darkness, we must perform this deed.</p>
@@ -214,7 +212,7 @@ page again when you're done. Goodbye.</p>
 
 **CSS**:
 
-``` {.html}
+``` html
 p {
   color: silver;
 }
@@ -224,11 +222,11 @@ p {
 
 The `p` we used in the CSS is a selector. Selectors select an HTML element and then apply the required styles to it. No selection: no styles applied.
 
-## JavaScript primer
+## <span>JavaScript primer</span>
 
 JavaScript is a scripting language that works much like your common programming languages. At the extreme end, you can create animations, classes, and functions, and in the least, you can add simple browser interactivity on the webpage.
 
-``` {.html}
+``` html
 <script>
 document.getElementById("intro").innerHTML = "This paragraph includes
 introductory information regarding the Martial Doomsday.";
@@ -237,7 +235,7 @@ introductory information regarding the Martial Doomsday.";
 
  For this to work, like CSS, we need HTML. Suppose this is the HTML:
 
-``` {.html}
+``` html
 <p id="intro">Hello!</p>
 ```
 
@@ -247,11 +245,11 @@ So, in essence, JavaScript targets HTML (via DOM, which you will learn about lat
 
 JavaScript has more power than CSS or HTML, and consequently, it takes more time to be mastered.
 
-## Getting online
+## <span>Getting online</span>
 
 Now that you're acquainted with HTML, CSS, and JavaScript, it's time to get online! Although you can create an `.html` file on your computer to do web designing, getting online is the most interesting part.
 
-For starters, you don't have to buy domains or hosting, we'll start with some free service. We'll pick biz.nf for this purpose. It comes with 250MB space, a webmail, and FTP access. The URL is [http://www.biz.nf/](http://www.biz.nf/).
+For starters, you don't have to buy domains or hosting, we'll start with some free service. We'll pick biz.nf for this purpose. It comes with 250MB space, a webmail, and FTP access. The URL is <http://www.biz.nf/>.
 
 First, let's make a few things clear:
 
@@ -263,9 +261,9 @@ First, let's make a few things clear:
 
 So, you ready? Good.
 
-First, make an account on biz.nf. Here's the URL again: [http://www.biz.nf/](http://www.biz.nf/).
+First, make an account on biz.nf. Here's the URL again: <http://www.biz.nf/>.
 
-Second, install FileZilla. The URL is [https://filezilla-project.org/download.php?type=client](https://filezilla-project.org/download.php?type=client).
+Second, install FileZilla. The URL is <https://filezilla-project.org/download.php?type=client>.
 
 Now, before going to the third step, make sure that you have the files you'll upload! The HTML file is the most important, and **be sure to rename it to `index.html`** otherwise it won't open on the server!
 

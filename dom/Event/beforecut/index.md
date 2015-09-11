@@ -1,75 +1,118 @@
 ---
 title: beforecut
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforecutEX.htm'
+notes:
+  - 'Needs summary, spec, and compat'
+readiness: 'In Progress'
 tags:
   - Events
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec, and compat'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforecutEX.htm'
 uri: dom/Event/beforecut
 
 ---
-# beforecut
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the [**setData**](/dom/DataTransfer/setData) and [**getData**](/dom/DataTransfer/getData) methods with the [**ClipboardData**](/dom/ClipboardData) object to perform a cut-and-paste operation through the shortcut menu.
 
-    <head>
-    <script>
-    var sSave = "";
-    function fnBeforeCut() {
-       event.returnValue = false;
-    }
-    function fnCut() {
-       event.returnValue = false;
-       sSave = oSource.innerText;
-       oSource.innerText = "";
-    }
-    function fnBeforePaste() {
-       event.returnValue = false;
-    }
-    function fnPaste() {
-       event.returnValue = false;
-       oTarget.innerText = sSave;
-    }
-    </script>
-    </head>
-    <body>
-    <div id="oSource" class="selectandcut"
-        onbeforecut="fnBeforeCut()"
-        oncut="fnCut()">Select and Cut this Text
-    </div>
-    <br>
-    <br>
-    <div id="oTarget" class="pastehere"
-        onbeforepaste="fnBeforePaste()"
-        onpaste="fnPaste()">Paste the Text Here
-    </div>
-    </body>
+``` html
+<head>
+<script>
+var sSave = "";
+function fnBeforeCut() {
+   event.returnValue = false;
+}
+function fnCut() {
+   event.returnValue = false;
+   sSave = oSource.innerText;
+   oSource.innerText = "";
+}
+function fnBeforePaste() {
+   event.returnValue = false;
+}
+function fnPaste() {
+   event.returnValue = false;
+   oTarget.innerText = sSave;
+}
+</script>
+</head>
+<body>
+<div id="oSource" class="selectandcut"
+    onbeforecut="fnBeforeCut()"
+    oncut="fnCut()">Select and Cut this Text
+</div>
+<br>
+<br>
+<div id="oTarget" class="pastehere"
+    onbeforepaste="fnBeforePaste()"
+    onpaste="fnPaste()">Paste the Text Here
+</div>
+</body>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforecutEX.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Creating custom code for cutting requires several steps:
 
@@ -109,20 +152,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,69 +1,80 @@
 ---
 title: clipRight
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipRight.htm'
+notes:
+  - 'summary needed and syntax header dupe.'
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+    href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /css/cssom/CSSStyleDeclaration/CSSStyleDeclaration
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Almost Ready'
-notes:
-  - 'summary needed and syntax header dupe.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipRight.htm'
 uri: css/cssom/properties/clipRight
 
 ---
-# clipRight
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)</span></span>
+Property of [css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)[css/cssom/CSSStyleDeclaration/CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = declaration.clipRight;
 declaration.clipRight = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
-## Examples
+## <span>Examples</span>
 
 This example demonstrates how to read the **clipRight** property from the [**currentStyle**](/css/cssom/currentStyle) object of an image.
 
-    <SCRIPT>
-    function setClip(sOptionValue) {
-        oImage.style.clip="rect(0,"+sOptionValue+",100,0)";
-        if (oElmnt1.currentStyle.clipRight == "60px") {
-            alert("The image has been clipped to 60px.");
-            }
-    :
-    }
-    </SCRIPT>
-    :
-    <IMG ID=oImage SRC="/workshop/graphics/sphere.png">
-    :
-    Pick an amount to clip the right:
-        // the option value is sent as an argument:
-    <SELECT onchange="setClip(value)">
-    <OPTION VALUE=100>reset </OPTION>
-    <OPTION VALUE=40>40px </OPTION>
-    <OPTION VALUE=50>50px </OPTION>
-    <OPTION VALUE=60>60px </OPTION>
-    </SELECT>
+``` html
+<SCRIPT>
+function setClip(sOptionValue) {
+    oImage.style.clip="rect(0,"+sOptionValue+",100,0)";
+    if (oElmnt1.currentStyle.clipRight == "60px") {
+        alert("The image has been clipped to 60px.");
+        }
+:
+}
+</SCRIPT>
+:
+<IMG ID=oImage SRC="/workshop/graphics/sphere.png">
+:
+Pick an amount to clip the right:
+    // the option value is sent as an argument:
+<SELECT onchange="setClip(value)">
+<OPTION VALUE=100>reset </OPTION>
+<OPTION VALUE=40>40px </OPTION>
+<OPTION VALUE=50>50px </OPTION>
+<OPTION VALUE=60>60px </OPTION>
+</SELECT>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/clipRight.htm)
 
-### Syntax
+### <span>Syntax</span>
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### CSSOM
+#### <span>CSSOM</span>
 
 -   [href](/css/cssom/CSSImportRule/href)
 
@@ -119,13 +130,9 @@ This example demonstrates how to read the **clipRight** property from the [**cur
 
 -   [cssText](/css/cssom/CSSRule/cssText)
 
--   [parentRule](/css/cssom/CSSRule/parentRule)
-
 -   [parentStyleSheet](/css/cssom/CSSRule/parentStyleSheet)
 
 -   [type](/css/cssom/CSSRule/type)
-
--   [CSSStyleDeclaration](/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration)
 
 -   [getPropertyPriority](/css/cssom/CSSStyleDeclaration/getPropertyPriority)
 
@@ -165,11 +172,55 @@ This example demonstrates how to read the **clipRight** property from the [**cur
 
 -   [outerHeight](/css/cssom/properties/outerHeight)
 
-<!-- -->
+-   [outerWidth](/css/cssom/properties/outerWidth)
 
-    … further results
+-   [pageX](/css/cssom/properties/pageX)
 
-### Related pages (MSDN)
+-   [pageXOffset](/css/cssom/properties/pageXOffset)
+
+-   [pageY](/css/cssom/properties/pageY)
+
+-   [pageYOffset](/css/cssom/properties/pageYOffset)
+
+-   [pixelBottom](/css/cssom/properties/pixelBottom)
+
+-   [deviceXDPI](/css/cssom/screen/deviceXDPI)
+
+-   [deviceYDPI](/css/cssom/screen/deviceYDPI)
+
+-   [fontSmoothingEnabled](/css/cssom/screen/fontSmoothingEnabled)
+
+-   [height](/css/cssom/screen/height)
+
+-   [style](/css/cssom/style)
+
+-   [type](/css/cssom/style/type)
+
+-   [styleSheet](/css/cssom/styleSheet)
+
+-   [addImport](/css/cssom/styleSheet/addImport)
+
+-   [blockDirection](/css/cssom/styleSheet/blockDirection)
+
+-   [cssRules](/css/cssom/styleSheet/cssRules)
+
+-   [cssText](/css/cssom/styleSheet/cssText)
+
+-   [ownerNode](/css/cssom/styleSheet/ownerNode)
+
+-   [removeImport](/css/cssom/stylesheet/removeImport)
+
+-   [removeRule](/css/cssom/stylesheet/removeRule)
+
+-   [matchMedium](/css/media_queries/apis/matchMedium)
+
+-   [getComputedStyle](/dom/Window/getComputedStyle)
+
+-   [innerHeight](/dom/Window/innerHeight)
+
+-   [styleMedia](/dom/Window/styleMedia)
+
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -179,10 +230,3 @@ This example demonstrates how to read the **clipRight** property from the [**cur
 -   `clipBottom`
 -   `clipLeft`
 -   `clipTop`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

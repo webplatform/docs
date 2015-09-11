@@ -1,35 +1,38 @@
 ---
 title: addHitRegion
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/canvas/CanvasRenderingContext2D
+    href: /apis/canvas/CanvasRenderingContext2D
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Creates a hit region.'
 tags:
   0: API
   1: Object
   2: Methods
   4: Canvas
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Creates a hit region.'
 uri: apis/canvas/CanvasRenderingContext2D/addHitRegion
 
 ---
-# addHitRegion
-
-## Summary
+## <span>Summary</span>
 
 Creates a hit region.
 
-*Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)*
+Method of [apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)[apis/canvas/CanvasRenderingContext2D](/apis/canvas/CanvasRenderingContext2D)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  context.addHitRegion(options);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### options
+### <span>options</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
  This parameter is of type *HitRegionOptions*. It can have following members:
@@ -37,15 +40,15 @@ Creates a hit region.
 -   **id** ( default empty string ) Used as reference for the HitRegion ( e.g. in [MouseEvents](/dom/MouseEvent) )
 -   **control** ( default null ) An element ( descendant of the canvas ) to which the event is routed
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 simple click detection
 
-``` {.js}
+``` js
 var canvas = document.getElementById( "mycanvas" );
 var ctx = canvas.getContext( "2d" );
 ctx.fillStyle = "lime";
@@ -64,16 +67,15 @@ canvas.onclick = function( e ) {
 };
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/#hit-regions)
 :   W3C Candidate Recommendation
+
 [W3C HTML Canvas 2D Specification](http://www.w3.org/TR/2012/CR-2dcontext-20121217/)
 :   W3C Candidate Recommendation
 
-## Notes
+## <span>Notes</span>
 
 A *hit region* is an arbitrary rectangular area on the canvas that responds to user events, with the goal of simplifying event detection.
 

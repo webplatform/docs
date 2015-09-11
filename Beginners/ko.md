@@ -1,10 +1,10 @@
 ---
-title: ko
+title: 초보자를 위한 웹개발
+lang: ko
+summary: '이 문서는 웹 디자이너 또는 개발자가 되기 위한 기초적인 기술을 소개하며, 어떤 초보자도 이 문서를 통해 자신감을 갖출 수 있다.'
 tags:
   - Basic
   - Pages
-summary: '이 문서는 웹 디자이너 또는 개발자가 되기 위한 기초적인 기술을 소개하며, 어떤 초보자도 이 문서를 통해 자신감을 갖출 수 있다.'
-uri: Beginners/ko
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -94,18 +94,30 @@ todo_broken_links:
     - 'tutorials/creating and modifying html/kr'
     - 'tutorials/manipulating css with javascript/kr'
     - 'tutorials/events in javascript/kr'
+translations:
+  es:
+    text: español
+    href: /Beginners/es
+  ja:
+    text: 日本語
+    href: /Beginners/ja
+  pt-br:
+    text: 'português do Brasil'
+    href: /Beginners/pt-br
+  tr:
+    text: Türkçe
+    href: /Beginners/tr
+  zh:
+    text: 中文
+    href: /Beginners/zh
+uri: Beginners/ko
 
 ---
-# 초보자를 위한 웹개발
-
-## Summary
+## <span>Summary</span>
 
 이 문서는 웹 디자이너 또는 개발자가 되기 위한 기초적인 기술을 소개하며, 어떤 초보자도 이 문서를 통해 자신감을 갖출 수 있다.
 
-**언어:**
-:   **[English](/Beginners)**  • <span lang="es">[español](/Beginners/es)</span> • <span lang="ja">[日本語](/Beginners/ja)</span> • <span lang="ko">**한국어**</span> • <span lang="pt-br">[português do Brasil](/Beginners/pt-br)</span> • <span lang="tr">[Türkçe](/Beginners/tr)</span> • <span lang="zh">[中文](/Beginners/zh)</span>
-
-## Beginners submenu
+## <span>Beginners submenu</span>
 
 The **[Beginners](/Beginners)** section covers the various aspects of web development separated in 9 parts, you can navigate through them using this list.
 
@@ -120,7 +132,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [9. Browser testing](/Beginners/browser_testing)
 -   [Glossary](/Beginners/glossary)
 
-## 시작에 앞서
+## <span>시작에 앞서</span>
 
 이 과정에서 많은 코드를 작성하고 웹브라우저에서 테스트할 수 있다. 때문에 시작에 앞서, 다음 소프트웨어를 사전에 설치해야 한다.
 
@@ -129,9 +141,9 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 
 그럼 학습을 시작하자. 이 문서만으로 부족하다면, [모든 교재 목록](/tutorials)을 참고하라.
 
-## 초보자에게 유용한 문서들
+## <span>초보자에게 유용한 문서들</span>
 
-### 웹의 기초
+### <span>웹의 기초</span>
 
 -   [웹의 역사](/w/index.php?title=concepts/internet_and_web/the_history_of_the_web/kr&action=edit&redlink=1)
 -   [인터넷 작동원리](/w/index.php?title=concepts/internet_and_web/how_does_the_internet_work/kr&action=edit&redlink=1)
@@ -139,7 +151,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [웹콘텐츠 제작하기](/w/index.php?title=tutorials/getting_your_content_online/kr&action=edit&redlink=1)
 -   [웹접근성](/w/index.php?title=concepts/accessibility/kr&action=edit&redlink=1)
 
-### HTML — 웹 콘텐츠의 구조
+### <span>HTML — 웹 콘텐츠의 구조</span>
 
 -   [HTML의 기초](/w/index.php?title=guides/the_basics_of_html/kr&action=edit&redlink=1)
 -   [DOCTYPES과 마크업 스타일](/w/index.php?title=guides/doctypes_and_markup_styles/kr&action=edit&redlink=1)
@@ -155,7 +167,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [HTML5 폼 특성](/guides/html5_form_features)
 -   [잘 알려지지 않은 시멘틱 엘리먼트들](/guides/lesser-known_semantic_elements)
 
-### CSS — 웹 콘텐츠의 스타일
+### <span>CSS — 웹 콘텐츠의 스타일</span>
 
 -   [CSS 시작하기](/w/index.php?title=guides/getting_started_with_css/kr&action=edit&redlink=1)
 -   [CSS 선택자 이용하기](/w/index.php?title=tutorials/using_selectors/kr&action=edit&redlink=1)
@@ -166,7 +178,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [읽기 쉬운 CSS 만들기](/w/index.php?title=tutorials/making_css_easier_to_read/kr&action=edit&redlink=1)
 -   [CSS 미디어 쿼리](/w/index.php?title=tutorials/media_queries/kr&action=edit&redlink=1)
 
-### JavaScript — 웹사이트에 동적 기능 추가
+### <span>JavaScript — 웹사이트에 동적 기능 추가</span>
 
 -   [프로그래밍 기초](/w/index.php?title=concepts/programming/programming_basics/kr&action=edit&redlink=1)
 -   [JavaScript 처음 다루기](/w/index.php?title=tutorials/your_first_look_at_javascript/kr&action=edit&redlink=1)
@@ -179,7 +191,7 @@ The **[Beginners](/Beginners)** section covers the various aspects of web develo
 -   [JavaScript 이벤트](/w/index.php?title=tutorials/events_in_javascript/kr&action=edit&redlink=1)
 -   [마우스, 터치 그리고 팬 입력에 대한 Pointer 이벤트](/PointerEvents)
 
-### Applied techniques
+### <span>Applied techniques</span>
 
 -   [네비게이션 메뉴 만들기](/tutorials/creating_basic_navigation_menus)
 

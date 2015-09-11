@@ -1,40 +1,56 @@
 ---
 title: overflow-style
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'non-replaced block-level elements and non-replaced inline-block elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`overflowStyle`'
+  Percentages: n/a
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'Specifies the preferred scrolling methods for elements that overflow.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/overflow-style
 
 ---
-# overflow-style
-
-## Summary
+## <span>Summary</span>
 
 Specifies the preferred scrolling methods for elements that overflow.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   non-replaced block-level elements and non-replaced inline-block elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `overflowStyle`
+
 Percentages
 :   n/a
 
-## Syntax
+## <span>Syntax</span>
 
 -   `overflow-style: auto`
 -   `overflow-style: marquee`
@@ -43,7 +59,7 @@ Percentages
 -   `overflow-style: panner`
 -   `overflow-style: scrollbar`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Initial value. Indicates no preference.
@@ -67,36 +83,28 @@ move
 marquee
 :   The marquee effect (value ‘marquee’) consists of the content moving autonomously, without any user events to control it. A user who waits long enough will eventually see all the content that overflows.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* Top preference for a scrolling mechanism is a panner.
    If not available no visible scrolling mechanism should be displayed */
 overflow-style: panner, none;
 ```
 
-## Notes
+## <span>Notes</span>
 
-## IMPORTANT
+## <span>IMPORTANT</span>
 
 CSS Basic Box Model and CSS Marquee Module Lelel 3 both specify a different overflow-style property. This page is based on the CSS Basic Box Model, because if marquee is going to be supported, that would have a bigger chance of being supported.
 
-### Remarks
+### <span>Remarks</span>
 
 The **overflow-style** property only has an effect on elements that overflow using the [**overflow**](/css/properties/overflow) property. When using auto-hiding scrollbars, you should ensure your content has sufficient padding to prevent interactive content from being obscured beneath the scrollbar.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Basic Box Model](http://www.w3.org/TR/css3-box/#the-lsquo3)
 :   Working Draft
+
 [CSS Marquee Module Level 3](http://www.w3.org/TR/2008/WD-css3-marquee-20080801/#the-overflow-style)
 :   Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

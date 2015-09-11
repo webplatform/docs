@@ -1,67 +1,67 @@
 ---
-title: custom
+title: custom()
+code_samples:
+  - 'http://codepen.io/pverbeek/pen/piKgC'
+notes:
+  - 'Light in content compared to the others, but makes sense as custom. May want to provide elaboration in the future.'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'With CSS custom filters you can create your own sophisticated effects on DOM elements. They work with CSS animations and transitions to create complex animated visual effects.'
 tags:
   0: CSS
   1: Functions
   3: Graphics
   4: SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Light in content compared to the others, but makes sense as custom. May want to provide elaboration in the future.'
-summary: 'With CSS custom filters you can create your own sophisticated effects on DOM elements. They work with CSS animations and transitions to create complex animated visual effects.'
-code_samples:
-  - 'http://codepen.io/pverbeek/pen/piKgC'
 uri: css/functions/custom
 
 ---
-# custom()
-
-## Summary
+## <span>Summary</span>
 
 With CSS custom filters you can create your own sophisticated effects on DOM elements. They work with CSS animations and transitions to create complex animated visual effects.
 
-## Examples
+## <span>Examples</span>
 
 Using shaders created by Adobe, the following example shows how to create a folded map effect with custom CSS filters.
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <style>
-        #map {
-          width: 400px;
-          height: 400px;
-          -webkit-transform: translate3d(0px, 0px, 0px);
-          -webkit-filter: custom(
-            url(http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/shaders/vertex/fold.vs) mix(url(http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/shaders/fragment/fold.fs) multiply source-atop),
-            8 50,
-            transform perspective(1000) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg),
-            t 0.5,
-            spins 1.5,
-            phase -0.7,
-            shadow 1.5,
-            mapDepth 40,
-            mapCurve -0.3,
-            minSpacing 0.3,
-            useColoredBack 1,
-            backColor 0.5 0.5 0.5 1
-          );
-        }
-      </style>
-    </head>
-    <body>
-      <img src="http://maps.googleapis.com/maps/api/staticmap?center=51.58803,4.774246&zoom=15&size=400x400&sensor=false" id="map" />
-    </body>
-    </html>
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #map {
+      width: 400px;
+      height: 400px;
+      -webkit-transform: translate3d(0px, 0px, 0px);
+      -webkit-filter: custom(
+        url(http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/shaders/vertex/fold.vs) mix(url(http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/shaders/fragment/fold.fs) multiply source-atop),
+        8 50,
+        transform perspective(1000) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg),
+        t 0.5,
+        spins 1.5,
+        phase -0.7,
+        shadow 1.5,
+        mapDepth 40,
+        mapCurve -0.3,
+        minSpacing 0.3,
+        useColoredBack 1,
+        backColor 0.5 0.5 0.5 1
+      );
+    }
+  </style>
+</head>
+<body>
+  <img src="http://maps.googleapis.com/maps/api/staticmap?center=51.58803,4.774246&zoom=15&size=400x400&sensor=false" id="map" />
+</body>
+</html>
+```
 
 [View live example](http://codepen.io/pverbeek/pen/piKgC)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -145,9 +145,8 @@ Using shaders created by Adobe, the following example shows how to create a fold
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### External resources
+### <span>External resources</span>
 
 -   [OpenGL ES Shading Language (PDF)](http://www.khronos.org/files/opengles_shading_language.pdf)
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Introducing CSS shaders](http://www.adobe.com/devnet/html5/articles/css-shaders.html)
-

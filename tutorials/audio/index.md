@@ -5,7 +5,7 @@ tags:
 uri: tutorials/audio
 
 ---
-## Audio Tutorials
+## <span>Audio Tutorials</span>
 
 Tutorials on using audio in the browser.
 

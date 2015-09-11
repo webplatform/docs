@@ -1,45 +1,48 @@
 ---
 title: Geolocation
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The Geolocation object is used by scripts to programmatically determine the location information associated with the hosting device. The location information is acquired by applying a user-agent specific algorithm, creating a Position object, and populating that object with appropriate data accordingly.'
 tags:
   0: API
   1: Objects
   3: Geolocation
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The Geolocation object is used by scripts to programmatically determine the location information associated with the hosting device. The location information is acquired by applying a user-agent specific algorithm, creating a Position object, and populating that object with appropriate data accordingly.'
 uri: apis/geolocation/Geolocation
 
 ---
-# Geolocation
-
-## Summary
+## <span>Summary</span>
 
 The Geolocation object is used by scripts to programmatically determine the location information associated with the hosting device. The location information is acquired by applying a user-agent specific algorithm, creating a Position object, and populating that object with appropriate data accordingly.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [clearWatch](/apis/geolocation/Geolocation/clearWatch)
 :   Stops a specific watch process.
+
 [getCurrentPosition](/apis/geolocation/Geolocation/getCurrentPosition)
 :   Obtains the current location of the device.
+
 [watchPosition](/apis/geolocation/Geolocation/watchPosition)
 :   Returns a long value that uniquely identifies a watch operation and then asynchronously starts the watch operation.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 The geolocation API is published through a geolocation child object within the navigator object. If the object exists, geolocation services are available.
 
-``` {.js}
+``` js
 if ("geolocation" in navigator) {
   /* geolocation is available */
   alert("Geolocation services are supported by your browser.");
@@ -51,7 +54,7 @@ if ("geolocation" in navigator) {
 
 The script checks if geolocation is supported, if possible - the script obtains your actual position using the watchPosition method. If something went wrong you will get a detailed error message.
 
-``` {.js}
+``` js
 // variables
 var watchID;
 var geoLoc;
@@ -106,20 +109,11 @@ function getLocationUpdate(){
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 Windows Internet Explorer 9. The **Geolocation** object is only supported for webpages displayed in IE9 Standards mode. For more information, see Defining Document Compatibility. The **Geolocation** object is not supported for applications hosting the WebBrowser Control.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Geolocation Specification](http://dev.w3.org/geo/api/spec-source.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

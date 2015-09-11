@@ -3,17 +3,17 @@ title: substr
 uri: 'concepts/programming/javascript/core objects/js/objects/String/substr'
 
 ---
-### Summary
+### <span>Summary</span>
 
 Returns a subset of a string starting at the given location through the given number of characters.
 
-### Syntax
+### <span>Syntax</span>
 
-``` {.js}
+``` js
 "string".substr(start [, length])
 ```
 
-### Parameters
+### <span>Parameters</span>
 
 **start**
 
@@ -31,9 +31,9 @@ The number of characters to extract from the string.
 
 </dd>
 </dl>
-### Example
+### <span>Example</span>
 
-``` {.js}
+``` js
 var string = "The quick brown fox.";
 
 print(string.substr(0, 3));     // "The"

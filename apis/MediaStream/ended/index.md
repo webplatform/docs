@@ -1,59 +1,94 @@
 ---
-title: ended
+title: Track ended
+notes:
+  - 'Everything. Passed by and did some cleaning, there were garbage.'
+readiness: 'Not Ready'
+summary: 'All tracks of the MediaStream object have ended; the MediaStream is said to be finished.'
 tags:
   - Events
   - API
   - WebRTC
-readiness: 'Not Ready'
-notes:
-  - 'Everything. Passed by and did some cleaning, there were garbage.'
-summary: 'All tracks of the MediaStream object have ended; the MediaStream is said to be finished.'
 uri: apis/MediaStream/ended
 
 ---
-# Track ended
-
-## Summary
+## <span>Summary</span>
 
 All tracks of the MediaStream object have ended; the MediaStream is said to be finished.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:    ?
-Cancelable
-:   No
-Default action
-:    ?
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
 Property is read-only. Value becomes true at the moment the video content is finished.
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Media Capture and Streams](http://dev.w3.org/2011/webrtc/editor/getusermedia.html#track-ended)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Multimedia
+#### <span>Multimedia</span>
 
 -   **Track ended**
 
 -   [MediaSource](/apis/media_source_extensions/MediaSource)
 
 -   [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
-
--   [VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
@@ -69,7 +104,7 @@ Specification
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### WebRTC
+#### <span>WebRTC</span>
 
 -   **Track ended**
 
@@ -80,4 +115,3 @@ Specification
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
-

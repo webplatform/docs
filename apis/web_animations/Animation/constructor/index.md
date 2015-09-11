@@ -1,51 +1,58 @@
 ---
 title: constructor
+readiness: readiness-state
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/web_animations/Animation
+    href: /apis/web_animations/Animation
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/web_animations/Animation
 tags:
   - API
   - Object
   - Methods
-readiness: readiness-state
 uri: 'apis/web animations/Animation/constructor'
 
 ---
-# constructor
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-*Method of [apis/web\_animations/Animation](/apis/web_animations/Animation)*
+Method of [apis/web\_animations/Animation](/apis/web_animations/Animation)[apis/web\_animations/Animation](/apis/web_animations/Animation)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var newAnimation = .constructor(target, timing, effect);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### target
+### <span>target</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
  type Animatable
 
-### effect
+### <span>effect</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
-### timing
+### <span>timing</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
-*(Optional)*
+(Optional)
 
 type is either unrestricted double or AnimationTimingInput object
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 

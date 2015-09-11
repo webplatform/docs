@@ -1,23 +1,21 @@
 ---
-title: fragment
+title: content fragments
+notes:
+  - 'Fix or remove broken link to DOM API;'
+readiness: 'Almost Ready'
+summary: 'A contiguous range of content, which may stretch arbitrarily across DOM nodes.'
 tags:
   - Concept
   - Pages
   - CSS-Regions
-readiness: 'Almost Ready'
-notes:
-  - 'Fix or remove broken link to DOM API;'
-summary: 'A contiguous range of content, which may stretch arbitrarily across DOM nodes.'
-uri: css/concepts/fragment
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/traversal/Range
+uri: css/concepts/fragment
 
 ---
-# content fragments
-
-## Summary
+## <span>Summary</span>
 
 A contiguous range of content, which may stretch arbitrarily across DOM nodes.
 
@@ -25,11 +23,11 @@ A contiguous range of content, which may stretch arbitrarily across DOM nodes.
 
 You can use the [DOM Range API](/w/index.php?title=dom/traversal/Range&action=edit&redlink=1) to programatically access such arbitrary stretches of content.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -86,4 +84,3 @@ You can use the [DOM Range API](/w/index.php?title=dom/traversal/Range&action=ed
 -   [flow-from](/css/properties/flow-from)
 
 -   [flow-into](/css/properties/flow-into)
-

@@ -1,26 +1,24 @@
 ---
-title: javascript functions
+title: JavaScript functions
+readiness: 'Ready to Use'
+summary: 'This article discusses JavaScript functions, or how we create reusable pockets of code that we can call over and over again as we need.'
 tags:
   - Tutorials
   - JavaScript
-readiness: 'Ready to Use'
-summary: 'This article discusses JavaScript functions, or how we create reusable pockets of code that we can call over and over again as we need.'
 uri: 'tutorials/javascript functions'
 
 ---
-# JavaScript functions
-
-## Summary
+## <span>Summary</span>
 
 This article discusses JavaScript functions, or how we create reusable pockets of code that we can call over and over again as we need.
 
-## Introduction
+## <span>Introduction</span>
 
 In this part of the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum), we will discuss functions. Functions lie at the core of practically everything *useful* that you will do with JavaScript. Broadly speaking, they offer the ability to break a program into logical chunks, each implementing a specific piece of functionality. They are a central feature of the language, and a good chunk of JavaScript’s attractiveness is due to the particular ways in which it enables you to use and create functions. If you have done some programming before in languages like PHP or Java, you will feel right at home with functions in JavaScript; if not, do not worry. Functions are *critical*, but they are not hard to wrap your head around. This article explains why you will want to understand functions, then dives into their syntax and shows you how to create and use them.
 
 Note that the [functions examples are available for download](http://dev.opera.com/articles/view/javascript-functions/functions_code.zip), as well as being linked to at appropriate places in the article below.
 
-## What and why
+## <span>What and why</span>
 
 You certainly do not want to reach for your specifications to refresh your memory each time you need to perform a specific calculation; it is much better to simply code the calculation’s steps **once**, bundle that up as a `calculateSomething` function, and then point to that implementation next time you need to perform the same activity. This simple act of bundling up a set of commands means that you can concentrate on the *activities* that your code implements instead of the intimate details of those activities’ internal steps. You can think of the functions you write as a layer sitting on top of JavaScript’s built-in core; you are creating *new commands* that are more expressive and more understandable in the context of your particular application.
 
@@ -28,11 +26,11 @@ With that in mind, the “why?” of functions has a very straightforward answer
 
 Moreover, breaking your code up into well thought-out functions makes maintaining your code much easier. Imagine, for example, that the rules for daylight savings time are changed again next year. If you have done that calculation eighty-five times throughout your project, you *will* introduce new bugs when you update the code in each of those locations; it is repetitive, manual, and failure-prone. On the other hand, changing a single `calculateDaylightSavings` function allows you to cascade that single change down through the rest of your program with a single fix, much the same as the CSS cascade of style down through the page. In this way, functions make maintenance much less error-prone, and easier to implement successfully.
 
-## A function’s syntax
+## <span>A function’s syntax</span>
 
 Defining your own function is a simple task. As an example, let’s build a [function that generates a random background color for an element](http://dev.opera.com/articles/view/javascript-functions/functions_1.html) on a page:
 
-``` {.js}
+``` js
 function setElementBackground() {
   var red = Math.floor(Math.random() * 256);
   var green = Math.floor(Math.random() * 256);
@@ -52,11 +50,11 @@ function setElementBackground() {
 3.  Directly after the function’s name come a pair of parentheses. Inside these come the functions **argument list**, which enables you to make your functions more generic, and thus more reusable—you can apply them to more situations more easily. This is a powerful concept, but optional, so it will be discussed in more detail in the next section.
 4.  Finally comes a pair of curly-brackets containing some code: these signify a **block** of code in JavaScript. Everything inside this block will be executed when the function is called, in order, just like any other bit of JavaScript code you have written.
 
-### Using the function
+### <span>Using the function</span>
 
 Now we have defined the function, to call it somewhere in your code you would simply write:
 
-``` {.js}
+``` js
 setElementBackground();
 ```
 
@@ -64,13 +62,13 @@ setElementBackground();
 
 Now, the function above is completely self-contained. It performs some activity, then exits; it neither needs input from the code that called it, nor does it give any information back to its caller about what happened. JavaScript, of course, allows us to write code that is a bit more talkative and flexible than that, so let us have a look at how we deal with information input to and output from functions.
 
-### Arguments
+### <span>Arguments</span>
 
 Passing information into a function in order to influence its behavior is a great way to make it more flexible and useful in a variety of situations. For example, I have hard-coded the `id` of the element whose background is changed inside `setElementBackground`; it would be nice to be able to specify different elements on the page whenever I call the function so that I could *reuse* this function for different elements, instead of duplicating all that code. **Arguments** are the solution.
 
 Earlier, I noted that the function’s definition contains a set of parentheses directly after the function’s name. This is the function’s **argument list**. To accept input from the caller, just specify a comma-separated list of variables that your function would like to receive. You can specify as many or as few as you like, and the names you use in the argument list can be referenced inside the function’s body just like with any other variable. The updated `setElementBackground` function looks like so ([check out the first example improvement](http://dev.opera.com/articles/view/javascript-functions/functions_2.html) live):
 
-``` {.js}
+``` js
 function setElementBackground( elementID ) {
   var red = Math.floor(Math.random() * 256);
   var green = Math.floor(Math.random() * 256);
@@ -85,13 +83,13 @@ function setElementBackground( elementID ) {
 
  Calling this function with an element ID passed in as an argument is straightforward:
 
-``` {.js}
+``` js
 setElementBackground( 'element_to_change' );
 ```
 
  If you accidentally call the function without passing in an argument, it takes the value `undefined`. You can test for this inside your function body to provide a bit of defense against unintentional misuse:
 
-``` {.js}
+``` js
 if ( typeof elementID === "undefined") {
   // This will evaluate to `true` if the `elementID`
   // variable wasn't provided by the caller.
@@ -102,7 +100,7 @@ if ( typeof elementID === "undefined") {
 
  The confusing, but nice, bit about function arguments is that the names of variables in the argument list have *nothing* to do with the name of variables passed into the function. If `elementID` is defined as the function’s argument, JavaScript creates a variable *inside* the function named `elementID` that has no effect on any variables outside the function — you can have another function outside the function of the same name, and its value would not be altered as a result of any statements inside the function. For example:
 
-``` {.js}
+``` js
 var elementID = "No change!";
 setElementBackground( 'element_to_change' );
 alert( elementID ); // Alerts "No change!";
@@ -110,7 +108,7 @@ alert( elementID ); // Alerts "No change!";
 
  This has a very important side effect. JavaScript creates a new variable inside the function, meaning that any changes it makes to its internal argument has *no effect* on any variable passed in. This concept (called **scope**) will be discussed further in the [Objects](http://dev.opera.com/articles/view/objects-in-javascript/) and [JavaScript best practices](http://www.w3.org/wiki/JavaScript_best_practices) articles, but for now, here is a quick example. This is a `substring` function accepting a string and a starting point:
 
-``` {.js}
+``` js
 function substring( obj, start ) {
   obj = obj.substring(start);
 }
@@ -124,11 +122,11 @@ alert(myString); // Alerts "This is a string!"
 
 This raises the question of communication: if changing arguments’ values has no effect outside the function, how do you pass information back from a function to its caller? Let's look at this now.
 
-### Return values
+### <span>Return values</span>
 
 It is very common for a function to do some calculation, and give the result of that work back to its caller to be used elsewhere. It might be useful, for example, for our `setElementBackground` function to *return* an array of the color values for use elsewhere. That is a simple matter of using the `return` keyword JavaScript provides, as shown here:
 
-``` {.js}
+``` js
 function setElementBackground( elementID ) {
   var red = Math.floor(Math.random() * 256);
   var green = Math.floor(Math.random() * 256);
@@ -147,13 +145,13 @@ function setElementBackground( elementID ) {
 
 That simple addition means that you can now call the function in such a way as to capture its result in a variable:
 
-``` {.js}
+``` js
 var my_result = setElementBackground('element_to_change');
 ```
 
  Even if your function does not need to return a value, or has no real value to return, it is good practice to indicate success or failure by returning `true` or `false`, respectively. With that in mind, I will change `setElementBackground` to return `false` if the `elementID` that was passed in does not actually exist:
 
-``` {.js}
+``` js
 function setElementBackground( elementID ) {
   var red = Math.floor(Math.random() * 256);
   var green = Math.floor(Math.random() * 256);
@@ -173,7 +171,7 @@ function setElementBackground( elementID ) {
 
 This allows you to check that the code executed properly by testing its return value, for example:
 
-``` {.js}
+``` js
 if ( !setElementBackground('element_does_not_exist') ) {
   alert("Something went wrong!  `element_does_not_exist` doesn't exist!");
 }
@@ -181,14 +179,13 @@ if ( !setElementBackground('element_does_not_exist') ) {
 
  Additionally, please note that the `return` keyword actually ends execution of your function right when it is called, *returning* execution to the place at which your function was called. Code sitting below the call to `return` is not executed — it’s simply ignored.
 
-## Summary
+## <span>Summary</span>
 
 With that, you now know pretty much everything you need to in order to begin sprinkling your code full of functions. They are a foundation of good JavaScript code and your programs will be better organized, clearer, more readable, and easier to comprehend if you take the opportunity to wrap code up in well-named functions for reuse.
 
-### Exercise questions
+### <span>Exercise questions</span>
 
 -   What are functions? Why are they useful?
 -   How do you define a function?
 -   How do you pass information into a function? Why would you want to? Conversely, how can you get information out of a function?
 -   Wouldn’t it be nice if you could pass a color array into \`setElementBackground\`? Try modifying the code to accept another argument, and use that variable inside the function to override the random background colour.
-

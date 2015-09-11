@@ -1,46 +1,89 @@
 ---
 title: readystatechange
-tags:
-  - Events
-readiness: 'In Progress'
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Needs summary, spec, and compat'
+readiness: 'In Progress'
+tags:
+  - Events
 uri: dom/Element/readystatechange
 
 ---
-# readystatechange
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **onreadystatechange** event to invoke a function when the [**readyState**](/dom/Element/readyState) is complete.
 
-    document.onreadystatechange=fnStartInit;
-    function fnStartInit()
-    {
-       if (document.readyState=="complete")
-       {
-          // Finish initialization.
-       }
-    }
+``` html
+document.onreadystatechange=fnStartInit;
+function fnStartInit()
+{
+   if (document.readyState=="complete")
+   {
+      // Finish initialization.
+   }
+}
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 You can use the [**readyState**](/dom/Element/readyState) property to query the current state of the element when the **onreadystatechange** event fires. All elements expose an **onreadystatechange** event. The following objects always fire the event because they load data: **applet**, [**Document**](/dom/Document), **frame**, **frameSet**, **iframe**, **img**, **link**, **object**, **script**, and **xml** elements. Other objects will only fire the **onreadystatechange** event when a DHTML Behavior is attached. When working with behaviors, wait for the **onreadystatechange** event to fire and verify that the **readyState** property of the element is set to **complete** to ensure that the behavior is completely downloaded and applied to the element. Until the **onreadystatechange** event fires, if you use any of the behavior-defined members before attaching the behavior to the element, a scripting error can result, indicating that the object does not support that particular property or method. Signals the ready state of the document. To invoke this event, do one of the following:
 
@@ -73,20 +116,14 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
 

@@ -1,17 +1,15 @@
 ---
-title: escender
+title: descender
+notes:
+  - 'Glossary term; needs to be moved'
+readiness: 'Not Ready'
 tags:
   - Glossary
   - Items
-readiness: 'Not Ready'
-notes:
-  - 'Glossary term; needs to be moved'
 uri: descender
 
 ---
-# descender
-
-## descender
+## <span>descender</span>
 
 The downward-pointing stem of a letter, such as "p" or "y", that extends below the baseline.
 

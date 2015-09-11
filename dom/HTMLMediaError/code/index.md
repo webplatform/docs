@@ -1,5 +1,20 @@
 ---
 title: code
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'examples, clean-up of MSDN import'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/HTMLMediaError
+    href: /dom/HTMLMediaError
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned short'
+    href: /dom/HTMLMediaError
+summary: 'Returns the current HTMLMediaError code or null if no error has occurred.'
 tags:
   0: API
   1: Object
@@ -7,53 +22,39 @@ tags:
   4: Audio
   5: DOM
   6: Video
-readiness: 'In Progress'
-notes:
-  - 'examples, clean-up of MSDN import'
-summary: 'Returns the current HTMLMediaError code or null if no error has occurred.'
 uri: dom/HTMLMediaError/code
 
 ---
-# code
-
-## Summary
+## <span>Summary</span>
 
 Returns the current HTMLMediaError code or null if no error has occurred.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/HTMLMediaError](/dom/HTMLMediaError)</span></span>
+Property of [dom/HTMLMediaError](/dom/HTMLMediaError)[dom/HTMLMediaError](/dom/HTMLMediaError)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var errorCode = audio.error.code;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned short</span></span>
+Returns an object of type unsigned shortunsigned short
 
 The error code (from the [MediaError](/dom/HTMLMediaError) constants), or null.
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 If no error has occurred, the [**MediaError**](/dom/HTMLMediaError) object is null.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

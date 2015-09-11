@@ -1,55 +1,67 @@
 ---
 title: isEqualNode
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.isEqual](https://developer.mozilla.org/en-US/docs/Web/API/Node.isEqualNode) Article]'
+  - 'Microsoft Developer Network: [[isEqualNode Method](http://msdn.microsoft.com/en-us/library/ie/ff975128(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Node
+    href: /dom/Node
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: Boolean
+    href: /dom/Node
+standardization_status: 'W3C Recommendation'
+summary: 'Determines whether two nodes are equal in their type, name and namespace.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Determines whether two nodes are equal in their type, name and namespace.'
 uri: dom/Node/isEqualNode
 
 ---
-# isEqualNode
-
-## Summary
+## <span>Summary</span>
 
 Determines whether two nodes are equal in their type, name and namespace.
 
-*Method of [dom/Node](/dom/Node)*
+Method of [dom/Node](/dom/Node)[dom/Node](/dom/Node)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var isEqual = node.isEqualNode(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### otherNode
+### <span>otherNode</span>
 
- Data-typeÂ
+ Data-type
 :   DOM Node
 
  The node to be compared to the node that is executing the method.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type Boolean.
+Returns an object of type BooleanBoolean
 
 Whether the node specified in the *otherNode* parameter is equal to the current node.
 
-## Examples
+## <span>Examples</span>
 
 In the follow example if \#targetElm is the first div element of the document 'true' will be displayed.
 
-    var targetElm = document.getElementById("targetElm");
-    var firstDiv = document.getElementsByTagName("div")[0];
+``` html
+var targetElm = document.getElementById("targetElm");
+var firstDiv = document.getElementsByTagName("div")[0];
 
-    alert( targetElm.isEqualNode(firstDiv) );
+alert( targetElm.isEqualNode(firstDiv) );
+```
 
-## Usage
+## <span>Usage</span>
 
      This method determines whether or not two nodes are equal.  Nodes are considered equal when the values of the following attributes are equal:
 
@@ -58,22 +70,11 @@ In the follow example if \#targetElm is the first div element of the document 't
 -   [**localName**](/dom/Node/localName)
 -   [**namespaceURI**](/dom/Node/namespaceURI)
 
-## Notes
+## <span>Notes</span>
 
 Nodes can be equal without being the same. Use [**isSameNode**](/dom/Node/isSameNode) to determine if two nodes are the same.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Node.isEqual](https://developer.mozilla.org/en-US/docs/Web/API/Node.isEqualNode) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[isEqualNode Method](http://msdn.microsoft.com/en-us/library/ie/ff975128(v=vs.85).aspx) Article]
-

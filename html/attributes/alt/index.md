@@ -1,5 +1,10 @@
 ---
 title: alt
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The alt attribute is used as a textual representation for graphics and buttons in browsers that don''t or can''t render images, or when the resource is not found.'
 tags:
   - Markup
   - Attributes
@@ -7,26 +12,30 @@ tags:
   - HTML
   - Media
   - Usability
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The alt attribute is used as a textual representation for graphics and buttons in browsers that don''t or can''t render images, or when the resource is not found.'
-uri: html/attributes/alt
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - html/elements/input/image
     - aria/attributes/aria-label
+uri: html/attributes/alt
 
 ---
-# alt
-
-## Summary
+## <span>Summary</span>
 
 The alt attribute is used as a textual representation for graphics and buttons in browsers that don't or can't render images, or when the resource is not found.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   [HTMLImageElement](/dom/HTMLImageElement)
 
+</th>
+<td>
+[HTMLImageElement](/dom/HTMLImageElement)
+
+</td>
+</tr>
+</table>
 The **alt** attribute is required for [images](/html/elements/img) and [image buttons](/w/index.php?title=html/elements/input/image&action=edit&redlink=1). It should provide a concise and accurate label representing the image, in case that a user is visually disabled, is using browser that doesn’t render images or can’t receive images due to network errors. If no alt attribute is given, a screen reader can only read “image” or the file name, which is especially bad if the image is the sole content of a link.
 
 The alt text should be useful in the context it’s displayed. Which alt text is useful, depends on the function of the image on the page. The content of an alt attribute should use general, non-visual language to accommodate non visual users. For example, a picture of a lake intended to evoke an emotion should have text more descriptive than "Lake" or "Clear, blue lake". "Breathtaking open lake" may be more appropriate.
@@ -35,20 +44,21 @@ If an image is not intended to be part of the content of the page, but instead i
 
 If the image contains (non-decorative) text, that text should be in the alternative text in full.
 
-## Examples
+## <span>Examples</span>
 
 In this example the images provice important information. The alt text therefore needs to convey the same content.
 
-``` {.html}
-We accept the these credit cards:
+``` html
+<p>We accept the these credit cards:</p>
+<ul>
+   <li><img src="visa.png" alt="Visa"></li>
+   <li><img src="americanexpress.png" alt="American Express"></li>
+</ul>
 ```
-
--   \<img src="visa.png" alt="Visa"\>
--   \<img src="americanexpress.png" alt="American Express"\>
 
 Depending on the context, the alt text can be short and simple or more descriptive:
 
-``` {.html}
+``` html
 <img src="capitol.jpg" alt="The Capitol">
 
 <img src="capitol.jpg" alt="Capital Dome in neo Classical style. Dome is white, circular with narrow windows on many levels and pillars on the lowest level.">
@@ -56,43 +66,39 @@ Depending on the context, the alt text can be short and simple or more descripti
 
 This example shows a decorative use of an image:
 
-``` {.html}
+``` html
 <img src="border.png" alt="">
 ```
 
 This example shows a redundant image in a link:
 
-``` {.html}
+``` html
 <a href="crocuspage.html">
     <img src="crocus.jpg" alt="">
-     Crocus bulbs
+    <strong> Crocus bulbs</strong>
 </a>
 ```
 
 This example shows a image that is used as a functional icon. A non-empty alt text is mandatory in such cases.
 
-``` {.html}
+``` html
 <a href="javascript:print()">
     <img src="print.png" alt="Print this page">
 </a>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/embedded-content-0.html#alt)
 :   Proposed Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -190,11 +196,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 Other attributes that can convey alternative text or longer descriptions:
 
@@ -204,16 +246,9 @@ Other attributes that can convey alternative text or longer descriptions:
 -   [html/attributes/longDesc](/html/attributes/longDesc)
 -   [aria/attributes/aria-describedby](/aria/attributes/aria-describedby)
 
-### External resources
+### <span>External resources</span>
 
 -   [W3C WAI Web Accessibility Tutorial on Images](http://www.w3.org/WAI/tutorials/images/)
 -   [W3C WAI Web Accessibility Tutorial **alt decision tree**](http://www.w3.org/WAI/tutorials/images/decision-tree/)
--   [http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/\#secm1](http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1)
--   [http://www.w3.org/TR/html5/forms.html\#attr-input-alt](http://www.w3.org/TR/html5/forms.html#attr-input-alt)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-
+-   <http://www.w3.org/TR/2012/WD-html-alt-techniques-20120329/#secm1>
+-   <http://www.w3.org/TR/html5/forms.html#attr-input-alt>

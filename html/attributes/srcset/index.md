@@ -1,27 +1,34 @@
 ---
 title: srcset
+code_samples:
+  - 'http://codepen.io/justincavery/pen/tliGE'
+  - 'http://codepen.io/justincavery/full/osDGt/'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The srcset attribute is an extension of the image element. It provides  additional image related information to the browser to help decide the most appropriate image to load. Most commonly used for delivering the best image for high device pixel ratio and responsive images.'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The srcset attribute is an extension of the image element. It provides  additional image related information to the browser to help decide the most appropriate image to load. Most commonly used for delivering the best image for high device pixel ratio and responsive images.'
-code_samples:
-  - 'http://codepen.io/justincavery/pen/tliGE'
-  - 'http://codepen.io/justincavery/full/osDGt/'
 uri: html/attributes/srcset
 
 ---
-# srcset
-
-## Summary
+## <span>Summary</span>
 
 The srcset attribute is an extension of the image element. It provides additional image related information to the browser to help decide the most appropriate image to load. Most commonly used for delivering the best image for high device pixel ratio and responsive images.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:   dom/HTMLImageElement
 
+</th>
+<td>
+dom/HTMLImageElement
+
+</td>
+</tr>
+</table>
 As attribute of the [image element](/html/elements/img) element, **srcset** provides webpages the ability to inform the browser on size and pixel density information about the image before it begins the prefetch process.
 
 **srcset** submits the preferred size of the image with the corresponding viewport **[sizes](/html/attributes/sizes)** informing the browser the best image to use for the best viewport. Alternatively you can also omit the **[sizes](/html/attributes/sizes)** attribute and just use the **srcset** attribute to target images for specific device pixel ratios.
@@ -41,11 +48,11 @@ The **srcset** attribute can also take a comma separated list of URL's for each 
                src="small.jpg"
                alt="A picture of a small thing" />
 
-## Examples
+## <span>Examples</span>
 
 Example of srcset using only device pixel ratio
 
-``` {.html}
+``` html
 <img
       srcset="http://placehold.it/600x250&text=1x+Medium.jpg 1x,
               http://placehold.it/1024x500&text=2x+Large.jpg 2x"
@@ -57,7 +64,7 @@ Example of srcset using only device pixel ratio
 
 Example of the SRCSET and SIZES attributes
 
-``` {.html}
+``` html
 <img
       srcset="http://placehold.it/1024x500&text=1024+Large.jpg 1024w,
               http://placehold.it/600x250&text=600+Medium.jpg 600w,
@@ -71,14 +78,11 @@ Example of the SRCSET and SIZES attributes
 
 [View live example](http://codepen.io/justincavery/full/osDGt/)
 
-## Usage
+## <span>Usage</span>
 
      When using srcset with the w descriptor you must also include the sizes attribute.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5 APIs](http://www.w3.org/html/wg/drafts/srcset/w3c-srcset/)
 :   Editor’s Draft
-

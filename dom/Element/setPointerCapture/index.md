@@ -1,70 +1,73 @@
 ---
 title: setPointerCapture
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/library/ie/hh771882.aspx)'
+notes:
+  - 'Needs  examples, and compat'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Element
+    href: /dom/Element
+standardization_status: 'W3C Working Draft'
+summary: 'Assigns a specified pointer to an element. This method is used to ensure that an element continues to receive pointer events even if the contact moves off the element.'
 tags:
   - API
   - Object
   - Methods
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs  examples, and compat'
-summary: 'Assigns a specified pointer to an element. This method is used to ensure that an element continues to receive pointer events even if the contact moves off the element.'
 uri: dom/Element/setPointerCapture
 
 ---
-# setPointerCapture
-
-## Summary
+## <span>Summary</span>
 
 Assigns a specified pointer to an element. This method is used to ensure that an element continues to receive pointer events even if the contact moves off the element.
 
-*Method of [dom/Element](/dom/Element)*
+Method of [dom/Element](/dom/Element)[dom/Element](/dom/Element)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  element.setPointerCapture(pointerID);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### pointerID
+### <span>pointerID</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The pointer to assign to the element.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
 **Needs Examples**: This section should include examples.
 
-## Usage
+## <span>Usage</span>
 
      Capturing the current pointer can improve usability by reducing the touch precision required when interacting with an element. For example, if a button is touched and held, and the user's finger slides off the button before raising it (breaking the contact), the button might not receive the pointerup event. This could cause the button to stay depressed forever. By assigning the pointer to the button element with setPointerCapture, the button receives pointer events, including the pointerup event that signals the button to return to its initial state.
 
 The capture will be released when the pointer is removed (onpointerup) or explicitly released by calling the [releasePointerCapture](/dom/Element/releasePointerCapture) method. There are cases the element could lose the capture. For example, if the touch moves outside the window or some other element captures the touch, then the element that had the capture will lose the capture. The element that lost the capture will receive a [lostpointercapture](/dom/PointerEvent/lostpointercapture) event.
 
-## Notes
+## <span>Notes</span>
 
 When a pointer is captured to an element, the parent and ancestor elements receive a [gotpointercapture](/dom/PointerEvent/gotpointercapture) event during capture and bubble phase.
 
 If the specified pointerId does not match any existing pointers, a [DOMException](/dom/DOMException) is thrown with the name *InvalidPointerId*.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Pointer Events](http://www.w3.org/TR/pointerevents)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pointer Events
+#### <span>Pointer Events</span>
 
 -   [Pointer Events Primer](/concepts/Pointer_Events)
 
@@ -76,13 +79,5 @@ Specification
 
 -   [pointerEnabled](/dom/Navigator/pointerEnabled)
 
--   [PointerEvent](/dom/PointerEvent)
-
 -   [Introduction to multi-touch Web development](/tutorials/mobile_touch)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/library/ie/hh771882.aspx)
 

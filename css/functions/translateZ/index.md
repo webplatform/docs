@@ -1,42 +1,44 @@
 ---
 title: translateZ()
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'In Progress'
 tags:
   - CSS
   - Functions
-readiness: 'In Progress'
 uri: css/functions/translateZ()
 
 ---
-# translateZ()
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Examples
+## <span>Examples</span>
 
 The following code snippet is an example of the **translateZ** function in use. When applied to a square blue [**div**](/html/elements/div) element along with the [**perspective**](/css/functions/perspective()) function (which simulates depth), it has the effect illustrated in the image. (The light-blue square indicates the original position of the transformed element.)
 
-    div {
-      transform: perspective(500px) translateZ(-60px);
-    }
+``` html
+div {
+  transform: perspective(500px) translateZ(-60px);
+}
+```
 
-### Syntax
+### <span>Syntax</span>
 
 **translateZ** `( <translation-value> )`
 
-### Parameters
+### <span>Parameters</span>
 
 *translation-value*
 :   A translation value.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transforms Module, Level 3](http://go.microsoft.com/fwlink/p/?LinkID=223145), Section 13.2
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -70,16 +72,9 @@ The following code snippet is an example of the **translateZ** function in use. 
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Transform Functions`
 -   `Mathematical Description of Transform Functions`
 -   `Direct3D: Matrices`
 -   `Hands On: 3-D Transforms`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

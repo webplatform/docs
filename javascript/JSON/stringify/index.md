@@ -1,20 +1,22 @@
 ---
 title: stringify
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc836459(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Converts a JavaScript value to a JavaScript Object Notation (JSON) string.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Converts a JavaScript value to a JavaScript Object Notation (JSON) string.'
 uri: javascript/JSON/stringify
 
 ---
-# stringify
-
-## Summary
+## <span>Summary</span>
 
 Converts a JavaScript value to a JavaScript Object Notation (JSON) string.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     JSON.stringify( value [ , replacer] [ , space] )
 
@@ -27,15 +29,15 @@ Converts a JavaScript value to a JavaScript Object Notation (JSON) string.
 **space**
 :   Optional. Adds indentation, white space, and line break characters to the return-value JSON text to make it easier to read.If space is omitted, the return-value text is generated without any extra white space.If space is a number, the return-value text is indented with the specified number of white spaces at each level. If space is greater than 10, text is indented 10 spaces.If space is a non-empty string, such as '\\t', the return-value text is indented with the characters in the string at each level.If space is a string that is longer than 10 characters, the first 10 characters are used.
 
-## Return Value
+## <span>Return Value</span>
 
 A string that contains the JSON text.
 
-## Examples
+## <span>Examples</span>
 
 This example uses JSON.stringify to convert the `contact` object to JSON text. The `memberfilter` array is defined so that only the `surname` and `phone` members are converted. The `firstname` member is omitted.
 
-``` {.js}
+``` js
 var contact = new Object();
  contact.firstname = "Jesper";
  contact.surname = "Aaberg";
@@ -52,7 +54,7 @@ var contact = new Object();
 
 This example uses JSON.stringify with an array. The `replaceToUpper` function converts every string in the array to uppercase.
 
-``` {.js}
+``` js
 var continents = new Array();
  continents[0] = "Europe";
  continents[1] = "Asia";
@@ -74,7 +76,7 @@ var continents = new Array();
 
 This example uses the toJSON method to convert string values to uppercase.
 
-``` {.js}
+``` js
 var contact = new Object();
  contact.firstname = "Jesper";
  contact.surname = "Aaberg";
@@ -105,7 +107,7 @@ var contact = new Object();
  */
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 If value has a toJSON method, the JSON.stringify function uses the return value of that method. If the return value of the toJSON method is undefined , the member is not converted. This enables an object to determine its own JSON representation.
 
@@ -124,25 +126,17 @@ String values begin and end with a quotation mark. All Unicode characters may be
 
 During the serialization process, if a toJSON method exists for the value argument, JSON.stringify first calls the toJSON method. If it does not exist, the original value is used. Next, if a replacer argument is provided, the value (original value or toJSON return-value) is replaced with the return-value of the replacer argument. Finally, white spaces are added to the value based on the optional space argument to generate the final JSON text.
 
-## Exceptions
+## <span>Exceptions</span>
 
-Exception
-:   Condition
-Invalid replacer argument
-:   The replacer argument is not a function or an array.
-Circular reference in value argument not supported
-:   The value argument contains a circular reference.
+|Exception|Condition|
+|:--------|:--------|
+|Invalid replacer argument|The replacer argument is not a function or an array.|
+|Circular reference in value argument not supported|The value argument contains a circular reference.|
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [JSON.parse Function](/javascript/JSON/parse)
 -   [toJSON Method (Date)](/javascript/Date/toJSON)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/cc836459(v=vs.94).aspx)
 

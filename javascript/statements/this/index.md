@@ -1,28 +1,30 @@
 ---
 title: this
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w062xezx(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Refers to the current object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Refers to the current object.'
 uri: javascript/statements/this
 
 ---
-# this
-
-## Summary
+## <span>Summary</span>
 
 Refers to the current object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     this.property
 
-## Examples
+## <span>Examples</span>
 
 In the following example, **this** refers to the newly created Car object, and assigns values to three properties:
 
-``` {.js}
+``` js
 function Car(color, make, model){
     this.color = color;
     this.make = make;
@@ -34,7 +36,7 @@ The **this** keyword generally refers to the **window** object if used outside o
 
 In the following code (for Internet Explorer 9 and later), the event handler prints the string version of a button that has an ID of "clicker".
 
-``` {.js}
+``` js
 document.getElementById("clicker").addEventListener("click", eventHandler, false);
 
          function eventHandler(ev) {
@@ -44,21 +46,15 @@ document.getElementById("clicker").addEventListener("click", eventHandler, false
  // Output (when you click the button): [object HTMLButtonElement]
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required property argument is one of the current object's properties
 
 The this keyword can be used in object constructors to refer to the current object.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [new Operator](/javascript/operators/new)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/w062xezx(v=vs.94).aspx)
 

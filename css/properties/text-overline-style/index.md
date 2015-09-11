@@ -1,40 +1,52 @@
 ---
 title: text-overline-style
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/7283917'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'all elements with and generated content with textual content'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value (except for initial and inherit)'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Specifies the line style for overline text decoration.'
-code_samples:
-  - 'http://gist.github.com/7283917'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/text-overline-style
 
 ---
-# text-overline-style
-
-## Summary
+## <span>Summary</span>
 
 Specifies the line style for overline text decoration.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   all elements with and generated content with textual content
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value (except for initial and inherit)
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `text-overline-style: dashed`
 -   `text-overline-style: dot-dash`
@@ -45,7 +57,7 @@ Animatable
 -   `text-overline-style: solid`
 -   `text-overline-style: wave`
 
-## Values
+## <span>Values</span>
 
 none
 :   Produces no line.
@@ -71,11 +83,11 @@ dot-dot-dash
 wave
 :   Produces a wavy line.
 
-## Examples
+## <span>Examples</span>
 
 Incomplete because no browser has implemented this property.
 
-``` {.css}
+``` css
 p {
   text-overline-style: wavy;
 }
@@ -83,14 +95,11 @@ p {
 
 [View live example](http://code.webplatform.org/gist/7283917)
 
-## Notes
+## <span>Notes</span>
 
 Not implemented in any browser.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS3 Text Module](http://www.w3.org/TR/2003/CR-css3-text-20030514/#text-decoration-style)
 :   Candidate Recommendation
-

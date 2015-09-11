@@ -1,38 +1,45 @@
 ---
 title: iterationStart
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationTimingReadOnly
+    href: /apis/web_animations/AnimationTimingReadOnly
+  return:
+    predicate: 'Returns an object of type '
+    value: double
+    href: /apis/web_animations/AnimationTimingReadOnly
+standardization_status: 'W3C Editor''s Draft'
+summary: "The animation node’s iteration start property.\n"
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: "The animation node’s iteration start property.\n"
 uri: 'apis/web animations/AnimationTimingReadOnly/iterationStart'
 
 ---
-# iterationStart
-
-## Summary
+## <span>Summary</span>
 
 The animation node’s iteration start property.
 
 A finite real number greater than or equal to zero representing the number of iterations into the animation node at which to begin.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)</span></span>
+Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.iterationStart;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">double</span></span>
+Returns an object of type doubledouble
 
 **Needs Examples**: This section should include examples.
 

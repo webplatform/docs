@@ -1,26 +1,28 @@
 ---
 title: round
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns a supplied numeric expression rounded to the nearest integer.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns a supplied numeric expression rounded to the nearest integer.'
 uri: javascript/Math/round
 
 ---
-# round
-
-## Summary
+## <span>Summary</span>
 
 Returns a supplied numeric expression rounded to the nearest integer.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Math.round( number )
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 Math.round(0.8);  // 1
 Math.round(2.2);  // 2
 Math.round(2.5);  // 3
@@ -28,7 +30,7 @@ Math.round(4);    // 4
 Math.round(-1.5); // -1
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required number argument is the value to be rounded to the nearest integer.
 
@@ -38,17 +40,11 @@ For negative numbers, if the decimal portion is exactly -0.5, the return value i
 
 For example, `Math.round(8.5)` returns 9, but `Math.round(-8.5)` returns -8.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Math.ceil Function](/javascript/Math/ceil)
 -   [Math.floor Function](/javascript/Math/floor)
 -   [Math Object](/javascript/Math)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer JavaScript reference Article](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0%28v=vs.94%29.aspx)
 

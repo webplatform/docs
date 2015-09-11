@@ -1,16 +1,17 @@
 ---
-title: prototypes
+title: Prototypes
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Inheritance_and_the_prototype_chain)'
+readiness: 'Not Ready'
+summary: "JavaScript is a little confusing for developers experienced in class-based languages (like Java or C++), as it's dynamic and does not provide a class implementation (although the keyword class is a reserved keyword and cannot be used as a variable name).\n"
 tags:
   - Inheritance
   - JavaScript
-readiness: 'Not Ready'
-summary: "JavaScript is a little confusing for developers experienced in class-based languages (like Java or C++), as it's dynamic and does not provide a class implementation (although the keyword class is a reserved keyword and cannot be used as a variable name).\n"
 uri: concepts/programming/javascript/prototypes
 
 ---
-# Prototypes
-
-## Summary
+## <span>Summary</span>
 
 JavaScript is a little confusing for developers experienced in class-based languages (like Java or C++), as it's dynamic and does not provide a class implementation (although the keyword class is a reserved keyword and cannot be used as a variable name).
 
@@ -18,9 +19,9 @@ JavaScript is still an Object Orientated Language (OOP), meaning you can constru
 
 An object has an internal link to another object (or `null`) called its **prototype**. This object has a prototype as well and so on, until one object has `null` as its prototype. This *chain* of objects being prototypes of one another is called the **prototype chain**.
 
-## Inheritance with the prototype chain
+## <span>Inheritance with the prototype chain</span>
 
-### Inheriting properties
+### <span>Inheriting properties</span>
 
 JavaScript objects are dynamic "bags" of properties (referred as **own properties**) and have a link to a prototype object (or `null`). Here is what happens when trying to access a property:
 
@@ -50,7 +51,7 @@ JavaScript objects are dynamic "bags" of properties (referred as **own propertie
 
 Setting a property to an object creates an own property. The only exception to the getting and setting behavior rules is when there is an inherited property with a [defining getters and setters](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Working_with_Objects#Defining_getters_and_setters) getter or a setter.
 
-### Inheriting "methods"
+### <span>Inheriting "methods"</span>
 
 JavaScript does not have "methods" per se. JavaScript has functions and these functions can be used as property values. The inheritance of functions works the same way that any value, including property shadowing as shown above (which is a form of *method overriding*).
 
@@ -74,9 +75,9 @@ The only thing that changes when functions are object properties (own or inherit
      // when p.m is called, 'this' refers to p. 'this.a' is p own property
 
 
-## Different ways to create objects and the resulting prototype chain
+## <span>Different ways to create objects and the resulting prototype chain</span>
 
-### Objects created with syntax constructs
+### <span>Objects created with syntax constructs</span>
 
     var o = {a: 1};
 
@@ -100,7 +101,7 @@ The only thing that changes when functions are object properties (own or inherit
      // f ---> Function.prototype ---> Object.prototype ---> null
 
 
-### With a constructor
+### <span>With a constructor</span>
 
 A "constructor" in JavaScript is "just" a function that happens to be called with the [new operator](http://docs.webplatform.org/en/JavaScript/Reference/Operators/new).
 
@@ -120,7 +121,7 @@ A "constructor" in JavaScript is "just" a function that happens to be called wit
      // g.[[Prototype]] is value of Graph.prototype at time of instantiation.
 
 
-### With Object.create
+### <span>With Object.create</span>
 
 ECMAScript 5 introduced a new method: [Object.create](http://docs.webplatform.org/en/JavaScript/Reference/Global_Objects/Object/create). Calling this method creates a new object. The prototype of this object is the first argument of the function:
 
@@ -137,10 +138,3 @@ ECMAScript 5 introduced a new method: [Object.create](http://docs.webplatform.or
     var d = Object.create(null);
     // d ---> null
     console.log(d.hasOwnProperty); // undefined, because d doesn't inherit from Object.prototype
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Inheritance_and_the_prototype_chain)
-

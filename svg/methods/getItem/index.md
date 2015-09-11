@@ -1,33 +1,33 @@
 ---
 title: getItem
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'No editing form'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/methods/getItem
 
 ---
-# getItem
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 The returned item is the item itself and not a copy. Any changes that are made to the item are immediately reflected in the list.
 
-### Syntax
+### <span>Syntax</span>
 
     ISVGTransform retVal = object.getItem(index);
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Basic Data Types and Interfaces](http://go.microsoft.com/fwlink/p/?linkid=204732), Section 4.5.4
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGLengthList**](/svg/objects/SVGLengthList)
 -   [**SVGNumberList**](/svg/objects/SVGNumberList)
@@ -35,10 +35,3 @@ The returned item is the item itself and not a copy. Any changes that are made t
 -   [**SVGPointList**](/svg/objects/SVGPointList)
 -   [**SVGStringList**](/svg/objects/SVGStringList)
 -   [**SVGTransformList**](/svg/objects/SVGTransformList)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,35 +1,37 @@
 ---
 title: freeze
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806186(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Prevents the modification of existing property attributes and values, and prevents the addition of new properties.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Prevents the modification of existing property attributes and values, and prevents the addition of new properties.'
 uri: javascript/Object/freeze
 
 ---
-# freeze
-
-## Summary
+## <span>Summary</span>
 
 Prevents the modification of existing property attributes and values, and prevents the addition of new properties.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Object.freeze( object )
 
 **object**
 :   Required. The object on which to lock the attributes.
 
-## Return Value
+## <span>Return Value</span>
 
 The object that is passed to the function.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **Object.freeze** function.
 
-``` {.js}
+``` js
 // Create an object that has two properties.
  var obj = { pasta: "spaghetti", length: 10 };
 
@@ -56,7 +58,7 @@ The following example illustrates the use of the **Object.freeze** function.
  // spaghetti
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The Object.freeze function does the following:
 
@@ -68,43 +70,31 @@ For more information about how to set property attributes, see [Object.definePro
 
 The following related functions prevent the modification of object attributes.
 
-Function
-:   Object is made non-extensible
-[Object.preventExtensions](/javascript/Object/preventExtensions)
-:   Yes
-[Object.seal](/javascript/Object/seal)
-:   Yes
-**Object.freeze**
-:   Yes
+|Function|Object is made non-extensible|configurable is set to false for each property|writable is set to false for each property|
+|:-------|:----------------------------|:---------------------------------------------|:-----------------------------------------|
+|[Object.preventExtensions](/javascript/Object/preventExtensions)|Yes|No|No|
+|[Object.seal](/javascript/Object/seal)|Yes|Yes|No|
+|**Object.freeze**|Yes|Yes|Yes|
 
 The following functions return true if all of the conditions marked in the following table are true.
 
-Function
-:   Object is extensible?
-[Object.isExtensible](/javascript/Object/isExtensible)
-:   Yes
-[Object.isSealed](/javascript/Object/isSealed)
-:   No
-[Object.isFrozen](/javascript/Object/isFrozen)
-:   No
+|Function|Object is extensible?|configurable is false for all properties?|writable is false for all data properties?|
+|:-------|:--------------------|:----------------------------------------|:-----------------------------------------|
+|[Object.isExtensible](/javascript/Object/isExtensible)|Yes|No|No|
+|[Object.isSealed](/javascript/Object/isSealed)|No|Yes|Yes|
+|[Object.isFrozen](/javascript/Object/isFrozen)|No|Yes|Yes|
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the object argument is not an object, a TypeError exception is thrown.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Object.preventExtensions Function](/javascript/Object/preventExtensions)
 -   [Object.seal Function](/javascript/Object/seal)
 -   [Object.isExtensible Function](/javascript/Object/isExtensible)
 -   [Object.isSealed Function](/javascript/Object/isSealed)
 -   [Object.isFrozen Function](/javascript/Object/isFrozen)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806186(v=vs.94).aspx)
 

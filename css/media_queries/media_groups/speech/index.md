@@ -1,40 +1,37 @@
 ---
-title: speech
+title: speech (abstract CSS media group)
+notes:
+  - 'Add values, syntax, example, specifications, compatibility.'
+readiness: 'Not Ready'
+summary: 'This media group is used to identify CSS properties applicable to screen readers and related speech synthesizers.'
 tags:
   - CSS
   - Media
   - Groups
-readiness: 'Not Ready'
-notes:
-  - 'Add values, syntax, example, specifications, compatibility.'
-summary: 'This media group is used to identify CSS properties applicable to screen readers and related speech synthesizers.'
-uri: 'css/media queries/media groups/speech'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'css/media queries/media types/speech'
+uri: 'css/media queries/media groups/speech'
 
 ---
-# speech (abstract CSS media group)
-
-## Summary
+## <span>Summary</span>
 
 This media group is used to identify CSS properties applicable to screen readers and related speech synthesizers.
 
 The speech media group is an abstract category, but it corresponds fairly directly to the [speech media type](/w/index.php?title=css/media_queries/media_types/speech&action=edit&redlink=1). However, speech media may also implement properties associated with other media groups, such as [interactive media](/css/media_queries/media_groups/interactive).
 
-## Applicable Media Types
+## <span>Applicable Media Types</span>
 
 (none in the database)
 
-## Applicable Media Features
+## <span>Applicable Media Features</span>
 
 (none in the database)
 
-## Applicable CSS properties
+## <span>Applicable CSS properties</span>
 
 -   [css/properties/cue](/css/properties/cue)
--   [css/properties/cue-after](/css/properties/cue-after)
 -   [css/properties/cue-before](/css/properties/cue-before)
 -   [css/properties/pause](/css/properties/pause)
 -   [css/properties/pause-after](/css/properties/pause-after)

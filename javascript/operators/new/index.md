@@ -1,20 +1,22 @@
 ---
 title: new
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ec3z6dcc(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Creates a new object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Creates a new object.'
 uri: javascript/operators/new
 
 ---
-# new
-
-## Summary
+## <span>Summary</span>
 
 Creates a new object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     new constructor ([ arguments ])
 
@@ -24,17 +26,17 @@ Creates a new object.
 **arguments**
 :   Optional. Any arguments to be passed to the new object's constructor.
 
-## Examples
+## <span>Examples</span>
 
 These are examples of valid uses of the **new** operator.
 
-``` {.js}
+``` js
 my_object = new Object;
 my_array = new Array();
 my_date = new Date("Jan 5 1996");
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The new operator performs the following tasks:
 
@@ -42,15 +44,9 @@ The new operator performs the following tasks:
 -   It calls the constructor for that object, passing a pointer to the newly created object as the this pointer.
 -   The constructor then initializes the object according to the arguments passed to the constructor.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [function Statement](/javascript/statements/function)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ec3z6dcc(v=vs.94).aspx)
 

@@ -1,31 +1,33 @@
 ---
 title: message
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/5z00ybxa(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns an error message string.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns an error message string.'
 uri: javascript/Error/message
 
 ---
-# message
-
-## Summary
+## <span>Summary</span>
 
 Returns an error message string.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     errorObj.message
 
 **errorObj**
 :   Required. Instance of Error object.
 
-## Examples
+## <span>Examples</span>
 
 The following example causes a TypeError exception to be thrown and displays the name of the error and its message.
 
-``` {.js}
+``` js
 try
  {
      // Cause an error.
@@ -44,28 +46,22 @@ try
 
 The output of this code is as follows.
 
-``` {.js}
+``` js
 Error Message: 'y' is undefined
  Error Code: 5009
  Error Name: TypeError
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The message property returns a string that contains an error message associated with a specific error.
 
 The description and message properties provide the same functionality. The description property provides backwards compatibility; the message property complies with the ECMA standard.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [description Property (Error)](/javascript/Error/description)
 -   [name Property (Error)](/javascript/Error/name)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/5z00ybxa(v=vs.94).aspx)
 

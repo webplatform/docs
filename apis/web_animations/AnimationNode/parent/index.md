@@ -1,35 +1,42 @@
 ---
 title: parent
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationNode
+    href: /apis/web_animations/AnimationNode
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/web_animations/AnimationNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The parent animation group of this animation node or null if this animation node does not have a parent animation group.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The parent animation group of this animation node or null if this animation node does not have a parent animation group.'
 uri: 'apis/web animations/AnimationNode/parent'
 
 ---
-# parent
-
-## Summary
+## <span>Summary</span>
 
 The parent animation group of this animation node or null if this animation node does not have a parent animation group.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)</span></span>
+Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var myParentAnimationGroup = myAnimationNode.parent;
 myAnimationNode.parent = myParentAnimationGroup;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 Returns an apis/web\_animations/AnimationGroup object
 

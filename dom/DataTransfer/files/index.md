@@ -1,41 +1,48 @@
 ---
 title: files
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/DataTransfer
+    href: /dom/DataTransfer
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /dom/DataTransfer
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Returns a FileList of the files being dragged, if any.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Returns a FileList of the files being dragged, if any.'
 uri: dom/DataTransfer/files
 
 ---
-# files
-
-## Summary
+## <span>Summary</span>
 
 Returns a FileList of the files being dragged, if any.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DataTransfer](/dom/DataTransfer)</span></span>
+Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.files;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 A live FileList sequence consisting of File objects representing the files being dragged (if any).
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //retrieve list of files being dragged
 function getDragFiles(e) {
   var oData = e.dataTransfer;
@@ -43,14 +50,11 @@ function getDragFiles(e) {
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 This version of the API does not expose the types of the files during the drag.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation
-

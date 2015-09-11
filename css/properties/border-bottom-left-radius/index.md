@@ -1,47 +1,62 @@
 ---
 title: border-bottom-left-radius
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Border-bottom-left-radius](https://developer.mozilla.org/es/docs/CSS/border-bottom-left-radius) Article]'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'two absolute \<length\> or percentages'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`borderBottomLeftRadius`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'Defines the shape of the border of the bottom-left corner.'
-uri: css/properties/border-bottom-left-radius
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/border-bottom-left-radius
 
 ---
-# border-bottom-left-radius
-
-## Summary
+## <span>Summary</span>
 
 Defines the shape of the border of the bottom-left corner.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   two absolute \<length\> or percentages
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `borderBottomLeftRadius`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `border-bottom-left-radius: length`
 -   `border-bottom-left-radius: percentage`
 
-## Values
+## <span>Values</span>
 
 length
 :   Denotes the size of the circle radius or the semi-major and semi-minor axes of the ellipsis. It can be expressed in any unit allowed by the [CSS \<length\> data types](/css/data_types/length). Negative values are invalid.
@@ -49,11 +64,11 @@ length
 percentage
 :   Denotes the size of the circle radius, or the semi-major and semi-minor axes of the ellipsis, using percentage values. Percentages for the horizontal axis refer to the width of the box, percentages for the vertical axis refer to the height of the box. Negative values are invalid.
 
-## Examples
+## <span>Examples</span>
 
 One value example to use an arc of circle as the border on the top left corner.
 
-``` {.css}
+``` css
 border-bottom-left-radius: 10px;
 
 /* is equivalent to: */
@@ -62,34 +77,32 @@ border-bottom-left-radius: 10px 10px;
 
 Two value example to use an arc of ellipse as the border on the top left corner.
 
-``` {.css}
+``` css
 border-bottom-left-radius: 10px 5px;
 ```
 
 One value percentage example on the top left corner. If the box is a square an arc of circle is used as the border, if the box is not a square an arc of ellipse is used as the border.
 
-``` {.css}
+``` css
 border-bottom-left-radius: 30%;
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **border-bottom-left-radius** property specifies the horizontal and vertical radii of the ellipse that defines the rounded lower-left corner of a border box. If there is only one value given, then that value specifies both horizontal and vertical radii of the ellipse. If there are two values given, then the first value sets the horizontal radius and the second value sets the vertical radius.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Backgrounds and Borders Module Level 3: Rounded Corners:](http://www.w3.org/TR/css3-background/#border-bottom-left-radius)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Border
+#### <span>Border</span>
 
 -   [border](/css/properties/border)
 
@@ -149,7 +162,7 @@ Specification
 
 -   [border-width](/css/properties/border-width)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -161,12 +174,3 @@ Specification
 -   `border-top-left-radius`
 -   `border-top-right-radius`
 -   `border-bottom-right-radius`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[Border-bottom-left-radius](https://developer.mozilla.org/es/docs/CSS/border-bottom-left-radius) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

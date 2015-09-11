@@ -1,15 +1,13 @@
 ---
-title: web programming essentials
-tags:
-  - Tutorials
+title: Web programming essentials
 readiness: 'Ready to Use'
 summary: 'This page contains links to web programming tutorials.'
+tags:
+  - Tutorials
 uri: 'tutorials/web programming essentials'
 
 ---
-# Web programming essentials
-
-## Summary
+## <span>Summary</span>
 
 This page contains links to web programming tutorials.
 

@@ -1,52 +1,59 @@
 ---
 title: constructor
+readiness: 'Almost Ready'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: 'apis/web animations/AnimationPlayer'
+    href: /apis/web_animations/AnimationPlayer
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/web_animations/AnimationPlayer
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Constructs an new AnimationPlayer object. '
 tags:
   - API
   - Object
   - Methods
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Constructs an new AnimationPlayer object. '
 uri: 'apis/web animations/AnimationPlayer/constructor'
 
 ---
-# constructor
-
-## Summary
+## <span>Summary</span>
 
 Constructs an new AnimationPlayer object.
 
-*Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)*
+Method of [apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var myPlayer = AnimationPlayer.constructor(source, timeline);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### source
+### <span>source</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-*(Optional)*
+(Optional)
 
 if not null, specifies the source content (an AnimationNode) to assign to the newly created player.
 
-### timeline
+### <span>timeline</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-*(Optional)*
+(Optional)
 
 An optional value which, if not null, specifies the AnimationTimeline with which to associate the newly created player.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 

@@ -1,32 +1,37 @@
 ---
 title: contentType
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, usage, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/xhr/properties
+    href: /apis/xhr/properties
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, usage, spec reference, standardization status'
 uri: apis/xhr/properties/contentType
 
 ---
-# contentType
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/xhr/properties](/apis/xhr/properties)</span></span>
+Property of [apis/xhr/properties](/apis/xhr/properties)[apis/xhr/properties](/apis/xhr/properties)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.contentType;
 element.contentType = value;
 ```
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // 1. Create XDR object
 xdr = new XDomainRequest();
 
@@ -37,19 +42,12 @@ xdr.open("GET", "http://www.contoso.com/xdr.txt");
 alert(xdr.contentType);
 ```
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `Reference`
 -   `IHTMLXDomainRequest`
 -   `XDomainRequest`
 -   `Conceptual`
 -   `Introducing Cross-domain Request`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

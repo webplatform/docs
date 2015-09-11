@@ -1,95 +1,100 @@
 ---
 title: initTextEvent
+attributions:
+  - 'Microsoft Developer Network: [[initTextEvent Method](http://msdn.microsoft.com/en-us/library/ie/ff975268(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/TextEvent
+    href: /dom/TextEvent
+summary: 'Initializes a new text event that the createEvent method created.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-summary: 'Initializes a new text event that the createEvent method created.'
 uri: dom/TextEvent/initTextEvent
 
 ---
-# initTextEvent
-
-## Summary
+## <span>Summary</span>
 
 Initializes a new text event that the createEvent method created.
 
-*Method of [dom/TextEvent](/dom/TextEvent)*
+Method of [dom/TextEvent](/dom/TextEvent)[dom/TextEvent](/dom/TextEvent)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  event.initTextEvent(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### eventType
+### <span>eventType</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The name of the event. Sets the value for the [**type**](/dom/Event/type) property. This parameter is case sensitive! Sets the type property of the event object.
 
 For IE9 or higher use 'textinput' For Webkit use 'textInput'.
 
-### canBubble
+### <span>canBubble</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event propagates upward. Sets the value for the [bubbles](/dom/Event/bubbles) property.
 
-### cancelable
+### <span>cancelable</span>
 
- Data-typeÂ
+ Data-type
 :   Boolean
 
  Whether the event is cancelable and so [preventDefault](/dom/Event/preventDefault) can be called. Sets the value for the [cancelable](/dom/Event/cancelable) property.
 
-### view
+### <span>view</span>
 
- Data-typeÂ
+ Data-type
 :   Object
 
  The window on which this event is occurring. Sets the value for the [view](/dom/UIEvent/view) property.
 
-### data
+### <span>data</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  Character data. Sets the value for the [**data**](/dom/CompositionEvent/data) property.
 
-### inputMethod
+### <span>inputMethod</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
  The input mode for the text. Sets the value for the [**inputMethod**](/dom/TextEvent/inputMethod) property.
 
 Required in Internet Explorer, not supported and omitted in Safari and Google Chrome. Integer that specifies the input mode for the text.
 
-### locale
+### <span>locale</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The locale name. Sets the value for the [**locale**](/dom/CompositionEvent/locale) property.
 
 Required in Internet Explorer, not supported and omitted in Safari and Google Chrome. String that specifies the locale name of the text.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
 The below sample shows a click event handler that creates and dispatches either a 'textinput' or 'textInput' event (depending on the selected options) to textarea element.
 
-``` {.js}
+``` js
 function InsertText () {
         try {
             var newtextEvent = document.createEvent('TextEvent');
@@ -123,7 +128,7 @@ function InsertText () {
 
 The DOMInputMetod is present in the MSIE 'textinput' event handler only.
 
-``` {.js}
+``` js
 function getDOMInputMethod(iInputMethod){
         switch (iInputMethod){
             case TextEvent.DOM_INPUT_METHOD_UNKNOWN:// 0
@@ -152,11 +157,11 @@ function getDOMInputMethod(iInputMethod){
     }
 ```
 
-## Usage
+## <span>Usage</span>
 
      Used to emulate keyboard events from other input devices like on screen keyboard clicks, voice input, handwriting, copy and paste operations and scripted input methods.
 
-## Notes
+## <span>Notes</span>
 
 The event type is case sensitive!
 
@@ -166,16 +171,7 @@ In Safari and Chromium use 'textInput' for the eventType parameter.
 
 MSIE browsers further require that the event inputMethod isTrusted.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Events (20110531)](http://www.w3.org/TR/2011/WD-DOM-Level-3-Events-20110531)
 :   Outdated Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[initTextEvent Method](http://msdn.microsoft.com/en-us/library/ie/ff975268(v=vs.85).aspx) Article]
-

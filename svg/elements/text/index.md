@@ -1,49 +1,53 @@
 ---
 title: text
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec reference, standardization status'
 uri: svg/elements/text
 
 ---
-# text
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, the text element is used to create a text message in olive 36-point Impact type that reads" Internet Explorer Rocks". Copy this sample to a text file and save it with the *.html* file extension. Run it in Internet Explorer 9 to see the text.
 
 It should look like this:
 
+``` html
 
 
-    <!DOCTYPE html>
-    <html>
-        <head></head>
-        <body>
-            <svg>
-                <text x="50" y="50" font-family="Impact" font-size="36" fill="olive">
-                    SVG Rocks!
-                </text>
-            </svg>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <svg>
+            <text x="50" y="50" font-family="Impact" font-size="36" fill="olive">
+                SVG Rocks!
+            </text>
+        </svg>
+    </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -55,11 +59,11 @@ You can apply a gradient, pattern, clipping path, mask, or filter to text. When 
 
 The **text** element renders its first glyph (after bidirectionality reordering) at the initial current text position, which is established by the [**x**](/svg/properties/x) and [**y**](/svg/properties/y) attributes on the **text** element. (The attributes might be adjusted because of the value of the **text-anchor** property, the presence of a [**textPath**](/svg/elements/textPath) element that contains the first character, or **x**, **y**, [**dx**](/svg/properties/dx), or [**dy**](/svg/properties/dy) attributes on a [**tSpan**](/svg/elements/tspan), **tref**, or **altGlyph** element that contains the first character.) After the glyphs that corresponds to the given character are rendered, the current text position is updated for the next character. In the simplest case, the new current text position is the previous current text position plus the glyphs' advance value (horizontal or vertical).
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Text](http://go.microsoft.com/fwlink/p/?linkid=199818), Section 10.17.3
 
-### Members
+### <span>Members</span>
 
 The **SVGTextElement** object has these events:
 
@@ -127,10 +131,3 @@ Gets or sets a value that indicates whether the user-agent should adjust inter-g
 -   [**xmllang**](/svg/properties/xmllang): Gets or sets a value that specifies the language that is used in the contents and attribute values of an element.
 -   [**xmlspace**](/svg/properties/xmlspace): Gets or sets a value that indicates whether white space is preserved in character data.
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

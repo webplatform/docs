@@ -1,5 +1,10 @@
 ---
 title: MSCSSMatrix
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs title, summary, spec reference, standardization status, fix table coding in Notes'
+readiness: 'Not Ready'
 tags:
   - Pages
   - using
@@ -11,53 +16,49 @@ tags:
   - API
   - Objects
   - DOM
-readiness: 'Not Ready'
-notes:
-  - 'Needs title, summary, spec reference, standardization status, fix table coding in Notes'
 uri: css/transforms/MSCSSMatrix
 
 ---
-# MSCSSMatrix
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Properties
+## <span>Properties</span>
 
 *No properties.*
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [translate](/css/transforms/MSCSSMatrix/translate)
 :
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
 **Needs Examples**: This section should include examples.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS Transitions Module Level 3](http://go.microsoft.com/fwlink/p/?linkid=223140), Section 10.1
 
-### Members
+### <span>Members</span>
 
 The **MSCSSMatrix** object has these types of members:
 
 -   [\#methods Methods]
 -   [\#properties Properties]
 
-#### Methods
+#### <span>Methods</span>
 
 The **MSCSSMatrix** object has these methods. {
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Transforms
+#### <span>Transforms</span>
 
 -   [inverse](/css/cssom/MSCSSMatrix/methods/inverse)
 
@@ -90,10 +91,3 @@ The **MSCSSMatrix** object has these methods. {
 -   [translate](/css/transforms/MSCSSMatrix/translate)
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

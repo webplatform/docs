@@ -1,5 +1,19 @@
 ---
 title: onaddtrack
+notes:
+  - 'Needs example, spec reference'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/media_capture_and_streams/MediaStream
+    href: /apis/media_capture_and_streams/MediaStream
+  return:
+    predicate: 'Returns an object of type '
+    value: ''
+    href: /apis/media_capture_and_streams/MediaStream
+standardization_status: 'W3C Working Draft'
+summary: 'Handles the addtrack event when fired on the MediaStream object.'
 tags:
   0: API
   1: Object
@@ -8,32 +22,25 @@ tags:
   5: Capture
   6: and
   7: Streams
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Needs example, spec reference'
-summary: 'Handles the addtrack event when fired on the MediaStream object.'
 uri: 'apis/media capture and streams/MediaStream/onaddtrack'
 
 ---
-# onaddtrack
-
-## Summary
+## <span>Summary</span>
 
 Handles the addtrack event when fired on the MediaStream object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_and_streams/MediaStream)</span></span>
+Property of [apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_and_streams/MediaStream)[apis/media\_capture\_and\_streams/MediaStream](/apis/media_capture_and_streams/MediaStream)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = stream.onaddtrack;
 stream.onaddtrack = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value"></span></span>
+Returns an object of type<span></span>
 
 EventHandler
 

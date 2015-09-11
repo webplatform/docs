@@ -1,41 +1,53 @@
 ---
 title: justify-content
+code_samples:
+  - 'http://gist.github.com/5842739'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`flex-start`'
+  'Applies to': 'flex containers'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The justify-content property aligns flex items along the main axis of the current line of the flex container, similarly to how align-items aligns items in the cross axis.'
 tags:
   0: CSS
   1: Properties
   3: Flexbox
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The justify-content property aligns flex items along the main axis of the current line of the flex container, similarly to how align-items aligns items in the cross axis.'
-code_samples:
-  - 'http://gist.github.com/5842739'
 uri: css/properties/justify-content
 
 ---
-# justify-content
-
-## Summary
+## <span>Summary</span>
 
 The justify-content property aligns flex items along the main axis of the current line of the flex container, similarly to how align-items aligns items in the cross axis.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `flex-start`
+
 Applies to
 :   flex containers
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `-ms-flex-pack: center`
 -   `-ms-flex-pack: end`
@@ -47,7 +59,7 @@ Animatable
 -   `justify-content: space-around`
 -   `justify-content: space-between`
 
-## Values
+## <span>Values</span>
 
 flex-start
 :   Flex items are packed toward the start of the line. The main-start margin edge of the first flex item on the line is placed flush with the main-start edge of the line, and each subsequent flex item is placed flush with the preceding item.
@@ -64,11 +76,11 @@ space-between
 space-around
 :   Flex items are evenly distributed in the line, with half-size spaces on either end. If the leftover free-space is negative or there is only a single flex item on the line, this value is identical to ‘center’. Otherwise, the flex items on the line are distributed such that the spacing between any two adjacent flex items on the line is the same, and the spacing between the first/last flex items and the flex container edges is half the size of the spacing between flex items.
 
-## Examples
+## <span>Examples</span>
 
 An example with the justify-content property, demonstrating the different options.
 
-``` {.css}
+``` css
 .container {
   display: flex;
 
@@ -125,7 +137,7 @@ An example with the justify-content property, demonstrating the different option
 
 [View live example](http://code.webplatform.org/gist/5842739)
 
-``` {.html}
+``` html
 <p>justify-content: flex-start</p>
 <div class="container flex-start">
   <div class="first-item">first-item</div>
@@ -158,22 +170,20 @@ An example with the justify-content property, demonstrating the different option
 </div>
 ```
 
-## Notes
+## <span>Notes</span>
 
 This property was named **flex-pack** in earlier drafts.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Flexible Box Layout Module](http://dev.w3.org/csswg/css-flexbox/#justify-content-property)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Flexbox
+#### <span>Flexbox</span>
 
 -   [align-content](/css/properties/align-content)
 
@@ -199,10 +209,9 @@ Specification
 
 -   **justify-content**
 
-### External resources
+### <span>External resources</span>
 
 Also, check out the following live demo sites:
 
 -   [Flexbox Playground](http://demo.agektmr.com/flexbox/)
 -   [Flexy Boxes](http://the-echoplex.net/flexyboxes)
-

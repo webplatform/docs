@@ -1,51 +1,62 @@
 ---
 title: removeNamedItem
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap) Article]'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeNamedItemEx1.htm'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/NamedNodeMap
+    href: /dom/NamedNodeMap
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /dom/NamedNodeMap
+summary: 'Removes an attribute with a given name.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-summary: 'Removes an attribute with a given name.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeNamedItemEx1.htm'
 uri: dom/NamedNodeMap/removeNamedItem
 
 ---
-# removeNamedItem
-
-## Summary
+## <span>Summary</span>
 
 Removes an attribute with a given name.
 
-*Method of [dom/NamedNodeMap](/dom/NamedNodeMap)*
+Method of [dom/NamedNodeMap](/dom/NamedNodeMap)[dom/NamedNodeMap](/dom/NamedNodeMap)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var attribute = attributes.removeNamedItem(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### name
+### <span>name</span>
 
  Data-type
 :   String
 
  The name of an [**attribute**](/dom/HTMLElement) to remove.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 The removed attribute.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use this method to remove an [**attribute**](/dom/HTMLElement) from an element.
 
-``` {.html}
+``` html
+<!doctype html>
 <html>
  <head>
 <title>removeNamedItem example</title>
@@ -57,6 +68,7 @@ function removeAttrib() {
   </script>
  </head>
  <body>
+ <!-- Although this is possible, **Please, DON'T!**. Buttons are perfect to be clicked on! -->
  <div onclick="removeAttrib();" id="ex" title="This is a tooltip">
 Click this DIV and the tooltip will be deactivated.</div>
  </body>
@@ -65,22 +77,11 @@ Click this DIV and the tooltip will be deactivated.</div>
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/removeNamedItemEx1.htm)
 
-## Notes
+## <span>Notes</span>
 
 An **attribute** that is removed with this method reverts to the default value of the **attribute** when applicable. This method returns a script error if the user attempts to remove a non-existent attribute node. **removeNamedItem** was introduced in Microsoft Internet Explorer 6.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 3 Core](http://www.w3.org/TR/DOM-Level-3-Core/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[NamedNodeMap](https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

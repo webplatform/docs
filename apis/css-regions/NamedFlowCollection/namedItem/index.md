@@ -1,69 +1,74 @@
 ---
-title: namedItem
+title: namedItem()
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/css-regions/NamedFlowCollection
+    href: /apis/css-regions/NamedFlowCollection
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/css-regions/NamedFlowCollection
+standardization_status: 'W3C Working Draft'
+summary: 'Retrieve a named flow by its name'
 tags:
   - API
   - Object
   - Methods
   - CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Retrieve a named flow by its name'
 uri: apis/css-regions/NamedFlowCollection/namedItem
 
 ---
-# namedItem()
-
-## Summary
+## <span>Summary</span>
 
 Retrieve a named flow by its name
 
-*Method of [apis/css-regions/NamedFlowCollection](/apis/css-regions/NamedFlowCollection)*
+Method of [apis/css-regions/NamedFlowCollection](/apis/css-regions/NamedFlowCollection)[apis/css-regions/NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var flow = flows.namedItem(name);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### name
+### <span>name</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  the name of the named flow
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 the [**NamedFlow**](/apis/css-regions/NamedFlow) object that corresponds to the specified name
 
-## Examples
+## <span>Examples</span>
 
 Retrieve the *main* flow from the document, in one method-chained line:
 
-``` {.js}
+``` js
 var flow = document.getNamedFlows().namedItem('main');
 ```
 
-## Usage
+## <span>Usage</span>
 
      The NamedFlowCollection object is an array snapshot of a document's named flows. This method allows you to access a specific flow directly by its name, rather than by iterating over the array.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/2013/WD-css3-regions-20130528/)
 :   W3C Working Draft 28 May 2013
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -121,10 +126,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

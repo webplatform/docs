@@ -1,10 +1,12 @@
 ---
-title: ja
+title: HTMLの基礎
+attributions:
+  - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
+lang: ja
+summary: 'この記事では、HTML の基礎やその歴史、HTML 文書の構造について学べます。'
 tags:
   - Guides
   - HTML
-summary: 'この記事では、HTML の基礎やその歴史、HTML 文書の構造について学べます。'
-uri: 'guides/the basics of html/ja'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -72,19 +74,28 @@ todo_broken_links:
     - html/elements/hn/ja
     - html/elements/header/ja
     - html/elements/div/ja
+translations:
+  es:
+    text: español
+    href: /guides/the_basics_of_html/es
+  ko:
+    text: 한국어
+    href: /guides/the_basics_of_html/ko
+  sv:
+    text: svenska
+    href: /guides/the_basics_of_html/sv
+uri: 'guides/the basics of html/ja'
 
 ---
-# HTMLの基礎
-
-## Summary
+## <span>Summary</span>
 
 この記事では、HTML の基礎やその歴史、HTML 文書の構造について学べます。
 
-## はじめに
+## <span>はじめに</span>
 
 この記事は、要素の役割や文字参照を含め、HTMLの目的や構造をまとめたものです。個別の機能は以降の記事で詳しく解説していきます。
 
-## HTML とは
+## <span>HTML とは</span>
 
 ほとんどのソフトウェアは、専用のファイル形式を読み書きします。たとえば、Microsoft Word は “.doc” ファイルに対応し、Microsoft Excel は “.xls” に対応します。これらのファイルには文書内容のほかに、次に開いた時の再構築の手順を記す情報、「メタデータ」と呼ばれる文書に関する情報が格納されています。メタデータには、文書の執筆者や最終変更日、新旧のバージョンを行き来するための変更履歴などが含まれています。
 
@@ -94,11 +105,11 @@ todo_broken_links:
 
 しかし、ここで重要なのは、ブラウザーだけがユーザーエージェントではないということです。たとえば、Google や Yahoo! が自社の検索エンジンのために利用する、Web の自動インデックスプログラムもユーザーエージェントになります (ただし、この場合は人間が直接プログラムを操作することはありません)。
 
-## HTML はどんなもの？
+## <span>HTML はどんなもの？</span>
 
 HTML は文書の内容とその意味をプレーンテキストで表すフォーマットです。たとえば、以下のようなものです。
 
-``` {.html}
+``` html
 <p id="example">ここは段落です。</p>
 ```
 
@@ -108,7 +119,7 @@ HTML は文書の内容とその意味をプレーンテキストで表すフォ
 
 多くのブラウザーには「ソース」または「ソースを表示」という機能が搭載されており、たいていの場合「表示」メニューから選択することができます。もし、あなたの利用するブラウザーがソース表示機能を提供していたら、選択してページの HTML ソースをしばらく眺めてみましょう。
 
-## HTML のあゆみ
+## <span>HTML のあゆみ</span>
 
 [インターネットと Web の歴史](/w/index.php?title=The_history_of_the_Web/ja&action=edit&redlink=1) では、どのように Web が成立したかその歴史が語られています。そしてそこには、Tim Berners-Lee が World Wide Web を発明したとき、彼は最初の Web サーバーと Web ブラウザー、そして [HTML の最初のバージョン](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/MarkUp.html) を作成したことが書かれています。
 
@@ -130,11 +141,11 @@ HTML は文書の内容とその意味をプレーンテキストで表すフォ
 
 2000 年に、W3C は XHTML 1.0 仕様を公開しました。これは、HTML を valid な XML 文書フォーマットになるよう再構成したものです。
 
-## HTML 文書の構�
+## <span>HTML 文書の構造</span>
 
 シンプルで valid な HTML 文書は、次のようなものになるでしょう。
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -161,13 +172,13 @@ DOCTYPE 宣言の次にあるのが、`html` 要素の開始タグになりま�
 
 要素は他の要素を含むことが多いです。とくに文書の本文部分は、多くの入れ子になった要素から構成されることでしょう。`article` 、 `header` や `div` 要素などの文書構造要素は、いくつもの区画を構成し、各区画はさらに細分化された区画より構成されます。ここの区画は見出しや段落、リストなどを含むでしょう。段落は、他のページへのリンク、引用、強調などを含むことができます。これらの要素については、後ほど解説していきます。
 
-## HTML 要素の構文
+## <span>HTML 要素の構文</span>
 
 基本的な HTML の要素は、テキストを2つのタグで囲ったものになります。そしてほとんどの要素は別の要素を囲むことができます(上記の例であれば、`html` が `head` と `body` を囲っています)。いくつかの要素では、テキストや他の要素を囲まないものもあります。たとえば `img` 要素です。これらについても、おいおい解説していきます。
 
 要素は属性を持つことがあります。属性とは要素の挙動を変更したり、意味を付け加えたりするものです。別の例を見てみましょう。
 
-``` {.html}
+``` html
 <header>
   <h1>The Basics of
     <abbr title="Hypertext Markup Language">HTML</abbr>
@@ -187,7 +198,7 @@ HTML の属性の多くは、すべての要素に対して使えますが、特
 
 ある要素内に別の要素があるとき、内側の要素は外の要素の「子」と表現されます。さっきの例では、`abbr` は `h1` 要素の子要素で、またその `h1` も header の子要素になります。逆に、`header` は `h1` の「親」と表現されます。この「親子」という概念は CSS の基礎を構成し、また JavaScript で頻繁に使われるので、とても重要です。
 
-## ブロックレベル要素とインライン要�
+## <span>ブロックレベル要素とインライン要素</span>
 
 HTML の要素は「ブロックレベル要素」と「インライン要素」というふたつの大きなカテゴリーに分けられます。これらは、要素の型や、要素が指し示すものの構造を表します。
 
@@ -195,7 +206,7 @@ HTML の要素は「ブロックレベル要素」と「インライン要素」
 
 インライン要素はブロックレベル要素の内側に含まれ、文書内容のうち一部分を囲むものです。ですから、段落全体や、内容をまとめるものではありません。インライン要素は新しい行を生成せず、テキストの段落内に表示されます。インライン要素のうち広く使われるものに、ハイパーリンク、言葉の強調表示や短い引用分があります。
 
-## 文字参照
+## <span>文字参照</span>
 
 HTML について、最後にもうひとつ説明することがあります。特殊文字の書き方です。
 
@@ -208,12 +219,3 @@ Web ページを初めて作る人が犯しやすいミスのひとつに、ア�
 そして、参照はアンパサンド (&) により開始され、セミコロン (;) によって終了されます。しかしながら、多くのユーザーエージェントが HTML の間違えを許容する特殊な処理を行い、セミコロンのない “&pound” のようなものも文字参照として扱います。参照は数値によるもの (数値参照) と短縮表記された言葉によるもの (実体参照) が存在します。
 
 アンパサンドを文字として表示させたい場合は、"`&amp;`" と記述する必要があります。これは文字実体参照ですが、"`&#38;`" という数値参照も利用できます。[evolt.org](http://www.evolt.org/article/A_Simple_Character_Entity_Chart/17/21234/) には文字参照が表でまとめられています。
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-This content was originally published on [DevOpera](http://dev.opera.com), Opera's Developer Network. .
-
-**言語:**
-:   **[English](/guides/the_basics_of_html)**  • <span lang="es">[español](/guides/the_basics_of_html/es)</span> • <span lang="ja">**日本語**</span> • <span lang="ko">[한국어](/guides/the_basics_of_html/ko)</span> • <span lang="sv">[svenska](/guides/the_basics_of_html/sv)</span>

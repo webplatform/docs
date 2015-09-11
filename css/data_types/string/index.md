@@ -1,21 +1,19 @@
 ---
-title: string
+title: <string>
+code_samples:
+  - 'http://gist.github.com/10608944'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The &lt;string&gt; CSS data type represents character data surrounded with either single ('') or double (&quot;) quote characters.  Any unicode characters can be included in the string, but many need to be expressed with escape sequences.'
 tags:
   - Data
   - Type
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The <string> CSS data type represents character data surrounded with either single ('') or double (") quote characters.  Any unicode characters can be included in the string, but many need to be expressed with escape sequences.'
-code_samples:
-  - 'http://gist.github.com/10608944'
 uri: 'css/data types/string'
 
 ---
-# \<string\>
+## <span>Summary</span>
 
-## Summary
-
-The \<string\> CSS data type represents character data surrounded with either single (') or double (") quote characters. Any unicode characters can be included in the string, but many need to be expressed with escape sequences.
+The &lt;string&gt; CSS data type represents character data surrounded with either single (') or double (&quot;) quote characters. Any unicode characters can be included in the string, but many need to be expressed with escape sequences.
 
  The CSS escape character is the backslash (**\\**). There are two ways to create an escape sequence:
 
@@ -32,11 +30,11 @@ The following characters always need to be escaped:
 
 If you wish to break a long string of text across multiple lines in your source code, you can insert a **\\** escape character immediately before the line break. The escaped linebreak is **not** included in the resulting string. To include a line break character in the final string value, you will also need to add a **\\a** escape sequence.
 
-## Examples
+## <span>Examples</span>
 
 **Escape characters in strings**
 
-``` {.css}
+``` css
 body::before {
     content: "Don't you just \A \"\2665\22 \a the live \
               code examples?";
@@ -54,12 +52,11 @@ the live code examples?
 
 [View live example](http://code.webplatform.org/gist/10608944)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Values and Units Module Level 3](http://www.w3.org/TR/css3-values/#strings)
 :   W3C Candidate Recommendation
+
 [CSS 2.1](http://www.w3.org/TR/CSS21/syndata.html#strings)
 :   W3C Recommendation
 

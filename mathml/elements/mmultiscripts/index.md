@@ -1,31 +1,33 @@
 ---
 title: mmultiscripts
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mmultiscripts)'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[mathml](/mathml)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The MathML mmultiscripts element allows you to create tensor-like objects.'
 tags:
   - Markup
   - Elements
   - MathML
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The MathML mmultiscripts element allows you to create tensor-like objects.'
 uri: mathml/elements/mmultiscripts
 
 ---
-# mmultiscripts
-
-## Summary
+## <span>Summary</span>
 
 The MathML mmultiscripts element allows you to create tensor-like objects.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [mathml](/mathml)
 
-## Examples
+## <span>Examples</span>
 
 These examples demonstrate a simple usage of the mmultiscripts element:
 
-``` {.html}
+``` html
 
 
 <math>
@@ -65,24 +67,16 @@ These examples demonstrate a simple usage of the mmultiscripts element:
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [MathML 3.0](http://www.w3.org/TR/MathML3/chapter3.html#presm.mmultiscripts)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/MathML/Element/mmultiscripts)
 
 In a descriptive way [tensors](http://en.wikipedia.org/wiki/Tensor) are multidimensional matrices (mathematical imprecise but exemplified). The degree of a tensor depends on the dimensionality of a representative array. For example, a number is a 0-dimensional array, or a 0th-order tensor. A 1-dimensional array (e.g. vectors) is a 1st-order tensor and so 2nd-order tensors are needed to represent square matrices. To learn more about the mathematical background of tensors refer to the [entry on Wikipedia](http://en.wikipedia.org/wiki/Tensor).
 
 MathML uses a special syntax to describe subscripts and superscripts for both, postscripts and prescripts, attached to a base expression:
 
-``` {.html}
+``` html
 <mmultiscripts>
     base
      (subscript superscript)*
@@ -92,7 +86,7 @@ MathML uses a special syntax to describe subscripts and superscripts for both, p
 
 After the base expression you can specify a postsubscript and a postsuperscript. Prescripts are optional and are separated by the empty tag \<mprescripts/\>. In addition you are able to use \<none/\> as a placeholder for empty positions.
 
-## Attributes
+## <span>Attributes</span>
 
  subscriptshift
 :   The minimum space by which to shift the subscript below the baseline of the expression, as a CSS length.

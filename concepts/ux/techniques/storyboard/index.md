@@ -1,43 +1,40 @@
 ---
-title: storyboard
+title: Storyboard
+readiness: 'Not Ready'
+summary: 'A User eXperience (UX) design technique'
 tags:
   - Concept
   - Pages
   - Design
   - UI
   - Usability
-readiness: 'Not Ready'
-summary: 'A User eXperience (UX) design technique'
 uri: concepts/ux/techniques/storyboard
 
 ---
-# Storyboard
-
-## Summary
+## <span>Summary</span>
 
 A User eXperience (UX) design technique
 
-### What it is
+### <span>What it is</span>
 
 Use of story telling to quickly visualize or share a solution to specific requirements making use of personas and their behaviors, stories and known constraints.
 
-### Who does it
+### <span>Who does it</span>
 
 The UX team, preferabel by engaging the client if possible.
 
-### Key benefits
+### <span>Key benefits</span>
 
 -   Help us think about the problem in a creative way.
 -   Facilitates focused communication.
 -   Affordable and easy to do.
 
-## Usage
+## <span>Usage</span>
 
      At Scoping
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 [User eXperience (UX) Design Techniques](/concepts/ux/techniques)
-

@@ -1,40 +1,54 @@
 ---
 title: overflow-y
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/6947763'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`visible`'
+  'Applies to': 'non-replaced block-level elements and non-replaced ‘inline-block’ elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified, except ‘visible’'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`overflowY`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Working Draft'
 summary: 'The overflow-y property is a specific case of the generic overflow property. It controls how extra content exceeding the y-axis of the bounding box of an element is rendered.'
-code_samples:
-  - 'http://gist.github.com/6947763'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/overflow-y
 
 ---
-# overflow-y
-
-## Summary
+## <span>Summary</span>
 
 The overflow-y property is a specific case of the generic overflow property. It controls how extra content exceeding the y-axis of the bounding box of an element is rendered.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `visible`
+
 Applies to
 :   non-replaced block-level elements and non-replaced ‘inline-block’ elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified, except ‘visible’
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `overflowY`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `overflow-y: auto`
 -   `overflow-y: hidden`
@@ -43,7 +57,7 @@ Animatable
 -   `overflow-y: scroll`
 -   `overflow-y: visible`
 
-## Values
+## <span>Values</span>
 
 visible
 :   Default. Content is not clipped and scroll bars are not added. Elements are clipped to the size of the containing window or frame.
@@ -63,11 +77,11 @@ no-display
 no-content
 :   When the content doesn't fit in the content box, the whole content is hidden, as if ‘visibility: hidden’ were specified.
 
-## Examples
+## <span>Examples</span>
 
 Using `overflow-y` with its values.
 
-``` {.css}
+``` css
 .hidden {
     overflow-y: hidden;
 }
@@ -84,31 +98,24 @@ Using `overflow-y` with its values.
 
 [View live example](http://code.webplatform.org/gist/6947763)
 
-## Usage
+## <span>Usage</span>
 
      The overflow-y CSS property specifies whether to clip content, render a scroll mechanism, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS basic box model](http://dev.w3.org/csswg/css-box/#overflow-x)
 :   Editor's Draft
+
 [CSS3 module: The box model](http://www.w3.org/TR/2002/WD-css3-box-20021024/)
 :   Working Draft
+
 [CSS basic box model](http://www.w3.org/TR/css3-box/#overflow1)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related Properties
+### <span>Related Properties</span>
 
 -   [overflow](/css/properties/overflow)
 -   [overflow-x](/css/properties/overflow-x)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

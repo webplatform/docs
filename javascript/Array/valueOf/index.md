@@ -1,33 +1,35 @@
 ---
 title: valueOf
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155290(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the primitive value of the specified object.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Returns the primitive value of the specified object.'
 uri: javascript/Array/valueOf
 
 ---
-# valueOf
-
-## Summary
+## <span>Summary</span>
 
 Returns the primitive value of the specified object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     valueOf()
 
-## Return Value
+## <span>Return Value</span>
 
 Returns the array instance.
 
-## Examples
+## <span>Examples</span>
 
 In the following example, the instantiated array object is the same as the return value of this method.
 
-``` {.js}
+``` js
 var arr = [1, 2, 3, 4];
  var s = arr.valueOf();
 
@@ -40,15 +42,9 @@ var arr = [1, 2, 3, 4];
  // same
 ```
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.2.4.4 Object.prototype.valueOf ( )](http://www.ecma-international.org/ecma-262/5.1/#sec-15.2.4.4) ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/jj155290(v=vs.94).aspx)
 

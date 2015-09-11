@@ -1,24 +1,27 @@
 ---
 title: div
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/div)'
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Add Category, Parent and Children information. Complete Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLDivElement](/dom/HTMLDivElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The div element (&lt;div&gt;) is a generic block-level container that has no semantic value other than the one that you give it via id or class attributes. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add Category, Parent and Children information. Complete Compatibility information.'
-summary: 'The div element (<div>) is a generic block-level container that has no semantic value other than the one that you give it via id or class attributes. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.'
 uri: html/elements/div
 
 ---
-# div
+## <span>Summary</span>
 
-## Summary
+The div element (&lt;div&gt;) is a generic block-level container that has no semantic value other than the one that you give it via id or class attributes. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.
 
-The div element (\<div\>) is a generic block-level container that has no semantic value other than the one that you give it via id or class attributes. It can be used for a variety of purposes including the styling of common elements, or for grouping elements with common attributes.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLDivElement](/dom/HTMLDivElement)
@@ -27,11 +30,11 @@ The div tag contains no native semantics, and is only effectively used for styli
 
 In some cases, other elements may be more suitable, like [article](/html/elements/article), [section](/html/elements/section), [fieldset](/html/elements/fieldset), [nav](/html/elements/nav), [header](/html/elements/section), [footer](/html/elements/footer), or [main](/html/elements/main)
 
-## Examples
+## <span>Examples</span>
 
 This example shows two DIVs, one inside the other, that define a main content section, then a subsection within that. Each DIV is semantically defined using a class or ID.
 
-``` {.html}
+``` html
 
 
 <div id="mainContent">
@@ -44,26 +47,24 @@ This example shows two DIVs, one inside the other, that define a main content se
 
 </pre>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/grouping-content.html#the-div-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/grouping-content.html#the-div-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/global.html#edef-DIV)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -161,15 +162,42 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-## Attribution
+-   [img](/html/elements/img)
 
-*This article contains content originally from external sources.*
+-   [input](/html/elements/input)
 
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/HTML/Element/div)
+-   [ins](/html/elements/ins)
 
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
+-   [kbd](/html/elements/kbd)
 
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)

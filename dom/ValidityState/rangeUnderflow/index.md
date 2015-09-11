@@ -1,43 +1,53 @@
 ---
 title: rangeUnderflow
+attributions:
+  - 'Microsoft Developer Network: [[rangeUnderflow Property](http://msdn.microsoft.com/en-us/library/ie/hh773360(v=vs.85).aspx) Article]'
+  - 'Portions of this content come from HTML5Rocks! [[Making forms fabulous](http://www.html5rocks.com/en/tutorials/forms/html5forms/) article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/ValidityState
+    href: /dom/ValidityState
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/ValidityState
+standardization_status: 'W3C Working Draft'
+summary: 'Returns whether a value is less than the min attribute on an input control.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns whether a value is less than the min attribute on an input control.'
 uri: dom/ValidityState/rangeUnderflow
 
 ---
-# rangeUnderflow
-
-## Summary
+## <span>Summary</span>
 
 Returns whether a value is less than the min attribute on an input control.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/ValidityState](/dom/ValidityState)</span></span>
+Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var rangeUnderflow = element.validity.rangeUnderflow;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 Whether a value is less than the **min** attribute.
 
-## Examples
+## <span>Examples</span>
 
 The following example validates a numeric (type="number") input field on the onblur event handler. If a number outside the range values of the input control is entered the custom validity message is displayed when the form is submitted.
 
-``` {.js}
+``` js
 <label>Enter a number between 4 and 20<br/>
 <input id="myField" type="number" required  min="4" max="20" step="2" /></label>
 <script type="text/javascript">
@@ -60,20 +70,10 @@ el.addEventListener('blur',validRange,false);
 </script>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[rangeUnderflow Property](http://msdn.microsoft.com/en-us/library/ie/hh773360(v=vs.85).aspx) Article]
-
-Portions of this content come from HTML5Rocks! [[Making forms fabulous](http://www.html5rocks.com/en/tutorials/forms/html5forms/) article]
-

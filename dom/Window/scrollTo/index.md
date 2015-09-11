@@ -1,66 +1,63 @@
 ---
 title: scrollTo
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[scrollTo](https://developer.mozilla.org/en-US/docs/Web/API/Window.scrollTo) Article]'
+  - 'Microsoft Developer Network: [[scrollTo Method](http://msdn.microsoft.com/en-us/library/ie/ms536731(v=vs.85).aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Window
+    href: /dom/Window
+summary: 'Scrolls the window to the specified x- and y-offset.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-summary: 'Scrolls the window to the specified x- and y-offset.'
 uri: dom/Window/scrollTo
 
 ---
-# scrollTo
-
-## Summary
+## <span>Summary</span>
 
 Scrolls the window to the specified x- and y-offset.
 
-*Method of [dom/Window](/dom/Window)*
+Method of [dom/Window](/dom/Window)[dom/Window](/dom/Window)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  window.scrollTo(/* see parameter list */);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### x
+### <span>x</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
 **Integer**Â that specifies the horizontal scroll offset, in pixels.
 
-### y
+### <span>y</span>
 
- Data-typeÂ
+ Data-type
 :   Number
 
 **Integer**Â that specifies the vertical scroll offset, in pixels.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 window.scrollTo( 0, 1000 );
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The specified offsets are relative to the upper-left corner of the window.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [[scrollTo](https://developer.mozilla.org/en-US/docs/Web/API/Window.scrollTo) Article]
-
-Portions of this content come from the Microsoft Developer Network: [[scrollTo Method](http://msdn.microsoft.com/en-us/library/ie/ms536731(v=vs.85).aspx) Article]
-

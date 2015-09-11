@@ -1,33 +1,35 @@
 ---
 title: getMilliseconds
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/52s3k2tf(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Gets the milliseconds of a Date, using local time.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Gets the milliseconds of a Date, using local time.'
 uri: javascript/Date/getMilliseconds
 
 ---
-# getMilliseconds
-
-## Summary
+## <span>Summary</span>
 
 Gets the milliseconds of a Date, using local time.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.getMilliseconds()
 
-## Return Value
+## <span>Return Value</span>
 
 Returns the milliseconds of a date. The value can range from 0-999. If a date has been constructed without specifying the milliseconds, the value returned is 0.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use the **getMilliseconds** method.
 
-``` {.js}
+``` js
 var date = new Date("1/1/2001");
  document.write(date.getMilliseconds());
  document.write("<br/>");
@@ -39,21 +41,15 @@ var date = new Date("1/1/2001");
  // 5
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required dateObj reference is a **Date** object. To get the number of milliseconds in Universal Coordinated Time (UTC), use the **getUTCMilliseconds** method.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getUTCMilliseconds Method (Date)](/javascript/Date/getUTCMilliseconds)
 -   [setMilliseconds Method (Date)](/javascript/Date/setMilliseconds)
 -   [setUTCMilliseconds Method (Date)](/javascript/Date/setUTCMilliseconds)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/52s3k2tf(v=vs.94).aspx)
 

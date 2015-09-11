@@ -1,55 +1,56 @@
 ---
-title: getting started with javascript
+title: Getting started with JavaScript
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Getting_Started)'
+notes:
+  - 'Needs some content, fix broken links'
+readiness: 'In Progress'
+summary: 'This tutorial provides a brief introduction to JavaScript, for readers who are already familiar with programming concepts'
 tags:
   - Tutorials
   - JavaScript
-readiness: 'In Progress'
-notes:
-  - 'Needs some content, fix broken links'
-summary: 'This tutorial provides a brief introduction to JavaScript, for readers who are already familiar with programming concepts'
-uri: 'tutorials/getting started with javascript'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'tutorials/getting started with javascript/DOM/event/keypress'
     - 'tutorials/getting started with javascript/DOM/event.charCode'
+uri: 'tutorials/getting started with javascript'
 
 ---
-# Getting started with JavaScript
-
-## Summary
+## <span>Summary</span>
 
 This tutorial provides a brief introduction to JavaScript, for readers who are already familiar with programming concepts
 
-## Why JavaScript?
+## <span>Why JavaScript?</span>
 
 JavaScript is a powerful, complicated and not very well understood language in the field of computer languages. However, at its core potential lies the ability to develop a new range of applications that will likely change the landscape of the internet in this decade. A good example of one of these applications is [Google Maps](http://local.google.com/).
 
 The primary advantage to JavaScript, which is also known as ECMAScript, centers around the web browser, thus having the ability to produce the same results on all platforms supported by the browser. The examples on this page, just like Google Maps, run on Linux, Windows and the Mac OS. With the recent growth of numerous JavaScript libraries, it is now easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. Unlike the hype around other technologies pushed by various proprietary interests, JavaScript is really the only cross-platform, client-side programming language that is both free and universally adopted.
 
-## What you should already know
+## <span>What you should already know</span>
 
 JavaScript is a very easy language to start programming with. All you need is a text editor and a web browser to get started.
 
 There are many other technologies that can be integrated into and developed along with JavaScript that are beyond the scope of this document. Don't expect to make a whole application like Google maps all on your first day!
 
-## Getting Started
+## <span>Getting Started</span>
 
 Getting started with JavaScript is very easy. You don't have to have complicated development programs installed. You don't have to know how to use a shell, program Make or use a compiler. JavaScript is interpreted by your web browser. All you have to do is save your program as a text file and then open it up in your web browser. That's it!
 
 JavaScript is a great programming language for introductory computer courses. It allows instant feedback to the new student and teaches them about tools they will likely find useful in their real life. This is in stark contrast to C, C++ and Java which are really only useful for dedicated software developers.
 
-## Browser Compatibility Issues
+## <span>Browser Compatibility Issues</span>
 
 There are variations between what functionality is available in the different browsers. Mozilla, Microsoft IE, Apple Safari and Opera fluctuate in the behavior. We intend on documenting these variations. You can mitigate these issues by using the various cross platform JavaScript APIs that are available. These APIs provide common functionality and hide these browser fluctuations from you.
 
-## How to try the Examples
+## <span>How to try the Examples</span>
 
 The examples below have some sample code. There are many ways to try these examples out. If you already have your own website, then you should be able to just save these examples as new web pages on your website.
 
 If you do not have your own website, you can save these examples as files on your computer and open them up with the web browser you are using now. JavaScript is a very easy language to use for beginning programmers for this reason. You don't need a compiler or a development environment; you and your browser are all you need to get started!
 
-## Example: Catching a mouse click
+## <span>Example: Catching a mouse click</span>
 
 The specifics of event handling (event types, handler registration, propagation, etc) are too extensive to be fully covered in this simple example. However this example cannot demonstrate catching a mouse click without delving a little into the JavaScript event system. Just keep in mind that this example will only graze the full details about JavaScript events and that if you wish to go beyond the basic capabilities described here to read more about the JavaScript event system.
 
@@ -70,18 +71,18 @@ The simplest method for capturing these events, to register event handlers — u
 
 The JavaScript code you wish to execute can be inlined as the attribute value or you can call a function which has been defined in a `<script>` block within the HTML page:
 
-``` {.html}
+``` html
  <script type="text/javascript">;
    function onclick_callback () {
       alert ("Hello, World!");
    }
- </script&gt;
+ </script>
  <span onclick="onclick_callback();">Click Here</span>;
 ```
 
 Additionally, the event object which is issued can be captured and referenced; providing the developer with access to specifics about the event such as which object received the event, the event's type, and which mouse button was clicked. Using the inline example again:
 
-``` {.html}
+``` html
  <script type="text/javascript">
    function onclick_callback(event) {
      var eType = event.type;
@@ -92,13 +93,13 @@ Additionally, the event object which is issued can be captured and referenced; p
 
      alert( "Captured Event (type=" + eType + ", target=" + eTarget );
    }
- </script&gt;
+ </script>
  <span onclick="onclick_callback(event);">Click Here</span>
 ```
 
 In addition to registering to receive events in your HTML you can likewise set the same attributes of any HTMLElement objects generated by your JavaScript. The example below instantiates a span object, appends it to the page body, and registers the span object to recieve mouse-over, mouse-out, mouse-down, and mouse-up events.
 
-``` {.html}
+``` html
  <script type="text/javascript">
    function mouseevent_callback(event) {
      /* The following is for compatability */
@@ -135,7 +136,7 @@ In addition to registering to receive events in your HTML you can likewise set t
 **DRAFT**
 <font size="x-small">This page is not complete.</font>
 
-## Example: Catching a keyboard event
+## <span>Example: Catching a keyboard event</span>
 
 Similar to the "Catching a mouse event" example above, catching a keyboard event relies on exploring the JavaScript event system. Keyboard events are fired whenever any key is used on the keyboard.
 
@@ -150,25 +151,25 @@ In a [keypress](/w/index.php?title=tutorials/getting_started_with_javascript/DOM
 
 The simplest method for capturing keyboard events is again to register event handlers within the HTML, specifying the individual events as attributes for your element. Example:
 
-``` {.html}
-   <input type="text" onkeypress="alert ('Hello World!');"&gt;&lt;/input&gt;
+``` html
+   <input type="text" onkeypress="alert ('Hello World!');"></input>
 ```
 
 As with mouse events, the JavaScript code you wish to execute can be inlined as the attribute value or you can call a function which has been defined in a &lt;script\> block within the HTML page:
 
-``` {.html}
+``` html
  <script type="text/javascript">
    function onkeypress_callback () {
      alert ("Hello, World!");
    }
- </script&gt;
+ </script>
 
  <input onkeypress="onkeypress_callback();"></input>
 ```
 
 Capturing the event and referencing the target (i.e. the actual key that was pressed) is achieved in a similar way to mouse events:
 
-``` {.html}
+``` html
  <script type="text/javascript">
    function onkeypress_callback(evt) {
        var eType = evt.type; // Will return "keypress" as the event type
@@ -177,13 +178,13 @@ Capturing the event and referencing the target (i.e. the actual key that was pre
 
        alert ("Captured Event (type=" + eType + ", key Unicode value=" + eCode + ", ASCII value=" + eChar + ")");
     }
- </script&gt;
- <input onkeypress="onkeypress_callback(event);"&gt;&lt;/input&gt;
+ </script>
+ <input onkeypress="onkeypress_callback(event);"></input>
 ```
 
 Capturing any key event from the page can be done by registering the event at the document level and handling it in a function:
 
-``` {.html}
+``` html
  <script type="text/javascript">
    document.onkeypress = key_event(event);
    document.onkeydown = key_event(event);
@@ -201,11 +202,11 @@ Capturing any key event from the page can be done by registering the event at th
 
 Here is a complete example that shows key event handling:
 
-``` {.html}
- <!DOCTYPE html&gt;
- <html&gt;
- <head&gt;
-   <script&gt;
+``` html
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <script>
      var metaChar = false;
      var exampleKey = 16;
      function keyEvent(event) {
@@ -230,7 +231,7 @@ Here is a complete example that shows key event handling:
  </html>
 ```
 
-### Browser bugs and quirks
+### <span>Browser bugs and quirks</span>
 
 The two properties made available through the key events are `keyCode` and `charCode`. In simple terms, `keyCode` refers to the actual keyboard key that was pressed by the user, while `charCode` is intended to return that key's ASCII value. These two values may not necessarily be the same; for instance, a lower case 'a' and an upper case 'A' have the same `keyCode`, because the user presses the same key, but a different `charCode` because the resulting character is different.
 
@@ -241,17 +242,17 @@ Refer to the documentation on Keyboard Events for a further treatment of keyboar
 **DRAFT**
 <font size="x-small">This page is not complete.</font>
 
-## Example: Dragging images around
+## <span>Example: Dragging images around</span>
 
 The following example allows moving the image of firefox around the page.
 
-``` {.html}
+``` html
  <!DOCTYPE html>
  <html>
  <head>
  <style type='text/css'>
  img { position: absolute; }
- </style&gt;
+ </style>
 
  <script type='text/javascript'>
  window.onload = function() {
@@ -297,22 +298,15 @@ The following example allows moving the image of firefox around the page.
  <body>
    <img id="ImgMov" src="http://mozcom-cdn.mozilla.net/img/covehead/about/logo/download/logo-only.png" width="64" height="64" />
    <p>Drag and drop around the image in this page.</p>
- </body&gt;
+ </body>
 
  </html>
 ```
 
-## Example: Resizing things
+## <span>Example: Resizing things</span>
 
 <span class="inlineIndicaor todoInline">**FIXME:** *Need Content. Or, remove headline*</span>
 
-## Example: Drawing Lines
+## <span>Example: Drawing Lines</span>
 
 <span class="inlineIndicaor todoInline">**FIXME:** *Need Content. Or, remove headline*</span>
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Getting_Started)
-

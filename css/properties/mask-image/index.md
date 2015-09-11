@@ -1,42 +1,56 @@
 ---
 title: mask-image
+notes:
+  - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified, but with URIs made absolute.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'This property sets the mask image or the mask source of an element.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
-summary: 'This property sets the mask image or the mask source of an element.'
 uri: css/properties/mask-image
 
 ---
-# mask-image
-
-## Summary
+## <span>Summary</span>
 
 This property sets the mask image or the mask source of an element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified, but with URIs made absolute.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `mask-image: <child-selector>`
 -   `mask-image: <image>`
@@ -44,7 +58,7 @@ Percentages
 -   `mask-image: child`
 -   `mask-image: none`
 
-## Values
+## <span>Values</span>
 
 none
 :   Counts as an image layer but does not mask the element.
@@ -61,9 +75,9 @@ child
 \<child-selector\>
 :   A functional notation accepting a comma-separated list of compound selectors that represents the first matching child \<mask\> element in DOM tree order.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* CSS gradient */
 body { mask-image: linear-gradient(black 0%, transparent 100%) }
 
@@ -74,10 +88,7 @@ p { mask-image: none }
 div { mask-image: url(dot-mask.png) }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Masking Level 1](https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html)
 :   W3C Editor's Draft
-

@@ -1,34 +1,27 @@
 ---
 title: quota management
+notes:
+  - 'The members for this specification are not represented accurately. Some are missing, and others are attributed that should not be.'
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Manages usage and availability of local storage resources, and defines a means by which a user agent may grant Web applications permission to use more local space, temporarily or persistently, via various storage APIs.'
 tags:
   0: API
   1: Listings
   3: Quota
   4: Management
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'The members for this specification are not represented accurately. Some are missing, and others are attributed that should not be.'
-summary: 'Manages usage and availability of local storage resources, and defines a means by which a user agent may grant Web applications permission to use more local space, temporarily or persistently, via various storage APIs.'
 uri: 'apis/quota management'
 
 ---
-# quota management
-
-## Summary
+## <span>Summary</span>
 
 Manages usage and availability of local storage resources, and defines a means by which a user agent may grant Web applications permission to use more local space, temporarily or persistently, via various storage APIs.
 
-API Name
-:   Summary
-[StorageQuota](/apis/quota_management/StorageQuota)
-:   Provides a means to query and request storage usage and quota information.
+## <span>See also</span>
 
-## See also
+### <span>Related articles</span>
 
-### Related articles
-
-#### Off-line Storage
+#### <span>Off-line Storage</span>
 
 -   [appcache](/apis/appcache)
 
@@ -40,8 +33,6 @@ API Name
 
 -   **quota management**
 
--   [StorageQuota](/apis/quota_management/StorageQuota)
-
 -   [queryUsageAndQuota](/apis/quota_management/queryUsageAndQuota)
 
 -   [requestQuota](/apis/quota_management/requestQuota)
@@ -50,9 +41,6 @@ API Name
 
 -   [Introduction to using the application cache](/tutorials/appcache_beginner)
 
--   [Overview of client-side storage](/tutorials/offline_storage)
-
-### Other articles
+### <span>Other articles</span>
 
 [Quota Management API W3C Specification](https://dvcs.w3.org/hg/quota/raw-file/tip/Overview.html)
-

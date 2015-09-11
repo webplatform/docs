@@ -1,80 +1,123 @@
 ---
 title: beforeprint
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeprint.htm'
+notes:
+  - 'Needs summary, spec, and compat'
+readiness: 'In Progress'
 tags:
   - Events
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, spec, and compat'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeprint.htm'
 uri: dom/Event/beforeprint
 
 ---
-# beforeprint
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   dom/Element
-Cancelable
-:   No
-Default action
-:    ?
 
-## Examples
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+dom/Element
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+## <span>Examples</span>
 
 This example uses the **onbeforeprint** to make all hidden sections of the document visible just before the document prints. The [**onafterprint**](/dom/Event/afterprint) event is processed after the document prints to return the document to its original state.
 
-    function window.onbeforeprint()
-    {
-        // Walk through all the elements in the document with
-        // CLASS="collapsed" and set it to "expanded" just for printing.
-       var coll = document.all.tags("DIV");
-       if (coll!=null)
-       {
-          for (i=0; i<coll.length; i++)
-             if (coll[i].className == "collapsed")
-             {
-               coll[i].className = "expanded";
+``` html
+function window.onbeforeprint()
+{
+    // Walk through all the elements in the document with
+    // CLASS="collapsed" and set it to "expanded" just for printing.
+   var coll = document.all.tags("DIV");
+   if (coll!=null)
+   {
+      for (i=0; i<coll.length; i++)
+         if (coll[i].className == "collapsed")
+         {
+           coll[i].className = "expanded";
 
-            // After printing, make sure to set CLASS="collapsed"
-            // only for those that were expanded just for printing.
-               coll[i].bExpandedForPrinting = true;
-             }
-             else if (coll[i].className == "expanded")
-                coll[i].bExpandedForPrinting = false;
-       }
-    }
-    function window.onafterprint()
-    {
-       // Walk through all the elements in the doc with CLASS="expanded"
-       // and set it to "collapsed" if expanded just for
-       // printing.
-       var coll = document.all.tags("DIV");
-       if (coll!=null)
-       {
-          for (i=0; i < coll.length; i++)
-             if ((coll[i].className == "expanded") &&
-                 (coll[i].bExpandedForPrinting))
-             {
-               coll[i].className = "collapsed";
-               coll[i].bExpandedForPrinting = false;
-             }
-       }
-    }
+        // After printing, make sure to set CLASS="collapsed"
+        // only for those that were expanded just for printing.
+           coll[i].bExpandedForPrinting = true;
+         }
+         else if (coll[i].className == "expanded")
+            coll[i].bExpandedForPrinting = false;
+   }
+}
+function window.onafterprint()
+{
+   // Walk through all the elements in the doc with CLASS="expanded"
+   // and set it to "collapsed" if expanded just for
+   // printing.
+   var coll = document.all.tags("DIV");
+   if (coll!=null)
+   {
+      for (i=0; i < coll.length; i++)
+         if ((coll[i].className == "expanded") &&
+             (coll[i].bExpandedForPrinting))
+         {
+           coll[i].className = "collapsed";
+           coll[i].bExpandedForPrinting = false;
+         }
+   }
+}
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/onbeforeprint.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Use this event to modify the document just before it prints or previews for printing. In most cases it is used to make all the information on the document visible just before printing. Use the event in conjunction with the [**onafterprint**](/dom/Event/afterprint) event to undo the changes made to the document in the **onbeforeprint** event. Prints the document associated with the object for which the event is specified. To invoke this event, do one of the following:
 
@@ -112,20 +155,13 @@ The *pEvtObj* parameter is required for the following interfaces:
 -   **HTMLTextContainerEvents2**
 -   **HTMLWindowEvents2**
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 There are no standards that apply here.
 
-### Event handler parameters
+### <span>Event handler parameters</span>
 
 *pEvtObj* [in]
 :   Type: ****IHTMLEventObj****
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

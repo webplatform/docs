@@ -1,37 +1,43 @@
 ---
 title: feDisplacementMap
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://srufaculty.sru.edu/david.dailey/svg/newstuff/filterDisplacementMap9.svg'
+notes:
+  - 'Needs all content'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'Not Ready'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Needs all content'
-code_samples:
-  - 'http://srufaculty.sru.edu/david.dailey/svg/newstuff/filterDisplacementMap9.svg'
 uri: svg/elements/feDisplacementMap
 
 ---
-# feDisplacementMap
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
+
+``` html
+
+```
 
 [View live example](http://srufaculty.sru.edu/david.dailey/svg/newstuff/filterDisplacementMap9.svg)
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.25.17
 
-### Members
+### <span>Members</span>
 
 The **SVGFEDisplacementMapElement** object has these properties:
 
@@ -45,11 +51,11 @@ The **SVGFEDisplacementMapElement** object has these properties:
 -   [**y**](/svg/properties/y): Gets or sets the y-coordinate value.
 -   [**yChannelSelector**](/svg/properties/yChannelSelector): Specifies which color channel (R/G/B/A) from image 2 to use for the y displacement property with a **FEDisplacementMap** element.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -133,14 +139,7 @@ The **SVGFEDisplacementMapElement** object has these properties:
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**xChannelSelector**](/svg/properties/xChannelSelector)
 -   [**yChannelSelector**](/svg/properties/yChannelSelector)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

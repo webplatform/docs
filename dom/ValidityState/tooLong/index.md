@@ -1,43 +1,53 @@
 ---
 title: tooLong
+attributions:
+  - 'Microsoft Developer Network: [[tooLong Property](http://msdn.microsoft.com/en-us/library/ie/hh773365(v=vs.85).aspx) Article]'
+  - 'Portions of this content come from HTML5Rocks! [[Making forms fabulous](http://www.html5rocks.com/en/tutorials/forms/html5forms/) article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/ValidityState
+    href: /dom/ValidityState
+  return:
+    predicate: 'Returns an object of type '
+    value: Boolean
+    href: /dom/ValidityState
+standardization_status: 'W3C Working Draft'
+summary: 'Returns whether an input field''s value is longer than is allowed by the maxlength attribute.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns whether an input field''s value is longer than is allowed by the maxlength attribute.'
 uri: dom/ValidityState/tooLong
 
 ---
-# tooLong
-
-## Summary
+## <span>Summary</span>
 
 Returns whether an input field's value is longer than is allowed by the maxlength attribute.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/ValidityState](/dom/ValidityState)</span></span>
+Property of [dom/ValidityState](/dom/ValidityState)[dom/ValidityState](/dom/ValidityState)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.validity.tooLong;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Boolean</span></span>
+Returns an object of type BooleanBoolean
 
 Whether a value is longer than is allowed by the **maxlength** attribute.
 
-## Examples
+## <span>Examples</span>
 
 In the following example the tooLong property is used to validate the length of text entered into a text area. However, the validity.tooLong is always false since text greater than the maxlength attribute value cannot be entered.
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -71,24 +81,14 @@ document.getElementById('txtMessage').addEventListener('blur',validLength,false)
 </body></html>
 ```
 
-## Usage
+## <span>Usage</span>
 
      There seems to be little usage for the tooLong validity state test as textarea and input elements do not allow text input past the maxlength value.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5](http://www.w3.org/TR/html5/)
 :   Working Draft
+
 [WHATWG HTML](http://www.whatwg.org/specs/web-apps/current-work/multipage)
 :   Living Standard
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[tooLong Property](http://msdn.microsoft.com/en-us/library/ie/hh773365(v=vs.85).aspx) Article]
-
-Portions of this content come from HTML5Rocks! [[Making forms fabulous](http://www.html5rocks.com/en/tutorials/forms/html5forms/) article]
-

@@ -1,54 +1,68 @@
 ---
 title: behavior
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/components/htc/toc/toc.htm'
+notes:
+  - 'Add values, syntax, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': ''
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+summary: 'Non standard. Sets or retrieves the location of the Dynamic HTML (DHTML) behavior.'
 tags:
   - CSS
   - Properties
   - DOM
-readiness: 'In Progress'
-notes:
-  - 'Add values, syntax, specifications, compatibility.'
-summary: 'Non standard. Sets or retrieves the location of the Dynamic HTML (DHTML) behavior.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/components/htc/toc/toc.htm'
-uri: css/properties/behavior
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/behavior
 
 ---
-# behavior
-
-## Summary
+## <span>Summary</span>
 
 Non standard. Sets or retrieves the location of the Dynamic HTML (DHTML) behavior.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
-:   ``
+:
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
 
-## Syntax
+## <span>Syntax</span>
 
-## Values
+## <span>Values</span>
 
-## Examples
+## <span>Examples</span>
 
 The following examples demonstrate various ways of applying the **-ms-behavior** property on a page.
 
-``` {.html}
+``` html
 <ul>
   <li style="behavior:url(ul.htc) url(hilite.htc)">HTML</li>
   <ul>
@@ -62,7 +76,7 @@ The following examples demonstrate various ways of applying the **-ms-behavior**
 
 This example defines the **-ms-behavior** attribute in a separate **style** block.
 
-``` {.html}
+``` html
 <style>
    .CollapsingAndHiliting {behavior:url(ul.htc) url(hilite.htc)}
 </style>
@@ -77,7 +91,7 @@ This example defines the **-ms-behavior** attribute in a separate **style** bloc
 
 This example sets the **-ms-behavior** property in script.
 
-``` {.html}
+``` html
 <script>
    function window.onload()
    {
@@ -98,7 +112,7 @@ This example sets the **-ms-behavior** property in script.
 
 If the expanding/collapsing example were to use a DHTML behavior implemented in C++ as an ActiveX control, the code would look slightly different. In this example, the **-ms-behavior** attribute points to the [**id**](/html/attributes/id) property of the object specified in the **object** element.
 
-``` {.html}
+``` html
 <style>
    .Collapsing { behavior:url(#myObject) }
 </style>
@@ -112,9 +126,9 @@ If the expanding/collapsing example were to use a DHTML behavior implemented in 
 </ul>
 ```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 You can apply multiple behaviors to an element by specifying a space-delimited list of URLs for the **-ms-behavior** attribute, as shown in the following syntax:
 
@@ -122,15 +136,15 @@ You can apply multiple behaviors to an element by specifying a space-delimited l
 
 In the following section, one example demonstrates how you can apply two behaviors to an element to achieve a combination of effects. Conflicts resulting from applying multiple behaviors to an element are resolved based on the order in which the behavior is applied to the element. Each succeeding behavior takes precedence over the previous behavior. For example, if multiple behaviors set the element's color, the prevailing color is the one set by the behavior last applied to the element. The same rule applies in resolving name conflicts, such as with property, method, or event names exposed by multiple behaviors. Once the **-ms-behavior** property is defined for the element, the **addBehavior** method can be used to dynamically attach additional behaviors to the element. **Note**  A behavior attached to an element by using the **addBehavior** method or by applying the proposed Cascading Style Sheets (CSS) **-ms-behavior** attribute inline is not automatically detached from the element when the element is removed from the document hierarchy. However, a behavior attached using a style rule defined in the document is detached automatically as the element is removed from the document tree. Windows Internet Explorer 8. The **-ms-behavior** attribute is an extension to CSS, and can be used as a synonym for **behavior** in IE8 Standards mode.
 
-### Syntax
+### <span>Syntax</span>
 
 `-ms-behavior: url(sLocation) | url(#objID) | url(#default#behaviorName)`
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Media Queries
+#### <span>Media Queries</span>
 
 -   [Responsive Web Design](/concepts/mobile_web/responsive_design)
 
@@ -170,9 +184,7 @@ In the following section, one example demonstrates how you can apply two behavio
 
 -   **behavior**
 
--   [Targeting styles with media queries](/tutorials/media_queries)
-
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -183,10 +195,3 @@ In the following section, one example demonstrates how you can apply two behavio
 -   `Using DHTML Behaviors`
 -   `Other Resources`
 -   `Behavioral Extensions to CSS`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

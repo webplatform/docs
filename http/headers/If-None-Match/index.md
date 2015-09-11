@@ -1,41 +1,47 @@
 ---
 title: If-None-Match
+overview_table:
+  Direction: Request
+  Features: ''
+summary: 'Makes a request conditional on a resource having changed from the specified ETag (version or representation), for refreshing caches.'
 tags:
   - HTTP
   - Headers
-summary: 'Makes a request conditional on a resource having changed from the specified ETag (version or representation), for refreshing caches.'
 uri: http/headers/If-None-Match
 
 ---
-# If-None-Match
-
-## Summary
+## <span>Summary</span>
 
 Makes a request conditional on a resource having changed from the specified ETag (version or representation), for refreshing caches.
 
-## Overview table
+## <span>Overview table</span>
 
 Direction
 :   Request
+
 Features
 :
 
-## Syntax
+## <span>Syntax</span>
 
     If-None-Match = "*" / 1#entity-tag
 
-## Examples
+## <span>Examples</span>
 
-    If-None-Match: "xyzzy"
+``` html
+If-None-Match: "xyzzy"
+```
 
-    If-None-Match: W/"xyzzy", W/"r2d2xxxx", W/"c3piozzzz"
+``` html
+If-None-Match: W/"xyzzy", W/"r2d2xxxx", W/"c3piozzzz"
+```
 
-    If-None-Match: *
+``` html
+If-None-Match: *
+```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [RFC7232: HTTP/1.1 Conditional Requests](http://tools.ietf.org/html/rfc7232#section-3.2)
 :
 

@@ -1,19 +1,17 @@
 ---
-title: data types
+title: CSS data types
+notes:
+  - 'For list sections, consider not having a summary header if there are no other sections.'
+readiness: 'Ready to Use'
+summary: 'CSS defines different data types which can the be specified as the allowed values for CSS properties or media feature tests.'
 tags:
   - Concept
   - Pages
   - CSS
-readiness: 'Ready to Use'
-notes:
-  - 'For list sections, consider not having a summary header if there are no other sections.'
-summary: 'CSS defines different data types which can the be specified as the allowed values for CSS properties or media feature tests.'
 uri: 'css/data types'
 
 ---
-# CSS data types
-
-## Summary
+## <span>Summary</span>
 
 CSS defines different data types which can the be specified as the allowed values for CSS properties or media feature tests.
 
@@ -34,4 +32,3 @@ CSS defines different data types which can the be specified as the allowed value
 -   [`<resolution>`](/css/data_types/resolution) values specify display or print dot density, typically within CSS [media queries](/css/mediaqueries)
 -   [`<time>`](/css/data_types/time) values specify duration, typically for animations.
 -   [`<frequency>`](/css/data_types/frequency) values specify sound pitches. (Not currently applicable to any CSS property.)
-

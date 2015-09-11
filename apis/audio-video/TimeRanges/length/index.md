@@ -1,42 +1,52 @@
 ---
 title: length
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges.length)'
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/audio-video/TimeRanges
+    href: /apis/audio-video/TimeRanges
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/audio-video/TimeRanges
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Returns the number of ranges in the object.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Audio
   5: Video
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Returns the number of ranges in the object.'
 uri: apis/audio-video/TimeRanges/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 Returns the number of ranges in the object.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)</span></span>
+Property of [apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)[apis/audio-video/TimeRanges](/apis/audio-video/TimeRanges)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = TimeRanges.length;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
-## Examples
+## <span>Examples</span>
 
 Given a video element with the ID "myVideo", this example looks at the time ranges to determine if the entire video has been loaded.
 
-``` {.js}
+``` js
 var v = document.GetElementById("myVideo");
 
 var buf = v.buffered;
@@ -53,18 +63,7 @@ if (buf.length == 1) {
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C HTML5 Specification](http://dev.w3.org/html5/spec/single-page.html)
 :   W3C Editor's Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges.length)
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

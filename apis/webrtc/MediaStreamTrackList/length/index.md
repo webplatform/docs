@@ -1,37 +1,44 @@
 ---
 title: length
+notes:
+  - 'Parent object obsolete; deletion candidate'
+readiness: 'Not Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webrtc/MediaStreamTrackList
+    href: /apis/webrtc/MediaStreamTrackList
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/webrtc/MediaStreamTrackList
+standardization_status: 'W3C Working Draft'
+summary: 'The number of tracks in the list.'
 tags:
   0: API
   1: Object
   2: Properties
   4: WebRTC
-readiness: 'Not Ready'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Parent object obsolete; deletion candidate'
-summary: 'The number of tracks in the list.'
 uri: apis/webrtc/MediaStreamTrackList/length
 
 ---
-# length
-
-## Summary
+## <span>Summary</span>
 
 The number of tracks in the list.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)</span></span>
+Property of [apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)[apis/webrtc/MediaStreamTrackList](/apis/webrtc/MediaStreamTrackList)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var length = list.length;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
 **Needs Examples**: This section should include examples.
 

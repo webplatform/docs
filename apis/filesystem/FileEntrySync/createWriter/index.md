@@ -1,46 +1,50 @@
 ---
 title: createWriter
+notes:
+  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
+readiness: 'Out of Date'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/filesystem/FileEntrySync
+    href: /apis/filesystem/FileEntrySync
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/filesystem/FileEntrySync
+standardization_status: 'W3C Working Draft'
+summary: "Creates a new FileWriterSync associated with the file that this FileEntrySync represents.\n"
 tags:
   0: API
   1: Object
   2: Methods
   4: FileSystemAPI
-readiness: 'Out of Date'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
-summary: "Creates a new FileWriterSync associated with the file that this FileEntrySync represents.\n"
 uri: apis/filesystem/FileEntrySync/createWriter
 
 ---
-# createWriter
-
-## Summary
+## <span>Summary</span>
 
 Creates a new FileWriterSync associated with the file that this FileEntrySync represents.
 
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-*Method of [apis/filesystem/FileEntrySync](/apis/filesystem/FileEntrySync)*
+Method of [apis/filesystem/FileEntrySync](/apis/filesystem/FileEntrySync)[apis/filesystem/FileEntrySync](/apis/filesystem/FileEntrySync)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = FileEntrySync.createWriter();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 FileWriterSync
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft
-

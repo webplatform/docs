@@ -1,43 +1,50 @@
 ---
 title: source
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationPlayer
+    href: /apis/web_animations/AnimationPlayer
+  return:
+    predicate: 'Returns an object of type '
+    value: AnimationNode
+    href: /apis/web_animations/AnimationPlayer
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The source content associated with this player. Setting this attribute updates the object’s source content using the procedure to set the source content of a player.'
 tags:
   0: API
   1: Object
   2: Properties
   4: Web
   5: Animations
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The source content associated with this player. Setting this attribute updates the object’s source content using the procedure to set the source content of a player.'
 uri: 'apis/web animations/AnimationPlayer/source'
 
 ---
-# source
-
-## Summary
+## <span>Summary</span>
 
 The source content associated with this player. Setting this attribute updates the object’s source content using the procedure to set the source content of a player.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)</span></span>
+Property of [apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)[apis/web\_animations/AnimationPlayer](/apis/web_animations/AnimationPlayer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var result = element.source;
 element.source = value;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">AnimationNode</span></span>
+Returns an object of type AnimationNodeAnimationNode
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Animation
+#### <span>Animation</span>
 
 -   [Web Animations API](/apis/web_animations)
 
@@ -58,8 +65,6 @@ element.source = value;
 -   [currentTime](/apis/web_animations/AnimationTimeline/currentTime)
 
 -   [play](/apis/web_animations/AnimationTimeline/play)
-
--   [AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
 -   [@keyframes](/css/atrules/@keyframes)
 
@@ -87,7 +92,4 @@ element.source = value;
 
 -   [transition](/css/properties/transition)
 
--   [SVG animation](/svg/tutorials/smarter_svg_animation)
-
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-

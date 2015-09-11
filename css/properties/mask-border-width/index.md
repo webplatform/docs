@@ -1,49 +1,63 @@
 ---
 title: mask-border-width
+notes:
+  - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'All \<length\>s made absolute, otherwise as specified.'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'Relative to width/height of the mask box image area.'
+readiness: 'In Progress'
+standardization_status: 'W3C Last Call Working Draft'
+summary: 'This property sets the width of the mask box image, similar to the CSS border-image-width property.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Last Call Working Draft'
-notes:
-  - "Add description and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
-summary: 'This property sets the width of the mask box image, similar to the CSS border-image-width property.'
 uri: css/properties/mask-border-width
 
 ---
-# mask-border-width
-
-## Summary
+## <span>Summary</span>
 
 This property sets the width of the mask box image, similar to the CSS border-image-width property.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   All \<length\>s made absolute, otherwise as specified.
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   Relative to width/height of the mask box image area.
 
-## Syntax
+## <span>Syntax</span>
 
 -   `mask-border-width: auto`
 -   `mask-border-width: length`
 -   `mask-border-width: number`
 -   `mask-border-width: percentage`
 
-## Values
+## <span>Values</span>
 
 auto
 :   If specified, the mask box image width is the intrinsic width or height (whichever is applicable) of the corresponding image slice (see [mask-border-slice](/css/properties/mask-border-slice)). If the image does not have the required intrinsic dimension then the corresponding *border-width* is used.
@@ -57,9 +71,9 @@ percentage
 number
 :   Represents multiples of the corresponding computed *border-width*.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* auto */
 #maskbox1: {
     mask-border-width: auto;
@@ -71,7 +85,7 @@ number
 }
 ```
 
-``` {.css}
+``` css
 .exampleone {
     -webkit-mask-border: url('mask.png');
 }
@@ -81,12 +95,10 @@ number
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Masking Level 1](http://www.w3.org/TR/css-masking-1/)
 :   W3C Last Call Working Draft
+
 [CSS Masking Level 1](http://dev.w3.org/fxtf/css-masking-1/)
 :   W3C Editor’s Draft
-

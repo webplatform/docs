@@ -1,17 +1,17 @@
 ---
 title: :visited
-tags:
-  - CSS
-  - Selectors
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: "The\_:visited pseudo-class applies to links the user has visited"
+tags:
+  - CSS
+  - Selectors
 uri: 'css/selectors/pseudo-classes/:visited'
 
 ---
-# :visited
-
-## Summary
+## <span>Summary</span>
 
 The :visited pseudo-class applies to links the user has visited
 
@@ -24,40 +24,33 @@ After some amount of time, user agents may choose to return a visited link to th
 
 The two states are mutually exclusive.
 
-## Examples
+## <span>Examples</span>
 
 The following style rule uses **:visited** to set the [**color**](/css/properties/color) attribute of visited links in a document.
 
-``` {.css}
+``` css
 a:visited { color:blue }
 ```
 
-## Usage
+## <span>Usage</span>
 
      :visited  is often used with :active, :hover, and :link, which are the pseudo-classes that reflect the other states of a link.
 
 The default value of the **:visited** pseudo-class varies by browser, as does the amount of time used to define a recent visit.
 
-## Notes
+## <span>Notes</span>
 
 The pseudo-classes [:link](/css/selectors/pseudo-classes/:link) and :visited can be abused to determine which sites a user has visited.
 
 To preserver their users’ privacy, browsers often implement counter-measures against these abuses, while still rendering visited and unvisited links differently.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#link-pseudo-classes)
 :   W3C Recommendation
+
 [Selectors Level 3](http://www.w3.org/TR/css3-selectors/#link)
 :   W3C Recommendation
+
 [Selectors Level 4](http://dev.w3.org/csswg/selectors4/#link)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,23 +1,24 @@
 ---
-title: javascript statements
+title: JavaScript statements
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Statements)'
+notes:
+  - 'Fix broken links'
+readiness: 'Almost Ready'
+summary: 'JavaScript supports a compact set of statements that you can use to incorporate a great deal of interactivity in Web pages. This chapter provides an overview of these statements.'
 tags:
   - Tutorials
   - JavaScript
-readiness: 'Almost Ready'
-notes:
-  - 'Fix broken links'
-summary: 'JavaScript supports a compact set of statements that you can use to incorporate a great deal of interactivity in Web pages. This chapter provides an overview of these statements.'
-uri: 'tutorials/javascript statements'
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - 'Template:linkToFragment("Object Manipulation Statements")'
     - 'Template:bug("391642")'
+uri: 'tutorials/javascript statements'
 
 ---
-# JavaScript statements
-
-## Summary
+## <span>Summary</span>
 
 JavaScript supports a compact set of statements that you can use to incorporate a great deal of interactivity in Web pages. This chapter provides an overview of these statements.
 
@@ -27,7 +28,7 @@ Use the semicolon (`;`) character to separate statements in JavaScript code.
 
 See the [JavaScript Reference](/javascript/statements) for details about the statements in this chapter.
 
-## Block Statement
+## <span>Block Statement</span>
 
 A block statement is used to group statements. The block is delimited by a pair of curly brackets:
 
@@ -59,11 +60,11 @@ Here, `{ x++; }` is the block statement.
 
 This outputs 2 because the `var x` statement within the block is in the same scope as the `var x` statement before the block. In C or Java, the equivalent code would have outputted 1.
 
-## Conditional Statements
+## <span>Conditional Statements</span>
 
 A conditional statement is a set of commands that executes if a specified condition is true. JavaScript supports two conditional statements: `if...else` and `switch`.
 
-### if...else Statement
+### <span>if...else Statement</span>
 
 Use the `if` statement to execute a statement if a logical condition is true. Use the optional `else` clause to execute a statement if the condition is false. An `if` statement looks as follows:
 
@@ -135,7 +136,7 @@ Do not confuse the primitive boolean values `true` and `false` with the true and
       }
     }
 
-### switch Statement
+### <span>switch Statement</span>
 
 A `switch` statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement. A `switch` statement looks as follows:
 
@@ -181,7 +182,7 @@ The optional `break` statement associated with each `case` clause ensures that t
     }
     document.write("Is there anything else you'd like?<br>");
 
-## Loop Statements
+## <span>Loop Statements</span>
 
 A loop is a set of commands that executes repeatedly until a specified condition is met. JavaScript supports the `for`, `do while`, and `while` loop statements, as well as label (label is not itself a looping statement, but is frequently used with these statements). In addition, you can use the `break` and `continue` statements within loop statements.
 
@@ -196,7 +197,7 @@ The loop statements are:
 -   [break Statement](#break_Statement)
 -   [continue Statement](#continue_Statement)
 
-### for Statement
+### <span>for Statement</span>
 
 A `for` loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C `for` loop. A `for` statement looks as follows:
 
@@ -244,7 +245,7 @@ When a `for` loop executes, the following occurs:
        </p>
     </form>
 
-### do...while Statement
+### <span>do...while Statement</span>
 
 The `do...while` statement repeats until a specified condition evaluates to false. A `do...while` statement looks as follows:
 
@@ -257,18 +258,18 @@ The `do...while` statement repeats until a specified condition evaluates to fals
 **Example**
  In the following example, the `do` loop iterates at least once and reiterates until i is no longer less than 5.
 
-``` {.brush: .js}
+```
 do {
    i += 1;
    document.write(i);
 } while (i < 5);
 ```
 
-### while Statement
+### <span>while Statement</span>
 
 A `while` statement executes its statements as long as a specified condition evaluates to true. A `while` statement looks as follows:
 
-``` {.brush: .js}
+```
 while (condition)
    statement
 ```
@@ -282,7 +283,7 @@ To execute multiple statements, use a block statement ({ ... }) to group those s
 **Example 1**
  The following `while` loop iterates as long as `n` is less than three:
 
-``` {.brush: .js}
+```
 n = 0;
 x = 0;
 while (n < 3) {
@@ -302,19 +303,19 @@ After completing the third pass, the condition `n < 3` is no longer true, so the
 **Example 2**
  Avoid infinite loops. Make sure the condition in a loop eventually becomes false; otherwise, the loop will never terminate. The statements in the following `while` loop execute forever because the condition never becomes false:
 
-``` {.brush: .js}
+```
 while (true) {
    alert("Hello, world");
 }
 ```
 
-### label Statement
+### <span>label Statement</span>
 
 A label provides a statement with an identifier that lets you refer to it elsewhere in your program. For example, you can use a label to identify a loop, and then use the `break` or `continue` statements to indicate whether a program should interrupt the loop or continue its execution.
 
 The syntax of the label statement looks like the following:
 
-``` {.brush: .js}
+```
 label :
    statement
 ```
@@ -324,14 +325,14 @@ The value of `label` may be any JavaScript identifier that is not a reserved wor
 **Example**
  In this example, the label `markLoop` identifies a `while` loop.
 
-``` {.brush: .js}
+```
 markLoop:
 while (theMark == true) {
    doSomething();
 }
 ```
 
-### break Statement
+### <span>break Statement</span>
 
 Use the `break` statement to terminate a loop, `switch`, or in conjunction with a label statement.
 
@@ -348,7 +349,7 @@ The first form of the syntax terminates the innermost enclosing loop or `switch`
 **Example** **1:**
  The following example iterates through the elements in an array until it finds the index of an element whose value is `theValue`:
 
-``` {.brush: .js}
+```
 for (i = 0; i < a.length; i++) {
    if (a[i] == theValue)
       break;
@@ -357,7 +358,7 @@ for (i = 0; i < a.length; i++) {
 
 **Example 2:**Breaking to a Label
 
-``` {.brush: .js}
+```
 var x = 0;
 var z = 0
 labelCancelLoops: while (true) {
@@ -376,7 +377,7 @@ labelCancelLoops: while (true) {
 }
 ```
 
-### continue Statement
+### <span>continue Statement</span>
 
 The `continue` statement can be used to restart a `while`, `do-while`, `for`, or `label` statement.
 
@@ -391,7 +392,7 @@ The syntax of the `continue` statement looks like the following:
 **Example 1**
  The following example shows a `while` loop with a `continue` statement that executes when the value of `i` is three. Thus, `n` takes on the values one, three, seven, and twelve.
 
-``` {.brush: .js}
+```
 i = 0;
 n = 0;
 while (i < 5) {
@@ -407,7 +408,7 @@ while (i < 5) {
 
 If `continue` had a label of `checkiandj`, the program would continue at the top of the `checkiandj` statement.
 
-``` {.brush: .js}
+```
 checkiandj :
    while (i < 4) {
       document.write(i + "<br/>");
@@ -425,15 +426,15 @@ checkiandj :
    }
 ```
 
-## Object Manipulation Statements
+## <span>Object Manipulation Statements</span>
 
 JavaScript uses the `for...in`, `for each...in`, and `with` statements to manipulate objects.
 
-### for...in Statement
+### <span>for...in Statement</span>
 
 The \<a href="/en-US/docs/JavaScript/Reference/Statements/for...in" title="en-US/docs/JavaScript/Reference/Statements/for...in"\>`for...in`\</a\> statement iterates a specified variable over all the properties of an object. For each distinct property, JavaScript executes the specified statements. A `for...in` statement looks as follows:
 
-``` {.brush: .js}
+```
 for (variable in object) {
    statements
 }
@@ -442,7 +443,7 @@ for (variable in object) {
 **Example**
  The following function takes as its argument an object and the object's name. It then iterates over all the object's properties and returns a string that lists the property names and their values.
 
-``` {.brush: .js}
+```
 function dump_props(obj, obj_name) {
    var result = "";
    for (var i in obj) {
@@ -455,7 +456,7 @@ function dump_props(obj, obj_name) {
 
 For an object `car` with properties `make` and `model`, `result` would be:
 
-``` {.brush: .js}
+```
 car.make = Ford
 car.model = Mustang
 ```
@@ -463,11 +464,11 @@ car.model = Mustang
 **Arrays**
  Although it may be tempting to use this as a way to iterate over \<a href="/en-US/docs/JavaScript/Reference/Global\_Objects/Array" title="en-US/docs/JavaScript/Reference/Global Objects/Array"\>Array\</a\> elements, because the **for...in** statement iterates over user-defined properties in addition to the array elements, if you modify the Array object, such as adding custom properties or methods, the **for...in** statement will return the name of your user-defined properties in addition to the numeric indexes. Thus it is better to use a traditional \<a href="/en-US/docs/JavaScript/Reference/Statements/for" title="en-US/docs/JavaScript/Reference/Statements/for"\>for\</a\> loop with a numeric index when iterating over arrays.
 
-### for each...in Statement
+### <span>for each...in Statement</span>
 
 \<a href="/en-US/docs/JavaScript/Reference/Statements/for\_each...in" title="en-US/docs/JavaScript/Reference/Statements/for each...in"\>`for each...in`\</a\> is a loop statement introduced in \<a href="/en-US/docs/JavaScript/New\_in\_JavaScript/1.6" title="en-US/docs/JavaScript/New in JavaScript/1.6"\>JavaScript 1.6\</a\>. It is similar to `for...in`, but iterates over the values of object's properties, not their names.
 
-``` {.brush: .js}
+```
 var sum = 0;
 var obj = {prop1: 5, prop2: 13, prop3: 8};
 for each (var item in obj) {
@@ -476,7 +477,7 @@ for each (var item in obj) {
 print(sum); // prints "26", which is 5+13+8
 ```
 
-## Comments
+## <span>Comments</span>
 
 Comments are author notations that explain what a script does. Comments are ignored by the interpreter. JavaScript supports Java and C++-style comments:
 
@@ -486,14 +487,14 @@ Comments are author notations that explain what a script does. Comments are igno
 **Example**
  The following example shows two comments:
 
-``` {.brush: .js}
+```
 // This is a single-line comment.
 
 /* This is a multiple-line comment. It can be of any length, and
 you can put whatever you want here. */
 ```
 
-## Exception Handling Statements
+## <span>Exception Handling Statements</span>
 
 You can throw exceptions using the `throw` statement and handle them using the `try...catch` statements.
 
@@ -502,7 +503,7 @@ You can also use the `try...catch` statement to handle Java exceptions (though t
 -   [throw Statement](#throw_Statement)
 -   [try...catch Statement](#try...catch_Statement)
 
-### Exception Types
+### <span>Exception Types</span>
 
 Just about any object can be thrown in JavaScript. Nevertheless, not all thrown objects are created equal. While it is fairly common to throw numbers or strings as errors it is frequently more effective to use one of the exception types specifically created for this purpose:
 
@@ -510,17 +511,17 @@ Just about any object can be thrown in JavaScript. Nevertheless, not all thrown 
 -   \<a href="/en-US/docs/DOM/DOMException" title="en-US/docs/DOM/DOMException"\>DOMException\</a\>
 -   \<a href="/en-US/docs/XPCOM\_Interface\_Reference/nsIXPCException" title="en-US/docs/nsIXPCException"\>nsIXPCException\</a\> (\<a href="/en-US/docs/XPConnect" title="en-US/docs/XPConnect"\>XPConnect\</a\>)
 
-### throw Statement
+### <span>throw Statement</span>
 
 Use the `throw` statement to throw an exception. When you throw an exception, you specify the expression containing the value to be thrown:
 
-``` {.brush: .js}
+```
 throw expression;
 ```
 
 You may throw any expression, not just expressions of a specific type. The following code throws several exceptions of varying types:
 
-``` {.brush: .js}
+```
 throw "Error2";
 throw 42;
 throw true;
@@ -529,7 +530,7 @@ throw {toString: function() { return "I'm an object!"; } };
 
 **Note:** You can specify an object when you throw an exception. You can then reference the object's properties in the `catch` block. The following example creates an object `myUserException` of type `UserException` and uses it in a throw statement.
 
-``` {.brush: .js}
+```
 // Create an object type UserException
 function UserException (message){
   this.message=message;
@@ -546,7 +547,7 @@ UserException.prototype.toString = function (){
 throw new UserException("Value too high");
 ```
 
-### try...catch Statement
+### <span>try...catch Statement</span>
 
 The `try...catch` statement marks a block of statements to try, and specifies one or more responses should an exception be thrown. If an exception is thrown, the `try...catch` statement catches it.
 
@@ -554,7 +555,7 @@ The `try...catch` statement consists of a `try` block, which contains one or mor
 
 The following example uses a `try...catch` statement. The example calls a function that retrieves a month name from an array based on the value passed to the function. If the value does not correspond to a month number (1-12), an exception is thrown with the value `"InvalidMonthNo"` and the statements in the `catch` block set the `monthName` variable to `unknown`.
 
-``` {.brush: .js}
+```
 function getMonthName (mo) {
     mo=mo-1; // Adjust month number for array index (1=Jan, 12=Dec)
     var months=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul",
@@ -576,11 +577,11 @@ catch (e) {
 }
 ```
 
-#### The catch Block
+#### <span>The catch Block</span>
 
 You can use a `catch` block to handle all exceptions that may be generated in the `try` block.
 
-``` {.brush: .js}
+```
 catch (catchID) {
   statements
 }
@@ -590,7 +591,7 @@ The `catch` block specifies an identifier (`catchID` in the preceding syntax) th
 
 For example, the following code throws an exception. When the exception occurs, control transfers to the `catch` block.
 
-``` {.brush: .js}
+```
 try {
    throw "myException" // generates an exception
 }
@@ -600,13 +601,13 @@ catch (e) {
 }
 ```
 
-#### The finally Block
+#### <span>The finally Block</span>
 
 The `finally` block contains statements to execute after the `try` and `catch` blocks execute but before the statements following the `try...catch` statement. The `finally` block executes whether or not an exception is thrown. If an exception is thrown, the statements in the `finally` block execute even if no `catch` block handles the exception.
 
 You can use the `finally` block to make your script fail gracefully when an exception occurs; for example, you may need to release a resource that your script has tied up. The following example opens a file and then executes statements that use the file (server-side JavaScript allows you to access files). If an exception is thrown while the file is open, the `finally` block closes the file before the script fails.
 
-``` {.brush: .js}
+```
 openMyFile();
 try {
     writeMyFile(theData); //This may throw a error
@@ -619,7 +620,7 @@ try {
 
 If the `finally` block returns a value, this value becomes the return value of the entire `try-catch-finally` production, regardless of any `return` statements in the `try` and `catch` blocks:
 
-``` {.brush: .js}
+```
 function f() {
     try {
         alert(0);
@@ -640,17 +641,17 @@ function f() {
 f(); // alerts 0, 1, 3; returns false
 ```
 
-#### Nesting try...catch Statements
+#### <span>Nesting try...catch Statements</span>
 
 You can nest one or more `try...catch` statements. If an inner `try...catch` statement does not have a `catch` block, the enclosing `try...catch` statement's `catch` block is checked for a match.
 
-### Utilizing Error objects
+### <span>Utilizing Error objects</span>
 
 Depending on the type of error, you may be able to use the 'name' and 'message' properties to get a more refined message. 'name' provides the general class of Error (e.g., 'DOMException' or 'Error'), while 'message' generally provides a more succinct message than one would get by converting the error object to a string.
 
 If you are throwing your own exceptions, in order to take advantage of these properties (such as if your catch block doesn't discriminate between your own exceptions and system ones), you can use the Error constructor. For example:
 
-``` {.brush: .js}
+```
 function doSomethingErrorProne () {
    if (ourCodeMakesAMistake()) {
       throw (new Error('The message'));
@@ -668,10 +669,3 @@ catch (e) {
    alert(e.message); // alerts 'The message' or a JavaScript error message)
 }
 ```
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Statements)
-

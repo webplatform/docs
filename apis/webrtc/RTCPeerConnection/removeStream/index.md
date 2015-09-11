@@ -1,34 +1,41 @@
 ---
 title: removeStream
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/webrtc/RTCPeerConnection
+    href: /apis/webrtc/RTCPeerConnection
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/webrtc/RTCPeerConnection
+summary: 'Removes the given stream from the localStreams array in the RTCPeerConnection and fires the negotiationneeded event.'
 tags:
   0: API
   1: Object
   2: Methods
   4: WebRTC
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Removes the given stream from the localStreams array in the RTCPeerConnection and fires the negotiationneeded event.'
 uri: apis/webrtc/RTCPeerConnection/removeStream
 
 ---
-# removeStream
-
-## Summary
+## <span>Summary</span>
 
 Removes the given stream from the localStreams array in the RTCPeerConnection and fires the negotiationneeded event.
 
-*Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)*
+Method of [apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)[apis/webrtc/RTCPeerConnection](/apis/webrtc/RTCPeerConnection)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = .removeStream();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 **Needs Examples**: This section should include examples.
 

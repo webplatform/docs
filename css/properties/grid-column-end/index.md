@@ -1,42 +1,56 @@
 ---
 title: grid-column-end
+notes:
+  - 'Add description, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'Grid items'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Working Draft'
+summary: 'Controls a grid item''s placement in a grid area as well as  grid position and a grid span. The grid-column-end property (with grid-row-start, grid-row-end, and grid-column-start) determines a grid item''s placement by specifying the grid lines of a grid item''s grid area.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Add description, compatibility.'
-summary: 'Controls a grid item''s placement in a grid area as well as  grid position and a grid span. The grid-column-end property (with grid-row-start, grid-row-end, and grid-column-start) determines a grid item''s placement by specifying the grid lines of a grid item''s grid area.'
 uri: css/properties/grid-column-end
 
 ---
-# grid-column-end
-
-## Summary
+## <span>Summary</span>
 
 Controls a grid item's placement in a grid area as well as grid position and a grid span. The grid-column-end property (with grid-row-start, grid-row-end, and grid-column-start) determines a grid item's placement by specifying the grid lines of a grid item's grid area.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   Grid items
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `grid-column-end: <grid-line>`
 -   `grid-column-end: <ident>`
@@ -44,7 +58,7 @@ Percentages
 -   `grid-column-end: auto`
 -   `grid-column-end: span [ <integer> or <ident>]`
 
-## Values
+## <span>Values</span>
 
 \<grid-line\>
 :   Contributes a line, a span, or nothing (automatic) to the item's row placement or column placement.
@@ -61,9 +75,9 @@ auto
 span [ \<integer\> or \<ident\>]
 :   Contributes a grid span to the placement by specifying that the corresponding edge of the item’s grid area is N grid lines from the opposite edge of the item's grid area. (Negative integers and zero are not allowed; if \<integer\> is omitted, it defaults to 1.) If a name is given as an \<ident\>, only lines with that name are counted. If no line with that name exists, the name is ignored. If not enough lines of that name exist, it spans to the last such named line.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* auto */
 grid-column-end: auto;
 
@@ -80,10 +94,7 @@ grid-column-end: span 2;
 grid-column-end: span "C";
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Grid Layout Module](http://www.w3.org/TR/css3-grid-layout)
 :   W3C Working Draft
-

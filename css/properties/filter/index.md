@@ -1,47 +1,59 @@
 ---
 title: filter
+code_samples:
+  - 'http://gist.github.com/5842451'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`none`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`filter`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Applies various image processing effects.  This property is largely unsupported.  See Compatibility section for more information.'
 tags:
   0: CSS
   1: Properties
   3: Graphics
   4: SVG
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Applies various image processing effects.  This property is largely unsupported.  See Compatibility section for more information.'
-code_samples:
-  - 'http://gist.github.com/5842451'
 uri: css/properties/filter
 
 ---
-# filter
-
-## Summary
+## <span>Summary</span>
 
 Applies various image processing effects. This property is largely unsupported. See Compatibility section for more information.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `none`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `filter`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `filter: <function>`
 -   `filter: url(path/to/filter.svg#filterID)`
 
-## Values
+## <span>Values</span>
 
 \<function\>
 :   Any combination of built-in filter functions: [**blur()**](/css/functions/blur), [**brightness()**](/css/functions/brightness), [**contrast()**](/css/functions/contrast), [**custom()**](/css/functions/custom), [**drop-shadow()**](/css/functions/drop-shadow), [**grayscale()**](/css/functions/grayscale), [**hue-rotate()**](/css/functions/hue-rotate), [**invert()**](/css/functions/invert), [**opacity()**](/css/functions/opacity), [**saturate()**](/css/functions/saturate), and [**sepia()**](/css/functions/sepia)
@@ -49,41 +61,43 @@ Animatable
 url(path/to/filter.svg\#filterID)
 :   A reference to an [SVG \<filter\> element](/svg/elements/filter)
 
-## Examples
+## <span>Examples</span>
 
 The example below shows the difference between the CSS box-shadow property and the drop-shadow filter function. The box-shadow property outlines the html box and the drop-shadow outlines the element parts.
 
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <title>Filter example</title>
-        <style>
-          .foo {
-            width: 100px;
-            padding: 50px 0;
-            margin: 100px;
-            border: dashed 10px red;
-            float: left;
-          }
+``` html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Filter example</title>
+    <style>
+      .foo {
+        width: 100px;
+        padding: 50px 0;
+        margin: 100px;
+        border: dashed 10px red;
+        float: left;
+      }
 
-          .bar {
-            box-shadow: 5px 5px 10px black;
-          }
+      .bar {
+        box-shadow: 5px 5px 10px black;
+      }
 
-          .baz {
-            -webkit-filter: drop-shadow(5px 5px 10px black);
-          }
-        </style>
-      </head>
-      <body>
-        <div class="foo bar"></div>
-        <div class="foo baz"></div>
-      </body>
-    </html>
+      .baz {
+        -webkit-filter: drop-shadow(5px 5px 10px black);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="foo bar"></div>
+    <div class="foo baz"></div>
+  </body>
+</html>
+```
 
 [View live example](http://code.webplatform.org/gist/5842451)
 
-## Usage
+## <span>Usage</span>
 
      Filters apply any combination of image processing functions to
 
@@ -99,7 +113,7 @@ Filters apply to any graphic effect the element renders, such as borders, backgr
 
 Filter effects may be specified as part of dynamic [transitions](/tutorials/css_transitions#advanced) and [keyframe animations](/tutorials/css_animations). However, the number of functions in each set of style sheets must match, with no transitions allowed from implied default values. In addition, each style sheet must declare the exact same sequence of functions.
 
-## Built-in filter functions
+## <span>Built-in filter functions</span>
 
 The following examples show the effect of each filter function applied in isolation. See each function for details on accepted parameters.
 
@@ -143,20 +157,19 @@ The following examples show the effect of each filter function applied in isolat
 
   ![f11-mandrill.jpg](/assets/thumb/8/80/f11-mandrill.jpg/300px-f11-mandrill.jpg)![f23-mandrilldrop1.jpg](/assets/thumb/c/c2/f23-mandrilldrop1.jpg/300px-f23-mandrilldrop1.jpg)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Filter Effects 1.0](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#)
 :   Editor's Draft
+
 [Filter Effects 1.0](http://www.w3.org/TR/filter-effects/)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Filters
+#### <span>Filters</span>
 
 -   [blur()](/css/functions/blur)
 
@@ -240,9 +253,8 @@ Specification
 
 -   [SVG filters](/tutorials/svg_filters)
 
-### External resources
+### <span>External resources</span>
 
 -   [Adobe CSS FilterLab](http://html.adobe.com/webstandards/csscustomfilters/cssfilterlab/)
 -   [Interactive demonstration](http://html5-demos.appspot.com/static/css/filters/index.html)
 -   [HTML5 Rocks! Understanding CSS Filters article](http://www.html5rocks.com/en/tutorials/filters/understanding-css/)
-

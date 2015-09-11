@@ -1,44 +1,83 @@
 ---
 title: regionfragmentchange
+code_samples:
+  - 'http://letmespellitoutforyou.com/samples/region_fragmentchange.html'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Fires on the  NamedFlow object when there is a change in how content flows through a region chain.'
 tags:
   - Events
   - API
   - CSS
   - CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Fires on the  NamedFlow object when there is a change in how content flows through a region chain.'
-code_samples:
-  - 'http://letmespellitoutforyou.com/samples/region_fragmentchange.html'
 uri: apis/css-regions/NamedFlow/regionfragmentchange
 
 ---
-# regionfragmentchange
-
-## Summary
+## <span>Summary</span>
 
 Fires on the NamedFlow object when there is a change in how content flows through a region chain.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   No
-Bubbles
-:   No
-Target
-:   [**NamedFlow**](/apis/css-regions/NamedFlow)
-Cancelable
-:   Yes
-Default action
-:   none
 
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+No
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+[**NamedFlow**](/apis/css-regions/NamedFlow)
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+none
+
+</td>
+</tr>
+</table>
 Fires on the [**NamedFlow**](/apis/css-regions/NamedFlow) object when there is 'any' change in how content flows through a [region chain](/css/concepts/region_chain), even minor changes that don't affect the total number of [regions](/css/concepts/region) the content requires.
 
-## Examples
+## <span>Examples</span>
 
 This simple example logs each time content reflows among regions, and works with the CSS and JavaScript that follow. Define layout and content elements:
 
-``` {.html}
+``` html
 <html>
 <body>
 <section class="page">
@@ -59,7 +98,7 @@ This simple example logs each time content reflows among regions, and works with
 
 Flow the content into the layout:
 
-``` {.css}
+``` css
 body { background: #aaa; }
 article { flow-into: main; }
 
@@ -92,7 +131,7 @@ div:last-of-type { left: 55%; }
 
 Log to console any shifts of content from one region to another that result when resizing the window, and thus the layout elements.
 
-``` {.js}
+``` js
 document.getNamedFlows().namedItem('main').addEventListener(
     'regionfragmentchange',
     function() { console.log(inc++); }
@@ -101,22 +140,20 @@ document.getNamedFlows().namedItem('main').addEventListener(
 
 [View live example](http://letmespellitoutforyou.com/samples/region_fragmentchange.html)
 
-## Notes
+## <span>Notes</span>
 
 The event fires when content shifts 'in any way' within the [region chain](/css/concepts/region_chain), such as when linebreaks change. That is, when any [region's](/css/concepts/region) [collection of DOM Range fragments](/apis/css-regions/Region/getRegionFlowRanges) changes their dimensions or offsets. (Compare with the [**regionoversetchange**](/apis/css-regions/NamedFlow/regionoversetchange) event, which fires much less frequently in response to changing content or dimensions.)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/css3-regions/)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -174,10 +211,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

@@ -1,40 +1,52 @@
 ---
 title: object-fit
-tags:
-  - CSS
-  - Properties
+code_samples:
+  - 'http://gist.github.com/6badc0b20d67be7d939f'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`fill`'
+  'Applies to': 'Replaced elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`objectFit`'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Candidate Recommendation'
 summary: 'The object-fit property defines how content of a replaced element (e.g., a video or an image) is made to fit the dimensions of its containing box.'
-code_samples:
-  - 'http://gist.github.com/6badc0b20d67be7d939f'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/object-fit
 
 ---
-# object-fit
-
-## Summary
+## <span>Summary</span>
 
 The object-fit property defines how content of a replaced element (e.g., a video or an image) is made to fit the dimensions of its containing box.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `fill`
+
 Applies to
 :   Replaced elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `objectFit`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `object-fit: contain`
 -   `object-fit: cover`
@@ -42,7 +54,7 @@ Animatable
 -   `object-fit: none`
 -   `object-fit: scale-down`
 
-## Values
+## <span>Values</span>
 
 fill
 :   The replaced content is sized to fill the element's box
@@ -59,11 +71,11 @@ none
 scale-down
 :   Size the content as if ‘none’ or ‘contain’ were specified, whichever would result in a smaller concrete object size
 
-## Examples
+## <span>Examples</span>
 
 Five simple img elements.
 
-``` {.html}
+``` html
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -90,7 +102,7 @@ Five simple img elements.
 
 All five images are forced to 150x100 pixels, different from both the original size of the image (196x77 pixel) and its aspect ratio.
 
-``` {.css}
+``` css
 img {
   float: left;
   width: 150px;
@@ -142,18 +154,16 @@ img {
 
 [View live example](http://code.webplatform.org/gist/6badc0b20d67be7d939f)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Image Values and Replaced Content Module Level 3](http://www.w3.org/TR/css3-images/)
 :   W3C Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Generated and Replaced Content
+#### <span>Generated and Replaced Content</span>
 
 -   [Generated and Replaced Content](/css/generated_and_replaced_content)
 
@@ -169,15 +179,13 @@ Specification
 
 -   **object-fit**
 
-#### Multimedia
+#### <span>Multimedia</span>
 
 -   [Track ended](/apis/MediaStream/ended)
 
 -   [MediaSource](/apis/media_source_extensions/MediaSource)
 
 -   [appendBuffer](/apis/media_source_extensions/MediaSource/appendBuffer)
-
--   [VideoPlaybackQuality](/apis/media_source_extensions/VideoPlaybackQuality)
 
 -   [WebRTC](/concepts/Internet_and_Web/webrtc)
 
@@ -193,7 +201,7 @@ Specification
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
 
-#### Video
+#### <span>Video</span>
 
 -   [audio-video](/apis/audio-video)
 
@@ -214,4 +222,3 @@ Specification
 -   [HTML5 Video and Other Recommendations](/tutorials/video_others)
 
 -   [WebRTC Resources](/tutorials/webrtc_resources)
-

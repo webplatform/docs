@@ -1,59 +1,68 @@
 ---
 title: Storage
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+  - 'Portions of this content come from HTML5Rocks! [article](http://playground.html5rocks.com/#localstorage)'
+code_samples:
+  - 'http://playground.html5rocks.com/#localstorage'
+  - 'http://jsfiddle.net/A6tuM/1/'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'Provides access to a list of key/value pairs, sometimes called &quot;items&quot;. The amount of storage space is limited by browsers. Changes fire ''storage'' event on dom/Window.'
 tags:
   - API
   - Objects
   - Webstorage
-readiness: 'Ready to Use'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'Provides access to a list of key/value pairs, sometimes called "items". The amount of storage space is limited by browsers. Changes fire ''storage'' event on dom/Window.'
-code_samples:
-  - 'http://playground.html5rocks.com/#localstorage'
-  - 'http://jsfiddle.net/A6tuM/1/'
 uri: apis/web-storage/Storage
 
 ---
-# Storage
+## <span>Summary</span>
 
-## Summary
+Provides access to a list of key/value pairs, sometimes called &quot;items&quot;. The amount of storage space is limited by browsers. Changes fire 'storage' event on dom/Window.
 
-Provides access to a list of key/value pairs, sometimes called "items". The amount of storage space is limited by browsers. Changes fire 'storage' event on dom/Window.
-
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
+
 [length](/apis/web-storage/Storage/length)
 :   Returns the number of key/value pairs currently present in the list associated with the object.
+
 [localStorage](/apis/web-storage/Storage/localStorage)
 :   Provides a Storage object for an origin, that remains persistent even after restarting the browser. The storage can be cleared by the user with browser functionalities. If you need a temporary storage, use [apis/web-storage/Storage/sessionStorage](/apis/web-storage/Storage/sessionStorage)
+
 [sessionStorage](/apis/web-storage/Storage/sessionStorage)
 :   Provides a Storage object specific to the current top-level browsing context. The storage will be cleared after a browser restart. If you need a persistent storage, use [apis/web-storage/Storage/localStorage](/apis/web-storage/Storage/localStorage).
 
-## Methods
+## <span>Methods</span>
 
 API Name
 :   Summary
+
 [clear](/apis/web-storage/Storage/clear)
 :   Causes the list associated with the object to be emptied of all key/value pairs, if there are any.
+
 [getItem](/apis/web-storage/Storage/getItem)
 :   Returns the current value associated with the given key.
+
 [key](/apis/web-storage/Storage/key)
 :   Returns the name of the *n*th key in the list.
+
 [removeItem](/apis/web-storage/Storage/removeItem)
 :   Removes the key/value pair with the given key from the list associated with the object, if it exists.
+
 [setItem](/apis/web-storage/Storage/setItem)
 :   Adds or replaces a value for the given key.
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
 Key names are exposed as properties on this object. For example, the following statements are equivalent:
 
-``` {.js}
+``` js
 sessionStorage.setItem('myKey', '...');
 
 sessionStorage['myKey'] = '...';
@@ -61,7 +70,7 @@ sessionStorage['myKey'] = '...';
 sessionStorage.myKey = '...';
 ```
 
-``` {.html}
+``` html
 <html>
   <head>
     <style>
@@ -89,7 +98,7 @@ sessionStorage.myKey = '...';
 
 [View live example](http://playground.html5rocks.com/#localstorage)
 
-``` {.css}
+``` css
 body {
       font: 100% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
       margin: 0;
@@ -149,7 +158,7 @@ body {
     }
 ```
 
-``` {.js}
+``` js
 // Generate the little markup from javascript
 
 document.querySelector('#content').innerHTML =
@@ -191,7 +200,7 @@ var area = document.createElement('textarea');
 
 An example on how to listen to changes in the localStorage. The example can be applied to sessionStorage as well. A full example is in the fiddle.
 
-``` {.js}
+``` js
 // this event is only fired in browser windows, that did not initiated the change. Thus the fiddle uses two iframes to show how the event is fired.
 window.addEventListener('storage', function (event) {
     // logs the key that has changed and the old and the new value in the storage
@@ -201,26 +210,15 @@ window.addEventListener('storage', function (event) {
 
 [View live example](http://jsfiddle.net/A6tuM/1/)
 
-## Notes
+## <span>Notes</span>
 
 Each **Storage** object provides access to a list of key/value pairs, which are sometimes called items. Keys are strings, and any string (including the empty string) is a valid key. Items contain values (which are also strings) and associated metadata.
 
 Each **Storage** object is associated with a list of key/value pairs when it is created. Multiple **Storage** objects, such as two instances of **localStorage**, can be associated with the same list of key/value pairs simultaneously.
 
-The **amount of storage** is **limited** by the browser (quota). An error is thrown, when the quota is exceeded. An example, that intentionally exceeds the quota and throws and error may be found here: [http://jsfiddle.net/wkDc6/1/](http://jsfiddle.net/wkDc6/1/)
+The **amount of storage** is **limited** by the browser (quota). An error is thrown, when the quota is exceeded. An example, that intentionally exceeds the quota and throws and error may be found here: <http://jsfiddle.net/wkDc6/1/>
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C Web Storage Specification](http://www.w3.org/TR/webstorage/)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-
-Portions of this content come from HTML5Rocks! [article](http://playground.html5rocks.com/#localstorage)
-

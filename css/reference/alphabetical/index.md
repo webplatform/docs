@@ -1,24 +1,24 @@
 ---
-title: alphabetical
+title: Alphabetical list of CSS reference
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, fix table coding in Notes'
+readiness: 'In Progress'
+standardization_status: Unknown
 tags:
   - Basic
   - Pages
-readiness: 'In Progress'
-standardization_status: Unknown
-notes:
-  - 'Needs summary, fix table coding in Notes'
 uri: css/reference/alphabetical
 
 ---
-# Alphabetical list of CSS reference
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Syntax
+#### <span>Syntax</span>
 
 -   [@charset](/css/atrules/@charset)
 
@@ -40,7 +40,7 @@ uri: css/reference/alphabetical
 
 -   [!important](/css/syntax/!important)
 
-### At-rules
+### <span>At-rules</span>
 
 -   [**@charset**](/css/atrules/@charset)
 -   [**@font-face**](/css/atrules/@font-face)
@@ -51,7 +51,7 @@ uri: css/reference/alphabetical
 -   [**@namespace**](/css/atrules/@namespace)
 -   [**@page**](/css/atrules/@page)
 
-### Functions
+### <span>Functions</span>
 
 -   [ie.CSS\_Length\_Units\_Reference\#attr\#attr attr()]
 -   calc()
@@ -62,7 +62,7 @@ uri: css/reference/alphabetical
 -   [**-ms-repeating-radial-gradient()**](/css/properties/-ms-repeating-radial-gradient)
 -   [ie.CSS\_Length\_Units\_Reference\#url\#url url()]
 
-### Media Features
+### <span>Media Features</span>
 
 -   [aspect-ratio](/css/media_queries/aspect-ratio)
 -   [color](/css/media_queries/colors_by)
@@ -77,13 +77,6 @@ uri: css/reference/alphabetical
 -   [resolution](/css/media_queries/resolution)
 -   [width](/css/media_queries/width)
 
-### Properties
+### <span>Properties</span>
 
 {
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

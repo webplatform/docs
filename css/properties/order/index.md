@@ -1,55 +1,67 @@
 ---
 title: order
+code_samples:
+  - 'http://gist.github.com/4741023'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0`'
+  'Applies to': 'flex items and absolutely-positioned flex container children'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'specified value'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`order`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The order property controls the order in which flex items appear within their flex container, by assigning them to ordinal groups.'
 tags:
   0: CSS
   1: Properties
   3: Flexbox
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The order property controls the order in which flex items appear within their flex container, by assigning them to ordinal groups.'
-code_samples:
-  - 'http://gist.github.com/4741023'
 uri: css/properties/order
 
 ---
-# order
-
-## Summary
+## <span>Summary</span>
 
 The order property controls the order in which flex items appear within their flex container, by assigning them to ordinal groups.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
+
 Applies to
 :   flex items and absolutely-positioned flex container children
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   specified value
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `order`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `flex-order: integer`
 -   `order: <integer>`
 
-## Values
+## <span>Values</span>
 
 \<integer\>
 :   The ordinal group for this flex item.
 
-## Examples
+## <span>Examples</span>
 
 Displaying children in custom sequence
 
-``` {.css}
+``` css
 .list {
   display: flex;
 }
@@ -71,20 +83,17 @@ Displaying children in custom sequence
 
 The Holy Grail Layout example. Given a source order of article-nav-aside, use order to rearrange these elements as flex items into nav-article-aside
 
-``` {.css}
+``` css
 article { order: 2; }
 nav { order: 1; }
 aside { order: 3; }
 ```
 
-## Notes
+## <span>Notes</span>
 
 This property was previously named **flex-order** in earlier drafts.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Flexible Box Layout Module](http://www.w3.org/TR/css3-flexbox/#order-property)
 :   Candidate Recommendation
-

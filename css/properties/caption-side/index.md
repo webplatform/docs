@@ -1,45 +1,59 @@
 ---
 title: caption-side
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Complete specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`top`'
+  'Applies to': 'Table-caption elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': ''
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+readiness: 'In Progress'
+summary: 'Specifies the placement of a table caption.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-notes:
-  - 'Complete specifications, compatibility.'
-summary: 'Specifies the placement of a table caption.'
 uri: css/properties/caption-side
 
 ---
-# caption-side
-
-## Summary
+## <span>Summary</span>
 
 Specifies the placement of a table caption.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `top`
+
 Applies to
 :   Table-caption elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :
+
 Animatable
 :   No
-[CSS Object Model Property](/css/concepts/cssom)
-:   ``
 
-## Syntax
+[CSS Object Model Property](/css/concepts/cssom)
+:
+
+## <span>Syntax</span>
 
 -   `caption-side: bottom`
 -   `caption-side: inherit`
 -   `caption-side: top`
 
-## Values
+## <span>Values</span>
 
 top
 :   Positions the caption box above the table box.
@@ -50,64 +64,68 @@ bottom
 inherit
 :   Takes the same specified value as the property for the element's parent.
 
-## Examples
+## <span>Examples</span>
 
 The following example constructs a table with standard HTML elements. The style rule places the caption above the table.
 
-    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+``` html
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
 
-    <style type="text/css">
-    caption {
-        caption-side:top;
-    }
-    </style>
-    <table><tr><td>A simple table.</td></tr>
-    <caption>Table caption.</caption>
-    </table>
+<style type="text/css">
+caption {
+    caption-side:top;
+}
+</style>
+<table><tr><td>A simple table.</td></tr>
+<caption>Table caption.</caption>
+</table>
+```
 
 This example uses CSS to construct a table using [**display**](/css/properties/display) attributes. This caption is also placed above its associated table.
 
-    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+``` html
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
 
-    <style type="text/css">
-    .table {
-        display:table;
-        border:1px #eee outset;
-        border-spacing:2px;
-    }
-    .cell {
-        display:table-cell;
-        border:1px solid black;
-    }
-    .caption {
-        display:table-caption;
-        caption-side:top;
-    }
-    </style>
-    <div class="table">
-    <span class="cell">Table content.</span>
-    <em class="caption">A caption.</em>
-    </div>
+<style type="text/css">
+.table {
+    display:table;
+    border:1px #eee outset;
+    border-spacing:2px;
+}
+.cell {
+    display:table-cell;
+    border:1px solid black;
+}
+.caption {
+    display:table-caption;
+    caption-side:top;
+}
+</style>
+<div class="table">
+<span class="cell">Table content.</span>
+<em class="caption">A caption.</em>
+</div>
+```
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The supported possible values for **caption-side** depend on the orientation of the table. Horizontal tables support the top and bottom values. Vertical tables support the left and right values. Using an unsupported value for this property (for instance, `left` on a caption for a horizontal table) will cause the caption to appear at the "logical top" of the table. The logical top of a table depends on the writing mode of the text, and is parallel to and immediately precedes the first line of text in a table. Captions placed to the left or right of the table are not rotated so as to be read vertically. This style attribute can be applied to any element with a [**display**](/css/properties/display) style of **table-caption**.
 
-### Syntax
+### <span>Syntax</span>
 
 `caption-side: top | bottom`
 
-### Standards information
+### <span>Standards information</span>
 
 -   [CSS 2.1](http://go.microsoft.com/fwlink/p/?linkid=203757), Section 17.4.1
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Tables
+#### <span>Tables</span>
 
 -   [border-collapse](/css/properties/border-collapse)
 
@@ -133,17 +151,10 @@ The supported possible values for **caption-side** depend on the orientation of 
 
 -   [th](/html/elements/th)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
 -   `display`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

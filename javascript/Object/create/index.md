@@ -1,20 +1,22 @@
 ---
 title: create
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff925952(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Creates an object that has the specified prototype, and that optionally contains specified properties.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Creates an object that has the specified prototype, and that optionally contains specified properties.'
 uri: javascript/Object/create
 
 ---
-# create
-
-## Summary
+## <span>Summary</span>
 
 Creates an object that has the specified prototype, and that optionally contains specified properties.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Object.create( prototype , descriptors )
 
@@ -24,15 +26,15 @@ Creates an object that has the specified prototype, and that optionally contains
 **descriptors**
 :   Optional. A JavaScript object that contains one or more property descriptors.A data property is a property that can get and set a value. A data property descriptor contains a value attribute, plus writable , enumerable , and configurable attributes. If the last three attributes are not specified, they default to false. An accessor property calls a user-provided function every time the value is retrieved or set. An accessor property descriptor contains a set attribute, a get attribute, or both. For more information, see [Object.defineProperty Function](/javascript/Object/defineProperty).
 
-## Return Value
+## <span>Return Value</span>
 
 A new object that has the specified internal prototype and contains the specified properties, if any.
 
-## Examples
+## <span>Examples</span>
 
 The following example creates an object using a null prototype and adds two enumerable properties.
 
-``` {.js}
+``` js
 var newObj = Object.create(null, {
              size: {
                  value: "large",
@@ -56,7 +58,7 @@ var newObj = Object.create(null, {
 
 The following example creates an object that has the same internal prototype as the Object object. You can see that it has the same prototype as an object created by using an object literal. The [Object.getPrototypeOf](/javascript/Object/getPrototypeOf) function gets the prototype of the original object. To get the object's property descriptor, you can use [Object.getOwnPropertyDescriptor Function](/javascript/Object/getOwnPropertyDescriptor).
 
-``` {.js}
+``` js
 var firstLine = { x: undefined, y: undefined };
 
  var secondLine = Object.create(Object.prototype, {
@@ -102,18 +104,18 @@ var firstLine = { x: undefined, y: undefined };
 
 The following example creates an object that has the same internal prototype as the Shape object.
 
-``` {.js}
+``` js
 // Create the shape object.
  var Shape = { twoDimensional: true, color: undefined, hasLineSegments: undefined };
 
  var Square = Object.create(Object.getPrototypeOf(Shape));
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 You can use this function using a null prototype parameter in order to stop the prototype chain. The object created will have no prototype.
 
-## Exceptions
+## <span>Exceptions</span>
 
 A TypeError exception is thrown if any of the following conditions is true:
 
@@ -121,16 +123,10 @@ A TypeError exception is thrown if any of the following conditions is true:
 -   A descriptor in the descriptors argument has a value or writable attribute, and has a get or set attribute.
 -   A descriptor in the descriptors argument has a get or set attribute that is not a function.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Object.getPrototypeOf Function](/javascript/Object/getPrototypeOf)
 -   [isPrototypeOf Method (Object)](/javascript/Object/isPrototypeOf)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff925952(v=vs.94).aspx)
 

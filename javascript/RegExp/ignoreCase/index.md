@@ -1,33 +1,35 @@
 ---
 title: ignoreCase
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/8kz93es5(v=vs.94).aspx)'
+notes:
+  - 'Moved under javascript/RegExp'
+readiness: 'Ready to Use'
+summary: 'Returns a Boolean value indicating the state of the ignoreCase flag ( i ) used with a regular expression. Default is false. Read-only.'
 tags:
   0: JS
   1: Basic
   3: Property
-readiness: 'Ready to Use'
-notes:
-  - 'Moved under javascript/RegExp'
-summary: 'Returns a Boolean value indicating the state of the ignoreCase flag ( i ) used with a regular expression. Default is false. Read-only.'
 uri: javascript/RegExp/ignoreCase
 
 ---
-# ignoreCase
-
-## Summary
+## <span>Summary</span>
 
 Returns a Boolean value indicating the state of the ignoreCase flag ( i ) used with a regular expression. Default is false. Read-only.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     rgExp.ignoreCase
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **ignoreCase** property. If you pass "gi" in to the function shown below, all instances of the word "the" are replaced with the word "a", including the initial "The". This is because with the ignoreCase flag set, the search ignores any case sensitivity. So "T" is the same as "t" for the purposes of matching.
 
 This function returns the Boolean values that indicate the state of the allowable regular expression flags, which are **g** , **i** , and **m**. The function also returns the string with all replacements made.
 
-``` {.js}
+``` js
 function RegExpPropDemo(flag){
      // The flag parameter is a string that contains
      // g, i, or m. The flags can be combined.
@@ -66,7 +68,7 @@ function RegExpPropDemo(flag){
 
 Following is the resulting output.
 
-``` {.js}
+``` js
 global: true
  ignoreCase: true
  multiline: false
@@ -78,7 +80,7 @@ global: true
  Resulting String: The batter hit a ball with a bat and a fielder caught a ball with a glove.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required rgExp reference is an instance of the **RegExp** object.
 
@@ -86,18 +88,12 @@ The **ignoreCase** property returns **true** if the ignoreCase flag is set for a
 
 The ignoreCase flag, when used, indicates that a search should ignore case sensitivity when matching the pattern within the searched string.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [global Property (Regular Expression)](/javascript/regular_expression/global)
 -   [multiline Property (Regular Expression)](/javascript/regular_expression/multiline)
 -   [sticky Property (Regular Expression)](/javascript/regular_expression/sticky)
 -   [unicode Property (Regular Expression)](/javascript/regular_expression/unicode)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/8kz93es5(v=vs.94).aspx)
 

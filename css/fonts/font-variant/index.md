@@ -1,56 +1,72 @@
 ---
 title: font-variant
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5716625'
+notes:
+  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: /css/properties/font-variant \n\n"
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'no'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`fontVariant`'
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'Selects a normal, or small-caps face from a font family. Also possible by using the font shorthand.'
 tags:
   0: CSS
   1: Properties
   3: Design
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-notes:
-  - "\nMerge Candidate:  This page is a candidate for merge with the following pages: /css/properties/font-variant \n\n"
-summary: 'Selects a normal, or small-caps face from a font family. Also possible by using the font shorthand.'
-code_samples:
-  - 'http://gist.github.com/5716625'
-uri: css/fonts/font-variant
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - css/fonts/font-variant/css/properties/font-variant
     - dom/defaultSelected
+uri: css/fonts/font-variant
 
 ---
-# font-variant
-
-## Summary
+## <span>Summary</span>
 
 Selects a normal, or small-caps face from a font family. Also possible by using the font shorthand.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   no
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `fontVariant`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `font-variant: inherit`
 -   `font-variant: normal`
 -   `font-variant: small-caps`
 
-## Values
+## <span>Values</span>
 
 normal
 :   Default. Specifies a normal font face.
@@ -61,38 +77,37 @@ small-caps
 inherit
 :   Inherit to the parent element.
 
-## Examples
+## <span>Examples</span>
 
 A simple example to show the effect achieved when small-caps are applied to a text paragraph
 
-``` {.html}
-I think WebPlatform rocks
+``` html
+<p>I think WebPlatform rocks</p>
 ```
 
 [View live example](http://code.webplatform.org/gist/5716625)
 
 The CSS applied to the HTML above.
 
-``` {.css}
+``` css
 p {
   font-variant: small-caps;
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 3](http://www.w3.org/TR/css3-fonts/#font-variant-prop)
 :   W3C Candidate Recommendation
+
 [CSS 2.1](http://www.w3.org/TR/CSS21/fonts.html#small-caps)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -118,13 +133,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -132,7 +141,7 @@ Specification
 
 -   [font](/html/elements/font)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
@@ -140,10 +149,3 @@ Specification
 -   `runtimeStyle`
 -   `style`
 -   `font`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

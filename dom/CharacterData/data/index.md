@@ -1,40 +1,49 @@
 ---
 title: data
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/CharacterData
+    href: /dom/CharacterData
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/CharacterData
+standardization_status: 'W3C Recommendation'
+summary: 'Sets or gets a node''s character data.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Sets or gets a node''s character data.'
 uri: dom/CharacterData/data
 
 ---
-# data
-
-## Summary
+## <span>Summary</span>
 
 Sets or gets a node's character data.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/CharacterData](/dom/CharacterData)</span></span>
+Property of [dom/CharacterData](/dom/CharacterData)[dom/CharacterData](/dom/CharacterData)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
-var text = textualNode.data;
-textualNode.data = newText;
+``` js
+var text = textualNode.html/elements/data;
+textualNode.html/elements/data = newText;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 The value of the text node.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //create text node
 var phrase = document.createTextNode ("A flawed plan today is better than a perfect plan tomorrow.");
 //report contents
@@ -47,7 +56,7 @@ alert(phrase.data);
 
 This example uses the **data** property to change the value of a text node.
 
-``` {.html}
+``` html
 <script>
 function fnChangeValue(){
    var oNode = oList.firstChild.childNodes(0);
@@ -62,16 +71,7 @@ function fnChangeValue(){
 </ul>
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 1](http://www.w3.org/TR/REC-DOM-Level-1/)
 :   Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

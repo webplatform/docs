@@ -1,42 +1,56 @@
 ---
 title: mask-position
+notes:
+  - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`center`'
+  'Applies to': 'All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'Two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a \<length\>), otherwise as a percentage.'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: 'Refer to size of mask painting area minus size of mask image.'
+readiness: 'In Progress'
+standardization_status: 'W3C Editor''s Draft'
+summary: 'This property sets the initial position of a mask image. Position can be specified in terms of percentages of the distance from upper left corner (original point) or using the keywords top, left, center, right, or bottom, similar to the CSS background-position property.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - "Add specification and compatibility.\nAs of time of writing, this property is not yet implemented in most browsers."
-summary: 'This property sets the initial position of a mask image. Position can be specified in terms of percentages of the distance from upper left corner (original point) or using the keywords top, left, center, right, or bottom, similar to the CSS background-position property.'
 uri: css/properties/mask-position
 
 ---
-# mask-position
-
-## Summary
+## <span>Summary</span>
 
 This property sets the initial position of a mask image. Position can be specified in terms of percentages of the distance from upper left corner (original point) or using the keywords top, left, center, right, or bottom, similar to the CSS background-position property.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `center`
+
 Applies to
 :   All elements. In SVG, it applies to container elements without the \<defs\> element and all graphics elements.
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   Two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a \<length\>), otherwise as a percentage.
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   Refer to size of mask painting area minus size of mask image.
 
-## Syntax
+## <span>Syntax</span>
 
 -   `mask-position: length length`
 -   `mask-position: percentage percentage`
@@ -44,7 +58,7 @@ Percentages
 -   `mask-position: bottom length right length`
 -   `mask-position: left top`
 
-## Values
+## <span>Values</span>
 
 [length](/css/data_types/length) [length](/css/data_types/length)
 :   Any standard CSS units are acceptable as `mask-position` values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the mask is away from the top left corner of the element. For more details on these units, read [Length units](/css/data_types/length).
@@ -61,9 +75,9 @@ left top
 bottom [length](/css/data_types/length) right [length](/css/data_types/length)
 :   CSS3 includes the new four value `mask-position` syntax, which allows you to choose which sides of the element you are positioning the mask relative to (values 1 and 3), and then the distance away from those sides (values 2 and 4). So this example says that you want to position the mask 10 pixels from the bottom of the element, and 15 pixels from the right. If you miss out one of the offset values, the other is assumed to be 0.
 
-## Examples
+## <span>Examples</span>
 
-``` {.css}
+``` css
 /* bottom right */
 body {
     background-color: white;
@@ -73,10 +87,7 @@ body {
     }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Masking Level 1](https://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html)
 :   W3C Editor's Draft
-

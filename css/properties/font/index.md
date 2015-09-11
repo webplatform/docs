@@ -1,50 +1,62 @@
 ---
 title: font
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The font property is shorthand that allows you to do one of two things: you can either set up six of the most mature font properties in one line, or you can set one of a choice of keywords to adopt a system font setting.'
 code_samples:
   - 'http://gist.github.com/6947832'
   - 'http://gist.github.com/5586740'
-uri: css/properties/font
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`normal for font-style, font-variant and font-weight. medium for font-size. normal for line-height. font-family initial value differs depending on the user agent.`'
+  'Applies to': 'All elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'See the individual properties'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`font`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The font property is shorthand that allows you to do one of two things: you can either set up six of the most mature font properties in one line, or you can set one of a choice of keywords to adopt a system font setting.'
+tags:
+  - CSS
+  - Properties
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - dom/defaultSelected
+uri: css/properties/font
 
 ---
-# font
-
-## Summary
+## <span>Summary</span>
 
 The font property is shorthand that allows you to do one of two things: you can either set up six of the most mature font properties in one line, or you can set one of a choice of keywords to adopt a system font setting.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `normal for font-style, font-variant and font-weight. medium for font-size. normal for line-height. font-family initial value differs depending on the user agent.`
+
 Applies to
 :   All elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   See the individual properties
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `font`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `font: font-weight font-style font-variant font-size/line-height font-family`
 -   `font: system font`
 
-## Values
+## <span>Values</span>
 
 font-weight font-style font-variant font-size/line-height font-family
 :   `font` can take up to six separate parts in its value, which set six different longhand property values. The options are as follows:
@@ -66,11 +78,11 @@ system font
 -   `small-caption`: User-preference font used in small controls.
 -   `status-bar`: User-preference font used in small controls.
 
-## Examples
+## <span>Examples</span>
 
 A selection of examples showing some typical uses of the `font` property.
 
-``` {.css}
+``` css
 .example-one {
   /*    size  family    */
   font: 1.5em sans-serif;
@@ -91,7 +103,7 @@ A selection of examples showing some typical uses of the `font` property.
 
 A couple of theoretical font examples, showing first a `font` property value with all possible longhand values included, and second, a system default font being used.
 
-``` {.css}
+``` css
 .one {
   font: bold italic small-caps 18px/24px georgia;
 }
@@ -103,26 +115,24 @@ A couple of theoretical font examples, showing first a `font` property value wit
 
 [View live example](http://code.webplatform.org/gist/5586740)
 
-## Notes
+## <span>Notes</span>
 
 -   The **font-style**, **font-variant**, and **font-weight** values may appear in any order before **font-size**. However, the **font-size**, **line-height**, and **font-family** properties must appear in the order listed. Setting the **font** property also sets the component properties. In this case, the string must be a combination of valid values for the component properties; only **font-family** may have more than one value.
 
 If the string does not contain a value for a component property, that property is set to its default, regardless of prior settings for that component property.
 
--   Read [https://developer.mozilla.org/en-US/docs/Web/CSS/font](https://developer.mozilla.org/en-US/docs/Web/CSS/font) for more information on Firefox's additional proprietary system font settings.
+-   Read <https://developer.mozilla.org/en-US/docs/Web/CSS/font> for more information on Firefox's additional proprietary system font settings.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Fonts Module Level 3](http://www.w3.org/TR/css3-fonts/#font-prop)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Fonts
+#### <span>Fonts</span>
 
 -   [@font-face](/css/atrules/@font-face)
 
@@ -148,13 +158,7 @@ Specification
 
 -   [font-style](/css/properties/font-style)
 
--   [font-synthesis](/css/properties/font-synthesis)
-
 -   [font-variant](/css/properties/font-variant)
-
--   [max-font-size](/css/properties/max-font-size)
-
--   [min-font-size](/css/properties/min-font-size)
 
 -   [user-modify](/css/properties/user-modify)
 
@@ -162,15 +166,14 @@ Specification
 
 -   [font](/html/elements/font)
 
-### External resources
+### <span>External resources</span>
 
 -   MDN: [font @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `defaults`
 -   `runtimeStyle`
 -   `style`
-

@@ -1,24 +1,31 @@
 ---
-title: data-*
+title: dataset and data-*
+notes:
+  - 'Review import; Compatibility table; link examples to our code.webplatform.org playground; fix see also'
+readiness: 'Not Ready'
+standardization_status: 'W3C Editor''s Draft'
 tags:
   - Markup
   - Attributes
   - HTML
-readiness: 'Not Ready'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Review import; Compatibility table; link examples to our code.webplatform.org playground; fix see also'
 uri: 'html/attributes/data-*'
 
 ---
-# dataset and data-\*
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
+<table class="wikitable">
+<tr>
+<th>
 Applies to
-:    ?
 
-##### 3.2.3.9 Embedding custom non-visible data with the \<a href="\#attr-data-\*"\>data-\*\</a\> attributes
+</th>
+<td>
+ ?
+
+</td>
+</tr>
+</table>
+##### <span><span class="secno">3.2.3.9</span><dfn>Embedding custom non-visible data</dfn> with the `<a href="#attr-data-*">data-*</a>` attributes</span>
 
 A <dfn id="custom-data-attribute">custom data attribute</dfn> is an attribute in no namespace whose name starts with the string "<dfn id="attr-data-.2A" title="attr-data-*">`data-`</dfn>", has at least one character after the hyphen, is \<a href="infrastructure.html\#xml-compatible"\>XML-compatible\</a\>, and contains no \<a href="infrastructure.html\#uppercase-ascii-letters"\>uppercase ASCII letters\</a\>.
 
@@ -97,9 +104,8 @@ For example, a library called "DoQuery" could use attribute names like `data-doq
 
 **Needs Examples**: This section should include examples.
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
--   Imported from: \<a href="[http://www.w3.org/html/wg/drafts/html/master/dom.html\#embedding-custom-non-visible-data-with-the-data-\*-attributes](http://www.w3.org/html/wg/drafts/html/master/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes)"\>[http://www.w3.org/html/wg/drafts/html/master/dom.html\#embedding-custom-non-visible-data-with-the-data-\*-attributes](http://www.w3.org/html/wg/drafts/html/master/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes)\</a.
-
+-   Imported from: \<a href="<http://www.w3.org/html/wg/drafts/html/master/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes>"\><http://www.w3.org/html/wg/drafts/html/master/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes>\</a.

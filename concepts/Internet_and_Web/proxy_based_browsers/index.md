@@ -1,23 +1,21 @@
 ---
-title: proxy based browsers
+title: Proxy-based browsers
+notes:
+  - 'This is not a web development concept topic, and will attract vendor spam. Deletion candidate.'
+readiness: 'Not Ready'
+summary: 'This article will give an overview of proxy based browsers. Some solution transform web pages into compact formats. Some solution only provides data compression.'
 tags:
   - Concept
   - Pages
   - Mobile
-readiness: 'Not Ready'
-notes:
-  - 'This is not a web development concept topic, and will attract vendor spam. Deletion candidate.'
-summary: 'This article will give an overview of proxy based browsers. Some solution transform web pages into compact formats. Some solution only provides data compression.'
 uri: 'concepts/Internet and Web/proxy based browsers'
 
 ---
-# Proxy-based browsers
-
-## Summary
+## <span>Summary</span>
 
 This article will give an overview of proxy based browsers. Some solution transform web pages into compact formats. Some solution only provides data compression.
 
-## Purpose
+## <span>Purpose</span>
 
 Proxy Based web browsers reduce bandwidth usage by compressing resources of the rendered page on a proxy server (usually the browser vendors), before sending it to the client browser.
 
@@ -29,12 +27,12 @@ To make a request:
 4.  The proxy server sends the client the rendered page.
 5.  Client interaction with page is sent to the proxy server, who forwards it onto the origin server.
 
-## Concerns
+## <span>Concerns</span>
 
 -   Each implementation has different feature support.
 -   There may be concerns about trusting a third party service with browsing data.
 
-## Implementations
+## <span>Implementations</span>
 
 -   Opera Mini [[1]](http://www.opera.com/mobile/)
 -   Opera Desktop with Turbo [[2]](http://www.opera.com/browser/turbo/)
@@ -46,4 +44,3 @@ To make a request:
 -   Skyfire [[4]](http://www.skyfire.com/)
 -   Nokia Xpress Browser [[5]](http://www.nokia.com/ie-en/apps/apps-by-nokia/xpressbrowser/)
 -   UC Browser [[6]](http://www.ucweb.com)
-

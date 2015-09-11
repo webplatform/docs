@@ -1,12 +1,12 @@
 ---
-title: lignment
+title: alignment
 tags:
   - Glossary
   - Items
 uri: alignment
 
 ---
-## alignment
+## <span>alignment</span>
 
 The horizontal or vertical positioning of an element. Typical horizontal alignments include left, right, and center; typical vertical alignments include baseline, sub, super, top, text-top, middle, bottom, and text-bottom.
 

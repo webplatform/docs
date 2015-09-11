@@ -1,6 +1,5 @@
 ---
-title: unchanged elements
-uri: 'html5/html/unchanged elements'
+title: Elements and attributes unchanged in HTML5
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
@@ -27,11 +26,10 @@ todo_broken_links:
     - 'html/elements/meta http-equiv=default-style'
     - 'html/elements/meta http-equiv=refresh'
     - 'html/elements/meta name'
+uri: 'html5/html/unchanged elements'
 
 ---
-# Elements and attributes unchanged in HTML5
-
-## Elements
+## <span>Elements</span>
 
 There are 84 unchanged elements in HTML5:
 

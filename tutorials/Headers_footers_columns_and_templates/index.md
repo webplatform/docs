@@ -11,7 +11,7 @@ tags:
 uri: 'tutorials/Headers footers columns and templates'
 
 ---
-## Introduction
+## <span>Introduction</span>
 
 To this point, the articles in the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum) have focused on single topics, ranging from soft concepts like typography and colour, to hard technical instruction on subsets of CSS 2.1. This article takes on broader focus; its purpose is to show the reader how to take the material covered so far, and use it to build a complete site template.
 
@@ -36,7 +36,7 @@ Even after the design and structural choices have been made, there remains the q
 
 This article underscores the importance of the four steps mentioned above; provides a simple framework for content classification; and describes how to lay out a site with complete headers, footers, and columns.
 
-## The stylist’s critical process steps
+## <span>The stylist’s critical process steps</span>
 
 The following two sections are provided as embellishment to other articles in this curriculum, with an an emphasis on planning and process rather than implementation. Their central message is “look before you leap” — in other words, form a clear understanding of what you are going to implement *before* you start on markup, stylesheets and code!
 
@@ -44,7 +44,7 @@ The following two sections are provided as embellishment to other articles in th
 
 Figure 1: Ten common steps of the sitebuilding process. Those that are especially relevant to this article are presented in inverse.
 
-### Gathering objectives
+### <span>Gathering objectives</span>
 
 Good CSS relies on a chain of dependencies:
 
@@ -64,7 +64,7 @@ When the requirements gathering process is handled poorly, stylists can expect t
 -   Frequent change requests, as requirements are cobbled together *during* the implementation process
 -   Lack of current tools
 
-### Content classification
+### <span>Content classification</span>
 
 Once you’ve determined the scope of your site content, you need to define its importance to the site as a whole, and decide what navigation aids you will provide for visitors to find it.
 
@@ -72,7 +72,7 @@ There is also the question of what to do with matter such as advertising, link l
 
 Once classified, content can then be associated with the site’s navigation and given weight. Content weighting will be discussed here in a primary/secondary/tertiary context, since a content block's importance should be reflected by its position in a document's source order.
 
-### Collaborative sketching and composite creation
+### <span>Collaborative sketching and composite creation</span>
 
 If you are working on a project where graphic design and style implementation are roles assigned to different people — which is often the case in commercial projects — the graphic designer should rely on sitemap diagrams and [wireframes](http://dev.opera.com/articles/view/9-building-up-a-site-wireframe/) (if available) to start creating the look and feel of the site. It can be valuable to start out with simple sketches, as a way of defining things like the site’s general motif, its consistent features, and the details that might complicate the markup or the `class` and `id` assignment.
 
@@ -80,17 +80,17 @@ With sketches agreed upon, the graphic designer can then move onto the finished 
 
 Henceforth in this article graphic design will be getting short shrift, as it has already been discussed in the curriculum articles about [wireframes](http://www.w3.org/wiki/Building_up_a_site_wireframe) and [composites/mockups](http://www.w3.org/wiki/Colour_schemes_and_design_mockups).
 
-### Establishment of inter- and intra-document structure
+### <span>Establishment of inter- and intra-document structure</span>
 
 With the composites in hand, the stylist can start writing the markup and CSS. The first step of doing that work is to decide upon the content order, element nesting, `class`es, and `id`s that will be used on the production site — work that can only be done at its best if the stylist has a complete understanding of the content to be served on the site, and the manner in which it is to be laid out.
 
-## Requirements, classification, and element nesting in more detail
+## <span>Requirements, classification, and element nesting in more detail</span>
 
 If one follows modern best practices and adopts the User Centered Design (UCD) paradigm for driving design and development decisions, then visitor objectives inform every step of the design process.
 
 However, the objectives of the site’s sponsor (or publisher) actually take precedence from a design team’s perspective, because without knowledge of *those* goals, the design team has no way to anticipate visitor goals.
 
-### Defining business objectives
+### <span>Defining business objectives</span>
 
 The “business” objectives of the site will fall under one or more of the following *general* definitions:
 
@@ -104,7 +104,7 @@ Once the *general* objectives have been established, there will be further refin
 
 Experience is by far the best teacher when it comes to guiding this part of the requirements gathering process.
 
-### Defining and meeting visitor objectives
+### <span>Defining and meeting visitor objectives</span>
 
 With business objectives established — “this is what we want our visitors to see and do” — the next step is to attract and lead visitors to those destinations and types of functionality that best suit them.
 
@@ -127,7 +127,7 @@ When it comes to markup and stylesheets, there are a few simple techniques to fo
     -   The range of possible destinations available within a given section of the site is hidden until the visitor interacts with such elements; this limits their ability to maintain a sense of location within the site until they’ve gained experience with using it.
 -
 
-### Content classification
+### <span>Content classification</span>
 
 Once you’ve worked out the scope of the content to be served on the site, you can give it an architecture. A site’s architecture can be worked out in various ways (see [an earlier article](http://www.w3.org/wiki/Creating_multiple_pages_with_navigation_menus) for some examples).
 
@@ -144,7 +144,7 @@ In addition to content, your layout will almost certainly include two other sect
 
 A site’s primary navigation and title are nearly always part of (or flush to) its header in a visual context; it is left up to each implementer to decide if they should be made part of the site’s header at the markup level.
 
-#### Source order: accessibility and other considerations
+#### <span>Source order: accessibility and other considerations</span>
 
 An early step of designing site templates is to decide upon the source order of its content, which should be consistent across the site as a whole.
 
@@ -173,7 +173,7 @@ Thus, it’s most common to arrange the outermost sections in the following orde
 
 The manner in which these sections are nested will depend upon any number of variable requirements, the most common of which is the number of static columns in the site layout.
 
-### Container element, class, and id assignment
+### <span>Container element, class, and id assignment</span>
 
 Putting aside questions of taxonomy, we can assume that any given site will cover a range of related subjects within an understood scope — be it the operations and products of a company, specific types of events, or specific kinds of entertainment, to name a few examples that can usually be counted upon to arouse appeal in non-technical audiences.
 
@@ -185,7 +185,7 @@ Practices vary, but the author usually assigns the following layout tokens to hi
 
 In addition to — and more importantly — than these, an `id` is added to the `body` of each page (as mentioned above) that gives some indication of the scope of the primary content associated with the whole document. Some projects also generate a requirement for the assignment of `class`es to `body` elements, as well.
 
-## Single column layout implementation
+## <span>Single column layout implementation</span>
 
 [A visual description of the principal container elements in a single column layout](/w/index.php?title=Special:Upload&wpDestFile=templatf.png)
 
@@ -193,15 +193,15 @@ Figure 1: The elements of a single column layout; the markup will likely be nest
 
 Figure 1 shows that `#main` is immediately within `body`, and in turn contains all of `#header`, `#bodyCopy`, and `#footer`.
 
-### Centering the layout
+### <span>Centering the layout</span>
 
 Centering the content canvas is a matter of inserting (in this case) `#main { width: 960px; margin: auto; }` into your stylesheet. (The `width` value chosen is arbitary.)
 
-### Is a document-wide container strictly necessary?
+### <span>Is a document-wide container strictly necessary?</span>
 
 In a site that relies entirely upon single column layouts, it is not an *absolute* requirement to include `#main`; one could as easily apply the same layout property/value pairs used above to `#header`, `#bodyCopy`, and `#footer` in combination. However, there’s nothing *semantically* wrong with including `#main`, and its inclusion offers the stylist more flexibility with respect to things like rules, gutters, background images, and building the prominence of certain elements into the structure of the template.
 
-## Double column layout implementation
+## <span>Double column layout implementation</span>
 
 [A visual description of the principal container elements in a double column layout](/w/index.php?title=Special:Upload&wpDestFile=templatg.png)
 
@@ -209,11 +209,11 @@ Figure 2: The elements of a double column layout; the markup will likely be nest
 
 The difference between single and double column layouts lies in the addition of a second container element for the secondary content (`#sidebar`, which actually follows `#bodyCopy` in the source order), and some changes to the stylesheet likely to be used for a single column layout.
 
-### Composition issues vis-a-vis single and double column layouts
+### <span>Composition issues vis-a-vis single and double column layouts</span>
 
 The changes to the *markup* needed to convert a single column template into a double column template are straightforward, but in many circumstances the new *style rules* needed are not.
 
-#### Placing \#sidebar to the left in spite of its source order
+#### <span>Placing \#sidebar to the left in spite of its source order</span>
 
 There are two procedures for doing this; one will work regardless of the length of either column, while the other requires `#bodyCopy` to be longer than `#sidebar`.
 
@@ -233,7 +233,7 @@ It is also possible to assign a large `margin-left` or `margin-right` value (as 
 
 A second approach less likely to trigger bugs in Internet Explorer 6 is to assign a large `margin-left` or `margin-right` value to `#bodyCopy` as appropriate, and absolutely position `#sidebar`. However, this approach is less flexible, since cases in which `#sidebar` is longer than `#bodyCopy` will cause the former element to bleed into `#footer`.
 
-#### Faux columns: using a background image to even up column lengths when the length of their content differs
+#### <span>Faux columns: using a background image to even up column lengths when the length of their content differs</span>
 
 Closer examination of column implementations using the `float` property reveals that when differing background colours or vertical rules between columns are desired, they cannot be counted upon to run down the length of the main content area when applied with `background-color` or `border` properties.
 
@@ -256,7 +256,7 @@ If `bg_2column.gif` is composed of two bands of highly contrasted colours that c
 
 Taking this step does not necessarily remove the need to apply `color` or `background-color` properties to a given column; if the default text colour is unreadable against one or both columns, their background and foreground colours should be explicitly specified in the stylesheet as a fail-safe against the possibility of the browser failing to load background images.
 
-#### Moving the primary navigation into the second column while preserving source order
+#### <span>Moving the primary navigation into the second column while preserving source order</span>
 
 Once a second column has been added to the layout, it will probably seem natural to place the primary site navigation at the top of that column… but how does one do so when that navigation rests in a different part of the template structure?
 
@@ -267,7 +267,7 @@ The answer to that question lies in positioning:
 3.  Since the absolute position of `#nav` will place it at the top left corner of its ancestor by default, adjust the `left` and `top` values of `#nav` as desired under the circumstances.
 4.  Adjust the `margin-top` or `padding-top` value of `#sidebar` (as appropriate) to reflect the expected height of `#nav`. In cases where the height of `#nav` changes from one page or section to the next, it will be necessary to write multiple rules, perhaps with multiple selectors in each — thus the advice supplied above to assign a content-scope-referent `id` (and perhaps a `class` also) to the `body` of each document on the site.
 
-## Triple column layout implementation
+## <span>Triple column layout implementation</span>
 
 [A visual description of the principal container elements in a triple column layout](/w/index.php?title=Special:Upload&wpDestFile=templath.png)
 
@@ -472,7 +472,7 @@ Tertiary
 </table>
 **Table 1:** `float` values of the four container elements of a three column layout according to order of appearance from left to right.
 
-### The biggest pitfall of three-column designs, and its easy solution
+### <span>The biggest pitfall of three-column designs, and its easy solution</span>
 
 The most flexible three column layout introduces a container element that’s semantically meaningless; the alternative is to enforce conventions of content length or source order that will create an onerous burden, placed either upon maintainers (in the case of content length requirements), or upon visitors (in the case of source order limitations).
 
@@ -489,25 +489,25 @@ The overall markup arrangement of containers will take one of the two following 
 
 In those two examples, the bits relevant to search-and-replace have been displayed in boldface. Since those `id`s will be unique in your document, and since the location of the double closing tags can be predicted (either adjacent to a third closing tag, or to `#tertiary`), writing a search-and-replace operation to alter them is a relatively light challenge.
 
-## Taking in a broad view of headers and footers
+## <span>Taking in a broad view of headers and footers</span>
 
 Up to this point there’s been discussion of the *matter* that ought to go into headers and footers — logo/logotype, sitewide search, links to user account information, site metadata — but header/footer effectiveness and attractiveness has been little discussed outside the Curriculum articles about [wireframes](http://dev.opera.com/articles/view/9-building-up-a-site-wireframe/) and [composites/mockups](http://dev.opera.com/articles/view/10-colour-schemes-and-design-mockups/).
 
 Since it’s poor to immerse the reader in pontification, a better idea might be to take three sites that are notable — either for their popularity, or for the prominence of their publishers — and take a look at their various particulars of design.
 
-### Personal site: Cindy Li
+### <span>Personal site: Cindy Li</span>
 
 [header of cindyli.com](/w/index.php?title=Special:Upload&wpDestFile=cindyli0.png)
 
 Figure 4: There are two matters of note especially worthy of discussion here: identity and contrast.
 
-#### Identity
+#### <span>Identity</span>
 
 “Identity” is a term that takes on special meaning in the realms of advertising and marketing, where it refers to trademarks and other design elements that are particular to the presentation of a commercial enterprise and its products. [Cindy Li's site](http://www.cindyli.com/) enforces this at a personal level by featuring a caricature of her facial profile into the site header, and a distinctive typeface to set her site title and primary navigation.
 
 The manner in which identity is enforced on enterprise sites will be discussed in more detail below,
 
-#### Contrast
+#### <span>Contrast</span>
 
 On cindyli.com, it’s obvious to the visitor at first glance what things are: the identity, content canvas, and primary content are all placed within footprints made discrete through their background colours. In addition, the site title and navigation are given high contrast against their background.
 
@@ -519,7 +519,7 @@ Figure 5: Cindy Li’s footer is somewhat sparse: there are a copyright statemen
 
 Unlike the other sites presented in this article, [Cindy's site](http://www.cindyli.com/) doesn't offer fulltext search, probably for technical reasons. However, since the site is a blog, its design allows the assumption that most readers confine their interest to new content.
 
-### Social networking: Facebook
+### <span>Social networking: Facebook</span>
 
 [header of facebook.com.](/w/index.php?title=Special:Upload&wpDestFile=facebool.png)
 
@@ -533,13 +533,13 @@ Figure 7: Like its header, Facebook’s footer is also small, even once the pers
 
 Another common practice exemplified by the Facebook footer is that while links of use to user wayfinding go into the header, the footer contains all of the links about the site operator, and the site itself.
 
-### Enterprise marketing and customer service: BNSF Railway
+### <span>Enterprise marketing and customer service: BNSF Railway</span>
 
 [header of bnsf.com.](/w/index.php?title=Special:Upload&wpDestFile=bnsf0000.png)
 
 Figure 8: Like most “enterprise” sites, the highest contrast of the header features is enjoyed by the site publisher’s logo… and the only hue present is the same as that used in the logo.
 
-#### Identity revisited
+#### <span>Identity revisited</span>
 
 With respect to distinct logos, logotypes, and other design tropes that enforce *commercial* identity, consider the following, which are all ubiquitous marks of enterprises that do business with Opera Software:
 
@@ -569,7 +569,7 @@ As for other elements in the BNSF site header apart from the logo, the most nota
 
 Figure 9: The BNSF site has the most “traditional” footer layout of these three sites, in that little effort is made to place the secondary navigation within a distinct visual plane with horizontal rules or a differing background colour.
 
-### Header and footer design: the low level details
+### <span>Header and footer design: the low level details</span>
 
 In taking a broader view of header and footer design, the following commonalities become clear:
 
@@ -577,7 +577,7 @@ In taking a broader view of header and footer design, the following commonalitie
 -   **Just as horizontally oriented primary navigation is common, so is the use of discrete secondary navigation in the footer.** Furthermore, the destination-versus-site-metainfo division described early in this article is pretty commonly enforced.
 -   **Where fulltext search is present, its input fields tend to be placed near the right margin of the header.** This is due in no small part to the fact that well-implemented fulltext search is just as valid a way to navigate through a site as are traditional, taxonomically-driven navigation links — and likely to be abused by a subset of your site’s visitor population, likely to be among the least technically-inclined of your users.
 
-#### More about implementing navigation layout
+#### <span>More about implementing navigation layout</span>
 
 Before there’s any dive into details, the reader should first consult the [[1]](http://www.accessify.com/tools-and-wizards/developer-tools/list-o-matic/List-O-Matic), an application hosted at Accessify.com that creates navigation elements with simple styling, ready for insertion into any page layout.
 
@@ -586,7 +586,7 @@ Beyond the matter of tools that do the work for you, there are two basic approac
 -   **The navigation is made integral to the site header (visually if not literally) and oriented horizontally.** In this case, the `display` value of the individual links will likely be changed to `block`, and their containing list items will be assigned a `float` value of `left`.
 -   **The navigation is oriented vertically and placed to the left of the primary content, either in its own column or just above non-primary content.** In this case, you’re most likely to see some kind of non-`static` positioning put to use.
 
-## Sites with varying numbers of columns: cheating with classes and display
+## <span>Sites with varying numbers of columns: cheating with classes and display</span>
 
 Some sites might well have pages with one or two columns, others two or three; flexibility is one of the strengths of CSS, and one of the hobbyhorses that graphic designers unwittingly ride in their lustful quest for ironfisted control over the user experience.
 
@@ -612,7 +612,7 @@ The most straightforward approach is to attach a `class` to the `body` of any pa
 
 The one drawback to taking this approach *without* the benefit of include statements (a poor man’s way of making content disappear or reappear, if you will) is that search engine operator policies might well reduce the weight of those pages in results — or in the case of spectacularly clumsy implementations, delist sites that use them, altogether. For this reason (among too many others to count), any hosting arrangement you obtain should support some sort of include functionality.
 
-## Summary
+## <span>Summary</span>
 
 While it’s tempting — particularly if you’re still a beginner — to just sit right down and get to writing markup and code, such a process does *not* lend itself to especially attractive, useful, or maintainable sites.
 
@@ -624,7 +624,7 @@ Basic templates:
 -   [double column](http://dev.opera.com/articles/view/38-headers-footers-columns-templates/template_2col.html.txt)
 -   [triple column](http://dev.opera.com/articles/view/38-headers-footers-columns-templates/template_3col.html.txt)
 
-## Exercise questions
+## <span>Exercise questions</span>
 
 1.  Given a list of possible links provided by your instructor, divide those into primary (header) and secondary (footer) links. Justify your assignments by relying on examples provided in this article.
 2.  Take a composite created by a classmate and identify:
@@ -638,7 +638,7 @@ Basic templates:
 6.  Relying solely on search engine results, obtain the reason why lists are preferable to collections of `div`s (or other elements) for structuring navigation elements. Reference the characteristics of screen reader software in your answer.
 7.  *From memory*, revise one of the provided template files so that it supports a different number of columns. Also alter significantly the composition of the primary navigation, in comparison to what was found in the original template file.
 
-## Bibliography
+## <span>Bibliography</span>
 
 1.  [BNSF Railroad](http://www.bnsf.com/). 2006. (last accessed 13 January 2009).
 2.  [Facebook](http://www.facebook.com/home.php). 2008. (last accessed 13 January 2009).

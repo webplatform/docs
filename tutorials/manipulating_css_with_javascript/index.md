@@ -1,22 +1,23 @@
 ---
-title: manipulating css with javascript
+title: Manipulating CSS with JavaScript
+attributions:
+  - 'This article contains content originally from external sources, including ones licensed under the CC-BY-SA license. [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)'
+  - 'Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/JavaScript)'
+readiness: 'Ready to Use'
+summary: 'In this article we look at the basics of how to manipulate CSS styles using JavaScript.'
 tags:
   - Tutorials
   - CSS
   - DOM
   - JavaScript
-readiness: 'Ready to Use'
-summary: 'In this article we look at the basics of how to manipulate CSS styles using JavaScript.'
 uri: 'tutorials/manipulating css with javascript'
 
 ---
-# Manipulating CSS with JavaScript
-
-## Summary
+## <span>Summary</span>
 
 In this article we look at the basics of how to manipulate CSS styles using JavaScript.
 
-### Information: JavaScript
+### <span>Information: JavaScript</span>
 
 JavaScript is a *programming language*. JavaScript is widely used to provide interactivity in web sites and applications. JavaScript can interact with stylesheets, allowing you to write programs that change a document's style dynamically.
 
@@ -26,11 +27,11 @@ JavaScript is a *programming language*. JavaScript is widely used to provide int
 -   By working with the rules in a stylesheet—for example: adding, removing or modifying a rule.
 -   By working with an individual element in the DOM—modifying its style independently of the document's stylesheets
 
-### Action: A JavaScript demonstration
+### <span>Action: A JavaScript demonstration</span>
 
 1.  Make a new HTML document, `doc5.html`. Copy and paste the content from here, making sure that you scroll to get all of it:
 
-    ``` {.html}
+    ``` html
     <!DOCTYPE html>
     <html>
 
@@ -53,7 +54,7 @@ JavaScript is a *programming language*. JavaScript is widely used to provide int
 
 2.  Make a new CSS file, `style5.css`. Copy and paste the content from here:
 
-    ``` {.css}
+    ``` css
     #square {
       width: 20em;
       height: 20em;
@@ -68,7 +69,7 @@ JavaScript is a *programming language*. JavaScript is widely used to provide int
 
 3.  Make a new text file, `script5.js`. Copy and paste the content from here:
 
-    ``` {.js}
+    ``` js
     // JavaScript demonstration
 
     var square = document.getElementById("square"),
@@ -102,15 +103,8 @@ JavaScript is a *programming language*. JavaScript is widely used to provide int
 -   In JavaScript, `backgroundColor` corresponds to the CSS property `background-color`. JavaScript does not allow hyphens in names, so "camelCase" is used instead.
 -   Your browser has a built-in CSS rule for `button` that changes the button's appearance when it is disabled.
 
-## See also
+## <span>See also</span>
 
-## Exercise question
+## <span>Exercise question</span>
 
 Change the script so that the square jumps to the right by 20 em when its color changes, and jumps back afterwards.
-
-## Attribution
-
-*This article contains content originally from external sources, including ones licensed under the CC-BY-SA license.* [![cc-by-sa-small-wpd.png](/assets/public/c/c8/cc-by-sa-small-wpd.png)](http://creativecommons.org/licenses/by-sa/3.0/us/)
-
-Portions of this content copyright 2012 Mozilla Contributors. This article contains work licensed under the Creative Commons Attribution-Sharealike License v2.5 or later. The original work is available at Mozilla Developer Network: [Article](https://developer.mozilla.org/en-US/docs/CSS/Getting_Started/JavaScript)
-

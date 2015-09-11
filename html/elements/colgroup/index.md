@@ -1,94 +1,100 @@
 ---
 title: colgroup
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX1.htm'
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX2.htm'
+notes:
+  - 'Add Category, Parent, Children and Compatibility information.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLTableColElement](/dom/HTMLTableColElement)'
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: "The colgroup element (&lt;colgroup&gt;) specifies a group of one or more columns in a table for formatting.\nThis element is useful for applying properties to entire columns, instead of repeating the properties for each cell, for each row.\n"
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add Category, Parent, Children and Compatibility information.'
-summary: "The colgroup element (<colgroup>) specifies a group of one or more columns in a table for formatting.\nThis element is useful for applying properties to entire columns, instead of repeating the properties for each cell, for each row.\n"
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX1.htm'
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX2.htm'
 uri: html/elements/colgroup
 
 ---
-# colgroup
+## <span>Summary</span>
 
-## Summary
+The colgroup element (&lt;colgroup&gt;) specifies a group of one or more columns in a table for formatting. This element is useful for applying properties to entire columns, instead of repeating the properties for each cell, for each row.
 
-The colgroup element (\<colgroup\>) specifies a group of one or more columns in a table for formatting. This element is useful for applying properties to entire columns, instead of repeating the properties for each cell, for each row.
-
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLTableColElement](/dom/HTMLTableColElement)
 
-## HTML Attributes
+## <span>HTML Attributes</span>
 
 -   `span` = valid non-negative integer
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **COLGROUP** element to assign specific characteristics to two groups of columns in a table.
 
-    <html>
-    <body>
-    <table border="2" rules="groups">
-        <!-- RULES is set to "groups", which places internal dividing lines around
-    table columns defined by COLGROUP. -->
-        <colgroup span="2" style="color: red">
-        </colgroup>
-        <colgroup style="color: blue">
-        </colgroup>
-        <tr>
-            <td>This column is in the first group.</td>
-            <td>This column is in the first group.</td>
-            <td>This column is in the second group.</td>
-        </tr>
-        <tr>
-            <td>This column is in the first group.</td>
-            <td>This column is in the first group.</td>
-            <td>This column is in the second group.</td>
-        </tr>
-    </table>
-    </body>
-    </html>
+``` html
+<html>
+<body>
+<table border="2" rules="groups">
+    <!-- RULES is set to "groups", which places internal dividing lines around
+table columns defined by COLGROUP. -->
+    <colgroup span="2" style="color: red">
+    </colgroup>
+    <colgroup style="color: blue">
+    </colgroup>
+    <tr>
+        <td>This column is in the first group.</td>
+        <td>This column is in the first group.</td>
+        <td>This column is in the second group.</td>
+    </tr>
+    <tr>
+        <td>This column is in the first group.</td>
+        <td>This column is in the first group.</td>
+        <td>This column is in the second group.</td>
+    </tr>
+</table>
+</body>
+</html>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX1.htm)
 
 When **COL** elements are nested inside a **COLGROUP** element, the attributes of the **COL** elements override the attributes of the **COLGROUP** element. In this example, the last column has no formatting even though **COLGROUP** spans over all three columns. This happens because the [**SPAN**](/html/attributes/span) attribute of the nested **COL** element overrides the **SPAN** attribute of the **COLGROUP**.
 
-    <html>
-    <body>
-    <table border="2">
-        <colgroup span="3" style="color: green; background: black">
-            <!-- Styling is applied to only the first two columns, instead of all
-        three, and the font color is red instead of green. This is consistent
-        with the attributes of the COL element. -->
-            <col span="2" style="color: red">
-        </colgroup>
-        <tr>
-            <td>This column is in the first group.</td>
-            <td>This column is in the first group.</td>
-            <td>This column is in the second group.</td>
-        </tr>
-        <tr>
-            <td>This column is in the first group.</td>
-            <td>This column is in the first group.</td>
-            <td>This column is in the second group.</td>
-        </tr>
-    </table>
-    </body>
-    </html>
+``` html
+<html>
+<body>
+<table border="2">
+    <colgroup span="3" style="color: green; background: black">
+        <!-- Styling is applied to only the first two columns, instead of all
+    three, and the font color is red instead of green. This is consistent
+    with the attributes of the COL element. -->
+        <col span="2" style="color: red">
+    </colgroup>
+    <tr>
+        <td>This column is in the first group.</td>
+        <td>This column is in the first group.</td>
+        <td>This column is in the second group.</td>
+    </tr>
+    <tr>
+        <td>This column is in the first group.</td>
+        <td>This column is in the first group.</td>
+        <td>This column is in the second group.</td>
+    </tr>
+</table>
+</body>
+</html>
+```
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/colgroupEX2.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Nested **COL** elements override **COLGROUP** elements. Use the [**SPAN**](/html/attributes/span) attribute to specify the number of table columns that the **COLGROUP** defines. This attribute has a default value equal to one.
 
@@ -98,26 +104,24 @@ You should avoid using the [**SPAN**](/html/attributes/span) attribute inside th
 
 The [**table**](/html/elements/table) object and its associated elements have a separate table object model, which uses different methods than the general object model. For more information on the table object model, see Building Tables Dynamically.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/tabular-data.html#the-colgroup-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/tabular-data.html#the-colgroup-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/tables.html#edef-COLGROUP)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -215,11 +219,47 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-#### Tables
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   [script](/html/elements/script)
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+#### <span>Tables</span>
 
 -   [border-collapse](/css/properties/border-collapse)
 
@@ -246,10 +286,3 @@ Specification
 -   [th](/html/elements/th)
 
 -   `col`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

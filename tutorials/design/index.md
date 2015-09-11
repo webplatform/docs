@@ -1,15 +1,13 @@
 ---
-title: design
-tags:
-  - Tutorials
+title: Design tutorials
 readiness: 'Ready to Use'
 summary: 'A small overview of different design tutorials.'
+tags:
+  - Tutorials
 uri: tutorials/design
 
 ---
-# Design tutorials
-
-## Summary
+## <span>Summary</span>
 
 A small overview of different design tutorials.
 

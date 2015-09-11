@@ -1,37 +1,31 @@
 ---
-title: css-regions
+title: CSS Regions API
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Programmatic interface to content that flows through a series of chained region elements.'
 tags:
   0: API
   1: Listings
   3: CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Programmatic interface to content that flows through a series of chained region elements.'
-uri: apis/css-regions
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - apis/css-regions/NamedFlowMap
+uri: apis/css-regions
 
 ---
-# CSS Regions API
-
-## Summary
+## <span>Summary</span>
 
 Programmatic interface to content that flows through a series of chained region elements.
 
-Page
-:   Summary
-[CSSRegionStyleRule](/apis/css-regions/CSSRegionStyleRule)
-:   Represents an [**@region**](/css/atrules/@region) rule in a CSS style sheet, which applies styles to [fragments](/css/concepts/fragment) of content that flow into a CSS [region](/css/concepts/region).
-[NamedFlow](/apis/css-regions/NamedFlow)
-:   Represents content to flow among various block [*region*](/css/concepts/region) elements. The **NamedFlow** interface allows access to both the content of the [flow](/css/concepts/named_flow) and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.
-[NamedFlowCollection](/apis/css-regions/NamedFlowCollection)
-:   Obsolete. Replaced by [NamedFlowMap](/w/index.php?title=apis/css-regions/NamedFlowMap&action=edit&redlink=1). Represents a static snapshot array of a document's available [named flows](/css/concepts/named_flow)
-[Region](/apis/css-regions/Region)
-:   The **Region** interface is available for any element that serves as a CSS [*region*](/css/concepts/region), whose [**flow-from**](/css/properties/flow-from) CSS specifies it displays content from a [named flow](/css/concepts/named_flow).
+|Page|Summary|
+|:---|:------|
+|[CSSRegionStyleRule](/apis/css-regions/CSSRegionStyleRule)|Represents an [**@region**](/css/atrules/@region) rule in a CSS style sheet, which applies styles to [fragments](/css/concepts/fragment) of content that flow into a CSS [region](/css/concepts/region).|
+|[NamedFlow](/apis/css-regions/NamedFlow)|Represents content to flow among various block [*region*](/css/concepts/region) elements. The **NamedFlow** interface allows access to both the content of the [flow](/css/concepts/named_flow) and the series of regions in which it displays, and helps determine if the content exceeds or falls short of the number of regions necessary to display it.|
+|[NamedFlowCollection](/apis/css-regions/NamedFlowCollection)|Obsolete. Replaced by [NamedFlowMap](/w/index.php?title=apis/css-regions/NamedFlowMap&action=edit&redlink=1). Represents a static snapshot array of a document's available [named flows](/css/concepts/named_flow)|
+|[Region](/apis/css-regions/Region)|The **Region** interface is available for any element that serves as a CSS [*region*](/css/concepts/region), whose [**flow-from**](/css/properties/flow-from) CSS specifies it displays content from a [named flow](/css/concepts/named_flow).|
 
-## Usage
+## <span>Usage</span>
 
      CSS Regions are defined by two CSS properties.  The
 
@@ -47,11 +41,11 @@ Page
 
 For an overview of CSS Regions, see [Using CSS Regions to flow content through a layout](/tutorials/css-regions).
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   **CSS Regions API**
 
@@ -109,10 +103,9 @@ For an overview of CSS Regions, see [Using CSS Regions to flow content through a
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

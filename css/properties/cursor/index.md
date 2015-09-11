@@ -1,50 +1,67 @@
 ---
 title: cursor
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).'
+  - 'Microsoft Developer Network.'
+code_samples:
+  - 'https://gist.github.com/9b54d2d8dc9bc94382d5'
+notes:
+  - 'Add example, description, specifications, compatibility.'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'all elements'
+  '[Inherited](/css/concepts/inherited)': 'Yes'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified (if a keyword), URLs are converted to absolute'
+  Animatable: 'No'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`cursor`'
+  Percentages: N/A
+readiness: 'In Progress'
+standardization_status: 'W3C Recommendation'
+summary: 'The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.'
 tags:
   - CSS
   - Properties
-readiness: 'In Progress'
-standardization_status: 'W3C Recommendation'
-notes:
-  - 'Add example, description, specifications, compatibility.'
-summary: 'The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.'
-code_samples:
-  - 'https://gist.github.com/9b54d2d8dc9bc94382d5'
 uri: css/properties/cursor
 
 ---
-# cursor
-
-## Summary
+## <span>Summary</span>
 
 The cursor CSS property specifies the mouse cursor displayed when the mouse pointer is over an element.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   all elements
+
 [Inherited](/css/concepts/inherited)
 :   Yes
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified (if a keyword), URLs are converted to absolute
+
 Animatable
 :   No
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `cursor`
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `cursor: standard values`
 -   `cursor: url() hotspot-x hotspot-y, keyword;`
 -   `cursor: url(), keyword`
 
-## Values
+## <span>Values</span>
 
 standard values
 :   There are many standard cursors available:
@@ -99,11 +116,11 @@ You can supply multiple `url()` functions separated by commas (`url(), url(), au
 url() hotspot-x hotspot-y, keyword;
 :   CSS3 allows you to specify a custom cusor image along with an X and Y number values for the pointer hotspot, for example `cursor:  url(cursor2.png) 2 2, auto;`. If not specified, the hotspot position defaults to the top left corner of the cursor image, or may be read from the meta data inside the image file, in the case of CUR and XBM format files.
 
-## Examples
+## <span>Examples</span>
 
 To make the cursor appear like it's busy
 
-``` {.css}
+``` css
 .busy  {
     cursor: wait;
 }
@@ -111,11 +128,11 @@ To make the cursor appear like it's busy
 
 [View live example](https://code.webplatform.org/gist/9b54d2d8dc9bc94382d5)
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Visual Effects
+#### <span>Visual Effects</span>
 
 -   [color](/css/color)
 
@@ -150,12 +167,3 @@ To make the cursor appear like it's busy
 -   [filter](/svg/elements/filter)
 
 -   [JavaScript animation](/tutorials/animation_in_javascript_2)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/).
-
-Portions of this content come from the Microsoft Developer Network.
-

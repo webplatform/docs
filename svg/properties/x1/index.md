@@ -1,40 +1,33 @@
 ---
 title: x1
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'No editing form'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/x1
 
 ---
-# x1
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 The **x1** property represents a *relative* coordinate for lowercase [**path**](/svg/elements/path) commands (for example, **q** and **c**), and an *absolute* coordinate for uppercase **path** commands **Q** and **C**.)
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics (SVG) 1.1](http://go.microsoft.com/fwlink/p/?linkid=190918), Appendix M
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGPathSegCurvetoCubicAbs**](/svg/objects/SVGPathSegCurvetoCubicAbs)
 -   [**SVGPathSegCurvetoCubicRel**](/svg/objects/SVGPathSegCurvetoCubicRel)
 -   [**SVGPathSegCurvetoQuadraticAbs**](/svg/objects/SVGPathSegCurvetoQuadraticAbs)
 -   [**SVGPathSegCurvetoQuadraticRel**](/svg/objects/SVGPathSegCurvetoQuadraticRel)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

@@ -1,41 +1,80 @@
 ---
 title: keypress
+code_samples:
+  - 'http://gist.github.com/8631904'
+notes:
+  - 'General cleanup, compatibility'
+readiness: 'Almost Ready'
+standardization_status: Deprecated
+summary: 'Deprecated event for detecting when a key was pressed on the keyboard.'
 tags:
   - Events
   - DOM
   - DOMEvents
-readiness: 'Almost Ready'
-standardization_status: Deprecated
-notes:
-  - 'General cleanup, compatibility'
-summary: 'Deprecated event for detecting when a key was pressed on the keyboard.'
-code_samples:
-  - 'http://gist.github.com/8631904'
 uri: dom/KeyboardEvent/keypress
 
 ---
-# keypress
-
-## Summary
+## <span>Summary</span>
 
 Deprecated event for detecting when a key was pressed on the keyboard.
 
-## Overview Table
+## <span>Overview Table</span>
 
+<table class="wikitable">
+<tr>
+<th>
 Synchronous
-:   Yes
-Bubbles
-:   Yes
-Target
-:   [dom/Element](/dom/Element), [dom/Document](/dom/Document)
-Cancelable
-:   Yes
-Default action
-:   Varies: launch text composition system; blur and focus events; DOMActivate event; other event
 
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
+Bubbles
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
+Target
+
+</th>
+<td>
+[dom/Element](/dom/Element), [dom/Document](/dom/Document)
+
+</td>
+</tr>
+<tr>
+<th>
+Cancelable
+
+</th>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<th>
+Default action
+
+</th>
+<td>
+Varies: launch text composition system; blur and focus events; DOMActivate event; other event
+
+</td>
+</tr>
+</table>
 This event used to be used to detect when a key value was inserted into the DOM. Developers should use beforeInput, keyup, or keydown events depending on the task instead of this event.
 
-### Context information
+### <span>Context information</span>
 
 `Event.target`
 :   focused element which triggered the key event. This will be the root element if no suitable input element is focused.
@@ -60,9 +99,9 @@ This event used to be used to detect when a key value was inserted into the DOM.
  `KeyboardEvent.repeat`
 :   true if a key has been depressed long enough to trigger key repetition, otherwise false.
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 <!doctype html>
 <html>
 <head>
@@ -103,7 +142,7 @@ This event used to be used to detect when a key value was inserted into the DOM.
 
 [View live example](http://code.webplatform.org/gist/8631904)
 
-## Usage
+## <span>Usage</span>
 
      ===Related event order===
 
@@ -113,14 +152,13 @@ This event used to be used to detect when a key value was inserted into the DOM.
 4.  input
 5.  keyup
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   `onkeydown`
 -   `onkeyup`
 
-### External resources
+### <span>External resources</span>
 
 -   [DOM Level 3 Events](http://www.w3.org/TR/DOM-Level-3-Events/#event-type-keypress)
-

@@ -1,36 +1,43 @@
 ---
 title: previousSibling
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationNode
+    href: /apis/web_animations/AnimationNode
+  return:
+    predicate: 'Returns an object of type '
+    value: Object
+    href: /apis/web_animations/AnimationNode
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The previous sibling of this animation node.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The previous sibling of this animation node.'
 uri: 'apis/web animations/AnimationNode/previousSibling'
 
 ---
-# previousSibling
-
-## Summary
+## <span>Summary</span>
 
 The previous sibling of this animation node.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)</span></span>
+Property of [apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)[apis/web\_animations/AnimationNode](/apis/web_animations/AnimationNode)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.previousSibling;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">Object</span></span>
+Returns an object of type ObjectObject
 
 Returns an AnimationNode object
 

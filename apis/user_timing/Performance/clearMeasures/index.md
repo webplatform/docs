@@ -1,49 +1,54 @@
 ---
 title: clearMeasures
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/user_timing/Performance
+    href: /apis/user_timing/Performance
+standardization_status: 'W3C Recommendation'
+summary: 'Removes all DOMHighResTimeStamp durations for the given measure name, or removes all measures and their associated DOMHighResTimeStamp durations.'
 tags:
   0: API
   1: Object
   2: Methods
   4: User
   5: Timing
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Removes all DOMHighResTimeStamp durations for the given measure name, or removes all measures and their associated DOMHighResTimeStamp durations.'
 uri: 'apis/user timing/Performance/clearMeasures'
 
 ---
-# clearMeasures
-
-## Summary
+## <span>Summary</span>
 
 Removes all DOMHighResTimeStamp durations for the given measure name, or removes all measures and their associated DOMHighResTimeStamp durations.
 
-*Method of [apis/user\_timing/Performance](/apis/user_timing/Performance)*
+Method of [apis/user\_timing/Performance](/apis/user_timing/Performance)[apis/user\_timing/Performance](/apis/user_timing/Performance)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  object.clearMeasures(measureName);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### measureName
+### <span>measureName</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
-*(Optional)*
+(Optional)
 
 Name of the measures(s) to be cleared.
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 // set begin mark
 performance.mark("startMark");
 // execute a function to be measured
@@ -63,20 +68,11 @@ performance.clearMeasures("functionTime");
 performance.clearMarks();
 ```
 
-## Notes
+## <span>Notes</span>
 
 If a value for the *measureName* parameter is specified, only measures with that name are removed. If there are no measures with the specified name, this method does nothing.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C User Timing Specification](http://www.w3.org/TR/user-timing/)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

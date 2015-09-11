@@ -1,36 +1,43 @@
 ---
 title: playbackRate
+readiness: 'Almost Ready'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/web_animations/AnimationTimingReadOnly
+    href: /apis/web_animations/AnimationTimingReadOnly
+  return:
+    predicate: 'Returns an object of type '
+    value: double
+    href: /apis/web_animations/AnimationTimingReadOnly
+standardization_status: 'W3C Editor''s Draft'
+summary: 'The animation node’s playback rate property.'
 tags:
   - API
   - Object
   - Properties
   - Web
   - Animations
-readiness: 'Almost Ready'
-standardization_status: 'W3C Editor''s Draft'
-summary: 'The animation node’s playback rate property.'
 uri: 'apis/web animations/AnimationTimingReadOnly/playbackRate'
 
 ---
-# playbackRate
-
-## Summary
+## <span>Summary</span>
 
 The animation node’s playback rate property.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)</span></span>
+Property of [apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)[apis/web\_animations/AnimationTimingReadOnly](/apis/web_animations/AnimationTimingReadOnly)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.playbackRate;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">double</span></span>
+Returns an object of type doubledouble
 
 This is a multiplier applied to the local time potentially causing the node to run at a different rate to its natural speed.
 

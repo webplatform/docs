@@ -1,25 +1,23 @@
 ---
 title: @region
+readiness: 'Ready to Use'
+standardization_status: 'W3C Working Draft'
+summary: 'Applies CSS styles to portions of content as it appears when flowing within a specified set of regions.'
 tags:
   - CSS
   - At
   - Rules
   - CSS-Regions
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Applies CSS styles to portions of content as it appears when flowing within a specified set of regions.'
 uri: css/atrules/@region
 
 ---
-# @region
-
-## Summary
+## <span>Summary</span>
 
 Applies CSS styles to portions of content as it appears when flowing within a specified set of regions.
 
  The basic syntax is as follows:
 
-``` {.css}
+``` css
  @region <region_selector> {
      <content_selector> {
          /* ... CSS properties ... */
@@ -29,7 +27,7 @@ Applies CSS styles to portions of content as it appears when flowing within a sp
 
  The *region\_selector* specifies a set of region elements. Within that scope, the *content\_selector* applies to any [*range*](/css/concepts/fragment) (or 'fragment') of the selected content when it appears within each region. This example produces the following result:
 
-``` {.css}
+``` css
  /* default paragraph text */
  p { color: gray: }
 
@@ -41,11 +39,11 @@ Applies CSS styles to portions of content as it appears when flowing within a sp
 
  ![regionRule2.jpeg](/assets/public/5/5c/regionRule2.jpeg)
 
-## Examples
+## <span>Examples</span>
 
 Inverts paragraph text within the first region
 
-``` {.css}
+``` css
 /* dark gray text color by default */
 p {
     color: #444;
@@ -68,13 +66,13 @@ article.content { flow-into: main; }
 div.region { flow-from: main; }
 ```
 
-## Usage
+## <span>Usage</span>
 
      The @region rule does not change the cascading order of content selectors.
 
 Use the [**CSSRegionStyleRule**](/apis/css-regions/CSSRegionStyleRule) interface to apply **@region** rules programmatically.
 
-## Notes
+## <span>Notes</span>
 
 Only the following set of CSS properties work within **@region** rules:
 
@@ -97,18 +95,16 @@ Only the following set of CSS properties work within **@region** rules:
 -   [**box-decoration-break**](/css/properties/box-decoration-break)
 -   [**width**](/css/properties/width)
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Regions Module Level 1](http://www.w3.org/TR/2012/WD-css3-regions-20120823/)
 :   W3C Working Draft 23 August 2012
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Regions
+#### <span>Regions</span>
 
 -   [CSS Regions API](/apis/css-regions)
 
@@ -166,10 +162,9 @@ Specification
 
 -   [flow-into](/css/properties/flow-into)
 
-### External resources
+### <span>External resources</span>
 
 -   W3C editor's draft: [CSS Regions Module Level 3](http://dev.w3.org/csswg/css3-regions/)
 -   Adobe Web Standards: [CSS Regions](http://html.adobe.com/webstandards/cssregions)
 -   Adobe Developer's Network: [CSS3 Regions: Rich page layout with HTML and CSS3](http://www.adobe.com/devnet/html5/articles/css3-regions.html)
 -   [Sample pages](http://adobe.github.com/web-platform/samples/css-regions)
-

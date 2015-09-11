@@ -1,50 +1,67 @@
 ---
 title: z-index
-tags:
-  - CSS
-  - Properties
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The z-index property controls the stacking order of elements. As the x-axis defines the horizontal (left-right) position of elements on the screen, and the y-axis defines the vertical (top-down) position, think of the z-axis as the third dimension or depth-of-field, rising “out of” the screen, towards the viewer, or descending “into” the screen, away from the viewer.'
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)'
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
 code_samples:
   - 'http://gist.github.com/6199316'
   - 'http://gist.github.com/6199504'
   - 'http://gist.github.com/6199565'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`auto`'
+  'Applies to': 'Positioned elements'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'As specified'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': ''
+  Percentages: N/A
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The z-index property controls the stacking order of elements. As the x-axis defines the horizontal (left-right) position of elements on the screen, and the y-axis defines the vertical (top-down) position, think of the z-axis as the third dimension or depth-of-field, rising “out of” the screen, towards the viewer, or descending “into” the screen, away from the viewer.'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/z-index
 
 ---
-# z-index
-
-## Summary
+## <span>Summary</span>
 
 The z-index property controls the stacking order of elements. As the x-axis defines the horizontal (left-right) position of elements on the screen, and the y-axis defines the vertical (top-down) position, think of the z-axis as the third dimension or depth-of-field, rising “out of” the screen, towards the viewer, or descending “into” the screen, away from the viewer.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `auto`
+
 Applies to
 :   Positioned elements
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   As specified
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
-:   ``
+:
+
 Percentages
 :   N/A
 
-## Syntax
+## <span>Syntax</span>
 
 -   `z-index: <integer>`
 -   `z-index: auto`
 -   `z-index: inherit`
 
-## Values
+## <span>Values</span>
 
 auto
 :   Default. Specifies the stacking order of the positioned objects based on the top-down order in which the objects appear in the HTML source.
@@ -55,11 +72,11 @@ auto
 inherit
 :   Takes the same specified value as the property for the element's parent.
 
-## Examples
+## <span>Examples</span>
 
 The following example demonstrates the `z-index` property set to `auto`. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
 
-``` {.css}
+``` css
 .box {
   /**
    * The elements with the class `.box` are positioned absolutely
@@ -93,7 +110,7 @@ The following example demonstrates the `z-index` property set to `auto`. Some st
 
 [View live example](http://code.webplatform.org/gist/6199316)
 
-``` {.html}
+``` html
 
 
 <div class="container">
@@ -107,7 +124,7 @@ The following example demonstrates the `z-index` property set to `auto`. Some st
 
 The following example demonstrates the `z-index` property set to an integer. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
 
-``` {.css}
+``` css
 .box {
   /**
    * The elements with the class `.box` are positioned absolutely
@@ -160,7 +177,7 @@ The following example demonstrates the `z-index` property set to an integer. Som
 
 [View live example](http://code.webplatform.org/gist/6199504)
 
-``` {.html}
+``` html
 
 
 <div class="container">
@@ -175,7 +192,7 @@ The following example demonstrates the `z-index` property set to an integer. Som
 
 The following example demonstrates the `z-index` property set to `inherit`. Some style rules have been omitted for brevity. Please see the live example to view all the style rules.
 
-``` {.css}
+``` css
 .box {
   /**
    * The elements with the class `.box` are positioned absolutely
@@ -226,7 +243,7 @@ The following example demonstrates the `z-index` property set to `inherit`. Some
 
 [View live example](http://code.webplatform.org/gist/6199565)
 
-``` {.html}
+``` html
 
 
 <div class="container">
@@ -240,7 +257,7 @@ The following example demonstrates the `z-index` property set to `inherit`. Some
 
 </pre>
 
-## Usage
+## <span>Usage</span>
 
      The z-index property controls the “z” dimension dimension, stacking (layering) elements above or below others. Elements with a higher z-index appear closer to the viewer and overlap other elements in the same space, whereas a lower z-index makes them appear behind other elements, occupying the same space on the cartesian plane. Different browsers have different interpretations of z-index ordering, so beware.
 
@@ -248,7 +265,7 @@ Remember that elements that are overlapped in this way are reachable by keyboard
 
 This property only works with elements that are positioned **absolute**, **relative**, or **fixed**.
 
-## Notes
+## <span>Notes</span>
 
 If two objects have the same **z-index**, they’re stacked according to their source order.
 
@@ -261,32 +278,21 @@ When elements overlap, only the topmost element can receive action from a pointi
 -   the parent is a scrolling container (that is, its [overflow](/css/properties/overflow) property is set to **auto** or **scroll**), or
 -   the parent is positioned (that is, its [position](/css/properties/position) property is set to **absolute**, **relative**, or **fixed**).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Visual formatting model](http://www.w3.org/TR/CSS2/visuren.html#propdef-z-index)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### External resources
+### <span>External resources</span>
 
--   [http://www.w3.org/TR/CSS2/visuren.html\#z-index](http://www.w3.org/TR/CSS2/visuren.html#z-index)
--   [https://developer.mozilla.org/en-US/docs/Web/CSS/z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
+-   <http://www.w3.org/TR/CSS2/visuren.html#z-index>
+-   <https://developer.mozilla.org/en-US/docs/Web/CSS/z-index>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

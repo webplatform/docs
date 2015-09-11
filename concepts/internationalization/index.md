@@ -1,21 +1,19 @@
 ---
-title: internationalization
+title: Internationalization and Localization
+readiness: 'Ready to Use'
+summary: 'Introduction to internationalization, best practices'
 tags:
   - Basic
   - Pages
   - Internationalization
-readiness: 'Ready to Use'
-summary: 'Introduction to internationalization, best practices'
 uri: concepts/internationalization
 
 ---
-# Internationalization and Localization
-
-## Summary
+## <span>Summary</span>
 
 Introduction to internationalization, best practices
 
-## Internationalization and localization
+## <span>Internationalization and localization</span>
 
 **Internationalization** (abbreviated **i18n**, where 18 is the number of left out characters) is the design and development of a product, application or document content that enables easy localization for target audiences that vary in culture, region, or language.
 
@@ -25,13 +23,13 @@ Example: Internationalization is *constructing* a car in a way to make it possib
 
 Further reading: [Localization vs. Internationalization](http://www.w3.org/International/questions/qa-i18n)
 
-## Characters, fonts
+## <span>Characters, fonts</span>
 
 Use UTF-8 as character encoding—in each part of your system (web pages, form submission, data base). This allows you and the users of your site to use each Unicode character [without escaping](http://www.w3.org/International/questions/qa-escapes#not).
 
 Declare the character encoding in your pages using a meta element with a [charset attribute](/html/attributes/charset) in HTML5. Because the encoding declaration must be fit within the first 1024 bytes of your HTML file it should be at the top of the head element:
 
-``` {.html}
+``` html
 <!DOCTYPE html>
 <html lang="…">
   <head>
@@ -44,7 +42,7 @@ Declare the character encoding in your pages using a meta element with a [charse
 
 Since vintage browsers used to have problems with a leading [byte-order mark (BOM)](http://www.w3.org/International/questions/qa-byte-order-mark) consider saving your files as UTF-8 without BOM. Do not use a BOM in includes because the BOM must not appear in the middle of a document.
 
-## Language
+## <span>Language</span>
 
 Declare the language of your page content with the [lang attribute](/html/attributes/lang) on the html element. Indicate languages changes inside the document using lang attributes on elements containing the foreign phrases. For XHTML served as XML, use the xml:lang attribute. For XHTML1.x and polyglot HTML5, use both attributes with the same value.
 
@@ -54,7 +52,7 @@ Language information is useful for assistive technologies like screen readers, f
 
 Use the [translate attribute](/html/attributes/translate) to indicate whether content and attribute values should be translated or not.
 
-``` {.html}
+``` html
 <p>The national motto of France is
 <i lang="fr" translate="no">Liberté, Egalité, Fraternité</i>
 (freedom, equality, brotherhood).</p>
@@ -63,4 +61,3 @@ Use the [translate attribute](/html/attributes/translate) to indicate whether co
  Use language negotiation on multilingual Web sites. [When to use language negotiation](http://www.w3.org/International/questions/qa-when-lang-neg)
 
 Further reading: [Internationalization Quick Tips for the Web](http://www.w3.org/International/quicktips/Overview)
-

@@ -1,49 +1,58 @@
 ---
 title: readAsText
+attributions:
+  - 'Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/file/FileReader
+    href: /apis/file/FileReader
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: 'DOM Node'
+    href: /apis/file/FileReader
+standardization_status: 'W3C Working Draft'
+summary: 'Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.'
 tags:
   0: API
   1: Object
   2: Methods
   4: FileAPI
-readiness: 'Ready to Use'
-standardization_status: 'W3C Working Draft'
-summary: 'Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.'
 uri: apis/file/FileReader/readAsText
 
 ---
-# readAsText
-
-## Summary
+## <span>Summary</span>
 
 Returns partial Blob data representing the number of bytes currently loaded (as a fraction of the total), decoded into memory according to the encoding determination.
 
-*Method of [apis/file/FileReader](/apis/file/FileReader)*
+Method of [apis/file/FileReader](/apis/file/FileReader)[apis/file/FileReader](/apis/file/FileReader)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = FileReader.readAsText(blob, encoding);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### blob
+### <span>blob</span>
 
- Data-typeÂ
+ Data-type
 :   Blob
 
-### encoding
+### <span>encoding</span>
 
- Data-typeÂ
+ Data-type
 :   any
 
-*(Optional)*
+(Optional)
 
 Defaults to UTF-8.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type DOM Node.
+Returns an object of type DOM NodeDOM Node
 
 Type: **HRESULT**
 
@@ -51,9 +60,9 @@ This method can return one of these values.
 
 S\_OK
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 var reader = new FileReader();
 
 reader.onload = function(e) {
@@ -63,20 +72,11 @@ reader.onload = function(e) {
 reader.readAsText(file);
 ```
 
-## Notes
+## <span>Notes</span>
 
 This method asynchronously starts reading the contents of the specified File. When the read operation is complete, `readyState` will become `DONE` and the `onloadend` event handler (that is, callback), if present, will be invoked. At that time, the `result` property contains the contents of the file as a text string.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API Specification](http://www.w3.org/TR/FileAPI)
 :   W3C Working Draft
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Windows Internet Explorer API reference Article](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx)
-

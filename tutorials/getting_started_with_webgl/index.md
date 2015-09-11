@@ -1,22 +1,22 @@
 ---
-title: getting started with webgl
-tags:
-  - Tutorials
+title: Getting started with WebGL
+attributions:
+  - 'This content was originally published on [DevOpera](http://dev.opera.com), Opera''s Developer Network. .'
 readiness: 'Ready to Use'
 summary: 'This article covers what you need to get started with WebGL'
+tags:
+  - Tutorials
 uri: 'tutorials/getting started with webgl'
 
 ---
-# Getting started with WebGL
-
 **By Erik Möller, Chris Mills**
 Originally published February 29, 2012
 
-## Summary
+## <span>Summary</span>
 
 This article covers what you need to get started with WebGL
 
-## Introduction
+## <span>Introduction</span>
 
 WebGL allows you to create real 3D content and render it in a web browser. WebGL is the web implementation of OpenGL ES2 (Embedded Systems 2), and therefore allows us to run real 3D across any system with a browser that supports it and the graphics capabilities to handle such visually rich content. In web technology terms, WebGL is the 3D drawing context of the HTML5 `<canvas>` element.
 
@@ -26,7 +26,7 @@ This tutorial, created by Erik Möller in video format (with Chris Mills transcr
 
 **Note**: [Access the full WebGL 101 code example set](https://github.com/emoller/WebGL101) and links to see the examples running live, at Github
 
-## Getting prepared
+## <span>Getting prepared</span>
 
 To get started with WebGL, and this article series, you should have:
 
@@ -35,13 +35,13 @@ To get started with WebGL, and this article series, you should have:
 -   A web server that supports XHR, to serve some of the examples. Pretty much anything will do. For an easy option, you could install [MAMP](http://www.mamp.info/), or use the command `python -m SimpleHttpServer 8080` on your shell/command line if you have Python installed.
 -   A decent text editor for writing code.
 
-## Let's get started!
+## <span>Let's get started!</span>
 
 Let's begin by creating a new HTML file and saving it with a suitable name (01-minimal.html in the code download.)
 
 First of all, enter a basic HTML5 template into it, like so, containing a simple `<canvas>` and a `<script>` element. Give your canvas an `id`, so we reference it via JavaScript:
 
-``` {.html}
+``` html
 <!DOCTYPE html>
  <html>
    <head>
@@ -56,19 +56,19 @@ First of all, enter a basic HTML5 template into it, like so, containing a simple
 
  In the script, add a line to store a reference to the canvas in a variable:
 
-``` {.js}
+``` js
 var c = document.getElementById('c');
 ```
 
  Below, get the drawing context of this canvas, as shown below — note that we are using an `experimental-webgl` (3D) context here, rather than the more established 2D context:
 
-``` {.js}
+``` js
 var gl = c.getContext('experimental-webgl');
 ```
 
  Next, we will use two WebGL-specific methods:
 
-``` {.js}
+``` js
 gl.clearColor(0,0,0.8,1);
 gl.clear(gl.COLOR_BUFFER_BIT);
 ```
@@ -85,7 +85,7 @@ Figure 1: A very simple WebGL output.
 
 **Note**: WebGL code will seem rather complicated to many of you: being based on OpenGL, it is actually close to C++ code. For those of you wanting to understand it in depth, you should consult a set of C++ tutorials such as [cplusplus.com/doc/tutorial](http://www.cplusplus.com/doc/tutorial/).
 
-## Drawing something meaningful
+## <span>Drawing something meaningful</span>
 
 With this basic setup under our belt, let's go forward and start by drawing an actual shape. The finished result from this section can be found as 02-minimal-draw.html in the code download. To create 3D content, WebGL uses the ES2.0 programmable pipeline, shown in Figure 2. We will refer to this multiple times throughout the walkthrough below.
 
@@ -97,19 +97,19 @@ First of all, go ahead and remove the bottom two lines of script.
 
 Next, specify a size of 400 by 400 pixels for your canvas:
 
-``` {.html}
+``` html
 <canvas id='c' width='400' height='400'></canvas>
 ```
 
  To draw a shape, we first need to create a vertex position buffer (**Vertex buffer** in the programmable pipeline) to store the different vertices of the shape in. Let's start by creating a buffer on the WebGL context, and storing it in a variable:
 
-``` {.js}
+``` js
 var vertexPosBuffer = gl.createBuffer();
 ```
 
  Now we need to bind that buffer to the WebGL context using `bindBuffer`, which takes one of two possible bind points and a buffer as its arguments — the `ARRAY_BUFFER` of the context, and the `createBuffer()` object reference we defined earlier. We will also create an array to store our vertices in. Later on, we will actually upload some data to that buffer to use in drawing our shape, but we need to bind it to the context first.
 
-``` {.js}
+``` js
 gl.bindBuffer(gl.ARRAY_BUFFER, vertexPosBuffer);
 var vertices = [];
 ```
@@ -125,7 +125,7 @@ var vertices = [];
 
 It is worth explaining at this point that OpenGL (and therefore, WebGL) uses a right hand coordinate system, so the x axis goes left to right, the y axis goes bottom to top, and the z axis goes out of the screen towards you. With that in mind, let's populate the array with the coordinates we need to locate the vertices of our triangle:
 
-``` {.js}
+``` js
 var vertices = [-0.5, -0.5, 0.5, -0.5, 0, 0.5];
 ```
 
@@ -133,7 +133,7 @@ var vertices = [-0.5, -0.5, 0.5, -0.5, 0, 0.5];
 
 As mentioned earlier, we will now upload this data into our bound buffer: we do this using `bufferData()`. Note how this function takes as its arguments the bind point we bound our buffer to earlier, the vertices array, which has been given a suitable data type — `Float32Array` — and a `STATIC_DRAW` label, which specifies that we want to upload the data once, and then draw it several times:
 
-``` {.js}
+``` js
 gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
 ```
 
@@ -141,7 +141,7 @@ gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
 
  To tell the program what our shape is actually going to look like, we need two more things — a vertex shader and a fragment shader (**Vertex shader** and **Fragment shader** in the programmable pipeline). These are created like so:
 
-``` {.js}
+``` js
 var vs = 'attribute vec2 pos;' +
    'void main() { gl_Position = vec4(pos, 0, 1); }';
  var fs = 'precision mediump float;' +
@@ -162,7 +162,7 @@ Note: the `pos` string in the above shader code is just a variable you can set t
 
 The next couple of lines create and set the specified program as the currently active program. The `createProgram()` function creates and compiles the shaders before attaching them to the program and linking it. The currently active program will decide what gets drawn when you later call the `drawArrays()` API call.
 
-``` {.js}
+``` js
 var program = createProgram(vs,fs);
  gl.useProgram(program);
 ```
@@ -171,35 +171,35 @@ var program = createProgram(vs,fs);
 
  Now let's ramp it up again! We now want to get an attribute location to hook up the buffer to the program input. This is done by storing the `getAttribLocation` value of the shader (referenced using the `pos` string we specified earlier) in the `vertexPosAttrib` property of our program:
 
-``` {.js}
+``` js
 program.vertexPosAttrib = gl.getAttribLocation(program, 'pos');
 ```
 
  We now add a line to specify that we want to read that buffer when we actually start drawing:
 
-``` {.js}
+``` js
 gl.enableVertexAttribArray(program.vertexPosAttrib);
 ```
 
  Then we have to specify how the program should read the indata from the buffer, using `vertexAttribPointer`. Here we specify our `program.vertexPosAttrib` reference, the number 2 to specify that we have two values per vertex (x,y), and `gl.FLOAT` to specify that the data is floating point type. The two zeros at the end respectively signify that the positions are tightly packed (no gap in the data) and that we should start drawing from position zero in the buffer.
 
-``` {.js}
+``` js
 gl.vertexAttribPointer(program.vertexPosAttrib, 2, gl.FLOAT, false, 0, 0);
 ```
 
  We have now got to the point where we have specified all the data we need to draw our triangle — woo hoo! Now we can draw the data using our `program` specified earlier using the following simple line:
 
-``` {.js}
+``` js
 gl.drawArrays(gl.TRIANGLES, 0, 3);
 ```
 
  We are using `drawArrays` to draw our vertices out. As arguments we specify `TRIANGLES` because we want to draw a filled triangle (we could have used `LINE_LOOP` if we just wanted to draw an outline), 0 to specify that we want to start drawing from the first vertex, and the number three to declare that we have three vertices to draw.
 
-### Creating our program functions
+### <span>Creating our program functions</span>
 
 Ah, but there's more. To finally get our triangle displayed nicely on our canvas, we need to actually create our `createProgram()` function, as referenced earlier! Put the following into your script, just below the `<script>` tag, then we'll dissect it line by line.
 
-``` {.js}
+``` js
 function createProgram(vstr, fstr) {
    var program = gl.createProgram();
    var vshader = createShader(vstr, gl.VERTEX_SHADER);
@@ -217,7 +217,7 @@ function createProgram(vstr, fstr) {
 
 We just have a little more work to do now — the `createShader()` function doesn't yet exist, so let's create it now. Add the following above the first function, again just below the `<script>` tag:
 
-``` {.js}
+``` js
 function createShader(str, type) {
    var shader = gl.createShader(type);
    gl.shaderSource(shader, str);
@@ -241,21 +241,21 @@ To get here, we used the following logical process: bear in mind that the data a
 -   The program will try to draw a triangle using the first three vertices from the input.
 -   It'll feed each vertex in turn through the vertex shader, getting a homogenous four component coordinate for each one. It'll then take the coordinates and rasterise a triangle, giving it spans of pixels that should be drawn to the canvas. To know what colour to draw each of the pixels in it'll consult the fragment shader, passing it any input we've specified (in this case none, since we're just drawing with a constant colour) and getting a four component colour value to put in the pixel.
 
-## Reusing common code
+## <span>Reusing common code</span>
 
 The above is all well and good, but in the course of our work we'll want to create a lot more shaders and programs. Let's make ourselves a utility library that we can reuse! Create a new JavaScript file and call it something suitable. Delete the last two functions you created out of your HTML file, and put them in your JavaScript file. It's called webgl-utils.js in the code download.
 
 Now reference your utility script from your HTML file, like so:
 
-``` {.html}
+``` html
 <script src='webgl-utils.js'></script>
 ```
 
-## Adding rudimentary error handling
+## <span>Adding rudimentary error handling</span>
 
 Let's improve these functions by adding in some error handling. To handle general JavaScript errors, we'll use the nice [window.onerror handler](http://dev.opera.com/articles/view/better-error-handling-with-window-onerror/). First of all, add the following general error handling function to the top of your utility file:
 
-``` {.js}
+``` js
 window.onerror = function(msg, url, lineno) {
    alert(url + '(' + lineno + '): ' + msg);
  }
@@ -267,7 +267,7 @@ While this is useful for a rough and ready development tool, you'll want to some
 
 Now for WebGL errors. In your `createShader()` function, add the following construct:
 
-``` {.js}
+``` js
 if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
 
  }
@@ -275,7 +275,7 @@ if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
 
  Here we are using an if statement to check whether the shader has compiled successfully. If not, we will throw an error. You can throw an error message containing the current shader compile status like so:
 
-``` {.js}
+``` js
 if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
    throw gl.getShaderInfoLog(shader);
  }
@@ -283,17 +283,11 @@ if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
 
  We can then do exactly the same thing for the `createProgram()` function, except that this time we are returning the program linking status, not the shader compilation status.
 
-``` {.js}
+``` js
 if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
    throw gl.getProgramInfoLog(program);
  }
 ```
 
  so now we've got some error handling. Excellent!
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-This content was originally published on [DevOpera](http://dev.opera.com), Opera's Developer Network. .
 

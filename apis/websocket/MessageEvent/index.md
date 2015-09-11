@@ -1,39 +1,40 @@
 ---
 title: MessageEvent
+attributions:
+  - 'Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/MessageEvent)'
+notes:
+  - 'Not specific to WebSocket. Probably belongs somewhere in the DOM docs.'
+readiness: 'In Progress'
+summary: 'A MessageEvent is sent to clients using WebSockets when data is received from the server. This is delivered to the listener indicated by the WebSocket object''s onmessage attribute.'
 tags:
   - API
   - Objects
-readiness: 'In Progress'
-notes:
-  - 'Not specific to WebSocket. Probably belongs somewhere in the DOM docs.'
-summary: 'A MessageEvent is sent to clients using WebSockets when data is received from the server. This is delivered to the listener indicated by the WebSocket object''s onmessage attribute.'
 uri: apis/websocket/MessageEvent
 
 ---
-# MessageEvent
-
-## Summary
+## <span>Summary</span>
 
 A MessageEvent is sent to clients using WebSockets when data is received from the server. This is delivered to the listener indicated by the WebSocket object's onmessage attribute.
 
-## Properties
+## <span>Properties</span>
 
 API Name
 :   Summary
-[data](/apis/websocket/MessageEvent/data)
+
+[html/elements/data](/apis/websocket/MessageEvent/data)
 :   The data from the server.
 
-## Methods
+## <span>Methods</span>
 
 *No methods.*
 
-## Events
+## <span>Events</span>
 
 *No events.*
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 
 
 socket.onmessage = function (event) {
@@ -42,10 +43,4 @@ socket.onmessage = function (event) {
 ```
 
 </pre>
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Mozilla Developer Network [![cc-by-sa-small-wpd.svg](/assets/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png)](http://creativecommons.org/licenses/by-sa/3.0/us/): [Article](https://developer.mozilla.org/en-US/docs/WebSockets/WebSockets_reference/MessageEvent)
 

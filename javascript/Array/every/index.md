@@ -1,21 +1,23 @@
 ---
 title: every
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679981(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Determines whether all the members of an array satisfy the specified test.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Determines whether all the members of an array satisfy the specified test.'
 uri: javascript/Array/every
 
 ---
-# every
-
-## Summary
+## <span>Summary</span>
 
 Determines whether all the members of an array satisfy the specified test.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     every( callbackfn [, thisArg ])
 
@@ -25,15 +27,15 @@ Determines whether all the members of an array satisfy the specified test.
 **thisArg**
 :   Optional. An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
 
-## Return Value
+## <span>Return Value</span>
 
 true if the callbackfn function returns true for all array elements; otherwise, false. If the array is has no elements, the **every** method returns true.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **every** method.
 
-``` {.js}
+``` js
 // Define the callback function.
  function CheckIfEven(value, index, ar) {
      document.write(value + " ");
@@ -60,7 +62,7 @@ The following example illustrates the use of the **every** method.
 
 The following example illustrates the use of the thisArg argument, which specifies an object to which the this keyword can refer.
 
-``` {.js}
+``` js
 // Create a function that returns true if the value is
  // numeric and within range.
  var checkNumericRange = function(value) {
@@ -89,7 +91,7 @@ The following example illustrates the use of the thisArg argument, which specifi
  //   All are within range.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **every** method calls the callbackfn function one time for each array element, in ascending index order, until the callbackfn function returns false. If an element that causes callbackfn to return false is found, the **every** method immediately returns false. Otherwise, the every method returns true.
 
@@ -107,45 +109,32 @@ You can declare the callback function with up to three parameters.
 
 The following table lists the callback function parameters.
 
-Callback parameter
-:   Definition
-value
-:   The value of the array element.
-index
-:   The numeric index of the array element.
-array1
-:   The array object that contains the element.
+|Callback parameter|Definition|
+|:-----------------|:---------|
+|value|The value of the array element.|
+|index|The numeric index of the array element.|
+|array1|The array object that contains the element.|
 
 The array object can be modified by the callback function.
 
 The following table describes the results of modifying the array object after the **every** method starts.
 
-Condition after the **every** method starts
-:   Element passed to callback function?
-Element is added beyond the original length of the array.
-:   No.
-Element is added to fill in a missing element of the array.
-:   Yes, if that index has not yet been passed to the callback function.
-Element is changed.
-:   Yes, if that element has not yet been passed to the callback function.
-Element is deleted from the array.
-:   No, unless that element has already been passed to the callback function.
+|Condition after the **every** method starts|Element passed to callback function?|
+|:------------------------------------------|:-----------------------------------|
+|Element is added beyond the original length of the array.|No.|
+|Element is added to fill in a missing element of the array.|Yes, if that index has not yet been passed to the callback function.|
+|Element is changed.|Yes, if that element has not yet been passed to the callback function.|
+|Element is deleted from the array.|No, unless that element has already been passed to the callback function.|
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the callbackfn argument is not a function object, a **TypeError** exception is thrown.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.16 Array.prototype.every ( callbackfn [ , thisArg](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.16) )]
 
 ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff679981(v=vs.94).aspx)
 

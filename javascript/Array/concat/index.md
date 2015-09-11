@@ -1,32 +1,34 @@
 ---
 title: concat
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2e06zxh0(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Combines two or more arrays.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Combines two or more arrays.'
 uri: javascript/Array/concat
 
 ---
-# concat
-
-## Summary
+## <span>Summary</span>
 
 Combines two or more arrays.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     concat([ item1 [, item2 [, . . . [, itemN ]]]])
 
 **item1,. . ., itemN**
 :   Optional. Additional items to add to the end of array1.
 
-## Examples
+## <span>Examples</span>
 
 The following example shows how to use the **concat** method when used with an array:
 
-``` {.js}
+``` js
 var a, b, c, d;
  a = new Array(1,2,3);
  b = "dog";
@@ -38,7 +40,7 @@ var a, b, c, d;
  1, 2, 3, "dog", 42, "cat"
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The **concat** method returns an **Array** object containing the concatenation of array1 and any other supplied items.
 
@@ -49,15 +51,9 @@ Elements of source arrays are copied to the resulting array as follows:
 -   If an object is copied from any of the arrays being concatenated to the new array, the object reference continues to point to the same object. A change in either the new array or the original array will result in a change to the other.
 -   If a number or string value is added to the new array, only the value is copied. Changing the value in one array does not affect the value in the other.
 
-## See also
+## <span>See also</span>
 
-### Specification
+### <span>Specification</span>
 
 [15.4.4.4 Array.prototype.concat ( [ string1 [ , string2 [ , …](http://www.ecma-international.org/ecma-262/5.1/#sec-15.4.4.4) ] ] )] ECMAScript® Language Specification Standard ECMA-262 5.1 Edition / June 2011
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/2e06zxh0(v=vs.94).aspx)
 

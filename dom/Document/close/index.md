@@ -1,37 +1,42 @@
 ---
 title: close
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: dom/Document
+    href: /dom/Document
+standardization_status: 'W3C Recommendation'
+summary: 'Closes an output stream and forces the sent data to display.'
 tags:
   - API
   - Object
   - Methods
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'Closes an output stream and forces the sent data to display.'
 uri: dom/Document/close
 
 ---
-# close
-
-## Summary
+## <span>Summary</span>
 
 Closes an output stream and forces the sent data to display.
 
-*Method of [dom/Document](/dom/Document)*
+Method of [dom/Document](/dom/Document)[dom/Document](/dom/Document)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
  document.close();
 ```
 
-## Return Value
+## <span>Return Value</span>
 
 No return value
 
-## Examples
+## <span>Examples</span>
 
-``` {.js}
+``` js
 //open a new window/tab, open a new document in it,
 //write to the document, and close the document (but not the window/tab)
 function newWinDoc() {
@@ -42,28 +47,19 @@ function newWinDoc() {
 }
 ```
 
-## Notes
+## <span>Notes</span>
 
 When a function fired by an event on any object calls the [**close**](/dom/Window/close) method, the **window.close** method is implied. When an event on any object calls the ****close**** method, the **document.close** method is implied.
 
 When [**document.write**](/dom/Document/write) or [**document.writeln**](/dom/Document/writeln) is used in an event handler, **document.close** should also be used.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [DOM Level 2 HTML](http://www.w3org/TR/DOM-Level-2-HTML/)
 :   Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `open`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

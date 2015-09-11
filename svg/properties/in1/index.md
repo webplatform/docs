@@ -1,33 +1,33 @@
 ---
 title: in1
-tags:
-  - SVG
-readiness: 'Not Ready'
-standardization_status: Unknown
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 notes:
   - 'Unreviewed MSDN import'
+readiness: 'Not Ready'
+standardization_status: Unknown
+tags:
+  - SVG
 uri: svg/properties/in1
 
 ---
-# in1
+## <span>Notes</span>
 
-## Notes
-
-### Remarks
+### <span>Remarks</span>
 
 Identifies input for the given filter primitive. The value can be either one of six keywords (see above) or can be a string which matches a previous **result** attribute value within the same [**filter**](/svg/elements/filter) element. If no value is provided and this is the first filter primitive, then this filter primitive will use **SourceGraphic** as its input. If no value is provided and this is a subsequent filter primitive, then this filter primitive will use the result from the previous filter primitive as its input.
 
 If the value for **result** appears multiple times within a given [**filter**](/svg/elements/filter) element, then a reference to that result will use the closest preceding filter primitive with the given value for attribute **result**. Forward references to results are an error.
 
-### Syntax
+### <span>Syntax</span>
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Filter Effects](http://go.microsoft.com/fwlink/p/?linkid=226062), Section 15.7.2
 
-## See also
+## <span>See also</span>
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   [**SVGFEBlendElement**](/svg/elements/feBlend)
 -   [**SVGFEColorMatrixElement**](/svg/elements/feColorMatrix)
@@ -42,10 +42,3 @@ If the value for **result** appears multiple times within a given [**filter**](/
 -   [**SVGFEOffsetElement**](/svg/elements/feOffset)
 -   [**SVGFESpecularLightingElement**](/svg/elements/feSpecularLighting)
 -   [**SVGFETileElement**](/svg/elements/feTile)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

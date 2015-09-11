@@ -1,90 +1,83 @@
 ---
 title: script
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLScriptElement](/dom/HTMLScriptElement)'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Recommendation'
+summary: 'The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.'
 tags:
   - Markup
   - Elements
   - HTML
   - JavaScript
-readiness: 'Ready to Use'
-standardization_status: 'W3C Recommendation'
-summary: 'The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.'
-uri: html/elements/script
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - html/attributes/Type
+uri: html/elements/script
 
 ---
-# script
-
-## Summary
+## <span>Summary</span>
 
 The script element enables dynamic script and data blocks to be included in documents. It can contain code/data directly or it can link to external sources. It is mainly used with JavaScript.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLScriptElement](/dom/HTMLScriptElement)
 
-### Attributes
+### <span>Attributes</span>
 
-Property
-:   Description
-[**src**](/html/attributes/src_(script))
-:   The URL to an external file that contains the source code or data.
-[**type**](/html/attributes/type_(script_element))
-:   The MIME type for the script. Required in HTML 4, defaults to `text/javascript` in HTML 5. For JavaScript, this should always be set to `application/javascript` since [RFC4329](https://tools.ietf.org/html/rfc4329).
-[**charset**](/html/attributes/charset)
-:   Sets or retrieves the script's character encoding. You can't use the type attribute with this attribute.
-[**language**](/html/attributes/language)
-:   The programming language for the associated scripting engine. Depracated, use type instead.
-[**defer**](/html/attributes/defer)
-:   Specifies that script should be executed after the document has been parsed.
-[**async**](/html/attributes/async)
-:   Specifies that the script should be executed asynchronously, as soon as it becomes available.
-[**crossorigin**](/html/attributes/crossorigin)
-:   Whether or not script error information will be revealed from the script(This is used only when scripts are being loaded from different origins).
+|Property|Description|Used with inline scripts|
+|:-------|:----------|:-----------------------|
+|[**src**](/html/attributes/src_(script))|The URL to an external file that contains the source code or data.|No|
+|[**type**](/html/attributes/type_(script_element))|The MIME type for the script. Required in HTML 4, defaults to `text/javascript` in HTML 5. For JavaScript, this should always be set to `application/javascript` since [RFC4329](https://tools.ietf.org/html/rfc4329).|Yes|
+|[**charset**](/html/attributes/charset)|Sets or retrieves the script's character encoding. You can't use the type attribute with this attribute.|No|
+|[**language**](/html/attributes/language)|The programming language for the associated scripting engine. Depracated, use type instead.|Yes|
+|[**defer**](/html/attributes/defer)|Specifies that script should be executed after the document has been parsed.|No|
+|[**async**](/html/attributes/async)|Specifies that the script should be executed asynchronously, as soon as it becomes available.|No|
+|[**crossorigin**](/html/attributes/crossorigin)|Whether or not script error information will be revealed from the script(This is used only when scripts are being loaded from different origins).|No|
 
-## Examples
+## <span>Examples</span>
 
 Loading an external script.
 
-``` {.html}
+``` html
 <script src="http://example.com/Script/Url/here.js" type="application/javascript"></script>
 ```
 
 Writing an inline script.
 
-``` {.html}
+``` html
 <script type="application/javascript">
   //Do stuff...
 </script>
 ```
 
-## Notes
+## <span>Notes</span>
 
 Code within the **script** block that is not contained within a function is executed immediately as the document is loaded.When the [**Type**](/w/index.php?title=html/attributes/Type&action=edit&redlink=1) attribute is unset on the **script** object, then `text/javascript` is used. The order of the **script** objects in a document can also be important, especially if scripting event handlers are assigned to one or more elements in the document. Using `async="async"` didn't work in some older browser, instead `async="true"` was used.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/scripting-1.html#the-script-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/scripting-1.html#the-script-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/interact/scripts.html#edef-SCRIPT)
 :   W3C Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### HTML
+#### <span>HTML</span>
 
 -   [user-modify](/css/properties/user-modify)
-
--   [HTMLAudioElement](/dom/HTMLAudioElement)
 
 -   [textLength](/dom/HTMLTextAreaElement/textLength)
 
@@ -182,21 +175,50 @@ Specification
 
 -   [hr](/html/elements/hr)
 
-<!-- -->
+-   [html](/html/elements/html)
 
-    … further results
+-   [i](/html/elements/i)
 
-### Other articles
+-   [img](/html/elements/img)
+
+-   [input](/html/elements/input)
+
+-   [ins](/html/elements/ins)
+
+-   [kbd](/html/elements/kbd)
+
+-   [legend](/html/elements/legend)
+
+-   [mark](/html/elements/mark)
+
+-   [option](/html/elements/option)
+
+-   [p](/html/elements/p)
+
+-   [samp](/html/elements/samp)
+
+-   **script**
+
+-   [span](/html/elements/span)
+
+-   [strong](/html/elements/strong)
+
+-   [table](/html/elements/table)
+
+-   [tbody](/html/elements/tbody)
+
+-   [td](/html/elements/td)
+
+-   [tfoot](/html/elements/tfoot)
+
+-   [th](/html/elements/th)
+
+-   [time](/html/elements/time)
+
+### <span>Other articles</span>
 
 [\<noscript\> tag](/html/elements/noscript)
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `XML Data Islands`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

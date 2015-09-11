@@ -1,28 +1,30 @@
 ---
 title: index
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0xsw26xd(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns the character position where the first successful match begins in a searched string. Read-only.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns the character position where the first successful match begins in a searched string. Read-only.'
 uri: javascript/RegExp/index
 
 ---
-# index
-
-## Summary
+## <span>Summary</span>
 
 Returns the character position where the first successful match begins in a searched string. Read-only.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     RegExp.index
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **index** property. This function iterates a search string and prints out the **index** and **lastIndex** values for each word in the string.
 
-``` {.js}
+``` js
 function RegExpTest()
  {
     var ver = Number(ScriptEngineMajorVersion() + "." + ScriptEngineMinorVersion())
@@ -49,15 +51,9 @@ function RegExpTest()
  }
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The object associated with this property is always the global **RegExp** object.
 
 The **index** property is zero-based. The initial value of the **index** property is -1. Its value changes whenever a successful match is made.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/0xsw26xd(v=vs.94).aspx)
 

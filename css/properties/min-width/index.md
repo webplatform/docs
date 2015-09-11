@@ -1,42 +1,58 @@
 ---
 title: min-width
-tags:
-  - CSS
-  - Properties
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://gist.github.com/5842171'
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0`'
+  'Applies to': 'all elements but non-replaced inline elements, tables, inline tables, table cells, table columns, and column groups'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'the percentage as specified or the absolute length or ''none'''
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`min-width`'
+  Percentages: 'yes'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'Sets the minimum width of an element. It limits the width property to be not smaller than the value specified in min-width.'
-code_samples:
-  - 'http://gist.github.com/5842171'
+tags:
+  - CSS
+  - Properties
 uri: css/properties/min-width
 
 ---
-# min-width
-
-## Summary
+## <span>Summary</span>
 
 Sets the minimum width of an element. It limits the width property to be not smaller than the value specified in min-width.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
+
 Applies to
 :   all elements but non-replaced inline elements, tables, inline tables, table cells, table columns, and column groups
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   the percentage as specified or the absolute length or 'none'
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `min-width`
+
 Percentages
 :   yes
 
-## Syntax
+## <span>Syntax</span>
 
 -   `min-width: calc()`
 -   `min-width: fill-available`
@@ -48,7 +64,7 @@ Percentages
 -   `min-width: none`
 -   `min-width: percentage`
 
-## Values
+## <span>Values</span>
 
 length
 :   Specifies a fixed width. Negative values are not allowed. See [length](/css/data_types/length) for possible units.
@@ -77,16 +93,18 @@ fill-available
 fit-content
 :   If the total available space is finite, equals to min(max-content, max(min-content, fill-available)). Otherwise, equal to the max-content measure. Requires CSS Intrinsic & Extrinsic Sizing Module support in browsers.
 
-## Examples
+## <span>Examples</span>
 
 Use min-width with any CSS selector to apply it.
 
-    /* Restrict all div elements to a min-width of 100px */
-    div { min-width: 100px }
+``` html
+/* Restrict all div elements to a min-width of 100px */
+div { min-width: 100px }
+```
 
 Constrain the width of a **div** element using **min-width** and [**max-width**](/css/properties/max-width) attributes.
 
-``` {.html}
+``` html
 <style>
 /* Width set to 50% */
 .width {
@@ -130,7 +148,7 @@ Constrain the width of a **div** element using **min-width** and [**max-width**]
 
 [View live example](http://code.webplatform.org/gist/5842171)
 
-## Usage
+## <span>Usage</span>
 
      CSS min width is well supported across most browsers. A few things to consider while usage:
 
@@ -138,26 +156,25 @@ Constrain the width of a **div** element using **min-width** and [**max-width**]
 -   max-content, min-content, fit-content, and fill-available are in W3C draft stage and not supported across all browsers.
 -   Support for [calc](/css/functions/calc) is better across browsers. Vendor prefixes may be needed.
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 The **min-width**/[**max-width**](/css/properties/max-width) attributes apply to floating and absolutely positioned block and inline-block elements, as well as some intrinsic controls. They do not apply to non-replaced inline elements, such as table rows and row/column groups. (A "replaced" element has intrinsic dimensions, such as an **img** or **textArea**.) This property is enabled only under the strict [!DOCTYPE](/html/elements/!DOCTYPE).
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1 (Section 10.4)](http://www.w3.org/TR/CSS2/visudet.html#min-max-widths)
 :   W3C Recommendation
+
 [CSS Intrinsic & Extrinsic Sizing Module Level 3](http://dev.w3.org/csswg/css3-sizing/#width-height-keywords)
 :   Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Box Model
+#### <span>Box Model</span>
 
 -   [border](/css/properties/border)
 
@@ -199,17 +216,10 @@ Specification
 
 -   **min-width**
 
-### Related pages (MSDN)
+### <span>Related pages (MSDN)</span>
 
 -   `CSSStyleDeclaration`
 -   `currentStyle`
 -   `runtimeStyle`
 -   `style`
 -   `Cascading Style Sheet Compatibility in Internet Explorer 7`
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

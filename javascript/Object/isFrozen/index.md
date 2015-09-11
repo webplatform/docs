@@ -1,27 +1,29 @@
 ---
 title: isFrozen
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806185(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Returns true if existing property attributes and values cannot be modified in an object, and new properties cannot be added to the object.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Returns true if existing property attributes and values cannot be modified in an object, and new properties cannot be added to the object.'
 uri: javascript/Object/isFrozen
 
 ---
-# isFrozen
-
-## Summary
+## <span>Summary</span>
 
 Returns true if existing property attributes and values cannot be modified in an object, and new properties cannot be added to the object.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     Object.isFrozen( object )
 
 **object**
 :   Required. The object to test.
 
-## Return Value
+## <span>Return Value</span>
 
 true if all of the following are true:
 
@@ -31,11 +33,11 @@ true if all of the following are true:
 
 If the object has no existing properties, the function returns true if the object is non-extensible.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **Object.isFrozen** function.
 
-``` {.js}
+``` js
 // Create an object that has two properties.
  var obj = { pasta: "spaghetti", length: 10 };
 
@@ -64,7 +66,7 @@ The following example illustrates the use of the **Object.isFrozen** function.
  // spaghetti
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 When the configurable attribute of a property is false , the property attributes cannot be changed and the property cannot be deleted. When writable is false , the data property value cannot be changed. When configurable is false and writable is true , the value and writable attributes can be changed.
 
@@ -72,33 +74,27 @@ For information about how to set property attributes, see [Object.defineProperty
 
 The following related functions prevent the modification of object attributes.
 
-Function
-:   Object is made non-extensible
-[Object.preventExtensions](/javascript/Object/preventExtensions)
-:   Yes
-[Object.seal](/javascript/Object/seal)
-:   Yes
-[Object.freeze](/javascript/Object/freeze)
-:   Yes
+|Function|Object is made non-extensible|configurable is set to false for each property|writable is set to false for each property|
+|:-------|:----------------------------|:---------------------------------------------|:-----------------------------------------|
+|[Object.preventExtensions](/javascript/Object/preventExtensions)|Yes|No|No|
+|[Object.seal](/javascript/Object/seal)|Yes|Yes|No|
+|[Object.freeze](/javascript/Object/freeze)|Yes|Yes|Yes|
 
 The following functions return true if all of the conditions marked in the following table are true.
 
-Function
-:   Object is extensible?
-[Object.isExtensible](/javascript/Object/isExtensible)
-:   Yes
-[Object.isSealed](/javascript/Object/isSealed)
-:   No
-**Object.isFrozen**
-:   No
+|Function|Object is extensible?|configurable is false for all properties?|writable is false for all data properties?|
+|:-------|:--------------------|:----------------------------------------|:-----------------------------------------|
+|[Object.isExtensible](/javascript/Object/isExtensible)|Yes|No|No|
+|[Object.isSealed](/javascript/Object/isSealed)|No|Yes|No|
+|**Object.isFrozen**|No|Yes|Yes|
 
-## Exceptions
+## <span>Exceptions</span>
 
 If the object argument is not an object, a TypeError exception is thrown.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [Object.preventExtensions Function](/javascript/Object/preventExtensions)
 -   [Object.seal Function](/javascript/Object/seal)
@@ -108,10 +104,4 @@ If the object argument is not an object, a TypeError exception is thrown.
 -   [Object.defineProperty Function](/javascript/Object/defineProperty)
 -   [Object.getOwnPropertyDescriptor Function](/javascript/Object/getOwnPropertyDescriptor)
 -   [Object.getOwnPropertyNames Function](/javascript/Object/getOwnPropertyNames)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/ff806185(v=vs.94).aspx)
 

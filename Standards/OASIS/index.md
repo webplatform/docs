@@ -5,14 +5,14 @@ uri: Standards/OASIS
 ---
 The Organization for the Advancement of Structured Information Standards (OASIS) focuses on Web services and e-business specifications.
 
-**Website:** [https://www.oasis-open.org/](https://www.oasis-open.org/)
+**Website:** <https://www.oasis-open.org/>
 
-## Organizational Structure
+## <span>Organizational Structure</span>
 
-### Funding
+### <span>Funding</span>
 
-## Communications
+## <span>Communications</span>
 
-## Process
+## <span>Process</span>
 
-## Patent Policy
+## <span>Patent Policy</span>

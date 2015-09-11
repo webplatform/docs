@@ -1,75 +1,85 @@
 ---
 title: flex-grow
+overview_table:
+  '[Initial value](/css/concepts/initial_value)': '`0`'
+  'Applies to': 'flex items'
+  '[Inherited](/css/concepts/inherited)': 'No'
+  Media: visual
+  '[Computed value](/css/concepts/computed_value)': 'as specified'
+  Animatable: 'Yes'
+  '[CSS Object Model Property](/css/concepts/cssom)': '`flexGrow`'
+readiness: 'Ready to Use'
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'The flex-grow CSS property specifies how much a flex item will enlarge with respect to the other items in the flex container to fill an expanded container.'
 tags:
   - CSS
   - Properties
   - Flexbox
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'The flex-grow CSS property specifies how much a flex item will enlarge with respect to the other items in the flex container to fill an expanded container.'
 uri: css/properties/flex-grow
 
 ---
-# flex-grow
-
-## Summary
+## <span>Summary</span>
 
 The flex-grow CSS property specifies how much a flex item will enlarge with respect to the other items in the flex container to fill an expanded container.
 
-## Overview table
+## <span>Overview table</span>
 
 [Initial value](/css/concepts/initial_value)
 :   `0`
+
 Applies to
 :   flex items
+
 [Inherited](/css/concepts/inherited)
 :   No
+
 Media
 :   visual
+
 [Computed value](/css/concepts/computed_value)
 :   as specified
+
 Animatable
 :   Yes
+
 [CSS Object Model Property](/css/concepts/cssom)
 :   `flexGrow`
 
-## Syntax
+## <span>Syntax</span>
 
 -   `flex-grow: number`
 
-## Values
+## <span>Values</span>
 
 number
 :   The flex grow factor, which describes the proportion by which the flex item will grow relative to the other flex items in the container. Negative numbers are invalid.
 
-## Examples
+## <span>Examples</span>
 
 See [flex examples](/css/properties/flex#Examples) for the use of this property in an example.
 
-``` {.css}
+``` css
 flex-grow: 3;
 ```
 
-## Usage
+## <span>Usage</span>
 
      The best practice is to use (instead of this property) the flex shorthand property, as it correctly resets any unspecified flex components to accomodate common uses.
 
-## Notes
+## <span>Notes</span>
 
 This property is animatable only for values of 1 or greater.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS Flexible Box Layout Model](http://dev.w3.org/csswg/css-flexbox/#flex-grow)
 :   Candidate Recommendation
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Flexbox
+#### <span>Flexbox</span>
 
 -   [align-content](/css/properties/align-content)
 
@@ -94,4 +104,3 @@ Specification
 -   [flex-wrap](/css/properties/flex-wrap)
 
 -   [justify-content](/css/properties/justify-content)
-

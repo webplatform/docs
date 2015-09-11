@@ -1,25 +1,27 @@
 ---
 title: radialGradient
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+notes:
+  - 'Needs summary, usage, spec reference, standardization status'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[SVGElement](/svg/objects/SVGElement)'
+readiness: 'In Progress'
 tags:
   - Markup
   - Elements
   - SVG
-readiness: 'In Progress'
-notes:
-  - 'Needs summary, usage, spec reference, standardization status'
 uri: svg/elements/radialGradient
 
 ---
-# radialGradient
-
 **Needs Summary**: This article does not have a summary. Summaries give a brief overview of the topic and are automatically included on some listing pages that link to this article.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [SVGElement](/svg/objects/SVGElement)
 
-## Examples
+## <span>Examples</span>
 
 In the following code example, a radial gradient fills a rectangle. The gradient is defined in a definition and fills the rectangle by referencing the gradient. The gradient runs from magenta to cyan, starting in the center with magenta and working outward to cyan.
 
@@ -27,34 +29,36 @@ Copy this sample to a text file and save it with the *.html* file extension. Run
 
 The radial-filled rectangle will look like this:
 
+``` html
 
 
-    <!DOCTYPE HTML>
-    <html>
-      <head></head>
-      <body>
-        <!-- Inline SVG -->
-        <svg width="400" height="400">
-          <defs>
-            <!-- Define radial gradient for magenta to cyan. -->
-            <radialGradient id="magenta2cyan" >
-            <!-- First color is magenta. -->
-            <stop offset="0%" style="stop-color:magenta"/>
-            <!-- Second color is cyan. -->
-            <stop offset="100%" style="stop-color:cyan"/>
-            </radialGradient>
-          </defs>
-          <!-- Rectangle fill is defined by linear gradient in defs. -->
-          <rect width="100" height="50" x="50" y="50" style="fill:url(#magenta2cyan)"/>
-        </svg>
-      </body>
-    </html>
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <!-- Inline SVG -->
+    <svg width="400" height="400">
+      <defs>
+        <!-- Define radial gradient for magenta to cyan. -->
+        <radialGradient id="magenta2cyan" >
+        <!-- First color is magenta. -->
+        <stop offset="0%" style="stop-color:magenta"/>
+        <!-- Second color is cyan. -->
+        <stop offset="100%" style="stop-color:cyan"/>
+        </radialGradient>
+      </defs>
+      <!-- Rectangle fill is defined by linear gradient in defs. -->
+      <rect width="100" height="50" x="50" y="50" style="fill:url(#magenta2cyan)"/>
+    </svg>
+  </body>
+</html>
+```
 
 </pre>
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 **Note:** In addition to the attributes, properties, events, methods, and styles listed above, SVG elements also inherent core HTML attributes, properties, events, methods, and styles.
 
@@ -62,11 +66,11 @@ The **radialGradient** element inherits properties from its ancestors instead of
 
 The **display** property does not apply to the **radialGradient** element. **radialGradient** elements are not directly rendered even if the **display** property is set to a value other than **none**. But **radialGradient** elements are available for referencing even when the **display** property on the **radialGradient** element or any of its ancestors is set to **none**.
 
-### Standards information
+### <span>Standards information</span>
 
 -   [Scalable Vector Graphics: Gradients and Patterns](http://go.microsoft.com/fwlink/p/?linkid=199811), Section 13.4.3
 
-### Members
+### <span>Members</span>
 
 The **SVGRadialGradientElement** object has these properties:
 
@@ -86,10 +90,3 @@ The **SVGRadialGradientElement** object has these properties:
 -   [**style**](/svg/properties/style): Gets a [**style**](/css/cssom/style) object.
 -   [**viewportElement**](/svg/properties/viewportElement): Gets the element that established the current viewport.
 -   [**xmlbase**](/svg/properties/xmlbase): Gets or sets the **base** attribute on the element.
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

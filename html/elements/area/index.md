@@ -1,30 +1,32 @@
 ---
 title: area
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+code_samples:
+  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm'
+notes:
+  - 'Add more information in Summary, Notes and Compatibility sections.'
+overview_table:
+  '[DOM Interface](/dom/interface)': '[HTMLAreaElement](/dom/HTMLAreaElement)'
+readiness: 'In Progress'
+summary: 'Represents either a hyperlink with some text and a corresponding area on an image map, or a dead area on an image map.'
 tags:
   - Markup
   - Elements
   - HTML
-readiness: 'In Progress'
-notes:
-  - 'Add more information in Summary, Notes and Compatibility sections.'
-summary: 'Represents either a hyperlink with some text and a corresponding area on an image map, or a dead area on an image map.'
-code_samples:
-  - 'http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm'
 uri: html/elements/area
 
 ---
-# area
-
-## Summary
+## <span>Summary</span>
 
 Represents either a hyperlink with some text and a corresponding area on an image map, or a dead area on an image map.
 
-## Overview Table
+## <span>Overview Table</span>
 
 [DOM Interface](/dom/interface)
 :   [HTMLAreaElement](/dom/HTMLAreaElement)
 
-## HTML Attributes
+## <span>HTML Attributes</span>
 
  Global attributes: accesskey, class, contenteditable, dir, hidden, id, lang, spellcheck, style, tabindex, title, translate
 :   See [global attributes](/html/global_attributes).
@@ -74,11 +76,11 @@ Represents either a hyperlink with some text and a corresponding area on an imag
 :   The MIME type of the destination of the hyperlink.
     A string that identifies a valid MIME media type, as defined in [RFC2046].
 
-## Examples
+## <span>Examples</span>
 
 The following example uses the **area** element inside a parent **map** element to create an image map of the solar system. Each **area** element defines and provides a link to an image on the **map** using the [**coords**](/html/attributes/coords) and [**shape**](/html/attributes/shape) attributes to specify its dimensions and shape, respectively; and the [**title**](/html/attributes/title) attribute to provide a descriptive pop-up tooltip when pointed to with the mouse. A tooltip is especially useful if the image file is missing or cannot be displayed for whatever reason.
 
-``` {.html}
+``` html
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
   "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -122,26 +124,19 @@ The following example uses the **area** element inside a parent **map** element 
 
 [View live example](http://samples.msdn.microsoft.com/workshop/samples/author/dhtml/refs/imagemap.htm)
 
-## Notes
+## <span>Notes</span>
 
-### Remarks
+### <span>Remarks</span>
 
 Any number of **area** elements can be contained within the same **map** element. The format of the [**coords**](/html/attributes/coords) value depends on the value of the [**shape**](/html/attributes/shape) attribute. Windows Internet Explorer 8 and later. In IE8 Standards mode, the [**title**](/html/attributes/title) attribute is preferred over the [**alt**](/html/attributes/alt) attribute when specified as a pop-up tooltip for an **img** or a **map** element. In addition, the value of the [**href**](/html/attributes/href) attribute depends on the current document compatibility mode. This element is not rendered. This element does not require a closing tag.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML 5.1](http://www.w3.org/TR/html51/embedded-content.html#the-area-element)
 :   W3C Working Draft
+
 [HTML 5](http://www.w3.org/TR/html5/embedded-content-0.html#the-area-element)
 :   W3C Recommendation
+
 [HTML 4.01](http://www.w3.org/TR/html401/struct/objects.html#edef-AREA)
 :   W3C Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

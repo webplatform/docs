@@ -1,61 +1,68 @@
 ---
 title: moveTo
+notes:
+  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
+readiness: 'Out of Date'
+relationships:
+  method_of:
+    predicate: 'Method of '
+    value: apis/filesystem/EntrySync
+    href: /apis/filesystem/EntrySync
+  return_type:
+    predicate: 'Returns an object of type  '
+    value: ''
+    href: /apis/filesystem/EntrySync
+standardization_status: 'W3C Working Draft'
+summary: "Move an EntrySync to a different location on the file system.\n"
 tags:
   0: API
   1: Object
   2: Methods
   4: FileSystemAPI
-readiness: 'Out of Date'
-standardization_status: 'W3C Working Draft'
-notes:
-  - 'Out of date; feature discontinued. See http://www.w3.org/TR/file-system-api/.'
-summary: "Move an EntrySync to a different location on the file system.\n"
 uri: apis/filesystem/EntrySync/moveTo
 
 ---
-# moveTo
-
-## Summary
+## <span>Summary</span>
 
 Move an EntrySync to a different location on the file system.
 
 **Out of date; feature discontinued. See [http://www.w3.org/TR/file-system-api](http://www.w3.org/TR/file-system-api/).**
 
-*Method of [apis/filesystem/EntrySync](/apis/filesystem/EntrySync)*
+Method of [apis/filesystem/EntrySync](/apis/filesystem/EntrySync)[apis/filesystem/EntrySync](/apis/filesystem/EntrySync)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var  = EntrySync.moveTo(parent, newName);
 ```
 
-## Parameters
+## <span>Parameters</span>
 
-### parent
+### <span>parent</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
  The directory to which to move the EntrySync.
 
-### newName
+### <span>newName</span>
 
- Data-typeÂ
+ Data-type
 :   String
 
-*(Optional)*
+(Optional)
 
 The new name of the EntrySync. Defaults to the EntrySync's current name if unspecified.
 
-## Return Value
+## <span>Return Value</span>
 
-Returns an object of type .
+Returns an object of type<span></span>
 
 EntrySync
 
 **Needs Examples**: This section should include examples.
 
-## Notes
+## <span>Notes</span>
 
 It is an error to try to:
 
@@ -69,10 +76,7 @@ A move of a file on top of an existing file must attempt to delete and replace t
 
 A move of a directory on top of an existing empty directory must attempt to delete and replace that directory.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [W3C File API: Directories and System Specification](http://dev.w3.org/2009/dap/file-system/pub/FileSystem/)
 :   W3C Working Draft
-

@@ -1,21 +1,21 @@
 ---
 title: :focus
-tags:
-  - CSS
-  - Selectors
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
 readiness: 'Ready to Use'
 standardization_status: 'W3C Recommendation'
 summary: 'The :focus pseudo-class applies while an element has the focus, i.e. accepts keyboard or mouse events, or other forms of input.'
-uri: 'css/selectors/pseudo-classes/:focus'
+tags:
+  - CSS
+  - Selectors
 todo_broken_links:
   note: 'During import MediaWiki could not find the following links, please fix and adjust this list.'
   links:
     - selection
+uri: 'css/selectors/pseudo-classes/:focus'
 
 ---
-# :focus
-
-## Summary
+## <span>Summary</span>
 
 The :focus pseudo-class applies while an element has the focus, i.e. accepts keyboard or mouse events, or other forms of input.
 
@@ -27,32 +27,32 @@ There are several ways to give focus to an element:
 -   Navigate through the document with the TAB and Shift+TAB keys. The document’s author may define a tabbing order that specifies the order in which elements will receive focus with the [tabIndex](/html/attributes/tabIndex) attribute.
 -   Select an element through a [**keyboard shortcut**](/html/attributes/accessKey).
 
-## Examples
+## <span>Examples</span>
 
 The following style rule will change the background color of any element that receives input focus:
 
-``` {.css}
+``` css
 *:focus {
     background-color: #ffc;
 }
 ```
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [CSS 2.1](http://www.w3.org/TR/CSS2/selector.html#link-pseudo-classes)
 :   W3C Recommendation
+
 [Selectors Level 3](http://www.w3.org/TR/css3-selectors/#the-user-action-pseudo-classes-hover-act)
 :   W3C Recommendation
+
 [Selectors Level 4](http://dev.w3.org/csswg/selectors4/#focus-pseudo)
 :   W3C Working Draft
 
-## See also
+## <span>See also</span>
 
-### Related articles
+### <span>Related articles</span>
 
-#### Pseudo-Classes
+#### <span>Pseudo-Classes</span>
 
 -   [:target pseudo-class selector](/CSS/Selectors/pseudo-classes/:target)
 
@@ -104,7 +104,7 @@ Specification
 
 -   [:valid](/css/selectors/pseudo-classes/:valid)
 
-#### Selectors
+#### <span>Selectors</span>
 
 -   [querySelectorAll](/css/selectors_api/querySelectorAll)
 
@@ -179,10 +179,3 @@ Specification
 -   [::selection](/w/index.php?title=selection&action=edit&redlink=1)
 
 -   [type](/css/selectors/type)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

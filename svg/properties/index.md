@@ -1,23 +1,21 @@
 ---
-title: properties
+title: SVG DOM properties
+notes:
+  - 'Add text introducing SVG DOM properties as a concept'
+readiness: 'Not Ready'
+summary: 'Listing of all articles in svg/properties/'
 tags:
   - API
   - Listings
   - SVG
-readiness: 'Not Ready'
-notes:
-  - 'Add text introducing SVG DOM properties as a concept'
-summary: 'Listing of all articles in svg/properties/'
 uri: svg/properties
 
 ---
-# SVG DOM properties
-
-## Summary
+## <span>Summary</span>
 
 Listing of all articles in svg/properties/
 
-## All Pages
+## <span>All Pages</span>
 
 -   [SVG Zoom and Pan](/svg/properties/zoomAndPan)
 -   [a](/svg/properties/a)

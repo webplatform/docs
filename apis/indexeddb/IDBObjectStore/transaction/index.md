@@ -1,30 +1,33 @@
 ---
 title: transaction
+notes:
+  - 'Needs example, spec reference, standardization status'
+readiness: 'In Progress'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/indexeddb/IDBObjectStore
+    href: /apis/indexeddb/IDBObjectStore
+summary: 'Returns the transaction this object store belongs to.'
 tags:
   0: API
   1: Object
   2: Properties
   4: IndexedDB
-readiness: 'In Progress'
-notes:
-  - 'Needs example, spec reference, standardization status'
-summary: 'Returns the transaction this object store belongs to.'
 uri: apis/indexeddb/IDBObjectStore/transaction
 
 ---
-# transaction
-
-## Summary
+## <span>Summary</span>
 
 Returns the transaction this object store belongs to.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)</span></span>
+Property of [apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)[apis/indexeddb/IDBObjectStore](/apis/indexeddb/IDBObjectStore)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = element.transaction;
 ```
 

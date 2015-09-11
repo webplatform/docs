@@ -1,21 +1,23 @@
 ---
 title: setFullYear
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/y367b7x8(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Sets the year of the Date object using local time.'
 tags:
   0: JS
   1: Basic
   3: Method
-readiness: 'Ready to Use'
-summary: 'Sets the year of the Date object using local time.'
 uri: javascript/Date/setFullYear
 
 ---
-# setFullYear
-
-## Summary
+## <span>Summary</span>
 
 Sets the year of the Date object using local time.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     dateObj.setFullYear( numYear [, numMonth [, numDate ]])
 
@@ -31,11 +33,11 @@ Sets the year of the Date object using local time.
 **numDate**
 :   Optional. A numeric value equal for the day of the month.
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **setFullYear** method:
 
-``` {.js}
+``` js
 var date1 = new Date("1/1/2001");
  date1.setFullYear(2007);
 
@@ -51,7 +53,7 @@ var date1 = new Date("1/1/2001");
  // Monday, November 03, 2008 12:00:00 AM
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 All **set** methods taking optional arguments use the value returned from corresponding **get** methods, if you do not specify the optional argument. For example, if the numMonth argument is optional, but not specified, JavaScript uses the value returned from the **getMonth** method.
 
@@ -61,17 +63,11 @@ To set the year using Universal Coordinated Time (UTC), use the **setUTCFullYear
 
 The range of years supported in the date object is approximately 285,616 years before and after 1970.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [getFullYear Method (Date)](/javascript/Date/getFullYear)
 -   [getUTCFullYear Method (Date)](/javascript/Date/getUTCFullYear)
 -   [setUTCFullYear Method (Date)](/javascript/Date/setUTCFullYear)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/y367b7x8(v=vs.94).aspx)
 

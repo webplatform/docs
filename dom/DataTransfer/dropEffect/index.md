@@ -1,34 +1,43 @@
 ---
 title: dropEffect
+attributions:
+  - 'Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]'
+readiness: 'Ready to Use'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: dom/DataTransfer
+    href: /dom/DataTransfer
+  return:
+    predicate: 'Returns an object of type '
+    value: String
+    href: /dom/DataTransfer
+standardization_status: 'W3C Candidate Recommendation'
+summary: 'Gets the type of drag-and-drop operation currently selected or sets the operation to a new type.'
 tags:
   - API
   - Object
   - Properties
   - DOM
-readiness: 'Ready to Use'
-standardization_status: 'W3C Candidate Recommendation'
-summary: 'Gets the type of drag-and-drop operation currently selected or sets the operation to a new type.'
 uri: dom/DataTransfer/dropEffect
 
 ---
-# dropEffect
-
-## Summary
+## <span>Summary</span>
 
 Gets the type of drag-and-drop operation currently selected or sets the operation to a new type.
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[dom/DataTransfer](/dom/DataTransfer)</span></span>
+Property of [dom/DataTransfer](/dom/DataTransfer)[dom/DataTransfer](/dom/DataTransfer)
 
-## Syntax
+## <span>Syntax</span>
 
-``` {.js}
+``` js
 var dropEffect = event.dataTransfer.dropEffect;
 event.dataTransfer.dropEffect = newDropEffect;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">String</span></span>
+Returns an object of type StringString
 
 One of the following values:
 
@@ -37,11 +46,11 @@ One of the following values:
 -   link
 -   move
 
-## Examples
+## <span>Examples</span>
 
 This example uses the **dropEffect** and [effectAllowed](/dom/DataTransfer/effectAllowed) properties of the [DataTransfer](/dom/DataTransfer) object to display the move cursor.
 
-``` {.html}
+``` html
 <!doctype html>
 <html>
  <head>
@@ -105,34 +114,30 @@ window.addEventListener("load", initialize, false);
   </script>
  </head>
  <body>
-  Example of the effectAllowed and dropEffect Properties
-  The code in this example sets the effectAllowed property
-to move. It sets the dropEffect
+  <h1>Example of the effectAllowed and dropEffect Properties</h1>
+  <p>The code in this example sets the <b>effectAllowed</b> property
+to <span class="literal">move</span>. It sets the <b>dropEffect</b>
 property to display the move cursor. The default action must be canceled in all events that are handled&#151;in this example,
-ondragstart, ondragover, ondragenter, and
-ondrop.
-
-
+<b>ondragstart</b>, <b>ondragover</b>, <b>ondragenter</b>, and
+<b>ondrop</b>.</p>
+<p>
+<b>
   [not this text]
-
+<span id="oSource">
   [select and drag this text]
-
+</span>
   [not this text]
-
-
-Â
-
+</b>
+</p>
+<p>Â </p>
+<div id="oTarget">
 [drop text here]
-
-
-</body>
+  </div>
+ </body>
+</html>
 ```
 
-\</html\>
-
-</pre>
-
-## Notes
+## <span>Notes</span>
 
 The **dropEffect** property must be used with the [**effectAllowed**](/dom/DataTransfer/effectAllowed) property. These properties are set on the source object of a drag-and-drop operation. The **effectAllowed** property determines which drag-and-drop operations are available from the source object. The **dropEffect** property determines which drag-and-drop operations are allowed on the target object. For example, the source object might set the **effectAllowed** property to **all** drag-and-drop operations, while the target object specifies that the **dropEffect** allows only **copy** operations.
 
@@ -142,16 +147,7 @@ The target object of a drag-and-drop operation can set the **dropEffect** during
 
 There is a default drag-and-drop functionality for the following elements: [**a**](/html/elements/a), [**img**](/html/elements/img), [**textarea**](/html/elements/textarea), and [**input type=text**](/html/elements/input). When one of these objects is the source element, the default drop effect cannot be overridden by setting the **dropEffect** property of the target element. Instead, the default behavior of the source object must be canceled.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [HTML5](http://www.w3.org/TR/html5/editing.html)
 :   Candidate Recommendation
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [[Windows Internet Explorer API reference](http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx) Article]
-

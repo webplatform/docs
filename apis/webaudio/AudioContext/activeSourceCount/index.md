@@ -1,46 +1,50 @@
 ---
 title: activeSourceCount
+notes:
+  - 'Out of date; removed from spec. See http://webaudio.github.io/web-audio-api/.'
+readiness: 'Out of Date'
+relationships:
+  applies_to:
+    predicate: 'Property of '
+    value: apis/webaudio/AudioContext
+    href: /apis/webaudio/AudioContext
+  return:
+    predicate: 'Returns an object of type '
+    value: 'unsigned long'
+    href: /apis/webaudio/AudioContext
+standardization_status: 'W3C Editor''s Draft'
+summary: "The number of AudioBufferSourceNodes that are currently playing.\n"
 tags:
   0: API
   1: Object
   2: Properties
   4: WebAudio
-readiness: 'Out of Date'
-standardization_status: 'W3C Editor''s Draft'
-notes:
-  - 'Out of date; removed from spec. See http://webaudio.github.io/web-audio-api/.'
-summary: "The number of AudioBufferSourceNodes that are currently playing.\n"
 uri: apis/webaudio/AudioContext/activeSourceCount
 
 ---
-# activeSourceCount
-
-## Summary
+## <span>Summary</span>
 
 The number of AudioBufferSourceNodes that are currently playing.
 
-**Out of date; removed from spec. See [http://webaudio.github.io/web-audio-api/](http://webaudio.github.io/web-audio-api/).**
+**Out of date; removed from spec. See <http://webaudio.github.io/web-audio-api/>.**
 
-<span data-meta="applies_to" data-type="key">Property of <span data-type="value">[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)</span></span>
+Property of [apis/webaudio/AudioContext](/apis/webaudio/AudioContext)[apis/webaudio/AudioContext](/apis/webaudio/AudioContext)
 
-## Syntax
+## <span>Syntax</span>
 
-***Note**: This property is read-only.*
+**Note**: This property is read-only.
 
-``` {.js}
+``` js
 var result = AudioContext.activeSourceCount;
 ```
 
-## Return Value
+## <span>Return Value</span>
 
-<span data-meta="return" data-type="key">Returns an object of type <span data-type="value">unsigned long</span></span>
+Returns an object of type unsigned longunsigned long
 
 **Needs Examples**: This section should include examples.
 
-## Related specifications
+## <span>Related specifications</span>
 
-Specification
-:   Status
 [Web Audio API](http://webaudio.github.io/web-audio-api/)
 :   W3C Editor's Draft
-

@@ -1,28 +1,30 @@
 ---
 title: encodeURIComponent
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/aeh9cef7(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Encodes a text string as a valid component of a Uniform Resource Identifier (URI).'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Encodes a text string as a valid component of a Uniform Resource Identifier (URI).'
 uri: javascript/encodeURIComponent
 
 ---
-# encodeURIComponent
-
-## Summary
+## <span>Summary</span>
 
 Encodes a text string as a valid component of a Uniform Resource Identifier (URI).
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     encodeURIComponent( encodedURIString )
 
-## Examples
+## <span>Examples</span>
 
 The following code first encodes a URI component and then decodes it.
 
-``` {.js}
+``` js
 var uriEncode = encodeURIComponent ("www.Not a URL.com");
  var uriDecode = decodeURIComponent(uriEncode);
 
@@ -35,22 +37,16 @@ var uriEncode = encodeURIComponent ("www.Not a URL.com");
  // www.Not a URL.com
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The required encodedURIString argument is a value representing an encoded URI component.
 
 The **encodeURIComponent** function returns an encoded URI. If you pass the result to **decodeURIComponent** , the original string is returned. Because the **encodeURIComponent** function encodes all characters, be careful if the string represents a path such as /folder1/folder2/default.html. The slash characters will be encoded and will not be valid if sent as a request to a web server. Use the **encodeURI** function if the string contains more than a single URI component.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [decodeURI Function](/javascript/decodeURI)
 -   [decodeURIComponent Function](/javascript/decodeURIComponent)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/aeh9cef7(v=vs.94).aspx)
 

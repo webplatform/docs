@@ -1,28 +1,30 @@
 ---
 title: caller
+attributions:
+  - 'Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7t96kt3h(v=vs.94).aspx)'
+readiness: 'Ready to Use'
+summary: 'Gets the function that invoked the current function.'
 tags:
   - JS
   - Basic
-readiness: 'Ready to Use'
-summary: 'Gets the function that invoked the current function.'
 uri: javascript/Function/caller
 
 ---
-# caller
-
-## Summary
+## <span>Summary</span>
 
 Gets the function that invoked the current function.
 
-## Syntax
+## <span>Syntax</span>
+
+<span class="language">JavaScript</span>
 
     functionName.caller
 
-## Examples
+## <span>Examples</span>
 
 The following example illustrates the use of the **caller** property:
 
-``` {.js}
+``` js
 function CallLevel(){
     if ( CallLevel.caller == null)
        return("CallLevel was called from the top level.");
@@ -35,7 +37,7 @@ function CallLevel(){
  // Output: CallLevel was called from the top level.
 ```
 
-## Remarks
+## <span>Remarks</span>
 
 The functionName object is the name of any executing function.
 
@@ -43,15 +45,9 @@ The **caller** property is defined for a function only while that function is ex
 
 If the **caller** property is used in a string context, the result is the same as functionName.**toString** , that is, the decompiled text of the function is displayed.
 
-## See also
+## <span>See also</span>
 
-### Other articles
+### <span>Other articles</span>
 
 -   [function Statement](/javascript/statements/function)
-
-## Attribution
-
-*This article contains content originally from external sources.*
-
-Portions of this content come from the Microsoft Developer Network: [Article](http://msdn.microsoft.com/en-us/library/ie/7t96kt3h(v=vs.94).aspx)
 

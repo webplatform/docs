@@ -1,20 +1,18 @@
 ---
-title: tutorials
+title: WebGL tutorials
+readiness: 'Ready to Use'
+summary: 'Index page for WebGL tutorials'
 tags:
   - Basic
   - Pages
-readiness: 'Ready to Use'
-summary: 'Index page for WebGL tutorials'
 uri: webgl/tutorials
 
 ---
-# WebGL tutorials
-
-## Summary
+## <span>Summary</span>
 
 Index page for WebGL tutorials
 
-## WebGL fundamentals
+## <span>WebGL fundamentals</span>
 
 You can start studying WebGL with the following articles:
 
